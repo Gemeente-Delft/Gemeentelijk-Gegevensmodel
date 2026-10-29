@@ -1,0 +1,312 @@
+# graph: <https://lod.gemeentelijkgegevensmodel.nl/v3.0.0/verkeer-vervoer-en-waterstaat/mobiliteit/gladheid>
+
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix mim: <http://modellen.mim-standaard.nl/def/mim#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/v3.0.0/verkeer-vervoer-en-waterstaat/mobiliteit/gladheid> a owl:Ontology ;
+    rdfs:label "Gladheid"@nl ;
+    dcterms:identifier "EAID_E5BA04D7_A221_4f36_97AB_6E2D7A11C5BB" ;
+    dcterms:isPartOf <https://lod.gemeentelijkgegevensmodel.nl/> ;
+    owl:versionInfo "v3.0.0" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/mobiliteit/strooirouteuitvoering/uitvoering-op> a mim:Relatiesoort,
+        owl:ObjectProperty ;
+    rdfs:label "uitvoering op"@nl ;
+    mim:aggregatietype mim:Geen ;
+    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/mobiliteit/strooirouteuitvoering> ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/mobiliteit/strooidag> ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/mobiliteit/strooirouteuitvoering/uitvoering-op"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "0..1" ;
+    mim:kardinaliteitRelatieBron "0..*" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "uitvoering op"@nl ;
+    mim:unidirectioneel true ;
+    dcterms:identifier "EAID_C5D894AE_7CD9_4d0e_9FCB_306AF2F5A4BA" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/mobiliteit/strooirouteuitvoering> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/mobiliteit/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/mobiliteit/strooidag> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/mobiliteit/strooirouteuitvoering/volgens> a mim:Relatiesoort,
+        owl:ObjectProperty ;
+    rdfs:label "volgens"@nl ;
+    mim:aggregatietype mim:Geen ;
+    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/mobiliteit/strooirouteuitvoering> ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/mobiliteit/strooiroute> ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/mobiliteit/strooirouteuitvoering/volgens"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:kardinaliteitRelatieBron "0..*" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "volgens"@nl ;
+    mim:unidirectioneel true ;
+    dcterms:identifier "EAID_5D16A414_E379_4c92_8D49_24D7B0D2BE18" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/mobiliteit/strooirouteuitvoering> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/mobiliteit/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/mobiliteit/strooiroute> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/mobiliteit/strooidag/datum> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "datum"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/mobiliteit/strooidag/datum"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "datum"@nl ;
+    mim:type mim:Date ;
+    dcterms:identifier "EAID_3ADF76E0_B42D_446c_BE3F_B2D11D80CFD3" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/mobiliteit/strooidag> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/mobiliteit/> ;
+    rdfs:range xsd:date .
+
+<https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/mobiliteit/strooidag/maximumtemperatuur> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "maximumtemperatuur"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/mobiliteit/strooidag/maximumtemperatuur"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "maximumtemperatuur"@nl ;
+    mim:type mim:Decimal ;
+    dcterms:identifier "EAID_5506FB89_8DC8_42d9_8075_69C3B2F71C75" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/mobiliteit/strooidag> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/mobiliteit/> ;
+    rdfs:range xsd:decimal .
+
+<https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/mobiliteit/strooidag/minimumtemperatuur> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "minimumtemperatuur"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/mobiliteit/strooidag/minimumtemperatuur"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "minimumtemperatuur"@nl ;
+    mim:type mim:Decimal ;
+    dcterms:identifier "EAID_83D74E70_5123_4578_9DDC_DBACEA602912" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/mobiliteit/strooidag> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/mobiliteit/> ;
+    rdfs:range xsd:decimal .
+
+<https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/mobiliteit/strooidag/tijdmaximumtemperatuur> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "tijdMaximumtemperatuur"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/mobiliteit/strooidag/tijdmaximumtemperatuur"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "tijdMaximumtemperatuur"@nl ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/time> ;
+    dcterms:identifier "EAID_98E1687E_07DE_44da_B98D_C1A8B32FA342" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/mobiliteit/strooidag> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/mobiliteit/> ;
+    rdfs:range xsd:time .
+
+<https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/mobiliteit/strooidag/tijdminimumtemperatuur> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "tijdMinimumtemperatuur"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/mobiliteit/strooidag/tijdminimumtemperatuur"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "tijdMinimumtemperatuur"@nl ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/time> ;
+    dcterms:identifier "EAID_E129F63B_EF52_4587_84FC_CF27B44B3896" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/mobiliteit/strooidag> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/mobiliteit/> ;
+    rdfs:range xsd:time .
+
+<https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/mobiliteit/strooiroute/route> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "route"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/mobiliteit/strooiroute/route"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "route"@nl ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/wktliteral> ;
+    dcterms:identifier "EAID_3E6F38DC_4F65_478b_9B3F_C4A1A86507FA" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/mobiliteit/strooiroute> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/mobiliteit/> ;
+    rdfs:range geo:wktLiteral .
+
+<https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/mobiliteit/strooirouteuitvoering/geplandeinde> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "geplandEinde"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/mobiliteit/strooirouteuitvoering/geplandeinde"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "geplandEinde"@nl ;
+    mim:type mim:DateTime ;
+    dcterms:identifier "EAID_491E8388_5C84_448d_85B2_F8E19B4FCA55" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/mobiliteit/strooirouteuitvoering> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/mobiliteit/> ;
+    rdfs:range xsd:dateTime .
+
+<https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/mobiliteit/strooirouteuitvoering/geplandstart> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "geplandStart"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/mobiliteit/strooirouteuitvoering/geplandstart"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "geplandStart"@nl ;
+    mim:type mim:DateTime ;
+    dcterms:identifier "EAID_772545B1_BA5F_4f56_B618_BB480412263D" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/mobiliteit/strooirouteuitvoering> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/mobiliteit/> ;
+    rdfs:range xsd:dateTime .
+
+<https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/mobiliteit/strooirouteuitvoering/route> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "route"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/mobiliteit/strooirouteuitvoering/route"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "route"@nl ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/wktliteral> ;
+    dcterms:identifier "EAID_CF133730_E2C2_4d0c_9EC3_CA0CFE32CF03" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/mobiliteit/strooirouteuitvoering> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/mobiliteit/> ;
+    rdfs:range geo:wktLiteral .
+
+<https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/mobiliteit/strooirouteuitvoering/werkelijkeinde> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "werkelijkEinde"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/mobiliteit/strooirouteuitvoering/werkelijkeinde"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "werkelijkEinde"@nl ;
+    mim:type mim:DateTime ;
+    dcterms:identifier "EAID_BFC9C0F9_A49B_4626_B385_3E55509B678A" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/mobiliteit/strooirouteuitvoering> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/mobiliteit/> ;
+    rdfs:range xsd:dateTime .
+
+<https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/mobiliteit/strooirouteuitvoering/werkelijkestart> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "werkelijkeStart"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/mobiliteit/strooirouteuitvoering/werkelijkestart"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "werkelijkeStart"@nl ;
+    mim:type mim:DateTime ;
+    dcterms:identifier "EAID_523140BD_1D4D_4cc9_9016_67147559917E" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/mobiliteit/strooirouteuitvoering> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/mobiliteit/> ;
+    rdfs:range xsd:dateTime .
+
+<https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/mobiliteit/strooiroute> a mim:Objecttype,
+        owl:Class ;
+    rdfs:label "Strooiroute"@nl ;
+    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/mobiliteit/strooiroute/route> ;
+    mim:definitie "Traject waarop het strooien plaatsvindt"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/mobiliteit/strooiroute"^^xsd:anyURI ;
+    mim:indicatieAbstractObject false ;
+    mim:naam "Strooiroute"@nl ;
+    dcterms:identifier "EAID_73090FF8_12FD_471e_80FD_DBFB2FF97D7B" ;
+    rdfs:comment "Traject waarop het strooien plaatsvindt"@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/mobiliteit/> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/mobiliteit/strooidag> a mim:Objecttype,
+        owl:Class ;
+    rdfs:label "Strooidag"@nl ;
+    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/mobiliteit/strooidag/datum>,
+        <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/mobiliteit/strooidag/maximumtemperatuur>,
+        <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/mobiliteit/strooidag/minimumtemperatuur>,
+        <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/mobiliteit/strooidag/tijdmaximumtemperatuur>,
+        <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/mobiliteit/strooidag/tijdminimumtemperatuur> ;
+    mim:definitie "Dag waarop op wegen gestrooid wordt ter voorkoming van gladheid"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/mobiliteit/strooidag"^^xsd:anyURI ;
+    mim:indicatieAbstractObject false ;
+    mim:naam "Strooidag"@nl ;
+    dcterms:identifier "EAID_E2448A6D_3AE0_4884_AD5C_215A9E7166DE" ;
+    rdfs:comment "Dag waarop op wegen gestrooid wordt ter voorkoming van gladheid"@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/mobiliteit/> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/mobiliteit/strooirouteuitvoering> a mim:Objecttype,
+        owl:Class ;
+    rdfs:label "StrooirouteUitvoering"@nl ;
+    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/mobiliteit/strooirouteuitvoering/geplandeinde>,
+        <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/mobiliteit/strooirouteuitvoering/geplandstart>,
+        <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/mobiliteit/strooirouteuitvoering/route>,
+        <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/mobiliteit/strooirouteuitvoering/werkelijkeinde>,
+        <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/mobiliteit/strooirouteuitvoering/werkelijkestart> ;
+    mim:definitie "De route die uiteindelijk is gevolgd voor het strooien"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/mobiliteit/strooirouteuitvoering"^^xsd:anyURI ;
+    mim:indicatieAbstractObject false ;
+    mim:naam "StrooirouteUitvoering"@nl ;
+    dcterms:identifier "EAID_B825D33A_6DCE_4263_A031_E6E92C4EE86B" ;
+    rdfs:comment "De route die uiteindelijk is gevolgd voor het strooien"@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/mobiliteit/> .
+

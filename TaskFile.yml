@@ -20,11 +20,12 @@
 # - To generate excel-file: `task generate:excel`
 # - To generate documentation: `task generate:docs`
 # - To publish documentation to GitHub Pages: `task publish:github`
+# - To generate the LOD sub-models (one Turtle per EA diagram) plus the ontology and SHACL shapes: `task generate:lod-views`
 # - To publish the LOD sub-models (one graph per diagram) to the LOD server: `task publish:lod`
 # - To merge the LOD sub-models into one downloadable Turtle file: `task generate:lod-views-merged`
 #
 # Author: Arjen Brienen
-# Last Updated: 28 oktober 2026
+# Last Updated: 29 oktober 2026
 version: '3'
 
 dotenv: ['.env']
@@ -62,14 +63,26 @@ vars:
   LOD_INFORMATIEDOMEIN: "Gemeentelijke overheid"
   # Technische EA-packages die niet in de Linked Data horen (met subpackages; patronen, hoofdletterongevoelig).
   LOD_EXCLUDE_PACKAGES: "Diagram,Diagrammen intern gebruik,Tekenwijze,View*"
+  # De SHACL-shapes van de Linked Data-export apart van de ontologie (crunch_uml --lod_shapes_file):
+  # de ontologie ({{.LOD}}) bevat dan alleen RDFS/OWL met de MIM-metagegevens, de shapes importeren
+  # de ontologie met owl:imports. Samen valideren: python tools/validate_mim_lod.py ontologie shapes.
+  LOD_SHAPES: "{{.VERSION_DIR}}/Gemeentelijk Gegevensmodel Linked Data-shapes.ttl"
   # Deelmodellen (views): één Turtle-bestand per EA-diagram in <release>/ttl, elk met als eerste
-  # regel '# graph: <LINKED_DATA_NS/pad>' (nu nog door de generator van Ashkan gemaakt). publish:lod
-  # zet ze als graphs onder <LINKED_DATA_NS>/<LOD_VIEWS_PREFIX>/<pad> op de server;
+  # regel '# graph: <LINKED_DATA_NS/<versie>/pad>', gegenereerd door crunch_uml (generate:lod-views,
+  # vereist crunch_uml met --lod_views_dir; vóór 29 oktober 2026 door de generator van Ashkan).
+  # Het pad volgt de EA-pakketboom zonder volgnummers en zonder het package 'Diagram':
+  # 99 Kern > Model BAG > Diagram > Onderzoek -> kern/bag/onderzoek. publish:lod zet ze als
+  # graphs onder <LINKED_DATA_NS>/<LOD_VIEWS_PREFIX>/<pad> op de server;
   # generate:lod-views-merged voegt ze samen tot één bestand in dezelfde map, dat in git staat
   # zodat het geheel te downloaden is. Overschrijfbaar op de commandline (task ... VAR=waarde).
   LOD_VIEWS_SRC: "{{.VERSION_DIR}}/ttl"
   LOD_VIEWS_PREFIX: "{{.VERSION}}"
-  LOD_VIEWS_MERGED: "{{.LOD_VIEWS_SRC}}/ggm-deelmodellen-{{.VERSION}}.ttl"
+  LOD_VIEWS_MERGED: "{{.LOD_VIEWS_SRC}}/ggm-geheel-{{.VERSION}}.ttl"
+  # Diagrammen (en packages waar ze onder vallen) die geen deelmodel worden: de RSGB/RGBZ-catalogi,
+  # interne en tekentechnische diagrammen en het GML3-pakket. Patronen, hoofdletterongevoelig;
+  # vervangt de standaardlijst van crunch_uml (dus 'View*' hier niet: de views Betrokkene en
+  # (Zaak)objecten van RGBZPlus horen er wél bij).
+  LOD_VIEWS_EXCLUDE: "Abstracte en concrete objecttypen,Catalogus RGBZ,Catalogus RSGB,Referentielijsten,Relatieklassen,Diagrammen intern gebruik,Tekentechnische relaties,Dimensies,Metagegevens,Model RGBZ,Model Kern RGBZ,RSGB Model,Diagram RSGB,GML3"
   DOCS: "./docs"
   DEFS: "./docs/definities"
   PUBLISH: "false"
@@ -286,13 +299,14 @@ tasks:
     shell: bash
 
   generate:lod:
-    desc: "Generate the Linked Data specification (Turtle met MIM 1.2-laag) from the model. Generating '{{.LOD}}'"
+    desc: "Generate the Linked Data specification (Turtle met MIM 1.2-laag) from the model: ontologie '{{.LOD}}' en SHACL-shapes '{{.LOD_SHAPES}}'"
     deps: [import:model]
     cmds:
       - echo "Generating Lod specification..."
       # Eén shell-regel (gevouwen YAML). Opties: technische packages weglaten (-xpn), Nederlandse
-      # taaltags op labels/definities/toelichtingen, de GGM-versie als owl:versionInfo/versionIRI
-      # en de MIM 1.2-metagegevens van het informatiemodel. Zie docs/handleiding/export.md van crunch_uml.
+      # taaltags op labels/definities/toelichtingen, de GGM-versie als owl:versionInfo/versionIRI,
+      # de MIM 1.2-metagegevens van het informatiemodel en de SHACL-shapes in een eigen bestand.
+      # Zie docs/handleiding/export.md van crunch_uml.
       - >-
         {{.CRUNCH}} -sch "{{.GGM_ROOT_SCHEMA}}" export -t ttl -f "{{.LOD}}"
         --linked_data_namespace {{.LINKED_DATA_NS}}
@@ -304,6 +318,44 @@ tasks:
         --lod_license {{.LOD_LICENSE}}
         --lod_informatiedomein "{{.LOD_INFORMATIEDOMEIN}}"
         --lod_informatiemodeltype logisch
+        --lod_shapes_file "{{.LOD_SHAPES}}"
+    shell: bash
+
+  generate:lod-views:
+    desc: "Genereer de deelmodellen (één Turtle per EA-diagram) in '{{.LOD_VIEWS_SRC}}', samen met de ontologie '{{.LOD}}' en de SHACL-shapes '{{.LOD_SHAPES}}', en voeg ze samen tot '{{.LOD_VIEWS_MERGED}}'."
+    deps: [import:model]
+    cmds:
+      - echo "Generating Linked Data views (deelmodellen per diagram)..."
+      # 1. Oude deelmodellen opruimen: crunch_uml overschrijft bestanden maar ruimt verdwenen of
+      #    hernoemde diagrammen niet op. Het samengevoegde bestand blijft staan (wordt in stap 3
+      #    opnieuw geschreven).
+      - |
+        set -euo pipefail
+        SRC="{{.LOD_VIEWS_SRC}}"; MERGED="$(basename "{{.LOD_VIEWS_MERGED}}")"
+        mkdir -p "$SRC"
+        find "$SRC" -mindepth 1 -name '*.ttl' ! -name "$MERGED" -delete
+        find "$SRC" -mindepth 1 -type d -empty -delete
+      # 2. Eén export: ontologie + shapes (zoals generate:lod) én per diagram een view in
+      #    LOD_VIEWS_SRC/<pad>.ttl met als eerste regel '# graph: <LINKED_DATA_NS/VERSION/pad>'.
+      #    Een view is een deelgraaf van de ontologie (dezelfde IRI's, zonder SHACL): de klassen en
+      #    enumeraties op het diagram met al hun attributen, en de relaties en generalisaties
+      #    tussen die elementen. Zie docs/handleiding/export.md van crunch_uml.
+      - >-
+        {{.CRUNCH}} -sch "{{.GGM_ROOT_SCHEMA}}" export -t ttl -f "{{.LOD}}"
+        --linked_data_namespace {{.LINKED_DATA_NS}}
+        --output_exclude_package_names "{{.LOD_EXCLUDE_PACKAGES}}"
+        --lod_language nl
+        --lod_version {{.VERSION}}
+        --lod_title "{{.LOD_TITLE}}"
+        --lod_publisher {{.LOD_PUBLISHER}}
+        --lod_license {{.LOD_LICENSE}}
+        --lod_informatiedomein "{{.LOD_INFORMATIEDOMEIN}}"
+        --lod_informatiemodeltype logisch
+        --lod_shapes_file "{{.LOD_SHAPES}}"
+        --lod_views_dir "{{.LOD_VIEWS_SRC}}"
+        --lod_views_exclude "{{.LOD_VIEWS_EXCLUDE}}"
+      # 3. Controleren (kopregel, uniek pad, geldige Turtle) en samenvoegen tot het downloadbestand.
+      - task: generate:lod-views-merged
     shell: bash
 
   generate:lod-views-merged:

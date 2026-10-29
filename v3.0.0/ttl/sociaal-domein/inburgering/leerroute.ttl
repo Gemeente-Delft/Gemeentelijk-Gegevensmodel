@@ -1,0 +1,533 @@
+# graph: <https://lod.gemeentelijkgegevensmodel.nl/v3.0.0/sociaal-domein/inburgering/leerroute>
+
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix mim: <http://modellen.mim-standaard.nl/def/mim#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/b1-route/onderdeel-van> a mim:Relatiesoort,
+        owl:ObjectProperty ;
+    rdfs:label "onderdeel van"@nl ;
+    mim:aggregatietype mim:Geen ;
+    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/b1-route> ;
+    mim:definitie "Kan ook een generalisatie zijn. Geldt ook voor de overige routes"@nl ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/leerroute> ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/b1-route/onderdeel-van"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:kardinaliteitRelatieBron "0..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "onderdeel van"@nl ;
+    mim:unidirectioneel true ;
+    dcterms:identifier "EAID_9821848F_48A0_446d_8811_5DC161D2D13A" ;
+    rdfs:comment "Kan ook een generalisatie zijn. Geldt ook voor de overige routes"@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/b1-route> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/leerroute> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/leerroute/afgesproken-in> a mim:Relatiesoort,
+        owl:ObjectProperty ;
+    rdfs:label "afgesproken in"@nl ;
+    mim:aggregatietype mim:Geen ;
+    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/leerroute> ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/pip> ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/leerroute/afgesproken-in"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:kardinaliteitRelatieBron "0..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "afgesproken in"@nl ;
+    mim:unidirectioneel true ;
+    dcterms:identifier "EAID_8E0A85FD_9A97_40f3_A4FA_96B74FE20774" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/leerroute> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/pip> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/v3.0.0/sociaal-domein/inburgering/leerroute> a owl:Ontology ;
+    rdfs:label "Leerroute"@nl ;
+    dcterms:identifier "EAID_1B629406_49FC_4622_9F65_EF0B8F33CCF8" ;
+    dcterms:isPartOf <https://lod.gemeentelijkgegevensmodel.nl/> ;
+    owl:versionInfo "v3.0.0" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/b1-route/aantalgratisexamenpogingentegoed> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "AantalGratisExamenpogingenTegoed"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/b1-route/aantalgratisexamenpogingentegoed"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "AantalGratisExamenpogingenTegoed"@nl ;
+    mim:type mim:Integer ;
+    dcterms:identifier "EAID_BADDA31A_CDD2_4fb5_B8B7_4BE88BC4C6BF" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/b1-route> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/> ;
+    rdfs:range xsd:integer .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/b1-route/examendatum> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "ExamenDatum"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/b1-route/examendatum"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "ExamenDatum"@nl ;
+    mim:type mim:Date ;
+    dcterms:identifier "EAID_73C8B043_DEC8_44cd_935C_D53BE810316C" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/b1-route> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/> ;
+    rdfs:range xsd:date .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/b1-route/gevolgdeurenparticipatietaalles> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "GevolgdeUrenParticipatieTaalles"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/b1-route/gevolgdeurenparticipatietaalles"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "GevolgdeUrenParticipatieTaalles"@nl ;
+    mim:type mim:Integer ;
+    dcterms:identifier "EAID_0B4524FD_8D69_47bf_B831_A02A8E48467E" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/b1-route> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/> ;
+    rdfs:range xsd:integer .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/b1-route/redengeenresultaat> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "RedenGeenResultaat"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/b1-route/redengeenresultaat"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "RedenGeenResultaat"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_C079CC85_DB34_4745_AA44_ECC9250DC277" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/b1-route> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/b1-route/resultaat> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "Resultaat"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/b1-route/resultaat"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "Resultaat"@nl ;
+    mim:type mim:Integer ;
+    dcterms:identifier "EAID_1D4978F6_968D_4ec1_86FD_ACC605C9F6D6" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/b1-route> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/> ;
+    rdfs:range xsd:integer .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/classificatiearmtotuitstekend/arm> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/classificatiearmtotuitstekend> ;
+    rdfs:label "Arm"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/classificatiearmtotuitstekend/arm"^^xsd:anyURI ;
+    mim:naam "Arm"@nl ;
+    dcterms:identifier "EAID_BC6648B1_1271_B282_AC14_42E7C0BCB410" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/classificatiearmtotuitstekend> ;
+    skos:prefLabel "Arm"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/classificatiearmtotuitstekend> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/classificatiearmtotuitstekend/goed> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/classificatiearmtotuitstekend> ;
+    rdfs:label "Goed"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/classificatiearmtotuitstekend/goed"^^xsd:anyURI ;
+    mim:naam "Goed"@nl ;
+    dcterms:identifier "EAID_84D6BE73_3B45_4CCB_9140_10EE7305A366" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/classificatiearmtotuitstekend> ;
+    skos:prefLabel "Goed"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/classificatiearmtotuitstekend> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/classificatiearmtotuitstekend/middelmatig> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/classificatiearmtotuitstekend> ;
+    rdfs:label "Middelmatig"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/classificatiearmtotuitstekend/middelmatig"^^xsd:anyURI ;
+    mim:naam "Middelmatig"@nl ;
+    dcterms:identifier "EAID_854EEFAD_9A0B_8F8A_914A_5930162437D5" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/classificatiearmtotuitstekend> ;
+    skos:prefLabel "Middelmatig"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/classificatiearmtotuitstekend> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/classificatiearmtotuitstekend/uitstekend> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/classificatiearmtotuitstekend> ;
+    rdfs:label "Uitstekend"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/classificatiearmtotuitstekend/uitstekend"^^xsd:anyURI ;
+    mim:naam "Uitstekend"@nl ;
+    dcterms:identifier "EAID_B0D0D32B_14C8_3791_BDAF_5558D353D83E" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/classificatiearmtotuitstekend> ;
+    skos:prefLabel "Uitstekend"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/classificatiearmtotuitstekend> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/classificatiearmtotuitstekend/voldoende> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/classificatiearmtotuitstekend> ;
+    rdfs:label "Voldoende"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/classificatiearmtotuitstekend/voldoende"^^xsd:anyURI ;
+    mim:naam "Voldoende"@nl ;
+    dcterms:identifier "EAID_A236060E_BA91_18C1_BB3B_E07ADA07E227" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/classificatiearmtotuitstekend> ;
+    skos:prefLabel "Voldoende"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/classificatiearmtotuitstekend> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/leerroute/examena2> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "ExamenA2"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/leerroute/examena2"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "ExamenA2"@nl ;
+    mim:type mim:Boolean ;
+    dcterms:identifier "EAID_58603A41_15A5_46ee_A4AC_64C74BCF6E29" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/leerroute> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/> ;
+    rdfs:range xsd:boolean .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/leerroute/geenleerbaarheidstoetszb> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "geenLeerbaarheidstoetsZB"@nl ;
+    mim:definitie "<font color=\"#0e0e0e\"><i>Indicator die aangeeft of de leerbaarheidstoets niet is afgenomen vanwege een zintuigelijke beperking van de inburgeraar.</i></font>"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/leerroute/geenleerbaarheidstoetszb"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "geenLeerbaarheidstoetsZB"@nl ;
+    mim:type mim:Boolean ;
+    dcterms:identifier "EAID_C743FEA5_C42B_44d0_943A_2DF805D9FED3" ;
+    rdfs:comment "<font color=\"#0e0e0e\"><i>Indicator die aangeeft of de leerbaarheidstoets niet is afgenomen vanwege een zintuigelijke beperking van de inburgeraar.</i></font>"@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/leerroute> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/> ;
+    rdfs:range xsd:boolean .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/leerroute/geschatteintensiteitb1route> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "GeschatteIntensiteitB1Route"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/leerroute/geschatteintensiteitb1route"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "GeschatteIntensiteitB1Route"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_D5A39C32_0902_486b_9433_4ACCC99DD49D" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/leerroute> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/leerroute/indicatoralfabetisering> a mim:Attribuutsoort,
+        owl:ObjectProperty ;
+    rdfs:label "IndicatorAlfabetisering"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/leerroute/indicatoralfabetisering"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "IndicatorAlfabetisering"@nl ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/classificatiearmtotuitstekend> ;
+    dcterms:identifier "EAID_DC3EBB1E_E4BA_4e74_BE09_7FDFCD468D67" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/leerroute> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/classificatiearmtotuitstekend> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/leerroute/indicatormagopleidingafmaken> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "IndicatorMagOpleidingAfmaken"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/leerroute/indicatormagopleidingafmaken"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "IndicatorMagOpleidingAfmaken"@nl ;
+    mim:type mim:Boolean ;
+    dcterms:identifier "EAID_DE12E70C_5581_435a_A448_F7358DD55B11" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/leerroute> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/> ;
+    rdfs:range xsd:boolean .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/leerroute/indicatortoestemmingexamena2> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "IndicatorToestemmingExamenA2"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/leerroute/indicatortoestemmingexamena2"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "IndicatorToestemmingExamenA2"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_7D8B18EE_E406_4be2_A20A_3B692013E36F" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/leerroute> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/leerroute/leerroutetype> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "LeerrouteType"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/leerroute/leerroutetype"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "LeerrouteType"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_3E056AF0_E2C3_4300_9FD3_2B45A252A656" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/leerroute> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/leerroute/niveau> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "Niveau"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/leerroute/niveau"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "Niveau"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_12E40A47_B424_4c17_8513_3852A4DC288D" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/leerroute> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/pip/dagtekeninginitielepip> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "DagtekeningInitielePIP"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/pip/dagtekeninginitielepip"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "DagtekeningInitielePIP"@nl ;
+    mim:type mim:Date ;
+    dcterms:identifier "EAID_40B1974C_CBC5_448e_93FA_3B2CC4A2D47D" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/pip> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/> ;
+    rdfs:range xsd:date .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/pip/dagtekeningpip> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "DagtekeningPIP"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/pip/dagtekeningpip"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "DagtekeningPIP"@nl ;
+    mim:type mim:Date ;
+    dcterms:identifier "EAID_9F620EDC_FD4C_4b38_8AD7_DCEFC40A35E2" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/pip> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/> ;
+    rdfs:range xsd:date .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/pip/emailcontactpersoon> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "EmailContactPersoon"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/pip/emailcontactpersoon"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "EmailContactPersoon"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_3DEA6F23_647A_4412_AC2A_019CB56944E3" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/pip> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/pip/indicatormagopleidingafmaken> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "IndicatorMagOpleidingAfmaken"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/pip/indicatormagopleidingafmaken"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "IndicatorMagOpleidingAfmaken"@nl ;
+    mim:type mim:Boolean ;
+    dcterms:identifier "EAID_8C9A59E7_6FFB_4f7e_8562_8CFD279FE6EA" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/pip> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/> ;
+    rdfs:range xsd:boolean .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/pip/naamcontactpersoon> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "NaamContactPersoon"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/pip/naamcontactpersoon"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "NaamContactPersoon"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_EA936667_DF94_4ce0_8635_CF292269B3C7" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/pip> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/b1-route> a mim:Objecttype,
+        owl:Class ;
+    rdfs:label "B1-route"@nl ;
+    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/b1-route/aantalgratisexamenpogingentegoed>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/b1-route/examendatum>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/b1-route/gevolgdeurenparticipatietaalles>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/b1-route/redengeenresultaat>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/b1-route/resultaat> ;
+    mim:definitie "<font color=\"#0e0e0e\">De </font><font color=\"#0e0e0e\"><b>B1-route</b></font><font color=\"#0e0e0e\"> is &#233;&#233;n van de drie leerroutes in het inburgeringsstelsel, waarbij de inburgeringsplichtige zich voorbereidt op het afleggen van het inburgeringsexamen op taalniveau B1, gericht op brede participatie in de Nederlandse samenleving en toeleiding naar arbeid.</font>"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/b1-route"^^xsd:anyURI ;
+    mim:indicatieAbstractObject false ;
+    mim:naam "B1-route"@nl ;
+    mim:toelichting """•	De B1-route is bedoeld voor inburgeringsplichtigen die voldoende leervermogen hebben om Nederlands op B1-niveau te leren (Europees Referentiekader).
+	•	De route omvat onder andere taallessen, KNM (Kennis van de Nederlandse Maatschappij), en participatieactiviteiten.
+	•	De gemeente stelt de leerroute vast op basis van de brede intake en de leerbaarheidstoets (zie artikelen 15 en 16 van de Wet inburgering 2021).
+	•	Binnen deze route is ook ruimte voor duale trajecten waarin taalverwerving en praktijkervaring worden gecombineerd (zoals werken of vrijwilligerswerk)."""@nl ;
+    dcterms:identifier "EAID_09D462A9_94C8_4803_A0A0_B7DB4363B45D" ;
+    rdfs:comment "<font color=\"#0e0e0e\">De </font><font color=\"#0e0e0e\"><b>B1-route</b></font><font color=\"#0e0e0e\"> is &#233;&#233;n van de drie leerroutes in het inburgeringsstelsel, waarbij de inburgeringsplichtige zich voorbereidt op het afleggen van het inburgeringsexamen op taalniveau B1, gericht op brede participatie in de Nederlandse samenleving en toeleiding naar arbeid.</font>"@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/pip> a mim:Objecttype,
+        owl:Class ;
+    rdfs:label "PIP"@nl ;
+    mim:alias "Persoonlijk Plan Inburgering en Participatie"@nl ;
+    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/pip/dagtekeninginitielepip>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/pip/dagtekeningpip>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/pip/emailcontactpersoon>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/pip/indicatormagopleidingafmaken>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/pip/naamcontactpersoon> ;
+    mim:definitie "<font color=\"#0e0e0e\">Het </font><font color=\"#0e0e0e\"><b>Persoonlijk Plan Inburgering en Participatie (PIP)</b></font><font color=\"#0e0e0e\"> is een individueel plan dat door de gemeente wordt vastgesteld in overleg met de inburgeringsplichtige, waarin het leerrouteadvies, het inburgeringsaanbod, het hoofddoel en de begeleidingsafspraken zijn vastgelegd, met als doel het succesvol afronden van de inburgering binnen de gestelde termijn.</font>"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/pip"^^xsd:anyURI ;
+    mim:indicatieAbstractObject false ;
+    mim:naam "PIP"@nl ;
+    mim:toelichting "•	Het PIP wordt opgesteld na de brede intake en op basis van onder meer de leerbaarheidstoets, diplomawaardering en persoonlijke omstandigheden (artikel 17 van de Wet inburgering 2021)."@nl ;
+    dcterms:identifier "EAID_94EB7844_F863_4330_A15A_06ED4D1401E0" ;
+    rdfs:comment "<font color=\"#0e0e0e\">Het </font><font color=\"#0e0e0e\"><b>Persoonlijk Plan Inburgering en Participatie (PIP)</b></font><font color=\"#0e0e0e\"> is een individueel plan dat door de gemeente wordt vastgesteld in overleg met de inburgeringsplichtige, waarin het leerrouteadvies, het inburgeringsaanbod, het hoofddoel en de begeleidingsafspraken zijn vastgelegd, met als doel het succesvol afronden van de inburgering binnen de gestelde termijn.</font>"@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/leerroute> a mim:Objecttype,
+        owl:Class ;
+    rdfs:label "Leerroute"@nl ;
+    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/leerroute/examena2>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/leerroute/geenleerbaarheidstoetszb>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/leerroute/geschatteintensiteitb1route>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/leerroute/indicatoralfabetisering>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/leerroute/indicatormagopleidingafmaken>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/leerroute/indicatortoestemmingexamena2>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/leerroute/leerroutetype>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/leerroute/niveau> ;
+    mim:definitie "<font color=\"#0e0e0e\">Een </font><font color=\"#0e0e0e\"><b>Leerroute</b></font><font color=\"#0e0e0e\"> is het door de gemeente vastgestelde traject dat een inburgeringsplichtige volgt om te voldoen aan de inburgeringsplicht, bestaande uit taallessen, participatieactiviteiten en aanvullende modules, afgestemd op het leervermogen en het hoofddoel van de inburgeraar.</font>"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/leerroute"^^xsd:anyURI ;
+    mim:indicatieAbstractObject false ;
+    mim:naam "Leerroute"@nl ;
+    mim:toelichting "•	De leerroute wordt bepaald op basis van de brede intake en de leerbaarheidstoets, zoals vastgelegd in artikelen 15 en 16 van de Wet inburgering 2021."@nl ;
+    dcterms:identifier "EAID_51285531_9529_4b2d_9EC6_B6BAEA729D9A" ;
+    rdfs:comment "<font color=\"#0e0e0e\">Een </font><font color=\"#0e0e0e\"><b>Leerroute</b></font><font color=\"#0e0e0e\"> is het door de gemeente vastgestelde traject dat een inburgeringsplichtige volgt om te voldoen aan de inburgeringsplicht, bestaande uit taallessen, participatieactiviteiten en aanvullende modules, afgestemd op het leervermogen en het hoofddoel van de inburgeraar.</font>"@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/classificatiearmtotuitstekend> a mim:Enumeratie,
+        owl:Class,
+        skos:ConceptScheme ;
+    rdfs:label "ClassificatieArmTotUitstekend"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/classificatiearmtotuitstekend"^^xsd:anyURI ;
+    mim:naam "ClassificatieArmTotUitstekend"@nl ;
+    mim:waarde <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/classificatiearmtotuitstekend/arm>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/classificatiearmtotuitstekend/goed>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/classificatiearmtotuitstekend/middelmatig>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/classificatiearmtotuitstekend/uitstekend>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/classificatiearmtotuitstekend/voldoende> ;
+    dcterms:identifier "EAID_AC2F4B40_AD01_0B7D_B713_7CBB564649D0" ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/> ;
+    rdfs:subClassOf skos:Concept .
+

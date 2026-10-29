@@ -1,0 +1,1274 @@
+# graph: <https://lod.gemeentelijkgegevensmodel.nl/v3.0.0/interne-organisatie/hr/bezetting-en-formatie>
+
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix mim: <http://modellen.mim-standaard.nl/def/mim#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/dienstverband/dienstverband-conform-functie> a mim:Relatiesoort,
+        owl:ObjectProperty ;
+    rdfs:label "dienstverband conform functie"@nl ;
+    mim:aggregatietype mim:Geen ;
+    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/dienstverband> ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/functie> ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/dienstverband/dienstverband-conform-functie"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:kardinaliteitRelatieBron "0..*" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "dienstverband conform functie"@nl ;
+    mim:unidirectioneel true ;
+    dcterms:identifier "EAID_B3C69ADB_9237_4bde_937C_8A9B873AD176" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/dienstverband> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/functie> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/dienstverband/onderdeel-van> a mim:Relatiesoort,
+        owl:ObjectProperty ;
+    rdfs:label "onderdeel van"@nl ;
+    mim:aggregatietype mim:Geen ;
+    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/dienstverband> ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/organisatorischeeenheidhr> ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/dienstverband/onderdeel-van"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..*" ;
+    mim:kardinaliteitRelatieBron "0..*" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "onderdeel van"@nl ;
+    mim:unidirectioneel true ;
+    dcterms:identifier "EAID_0F596F15_608B_4a1a_ADE6_D1053EF13FF8" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/dienstverband> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/organisatorischeeenheidhr> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/formatieplaats/functie-van-formatieplaats> a mim:Relatiesoort,
+        owl:ObjectProperty ;
+    rdfs:label "functie van formatieplaats"@nl ;
+    mim:aggregatietype mim:Geen ;
+    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/formatieplaats> ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/functie> ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/formatieplaats/functie-van-formatieplaats"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..*" ;
+    mim:kardinaliteitRelatieBron "0..*" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "functie van formatieplaats"@nl ;
+    mim:unidirectioneel true ;
+    dcterms:identifier "EAID_FA8E1AC6_EB2C_4a69_A5B1_7F05B3CE3168" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/formatieplaats> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/functie> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/formatieplaats/onderdeel-van> a mim:Relatiesoort,
+        owl:ObjectProperty ;
+    rdfs:label "onderdeel van"@nl ;
+    mim:aggregatietype mim:Geen ;
+    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/formatieplaats> ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/organisatorischeeenheidhr> ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/formatieplaats/onderdeel-van"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "0..1" ;
+    mim:kardinaliteitRelatieBron "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "onderdeel van"@nl ;
+    mim:unidirectioneel true ;
+    dcterms:identifier "EAID_B12C3E92_BEF7_4859_A882_A37444268D3C" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/formatieplaats> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/organisatorischeeenheidhr> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/formatieplaats/toegewezen-aan> a mim:Relatiesoort,
+        owl:ObjectProperty ;
+    rdfs:label "toegewezen aan"@nl ;
+    mim:aggregatietype mim:Geen ;
+    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/formatieplaats> ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/dienstverband> ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/formatieplaats/toegewezen-aan"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "0..*" ;
+    mim:kardinaliteitRelatieBron "0..*" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "toegewezen aan"@nl ;
+    mim:unidirectioneel true ;
+    dcterms:identifier "EAID_C886E8C0_39ED_477b_A430_B7577E0A3238" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/formatieplaats> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/dienstverband> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/functie/gebaseerd-op> a mim:Relatiesoort,
+        owl:ObjectProperty ;
+    rdfs:label "gebaseerd op"@nl ;
+    mim:aggregatietype mim:Geen ;
+    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/functie> ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/normprofiel> ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/functie/gebaseerd-op"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:kardinaliteitRelatieBron "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "gebaseerd op"@nl ;
+    mim:unidirectioneel true ;
+    dcterms:identifier "EAID_631F8439_F29C_4a41_A8E3_4C52BBEA69A4" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/functie> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/normprofiel> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/inzet/aantal-volgens-inzet> a mim:Relatiesoort,
+        owl:ObjectProperty ;
+    rdfs:label "aantal volgens inzet"@nl ;
+    mim:aggregatietype mim:Geen ;
+    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/inzet> ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/dienstverband> ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/inzet/aantal-volgens-inzet"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "0..*" ;
+    mim:kardinaliteitRelatieBron "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "aantal volgens inzet"@nl ;
+    mim:unidirectioneel true ;
+    dcterms:identifier "EAID_B365F23E_A00D_4fef_9EE3_A416614B00C6" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/inzet> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/dienstverband> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/inzet/inzet-bij> a mim:Relatiesoort,
+        owl:ObjectProperty ;
+    rdfs:label "inzet bij"@nl ;
+    mim:aggregatietype mim:Geen ;
+    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/inzet> ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/organisatorischeeenheidhr> ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/inzet/inzet-bij"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:kardinaliteitRelatieBron "0..*" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "inzet bij"@nl ;
+    mim:unidirectioneel true ;
+    dcterms:identifier "EAID_30F12B18_84AE_4b2a_A642_F2CD8D1AA505" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/inzet> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/organisatorischeeenheidhr> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/inzet/inzet-voor-functie> a mim:Relatiesoort,
+        owl:ObjectProperty ;
+    rdfs:label "inzet voor functie"@nl ;
+    mim:aggregatietype mim:Geen ;
+    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/inzet> ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/functie> ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/inzet/inzet-voor-functie"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:kardinaliteitRelatieBron "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "inzet voor functie"@nl ;
+    mim:unidirectioneel true ;
+    dcterms:identifier "EAID_BA44BA34_41E8_4faf_8D8E_7693BCC345B3" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/inzet> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/functie> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/normprofiel/onderdeel-van> a mim:Relatiesoort,
+        owl:ObjectProperty ;
+    rdfs:label "onderdeel van"@nl ;
+    mim:aggregatietype mim:Geen ;
+    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/normprofiel> ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/functiehuis> ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/normprofiel/onderdeel-van"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:kardinaliteitRelatieBron "1..*" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "onderdeel van"@nl ;
+    mim:unidirectioneel true ;
+    dcterms:identifier "EAID_7BF736B1_C39A_4cd3_8C30_EB2A0FEA2980" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/normprofiel> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/functiehuis> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/rol/hoort-bij> a mim:Relatiesoort,
+        owl:ObjectProperty ;
+    rdfs:label "hoort bij"@nl ;
+    mim:aggregatietype mim:Geen ;
+    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/rol> ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/organisatorischeeenheidhr> ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/rol/hoort-bij"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "0..1" ;
+    mim:kardinaliteitRelatieBron "0..*" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "hoort bij"@nl ;
+    mim:unidirectioneel true ;
+    dcterms:identifier "EAID_F1F6FACA_0A8D_4904_BA95_CF4984524E7C" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/rol> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/organisatorischeeenheidhr> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/werknemer/heeft> a mim:Relatiesoort,
+        owl:ObjectProperty ;
+    rdfs:label "heeft"@nl ;
+    mim:aggregatietype mim:Geen ;
+    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/werknemer> ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/rol> ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/werknemer/heeft"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "0..*" ;
+    mim:kardinaliteitRelatieBron "1..*" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "heeft"@nl ;
+    mim:unidirectioneel true ;
+    dcterms:identifier "EAID_58514271_87E3_4f5f_A3E4_AF251AA7D9C9" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/werknemer> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/rol> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/werknemer/medewerker-heeft-dienstverband> a mim:Relatiesoort,
+        owl:ObjectProperty ;
+    rdfs:label "medewerker heeft dienstverband"@nl ;
+    mim:aggregatietype mim:Geen ;
+    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/werknemer> ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/dienstverband> ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/werknemer/medewerker-heeft-dienstverband"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..*" ;
+    mim:kardinaliteitRelatieBron "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "medewerker heeft dienstverband"@nl ;
+    mim:unidirectioneel true ;
+    dcterms:identifier "EAID_8AB912F9_CF51_4288_85FB_DC19C1E92659" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/werknemer> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/dienstverband> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/organisatorischeeenheid/is-deel-van> a mim:Relatiesoort,
+        owl:ObjectProperty ;
+    rdfs:label "Is deel van"@nl ;
+    mim:aggregatietype mim:Geen ;
+    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/organisatorischeeenheid> ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/organisatorischeeenheid> ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/organisatorischeeenheid/is-deel-van"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "0..1" ;
+    mim:kardinaliteitRelatieBron "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "Is deel van"@nl ;
+    mim:unidirectioneel true ;
+    dcterms:identifier "EAID_D2770201_1CC5_47bd_90F4_EC39317F189B" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/organisatorischeeenheid> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/organisatorischeeenheid> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/v3.0.0/interne-organisatie/hr/bezetting-en-formatie> a owl:Ontology ;
+    rdfs:label "Bezetting en Formatie"@nl ;
+    dcterms:identifier "EAID_0B1C1CCE_E0D1_413d_A38B_7A9B03A21610" ;
+    dcterms:isPartOf <https://lod.gemeentelijkgegevensmodel.nl/> ;
+    owl:versionInfo "v3.0.0" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/dienstverband/datumeinde> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "datumEinde"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/dienstverband/datumeinde"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "datumEinde"@nl ;
+    mim:type mim:Date ;
+    dcterms:identifier "EAID_05F3F929_1933_48a5_8124_A88F6EF87455" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/dienstverband> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/> ;
+    rdfs:range xsd:date .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/dienstverband/datumstart> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "datumStart"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/dienstverband/datumstart"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "datumStart"@nl ;
+    mim:type mim:Date ;
+    dcterms:identifier "EAID_FD077AD9_C3B8_4b6c_AE80_83AF2617352A" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/dienstverband> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/> ;
+    rdfs:range xsd:date .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/dienstverband/periodiek> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "periodiek"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/dienstverband/periodiek"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "periodiek"@nl ;
+    mim:type mim:Integer ;
+    dcterms:identifier "EAID_0C843E40_EB21_496a_89EF_B4FF04585176" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/dienstverband> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/> ;
+    rdfs:range xsd:integer .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/dienstverband/salaris> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "salaris"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/dienstverband/salaris"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "salaris"@nl ;
+    mim:type mim:Decimal ;
+    dcterms:identifier "EAID_5969E279_EF75_4819_8D97_32F4FB9E26E9" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/dienstverband> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/> ;
+    rdfs:range xsd:decimal .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/dienstverband/schaal> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "schaal"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/dienstverband/schaal"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "schaal"@nl ;
+    mim:type mim:Integer ;
+    dcterms:identifier "EAID_4AE21FF6_E954_4c4a_AB9F_B4E19748E8DD" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/dienstverband> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/> ;
+    rdfs:range xsd:integer .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/dienstverband/urenperweek> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "urenPerWeek"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/dienstverband/urenperweek"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "urenPerWeek"@nl ;
+    mim:type mim:Integer ;
+    dcterms:identifier "EAID_2A3C259A_5DD3_47d5_A4FA_27042DCC5305" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/dienstverband> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/> ;
+    rdfs:range xsd:integer .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/formatieplaats/uren-per-week> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "uren per week"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/formatieplaats/uren-per-week"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "uren per week"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_7AF2B747_2130_4ae4_BE24_358F6174C533" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/formatieplaats> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/functie/code> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "Code"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/functie/code"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "Code"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_BF09A2D1_DF5F_456c_892B_02651CF01F0B" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/functie> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/functie/naam> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "Naam"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/functie/naam"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "Naam"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_737B12A2_9FD0_42ef_AA45_87701F4DEC8A" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/functie> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/functie/omschrijving> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "Omschrijving"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/functie/omschrijving"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "Omschrijving"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_AD3E7953_2497_4f85_9AAF_B9AD6D610986" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/functie> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/functie/schaal> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "Schaal"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/functie/schaal"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "Schaal"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_118E0FD1_E5BC_4bfc_9F71_9F078F57BA1F" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/functie> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/functie/taken> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "Taken"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/functie/taken"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "Taken"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_BFF4AD20_8200_4ffe_8CB0_A879BB76B5E0" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/functie> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/functiehuis/naam> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "naam"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/functiehuis/naam"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "naam"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_D302D8D7_45CF_41b8_AB7A_F7A4AF9FE069" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/functiehuis> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/functiehuis/omschrijving> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "omschrijving"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/functiehuis/omschrijving"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "omschrijving"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_22B7AF77_6C18_4cfe_9772_1B891706AA21" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/functiehuis> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/inzet/datumbegin> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "datumBegin"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/inzet/datumbegin"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "datumBegin"@nl ;
+    mim:type mim:Date ;
+    dcterms:identifier "EAID_A0955861_DB1A_413e_8173_A741177DE098" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/inzet> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/> ;
+    rdfs:range xsd:date .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/inzet/datumeinde> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "datumEinde"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/inzet/datumeinde"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "datumEinde"@nl ;
+    mim:type mim:Date ;
+    dcterms:identifier "EAID_3616F14C_0CFE_47c0_B29F_CBFC067E2F3C" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/inzet> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/> ;
+    rdfs:range xsd:date .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/inzet/percentage> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "percentage"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/inzet/percentage"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "percentage"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_A5F95BFD_E12A_4f5d_B674_28580CD8B73B" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/inzet> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/inzet/uren> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "uren"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/inzet/uren"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "uren"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_B77F61D0_38FE_404e_BC96_7559DFE04C23" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/inzet> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/normprofiel/code> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "code"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/normprofiel/code"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "code"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_B99C78BB_CD4F_4e24_B431_3E00A9787858" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/normprofiel> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/normprofiel/omschrijving> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "omschrijving"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/normprofiel/omschrijving"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "omschrijving"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_C573F631_31FE_4687_B790_8B453EB2BB4A" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/normprofiel> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/normprofiel/schaal> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "schaal"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/normprofiel/schaal"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "schaal"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_832D3811_6242_4c4d_AADF_D4C0EDB367A3" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/normprofiel> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/organisatorischeeenheidhr/naam> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "naam"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/organisatorischeeenheidhr/naam"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "naam"@nl ;
+    mim:type mim:Integer ;
+    dcterms:identifier "EAID_A025F9FB_783B_4d41_A092_A8B8FD42E8FF" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/organisatorischeeenheidhr> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/> ;
+    rdfs:range xsd:integer .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/organisatorischeeenheidhr/type> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "type"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/organisatorischeeenheidhr/type"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "type"@nl ;
+    mim:type mim:Integer ;
+    dcterms:identifier "EAID_40F49EBA_E57E_4487_90DC_E95566CAD8AD" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/organisatorischeeenheidhr> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/> ;
+    rdfs:range xsd:integer .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/rol/datumbegin> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "datumBegin"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/rol/datumbegin"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "datumBegin"@nl ;
+    mim:type mim:Date ;
+    dcterms:identifier "EAID_D882B9B0_FDE7_44bc_B793_2F069EF05F8E" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/rol> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/> ;
+    rdfs:range xsd:date .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/rol/datumeinde> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "datumEinde"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/rol/datumeinde"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "datumEinde"@nl ;
+    mim:type mim:Date ;
+    dcterms:identifier "EAID_DFA0CF31_12B3_4e20_90E7_1EB057945E6D" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/rol> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/> ;
+    rdfs:range xsd:date .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/rol/omschrijving> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "omschrijving"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/rol/omschrijving"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "omschrijving"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_F36A444E_3232_4499_A774_E2E62F6D818C" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/rol> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/werknemer/geboortedatum> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "geboortedatum"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/werknemer/geboortedatum"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "geboortedatum"@nl ;
+    mim:type mim:Date ;
+    dcterms:identifier "EAID_BDC30711_7425_4b51_BA3F_148CC3DE7D64" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/werknemer> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/> ;
+    rdfs:range xsd:date .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/werknemer/naam> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "naam"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/werknemer/naam"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "naam"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_96DB65D5_F296_4d9b_857F_8327DFF570DE" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/werknemer> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/werknemer/voornaam> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "voornaam"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/werknemer/voornaam"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "voornaam"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_3CA4032A_9C8A_42e5_8111_F5BA1E4C6EDA" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/werknemer> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/werknemer/woonplaats> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "woonplaats"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/werknemer/woonplaats"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "woonplaats"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_65070346_259F_4cb3_8963_3DBDEEDA1BDE" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/werknemer> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/organisatorischeeenheid/datumontstaan> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "datumOntstaan"@nl ;
+    mim:definitie "<font color=\"#610e6a\">De datum waarop de organisatorische eenheid is ontstaan.</font>"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/organisatorischeeenheid/datumontstaan"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie true ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "datumOntstaan"@nl ;
+    mim:type mim:Date ;
+    dcterms:identifier "EAID_034DF486_CDDD_4f7a_B42A_3C6A19F2903E" ;
+    rdfs:comment "<font color=\"#610e6a\">De datum waarop de organisatorische eenheid is ontstaan.</font>"@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/organisatorischeeenheid> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> ;
+    rdfs:range xsd:date .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/organisatorischeeenheid/datumopheffing> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "datumOpheffing"@nl ;
+    mim:definitie "<font color=\"#610e6a\">De datum waarop de organisatorische eenheid is opgeheven.</font>"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/organisatorischeeenheid/datumopheffing"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie true ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "0..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "datumOpheffing"@nl ;
+    mim:type mim:Date ;
+    dcterms:identifier "EAID_91E44BF9_97BF_4c2b_8835_9B5D61343BE3" ;
+    rdfs:comment "<font color=\"#610e6a\">De datum waarop de organisatorische eenheid is opgeheven.</font>"@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/organisatorischeeenheid> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> ;
+    rdfs:range xsd:date .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/organisatorischeeenheid/emailadres> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "emailadres"@nl ;
+    mim:definitie "<font color=\"#610e6a\">Elektronisch postadres waaronder de organisatorische eenheid in de regel bereikbaar is.</font>"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/organisatorischeeenheid/emailadres"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "0..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "emailadres"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_4AE8DAEC_78F6_4b89_8FE6_2BADE0E8D539" ;
+    rdfs:comment "<font color=\"#610e6a\">Elektronisch postadres waaronder de organisatorische eenheid in de regel bereikbaar is.</font>"@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/organisatorischeeenheid> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/organisatorischeeenheid/faxnummer> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "faxnummer"@nl ;
+    mim:definitie "<font color=\"#610e6a\">Faxnummer waaronder de organisatorische eenheid in de regel bereikbaar is.</font>"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/organisatorischeeenheid/faxnummer"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "0..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "faxnummer"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_8C18F19B_24D1_433d_B435_194735264036" ;
+    rdfs:comment "<font color=\"#610e6a\">Faxnummer waaronder de organisatorische eenheid in de regel bereikbaar is.</font>"@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/organisatorischeeenheid> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/organisatorischeeenheid/formatie> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "Formatie"@nl ;
+    mim:authentiek mim:Authentiek ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/organisatorischeeenheid/formatie"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "Formatie"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_81696C38_5012_41f8_8719_E7EE39568CDA" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/organisatorischeeenheid> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/organisatorischeeenheid/naam> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "naam"@nl ;
+    mim:definitie "<font color=\"#610e6a\">De feitelijke naam van de organisatorische eenheid.</font>"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/organisatorischeeenheid/naam"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie true ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "naam"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_62135F33_66B8_435f_804E_C86312DEFA0D" ;
+    rdfs:comment "<font color=\"#610e6a\">De feitelijke naam van de organisatorische eenheid.</font>"@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/organisatorischeeenheid> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/organisatorischeeenheid/naamverkort> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "naamVerkort"@nl ;
+    mim:definitie "<font color=\"#610e6a\">Een verkorte naam voor de organisatorische eenheid.</font>"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/organisatorischeeenheid/naamverkort"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "0..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "naamVerkort"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_FE9B02D3_DE16_4c7f_8B02_166657BCFE77" ;
+    rdfs:comment "<font color=\"#610e6a\">Een verkorte naam voor de organisatorische eenheid.</font>"@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/organisatorischeeenheid> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/organisatorischeeenheid/omschrijving> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "omschrijving"@nl ;
+    mim:definitie "<font color=\"#610e6a\">Een omschrijving van de organisatorische eenheid.</font>"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/organisatorischeeenheid/omschrijving"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "0..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "omschrijving"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_BE46B281_992C_4153_94DF_6E8ADEB407CC" ;
+    rdfs:comment "<font color=\"#610e6a\">Een omschrijving van de organisatorische eenheid.</font>"@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/organisatorischeeenheid> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/organisatorischeeenheid/organisatieidentificatie> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "organisatieIdentificatie"@nl ;
+    mim:definitie "<font color=\"#610e6a\">Een korte identificatie van de organisatorische eenheid.</font>"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/organisatorischeeenheid/organisatieidentificatie"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "organisatieIdentificatie"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_59CD4AEE_EF70_4ac1_8728_80096C4DA80F" ;
+    rdfs:comment "<font color=\"#610e6a\">Een korte identificatie van de organisatorische eenheid.</font>"@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/organisatorischeeenheid> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/organisatorischeeenheid/telefoonnummer> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "telefoonnummer"@nl ;
+    mim:definitie "<font color=\"#610e6a\">Telefoonnummer waaronder de organisatorische eenheid in de regel bereikbaar is.</font>"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/organisatorischeeenheid/telefoonnummer"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "0..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "telefoonnummer"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_7D7E7DCC_9938_43df_A3E6_CD6A6CD80564" ;
+    rdfs:comment "<font color=\"#610e6a\">Telefoonnummer waaronder de organisatorische eenheid in de regel bereikbaar is.</font>"@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/organisatorischeeenheid> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/organisatorischeeenheid/toelichting> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "toelichting"@nl ;
+    mim:definitie "<font color=\"#610e6a\">Toelichting bij de organisatorische eenheid.</font>"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/organisatorischeeenheid/toelichting"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "0..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "toelichting"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_F40EF4CB_AF65_4c93_8B9D_7D78F5D0A0DC" ;
+    rdfs:comment "<font color=\"#610e6a\">Toelichting bij de organisatorische eenheid.</font>"@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/organisatorischeeenheid> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/functiehuis> a mim:Objecttype,
+        owl:Class ;
+    rdfs:label "Functiehuis"@nl ;
+    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/functiehuis/naam>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/functiehuis/omschrijving> ;
+    mim:definitie "Model waarin functies van een organisatie worden beschreven."@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/functiehuis"^^xsd:anyURI ;
+    mim:indicatieAbstractObject false ;
+    mim:naam "Functiehuis"@nl ;
+    dcterms:identifier "EAID_D69EE16A_390C_4d6f_BC01_2B13FB3B22F1" ;
+    rdfs:comment "Model waarin functies van een organisatie worden beschreven."@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/formatieplaats> a mim:Objecttype,
+        owl:Class ;
+    rdfs:label "Formatieplaats"@nl ;
+    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/formatieplaats/uren-per-week> ;
+    mim:definitie "Uitgangspunt is het vastgestelde formatieplan, dus niet de werkelijke bezetting. Het gaat hier om de toegestane formatie in fte van het ambtelijk apparaat van uw organisatie voor het begrotingsjaar"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/formatieplaats"^^xsd:anyURI ;
+    mim:indicatieAbstractObject false ;
+    mim:naam "Formatieplaats"@nl ;
+    dcterms:identifier "EAID_81EFBDCE_E500_4090_A37A_D3F799517866" ;
+    rdfs:comment "Uitgangspunt is het vastgestelde formatieplan, dus niet de werkelijke bezetting. Het gaat hier om de toegestane formatie in fte van het ambtelijk apparaat van uw organisatie voor het begrotingsjaar"@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/normprofiel> a mim:Objecttype,
+        owl:Class ;
+    rdfs:label "NormProfiel"@nl ;
+    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/normprofiel/code>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/normprofiel/omschrijving>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/normprofiel/schaal> ;
+    mim:definitie "Normprofiel of Normfunctie:nGenerieke functie zoals beschreven in HR21. Een functie kan worden gedefinieerd als het samenstel van feitelijk opgedragen taken en werkzaamheden"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/normprofiel"^^xsd:anyURI ;
+    mim:indicatieAbstractObject false ;
+    mim:naam "NormProfiel"@nl ;
+    dcterms:identifier "EAID_E1C6E98B_20B2_43b0_8EC1_5C0905B3A139" ;
+    rdfs:comment "Normprofiel of Normfunctie:nGenerieke functie zoals beschreven in HR21. Een functie kan worden gedefinieerd als het samenstel van feitelijk opgedragen taken en werkzaamheden"@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/rol> a mim:Objecttype,
+        owl:Class ;
+    rdfs:label "Rol"@nl ;
+    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/rol/datumbegin>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/rol/datumeinde>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/rol/omschrijving> ;
+    mim:definitie "De rol van de medewerker, zoals afdelingshoofd of manager"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/rol"^^xsd:anyURI ;
+    mim:indicatieAbstractObject false ;
+    mim:naam "Rol"@nl ;
+    dcterms:identifier "EAID_BF424764_453D_46cc_817C_3A7BDC4134A7" ;
+    rdfs:comment "De rol van de medewerker, zoals afdelingshoofd of manager"@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/werknemer> a mim:Objecttype,
+        owl:Class ;
+    rdfs:label "Werknemer"@nl ;
+    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/werknemer/geboortedatum>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/werknemer/naam>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/werknemer/voornaam>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/werknemer/woonplaats> ;
+    mim:definitie "De contractuele wederpartij van de werkgever bij de arbeidsovereenkomst."@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/werknemer"^^xsd:anyURI ;
+    mim:indicatieAbstractObject false ;
+    mim:naam "Werknemer"@nl ;
+    dcterms:identifier "EAID_BBBB63AC_B546_409b_B6D4_53DB561253B7" ;
+    rdfs:comment "De contractuele wederpartij van de werkgever bij de arbeidsovereenkomst."@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/inzet> a mim:Objecttype,
+        owl:Class ;
+    rdfs:label "Inzet"@nl ;
+    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/inzet/datumbegin>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/inzet/datumeinde>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/inzet/percentage>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/inzet/uren> ;
+    mim:definitie "Uren inzet die gepleegd wordt in een bepaalde periode op een organisatorische eenheid en het percentage dat ook daadwerkelijk wordt uitgevoerd.Dit kan afwijken van de contractuele uren."@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/inzet"^^xsd:anyURI ;
+    mim:indicatieAbstractObject false ;
+    mim:naam "Inzet"@nl ;
+    dcterms:identifier "EAID_532191CA_13CC_4500_93C9_54AB2862F38D" ;
+    rdfs:comment "Uren inzet die gepleegd wordt in een bepaalde periode op een organisatorische eenheid en het percentage dat ook daadwerkelijk wordt uitgevoerd.Dit kan afwijken van de contractuele uren."@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/organisatorischeeenheidhr> a mim:Objecttype,
+        owl:Class ;
+    rdfs:label "OrganisatorischeEenheidHR"@nl ;
+    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/organisatorischeeenheidhr/naam>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/organisatorischeeenheidhr/type> ;
+    mim:definitie "Specialisatie van de Organisatorische eenheid uit het RGBZ voor het HR domein."@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/organisatorischeeenheidhr"^^xsd:anyURI ;
+    mim:indicatieAbstractObject false ;
+    mim:naam "OrganisatorischeEenheidHR"@nl ;
+    dcterms:identifier "EAID_53B0C49F_1BDE_4fee_BB0B_0D82517177CC" ;
+    rdfs:comment "Specialisatie van de Organisatorische eenheid uit het RGBZ voor het HR domein."@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/> ;
+    rdfs:subClassOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/organisatorischeeenheid> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/functie> a mim:Objecttype,
+        owl:Class ;
+    rdfs:label "Functie"@nl ;
+    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/functie/code>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/functie/naam>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/functie/omschrijving>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/functie/schaal>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/functie/taken> ;
+    mim:definitie "Een samenhangende verzameling van rollen. Een functie kan worden gedefinieerd als het samenstel van feitelijk opgedragen taken en werkzaamheden"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/functie"^^xsd:anyURI ;
+    mim:indicatieAbstractObject false ;
+    mim:naam "Functie"@nl ;
+    dcterms:identifier "EAID_F29C11C1_477C_4b90_985C_43F94D08230A" ;
+    rdfs:comment "Een samenhangende verzameling van rollen. Een functie kan worden gedefinieerd als het samenstel van feitelijk opgedragen taken en werkzaamheden"@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/dienstverband> a mim:Objecttype,
+        owl:Class ;
+    rdfs:label "Dienstverband"@nl ;
+    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/dienstverband/datumeinde>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/dienstverband/datumstart>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/dienstverband/periodiek>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/dienstverband/salaris>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/dienstverband/schaal>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/dienstverband/urenperweek> ;
+    mim:definitie "De rechtsbetrekking tussen werkgever en werknemer zoals vastgelegd in een arbeidsovereenkomst."@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/dienstverband"^^xsd:anyURI ;
+    mim:indicatieAbstractObject false ;
+    mim:naam "Dienstverband"@nl ;
+    dcterms:identifier "EAID_63FF86E2_1BB0_48f6_8D95_3D82E8D2FA06" ;
+    rdfs:comment "De rechtsbetrekking tussen werkgever en werknemer zoals vastgelegd in een arbeidsovereenkomst."@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/organisatorischeeenheid> a mim:Objecttype,
+        owl:Class ;
+    rdfs:label "OrganisatorischeEenheid"@nl ;
+    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/organisatorischeeenheid/datumontstaan>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/organisatorischeeenheid/datumopheffing>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/organisatorischeeenheid/emailadres>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/organisatorischeeenheid/faxnummer>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/organisatorischeeenheid/formatie>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/organisatorischeeenheid/naam>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/organisatorischeeenheid/naamverkort>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/organisatorischeeenheid/omschrijving>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/organisatorischeeenheid/organisatieidentificatie>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/organisatorischeeenheid/telefoonnummer>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/organisatorischeeenheid/toelichting> ;
+    mim:definitie "Het deel van een functioneel afgebakend onderdeel binnen de organisatie dat haar activiteiten uitvoert binnen een VESTIGING VAN ZAAKBEHANDELENDE ORGANISATIE en die verantwoordelijk is voor de behandeling van zaken."@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/organisatorischeeenheid"^^xsd:anyURI ;
+    mim:indicatieAbstractObject false ;
+    mim:naam "OrganisatorischeEenheid"@nl ;
+    dcterms:identifier "EAID_936A4E8B_3E5A_44b6_8A5D_EFB39F83FB6D" ;
+    rdfs:comment "Het deel van een functioneel afgebakend onderdeel binnen de organisatie dat haar activiteiten uitvoert binnen een VESTIGING VAN ZAAKBEHANDELENDE ORGANISATIE en die verantwoordelijk is voor de behandeling van zaken."@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> .
+

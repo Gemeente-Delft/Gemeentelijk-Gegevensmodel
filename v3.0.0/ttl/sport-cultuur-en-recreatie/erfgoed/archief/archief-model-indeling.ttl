@@ -1,0 +1,833 @@
+# graph: <https://lod.gemeentelijkgegevensmodel.nl/v3.0.0/sport-cultuur-en-recreatie/erfgoed/archief/archief-model-indeling>
+
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix mim: <http://modellen.mim-standaard.nl/def/mim#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/archief/archief/heeft> a mim:Relatiesoort,
+        owl:ObjectProperty ;
+    rdfs:label "heeft"@nl ;
+    mim:aggregatietype mim:Geen ;
+    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/archief/archief> ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/archief/rechthebbende> ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/archief/archief/heeft"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "0..1" ;
+    mim:kardinaliteitRelatieBron "0..*" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "heeft"@nl ;
+    mim:unidirectioneel true ;
+    dcterms:identifier "EAID_B592184C_6739_49fe_9E13_B8D972C049AA" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/archief/archief> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/archief/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/archief/rechthebbende> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/archief/archief/stamt-uit> a mim:Relatiesoort,
+        owl:ObjectProperty ;
+    rdfs:label "stamt uit"@nl ;
+    mim:aggregatietype mim:Geen ;
+    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/archief/archief> ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/kern/dimensies/model/periode> ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/archief/archief/stamt-uit"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..*" ;
+    mim:kardinaliteitRelatieBron "0..*" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "stamt uit"@nl ;
+    mim:unidirectioneel true ;
+    dcterms:identifier "EAID_F50E960E_F058_49d1_BEE4_CDC528BE386F" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/archief/archief> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/archief/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/dimensies/model/periode> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/archief/archief/valt-binnen> a mim:Relatiesoort,
+        owl:ObjectProperty ;
+    rdfs:label "valt binnen"@nl ;
+    mim:aggregatietype mim:Geen ;
+    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/archief/archief> ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/archief/archiefcategorie> ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/archief/archief/valt-binnen"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "0..*" ;
+    mim:kardinaliteitRelatieBron "0..*" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "valt binnen"@nl ;
+    mim:unidirectioneel true ;
+    dcterms:identifier "EAID_6E5A130E_ADAA_49b7_B413_2D6E404039F6" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/archief/archief> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/archief/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/archief/archiefcategorie> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/archief/archiefstuk/heeft-nadere-toegang> a mim:Relatiesoort,
+        owl:ObjectProperty ;
+    rdfs:label "heeft"@nl ;
+    mim:aggregatietype mim:Geen ;
+    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/archief/archiefstuk> ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/archief/nadere-toegang> ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/archief/archiefstuk/heeft-nadere-toegang"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "0..1" ;
+    mim:kardinaliteitRelatieBron "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "heeft"@nl ;
+    mim:unidirectioneel true ;
+    dcterms:identifier "EAID_BC9161A8_B949_418c_8460_7BE95515134F" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/archief/archiefstuk> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/archief/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/archief/nadere-toegang> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/archief/archiefstuk/heeft-ordeningsschema> a mim:Relatiesoort,
+        owl:ObjectProperty ;
+    rdfs:label "heeft"@nl ;
+    mim:aggregatietype mim:Geen ;
+    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/archief/archiefstuk> ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/archief/ordeningsschema> ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/archief/archiefstuk/heeft-ordeningsschema"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "0..*" ;
+    mim:kardinaliteitRelatieBron "0..*" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "heeft"@nl ;
+    mim:unidirectioneel true ;
+    dcterms:identifier "EAID_93326F4C_59F0_4858_82A9_04FE93151B7F" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/archief/archiefstuk> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/archief/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/archief/ordeningsschema> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/archief/archiefstuk/is-onderdeel-van> a mim:Relatiesoort,
+        owl:ObjectProperty ;
+    rdfs:label "is onderdeel van"@nl ;
+    mim:aggregatietype mim:Geen ;
+    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/archief/archiefstuk> ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/archief/archief> ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/archief/archiefstuk/is-onderdeel-van"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:kardinaliteitRelatieBron "0..*" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "is onderdeel van"@nl ;
+    mim:unidirectioneel true ;
+    dcterms:identifier "EAID_2907D6A4_5E68_4260_888D_6A2F4DBED03F" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/archief/archiefstuk> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/archief/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/archief/archief> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/archief/archiefstuk/stamt-uit> a mim:Relatiesoort,
+        owl:ObjectProperty ;
+    rdfs:label "stamt uit"@nl ;
+    mim:aggregatietype mim:Geen ;
+    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/archief/archiefstuk> ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/kern/dimensies/model/periode> ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/archief/archiefstuk/stamt-uit"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..*" ;
+    mim:kardinaliteitRelatieBron "0..*" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "stamt uit"@nl ;
+    mim:unidirectioneel true ;
+    dcterms:identifier "EAID_FBD7B308_2CAD_425e_ACCA_ADFE8C30993C" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/archief/archiefstuk> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/archief/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/dimensies/model/periode> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/archief/indeling/hoort-bij> a mim:Relatiesoort,
+        owl:ObjectProperty ;
+    rdfs:label "hoort bij"@nl ;
+    mim:aggregatietype mim:Geen ;
+    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/archief/indeling> ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/archief/archief> ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/archief/indeling/hoort-bij"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:kardinaliteitRelatieBron "0..*" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "hoort bij"@nl ;
+    mim:unidirectioneel true ;
+    dcterms:identifier "EAID_99BFEAAB_AEF8_424e_B567_5D1DC2F5EE15" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/archief/indeling> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/archief/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/archief/archief> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/archief/indeling/valt-binnen-archiefstuk> a mim:Relatiesoort,
+        owl:ObjectProperty ;
+    rdfs:label "valt binnen"@nl ;
+    mim:aggregatietype mim:Geen ;
+    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/archief/indeling> ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/archief/archiefstuk> ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/archief/indeling/valt-binnen-archiefstuk"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "0..*" ;
+    mim:kardinaliteitRelatieBron "0..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "valt binnen"@nl ;
+    mim:unidirectioneel true ;
+    dcterms:identifier "EAID_9608D483_4A70_43a3_A08A_94E36A899845" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/archief/indeling> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/archief/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/archief/archiefstuk> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/archief/indeling/valt-binnen-indeling> a mim:Relatiesoort,
+        owl:ObjectProperty ;
+    rdfs:label "valt binnen"@nl ;
+    mim:aggregatietype mim:Geen ;
+    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/archief/indeling> ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/archief/indeling> ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/archief/indeling/valt-binnen-indeling"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "0..*" ;
+    mim:kardinaliteitRelatieBron "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "valt binnen"@nl ;
+    mim:unidirectioneel true ;
+    dcterms:identifier "EAID_CF9A5227_0396_435a_8734_0980E5661383" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/archief/indeling> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/archief/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/archief/indeling> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/archief/nadere-toegang/wordt-beschreven> a mim:Relatiesoort,
+        owl:ObjectProperty ;
+    rdfs:label "wordt beschreven"@nl ;
+    mim:aggregatietype mim:Geen ;
+    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/archief/nadere-toegang> ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/archief/index> ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/archief/nadere-toegang/wordt-beschreven"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..*" ;
+    mim:kardinaliteitRelatieBron "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "wordt beschreven"@nl ;
+    mim:unidirectioneel true ;
+    dcterms:identifier "EAID_3CABDAAA_CBFF_4baf_83F5_E5EDAEFA5A8F" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/archief/nadere-toegang> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/archief/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/archief/index> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/v3.0.0/sport-cultuur-en-recreatie/erfgoed/archief/archief-model-indeling> a owl:Ontology ;
+    rdfs:label "Archief Model Indeling"@nl ;
+    dcterms:identifier "EAID_691E6481_68AC_4754_88F0_60D2877D1549" ;
+    dcterms:isPartOf <https://lod.gemeentelijkgegevensmodel.nl/> ;
+    owl:versionInfo "v3.0.0" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/dimensies/model/periode/datumeinde> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "datumEinde"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/dimensies/model/periode/datumeinde"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "datumEinde"@nl ;
+    mim:type mim:Date ;
+    dcterms:identifier "EAID_3C857B6C_630C_4e7a_9845_EF0CB009CA48" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/dimensies/model/periode> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/dimensies/model/> ;
+    rdfs:range xsd:date .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/dimensies/model/periode/datumstart> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "datumStart"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/dimensies/model/periode/datumstart"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "datumStart"@nl ;
+    mim:type mim:Date ;
+    dcterms:identifier "EAID_FED47348_98AD_47c4_BDF6_981A9F60DB5A" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/dimensies/model/periode> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/dimensies/model/> ;
+    rdfs:range xsd:date .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/dimensies/model/periode/omschrijving> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "omschrijving"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/dimensies/model/periode/omschrijving"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "omschrijving"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_61BC6E7C_2526_4cd4_B161_BF123AF97917" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/dimensies/model/periode> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/dimensies/model/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/archief/archief/archiefnummer> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "archiefnummer"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/archief/archief/archiefnummer"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "archiefnummer"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_DB00B8CD_76CD_42d8_8CB6_8E8CE7B9A7D7" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/archief/archief> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/archief/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/archief/archief/naam> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "naam"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/archief/archief/naam"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "naam"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_496CB0AA_4467_4fe7_B89C_9875B73033F9" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/archief/archief> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/archief/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/archief/archief/omschrijving> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "omschrijving"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/archief/archief/omschrijving"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "omschrijving"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_D99ED827_D450_43df_A829_F63FB04D9F1D" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/archief/archief> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/archief/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/archief/archief/openbaarheidsbeperking> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "openbaarheidsbeperking"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/archief/archief/openbaarheidsbeperking"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "openbaarheidsbeperking"@nl ;
+    mim:type mim:Integer ;
+    dcterms:identifier "EAID_DCA87536_58FA_4673_8E50_E11FBF1187C6" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/archief/archief> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/archief/> ;
+    rdfs:range xsd:integer .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/archief/archiefcategorie/naam> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "naam"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/archief/archiefcategorie/naam"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "naam"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_12C56914_3EED_4b98_9176_CCEA13002EEE" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/archief/archiefcategorie> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/archief/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/archief/archiefcategorie/nummer> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "nummer"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/archief/archiefcategorie/nummer"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "nummer"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_EC214187_AC29_4f81_80DF_37808F480E3A" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/archief/archiefcategorie> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/archief/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/archief/archiefcategorie/omschrijving> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "omschrijving"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/archief/archiefcategorie/omschrijving"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "omschrijving"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_A8904DBF_BE6C_4198_90FE_FDB76F162ABF" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/archief/archiefcategorie> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/archief/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/archief/archiefstuk/beschrijving> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "beschrijving"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/archief/archiefstuk/beschrijving"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "beschrijving"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_E4AD5012_EBB3_4511_B676_5083EC9AF51E" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/archief/archiefstuk> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/archief/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/archief/archiefstuk/inventarisnummer> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "inventarisnummer"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/archief/archiefstuk/inventarisnummer"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "inventarisnummer"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_53C0365D_4113_4910_91F1_49B655B411A0" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/archief/archiefstuk> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/archief/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/archief/archiefstuk/omvang> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "omvang"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/archief/archiefstuk/omvang"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "omvang"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_6555CACF_12B4_4b3a_B689_D16FF11204CC" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/archief/archiefstuk> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/archief/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/archief/archiefstuk/openbaarheidsbeperking> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "openbaarheidsbeperking"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/archief/archiefstuk/openbaarheidsbeperking"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "openbaarheidsbeperking"@nl ;
+    mim:type mim:Boolean ;
+    dcterms:identifier "EAID_C1A3ED4F_E2DF_4381_8E28_E41035E4CE5B" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/archief/archiefstuk> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/archief/> ;
+    rdfs:range xsd:boolean .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/archief/archiefstuk/trefwoorden> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "trefwoorden"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/archief/archiefstuk/trefwoorden"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "trefwoorden"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_AB82E5B0_9E72_4b49_902E_010EC60AB00A" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/archief/archiefstuk> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/archief/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/archief/archiefstuk/uiterlijkevorm> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "uiterlijkeVorm"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/archief/archiefstuk/uiterlijkevorm"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "uiterlijkeVorm"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_87F279D2_1031_4d09_98E7_8D0CA6C8BEAE" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/archief/archiefstuk> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/archief/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/archief/indeling/indelingsoort> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "indelingsoort"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/archief/indeling/indelingsoort"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "indelingsoort"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_617C9331_A34E_4af6_A29D_91C4E5CBD86E" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/archief/indeling> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/archief/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/archief/indeling/naam> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "naam"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/archief/indeling/naam"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "naam"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_96AEAB4C_329B_43ad_8339_F7C68B73CD4D" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/archief/indeling> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/archief/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/archief/indeling/nummer> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "nummer"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/archief/indeling/nummer"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "nummer"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_D1748E34_47D8_42ca_A385_8FB075EB9AD0" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/archief/indeling> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/archief/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/archief/indeling/omschrijving> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "omschrijving"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/archief/indeling/omschrijving"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "omschrijving"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_E1931C78_975C_42d4_86F7_E91B4133D1A3" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/archief/indeling> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/archief/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/archief/index/indexnaam> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "indexnaam"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/archief/index/indexnaam"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "indexnaam"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_5EA12EEA_CCAC_41c3_9A58_61E475F5D0D7" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/archief/index> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/archief/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/archief/index/indexwaarde> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "indexwaarde"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/archief/index/indexwaarde"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "indexwaarde"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_05BADD92_7D97_467f_A0C5_4966EDBA70C4" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/archief/index> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/archief/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/archief/ordeningsschema/naam> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "naam"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/archief/ordeningsschema/naam"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "naam"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_37E5D048_CDFD_428f_92C8_C4AE9A098D17" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/archief/ordeningsschema> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/archief/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/archief/ordeningsschema/text> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "text"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/archief/ordeningsschema/text"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "text"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_BE358B4F_FFD8_4365_AD99_CE3015F0B468" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/archief/ordeningsschema> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/archief/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/archief/rechthebbende> a mim:Objecttype,
+        owl:Class ;
+    rdfs:label "Rechthebbende"@nl ;
+    mim:definitie "Een rechthebbende is iemand die rechten heeft op een goed."@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/archief/rechthebbende"^^xsd:anyURI ;
+    mim:indicatieAbstractObject false ;
+    mim:naam "Rechthebbende"@nl ;
+    dcterms:identifier "EAID_9AE5BCE3_AD6D_4241_9651_823400E3745F" ;
+    rdfs:comment "Een rechthebbende is iemand die rechten heeft op een goed."@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/archief/> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/archief/index> a mim:Objecttype,
+        owl:Class ;
+    rdfs:label "Index"@nl ;
+    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/archief/index/indexnaam>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/archief/index/indexwaarde> ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/archief/index"^^xsd:anyURI ;
+    mim:indicatieAbstractObject false ;
+    mim:naam "Index"@nl ;
+    dcterms:identifier "EAID_C45E0D5D_3B2F_40a7_B12C_B6E910C516FA" ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/archief/> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/archief/nadere-toegang> a mim:Objecttype,
+        owl:Class ;
+    rdfs:label "Nadere Toegang"@nl ;
+    mim:definitie "De bevoegdheid om gegevens te raadplegen, bepaalde plaatsen te betreden of een bepaalde taak uit te oefenen."@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/archief/nadere-toegang"^^xsd:anyURI ;
+    mim:indicatieAbstractObject false ;
+    mim:naam "Nadere Toegang"@nl ;
+    dcterms:identifier "EAID_7A080605_07C5_4947_9B35_BC6EBE2041FA" ;
+    rdfs:comment "De bevoegdheid om gegevens te raadplegen, bepaalde plaatsen te betreden of een bepaalde taak uit te oefenen."@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/archief/> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/archief/ordeningsschema> a mim:Objecttype,
+        owl:Class ;
+    rdfs:label "Ordeningsschema"@nl ;
+    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/archief/ordeningsschema/naam>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/archief/ordeningsschema/text> ;
+    mim:definitie "Ordening om archief en collecties beter vindbaar en bruikbaar voor betrokkenen."@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/archief/ordeningsschema"^^xsd:anyURI ;
+    mim:indicatieAbstractObject false ;
+    mim:naam "Ordeningsschema"@nl ;
+    dcterms:identifier "EAID_B61986A2_B8E7_4e69_AD55_E61771FDEEB4" ;
+    rdfs:comment "Ordening om archief en collecties beter vindbaar en bruikbaar voor betrokkenen."@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/archief/> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/archief/archiefcategorie> a mim:Objecttype,
+        owl:Class ;
+    rdfs:label "Archiefcategorie"@nl ;
+    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/archief/archiefcategorie/naam>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/archief/archiefcategorie/nummer>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/archief/archiefcategorie/omschrijving> ;
+    mim:definitie "Typologie van een archief conform landelijke indeling"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/archief/archiefcategorie"^^xsd:anyURI ;
+    mim:indicatieAbstractObject false ;
+    mim:naam "Archiefcategorie"@nl ;
+    dcterms:identifier "EAID_66DB38CC_932D_462c_9791_C60237EA9B7A" ;
+    rdfs:comment "Typologie van een archief conform landelijke indeling"@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/archief/> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/dimensies/model/periode> a mim:Objecttype,
+        owl:Class ;
+    rdfs:label "Periode"@nl ;
+    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/kern/dimensies/model/periode/datumeinde>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/dimensies/model/periode/datumstart>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/dimensies/model/periode/omschrijving> ;
+    mim:definitie "bepaalde tijdsduur."@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/dimensies/model/periode"^^xsd:anyURI ;
+    mim:indicatieAbstractObject false ;
+    mim:naam "Periode"@nl ;
+    dcterms:identifier "EAID_137DECB4_F249_4039_B4F3_787852C4CB11" ;
+    rdfs:comment "bepaalde tijdsduur."@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/dimensies/model/> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/archief/indeling> a mim:Objecttype,
+        owl:Class ;
+    rdfs:label "Indeling"@nl ;
+    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/archief/indeling/indelingsoort>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/archief/indeling/naam>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/archief/indeling/nummer>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/archief/indeling/omschrijving> ;
+    mim:definitie "Onderwerpen groeperen in samenhangende categorieën."@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/archief/indeling"^^xsd:anyURI ;
+    mim:indicatieAbstractObject false ;
+    mim:naam "Indeling"@nl ;
+    dcterms:identifier "EAID_13119DEC_D451_4bec_BB37_7B1944ACCA9D" ;
+    rdfs:comment "Onderwerpen groeperen in samenhangende categorieën."@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/archief/> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/archief/archief> a mim:Objecttype,
+        owl:Class ;
+    rdfs:label "Archief"@nl ;
+    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/archief/archief/archiefnummer>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/archief/archief/naam>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/archief/archief/omschrijving>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/archief/archief/openbaarheidsbeperking> ;
+    mim:definitie "De bewaarplaats van belangrijke gegevens die zijn vastgelegd in documentvorm alsook de verzameling van documenten die voor een bepaald doel vervaardigd zijn."@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/archief/archief"^^xsd:anyURI ;
+    mim:indicatieAbstractObject false ;
+    mim:naam "Archief"@nl ;
+    dcterms:identifier "EAID_E09E5B44_4D39_455a_B0A5_390A63AC0C43" ;
+    rdfs:comment "De bewaarplaats van belangrijke gegevens die zijn vastgelegd in documentvorm alsook de verzameling van documenten die voor een bepaald doel vervaardigd zijn."@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/archief/> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/archief/archiefstuk> a mim:Objecttype,
+        owl:Class ;
+    rdfs:label "Archiefstuk"@nl ;
+    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/archief/archiefstuk/beschrijving>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/archief/archiefstuk/inventarisnummer>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/archief/archiefstuk/omvang>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/archief/archiefstuk/openbaarheidsbeperking>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/archief/archiefstuk/trefwoorden>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/archief/archiefstuk/uiterlijkevorm> ;
+    mim:definitie "Bijeengebrachte informatie, ongeacht het medium, die wordt gecreëerd, ontvangen en gearchiveerd door een bureau, een instelling, een organisatie of een individu met het oog op het nakomen van wettelijke verplichtingen of het uitvoeren van zakelijke transacties.(AAT)"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/archief/archiefstuk"^^xsd:anyURI ;
+    mim:indicatieAbstractObject false ;
+    mim:naam "Archiefstuk"@nl ;
+    dcterms:identifier "EAID_369E453B_4C3A_48dc_9619_C36232B339D9" ;
+    rdfs:comment "Bijeengebrachte informatie, ongeacht het medium, die wordt gecreëerd, ontvangen en gearchiveerd door een bureau, een instelling, een organisatie of een individu met het oog op het nakomen van wettelijke verplichtingen of het uitvoeren van zakelijke transacties.(AAT)"@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/archief/> .
+

@@ -1,0 +1,247 @@
+# graph: <https://lod.gemeentelijkgegevensmodel.nl/v3.0.0/sociaal-domein/dak-en-thuislozen/diagram-dakloosheid>
+
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix mim: <http://modellen.mim-standaard.nl/def/mim#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/client/heeft-dakloosheid> a mim:Relatiesoort,
+        owl:ObjectProperty ;
+    rdfs:label "heeft"@nl ;
+    mim:aggregatietype mim:Geen ;
+    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/client> ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/dak-en-thuislozen/dakloosheid> ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/client/heeft-dakloosheid"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "0..*" ;
+    mim:kardinaliteitRelatieBron "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "heeft"@nl ;
+    mim:unidirectioneel true ;
+    dcterms:identifier "EAID_6CA0E96C_37E6_4bed_87B2_D060CCE29539" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/client> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/dak-en-thuislozen/dakloosheid> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/v3.0.0/sociaal-domein/dak-en-thuislozen/diagram-dakloosheid> a owl:Ontology ;
+    rdfs:label "Diagram Dakloosheid"@nl ;
+    dcterms:identifier "EAID_7699CCFC_3358_48d0_A60C_F5D044D58F87" ;
+    dcterms:isPartOf <https://lod.gemeentelijkgegevensmodel.nl/> ;
+    owl:versionInfo "v3.0.0" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/dak-en-thuislozen/dakloosheid/datumeind> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "datumEind"@nl ;
+    mim:definitie "Einddatum dat een persoon als dakloze is geregistreerd"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/dak-en-thuislozen/dakloosheid/datumeind"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "datumEind"@nl ;
+    mim:type mim:Date ;
+    dcterms:identifier "EAID_4071D3AC_3057_432e_88E5_F27D6AF2BB28" ;
+    rdfs:comment "Einddatum dat een persoon als dakloze is geregistreerd"@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/dak-en-thuislozen/dakloosheid> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/dak-en-thuislozen/> ;
+    rdfs:range xsd:date .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/dak-en-thuislozen/dakloosheid/datumstart> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "datumStart"@nl ;
+    mim:definitie "Startdatum dat een persoon als dakloze is geregistreerd"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/dak-en-thuislozen/dakloosheid/datumstart"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "datumStart"@nl ;
+    mim:type mim:Date ;
+    dcterms:identifier "EAID_18B043C7_9235_433d_8194_BB6AF0108014" ;
+    rdfs:comment "Startdatum dat een persoon als dakloze is geregistreerd"@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/dak-en-thuislozen/dakloosheid> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/dak-en-thuislozen/> ;
+    rdfs:range xsd:date .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/dak-en-thuislozen/dakloosheid/gemeenteoorsprong> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "gemeenteOorsprong"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/dak-en-thuislozen/dakloosheid/gemeenteoorsprong"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "gemeenteOorsprong"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_DD193E6A_07C2_4f60_9496_E57CB8E62467" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/dak-en-thuislozen/dakloosheid> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/dak-en-thuislozen/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/dak-en-thuislozen/dakloosheid/toestemminggemeentelijkbriefadres> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "toestemmingGemeentelijkBriefadres"@nl ;
+    mim:definitie "Heeft de dakloze toestemming om een gemeentelijk briefadres te gebruiken"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/dak-en-thuislozen/dakloosheid/toestemminggemeentelijkbriefadres"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "toestemmingGemeentelijkBriefadres"@nl ;
+    mim:type mim:Boolean ;
+    dcterms:identifier "EAID_BBF87931_67A7_492d_8E0C_BBC804E3C245" ;
+    rdfs:comment "Heeft de dakloze toestemming om een gemeentelijk briefadres te gebruiken"@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/dak-en-thuislozen/dakloosheid> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/dak-en-thuislozen/> ;
+    rdfs:range xsd:boolean .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/dak-en-thuislozen/dakloosheid/toestemmingnachtopvang> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "toestemmingNachtopvang"@nl ;
+    mim:definitie "Heeft de dakloze toestemming om gebruik te maken van de gemeentelijke nachtopvang"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/dak-en-thuislozen/dakloosheid/toestemmingnachtopvang"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "toestemmingNachtopvang"@nl ;
+    mim:type mim:Boolean ;
+    dcterms:identifier "EAID_F57001F8_B25D_4219_8696_9BD3C8902057" ;
+    rdfs:comment "Heeft de dakloze toestemming om gebruik te maken van de gemeentelijke nachtopvang"@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/dak-en-thuislozen/dakloosheid> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/dak-en-thuislozen/> ;
+    rdfs:range xsd:boolean .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/client/code> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "code"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/client/code"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "code"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_2F053C54_0964_436c_8943_4727C5809CAB" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/client> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/client/gezagsdragergekend> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "gezagsdragerGekend"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/client/gezagsdragergekend"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "gezagsdragerGekend"@nl ;
+    mim:type mim:Boolean ;
+    dcterms:identifier "EAID_98ACDCD3_78C0_4f19_9D7F_3D6E9117633C" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/client> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/> ;
+    rdfs:range xsd:boolean .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/client/juridischestatus> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "juridischeStatus"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/client/juridischestatus"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "juridischeStatus"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_3002E65F_86D7_473e_91BF_98F5877E12D0" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/client> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/client/wettelijkevertegenwoordiging> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "wettelijkeVertegenwoordiging"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/client/wettelijkevertegenwoordiging"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "wettelijkeVertegenwoordiging"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_9CC38D5F_DED2_409b_B94B_2A733C2B7BB0" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/client> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/client> a mim:Objecttype,
+        owl:Class ;
+    rdfs:label "Client"@nl ;
+    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/client/code>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/client/gezagsdragergekend>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/client/juridischestatus>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/client/wettelijkevertegenwoordiging> ;
+    mim:definitie "Een ingeschreven persoon die gebruik maakt van producten en diensten van de gemeente."@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/client"^^xsd:anyURI ;
+    mim:indicatieAbstractObject false ;
+    mim:naam "Client"@nl ;
+    dcterms:identifier "EAID_DAF09055_A5A6_4ff4_A158_21B20567B296" ;
+    rdfs:comment "Een ingeschreven persoon die gebruik maakt van producten en diensten van de gemeente."@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/dak-en-thuislozen/dakloosheid> a mim:Objecttype,
+        owl:Class ;
+    rdfs:label "Dakloosheid"@nl ;
+    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/dak-en-thuislozen/dakloosheid/datumeind>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/dak-en-thuislozen/dakloosheid/datumstart>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/dak-en-thuislozen/dakloosheid/gemeenteoorsprong>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/dak-en-thuislozen/dakloosheid/toestemminggemeentelijkbriefadres>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/dak-en-thuislozen/dakloosheid/toestemmingnachtopvang> ;
+    mim:definitie "Informatie met betrekking tot dakloosheid"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/dak-en-thuislozen/dakloosheid"^^xsd:anyURI ;
+    mim:indicatieAbstractObject false ;
+    mim:naam "Dakloosheid"@nl ;
+    mim:populatie "Voor objecttypen die deel uitmaken van een (basis)registratie betreft dit de beschrijving van de exemplaren van het gedefinieerde objecttype die in de desbetreffende (basis)-registratie voorhanden zijn.#NOTES#Voor objecttypen die deel uitmaken van een (basis)registratie betreft dit de beschrijving van de exemplaren van het gedefinieerde objecttype die in de desbetreffende (basis)-registratie voorhanden zijn.#NOTES#Voor objecttypen die deel uitmaken van een (basis)registratie betreft dit de beschrijving van de exemplaren van het gedefinieerde objecttype die in de desbetreffende (basis)-registratie voorhanden zijn.#NOTES#Voor objecttypen die deel uitmaken van een (basis)registratie betreft dit de beschrijving van de exemplaren van het gedefinieerde objecttype die in de desbetreffende (basis)-registratie voorhanden zijn.#NOTES#Voor objecttypen die deel uitmaken van een (basis)registratie betreft dit de beschrijving van de exemplaren van het gedefinieerde objecttype die in de desbetreffende (basis)-registratie voorhanden zijn.#NOTES#Voor objecttypen die deel uitmaken van een (basis)registratie betreft dit de beschrijving van de exemplaren van het gedefinieerde objecttype die in de desbetreffende (basis)-registratie voorhanden zijn.#NOTES#Voor objecttypen die deel uitmaken van een (basis)registratie betreft dit de beschrijving van de exemplaren van het gedefinieerde objecttype die in de desbetreffende (basis)-registratie voorhanden zijn.#NOTES#Voor objecttypen die deel uitmaken van een (basis)registratie betreft dit de beschrijving van de exemplaren van het gedefinieerde objecttype die in de desbetreffende (basis)-registratie voorhanden zijn." ;
+    dcterms:identifier "EAID_A0F8E790_518A_4717_88C2_1143DE9F944A" ;
+    rdfs:comment "Informatie met betrekking tot dakloosheid"@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/dak-en-thuislozen/> .
+

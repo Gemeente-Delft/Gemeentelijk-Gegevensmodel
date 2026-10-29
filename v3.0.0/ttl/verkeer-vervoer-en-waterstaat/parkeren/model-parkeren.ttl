@@ -1,0 +1,3287 @@
+# graph: <https://lod.gemeentelijkgegevensmodel.nl/v3.0.0/verkeer-vervoer-en-waterstaat/parkeren/model-parkeren>
+
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix mim: <http://modellen.mim-standaard.nl/def/mim#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/geleverd-via> a mim:Relatiesoort,
+        owl:ObjectProperty ;
+    rdfs:label "geleverd via"@nl ;
+    mim:aggregatietype mim:Geen ;
+    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker> ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/inkoop/leverancier> ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/geleverd-via"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "0..1" ;
+    mim:kardinaliteitRelatieBron "0..*" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "geleverd via"@nl ;
+    mim:unidirectioneel true ;
+    dcterms:identifier "EAID_2D7DFEB4_3B70_4079_A901_DC9F424EF009" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/inkoop/leverancier> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/rechtspersoon/adresbinnenland> a mim:Relatiesoort,
+        owl:ObjectProperty ;
+    rdfs:label "adresBinnenland"@nl ;
+    mim:aggregatietype mim:Geen ;
+    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/rechtspersoon> ;
+    mim:definitie "De aanduiding van het adres waar het SUBJECT verblijft dan wel bereikbaar is."@nl ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/binnenlandsadres> ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/rechtspersoon/adresbinnenland"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "adresBinnenland"@nl ;
+    mim:unidirectioneel true ;
+    dcterms:identifier "EAID_0F55857A_1582_46f5_9621_0E93F8C13310" ;
+    rdfs:comment "De aanduiding van het adres waar het SUBJECT verblijft dan wel bereikbaar is."@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/rechtspersoon> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/binnenlandsadres> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/v3.0.0/verkeer-vervoer-en-waterstaat/parkeren/model-parkeren> a owl:Ontology ;
+    rdfs:label "Model Parkeren"@nl ;
+    dcterms:identifier "EAID_84B6B75B_2B58_455d_B019_C9B1E71717C2" ;
+    dcterms:isPartOf <https://lod.gemeentelijkgegevensmodel.nl/> ;
+    owl:versionInfo "v3.0.0" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/mulderfeit/betreft-voertuig> a mim:Relatiesoort,
+        owl:ObjectProperty ;
+    rdfs:label "betreft voertuig"@nl ;
+    mim:aggregatietype mim:Geen ;
+    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/mulderfeit> ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/voertuig> ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/mulderfeit/betreft-voertuig"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "0..1" ;
+    mim:kardinaliteitRelatieBron "0..*" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "betreft voertuig"@nl ;
+    mim:unidirectioneel true ;
+    dcterms:identifier "EAID_D16E2EF9_1913_44f1_8479_F9C3AD43E98F" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/mulderfeit> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/voertuig> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeergarage> a mim:Objecttype,
+        owl:Class ;
+    rdfs:label "Parkeergarage"@nl ;
+    mim:definitie "Open constructie die geheel of gedeeltelijk in gebruik is als voorziening voor het parkeren van voertuigen"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeergarage"^^xsd:anyURI ;
+    mim:indicatieAbstractObject false ;
+    mim:naam "Parkeergarage"@nl ;
+    dcterms:identifier "EAID_8F492648_6EF2_4f8a_87C9_2440230D4137" ;
+    rdfs:comment "Open constructie die geheel of gedeeltelijk in gebruik is als voorziening voor het parkeren van voertuigen"@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/> ;
+    rdfs:subClassOf <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeerzone> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeerrecht/betreft-parkeerzone> a mim:Relatiesoort,
+        owl:ObjectProperty ;
+    rdfs:label "betreft"@nl ;
+    mim:aggregatietype mim:Geen ;
+    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeerrecht> ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeerzone> ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeerrecht/betreft-parkeerzone"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..*" ;
+    mim:kardinaliteitRelatieBron "0..*" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "betreft"@nl ;
+    mim:unidirectioneel true ;
+    dcterms:identifier "EAID_DAB8A69C_0150_4f78_80B4_BBDF25BD0734" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeerrecht> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeerzone> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeerrecht/betreft-voertuig> a mim:Relatiesoort,
+        owl:ObjectProperty ;
+    rdfs:label "betreft"@nl ;
+    mim:aggregatietype mim:Geen ;
+    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeerrecht> ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/voertuig> ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeerrecht/betreft-voertuig"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:kardinaliteitRelatieBron "0..*" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "betreft"@nl ;
+    mim:unidirectioneel true ;
+    dcterms:identifier "EAID_A1D9E6C1_5A66_4cf7_A381_6BB023BAF9D8" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeerrecht> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/voertuig> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeerrecht/leverancier> a mim:Relatiesoort,
+        owl:ObjectProperty ;
+    rdfs:label "leverancier"@nl ;
+    mim:aggregatietype mim:Geen ;
+    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeerrecht> ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/belprovider> ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeerrecht/leverancier"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "0..1" ;
+    mim:kardinaliteitRelatieBron "0..*" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "leverancier"@nl ;
+    mim:unidirectioneel true ;
+    dcterms:identifier "EAID_FA794E49_670B_4071_9AB0_16EE0E2BB363" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeerrecht> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/belprovider> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeerscan/betreft-parkeervlak> a mim:Relatiesoort,
+        owl:ObjectProperty ;
+    rdfs:label "betreft"@nl ;
+    mim:aggregatietype mim:Geen ;
+    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeerscan> ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeervlak> ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeerscan/betreft-parkeervlak"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:kardinaliteitRelatieBron "0..*" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "betreft"@nl ;
+    mim:unidirectioneel true ;
+    dcterms:identifier "EAID_8A63FBB4_9361_4b85_A66C_FBD554919BDC" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeerscan> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeervlak> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeerscan/betreft-voertuig> a mim:Relatiesoort,
+        owl:ObjectProperty ;
+    rdfs:label "betreft"@nl ;
+    mim:aggregatietype mim:Geen ;
+    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeerscan> ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/voertuig> ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeerscan/betreft-voertuig"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:kardinaliteitRelatieBron "0..*" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "betreft"@nl ;
+    mim:unidirectioneel true ;
+    dcterms:identifier "EAID_8346683D_99E3_4a0b_A741_2FBE97BE3FA7" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeerscan> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/voertuig> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeerscan/komt-voort-uit> a mim:Relatiesoort,
+        owl:ObjectProperty ;
+    rdfs:label "komt voort uit"@nl ;
+    mim:aggregatietype mim:Geen ;
+    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeerscan> ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/naheffing> ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeerscan/komt-voort-uit"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "0..1" ;
+    mim:kardinaliteitRelatieBron "0..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "komt voort uit"@nl ;
+    mim:unidirectioneel true ;
+    dcterms:identifier "EAID_DFD415FA_8E2B_40c0_ACC5_9FAE27393B25" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeerscan> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/naheffing> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeerscan/uitgevoerd-door> a mim:Relatiesoort,
+        owl:ObjectProperty ;
+    rdfs:label "uitgevoerd door"@nl ;
+    mim:aggregatietype mim:Geen ;
+    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeerscan> ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker> ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeerscan/uitgevoerd-door"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:kardinaliteitRelatieBron "0..*" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "uitgevoerd door"@nl ;
+    mim:unidirectioneel true ;
+    dcterms:identifier "EAID_50A13B03_8117_4707_8DB3_8161452B7AEE" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeerscan> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeerscan/verificatie> a mim:Relatiesoort,
+        owl:ObjectProperty ;
+    rdfs:label "verificatie"@nl ;
+    mim:aggregatietype mim:Geen ;
+    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeerscan> ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeerrecht> ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeerscan/verificatie"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "0..1" ;
+    mim:kardinaliteitRelatieBron "0..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "verificatie"@nl ;
+    mim:unidirectioneel true ;
+    dcterms:identifier "EAID_E6B1D422_FC65_4238_A32E_048C78380023" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeerscan> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeerrecht> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeervergunning/geldig-voor> a mim:Relatiesoort,
+        owl:ObjectProperty ;
+    rdfs:label "geldig voor"@nl ;
+    mim:aggregatietype mim:Geen ;
+    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeervergunning> ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeerzone> ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeervergunning/geldig-voor"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..*" ;
+    mim:kardinaliteitRelatieBron "0..*" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "geldig voor"@nl ;
+    mim:unidirectioneel true ;
+    dcterms:identifier "EAID_C198CD7E_8F34_4925_A08C_5788991A2148" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeervergunning> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeerzone> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeervergunning/houder> a mim:Relatiesoort,
+        owl:ObjectProperty ;
+    rdfs:label "houder"@nl ;
+    mim:aggregatietype mim:Geen ;
+    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeervergunning> ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/rechtspersoon> ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeervergunning/houder"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:kardinaliteitRelatieBron "0..*" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "houder"@nl ;
+    mim:unidirectioneel true ;
+    dcterms:identifier "EAID_E4ACAF3E_D89D_40d2_BE17_3BBA3AEB554B" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeervergunning> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/rechtspersoon> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeervergunning/resulteert> a mim:Relatiesoort,
+        owl:ObjectProperty ;
+    rdfs:label "resulteert"@nl ;
+    mim:aggregatietype mim:Geen ;
+    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeervergunning> ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeerrecht> ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeervergunning/resulteert"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "0..1" ;
+    mim:kardinaliteitRelatieBron "0..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "resulteert"@nl ;
+    mim:unidirectioneel true ;
+    dcterms:identifier "EAID_A9A7708E_526C_41d5_9E5F_48EEAB4E93BD" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeervergunning> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeerrecht> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeerzone/bevat-parkeervlak> a mim:Relatiesoort,
+        owl:ObjectProperty ;
+    rdfs:label "bevat"@nl ;
+    mim:aggregatietype mim:Geen ;
+    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeerzone> ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeervlak> ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeerzone/bevat-parkeervlak"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "0..*" ;
+    mim:kardinaliteitRelatieBron "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "bevat"@nl ;
+    mim:unidirectioneel true ;
+    dcterms:identifier "EAID_6D09D9CB_DC86_45d7_A405_29ED9513F0ED" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeerzone> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeervlak> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeerzone/bevat-straatsectie> a mim:Relatiesoort,
+        owl:ObjectProperty ;
+    rdfs:label "bevat"@nl ;
+    mim:aggregatietype mim:Geen ;
+    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeerzone> ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/straatsectie> ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeerzone/bevat-straatsectie"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "0..*" ;
+    mim:kardinaliteitRelatieBron "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "bevat"@nl ;
+    mim:unidirectioneel true ;
+    dcterms:identifier "EAID_D0AD7ED8_AC12_423d_AE20_567432B9F842" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeerzone> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/straatsectie> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/productgroep/soort> a mim:Relatiesoort,
+        owl:ObjectProperty ;
+    rdfs:label "soort"@nl ;
+    mim:aggregatietype mim:Geen ;
+    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/productgroep> ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeervergunning> ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/productgroep/soort"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "0..*" ;
+    mim:kardinaliteitRelatieBron "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "soort"@nl ;
+    mim:unidirectioneel true ;
+    dcterms:identifier "EAID_0A546271_B26F_46d3_879F_2A9EB756A642" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/productgroep> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeervergunning> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/productsoort/soort> a mim:Relatiesoort,
+        owl:ObjectProperty ;
+    rdfs:label "soort"@nl ;
+    mim:aggregatietype mim:Geen ;
+    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/productsoort> ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeervergunning> ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/productsoort/soort"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "0..*" ;
+    mim:kardinaliteitRelatieBron "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "soort"@nl ;
+    mim:unidirectioneel true ;
+    dcterms:identifier "EAID_210DF58C_2B9A_4384_B330_79C2B6CC8280" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/productsoort> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeervergunning> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/productsoort/valt-binnen> a mim:Relatiesoort,
+        owl:ObjectProperty ;
+    rdfs:label "valt binnen"@nl ;
+    mim:aggregatietype mim:Geen ;
+    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/productsoort> ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/productgroep> ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/productsoort/valt-binnen"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:kardinaliteitRelatieBron "0..*" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "valt binnen"@nl ;
+    mim:unidirectioneel true ;
+    dcterms:identifier "EAID_A7553E9F_B5BC_4bba_8ECA_55ECD6379F2C" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/productsoort> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/productgroep> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/straatsectie/bevat> a mim:Relatiesoort,
+        owl:ObjectProperty ;
+    rdfs:label "bevat"@nl ;
+    mim:aggregatietype mim:Geen ;
+    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/straatsectie> ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeervlak> ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/straatsectie/bevat"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "0..*" ;
+    mim:kardinaliteitRelatieBron "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "bevat"@nl ;
+    mim:unidirectioneel true ;
+    dcterms:identifier "EAID_8D39515C_5C16_48dd_84E1_C30F381C17CB" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/straatsectie> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeervlak> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean/ja> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean> ;
+    rdfs:label "Ja"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean/ja"^^xsd:anyURI ;
+    mim:naam "Ja"@nl ;
+    dcterms:identifier "EAID_ED373F5C_75C8_4f9f_B72B_DC069BEFFB72" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean> ;
+    skos:prefLabel "Ja"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean/leeg> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean> ;
+    rdfs:label "Leeg"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean/leeg"^^xsd:anyURI ;
+    mim:naam "Leeg"@nl ;
+    dcterms:identifier "EAID_15FACEFF_7709_47aa_9827_7C4B604C8D7B" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean> ;
+    skos:prefLabel "Leeg"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean/nee> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean> ;
+    rdfs:label "Nee"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean/nee"^^xsd:anyURI ;
+    mim:naam "Nee"@nl ;
+    dcterms:identifier "EAID_7ECA54CF_CE58_4610_80BC_B502ED1347A3" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean> ;
+    skos:prefLabel "Nee"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean/onbekend> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean> ;
+    rdfs:label "Onbekend"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean/onbekend"^^xsd:anyURI ;
+    mim:naam "Onbekend"@nl ;
+    dcterms:identifier "EAID_D11CFFBC_096A_4d6c_99EB_8969CD67687E" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean> ;
+    skos:prefLabel "Onbekend"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/inkoop/leverancier/naam> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "naam"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/inkoop/leverancier/naam"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "naam"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_85177091_8693_4b6d_9DDF_C431625705F6" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/inkoop/leverancier> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/inkoop/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/inkoop/leverancier/nummer> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "nummer"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/inkoop/leverancier/nummer"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "nummer"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_DC8AB48D_FBB8_437d_8FD6_799019175583" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/inkoop/leverancier> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/inkoop/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/achternaam> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "achternaam"@nl ;
+    mim:definitie "<font color=\"#610e6a\">De achternaam zoals de medewerker die in het dagelijkse verkeer gebruikt.</font>"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/achternaam"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "achternaam"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_79457AE1_2585_4ce0_A864_D4ADE30A2135" ;
+    rdfs:comment "<font color=\"#610e6a\">De achternaam zoals de medewerker die in het dagelijkse verkeer gebruikt.</font>"@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/datumindienst> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "datumInDienst"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/datumindienst"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "datumInDienst"@nl ;
+    mim:type mim:Date ;
+    dcterms:identifier "EAID_4BD35398_345A_4d24_84A5_34D79A764C7F" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> ;
+    rdfs:range xsd:date .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/datumuitdienst> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "datumUitDienst"@nl ;
+    mim:definitie "<font color=\"#610e6a\">Een aanduiding van de datum waarop de arbeidsplaatsvervulling eindigt.</font>"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/datumuitdienst"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie true ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "0..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "datumUitDienst"@nl ;
+    mim:type mim:Date ;
+    dcterms:identifier "EAID_AE3CF305_B845_40cf_A9E3_2DE97CB31F46" ;
+    rdfs:comment "<font color=\"#610e6a\">Een aanduiding van de datum waarop de arbeidsplaatsvervulling eindigt.</font>"@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> ;
+    rdfs:range xsd:date .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/emailadres> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "emailadres"@nl ;
+    mim:definitie "<font color=\"#610e6a\">Elektronisch postadres waaronder de medewerker in de regel bereikbaar is.</font>"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/emailadres"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "0..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "emailadres"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_2EEFDDE3_164E_4dc6_8573_205834C1AF47" ;
+    rdfs:comment "<font color=\"#610e6a\">Elektronisch postadres waaronder de medewerker in de regel bereikbaar is.</font>"@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/extern> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "extern"@nl ;
+    mim:definitie "Medewerker is een externe?"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/extern"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "extern"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_8DDB6FA2_A79D_4423_9969_7AF045B86351" ;
+    rdfs:comment "Medewerker is een externe?"@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/functie> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "functie"@nl ;
+    mim:definitie "<font color=\"#610e6a\">De aanduiding van de taken, rechten en plichten die de medewerker heeft of heeft gehad binnen de zaakbehandelende organisatie.</font>"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/functie"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie true ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "functie"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_F17EE707_8A6A_483b_9ED7_204707E1F384" ;
+    rdfs:comment "<font color=\"#610e6a\">De aanduiding van de taken, rechten en plichten die de medewerker heeft of heeft gehad binnen de zaakbehandelende organisatie.</font>"@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/geslachtsaanduiding> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "geslachtsaanduiding"@nl ;
+    mim:definitie "<font color=\"#610e6a\">Een aanduiding die aangeeft of de persoon een man of een vrouw is, of dat het geslacht nog onbekend is.</font>"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/geslachtsaanduiding"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "geslachtsaanduiding"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_AA40C186_C355_457e_99D9_24BE43B05301" ;
+    rdfs:comment "<font color=\"#610e6a\">Een aanduiding die aangeeft of de persoon een man of een vrouw is, of dat het geslacht nog onbekend is.</font>"@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/medewerkeridentificatie> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "medewerkerIdentificatie"@nl ;
+    mim:definitie "<font color=\"#610e6a\">Een korte unieke aanduiding van de medewerker.</font>"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/medewerkeridentificatie"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "medewerkerIdentificatie"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_FF819D54_0C4A_4cf7_A828_6587669A8702" ;
+    rdfs:comment "<font color=\"#610e6a\">Een korte unieke aanduiding van de medewerker.</font>"@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/medewerkertoelichting> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "medewerkerToelichting"@nl ;
+    mim:definitie "<font color=\"#610e6a\">Toelichting bij en/of over de medewerker.</font>"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/medewerkertoelichting"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "0..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "medewerkerToelichting"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_C59B1A14_1E2F_4a54_B273_6D4C84713390" ;
+    rdfs:comment "<font color=\"#610e6a\">Toelichting bij en/of over de medewerker.</font>"@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/roepnaam> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "roepnaam"@nl ;
+    mim:definitie "<font color=\"#610e6a\">Naam waarmee de werknemer wordt aangesproken.</font>"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/roepnaam"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "roepnaam"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_A7726010_7E58_40b6_9523_A4CC9844F5DD" ;
+    rdfs:comment "<font color=\"#610e6a\">Naam waarmee de werknemer wordt aangesproken.</font>"@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/telefoonnummer> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "telefoonnummer"@nl ;
+    mim:definitie "<font color=\"#610e6a\">Telefoonnummer waaronder de medewerker in de regel bereikbaar is.</font>"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/telefoonnummer"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "0..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "telefoonnummer"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_0BE56460_275E_4dcb_9946_5B88658BF3BD" ;
+    rdfs:comment "<font color=\"#610e6a\">Telefoonnummer waaronder de medewerker in de regel bereikbaar is.</font>"@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/voorletters> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "voorletters"@nl ;
+    mim:definitie "<font color=\"#610e6a\">De verzameling letters die gevormd wordt door de eerste letter van alle in volgorde voorkomende voornamen.</font>"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/voorletters"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "voorletters"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_65D1582C_5922_4ebb_8CE6_3B0F1BBD0941" ;
+    rdfs:comment "<font color=\"#610e6a\">De verzameling letters die gevormd wordt door de eerste letter van alle in volgorde voorkomende voornamen.</font>"@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/voorvoegselachternaam> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "voorvoegselAchternaam"@nl ;
+    mim:definitie """<font color="#610e6a">Dat deel van de geslachtsnaam dat voorkomt in Tabel 36 (GBA), voorvoegseltabel, en door een spatie van de geslachtsnaam is</font>
+<font color="#610e6a">gescheiden.</font>"""@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/voorvoegselachternaam"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "0..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "voorvoegselAchternaam"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_01234EAF_833A_4cd6_8EA0_045F889301FF" ;
+    rdfs:comment """<font color="#610e6a">Dat deel van de geslachtsnaam dat voorkomt in Tabel 36 (GBA), voorvoegseltabel, en door een spatie van de geslachtsnaam is</font>
+<font color="#610e6a">gescheiden.</font>"""@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/rechtspersoon/adresbuitenland> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "adresBuitenland"@nl ;
+    mim:definitie "De aanduiding van het adres waar het SUBJECT verblijft dan wel bereikbaar is in het buitenland."@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/rechtspersoon/adresbuitenland"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "0..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "adresBuitenland"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_F6185DF1_173C_47b0_A94A_55D055A89104" ;
+    rdfs:comment "De aanduiding van het adres waar het SUBJECT verblijft dan wel bereikbaar is in het buitenland."@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/rechtspersoon> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/rechtspersoon/adrescorrespondentie> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "adresCorrespondentie"@nl ;
+    mim:definitie "postbus of antwoordnummer"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/rechtspersoon/adrescorrespondentie"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "adresCorrespondentie"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_3A5CEB3F_40E2_4890_92D1_61133EE48E9D" ;
+    rdfs:comment "postbus of antwoordnummer"@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/rechtspersoon> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/rechtspersoon/emailadres> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "emailadres"@nl ;
+    mim:definitie "Elektronisch postadres waaronder het subject in de regel bereikbaar is."@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/rechtspersoon/emailadres"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "0..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "emailadres"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_D003FAB1_3C25_4b00_9247_B6D6CA5155F9" ;
+    rdfs:comment "Elektronisch postadres waaronder het subject in de regel bereikbaar is."@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/rechtspersoon> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/rechtspersoon/faxnummer> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "faxnummer"@nl ;
+    mim:definitie "Faxnummer waaronder het subject in de regel bereikbaar is."@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/rechtspersoon/faxnummer"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "0..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "faxnummer"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_6E61DBA6_E0F0_47bd_9BA5_1D8A04C0EAA6" ;
+    rdfs:comment "Faxnummer waaronder het subject in de regel bereikbaar is."@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/rechtspersoon> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/rechtspersoon/identificatie> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "identificatie"@nl ;
+    mim:definitie "De unieke identificatie van het SUBJECT"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/rechtspersoon/identificatie"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "identificatie"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_5581C29C_3143_42f6_970E_CFB7282258C9" ;
+    rdfs:comment "De unieke identificatie van het SUBJECT"@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/rechtspersoon> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/rechtspersoon/kvknummer> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "KVKnummer"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/rechtspersoon/kvknummer"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "KVKnummer"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_C43F0DE4_C49D_442f_B7F6_157CF378EBE8" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/rechtspersoon> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/rechtspersoon/naam> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "naam"@nl ;
+    mim:definitie "De benaming van het SUBJECT"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/rechtspersoon/naam"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "naam"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_0BBB4DB3_7F02_4dda_82D4_38976334D948" ;
+    rdfs:comment "De benaming van het SUBJECT"@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/rechtspersoon> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/rechtspersoon/rechtsvorm> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "rechtsvorm"@nl ;
+    mim:definitie "Bron: Handelsregister"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/rechtspersoon/rechtsvorm"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "rechtsvorm"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_9FB55106_DB14_4192_B325_75B7272FDE36" ;
+    rdfs:comment "Bron: Handelsregister"@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/rechtspersoon> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/rechtspersoon/rekeningnummer> a mim:Attribuutsoort,
+        owl:ObjectProperty ;
+    rdfs:label "rekeningnummer"@nl ;
+    mim:definitie "Het nummer van een Nederlandse bank/girorekening, zoals dat door een bankinstelling als identificator aan een overeenkomst tussen de bank en een of meer subjecten wordt toegekend, op basis waarvan het SUBJECT in de regel financieel communiceert."@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/rechtspersoon/rekeningnummer"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "0..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "rekeningnummer"@nl ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/ggm-datatypes/iban> ;
+    dcterms:identifier "EAID_6BB892F7_1C6E_4aeb_8BFA_3012FEB03B78" ;
+    rdfs:comment "Het nummer van een Nederlandse bank/girorekening, zoals dat door een bankinstelling als identificator aan een overeenkomst tussen de bank en een of meer subjecten wordt toegekend, op basis waarvan het SUBJECT in de regel financieel communiceert."@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/rechtspersoon> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/ggm-datatypes/iban> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/rechtspersoon/telefoonnummer> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "telefoonnummer"@nl ;
+    mim:definitie "Telefoonnummer waaronder het subject in de regel bereikbaar is."@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/rechtspersoon/telefoonnummer"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "0..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "telefoonnummer"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_6B41E997_26A2_4f32_AE3B_A46BA0E3BE20" ;
+    rdfs:comment "Telefoonnummer waaronder het subject in de regel bereikbaar is."@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/rechtspersoon> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/belprovider/code> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "code"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/belprovider/code"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "code"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_4E3AE563_EF5F_4906_866D_328FCBB3F84F" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/belprovider> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/doelgroepenplaatsen/dp01> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/doelgroepenplaatsen> ;
+    rdfs:label "DP01"@nl ;
+    mim:definitie "gehandicapten paarkeerplaatsen algemeen"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/doelgroepenplaatsen/dp01"^^xsd:anyURI ;
+    mim:naam "DP01"@nl ;
+    dcterms:identifier "EAID_F0B3E3F9_33FE_4f53_9A7D_5F51F987D782" ;
+    skos:definition "gehandicapten paarkeerplaatsen algemeen"@nl ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/doelgroepenplaatsen> ;
+    skos:prefLabel "DP01"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/doelgroepenplaatsen> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/doelgroepenplaatsen/dp02> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/doelgroepenplaatsen> ;
+    rdfs:label "DP02"@nl ;
+    mim:definitie "gehandicapten parkeerplaatsen kenteken"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/doelgroepenplaatsen/dp02"^^xsd:anyURI ;
+    mim:naam "DP02"@nl ;
+    dcterms:identifier "EAID_10314A38_6EE6_4ab8_9265_90E57C8AB71A" ;
+    skos:definition "gehandicapten parkeerplaatsen kenteken"@nl ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/doelgroepenplaatsen> ;
+    skos:prefLabel "DP02"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/doelgroepenplaatsen> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/doelgroepenplaatsen/dp03> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/doelgroepenplaatsen> ;
+    rdfs:label "DP03"@nl ;
+    mim:definitie "deelautoplaatsen"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/doelgroepenplaatsen/dp03"^^xsd:anyURI ;
+    mim:naam "DP03"@nl ;
+    dcterms:identifier "EAID_81BB74A4_C279_4556_B166_5525DD490FFA" ;
+    skos:definition "deelautoplaatsen"@nl ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/doelgroepenplaatsen> ;
+    skos:prefLabel "DP03"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/doelgroepenplaatsen> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/doelgroepenplaatsen/dp04> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/doelgroepenplaatsen> ;
+    rdfs:label "DP04"@nl ;
+    mim:definitie "oplaadplaatsen elektrische auto's"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/doelgroepenplaatsen/dp04"^^xsd:anyURI ;
+    mim:naam "DP04"@nl ;
+    dcterms:identifier "EAID_B76953F7_6713_457c_A327_BF95F7D8EF05" ;
+    skos:definition "oplaadplaatsen elektrische auto's"@nl ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/doelgroepenplaatsen> ;
+    skos:prefLabel "DP04"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/doelgroepenplaatsen> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/doelgroepenplaatsen/dp05> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/doelgroepenplaatsen> ;
+    rdfs:label "DP05"@nl ;
+    mim:definitie "laad- en losplaatsen"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/doelgroepenplaatsen/dp05"^^xsd:anyURI ;
+    mim:naam "DP05"@nl ;
+    dcterms:identifier "EAID_F739CAE7_EDA2_4b8c_A01A_38AABE441D36" ;
+    skos:definition "laad- en losplaatsen"@nl ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/doelgroepenplaatsen> ;
+    skos:prefLabel "DP05"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/doelgroepenplaatsen> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/doelgroepenplaatsen/leeg> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/doelgroepenplaatsen> ;
+    rdfs:label "Leeg"@nl ;
+    mim:definitie "Geen beperking"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/doelgroepenplaatsen/leeg"^^xsd:anyURI ;
+    mim:naam "Leeg"@nl ;
+    dcterms:identifier "EAID_96C2B803_0CCC_4a75_AA7D_0575210E37D4" ;
+    skos:definition "Geen beperking"@nl ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/doelgroepenplaatsen> ;
+    skos:prefLabel "Leeg"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/doelgroepenplaatsen> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/mulderfeit/bedrag> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "bedrag"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/mulderfeit/bedrag"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "bedrag"@nl ;
+    mim:type mim:Decimal ;
+    dcterms:identifier "EAID_6A2310BB_5B15_472f_885D_453662934E5E" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/mulderfeit> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/> ;
+    rdfs:range xsd:decimal .
+
+<https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/mulderfeit/bezwaarafgehandeld> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "bezwaarAfgehandeld"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/mulderfeit/bezwaarafgehandeld"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "bezwaarAfgehandeld"@nl ;
+    mim:type mim:Date ;
+    dcterms:identifier "EAID_9B99F535_9393_4a35_B0B6_D43D97418FBB" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/mulderfeit> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/> ;
+    rdfs:range xsd:date .
+
+<https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/mulderfeit/bezwaaringetrokken> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "bezwaarIngetrokken"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/mulderfeit/bezwaaringetrokken"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "bezwaarIngetrokken"@nl ;
+    mim:type mim:Date ;
+    dcterms:identifier "EAID_23E6A25C_AD3C_4640_868E_6451D4B1301D" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/mulderfeit> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/> ;
+    rdfs:range xsd:date .
+
+<https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/mulderfeit/bezwaartoegewezen> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "bezwaarToegewezen"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/mulderfeit/bezwaartoegewezen"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "bezwaarToegewezen"@nl ;
+    mim:type mim:Date ;
+    dcterms:identifier "EAID_7B0E0B4B_DF26_45ab_9AFB_E3026F4DC2CC" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/mulderfeit> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/> ;
+    rdfs:range xsd:date .
+
+<https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/mulderfeit/bonnummer> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "bonnummer"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/mulderfeit/bonnummer"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "bonnummer"@nl ;
+    mim:type mim:Integer ;
+    dcterms:identifier "EAID_C2ECB666_5750_4ed8_A898_17CFE055E23D" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/mulderfeit> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/> ;
+    rdfs:range xsd:integer .
+
+<https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/mulderfeit/datumbetaling> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "datumBetaling"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/mulderfeit/datumbetaling"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "datumBetaling"@nl ;
+    mim:type mim:Date ;
+    dcterms:identifier "EAID_DF567FAA_2944_40fb_9E95_0F21A6F9AE82" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/mulderfeit> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/> ;
+    rdfs:range xsd:date .
+
+<https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/mulderfeit/datumbezwaar> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "datumBezwaar"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/mulderfeit/datumbezwaar"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "datumBezwaar"@nl ;
+    mim:type mim:Date ;
+    dcterms:identifier "EAID_91D328FD_D0C7_4514_A748_9FC8F9E0FBE8" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/mulderfeit> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/> ;
+    rdfs:range xsd:date .
+
+<https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/mulderfeit/datumgeseponeerd> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "datumGeseponeerd"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/mulderfeit/datumgeseponeerd"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "datumGeseponeerd"@nl ;
+    mim:type mim:Date ;
+    dcterms:identifier "EAID_A790AC00_5C06_4a45_91EB_E064D0D9D2FC" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/mulderfeit> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/> ;
+    rdfs:range xsd:date .
+
+<https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/mulderfeit/datumindiening> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "datumIndiening"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/mulderfeit/datumindiening"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "datumIndiening"@nl ;
+    mim:type mim:Date ;
+    dcterms:identifier "EAID_4493B190_E9D5_4142_8F08_CD69FF0EA9B0" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/mulderfeit> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/> ;
+    rdfs:range xsd:date .
+
+<https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/mulderfeit/dienstcd> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "dienstCD"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/mulderfeit/dienstcd"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "dienstCD"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_8CB61550_B837_4a0e_A373_C5A02A318087" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/mulderfeit> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/mulderfeit/organisatie> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "organisatie"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/mulderfeit/organisatie"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "organisatie"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_2161C8E4_6C52_419c_A0B2_1F568DA996AF" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/mulderfeit> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/mulderfeit/overtreding> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "overtreding"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/mulderfeit/overtreding"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "overtreding"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_48A27603_B340_4215_911C_30D5038763C5" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/mulderfeit> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/mulderfeit/parkeertarief> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "parkeertarief"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/mulderfeit/parkeertarief"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "parkeertarief"@nl ;
+    mim:type mim:Decimal ;
+    dcterms:identifier "EAID_E7508D34_6691_4d47_8566_F336F5C38956" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/mulderfeit> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/> ;
+    rdfs:range xsd:decimal .
+
+<https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/mulderfeit/redenseponeren> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "redenSeponeren"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/mulderfeit/redenseponeren"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "redenSeponeren"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_6EC5504A_283F_4d40_AFED_609D48F52AB6" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/mulderfeit> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/mulderfeit/vorderingnummer> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "vorderingnummer"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/mulderfeit/vorderingnummer"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "vorderingnummer"@nl ;
+    mim:type mim:Integer ;
+    dcterms:identifier "EAID_97A200D0_531C_43bf_8449_B90F5C7C446E" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/mulderfeit> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/> ;
+    rdfs:range xsd:integer .
+
+<https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/naheffing/bedrag> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "bedrag"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/naheffing/bedrag"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "bedrag"@nl ;
+    mim:type mim:Decimal ;
+    dcterms:identifier "EAID_3F9809DB_50F9_4a14_BE8C_230631651641" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/naheffing> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/> ;
+    rdfs:range xsd:decimal .
+
+<https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/naheffing/bezwaarafgehandeld> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "bezwaarAfgehandeld"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/naheffing/bezwaarafgehandeld"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "bezwaarAfgehandeld"@nl ;
+    mim:type mim:Date ;
+    dcterms:identifier "EAID_EE9CFBA8_691F_487b_9061_47198DFF34DF" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/naheffing> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/> ;
+    rdfs:range xsd:date .
+
+<https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/naheffing/bezwaaringetrokken> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "bezwaarIngetrokken"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/naheffing/bezwaaringetrokken"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "bezwaarIngetrokken"@nl ;
+    mim:type mim:Date ;
+    dcterms:identifier "EAID_FE1AB042_11DF_4bab_B4A0_4354C7FCBCDA" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/naheffing> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/> ;
+    rdfs:range xsd:date .
+
+<https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/naheffing/bezwaartoegewezen> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "bezwaarToegewezen"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/naheffing/bezwaartoegewezen"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "bezwaarToegewezen"@nl ;
+    mim:type mim:Date ;
+    dcterms:identifier "EAID_C1C112EA_30B4_4698_A832_B55E8292C55D" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/naheffing> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/> ;
+    rdfs:range xsd:date .
+
+<https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/naheffing/bonnummer> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "bonnummer"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/naheffing/bonnummer"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "bonnummer"@nl ;
+    mim:type mim:Integer ;
+    dcterms:identifier "EAID_1E2398C1_65AF_4a0b_ADF6_836DC1D4DA01" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/naheffing> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/> ;
+    rdfs:range xsd:integer .
+
+<https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/naheffing/datumbetaling> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "datumBetaling"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/naheffing/datumbetaling"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "datumBetaling"@nl ;
+    mim:type mim:Date ;
+    dcterms:identifier "EAID_42C415CB_C0CD_44d3_ACBE_58752739A1FA" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/naheffing> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/> ;
+    rdfs:range xsd:date .
+
+<https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/naheffing/datumbezwaar> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "datumBezwaar"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/naheffing/datumbezwaar"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "datumBezwaar"@nl ;
+    mim:type mim:Date ;
+    dcterms:identifier "EAID_8607808A_DCEE_404e_AC66_1B96DD305A00" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/naheffing> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/> ;
+    rdfs:range xsd:date .
+
+<https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/naheffing/datumgeseponeerd> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "datumGeseponeerd"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/naheffing/datumgeseponeerd"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "datumGeseponeerd"@nl ;
+    mim:type mim:Date ;
+    dcterms:identifier "EAID_3F5790B7_999C_4233_8904_04EDBC795AAD" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/naheffing> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/> ;
+    rdfs:range xsd:date .
+
+<https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/naheffing/datumindiening> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "datumIndiening"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/naheffing/datumindiening"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "datumIndiening"@nl ;
+    mim:type mim:Date ;
+    dcterms:identifier "EAID_46C2E738_7AD0_4dae_8351_E5998EAB27F5" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/naheffing> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/> ;
+    rdfs:range xsd:date .
+
+<https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/naheffing/dienstcd> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "dienstCD"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/naheffing/dienstcd"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "dienstCD"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_018C9312_1DA4_4656_88F8_BF63232A4641" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/naheffing> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/naheffing/fiscaal> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "fiscaal"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/naheffing/fiscaal"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "fiscaal"@nl ;
+    mim:type mim:Boolean ;
+    dcterms:identifier "EAID_0C0B8737_F499_4c24_85B6_1D08520DFBCF" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/naheffing> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/> ;
+    rdfs:range xsd:boolean .
+
+<https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/naheffing/organisatie> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "organisatie"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/naheffing/organisatie"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "organisatie"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_3A2257A9_5EB6_4a32_9AFC_0E75F8A789F5" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/naheffing> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/naheffing/overtreding> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "overtreding"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/naheffing/overtreding"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "overtreding"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_48451481_A2BA_4c80_91B5_D466D2DD9D61" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/naheffing> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/naheffing/parkeertarief> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "parkeertarief"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/naheffing/parkeertarief"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "parkeertarief"@nl ;
+    mim:type mim:Decimal ;
+    dcterms:identifier "EAID_D804795C_F381_44f6_A835_CF0418431119" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/naheffing> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/> ;
+    rdfs:range xsd:decimal .
+
+<https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/naheffing/redenseponeren> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "redenSeponeren"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/naheffing/redenseponeren"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "redenSeponeren"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_15A87E14_8C3D_4ebb_8AD8_68C3CA730A83" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/naheffing> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/naheffing/vorderingnummer> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "vorderingnummer"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/naheffing/vorderingnummer"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "vorderingnummer"@nl ;
+    mim:type mim:Integer ;
+    dcterms:identifier "EAID_0F1E099A_AD6A_42aa_B1A8_5568A7FF0D5B" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/naheffing> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/> ;
+    rdfs:range xsd:integer .
+
+<https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeerrecht/aanmaaktijd> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "aanmaaktijd"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeerrecht/aanmaaktijd"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "aanmaaktijd"@nl ;
+    mim:type mim:DateTime ;
+    dcterms:identifier "EAID_F2A4F0A7_539A_42a3_BB90_F076E55E9F9A" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeerrecht> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/> ;
+    rdfs:range xsd:dateTime .
+
+<https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeerrecht/bedragaankoop> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "bedragAankoop"@nl ;
+    mim:definitie "Bedrag incl. BTW"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeerrecht/bedragaankoop"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "bedragAankoop"@nl ;
+    mim:type mim:Decimal ;
+    dcterms:identifier "EAID_F9D098E8_4E85_4fa6_B75A_49DC89320892" ;
+    rdfs:comment "Bedrag incl. BTW"@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeerrecht> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/> ;
+    rdfs:range xsd:decimal .
+
+<https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeerrecht/bedragbtw> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "bedragBTW"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeerrecht/bedragbtw"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "bedragBTW"@nl ;
+    mim:type mim:Decimal ;
+    dcterms:identifier "EAID_C4239EA2_C169_451b_B01B_ACB23CE9CF4F" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeerrecht> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/> ;
+    rdfs:range xsd:decimal .
+
+<https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeerrecht/datumtijdeinde> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "datumtijdEinde"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeerrecht/datumtijdeinde"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "datumtijdEinde"@nl ;
+    mim:type mim:DateTime ;
+    dcterms:identifier "EAID_C9A985ED_5417_48df_8221_D8C3B32D5EBD" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeerrecht> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/> ;
+    rdfs:range xsd:dateTime .
+
+<https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeerrecht/datumtijdstart> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "datumtijdStart"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeerrecht/datumtijdstart"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "datumtijdStart"@nl ;
+    mim:type mim:DateTime ;
+    dcterms:identifier "EAID_3D84A2DE_D8CE_429b_BBA4_C83BC8DBA73D" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeerrecht> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/> ;
+    rdfs:range xsd:dateTime .
+
+<https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeerrecht/productnaam> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "productnaam"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeerrecht/productnaam"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "productnaam"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_2FBEFABA_1572_4fb1_BF3E_FF3C78EB9AC2" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeerrecht> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeerrecht/productomschrijving> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "productomschrijving"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeerrecht/productomschrijving"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "productomschrijving"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_5B1929EC_C94C_431d_8EA5_2F90D0F9B333" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeerrecht> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeerscan/codegebruiker> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "codeGebruiker"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeerscan/codegebruiker"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "codeGebruiker"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_E458D316_8C9D_4223_AF7E_FC75BFBA8911" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeerscan> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeerscan/codescanvoertuig> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "codeScanvoertuig"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeerscan/codescanvoertuig"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "codeScanvoertuig"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_2A9C80A3_4721_4afb_AD26_55DC0525648E" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeerscan> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeerscan/coordinaten> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "coordinaten"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeerscan/coordinaten"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "coordinaten"@nl ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/wktliteral> ;
+    dcterms:identifier "EAID_D8ED8FAA_31B4_44cc_891B_390B2452A71E" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeerscan> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/> ;
+    rdfs:range geo:wktLiteral .
+
+<https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeerscan/foto> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "foto"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeerscan/foto"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "foto"@nl ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/base64binary> ;
+    dcterms:identifier "EAID_EAA1933B_A566_434f_92A9_C58D4D6330F4" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeerscan> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/> ;
+    rdfs:range xsd:base64Binary .
+
+<https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeerscan/kenteken> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "kenteken"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeerscan/kenteken"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "kenteken"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_E73147AB_147A_4526_9187_7C503AF0EB30" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeerscan> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeerscan/parkeerrecht> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "parkeerrecht"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeerscan/parkeerrecht"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "parkeerrecht"@nl ;
+    mim:type mim:Boolean ;
+    dcterms:identifier "EAID_81828CF6_84AC_4563_9F2D_3435E29F0FBE" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeerscan> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/> ;
+    rdfs:range xsd:boolean .
+
+<https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeerscan/tijdstip> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "tijdstip"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeerscan/tijdstip"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "tijdstip"@nl ;
+    mim:type mim:DateTime ;
+    dcterms:identifier "EAID_35E36C8C_3B70_47b2_A3AE_F7802136EF4E" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeerscan> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/> ;
+    rdfs:range xsd:dateTime .
+
+<https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeerscan/transactieid> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "transactieID"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeerscan/transactieid"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "transactieID"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_8531D05B_6552_47e6_8A8B_57AE8FF7AD76" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeerscan> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeervergunning/datumeindegeldigheid> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "datumEindeGeldigheid"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeervergunning/datumeindegeldigheid"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "datumEindeGeldigheid"@nl ;
+    mim:type mim:DateTime ;
+    dcterms:identifier "EAID_D6642452_0323_41e4_A83E_4B5EDE56D1A0" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeervergunning> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/> ;
+    rdfs:range xsd:dateTime .
+
+<https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeervergunning/datumreservering> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "datumReservering"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeervergunning/datumreservering"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "datumReservering"@nl ;
+    mim:type mim:Date ;
+    dcterms:identifier "EAID_BC1A217D_A353_4652_98B4_84E77F3AA33D" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeervergunning> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/> ;
+    rdfs:range xsd:date .
+
+<https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeervergunning/datumstart> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "datumStart"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeervergunning/datumstart"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "datumStart"@nl ;
+    mim:type mim:DateTime ;
+    dcterms:identifier "EAID_23EB0F72_3CC1_47f7_944A_1AC71372F64D" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeervergunning> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/> ;
+    rdfs:range xsd:dateTime .
+
+<https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeervergunning/kenteken> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "kenteken"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeervergunning/kenteken"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "kenteken"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_981DE719_4C0F_4b86_836F_DB961614D219" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeervergunning> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeervergunning/minutenafgeschreven> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "minutenAfgeschreven"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeervergunning/minutenafgeschreven"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "minutenAfgeschreven"@nl ;
+    mim:type mim:Integer ;
+    dcterms:identifier "EAID_74B1138A_26A1_433b_9173_8D20195EDB43" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeervergunning> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/> ;
+    rdfs:range xsd:integer .
+
+<https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeervergunning/minutengeldig> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "minutenGeldig"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeervergunning/minutengeldig"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "minutenGeldig"@nl ;
+    mim:type mim:Integer ;
+    dcterms:identifier "EAID_CFCA3F12_D99C_420b_A11F_0536FF3D5CE7" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeervergunning> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/> ;
+    rdfs:range xsd:integer .
+
+<https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeervergunning/minutenresterend> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "minutenResterend"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeervergunning/minutenresterend"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "minutenResterend"@nl ;
+    mim:type mim:Integer ;
+    dcterms:identifier "EAID_4EAA44CB_D8EB_4158_9C7C_4C8AC32759FE" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeervergunning> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/> ;
+    rdfs:range xsd:integer .
+
+<https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeervergunning/nummer> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "nummer"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeervergunning/nummer"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "nummer"@nl ;
+    mim:type mim:Integer ;
+    dcterms:identifier "EAID_BFEC1776_23DE_4151_ABDB_8256BFC76893" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeervergunning> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/> ;
+    rdfs:range xsd:integer .
+
+<https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeervergunning/type> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "type"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeervergunning/type"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "type"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_CC5A11D9_A0E7_47fd_AD7A_21895CBB789A" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeervergunning> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeervlak/aantal> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "aantal"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeervlak/aantal"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "aantal"@nl ;
+    mim:type mim:Integer ;
+    dcterms:identifier "EAID_BF8840FC_5AA6_44b6_94F1_0C820D385D42" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeervlak> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/> ;
+    rdfs:range xsd:integer .
+
+<https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeervlak/coordinaten> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "coordinaten"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeervlak/coordinaten"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "coordinaten"@nl ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/wktliteral> ;
+    dcterms:identifier "EAID_8A5D3F6B_E9A5_4302_92FB_F10994C35510" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeervlak> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/> ;
+    rdfs:range geo:wktLiteral .
+
+<https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeervlak/doelgroep> a mim:Attribuutsoort,
+        owl:ObjectProperty ;
+    rdfs:label "doelgroep"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeervlak/doelgroep"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "doelgroep"@nl ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/doelgroepenplaatsen> ;
+    dcterms:identifier "EAID_72EA4C53_4FDC_41fb_9855_BDFBF3BDBE64" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeervlak> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/doelgroepenplaatsen> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeervlak/fiscaal> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "fiscaal"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeervlak/fiscaal"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "fiscaal"@nl ;
+    mim:type mim:Boolean ;
+    dcterms:identifier "EAID_A312DFB1_B52C_44bf_8A3B_5C4738177591" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeervlak> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/> ;
+    rdfs:range xsd:boolean .
+
+<https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeervlak/plaats> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "plaats"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeervlak/plaats"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "plaats"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_4C68AA4B_76A6_4d0c_8D97_C35C6B25C486" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeervlak> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeervlak/vlakid> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "vlakID"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeervlak/vlakid"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "vlakID"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_B598CDA7_4AFA_48a2_9F16_D84D1B8E12D6" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeervlak> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeerzone/aantalparkeervlakken> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "aantalParkeervlakken"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeerzone/aantalparkeervlakken"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "aantalParkeervlakken"@nl ;
+    mim:type mim:Integer ;
+    dcterms:identifier "EAID_01456D4A_317C_4b9a_9659_80E103592372" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeerzone> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/> ;
+    rdfs:range xsd:integer .
+
+<https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeerzone/alleendagtarief> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "alleenDagtarief"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeerzone/alleendagtarief"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "alleenDagtarief"@nl ;
+    mim:type mim:Boolean ;
+    dcterms:identifier "EAID_2BD67E9E_8156_4c08_A8BD_E5D23B208947" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeerzone> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/> ;
+    rdfs:range xsd:boolean .
+
+<https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeerzone/dagtarief> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "dagtarief"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeerzone/dagtarief"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "dagtarief"@nl ;
+    mim:type mim:Decimal ;
+    dcterms:identifier "EAID_4590CDD3_A4BA_44b9_AB71_FD38D9A22395" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeerzone> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/> ;
+    rdfs:range xsd:decimal .
+
+<https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeerzone/eindedag> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "eindedag"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeerzone/eindedag"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "eindedag"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_AB300454_09FA_4f1a_B099_6BB3D90DFF27" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeerzone> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeerzone/eindtijd> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "eindtijd"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeerzone/eindtijd"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "eindtijd"@nl ;
+    mim:type mim:Integer ;
+    dcterms:identifier "EAID_55607645_5F5E_4c91_ABF3_BF685AC150D3" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeerzone> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/> ;
+    rdfs:range xsd:integer .
+
+<https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeerzone/gebruik> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "gebruik"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeerzone/gebruik"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "gebruik"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_0D2242A1_187A_4c61_980C_3BCD379ABD7E" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeerzone> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeerzone/geometrie> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "geometrie"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeerzone/geometrie"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "geometrie"@nl ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/wktliteral> ;
+    dcterms:identifier "EAID_0B5FDA65_9AFC_4985_8A3E_3287D80B6FD0" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeerzone> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/> ;
+    rdfs:range geo:wktLiteral .
+
+<https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeerzone/ipmcode> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "IPMCode"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeerzone/ipmcode"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "IPMCode"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_91A2D70D_9CF4_40d3_88D7_05BDF18A948F" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeerzone> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeerzone/ipmnaam> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "IPMNaam"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeerzone/ipmnaam"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "IPMNaam"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_E978A01E_24B6_4249_B30E_0A3E2440973B" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeerzone> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeerzone/isparkeergarage> a mim:Attribuutsoort,
+        owl:ObjectProperty ;
+    rdfs:label "isParkeergarage"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeerzone/isparkeergarage"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "isParkeergarage"@nl ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean> ;
+    dcterms:identifier "EAID_7AA903E5_0183_4fc6_813C_4E50AD582A60" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeerzone> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeerzone/naam> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "naam"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeerzone/naam"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "naam"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_CAB766D8_8A94_4f06_986F_E2B998218216" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeerzone> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeerzone/sectorcode> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "sectorcode"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeerzone/sectorcode"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "sectorcode"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_D02ACF71_6AD6_4522_9096_880A91C2E6E5" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeerzone> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeerzone/soortcode> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "soortCode"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeerzone/soortcode"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "soortCode"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_8B32703A_8F4D_47d3_B109_3A1315375CEF" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeerzone> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeerzone/startdag> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "startdag"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeerzone/startdag"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "startdag"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_BD31E9F6_5BC8_46ef_B345_8202215A2B8F" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeerzone> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeerzone/starttarief> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "starttarief"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeerzone/starttarief"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "starttarief"@nl ;
+    mim:type mim:Decimal ;
+    dcterms:identifier "EAID_C6F959F3_DD6F_4c80_8D40_B6A4734BD086" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeerzone> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/> ;
+    rdfs:range xsd:decimal .
+
+<https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeerzone/starttijd> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "starttijd"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeerzone/starttijd"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "starttijd"@nl ;
+    mim:type mim:Integer ;
+    dcterms:identifier "EAID_E57B681F_2D5A_498b_8F1A_1B686C3FC743" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeerzone> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/> ;
+    rdfs:range xsd:integer .
+
+<https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeerzone/typecode> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "typeCode"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeerzone/typecode"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "typeCode"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_A6B7D3A1_7738_46d6_8615_7EC206ACF8B9" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeerzone> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeerzone/typenaam> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "typeNaam"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeerzone/typenaam"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "typeNaam"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_19EED994_28EB_45c4_B806_AF2EDFAC84E8" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeerzone> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeerzone/uurtarief> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "uurtarief"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeerzone/uurtarief"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "uurtarief"@nl ;
+    mim:type mim:Decimal ;
+    dcterms:identifier "EAID_72A28B96_9DDF_40e2_9580_3EC86852EFA6" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeerzone> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/> ;
+    rdfs:range xsd:decimal .
+
+<https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/productgroep/beslisboom> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "beslisboom"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/productgroep/beslisboom"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "beslisboom"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_7F0C54ED_7508_4ca0_BA6D_5FA5F05AB3E3" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/productgroep> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/productgroep/code> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "code"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/productgroep/code"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "code"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_36989FBD_EF86_4281_BD77_BE7D006F6975" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/productgroep> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/productgroep/omschrijving> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "omschrijving"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/productgroep/omschrijving"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "omschrijving"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_6D7F1F94_EBD9_4adf_8BA5_2957CCFDF7AA" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/productgroep> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/productsoort/code> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "code"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/productsoort/code"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "code"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_D73836E9_B49F_4aba_B019_BBBB2BDCE5AC" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/productsoort> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/productsoort/omschrijving> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "omschrijving"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/productsoort/omschrijving"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "omschrijving"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_3F24FBBA_84BD_44b9_B805_D18605A81344" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/productsoort> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/productsoort/tarief> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "tarief"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/productsoort/tarief"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "tarief"@nl ;
+    mim:type mim:Decimal ;
+    dcterms:identifier "EAID_3F3B977C_DCCC_468c_A597_912428637810" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/productsoort> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/> ;
+    rdfs:range xsd:decimal .
+
+<https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/productsoort/tariefperiode> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "tariefperiode"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/productsoort/tariefperiode"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "tariefperiode"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_D1B5BF24_84AD_40d4_BE01_AA38CB2E6A06" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/productsoort> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/straatsectie/code> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "code"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/straatsectie/code"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "code"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_7BF46263_8039_4ca2_B132_AAD707D1A9AC" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/straatsectie> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/straatsectie/omschrijving> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "omschrijving"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/straatsectie/omschrijving"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "omschrijving"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_F09FA896_8227_4413_B1E1_05B23469C54A" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/straatsectie> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/straatsectie/zonecode> a mim:Attribuutsoort,
+        owl:ObjectProperty ;
+    rdfs:label "zoneCode"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/straatsectie/zonecode"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "zoneCode"@nl ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/zonesoort> ;
+    dcterms:identifier "EAID_CE612CB6_DB8E_4093_A5F3_3CB8EED18AFE" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/straatsectie> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/zonesoort> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/voertuig/kenteken> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "kenteken"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/voertuig/kenteken"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "kenteken"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_1AF95E07_5AF7_497c_96E9_243F59438F2A" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/voertuig> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/voertuig/kleur> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "kleur"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/voertuig/kleur"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "kleur"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_19557F7C_94F7_4452_83FD_FA23536D17E4" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/voertuig> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/voertuig/land> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "land"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/voertuig/land"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "land"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_B348C6F8_6F3F_4ffd_9828_8923A4A8B282" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/voertuig> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/voertuig/merk> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "merk"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/voertuig/merk"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "merk"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_45E1B091_84AB_455a_AB15_A81CC8DB0A99" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/voertuig> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/voertuig/type> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "type"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/voertuig/type"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "type"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_98713E42_F68D_4325_A748_C53E88FCE30E" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/voertuig> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/zonesoort/gsm-zone> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/zonesoort> ;
+    rdfs:label "GSM-Zone"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/zonesoort/gsm-zone"^^xsd:anyURI ;
+    mim:naam "GSM-Zone"@nl ;
+    dcterms:identifier "EAID_48DC9056_5CD8_4ca1_95D6_E2E31F5525AA" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/zonesoort> ;
+    skos:prefLabel "GSM-Zone"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/zonesoort> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/zonesoort/vergunninghouderzone> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/zonesoort> ;
+    rdfs:label "Vergunninghouderzone"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/zonesoort/vergunninghouderzone"^^xsd:anyURI ;
+    mim:naam "Vergunninghouderzone"@nl ;
+    dcterms:identifier "EAID_7A511D9D_7B69_4b59_86C5_A69263767643" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/zonesoort> ;
+    skos:prefLabel "Vergunninghouderzone"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/zonesoort> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/belprovider> a mim:Objecttype,
+        owl:Class ;
+    rdfs:label "Belprovider"@nl ;
+    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/belprovider/code> ;
+    mim:definitie "Leverancier of dienstverlener van modiele beldiensten"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/belprovider"^^xsd:anyURI ;
+    mim:indicatieAbstractObject false ;
+    mim:naam "Belprovider"@nl ;
+    dcterms:identifier "EAID_6C283ABA_C1A3_465b_B267_39E75D06E41F" ;
+    rdfs:comment "Leverancier of dienstverlener van modiele beldiensten"@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/> ;
+    rdfs:subClassOf <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/inkoop/leverancier> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/inkoop/leverancier> a mim:Objecttype,
+        owl:Class ;
+    rdfs:label "Leverancier"@nl ;
+    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/inkoop/leverancier/naam>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/inkoop/leverancier/nummer> ;
+    mim:definitie "Een niet-natuurlijk persoon die een product of dienst levert aan de organisatie"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/inkoop/leverancier"^^xsd:anyURI ;
+    mim:indicatieAbstractObject false ;
+    mim:naam "Leverancier"@nl ;
+    dcterms:identifier "EAID_EA7FE08E_34F7_45d2_BE2E_E4E3B8333BF3" ;
+    rdfs:comment "Een niet-natuurlijk persoon die een product of dienst levert aan de organisatie"@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/inkoop/> ;
+    rdfs:subClassOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/rechtspersoon> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/productgroep> a mim:Objecttype,
+        owl:Class ;
+    rdfs:label "Productgroep"@nl ;
+    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/productgroep/beslisboom>,
+        <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/productgroep/code>,
+        <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/productgroep/omschrijving> ;
+    mim:definitie "Groepering van producten"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/productgroep"^^xsd:anyURI ;
+    mim:indicatieAbstractObject false ;
+    mim:naam "Productgroep"@nl ;
+    dcterms:identifier "EAID_209ACADD_34C7_4dc8_90AD_C6B3E092FBFD" ;
+    rdfs:comment "Groepering van producten"@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/straatsectie> a mim:Objecttype,
+        owl:Class ;
+    rdfs:label "Straatsectie"@nl ;
+    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/straatsectie/code>,
+        <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/straatsectie/omschrijving>,
+        <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/straatsectie/zonecode> ;
+    mim:definitie "Gedeelte van een straat"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/straatsectie"^^xsd:anyURI ;
+    mim:indicatieAbstractObject false ;
+    mim:naam "Straatsectie"@nl ;
+    dcterms:identifier "EAID_339ACCD5_1D13_4a48_83DE_05A0A4A54C43" ;
+    rdfs:comment "Gedeelte van een straat"@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/productsoort> a mim:Objecttype,
+        owl:Class ;
+    rdfs:label "Productsoort"@nl ;
+    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/productsoort/code>,
+        <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/productsoort/omschrijving>,
+        <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/productsoort/tarief>,
+        <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/productsoort/tariefperiode> ;
+    mim:definitie "Typologie van een product"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/productsoort"^^xsd:anyURI ;
+    mim:indicatieAbstractObject false ;
+    mim:naam "Productsoort"@nl ;
+    dcterms:identifier "EAID_1CB4051D_B78A_48f0_AE3E_A98D997A5612" ;
+    rdfs:comment "Typologie van een product"@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/zonesoort> a mim:Enumeratie,
+        owl:Class,
+        skos:ConceptScheme ;
+    rdfs:label "Zonesoort"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/zonesoort"^^xsd:anyURI ;
+    mim:naam "Zonesoort"@nl ;
+    mim:waarde <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/zonesoort/gsm-zone>,
+        <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/zonesoort/vergunninghouderzone> ;
+    dcterms:identifier "EAID_5DD4AE03_667C_45b9_A46A_320077AC2926" ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/> ;
+    rdfs:subClassOf skos:Concept .
+
+<https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/voertuig> a mim:Objecttype,
+        owl:Class ;
+    rdfs:label "Voertuig"@nl ;
+    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/voertuig/kenteken>,
+        <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/voertuig/kleur>,
+        <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/voertuig/land>,
+        <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/voertuig/merk>,
+        <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/voertuig/type> ;
+    mim:definitie "Vervoermiddel bestemd voor het verkeer over wegen"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/voertuig"^^xsd:anyURI ;
+    mim:indicatieAbstractObject false ;
+    mim:naam "Voertuig"@nl ;
+    dcterms:identifier "EAID_6AD98160_FFE6_4105_A724_5D5733C87CD8" ;
+    rdfs:comment "Vervoermiddel bestemd voor het verkeer over wegen"@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeervlak> a mim:Objecttype,
+        owl:Class ;
+    rdfs:label "Parkeervlak"@nl ;
+    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeervlak/aantal>,
+        <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeervlak/coordinaten>,
+        <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeervlak/doelgroep>,
+        <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeervlak/fiscaal>,
+        <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeervlak/plaats>,
+        <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeervlak/vlakid> ;
+    mim:definitie "Parkeergelegenheid bestemd voor het parkeren van een of meerdere voertuigen direct langs de doorgaande weg gelegen."@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeervlak"^^xsd:anyURI ;
+    mim:indicatieAbstractObject false ;
+    mim:naam "Parkeervlak"@nl ;
+    dcterms:identifier "EAID_5E5C58AD_1634_4656_A183_EBA00F18F30E" ;
+    rdfs:comment "Parkeergelegenheid bestemd voor het parkeren van een of meerdere voertuigen direct langs de doorgaande weg gelegen."@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean> a mim:Enumeratie,
+        owl:Class,
+        skos:ConceptScheme ;
+    rdfs:label "Boolean"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean"^^xsd:anyURI ;
+    mim:naam "Boolean"@nl ;
+    mim:waarde <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean/ja>,
+        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean/leeg>,
+        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean/nee>,
+        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean/onbekend> ;
+    dcterms:identifier "EAID_9BD0FBCB_1A9E_4cab_9280_0EBC428E38F7" ;
+    rdfs:subClassOf skos:Concept .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/rechtspersoon> a mim:Objecttype,
+        owl:Class ;
+    rdfs:label "Rechtspersoon"@nl ;
+    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/rechtspersoon/adresbuitenland>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/rechtspersoon/adrescorrespondentie>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/rechtspersoon/emailadres>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/rechtspersoon/faxnummer>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/rechtspersoon/identificatie>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/rechtspersoon/kvknummer>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/rechtspersoon/naam>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/rechtspersoon/rechtsvorm>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/rechtspersoon/rekeningnummer>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/rechtspersoon/telefoonnummer> ;
+    mim:definitie "Een NATUURLIJK PERSOON of een NIET-NATUURLIJK PERSOON"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/rechtspersoon"^^xsd:anyURI ;
+    mim:indicatieAbstractObject false ;
+    mim:naam "Rechtspersoon"@nl ;
+    dcterms:identifier "EAID_9DF5AC43_3673_4b9a_BB5E_6DCA7BE28835" ;
+    rdfs:comment "Een NATUURLIJK PERSOON of een NIET-NATUURLIJK PERSOON"@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker> a mim:Objecttype,
+        owl:Class ;
+    rdfs:label "Medewerker"@nl ;
+    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/achternaam>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/datumindienst>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/datumuitdienst>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/emailadres>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/extern>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/functie>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/geslachtsaanduiding>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/medewerkeridentificatie>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/medewerkertoelichting>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/roepnaam>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/telefoonnummer>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/voorletters>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/voorvoegselachternaam> ;
+    mim:definitie "Een medewerker van de organisatie die zaken behandelt uit hoofde van zijn of haar functie binnen een ORGANISATORISCHE EENHEID."@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker"^^xsd:anyURI ;
+    mim:indicatieAbstractObject false ;
+    mim:naam "Medewerker"@nl ;
+    dcterms:identifier "EAID_16EB3936_03CB_4854_9CD8_9F0911EEA51B" ;
+    rdfs:comment "Een medewerker van de organisatie die zaken behandelt uit hoofde van zijn of haar functie binnen een ORGANISATORISCHE EENHEID."@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/mulderfeit> a mim:Objecttype,
+        owl:Class ;
+    rdfs:label "MulderFeit"@nl ;
+    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/mulderfeit/bedrag>,
+        <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/mulderfeit/bezwaarafgehandeld>,
+        <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/mulderfeit/bezwaaringetrokken>,
+        <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/mulderfeit/bezwaartoegewezen>,
+        <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/mulderfeit/bonnummer>,
+        <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/mulderfeit/datumbetaling>,
+        <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/mulderfeit/datumbezwaar>,
+        <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/mulderfeit/datumgeseponeerd>,
+        <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/mulderfeit/datumindiening>,
+        <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/mulderfeit/dienstcd>,
+        <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/mulderfeit/organisatie>,
+        <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/mulderfeit/overtreding>,
+        <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/mulderfeit/parkeertarief>,
+        <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/mulderfeit/redenseponeren>,
+        <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/mulderfeit/vorderingnummer> ;
+    mim:definitie "Een administratieve overtreding met betrekking tot parkeren, zoals bepaald onder de Wet administratiefrechtelijke handhaving verkeersvoorschriften (WAHV), ook wel bekend als de Mulderwet."@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/mulderfeit"^^xsd:anyURI ;
+    mim:indicatieAbstractObject false ;
+    mim:naam "MulderFeit"@nl ;
+    dcterms:identifier "EAID_4EA4D754_FAD7_4caf_8060_342689EC16FE" ;
+    rdfs:comment "Een administratieve overtreding met betrekking tot parkeren, zoals bepaald onder de Wet administratiefrechtelijke handhaving verkeersvoorschriften (WAHV), ook wel bekend als de Mulderwet."@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeerrecht> a mim:Objecttype,
+        owl:Class ;
+    rdfs:label "Parkeerrecht"@nl ;
+    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeerrecht/aanmaaktijd>,
+        <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeerrecht/bedragaankoop>,
+        <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeerrecht/bedragbtw>,
+        <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeerrecht/datumtijdeinde>,
+        <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeerrecht/datumtijdstart>,
+        <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeerrecht/productnaam>,
+        <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeerrecht/productomschrijving> ;
+    mim:definitie "Het onder bepaalde voorwaarden (zoals betaling parkeerbelasting of parkeergeld) ontstane recht om een voertuig gedurende een bepaalde of onbepaalde periode op een daartoe benoemde parkeerplaats of in/op een daartoe benoemde parkeervoorziening te parkeren."@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeerrecht"^^xsd:anyURI ;
+    mim:indicatieAbstractObject false ;
+    mim:naam "Parkeerrecht"@nl ;
+    dcterms:identifier "EAID_9E0936E5_6B50_4205_BA5D_FEB80486D6F1" ;
+    rdfs:comment "Het onder bepaalde voorwaarden (zoals betaling parkeerbelasting of parkeergeld) ontstane recht om een voertuig gedurende een bepaalde of onbepaalde periode op een daartoe benoemde parkeerplaats of in/op een daartoe benoemde parkeervoorziening te parkeren."@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/naheffing> a mim:Objecttype,
+        owl:Class ;
+    rdfs:label "Naheffing"@nl ;
+    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/naheffing/bedrag>,
+        <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/naheffing/bezwaarafgehandeld>,
+        <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/naheffing/bezwaaringetrokken>,
+        <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/naheffing/bezwaartoegewezen>,
+        <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/naheffing/bonnummer>,
+        <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/naheffing/datumbetaling>,
+        <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/naheffing/datumbezwaar>,
+        <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/naheffing/datumgeseponeerd>,
+        <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/naheffing/datumindiening>,
+        <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/naheffing/dienstcd>,
+        <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/naheffing/fiscaal>,
+        <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/naheffing/organisatie>,
+        <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/naheffing/overtreding>,
+        <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/naheffing/parkeertarief>,
+        <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/naheffing/redenseponeren>,
+        <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/naheffing/vorderingnummer> ;
+    mim:definitie "Het achteraf vorderen van te weinig betaalde belasting"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/naheffing"^^xsd:anyURI ;
+    mim:indicatieAbstractObject false ;
+    mim:naam "Naheffing"@nl ;
+    dcterms:identifier "EAID_4957AC99_3F36_4959_A210_9EC6759B87F8" ;
+    rdfs:comment "Het achteraf vorderen van te weinig betaalde belasting"@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeerscan> a mim:Objecttype,
+        owl:Class ;
+    rdfs:label "Parkeerscan"@nl ;
+    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeerscan/codegebruiker>,
+        <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeerscan/codescanvoertuig>,
+        <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeerscan/coordinaten>,
+        <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeerscan/foto>,
+        <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeerscan/kenteken>,
+        <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeerscan/parkeerrecht>,
+        <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeerscan/tijdstip>,
+        <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeerscan/transactieid> ;
+    mim:definitie "Waarneming van een parkeeractie door een scanauto"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeerscan"^^xsd:anyURI ;
+    mim:indicatieAbstractObject false ;
+    mim:naam "Parkeerscan"@nl ;
+    dcterms:identifier "EAID_653EEEA7_ED82_427d_BD72_86C847793AD6" ;
+    rdfs:comment "Waarneming van een parkeeractie door een scanauto"@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeervergunning> a mim:Objecttype,
+        owl:Class ;
+    rdfs:label "Parkeervergunning"@nl ;
+    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeervergunning/datumeindegeldigheid>,
+        <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeervergunning/datumreservering>,
+        <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeervergunning/datumstart>,
+        <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeervergunning/kenteken>,
+        <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeervergunning/minutenafgeschreven>,
+        <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeervergunning/minutengeldig>,
+        <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeervergunning/minutenresterend>,
+        <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeervergunning/nummer>,
+        <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeervergunning/type> ;
+    mim:definitie "Officiele toestemming dat je op een bepaalde plek mag parkeren"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeervergunning"^^xsd:anyURI ;
+    mim:indicatieAbstractObject false ;
+    mim:naam "Parkeervergunning"@nl ;
+    dcterms:identifier "EAID_FF448272_AB9D_4ec9_B4BE_E60E2552817A" ;
+    rdfs:comment "Officiele toestemming dat je op een bepaalde plek mag parkeren"@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/doelgroepenplaatsen> a mim:Enumeratie,
+        owl:Class,
+        skos:ConceptScheme ;
+    rdfs:label "Doelgroepenplaatsen"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/doelgroepenplaatsen"^^xsd:anyURI ;
+    mim:naam "Doelgroepenplaatsen"@nl ;
+    mim:waarde <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/doelgroepenplaatsen/dp01>,
+        <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/doelgroepenplaatsen/dp02>,
+        <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/doelgroepenplaatsen/dp03>,
+        <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/doelgroepenplaatsen/dp04>,
+        <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/doelgroepenplaatsen/dp05>,
+        <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/doelgroepenplaatsen/leeg> ;
+    dcterms:identifier "EAID_F8ADD9AF_76C0_425c_B059_18BB0AA20D28" ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/> ;
+    rdfs:subClassOf skos:Concept .
+
+<https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeerzone> a mim:Objecttype,
+        owl:Class ;
+    rdfs:label "Parkeerzone"@nl ;
+    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeerzone/aantalparkeervlakken>,
+        <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeerzone/alleendagtarief>,
+        <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeerzone/dagtarief>,
+        <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeerzone/eindedag>,
+        <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeerzone/eindtijd>,
+        <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeerzone/gebruik>,
+        <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeerzone/geometrie>,
+        <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeerzone/ipmcode>,
+        <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeerzone/ipmnaam>,
+        <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeerzone/isparkeergarage>,
+        <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeerzone/naam>,
+        <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeerzone/sectorcode>,
+        <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeerzone/soortcode>,
+        <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeerzone/startdag>,
+        <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeerzone/starttarief>,
+        <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeerzone/starttijd>,
+        <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeerzone/typecode>,
+        <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeerzone/typenaam>,
+        <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeerzone/uurtarief> ;
+    mim:definitie "Een afgebakend gebied binnen een gemeente  waar specifieke parkeerregels en -voorwaarden van toepassing zijn."@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/parkeerzone"^^xsd:anyURI ;
+    mim:indicatieAbstractObject false ;
+    mim:naam "Parkeerzone"@nl ;
+    dcterms:identifier "EAID_27219A32_3B52_4f54_AA67_A972F4B7D9D0" ;
+    rdfs:comment "Een afgebakend gebied binnen een gemeente  waar specifieke parkeerregels en -voorwaarden van toepassing zijn."@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/parkeren/> .
+

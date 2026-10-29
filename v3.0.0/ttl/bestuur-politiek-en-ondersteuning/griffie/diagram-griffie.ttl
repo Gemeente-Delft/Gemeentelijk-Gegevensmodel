@@ -1,0 +1,2823 @@
+# graph: <https://lod.gemeentelijkgegevensmodel.nl/v3.0.0/bestuur-politiek-en-ondersteuning/griffie/diagram-griffie>
+
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix mim: <http://modellen.mim-standaard.nl/def/mim#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/aanwezige-deelnemer/is-collegelid> a mim:Relatiesoort,
+        owl:ObjectProperty ;
+    rdfs:label "is"@nl ;
+    mim:aggregatietype mim:Geen ;
+    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/aanwezige-deelnemer> ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/collegelid> ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/aanwezige-deelnemer/is-collegelid"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "0..1" ;
+    mim:kardinaliteitRelatieBron "0..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "is"@nl ;
+    mim:unidirectioneel true ;
+    dcterms:identifier "EAID_09E484E1_ACD5_4340_B916_371787D426CF" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/aanwezige-deelnemer> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/collegelid> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/aanwezige-deelnemer/is-natuurlijkpersoon> a mim:Relatiesoort,
+        owl:ObjectProperty ;
+    rdfs:label "is"@nl ;
+    mim:aggregatietype mim:Geen ;
+    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/aanwezige-deelnemer> ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/natuurlijkpersoon> ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/aanwezige-deelnemer/is-natuurlijkpersoon"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "0..1" ;
+    mim:kardinaliteitRelatieBron "0..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "is"@nl ;
+    mim:unidirectioneel true ;
+    dcterms:identifier "EAID_BE36E0F8_0D39_41ce_BE5D_9723DCE88E81" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/aanwezige-deelnemer> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/natuurlijkpersoon> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/indiener/heeft> a mim:Relatiesoort,
+        owl:ObjectProperty ;
+    rdfs:label "heeft"@nl ;
+    mim:aggregatietype mim:Geen ;
+    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/indiener> ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/raadsstuk> ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/indiener/heeft"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..*" ;
+    mim:kardinaliteitRelatieBron "0..*" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "heeft"@nl ;
+    mim:unidirectioneel true ;
+    dcterms:identifier "EAID_7E93A04F_3844_49ba_B1AB_F26D73012118" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/indiener> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/raadsstuk> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/indiener/is-collegelid> a mim:Relatiesoort,
+        owl:ObjectProperty ;
+    rdfs:label "is"@nl ;
+    mim:aggregatietype mim:Geen ;
+    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/indiener> ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/collegelid> ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/indiener/is-collegelid"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "0..1" ;
+    mim:kardinaliteitRelatieBron "0..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "is"@nl ;
+    mim:unidirectioneel true ;
+    dcterms:identifier "EAID_BAB2F0D0_9317_45c8_A353_9989968728B6" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/indiener> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/collegelid> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/indiener/is-raadslid> a mim:Relatiesoort,
+        owl:ObjectProperty ;
+    rdfs:label "is"@nl ;
+    mim:aggregatietype mim:Geen ;
+    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/indiener> ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/raadslid> ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/indiener/is-raadslid"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "0..1" ;
+    mim:kardinaliteitRelatieBron "0..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "is"@nl ;
+    mim:unidirectioneel true ;
+    dcterms:identifier "EAID_16819B21_09BC_4882_9D17_6BDA1FAE308F" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/indiener> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/raadslid> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/indiener/is-rechtspersoon> a mim:Relatiesoort,
+        owl:ObjectProperty ;
+    rdfs:label "is"@nl ;
+    mim:aggregatietype mim:Geen ;
+    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/indiener> ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/rechtspersoon> ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/indiener/is-rechtspersoon"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "0..1" ;
+    mim:kardinaliteitRelatieBron "0..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "is"@nl ;
+    mim:unidirectioneel true ;
+    dcterms:identifier "EAID_CE20BFC0_F092_4cef_853B_695F355221B6" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/indiener> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/rechtspersoon> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/raadscommissie/heeft> a mim:Relatiesoort,
+        owl:ObjectProperty ;
+    rdfs:label "heeft"@nl ;
+    mim:aggregatietype mim:Geen ;
+    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/raadscommissie> ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/vergadering> ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/raadscommissie/heeft"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "0..*" ;
+    mim:kardinaliteitRelatieBron "0..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "heeft"@nl ;
+    mim:unidirectioneel true ;
+    dcterms:identifier "EAID_84B35607_9C4D_47a2_B9E0_5C20A2C477FB" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/raadscommissie> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/vergadering> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/raadslid/is> a mim:Relatiesoort,
+        owl:ObjectProperty ;
+    rdfs:label "is"@nl ;
+    mim:aggregatietype mim:Geen ;
+    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/raadslid> ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/aanwezige-deelnemer> ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/raadslid/is"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "0..1" ;
+    mim:kardinaliteitRelatieBron "0..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "is"@nl ;
+    mim:unidirectioneel true ;
+    dcterms:identifier "EAID_85F0446A_CB6B_456e_91A6_3CA8C45D2550" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/raadslid> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/aanwezige-deelnemer> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/raadslid/is-lid-van> a mim:Relatiesoort,
+        owl:ObjectProperty ;
+    rdfs:label "is lid van"@nl ;
+    mim:aggregatietype mim:Geen ;
+    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/raadslid> ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/raadscommissie> ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/raadslid/is-lid-van"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "0..*" ;
+    mim:kardinaliteitRelatieBron "0..*" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "is lid van"@nl ;
+    mim:unidirectioneel true ;
+    dcterms:identifier "EAID_1DF94C0B_C6BD_4c7d_9AE2_5761713339DB" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/raadslid> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/raadscommissie> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/raadsstuk/behandelt> a mim:Relatiesoort,
+        owl:ObjectProperty ;
+    rdfs:label "behandelt"@nl ;
+    mim:aggregatietype mim:Geen ;
+    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/raadsstuk> ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/agendapunt> ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/raadsstuk/behandelt"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "0..*" ;
+    mim:kardinaliteitRelatieBron "0..*" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "behandelt"@nl ;
+    mim:unidirectioneel true ;
+    dcterms:identifier "EAID_5A64B46B_96A6_4f1c_B92A_44B925160E61" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/raadsstuk> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/agendapunt> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/raadsstuk/wordt-behandeld-in> a mim:Relatiesoort,
+        owl:ObjectProperty ;
+    rdfs:label "wordt behandeld in"@nl ;
+    mim:aggregatietype mim:Geen ;
+    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/raadsstuk> ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/vergadering> ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/raadsstuk/wordt-behandeld-in"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "0..*" ;
+    mim:kardinaliteitRelatieBron "0..*" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "wordt behandeld in"@nl ;
+    mim:unidirectioneel true ;
+    dcterms:identifier "EAID_AA12C031_2ED2_4fde_911F_CFE585E81CB0" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/raadsstuk> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/vergadering> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/stemming/betreft> a mim:Relatiesoort,
+        owl:ObjectProperty ;
+    rdfs:label "betreft"@nl ;
+    mim:aggregatietype mim:Geen ;
+    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/stemming> ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/raadsstuk> ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/stemming/betreft"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:kardinaliteitRelatieBron "0..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "betreft"@nl ;
+    mim:unidirectioneel true ;
+    dcterms:identifier "EAID_6212E314_EC1D_4325_B5F1_06DFC208F360" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/stemming> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/raadsstuk> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/stemming/hoort-bij> a mim:Relatiesoort,
+        owl:ObjectProperty ;
+    rdfs:label "hoort bij"@nl ;
+    mim:aggregatietype mim:Geen ;
+    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/stemming> ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/agendapunt> ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/stemming/hoort-bij"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "0..1" ;
+    mim:kardinaliteitRelatieBron "0..*" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "hoort bij"@nl ;
+    mim:unidirectioneel true ;
+    dcterms:identifier "EAID_1C2E6D7B_B9F0_48a9_9EB6_C68727E25A65" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/stemming> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/agendapunt> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/vergadering/betreft> a mim:Relatiesoort,
+        owl:ObjectProperty ;
+    rdfs:label "betreft"@nl ;
+    mim:aggregatietype mim:Geen ;
+    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/vergadering> ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/kern/generiek/video-opname> ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/vergadering/betreft"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "0..*" ;
+    mim:kardinaliteitRelatieBron "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "betreft"@nl ;
+    mim:unidirectioneel true ;
+    dcterms:identifier "EAID_74669FE0_D963_4e2d_97C6_FE532ADE734E" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/vergadering> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/generiek/video-opname> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/vergadering/heeft> a mim:Relatiesoort,
+        owl:ObjectProperty ;
+    rdfs:label "heeft"@nl ;
+    mim:aggregatietype mim:Geen ;
+    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/vergadering> ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/agendapunt> ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/vergadering/heeft"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "0..*" ;
+    mim:kardinaliteitRelatieBron "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "heeft"@nl ;
+    mim:unidirectioneel true ;
+    dcterms:identifier "EAID_4A5F49E9_B2F8_4ee3_AFE4_963CAF4FB6F4" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/vergadering> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/agendapunt> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/vergadering/heeft-verslag> a mim:Relatiesoort,
+        owl:ObjectProperty ;
+    rdfs:label "heeft verslag"@nl ;
+    mim:aggregatietype mim:Geen ;
+    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/vergadering> ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/raadsstuk> ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/vergadering/heeft-verslag"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "0..1" ;
+    mim:kardinaliteitRelatieBron "0..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "heeft verslag"@nl ;
+    mim:unidirectioneel true ;
+    dcterms:identifier "EAID_478BEE5A_22BB_4688_9AF4_5B6A29A16BAF" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/vergadering> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/raadsstuk> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/vergadering/relatie-aanwezige-deelnemer> a mim:Relatiesoort,
+        owl:ObjectProperty ;
+    rdfs:label "relatie naar Aanwezige Deelnemer"@nl ;
+    mim:aggregatietype mim:Geen ;
+    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/vergadering> ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/aanwezige-deelnemer> ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/vergadering/relatie-aanwezige-deelnemer"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "0..*" ;
+    mim:kardinaliteitRelatieBron "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "relatie naar Aanwezige Deelnemer"@nl ;
+    mim:unidirectioneel true ;
+    dcterms:identifier "EAID_29CBC16D_7D9B_469a_8641_EC4ABE5C3795" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/vergadering> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/aanwezige-deelnemer> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/generiek/video-opname/betreft-agendapunt> a mim:Relatiesoort,
+        owl:ObjectProperty ;
+    rdfs:label "betreft"@nl ;
+    mim:aggregatietype mim:Geen ;
+    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/kern/generiek/video-opname> ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/agendapunt> ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/generiek/video-opname/betreft-agendapunt"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "0..*" ;
+    mim:kardinaliteitRelatieBron "0..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "betreft"@nl ;
+    mim:unidirectioneel true ;
+    dcterms:identifier "EAID_E4F4F868_574E_4ce6_98AB_87B446913522" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/generiek/video-opname> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/generiek/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/agendapunt> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/rechtspersoon/adresbinnenland> a mim:Relatiesoort,
+        owl:ObjectProperty ;
+    rdfs:label "adresBinnenland"@nl ;
+    mim:aggregatietype mim:Geen ;
+    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/rechtspersoon> ;
+    mim:definitie "De aanduiding van het adres waar het SUBJECT verblijft dan wel bereikbaar is."@nl ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/binnenlandsadres> ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/rechtspersoon/adresbinnenland"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "adresBinnenland"@nl ;
+    mim:unidirectioneel true ;
+    dcterms:identifier "EAID_0F55857A_1582_46f5_9621_0E93F8C13310" ;
+    rdfs:comment "De aanduiding van het adres waar het SUBJECT verblijft dan wel bereikbaar is."@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/rechtspersoon> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/binnenlandsadres> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/v3.0.0/bestuur-politiek-en-ondersteuning/griffie/diagram-griffie> a owl:Ontology ;
+    rdfs:label "Diagram Griffie"@nl ;
+    dcterms:identifier "EAID_A9F0B77B_05F3_4c36_96A0_8841BBAE47E0" ;
+    dcterms:isPartOf <https://lod.gemeentelijkgegevensmodel.nl/> ;
+    owl:versionInfo "v3.0.0" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/aanwezige-deelnemer/aanvangaanwezigheid> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "aanvangAanwezigheid"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/aanwezige-deelnemer/aanvangaanwezigheid"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde false ;
+    mim:naam "aanvangAanwezigheid"@nl ;
+    mim:type mim:DateTime ;
+    dcterms:identifier "EAID_8E91C8DE_D513_4907_9180_A44CEED1B1DA" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/aanwezige-deelnemer> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/> ;
+    rdfs:range xsd:dateTime .
+
+<https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/aanwezige-deelnemer/eindeaanwezigheid> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "eindeAanwezigheid"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/aanwezige-deelnemer/eindeaanwezigheid"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "eindeAanwezigheid"@nl ;
+    mim:type mim:DateTime ;
+    dcterms:identifier "EAID_A5E50423_238E_466b_BE99_907CEBEFC748" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/aanwezige-deelnemer> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/> ;
+    rdfs:range xsd:dateTime .
+
+<https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/aanwezige-deelnemer/naam> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "naam"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/aanwezige-deelnemer/naam"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "naam"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_085F1605_6837_440f_AA02_0875ADA2C3A0" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/aanwezige-deelnemer> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/aanwezige-deelnemer/rol> a mim:Attribuutsoort,
+        owl:ObjectProperty ;
+    rdfs:label "rol"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/aanwezige-deelnemer/rol"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "rol"@nl ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/deelnemersrol> ;
+    dcterms:identifier "EAID_87E80E09_D1E1_405a_B523_7B0325C6036C" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/aanwezige-deelnemer> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/deelnemersrol> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/aanwezige-deelnemer/vertegenwoordigtorganisatie> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "vertegenwoordigtOrganisatie"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/aanwezige-deelnemer/vertegenwoordigtorganisatie"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "vertegenwoordigtOrganisatie"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_7320C8AA_C6D0_4002_AA34_83215D0387AA" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/aanwezige-deelnemer> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/agendapunt/nummer> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "nummer"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/agendapunt/nummer"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "nummer"@nl ;
+    mim:type mim:Integer ;
+    dcterms:identifier "EAID_4D5223CC_0D01_4159_A332_D79F62EF6EFF" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/agendapunt> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/> ;
+    rdfs:range xsd:integer .
+
+<https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/agendapunt/omschrijving> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "omschrijving"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/agendapunt/omschrijving"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "omschrijving"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_0F87B143_8CC4_425b_866A_4CBAAE62EC83" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/agendapunt> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/agendapunt/titel> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "titel"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/agendapunt/titel"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "titel"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_A65D3FAE_0680_4993_8B07_517C8AE0CA63" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/agendapunt> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/collegelid/achternaam> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "achternaam"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/collegelid/achternaam"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "achternaam"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_A3BBDA79_17AC_48a1_8DD2_164CE824183B" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/collegelid> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/collegelid/datumaanstelling> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "datumAanstelling"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/collegelid/datumaanstelling"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "datumAanstelling"@nl ;
+    mim:type mim:Date ;
+    dcterms:identifier "EAID_4206FC6F_BAE8_4240_A6D9_FF57FDF68E78" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/collegelid> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/> ;
+    rdfs:range xsd:date .
+
+<https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/collegelid/datumuittreding> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "datumUittreding"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/collegelid/datumuittreding"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "datumUittreding"@nl ;
+    mim:type mim:Date ;
+    dcterms:identifier "EAID_DC01DF7E_947A_4ca4_9FD6_A8A9198F5865" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/collegelid> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/> ;
+    rdfs:range xsd:date .
+
+<https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/collegelid/fractie> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "fractie"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/collegelid/fractie"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "fractie"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_E9883025_3926_46ad_AE57_15F566F195DE" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/collegelid> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/collegelid/portefeuille> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "portefeuille"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/collegelid/portefeuille"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "portefeuille"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_35D6D541_038F_406d_A91C_94E9919D6F55" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/collegelid> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/collegelid/titel> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "titel"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/collegelid/titel"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "titel"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_2A2262E6_663D_4ca0_86BF_87DA49620F6C" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/collegelid> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/collegelid/voornaam> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "voornaam"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/collegelid/voornaam"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "voornaam"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_CE0E980A_7BEF_4e17_81AE_596CA5C630D6" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/collegelid> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/deelnemersrol/inspreker> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/deelnemersrol> ;
+    rdfs:label "Inspreker"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/deelnemersrol/inspreker"^^xsd:anyURI ;
+    mim:naam "Inspreker"@nl ;
+    dcterms:identifier "EAID_0ABDC1F9_EFE8_47a0_B484_8FFFF7A8AFEC" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/deelnemersrol> ;
+    skos:prefLabel "Inspreker"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/deelnemersrol> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/deelnemersrol/overig> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/deelnemersrol> ;
+    rdfs:label "Overig"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/deelnemersrol/overig"^^xsd:anyURI ;
+    mim:naam "Overig"@nl ;
+    dcterms:identifier "EAID_7E818D24_AFDA_45b6_9FDF_6AC7C6230E0F" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/deelnemersrol> ;
+    skos:prefLabel "Overig"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/deelnemersrol> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/deelnemersrol/portefeuillehouder> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/deelnemersrol> ;
+    rdfs:label "Portefeuillehouder"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/deelnemersrol/portefeuillehouder"^^xsd:anyURI ;
+    mim:naam "Portefeuillehouder"@nl ;
+    dcterms:identifier "EAID_F95E7628_5865_4637_900D_6F8AAF4D927F" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/deelnemersrol> ;
+    skos:prefLabel "Portefeuillehouder"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/deelnemersrol> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/deelnemersrol/raadslid> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/deelnemersrol> ;
+    rdfs:label "Raadslid"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/deelnemersrol/raadslid"^^xsd:anyURI ;
+    mim:naam "Raadslid"@nl ;
+    dcterms:identifier "EAID_DB6262CB_C0D9_46a3_B1BE_C74A350C6C91" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/deelnemersrol> ;
+    skos:prefLabel "Raadslid"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/deelnemersrol> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/deelnemersrol/statenlid> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/deelnemersrol> ;
+    rdfs:label "Statenlid"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/deelnemersrol/statenlid"^^xsd:anyURI ;
+    mim:naam "Statenlid"@nl ;
+    dcterms:identifier "EAID_2DB3AE18_2F58_4b91_AFDE_B72BEF45B7E4" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/deelnemersrol> ;
+    skos:prefLabel "Statenlid"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/deelnemersrol> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/deelnemersrol/vice-voorzitter> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/deelnemersrol> ;
+    rdfs:label "Vice-voorzitter"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/deelnemersrol/vice-voorzitter"^^xsd:anyURI ;
+    mim:naam "Vice-voorzitter"@nl ;
+    dcterms:identifier "EAID_F04B593A_6CFF_48d6_B522_0AA3BB839AB0" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/deelnemersrol> ;
+    skos:prefLabel "Vice-voorzitter"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/deelnemersrol> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/deelnemersrol/voorzitter> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/deelnemersrol> ;
+    rdfs:label "Voorzitter"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/deelnemersrol/voorzitter"^^xsd:anyURI ;
+    mim:naam "Voorzitter"@nl ;
+    dcterms:identifier "EAID_8E58D10B_2678_44e8_BD38_5A1355E9E14D" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/deelnemersrol> ;
+    skos:prefLabel "Voorzitter"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/deelnemersrol> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/indiener/naam> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "naam"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/indiener/naam"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "naam"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_A1720378_DC9B_439c_840B_11C0E7B4FD23" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/indiener> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/indiener/omschrijving> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "omschrijving"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/indiener/omschrijving"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "omschrijving"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_5867D459_ADC9_4490_9DE3_DFE7EC7BA423" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/indiener> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/raadscommissie/naam> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "naam"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/raadscommissie/naam"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "naam"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_5ED5FC16_1ACE_4fe7_B748_8677B183B356" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/raadscommissie> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/raadslid/achternaam> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "achternaam"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/raadslid/achternaam"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "achternaam"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_52C6F6A2_D06E_4e34_A2B0_9E6DD47386DE" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/raadslid> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/raadslid/datumaanstelling> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "datumAanstelling"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/raadslid/datumaanstelling"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "datumAanstelling"@nl ;
+    mim:type mim:Date ;
+    dcterms:identifier "EAID_376E6EF1_A184_4d7c_B962_DFC9B1C3E40F" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/raadslid> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/> ;
+    rdfs:range xsd:date .
+
+<https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/raadslid/datumuittreding> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "datumUittreding"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/raadslid/datumuittreding"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "datumUittreding"@nl ;
+    mim:type mim:Date ;
+    dcterms:identifier "EAID_1C4FF02E_B6B9_41e9_9C41_9BE807D5D562" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/raadslid> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/> ;
+    rdfs:range xsd:date .
+
+<https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/raadslid/fractie> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "fractie"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/raadslid/fractie"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "fractie"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_C055E0D3_A0A1_422b_8918_C1B5D7552E16" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/raadslid> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/raadslid/titel> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "titel"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/raadslid/titel"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "titel"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_D61B8A6C_8F0B_4c2e_B088_054A75439C29" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/raadslid> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/raadslid/voornaam> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "voornaam"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/raadslid/voornaam"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "voornaam"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_2B43A0B4_AFDE_41c9_A980_68E6DED35EAB" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/raadslid> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/raadsstuk/besloten> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "besloten"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/raadsstuk/besloten"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "besloten"@nl ;
+    mim:type mim:Boolean ;
+    dcterms:identifier "EAID_5F0B0086_4B20_4ad6_A0E3_8473792DCCA3" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/raadsstuk> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/> ;
+    rdfs:range xsd:boolean .
+
+<https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/raadsstuk/datumexpiratie> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "datumExpiratie"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/raadsstuk/datumexpiratie"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "datumExpiratie"@nl ;
+    mim:type mim:DateTime ;
+    dcterms:identifier "EAID_2727F559_44D0_4e2b_892B_849D1FA4EFA6" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/raadsstuk> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/> ;
+    rdfs:range xsd:dateTime .
+
+<https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/raadsstuk/datumpublicatie> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "datumPublicatie"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/raadsstuk/datumpublicatie"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "datumPublicatie"@nl ;
+    mim:type mim:DateTime ;
+    dcterms:identifier "EAID_334CE3A8_8E8D_4b06_8DA9_C4D03BD38C1D" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/raadsstuk> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/> ;
+    rdfs:range xsd:dateTime .
+
+<https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/raadsstuk/datumregistratie> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "datumRegistratie"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/raadsstuk/datumregistratie"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "datumRegistratie"@nl ;
+    mim:type mim:DateTime ;
+    dcterms:identifier "EAID_72642A6B_AF2F_4dbd_98C1_16C0DD3FDF69" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/raadsstuk> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/> ;
+    rdfs:range xsd:dateTime .
+
+<https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/raadsstuk/typeraadsstuk> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "typeRaadsstuk"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/raadsstuk/typeraadsstuk"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "typeRaadsstuk"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_CBF2C174_7F93_4c2f_A6E7_F501D9E3291D" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/raadsstuk> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/stemming/resultaat> a mim:Attribuutsoort,
+        owl:ObjectProperty ;
+    rdfs:label "resultaat"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/stemming/resultaat"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "resultaat"@nl ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/stemmingsresultaattype> ;
+    dcterms:identifier "EAID_8654495F_602B_4ba4_B14E_06E462B83DA9" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/stemming> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/stemmingsresultaattype> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/stemming/stemmingstype> a mim:Attribuutsoort,
+        owl:ObjectProperty ;
+    rdfs:label "stemmingstype"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/stemming/stemmingstype"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "stemmingstype"@nl ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/stemmingstype> ;
+    dcterms:identifier "EAID_7492724B_9665_4ca6_A759_F6DFA6A9810A" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/stemming> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/stemmingstype> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/stemmingsresultaattype/gelijk> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/stemmingsresultaattype> ;
+    rdfs:label "Gelijk"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/stemmingsresultaattype/gelijk"^^xsd:anyURI ;
+    mim:naam "Gelijk"@nl ;
+    dcterms:identifier "EAID_4126D503_CE84_4619_9735_4785DD6B45A8" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/stemmingsresultaattype> ;
+    skos:prefLabel "Gelijk"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/stemmingsresultaattype> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/stemmingsresultaattype/tegen> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/stemmingsresultaattype> ;
+    rdfs:label "Tegen"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/stemmingsresultaattype/tegen"^^xsd:anyURI ;
+    mim:naam "Tegen"@nl ;
+    dcterms:identifier "EAID_FCEB6E82_EE6F_4afa_AE2A_C507A9E5C7C9" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/stemmingsresultaattype> ;
+    skos:prefLabel "Tegen"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/stemmingsresultaattype> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/stemmingsresultaattype/voor> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/stemmingsresultaattype> ;
+    rdfs:label "Voor"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/stemmingsresultaattype/voor"^^xsd:anyURI ;
+    mim:naam "Voor"@nl ;
+    dcterms:identifier "EAID_08AE22A1_018C_435b_B9FA_E30AD521D69F" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/stemmingsresultaattype> ;
+    skos:prefLabel "Voor"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/stemmingsresultaattype> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/stemmingstype/hoofdelijk> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/stemmingstype> ;
+    rdfs:label "Hoofdelijk"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/stemmingstype/hoofdelijk"^^xsd:anyURI ;
+    mim:naam "Hoofdelijk"@nl ;
+    dcterms:identifier "EAID_43491F7E_5EA2_4db4_89C3_77D10AD2736C" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/stemmingstype> ;
+    skos:prefLabel "Hoofdelijk"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/stemmingstype> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/stemmingstype/regulier> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/stemmingstype> ;
+    rdfs:label "Regulier"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/stemmingstype/regulier"^^xsd:anyURI ;
+    mim:naam "Regulier"@nl ;
+    dcterms:identifier "EAID_9CCF7EAF_BDB6_4fdf_B2D7_A4916EAAB20D" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/stemmingstype> ;
+    skos:prefLabel "Regulier"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/stemmingstype> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/stemmingstype/schriftelijk> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/stemmingstype> ;
+    rdfs:label "Schriftelijk"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/stemmingstype/schriftelijk"^^xsd:anyURI ;
+    mim:naam "Schriftelijk"@nl ;
+    dcterms:identifier "EAID_A41D1FFA_9520_4fb6_9EFC_703B5A95A4A9" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/stemmingstype> ;
+    skos:prefLabel "Schriftelijk"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/stemmingstype> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/vergadering/eindtijd> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "eindtijd"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/vergadering/eindtijd"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "eindtijd"@nl ;
+    mim:type mim:DateTime ;
+    dcterms:identifier "EAID_AA242888_6A4A_4fda_B0EC_6D2A25EAB5C2" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/vergadering> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/> ;
+    rdfs:range xsd:dateTime .
+
+<https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/vergadering/locatie> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "locatie"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/vergadering/locatie"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "locatie"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_C7634B88_1168_4245_B186_9F8FEE605A7D" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/vergadering> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/vergadering/starttijd> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "starttijd"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/vergadering/starttijd"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "starttijd"@nl ;
+    mim:type mim:DateTime ;
+    dcterms:identifier "EAID_0EAB7C95_2804_4e6a_9934_5DA9EC5BAA62" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/vergadering> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/> ;
+    rdfs:range xsd:dateTime .
+
+<https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/vergadering/titel> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "titel"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/vergadering/titel"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "titel"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_348F1F0F_8E7C_4850_BCD6_A91DAE640565" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/vergadering> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel/baron> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel> ;
+    rdfs:label "baron"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel/baron"^^xsd:anyURI ;
+    mim:naam "baron"@nl ;
+    dcterms:identifier "EAID_4E960B48_5F5A_491a_BBD5_708B92271E94" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel> ;
+    skos:prefLabel "baron"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel/barones> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel> ;
+    rdfs:label "barones"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel/barones"^^xsd:anyURI ;
+    mim:naam "barones"@nl ;
+    dcterms:identifier "EAID_7908254F_3149_488a_964D_33D76F7F03FE" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel> ;
+    skos:prefLabel "barones"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel/graaf> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel> ;
+    rdfs:label "graaf"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel/graaf"^^xsd:anyURI ;
+    mim:naam "graaf"@nl ;
+    dcterms:identifier "EAID_0AA8D702_6288_4621_AD24_D375E6921C75" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel> ;
+    skos:prefLabel "graaf"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel/gravin> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel> ;
+    rdfs:label "gravin"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel/gravin"^^xsd:anyURI ;
+    mim:naam "gravin"@nl ;
+    dcterms:identifier "EAID_4C2106FF_FE00_4103_A914_C34A56B72F06" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel> ;
+    skos:prefLabel "gravin"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel/hertog> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel> ;
+    rdfs:label "hertog"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel/hertog"^^xsd:anyURI ;
+    mim:naam "hertog"@nl ;
+    dcterms:identifier "EAID_ED11FD6F_9F2C_4dd8_9A24_5EF2F24E376D" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel> ;
+    skos:prefLabel "hertog"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel/hertogin> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel> ;
+    rdfs:label "hertogin"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel/hertogin"^^xsd:anyURI ;
+    mim:naam "hertogin"@nl ;
+    dcterms:identifier "EAID_0BFF11E0_D82E_4d86_87A0_56FBC38C006B" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel> ;
+    skos:prefLabel "hertogin"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel/leeg> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel> ;
+    rdfs:label "Leeg"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel/leeg"^^xsd:anyURI ;
+    mim:naam "Leeg"@nl ;
+    dcterms:identifier "EAID_26517860_E059_4fff_B750_299D075577DB" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel> ;
+    skos:prefLabel "Leeg"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel/markies> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel> ;
+    rdfs:label "markies"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel/markies"^^xsd:anyURI ;
+    mim:naam "markies"@nl ;
+    dcterms:identifier "EAID_9D0FFC5E_DB66_43e1_81A5_167340C6C5E7" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel> ;
+    skos:prefLabel "markies"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel/markiezin> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel> ;
+    rdfs:label "markiezin"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel/markiezin"^^xsd:anyURI ;
+    mim:naam "markiezin"@nl ;
+    dcterms:identifier "EAID_790824F4_AFC4_4799_BDD6_F124474B615A" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel> ;
+    skos:prefLabel "markiezin"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel/onbekend> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel> ;
+    rdfs:label "Onbekend"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel/onbekend"^^xsd:anyURI ;
+    mim:naam "Onbekend"@nl ;
+    dcterms:identifier "EAID_BF82DBF7_F85E_4179_B3FA_33CF880C12C0" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel> ;
+    skos:prefLabel "Onbekend"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel/prins> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel> ;
+    rdfs:label "prins"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel/prins"^^xsd:anyURI ;
+    mim:naam "prins"@nl ;
+    dcterms:identifier "EAID_FA4A562A_BB05_47b2_A70F_8E15B7ECF124" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel> ;
+    skos:prefLabel "prins"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel/prinses> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel> ;
+    rdfs:label "prinses"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel/prinses"^^xsd:anyURI ;
+    mim:naam "prinses"@nl ;
+    dcterms:identifier "EAID_07B16146_BF17_47fc_AE2B_3B856F8F3020" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel> ;
+    skos:prefLabel "prinses"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel/ridder> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel> ;
+    rdfs:label "ridder"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel/ridder"^^xsd:anyURI ;
+    mim:naam "ridder"@nl ;
+    dcterms:identifier "EAID_8B516517_E401_434e_888D_C523233FC810" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel> ;
+    skos:prefLabel "ridder"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/generiek/video-opname/bestandsgrootte> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "bestandsgrootte"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/generiek/video-opname/bestandsgrootte"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "bestandsgrootte"@nl ;
+    mim:type mim:Integer ;
+    dcterms:identifier "EAID_1BD88347_A95D_4d6b_8CBE_C1FFE22D5ECE" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/generiek/video-opname> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/generiek/> ;
+    rdfs:range xsd:integer .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/generiek/video-opname/datumtijd> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "datumtijd"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/generiek/video-opname/datumtijd"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "datumtijd"@nl ;
+    mim:type mim:DateTime ;
+    dcterms:identifier "EAID_4769AA29_96D2_4b4d_AA1D_7C12144E3C40" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/generiek/video-opname> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/generiek/> ;
+    rdfs:range xsd:dateTime .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/generiek/video-opname/lengte> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "lengte"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/generiek/video-opname/lengte"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "lengte"@nl ;
+    mim:type mim:Integer ;
+    dcterms:identifier "EAID_8EBDBA0F_E6BC_49d0_9499_794676BF0FA2" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/generiek/video-opname> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/generiek/> ;
+    rdfs:range xsd:integer .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/generiek/video-opname/videoformaat> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "videoformaat"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/generiek/video-opname/videoformaat"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "videoformaat"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_4285A8AE_803F_4192_8010_E58BC7E9FD6B" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/generiek/video-opname> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/generiek/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/document/cocumentbeschrijving> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "cocumentBeschrijving"@nl ;
+    mim:definitie "<font color=\"#610e6a\">Een generieke beschrijving van de inhoud van het document.</font>"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/document/cocumentbeschrijving"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "0..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "cocumentBeschrijving"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_1DB068B6_3EAE_4d79_B1EC_73905A5994FC" ;
+    rdfs:comment "<font color=\"#610e6a\">Een generieke beschrijving van de inhoud van het document.</font>"@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/document> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/document/datumcreatiedocument> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "datumCreatieDocument"@nl ;
+    mim:definitie "<font color=\"#610e6a\">Een datum of een gebeurtenis in de levenscyclus van het document.</font>"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/document/datumcreatiedocument"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie true ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "datumCreatieDocument"@nl ;
+    mim:type mim:Date ;
+    dcterms:identifier "EAID_61F9ED59_4DA5_4099_ADAC_8D7FEFDD0F37" ;
+    rdfs:comment "<font color=\"#610e6a\">Een datum of een gebeurtenis in de levenscyclus van het document.</font>"@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/document> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> ;
+    rdfs:range xsd:date .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/document/datumontvangstdocument> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "datumOntvangstdocument"@nl ;
+    mim:definitie "<font color=\"#610e6a\">De datum waarop het DOCUMENT ontvangen is.</font>"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/document/datumontvangstdocument"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie true ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "0..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "datumOntvangstdocument"@nl ;
+    mim:type mim:Date ;
+    dcterms:identifier "EAID_FFEE3095_1146_4106_A1ED_70A253812FA6" ;
+    rdfs:comment "<font color=\"#610e6a\">De datum waarop het DOCUMENT ontvangen is.</font>"@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/document> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> ;
+    rdfs:range xsd:date .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/document/datumverzendingdocument> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "datumVerzendingDocument"@nl ;
+    mim:definitie "<font color=\"#610e6a\">De datum waarop het DOCUMENT verzonden is.</font>"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/document/datumverzendingdocument"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie true ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "0..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "datumVerzendingDocument"@nl ;
+    mim:type mim:Date ;
+    dcterms:identifier "EAID_C06162CD_CFEA_4c04_BE26_76BC4DF42A16" ;
+    rdfs:comment "<font color=\"#610e6a\">De datum waarop het DOCUMENT verzonden is.</font>"@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/document> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> ;
+    rdfs:range xsd:date .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/document/documentauteur> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "documentAuteur"@nl ;
+    mim:definitie "<font color=\"#610e6a\">De persoon of organisatie die in de eerste plaats verantwoordelijk is voor het creëren van de inhoud van het document.</font>"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/document/documentauteur"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie true ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "documentAuteur"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_24277038_EF81_4e10_92BC_68AB8969FE4D" ;
+    rdfs:comment "<font color=\"#610e6a\">De persoon of organisatie die in de eerste plaats verantwoordelijk is voor het creëren van de inhoud van het document.</font>"@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/document> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/document/documentidentificatie> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "documentIdentificatie"@nl ;
+    mim:definitie """<font color="#610e6a">Een binnen een gegeven context ondubbelzinnige referentie naar het document.</font>
+<font color="#610e6a">Bijvoorbeeld potsregistratienummer</font>"""@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/document/documentidentificatie"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "documentIdentificatie"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_CB08FF35_EE64_4504_90CF_835DA32E636C" ;
+    rdfs:comment """<font color="#610e6a">Een binnen een gegeven context ondubbelzinnige referentie naar het document.</font>
+<font color="#610e6a">Bijvoorbeeld potsregistratienummer</font>"""@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/document> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/document/documenttitel> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "documentTitel"@nl ;
+    mim:definitie "<font color=\"#610e6a\">De naam waaronder het document formeel bekend is.</font>"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/document/documenttitel"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie true ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "documentTitel"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_21E0EC21_5217_4582_A8B8_CA0EE3EFDFAD" ;
+    rdfs:comment "<font color=\"#610e6a\">De naam waaronder het document formeel bekend is.</font>"@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/document> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/document/vertrouwelijkaanduiding> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "vertrouwelijkAanduiding"@nl ;
+    mim:definitie "<font color=\"#610e6a\">Aanduiding van de mate waarin het DOCUMENT voor de openbaarheid bestemd is.</font>"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/document/vertrouwelijkaanduiding"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "vertrouwelijkAanduiding"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_A7A897CF_ECB5_45c1_A0CD_698E1D66F2CF" ;
+    rdfs:comment "<font color=\"#610e6a\">Aanduiding van de mate waarin het DOCUMENT voor de openbaarheid bestemd is.</font>"@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/document> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/ingezetene/aanduidingeuropeeskiesrecht> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "aanduidingEuropeesKiesrecht"@nl ;
+    mim:definitie "Een aanduiding die aangeeft of de persoon een oproep moet ontvangen voor verkiezingen voor het Europees parlement."@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/ingezetene/aanduidingeuropeeskiesrecht"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "0..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "aanduidingEuropeesKiesrecht"@nl ;
+    mim:type mim:Boolean ;
+    dcterms:identifier "EAID_C1A983FD_C68F_4da8_924A_20A89D2C1385" ;
+    rdfs:comment "Een aanduiding die aangeeft of de persoon een oproep moet ontvangen voor verkiezingen voor het Europees parlement."@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/ingezetene> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
+    rdfs:range xsd:boolean .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/ingezetene/aanduidinguitgeslotenkiesrecht> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "aanduidingUitgeslotenKiesrecht"@nl ;
+    mim:definitie "Een aanduiding ter uitvoering van de Kieswet."@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/ingezetene/aanduidinguitgeslotenkiesrecht"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "0..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "aanduidingUitgeslotenKiesrecht"@nl ;
+    mim:type mim:Boolean ;
+    dcterms:identifier "EAID_FC38DEF4_EB44_4a47_937A_04A0FEBEFEB3" ;
+    rdfs:comment "Een aanduiding ter uitvoering van de Kieswet."@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/ingezetene> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
+    rdfs:range xsd:boolean .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/ingezetene/datumverkrijgingverblijfstitel> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "datumVerkrijgingVerblijfstitel"@nl ;
+    mim:definitie "De datum waarop de verblijfstitel van een natuurlijke persoon zijn geldigheid heeft verkregen."@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/ingezetene/datumverkrijgingverblijfstitel"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "0..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "datumVerkrijgingVerblijfstitel"@nl ;
+    mim:type mim:Date ;
+    dcterms:identifier "EAID_96310131_84AC_45e0_995B_0DE8FD4DE9F9" ;
+    rdfs:comment "De datum waarop de verblijfstitel van een natuurlijke persoon zijn geldigheid heeft verkregen."@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/ingezetene> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
+    rdfs:range xsd:date .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/ingezetene/datumverliesverblijfstitel> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "datumVerliesVerblijfstitel"@nl ;
+    mim:definitie "De datum waarop de verblijfstitel van een natuurlijke persoon zijn geldigheid zal verliezen."@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/ingezetene/datumverliesverblijfstitel"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "0..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "datumVerliesVerblijfstitel"@nl ;
+    mim:type mim:Date ;
+    dcterms:identifier "EAID_419F3359_8B97_4508_8575_08DD152300C4" ;
+    rdfs:comment "De datum waarop de verblijfstitel van een natuurlijke persoon zijn geldigheid zal verliezen."@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/ingezetene> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
+    rdfs:range xsd:date .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/ingezetene/indicatieblokkering> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "indicatieBlokkering"@nl ;
+    mim:definitie "De indicatie dat de PL is geblokkeerd wegens een intergemeentelijke verhuizing."@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/ingezetene/indicatieblokkering"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie true ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "indicatieBlokkering"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_6EB4EDEA_35FF_41fa_9CF6_DC583EA00E3A" ;
+    rdfs:comment "De indicatie dat de PL is geblokkeerd wegens een intergemeentelijke verhuizing."@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/ingezetene> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/ingezetene/indicatiecurateleregister> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "indicatieCurateleregister"@nl ;
+    mim:definitie "Een aanduiding dat de ingezetene onder curatele is gesteld."@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/ingezetene/indicatiecurateleregister"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie true ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "0..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "indicatieCurateleregister"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_BF5CEB65_1045_4cd9_9F43_8F9E2EDAFBE5" ;
+    rdfs:comment "Een aanduiding dat de ingezetene onder curatele is gesteld."@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/ingezetene> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/ingezetene/indicatiegezagminderjarige> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "indicatieGezagMinderjarige"@nl ;
+    mim:definitie "Een aanduiding die aangeeft wie belast is met het gezag over de minderjarige ingezetene."@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/ingezetene/indicatiegezagminderjarige"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie true ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "0..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "indicatieGezagMinderjarige"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_F8BC786F_E926_440d_9049_A12253E30135" ;
+    rdfs:comment "Een aanduiding die aangeeft wie belast is met het gezag over de minderjarige ingezetene."@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/ingezetene> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/natuurlijkpersoon/aanduidingnaamgebruik> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "aanduidingNaamgebruik"@nl ;
+    mim:definitie "Een aanduiding voor de wijze van aanschrijving van de ingeschrevene."@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/natuurlijkpersoon/aanduidingnaamgebruik"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie true ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "0..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "aanduidingNaamgebruik"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_A4B50421_E428_4def_96B7_3639F0BA8F33" ;
+    rdfs:comment "Een aanduiding voor de wijze van aanschrijving van de ingeschrevene."@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/natuurlijkpersoon> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/natuurlijkpersoon/aanhefaanschrijving> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "aanhefAanschrijving"@nl ;
+    mim:definitie "De aanhef waarmee de persoon aangeschreven wil worden."@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/natuurlijkpersoon/aanhefaanschrijving"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "aanhefAanschrijving"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_B491C4DA_C2E1_4b77_93A7_938116B72F22" ;
+    rdfs:comment "De aanhef waarmee de persoon aangeschreven wil worden."@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/natuurlijkpersoon> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/natuurlijkpersoon/academischetitel> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "academischeTitel"@nl ;
+    mim:definitie "De ACADEMISCHE TITELs van een NATUURLIJK PERSOON."@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/natuurlijkpersoon/academischetitel"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "0..*" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "academischeTitel"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_F361C95F_53F8_4625_9D3D_030CD1EA48BA" ;
+    rdfs:comment "De ACADEMISCHE TITELs van een NATUURLIJK PERSOON."@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/natuurlijkpersoon> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/natuurlijkpersoon/achternaam> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "achternaam"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/natuurlijkpersoon/achternaam"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "achternaam"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_AA122FC9_8F67_4178_9D72_BF098EA63E92" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/natuurlijkpersoon> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/natuurlijkpersoon/adellijketitelofpredikaat> a mim:Attribuutsoort,
+        owl:ObjectProperty ;
+    rdfs:label "adellijkeTitelOfPredikaat"@nl ;
+    mim:definitie "Een omschrijving die aangeeft welke titel of welk predikaat behoort tot de naam (bij adellijke titel geslachtsnaam, bij predikaat voornaam)."@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/natuurlijkpersoon/adellijketitelofpredikaat"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "0..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "adellijkeTitelOfPredikaat"@nl ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel> ;
+    dcterms:identifier "EAID_5CB3C6B2_826C_4645_AC21_6E4F8A103B29" ;
+    rdfs:comment "Een omschrijving die aangeeft welke titel of welk predikaat behoort tot de naam (bij adellijke titel geslachtsnaam, bij predikaat voornaam)."@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/natuurlijkpersoon> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/natuurlijkpersoon/anummer> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "anummer"@nl ;
+    mim:definitie "Het administratienummer van het kind, bedoeld in de Wet BRP."@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/natuurlijkpersoon/anummer"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "anummer"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_7F6A767D_6AA4_4ada_8935_8A4A052FEF5D" ;
+    rdfs:comment "Het administratienummer van het kind, bedoeld in de Wet BRP."@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/natuurlijkpersoon> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/natuurlijkpersoon/bijzondernederlanderschap> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "bijzonderNederlanderschap"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/natuurlijkpersoon/bijzondernederlanderschap"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "bijzonderNederlanderschap"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_91D5A910_8573_42d9_81FF_0745067097A3" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/natuurlijkpersoon> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/natuurlijkpersoon/burgerservicenummer> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "burgerservicenummer"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/natuurlijkpersoon/burgerservicenummer"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "burgerservicenummer"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_D0D31A65_6ADD_4d9e_94E4_F232D261A053" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/natuurlijkpersoon> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/natuurlijkpersoon/datumgeboorte> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "datumGeboorte"@nl ;
+    mim:definitie "De datum waarop de ander natuurljjk persoon is geboren."@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/natuurlijkpersoon/datumgeboorte"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie true ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "0..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "datumGeboorte"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_E1EB6152_0130_4649_A547_DFE890DDB884" ;
+    rdfs:comment "De datum waarop de ander natuurljjk persoon is geboren."@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/natuurlijkpersoon> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/natuurlijkpersoon/datumoverlijden> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "datumOverlijden"@nl ;
+    mim:definitie "De datum van overlijden van een ANDER NATUURLIJK PERSOON"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/natuurlijkpersoon/datumoverlijden"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie true ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "0..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "datumOverlijden"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_0C911D2A_0457_4a6e_9178_1089A4632DB1" ;
+    rdfs:comment "De datum van overlijden van een ANDER NATUURLIJK PERSOON"@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/natuurlijkpersoon> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/natuurlijkpersoon/geboorteland> a mim:Attribuutsoort,
+        owl:ObjectProperty ;
+    rdfs:label "geboorteland"@nl ;
+    mim:definitie "Het LAND waar de INGESCHREVEN PERSOON is geboren."@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/natuurlijkpersoon/geboorteland"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "geboorteland"@nl ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/referentielijsten/land> ;
+    dcterms:identifier "EAID_708A75AE_B2FD_4238_88D3_FA9DBBAED68F" ;
+    rdfs:comment "Het LAND waar de INGESCHREVEN PERSOON is geboren."@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/natuurlijkpersoon> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/referentielijsten/land> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/natuurlijkpersoon/geboorteplaats> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "geboorteplaats"@nl ;
+    mim:definitie "De naam van de Nederlandse gemeente of een buitenlandse plaats of een plaatsbepaling, die aangeeft waar de ingeschreven persoon is geboren."@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/natuurlijkpersoon/geboorteplaats"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "geboorteplaats"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_E486F2A3_7B55_4ea9_8E76_E5D220B6D941" ;
+    rdfs:comment "De naam van de Nederlandse gemeente of een buitenlandse plaats of een plaatsbepaling, die aangeeft waar de ingeschreven persoon is geboren."@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/natuurlijkpersoon> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/natuurlijkpersoon/geslachtsaanduiding> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "geslachtsaanduiding"@nl ;
+    mim:definitie "Een aanduiding die aangeeft dat de ingeschrevene een man of een vrouw is, of dat het geslacht (nog) onbekend is."@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/natuurlijkpersoon/geslachtsaanduiding"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie true ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "geslachtsaanduiding"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_F29526BB_3DEC_44f4_A715_9E5F9D4B2100" ;
+    rdfs:comment "Een aanduiding die aangeeft dat de ingeschrevene een man of een vrouw is, of dat het geslacht (nog) onbekend is."@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/natuurlijkpersoon> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/natuurlijkpersoon/geslachtsnaam> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "geslachtsnaam"@nl ;
+    mim:definitie "De (geslachts)naam waarvan de eventueel aanwezige voorvoegsels en adellijke titel/predikaat zijn afgesplitst."@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/natuurlijkpersoon/geslachtsnaam"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "geslachtsnaam"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_4A6908C9_7E08_4b71_A64F_266AFD891312" ;
+    rdfs:comment "De (geslachts)naam waarvan de eventueel aanwezige voorvoegsels en adellijke titel/predikaat zijn afgesplitst."@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/natuurlijkpersoon> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/natuurlijkpersoon/geslachtsnaamaanschrijving> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "geslachtsnaamAanschrijving"@nl ;
+    mim:definitie "De geslachtsnaam waarmee de persoon aangeschreven wil worden."@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/natuurlijkpersoon/geslachtsnaamaanschrijving"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "geslachtsnaamAanschrijving"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_A86FDD6B_4A48_4a8a_9847_E2A3D08E96AA" ;
+    rdfs:comment "De geslachtsnaam waarmee de persoon aangeschreven wil worden."@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/natuurlijkpersoon> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/natuurlijkpersoon/handlichting> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "handlichting"@nl ;
+    mim:definitie "Geeft aan of de rechter handlichting heeft verleend aan: - De Natuurlijk Persoon als eigenaar van een MaatschappelijkeActiviteit - De Natuurlijk Persoon als aansprakelijke"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/natuurlijkpersoon/handlichting"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "handlichting"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_48FEE9C7_1102_4b53_92B3_F5E6B9EE2A26" ;
+    rdfs:comment "Geeft aan of de rechter handlichting heeft verleend aan: - De Natuurlijk Persoon als eigenaar van een MaatschappelijkeActiviteit - De Natuurlijk Persoon als aansprakelijke"@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/natuurlijkpersoon> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/natuurlijkpersoon/indicatieafschermingpersoonsgegevens> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "IndicatieAfschermingPersoonsgegevens"@nl ;
+    mim:definitie "Indicatie Afscherming Persoonsgegevens is een indicatie om aan te geven dat de gegevens van een persoon zijn afgeschermd."@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/natuurlijkpersoon/indicatieafschermingpersoonsgegevens"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "IndicatieAfschermingPersoonsgegevens"@nl ;
+    mim:type mim:Boolean ;
+    dcterms:identifier "EAID_62B6A074_CBC7_4f2a_9623_C83252FBBB0E" ;
+    rdfs:comment "Indicatie Afscherming Persoonsgegevens is een indicatie om aan te geven dat de gegevens van een persoon zijn afgeschermd."@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/natuurlijkpersoon> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
+    rdfs:range xsd:boolean .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/natuurlijkpersoon/indicatieoverleden> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "indicatieOverleden"@nl ;
+    mim:definitie """Indicatie Overleden is een indicatie of de persoon al dan niet overleden is.
+
+Deze indicatie is enkel van belang als de gegevens uit de BRP niet beschikbaar zijn De datum van overlijden is soms niet bekend, maar wel dat iemand overleden is."""@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/natuurlijkpersoon/indicatieoverleden"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "indicatieOverleden"@nl ;
+    mim:type mim:Boolean ;
+    dcterms:identifier "EAID_36DFE2DA_EF18_4895_8568_9353F5A00D13" ;
+    rdfs:comment """Indicatie Overleden is een indicatie of de persoon al dan niet overleden is.
+
+Deze indicatie is enkel van belang als de gegevens uit de BRP niet beschikbaar zijn De datum van overlijden is soms niet bekend, maar wel dat iemand overleden is."""@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/natuurlijkpersoon> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
+    rdfs:range xsd:boolean .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/natuurlijkpersoon/landoverlijden> a mim:Attribuutsoort,
+        owl:ObjectProperty ;
+    rdfs:label "landOverlijden"@nl ;
+    mim:definitie "Het LAND waar de INGESCHREVEN PERSOON is overleden."@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/natuurlijkpersoon/landoverlijden"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "landOverlijden"@nl ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/referentielijsten/land> ;
+    dcterms:identifier "EAID_EAB0BBFA_3CE5_4266_9796_8C723D9A4E26" ;
+    rdfs:comment "Het LAND waar de INGESCHREVEN PERSOON is overleden."@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/natuurlijkpersoon> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/referentielijsten/land> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/natuurlijkpersoon/nationaliteit> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "nationaliteit"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/natuurlijkpersoon/nationaliteit"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "nationaliteit"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_CF70E207_96C2_4e3d_8CD9_5AC73411F894" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/natuurlijkpersoon> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/natuurlijkpersoon/overlijdensplaats> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "overlijdensplaats"@nl ;
+    mim:definitie "De naam van de Nederlandse gemeente of een buitenlandse plaats of een plaatsbepaling, die aangeeft waar de persoon is overleden"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/natuurlijkpersoon/overlijdensplaats"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "overlijdensplaats"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_023ECDE1_3AB6_4651_BBA4_50EDED6CCFA1" ;
+    rdfs:comment "De naam van de Nederlandse gemeente of een buitenlandse plaats of een plaatsbepaling, die aangeeft waar de persoon is overleden"@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/natuurlijkpersoon> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/natuurlijkpersoon/voorlettersaanschrijving> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "voorlettersAanschrijving"@nl ;
+    mim:definitie "De voorletters waarmee een persoon aangeschreven wil worden."@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/natuurlijkpersoon/voorlettersaanschrijving"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "voorlettersAanschrijving"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_A382AFC3_D788_4fe3_B113_B30741AD4C64" ;
+    rdfs:comment "De voorletters waarmee een persoon aangeschreven wil worden."@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/natuurlijkpersoon> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/natuurlijkpersoon/voornamen> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "voornamen"@nl ;
+    mim:definitie """De verzameling namen die, gescheiden door spaties, aan de
+geslachtsnaam voorafgaat.."""@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/natuurlijkpersoon/voornamen"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "0..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "voornamen"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_9C21549F_71E7_4ae3_8994_FAA7F0E8F0CE" ;
+    rdfs:comment """De verzameling namen die, gescheiden door spaties, aan de
+geslachtsnaam voorafgaat.."""@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/natuurlijkpersoon> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/natuurlijkpersoon/voornamenaanschrijving> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "voornamenAanschrijving"@nl ;
+    mim:definitie "De voornamen waarmee een persoon aangeschreven wil worden."@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/natuurlijkpersoon/voornamenaanschrijving"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "0..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "voornamenAanschrijving"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_8F033F41_25A8_4aaa_B0E9_73A0D9B46BC5" ;
+    rdfs:comment "De voornamen waarmee een persoon aangeschreven wil worden."@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/natuurlijkpersoon> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/natuurlijkpersoon/voorvoegselgeslachtsnaam> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "voorvoegselGeslachtsnaam"@nl ;
+    mim:definitie "Dat deel van de geslachtsnaam dat voorkomt in GBA Tabel 36, Voorvoegseltabel en, gescheiden door een spatie, vooraf gaat aan de rest van de geslachtsnaam."@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/natuurlijkpersoon/voorvoegselgeslachtsnaam"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "0..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "voorvoegselGeslachtsnaam"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_B5EA0A95_1308_40a1_ADC8_ADFB148FFE87" ;
+    rdfs:comment "Dat deel van de geslachtsnaam dat voorkomt in GBA Tabel 36, Voorvoegseltabel en, gescheiden door een spatie, vooraf gaat aan de rest van de geslachtsnaam."@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/natuurlijkpersoon> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/rechtspersoon/adresbuitenland> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "adresBuitenland"@nl ;
+    mim:definitie "De aanduiding van het adres waar het SUBJECT verblijft dan wel bereikbaar is in het buitenland."@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/rechtspersoon/adresbuitenland"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "0..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "adresBuitenland"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_F6185DF1_173C_47b0_A94A_55D055A89104" ;
+    rdfs:comment "De aanduiding van het adres waar het SUBJECT verblijft dan wel bereikbaar is in het buitenland."@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/rechtspersoon> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/rechtspersoon/adrescorrespondentie> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "adresCorrespondentie"@nl ;
+    mim:definitie "postbus of antwoordnummer"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/rechtspersoon/adrescorrespondentie"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "adresCorrespondentie"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_3A5CEB3F_40E2_4890_92D1_61133EE48E9D" ;
+    rdfs:comment "postbus of antwoordnummer"@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/rechtspersoon> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/rechtspersoon/emailadres> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "emailadres"@nl ;
+    mim:definitie "Elektronisch postadres waaronder het subject in de regel bereikbaar is."@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/rechtspersoon/emailadres"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "0..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "emailadres"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_D003FAB1_3C25_4b00_9247_B6D6CA5155F9" ;
+    rdfs:comment "Elektronisch postadres waaronder het subject in de regel bereikbaar is."@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/rechtspersoon> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/rechtspersoon/faxnummer> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "faxnummer"@nl ;
+    mim:definitie "Faxnummer waaronder het subject in de regel bereikbaar is."@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/rechtspersoon/faxnummer"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "0..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "faxnummer"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_6E61DBA6_E0F0_47bd_9BA5_1D8A04C0EAA6" ;
+    rdfs:comment "Faxnummer waaronder het subject in de regel bereikbaar is."@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/rechtspersoon> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/rechtspersoon/identificatie> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "identificatie"@nl ;
+    mim:definitie "De unieke identificatie van het SUBJECT"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/rechtspersoon/identificatie"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "identificatie"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_5581C29C_3143_42f6_970E_CFB7282258C9" ;
+    rdfs:comment "De unieke identificatie van het SUBJECT"@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/rechtspersoon> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/rechtspersoon/kvknummer> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "KVKnummer"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/rechtspersoon/kvknummer"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "KVKnummer"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_C43F0DE4_C49D_442f_B7F6_157CF378EBE8" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/rechtspersoon> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/rechtspersoon/naam> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "naam"@nl ;
+    mim:definitie "De benaming van het SUBJECT"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/rechtspersoon/naam"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "naam"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_0BBB4DB3_7F02_4dda_82D4_38976334D948" ;
+    rdfs:comment "De benaming van het SUBJECT"@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/rechtspersoon> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/rechtspersoon/rechtsvorm> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "rechtsvorm"@nl ;
+    mim:definitie "Bron: Handelsregister"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/rechtspersoon/rechtsvorm"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "rechtsvorm"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_9FB55106_DB14_4192_B325_75B7272FDE36" ;
+    rdfs:comment "Bron: Handelsregister"@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/rechtspersoon> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/rechtspersoon/rekeningnummer> a mim:Attribuutsoort,
+        owl:ObjectProperty ;
+    rdfs:label "rekeningnummer"@nl ;
+    mim:definitie "Het nummer van een Nederlandse bank/girorekening, zoals dat door een bankinstelling als identificator aan een overeenkomst tussen de bank en een of meer subjecten wordt toegekend, op basis waarvan het SUBJECT in de regel financieel communiceert."@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/rechtspersoon/rekeningnummer"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "0..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "rekeningnummer"@nl ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/ggm-datatypes/iban> ;
+    dcterms:identifier "EAID_6BB892F7_1C6E_4aeb_8BFA_3012FEB03B78" ;
+    rdfs:comment "Het nummer van een Nederlandse bank/girorekening, zoals dat door een bankinstelling als identificator aan een overeenkomst tussen de bank en een of meer subjecten wordt toegekend, op basis waarvan het SUBJECT in de regel financieel communiceert."@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/rechtspersoon> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/ggm-datatypes/iban> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/rechtspersoon/telefoonnummer> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "telefoonnummer"@nl ;
+    mim:definitie "Telefoonnummer waaronder het subject in de regel bereikbaar is."@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/rechtspersoon/telefoonnummer"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "0..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "telefoonnummer"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_6B41E997_26A2_4f32_AE3B_A46BA0E3BE20" ;
+    rdfs:comment "Telefoonnummer waaronder het subject in de regel bereikbaar is."@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/rechtspersoon> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/raadscommissie> a mim:Objecttype,
+        owl:Class ;
+    rdfs:label "Raadscommissie"@nl ;
+    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/raadscommissie/naam> ;
+    mim:definitie "Een raadscommissie binnen de Nederlandse gemeenteraad is een groep raadsleden die zich buigt over specifieke thema's of beleidsonderwerpen om de besluitvorming in de volledige raad voor te bereiden en te ondersteunen."@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/raadscommissie"^^xsd:anyURI ;
+    mim:indicatieAbstractObject false ;
+    mim:naam "Raadscommissie"@nl ;
+    dcterms:identifier "EAID_CB27D699_F82B_45ad_823A_B2B51BCAECBA" ;
+    rdfs:comment "Een raadscommissie binnen de Nederlandse gemeenteraad is een groep raadsleden die zich buigt over specifieke thema's of beleidsonderwerpen om de besluitvorming in de volledige raad voor te bereiden en te ondersteunen."@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/stemming> a mim:Objecttype,
+        owl:Class ;
+    rdfs:label "Stemming"@nl ;
+    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/stemming/resultaat>,
+        <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/stemming/stemmingstype> ;
+    mim:definitie "Stem (openbaring van iemands mening (voor of tegen)),  uitbrengen bij verkiezingen of bij een vergadering"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/stemming"^^xsd:anyURI ;
+    mim:indicatieAbstractObject false ;
+    mim:naam "Stemming"@nl ;
+    dcterms:identifier "EAID_331C4A0B_1505_4945_A0B0_DCD8703AB50F" ;
+    rdfs:comment "Stem (openbaring van iemands mening (voor of tegen)),  uitbrengen bij verkiezingen of bij een vergadering"@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/generiek/video-opname> a mim:Objecttype,
+        owl:Class ;
+    rdfs:label "Video-opname"@nl ;
+    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/kern/generiek/video-opname/bestandsgrootte>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/generiek/video-opname/datumtijd>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/generiek/video-opname/lengte>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/generiek/video-opname/videoformaat> ;
+    mim:definitie "Opnametechniek om bewegende beelden als een elektronisch signaal te registreren en weer te geven."@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/generiek/video-opname"^^xsd:anyURI ;
+    mim:indicatieAbstractObject false ;
+    mim:naam "Video-opname"@nl ;
+    dcterms:identifier "EAID_435883D2_C399_4590_B4F5_B07111103484" ;
+    rdfs:comment "Opnametechniek om bewegende beelden als een elektronisch signaal te registreren en weer te geven."@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/generiek/> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/document> a mim:Objecttype,
+        owl:Class ;
+    rdfs:label "Document"@nl ;
+    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/document/cocumentbeschrijving>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/document/datumcreatiedocument>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/document/datumontvangstdocument>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/document/datumverzendingdocument>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/document/documentauteur>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/document/documentidentificatie>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/document/documenttitel>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/document/vertrouwelijkaanduiding> ;
+    mim:definitie "Geheel van gegevens met een eigen identiteit ongeacht zijn vorm, met de bijbehorende metadata ontvangen of opgemaakt door een natuurlijke en/of rechtspersoon bij de uitvoering van taken, zijnde een ENKELVOUDIG DOCUMENT of een SAMENGESTELD DOCUMENT."@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/document"^^xsd:anyURI ;
+    mim:indicatieAbstractObject false ;
+    mim:naam "Document"@nl ;
+    mim:populatie "Voor objecttypen die deel uitmaken van een (basis)registratie betreft dit de beschrijving van de exemplaren van het gedefinieerde objecttype die in de desbetreffende (basis)-registratie voorhanden zijn.#NOTES#Voor objecttypen die deel uitmaken van een (basis)registratie betreft dit de beschrijving van de exemplaren van het gedefinieerde objecttype die in de desbetreffende (basis)-registratie voorhanden zijn.#NOTES#Voor objecttypen die deel uitmaken van een (basis)registratie betreft dit de beschrijving van de exemplaren van het gedefinieerde objecttype die in de desbetreffende (basis)-registratie voorhanden zijn.#NOTES#Voor objecttypen die deel uitmaken van een (basis)registratie betreft dit de beschrijving van de exemplaren van het gedefinieerde objecttype die in de desbetreffende (basis)-registratie voorhanden zijn.#NOTES#Voor objecttypen die deel uitmaken van een (basis)registratie betreft dit de beschrijving van de exemplaren van het gedefinieerde objecttype die in de desbetreffende (basis)-registratie voorhanden zijn.#NOTES#Voor objecttypen die deel uitmaken van een (basis)registratie betreft dit de beschrijving van de exemplaren van het gedefinieerde objecttype die in de desbetreffende (basis)-registratie voorhanden zijn.#NOTES#Voor objecttypen die deel uitmaken van een (basis)registratie betreft dit de beschrijving van de exemplaren van het gedefinieerde objecttype die in de desbetreffende (basis)-registratie voorhanden zijn.#NOTES#Voor objecttypen die deel uitmaken van een (basis)registratie betreft dit de beschrijving van de exemplaren van het gedefinieerde objecttype die in de desbetreffende (basis)-registratie voorhanden zijn.#NOTES#Voor objecttypen die deel uitmaken van een (basis)registratie betreft dit de beschrijving van de exemplaren van het gedefinieerde objecttype die in de desbetreffende (basis)-registratie voorhanden zijn.#NOTES#Voor objecttypen die deel uitmaken van een (basis)registratie betreft dit de beschrijving van de exemplaren van het gedefinieerde objecttype die in de desbetreffende (basis)-registratie voorhanden zijn.#NOTES#Voor objecttypen die deel uitmaken van een (basis)registratie betreft dit de beschrijving van de exemplaren van het gedefinieerde objecttype die in de desbetreffende (basis)-registratie voorhanden zijn.#NOTES#Voor objecttypen die deel uitmaken van een (basis)registratie betreft dit de beschrijving van de exemplaren van het gedefinieerde objecttype die in de desbetreffende (basis)-registratie voorhanden zijn.#NOTES#Voor objecttypen die deel uitmaken van een (basis)registratie betreft dit de beschrijving van de exemplaren van het gedefinieerde objecttype die in de desbetreffende (basis)-registratie voorhanden zijn." ;
+    dcterms:identifier "EAID_5641C50A_C0FA_4e71_B07B_26C7B1CE94ED" ;
+    rdfs:comment "Geheel van gegevens met een eigen identiteit ongeacht zijn vorm, met de bijbehorende metadata ontvangen of opgemaakt door een natuurlijke en/of rechtspersoon bij de uitvoering van taken, zijnde een ENKELVOUDIG DOCUMENT of een SAMENGESTELD DOCUMENT."@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/ingezetene> a mim:Objecttype,
+        owl:Class ;
+    rdfs:label "Ingezetene"@nl ;
+    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/ingezetene/aanduidingeuropeeskiesrecht>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/ingezetene/aanduidinguitgeslotenkiesrecht>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/ingezetene/datumverkrijgingverblijfstitel>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/ingezetene/datumverliesverblijfstitel>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/ingezetene/indicatieblokkering>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/ingezetene/indicatiecurateleregister>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/ingezetene/indicatiegezagminderjarige> ;
+    mim:definitie "Een individueel menselijk wezen, ingeschreven in het Nederlands Bevolkingsregister."@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/ingezetene"^^xsd:anyURI ;
+    mim:indicatieAbstractObject false ;
+    mim:naam "Ingezetene"@nl ;
+    dcterms:identifier "EAID_CA19D17F_3EB7_459d_9883_16F0C0B5D35E" ;
+    rdfs:comment "Een individueel menselijk wezen, ingeschreven in het Nederlands Bevolkingsregister."@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/indiener> a mim:Objecttype,
+        owl:Class ;
+    rdfs:label "Indiener"@nl ;
+    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/indiener/naam>,
+        <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/indiener/omschrijving> ;
+    mim:definitie "Persoon die meldiing of aanvraag doet"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/indiener"^^xsd:anyURI ;
+    mim:indicatieAbstractObject false ;
+    mim:naam "Indiener"@nl ;
+    dcterms:identifier "EAID_98CB3C6F_588B_479f_9A2B_F5D5362DD17C" ;
+    rdfs:comment "Persoon die meldiing of aanvraag doet"@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/agendapunt> a mim:Objecttype,
+        owl:Class ;
+    rdfs:label "Agendapunt"@nl ;
+    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/agendapunt/nummer>,
+        <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/agendapunt/omschrijving>,
+        <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/agendapunt/titel> ;
+    mim:definitie "Een onderwerp dat in de vergadering wordt behandeld."@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/agendapunt"^^xsd:anyURI ;
+    mim:indicatieAbstractObject false ;
+    mim:naam "Agendapunt"@nl ;
+    dcterms:identifier "EAID_73FB5212_40ED_40dc_B837_36588840445A" ;
+    rdfs:comment "Een onderwerp dat in de vergadering wordt behandeld."@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/collegelid> a mim:Objecttype,
+        owl:Class ;
+    rdfs:label "Collegelid"@nl ;
+    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/collegelid/achternaam>,
+        <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/collegelid/datumaanstelling>,
+        <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/collegelid/datumuittreding>,
+        <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/collegelid/fractie>,
+        <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/collegelid/portefeuille>,
+        <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/collegelid/titel>,
+        <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/collegelid/voornaam> ;
+    mim:definitie "Iemand die behoort het college van burgemeester en wethouders"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/collegelid"^^xsd:anyURI ;
+    mim:indicatieAbstractObject false ;
+    mim:naam "Collegelid"@nl ;
+    dcterms:identifier "EAID_7B9EDDFD_57F7_4ff2_938F_FDFA3B503DA8" ;
+    rdfs:comment "Iemand die behoort het college van burgemeester en wethouders"@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/> ;
+    rdfs:subClassOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/ingezetene> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/stemmingsresultaattype> a mim:Enumeratie,
+        owl:Class,
+        skos:ConceptScheme ;
+    rdfs:label "Stemmingsresultaattype"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/stemmingsresultaattype"^^xsd:anyURI ;
+    mim:naam "Stemmingsresultaattype"@nl ;
+    mim:waarde <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/stemmingsresultaattype/gelijk>,
+        <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/stemmingsresultaattype/tegen>,
+        <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/stemmingsresultaattype/voor> ;
+    dcterms:identifier "EAID_0A3A2E20_2A67_4e16_B11E_36C09F94331D" ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/> ;
+    rdfs:subClassOf skos:Concept .
+
+<https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/stemmingstype> a mim:Enumeratie,
+        owl:Class,
+        skos:ConceptScheme ;
+    rdfs:label "Stemmingstype"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/stemmingstype"^^xsd:anyURI ;
+    mim:naam "Stemmingstype"@nl ;
+    mim:waarde <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/stemmingstype/hoofdelijk>,
+        <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/stemmingstype/regulier>,
+        <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/stemmingstype/schriftelijk> ;
+    dcterms:identifier "EAID_368EB061_7CF3_4115_BB21_3C618782F205" ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/> ;
+    rdfs:subClassOf skos:Concept .
+
+<https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/raadslid> a mim:Objecttype,
+        owl:Class ;
+    rdfs:label "Raadslid"@nl ;
+    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/raadslid/achternaam>,
+        <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/raadslid/datumaanstelling>,
+        <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/raadslid/datumuittreding>,
+        <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/raadslid/fractie>,
+        <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/raadslid/titel>,
+        <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/raadslid/voornaam> ;
+    mim:definitie "Iemand die behoort de gemeenteraad"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/raadslid"^^xsd:anyURI ;
+    mim:indicatieAbstractObject false ;
+    mim:naam "Raadslid"@nl ;
+    dcterms:identifier "EAID_5772BEBB_97FA_42a9_B70D_DB55EAD6D1EE" ;
+    rdfs:comment "Iemand die behoort de gemeenteraad"@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/> ;
+    rdfs:subClassOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/ingezetene> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/aanwezige-deelnemer> a mim:Objecttype,
+        owl:Class ;
+    rdfs:label "Aanwezige Deelnemer"@nl ;
+    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/aanwezige-deelnemer/aanvangaanwezigheid>,
+        <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/aanwezige-deelnemer/eindeaanwezigheid>,
+        <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/aanwezige-deelnemer/naam>,
+        <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/aanwezige-deelnemer/rol>,
+        <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/aanwezige-deelnemer/vertegenwoordigtorganisatie> ;
+    mim:definitie "iemand die meedoet aan eencollege- of raadsvergadering"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/aanwezige-deelnemer"^^xsd:anyURI ;
+    mim:indicatieAbstractObject false ;
+    mim:naam "Aanwezige Deelnemer"@nl ;
+    dcterms:identifier "EAID_F1E55DC7_0F33_40ea_8713_2E1AC3D7EE8D" ;
+    rdfs:comment "iemand die meedoet aan eencollege- of raadsvergadering"@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/raadsstuk> a mim:Objecttype,
+        owl:Class ;
+    rdfs:label "Raadsstuk"@nl ;
+    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/raadsstuk/besloten>,
+        <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/raadsstuk/datumexpiratie>,
+        <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/raadsstuk/datumpublicatie>,
+        <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/raadsstuk/datumregistratie>,
+        <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/raadsstuk/typeraadsstuk> ;
+    mim:definitie "Stuk dat door de gemeenteraad wordt behandeld"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/raadsstuk"^^xsd:anyURI ;
+    mim:indicatieAbstractObject false ;
+    mim:naam "Raadsstuk"@nl ;
+    mim:populatie "Voor objecttypen die deel uitmaken van een (basis)registratie betreft dit de beschrijving van de exemplaren van het gedefinieerde objecttype die in de desbetreffende (basis)-registratie voorhanden zijn.#NOTES#Voor objecttypen die deel uitmaken van een (basis)registratie betreft dit de beschrijving van de exemplaren van het gedefinieerde objecttype die in de desbetreffende (basis)-registratie voorhanden zijn.#NOTES#Voor objecttypen die deel uitmaken van een (basis)registratie betreft dit de beschrijving van de exemplaren van het gedefinieerde objecttype die in de desbetreffende (basis)-registratie voorhanden zijn.#NOTES#Voor objecttypen die deel uitmaken van een (basis)registratie betreft dit de beschrijving van de exemplaren van het gedefinieerde objecttype die in de desbetreffende (basis)-registratie voorhanden zijn.#NOTES#Voor objecttypen die deel uitmaken van een (basis)registratie betreft dit de beschrijving van de exemplaren van het gedefinieerde objecttype die in de desbetreffende (basis)-registratie voorhanden zijn.#NOTES#Voor objecttypen die deel uitmaken van een (basis)registratie betreft dit de beschrijving van de exemplaren van het gedefinieerde objecttype die in de desbetreffende (basis)-registratie voorhanden zijn.#NOTES#Voor objecttypen die deel uitmaken van een (basis)registratie betreft dit de beschrijving van de exemplaren van het gedefinieerde objecttype die in de desbetreffende (basis)-registratie voorhanden zijn.#NOTES#Voor objecttypen die deel uitmaken van een (basis)registratie betreft dit de beschrijving van de exemplaren van het gedefinieerde objecttype die in de desbetreffende (basis)-registratie voorhanden zijn." ;
+    dcterms:identifier "EAID_440219A4_C64B_4eac_ADE5_E79ED6AA9BFE" ;
+    rdfs:comment "Stuk dat door de gemeenteraad wordt behandeld"@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/rechtspersoon> a mim:Objecttype,
+        owl:Class ;
+    rdfs:label "Rechtspersoon"@nl ;
+    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/rechtspersoon/adresbuitenland>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/rechtspersoon/adrescorrespondentie>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/rechtspersoon/emailadres>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/rechtspersoon/faxnummer>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/rechtspersoon/identificatie>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/rechtspersoon/kvknummer>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/rechtspersoon/naam>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/rechtspersoon/rechtsvorm>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/rechtspersoon/rekeningnummer>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/rechtspersoon/telefoonnummer> ;
+    mim:definitie "Een NATUURLIJK PERSOON of een NIET-NATUURLIJK PERSOON"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/rechtspersoon"^^xsd:anyURI ;
+    mim:indicatieAbstractObject false ;
+    mim:naam "Rechtspersoon"@nl ;
+    dcterms:identifier "EAID_9DF5AC43_3673_4b9a_BB5E_6DCA7BE28835" ;
+    rdfs:comment "Een NATUURLIJK PERSOON of een NIET-NATUURLIJK PERSOON"@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/vergadering> a mim:Objecttype,
+        owl:Class ;
+    rdfs:label "Vergadering"@nl ;
+    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/vergadering/eindtijd>,
+        <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/vergadering/locatie>,
+        <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/vergadering/starttijd>,
+        <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/vergadering/titel> ;
+    mim:definitie "Een bijeenkomst van meerdere mensen (meestal van eenzelfde organisatie) die met elkaar spreken en/of afspraken maken over de gemeenschappelijke toekomst."@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/vergadering"^^xsd:anyURI ;
+    mim:indicatieAbstractObject false ;
+    mim:naam "Vergadering"@nl ;
+    mim:populatie "Voor objecttypen die deel uitmaken van een (basis)registratie betreft dit de beschrijving van de exemplaren van het gedefinieerde objecttype die in de desbetreffende (basis)-registratie voorhanden zijn.#NOTES#Voor objecttypen die deel uitmaken van een (basis)registratie betreft dit de beschrijving van de exemplaren van het gedefinieerde objecttype die in de desbetreffende (basis)-registratie voorhanden zijn.#NOTES#Voor objecttypen die deel uitmaken van een (basis)registratie betreft dit de beschrijving van de exemplaren van het gedefinieerde objecttype die in de desbetreffende (basis)-registratie voorhanden zijn.#NOTES#Voor objecttypen die deel uitmaken van een (basis)registratie betreft dit de beschrijving van de exemplaren van het gedefinieerde objecttype die in de desbetreffende (basis)-registratie voorhanden zijn.#NOTES#Voor objecttypen die deel uitmaken van een (basis)registratie betreft dit de beschrijving van de exemplaren van het gedefinieerde objecttype die in de desbetreffende (basis)-registratie voorhanden zijn.#NOTES#Voor objecttypen die deel uitmaken van een (basis)registratie betreft dit de beschrijving van de exemplaren van het gedefinieerde objecttype die in de desbetreffende (basis)-registratie voorhanden zijn.#NOTES#Voor objecttypen die deel uitmaken van een (basis)registratie betreft dit de beschrijving van de exemplaren van het gedefinieerde objecttype die in de desbetreffende (basis)-registratie voorhanden zijn.#NOTES#Voor objecttypen die deel uitmaken van een (basis)registratie betreft dit de beschrijving van de exemplaren van het gedefinieerde objecttype die in de desbetreffende (basis)-registratie voorhanden zijn." ;
+    dcterms:identifier "EAID_257F4ABF_7CCD_453f_B2E8_5A6434383A9B" ;
+    rdfs:comment "Een bijeenkomst van meerdere mensen (meestal van eenzelfde organisatie) die met elkaar spreken en/of afspraken maken over de gemeenschappelijke toekomst."@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/deelnemersrol> a mim:Enumeratie,
+        owl:Class,
+        skos:ConceptScheme ;
+    rdfs:label "Deelnemersrol"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/deelnemersrol"^^xsd:anyURI ;
+    mim:naam "Deelnemersrol"@nl ;
+    mim:waarde <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/deelnemersrol/inspreker>,
+        <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/deelnemersrol/overig>,
+        <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/deelnemersrol/portefeuillehouder>,
+        <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/deelnemersrol/raadslid>,
+        <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/deelnemersrol/statenlid>,
+        <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/deelnemersrol/vice-voorzitter>,
+        <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/deelnemersrol/voorzitter> ;
+    dcterms:identifier "EAID_E2EDC770_08EB_4298_A2BA_F7943ACD695F" ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/> ;
+    rdfs:subClassOf skos:Concept .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/natuurlijkpersoon> a mim:Objecttype,
+        owl:Class ;
+    rdfs:label "NatuurlijkPersoon"@nl ;
+    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/natuurlijkpersoon/aanduidingnaamgebruik>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/natuurlijkpersoon/aanhefaanschrijving>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/natuurlijkpersoon/academischetitel>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/natuurlijkpersoon/achternaam>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/natuurlijkpersoon/adellijketitelofpredikaat>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/natuurlijkpersoon/anummer>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/natuurlijkpersoon/bijzondernederlanderschap>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/natuurlijkpersoon/burgerservicenummer>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/natuurlijkpersoon/datumgeboorte>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/natuurlijkpersoon/datumoverlijden>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/natuurlijkpersoon/geboorteland>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/natuurlijkpersoon/geboorteplaats>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/natuurlijkpersoon/geslachtsaanduiding>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/natuurlijkpersoon/geslachtsnaam>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/natuurlijkpersoon/geslachtsnaamaanschrijving>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/natuurlijkpersoon/handlichting>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/natuurlijkpersoon/indicatieafschermingpersoonsgegevens>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/natuurlijkpersoon/indicatieoverleden>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/natuurlijkpersoon/landoverlijden>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/natuurlijkpersoon/nationaliteit>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/natuurlijkpersoon/overlijdensplaats>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/natuurlijkpersoon/voorlettersaanschrijving>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/natuurlijkpersoon/voornamen>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/natuurlijkpersoon/voornamenaanschrijving>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/natuurlijkpersoon/voorvoegselgeslachtsnaam> ;
+    mim:definitie "Een INGESCHREVEN PERSOON of ANDER NATUURLIJK PERSOON"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/natuurlijkpersoon"^^xsd:anyURI ;
+    mim:indicatieAbstractObject false ;
+    mim:naam "NatuurlijkPersoon"@nl ;
+    dcterms:identifier "EAID_9F4E12E4_B228_4931_AC83_1B1F60958A89" ;
+    rdfs:comment "Een INGESCHREVEN PERSOON of ANDER NATUURLIJK PERSOON"@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
+    rdfs:subClassOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/rechtspersoon> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel> a mim:Enumeratie,
+        owl:Class,
+        skos:ConceptScheme ;
+    rdfs:label "adelijkeTitel"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel"^^xsd:anyURI ;
+    mim:naam "adelijkeTitel"@nl ;
+    mim:waarde <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel/baron>,
+        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel/barones>,
+        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel/graaf>,
+        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel/gravin>,
+        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel/hertog>,
+        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel/hertogin>,
+        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel/leeg>,
+        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel/markies>,
+        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel/markiezin>,
+        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel/onbekend>,
+        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel/prins>,
+        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel/prinses>,
+        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel/ridder> ;
+    dcterms:identifier "EAID_C27488AF_81A5_4ae3_8838_C036EA0B3167" ;
+    rdfs:subClassOf skos:Concept .
+

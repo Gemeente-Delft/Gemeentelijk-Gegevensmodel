@@ -7,8 +7,9 @@
 
 Controle per bronbestand (bij elke fout exit 1 en wordt niets geschreven of klaargezet):
 
-  1. de kopregel '# graph: <NAMESPACE/pad>' lezen; het pad mag alleen a-z, 0-9, _ en /
-     bevatten en moet uniek zijn;
+  1. de kopregel '# graph: <NAMESPACE/pad>' lezen; het pad mag alleen a-z, 0-9, _ - . en /
+     bevatten en moet uniek zijn. Begint het pad al met PREFIX/ (crunch_uml zet met
+     --lod_version de versie zelf in de graph-IRI), dan wordt die niet nog eens toegevoegd;
   2. het bestand met rdflib parsen, zodat een kapot bestand hier faalt en niet elke ronde
      opnieuw bij de loader op de server.
 
@@ -40,7 +41,9 @@ from pathlib import Path
 import rdflib
 
 GRAPH_LINE = re.compile(r"^# graph: <(?P<uri>[^>]+)>$")
-GRAPH_PATH = re.compile(r"^[a-z0-9_]+(/[a-z0-9_]+)*$")
+# Kale slugs (Ashkans generator: underscores; crunch_uml: koppeltekens) en een versiesegment
+# zoals v3.0.0; de loader leidt hieruit het relatieve pad in de dropmap af.
+GRAPH_PATH = re.compile(r"^[a-z0-9_.-]+(/[a-z0-9_.-]+)*$")
 
 
 def write_merged(merged: rdflib.Graph, target: Path, header: str) -> None:
@@ -97,8 +100,11 @@ def main() -> int:
             continue
         rel = m["uri"][len(ns) + 1:]
         if not GRAPH_PATH.match(rel):
-            errors.append(f"{f}: graph-pad '{rel}' bevat tekens die de loader niet accepteert (alleen a-z 0-9 _ /)")
+            errors.append(f"{f}: graph-pad '{rel}' bevat tekens die de loader niet accepteert (alleen a-z 0-9 _ - . /)")
             continue
+        if prefix and rel.startswith(prefix + "/"):
+            # De bron draagt de versie al (crunch_uml --lod_version): niet dubbel prefixen.
+            rel = rel[len(prefix) + 1:]
         if rel in seen:
             errors.append(f"{f}: graph <{ns}/{rel}> komt ook voor in {seen[rel]}")
             continue
@@ -139,7 +145,7 @@ def main() -> int:
             merged += g
         release = f" {prefix}" if prefix else ""
         header = (
-            f"# Gemeentelijk Gegevensmodel{release}: alle deelmodellen samengevoegd\n"
+            f"# Gemeentelijk Gegevensmodel{release}: het geheel, alle deelmodellen samengevoegd\n"
             f"#\n"
             f"# Dit bestand bevat de {len(parsed)} deelmodellen (één per EA-diagram) uit deze map als\n"
             f"# één geheel: de vereniging van hun triples ({len(merged)} unieke triples). Een klasse die in\n"

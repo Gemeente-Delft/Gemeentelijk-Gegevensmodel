@@ -1,0 +1,903 @@
+# graph: <https://lod.gemeentelijkgegevensmodel.nl/v3.0.0/kern/rsgbplus/tenaamstelling>
+
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix mim: <http://modellen.mim-standaard.nl/def/mim#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/tenaamstelling/relatie-aantekening> a mim:Relatiesoort,
+        owl:ObjectProperty ;
+    rdfs:label "relatie naar Aantekening"@nl ;
+    mim:aggregatietype mim:Geen ;
+    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/tenaamstelling> ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/aantekening> ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/tenaamstelling/relatie-aantekening"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "0..*" ;
+    mim:kardinaliteitRelatieBron "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "relatie naar Aantekening"@nl ;
+    mim:unidirectioneel true ;
+    dcterms:identifier "EAID_9A98973C_5B7F_4f67_8355_381743471AB4" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/tenaamstelling> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/aantekening> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/v3.0.0/kern/rsgbplus/tenaamstelling> a owl:Ontology ;
+    rdfs:label "Tenaamstelling"@nl ;
+    dcterms:identifier "EAID_9954AB09_9924_4152_AFE2_55EDC153747C" ;
+    dcterms:isPartOf <https://lod.gemeentelijkgegevensmodel.nl/> ;
+    owl:versionInfo "v3.0.0" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/enumeraties/burgelijkestaat/achtergebeleven-partner> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/burgelijkestaat> ;
+    rdfs:label "achtergebeleven partner"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/enumeraties/burgelijkestaat/achtergebeleven-partner"^^xsd:anyURI ;
+    mim:naam "achtergebeleven partner"@nl ;
+    dcterms:identifier "EAID_B3E44965_3E0A_4776_B3E3_6094EF0D41AE" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/burgelijkestaat> ;
+    skos:prefLabel "achtergebeleven partner"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/burgelijkestaat> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/enumeraties/burgelijkestaat/gehuwd> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/burgelijkestaat> ;
+    rdfs:label "gehuwd"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/enumeraties/burgelijkestaat/gehuwd"^^xsd:anyURI ;
+    mim:naam "gehuwd"@nl ;
+    dcterms:identifier "EAID_1FDBB52C_340C_4bfa_825A_89B1AE3988E0" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/burgelijkestaat> ;
+    skos:prefLabel "gehuwd"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/burgelijkestaat> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/enumeraties/burgelijkestaat/gescheiden> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/burgelijkestaat> ;
+    rdfs:label "gescheiden"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/enumeraties/burgelijkestaat/gescheiden"^^xsd:anyURI ;
+    mim:naam "gescheiden"@nl ;
+    dcterms:identifier "EAID_543ED1E9_07B1_40b5_8A11_6371B0D1E645" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/burgelijkestaat> ;
+    skos:prefLabel "gescheiden"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/burgelijkestaat> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/enumeraties/burgelijkestaat/onbekend> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/burgelijkestaat> ;
+    rdfs:label "onbekend"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/enumeraties/burgelijkestaat/onbekend"^^xsd:anyURI ;
+    mim:naam "onbekend"@nl ;
+    dcterms:identifier "EAID_518AC2A6_DA18_4fbf_B973_BD79BE9CDB3D" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/burgelijkestaat> ;
+    skos:prefLabel "onbekend"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/burgelijkestaat> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/enumeraties/burgelijkestaat/ongehuwd-en-nooit-gehuwd-geweest> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/burgelijkestaat> ;
+    rdfs:label "ongehuwd en nooit gehuwd geweest"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/enumeraties/burgelijkestaat/ongehuwd-en-nooit-gehuwd-geweest"^^xsd:anyURI ;
+    mim:naam "ongehuwd en nooit gehuwd geweest"@nl ;
+    dcterms:identifier "EAID_7A6DB773_6DDA_4d0d_B839_6C5B16890194" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/burgelijkestaat> ;
+    skos:prefLabel "ongehuwd en nooit gehuwd geweest"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/burgelijkestaat> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/enumeraties/burgelijkestaat/parnetschap-beeeindigd> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/burgelijkestaat> ;
+    rdfs:label "parnetschap beeeindigd"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/enumeraties/burgelijkestaat/parnetschap-beeeindigd"^^xsd:anyURI ;
+    mim:naam "parnetschap beeeindigd"@nl ;
+    dcterms:identifier "EAID_39AA35EB_F73D_40ea_8278_6671383482ED" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/burgelijkestaat> ;
+    skos:prefLabel "parnetschap beeeindigd"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/burgelijkestaat> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/enumeraties/burgelijkestaat/partnerschap> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/burgelijkestaat> ;
+    rdfs:label "partnerschap"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/enumeraties/burgelijkestaat/partnerschap"^^xsd:anyURI ;
+    mim:naam "partnerschap"@nl ;
+    dcterms:identifier "EAID_C137E223_566B_4ffd_8410_E2DBAECB7826" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/burgelijkestaat> ;
+    skos:prefLabel "partnerschap"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/burgelijkestaat> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/enumeraties/burgelijkestaat/weduwe-weduwnaar> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/burgelijkestaat> ;
+    rdfs:label "weduwe / weduwnaar"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/enumeraties/burgelijkestaat/weduwe-weduwnaar"^^xsd:anyURI ;
+    mim:naam "weduwe / weduwnaar"@nl ;
+    dcterms:identifier "EAID_FD52C10A_7B72_48f7_A818_98BC2A475C5E" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/burgelijkestaat> ;
+    skos:prefLabel "weduwe / weduwnaar"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/burgelijkestaat> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/enumeraties/codeexploitant/derden-niet-zijnde-gemeente> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/codeexploitant> ;
+    rdfs:label "derden (niet zijnde gemeente"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/enumeraties/codeexploitant/derden-niet-zijnde-gemeente"^^xsd:anyURI ;
+    mim:naam "derden (niet zijnde gemeente"@nl ;
+    dcterms:identifier "EAID_4640BA2E_4DA1_4fc1_AE42_562B2B7C782F" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/codeexploitant> ;
+    skos:prefLabel "derden (niet zijnde gemeente"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/codeexploitant> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/enumeraties/codeexploitant/erfpacht-uitgegeven> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/codeexploitant> ;
+    rdfs:label "erfpacht uitgegeven"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/enumeraties/codeexploitant/erfpacht-uitgegeven"^^xsd:anyURI ;
+    mim:naam "erfpacht uitgegeven"@nl ;
+    dcterms:identifier "EAID_577822D4_0401_4212_B74B_A478AFD43065" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/codeexploitant> ;
+    skos:prefLabel "erfpacht uitgegeven"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/codeexploitant> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/enumeraties/codeexploitant/erfpacht-verkregen> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/codeexploitant> ;
+    rdfs:label "erfpacht verkregen"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/enumeraties/codeexploitant/erfpacht-verkregen"^^xsd:anyURI ;
+    mim:naam "erfpacht verkregen"@nl ;
+    dcterms:identifier "EAID_BB20D40E_1B87_4f20_93F4_1F94FBD34C40" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/codeexploitant> ;
+    skos:prefLabel "erfpacht verkregen"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/codeexploitant> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/enumeraties/codeexploitant/gedeeltelijk-eigendom> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/codeexploitant> ;
+    rdfs:label "gedeeltelijk eigendom"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/enumeraties/codeexploitant/gedeeltelijk-eigendom"^^xsd:anyURI ;
+    mim:naam "gedeeltelijk eigendom"@nl ;
+    dcterms:identifier "EAID_D745777C_547B_4108_A6E5_3BC44128115D" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/codeexploitant> ;
+    skos:prefLabel "gedeeltelijk eigendom"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/codeexploitant> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/enumeraties/codeexploitant/onbekend-handmatig-oplossen> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/codeexploitant> ;
+    rdfs:label "onbekend/handmatig oplossen"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/enumeraties/codeexploitant/onbekend-handmatig-oplossen"^^xsd:anyURI ;
+    mim:naam "onbekend/handmatig oplossen"@nl ;
+    dcterms:identifier "EAID_16B5754F_26EE_425f_8CE7_00421AEC2637" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/codeexploitant> ;
+    skos:prefLabel "onbekend/handmatig oplossen"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/codeexploitant> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/enumeraties/codeexploitant/overige-zakelijk-rechten-verkregen> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/codeexploitant> ;
+    rdfs:label "overige zakelijk rechten verkregen"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/enumeraties/codeexploitant/overige-zakelijk-rechten-verkregen"^^xsd:anyURI ;
+    mim:naam "overige zakelijk rechten verkregen"@nl ;
+    dcterms:identifier "EAID_C651ADC3_5A25_4876_8977_53DA9E605D21" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/codeexploitant> ;
+    skos:prefLabel "overige zakelijk rechten verkregen"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/codeexploitant> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/enumeraties/codeexploitant/overige-zakelijk-rechten-verleend> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/codeexploitant> ;
+    rdfs:label "overige zakelijk rechten verleend"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/enumeraties/codeexploitant/overige-zakelijk-rechten-verleend"^^xsd:anyURI ;
+    mim:naam "overige zakelijk rechten verleend"@nl ;
+    dcterms:identifier "EAID_2E175602_976B_44b6_A8B5_11CF602122C1" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/codeexploitant> ;
+    skos:prefLabel "overige zakelijk rechten verleend"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/codeexploitant> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/enumeraties/codeexploitant/recht-van-opstal-verkregen> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/codeexploitant> ;
+    rdfs:label "recht van opstal verkregen"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/enumeraties/codeexploitant/recht-van-opstal-verkregen"^^xsd:anyURI ;
+    mim:naam "recht van opstal verkregen"@nl ;
+    dcterms:identifier "EAID_D9938286_42C7_4849_920E_AC263DDD1153" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/codeexploitant> ;
+    skos:prefLabel "recht van opstal verkregen"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/codeexploitant> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/enumeraties/codeexploitant/recht-van-opstal-verleend> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/codeexploitant> ;
+    rdfs:label "recht van opstal verleend"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/enumeraties/codeexploitant/recht-van-opstal-verleend"^^xsd:anyURI ;
+    mim:naam "recht van opstal verleend"@nl ;
+    dcterms:identifier "EAID_FF497FE6_26D4_4cf8_A8D9_2E9AC387AD8A" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/codeexploitant> ;
+    skos:prefLabel "recht van opstal verleend"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/codeexploitant> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/enumeraties/codeexploitant/vol-eigendom> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/codeexploitant> ;
+    rdfs:label "vol eigendom"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/enumeraties/codeexploitant/vol-eigendom"^^xsd:anyURI ;
+    mim:naam "vol eigendom"@nl ;
+    dcterms:identifier "EAID_7AB3FA1A_6677_4659_8AAA_8F6873B55D34" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/codeexploitant> ;
+    skos:prefLabel "vol eigendom"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/codeexploitant> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm/besloten-vennootschap> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm> ;
+    rdfs:label "Besloten vennootschap"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm/besloten-vennootschap"^^xsd:anyURI ;
+    mim:naam "Besloten vennootschap"@nl ;
+    dcterms:identifier "EAID_0421043D_7674_4676_AFB1_BC3D99D4B6E5" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm> ;
+    skos:prefLabel "Besloten vennootschap"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm/commanditaire-vennootschap> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm> ;
+    rdfs:label "commanditaire vennootschap"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm/commanditaire-vennootschap"^^xsd:anyURI ;
+    mim:naam "commanditaire vennootschap"@nl ;
+    dcterms:identifier "EAID_D6D501EE_C49F_48a8_82C6_FEE1F2B3379F" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm> ;
+    skos:prefLabel "commanditaire vennootschap"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm/cooperatie-europees-economische-samenwerking> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm> ;
+    rdfs:label "cooperatie, Europees Economische Samenwerking"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm/cooperatie-europees-economische-samenwerking"^^xsd:anyURI ;
+    mim:naam "cooperatie, Europees Economische Samenwerking"@nl ;
+    dcterms:identifier "EAID_2E4AB75B_0AC0_41ea_BB36_EBF64B695CEE" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm> ;
+    skos:prefLabel "cooperatie, Europees Economische Samenwerking"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm/europese-cooperatieve-vennootschap> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm> ;
+    rdfs:label "Europese Cooperatieve Vennootschap"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm/europese-cooperatieve-vennootschap"^^xsd:anyURI ;
+    mim:naam "Europese Cooperatieve Vennootschap"@nl ;
+    dcterms:identifier "EAID_70A9994B_495D_4f9d_809C_42A7CC776AFD" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm> ;
+    skos:prefLabel "Europese Cooperatieve Vennootschap"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm/europese-naamloze-vennootschap> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm> ;
+    rdfs:label "Europese Naamloze Vennootschap"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm/europese-naamloze-vennootschap"^^xsd:anyURI ;
+    mim:naam "Europese Naamloze Vennootschap"@nl ;
+    dcterms:identifier "EAID_6B9385CD_C640_4bdf_926C_1297DBF6D661" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm> ;
+    skos:prefLabel "Europese Naamloze Vennootschap"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm/kapitaalvennootschap-binnen-eer> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm> ;
+    rdfs:label "kapitaalvennootschap binnen EER"@nl ;
+    mim:definitie """Een kapitaalvennootschap die is opgericht buiten Nederland in een van 
+de landen van de Europese Economische Ruimte (Europese Unie + 
+IJsland, Noorwegen en Liechtenstein)."""@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm/kapitaalvennootschap-binnen-eer"^^xsd:anyURI ;
+    mim:naam "kapitaalvennootschap binnen EER"@nl ;
+    dcterms:identifier "EAID_34E7DC73_16A8_4fd1_9CB3_4095FE202D8B" ;
+    skos:definition """Een kapitaalvennootschap die is opgericht buiten Nederland in een van 
+de landen van de Europese Economische Ruimte (Europese Unie + 
+IJsland, Noorwegen en Liechtenstein)."""@nl ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm> ;
+    skos:prefLabel "kapitaalvennootschap binnen EER"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm/kapitaalvennootschap-buiten-eer> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm> ;
+    rdfs:label "kapitaalvennootschap buiten EER"@nl ;
+    mim:definitie """Een kapitaalvennootschap die is opgericht buiten de landen van de 
+Europese Economische Ruimte (Europese Unie + IJsland, Noorwegen 
+en Liechtenstein)."""@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm/kapitaalvennootschap-buiten-eer"^^xsd:anyURI ;
+    mim:naam "kapitaalvennootschap buiten EER"@nl ;
+    dcterms:identifier "EAID_6D8C84F4_AF13_446b_8F70_9464C373D128" ;
+    skos:definition """Een kapitaalvennootschap die is opgericht buiten de landen van de 
+Europese Economische Ruimte (Europese Unie + IJsland, Noorwegen 
+en Liechtenstein)."""@nl ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm> ;
+    skos:prefLabel "kapitaalvennootschap buiten EER"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm/kerkelijke-organisatie> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm> ;
+    rdfs:label "kerkelijke Organisatie"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm/kerkelijke-organisatie"^^xsd:anyURI ;
+    mim:naam "kerkelijke Organisatie"@nl ;
+    dcterms:identifier "EAID_5FA6B487_7E31_4f47_AE95_A6C1C55FA712" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm> ;
+    skos:prefLabel "kerkelijke Organisatie"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm/leeg> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm> ;
+    rdfs:label "Leeg"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm/leeg"^^xsd:anyURI ;
+    mim:naam "Leeg"@nl ;
+    dcterms:identifier "EAID_6E086C68_3842_4654_8E6C_390DAABECFDB" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm> ;
+    skos:prefLabel "Leeg"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm/maatschap> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm> ;
+    rdfs:label "maatschap"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm/maatschap"^^xsd:anyURI ;
+    mim:naam "maatschap"@nl ;
+    dcterms:identifier "EAID_F6B9EB56_4FAE_4b95_8912_EFAA70A3B3A8" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm> ;
+    skos:prefLabel "maatschap"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm/naamloze-vennootschap> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm> ;
+    rdfs:label "naamloze Vennootschap"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm/naamloze-vennootschap"^^xsd:anyURI ;
+    mim:naam "naamloze Vennootschap"@nl ;
+    dcterms:identifier "EAID_F5F8021F_07D1_47d9_95B0_31E560C8ED8C" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm> ;
+    skos:prefLabel "naamloze Vennootschap"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm/onbekend> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm> ;
+    rdfs:label "Onbekend"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm/onbekend"^^xsd:anyURI ;
+    mim:naam "Onbekend"@nl ;
+    dcterms:identifier "EAID_14EACDE4_4C1D_4fe8_BE9F_1DC635A935D2" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm> ;
+    skos:prefLabel "Onbekend"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm/onderlinge-waarborg-maatschappij> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm> ;
+    rdfs:label "onderlinge Waarborg Maatschappij"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm/onderlinge-waarborg-maatschappij"^^xsd:anyURI ;
+    mim:naam "onderlinge Waarborg Maatschappij"@nl ;
+    dcterms:identifier "EAID_CE577F8B_2CED_4ec1_A4C7_F9CC015979C5" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm> ;
+    skos:prefLabel "onderlinge Waarborg Maatschappij"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm/overig-privaatrechtelijke-rechtspersoon> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm> ;
+    rdfs:label "overig privaatrechtelijke rechtspersoon"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm/overig-privaatrechtelijke-rechtspersoon"^^xsd:anyURI ;
+    mim:naam "overig privaatrechtelijke rechtspersoon"@nl ;
+    dcterms:identifier "EAID_CC7F4098_8416_428a_849F_77D9EB7EBA52" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm> ;
+    skos:prefLabel "overig privaatrechtelijke rechtspersoon"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm/overige-buitenlandse-rechtspersoon-vennootschap> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm> ;
+    rdfs:label "overige buitenlandse rechtspersoon vennootschap"@nl ;
+    mim:definitie """Overige buitenlandse rechtspersonen of vennootschappen die geen 
+kapitaalvennootschap zijn binnen of buiten de E.E.R."""@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm/overige-buitenlandse-rechtspersoon-vennootschap"^^xsd:anyURI ;
+    mim:naam "overige buitenlandse rechtspersoon vennootschap"@nl ;
+    dcterms:identifier "EAID_76EB22E5_E000_40d1_BEC5_5ECC9CEF7BEA" ;
+    skos:definition """Overige buitenlandse rechtspersonen of vennootschappen die geen 
+kapitaalvennootschap zijn binnen of buiten de E.E.R."""@nl ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm> ;
+    skos:prefLabel "overige buitenlandse rechtspersoon vennootschap"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm/publiekrechtelijke-rechtspersoon> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm> ;
+    rdfs:label "publiekrechtelijke Rechtspersoon"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm/publiekrechtelijke-rechtspersoon"^^xsd:anyURI ;
+    mim:naam "publiekrechtelijke Rechtspersoon"@nl ;
+    dcterms:identifier "EAID_BA025807_24BE_454c_9F23_661C5D9D7449" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm> ;
+    skos:prefLabel "publiekrechtelijke Rechtspersoon"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm/rederij> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm> ;
+    rdfs:label "rederij"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm/rederij"^^xsd:anyURI ;
+    mim:naam "rederij"@nl ;
+    dcterms:identifier "EAID_2F8FA210_9463_4253_8ADE_30CB5A546093" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm> ;
+    skos:prefLabel "rederij"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm/stichting> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm> ;
+    rdfs:label "stichting"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm/stichting"^^xsd:anyURI ;
+    mim:naam "stichting"@nl ;
+    dcterms:identifier "EAID_62D96762_6F98_478a_B1E7_8F146257999D" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm> ;
+    skos:prefLabel "stichting"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm/vennootschap-onder-firma> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm> ;
+    rdfs:label "vennootschap onder Firma"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm/vennootschap-onder-firma"^^xsd:anyURI ;
+    mim:naam "vennootschap onder Firma"@nl ;
+    dcterms:identifier "EAID_7A712E16_3CAC_499a_9F1D_3160D77259EF" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm> ;
+    skos:prefLabel "vennootschap onder Firma"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm/vereniging> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm> ;
+    rdfs:label "vereniging"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm/vereniging"^^xsd:anyURI ;
+    mim:naam "vereniging"@nl ;
+    dcterms:identifier "EAID_56D0E57A_8C54_4da5_AA99_875B773FBA0E" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm> ;
+    skos:prefLabel "vereniging"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm/vereniging-van-eigenaars> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm> ;
+    rdfs:label "vereniging van Eigenaars"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm/vereniging-van-eigenaars"^^xsd:anyURI ;
+    mim:naam "vereniging van Eigenaars"@nl ;
+    dcterms:identifier "EAID_17271F2C_240A_4179_97BC_B7A3756F7305" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm> ;
+    skos:prefLabel "vereniging van Eigenaars"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/aantekening/aard> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "aard"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/aantekening/aard"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "aard"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_20B6FDBD_564A_4dad_8231_51140852D6A6" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/aantekening> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/aantekening/begrenzing> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "begrenzing"@nl ;
+    mim:definitie "Begrenzing beschrijft de omtrek van het gebied waarop de aantekening betrekking heeft."@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/aantekening/begrenzing"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "begrenzing"@nl ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/wktliteral> ;
+    dcterms:identifier "EAID_460CC25D_1BD8_4476_9482_34D7533F0EAA" ;
+    rdfs:comment "Begrenzing beschrijft de omtrek van het gebied waarop de aantekening betrekking heeft."@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/aantekening> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
+    rdfs:range geo:wktLiteral .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/aantekening/betreftgedeeltevanperceel> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "betreftGedeelteVanPerceel"@nl ;
+    mim:definitie "BetreftGedeelteVanPerceel is een aanduiding of de aantekening het gehele perceel (nee of niet gevuld) betreft of slechts een gedeelte (ja)."@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/aantekening/betreftgedeeltevanperceel"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "betreftGedeelteVanPerceel"@nl ;
+    mim:type mim:Boolean ;
+    dcterms:identifier "EAID_A02CEA8E_1E50_4bf8_8B29_019E04861064" ;
+    rdfs:comment "BetreftGedeelteVanPerceel is een aanduiding of de aantekening het gehele perceel (nee of niet gevuld) betreft of slechts een gedeelte (ja)."@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/aantekening> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
+    rdfs:range xsd:boolean .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/aantekening/datumeinde> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "datumEinde"@nl ;
+    mim:definitie "Einddatum is de datum waarop de geldigheid van de aantekening eindigt."@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/aantekening/datumeinde"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "datumEinde"@nl ;
+    mim:type mim:Date ;
+    dcterms:identifier "EAID_9B02B9E2_98E7_4425_B67E_3DFB78FB0F44" ;
+    rdfs:comment "Einddatum is de datum waarop de geldigheid van de aantekening eindigt."@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/aantekening> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
+    rdfs:range xsd:date .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/aantekening/datumeinderecht> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "datumEindeRecht"@nl ;
+    mim:definitie "EinddatumRecht is de datum waarop een recht eindigt."@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/aantekening/datumeinderecht"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "datumEindeRecht"@nl ;
+    mim:type mim:Date ;
+    dcterms:identifier "EAID_C0242BC8_FE93_40c8_BE90_1B122D4533C1" ;
+    rdfs:comment "EinddatumRecht is de datum waarop een recht eindigt."@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/aantekening> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
+    rdfs:range xsd:date .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/aantekening/identificatie> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "identificatie"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/aantekening/identificatie"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "identificatie"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_12D8A6D8_3369_474f_8BF9_F9013A5F3835" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/aantekening> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/aantekening/omschrijving> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "omschrijving"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/aantekening/omschrijving"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "omschrijving"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_5D22E4FA_287A_48c0_9F8C_2F84676D4282" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/aantekening> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/tenaamstelling/aandeelinrecht> a mim:Attribuutsoort,
+        owl:ObjectProperty ;
+    rdfs:label "aandeelInRecht"@nl ;
+    mim:datumOpname "2016-05-01"^^xsd:date ;
+    mim:definitie "Het aandeel waarvoor de gerechtigde deelneemt in het recht."@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:herkomst "BRK" ;
+    mim:herkomstDefinitie "BRK" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/tenaamstelling/aandeelinrecht"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "0..1" ;
+    mim:mogelijkGeenWaarde false ;
+    mim:naam "aandeelInRecht"@nl ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/complex-datatype/typebreuk> ;
+    dcterms:identifier "EAID_2B656D80_687F_4bfc_B340_490B8AA2B9BB" ;
+    rdfs:comment "Het aandeel waarvoor de gerechtigde deelneemt in het recht."@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/tenaamstelling> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/complex-datatype/typebreuk> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/tenaamstelling/burgerlijkestaattentijdevanverkrijging> a mim:Attribuutsoort,
+        owl:ObjectProperty ;
+    rdfs:label "burgerlijkeStaatTenTijdeVanVerkrijging"@nl ;
+    mim:definitie "De burgerlijke staat is een aanduiding voor de leefvorm van een persoon, zoals deze volgens het brondocument ten tijde van de verkrijging van het recht bestond. Leefvorm van een persoon heeft betrekking op huwelijk c.q. geregistreerd partnerschap."@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/tenaamstelling/burgerlijkestaattentijdevanverkrijging"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "burgerlijkeStaatTenTijdeVanVerkrijging"@nl ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/burgelijkestaat> ;
+    dcterms:identifier "EAID_06865E34_A452_471c_BE7B_E9E302554663" ;
+    rdfs:comment "De burgerlijke staat is een aanduiding voor de leefvorm van een persoon, zoals deze volgens het brondocument ten tijde van de verkrijging van het recht bestond. Leefvorm van een persoon heeft betrekking op huwelijk c.q. geregistreerd partnerschap."@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/tenaamstelling> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/burgelijkestaat> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/tenaamstelling/datumbegingeldigheid> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "datumBeginGeldigheid"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/tenaamstelling/datumbegingeldigheid"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "datumBeginGeldigheid"@nl ;
+    mim:type mim:Date ;
+    dcterms:identifier "EAID_8C69724F_2EA2_46c4_AEEF_34F72A7FC576" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/tenaamstelling> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
+    rdfs:range xsd:date .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/tenaamstelling/datumeindegeldigheid> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "datumEindeGeldigheid"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/tenaamstelling/datumeindegeldigheid"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "datumEindeGeldigheid"@nl ;
+    mim:type mim:Date ;
+    dcterms:identifier "EAID_30C30401_B882_47c3_AB57_5E758A35A842" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/tenaamstelling> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
+    rdfs:range xsd:date .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/tenaamstelling/exploitantcode> a mim:Attribuutsoort,
+        owl:ObjectProperty ;
+    rdfs:label "exploitantcode"@nl ;
+    mim:datumOpname "2016-05-01"^^xsd:date ;
+    mim:definitie "<font color=\"#000080\">Het recht wat de exploitant van de eigenaar te weten de gemeente heeft gekregen.</font>"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:herkomst "KING" ;
+    mim:herkomstDefinitie "KING" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/tenaamstelling/exploitantcode"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "0..1" ;
+    mim:mogelijkGeenWaarde false ;
+    mim:naam "exploitantcode"@nl ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/codeexploitant> ;
+    dcterms:identifier "EAID_FA5E47B4_20B1_4ec5_8A10_A33144D1BE12" ;
+    rdfs:comment "<font color=\"#000080\">Het recht wat de exploitant van de eigenaar te weten de gemeente heeft gekregen.</font>"@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/tenaamstelling> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/codeexploitant> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/tenaamstelling/identificatietenaamstelling> a mim:Attribuutsoort,
+        owl:ObjectProperty ;
+    rdfs:label "identificatieTenaamstelling"@nl ;
+    mim:datumOpname "2016-05-01"^^xsd:date ;
+    mim:definitie "Een door het Kadaster toegekende landelijk uniek nummer aan een tenaamstelling"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:herkomst "BRK" ;
+    mim:herkomstDefinitie "BRK" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/tenaamstelling/identificatietenaamstelling"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde false ;
+    mim:naam "identificatieTenaamstelling"@nl ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/complex-datatype/compositeid> ;
+    dcterms:identifier "EAID_6A8C91BE_0903_4cc8_AC5B_001445BDE4BA" ;
+    rdfs:comment "Een door het Kadaster toegekende landelijk uniek nummer aan een tenaamstelling"@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/tenaamstelling> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/complex-datatype/compositeid> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/tenaamstelling/verklaringinzakederdenbescherming> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "verklaringInzakeDerdenBescherming"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/tenaamstelling/verklaringinzakederdenbescherming"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "verklaringInzakeDerdenBescherming"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_3FFFD3FA_BF12_4d7d_9BDF_0FE52FB16B3A" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/tenaamstelling> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/tenaamstelling/verkregennamenssamenwerkingsverband> a mim:Attribuutsoort,
+        owl:ObjectProperty ;
+    rdfs:label "verkregenNamensSamenwerkingsverband"@nl ;
+    mim:datumOpname "2016-05-01"^^xsd:date ;
+    mim:definitie "De aard van het samenwerkingsverband (zoals Maatschap, VOF of CV) namens welke een natuurlijk persoon deze tenaamstelling heeft verkregen."@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:herkomst "BRK" ;
+    mim:herkomstDefinitie "BRK" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/tenaamstelling/verkregennamenssamenwerkingsverband"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "0..1" ;
+    mim:mogelijkGeenWaarde false ;
+    mim:naam "verkregenNamensSamenwerkingsverband"@nl ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm> ;
+    dcterms:identifier "EAID_2E967540_4357_43b2_B237_8BC0427580F0" ;
+    rdfs:comment "De aard van het samenwerkingsverband (zoals Maatschap, VOF of CV) namens welke een natuurlijk persoon deze tenaamstelling heeft verkregen."@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/tenaamstelling> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/aantekening> a mim:Objecttype,
+        owl:Class ;
+    rdfs:label "Aantekening"@nl ;
+    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/aantekening/aard>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/aantekening/begrenzing>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/aantekening/betreftgedeeltevanperceel>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/aantekening/datumeinde>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/aantekening/datumeinderecht>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/aantekening/identificatie>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/aantekening/omschrijving> ;
+    mim:definitie "Een Aantekening is een aanvulling op de registratie van een registergoed met betrekking tot feiten die gevolgen kunnen hebben voor de uitoefening van de rechten op dit registergoed."@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/aantekening"^^xsd:anyURI ;
+    mim:indicatieAbstractObject false ;
+    mim:naam "Aantekening"@nl ;
+    dcterms:identifier "EAID_755B80B2_6522_4c58_A998_D3F00859FE78" ;
+    rdfs:comment "Een Aantekening is een aanvulling op de registratie van een registergoed met betrekking tot feiten die gevolgen kunnen hebben voor de uitoefening van de rechten op dit registergoed."@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/tenaamstelling> a mim:Objecttype,
+        owl:Class ;
+    rdfs:label "Tenaamstelling"@nl ;
+    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/tenaamstelling/aandeelinrecht>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/tenaamstelling/burgerlijkestaattentijdevanverkrijging>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/tenaamstelling/datumbegingeldigheid>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/tenaamstelling/datumeindegeldigheid>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/tenaamstelling/exploitantcode>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/tenaamstelling/identificatietenaamstelling>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/tenaamstelling/verklaringinzakederdenbescherming>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/tenaamstelling/verkregennamenssamenwerkingsverband> ;
+    mim:datumOpname "2016-05-01"^^xsd:date ;
+    mim:definitie "Een TENAAMSTELLING  vormt de relatie tussen een Recht en een Persoon en geeft aan welk recht, met uitzondering van hypotheek en beslag, door een Persoon wordt uitgeoefend op een Kadastraal object."@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/tenaamstelling"^^xsd:anyURI ;
+    mim:indicatieAbstractObject false ;
+    mim:naam "Tenaamstelling"@nl ;
+    mim:toelichting "Een tenaamstelling heeft betrekking op de eigendom van die Persoon van één Kadastraal object of op een beperkt recht van die Persoon op één Kadastraal object. Met een beperkt recht op een Kadastraal object wordt erfpacht, opstal, e.d. bedoeld, maar ook bijvoorbeeld huur en lease (van Luchtvaartuigen). Ook rechten die zijn verkregen onder ontbindende voorwaarden worden beschouwd als een vorm van recht."@nl ;
+    dcterms:identifier "EAID_2651D6E0_6AC8_43a8_A4F6_4706209BAC8E" ;
+    rdfs:comment "Een TENAAMSTELLING  vormt de relatie tussen een Recht en een Persoon en geeft aan welk recht, met uitzondering van hypotheek en beslag, door een Persoon wordt uitgeoefend op een Kadastraal object."@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/enumeraties/burgelijkestaat> a mim:Enumeratie,
+        owl:Class,
+        skos:ConceptScheme ;
+    rdfs:label "burgelijkeStaat"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/enumeraties/burgelijkestaat"^^xsd:anyURI ;
+    mim:naam "burgelijkeStaat"@nl ;
+    mim:waarde <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/burgelijkestaat/achtergebeleven-partner>,
+        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/burgelijkestaat/gehuwd>,
+        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/burgelijkestaat/gescheiden>,
+        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/burgelijkestaat/onbekend>,
+        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/burgelijkestaat/ongehuwd-en-nooit-gehuwd-geweest>,
+        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/burgelijkestaat/parnetschap-beeeindigd>,
+        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/burgelijkestaat/partnerschap>,
+        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/burgelijkestaat/weduwe-weduwnaar> ;
+    dcterms:identifier "EAID_CC77021D_2E01_45a9_BA46_7705DA27F49A" ;
+    rdfs:subClassOf skos:Concept .
+
+<https://lod.gemeentelijkgegevensmodel.nl/enumeraties/codeexploitant> a mim:Enumeratie,
+        owl:Class,
+        skos:ConceptScheme ;
+    rdfs:label "codeExploitant"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/enumeraties/codeexploitant"^^xsd:anyURI ;
+    mim:naam "codeExploitant"@nl ;
+    mim:waarde <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/codeexploitant/derden-niet-zijnde-gemeente>,
+        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/codeexploitant/erfpacht-uitgegeven>,
+        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/codeexploitant/erfpacht-verkregen>,
+        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/codeexploitant/gedeeltelijk-eigendom>,
+        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/codeexploitant/onbekend-handmatig-oplossen>,
+        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/codeexploitant/overige-zakelijk-rechten-verkregen>,
+        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/codeexploitant/overige-zakelijk-rechten-verleend>,
+        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/codeexploitant/recht-van-opstal-verkregen>,
+        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/codeexploitant/recht-van-opstal-verleend>,
+        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/codeexploitant/vol-eigendom> ;
+    dcterms:identifier "EAID_C9165029_12D2_4ed4_9CFB_016353926D82" ;
+    rdfs:subClassOf skos:Concept .
+
+<https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm> a mim:Enumeratie,
+        owl:Class,
+        skos:ConceptScheme ;
+    rdfs:label "soortRechtsvorm"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm"^^xsd:anyURI ;
+    mim:naam "soortRechtsvorm"@nl ;
+    mim:waarde <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm/besloten-vennootschap>,
+        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm/commanditaire-vennootschap>,
+        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm/cooperatie-europees-economische-samenwerking>,
+        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm/europese-cooperatieve-vennootschap>,
+        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm/europese-naamloze-vennootschap>,
+        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm/kapitaalvennootschap-binnen-eer>,
+        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm/kapitaalvennootschap-buiten-eer>,
+        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm/kerkelijke-organisatie>,
+        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm/leeg>,
+        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm/maatschap>,
+        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm/naamloze-vennootschap>,
+        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm/onbekend>,
+        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm/onderlinge-waarborg-maatschappij>,
+        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm/overig-privaatrechtelijke-rechtspersoon>,
+        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm/overige-buitenlandse-rechtspersoon-vennootschap>,
+        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm/publiekrechtelijke-rechtspersoon>,
+        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm/rederij>,
+        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm/stichting>,
+        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm/vennootschap-onder-firma>,
+        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm/vereniging>,
+        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm/vereniging-van-eigenaars> ;
+    dcterms:identifier "EAID_EE5726F5_3FA7_4476_B74B_1C0775775F6B" ;
+    rdfs:subClassOf skos:Concept .
+

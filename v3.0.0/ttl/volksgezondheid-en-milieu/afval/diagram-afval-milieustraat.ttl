@@ -1,0 +1,411 @@
+# graph: <https://lod.gemeentelijkgegevensmodel.nl/v3.0.0/volksgezondheid-en-milieu/afval/diagram-afval-milieustraat>
+
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix mim: <http://modellen.mim-standaard.nl/def/mim#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/v3.0.0/volksgezondheid-en-milieu/afval/diagram-afval-milieustraat> a owl:Ontology ;
+    rdfs:label "Diagram Afval Milieustraat"@nl ;
+    dcterms:identifier "EAID_A00B8121_71AC_466f_B391_E16881240477" ;
+    dcterms:isPartOf <https://lod.gemeentelijkgegevensmodel.nl/> ;
+    owl:versionInfo "v3.0.0" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/milieustraat/inzamelpunt-van> a mim:Relatiesoort,
+        owl:ObjectProperty ;
+    rdfs:label "inzamelpunt van"@nl ;
+    mim:aggregatietype mim:Geen ;
+    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/milieustraat> ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/fractie> ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/milieustraat/inzamelpunt-van"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "0..*" ;
+    mim:kardinaliteitRelatieBron "0..*" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "inzamelpunt van"@nl ;
+    mim:unidirectioneel true ;
+    dcterms:identifier "EAID_8F27C588_2ED1_4d02_85C1_E3560A0C898D" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/milieustraat> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/fractie> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/pas/geldig-voor> a mim:Relatiesoort,
+        owl:ObjectProperty ;
+    rdfs:label "geldig voor"@nl ;
+    mim:aggregatietype mim:Geen ;
+    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/pas> ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/milieustraat> ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/pas/geldig-voor"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..*" ;
+    mim:kardinaliteitRelatieBron "0..*" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "geldig voor"@nl ;
+    mim:unidirectioneel true ;
+    dcterms:identifier "EAID_DEE1498F_CA3E_4bd2_9B38_E77E31049F0B" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/pas> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/milieustraat> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/pas/uitgevoerde-storting> a mim:Relatiesoort,
+        owl:ObjectProperty ;
+    rdfs:label "uitgevoerde storting"@nl ;
+    mim:aggregatietype mim:Geen ;
+    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/pas> ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/storting> ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/pas/uitgevoerde-storting"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "0..*" ;
+    mim:kardinaliteitRelatieBron "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "uitgevoerde storting"@nl ;
+    mim:unidirectioneel true ;
+    dcterms:identifier "EAID_5614D2DC_1440_4241_9399_33073E5A1E4C" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/pas> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/storting> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/prijsregel/betreft> a mim:Relatiesoort,
+        owl:ObjectProperty ;
+    rdfs:label "betreft"@nl ;
+    mim:aggregatietype mim:Geen ;
+    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/prijsregel> ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/fractie> ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/prijsregel/betreft"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:kardinaliteitRelatieBron "1..*" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "betreft"@nl ;
+    mim:unidirectioneel true ;
+    dcterms:identifier "EAID_7E95D3E7_7C41_4873_9BC8_6BE07BD58617" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/prijsregel> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/fractie> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/storting/bij> a mim:Relatiesoort,
+        owl:ObjectProperty ;
+    rdfs:label "bij"@nl ;
+    mim:aggregatietype mim:Geen ;
+    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/storting> ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/milieustraat> ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/storting/bij"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:kardinaliteitRelatieBron "0..*" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "bij"@nl ;
+    mim:unidirectioneel true ;
+    dcterms:identifier "EAID_C3B463D6_BCFB_414c_9FDF_C5BFCDC7BC1B" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/storting> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/milieustraat> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/storting/fractie> a mim:Relatiesoort,
+        owl:ObjectProperty ;
+    rdfs:label "fractie"@nl ;
+    mim:aggregatietype mim:Geen ;
+    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/storting> ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/fractie> ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/storting/fractie"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..*" ;
+    mim:kardinaliteitRelatieBron "0..*" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "fractie"@nl ;
+    mim:unidirectioneel true ;
+    dcterms:identifier "EAID_9F46337A_7B77_464b_AAF3_E339F6D1E39A" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/storting> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/fractie> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/fractie/naam> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "naam"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/fractie/naam"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "naam"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_F66CC356_50B7_49b8_9982_C5BFCE331CE1" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/fractie> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/fractie/omschrijving> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "omschrijving"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/fractie/omschrijving"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "omschrijving"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_19DB02EE_F4B9_46d9_BFCA_FFD860F8E4D1" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/fractie> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/milieustraat/adresaanduiding> a mim:Gegevensgroep,
+        owl:ObjectProperty ;
+    rdfs:label "adresaanduiding"@nl ;
+    mim:gegevensgroeptype <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/groepattribuutsoort/adresaanduiding> ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/milieustraat/adresaanduiding"^^xsd:anyURI ;
+    mim:kardinaliteit "1..1" ;
+    mim:naam "adresaanduiding"@nl ;
+    dcterms:identifier "EAID_9330F941_E4BA_4af4_91C9_98CFA6388928" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/milieustraat> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/groepattribuutsoort/adresaanduiding> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/milieustraat/naam> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "naam"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/milieustraat/naam"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "naam"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_C4EA5A0B_C915_4b40_90D8_BA308653C5ED" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/milieustraat> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/milieustraat/omschrijving> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "omschrijving"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/milieustraat/omschrijving"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "omschrijving"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_4597B9DF_0D97_40c8_859C_F08A260C8D79" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/milieustraat> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/pas/adresaanduiding> a mim:Gegevensgroep,
+        owl:ObjectProperty ;
+    rdfs:label "adresaanduiding"@nl ;
+    mim:gegevensgroeptype <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/groepattribuutsoort/adresaanduiding> ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/pas/adresaanduiding"^^xsd:anyURI ;
+    mim:kardinaliteit "1..1" ;
+    mim:naam "adresaanduiding"@nl ;
+    dcterms:identifier "EAID_6B0469BD_62D1_442f_BE5A_D98F78ED6E12" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/pas> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/groepattribuutsoort/adresaanduiding> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/pas/pasnummer> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "pasnummer"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/pas/pasnummer"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "pasnummer"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_1EA42C5B_49F8_4881_A6B4_F37E59B71AF2" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/pas> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/prijsregel/bedrag> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "bedrag"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/prijsregel/bedrag"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "bedrag"@nl ;
+    mim:type mim:Decimal ;
+    dcterms:identifier "EAID_B8474925_5686_4b63_A6E5_78B72CA48A8F" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/prijsregel> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/> ;
+    rdfs:range xsd:decimal .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/prijsregel/credit> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "credit"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/prijsregel/credit"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "credit"@nl ;
+    mim:type mim:Boolean ;
+    dcterms:identifier "EAID_BBB63AAE_87EA_40eb_8E0E_D40B850D50D0" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/prijsregel> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/> ;
+    rdfs:range xsd:boolean .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/storting/datumtijd> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "datumtijd"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/storting/datumtijd"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "datumtijd"@nl ;
+    mim:type mim:DateTime ;
+    dcterms:identifier "EAID_98661CD9_B8E4_49c6_887C_DE517AE385F8" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/storting> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/> ;
+    rdfs:range xsd:dateTime .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/storting/gewicht> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "gewicht"@nl ;
+    mim:definitie "Gewicht in kilo's"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/storting/gewicht"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "gewicht"@nl ;
+    mim:type mim:Integer ;
+    dcterms:identifier "EAID_0C3B0DF0_5987_4f93_B578_4A02B95FF6F7" ;
+    rdfs:comment "Gewicht in kilo's"@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/storting> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/> ;
+    rdfs:range xsd:integer .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/prijsregel> a mim:Objecttype,
+        owl:Class ;
+    rdfs:label "Prijsregel"@nl ;
+    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/prijsregel/bedrag>,
+        <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/prijsregel/credit> ;
+    mim:definitie "Een *prijsregel* is een **regel die aangeeft hoe de prijs van een product, dienst of prestatie wordt vastgesteld of toegepast**, bijvoorbeeld binnen een declaratie- of tariefstructuur."@nl ;
+    mim:herkomstDefinitie "https://www.zorgprestatiemodel.nl/content/uploads/2023/07/20230628-Spelregels-correct-registreren-en-declareren_definitief.pdf" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/prijsregel"^^xsd:anyURI ;
+    mim:indicatieAbstractObject false ;
+    mim:naam "Prijsregel"@nl ;
+    mim:toelichting "In administratieve en financiële systemen geeft een *prijsregel* aan **welke tarieven of prijsinstellingen** gehanteerd moeten worden voor het berekenen van het te factureren bedrag bij een levering of prestatie. Het kan bijvoorbeeld de manier beschrijven waarop een tarief wordt bepaald binnen een declaratiesysteem (zoals in de zorg waar prestaties aan specifieke tarieven zijn gekoppeld) of hoe prijzen worden berekend op basis van volume-, tijds- of productcriteria. Prijsregels worden gebruikt om consistent en systematisch te kunnen berekenen wat er in rekening gebracht mag worden voor een geleverde prestatie."@nl ;
+    dcterms:identifier "EAID_E79C6C20_3D05_49fb_96ED_105B5CD0ABA5" ;
+    rdfs:comment "Een *prijsregel* is een **regel die aangeeft hoe de prijs van een product, dienst of prestatie wordt vastgesteld of toegepast**, bijvoorbeeld binnen een declaratie- of tariefstructuur."@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/pas> a mim:Objecttype,
+        owl:Class ;
+    rdfs:label "Pas"@nl ;
+    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/pas/pasnummer> ;
+    mim:definitie "klein kaartje met je naam en soms je foto erop, dat je toegang geeft tot bepaalde diensten"@nl ;
+    mim:gegevensgroep <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/pas/adresaanduiding> ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/pas"^^xsd:anyURI ;
+    mim:indicatieAbstractObject false ;
+    mim:naam "Pas"@nl ;
+    dcterms:identifier "EAID_F6D7A83B_30BC_44f4_91E2_74C04DCE87AE" ;
+    rdfs:comment "klein kaartje met je naam en soms je foto erop, dat je toegang geeft tot bepaalde diensten"@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/fractie> a mim:Objecttype,
+        owl:Class ;
+    rdfs:label "Fractie"@nl ;
+    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/fractie/naam>,
+        <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/fractie/omschrijving> ;
+    mim:definitie "Onderdeel, deeltje"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/fractie"^^xsd:anyURI ;
+    mim:indicatieAbstractObject false ;
+    mim:naam "Fractie"@nl ;
+    dcterms:identifier "EAID_80A7D18F_7C7E_4ee6_9F07_055559BCEF9F" ;
+    rdfs:comment "Onderdeel, deeltje"@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/storting> a mim:Objecttype,
+        owl:Class ;
+    rdfs:label "Storting"@nl ;
+    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/storting/datumtijd>,
+        <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/storting/gewicht> ;
+    mim:definitie "Activiteit, inhoudende a. het zich ontdoen van stoffen"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/storting"^^xsd:anyURI ;
+    mim:indicatieAbstractObject false ;
+    mim:naam "Storting"@nl ;
+    dcterms:identifier "EAID_15910FE7_D323_45ff_AA7F_CE3C636CE953" ;
+    rdfs:comment "Activiteit, inhoudende a. het zich ontdoen van stoffen"@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/milieustraat> a mim:Objecttype,
+        owl:Class ;
+    rdfs:label "Milieustraat"@nl ;
+    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/milieustraat/naam>,
+        <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/milieustraat/omschrijving> ;
+    mim:definitie "Een locatie die specifiek bestemd is voor het brengen van gescheiden huishoudelijk afval en grofvuil."@nl ;
+    mim:gegevensgroep <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/milieustraat/adresaanduiding> ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/milieustraat"^^xsd:anyURI ;
+    mim:indicatieAbstractObject false ;
+    mim:naam "Milieustraat"@nl ;
+    dcterms:identifier "EAID_1638F2AF_F1E8_4360_BA47_D975F2135168" ;
+    rdfs:comment "Een locatie die specifiek bestemd is voor het brengen van gescheiden huishoudelijk afval en grofvuil."@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/> .
+

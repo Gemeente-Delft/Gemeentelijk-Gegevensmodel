@@ -1,0 +1,338 @@
+# graph: <https://lod.gemeentelijkgegevensmodel.nl/v3.0.0/bestuur-politiek-en-ondersteuning/griffie/diagram-raadsstukken>
+
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix mim: <http://modellen.mim-standaard.nl/def/mim#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/categorie/heeft> a mim:Relatiesoort,
+        owl:ObjectProperty ;
+    rdfs:label "heeft"@nl ;
+    mim:aggregatietype mim:Geen ;
+    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/categorie> ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/raadsstuk> ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/categorie/heeft"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "0..*" ;
+    mim:kardinaliteitRelatieBron "0..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "heeft"@nl ;
+    mim:unidirectioneel true ;
+    dcterms:identifier "EAID_E5CC9977_A6A5_4d53_B7F5_394A7C56235C" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/categorie> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/raadsstuk> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/dossier/hoort-bij> a mim:Relatiesoort,
+        owl:ObjectProperty ;
+    rdfs:label "hoort bij"@nl ;
+    mim:aggregatietype mim:Geen ;
+    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/dossier> ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/raadsstuk> ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/dossier/hoort-bij"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "0..*" ;
+    mim:kardinaliteitRelatieBron "0..*" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "hoort bij"@nl ;
+    mim:unidirectioneel true ;
+    dcterms:identifier "EAID_97901C7A_E07B_49af_828A_2F0E03C8E795" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/dossier> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/raadsstuk> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/raadsstuk/heeft> a mim:Relatiesoort,
+        owl:ObjectProperty ;
+    rdfs:label "heeft"@nl ;
+    mim:aggregatietype mim:Geen ;
+    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/raadsstuk> ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/taakveld> ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/raadsstuk/heeft"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "0..1" ;
+    mim:kardinaliteitRelatieBron "0..*" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "heeft"@nl ;
+    mim:unidirectioneel true ;
+    dcterms:identifier "EAID_E4D00870_1DF1_4693_909D_E94782A7BEF9" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/raadsstuk> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/taakveld> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/raadsstuk/hoort-bij> a mim:Relatiesoort,
+        owl:ObjectProperty ;
+    rdfs:label "hoort bij"@nl ;
+    mim:aggregatietype mim:Geen ;
+    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/raadsstuk> ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/programma> ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/raadsstuk/hoort-bij"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "0..*" ;
+    mim:kardinaliteitRelatieBron "0..*" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "hoort bij"@nl ;
+    mim:unidirectioneel true ;
+    dcterms:identifier "EAID_A06DA05F_8BC4_497b_8A7B_05774189434F" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/raadsstuk> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/programma> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/v3.0.0/bestuur-politiek-en-ondersteuning/griffie/diagram-raadsstukken> a owl:Ontology ;
+    rdfs:label "Diagram Raadsstukken"@nl ;
+    dcterms:identifier "EAID_108224FC_E160_417a_AFC5_68A484B3B8AE" ;
+    dcterms:isPartOf <https://lod.gemeentelijkgegevensmodel.nl/> ;
+    owl:versionInfo "v3.0.0" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/categorie/naam> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "naam"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/categorie/naam"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "naam"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_8311B269_1448_4010_BB59_36BDCEB8A8B5" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/categorie> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/dossier/naam> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "naam"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/dossier/naam"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "naam"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_5C3FC751_600E_472a_85CB_B5D200059372" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/dossier> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/programma/naam> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "naam"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/programma/naam"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "naam"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_FDD1661A_F848_4afc_83CB_0E3DD2B2E17F" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/programma> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/raadsstuk/besloten> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "besloten"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/raadsstuk/besloten"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "besloten"@nl ;
+    mim:type mim:Boolean ;
+    dcterms:identifier "EAID_5F0B0086_4B20_4ad6_A0E3_8473792DCCA3" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/raadsstuk> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/> ;
+    rdfs:range xsd:boolean .
+
+<https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/raadsstuk/datumexpiratie> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "datumExpiratie"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/raadsstuk/datumexpiratie"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "datumExpiratie"@nl ;
+    mim:type mim:DateTime ;
+    dcterms:identifier "EAID_2727F559_44D0_4e2b_892B_849D1FA4EFA6" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/raadsstuk> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/> ;
+    rdfs:range xsd:dateTime .
+
+<https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/raadsstuk/datumpublicatie> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "datumPublicatie"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/raadsstuk/datumpublicatie"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "datumPublicatie"@nl ;
+    mim:type mim:DateTime ;
+    dcterms:identifier "EAID_334CE3A8_8E8D_4b06_8DA9_C4D03BD38C1D" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/raadsstuk> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/> ;
+    rdfs:range xsd:dateTime .
+
+<https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/raadsstuk/datumregistratie> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "datumRegistratie"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/raadsstuk/datumregistratie"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "datumRegistratie"@nl ;
+    mim:type mim:DateTime ;
+    dcterms:identifier "EAID_72642A6B_AF2F_4dbd_98C1_16C0DD3FDF69" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/raadsstuk> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/> ;
+    rdfs:range xsd:dateTime .
+
+<https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/raadsstuk/typeraadsstuk> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "typeRaadsstuk"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/raadsstuk/typeraadsstuk"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "typeRaadsstuk"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_CBF2C174_7F93_4c2f_A6E7_F501D9E3291D" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/raadsstuk> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/taakveld/naam> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "naam"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/taakveld/naam"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "naam"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_7B97761B_239D_4e0a_B6B0_58C1F4A6013F" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/taakveld> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/categorie> a mim:Objecttype,
+        owl:Class ;
+    rdfs:label "Categorie"@nl ;
+    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/categorie/naam> ;
+    mim:definitie "Categorie waarop leveranciers zich voor de levering van personeel voor kunnen kwalificeren"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/categorie"^^xsd:anyURI ;
+    mim:indicatieAbstractObject false ;
+    mim:naam "Categorie"@nl ;
+    dcterms:identifier "EAID_B9B82B25_5D7F_4d2b_84F9_4DF74525EEAD" ;
+    rdfs:comment "Categorie waarop leveranciers zich voor de levering van personeel voor kunnen kwalificeren"@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/dossier> a mim:Objecttype,
+        owl:Class ;
+    rdfs:label "Dossier"@nl ;
+    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/dossier/naam> ;
+    mim:definitie "Samenhangende set gegevens en informatie voor een specifiek doel"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/dossier"^^xsd:anyURI ;
+    mim:indicatieAbstractObject false ;
+    mim:naam "Dossier"@nl ;
+    dcterms:identifier "EAID_475E24C9_CC9A_49cc_AB80_8CA0221441E5" ;
+    rdfs:comment "Samenhangende set gegevens en informatie voor een specifiek doel"@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/programma> a mim:Objecttype,
+        owl:Class ;
+    rdfs:label "Programma"@nl ;
+    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/programma/naam> ;
+    mim:definitie "Een tijdelijke, flexibele organisatiestructuur, die is opgezet om de implementatie van een verzameling met elkaar samenhangende projecten en activiteiten te co&#246;rdineren, te sturen en te controleren teneinde te zorgen voor de realisatie van de eindresultaten en benefits die zijn gerelateerd aan de strategische doelstellingen van de organisatie."@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/programma"^^xsd:anyURI ;
+    mim:indicatieAbstractObject false ;
+    mim:naam "Programma"@nl ;
+    dcterms:identifier "EAID_CA56A59A_F855_4c19_89BE_578B12481EA0" ;
+    rdfs:comment "Een tijdelijke, flexibele organisatiestructuur, die is opgezet om de implementatie van een verzameling met elkaar samenhangende projecten en activiteiten te co&#246;rdineren, te sturen en te controleren teneinde te zorgen voor de realisatie van de eindresultaten en benefits die zijn gerelateerd aan de strategische doelstellingen van de organisatie."@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/taakveld> a mim:Objecttype,
+        owl:Class ;
+    rdfs:label "Taakveld"@nl ;
+    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/taakveld/naam> ;
+    mim:definitie "Een samenhangend geheel van activiteiten en taken en hangt onder een programma."@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/taakveld"^^xsd:anyURI ;
+    mim:indicatieAbstractObject false ;
+    mim:naam "Taakveld"@nl ;
+    dcterms:identifier "EAID_01E83CEC_D69D_47eb_9BAB_252AABADDD18" ;
+    rdfs:comment "Een samenhangend geheel van activiteiten en taken en hangt onder een programma."@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/raadsstuk> a mim:Objecttype,
+        owl:Class ;
+    rdfs:label "Raadsstuk"@nl ;
+    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/raadsstuk/besloten>,
+        <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/raadsstuk/datumexpiratie>,
+        <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/raadsstuk/datumpublicatie>,
+        <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/raadsstuk/datumregistratie>,
+        <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/raadsstuk/typeraadsstuk> ;
+    mim:definitie "Stuk dat door de gemeenteraad wordt behandeld"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/raadsstuk"^^xsd:anyURI ;
+    mim:indicatieAbstractObject false ;
+    mim:naam "Raadsstuk"@nl ;
+    mim:populatie "Voor objecttypen die deel uitmaken van een (basis)registratie betreft dit de beschrijving van de exemplaren van het gedefinieerde objecttype die in de desbetreffende (basis)-registratie voorhanden zijn.#NOTES#Voor objecttypen die deel uitmaken van een (basis)registratie betreft dit de beschrijving van de exemplaren van het gedefinieerde objecttype die in de desbetreffende (basis)-registratie voorhanden zijn.#NOTES#Voor objecttypen die deel uitmaken van een (basis)registratie betreft dit de beschrijving van de exemplaren van het gedefinieerde objecttype die in de desbetreffende (basis)-registratie voorhanden zijn.#NOTES#Voor objecttypen die deel uitmaken van een (basis)registratie betreft dit de beschrijving van de exemplaren van het gedefinieerde objecttype die in de desbetreffende (basis)-registratie voorhanden zijn.#NOTES#Voor objecttypen die deel uitmaken van een (basis)registratie betreft dit de beschrijving van de exemplaren van het gedefinieerde objecttype die in de desbetreffende (basis)-registratie voorhanden zijn.#NOTES#Voor objecttypen die deel uitmaken van een (basis)registratie betreft dit de beschrijving van de exemplaren van het gedefinieerde objecttype die in de desbetreffende (basis)-registratie voorhanden zijn.#NOTES#Voor objecttypen die deel uitmaken van een (basis)registratie betreft dit de beschrijving van de exemplaren van het gedefinieerde objecttype die in de desbetreffende (basis)-registratie voorhanden zijn.#NOTES#Voor objecttypen die deel uitmaken van een (basis)registratie betreft dit de beschrijving van de exemplaren van het gedefinieerde objecttype die in de desbetreffende (basis)-registratie voorhanden zijn." ;
+    dcterms:identifier "EAID_440219A4_C64B_4eac_ADE5_E79ED6AA9BFE" ;
+    rdfs:comment "Stuk dat door de gemeenteraad wordt behandeld"@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/> .
+

@@ -1,0 +1,2230 @@
+# graph: <https://lod.gemeentelijkgegevensmodel.nl/v3.0.0/interne-organisatie/ict/basismodel-ict-applicatie-en-gegevens>
+
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix mim: <http://modellen.mim-standaard.nl/def/mim#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/applicatie/bevat> a mim:Relatiesoort,
+        owl:ObjectProperty ;
+    rdfs:label "bevat"@nl ;
+    mim:aggregatietype mim:Geen ;
+    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/applicatie> ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/gegeven> ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/applicatie/bevat"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "0..*" ;
+    mim:kardinaliteitRelatieBron "0..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "bevat"@nl ;
+    mim:unidirectioneel true ;
+    dcterms:identifier "EAID_5125EA2E_16E9_411b_A20F_802E0B335037" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/applicatie> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/gegeven> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/attribuutsoort/heeft> a mim:Relatiesoort,
+        owl:ObjectProperty ;
+    rdfs:label "heeft"@nl ;
+    mim:aggregatietype mim:Geen ;
+    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/attribuutsoort> ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/datatype> ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/attribuutsoort/heeft"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "0..1" ;
+    mim:kardinaliteitRelatieBron "0..*" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "heeft"@nl ;
+    mim:unidirectioneel true ;
+    dcterms:identifier "EAID_0A4EE071_9E38_4a5c_A701_0ECACC233BB1" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/attribuutsoort> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/datatype> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/externe-bron/levert> a mim:Relatiesoort,
+        owl:ObjectProperty ;
+    rdfs:label "levert"@nl ;
+    mim:aggregatietype mim:Geen ;
+    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/externe-bron> ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/gegeven> ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/externe-bron/levert"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "0..*" ;
+    mim:kardinaliteitRelatieBron "0..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "levert"@nl ;
+    mim:unidirectioneel true ;
+    dcterms:identifier "EAID_42164840_C756_492e_A778_D778B6B90C19" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/externe-bron> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/gegeven> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/gegeven/geclassificeerd-als> a mim:Relatiesoort,
+        owl:ObjectProperty ;
+    rdfs:label "geclassificeerd als"@nl ;
+    mim:aggregatietype mim:Geen ;
+    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/gegeven> ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/classificatie> ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/gegeven/geclassificeerd-als"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "0..*" ;
+    mim:kardinaliteitRelatieBron "0..*" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "geclassificeerd als"@nl ;
+    mim:unidirectioneel true ;
+    dcterms:identifier "EAID_827C0C04_BB19_4cca_B2D2_F8F589124A38" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/gegeven> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/classificatie> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/gegeven/gedefinieerd-door> a mim:Relatiesoort,
+        owl:ObjectProperty ;
+    rdfs:label "gedefinieerd door"@nl ;
+    mim:aggregatietype mim:Geen ;
+    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/gegeven> ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/objecttype> ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/gegeven/gedefinieerd-door"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "0..1" ;
+    mim:kardinaliteitRelatieBron "0..*" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "gedefinieerd door"@nl ;
+    mim:unidirectioneel true ;
+    dcterms:identifier "EAID_D04B4B9C_15D5_4421_A672_0AA90EE62A1B" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/gegeven> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/objecttype> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/objecttype/bezit-attribuutsoort> a mim:Relatiesoort,
+        owl:ObjectProperty ;
+    rdfs:label "bezit"@nl ;
+    mim:aggregatietype mim:Geen ;
+    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/objecttype> ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/attribuutsoort> ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/objecttype/bezit-attribuutsoort"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "0..*" ;
+    mim:kardinaliteitRelatieBron "0..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "bezit"@nl ;
+    mim:unidirectioneel true ;
+    dcterms:identifier "EAID_FB2504BA_3DEF_45eb_B581_79D4B7B6B7AA" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/objecttype> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/attribuutsoort> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/objecttype/bezit-relatiesoort> a mim:Relatiesoort,
+        owl:ObjectProperty ;
+    rdfs:label "bezit"@nl ;
+    mim:aggregatietype mim:Geen ;
+    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/objecttype> ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/relatiesoort> ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/objecttype/bezit-relatiesoort"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "0..*" ;
+    mim:kardinaliteitRelatieBron "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "bezit"@nl ;
+    mim:unidirectioneel true ;
+    dcterms:identifier "EAID_36EB4818_D2B7_4dc9_B3E3_9B4E71091C92" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/objecttype> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/relatiesoort> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/objecttype/relatie-generalisatie> a mim:Relatiesoort,
+        owl:ObjectProperty ;
+    rdfs:label "relatie naar Generalisatie"@nl ;
+    mim:aggregatietype mim:Geen ;
+    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/objecttype> ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/generalisatie> ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/objecttype/relatie-generalisatie"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "0..1" ;
+    mim:kardinaliteitRelatieBron "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "relatie naar Generalisatie"@nl ;
+    mim:unidirectioneel true ;
+    dcterms:identifier "EAID_D4FC4F07_C62A_411b_9887_DFC4A31ABF95" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/objecttype> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/generalisatie> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/relatiesoort/gerelateerdobjecttype> a mim:Relatiesoort,
+        owl:ObjectProperty ;
+    rdfs:label "gerelateerdObjecttype"@nl ;
+    mim:aggregatietype mim:Geen ;
+    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/relatiesoort> ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/objecttype> ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/relatiesoort/gerelateerdobjecttype"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:kardinaliteitRelatieBron "0..*" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "gerelateerdObjecttype"@nl ;
+    mim:unidirectioneel true ;
+    dcterms:identifier "EAID_3DEBAD4B_F4C6_42fc_9CC3_25E496DE744B" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/relatiesoort> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/objecttype> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/v3.0.0/interne-organisatie/ict/basismodel-ict-applicatie-en-gegevens> a owl:Ontology ;
+    rdfs:label "Basismodel ICT Applicatie en Gegevens"@nl ;
+    dcterms:identifier "EAID_A2831A97_91F6_4ed0_896E_3531219E69F0" ;
+    dcterms:isPartOf <https://lod.gemeentelijkgegevensmodel.nl/> ;
+    owl:versionInfo "v3.0.0" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/applicatie/applicatieurl> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "applicatieURL"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/applicatie/applicatieurl"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "applicatieURL"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_DD4A3B0F_AF84_4284_83C8_A33C983ADE9F" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/applicatie> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/applicatie/beheerstatus> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "beheerstatus"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/applicatie/beheerstatus"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "beheerstatus"@nl ;
+    mim:type mim:Integer ;
+    dcterms:identifier "EAID_AA0A47E5_166F_4bbb_9EB3_78B41273151E" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/applicatie> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/> ;
+    rdfs:range xsd:integer .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/applicatie/beleidsdomein> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "beleidsdomein"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/applicatie/beleidsdomein"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "beleidsdomein"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_434004EF_99B9_4fb6_B691_01C845DAEE3B" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/applicatie> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/applicatie/categorie> a mim:Attribuutsoort,
+        owl:ObjectProperty ;
+    rdfs:label "categorie"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/applicatie/categorie"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "categorie"@nl ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/applicatiecategorie> ;
+    dcterms:identifier "EAID_185E15A4_FAD3_4e31_BEFC_E048C7B6C720" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/applicatie> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/applicatiecategorie> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/applicatie/guid> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "guid"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/applicatie/guid"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "guid"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_534B87CE_5639_4ed6_A269_5FEADC3B32E4" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/applicatie> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/applicatie/naam> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "naam"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/applicatie/naam"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "naam"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_42C49964_2324_49ee_A13B_F9C420B219B6" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/applicatie> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/applicatie/omschrijving> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "omschrijving"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/applicatie/omschrijving"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "omschrijving"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_4C205861_D87B_4acf_99D2_ACC310BD05F3" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/applicatie> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/applicatie/packagingstatus> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "packagingstatus"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/applicatie/packagingstatus"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "packagingstatus"@nl ;
+    mim:type mim:Integer ;
+    dcterms:identifier "EAID_7CA641E0_C200_46d9_B376_C3AA74638CC4" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/applicatie> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/> ;
+    rdfs:range xsd:integer .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/applicatiecategorie/bba> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/applicatiecategorie> ;
+    rdfs:label "BBA"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/applicatiecategorie/bba"^^xsd:anyURI ;
+    mim:naam "BBA"@nl ;
+    dcterms:identifier "EAID_66531E3B_F535_42fa_9CC2_0F22FFA8F2E0" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/applicatiecategorie> ;
+    skos:prefLabel "BBA"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/applicatiecategorie> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/applicatiecategorie/beheer-en-systeem> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/applicatiecategorie> ;
+    rdfs:label "Beheer en systeem"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/applicatiecategorie/beheer-en-systeem"^^xsd:anyURI ;
+    mim:naam "Beheer en systeem"@nl ;
+    dcterms:identifier "EAID_D392453B_3652_4211_8B5E_4A5BF82C45D8" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/applicatiecategorie> ;
+    skos:prefLabel "Beheer en systeem"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/applicatiecategorie> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/applicatiecategorie/ka-basis> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/applicatiecategorie> ;
+    rdfs:label "KA Basis"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/applicatiecategorie/ka-basis"^^xsd:anyURI ;
+    mim:naam "KA Basis"@nl ;
+    dcterms:identifier "EAID_166DA5D0_E40C_4253_A6E8_472412753785" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/applicatiecategorie> ;
+    skos:prefLabel "KA Basis"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/applicatiecategorie> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/applicatiecategorie/ka-extra> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/applicatiecategorie> ;
+    rdfs:label "KA Extra"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/applicatiecategorie/ka-extra"^^xsd:anyURI ;
+    mim:naam "KA Extra"@nl ;
+    dcterms:identifier "EAID_6F1D2A7A_1A4D_47ba_B80E_406403F7F952" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/applicatiecategorie> ;
+    skos:prefLabel "KA Extra"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/applicatiecategorie> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/applicatiecategorie/kernapplicatie> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/applicatiecategorie> ;
+    rdfs:label "Kernapplicatie"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/applicatiecategorie/kernapplicatie"^^xsd:anyURI ;
+    mim:naam "Kernapplicatie"@nl ;
+    dcterms:identifier "EAID_EE0C3E87_BCB5_499e_ABBB_CB158AB71B84" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/applicatiecategorie> ;
+    skos:prefLabel "Kernapplicatie"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/applicatiecategorie> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/applicatiecategorie/niet-ingedeeld> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/applicatiecategorie> ;
+    rdfs:label "Niet ingedeeld"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/applicatiecategorie/niet-ingedeeld"^^xsd:anyURI ;
+    mim:naam "Niet ingedeeld"@nl ;
+    dcterms:identifier "EAID_1CCBE8BD_6B15_47da_A359_3495CB61990F" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/applicatiecategorie> ;
+    skos:prefLabel "Niet ingedeeld"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/applicatiecategorie> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/attribuutsoort/authentiek> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "authentiek"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/attribuutsoort/authentiek"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "authentiek"@nl ;
+    mim:type mim:Boolean ;
+    dcterms:identifier "EAID_8D106E09_346A_4310_BB97_EE9DB0B5B4F5" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/attribuutsoort> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/> ;
+    rdfs:range xsd:boolean .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/attribuutsoort/datumopname> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "datumOpname"@nl ;
+    mim:definitie "De datum waarop het objecttype is opgenomen in het informatiemodel."@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/attribuutsoort/datumopname"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "datumOpname"@nl ;
+    mim:type mim:Date ;
+    dcterms:identifier "EAID_877A5578_E121_4690_9600_92536C56D633" ;
+    rdfs:comment "De datum waarop het objecttype is opgenomen in het informatiemodel."@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/attribuutsoort> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/> ;
+    rdfs:range xsd:date .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/attribuutsoort/definitie> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "definitie"@nl ;
+    mim:definitie "De beschrijving van de betekenis van het objecttype zoals gespecificeerd in de catalogus van de desbetreffende (basis)registratie of informatiemodel."@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/attribuutsoort/definitie"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "definitie"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_CA374334_C281_4ab7_B2F7_A2E5E62F076E" ;
+    rdfs:comment "De beschrijving van de betekenis van het objecttype zoals gespecificeerd in de catalogus van de desbetreffende (basis)registratie of informatiemodel."@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/attribuutsoort> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/attribuutsoort/domein> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "domein"@nl ;
+    mim:definitie "<i>Domein is zelf geen metadata aspect. Onder het kopje ‘domein’ vallen een aantal metadata aspecten die gelden voor een waarde, oftewel de eisen waaraan een waarde van een attribuutsoort moet voldoen.</i>"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/attribuutsoort/domein"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "domein"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_8417A62B_538D_44ca_8077_01E548BA0F68" ;
+    rdfs:comment "<i>Domein is zelf geen metadata aspect. Onder het kopje ‘domein’ vallen een aantal metadata aspecten die gelden voor een waarde, oftewel de eisen waaraan een waarde van een attribuutsoort moet voldoen.</i>"@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/attribuutsoort> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/attribuutsoort/ea-guid> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "ea_guid"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/attribuutsoort/ea-guid"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "ea_guid"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_3E47F103_76FF_458c_B708_2D87726692F8" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/attribuutsoort> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/attribuutsoort/herkomst> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "herkomst"@nl ;
+    mim:definitie "De registratie in wiens catalogus het objecttype is gespecificeerd (oftewel de registratie waar het objecttype deel van uitmaakt). Deze specificatie is toegevoegd omdat het wel duidelijk moet zijn in welke (basis)registratie of informatiemodel het objecttype voorkomt (indien van toepassing)."@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/attribuutsoort/herkomst"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "herkomst"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_A45FB378_4196_4d34_BFE5_87A3AA9160F0" ;
+    rdfs:comment "De registratie in wiens catalogus het objecttype is gespecificeerd (oftewel de registratie waar het objecttype deel van uitmaakt). Deze specificatie is toegevoegd omdat het wel duidelijk moet zijn in welke (basis)registratie of informatiemodel het objecttype voorkomt (indien van toepassing)."@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/attribuutsoort> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/attribuutsoort/herkomstdefinitie> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "herkomstDefinitie"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/attribuutsoort/herkomstdefinitie"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "herkomstDefinitie"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_4B7390C0_E524_45a9_B8E6_8FD799BD0AFB" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/attribuutsoort> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/attribuutsoort/id> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "id"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/attribuutsoort/id"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "id"@nl ;
+    mim:type mim:Integer ;
+    dcterms:identifier "EAID_ACF103BB_0C28_44ff_B7CF_C4F738D3CA27" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/attribuutsoort> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/> ;
+    rdfs:range xsd:integer .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/attribuutsoort/identificerend> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "identificerend"@nl ;
+    mim:definitie "Aanduiding dat attribuutsoort onderdeel uitmaakt van de unieke aanduiding van een object"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/attribuutsoort/identificerend"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "identificerend"@nl ;
+    mim:type mim:Boolean ;
+    dcterms:identifier "EAID_AB5B0BE1_C2A3_4651_A00B_7C34D9A86088" ;
+    rdfs:comment "Aanduiding dat attribuutsoort onderdeel uitmaakt van de unieke aanduiding van een object"@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/attribuutsoort> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/> ;
+    rdfs:range xsd:boolean .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/attribuutsoort/indicatieafleidbaar> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "indicatieAfleidbaar"@nl ;
+    mim:definitie "Aanduiding dat gegeven afleidbaar is uit andere attribuut- en/of relatiesoorten."@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/attribuutsoort/indicatieafleidbaar"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "indicatieAfleidbaar"@nl ;
+    mim:type mim:Boolean ;
+    dcterms:identifier "EAID_CCB32051_C798_425f_B092_AA93745C7BA9" ;
+    rdfs:comment "Aanduiding dat gegeven afleidbaar is uit andere attribuut- en/of relatiesoorten."@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/attribuutsoort> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/> ;
+    rdfs:range xsd:boolean .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/attribuutsoort/indicatiematerielehistorie> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "indicatieMaterieleHistorie"@nl ;
+    mim:definitie "Indicatie of de materiële historie van de attribuutsoort te bevragen is. Materiële historie geeft aan wanneer een verandering is opgetreden in de werkelijkheid die heeft geleid tot verandering van de attribuutwaarde."@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/attribuutsoort/indicatiematerielehistorie"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "indicatieMaterieleHistorie"@nl ;
+    mim:type mim:Boolean ;
+    dcterms:identifier "EAID_0ED04F07_C17B_47e2_ABED_2C46F00744A7" ;
+    rdfs:comment "Indicatie of de materiële historie van de attribuutsoort te bevragen is. Materiële historie geeft aan wanneer een verandering is opgetreden in de werkelijkheid die heeft geleid tot verandering van de attribuutwaarde."@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/attribuutsoort> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/> ;
+    rdfs:range xsd:boolean .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/attribuutsoort/kardinaliteit> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "kardinaliteit"@nl ;
+    mim:definitie """Deze indicatie geeft aan hoeveel keer waarden van deze attribuutsoort kunnen voorkomen bij een object van het betreffende objecttype, of bij het betreffende gegevensgroeptype:
+0..1: is soms niet beschikbaar
+1 : is altijd beschikbaar
+0..*: is niet altijd beschikbaar, kan
+meerdere malen voorkomen 1..*: is altijd beschikbaar, kan
+meerdere malen voorkomen
+Indien een attribuutsoort deel uit maakt van een gegevensgroeptype, dan wordt de kardinaliteit vermeld van het attribuutsoort binnen het gegevensgroeptype. Voor de uiteindelijke kardinaliteit van hoe vaak een gegeven voorkomt bij het object moet rekening gehouden worden met de kardinaliteit van de gegevensgroep en met de kardinaliteit van de attribuutsoort."""@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/attribuutsoort/kardinaliteit"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "kardinaliteit"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_DC1BFADD_BD7F_4660_B661_8AA83FA00AEF" ;
+    rdfs:comment """Deze indicatie geeft aan hoeveel keer waarden van deze attribuutsoort kunnen voorkomen bij een object van het betreffende objecttype, of bij het betreffende gegevensgroeptype:
+0..1: is soms niet beschikbaar
+1 : is altijd beschikbaar
+0..*: is niet altijd beschikbaar, kan
+meerdere malen voorkomen 1..*: is altijd beschikbaar, kan
+meerdere malen voorkomen
+Indien een attribuutsoort deel uit maakt van een gegevensgroeptype, dan wordt de kardinaliteit vermeld van het attribuutsoort binnen het gegevensgroeptype. Voor de uiteindelijke kardinaliteit van hoe vaak een gegeven voorkomt bij het object moet rekening gehouden worden met de kardinaliteit van de gegevensgroep en met de kardinaliteit van de attribuutsoort."""@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/attribuutsoort> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/attribuutsoort/lengte> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "lengte"@nl ;
+    mim:definitie """De aanduiding van de lengte van een gegeven. Getallen kunnen altijd positief of negatief zijn.
+<i>Bijvoorbeeld:</i>
+<i>‘1’ als de lengte exact 1 is;</i>
+<i>‘1..2’ als de lengte 1 tot en met 2 lang kan zijn; '‘1,2’ voor Decimale getallen met 1 cijfer voor de komma en 2 erna. </i>Dit is van -9,99 tot +9,99;"""@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/attribuutsoort/lengte"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "lengte"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_2A694ECB_063B_4706_8DF1_30276464306A" ;
+    rdfs:comment """De aanduiding van de lengte van een gegeven. Getallen kunnen altijd positief of negatief zijn.
+<i>Bijvoorbeeld:</i>
+<i>‘1’ als de lengte exact 1 is;</i>
+<i>‘1..2’ als de lengte 1 tot en met 2 lang kan zijn; '‘1,2’ voor Decimale getallen met 1 cijfer voor de komma en 2 erna. </i>Dit is van -9,99 tot +9,99;"""@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/attribuutsoort> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/attribuutsoort/mogelijkgeenwaarde> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "mogelijkGeenWaarde"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/attribuutsoort/mogelijkgeenwaarde"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "mogelijkGeenWaarde"@nl ;
+    mim:type mim:Boolean ;
+    dcterms:identifier "EAID_8A8199A5_6B24_49a3_B6E8_9FC36C117ABF" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/attribuutsoort> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/> ;
+    rdfs:range xsd:boolean .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/attribuutsoort/naam> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "naam"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/attribuutsoort/naam"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "naam"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_3B589A2C_4FB7_4457_99BA_6E1CCE70AC23" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/attribuutsoort> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/attribuutsoort/patroon> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "patroon"@nl ;
+    mim:definitie """Alleen van toepassing wanneer het type van het attribuutsoort een primitief datatype is.
+De verzameling van waarden die gegevens van deze attribuutsoort kunnen hebben, dat wil zeggen het waardenbereik, uitgedrukt in een specifieke structuur."""@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/attribuutsoort/patroon"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "patroon"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_706DFD72_B93B_445c_9415_499A6AA9BF97" ;
+    rdfs:comment """Alleen van toepassing wanneer het type van het attribuutsoort een primitief datatype is.
+De verzameling van waarden die gegevens van deze attribuutsoort kunnen hebben, dat wil zeggen het waardenbereik, uitgedrukt in een specifieke structuur."""@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/attribuutsoort> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/attribuutsoort/precisie> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "precisie"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/attribuutsoort/precisie"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "precisie"@nl ;
+    mim:type mim:Integer ;
+    dcterms:identifier "EAID_8A535F4D_CD6A_46ce_9C01_C0E93B840D0C" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/attribuutsoort> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/> ;
+    rdfs:range xsd:integer .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/attribuutsoort/stereotype> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "stereotype"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/attribuutsoort/stereotype"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "stereotype"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_EDC2DD58_760B_4f93_8CE8_17AE8D8BABD3" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/attribuutsoort> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/attribuutsoort/toelichting> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "toelichting"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/attribuutsoort/toelichting"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "toelichting"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_EC4C24F2_319E_46ef_B1C9_79F0BF01C7EF" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/attribuutsoort> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/classificatie/bevatpersoonsgegevens> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "bevatPersoonsgegevens"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/classificatie/bevatpersoonsgegevens"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "bevatPersoonsgegevens"@nl ;
+    mim:type mim:Boolean ;
+    dcterms:identifier "EAID_B3FF267B_D850_47b3_A0E9_156D744B4A4D" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/classificatie> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/> ;
+    rdfs:range xsd:boolean .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/classificatie/gerelateerdpersoonsgegevens> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "gerelateerdPersoonsgegevens"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/classificatie/gerelateerdpersoonsgegevens"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "gerelateerdPersoonsgegevens"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_F0FBE7D4_8259_4345_976E_ED89681BF764" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/classificatie> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/datatype/datumopname> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "datumOpname"@nl ;
+    mim:definitie "De datum waarop het objecttype is opgenomen in het informatiemodel."@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/datatype/datumopname"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "datumOpname"@nl ;
+    mim:type mim:Date ;
+    dcterms:identifier "EAID_0E1547FF_55AB_4a36_B2E7_ECBAE0C472AE" ;
+    rdfs:comment "De datum waarop het objecttype is opgenomen in het informatiemodel."@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/datatype> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/> ;
+    rdfs:range xsd:date .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/datatype/definitie> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "definitie"@nl ;
+    mim:definitie "De beschrijving van de betekenis van het objecttype zoals gespecificeerd in de catalogus van de desbetreffende (basis)registratie of informatiemodel."@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/datatype/definitie"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "definitie"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_660B2450_D612_4489_BD0B_8D1127662394" ;
+    rdfs:comment "De beschrijving van de betekenis van het objecttype zoals gespecificeerd in de catalogus van de desbetreffende (basis)registratie of informatiemodel."@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/datatype> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/datatype/domein> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "domein"@nl ;
+    mim:definitie "<i>Domein is zelf geen metadata aspect. Onder het kopje ‘domein’ vallen een aantal metadata aspecten die gelden voor een waarde, oftewel de eisen waaraan een waarde van een attribuutsoort moet voldoen.</i>"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/datatype/domein"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "domein"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_97D23359_0986_4f80_BC78_2FF05445894A" ;
+    rdfs:comment "<i>Domein is zelf geen metadata aspect. Onder het kopje ‘domein’ vallen een aantal metadata aspecten die gelden voor een waarde, oftewel de eisen waaraan een waarde van een attribuutsoort moet voldoen.</i>"@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/datatype> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/datatype/ea-guid> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "ea_guid"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/datatype/ea-guid"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "ea_guid"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_7D7786C7_1A76_4be1_9C0C_69C368FF6044" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/datatype> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/datatype/herkomst> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "herkomst"@nl ;
+    mim:definitie "De registratie in wiens catalogus het objecttype is gespecificeerd (oftewel de registratie waar het objecttype deel van uitmaakt). Deze specificatie is toegevoegd omdat het wel duidelijk moet zijn in welke (basis)registratie of informatiemodel het objecttype voorkomt (indien van toepassing)."@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/datatype/herkomst"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "herkomst"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_BD3FA19F_6899_4497_AD3F_3E8562B9B9EE" ;
+    rdfs:comment "De registratie in wiens catalogus het objecttype is gespecificeerd (oftewel de registratie waar het objecttype deel van uitmaakt). Deze specificatie is toegevoegd omdat het wel duidelijk moet zijn in welke (basis)registratie of informatiemodel het objecttype voorkomt (indien van toepassing)."@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/datatype> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/datatype/id> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "id"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/datatype/id"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "id"@nl ;
+    mim:type mim:Integer ;
+    dcterms:identifier "EAID_D96573A1_0FB1_4cb0_B9EB_67136F4D9CE7" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/datatype> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/> ;
+    rdfs:range xsd:integer .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/datatype/kardinaliteit> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "kardinaliteit"@nl ;
+    mim:definitie """Deze indicatie geeft aan hoeveel keer waarden van deze attribuutsoort kunnen voorkomen bij een object van het betreffende objecttype, of bij het betreffende gegevensgroeptype:
+0..1: is soms niet beschikbaar
+1 : is altijd beschikbaar
+0..*: is niet altijd beschikbaar, kan
+meerdere malen voorkomen 1..*: is altijd beschikbaar, kan
+meerdere malen voorkomen
+Indien een attribuutsoort deel uit maakt van een gegevensgroeptype, dan wordt de kardinaliteit vermeld van het attribuutsoort binnen het gegevensgroeptype. Voor de uiteindelijke kardinaliteit van hoe vaak een gegeven voorkomt bij het object moet rekening gehouden worden met de kardinaliteit van de gegevensgroep en met de kardinaliteit van de attribuutsoort."""@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/datatype/kardinaliteit"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "kardinaliteit"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_F95996F0_6871_463c_AD52_AF9243E9332D" ;
+    rdfs:comment """Deze indicatie geeft aan hoeveel keer waarden van deze attribuutsoort kunnen voorkomen bij een object van het betreffende objecttype, of bij het betreffende gegevensgroeptype:
+0..1: is soms niet beschikbaar
+1 : is altijd beschikbaar
+0..*: is niet altijd beschikbaar, kan
+meerdere malen voorkomen 1..*: is altijd beschikbaar, kan
+meerdere malen voorkomen
+Indien een attribuutsoort deel uit maakt van een gegevensgroeptype, dan wordt de kardinaliteit vermeld van het attribuutsoort binnen het gegevensgroeptype. Voor de uiteindelijke kardinaliteit van hoe vaak een gegeven voorkomt bij het object moet rekening gehouden worden met de kardinaliteit van de gegevensgroep en met de kardinaliteit van de attribuutsoort."""@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/datatype> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/datatype/lengte> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "lengte"@nl ;
+    mim:definitie """De aanduiding van de lengte van een gegeven. Getallen kunnen altijd positief of negatief zijn.
+<i>Bijvoorbeeld:</i>
+<i>‘1’ als de lengte exact 1 is;</i>
+<i>‘1..2’ als de lengte 1 tot en met 2 lang kan zijn; '‘1,2’ voor Decimale getallen met 1 cijfer voor de komma en 2 erna. </i>Dit is van -9,99 tot +9,99;"""@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/datatype/lengte"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "lengte"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_6E342D72_808F_4e7a_AA37_B633F2DA55AF" ;
+    rdfs:comment """De aanduiding van de lengte van een gegeven. Getallen kunnen altijd positief of negatief zijn.
+<i>Bijvoorbeeld:</i>
+<i>‘1’ als de lengte exact 1 is;</i>
+<i>‘1..2’ als de lengte 1 tot en met 2 lang kan zijn; '‘1,2’ voor Decimale getallen met 1 cijfer voor de komma en 2 erna. </i>Dit is van -9,99 tot +9,99;"""@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/datatype> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/datatype/naam> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "naam"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/datatype/naam"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "naam"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_F19BD0F4_D947_4e1a_90F4_35F109E01F9E" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/datatype> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/datatype/patroon> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "patroon"@nl ;
+    mim:definitie """Alleen van toepassing wanneer het type van het attribuutsoort een primitief datatype is.
+De verzameling van waarden die gegevens van deze attribuutsoort kunnen hebben, dat wil zeggen het waardenbereik, uitgedrukt in een specifieke structuur."""@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/datatype/patroon"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "patroon"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_29E35085_2DDE_438a_9747_BE32EA8F6E9C" ;
+    rdfs:comment """Alleen van toepassing wanneer het type van het attribuutsoort een primitief datatype is.
+De verzameling van waarden die gegevens van deze attribuutsoort kunnen hebben, dat wil zeggen het waardenbereik, uitgedrukt in een specifieke structuur."""@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/datatype> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/datatype/toelichting> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "toelichting"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/datatype/toelichting"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "toelichting"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_4CCED040_4A45_4a25_9B16_06F6F856549D" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/datatype> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/externe-bron/guid> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "guid"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/externe-bron/guid"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "guid"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_97018EF6_2928_420a_9D87_72446C28E1DD" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/externe-bron> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/externe-bron/naam> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "naam"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/externe-bron/naam"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "naam"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_9C8E2778_F456_49ac_B36E_3C0E75D4960B" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/externe-bron> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/gegeven/alias> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "alias"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/gegeven/alias"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "alias"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_61E3A965_0C05_4f9d_8012_59CC2F76D40C" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/gegeven> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/gegeven/ea-guid> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "ea_guid"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/gegeven/ea-guid"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "ea_guid"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_889CAF39_198D_4648_8B66_479363C050B5" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/gegeven> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/gegeven/id> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "id"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/gegeven/id"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "id"@nl ;
+    mim:type mim:Integer ;
+    dcterms:identifier "EAID_6B3544C9_70EE_46fe_B559_C5BAE8D87275" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/gegeven> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/> ;
+    rdfs:range xsd:integer .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/gegeven/naam> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "naam"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/gegeven/naam"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "naam"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_16CFB711_C5F9_4e84_A809_0CC4C8D14CB0" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/gegeven> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/gegeven/stereotype> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "stereotype"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/gegeven/stereotype"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "stereotype"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_31EAB486_5FE8_41f1_85BD_3BE658602D6C" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/gegeven> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/gegeven/toelichting> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "toelichting"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/gegeven/toelichting"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "toelichting"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_62522B13_875B_493f_B44C_80313FF72D08" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/gegeven> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/generalisatie/datumopname> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "datumOpname"@nl ;
+    mim:definitie "De datum waarop het objecttype is opgenomen in het informatiemodel."@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/generalisatie/datumopname"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "datumOpname"@nl ;
+    mim:type mim:Date ;
+    dcterms:identifier "EAID_12BA17F0_BE8D_4d50_9AC4_2203928DD969" ;
+    rdfs:comment "De datum waarop het objecttype is opgenomen in het informatiemodel."@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/generalisatie> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/> ;
+    rdfs:range xsd:date .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/generalisatie/definitie> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "definitie"@nl ;
+    mim:definitie "De beschrijving van de betekenis van het objecttype zoals gespecificeerd in de catalogus van de desbetreffende (basis)registratie of informatiemodel."@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/generalisatie/definitie"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "definitie"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_55F17A4D_4AA6_4179_BFCD_80614542A079" ;
+    rdfs:comment "De beschrijving van de betekenis van het objecttype zoals gespecificeerd in de catalogus van de desbetreffende (basis)registratie of informatiemodel."@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/generalisatie> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/generalisatie/ea-guid> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "ea_guid"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/generalisatie/ea-guid"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "ea_guid"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_99C28C71_9046_4b26_8EA3_8BC464B20406" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/generalisatie> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/generalisatie/herkomst> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "herkomst"@nl ;
+    mim:definitie "De registratie in wiens catalogus het objecttype is gespecificeerd (oftewel de registratie waar het objecttype deel van uitmaakt). Deze specificatie is toegevoegd omdat het wel duidelijk moet zijn in welke (basis)registratie of informatiemodel het objecttype voorkomt (indien van toepassing)."@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/generalisatie/herkomst"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "herkomst"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_EF6AA149_2B0E_4769_B0C2_BCAEB4227408" ;
+    rdfs:comment "De registratie in wiens catalogus het objecttype is gespecificeerd (oftewel de registratie waar het objecttype deel van uitmaakt). Deze specificatie is toegevoegd omdat het wel duidelijk moet zijn in welke (basis)registratie of informatiemodel het objecttype voorkomt (indien van toepassing)."@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/generalisatie> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/generalisatie/herkomstdefinitie> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "herkomstDefinitie"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/generalisatie/herkomstdefinitie"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "herkomstDefinitie"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_19DE13CA_56C9_4a05_ADA7_091BBA3DAEF5" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/generalisatie> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/generalisatie/id> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "id"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/generalisatie/id"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "id"@nl ;
+    mim:type mim:Integer ;
+    dcterms:identifier "EAID_6B65B7E4_A323_463b_995B_C0DE6F26C086" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/generalisatie> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/> ;
+    rdfs:range xsd:integer .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/generalisatie/indicatiematerielehistorie> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "indicatieMaterieleHistorie"@nl ;
+    mim:definitie "Indicatie of de materiële historie van de attribuutsoort te bevragen is. Materiële historie geeft aan wanneer een verandering is opgetreden in de werkelijkheid die heeft geleid tot verandering van de attribuutwaarde."@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/generalisatie/indicatiematerielehistorie"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "indicatieMaterieleHistorie"@nl ;
+    mim:type mim:Boolean ;
+    dcterms:identifier "EAID_3EC78F9B_A208_492d_8773_20AA4ABCFECC" ;
+    rdfs:comment "Indicatie of de materiële historie van de attribuutsoort te bevragen is. Materiële historie geeft aan wanneer een verandering is opgetreden in de werkelijkheid die heeft geleid tot verandering van de attribuutwaarde."@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/generalisatie> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/> ;
+    rdfs:range xsd:boolean .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/generalisatie/naam> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "naam"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/generalisatie/naam"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "naam"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_53AF10BC_794D_470c_B5EC_8425C46EE891" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/generalisatie> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/generalisatie/toelichting> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "toelichting"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/generalisatie/toelichting"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "toelichting"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_4835371E_41AB_47c5_BC85_3A15B6638561" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/generalisatie> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/objecttype/datumopname> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "datumOpname"@nl ;
+    mim:definitie "De datum waarop het objecttype is opgenomen in het informatiemodel."@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/objecttype/datumopname"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "datumOpname"@nl ;
+    mim:type mim:Date ;
+    dcterms:identifier "EAID_F6CE55CB_8D44_40a2_9285_A52D1C7A11C1" ;
+    rdfs:comment "De datum waarop het objecttype is opgenomen in het informatiemodel."@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/objecttype> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/> ;
+    rdfs:range xsd:date .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/objecttype/definitie> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "definitie"@nl ;
+    mim:definitie "De beschrijving van de betekenis van het objecttype zoals gespecificeerd in de catalogus van de desbetreffende (basis)registratie of informatiemodel."@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/objecttype/definitie"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "definitie"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_A692710A_934C_4bb0_933C_371CC23F86DB" ;
+    rdfs:comment "De beschrijving van de betekenis van het objecttype zoals gespecificeerd in de catalogus van de desbetreffende (basis)registratie of informatiemodel."@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/objecttype> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/objecttype/ea-guid> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "ea_guid"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/objecttype/ea-guid"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "ea_guid"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_96269AFD_9770_4894_BF7E_78A2A431248B" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/objecttype> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/objecttype/herkomst> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "herkomst"@nl ;
+    mim:definitie "De registratie in wiens catalogus het objecttype is gespecificeerd (oftewel de registratie waar het objecttype deel van uitmaakt). Deze specificatie is toegevoegd omdat het wel duidelijk moet zijn in welke (basis)registratie of informatiemodel het objecttype voorkomt (indien van toepassing)."@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/objecttype/herkomst"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "herkomst"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_D1B9AF8F_67DF_4199_B3B3_460318EC8407" ;
+    rdfs:comment "De registratie in wiens catalogus het objecttype is gespecificeerd (oftewel de registratie waar het objecttype deel van uitmaakt). Deze specificatie is toegevoegd omdat het wel duidelijk moet zijn in welke (basis)registratie of informatiemodel het objecttype voorkomt (indien van toepassing)."@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/objecttype> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/objecttype/herkomstdefinitie> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "herkomstDefinitie"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/objecttype/herkomstdefinitie"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "herkomstDefinitie"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_AD87879D_9545_474d_9DDC_079E44902A6D" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/objecttype> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/objecttype/id> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "id"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/objecttype/id"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "id"@nl ;
+    mim:type mim:Integer ;
+    dcterms:identifier "EAID_3C2D5CD8_59AC_409a_AB6B_7D4246117009" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/objecttype> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/> ;
+    rdfs:range xsd:integer .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/objecttype/indicatieabstract> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "indicatieAbstract"@nl ;
+    mim:definitie """Conceptueel model: indicatie dat het objecttype een generalisatie is,
+waarvan een object als specialisatie altijd voorkomt in de hoedanigheid van een (en slechts één) van de specialisaties van het betreffende objecttype.
+Logisch model: Indicatie dat er geen instanties (objecten) voor het betreffende objecttype mogen voorkomen."""@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/objecttype/indicatieabstract"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "indicatieAbstract"@nl ;
+    mim:type mim:Boolean ;
+    dcterms:identifier "EAID_E611C449_395F_40ac_A727_97F168B9C1F9" ;
+    rdfs:comment """Conceptueel model: indicatie dat het objecttype een generalisatie is,
+waarvan een object als specialisatie altijd voorkomt in de hoedanigheid van een (en slechts één) van de specialisaties van het betreffende objecttype.
+Logisch model: Indicatie dat er geen instanties (objecten) voor het betreffende objecttype mogen voorkomen."""@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/objecttype> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/> ;
+    rdfs:range xsd:boolean .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/objecttype/kwaliteit> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "kwaliteit"@nl ;
+    mim:definitie "Voor objecttypen die deel uitmaken van een registratie betreft dit de waarborgen voor de juistheid van de in de registratie opgenomen objecten van het desbetreffende type."@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/objecttype/kwaliteit"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "kwaliteit"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_7747284F_FA69_427b_B161_85DE34C21D1D" ;
+    rdfs:comment "Voor objecttypen die deel uitmaken van een registratie betreft dit de waarborgen voor de juistheid van de in de registratie opgenomen objecten van het desbetreffende type."@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/objecttype> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/objecttype/naam> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "naam"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/objecttype/naam"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "naam"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_ECCA41CB_3F24_42ca_9CF7_A131F0172A80" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/objecttype> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/objecttype/populatie> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "populatie"@nl ;
+    mim:definitie "Voor objecttypen die deel uitmaken van een (basis)registratie betreft dit de beschrijving van de exemplaren van het gedefinieerde objecttype die in de desbetreffende (basis)- registratie voorhanden zijn."@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/objecttype/populatie"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "populatie"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_98F38FF5_2BAF_4cb2_842C_77D46AA5917E" ;
+    rdfs:comment "Voor objecttypen die deel uitmaken van een (basis)registratie betreft dit de beschrijving van de exemplaren van het gedefinieerde objecttype die in de desbetreffende (basis)- registratie voorhanden zijn."@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/objecttype> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/objecttype/stereotype> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "stereotype"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/objecttype/stereotype"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "stereotype"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_AA243C1F_99C4_4e2c_B333_906BF837C7FE" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/objecttype> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/objecttype/toelichting> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "toelichting"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/objecttype/toelichting"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "toelichting"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_941A047F_895C_41e3_B9FB_2D8D35F73497" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/objecttype> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/objecttype/uniekeaanduiding> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "uniekeAanduiding"@nl ;
+    mim:definitie "Voor objecttypen die deel uitmaken van een (basis)registratie of informatiemodel betreft dit de wijze waarop daarin voorkomende objecten (van dit type) uniek in de registratie worden aangeduid."@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/objecttype/uniekeaanduiding"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "uniekeAanduiding"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_ACE74036_222D_421e_823E_4BB67554D6E8" ;
+    rdfs:comment "Voor objecttypen die deel uitmaken van een (basis)registratie of informatiemodel betreft dit de wijze waarop daarin voorkomende objecten (van dit type) uniek in de registratie worden aangeduid."@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/objecttype> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/relatiesoort/authentiek> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "authentiek"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/relatiesoort/authentiek"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "authentiek"@nl ;
+    mim:type mim:Boolean ;
+    dcterms:identifier "EAID_6E424435_CE60_4fc2_9CC5_979004843801" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/relatiesoort> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/> ;
+    rdfs:range xsd:boolean .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/relatiesoort/datumopname> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "datumOpname"@nl ;
+    mim:definitie "De datum waarop het objecttype is opgenomen in het informatiemodel."@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/relatiesoort/datumopname"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "datumOpname"@nl ;
+    mim:type mim:Date ;
+    dcterms:identifier "EAID_4DF31FA8_C5F5_48d3_B8ED_06731D27ABA2" ;
+    rdfs:comment "De datum waarop het objecttype is opgenomen in het informatiemodel."@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/relatiesoort> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/> ;
+    rdfs:range xsd:date .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/relatiesoort/definitie> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "definitie"@nl ;
+    mim:definitie "De beschrijving van de betekenis van het objecttype zoals gespecificeerd in de catalogus van de desbetreffende (basis)registratie of informatiemodel."@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/relatiesoort/definitie"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "definitie"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_0CCA74C0_E691_4548_805B_7608351E23DD" ;
+    rdfs:comment "De beschrijving van de betekenis van het objecttype zoals gespecificeerd in de catalogus van de desbetreffende (basis)registratie of informatiemodel."@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/relatiesoort> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/relatiesoort/ea-guid> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "ea_guid"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/relatiesoort/ea-guid"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "ea_guid"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_625D1101_025F_4c69_B79A_582765971169" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/relatiesoort> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/relatiesoort/herkomst> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "herkomst"@nl ;
+    mim:definitie "De registratie in wiens catalogus het objecttype is gespecificeerd (oftewel de registratie waar het objecttype deel van uitmaakt). Deze specificatie is toegevoegd omdat het wel duidelijk moet zijn in welke (basis)registratie of informatiemodel het objecttype voorkomt (indien van toepassing)."@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/relatiesoort/herkomst"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "herkomst"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_92F49561_149B_454a_8411_EC6A2AA27969" ;
+    rdfs:comment "De registratie in wiens catalogus het objecttype is gespecificeerd (oftewel de registratie waar het objecttype deel van uitmaakt). Deze specificatie is toegevoegd omdat het wel duidelijk moet zijn in welke (basis)registratie of informatiemodel het objecttype voorkomt (indien van toepassing)."@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/relatiesoort> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/relatiesoort/herkomstdefinitie> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "herkomstDefinitie"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/relatiesoort/herkomstdefinitie"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "herkomstDefinitie"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_7B277913_BEBD_4780_97F9_4AC3F8591BB2" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/relatiesoort> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/relatiesoort/id> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "id"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/relatiesoort/id"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "id"@nl ;
+    mim:type mim:Integer ;
+    dcterms:identifier "EAID_1C6CDF87_9C52_4d40_8AD6_5ECF98D165C4" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/relatiesoort> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/> ;
+    rdfs:range xsd:integer .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/relatiesoort/indicatieafleidbaar> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "indicatieAfleidbaar"@nl ;
+    mim:definitie "Aanduiding dat gegeven afleidbaar is uit andere attribuut- en/of relatiesoorten."@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/relatiesoort/indicatieafleidbaar"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "indicatieAfleidbaar"@nl ;
+    mim:type mim:Boolean ;
+    dcterms:identifier "EAID_F1E02642_CCD7_487b_9E20_8FD69649D36D" ;
+    rdfs:comment "Aanduiding dat gegeven afleidbaar is uit andere attribuut- en/of relatiesoorten."@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/relatiesoort> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/> ;
+    rdfs:range xsd:boolean .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/relatiesoort/indicatiematerielehistorie> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "indicatieMaterieleHistorie"@nl ;
+    mim:definitie "Indicatie of de materiële historie van de attribuutsoort te bevragen is. Materiële historie geeft aan wanneer een verandering is opgetreden in de werkelijkheid die heeft geleid tot verandering van de attribuutwaarde."@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/relatiesoort/indicatiematerielehistorie"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "indicatieMaterieleHistorie"@nl ;
+    mim:type mim:Boolean ;
+    dcterms:identifier "EAID_E42E0D75_E4CD_46cb_9C79_310B20CB8373" ;
+    rdfs:comment "Indicatie of de materiële historie van de attribuutsoort te bevragen is. Materiële historie geeft aan wanneer een verandering is opgetreden in de werkelijkheid die heeft geleid tot verandering van de attribuutwaarde."@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/relatiesoort> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/> ;
+    rdfs:range xsd:boolean .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/relatiesoort/kardinaliteit> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "kardinaliteit"@nl ;
+    mim:definitie """Deze indicatie geeft aan hoeveel keer waarden van deze attribuutsoort kunnen voorkomen bij een object van het betreffende objecttype, of bij het betreffende gegevensgroeptype:
+0..1: is soms niet beschikbaar
+1 : is altijd beschikbaar
+0..*: is niet altijd beschikbaar, kan
+meerdere malen voorkomen 1..*: is altijd beschikbaar, kan
+meerdere malen voorkomen
+Indien een attribuutsoort deel uit maakt van een gegevensgroeptype, dan wordt de kardinaliteit vermeld van het attribuutsoort binnen het gegevensgroeptype. Voor de uiteindelijke kardinaliteit van hoe vaak een gegeven voorkomt bij het object moet rekening gehouden worden met de kardinaliteit van de gegevensgroep en met de kardinaliteit van de attribuutsoort."""@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/relatiesoort/kardinaliteit"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "kardinaliteit"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_680911FB_0CD9_40e2_9FB2_9A1E3902AFD1" ;
+    rdfs:comment """Deze indicatie geeft aan hoeveel keer waarden van deze attribuutsoort kunnen voorkomen bij een object van het betreffende objecttype, of bij het betreffende gegevensgroeptype:
+0..1: is soms niet beschikbaar
+1 : is altijd beschikbaar
+0..*: is niet altijd beschikbaar, kan
+meerdere malen voorkomen 1..*: is altijd beschikbaar, kan
+meerdere malen voorkomen
+Indien een attribuutsoort deel uit maakt van een gegevensgroeptype, dan wordt de kardinaliteit vermeld van het attribuutsoort binnen het gegevensgroeptype. Voor de uiteindelijke kardinaliteit van hoe vaak een gegeven voorkomt bij het object moet rekening gehouden worden met de kardinaliteit van de gegevensgroep en met de kardinaliteit van de attribuutsoort."""@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/relatiesoort> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/relatiesoort/mogelijkgeenwaarde> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "mogelijkGeenWaarde"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/relatiesoort/mogelijkgeenwaarde"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "mogelijkGeenWaarde"@nl ;
+    mim:type mim:Boolean ;
+    dcterms:identifier "EAID_D499A6DD_AEE3_4921_8737_ECB8D318D97D" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/relatiesoort> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/> ;
+    rdfs:range xsd:boolean .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/relatiesoort/naam> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "naam"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/relatiesoort/naam"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "naam"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_6382493D_95BC_4bd3_A4BD_618F44DBBAB4" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/relatiesoort> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/relatiesoort/toelichting> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "toelichting"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/relatiesoort/toelichting"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "toelichting"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_8DE8EDBC_4AE1_45f7_9360_44E8C76F5B24" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/relatiesoort> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/relatiesoort/unidirectioneel> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "unidirectioneel"@nl ;
+    mim:definitie """Het gerelateerde objecttype (de target) waarvan het objecttype, die de eigenaar is van deze relatie (de source), kennis heeft.
+Alle relaties zijn altijd gericht van het objecttype (source) naar het gerelateerde objecttype (target)."""@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/relatiesoort/unidirectioneel"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "unidirectioneel"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_F8E1C1CD_1389_427d_8108_4DD554FBE58E" ;
+    rdfs:comment """Het gerelateerde objecttype (de target) waarvan het objecttype, die de eigenaar is van deze relatie (de source), kennis heeft.
+Alle relaties zijn altijd gericht van het objecttype (source) naar het gerelateerde objecttype (target)."""@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/relatiesoort> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/classificatie> a mim:Objecttype,
+        owl:Class ;
+    rdfs:label "Classificatie"@nl ;
+    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/classificatie/bevatpersoonsgegevens>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/classificatie/gerelateerdpersoonsgegevens> ;
+    mim:definitie "Ordening van informatieobjecten in een logisch verband, zoals vastgelegd in een classificatieschema."@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/classificatie"^^xsd:anyURI ;
+    mim:indicatieAbstractObject false ;
+    mim:naam "Classificatie"@nl ;
+    dcterms:identifier "EAID_81F207D0_A071_48c7_8C4C_25F8D25A3DE8" ;
+    rdfs:comment "Ordening van informatieobjecten in een logisch verband, zoals vastgelegd in een classificatieschema."@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/externe-bron> a mim:Objecttype,
+        owl:Class ;
+    rdfs:label "Externe Bron"@nl ;
+    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/externe-bron/guid>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/externe-bron/naam> ;
+    mim:definitie "Bron buiten de eigen organisatie"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/externe-bron"^^xsd:anyURI ;
+    mim:indicatieAbstractObject false ;
+    mim:naam "Externe Bron"@nl ;
+    dcterms:identifier "EAID_144D1047_35BB_4926_9472_895D89DC2E0C" ;
+    rdfs:comment "Bron buiten de eigen organisatie"@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/applicatie> a mim:Objecttype,
+        owl:Class ;
+    rdfs:label "Applicatie"@nl ;
+    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/applicatie/applicatieurl>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/applicatie/beheerstatus>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/applicatie/beleidsdomein>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/applicatie/categorie>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/applicatie/guid>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/applicatie/naam>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/applicatie/omschrijving>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/applicatie/packagingstatus> ;
+    mim:definitie "Een applicatiecomponent die gericht is op het ondersteunen van eindgebruikers."@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/applicatie"^^xsd:anyURI ;
+    mim:indicatieAbstractObject false ;
+    mim:naam "Applicatie"@nl ;
+    dcterms:identifier "EAID_A8945FD7_EA20_418e_8E7F_18F13F16E338" ;
+    rdfs:comment "Een applicatiecomponent die gericht is op het ondersteunen van eindgebruikers."@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/generalisatie> a mim:Objecttype,
+        owl:Class ;
+    rdfs:label "Generalisatie"@nl ;
+    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/generalisatie/datumopname>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/generalisatie/definitie>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/generalisatie/ea-guid>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/generalisatie/herkomst>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/generalisatie/herkomstdefinitie>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/generalisatie/id>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/generalisatie/indicatiematerielehistorie>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/generalisatie/naam>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/generalisatie/toelichting> ;
+    mim:definitie """De typering van het hiërarchische verband tussen een meer generiek object van een objecttype en een meer specifiek object van een ander objecttype waarbij het laatstgenoemde object eigenschappen van het eerstgenoemde object overerft.
+Toelichting
+Een generalisatierelatie geeft aan dat bepaalde eigenschappen van een objecttype (vaak attribuutsoorten en/of relatiesoorten) ook gelden voor de gerelateerde objecttypen, én dat deze qua semantiek, structuur en syntax gelijk zijn. We spreken dan van een supertype met subtypen. De modelelementen die generiek gelden worden in een generiek objecttype, het supertype, gemodelleerd en deze worden overerft door elk subtype (minimaal twee) die de generalisatie relatie legt naar dit generieke objecttype.
+Voorbeeld: PERCEEL is specialisatie van KADASTRAAL ONROERENDE ZAAK, APPARTEMENTSRECHT is specialisatie van KADASTRAAL ONROERENDE ZAAK. PERCEEL en APPARTEMENTSRECHT hebben beide ‘Kadastrale aanduiding’ en een ‘relatie met ONROERENDE ZAAK FILIATIE’."""@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/generalisatie"^^xsd:anyURI ;
+    mim:indicatieAbstractObject false ;
+    mim:naam "Generalisatie"@nl ;
+    mim:toelichting "Een generalisatierelatie geeft aan dat bepaalde eigenschappen van een objecttype (vaak attribuutsoorten en/of relatiesoorten) ook gelden voor de gerelateerde objecttypen, én dat deze qua semantiek, structuur en syntax gelijk zijn. We spreken dan van een s"@nl ;
+    dcterms:identifier "EAID_0CF1C34D_8AD5_4ac5_8538_87252E66A8C8" ;
+    rdfs:comment """De typering van het hiërarchische verband tussen een meer generiek object van een objecttype en een meer specifiek object van een ander objecttype waarbij het laatstgenoemde object eigenschappen van het eerstgenoemde object overerft.
+Toelichting
+Een generalisatierelatie geeft aan dat bepaalde eigenschappen van een objecttype (vaak attribuutsoorten en/of relatiesoorten) ook gelden voor de gerelateerde objecttypen, én dat deze qua semantiek, structuur en syntax gelijk zijn. We spreken dan van een supertype met subtypen. De modelelementen die generiek gelden worden in een generiek objecttype, het supertype, gemodelleerd en deze worden overerft door elk subtype (minimaal twee) die de generalisatie relatie legt naar dit generieke objecttype.
+Voorbeeld: PERCEEL is specialisatie van KADASTRAAL ONROERENDE ZAAK, APPARTEMENTSRECHT is specialisatie van KADASTRAAL ONROERENDE ZAAK. PERCEEL en APPARTEMENTSRECHT hebben beide ‘Kadastrale aanduiding’ en een ‘relatie met ONROERENDE ZAAK FILIATIE’."""@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/datatype> a mim:Objecttype,
+        owl:Class ;
+    rdfs:label "Datatype"@nl ;
+    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/datatype/datumopname>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/datatype/definitie>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/datatype/domein>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/datatype/ea-guid>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/datatype/herkomst>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/datatype/id>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/datatype/kardinaliteit>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/datatype/lengte>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/datatype/naam>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/datatype/patroon>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/datatype/toelichting> ;
+    mim:definitie """Attribuutsoort – Stereotype «Attribuutsoort»: De UML-representatie van een attribuutsoort, uitgedrukt in een stereotype van UML-Property3 (metaclass).
+Er zijn verschillende modelelementen die gebaseerd zijn op UML-property, zoals aangegeven in §2.1.2. Wanneer een UML-property in het informatiemodel de betekenis heeft van een attribuut van een objecttype, dan heeft deze het stereotype «Attribuutsoort».
+Een attribuutsoort is een type van gelijksoortige attributen of gegevens. Daartoe kijken we eerst naar het begrip ‘gegeven’."""@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/datatype"^^xsd:anyURI ;
+    mim:indicatieAbstractObject false ;
+    mim:naam "Datatype"@nl ;
+    dcterms:identifier "EAID_7EFBF1CA_EC6E_4b8a_B97F_453CA32AB9A5" ;
+    rdfs:comment """Attribuutsoort – Stereotype «Attribuutsoort»: De UML-representatie van een attribuutsoort, uitgedrukt in een stereotype van UML-Property3 (metaclass).
+Er zijn verschillende modelelementen die gebaseerd zijn op UML-property, zoals aangegeven in §2.1.2. Wanneer een UML-property in het informatiemodel de betekenis heeft van een attribuut van een objecttype, dan heeft deze het stereotype «Attribuutsoort».
+Een attribuutsoort is een type van gelijksoortige attributen of gegevens. Daartoe kijken we eerst naar het begrip ‘gegeven’."""@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/gegeven> a mim:Objecttype,
+        owl:Class ;
+    rdfs:label "Gegeven"@nl ;
+    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/gegeven/alias>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/gegeven/ea-guid>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/gegeven/id>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/gegeven/naam>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/gegeven/stereotype>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/gegeven/toelichting> ;
+    mim:definitie "bekend feit waaruit je gevolgtrekkingen kunt maken"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/gegeven"^^xsd:anyURI ;
+    mim:indicatieAbstractObject false ;
+    mim:naam "Gegeven"@nl ;
+    dcterms:identifier "EAID_E846CC36_DF4A_4398_AE4C_122CAFEBAEAA" ;
+    rdfs:comment "bekend feit waaruit je gevolgtrekkingen kunt maken"@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/relatiesoort> a mim:Objecttype,
+        owl:Class ;
+    rdfs:label "Relatiesoort"@nl ;
+    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/relatiesoort/authentiek>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/relatiesoort/datumopname>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/relatiesoort/definitie>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/relatiesoort/ea-guid>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/relatiesoort/herkomst>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/relatiesoort/herkomstdefinitie>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/relatiesoort/id>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/relatiesoort/indicatieafleidbaar>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/relatiesoort/indicatiematerielehistorie>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/relatiesoort/kardinaliteit>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/relatiesoort/mogelijkgeenwaarde>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/relatiesoort/naam>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/relatiesoort/toelichting>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/relatiesoort/unidirectioneel> ;
+    mim:definitie """De typering van het structurele verband tussen een object van een objecttype en een (ander) object van een ander (of hetzelfde) objecttype.
+Toelichting
+Objecten hebben eigenschappen die gemodelleerd kunnen worden met attribuutsoorten maar ook met relatiesoorten naar andere objecttypen. Als het voor het desbetreffende domein van belang is om die eigenschap te modelleren als onderdeel van een ander objecttype, dan maakt de relatiesoort die eigenschap beschikbaar voor het eerstgenoemde objecttype. Bijvoorbeeld, een attribuutsoort van het objecttype PERSOON zou kunnen zijn ‘Naam geregistreerd partner’ (naast de attribuutsoort ‘Naam’ van PERSOON). De naam van de geregistreerde partner komt evenwel ook beschikbaar met een relatiesoort van PERSOON naar PERSOON: “heeft geregistreerd partnerschap met”. Zie ook het eerder genoemde voorbeeld van SCHIP en MOTOR.
+Voorbeeld: relatiesoorten “VERBLIJFSOBJECT is gelegen in een PAND” en “SUBJECT heeft als correspondentieadres WOONPLAATS”, of korter, “gelegen in”, “postadres”.
+Wanneer een relatie (UML-assocation) gebruikt wordt om objecten aan elkaar te verbinden, zonder dat er eigenschappen over deze relatie worden vastgelegd, dan heeft deze het stereotype «Relatiesoort»."""@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/relatiesoort"^^xsd:anyURI ;
+    mim:indicatieAbstractObject false ;
+    mim:naam "Relatiesoort"@nl ;
+    mim:toelichting "Objecten hebben eigenschappen die gemodelleerd kunnen worden met attribuutsoorten maar ook met relatiesoorten naar andere objecttypen. Als het voor het desbetreffende domein van belang is om die eigenschap te modelleren als onderdeel van een ander objectt"@nl ;
+    dcterms:identifier "EAID_DFD2814E_7D36_45e2_B082_2ED574A409E1" ;
+    rdfs:comment """De typering van het structurele verband tussen een object van een objecttype en een (ander) object van een ander (of hetzelfde) objecttype.
+Toelichting
+Objecten hebben eigenschappen die gemodelleerd kunnen worden met attribuutsoorten maar ook met relatiesoorten naar andere objecttypen. Als het voor het desbetreffende domein van belang is om die eigenschap te modelleren als onderdeel van een ander objecttype, dan maakt de relatiesoort die eigenschap beschikbaar voor het eerstgenoemde objecttype. Bijvoorbeeld, een attribuutsoort van het objecttype PERSOON zou kunnen zijn ‘Naam geregistreerd partner’ (naast de attribuutsoort ‘Naam’ van PERSOON). De naam van de geregistreerde partner komt evenwel ook beschikbaar met een relatiesoort van PERSOON naar PERSOON: “heeft geregistreerd partnerschap met”. Zie ook het eerder genoemde voorbeeld van SCHIP en MOTOR.
+Voorbeeld: relatiesoorten “VERBLIJFSOBJECT is gelegen in een PAND” en “SUBJECT heeft als correspondentieadres WOONPLAATS”, of korter, “gelegen in”, “postadres”.
+Wanneer een relatie (UML-assocation) gebruikt wordt om objecten aan elkaar te verbinden, zonder dat er eigenschappen over deze relatie worden vastgelegd, dan heeft deze het stereotype «Relatiesoort»."""@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/applicatiecategorie> a mim:Enumeratie,
+        owl:Class,
+        skos:ConceptScheme ;
+    rdfs:label "Applicatiecategorie"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/applicatiecategorie"^^xsd:anyURI ;
+    mim:naam "Applicatiecategorie"@nl ;
+    mim:waarde <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/applicatiecategorie/bba>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/applicatiecategorie/beheer-en-systeem>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/applicatiecategorie/ka-basis>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/applicatiecategorie/ka-extra>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/applicatiecategorie/kernapplicatie>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/applicatiecategorie/niet-ingedeeld> ;
+    dcterms:identifier "EAID_A030D866_E2E7_4854_ACFD_C62DB3ABDA38" ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/> ;
+    rdfs:subClassOf skos:Concept .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/attribuutsoort> a mim:Objecttype,
+        owl:Class ;
+    rdfs:label "Attribuutsoort"@nl ;
+    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/attribuutsoort/authentiek>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/attribuutsoort/datumopname>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/attribuutsoort/definitie>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/attribuutsoort/domein>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/attribuutsoort/ea-guid>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/attribuutsoort/herkomst>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/attribuutsoort/herkomstdefinitie>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/attribuutsoort/id>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/attribuutsoort/identificerend>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/attribuutsoort/indicatieafleidbaar>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/attribuutsoort/indicatiematerielehistorie>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/attribuutsoort/kardinaliteit>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/attribuutsoort/lengte>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/attribuutsoort/mogelijkgeenwaarde>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/attribuutsoort/naam>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/attribuutsoort/patroon>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/attribuutsoort/precisie>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/attribuutsoort/stereotype>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/attribuutsoort/toelichting> ;
+    mim:definitie """Attribuutsoort – Stereotype «Attribuutsoort»: De UML-representatie van een attribuutsoort, uitgedrukt in een stereotype van UML-Property3 (metaclass).
+Er zijn verschillende modelelementen die gebaseerd zijn op UML-property, zoals aangegeven in §2.1.2. Wanneer een UML-property in het informatiemodel de betekenis heeft van een attribuut van een objecttype, dan heeft deze het stereotype «Attribuutsoort».
+Een attribuutsoort is een type van gelijksoortige attributen of gegevens. Daartoe kijken we eerst naar het begrip ‘gegeven’."""@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/attribuutsoort"^^xsd:anyURI ;
+    mim:indicatieAbstractObject false ;
+    mim:naam "Attribuutsoort"@nl ;
+    dcterms:identifier "EAID_8D273DE5_3529_4652_BCA1_F86B28F26017" ;
+    rdfs:comment """Attribuutsoort – Stereotype «Attribuutsoort»: De UML-representatie van een attribuutsoort, uitgedrukt in een stereotype van UML-Property3 (metaclass).
+Er zijn verschillende modelelementen die gebaseerd zijn op UML-property, zoals aangegeven in §2.1.2. Wanneer een UML-property in het informatiemodel de betekenis heeft van een attribuut van een objecttype, dan heeft deze het stereotype «Attribuutsoort».
+Een attribuutsoort is een type van gelijksoortige attributen of gegevens. Daartoe kijken we eerst naar het begrip ‘gegeven’."""@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/objecttype> a mim:Objecttype,
+        owl:Class ;
+    rdfs:label "Objecttype"@nl ;
+    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/objecttype/datumopname>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/objecttype/definitie>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/objecttype/ea-guid>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/objecttype/herkomst>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/objecttype/herkomstdefinitie>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/objecttype/id>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/objecttype/indicatieabstract>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/objecttype/kwaliteit>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/objecttype/naam>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/objecttype/populatie>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/objecttype/stereotype>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/objecttype/toelichting>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/objecttype/uniekeaanduiding> ;
+    mim:definitie """De typering van een groep objecten (in de werkelijkheid) die binnen een domein relevant zijn en als gelijksoortig worden beschouwd.
+Toelichting
+Jan, Piet en Marie zijn mensen die vanuit het Burgerzaken-domein beschouwd worden als objecten van het type ‘natuurlijk persoon’. In een ander domein, ‘de volksmond’, noemen we dit ‘mens’ wat ook een objecttype is. In weer een ander domein is Jan van het type ‘vergunninghouder’ en Piet en Marie niet, omdat aan hen (nog) nooit een vergunning verleend is. Objecttypen zijn een abstractie van de werkelijkheid oftewel we beogen hiermee de werkelijkheid zo getrouw mogelijk te beschrijven, binnen de context van het domein. Dit staat geheel los van het vastleggen van gegevens over objecten van een type in een registratie. Daartoe is veelal een interpretatie nodig (van die werkelijkheid cq. die objecttypen) naar eenheden die in een registratie vastgelegd kunnen worden (records, entiteiten e.d.) op basis van andere overwegingen."""@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/objecttype"^^xsd:anyURI ;
+    mim:indicatieAbstractObject false ;
+    mim:naam "Objecttype"@nl ;
+    dcterms:identifier "EAID_A2451674_6C19_4bf9_81F9_57CDE2F60144" ;
+    rdfs:comment """De typering van een groep objecten (in de werkelijkheid) die binnen een domein relevant zijn en als gelijksoortig worden beschouwd.
+Toelichting
+Jan, Piet en Marie zijn mensen die vanuit het Burgerzaken-domein beschouwd worden als objecten van het type ‘natuurlijk persoon’. In een ander domein, ‘de volksmond’, noemen we dit ‘mens’ wat ook een objecttype is. In weer een ander domein is Jan van het type ‘vergunninghouder’ en Piet en Marie niet, omdat aan hen (nog) nooit een vergunning verleend is. Objecttypen zijn een abstractie van de werkelijkheid oftewel we beogen hiermee de werkelijkheid zo getrouw mogelijk te beschrijven, binnen de context van het domein. Dit staat geheel los van het vastleggen van gegevens over objecten van een type in een registratie. Daartoe is veelal een interpretatie nodig (van die werkelijkheid cq. die objecttypen) naar eenheden die in een registratie vastgelegd kunnen worden (records, entiteiten e.d.) op basis van andere overwegingen."""@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/> .
+

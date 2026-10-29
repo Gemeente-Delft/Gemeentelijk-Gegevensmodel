@@ -1,0 +1,151 @@
+# graph: <https://lod.gemeentelijkgegevensmodel.nl/v3.0.0/interne-organisatie/ict/basismodel-cmdb-items-diversen>
+
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix mim: <http://modellen.mim-standaard.nl/def/mim#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/hardware> a mim:Objecttype,
+        owl:Class ;
+    rdfs:label "Hardware"@nl ;
+    mim:definitie "Alle fysieke componenten of onderdelen die in een computer een rol spelen."@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/hardware"^^xsd:anyURI ;
+    mim:indicatieAbstractObject false ;
+    mim:naam "Hardware"@nl ;
+    dcterms:identifier "EAID_6C92F0F8_BC92_428c_B729_1A10D515DAEF" ;
+    rdfs:comment "Alle fysieke componenten of onderdelen die in een computer een rol spelen."@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/> ;
+    rdfs:subClassOf <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/cmdb-item> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/inventaris> a mim:Objecttype,
+        owl:Class ;
+    rdfs:label "Inventaris"@nl ;
+    mim:definitie "Een inboedel of een opsomming van voorwerpen op een bepaalde plaats, gemaakt volgens een vaste procedure."@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/inventaris"^^xsd:anyURI ;
+    mim:indicatieAbstractObject false ;
+    mim:naam "Inventaris"@nl ;
+    dcterms:identifier "EAID_D0AB8CF6_F6CC_4337_BE07_DFE6B3CEFBB3" ;
+    rdfs:comment "Een inboedel of een opsomming van voorwerpen op een bepaalde plaats, gemaakt volgens een vaste procedure."@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/> ;
+    rdfs:subClassOf <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/cmdb-item> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/licentie> a mim:Objecttype,
+        owl:Class ;
+    rdfs:label "Licentie"@nl ;
+    mim:definitie "Een gebruiksrecht en autorisatie om van een product of dienst gebruik te maken binnen bepaalde voorwaarden"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/licentie"^^xsd:anyURI ;
+    mim:indicatieAbstractObject false ;
+    mim:naam "Licentie"@nl ;
+    dcterms:identifier "EAID_2E5F9AF9_D1BA_4dc0_9621_4101D24B8ABD" ;
+    rdfs:comment "Een gebruiksrecht en autorisatie om van een product of dienst gebruik te maken binnen bepaalde voorwaarden"@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/> ;
+    rdfs:subClassOf <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/cmdb-item> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/netwerkcomponent> a mim:Objecttype,
+        owl:Class ;
+    rdfs:label "Netwerkcomponent"@nl ;
+    mim:definitie "Een *netwerkcomponent* is een hardware- of softwareonderdeel dat een **specifieke functie vervult binnen een netwerk** om communicatie, gegevensuitwisseling of het beheer van netwerkverkeer mogelijk te maken."@nl ;
+    mim:herkomstDefinitie "https://www.shiksha.com/online-courses/articles/network-component/" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/netwerkcomponent"^^xsd:anyURI ;
+    mim:indicatieAbstractObject false ;
+    mim:naam "Netwerkcomponent"@nl ;
+    mim:toelichting "Een netwerk bestaat uit meerdere onderdelen die samenwerken om **gegevens tussen apparaten te versturen, te ontvangen en te beheren**. Dit kunnen fysieke apparaten zijn zoals routers, switches, netwerkkaarten en access points, maar ook software- of protocolonderdelen die nodig zijn voor de werking van het netwerk zelf. Deze componenten dragen bij aan het opzetten, **onderhouden, sturen of beveiligen van de communicatie** tussen verschillende netwerkdeelnemers."@nl ;
+    dcterms:identifier "EAID_DD277E82_0CA5_4460_918F_9178B5F01886" ;
+    rdfs:comment "Een *netwerkcomponent* is een hardware- of softwareonderdeel dat een **specifieke functie vervult binnen een netwerk** om communicatie, gegevensuitwisseling of het beheer van netwerkverkeer mogelijk te maken."@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/> ;
+    rdfs:subClassOf <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/cmdb-item> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/software> a mim:Objecttype,
+        owl:Class ;
+    rdfs:label "Software"@nl ;
+    mim:definitie "Een geheel van computerprogramma's met bijbehorende data, die bewerkingen en taken uitvoeren"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/software"^^xsd:anyURI ;
+    mim:indicatieAbstractObject false ;
+    mim:naam "Software"@nl ;
+    dcterms:identifier "EAID_0B3C37DD_42A1_4b6b_B534_CD276112FD3B" ;
+    rdfs:comment "Een geheel van computerprogramma's met bijbehorende data, die bewerkingen en taken uitvoeren"@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/> ;
+    rdfs:subClassOf <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/cmdb-item> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/toegangsmiddel> a mim:Objecttype,
+        owl:Class ;
+    rdfs:label "Toegangsmiddel"@nl ;
+    mim:definitie "Een middel waarmee men zich toegang tot iets kan verschaffen."@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/toegangsmiddel"^^xsd:anyURI ;
+    mim:indicatieAbstractObject false ;
+    mim:naam "Toegangsmiddel"@nl ;
+    dcterms:identifier "EAID_D67A4AC2_9A17_4cd0_82D7_732A89018FDA" ;
+    rdfs:comment "Een middel waarmee men zich toegang tot iets kan verschaffen."@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/> ;
+    rdfs:subClassOf <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/cmdb-item> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/vervoersmiddel> a mim:Objecttype,
+        owl:Class ;
+    rdfs:label "Vervoersmiddel"@nl ;
+    mim:definitie "Een voertuig dat zich over het land verplaatst."@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/vervoersmiddel"^^xsd:anyURI ;
+    mim:indicatieAbstractObject false ;
+    mim:naam "Vervoersmiddel"@nl ;
+    dcterms:identifier "EAID_E8C75DAB_F9AE_4fe2_9114_870434F2EA80" ;
+    rdfs:comment "Een voertuig dat zich over het land verplaatst."@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/> ;
+    rdfs:subClassOf <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/cmdb-item> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/v3.0.0/interne-organisatie/ict/basismodel-cmdb-items-diversen> a owl:Ontology ;
+    rdfs:label "Basismodel CMDB-Items Diversen"@nl ;
+    dcterms:identifier "EAID_A255BB0C_A1DB_43a5_88B1_C638F6E64B0B" ;
+    dcterms:isPartOf <https://lod.gemeentelijkgegevensmodel.nl/> ;
+    owl:versionInfo "v3.0.0" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/cmdb-item/beschrijving> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "beschrijving"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/cmdb-item/beschrijving"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "beschrijving"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_471F4E53_033B_4d04_ACEE_B9B0DD5CB4CC" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/cmdb-item> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/cmdb-item/naam> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "naam"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/cmdb-item/naam"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "naam"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_45E75BF3_B09B_4a82_BBDA_18DF026975C7" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/cmdb-item> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/cmdb-item> a mim:Objecttype,
+        owl:Class ;
+    rdfs:label "CMDB-item"@nl ;
+    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/cmdb-item/beschrijving>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/cmdb-item/naam> ;
+    mim:definitie "Item in een Configuratie Management DataBase"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/cmdb-item"^^xsd:anyURI ;
+    mim:indicatieAbstractObject false ;
+    mim:naam "CMDB-item"@nl ;
+    dcterms:identifier "EAID_B027D022_41D9_4c63_A63D_8F5111689564" ;
+    rdfs:comment "Item in een Configuratie Management DataBase"@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/> .
+

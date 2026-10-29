@@ -1,0 +1,1418 @@
+# graph: <https://lod.gemeentelijkgegevensmodel.nl/v3.0.0/veiligheid-en-vergunningen/brede-handhaving>
+
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix mim: <http://modellen.mim-standaard.nl/def/mim#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/object/adresbinnenland> a mim:Relatiesoort,
+        owl:ObjectProperty ;
+    rdfs:label "adresBinnenland"@nl ;
+    mim:aggregatietype mim:Geen ;
+    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/object> ;
+    mim:definitie "<font color=\"#610e6a\">De aanduiding van het adres van het OBJECT indien dit adres in Nederland gelegen is.</font>"@nl ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/binnenlandsadres> ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/object/adresbinnenland"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "0..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "adresBinnenland"@nl ;
+    mim:unidirectioneel true ;
+    dcterms:identifier "EAID_6EDA0027_C339_409b_8074_868049945E06" ;
+    rdfs:comment "<font color=\"#610e6a\">De aanduiding van het adres van het OBJECT indien dit adres in Nederland gelegen is.</font>"@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/object> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/binnenlandsadres> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/v3.0.0/veiligheid-en-vergunningen/brede-handhaving> a owl:Ontology ;
+    rdfs:label "Brede Handhaving"@nl ;
+    dcterms:identifier "EAID_EC84A03C_FC04_401a_8263_7809B74179F8" ;
+    dcterms:isPartOf <https://lod.gemeentelijkgegevensmodel.nl/> ;
+    owl:versionInfo "v3.0.0" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/veiligheid-en-vergunningen/vth/boa/verbalisant> a mim:Relatiesoort,
+        owl:ObjectProperty ;
+    rdfs:label "verbalisant"@nl ;
+    mim:aggregatietype mim:Geen ;
+    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/veiligheid-en-vergunningen/vth/boa> ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/veiligheid-en-vergunningen/vth/vth-melding> ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/veiligheid-en-vergunningen/vth/boa/verbalisant"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "0..*" ;
+    mim:kardinaliteitRelatieBron "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "verbalisant"@nl ;
+    mim:unidirectioneel true ;
+    dcterms:identifier "EAID_AA01203B_68F8_49c7_93A0_50AF6F0CA78B" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/veiligheid-en-vergunningen/vth/boa> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/veiligheid-en-vergunningen/vth/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/veiligheid-en-vergunningen/vth/vth-melding> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/veiligheid-en-vergunningen/vth/vth-melding/betreft> a mim:Relatiesoort,
+        owl:ObjectProperty ;
+    rdfs:label "betreft"@nl ;
+    mim:aggregatietype mim:Geen ;
+    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/veiligheid-en-vergunningen/vth/vth-melding> ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/object> ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/veiligheid-en-vergunningen/vth/vth-melding/betreft"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "0..*" ;
+    mim:kardinaliteitRelatieBron "0..*" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "betreft"@nl ;
+    mim:unidirectioneel true ;
+    dcterms:identifier "EAID_E9EAACB4_682A_43eb_8CAA_E7536337D9AE" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/veiligheid-en-vergunningen/vth/vth-melding> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/veiligheid-en-vergunningen/vth/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/object> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/veiligheid-en-vergunningen/vth/vth-melding/heeft> a mim:Relatiesoort,
+        owl:ObjectProperty ;
+    rdfs:label "heeft"@nl ;
+    mim:aggregatietype mim:Geen ;
+    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/veiligheid-en-vergunningen/vth/vth-melding> ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/kern/generiek/foto> ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/veiligheid-en-vergunningen/vth/vth-melding/heeft"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "0..*" ;
+    mim:kardinaliteitRelatieBron "0..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "heeft"@nl ;
+    mim:unidirectioneel true ;
+    dcterms:identifier "EAID_564051E6_A5BA_44c2_9AC4_E2E84198168B" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/veiligheid-en-vergunningen/vth/vth-melding> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/veiligheid-en-vergunningen/vth/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/generiek/foto> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/veiligheid-en-vergunningen/vth/waarneming> a mim:Objecttype,
+        owl:Class ;
+    rdfs:label "Waarneming"@nl ;
+    mim:definitie "Handhavende taak in het kader van VTH"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/veiligheid-en-vergunningen/vth/waarneming"^^xsd:anyURI ;
+    mim:indicatieAbstractObject false ;
+    mim:naam "Waarneming"@nl ;
+    dcterms:identifier "EAID_DDC990BC_C026_4c98_BEE5_6692EA0C2515" ;
+    rdfs:comment "Handhavende taak in het kader van VTH"@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/veiligheid-en-vergunningen/vth/> ;
+    rdfs:subClassOf <https://lod.gemeentelijkgegevensmodel.nl/veiligheid-en-vergunningen/vth/vth-melding> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/afgehandeld> a mim:Attribuutsoort,
+        owl:ObjectProperty ;
+    rdfs:label "afgehandeld"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/afgehandeld"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "afgehandeld"@nl ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean> ;
+    dcterms:identifier "EAID_AC248AAD_192D_40e3_B2C3_107CBA34CB21" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/categorie> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "categorie"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/categorie"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "categorie"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_70BB6DC2_EA35_451f_A307_0DCE9F6C1341" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/categoriecode> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "categoriecode"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/categoriecode"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "categoriecode"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_E6803836_B435_454b_BFF2_EC300A1E160A" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/datumaanmaak> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "datumAanmaak"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/datumaanmaak"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "datumAanmaak"@nl ;
+    mim:type mim:Date ;
+    dcterms:identifier "EAID_D6A1055B_7FFE_4e0e_9D51_7BCB34BC902E" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/> ;
+    rdfs:range xsd:date .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/datumafhandeling> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "datumAfhandeling"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/datumafhandeling"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "datumAfhandeling"@nl ;
+    mim:type mim:Date ;
+    dcterms:identifier "EAID_11348F20_D423_473f_B6E8_3197F6634F91" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/> ;
+    rdfs:range xsd:date .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/datumbeginstatus> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "datumBeginStatus"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/datumbeginstatus"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "datumBeginStatus"@nl ;
+    mim:type mim:Date ;
+    dcterms:identifier "EAID_386AAA3D_8C77_4be7_84DC_C221439D58C6" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/> ;
+    rdfs:range xsd:date .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/datumeindestatus> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "datumEindeStatus"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/datumeindestatus"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "datumEindeStatus"@nl ;
+    mim:type mim:Date ;
+    dcterms:identifier "EAID_214166B2_C303_49f3_A008_648E47E58D65" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/> ;
+    rdfs:range xsd:date .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/hoofdcategorie> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "hoofdcategorie"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/hoofdcategorie"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "hoofdcategorie"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_59BA1A2C_9DA8_4258_8668_F2B35AF57DD8" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/hoofdcategoriecode> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "hoofdcategoriecode"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/hoofdcategoriecode"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "hoofdcategoriecode"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_5DC7B481_6724_4769_B6D3_B4AC0B578177" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/identificatie> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "identificatie"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/identificatie"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "identificatie"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_8DD9E909_55C1_45d8_8B02_F174324A6E5C" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/kanaal> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "kanaal"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/kanaal"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "kanaal"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_32B1052C_88E9_498e_86F6_AF5B340D1132" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/onderwerp> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "onderwerp"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/onderwerp"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "onderwerp"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_6D92FCD5_F8C8_41c7_A524_0102186ED5E2" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/onderwerpcode> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "onderwerpcode"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/onderwerpcode"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "onderwerpcode"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_3A678FBE_3890_41b5_9E6B_9C9C0A59E8D8" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/soort> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "soort"@nl ;
+    mim:definitie "Sluit aan op soorten uit Suite4Omgevingsdiensten: aanvraag, melding...."@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/soort"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "soort"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_812E18D0_9678_4b27_ACFF_9C8D774CD8C1" ;
+    rdfs:comment "Sluit aan op soorten uit Suite4Omgevingsdiensten: aanvraag, melding...."@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/status> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "status"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/status"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "status"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_E5274E49_1775_4b24_B45E_366A77511B7E" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/statuscode> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "statuscode"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/statuscode"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "statuscode"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_A8DEE2BF_1051_4f4c_89FD_DD4E8A8714E3" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/statusvolgorde> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "statusVolgorde"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/statusvolgorde"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "statusVolgorde"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_A313E848_F5A4_4b9f_B8EA_479435ACC1BF" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/subcategorie> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "subcategorie"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/subcategorie"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "subcategorie"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_61C0AE53_1473_483b_84F9_FC173AD4D5FB" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/subcategoriecode> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "subcategoriecode"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/subcategoriecode"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "subcategoriecode"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_BBFFE25E_9DFA_4ac2_AAA7_48104E0ADD60" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean/ja> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean> ;
+    rdfs:label "Ja"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean/ja"^^xsd:anyURI ;
+    mim:naam "Ja"@nl ;
+    dcterms:identifier "EAID_ED373F5C_75C8_4f9f_B72B_DC069BEFFB72" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean> ;
+    skos:prefLabel "Ja"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean/leeg> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean> ;
+    rdfs:label "Leeg"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean/leeg"^^xsd:anyURI ;
+    mim:naam "Leeg"@nl ;
+    dcterms:identifier "EAID_15FACEFF_7709_47aa_9827_7C4B604C8D7B" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean> ;
+    skos:prefLabel "Leeg"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean/nee> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean> ;
+    rdfs:label "Nee"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean/nee"^^xsd:anyURI ;
+    mim:naam "Nee"@nl ;
+    dcterms:identifier "EAID_7ECA54CF_CE58_4610_80BC_B502ED1347A3" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean> ;
+    skos:prefLabel "Nee"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean/onbekend> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean> ;
+    rdfs:label "Onbekend"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean/onbekend"^^xsd:anyURI ;
+    mim:naam "Onbekend"@nl ;
+    dcterms:identifier "EAID_D11CFFBC_096A_4d6c_99EB_8969CD67687E" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean> ;
+    skos:prefLabel "Onbekend"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/generiek/foto/bestandsgrootte> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "bestandsgrootte"@nl ;
+    mim:definitie "Bestandsgrootte in bytes"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/generiek/foto/bestandsgrootte"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "bestandsgrootte"@nl ;
+    mim:type mim:Integer ;
+    dcterms:identifier "EAID_1C984BE6_7A98_4035_87EE_7BE0B46D60F3" ;
+    rdfs:comment "Bestandsgrootte in bytes"@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/generiek/foto> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/generiek/> ;
+    rdfs:range xsd:integer .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/generiek/foto/bestandsnaam> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "bestandsnaam"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/generiek/foto/bestandsnaam"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "bestandsnaam"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_C73265E0_FDD8_4395_B415_FDA308170C29" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/generiek/foto> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/generiek/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/generiek/foto/bestandstype> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "bestandstype"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/generiek/foto/bestandstype"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "bestandstype"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_AE808154_29AC_4ccd_A660_B83E02BBF5FD" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/generiek/foto> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/generiek/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/generiek/foto/datumtijd> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "datumtijd"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/generiek/foto/datumtijd"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "datumtijd"@nl ;
+    mim:type mim:DateTime ;
+    dcterms:identifier "EAID_42FCED71_6F75_4c2b_9702_A1745F0225A3" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/generiek/foto> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/generiek/> ;
+    rdfs:range xsd:dateTime .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/generiek/foto/locatie> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "locatie"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/generiek/foto/locatie"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "locatie"@nl ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/wktliteral> ;
+    dcterms:identifier "EAID_E940C72E_D575_4bb2_9954_8D482DE286C6" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/generiek/foto> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/generiek/> ;
+    rdfs:range geo:wktLiteral .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/generiek/foto/pixelsx> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "pixelsX"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/generiek/foto/pixelsx"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "pixelsX"@nl ;
+    mim:type mim:Integer ;
+    dcterms:identifier "EAID_496C79A7_0BB7_4488_957F_5F641632C07A" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/generiek/foto> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/generiek/> ;
+    rdfs:range xsd:integer .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/generiek/foto/pixelsy> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "pixelsY"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/generiek/foto/pixelsy"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "pixelsY"@nl ;
+    mim:type mim:Integer ;
+    dcterms:identifier "EAID_DFCE5483_A58F_4591_92C0_3E2BD7276FF6" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/generiek/foto> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/generiek/> ;
+    rdfs:range xsd:integer .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/object/adresbuitenland> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "adresBuitenland"@nl ;
+    mim:definitie "<font color=\"#610e6a\">De aanduiding van het adres waar specialisaties van het OBJECT zijnde een SUBJECT dan wel een specialisatie daarvan, verblijft dan wel bereikbaar is in het buitenland.</font>"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/object/adresbuitenland"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "0..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "adresBuitenland"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_ACCB6EC2_C40B_471f_BE6E_2FA826B0B977" ;
+    rdfs:comment "<font color=\"#610e6a\">De aanduiding van het adres waar specialisaties van het OBJECT zijnde een SUBJECT dan wel een specialisatie daarvan, verblijft dan wel bereikbaar is in het buitenland.</font>"@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/object> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/object/domein> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "domein"@nl ;
+    mim:definitie "Het toepassingsgebied of de sector DOMEIN waarbinnen handhaving op het object plaatsvindt"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/object/domein"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "domein"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_B291A568_6A53_4406_9D25_DB246ED309E4" ;
+    rdfs:comment "Het toepassingsgebied of de sector DOMEIN waarbinnen handhaving op het object plaatsvindt"@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/object> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/object/geometrie> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "geometrie"@nl ;
+    mim:definitie "<font color=\"#610e6a\">De minimaal tweedimensionale geometrische representatie van het OBJECT.</font>"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/object/geometrie"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "0..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "geometrie"@nl ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/wktliteral> ;
+    dcterms:identifier "EAID_304BC3DE_C85F_4ba0_9DD4_9B728BFEC683" ;
+    rdfs:comment "<font color=\"#610e6a\">De minimaal tweedimensionale geometrische representatie van het OBJECT.</font>"@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/object> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> ;
+    rdfs:range geo:wktLiteral .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/object/identificatie> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "identificatie"@nl ;
+    mim:definitie "<font color=\"#610e6a\">De unieke identificatie van het OBJECT</font>"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/object/identificatie"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "identificatie"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_5DEDC77B_B226_4066_8F66_F3AF4C7DF322" ;
+    rdfs:comment "<font color=\"#610e6a\">De unieke identificatie van het OBJECT</font>"@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/object> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/object/indicatierisico> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "indicatieRisico"@nl ;
+    mim:definitie "Indicatie van de risico's van (de uitvoering van activiteiten in) het handhavingsobject op gevolgen voor het handhavingsobject zelf, de daarin aanwezige personen, de omgeving van het handhavingsobject en/of de samenleving."@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/object/indicatierisico"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "indicatieRisico"@nl ;
+    mim:type mim:Boolean ;
+    dcterms:identifier "EAID_16CEF89F_7860_485d_977B_41B0B5ACE7E0" ;
+    rdfs:comment "Indicatie van de risico's van (de uitvoering van activiteiten in) het handhavingsobject op gevolgen voor het handhavingsobject zelf, de daarin aanwezige personen, de omgeving van het handhavingsobject en/of de samenleving."@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/object> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> ;
+    rdfs:range xsd:boolean .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/object/kadastraleaanduiding> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "kadastraleAanduiding"@nl ;
+    mim:definitie "<font color=\"#610e6a\">De kadastrale aanduiding van het OBJECT</font>"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/object/kadastraleaanduiding"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "0..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "kadastraleAanduiding"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_CA61EE89_9AC3_469b_B10E_3655E4B9F73E" ;
+    rdfs:comment "<font color=\"#610e6a\">De kadastrale aanduiding van het OBJECT</font>"@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/object> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/object/naam> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "naam"@nl ;
+    mim:definitie "<font color=\"#610e6a\">De benaming van het OBJECT indien dit een SUBJECT of specialisatie daarvan is.</font>"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/object/naam"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "0..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "naam"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_3A5FE771_F110_440c_B469_47D993BB6C85" ;
+    rdfs:comment "<font color=\"#610e6a\">De benaming van het OBJECT indien dit een SUBJECT of specialisatie daarvan is.</font>"@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/object> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/object/objecttype> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "objecttype"@nl ;
+    mim:definitie """<font color="#610e6a">Het onderscheid van een OBJECT naar haar specialisatiies.</font>
+<font color="#610e6a">De code voor de Objecttypering gevolgd door de unieke aanduiding van de specialisatie (van OBJECT):</font>
+<font color="#610e6a">ADRESSEERBAAR OBJECT AANDUIDING, BENOEMD OBJECT, BESLUIT, BUURT, ENKELVOUDIG INFORMATIEOBJECT, GEMEENTE, GEMEENTELIJKE OPENBARE RUIMTE, HUISHOUDEN, INRICHTINGSELEMENT, KADASTRALE ONROERENDE ZAAK, KUNSTWERKDEEL, MAATSSCHAPPELIJKE ACTIVITEIT, MEDEWERKER, OPENBARE RUIMTE, SAMENGESTELD INFORMATIEOBJECT, ORGANISATORISCHE EENHEID, PAND, SPOORBAANDEEL, STATUS, SUBJECT, TERREINDEEL, WATERDEEL, WEGDEEL, WIJK, WOONPLAATS, WOZ- DEELOBJECT, WOZ-OBJECT, WOZ-WAARDE of</font>
+<font color="#610e6a">ZAKELIJK RECHT (of afleidbare identificatie).</font>"""@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/object/objecttype"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "objecttype"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_3E9763FA_E158_4e08_99A6_735E61E2247A" ;
+    rdfs:comment """<font color="#610e6a">Het onderscheid van een OBJECT naar haar specialisatiies.</font>
+<font color="#610e6a">De code voor de Objecttypering gevolgd door de unieke aanduiding van de specialisatie (van OBJECT):</font>
+<font color="#610e6a">ADRESSEERBAAR OBJECT AANDUIDING, BENOEMD OBJECT, BESLUIT, BUURT, ENKELVOUDIG INFORMATIEOBJECT, GEMEENTE, GEMEENTELIJKE OPENBARE RUIMTE, HUISHOUDEN, INRICHTINGSELEMENT, KADASTRALE ONROERENDE ZAAK, KUNSTWERKDEEL, MAATSSCHAPPELIJKE ACTIVITEIT, MEDEWERKER, OPENBARE RUIMTE, SAMENGESTELD INFORMATIEOBJECT, ORGANISATORISCHE EENHEID, PAND, SPOORBAANDEEL, STATUS, SUBJECT, TERREINDEEL, WATERDEEL, WEGDEEL, WIJK, WOONPLAATS, WOZ- DEELOBJECT, WOZ-OBJECT, WOZ-WAARDE of</font>
+<font color="#610e6a">ZAKELIJK RECHT (of afleidbare identificatie).</font>"""@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/object> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/object/toelichting> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "toelichting"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/object/toelichting"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "toelichting"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_7EFAD120_1653_4c6c_8727_CAA817673F32" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/object> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/veiligheid-en-vergunningen/vth/beoordelingsoort/niet-oke> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/veiligheid-en-vergunningen/vth/beoordelingsoort> ;
+    rdfs:label "Niet Oke"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/veiligheid-en-vergunningen/vth/beoordelingsoort/niet-oke"^^xsd:anyURI ;
+    mim:naam "Niet Oke"@nl ;
+    dcterms:identifier "EAID_1D08A878_2A41_4633_837D_9C422177E0A9" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/veiligheid-en-vergunningen/vth/beoordelingsoort> ;
+    skos:prefLabel "Niet Oke"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/veiligheid-en-vergunningen/vth/beoordelingsoort> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/veiligheid-en-vergunningen/vth/beoordelingsoort/niet-relevant> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/veiligheid-en-vergunningen/vth/beoordelingsoort> ;
+    rdfs:label "Niet Relevant"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/veiligheid-en-vergunningen/vth/beoordelingsoort/niet-relevant"^^xsd:anyURI ;
+    mim:naam "Niet Relevant"@nl ;
+    dcterms:identifier "EAID_38FBDFB4_E4A7_4573_B861_A1764B187C34" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/veiligheid-en-vergunningen/vth/beoordelingsoort> ;
+    skos:prefLabel "Niet Relevant"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/veiligheid-en-vergunningen/vth/beoordelingsoort> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/veiligheid-en-vergunningen/vth/beoordelingsoort/oke> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/veiligheid-en-vergunningen/vth/beoordelingsoort> ;
+    rdfs:label "Oke"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/veiligheid-en-vergunningen/vth/beoordelingsoort/oke"^^xsd:anyURI ;
+    mim:naam "Oke"@nl ;
+    dcterms:identifier "EAID_B9D4E6EB_FD25_40de_8DD8_1B62A57A648D" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/veiligheid-en-vergunningen/vth/beoordelingsoort> ;
+    skos:prefLabel "Oke"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/veiligheid-en-vergunningen/vth/beoordelingsoort> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/veiligheid-en-vergunningen/vth/combibon> a mim:Objecttype,
+        owl:Class ;
+    rdfs:label "Combibon"@nl ;
+    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/veiligheid-en-vergunningen/vth/combibon/sanctie> ;
+    mim:definitie "Een Combibon is een modelformulier dat handhavende ambtenaren gebruiken om geconstateerde overtredingen en de gekozen afdoeningsmodaliteit (bijv. bekeuring of strafbeschikking) vast te leggen."@nl ;
+    mim:herkomst "https://toezichttafel.wordpress.com/kenniskaart/handhaving-en-interventies/combibon/" ;
+    mim:herkomstDefinitie "https://toezichttafel.wordpress.com/kenniskaart/handhaving-en-interventies/combibon/" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/veiligheid-en-vergunningen/vth/combibon"^^xsd:anyURI ;
+    mim:indicatieAbstractObject false ;
+    mim:naam "Combibon"@nl ;
+    mim:toelichting """•	Het formulier is opgenomen in de Regeling modellen en formulieren ten behoeve van de handhaving Justitie en kan worden toegepast bij verschillende sanctiemodaliteiten zoals kennisgeving van bekeuring, aankondiging van strafbeschikking en administratieve besluiten.
+	•	Op de combibon worden standaardcodes gebruikt voor de afdoening, de feitcode en een verkort proces-verbaal.
+	•	Na invulling blijft een exemplaar achter bij de verbalisant en wordt een doorslag gegeven aan of achtergelaten bij de betrokkene of het voertuig.
+	•	Zwaardere feiten waarvoor een volledig proces-verbaal vereist is, worden niet via combibon afgehandeld."""@nl ;
+    dcterms:identifier "EAID_43D57BB8_C2E4_4b5a_A41C_C5CEC9D3877D" ;
+    rdfs:comment "Een Combibon is een modelformulier dat handhavende ambtenaren gebruiken om geconstateerde overtredingen en de gekozen afdoeningsmodaliteit (bijv. bekeuring of strafbeschikking) vast te leggen."@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/veiligheid-en-vergunningen/vth/> ;
+    rdfs:subClassOf <https://lod.gemeentelijkgegevensmodel.nl/veiligheid-en-vergunningen/vth/vth-melding> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/veiligheid-en-vergunningen/vth/combibon/sanctie> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "sanctie"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/veiligheid-en-vergunningen/vth/combibon/sanctie"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "sanctie"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_A5A68799_D9E8_493b_8693_21C369295C50" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/veiligheid-en-vergunningen/vth/combibon> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/veiligheid-en-vergunningen/vth/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/veiligheid-en-vergunningen/vth/fietsregistratie/gelabeld> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "gelabeld"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/veiligheid-en-vergunningen/vth/fietsregistratie/gelabeld"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "gelabeld"@nl ;
+    mim:type mim:Boolean ;
+    dcterms:identifier "EAID_4A44129A_E8E9_4513_BA05_D753352A229E" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/veiligheid-en-vergunningen/vth/fietsregistratie> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/veiligheid-en-vergunningen/vth/> ;
+    rdfs:range xsd:boolean .
+
+<https://lod.gemeentelijkgegevensmodel.nl/veiligheid-en-vergunningen/vth/fietsregistratie/verwijderd> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "verwijderd"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/veiligheid-en-vergunningen/vth/fietsregistratie/verwijderd"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "verwijderd"@nl ;
+    mim:type mim:Boolean ;
+    dcterms:identifier "EAID_E6508314_4459_4834_A47F_E8146CF144B2" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/veiligheid-en-vergunningen/vth/fietsregistratie> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/veiligheid-en-vergunningen/vth/> ;
+    rdfs:range xsd:boolean .
+
+<https://lod.gemeentelijkgegevensmodel.nl/veiligheid-en-vergunningen/vth/vth-melding/activiteit> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "activiteit"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/veiligheid-en-vergunningen/vth/vth-melding/activiteit"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "activiteit"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_19DFA6CD_19D3_4ce0_A217_86460FDAAD65" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/veiligheid-en-vergunningen/vth/vth-melding> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/veiligheid-en-vergunningen/vth/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/veiligheid-en-vergunningen/vth/vth-melding/beoordeling> a mim:Attribuutsoort,
+        owl:ObjectProperty ;
+    rdfs:label "beoordeling"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/veiligheid-en-vergunningen/vth/vth-melding/beoordeling"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "beoordeling"@nl ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/veiligheid-en-vergunningen/vth/beoordelingsoort> ;
+    dcterms:identifier "EAID_451A2A9F_487D_4845_AC29_9DD67BA99A15" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/veiligheid-en-vergunningen/vth/vth-melding> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/veiligheid-en-vergunningen/vth/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/veiligheid-en-vergunningen/vth/beoordelingsoort> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/veiligheid-en-vergunningen/vth/vth-melding/datumseponering> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "datumSeponering"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/veiligheid-en-vergunningen/vth/vth-melding/datumseponering"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "datumSeponering"@nl ;
+    mim:type mim:Date ;
+    dcterms:identifier "EAID_F6192158_62C4_4952_B2C7_BC8FE790E0A3" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/veiligheid-en-vergunningen/vth/vth-melding> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/veiligheid-en-vergunningen/vth/> ;
+    rdfs:range xsd:date .
+
+<https://lod.gemeentelijkgegevensmodel.nl/veiligheid-en-vergunningen/vth/vth-melding/datumtijdtot> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "datumtijdTot"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/veiligheid-en-vergunningen/vth/vth-melding/datumtijdtot"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "datumtijdTot"@nl ;
+    mim:type mim:DateTime ;
+    dcterms:identifier "EAID_7FB40969_92E7_4e2a_8840_B9A31682DC76" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/veiligheid-en-vergunningen/vth/vth-melding> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/veiligheid-en-vergunningen/vth/> ;
+    rdfs:range xsd:dateTime .
+
+<https://lod.gemeentelijkgegevensmodel.nl/veiligheid-en-vergunningen/vth/vth-melding/geseponeerd> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "geseponeerd"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/veiligheid-en-vergunningen/vth/vth-melding/geseponeerd"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "geseponeerd"@nl ;
+    mim:type mim:Boolean ;
+    dcterms:identifier "EAID_8595B627_230B_410d_90FF_F27768D60022" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/veiligheid-en-vergunningen/vth/vth-melding> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/veiligheid-en-vergunningen/vth/> ;
+    rdfs:range xsd:boolean .
+
+<https://lod.gemeentelijkgegevensmodel.nl/veiligheid-en-vergunningen/vth/vth-melding/locatie> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "locatie"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/veiligheid-en-vergunningen/vth/vth-melding/locatie"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "locatie"@nl ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/wktliteral> ;
+    dcterms:identifier "EAID_84C5B413_B592_4deb_B4EB_5EA2755B1977" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/veiligheid-en-vergunningen/vth/vth-melding> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/veiligheid-en-vergunningen/vth/> ;
+    rdfs:range geo:wktLiteral .
+
+<https://lod.gemeentelijkgegevensmodel.nl/veiligheid-en-vergunningen/vth/vth-melding/organisatieonderdeel> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "organisatieonderdeel"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/veiligheid-en-vergunningen/vth/vth-melding/organisatieonderdeel"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "organisatieonderdeel"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_0AB0BD21_D1E6_4de1_AD68_C8D18120E394" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/veiligheid-en-vergunningen/vth/vth-melding> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/veiligheid-en-vergunningen/vth/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/veiligheid-en-vergunningen/vth/vth-melding/overtredingscode> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "overtredingscode"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/veiligheid-en-vergunningen/vth/vth-melding/overtredingscode"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "overtredingscode"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_62F66169_96B9_468a_AC67_AA0B332775DD" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/veiligheid-en-vergunningen/vth/vth-melding> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/veiligheid-en-vergunningen/vth/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/veiligheid-en-vergunningen/vth/vth-melding/overtredingsgroep> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "overtredingsgroep"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/veiligheid-en-vergunningen/vth/vth-melding/overtredingsgroep"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "overtredingsgroep"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_41CEDD94_4E05_40ac_AA3B_AFDA68973CCD" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/veiligheid-en-vergunningen/vth/vth-melding> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/veiligheid-en-vergunningen/vth/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/veiligheid-en-vergunningen/vth/vth-melding/referentienummer> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "referentienummer"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/veiligheid-en-vergunningen/vth/vth-melding/referentienummer"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "referentienummer"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_E3FFEB71_B471_4469_8585_9FA9598A7AE2" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/veiligheid-en-vergunningen/vth/vth-melding> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/veiligheid-en-vergunningen/vth/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/veiligheid-en-vergunningen/vth/vth-melding/resultaat> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "resultaat"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/veiligheid-en-vergunningen/vth/vth-melding/resultaat"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "resultaat"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_C3FFC6ED_4274_462a_AA14_09CC6AC87668" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/veiligheid-en-vergunningen/vth/vth-melding> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/veiligheid-en-vergunningen/vth/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/veiligheid-en-vergunningen/vth/vth-melding/soortvthmelding> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "soortVTHMelding"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/veiligheid-en-vergunningen/vth/vth-melding/soortvthmelding"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "soortVTHMelding"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_6B89FF55_AE95_4122_B1F7_56DF3F6A719A" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/veiligheid-en-vergunningen/vth/vth-melding> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/veiligheid-en-vergunningen/vth/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/veiligheid-en-vergunningen/vth/vth-melding/status> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "status"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/veiligheid-en-vergunningen/vth/vth-melding/status"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "status"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_0C1D1DFC_8476_492b_A828_42AE79DACA5D" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/veiligheid-en-vergunningen/vth/vth-melding> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/veiligheid-en-vergunningen/vth/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/veiligheid-en-vergunningen/vth/vth-melding/straatnaam> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "straatnaam"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/veiligheid-en-vergunningen/vth/vth-melding/straatnaam"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "straatnaam"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_1A828FE6_95DD_4174_A913_36F315FA2232" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/veiligheid-en-vergunningen/vth/vth-melding> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/veiligheid-en-vergunningen/vth/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/veiligheid-en-vergunningen/vth/vth-melding/taaktype> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "taaktype"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/veiligheid-en-vergunningen/vth/vth-melding/taaktype"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "taaktype"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_10CF92E8_7EC5_4b1d_BDF9_5C9B1AE7216B" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/veiligheid-en-vergunningen/vth/vth-melding> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/veiligheid-en-vergunningen/vth/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/veiligheid-en-vergunningen/vth/vth-melding/zaaknummer> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "zaaknummer"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/veiligheid-en-vergunningen/vth/vth-melding/zaaknummer"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "zaaknummer"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_68A9F1D4_6AD4_46a3_9FB2_08EA7A8A44B4" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/veiligheid-en-vergunningen/vth/vth-melding> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/veiligheid-en-vergunningen/vth/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/veiligheid-en-vergunningen/vth/boa> a mim:Objecttype,
+        owl:Class ;
+    rdfs:label "BOA"@nl ;
+    mim:definitie "Een buitengewoon opsporingsambtenaar (boa) is een ambtenaar met een specifieke opsporingsbevoegdheid."@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/veiligheid-en-vergunningen/vth/boa"^^xsd:anyURI ;
+    mim:indicatieAbstractObject false ;
+    mim:naam "BOA"@nl ;
+    dcterms:identifier "EAID_90B2A249_8D88_4a14_979F_672223D98E8C" ;
+    rdfs:comment "Een buitengewoon opsporingsambtenaar (boa) is een ambtenaar met een specifieke opsporingsbevoegdheid."@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/veiligheid-en-vergunningen/vth/> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/veiligheid-en-vergunningen/vth/fietsregistratie> a mim:Objecttype,
+        owl:Class ;
+    rdfs:label "Fietsregistratie"@nl ;
+    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/veiligheid-en-vergunningen/vth/fietsregistratie/gelabeld>,
+        <https://lod.gemeentelijkgegevensmodel.nl/veiligheid-en-vergunningen/vth/fietsregistratie/verwijderd> ;
+    mim:definitie "Adminstreren van fietsen"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/veiligheid-en-vergunningen/vth/fietsregistratie"^^xsd:anyURI ;
+    mim:indicatieAbstractObject false ;
+    mim:naam "Fietsregistratie"@nl ;
+    dcterms:identifier "EAID_FF9A4A36_6674_4590_BC33_7B6DC5256490" ;
+    rdfs:comment "Adminstreren van fietsen"@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/veiligheid-en-vergunningen/vth/> ;
+    rdfs:subClassOf <https://lod.gemeentelijkgegevensmodel.nl/veiligheid-en-vergunningen/vth/vth-melding> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/generiek/foto> a mim:Objecttype,
+        owl:Class ;
+    rdfs:label "Foto"@nl ;
+    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/kern/generiek/foto/bestandsgrootte>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/generiek/foto/bestandsnaam>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/generiek/foto/bestandstype>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/generiek/foto/datumtijd>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/generiek/foto/locatie>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/generiek/foto/pixelsx>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/generiek/foto/pixelsy> ;
+    mim:definitie "Afbeelding op een plat vlak vervaardigd door middel van fotografie"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/generiek/foto"^^xsd:anyURI ;
+    mim:indicatieAbstractObject false ;
+    mim:naam "Foto"@nl ;
+    dcterms:identifier "EAID_7FE4B466_B051_4068_9ED1_6E60C3B2DBAD" ;
+    rdfs:comment "Afbeelding op een plat vlak vervaardigd door middel van fotografie"@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/generiek/> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/veiligheid-en-vergunningen/vth/beoordelingsoort> a mim:Enumeratie,
+        owl:Class,
+        skos:ConceptScheme ;
+    rdfs:label "Beoordelingsoort"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/veiligheid-en-vergunningen/vth/beoordelingsoort"^^xsd:anyURI ;
+    mim:naam "Beoordelingsoort"@nl ;
+    mim:waarde <https://lod.gemeentelijkgegevensmodel.nl/veiligheid-en-vergunningen/vth/beoordelingsoort/niet-oke>,
+        <https://lod.gemeentelijkgegevensmodel.nl/veiligheid-en-vergunningen/vth/beoordelingsoort/niet-relevant>,
+        <https://lod.gemeentelijkgegevensmodel.nl/veiligheid-en-vergunningen/vth/beoordelingsoort/oke> ;
+    dcterms:identifier "EAID_3B4D2D66_B801_42a8_A3FB_CC4A29FF8320" ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/veiligheid-en-vergunningen/vth/> ;
+    rdfs:subClassOf skos:Concept .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/object> a mim:Objecttype,
+        owl:Class ;
+    rdfs:label "Object"@nl ;
+    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/object/adresbuitenland>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/object/domein>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/object/geometrie>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/object/identificatie>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/object/indicatierisico>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/object/kadastraleaanduiding>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/object/naam>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/object/objecttype>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/object/toelichting> ;
+    mim:definitie "Het OBJECT waarop een ZAAK betrekking kan hebben zijnde één of meer voorkomens van de in het RSGB en het RGBZ onderscheiden objecttypen."@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/object"^^xsd:anyURI ;
+    mim:indicatieAbstractObject false ;
+    mim:naam "Object"@nl ;
+    dcterms:identifier "EAID_91F9D39E_0322_42c6_AE7F_5027B36F3EC3" ;
+    rdfs:comment "Het OBJECT waarop een ZAAK betrekking kan hebben zijnde één of meer voorkomens van de in het RSGB en het RGBZ onderscheiden objecttypen."@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean> a mim:Enumeratie,
+        owl:Class,
+        skos:ConceptScheme ;
+    rdfs:label "Boolean"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean"^^xsd:anyURI ;
+    mim:naam "Boolean"@nl ;
+    mim:waarde <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean/ja>,
+        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean/leeg>,
+        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean/nee>,
+        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean/onbekend> ;
+    dcterms:identifier "EAID_9BD0FBCB_1A9E_4cab_9280_0EBC428E38F7" ;
+    rdfs:subClassOf skos:Concept .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding> a mim:Objecttype,
+        owl:Class ;
+    rdfs:label "AanvraagOfMelding"@nl ;
+    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/afgehandeld>,
+        <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/categorie>,
+        <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/categoriecode>,
+        <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/datumaanmaak>,
+        <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/datumafhandeling>,
+        <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/datumbeginstatus>,
+        <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/datumeindestatus>,
+        <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/hoofdcategorie>,
+        <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/hoofdcategoriecode>,
+        <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/identificatie>,
+        <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/kanaal>,
+        <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/onderwerp>,
+        <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/onderwerpcode>,
+        <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/soort>,
+        <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/status>,
+        <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/statuscode>,
+        <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/statusvolgorde>,
+        <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/subcategorie>,
+        <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/subcategoriecode> ;
+    mim:definitie """Komt overeen met een VJV
+
+Bron: GEM_VJV (Distinct op REQ_ID)
+ID: REQ_ID"""@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding"^^xsd:anyURI ;
+    mim:indicatieAbstractObject false ;
+    mim:naam "AanvraagOfMelding"@nl ;
+    dcterms:identifier "EAID_8E6BAEF8_1878_400f_9244_23575BD41EAB" ;
+    rdfs:comment """Komt overeen met een VJV
+
+Bron: GEM_VJV (Distinct op REQ_ID)
+ID: REQ_ID"""@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/veiligheid-en-vergunningen/vth/vth-melding> a mim:Objecttype,
+        owl:Class ;
+    rdfs:label "VTH-Melding"@nl ;
+    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/veiligheid-en-vergunningen/vth/vth-melding/activiteit>,
+        <https://lod.gemeentelijkgegevensmodel.nl/veiligheid-en-vergunningen/vth/vth-melding/beoordeling>,
+        <https://lod.gemeentelijkgegevensmodel.nl/veiligheid-en-vergunningen/vth/vth-melding/datumseponering>,
+        <https://lod.gemeentelijkgegevensmodel.nl/veiligheid-en-vergunningen/vth/vth-melding/datumtijdtot>,
+        <https://lod.gemeentelijkgegevensmodel.nl/veiligheid-en-vergunningen/vth/vth-melding/geseponeerd>,
+        <https://lod.gemeentelijkgegevensmodel.nl/veiligheid-en-vergunningen/vth/vth-melding/locatie>,
+        <https://lod.gemeentelijkgegevensmodel.nl/veiligheid-en-vergunningen/vth/vth-melding/organisatieonderdeel>,
+        <https://lod.gemeentelijkgegevensmodel.nl/veiligheid-en-vergunningen/vth/vth-melding/overtredingscode>,
+        <https://lod.gemeentelijkgegevensmodel.nl/veiligheid-en-vergunningen/vth/vth-melding/overtredingsgroep>,
+        <https://lod.gemeentelijkgegevensmodel.nl/veiligheid-en-vergunningen/vth/vth-melding/referentienummer>,
+        <https://lod.gemeentelijkgegevensmodel.nl/veiligheid-en-vergunningen/vth/vth-melding/resultaat>,
+        <https://lod.gemeentelijkgegevensmodel.nl/veiligheid-en-vergunningen/vth/vth-melding/soortvthmelding>,
+        <https://lod.gemeentelijkgegevensmodel.nl/veiligheid-en-vergunningen/vth/vth-melding/status>,
+        <https://lod.gemeentelijkgegevensmodel.nl/veiligheid-en-vergunningen/vth/vth-melding/straatnaam>,
+        <https://lod.gemeentelijkgegevensmodel.nl/veiligheid-en-vergunningen/vth/vth-melding/taaktype>,
+        <https://lod.gemeentelijkgegevensmodel.nl/veiligheid-en-vergunningen/vth/vth-melding/zaaknummer> ;
+    mim:definitie "Melding met betrekking tot Vergunningen, Toezicht en Handhaving"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/veiligheid-en-vergunningen/vth/vth-melding"^^xsd:anyURI ;
+    mim:indicatieAbstractObject false ;
+    mim:naam "VTH-Melding"@nl ;
+    dcterms:identifier "EAID_E9AEF0A9_11BC_4d2a_BC48_FB77F04EF9A6" ;
+    rdfs:comment "Melding met betrekking tot Vergunningen, Toezicht en Handhaving"@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/veiligheid-en-vergunningen/vth/> ;
+    rdfs:subClassOf <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding> .
+

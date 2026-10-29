@@ -1,0 +1,1953 @@
+# graph: <https://lod.gemeentelijkgegevensmodel.nl/v3.0.0/onderwijs/leerplicht-en-leerlingenvervoer/diagram-beslissingen-leerplicht>
+
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix mim: <http://modellen.mim-standaard.nl/def/mim#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerling/betreft> a mim:Relatiesoort,
+        owl:ObjectProperty ;
+    rdfs:label "betreft"@nl ;
+    mim:aggregatietype mim:Geen ;
+    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerling> ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/ziekmelding-leerlingenvervoer> ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerling/betreft"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "0..*" ;
+    mim:kardinaliteitRelatieBron "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "betreft"@nl ;
+    mim:unidirectioneel true ;
+    dcterms:identifier "EAID_6EA4316E_D98A_443a_AEF4_4A2CE3A40B37" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerling> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/ziekmelding-leerlingenvervoer> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerling/betreft-leerling> a mim:Relatiesoort,
+        owl:ObjectProperty ;
+    rdfs:label "betreft leerling"@nl ;
+    mim:aggregatietype mim:Geen ;
+    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerling> ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/procesverbaal-onderwijs> ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerling/betreft-leerling"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "0..*" ;
+    mim:kardinaliteitRelatieBron "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "betreft leerling"@nl ;
+    mim:unidirectioneel true ;
+    dcterms:identifier "EAID_DBBD5265_268F_46ea_A748_3BECEA8A9A4A" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerling> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/procesverbaal-onderwijs> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerling/heeft-verzuimmelding> a mim:Relatiesoort,
+        owl:ObjectProperty ;
+    rdfs:label "heeft"@nl ;
+    mim:aggregatietype mim:Geen ;
+    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerling> ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/verzuimmelding> ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerling/heeft-verzuimmelding"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "0..*" ;
+    mim:kardinaliteitRelatieBron "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "heeft"@nl ;
+    mim:unidirectioneel true ;
+    dcterms:identifier "EAID_BC9B933D_E53D_4637_A451_AB7BC45BC048" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerling> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/verzuimmelding> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerling/heeft-vrijstelling> a mim:Relatiesoort,
+        owl:ObjectProperty ;
+    rdfs:label "heeft"@nl ;
+    mim:aggregatietype mim:Geen ;
+    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerling> ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/vrijstelling> ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerling/heeft-vrijstelling"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "0..*" ;
+    mim:kardinaliteitRelatieBron "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "heeft"@nl ;
+    mim:unidirectioneel true ;
+    dcterms:identifier "EAID_0B21C716_7F3E_42e6_89D6_631C6ADCD215" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerling> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/vrijstelling> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/aanvraagofmelding/betreft-leerling> a mim:Relatiesoort,
+        owl:ObjectProperty ;
+    rdfs:label "betreft"@nl ;
+    mim:aggregatietype mim:Geen ;
+    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/aanvraagofmelding> ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerling> ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/aanvraagofmelding/betreft-leerling"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:kardinaliteitRelatieBron "0..*" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "betreft"@nl ;
+    mim:unidirectioneel true ;
+    dcterms:identifier "EAID_48E22FD5_48A0_4b73_8F26_F9BCC6219B30" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/aanvraagofmelding> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerling> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/aanvraagofmelding/betreft-school> a mim:Relatiesoort,
+        owl:ObjectProperty ;
+    rdfs:label "betreft"@nl ;
+    mim:aggregatietype mim:Geen ;
+    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/aanvraagofmelding> ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/school> ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/aanvraagofmelding/betreft-school"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "0..1" ;
+    mim:kardinaliteitRelatieBron "0..*" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "betreft"@nl ;
+    mim:unidirectioneel true ;
+    dcterms:identifier "EAID_C9573A24_CBB6_4eef_80CA_B9BDB0AE36CE" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/aanvraagofmelding> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/school> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/aanvraagofmelding/leidt-tot> a mim:Relatiesoort,
+        owl:ObjectProperty ;
+    rdfs:label "leidt tot"@nl ;
+    mim:aggregatietype mim:Geen ;
+    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/aanvraagofmelding> ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/beslissing> ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/aanvraagofmelding/leidt-tot"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "0..1" ;
+    mim:kardinaliteitRelatieBron "0..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "leidt tot"@nl ;
+    mim:unidirectioneel true ;
+    dcterms:identifier "EAID_4D75AD5B_9FC4_4e2d_9C3B_A3ED4EDFB067" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/aanvraagofmelding> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/beslissing> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/beschikking-leerlingenvervoer/vervoerder> a mim:Relatiesoort,
+        owl:ObjectProperty ;
+    rdfs:label "vervoerder"@nl ;
+    mim:aggregatietype mim:Geen ;
+    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/beschikking-leerlingenvervoer> ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/vervoerder> ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/beschikking-leerlingenvervoer/vervoerder"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "0..*" ;
+    mim:kardinaliteitRelatieBron "0..*" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "vervoerder"@nl ;
+    mim:unidirectioneel true ;
+    dcterms:identifier "EAID_EEB8F903_7B09_4df8_B1A2_7E28DD02269F" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/beschikking-leerlingenvervoer> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/vervoerder> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/beslissing/behandelaar> a mim:Relatiesoort,
+        owl:ObjectProperty ;
+    rdfs:label "behandelaar"@nl ;
+    mim:aggregatietype mim:Geen ;
+    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/beslissing> ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/leerplichtambtenaar> ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/beslissing/behandelaar"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:kardinaliteitRelatieBron "0..*" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "behandelaar"@nl ;
+    mim:unidirectioneel true ;
+    dcterms:identifier "EAID_610BCAE9_CF8A_4f13_9BE5_8CA2F4E5A937" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/beslissing> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/leerplichtambtenaar> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/beslissing/betreft-leerling> a mim:Relatiesoort,
+        owl:ObjectProperty ;
+    rdfs:label "betreft"@nl ;
+    mim:aggregatietype mim:Geen ;
+    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/beslissing> ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerling> ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/beslissing/betreft-leerling"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:kardinaliteitRelatieBron "0..*" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "betreft"@nl ;
+    mim:unidirectioneel true ;
+    dcterms:identifier "EAID_5CD65CEA_FA82_48e6_AE24_33C9638A1BE3" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/beslissing> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerling> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/beslissing/betreft-school> a mim:Relatiesoort,
+        owl:ObjectProperty ;
+    rdfs:label "betreft"@nl ;
+    mim:aggregatietype mim:Geen ;
+    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/beslissing> ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/school> ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/beslissing/betreft-school"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "0..1" ;
+    mim:kardinaliteitRelatieBron "0..*" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "betreft"@nl ;
+    mim:unidirectioneel true ;
+    dcterms:identifier "EAID_EAE2E17D_3BF0_41ec_8ADC_0EED4B925F6D" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/beslissing> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/school> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/doorgeleiding-om/verantwoordelijk-ouder> a mim:Relatiesoort,
+        owl:ObjectProperty ;
+    rdfs:label "verantwoordelijk ouder"@nl ;
+    mim:aggregatietype mim:Geen ;
+    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/doorgeleiding-om> ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/ouder-of-verzorger> ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/doorgeleiding-om/verantwoordelijk-ouder"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "0..*" ;
+    mim:kardinaliteitRelatieBron "0..*" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "verantwoordelijk ouder"@nl ;
+    mim:unidirectioneel true ;
+    dcterms:identifier "EAID_40A5CCFA_BC16_4bd5_BAE7_4DE44F139081" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/doorgeleiding-om> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/ouder-of-verzorger> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/klacht-leerlingenvervoer/betreft-leerling> a mim:Relatiesoort,
+        owl:ObjectProperty ;
+    rdfs:label "betreft"@nl ;
+    mim:aggregatietype mim:Geen ;
+    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/klacht-leerlingenvervoer> ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerling> ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/klacht-leerlingenvervoer/betreft-leerling"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:kardinaliteitRelatieBron "0..*" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "betreft"@nl ;
+    mim:unidirectioneel true ;
+    dcterms:identifier "EAID_26655188_F699_4467_B728_12C6D42B61DF" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/klacht-leerlingenvervoer> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerling> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/klacht-leerlingenvervoer/betreft-vervoerder> a mim:Relatiesoort,
+        owl:ObjectProperty ;
+    rdfs:label "betreft"@nl ;
+    mim:aggregatietype mim:Geen ;
+    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/klacht-leerlingenvervoer> ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/vervoerder> ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/klacht-leerlingenvervoer/betreft-vervoerder"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:kardinaliteitRelatieBron "0..*" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "betreft"@nl ;
+    mim:unidirectioneel true ;
+    dcterms:identifier "EAID_D6AE47CD_3BE5_492a_A143_A29C3B3F38EA" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/klacht-leerlingenvervoer> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/vervoerder> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/leerplichtambtenaar/opgelegd-door> a mim:Relatiesoort,
+        owl:ObjectProperty ;
+    rdfs:label "opgelegd door"@nl ;
+    mim:aggregatietype mim:Geen ;
+    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/leerplichtambtenaar> ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/procesverbaal-onderwijs> ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/leerplichtambtenaar/opgelegd-door"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "0..*" ;
+    mim:kardinaliteitRelatieBron "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "opgelegd door"@nl ;
+    mim:unidirectioneel true ;
+    dcterms:identifier "EAID_394820AC_FA0B_45c2_8E87_64DADE538231" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/leerplichtambtenaar> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/procesverbaal-onderwijs> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/procesverbaal-onderwijs/verantwoordelijke-ouder> a mim:Relatiesoort,
+        owl:ObjectProperty ;
+    rdfs:label "verantwoordelijke ouder"@nl ;
+    mim:aggregatietype mim:Geen ;
+    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/procesverbaal-onderwijs> ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/ouder-of-verzorger> ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/procesverbaal-onderwijs/verantwoordelijke-ouder"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..*" ;
+    mim:kardinaliteitRelatieBron "0..*" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "verantwoordelijke ouder"@nl ;
+    mim:unidirectioneel true ;
+    dcterms:identifier "EAID_1B912C26_ACAD_49a8_B48D_1F1D8B8BFD26" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/procesverbaal-onderwijs> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/ouder-of-verzorger> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/verzuimmelding/heeft> a mim:Relatiesoort,
+        owl:ObjectProperty ;
+    rdfs:label "heeft"@nl ;
+    mim:aggregatietype mim:Geen ;
+    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/verzuimmelding> ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/school> ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/verzuimmelding/heeft"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:kardinaliteitRelatieBron "0..*" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "heeft"@nl ;
+    mim:unidirectioneel true ;
+    dcterms:identifier "EAID_744F71E2_CC6B_48ae_9683_DCAC2E276019" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/verzuimmelding> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/school> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/vrijstelling/heeft> a mim:Relatiesoort,
+        owl:ObjectProperty ;
+    rdfs:label "heeft"@nl ;
+    mim:aggregatietype mim:Geen ;
+    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/vrijstelling> ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/school> ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/vrijstelling/heeft"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:kardinaliteitRelatieBron "0..*" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "heeft"@nl ;
+    mim:unidirectioneel true ;
+    dcterms:identifier "EAID_5DBF09CA_CB0A_42e4_A90A_3BAAD6B7E95E" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/vrijstelling> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/school> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/v3.0.0/onderwijs/leerplicht-en-leerlingenvervoer/diagram-beslissingen-leerplicht> a owl:Ontology ;
+    rdfs:label "Diagram Beslissingen Leerplicht"@nl ;
+    dcterms:identifier "EAID_26A453D9_47AF_487e_854B_3B4BC6D6A308" ;
+    dcterms:isPartOf <https://lod.gemeentelijkgegevensmodel.nl/> ;
+    owl:versionInfo "v3.0.0" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/afgehandeld> a mim:Attribuutsoort,
+        owl:ObjectProperty ;
+    rdfs:label "afgehandeld"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/afgehandeld"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "afgehandeld"@nl ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean> ;
+    dcterms:identifier "EAID_AC248AAD_192D_40e3_B2C3_107CBA34CB21" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/categorie> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "categorie"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/categorie"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "categorie"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_70BB6DC2_EA35_451f_A307_0DCE9F6C1341" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/categoriecode> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "categoriecode"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/categoriecode"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "categoriecode"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_E6803836_B435_454b_BFF2_EC300A1E160A" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/datumaanmaak> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "datumAanmaak"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/datumaanmaak"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "datumAanmaak"@nl ;
+    mim:type mim:Date ;
+    dcterms:identifier "EAID_D6A1055B_7FFE_4e0e_9D51_7BCB34BC902E" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/> ;
+    rdfs:range xsd:date .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/datumafhandeling> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "datumAfhandeling"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/datumafhandeling"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "datumAfhandeling"@nl ;
+    mim:type mim:Date ;
+    dcterms:identifier "EAID_11348F20_D423_473f_B6E8_3197F6634F91" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/> ;
+    rdfs:range xsd:date .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/datumbeginstatus> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "datumBeginStatus"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/datumbeginstatus"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "datumBeginStatus"@nl ;
+    mim:type mim:Date ;
+    dcterms:identifier "EAID_386AAA3D_8C77_4be7_84DC_C221439D58C6" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/> ;
+    rdfs:range xsd:date .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/datumeindestatus> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "datumEindeStatus"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/datumeindestatus"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "datumEindeStatus"@nl ;
+    mim:type mim:Date ;
+    dcterms:identifier "EAID_214166B2_C303_49f3_A008_648E47E58D65" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/> ;
+    rdfs:range xsd:date .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/hoofdcategorie> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "hoofdcategorie"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/hoofdcategorie"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "hoofdcategorie"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_59BA1A2C_9DA8_4258_8668_F2B35AF57DD8" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/hoofdcategoriecode> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "hoofdcategoriecode"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/hoofdcategoriecode"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "hoofdcategoriecode"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_5DC7B481_6724_4769_B6D3_B4AC0B578177" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/identificatie> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "identificatie"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/identificatie"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "identificatie"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_8DD9E909_55C1_45d8_8B02_F174324A6E5C" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/kanaal> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "kanaal"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/kanaal"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "kanaal"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_32B1052C_88E9_498e_86F6_AF5B340D1132" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/onderwerp> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "onderwerp"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/onderwerp"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "onderwerp"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_6D92FCD5_F8C8_41c7_A524_0102186ED5E2" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/onderwerpcode> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "onderwerpcode"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/onderwerpcode"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "onderwerpcode"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_3A678FBE_3890_41b5_9E6B_9C9C0A59E8D8" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/soort> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "soort"@nl ;
+    mim:definitie "Sluit aan op soorten uit Suite4Omgevingsdiensten: aanvraag, melding...."@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/soort"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "soort"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_812E18D0_9678_4b27_ACFF_9C8D774CD8C1" ;
+    rdfs:comment "Sluit aan op soorten uit Suite4Omgevingsdiensten: aanvraag, melding...."@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/status> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "status"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/status"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "status"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_E5274E49_1775_4b24_B45E_366A77511B7E" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/statuscode> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "statuscode"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/statuscode"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "statuscode"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_A8DEE2BF_1051_4f4c_89FD_DD4E8A8714E3" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/statusvolgorde> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "statusVolgorde"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/statusvolgorde"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "statusVolgorde"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_A313E848_F5A4_4b9f_B8EA_479435ACC1BF" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/subcategorie> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "subcategorie"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/subcategorie"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "subcategorie"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_61C0AE53_1473_483b_84F9_FC173AD4D5FB" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/subcategoriecode> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "subcategoriecode"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/subcategoriecode"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "subcategoriecode"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_BBFFE25E_9DFA_4ac2_AAA7_48104E0ADD60" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean/ja> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean> ;
+    rdfs:label "Ja"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean/ja"^^xsd:anyURI ;
+    mim:naam "Ja"@nl ;
+    dcterms:identifier "EAID_ED373F5C_75C8_4f9f_B72B_DC069BEFFB72" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean> ;
+    skos:prefLabel "Ja"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean/leeg> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean> ;
+    rdfs:label "Leeg"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean/leeg"^^xsd:anyURI ;
+    mim:naam "Leeg"@nl ;
+    dcterms:identifier "EAID_15FACEFF_7709_47aa_9827_7C4B604C8D7B" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean> ;
+    skos:prefLabel "Leeg"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean/nee> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean> ;
+    rdfs:label "Nee"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean/nee"^^xsd:anyURI ;
+    mim:naam "Nee"@nl ;
+    dcterms:identifier "EAID_7ECA54CF_CE58_4610_80BC_B502ED1347A3" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean> ;
+    skos:prefLabel "Nee"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean/onbekend> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean> ;
+    rdfs:label "Onbekend"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean/onbekend"^^xsd:anyURI ;
+    mim:naam "Onbekend"@nl ;
+    dcterms:identifier "EAID_D11CFFBC_096A_4d6c_99EB_8969CD67687E" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean> ;
+    skos:prefLabel "Onbekend"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/inkoop/leverancier/naam> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "naam"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/inkoop/leverancier/naam"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "naam"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_85177091_8693_4b6d_9DDF_C431625705F6" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/inkoop/leverancier> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/inkoop/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/inkoop/leverancier/nummer> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "nummer"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/inkoop/leverancier/nummer"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "nummer"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_DC8AB48D_FBB8_437d_8FD6_799019175583" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/inkoop/leverancier> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/inkoop/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerling/kwetsbarejongere> a mim:Attribuutsoort,
+        owl:ObjectProperty ;
+    rdfs:label "kwetsbareJongere"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerling/kwetsbarejongere"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "kwetsbareJongere"@nl ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean> ;
+    dcterms:identifier "EAID_70DE2997_48B9_4f71_B6BF_2B9C3163F429" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerling> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/aanvraagofmelding/datum> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "datum"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/aanvraagofmelding/datum"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "datum"@nl ;
+    mim:type mim:Date ;
+    dcterms:identifier "EAID_38938865_72C3_4910_AF34_5A16D9EEE8DA" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/aanvraagofmelding> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/> ;
+    rdfs:range xsd:date .
+
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/aanvraagofmelding/opmerkingen> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "opmerkingen"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/aanvraagofmelding/opmerkingen"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "opmerkingen"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_C2130C1F_8BE2_4b7a_8B01_85C38DC3639C" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/aanvraagofmelding> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/aanvraagofmelding/reden> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "reden"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/aanvraagofmelding/reden"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "reden"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_36808339_FABD_4ce3_929E_688CBA9D9953" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/aanvraagofmelding> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/aanvraagofmelding/soortverzuimofaanvraag> a mim:Attribuutsoort,
+        owl:ObjectProperty ;
+    rdfs:label "soortVerzuimOfAanvraag"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/aanvraagofmelding/soortverzuimofaanvraag"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "soortVerzuimOfAanvraag"@nl ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/verzuimsoort> ;
+    dcterms:identifier "EAID_692C2217_6906_4305_9B35_2A000E8B0168" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/aanvraagofmelding> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/verzuimsoort> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/aanvraagvrijstelling/buitenlandseschoollocatie> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "buitenlandseSchoollocatie"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/aanvraagvrijstelling/buitenlandseschoollocatie"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "buitenlandseSchoollocatie"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_A3805005_E062_4a65_A98D_ABE83662DECC" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/aanvraagvrijstelling> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/aanvraagvrijstelling/datumaanvraag> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "datumAanvraag"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/aanvraagvrijstelling/datumaanvraag"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "datumAanvraag"@nl ;
+    mim:type mim:Date ;
+    dcterms:identifier "EAID_6C45EFC0_8453_42a3_B958_C663FA42216D" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/aanvraagvrijstelling> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/> ;
+    rdfs:range xsd:date .
+
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/beslissing/datum> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "datum"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/beslissing/datum"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "datum"@nl ;
+    mim:type mim:Date ;
+    dcterms:identifier "EAID_D2C34B13_CF3C_49de_80CA_5458E441F6B5" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/beslissing> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/> ;
+    rdfs:range xsd:date .
+
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/beslissing/opmerkingen> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "opmerkingen"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/beslissing/opmerkingen"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "opmerkingen"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_CC43FEA1_7467_4c84_8A21_35AF184971F9" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/beslissing> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/beslissing/reden> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "reden"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/beslissing/reden"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "reden"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_CF5833E0_F6B9_4198_963E_A9F0B5F9E3DD" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/beslissing> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/doorgeleiding-om/afdoening> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "afdoening"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/doorgeleiding-om/afdoening"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "afdoening"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_AB751E54_787E_492e_AAD8_19A9E5C3D2F5" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/doorgeleiding-om> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/halt-verwijzing/afdoening> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "afdoening"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/halt-verwijzing/afdoening"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "afdoening"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_770276CF_FBB1_4c35_93EE_DB03DD6FEABC" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/halt-verwijzing> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/halt-verwijzing/datummutatie> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "datumMutatie"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/halt-verwijzing/datummutatie"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "datumMutatie"@nl ;
+    mim:type mim:Date ;
+    dcterms:identifier "EAID_A5D7C7FE_3285_43c8_9EE7_14E3106D7B80" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/halt-verwijzing> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/> ;
+    rdfs:range xsd:date .
+
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/halt-verwijzing/datumretour> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "datumRetour"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/halt-verwijzing/datumretour"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "datumRetour"@nl ;
+    mim:type mim:Date ;
+    dcterms:identifier "EAID_BF772607_AB51_4fba_97B9_5E220186D2AD" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/halt-verwijzing> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/> ;
+    rdfs:range xsd:date .
+
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/halt-verwijzing/memo> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "memo"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/halt-verwijzing/memo"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "memo"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_6821D6A8_7915_4064_A274_80905B3EBB0E" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/halt-verwijzing> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/procesverbaal-onderwijs/datumafgehandeld> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "datumAfgehandeld"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/procesverbaal-onderwijs/datumafgehandeld"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "datumAfgehandeld"@nl ;
+    mim:type mim:Date ;
+    dcterms:identifier "EAID_8DC2A73B_653D_437d_96F2_C610894735FF" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/procesverbaal-onderwijs> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/> ;
+    rdfs:range xsd:date .
+
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/procesverbaal-onderwijs/datumeindeproeftijd> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "datumEindeProeftijd"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/procesverbaal-onderwijs/datumeindeproeftijd"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "datumEindeProeftijd"@nl ;
+    mim:type mim:Date ;
+    dcterms:identifier "EAID_489735F0_DECA_4274_B411_7184CBC3C1E1" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/procesverbaal-onderwijs> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/> ;
+    rdfs:range xsd:date .
+
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/procesverbaal-onderwijs/datumingelicht> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "datumIngelicht"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/procesverbaal-onderwijs/datumingelicht"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "datumIngelicht"@nl ;
+    mim:type mim:Date ;
+    dcterms:identifier "EAID_104E2E04_EBF8_44a8_B87C_F094A9E5E139" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/procesverbaal-onderwijs> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/> ;
+    rdfs:range xsd:date .
+
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/procesverbaal-onderwijs/datumuitspraak> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "datumUitspraak"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/procesverbaal-onderwijs/datumuitspraak"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "datumUitspraak"@nl ;
+    mim:type mim:Date ;
+    dcterms:identifier "EAID_33DF051B_535C_4019_A8AC_C5024E5EE22C" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/procesverbaal-onderwijs> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/> ;
+    rdfs:range xsd:date .
+
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/procesverbaal-onderwijs/datumzitting> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "datumZitting"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/procesverbaal-onderwijs/datumzitting"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "datumZitting"@nl ;
+    mim:type mim:Date ;
+    dcterms:identifier "EAID_34B2E055_8250_43b2_A91D_F48853D3F164" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/procesverbaal-onderwijs> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/> ;
+    rdfs:range xsd:date .
+
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/procesverbaal-onderwijs/geldboete> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "geldboete"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/procesverbaal-onderwijs/geldboete"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "geldboete"@nl ;
+    mim:type mim:Decimal ;
+    dcterms:identifier "EAID_67593ABD_E263_44e4_ABE5_E9CEFCC8A8A8" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/procesverbaal-onderwijs> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/> ;
+    rdfs:range xsd:decimal .
+
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/procesverbaal-onderwijs/geldboetevoorwaardelijk> a mim:Attribuutsoort,
+        owl:ObjectProperty ;
+    rdfs:label "geldboeteVoorwaardelijk"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/procesverbaal-onderwijs/geldboetevoorwaardelijk"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "geldboeteVoorwaardelijk"@nl ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean> ;
+    dcterms:identifier "EAID_E7F9C9A0_9142_4dc3_9BB3_8BC257E25899" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/procesverbaal-onderwijs> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/procesverbaal-onderwijs/opmerkingen> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "opmerkingen"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/procesverbaal-onderwijs/opmerkingen"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "opmerkingen"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_6EED3937_398B_42b4_9B8C_0FBC47C3DA8D" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/procesverbaal-onderwijs> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/procesverbaal-onderwijs/proeftijd> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "proeftijd"@nl ;
+    mim:definitie "Proeftijd in dagen"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/procesverbaal-onderwijs/proeftijd"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "proeftijd"@nl ;
+    mim:type mim:Integer ;
+    dcterms:identifier "EAID_DDDDF09F_8467_468c_AB0C_4424D08D47DC" ;
+    rdfs:comment "Proeftijd in dagen"@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/procesverbaal-onderwijs> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/> ;
+    rdfs:range xsd:integer .
+
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/procesverbaal-onderwijs/reden> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "reden"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/procesverbaal-onderwijs/reden"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "reden"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_D21F2F0C_B625_4c5b_9D79_1310E3B798FA" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/procesverbaal-onderwijs> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/procesverbaal-onderwijs/sanctiesoort> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "sanctiesoort"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/procesverbaal-onderwijs/sanctiesoort"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "sanctiesoort"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_025FF2C4_494F_4010_BB1E_B07573D7BED5" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/procesverbaal-onderwijs> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/procesverbaal-onderwijs/uitspraak> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "uitspraak"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/procesverbaal-onderwijs/uitspraak"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "uitspraak"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_3EEA4FEA_ACF5_489d_8764_F8CE992261BC" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/procesverbaal-onderwijs> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/procesverbaal-onderwijs/verzuimsoort> a mim:Attribuutsoort,
+        owl:ObjectProperty ;
+    rdfs:label "verzuimsoort"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/procesverbaal-onderwijs/verzuimsoort"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "verzuimsoort"@nl ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/verzuimsoort> ;
+    dcterms:identifier "EAID_CC96AE94_EF5F_4e99_B5F2_7D783E502B4E" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/procesverbaal-onderwijs> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/verzuimsoort> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/verlofaanvraag/datumstart> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "datumStart"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/verlofaanvraag/datumstart"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "datumStart"@nl ;
+    mim:type mim:Date ;
+    dcterms:identifier "EAID_D6699B6B_4CA1_4db2_927B_C1E0A2F63B29" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/verlofaanvraag> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/> ;
+    rdfs:range xsd:date .
+
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/verlofaanvraag/datumtot> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "datumTot"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/verlofaanvraag/datumtot"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "datumTot"@nl ;
+    mim:type mim:Date ;
+    dcterms:identifier "EAID_E39B1AF7_F348_41a8_B079_976A68425F5A" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/verlofaanvraag> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/> ;
+    rdfs:range xsd:date .
+
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/verlofaanvraag/soortverlof> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "soortVerlof"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/verlofaanvraag/soortverlof"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "soortVerlof"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_38CCE5BA_2E10_4181_9376_9C010FD69119" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/verlofaanvraag> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/verzuimmelding/datumeinde> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "datumEinde"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/verzuimmelding/datumeinde"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "datumEinde"@nl ;
+    mim:type mim:Date ;
+    dcterms:identifier "EAID_277C6E49_37BE_4a63_8A85_BE38C76773C9" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/verzuimmelding> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/> ;
+    rdfs:range xsd:date .
+
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/verzuimmelding/datumstart> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "datumStart"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/verzuimmelding/datumstart"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "datumStart"@nl ;
+    mim:type mim:Date ;
+    dcterms:identifier "EAID_5ACB2CD6_C697_4524_8242_1DFFD809A017" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/verzuimmelding> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/> ;
+    rdfs:range xsd:date .
+
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/verzuimmelding/voorstelschool> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "voorstelSchool"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/verzuimmelding/voorstelschool"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "voorstelSchool"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_4427151E_A927_40a1_8B71_769675EB52CF" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/verzuimmelding> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/verzuimsoort/absoluut> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/verzuimsoort> ;
+    rdfs:label "absoluut"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/verzuimsoort/absoluut"^^xsd:anyURI ;
+    mim:naam "absoluut"@nl ;
+    dcterms:identifier "EAID_5059915F_EBD0_47e9_A8B0_6B44BA9F1C7E" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/verzuimsoort> ;
+    skos:prefLabel "absoluut"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/verzuimsoort> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/verzuimsoort/relatief> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/verzuimsoort> ;
+    rdfs:label "relatief"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/verzuimsoort/relatief"^^xsd:anyURI ;
+    mim:naam "relatief"@nl ;
+    dcterms:identifier "EAID_A2FFFF6E_A7BF_478b_83B2_A381EAA0FEA1" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/verzuimsoort> ;
+    skos:prefLabel "relatief"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/verzuimsoort> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/vrijstelling/aanvraagtoegekend> a mim:Attribuutsoort,
+        owl:ObjectProperty ;
+    rdfs:label "aanvraagToegekend"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/vrijstelling/aanvraagtoegekend"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "aanvraagToegekend"@nl ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean> ;
+    dcterms:identifier "EAID_9BB5E44A_DAE0_4ab1_9112_ADAECCF38A6D" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/vrijstelling> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/vrijstelling/buitenlandseschoollocatie> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "buitenlandseSchoollocatie"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/vrijstelling/buitenlandseschoollocatie"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "buitenlandseSchoollocatie"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_B4245A78_86EB_4618_90C3_7568914989E3" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/vrijstelling> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/vrijstelling/datumeinde> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "datumEinde"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/vrijstelling/datumeinde"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "datumEinde"@nl ;
+    mim:type mim:Date ;
+    dcterms:identifier "EAID_9C8C2FF1_3101_4e16_A390_F9DFD81B57DA" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/vrijstelling> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/> ;
+    rdfs:range xsd:date .
+
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/vrijstelling/datumstart> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "datumStart"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/vrijstelling/datumstart"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "datumStart"@nl ;
+    mim:type mim:Date ;
+    dcterms:identifier "EAID_4E2A97B8_4BA7_4561_9411_A8F5AC7DA176" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/vrijstelling> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/> ;
+    rdfs:range xsd:date .
+
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/vrijstelling/verzuimsoort> a mim:Attribuutsoort,
+        owl:ObjectProperty ;
+    rdfs:label "verzuimsoort"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/vrijstelling/verzuimsoort"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "verzuimsoort"@nl ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/verzuimsoort> ;
+    dcterms:identifier "EAID_5F85359A_5C5B_451b_8BCE_C9C93022FCCF" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/vrijstelling> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/verzuimsoort> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/school/naam> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "naam"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/onderwijs/school/naam"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "naam"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_0620C831_06F0_4948_B7C4_0A6DB4213CA0" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/school> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/aanvraagvrijstelling> a mim:Objecttype,
+        owl:Class ;
+    rdfs:label "AanvraagVrijstelling"@nl ;
+    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/aanvraagvrijstelling/buitenlandseschoollocatie>,
+        <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/aanvraagvrijstelling/datumaanvraag> ;
+    mim:definitie "Vrijstelling van een aanvraag voor leerlingenvervoer"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/aanvraagvrijstelling"^^xsd:anyURI ;
+    mim:indicatieAbstractObject false ;
+    mim:naam "AanvraagVrijstelling"@nl ;
+    dcterms:identifier "EAID_450F47A7_758F_400c_82EB_05535EBDD426" ;
+    rdfs:comment "Vrijstelling van een aanvraag voor leerlingenvervoer"@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/> ;
+    rdfs:subClassOf <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/aanvraagofmelding> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/beschikking-leerlingenvervoer> a mim:Objecttype,
+        owl:Class ;
+    rdfs:label "Beschikking Leerlingenvervoer"@nl ;
+    mim:definitie "Een formeel besluit dat genomen wordt door een bevoegde instantie over het al dan niet toekennen van leerlingenvervoer aan een bepaalde leerling."@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/beschikking-leerlingenvervoer"^^xsd:anyURI ;
+    mim:indicatieAbstractObject false ;
+    mim:naam "Beschikking Leerlingenvervoer"@nl ;
+    dcterms:identifier "EAID_81870665_768C_4fb2_8A4F_A9CB7989C884" ;
+    rdfs:comment "Een formeel besluit dat genomen wordt door een bevoegde instantie over het al dan niet toekennen van leerlingenvervoer aan een bepaalde leerling."@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/> ;
+    rdfs:subClassOf <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/beslissing> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/ziekmelding-leerlingenvervoer> a mim:Objecttype,
+        owl:Class ;
+    rdfs:label "Ziekmelding Leerlingenvervoer"@nl ;
+    mim:definitie "Een melding van een zieke leerling die recht heeft op vervoer van en naar onderwijs."@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/ziekmelding-leerlingenvervoer"^^xsd:anyURI ;
+    mim:indicatieAbstractObject false ;
+    mim:naam "Ziekmelding Leerlingenvervoer"@nl ;
+    dcterms:identifier "EAID_7689A6B7_2A9E_42db_A028_E4601305DBFF" ;
+    rdfs:comment "Een melding van een zieke leerling die recht heeft op vervoer van en naar onderwijs."@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/inkoop/leverancier> a mim:Objecttype,
+        owl:Class ;
+    rdfs:label "Leverancier"@nl ;
+    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/inkoop/leverancier/naam>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/inkoop/leverancier/nummer> ;
+    mim:definitie "Een niet-natuurlijk persoon die een product of dienst levert aan de organisatie"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/inkoop/leverancier"^^xsd:anyURI ;
+    mim:indicatieAbstractObject false ;
+    mim:naam "Leverancier"@nl ;
+    dcterms:identifier "EAID_EA7FE08E_34F7_45d2_BE2E_E4E3B8333BF3" ;
+    rdfs:comment "Een niet-natuurlijk persoon die een product of dienst levert aan de organisatie"@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/inkoop/> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/doorgeleiding-om> a mim:Objecttype,
+        owl:Class ;
+    rdfs:label "Doorgeleiding OM"@nl ;
+    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/doorgeleiding-om/afdoening> ;
+    mim:definitie "De overdracht van een leerplichtzaak aan het Openbaar Ministerie voor juridische vervolging."@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/doorgeleiding-om"^^xsd:anyURI ;
+    mim:indicatieAbstractObject false ;
+    mim:naam "Doorgeleiding OM"@nl ;
+    dcterms:identifier "EAID_90E49701_2A06_4669_9199_6FCFDFCA707A" ;
+    rdfs:comment "De overdracht van een leerplichtzaak aan het Openbaar Ministerie voor juridische vervolging."@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/> ;
+    rdfs:subClassOf <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/beslissing> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/verlofaanvraag> a mim:Objecttype,
+        owl:Class ;
+    rdfs:label "Verlofaanvraag"@nl ;
+    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/verlofaanvraag/datumstart>,
+        <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/verlofaanvraag/datumtot>,
+        <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/verlofaanvraag/soortverlof> ;
+    mim:definitie "Een verzoek om toestemming te krijgen iets te doen, bijvoorbeeld vakantie of studie"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/verlofaanvraag"^^xsd:anyURI ;
+    mim:indicatieAbstractObject false ;
+    mim:naam "Verlofaanvraag"@nl ;
+    dcterms:identifier "EAID_E9DECE41_F7F5_49f1_94B5_63DE941F6094" ;
+    rdfs:comment "Een verzoek om toestemming te krijgen iets te doen, bijvoorbeeld vakantie of studie"@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/> ;
+    rdfs:subClassOf <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/aanvraagofmelding> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/halt-verwijzing> a mim:Objecttype,
+        owl:Class ;
+    rdfs:label "HALT-verwijzing"@nl ;
+    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/halt-verwijzing/afdoening>,
+        <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/halt-verwijzing/datummutatie>,
+        <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/halt-verwijzing/datumretour>,
+        <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/halt-verwijzing/memo> ;
+    mim:definitie "Jongeren van 12 tot 18 jaar die strafbare feiten plegen, zoals bijvoorbeeld: winkeldiefstal, vernieling, openbaar dronkenschap of oplichting kunnen naar Halt worden verwezen. In sommige gevallen is daarvoor toestemming nodig van het Openbaar Ministerie."@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/halt-verwijzing"^^xsd:anyURI ;
+    mim:indicatieAbstractObject false ;
+    mim:naam "HALT-verwijzing"@nl ;
+    mim:toelichting "Halt heeft de wettelijke taak om strafbaar gedrag onder jongeren van 12 tot 23 jaar aan te pakken, zonder dat jongere een strafblad krijgt. Halt legt een maatregel op aan jongeren die een strafbaar licht vergrijp hebben gepleegd. Dit is de zogeheten Halt-"@nl ;
+    dcterms:identifier "EAID_70E3C6AF_1117_4cfc_B61F_0D168010FFB9" ;
+    rdfs:comment "Jongeren van 12 tot 18 jaar die strafbare feiten plegen, zoals bijvoorbeeld: winkeldiefstal, vernieling, openbaar dronkenschap of oplichting kunnen naar Halt worden verwezen. In sommige gevallen is daarvoor toestemming nodig van het Openbaar Ministerie."@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/> ;
+    rdfs:subClassOf <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/beslissing> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/klacht-leerlingenvervoer> a mim:Objecttype,
+        owl:Class ;
+    rdfs:label "Klacht Leerlingenvervoer"@nl ;
+    mim:definitie "Een uiting van ontevredenheid over het vervoer van leerlingen."@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/klacht-leerlingenvervoer"^^xsd:anyURI ;
+    mim:indicatieAbstractObject false ;
+    mim:naam "Klacht Leerlingenvervoer"@nl ;
+    dcterms:identifier "EAID_07FE66E8_8316_406b_A590_922C2E7B4305" ;
+    rdfs:comment "Een uiting van ontevredenheid over het vervoer van leerlingen."@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/leerplichtambtenaar> a mim:Objecttype,
+        owl:Class ;
+    rdfs:label "Leerplichtambtenaar"@nl ;
+    mim:definitie "Ambtenaar die toezicht houdt op de uitvoering van de leerplichtwet."@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/leerplichtambtenaar"^^xsd:anyURI ;
+    mim:indicatieAbstractObject false ;
+    mim:naam "Leerplichtambtenaar"@nl ;
+    dcterms:identifier "EAID_B369B374_F560_4ea6_9A8B_DBBCB4961EFF" ;
+    rdfs:comment "Ambtenaar die toezicht houdt op de uitvoering van de leerplichtwet."@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/vervoerder> a mim:Objecttype,
+        owl:Class ;
+    rdfs:label "Vervoerder"@nl ;
+    mim:definitie "Degene die openbaar vervoer of besloten busvervoer verricht, niet in de hoedanigheid van bestuurder van een auto, bus, trein, metro, tram of een via een geleidesysteem voortbewogen voertuig."@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/vervoerder"^^xsd:anyURI ;
+    mim:indicatieAbstractObject false ;
+    mim:naam "Vervoerder"@nl ;
+    dcterms:identifier "EAID_613E192A_D0F2_4e67_BE73_51C09197EE3D" ;
+    rdfs:comment "Degene die openbaar vervoer of besloten busvervoer verricht, niet in de hoedanigheid van bestuurder van een auto, bus, trein, metro, tram of een via een geleidesysteem voortbewogen voertuig."@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/> ;
+    rdfs:subClassOf <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/inkoop/leverancier> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/ouder-of-verzorger> a mim:Objecttype,
+        owl:Class ;
+    rdfs:label "Ouder Of Verzorger"@nl ;
+    mim:definitie "Een persoon die wettelijk verantwoordelijk is voor de zorg en opvoeding van een kind."@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/onderwijs/ouder-of-verzorger"^^xsd:anyURI ;
+    mim:indicatieAbstractObject false ;
+    mim:naam "Ouder Of Verzorger"@nl ;
+    dcterms:identifier "EAID_51C8E3DF_FFF4_4a20_9CB2_AA5FA50579E2" ;
+    rdfs:comment "Een persoon die wettelijk verantwoordelijk is voor de zorg en opvoeding van een kind."@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/verzuimmelding> a mim:Objecttype,
+        owl:Class ;
+    rdfs:label "Verzuimmelding"@nl ;
+    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/verzuimmelding/datumeinde>,
+        <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/verzuimmelding/datumstart>,
+        <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/verzuimmelding/voorstelschool> ;
+    mim:definitie "Een melding dat een leerling niet op school verschijnt. De school moet actie ondernemen naar de leerling (en zijn ouders). Een school moet het verzuim melden bij de gemeente."@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/verzuimmelding"^^xsd:anyURI ;
+    mim:indicatieAbstractObject false ;
+    mim:naam "Verzuimmelding"@nl ;
+    dcterms:identifier "EAID_252C70B1_4E02_4033_B2B5_86F65496D7AB" ;
+    rdfs:comment "Een melding dat een leerling niet op school verschijnt. De school moet actie ondernemen naar de leerling (en zijn ouders). Een school moet het verzuim melden bij de gemeente."@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/> ;
+    rdfs:subClassOf <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/aanvraagofmelding> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/vrijstelling> a mim:Objecttype,
+        owl:Class ;
+    rdfs:label "Vrijstelling"@nl ;
+    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/vrijstelling/aanvraagtoegekend>,
+        <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/vrijstelling/buitenlandseschoollocatie>,
+        <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/vrijstelling/datumeinde>,
+        <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/vrijstelling/datumstart>,
+        <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/vrijstelling/verzuimsoort> ;
+    mim:definitie "Een formeel besluit waarbij een leerling wordt ontheven van de leerplicht."@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/vrijstelling"^^xsd:anyURI ;
+    mim:indicatieAbstractObject false ;
+    mim:naam "Vrijstelling"@nl ;
+    dcterms:identifier "EAID_B8584CD2_A54A_4a59_82B6_A597A0864CFA" ;
+    rdfs:comment "Een formeel besluit waarbij een leerling wordt ontheven van de leerplicht."@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/> ;
+    rdfs:subClassOf <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/beslissing> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/school> a mim:Objecttype,
+        owl:Class ;
+    rdfs:label "School"@nl ;
+    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/school/naam> ;
+    mim:definitie "Gebouw in gebruik voor basis, middelbaar of hoger onderwijs."@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/onderwijs/school"^^xsd:anyURI ;
+    mim:indicatieAbstractObject false ;
+    mim:naam "School"@nl ;
+    dcterms:identifier "EAID_32DFC5DD_79D9_45d5_8F9D_7D5125961817" ;
+    rdfs:comment "Gebouw in gebruik voor basis, middelbaar of hoger onderwijs."@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/verzuimsoort> a mim:Enumeratie,
+        owl:Class,
+        skos:ConceptScheme ;
+    rdfs:label "Verzuimsoort"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/verzuimsoort"^^xsd:anyURI ;
+    mim:naam "Verzuimsoort"@nl ;
+    mim:waarde <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/verzuimsoort/absoluut>,
+        <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/verzuimsoort/relatief> ;
+    dcterms:identifier "EAID_0060D931_6BBA_480d_ADCA_0A74908C39A4" ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/> ;
+    rdfs:subClassOf skos:Concept .
+
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/aanvraagofmelding> a mim:Objecttype,
+        owl:Class ;
+    rdfs:label "AanvraagOfMelding"@nl ;
+    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/aanvraagofmelding/datum>,
+        <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/aanvraagofmelding/opmerkingen>,
+        <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/aanvraagofmelding/reden>,
+        <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/aanvraagofmelding/soortverzuimofaanvraag> ;
+    mim:definitie "Komt overeen met een VJV"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/aanvraagofmelding"^^xsd:anyURI ;
+    mim:indicatieAbstractObject false ;
+    mim:naam "AanvraagOfMelding"@nl ;
+    mim:toelichting "Via het Omgevingsloket kunnen initiatiefnemers een vergunningaanvraag of een melding indienen in het Digitaal Stelsel Omgevingswet (DSO). Duidelijke stappen en vragen leiden hen door dit proces. De overheid vertaalt hiervoor indieningsvereisten naar toepa"@nl ;
+    dcterms:identifier "EAID_66E2B5BA_44A0_4fde_AE33_E211EE4832C2" ;
+    rdfs:comment "Komt overeen met een VJV"@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/> ;
+    rdfs:subClassOf <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerling> a mim:Objecttype,
+        owl:Class ;
+    rdfs:label "Leerling"@nl ;
+    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerling/kwetsbarejongere> ;
+    mim:definitie "Mens die een opleiding volgt, heeft gevolgd of gaat volgen of opgaat of is opgegaan voor een toets. (Bron: KOI)"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerling"^^xsd:anyURI ;
+    mim:indicatieAbstractObject false ;
+    mim:naam "Leerling"@nl ;
+    dcterms:identifier "EAID_266057AF_58BD_42e1_B4D5_16EB266B9B7A" ;
+    rdfs:comment "Mens die een opleiding volgt, heeft gevolgd of gaat volgen of opgaat of is opgegaan voor een toets. (Bron: KOI)"@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/beslissing> a mim:Objecttype,
+        owl:Class ;
+    rdfs:label "Beslissing"@nl ;
+    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/beslissing/datum>,
+        <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/beslissing/opmerkingen>,
+        <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/beslissing/reden> ;
+    mim:definitie "Selectie van een voorstelbare werkelijkheid (voorkeursvariant) uit een aantal mogelijke werkelijkheden (varianten) op basis van een verzameling van criteria."@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/beslissing"^^xsd:anyURI ;
+    mim:indicatieAbstractObject false ;
+    mim:naam "Beslissing"@nl ;
+    dcterms:identifier "EAID_B65280CD_3429_4966_AD2D_CB3EE76EE2E8" ;
+    rdfs:comment "Selectie van een voorstelbare werkelijkheid (voorkeursvariant) uit een aantal mogelijke werkelijkheden (varianten) op basis van een verzameling van criteria."@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/procesverbaal-onderwijs> a mim:Objecttype,
+        owl:Class ;
+    rdfs:label "Procesverbaal Onderwijs"@nl ;
+    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/procesverbaal-onderwijs/datumafgehandeld>,
+        <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/procesverbaal-onderwijs/datumeindeproeftijd>,
+        <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/procesverbaal-onderwijs/datumingelicht>,
+        <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/procesverbaal-onderwijs/datumuitspraak>,
+        <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/procesverbaal-onderwijs/datumzitting>,
+        <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/procesverbaal-onderwijs/geldboete>,
+        <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/procesverbaal-onderwijs/geldboetevoorwaardelijk>,
+        <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/procesverbaal-onderwijs/opmerkingen>,
+        <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/procesverbaal-onderwijs/proeftijd>,
+        <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/procesverbaal-onderwijs/reden>,
+        <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/procesverbaal-onderwijs/sanctiesoort>,
+        <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/procesverbaal-onderwijs/uitspraak>,
+        <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/procesverbaal-onderwijs/verzuimsoort> ;
+    mim:definitie "Een officieel document dat een overtreding van de leerplichtwet vastlegt."@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/procesverbaal-onderwijs"^^xsd:anyURI ;
+    mim:indicatieAbstractObject false ;
+    mim:naam "Procesverbaal Onderwijs"@nl ;
+    dcterms:identifier "EAID_697F1730_B439_4b35_8799_1B2E9AB04548" ;
+    rdfs:comment "Een officieel document dat een overtreding van de leerplichtwet vastlegt."@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/> ;
+    rdfs:subClassOf <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/beslissing> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding> a mim:Objecttype,
+        owl:Class ;
+    rdfs:label "AanvraagOfMelding"@nl ;
+    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/afgehandeld>,
+        <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/categorie>,
+        <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/categoriecode>,
+        <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/datumaanmaak>,
+        <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/datumafhandeling>,
+        <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/datumbeginstatus>,
+        <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/datumeindestatus>,
+        <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/hoofdcategorie>,
+        <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/hoofdcategoriecode>,
+        <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/identificatie>,
+        <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/kanaal>,
+        <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/onderwerp>,
+        <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/onderwerpcode>,
+        <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/soort>,
+        <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/status>,
+        <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/statuscode>,
+        <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/statusvolgorde>,
+        <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/subcategorie>,
+        <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/subcategoriecode> ;
+    mim:definitie """Komt overeen met een VJV
+
+Bron: GEM_VJV (Distinct op REQ_ID)
+ID: REQ_ID"""@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding"^^xsd:anyURI ;
+    mim:indicatieAbstractObject false ;
+    mim:naam "AanvraagOfMelding"@nl ;
+    dcterms:identifier "EAID_8E6BAEF8_1878_400f_9244_23575BD41EAB" ;
+    rdfs:comment """Komt overeen met een VJV
+
+Bron: GEM_VJV (Distinct op REQ_ID)
+ID: REQ_ID"""@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean> a mim:Enumeratie,
+        owl:Class,
+        skos:ConceptScheme ;
+    rdfs:label "Boolean"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean"^^xsd:anyURI ;
+    mim:naam "Boolean"@nl ;
+    mim:waarde <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean/ja>,
+        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean/leeg>,
+        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean/nee>,
+        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean/onbekend> ;
+    dcterms:identifier "EAID_9BD0FBCB_1A9E_4cab_9280_0EBC428E38F7" ;
+    rdfs:subClassOf skos:Concept .
+

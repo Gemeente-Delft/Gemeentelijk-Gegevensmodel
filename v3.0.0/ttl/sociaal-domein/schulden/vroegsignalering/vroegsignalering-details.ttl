@@ -1,0 +1,2350 @@
+# graph: <https://lod.gemeentelijkgegevensmodel.nl/v3.0.0/sociaal-domein/schulden/vroegsignalering/vroegsignalering-details>
+
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix mim: <http://modellen.mim-standaard.nl/def/mim#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gemeente/is-overgegaan-in> a mim:Relatiesoort,
+        owl:ObjectProperty ;
+    rdfs:label "is overgegaan in"@nl ;
+    mim:aggregatietype mim:Geen ;
+    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gemeente> ;
+    mim:datumOpname "2008-05-01"^^xsd:date ;
+    mim:definitie "De nieuwe GEMEENTE waarin de GEMEENTE bij zijn opheffing c.q. na herindeling is overgegaan."@nl ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gemeente> ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:herkomst "KING/GFO BG" ;
+    mim:herkomstDefinitie "KING op basis van GFO BG" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gemeente/is-overgegaan-in"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "0..*" ;
+    mim:kardinaliteitRelatieBron "0..*" ;
+    mim:mogelijkGeenWaarde false ;
+    mim:naam "is overgegaan in"@nl ;
+    mim:unidirectioneel true ;
+    dcterms:identifier "EAID_82776B18_BA57_4a96_94B7_564C96D364E5" ;
+    rdfs:comment "De nieuwe GEMEENTE waarin de GEMEENTE bij zijn opheffing c.q. na herindeling is overgegaan."@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gemeente> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gemeente> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/vroegsignaal/betreft> a mim:Relatiesoort,
+        owl:ObjectProperty ;
+    rdfs:label "betreft"@nl ;
+    mim:aggregatietype mim:Geen ;
+    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/vroegsignaal> ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/client> ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/vroegsignaal/betreft"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:kardinaliteitRelatieBron "0..*" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "betreft"@nl ;
+    mim:unidirectioneel true ;
+    dcterms:identifier "EAID_E8182EBD_8772_4d5f_96BF_423FD95F7F36" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/vroegsignaal> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/client> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/vroegsignaal/opgepaktin> a mim:Relatiesoort,
+        owl:ObjectProperty ;
+    rdfs:label "opgepaktIn"@nl ;
+    mim:aggregatietype mim:Geen ;
+    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/vroegsignaal> ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/vroegsignaalzaak> ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/vroegsignaal/opgepaktin"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "0..1" ;
+    mim:kardinaliteitRelatieBron "1..*" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "opgepaktIn"@nl ;
+    mim:unidirectioneel true ;
+    dcterms:identifier "EAID_992CBE57_218F_42d1_8495_76BC51827E3A" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/vroegsignaal> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/vroegsignaalzaak> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/vroegsignaal/verzondendoor> a mim:Relatiesoort,
+        owl:ObjectProperty ;
+    rdfs:label "verzondenDoor"@nl ;
+    mim:aggregatietype mim:Geen ;
+    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/vroegsignaal> ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/signaalpartner> ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/vroegsignaal/verzondendoor"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:kardinaliteitRelatieBron "0..*" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "verzondenDoor"@nl ;
+    mim:unidirectioneel true ;
+    dcterms:identifier "EAID_5CCE8C02_FBA7_405f_A9F1_4DF3182B7437" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/vroegsignaal> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/signaalpartner> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/vroegsignaalzaak/heeft> a mim:Relatiesoort,
+        owl:ObjectProperty ;
+    rdfs:label "heeft"@nl ;
+    mim:aggregatietype mim:Geen ;
+    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/vroegsignaalzaak> ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/contactpoging> ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/vroegsignaalzaak/heeft"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "0..*" ;
+    mim:kardinaliteitRelatieBron "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "heeft"@nl ;
+    mim:unidirectioneel true ;
+    dcterms:identifier "EAID_614E37B8_40E2_4a6d_B8B9_1A4939BAE27E" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/vroegsignaalzaak> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/contactpoging> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/vroegsignaalzaak/opgepaktdoor> a mim:Relatiesoort,
+        owl:ObjectProperty ;
+    rdfs:label "opgepaktDoor"@nl ;
+    mim:aggregatietype mim:Geen ;
+    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/vroegsignaalzaak> ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/nietnatuurlijkpersoon> ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/vroegsignaalzaak/opgepaktdoor"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:kardinaliteitRelatieBron "0..*" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "opgepaktDoor"@nl ;
+    mim:unidirectioneel true ;
+    dcterms:identifier "EAID_EB0C17C7_84CB_4130_93A0_B58E06C70982" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/vroegsignaalzaak> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/nietnatuurlijkpersoon> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/vroegsignaalzaak/opgepaktnamens> a mim:Relatiesoort,
+        owl:ObjectProperty ;
+    rdfs:label "opgepaktNamens"@nl ;
+    mim:aggregatietype mim:Geen ;
+    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/vroegsignaalzaak> ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gemeente> ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/vroegsignaalzaak/opgepaktnamens"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:kardinaliteitRelatieBron "0..*" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "opgepaktNamens"@nl ;
+    mim:unidirectioneel true ;
+    dcterms:identifier "EAID_3A702009_0E61_4756_AD68_959F192FA31A" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/vroegsignaalzaak> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gemeente> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/v3.0.0/sociaal-domein/schulden/vroegsignalering/vroegsignalering-details> a owl:Ontology ;
+    rdfs:label "Vroegsignalering Details"@nl ;
+    dcterms:identifier "EAID_6D5829BF_AF12_4464_9EAD_E336DEFDF442" ;
+    dcterms:isPartOf <https://lod.gemeentelijkgegevensmodel.nl/> ;
+    owl:versionInfo "v3.0.0" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm/besloten-vennootschap> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm> ;
+    rdfs:label "Besloten vennootschap"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm/besloten-vennootschap"^^xsd:anyURI ;
+    mim:naam "Besloten vennootschap"@nl ;
+    dcterms:identifier "EAID_0421043D_7674_4676_AFB1_BC3D99D4B6E5" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm> ;
+    skos:prefLabel "Besloten vennootschap"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm/commanditaire-vennootschap> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm> ;
+    rdfs:label "commanditaire vennootschap"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm/commanditaire-vennootschap"^^xsd:anyURI ;
+    mim:naam "commanditaire vennootschap"@nl ;
+    dcterms:identifier "EAID_D6D501EE_C49F_48a8_82C6_FEE1F2B3379F" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm> ;
+    skos:prefLabel "commanditaire vennootschap"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm/cooperatie-europees-economische-samenwerking> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm> ;
+    rdfs:label "cooperatie, Europees Economische Samenwerking"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm/cooperatie-europees-economische-samenwerking"^^xsd:anyURI ;
+    mim:naam "cooperatie, Europees Economische Samenwerking"@nl ;
+    dcterms:identifier "EAID_2E4AB75B_0AC0_41ea_BB36_EBF64B695CEE" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm> ;
+    skos:prefLabel "cooperatie, Europees Economische Samenwerking"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm/europese-cooperatieve-vennootschap> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm> ;
+    rdfs:label "Europese Cooperatieve Vennootschap"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm/europese-cooperatieve-vennootschap"^^xsd:anyURI ;
+    mim:naam "Europese Cooperatieve Vennootschap"@nl ;
+    dcterms:identifier "EAID_70A9994B_495D_4f9d_809C_42A7CC776AFD" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm> ;
+    skos:prefLabel "Europese Cooperatieve Vennootschap"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm/europese-naamloze-vennootschap> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm> ;
+    rdfs:label "Europese Naamloze Vennootschap"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm/europese-naamloze-vennootschap"^^xsd:anyURI ;
+    mim:naam "Europese Naamloze Vennootschap"@nl ;
+    dcterms:identifier "EAID_6B9385CD_C640_4bdf_926C_1297DBF6D661" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm> ;
+    skos:prefLabel "Europese Naamloze Vennootschap"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm/kapitaalvennootschap-binnen-eer> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm> ;
+    rdfs:label "kapitaalvennootschap binnen EER"@nl ;
+    mim:definitie """Een kapitaalvennootschap die is opgericht buiten Nederland in een van 
+de landen van de Europese Economische Ruimte (Europese Unie + 
+IJsland, Noorwegen en Liechtenstein)."""@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm/kapitaalvennootschap-binnen-eer"^^xsd:anyURI ;
+    mim:naam "kapitaalvennootschap binnen EER"@nl ;
+    dcterms:identifier "EAID_34E7DC73_16A8_4fd1_9CB3_4095FE202D8B" ;
+    skos:definition """Een kapitaalvennootschap die is opgericht buiten Nederland in een van 
+de landen van de Europese Economische Ruimte (Europese Unie + 
+IJsland, Noorwegen en Liechtenstein)."""@nl ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm> ;
+    skos:prefLabel "kapitaalvennootschap binnen EER"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm/kapitaalvennootschap-buiten-eer> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm> ;
+    rdfs:label "kapitaalvennootschap buiten EER"@nl ;
+    mim:definitie """Een kapitaalvennootschap die is opgericht buiten de landen van de 
+Europese Economische Ruimte (Europese Unie + IJsland, Noorwegen 
+en Liechtenstein)."""@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm/kapitaalvennootschap-buiten-eer"^^xsd:anyURI ;
+    mim:naam "kapitaalvennootschap buiten EER"@nl ;
+    dcterms:identifier "EAID_6D8C84F4_AF13_446b_8F70_9464C373D128" ;
+    skos:definition """Een kapitaalvennootschap die is opgericht buiten de landen van de 
+Europese Economische Ruimte (Europese Unie + IJsland, Noorwegen 
+en Liechtenstein)."""@nl ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm> ;
+    skos:prefLabel "kapitaalvennootschap buiten EER"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm/kerkelijke-organisatie> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm> ;
+    rdfs:label "kerkelijke Organisatie"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm/kerkelijke-organisatie"^^xsd:anyURI ;
+    mim:naam "kerkelijke Organisatie"@nl ;
+    dcterms:identifier "EAID_5FA6B487_7E31_4f47_AE95_A6C1C55FA712" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm> ;
+    skos:prefLabel "kerkelijke Organisatie"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm/leeg> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm> ;
+    rdfs:label "Leeg"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm/leeg"^^xsd:anyURI ;
+    mim:naam "Leeg"@nl ;
+    dcterms:identifier "EAID_6E086C68_3842_4654_8E6C_390DAABECFDB" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm> ;
+    skos:prefLabel "Leeg"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm/maatschap> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm> ;
+    rdfs:label "maatschap"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm/maatschap"^^xsd:anyURI ;
+    mim:naam "maatschap"@nl ;
+    dcterms:identifier "EAID_F6B9EB56_4FAE_4b95_8912_EFAA70A3B3A8" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm> ;
+    skos:prefLabel "maatschap"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm/naamloze-vennootschap> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm> ;
+    rdfs:label "naamloze Vennootschap"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm/naamloze-vennootschap"^^xsd:anyURI ;
+    mim:naam "naamloze Vennootschap"@nl ;
+    dcterms:identifier "EAID_F5F8021F_07D1_47d9_95B0_31E560C8ED8C" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm> ;
+    skos:prefLabel "naamloze Vennootschap"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm/onbekend> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm> ;
+    rdfs:label "Onbekend"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm/onbekend"^^xsd:anyURI ;
+    mim:naam "Onbekend"@nl ;
+    dcterms:identifier "EAID_14EACDE4_4C1D_4fe8_BE9F_1DC635A935D2" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm> ;
+    skos:prefLabel "Onbekend"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm/onderlinge-waarborg-maatschappij> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm> ;
+    rdfs:label "onderlinge Waarborg Maatschappij"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm/onderlinge-waarborg-maatschappij"^^xsd:anyURI ;
+    mim:naam "onderlinge Waarborg Maatschappij"@nl ;
+    dcterms:identifier "EAID_CE577F8B_2CED_4ec1_A4C7_F9CC015979C5" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm> ;
+    skos:prefLabel "onderlinge Waarborg Maatschappij"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm/overig-privaatrechtelijke-rechtspersoon> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm> ;
+    rdfs:label "overig privaatrechtelijke rechtspersoon"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm/overig-privaatrechtelijke-rechtspersoon"^^xsd:anyURI ;
+    mim:naam "overig privaatrechtelijke rechtspersoon"@nl ;
+    dcterms:identifier "EAID_CC7F4098_8416_428a_849F_77D9EB7EBA52" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm> ;
+    skos:prefLabel "overig privaatrechtelijke rechtspersoon"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm/overige-buitenlandse-rechtspersoon-vennootschap> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm> ;
+    rdfs:label "overige buitenlandse rechtspersoon vennootschap"@nl ;
+    mim:definitie """Overige buitenlandse rechtspersonen of vennootschappen die geen 
+kapitaalvennootschap zijn binnen of buiten de E.E.R."""@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm/overige-buitenlandse-rechtspersoon-vennootschap"^^xsd:anyURI ;
+    mim:naam "overige buitenlandse rechtspersoon vennootschap"@nl ;
+    dcterms:identifier "EAID_76EB22E5_E000_40d1_BEC5_5ECC9CEF7BEA" ;
+    skos:definition """Overige buitenlandse rechtspersonen of vennootschappen die geen 
+kapitaalvennootschap zijn binnen of buiten de E.E.R."""@nl ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm> ;
+    skos:prefLabel "overige buitenlandse rechtspersoon vennootschap"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm/publiekrechtelijke-rechtspersoon> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm> ;
+    rdfs:label "publiekrechtelijke Rechtspersoon"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm/publiekrechtelijke-rechtspersoon"^^xsd:anyURI ;
+    mim:naam "publiekrechtelijke Rechtspersoon"@nl ;
+    dcterms:identifier "EAID_BA025807_24BE_454c_9F23_661C5D9D7449" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm> ;
+    skos:prefLabel "publiekrechtelijke Rechtspersoon"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm/rederij> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm> ;
+    rdfs:label "rederij"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm/rederij"^^xsd:anyURI ;
+    mim:naam "rederij"@nl ;
+    dcterms:identifier "EAID_2F8FA210_9463_4253_8ADE_30CB5A546093" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm> ;
+    skos:prefLabel "rederij"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm/stichting> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm> ;
+    rdfs:label "stichting"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm/stichting"^^xsd:anyURI ;
+    mim:naam "stichting"@nl ;
+    dcterms:identifier "EAID_62D96762_6F98_478a_B1E7_8F146257999D" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm> ;
+    skos:prefLabel "stichting"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm/vennootschap-onder-firma> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm> ;
+    rdfs:label "vennootschap onder Firma"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm/vennootschap-onder-firma"^^xsd:anyURI ;
+    mim:naam "vennootschap onder Firma"@nl ;
+    dcterms:identifier "EAID_7A712E16_3CAC_499a_9F1D_3160D77259EF" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm> ;
+    skos:prefLabel "vennootschap onder Firma"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm/vereniging> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm> ;
+    rdfs:label "vereniging"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm/vereniging"^^xsd:anyURI ;
+    mim:naam "vereniging"@nl ;
+    dcterms:identifier "EAID_56D0E57A_8C54_4da5_AA99_875B773FBA0E" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm> ;
+    skos:prefLabel "vereniging"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm/vereniging-van-eigenaars> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm> ;
+    rdfs:label "vereniging van Eigenaars"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm/vereniging-van-eigenaars"^^xsd:anyURI ;
+    mim:naam "vereniging van Eigenaars"@nl ;
+    dcterms:identifier "EAID_17271F2C_240A_4179_97BC_B7A3756F7305" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm> ;
+    skos:prefLabel "vereniging van Eigenaars"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gemeente/begingeldigheid> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "beginGeldigheid"@nl ;
+    mim:datumOpname "2007-04-09"^^xsd:date ;
+    mim:definitie """Definitie
+BeginGeldigheid is de datum waarop een versie van een BAG-object geldig is in de werkelijkheid conform de ingangsdatum in het brondocument. Dit tijdstip wordt vastgelegd in de beginGeldigheid. Als er geen expliciete ingangsdatum van geldigheid is opgenomen, wordt de datum van het brondocument overgenomen.
+Beschrijving
+Vanaf deze datum zijn gegevens in de BAG geldig. Bij elke verandering in de BAG zetten we een datum BeginGeldigheid . Wanneer er geen startdatum van geldigheid is, dan gebruiken we de datum van het brondocument als startdatum"""@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:herkomst "GFO BG" ;
+    mim:herkomstDefinitie "GFO BG" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gemeente/begingeldigheid"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde false ;
+    mim:naam "beginGeldigheid"@nl ;
+    mim:type mim:Date ;
+    dcterms:identifier "EAID_97DCF1DA_8BDA_4c54_9082_E9FE5029EF33" ;
+    rdfs:comment """Definitie
+BeginGeldigheid is de datum waarop een versie van een BAG-object geldig is in de werkelijkheid conform de ingangsdatum in het brondocument. Dit tijdstip wordt vastgelegd in de beginGeldigheid. Als er geen expliciete ingangsdatum van geldigheid is opgenomen, wordt de datum van het brondocument overgenomen.
+Beschrijving
+Vanaf deze datum zijn gegevens in de BAG geldig. Bij elke verandering in de BAG zetten we een datum BeginGeldigheid . Wanneer er geen startdatum van geldigheid is, dan gebruiken we de datum van het brondocument als startdatum"""@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gemeente> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/> ;
+    rdfs:range xsd:date .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gemeente/datumeinde> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "datumEinde"@nl ;
+    mim:definitie "De datum waarop de object in de BAG formeel is ingetrokken."@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gemeente/datumeinde"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde false ;
+    mim:naam "datumEinde"@nl ;
+    mim:type mim:Date ;
+    dcterms:identifier "EAID_76AC47A1_DB41_4b6c_BB26_4A52D266F3A1" ;
+    rdfs:comment "De datum waarop de object in de BAG formeel is ingetrokken."@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gemeente> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/> ;
+    rdfs:range xsd:date .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gemeente/datumingang> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "datumIngang"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gemeente/datumingang"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde false ;
+    mim:naam "datumIngang"@nl ;
+    mim:type mim:Date ;
+    dcterms:identifier "EAID_0267D7A4_44E8_4491_AE8D_04B810394855" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gemeente> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/> ;
+    rdfs:range xsd:date .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gemeente/eindgeldigheid> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "eindGeldigheid"@nl ;
+    mim:datumOpname "2007-04-09"^^xsd:date ;
+    mim:definitie """Definitie
+EindGeldigheid is de datum waarop de periode van geldigheid van een versie van een BAG-object eindigt. Bijvoorbeeld als gevolg van de vaststelling van een nieuw brondocument. Wanneer er geen tijdstip is ingevuld, dan is de versie nog geldig. Dit tijdstip wordt vastgelegd in de eindGeldigheid.
+Beschrijving
+Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van een object verandert, zetten we bij de laatste gegevens van dat object een datum EindGeldigheid. Wanneer er geen tijdstip EindGeldigheid is ingevuld, is die versie van het object nog geldig."""@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:herkomst "GFO BG" ;
+    mim:herkomstDefinitie "GFO BG" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gemeente/eindgeldigheid"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde false ;
+    mim:naam "eindGeldigheid"@nl ;
+    mim:type mim:Date ;
+    dcterms:identifier "EAID_0F6C083A_7EC5_4aef_BCDF_000952FBA82E" ;
+    rdfs:comment """Definitie
+EindGeldigheid is de datum waarop de periode van geldigheid van een versie van een BAG-object eindigt. Bijvoorbeeld als gevolg van de vaststelling van een nieuw brondocument. Wanneer er geen tijdstip is ingevuld, dan is de versie nog geldig. Dit tijdstip wordt vastgelegd in de eindGeldigheid.
+Beschrijving
+Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van een object verandert, zetten we bij de laatste gegevens van dat object een datum EindGeldigheid. Wanneer er geen tijdstip EindGeldigheid is ingevuld, is die versie van het object nog geldig."""@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gemeente> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/> ;
+    rdfs:range xsd:date .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gemeente/geconstateerd> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "Geconstateerd"@nl ;
+    mim:authentiek mim:Authentiek ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gemeente/geconstateerd"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde false ;
+    mim:naam "Geconstateerd"@nl ;
+    mim:type mim:Boolean ;
+    dcterms:identifier "EAID_1495BB67_4244_411a_BD67_3E6FDBB4DF3E" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gemeente> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/> ;
+    rdfs:range xsd:boolean .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gemeente/gemeentecode> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "gemeentecode"@nl ;
+    mim:datumOpname "2007-04-09"^^xsd:date ;
+    mim:definitie "Een numerieke aanduiding waarmee een Nederlandse gemeente uniek wordt aangeduid"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:herkomst "GFO BG" ;
+    mim:herkomstDefinitie "GFO BG op basis van GBA, Logisch Ontwerp 2.0, 1-10-1994, p. 220" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gemeente/gemeentecode"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde false ;
+    mim:naam "gemeentecode"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_A0D1CAD2_51F6_4a90_B56F_D5BE251BAB12" ;
+    rdfs:comment "Een numerieke aanduiding waarmee een Nederlandse gemeente uniek wordt aangeduid"@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gemeente> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gemeente/gemeentenaam> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "gemeentenaam"@nl ;
+    mim:datumOpname "2007-04-09"^^xsd:date ;
+    mim:definitie "De officiële door de gemeente vastgestelde gemeentenaam."@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:herkomst "GFO BG" ;
+    mim:herkomstDefinitie "GFO BG" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gemeente/gemeentenaam"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde false ;
+    mim:naam "gemeentenaam"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_91EAE994_CC72_482a_A4B3_4B28B1EB4DBA" ;
+    rdfs:comment "De officiële door de gemeente vastgestelde gemeentenaam."@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gemeente> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gemeente/gemeentenaam-nen> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "gemeentenaam NEN"@nl ;
+    mim:datumOpname "2009-02-02"^^xsd:date ;
+    mim:definitie "De officieel vastgestelde en waar nodig ingekorte naam van de gemeente"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:herkomst "NEN 5825 (2002)" ;
+    mim:herkomstDefinitie "NEN 5825 (2002)" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gemeente/gemeentenaam-nen"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde false ;
+    mim:naam "gemeentenaam NEN"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_FA5E013E_DB9E_4df3_9850_53FC868F6BF4" ;
+    rdfs:comment "De officieel vastgestelde en waar nodig ingekorte naam van de gemeente"@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gemeente> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gemeente/geometrie> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "geometrie"@nl ;
+    mim:datumOpname "2007-04-09"^^xsd:date ;
+    mim:definitie "De tweedimensionale geometrische representatie van de omtrekken van het grondgebied van een gemeente."@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:herkomst "IMGeo" ;
+    mim:herkomstDefinitie "KING op basis van IMGeo" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gemeente/geometrie"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie true ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde false ;
+    mim:naam "geometrie"@nl ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/wktliteral> ;
+    dcterms:identifier "EAID_ABD61FAB_0454_4cd7_8D1B_E3F71E858937" ;
+    rdfs:comment "De tweedimensionale geometrische representatie van de omtrekken van het grondgebied van een gemeente."@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gemeente> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/> ;
+    rdfs:range geo:wktLiteral .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gemeente/identificatie> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "identificatie"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gemeente/identificatie"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde false ;
+    mim:naam "identificatie"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_F937167E_2F00_47fb_A2AF_FF18E8F1403F" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gemeente> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gemeente/versie> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "versie"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gemeente/versie"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde false ;
+    mim:naam "versie"@nl ;
+    mim:type mim:Integer ;
+    dcterms:identifier "EAID_F0BD0F33_CBA1_4954_9C66_14E0C2FF1EC1" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gemeente> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/> ;
+    rdfs:range xsd:integer .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/nietnatuurlijkpersoon/datumaanvang> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "datumAanvang"@nl ;
+    mim:definitie "{nog niet in NHR uitgewerkt"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/nietnatuurlijkpersoon/datumaanvang"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie true ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "datumAanvang"@nl ;
+    mim:type mim:Date ;
+    dcterms:identifier "EAID_06D585D5_E6E0_4b11_B966_158F841E0E9C" ;
+    rdfs:comment "{nog niet in NHR uitgewerkt"@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/nietnatuurlijkpersoon> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
+    rdfs:range xsd:date .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/nietnatuurlijkpersoon/datumeinde> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "datumEinde"@nl ;
+    mim:definitie "{nog niet in NHR uitgewerkt"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/nietnatuurlijkpersoon/datumeinde"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie true ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "0..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "datumEinde"@nl ;
+    mim:type mim:Date ;
+    dcterms:identifier "EAID_D5B18FDC_16E7_4ebd_9D01_950766A89142" ;
+    rdfs:comment "{nog niet in NHR uitgewerkt"@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/nietnatuurlijkpersoon> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
+    rdfs:range xsd:date .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/nietnatuurlijkpersoon/datumuitschrijving> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "datumUitschrijving"@nl ;
+    mim:definitie "De datum dat de de Niet-Natuurlijk persoon is uitgeschreven."@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/nietnatuurlijkpersoon/datumuitschrijving"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "datumUitschrijving"@nl ;
+    mim:type mim:Date ;
+    dcterms:identifier "EAID_B1B7167E_F4D5_4ff7_B03B_195C5A93D1B6" ;
+    rdfs:comment "De datum dat de de Niet-Natuurlijk persoon is uitgeschreven."@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/nietnatuurlijkpersoon> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
+    rdfs:range xsd:date .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/nietnatuurlijkpersoon/datumvoortzetting> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "datumVoortzetting"@nl ;
+    mim:definitie "{nog niet in NHR uitgewerkt"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/nietnatuurlijkpersoon/datumvoortzetting"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie true ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "0..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "datumVoortzetting"@nl ;
+    mim:type mim:Date ;
+    dcterms:identifier "EAID_ACB0B6B5_094C_4ab3_AFED_031A9F0A077B" ;
+    rdfs:comment "{nog niet in NHR uitgewerkt"@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/nietnatuurlijkpersoon> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
+    rdfs:range xsd:date .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/nietnatuurlijkpersoon/faxnummer> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "faxnummer"@nl ;
+    mim:definitie "Faxnummer waaronder het subject in de regel bereikbaar is."@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/nietnatuurlijkpersoon/faxnummer"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "0..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "faxnummer"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_4BA30750_DAFC_41ed_9FD6_89AC2245B21B" ;
+    rdfs:comment "Faxnummer waaronder het subject in de regel bereikbaar is."@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/nietnatuurlijkpersoon> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/nietnatuurlijkpersoon/ingeschreven> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "ingeschreven"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/nietnatuurlijkpersoon/ingeschreven"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "ingeschreven"@nl ;
+    mim:type mim:Boolean ;
+    dcterms:identifier "EAID_A8568F89_4EDD_45c1_9079_BBC84EE70484" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/nietnatuurlijkpersoon> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
+    rdfs:range xsd:boolean .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/nietnatuurlijkpersoon/inoprichting> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "inOprichting"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/nietnatuurlijkpersoon/inoprichting"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "inOprichting"@nl ;
+    mim:type mim:Boolean ;
+    dcterms:identifier "EAID_4FE7D979_9C8D_422e_BF58_056E7FA923A0" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/nietnatuurlijkpersoon> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
+    rdfs:range xsd:boolean .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/nietnatuurlijkpersoon/kvknummer> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "KVKnummer"@nl ;
+    mim:definitie "Landelijk uniek identificerend administratienummer van een MAATSCHAPPELIJKE ACTIVITEIT behorend bij een SUBJECT zoals toegewezen door de Kamer van Koophandel (KvK)."@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/nietnatuurlijkpersoon/kvknummer"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "0..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "KVKnummer"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_D7CD3AD8_4867_4c14_94C4_34741A1C8FE7" ;
+    rdfs:comment "Landelijk uniek identificerend administratienummer van een MAATSCHAPPELIJKE ACTIVITEIT behorend bij een SUBJECT zoals toegewezen door de Kamer van Koophandel (KvK)."@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/nietnatuurlijkpersoon> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/nietnatuurlijkpersoon/nnpid> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "NNPID"@nl ;
+    mim:definitie "Een in het handelsregister over een NIET-NATUURLIJK PERSOON opgenomen, door de Kamer van Koophandel toegekend, uniek nummer. De attribuutsoort kent onder meer historie omdat het mogelijk is dat de NNP-ID van een ingeschreven niet-natuurlijk persoon wijzigt, met name vanwege &lsquo;ambtelijke&rsquo; correcties."@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/nietnatuurlijkpersoon/nnpid"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie true ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "NNPID"@nl ;
+    mim:type mim:Integer ;
+    dcterms:identifier "EAID_53D269C1_BBFD_4e2f_9166_5165EBBFBD9F" ;
+    rdfs:comment "Een in het handelsregister over een NIET-NATUURLIJK PERSOON opgenomen, door de Kamer van Koophandel toegekend, uniek nummer. De attribuutsoort kent onder meer historie omdat het mogelijk is dat de NNP-ID van een ingeschreven niet-natuurlijk persoon wijzigt, met name vanwege &lsquo;ambtelijke&rsquo; correcties."@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/nietnatuurlijkpersoon> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
+    rdfs:range xsd:integer .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/nietnatuurlijkpersoon/rechtsvorm> a mim:Attribuutsoort,
+        owl:ObjectProperty ;
+    rdfs:label "rechtsvorm"@nl ;
+    mim:definitie "Aanduiding van de vorm die in rechte bekend is van de INGESCHREVEN NIET-NATUURLIJKE PERSOON"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/nietnatuurlijkpersoon/rechtsvorm"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie true ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "rechtsvorm"@nl ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm> ;
+    dcterms:identifier "EAID_2912AA27_945C_4e90_B95D_CA80312F884E" ;
+    rdfs:comment "Aanduiding van de vorm die in rechte bekend is van de INGESCHREVEN NIET-NATUURLIJKE PERSOON"@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/nietnatuurlijkpersoon> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/nietnatuurlijkpersoon/rsinnummer> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "RSINNummer"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/nietnatuurlijkpersoon/rsinnummer"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "RSINNummer"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_06E77E04_431E_437b_91E5_5BBEAA6D2A91" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/nietnatuurlijkpersoon> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/nietnatuurlijkpersoon/statutairenaam> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "statutaireNaam"@nl ;
+    mim:definitie "Naam van de niet-natuurlijke persoon zoals deze is vastgelegd in de statuten (rechtspersoon) of in de vennootschapsovereenkomst is overeengekomen (Vennootschap onder firma of Commanditaire vennootschap)."@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/nietnatuurlijkpersoon/statutairenaam"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie true ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "statutaireNaam"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_96573FB8_102E_41d7_A5A3_0097AFBA37C3" ;
+    rdfs:comment "Naam van de niet-natuurlijke persoon zoals deze is vastgelegd in de statuten (rechtspersoon) of in de vennootschapsovereenkomst is overeengekomen (Vennootschap onder firma of Commanditaire vennootschap)."@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/nietnatuurlijkpersoon> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/nietnatuurlijkpersoon/statutairezetel> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "statutaireZetel"@nl ;
+    mim:definitie "De plaats waar de INGESCHREVEN NIET-NATUURLIJKE PERSOON volgens haar statuten gevestigd is."@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/nietnatuurlijkpersoon/statutairezetel"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie true ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "0..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "statutaireZetel"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_919162D1_B0D7_48ad_A2AF_AC71B55736A1" ;
+    rdfs:comment "De plaats waar de INGESCHREVEN NIET-NATUURLIJKE PERSOON volgens haar statuten gevestigd is."@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/nietnatuurlijkpersoon> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/nietnatuurlijkpersoon/websiteurl> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "websiteURL"@nl ;
+    mim:definitie "Het label of etiket dat aan de specifieke informatiebron, zoals een webpagina, een bestand of een plaatje op internet is toegewezen waar het SUBJECT in de regel op het internet vindbaar is."@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/nietnatuurlijkpersoon/websiteurl"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "0..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "websiteURL"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_DDC08AE5_061E_4d41_963A_91A092F53573" ;
+    rdfs:comment "Het label of etiket dat aan de specifieke informatiebron, zoals een webpagina, een bestand of een plaatje op internet is toegewezen waar het SUBJECT in de regel op het internet vindbaar is."@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/nietnatuurlijkpersoon> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/contactpoging/bereikt> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "bereikt"@nl ;
+    mim:definitie "Er is succesvol contact met de client gemaakt."@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/contactpoging/bereikt"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "bereikt"@nl ;
+    mim:type mim:Boolean ;
+    dcterms:identifier "EAID_2F9C3566_EAE3_40e7_B182_8BF3F8E740EE" ;
+    rdfs:comment "Er is succesvol contact met de client gemaakt."@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/contactpoging> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/> ;
+    rdfs:range xsd:boolean .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/contactpoging/dagdeel> a mim:Attribuutsoort,
+        owl:ObjectProperty ;
+    rdfs:label "dagdeel"@nl ;
+    mim:definitie "Ochtend, middag of avond"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/contactpoging/dagdeel"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "dagdeel"@nl ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumdagdeel> ;
+    dcterms:identifier "EAID_1D552330_BA39_4684_A980_FF08E9D48E01" ;
+    rdfs:comment "Ochtend, middag of avond"@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/contactpoging> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumdagdeel> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/contactpoging/datum> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "datum"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/contactpoging/datum"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "datum"@nl ;
+    mim:type mim:Date ;
+    dcterms:identifier "EAID_728F455C_E145_4f01_939C_3278ADE853D4" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/contactpoging> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/> ;
+    rdfs:range xsd:date .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/contactpoging/soort> a mim:Attribuutsoort,
+        owl:ObjectProperty ;
+    rdfs:label "soort"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/contactpoging/soort"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "soort"@nl ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumcontactsoort> ;
+    dcterms:identifier "EAID_786391BB_51AD_4657_93DB_806FA7E37159" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/contactpoging> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumcontactsoort> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumcontactsoort/administratief> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumcontactsoort> ;
+    rdfs:label "Administratief"@nl ;
+    mim:definitie "Administratieve afhandeling zonder contact"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumcontactsoort/administratief"^^xsd:anyURI ;
+    mim:naam "Administratief"@nl ;
+    dcterms:identifier "EAID_C554BB7E_1F7F_4577_AB75_6C2ED684E405" ;
+    skos:definition "Administratieve afhandeling zonder contact"@nl ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumcontactsoort> ;
+    skos:prefLabel "Administratief"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumcontactsoort> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumcontactsoort/afspraak-op-locatie> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumcontactsoort> ;
+    rdfs:label "Afspraak op locatie"@nl ;
+    mim:definitie "Het contact heeft op locatie van de uitvoerder plaatsgevonden, bijv. op het gemeentekantoor, het kantoor van het sociaal team of op het kantoor van een welzijnsorganisatie."@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumcontactsoort/afspraak-op-locatie"^^xsd:anyURI ;
+    mim:naam "Afspraak op locatie"@nl ;
+    dcterms:identifier "EAID_BDCA3519_4667_4bed_B9B0_31119C1EC773" ;
+    skos:definition "Het contact heeft op locatie van de uitvoerder plaatsgevonden, bijv. op het gemeentekantoor, het kantoor van het sociaal team of op het kantoor van een welzijnsorganisatie."@nl ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumcontactsoort> ;
+    skos:prefLabel "Afspraak op locatie"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumcontactsoort> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumcontactsoort/brief> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumcontactsoort> ;
+    rdfs:label "Brief"@nl ;
+    mim:definitie "Een fysieke brief, vaak met uitleg over de achterstand en het hulpaanbod, verzonden per post."@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumcontactsoort/brief"^^xsd:anyURI ;
+    mim:naam "Brief"@nl ;
+    dcterms:identifier "EAID_02ACFEE8_9052_42e2_B837_76E4C308440E" ;
+    skos:definition "Een fysieke brief, vaak met uitleg over de achterstand en het hulpaanbod, verzonden per post."@nl ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumcontactsoort> ;
+    skos:prefLabel "Brief"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumcontactsoort> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumcontactsoort/huisbezoek> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumcontactsoort> ;
+    rdfs:label "Huisbezoek"@nl ;
+    mim:definitie "Een persoonlijke contactpoging aan huis, al dan niet aangekondigd, om direct met de inwoner in gesprek te gaan."@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumcontactsoort/huisbezoek"^^xsd:anyURI ;
+    mim:naam "Huisbezoek"@nl ;
+    dcterms:identifier "EAID_E643B2A9_A720_4302_B6FC_A206E646BCFD" ;
+    skos:definition "Een persoonlijke contactpoging aan huis, al dan niet aangekondigd, om direct met de inwoner in gesprek te gaan."@nl ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumcontactsoort> ;
+    skos:prefLabel "Huisbezoek"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumcontactsoort> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumcontactsoort/kaartje> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumcontactsoort> ;
+    rdfs:label "Kaartje"@nl ;
+    mim:definitie "Een informatief of uitnodigend kaartje dat bij de inwoner thuis wordt achtergelaten, bijvoorbeeld bij een gemist huisbezoek."@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumcontactsoort/kaartje"^^xsd:anyURI ;
+    mim:naam "Kaartje"@nl ;
+    dcterms:identifier "EAID_A181697F_32AA_4647_AFDD_1EAA8C08BC20" ;
+    skos:definition "Een informatief of uitnodigend kaartje dat bij de inwoner thuis wordt achtergelaten, bijvoorbeeld bij een gemist huisbezoek."@nl ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumcontactsoort> ;
+    skos:prefLabel "Kaartje"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumcontactsoort> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumcontactsoort/mail> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumcontactsoort> ;
+    rdfs:label "Mail"@nl ;
+    mim:definitie "Contact via e-mail, vaak gebruikt voor laagdrempelige informatievoorziening of opvolging."@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumcontactsoort/mail"^^xsd:anyURI ;
+    mim:naam "Mail"@nl ;
+    dcterms:identifier "EAID_11D05D2A_08A8_4e76_A5C0_6883576A39ED" ;
+    skos:definition "Contact via e-mail, vaak gebruikt voor laagdrempelige informatievoorziening of opvolging."@nl ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumcontactsoort> ;
+    skos:prefLabel "Mail"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumcontactsoort> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumcontactsoort/sms-whatsapp> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumcontactsoort> ;
+    rdfs:label "SMS/Whatsapp"@nl ;
+    mim:definitie "Een tekstbericht verstuurd via sms, WhatsApp of andere digitale berichtendienst."@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumcontactsoort/sms-whatsapp"^^xsd:anyURI ;
+    mim:naam "SMS/Whatsapp"@nl ;
+    dcterms:identifier "EAID_E06A63B4_D1FE_4e63_838E_160699ED9F94" ;
+    skos:definition "Een tekstbericht verstuurd via sms, WhatsApp of andere digitale berichtendienst."@nl ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumcontactsoort> ;
+    skos:prefLabel "SMS/Whatsapp"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumcontactsoort> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumcontactsoort/telefoon> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumcontactsoort> ;
+    rdfs:label "Telefoon"@nl ;
+    mim:definitie "Telefonisch contact, waarbij direct met de inwoner wordt gesproken of een voicemail wordt ingesproken."@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumcontactsoort/telefoon"^^xsd:anyURI ;
+    mim:naam "Telefoon"@nl ;
+    dcterms:identifier "EAID_03309788_EFF0_4933_8B03_C1194AA6C607" ;
+    skos:definition "Telefonisch contact, waarbij direct met de inwoner wordt gesproken of een voicemail wordt ingesproken."@nl ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumcontactsoort> ;
+    skos:prefLabel "Telefoon"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumcontactsoort> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumdagdeel/avond> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumdagdeel> ;
+    rdfs:label "Avond"@nl ;
+    mim:definitie "18:00 uur of later"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumdagdeel/avond"^^xsd:anyURI ;
+    mim:naam "Avond"@nl ;
+    dcterms:identifier "EAID_84CFD48F_6EA9_41cb_BD92_3277330FC709" ;
+    skos:definition "18:00 uur of later"@nl ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumdagdeel> ;
+    skos:prefLabel "Avond"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumdagdeel> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumdagdeel/middag> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumdagdeel> ;
+    rdfs:label "Middag"@nl ;
+    mim:definitie "Tussen 12:00 en 18:00"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumdagdeel/middag"^^xsd:anyURI ;
+    mim:naam "Middag"@nl ;
+    dcterms:identifier "EAID_B48EBE36_3C7B_4738_A89A_2010D7A19E38" ;
+    skos:definition "Tussen 12:00 en 18:00"@nl ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumdagdeel> ;
+    skos:prefLabel "Middag"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumdagdeel> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumdagdeel/ochtend> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumdagdeel> ;
+    rdfs:label "Ochtend"@nl ;
+    mim:definitie "Tot 12:00 uur"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumdagdeel/ochtend"^^xsd:anyURI ;
+    mim:naam "Ochtend"@nl ;
+    dcterms:identifier "EAID_EC498B2C_69CE_4ba4_8C48_68C039C3BB8B" ;
+    skos:definition "Tot 12:00 uur"@nl ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumdagdeel> ;
+    skos:prefLabel "Ochtend"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumdagdeel> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumeindresultaat/budget-advies-en-of-quick-fix> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumeindresultaat> ;
+    rdfs:label "(Budget)advies en/of quick fix"@nl ;
+    mim:definitie """Er is contact (geweest) met de inwoner en er is zodanige hulp geboden dat de inwoner binnen 30 dagen na hulpacceptatie (zelf) de betalingsachterstanden op kan lossen. 
+Voorbeelden van ‘quick fixes’: 
+<ul>
+	<li>Hulp bij het maken van betalingsregeling/ betalingsafspraken; </li>
+	<li>Een gesprek over de mogelijkheden om de betalingsachterstanden op te lossen; </li>
+	<li>Hulp bij het ordenen van de administratie; </li>
+	<li>Het voeren van een budgetadviesgesprek; </li>
+	<li>Het geven van informatie en advies over het zelfstandig bereiken van duurzaam financieel evenwicht (zonder gebruik te maken van schuldhulpverlening of andere vormen van financi&#235;le dienstverlening); </li>
+	<li>Hulp bij het aanvragen van toeslagen en andere inkomensondersteunende voorzieningen; </li>
+	<li>Berekening van de beslagvrije voet.</li>
+</ul>"""@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumeindresultaat/budget-advies-en-of-quick-fix"^^xsd:anyURI ;
+    mim:naam "(Budget)advies en/of quick fix"@nl ;
+    dcterms:identifier "EAID_4906ED26_E182_43c7_B408_C9F240A7B831" ;
+    skos:definition """Er is contact (geweest) met de inwoner en er is zodanige hulp geboden dat de inwoner binnen 30 dagen na hulpacceptatie (zelf) de betalingsachterstanden op kan lossen. 
+Voorbeelden van ‘quick fixes’: 
+<ul>
+	<li>Hulp bij het maken van betalingsregeling/ betalingsafspraken; </li>
+	<li>Een gesprek over de mogelijkheden om de betalingsachterstanden op te lossen; </li>
+	<li>Hulp bij het ordenen van de administratie; </li>
+	<li>Het voeren van een budgetadviesgesprek; </li>
+	<li>Het geven van informatie en advies over het zelfstandig bereiken van duurzaam financieel evenwicht (zonder gebruik te maken van schuldhulpverlening of andere vormen van financi&#235;le dienstverlening); </li>
+	<li>Hulp bij het aanvragen van toeslagen en andere inkomensondersteunende voorzieningen; </li>
+	<li>Berekening van de beslagvrije voet.</li>
+</ul>"""@nl ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumeindresultaat> ;
+    skos:prefLabel "(Budget)advies en/of quick fix"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumeindresultaat> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumeindresultaat/definitief-geen-contact-kunnen-krijgen> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumeindresultaat> ;
+    rdfs:label "Definitief geen contact kunnen krijgen"@nl ;
+    mim:definitie "Als het voor het afsluiten van de melding niet is gelukt om in contact te komen met de inwoner. De inwoner reageert niet op de contactpoging(en)."@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumeindresultaat/definitief-geen-contact-kunnen-krijgen"^^xsd:anyURI ;
+    mim:naam "Definitief geen contact kunnen krijgen"@nl ;
+    dcterms:identifier "EAID_AA6FB57F_13C4_4efa_9845_44AC2E9EF780" ;
+    skos:definition "Als het voor het afsluiten van de melding niet is gelukt om in contact te komen met de inwoner. De inwoner reageert niet op de contactpoging(en)."@nl ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumeindresultaat> ;
+    skos:prefLabel "Definitief geen contact kunnen krijgen"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumeindresultaat> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumeindresultaat/geen-reactie-na-eerder-contact> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumeindresultaat> ;
+    rdfs:label "Geen reactie na eerder contact"@nl ;
+    mim:definitie """Er is in eerste instantie contact is met de inwoner. Vervolgens lukt het niet meer om contact te krijgen. 
+Bijvoorbeeld: de inwoner komt niet op de afspraak, is telefonisch onbereikbaar of reageert niet op e-mails of WhatsApp-berichten."""@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumeindresultaat/geen-reactie-na-eerder-contact"^^xsd:anyURI ;
+    mim:naam "Geen reactie na eerder contact"@nl ;
+    dcterms:identifier "EAID_25788895_D937_4ab0_9772_8408011B92CC" ;
+    skos:definition """Er is in eerste instantie contact is met de inwoner. Vervolgens lukt het niet meer om contact te krijgen. 
+Bijvoorbeeld: de inwoner komt niet op de afspraak, is telefonisch onbereikbaar of reageert niet op e-mails of WhatsApp-berichten."""@nl ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumeindresultaat> ;
+    skos:prefLabel "Geen reactie na eerder contact"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumeindresultaat> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumeindresultaat/inwoner-al-bekend-bij-schuldhulpverlening> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumeindresultaat> ;
+    rdfs:label "Inwoner al bekend bij schuldhulpverlening"@nl ;
+    mim:definitie "Een inwoner is al bekend bij schuldhulpverlening (als particulier of als (ex-)ondernemer). Vanuit vroegsignalering is er contact geweest met de betrokken schuldhulpverlener. Deze neemt contact op met de schuldeiser en inwoner."@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumeindresultaat/inwoner-al-bekend-bij-schuldhulpverlening"^^xsd:anyURI ;
+    mim:naam "Inwoner al bekend bij schuldhulpverlening"@nl ;
+    dcterms:identifier "EAID_10141467_E7AB_4d6c_81D5_21EC0E9DC688" ;
+    skos:definition "Een inwoner is al bekend bij schuldhulpverlening (als particulier of als (ex-)ondernemer). Vanuit vroegsignalering is er contact geweest met de betrokken schuldhulpverlener. Deze neemt contact op met de schuldeiser en inwoner."@nl ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumeindresultaat> ;
+    skos:prefLabel "Inwoner al bekend bij schuldhulpverlening"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumeindresultaat> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumeindresultaat/inwoner-heeft-al-een-ander-lopend-traject> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumeindresultaat> ;
+    rdfs:label "Inwoner heeft al een ander lopend traject"@nl ;
+    mim:definitie """Uit eerder contact met de inwoner is bekend dat de inwoner al hulpverlening ontvangt, anders dan schuldhulpverlening. Dit kan zijn bij een externe netwerkpartner of bij een ander onderdeel van het sociaal domein.
+Wanneer de betrokken hulpverlener het signaal overneemt en verdere opvolging doet, wordt de melding binnen vroegsignalering afgesloten met het resultaat: <i>‘inwoner heeft al een ander lopend traject’.</i>
+
+<b>Voorwaarde: afstemming tussen vroegsignalering en betrokken hulpverlener </b>
+Vroegsignalering neemt contact op de betrokken hulpverlener. Zij spreken af wie de opvolging doet:
+<ul>
+	<li><b>Optie 1:</b> De betrokken hulpverlener neemt contact op met de inwoner en eventueel de schuldeiser.
+De vroegsignalering blijft niet actief betrokken en ontvangt mogelijk alleen een terugkoppeling.
+→ Eindresultaat: <i>Inwoner heeft al een ander lopend traject.</i></li>
+	<li><b>Optie 2:</b> De vroegsignalering neemt zelf contact op met de inwoner over de betalingsachterstand. De betrokken hulpverlener speelt hierin geen actieve rol.
+→ Eindresultaat: afhankelijk van de uitkomst van het contact. In de notities kan worden vermeld dat de inwoner ook andere hulp ontvangt, maar het resultaat is <b>niet</b> <i>‘inwoner heeft al een ander lopend traject’.</i></li>
+</ul>
+<b>
+</b><b>Let op:</b> Een bewindvoerder wordt niet beschouwd als betrokken hulpverlener, maar als een verlengde van de inwoner zelf."""@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumeindresultaat/inwoner-heeft-al-een-ander-lopend-traject"^^xsd:anyURI ;
+    mim:naam "Inwoner heeft al een ander lopend traject"@nl ;
+    dcterms:identifier "EAID_EC1F5DE9_2F1A_4df2_9810_D650279C51AF" ;
+    skos:definition """Uit eerder contact met de inwoner is bekend dat de inwoner al hulpverlening ontvangt, anders dan schuldhulpverlening. Dit kan zijn bij een externe netwerkpartner of bij een ander onderdeel van het sociaal domein.
+Wanneer de betrokken hulpverlener het signaal overneemt en verdere opvolging doet, wordt de melding binnen vroegsignalering afgesloten met het resultaat: <i>‘inwoner heeft al een ander lopend traject’.</i>
+
+<b>Voorwaarde: afstemming tussen vroegsignalering en betrokken hulpverlener </b>
+Vroegsignalering neemt contact op de betrokken hulpverlener. Zij spreken af wie de opvolging doet:
+<ul>
+	<li><b>Optie 1:</b> De betrokken hulpverlener neemt contact op met de inwoner en eventueel de schuldeiser.
+De vroegsignalering blijft niet actief betrokken en ontvangt mogelijk alleen een terugkoppeling.
+→ Eindresultaat: <i>Inwoner heeft al een ander lopend traject.</i></li>
+	<li><b>Optie 2:</b> De vroegsignalering neemt zelf contact op met de inwoner over de betalingsachterstand. De betrokken hulpverlener speelt hierin geen actieve rol.
+→ Eindresultaat: afhankelijk van de uitkomst van het contact. In de notities kan worden vermeld dat de inwoner ook andere hulp ontvangt, maar het resultaat is <b>niet</b> <i>‘inwoner heeft al een ander lopend traject’.</i></li>
+</ul>
+<b>
+</b><b>Let op:</b> Een bewindvoerder wordt niet beschouwd als betrokken hulpverlener, maar als een verlengde van de inwoner zelf."""@nl ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumeindresultaat> ;
+    skos:prefLabel "Inwoner heeft al een ander lopend traject"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumeindresultaat> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumeindresultaat/inwoner-heeft-zelf-al-betaald-betalingsregeling-getroffen> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumeindresultaat> ;
+    rdfs:label "Inwoner heeft zelf al betaald/betalingsregeling getroffen"@nl ;
+    mim:definitie "Wanneer de inwoner al een oplossing blijkt te hebben voor de betalingsachterstand op het moment dat ervan uit vroegsignalering contact is met de inwoner. Hij/zij heeft al betaald of een betalingsregeling getroffen."@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumeindresultaat/inwoner-heeft-zelf-al-betaald-betalingsregeling-getroffen"^^xsd:anyURI ;
+    mim:naam "Inwoner heeft zelf al betaald/betalingsregeling getroffen"@nl ;
+    dcterms:identifier "EAID_3F9DB662_46A8_4b74_8435_93D202941CCA" ;
+    skos:definition "Wanneer de inwoner al een oplossing blijkt te hebben voor de betalingsachterstand op het moment dat ervan uit vroegsignalering contact is met de inwoner. Hij/zij heeft al betaald of een betalingsregeling getroffen."@nl ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumeindresultaat> ;
+    skos:prefLabel "Inwoner heeft zelf al betaald/betalingsregeling getroffen"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumeindresultaat> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumeindresultaat/inwoner-hoeft-geen-hulp-vanuit-vroegsignalering> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumeindresultaat> ;
+    rdfs:label "Inwoner hoeft geen hulp vanuit vroegsignalering"@nl ;
+    mim:definitie """Er is contact geweest met de inwoner. Tijdens dit contactmoment geeft de inwoner aan geen hulp nodig te hebben en/of hier geen behoefte aan te hebben.  
+Dit kan verschillende redenen hebben, zoals:
+<ul>
+	<li>De inwoner geeft tijdens het contactmoment aan de betalingsachterstand zelf op te gaan lossen. Bijvoorbeeld door zelf een betalingsregeling te treffen en/of contact op te nemen met de schuldeiser.</li>
+	<li>De inwoner geeft aan niet te wachten op bemoeienis vanuit de gemeente en/of hulpverleningsorganisaties.</li>
+	<li>De inwoner heeft zelf naasten, een bewindvoerder en/of een hulpverleningsorganisatie die (kunnen) gaan helpen.</li>
+</ul>
+Er kan tijdens dit contactmoment wat algemene informatie zijn verstrekt en/of tips gegeven, waar de inwoner zelf mee aan de slag gaat."""@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumeindresultaat/inwoner-hoeft-geen-hulp-vanuit-vroegsignalering"^^xsd:anyURI ;
+    mim:naam "Inwoner hoeft geen hulp vanuit vroegsignalering"@nl ;
+    dcterms:identifier "EAID_0816C533_EF0B_47ac_9A2B_BB439F69E38D" ;
+    skos:definition """Er is contact geweest met de inwoner. Tijdens dit contactmoment geeft de inwoner aan geen hulp nodig te hebben en/of hier geen behoefte aan te hebben.  
+Dit kan verschillende redenen hebben, zoals:
+<ul>
+	<li>De inwoner geeft tijdens het contactmoment aan de betalingsachterstand zelf op te gaan lossen. Bijvoorbeeld door zelf een betalingsregeling te treffen en/of contact op te nemen met de schuldeiser.</li>
+	<li>De inwoner geeft aan niet te wachten op bemoeienis vanuit de gemeente en/of hulpverleningsorganisaties.</li>
+	<li>De inwoner heeft zelf naasten, een bewindvoerder en/of een hulpverleningsorganisatie die (kunnen) gaan helpen.</li>
+</ul>
+Er kan tijdens dit contactmoment wat algemene informatie zijn verstrekt en/of tips gegeven, waar de inwoner zelf mee aan de slag gaat."""@nl ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumeindresultaat> ;
+    skos:prefLabel "Inwoner hoeft geen hulp vanuit vroegsignalering"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumeindresultaat> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumeindresultaat/inwoner-is-overleden> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumeindresultaat> ;
+    rdfs:label "Inwoner is overleden"@nl ;
+    mim:definitie """Inwoner is overleden, hierbij kan het nodig zijn om aan het achtergebleven huishouden/de erven een hulpaanbod te doen. Dit is bijvoorbeeld relevant als nabestaanden nog op het adres wonen en afsluiting van water of energie ongewenst is. 
+Al contact met nabestaanden? Registreer desondanks dit resultaat. Zo wordt de vastelastenpartner op de hoogte gebracht."""@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumeindresultaat/inwoner-is-overleden"^^xsd:anyURI ;
+    mim:naam "Inwoner is overleden"@nl ;
+    dcterms:identifier "EAID_455A855E_8262_4538_9DBB_975F192A0EDF" ;
+    skos:definition """Inwoner is overleden, hierbij kan het nodig zijn om aan het achtergebleven huishouden/de erven een hulpaanbod te doen. Dit is bijvoorbeeld relevant als nabestaanden nog op het adres wonen en afsluiting van water of energie ongewenst is. 
+Al contact met nabestaanden? Registreer desondanks dit resultaat. Zo wordt de vastelastenpartner op de hoogte gebracht."""@nl ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumeindresultaat> ;
+    skos:prefLabel "Inwoner is overleden"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumeindresultaat> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumeindresultaat/niet-opgepakt-andere-reden> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumeindresultaat> ;
+    rdfs:label "Niet opgepakt: andere reden"@nl ;
+    mim:definitie """Als er een andere reden is dan de hierboven genoemde redenen waarom de melding niet wordt opgepakt. Vastelastenpartners mogen hierbij alleen weten dat de melding niet is opgepakt, maar de specifieke reden daarvoor niet. De gemeente kunnen de redenen voor zichzelf wel bijhouden. 
+Mogelijke redenen om een melding <b>niet</b> op te pakken:
+<ul>
+	<li>Inwoner verblijft onrechtmatig in Nederland volgens de BRP</li>
+	<li>Inwoner zit in detentie</li>
+	<li>De melding is bedoeld voor een rechtspersoon (bijv. een BV) in plaats van voor een ondernemer die een natuurlijk persoon is (eenmanszaak, VOF, CV of maatschap).</li>
+	<li>De melding is voor een inwoner die op een uitsluitingslijst van de gemeente, waarbij het onveilig is voor de vroegsignaleerder om contact te leggen. Bijvoorbeeld als sprake is van agressief gedrag of toegangsbeperking bij het gemeentehuis.</li>
+	<li>Als het vanwege een tekort aan personeel niet lukt om een melding op te pakken en contact te leggen met een inwoner.</li>
+	<li>Als een persoon niet meer op het adres woont en het is onbekend waar diegene wel woont</li>
+</ul>
+<b>
+</b><b>Verhuizing binnen de gemeente</b>: woont de persoon niet meer op het adres dat bij het signaal staat, maar nog wel binnen de gemeente? Pak de melding dan in principe op. Als onbekend is waar ieHet eindresultaat hangt dan af van de uitkomst van het contact."""@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumeindresultaat/niet-opgepakt-andere-reden"^^xsd:anyURI ;
+    mim:naam "Niet opgepakt: andere reden"@nl ;
+    dcterms:identifier "EAID_6BE529E0_5D15_481b_B967_7501FE3C279B" ;
+    skos:definition """Als er een andere reden is dan de hierboven genoemde redenen waarom de melding niet wordt opgepakt. Vastelastenpartners mogen hierbij alleen weten dat de melding niet is opgepakt, maar de specifieke reden daarvoor niet. De gemeente kunnen de redenen voor zichzelf wel bijhouden. 
+Mogelijke redenen om een melding <b>niet</b> op te pakken:
+<ul>
+	<li>Inwoner verblijft onrechtmatig in Nederland volgens de BRP</li>
+	<li>Inwoner zit in detentie</li>
+	<li>De melding is bedoeld voor een rechtspersoon (bijv. een BV) in plaats van voor een ondernemer die een natuurlijk persoon is (eenmanszaak, VOF, CV of maatschap).</li>
+	<li>De melding is voor een inwoner die op een uitsluitingslijst van de gemeente, waarbij het onveilig is voor de vroegsignaleerder om contact te leggen. Bijvoorbeeld als sprake is van agressief gedrag of toegangsbeperking bij het gemeentehuis.</li>
+	<li>Als het vanwege een tekort aan personeel niet lukt om een melding op te pakken en contact te leggen met een inwoner.</li>
+	<li>Als een persoon niet meer op het adres woont en het is onbekend waar diegene wel woont</li>
+</ul>
+<b>
+</b><b>Verhuizing binnen de gemeente</b>: woont de persoon niet meer op het adres dat bij het signaal staat, maar nog wel binnen de gemeente? Pak de melding dan in principe op. Als onbekend is waar ieHet eindresultaat hangt dan af van de uitkomst van het contact."""@nl ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumeindresultaat> ;
+    skos:prefLabel "Niet opgepakt: andere reden"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumeindresultaat> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumeindresultaat/niet-opgepakt-herhaalde-melding> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumeindresultaat> ;
+    rdfs:label "Niet opgepakt: herhaalde melding"@nl ;
+    mim:definitie """Een signaal dat niet wordt opgepakt, omdat er recent al een signaal is ontvangen en opgepakt over dezelfde betalingsachterstand van dezelfde vastelastenpartner. De betalingsachterstand is niet hoger geworden. Als de achterstand wel hoger is geworden, moet deze wel worden opgepakt.
+Dit eindresultaat wordt teruggekoppeld aan de vastelastenpartner."""@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumeindresultaat/niet-opgepakt-herhaalde-melding"^^xsd:anyURI ;
+    mim:naam "Niet opgepakt: herhaalde melding"@nl ;
+    dcterms:identifier "EAID_5A79235C_331F_41d6_B762_7EAE4F2A3FCA" ;
+    skos:definition """Een signaal dat niet wordt opgepakt, omdat er recent al een signaal is ontvangen en opgepakt over dezelfde betalingsachterstand van dezelfde vastelastenpartner. De betalingsachterstand is niet hoger geworden. Als de achterstand wel hoger is geworden, moet deze wel worden opgepakt.
+Dit eindresultaat wordt teruggekoppeld aan de vastelastenpartner."""@nl ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumeindresultaat> ;
+    skos:prefLabel "Niet opgepakt: herhaalde melding"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumeindresultaat> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumeindresultaat/niet-opgepakt-onterecht-signaal> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumeindresultaat> ;
+    rdfs:label "Niet opgepakt: onterecht signaal"@nl ;
+    mim:definitie """Een signaal dat niet wordt opgepakt, omdat:
+<ul>
+	<li>de gemelde achterstand lager is dan het drempelbedrag dat de gemeente hanteert, of;</li>
+	<li>het aantal dagen achterstand te hoog of te laag is.</li>
+</ul>
+Dit eindresultaat wordt teruggekoppeld aan de vastelastenpartner."""@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumeindresultaat/niet-opgepakt-onterecht-signaal"^^xsd:anyURI ;
+    mim:naam "Niet opgepakt: onterecht signaal"@nl ;
+    dcterms:identifier "EAID_16425ABA_C902_4291_98DA_AC8C1C6F80FD" ;
+    skos:definition """Een signaal dat niet wordt opgepakt, omdat:
+<ul>
+	<li>de gemelde achterstand lager is dan het drempelbedrag dat de gemeente hanteert, of;</li>
+	<li>het aantal dagen achterstand te hoog of te laag is.</li>
+</ul>
+Dit eindresultaat wordt teruggekoppeld aan de vastelastenpartner."""@nl ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumeindresultaat> ;
+    skos:prefLabel "Niet opgepakt: onterecht signaal"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumeindresultaat> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumeindresultaat/persoon-is-geen-inwoner-meer-in-de-gemeente> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumeindresultaat> ;
+    rdfs:label "Persoon is geen inwoner (meer) in de gemeente"@nl ;
+    mim:definitie """Wanneer de inwoner in een andere gemeente staat ingeschreven, geef de melding dan dit eindresultaat. De vastelastenpartner wordt hierdoor automatisch vanuit het systeem ge&#239;nformeerd dat de aangemelde klant geen inwoner (meer) is van de gemeente.
+Deel het signaal – waar mogelijk – vanuit vroegsignalering met de gemeente waar de inwoner <b>w&#233;l</b> staat ingeschreven. Doe dit telefonisch en/of per (beveiligde) e-mail.
+<ul>
+	<li><b>Al contact gehad met inwoner</b>: Is de inwoner niet meer woonachtig in de gemeente, maar is er wel (telefonisch) contact geweest? Registreer dan alsnog dit als eindresultaat. Zo wordt de vastelastenpartner op de hoogte gebracht.</li>
+	<li><b> Verhuizing binnen de gemeente</b>: Woont de persoon niet meer op het adres dat bij het signaal staat, maar nog wel binnen de gemeente? Pak de melding dan op. Het eindresultaat hangt dan af van de uitkomst van het contact.</li>
+</ul>"""@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumeindresultaat/persoon-is-geen-inwoner-meer-in-de-gemeente"^^xsd:anyURI ;
+    mim:naam "Persoon is geen inwoner (meer) in de gemeente"@nl ;
+    dcterms:identifier "EAID_A3351909_0E1B_48dd_A0B6_39B6D08098CC" ;
+    skos:definition """Wanneer de inwoner in een andere gemeente staat ingeschreven, geef de melding dan dit eindresultaat. De vastelastenpartner wordt hierdoor automatisch vanuit het systeem ge&#239;nformeerd dat de aangemelde klant geen inwoner (meer) is van de gemeente.
+Deel het signaal – waar mogelijk – vanuit vroegsignalering met de gemeente waar de inwoner <b>w&#233;l</b> staat ingeschreven. Doe dit telefonisch en/of per (beveiligde) e-mail.
+<ul>
+	<li><b>Al contact gehad met inwoner</b>: Is de inwoner niet meer woonachtig in de gemeente, maar is er wel (telefonisch) contact geweest? Registreer dan alsnog dit als eindresultaat. Zo wordt de vastelastenpartner op de hoogte gebracht.</li>
+	<li><b> Verhuizing binnen de gemeente</b>: Woont de persoon niet meer op het adres dat bij het signaal staat, maar nog wel binnen de gemeente? Pak de melding dan op. Het eindresultaat hangt dan af van de uitkomst van het contact.</li>
+</ul>"""@nl ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumeindresultaat> ;
+    skos:prefLabel "Persoon is geen inwoner (meer) in de gemeente"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumeindresultaat> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumeindresultaat/vervolghulp-en-of-verwijzing-financieel> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumeindresultaat> ;
+    rdfs:label "Vervolghulp en/of verwijzing financieel"@nl ;
+    mim:definitie """Hiervan is sprake als er een langer hulptraject wordt ingezet na (afronding van) de vroegsignalering. De vervolghulp en/of doorverwijzing is financieel: schuldhulpverlening, budgetcoaching of bewindvoering, etc.
+De vervolghulp kan binnen de eigen organisatie zijn (zelfs door dezelfde persoon) of een doorverwijzing naar een externe organisatie betekenen. Dit hangt af van wie en welke organisatie de vroegsignalering uitvoert en de beschikbare expertises binnen de organisatie."""@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumeindresultaat/vervolghulp-en-of-verwijzing-financieel"^^xsd:anyURI ;
+    mim:naam "Vervolghulp en/of verwijzing financieel"@nl ;
+    dcterms:identifier "EAID_FB94D843_CCEA_4415_BCCA_4A31179EC678" ;
+    skos:definition """Hiervan is sprake als er een langer hulptraject wordt ingezet na (afronding van) de vroegsignalering. De vervolghulp en/of doorverwijzing is financieel: schuldhulpverlening, budgetcoaching of bewindvoering, etc.
+De vervolghulp kan binnen de eigen organisatie zijn (zelfs door dezelfde persoon) of een doorverwijzing naar een externe organisatie betekenen. Dit hangt af van wie en welke organisatie de vroegsignalering uitvoert en de beschikbare expertises binnen de organisatie."""@nl ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumeindresultaat> ;
+    skos:prefLabel "Vervolghulp en/of verwijzing financieel"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumeindresultaat> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumeindresultaat/vervolghulp-en-of-verwijzing-niet-financieel> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumeindresultaat> ;
+    rdfs:label "Vervolghulp en/of verwijzing niet financieel"@nl ;
+    mim:definitie """Hiervan is sprake als er een langer hulptraject wordt ingezet na (afronding van) de vroegsignalering. De vervolghulp en/of doorverwijzing is niet-financieel: maatschappelijk werk, verslavingszorg of gezinszorg etc.
+De vervolghulp kan binnen de eigen organisatie zijn (zelfs door dezelfde persoon) of een doorverwijzing naar een externe organisatie betekenen. Dit hangt af van wie en welke organisatie de vroegsignalering uitvoert en de beschikbare expertises binnen de organisatie."""@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumeindresultaat/vervolghulp-en-of-verwijzing-niet-financieel"^^xsd:anyURI ;
+    mim:naam "Vervolghulp en/of verwijzing niet financieel"@nl ;
+    dcterms:identifier "EAID_FF2BF17D_88D3_4172_BFD8_174D314960FB" ;
+    skos:definition """Hiervan is sprake als er een langer hulptraject wordt ingezet na (afronding van) de vroegsignalering. De vervolghulp en/of doorverwijzing is niet-financieel: maatschappelijk werk, verslavingszorg of gezinszorg etc.
+De vervolghulp kan binnen de eigen organisatie zijn (zelfs door dezelfde persoon) of een doorverwijzing naar een externe organisatie betekenen. Dit hangt af van wie en welke organisatie de vroegsignalering uitvoert en de beschikbare expertises binnen de organisatie."""@nl ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumeindresultaat> ;
+    skos:prefLabel "Vervolghulp en/of verwijzing niet financieel"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumeindresultaat> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumeindresultaat/verwijzing-zonder-contact> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumeindresultaat> ;
+    rdfs:label "Verwijzing zonder contact"@nl ;
+    mim:definitie "Wanneer bij vroegsignalering een inwoner wordt aangemeld bij een andere instantie, zonder dat de inwoner hiervan op de hoogte is of hiervoor toestemming heeft gegeven. Dit gebeurt alleen in uiterste gevallen, wanneer zorg noodzakelijk lijkt. Een voorbeeld hiervan is een aanmelding bij bemoeizorg."@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumeindresultaat/verwijzing-zonder-contact"^^xsd:anyURI ;
+    mim:naam "Verwijzing zonder contact"@nl ;
+    dcterms:identifier "EAID_DB5FD9F4_E43A_4a0c_89AD_5C06B87825C7" ;
+    skos:definition "Wanneer bij vroegsignalering een inwoner wordt aangemeld bij een andere instantie, zonder dat de inwoner hiervan op de hoogte is of hiervoor toestemming heeft gegeven. Dit gebeurt alleen in uiterste gevallen, wanneer zorg noodzakelijk lijkt. Een voorbeeld hiervan is een aanmelding bij bemoeizorg."@nl ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumeindresultaat> ;
+    skos:prefLabel "Verwijzing zonder contact"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumeindresultaat> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumsignaalpartner/belastingdienst> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumsignaalpartner> ;
+    rdfs:label "Belastingdienst"@nl ;
+    mim:definitie "Mensen die na een aanmaning hun belasting niet hebben betaald of terugbetaald."@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumsignaalpartner/belastingdienst"^^xsd:anyURI ;
+    mim:naam "Belastingdienst"@nl ;
+    dcterms:identifier "EAID_28B9D374_83C0_4d5a_807F_B1915CA4D3E8" ;
+    skos:definition "Mensen die na een aanmaning hun belasting niet hebben betaald of terugbetaald."@nl ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumsignaalpartner> ;
+    skos:prefLabel "Belastingdienst"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumsignaalpartner> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumsignaalpartner/cak-eigen-bijdrage> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumsignaalpartner> ;
+    rdfs:label "CAK Eigen bijdrage"@nl ;
+    mim:definitie """Achterstand bij het betalen van de Eigen bijdrage in het kader van WLZ, en WMO. <font color="#0e0e0e">De doelgroep voldoet aan deze drie voorwaarden:</font>
+<ul>
+	<li><font color="#0e0e0e">Inwoners van de Gemeenten die het incassotraject hebben doorlopen (schriftelijke herinnering, aanmaning, minnelijk deurwaarders traject en telefonische poging tot persoonlijk contact). Het betreft hier achterstanden op gebied van eigen bijdrage Wmo of Wlz, ge&#239;ncasseerd door het CAK. Het gaat hierbij specifiek om de groep die terugkeert van een minnelijk deurwaarderstraject.</font></li>
+	<li><font color="#0e0e0e">Er is nog geen sprake van een gerechtelijke dwangmaatregel. De vroegsignalering gaat vooraf aan de inzet van een gerechtelijke procedure (doorgaans wordt die ingezet bij vorderingen &gt; € 100,= achterstand).</font></li>
+	<li><font color="#0e0e0e">Het lukt CAK niet om contact te krijgen of een betaalafspraak te maken met de klant.</font></li>
+</ul>"""@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumsignaalpartner/cak-eigen-bijdrage"^^xsd:anyURI ;
+    mim:naam "CAK Eigen bijdrage"@nl ;
+    dcterms:identifier "EAID_EB1640B0_4AB7_402d_822B_300216703363" ;
+    skos:definition """Achterstand bij het betalen van de Eigen bijdrage in het kader van WLZ, en WMO. <font color="#0e0e0e">De doelgroep voldoet aan deze drie voorwaarden:</font>
+<ul>
+	<li><font color="#0e0e0e">Inwoners van de Gemeenten die het incassotraject hebben doorlopen (schriftelijke herinnering, aanmaning, minnelijk deurwaarders traject en telefonische poging tot persoonlijk contact). Het betreft hier achterstanden op gebied van eigen bijdrage Wmo of Wlz, ge&#239;ncasseerd door het CAK. Het gaat hierbij specifiek om de groep die terugkeert van een minnelijk deurwaarderstraject.</font></li>
+	<li><font color="#0e0e0e">Er is nog geen sprake van een gerechtelijke dwangmaatregel. De vroegsignalering gaat vooraf aan de inzet van een gerechtelijke procedure (doorgaans wordt die ingezet bij vorderingen &gt; € 100,= achterstand).</font></li>
+	<li><font color="#0e0e0e">Het lukt CAK niet om contact te krijgen of een betaalafspraak te maken met de klant.</font></li>
+</ul>"""@nl ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumsignaalpartner> ;
+    skos:prefLabel "CAK Eigen bijdrage"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumsignaalpartner> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumsignaalpartner/cak-zorgverzekeringen> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumsignaalpartner> ;
+    rdfs:label "CAK Zorgverzekeringen"@nl ;
+    mim:definitie "Als de zorgverzekering meer dan 6 maanden niet is betaald, wordt deze door CAK overgenomen."@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumsignaalpartner/cak-zorgverzekeringen"^^xsd:anyURI ;
+    mim:naam "CAK Zorgverzekeringen"@nl ;
+    dcterms:identifier "EAID_7F33D572_34F7_4e64_BE5E_FA7097F694A6" ;
+    skos:definition "Als de zorgverzekering meer dan 6 maanden niet is betaald, wordt deze door CAK overgenomen."@nl ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumsignaalpartner> ;
+    skos:prefLabel "CAK Zorgverzekeringen"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumsignaalpartner> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumsignaalpartner/dienst-toeslagen> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumsignaalpartner> ;
+    rdfs:label "Dienst Toeslagen"@nl ;
+    mim:definitie "Mensen die na een aanmaning te veel ontvangen toeslag niet hebben betaald of terugbetaald."@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumsignaalpartner/dienst-toeslagen"^^xsd:anyURI ;
+    mim:naam "Dienst Toeslagen"@nl ;
+    dcterms:identifier "EAID_B80F31E2_1DD2_4559_9C59_B8218ECDF0A9" ;
+    skos:definition "Mensen die na een aanmaning te veel ontvangen toeslag niet hebben betaald of terugbetaald."@nl ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumsignaalpartner> ;
+    skos:prefLabel "Dienst Toeslagen"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumsignaalpartner> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumsignaalpartner/duo> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumsignaalpartner> ;
+    rdfs:label "DUO"@nl ;
+    mim:definitie "Inzake schulden bij DUO"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumsignaalpartner/duo"^^xsd:anyURI ;
+    mim:naam "DUO"@nl ;
+    dcterms:identifier "EAID_2CDFDF98_CAB1_4a08_BA3E_83122131B827" ;
+    skos:definition "Inzake schulden bij DUO"@nl ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumsignaalpartner> ;
+    skos:prefLabel "DUO"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumsignaalpartner> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumsignaalpartner/energie> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumsignaalpartner> ;
+    rdfs:label "Energie"@nl ;
+    mim:definitie "Inzake de energierekening (elektriciteit, gas en/of warmte) vanaf 30 dagen"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumsignaalpartner/energie"^^xsd:anyURI ;
+    mim:naam "Energie"@nl ;
+    dcterms:identifier "EAID_0AF43CB0_6855_4d6e_88A3_9AE12C9C70AC" ;
+    skos:definition "Inzake de energierekening (elektriciteit, gas en/of warmte) vanaf 30 dagen"@nl ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumsignaalpartner> ;
+    skos:prefLabel "Energie"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumsignaalpartner> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumsignaalpartner/huur> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumsignaalpartner> ;
+    rdfs:label "Huur"@nl ;
+    mim:definitie "Inzake de huur vanaf 30 dagen."@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumsignaalpartner/huur"^^xsd:anyURI ;
+    mim:naam "Huur"@nl ;
+    dcterms:identifier "EAID_F1AFA76E_72D7_4c24_B7AF_002E80BC7796" ;
+    skos:definition "Inzake de huur vanaf 30 dagen."@nl ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumsignaalpartner> ;
+    skos:prefLabel "Huur"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumsignaalpartner> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumsignaalpartner/hypotheek> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumsignaalpartner> ;
+    rdfs:label "Hypotheek"@nl ;
+    mim:definitie "Inzake hypotheek"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumsignaalpartner/hypotheek"^^xsd:anyURI ;
+    mim:naam "Hypotheek"@nl ;
+    dcterms:identifier "EAID_26B42E88_8995_4a5b_BFB1_3E2838F607F9" ;
+    skos:definition "Inzake hypotheek"@nl ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumsignaalpartner> ;
+    skos:prefLabel "Hypotheek"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumsignaalpartner> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumsignaalpartner/overige> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumsignaalpartner> ;
+    rdfs:label "Overige"@nl ;
+    mim:definitie "Overige partijen"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumsignaalpartner/overige"^^xsd:anyURI ;
+    mim:naam "Overige"@nl ;
+    dcterms:identifier "EAID_47328AFF_AB79_4132_B511_E7B9E72A8A7E" ;
+    skos:definition "Overige partijen"@nl ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumsignaalpartner> ;
+    skos:prefLabel "Overige"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumsignaalpartner> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumsignaalpartner/water> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumsignaalpartner> ;
+    rdfs:label "Water"@nl ;
+    mim:definitie "Inzake de drinkwaterrekening vanaf 30 dagen"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumsignaalpartner/water"^^xsd:anyURI ;
+    mim:naam "Water"@nl ;
+    dcterms:identifier "EAID_7843E66D_81B9_4c93_BD04_93756CC5699A" ;
+    skos:definition "Inzake de drinkwaterrekening vanaf 30 dagen"@nl ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumsignaalpartner> ;
+    skos:prefLabel "Water"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumsignaalpartner> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumsignaalpartner/zorg> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumsignaalpartner> ;
+    rdfs:label "Zorg"@nl ;
+    mim:definitie "Inzake de zorgverzekeringspremie inclusief premie voor aanvullende verzekering, eigen risico en eigen bijdragen van 30 tot 100 dagen."@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumsignaalpartner/zorg"^^xsd:anyURI ;
+    mim:naam "Zorg"@nl ;
+    dcterms:identifier "EAID_48E6103E_07E9_4cf7_8201_D205D844DC13" ;
+    skos:definition "Inzake de zorgverzekeringspremie inclusief premie voor aanvullende verzekering, eigen risico en eigen bijdragen van 30 tot 100 dagen."@nl ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumsignaalpartner> ;
+    skos:prefLabel "Zorg"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumsignaalpartner> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumsignaalstatus/inwoner-is-overleden> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumsignaalstatus> ;
+    rdfs:label "Inwoner is overleden"@nl ;
+    mim:definitie "Inwoner is overleden, hierbij kan het nodig zijn om aan het achtergebleven huishouden/de erven een hulpaanbod te doen. Dit is bijvoorbeeld relevant als nabestaanden nog op het adres wonen en afsluiting van water of energie ongewenst is."@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumsignaalstatus/inwoner-is-overleden"^^xsd:anyURI ;
+    mim:naam "Inwoner is overleden"@nl ;
+    dcterms:identifier "EAID_CC2AA5F9_818C_41be_9A72_56897AF3A0EB" ;
+    skos:definition "Inwoner is overleden, hierbij kan het nodig zijn om aan het achtergebleven huishouden/de erven een hulpaanbod te doen. Dit is bijvoorbeeld relevant als nabestaanden nog op het adres wonen en afsluiting van water of energie ongewenst is."@nl ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumsignaalstatus> ;
+    skos:prefLabel "Inwoner is overleden"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumsignaalstatus> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumsignaalstatus/niet-opgepakt-andere-reden> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumsignaalstatus> ;
+    rdfs:label "Niet opgepakt: andere reden"@nl ;
+    mim:definitie """Als er een andere reden is dan de hierboven genoemde redenen waarom de melding niet wordt opgepakt. Vastelastenpartners mogen hierbij alleen weten dat de melding niet is opgepakt, maar de specifieke reden daarvoor niet. De gemeente kunnen de redenen voor zichzelf wel bijhouden. 
+Mogelijke redenen om een melding <b>niet</b> op te pakken:
+<ul>
+	<li>Inwoner verblijft onrechtmatig in Nederland volgens de BRP</li>
+	<li>Inwoner zit in detentie</li>
+	<li>De melding is bedoeld voor een rechtspersoon (bijv. een BV) in plaats van voor een ondernemer die een natuurlijk persoon is (eenmanszaak, VOF, CV of maatschap).</li>
+	<li>De melding is voor een inwoner die op een uitsluitingslijst van de gemeente, waarbij het onveilig is voor de vroegsignaleerder om contact te leggen. Bijvoorbeeld als sprake is van agressief gedrag of toegangsbeperking bij het gemeentehuis.</li>
+	<li>Als het vanwege een tekort aan personeel niet lukt om een melding op te pakken en contact te leggen met een inwoner.</li>
+	<li>Als een persoon niet meer op het adres woont en het is onbekend waar diegene wel woont</li>
+</ul>
+<b>
+</b><b>Verhuizing binnen de gemeente</b>
+Woont de persoon niet meer op het adres dat bij het signaal staat, maar nog wel binnen de gemeente? Pak de melding dan in principe op. Als onbekend is waar ieHet eindresultaat hangt dan af van de uitkomst van het contact."""@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumsignaalstatus/niet-opgepakt-andere-reden"^^xsd:anyURI ;
+    mim:naam "Niet opgepakt: andere reden"@nl ;
+    dcterms:identifier "EAID_B387157B_71EB_449c_9B34_DA29B6BFA88A" ;
+    skos:definition """Als er een andere reden is dan de hierboven genoemde redenen waarom de melding niet wordt opgepakt. Vastelastenpartners mogen hierbij alleen weten dat de melding niet is opgepakt, maar de specifieke reden daarvoor niet. De gemeente kunnen de redenen voor zichzelf wel bijhouden. 
+Mogelijke redenen om een melding <b>niet</b> op te pakken:
+<ul>
+	<li>Inwoner verblijft onrechtmatig in Nederland volgens de BRP</li>
+	<li>Inwoner zit in detentie</li>
+	<li>De melding is bedoeld voor een rechtspersoon (bijv. een BV) in plaats van voor een ondernemer die een natuurlijk persoon is (eenmanszaak, VOF, CV of maatschap).</li>
+	<li>De melding is voor een inwoner die op een uitsluitingslijst van de gemeente, waarbij het onveilig is voor de vroegsignaleerder om contact te leggen. Bijvoorbeeld als sprake is van agressief gedrag of toegangsbeperking bij het gemeentehuis.</li>
+	<li>Als het vanwege een tekort aan personeel niet lukt om een melding op te pakken en contact te leggen met een inwoner.</li>
+	<li>Als een persoon niet meer op het adres woont en het is onbekend waar diegene wel woont</li>
+</ul>
+<b>
+</b><b>Verhuizing binnen de gemeente</b>
+Woont de persoon niet meer op het adres dat bij het signaal staat, maar nog wel binnen de gemeente? Pak de melding dan in principe op. Als onbekend is waar ieHet eindresultaat hangt dan af van de uitkomst van het contact."""@nl ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumsignaalstatus> ;
+    skos:prefLabel "Niet opgepakt: andere reden"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumsignaalstatus> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumsignaalstatus/niet-opgepakt-herhaalde-melding> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumsignaalstatus> ;
+    rdfs:label "Niet opgepakt: herhaalde melding"@nl ;
+    mim:definitie """Een signaal dat niet wordt opgepakt, omdat er recent al een signaal is ontvangen en opgepakt over dezelfde betalingsachterstand van dezelfde vastelastenpartner. De betalingsachterstand is niet hoger geworden. Als de achterstand wel hoger is geworden, moet deze wel worden opgepakt.
+Dit eindresultaat wordt teruggekoppeld aan de vastelastenpartner."""@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumsignaalstatus/niet-opgepakt-herhaalde-melding"^^xsd:anyURI ;
+    mim:naam "Niet opgepakt: herhaalde melding"@nl ;
+    dcterms:identifier "EAID_9458AFC3_88B6_4101_BD13_3F96F4C1C4C9" ;
+    skos:definition """Een signaal dat niet wordt opgepakt, omdat er recent al een signaal is ontvangen en opgepakt over dezelfde betalingsachterstand van dezelfde vastelastenpartner. De betalingsachterstand is niet hoger geworden. Als de achterstand wel hoger is geworden, moet deze wel worden opgepakt.
+Dit eindresultaat wordt teruggekoppeld aan de vastelastenpartner."""@nl ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumsignaalstatus> ;
+    skos:prefLabel "Niet opgepakt: herhaalde melding"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumsignaalstatus> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumsignaalstatus/niet-opgepakt-onterecht-signaal> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumsignaalstatus> ;
+    rdfs:label "Niet opgepakt: onterecht signaal"@nl ;
+    mim:definitie """Een signaal dat niet wordt opgepakt, omdat:
+<ul>
+	<li>de gemelde achterstand lager is dan het drempelbedrag dat de gemeente hanteert, of;</li>
+	<li>het aantal dagen achterstand te hoog of te laag is.</li>
+</ul>
+Dit eindresultaat wordt teruggekoppeld aan de vastelastenpartner."""@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumsignaalstatus/niet-opgepakt-onterecht-signaal"^^xsd:anyURI ;
+    mim:naam "Niet opgepakt: onterecht signaal"@nl ;
+    dcterms:identifier "EAID_16FC98E9_9031_4e28_9004_52E99E6FEEB2" ;
+    skos:definition """Een signaal dat niet wordt opgepakt, omdat:
+<ul>
+	<li>de gemelde achterstand lager is dan het drempelbedrag dat de gemeente hanteert, of;</li>
+	<li>het aantal dagen achterstand te hoog of te laag is.</li>
+</ul>
+Dit eindresultaat wordt teruggekoppeld aan de vastelastenpartner."""@nl ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumsignaalstatus> ;
+    skos:prefLabel "Niet opgepakt: onterecht signaal"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumsignaalstatus> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumsignaalstatus/nog-niet-opgepakt> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumsignaalstatus> ;
+    rdfs:label "Nog niet opgepakt"@nl ;
+    mim:definitie "De gemeente heeft het signaal nog niet opgepakt."@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumsignaalstatus/nog-niet-opgepakt"^^xsd:anyURI ;
+    mim:naam "Nog niet opgepakt"@nl ;
+    dcterms:identifier "EAID_47CFC073_0DAE_4171_A55E_69726D173674" ;
+    skos:definition "De gemeente heeft het signaal nog niet opgepakt."@nl ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumsignaalstatus> ;
+    skos:prefLabel "Nog niet opgepakt"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumsignaalstatus> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumsignaalstatus/persoon-is-geen-inwoner-meer-in-de-gemeente> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumsignaalstatus> ;
+    rdfs:label "Persoon is geen inwoner (meer) in de gemeente"@nl ;
+    mim:definitie """Wanneer de inwoner in een andere gemeente staat ingeschreven, geef de melding dan dit eindresultaat. De vastelastenpartner wordt hierdoor automatisch vanuit het systeem ge&#239;nformeerd dat de aangemelde klant geen inwoner (meer) is van de gemeente.
+Deel het signaal – waar mogelijk – vanuit vroegsignalering met de gemeente waar de inwoner <b>w&#233;l</b> staat ingeschreven. Doe dit telefonisch en/of per (beveiligde) e-mail.
+<ul>
+	<li><b>Al contact gehad met inwoner</b>: is de inwoner niet meer woonachtig in de gemeente, maar is er wel (telefonisch) contact geweest? Registreer dan alsnog dit als eindresultaat. Zo wordt de vastelastenpartner op de hoogte gebracht.</li>
+	<li><b>Verhuizing binnen de gemeente</b>: woont de persoon niet meer op het adres dat bij het signaal staat, maar nog wel binnen de gemeente? Pak de melding dan op. Het eindresultaat hangt dan af van de uitkomst van het contact.</li>
+</ul>"""@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumsignaalstatus/persoon-is-geen-inwoner-meer-in-de-gemeente"^^xsd:anyURI ;
+    mim:naam "Persoon is geen inwoner (meer) in de gemeente"@nl ;
+    dcterms:identifier "EAID_581BEE7B_B648_4cfd_9405_BB8B7EEFBE2C" ;
+    skos:definition """Wanneer de inwoner in een andere gemeente staat ingeschreven, geef de melding dan dit eindresultaat. De vastelastenpartner wordt hierdoor automatisch vanuit het systeem ge&#239;nformeerd dat de aangemelde klant geen inwoner (meer) is van de gemeente.
+Deel het signaal – waar mogelijk – vanuit vroegsignalering met de gemeente waar de inwoner <b>w&#233;l</b> staat ingeschreven. Doe dit telefonisch en/of per (beveiligde) e-mail.
+<ul>
+	<li><b>Al contact gehad met inwoner</b>: is de inwoner niet meer woonachtig in de gemeente, maar is er wel (telefonisch) contact geweest? Registreer dan alsnog dit als eindresultaat. Zo wordt de vastelastenpartner op de hoogte gebracht.</li>
+	<li><b>Verhuizing binnen de gemeente</b>: woont de persoon niet meer op het adres dat bij het signaal staat, maar nog wel binnen de gemeente? Pak de melding dan op. Het eindresultaat hangt dan af van de uitkomst van het contact.</li>
+</ul>"""@nl ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumsignaalstatus> ;
+    skos:prefLabel "Persoon is geen inwoner (meer) in de gemeente"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumsignaalstatus> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/signaalpartner/type> a mim:Attribuutsoort,
+        owl:ObjectProperty ;
+    rdfs:label "type"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/signaalpartner/type"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "type"@nl ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumsignaalpartner> ;
+    dcterms:identifier "EAID_2B44A309_F184_4f2e_B2A8_45175DD4073B" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/signaalpartner> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumsignaalpartner> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/vroegsignaal/bedrag> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "bedrag"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/vroegsignaal/bedrag"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "bedrag"@nl ;
+    mim:type mim:Decimal ;
+    dcterms:identifier "EAID_1356A07B_E822_49a4_BFF8_96A4B2D3F721" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/vroegsignaal> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/> ;
+    rdfs:range xsd:decimal .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/vroegsignaal/crisissignaal> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "crisissignaal"@nl ;
+    mim:definitie "Betreft het een crisis?"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/vroegsignaal/crisissignaal"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "crisissignaal"@nl ;
+    mim:type mim:Boolean ;
+    dcterms:identifier "EAID_66BCDE30_2AC1_4f5b_8CE0_9B1AAC5D4B39" ;
+    rdfs:comment "Betreft het een crisis?"@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/vroegsignaal> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/> ;
+    rdfs:range xsd:boolean .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/vroegsignaal/ontstaansdatum> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "ontstaansdatum"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/vroegsignaal/ontstaansdatum"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "ontstaansdatum"@nl ;
+    mim:type mim:Date ;
+    dcterms:identifier "EAID_97889083_6B3F_46ee_A65F_63B67DFBD831" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/vroegsignaal> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/> ;
+    rdfs:range xsd:date .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/vroegsignaal/signaaldatum> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "signaaldatum"@nl ;
+    mim:definitie "Datum waarop de signaalpartner het signaal heeft verstuurd."@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/vroegsignaal/signaaldatum"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "signaaldatum"@nl ;
+    mim:type mim:Date ;
+    dcterms:identifier "EAID_D02AE809_205C_482a_865D_81E1593B86B2" ;
+    rdfs:comment "Datum waarop de signaalpartner het signaal heeft verstuurd."@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/vroegsignaal> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/> ;
+    rdfs:range xsd:date .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/vroegsignaal/status> a mim:Attribuutsoort,
+        owl:ObjectProperty ;
+    rdfs:label "status"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/vroegsignaal/status"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "status"@nl ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumsignaalstatus> ;
+    dcterms:identifier "EAID_2E4EA218_470F_4845_A2B7_B49113DF227C" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/vroegsignaal> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumsignaalstatus> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/vroegsignaal/warmeoverdracht> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "warmeOverdracht"@nl ;
+    mim:definitie "Er is al contact met persoon. Betreft verzoek deze persoon op te pakken in het kader van vroegsignalering."@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/vroegsignaal/warmeoverdracht"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "warmeOverdracht"@nl ;
+    mim:type mim:Boolean ;
+    dcterms:identifier "EAID_A3CB2C9F_0C74_4899_BF54_207EA79CB79E" ;
+    rdfs:comment "Er is al contact met persoon. Betreft verzoek deze persoon op te pakken in het kader van vroegsignalering."@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/vroegsignaal> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/> ;
+    rdfs:range xsd:boolean .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/vroegsignaalzaak/datum-opgepakt> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "datum_opgepakt"@nl ;
+    mim:definitie "De datum waarop de gemeente de zaak heeft opgepakt."@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/vroegsignaalzaak/datum-opgepakt"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "datum_opgepakt"@nl ;
+    mim:type mim:Date ;
+    dcterms:identifier "EAID_CB19AC62_5F96_4bc3_ADDC_CB26B1494985" ;
+    rdfs:comment "De datum waarop de gemeente de zaak heeft opgepakt."@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/vroegsignaalzaak> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/> ;
+    rdfs:range xsd:date .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/vroegsignaalzaak/einddatum-matchingperiode> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "einddatum_matchingperiode"@nl ;
+    mim:definitie "De matchingperiode is het tijdvak waarover de matching plaatsvindt. Hier de einddatum van de matching, die binnen de matchingsperiode valt."@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/vroegsignaalzaak/einddatum-matchingperiode"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "einddatum_matchingperiode"@nl ;
+    mim:type mim:Date ;
+    dcterms:identifier "EAID_667A4A4F_76D7_4f5e_B0AE_505BAF24880F" ;
+    rdfs:comment "De matchingperiode is het tijdvak waarover de matching plaatsvindt. Hier de einddatum van de matching, die binnen de matchingsperiode valt."@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/vroegsignaalzaak> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/> ;
+    rdfs:range xsd:date .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/vroegsignaalzaak/matchingsdatum> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "matchingsdatum"@nl ;
+    mim:definitie "De datum waarop de matching wordt uitgevoerd."@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/vroegsignaalzaak/matchingsdatum"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "matchingsdatum"@nl ;
+    mim:type mim:Date ;
+    dcterms:identifier "EAID_3CC612B0_1F47_446e_8173_F45F54288FFF" ;
+    rdfs:comment "De datum waarop de matching wordt uitgevoerd."@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/vroegsignaalzaak> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/> ;
+    rdfs:range xsd:date .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/vroegsignaalzaak/resultaat> a mim:Attribuutsoort,
+        owl:ObjectProperty ;
+    rdfs:label "resultaat"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/vroegsignaalzaak/resultaat"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "resultaat"@nl ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumeindresultaat> ;
+    dcterms:identifier "EAID_BCEEEE4D_E8DF_4cd2_8960_58A6CB5E7955" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/vroegsignaalzaak> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumeindresultaat> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/vroegsignaalzaak/startdatum-matchtingperiode> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "startdatum_matchtingperiode"@nl ;
+    mim:definitie "De matchingperiode is het tijdvak waarover de matching plaatsvindt. Hier de startdatum van de matching, die binnen de matchingsperiode valt."@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/vroegsignaalzaak/startdatum-matchtingperiode"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "startdatum_matchtingperiode"@nl ;
+    mim:type mim:Date ;
+    dcterms:identifier "EAID_A190C58A_2150_4251_8B34_186A5468DB27" ;
+    rdfs:comment "De matchingperiode is het tijdvak waarover de matching plaatsvindt. Hier de startdatum van de matching, die binnen de matchingsperiode valt."@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/vroegsignaalzaak> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/> ;
+    rdfs:range xsd:date .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/client/code> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "code"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/client/code"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "code"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_2F053C54_0964_436c_8943_4727C5809CAB" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/client> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/client/gezagsdragergekend> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "gezagsdragerGekend"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/client/gezagsdragergekend"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "gezagsdragerGekend"@nl ;
+    mim:type mim:Boolean ;
+    dcterms:identifier "EAID_98ACDCD3_78C0_4f19_9D7F_3D6E9117633C" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/client> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/> ;
+    rdfs:range xsd:boolean .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/client/juridischestatus> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "juridischeStatus"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/client/juridischestatus"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "juridischeStatus"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_3002E65F_86D7_473e_91BF_98F5877E12D0" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/client> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/client/wettelijkevertegenwoordiging> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "wettelijkeVertegenwoordiging"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/client/wettelijkevertegenwoordiging"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "wettelijkeVertegenwoordiging"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_9CC38D5F_DED2_409b_B94B_2A733C2B7BB0" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/client> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/signaalpartner> a mim:Objecttype,
+        owl:Class ;
+    rdfs:label "Signaalpartner"@nl ;
+    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/signaalpartner/type> ;
+    mim:definitie """Een signaalpartner is een organisatie die op grond van artikel 2.2.1 van de Wet gemeentelijke schuldhulpverlening (Wgs) bevoegd is om signalen van betalingsachterstanden door te geven aan de gemeente met het doel vroegtijdige hulpverlening bij schulden mogelijk te maken. Signaalpartners zijn dienstverleners met een maatschappelijk belang, zoals zorgverzekeraars, energieleveranciers, drinkwaterbedrijven en woningverhuurders.
+
+Een signaalpartner verstrekt een vroegsignaal aan de gemeente wanneer bij een klant of huurder sprake is van een betalingsachterstand die voldoet aan de wettelijke en/of contractuele criteria voor signalering."""@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/signaalpartner"^^xsd:anyURI ;
+    mim:indicatieAbstractObject false ;
+    mim:naam "Signaalpartner"@nl ;
+    dcterms:identifier "EAID_3643CF44_EFAA_4939_9AEB_ACA8D8EE11F9" ;
+    rdfs:comment """Een signaalpartner is een organisatie die op grond van artikel 2.2.1 van de Wet gemeentelijke schuldhulpverlening (Wgs) bevoegd is om signalen van betalingsachterstanden door te geven aan de gemeente met het doel vroegtijdige hulpverlening bij schulden mogelijk te maken. Signaalpartners zijn dienstverleners met een maatschappelijk belang, zoals zorgverzekeraars, energieleveranciers, drinkwaterbedrijven en woningverhuurders.
+
+Een signaalpartner verstrekt een vroegsignaal aan de gemeente wanneer bij een klant of huurder sprake is van een betalingsachterstand die voldoet aan de wettelijke en/of contractuele criteria voor signalering."""@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/contactpoging> a mim:Objecttype,
+        owl:Class ;
+    rdfs:label "Contactpoging"@nl ;
+    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/contactpoging/bereikt>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/contactpoging/dagdeel>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/contactpoging/datum>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/contactpoging/soort> ;
+    mim:definitie "Een Contactpoging is de actie die de gemeente onderneemt om in contact te treden met de inwoner naar aanleiding van een vroegsignaal. Een contactpoging maakt onderdeel uit van de vroegsignaalzaak en kan verschillende vormen aannemen, zoals een telefoongesprek, huisbezoek, brief of digitaal bericht. Van elke contactpoging wordt vastgelegd wanneer deze is gedaan, op welke wijze, met welk doel en wat het resultaat was (bijvoorbeeld: geen gehoor, gesprek gevoerd, brief retour ontvangen)."@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/contactpoging"^^xsd:anyURI ;
+    mim:indicatieAbstractObject false ;
+    mim:naam "Contactpoging"@nl ;
+    dcterms:identifier "EAID_C7000EFD_826C_4e47_BD80_075A6EF4E558" ;
+    rdfs:comment "Een Contactpoging is de actie die de gemeente onderneemt om in contact te treden met de inwoner naar aanleiding van een vroegsignaal. Een contactpoging maakt onderdeel uit van de vroegsignaalzaak en kan verschillende vormen aannemen, zoals een telefoongesprek, huisbezoek, brief of digitaal bericht. Van elke contactpoging wordt vastgelegd wanneer deze is gedaan, op welke wijze, met welk doel en wat het resultaat was (bijvoorbeeld: geen gehoor, gesprek gevoerd, brief retour ontvangen)."@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/client> a mim:Objecttype,
+        owl:Class ;
+    rdfs:label "Client"@nl ;
+    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/client/code>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/client/gezagsdragergekend>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/client/juridischestatus>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/client/wettelijkevertegenwoordiging> ;
+    mim:definitie "Een ingeschreven persoon die gebruik maakt van producten en diensten van de gemeente."@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/client"^^xsd:anyURI ;
+    mim:indicatieAbstractObject false ;
+    mim:naam "Client"@nl ;
+    dcterms:identifier "EAID_DAF09055_A5A6_4ff4_A158_21B20567B296" ;
+    rdfs:comment "Een ingeschreven persoon die gebruik maakt van producten en diensten van de gemeente."@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumdagdeel> a mim:Enumeratie,
+        owl:Class,
+        skos:ConceptScheme ;
+    rdfs:label "EnumDagdeel"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumdagdeel"^^xsd:anyURI ;
+    mim:naam "EnumDagdeel"@nl ;
+    mim:waarde <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumdagdeel/avond>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumdagdeel/middag>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumdagdeel/ochtend> ;
+    dcterms:identifier "EAID_3860D42A_481D_42cd_86F9_79B5D6230A58" ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/> ;
+    rdfs:subClassOf skos:Concept .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/vroegsignaal> a mim:Objecttype,
+        owl:Class ;
+    rdfs:label "Vroegsignaal"@nl ;
+    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/vroegsignaal/bedrag>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/vroegsignaal/crisissignaal>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/vroegsignaal/ontstaansdatum>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/vroegsignaal/signaaldatum>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/vroegsignaal/status>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/vroegsignaal/warmeoverdracht> ;
+    mim:definitie """Een Vroegsignaal is een bericht dat door een signaalpartner (zoals een zorgverzekeraar, energieleverancier of verhuurder) aan de gemeente wordt verstrekt, met als doel de gemeente te informeren over een mogelijk beginnende schuldsituatie van een inwoner. Het vroegsignaal vormt het startpunt van het gemeentelijk proces van vroegsignalering van schulden.
+
+De juridische grondslag voor het ontvangen en verwerken van vroegsignalen is vastgelegd in artikel 2.2.1 van de Wet gemeentelijke schuldhulpverlening (Wgs). Deze wet verplicht gemeenten om vroegtijdig signalen van betalingsachterstanden te ontvangen en op basis daarvan inwoners passende hulp aan te bieden."""@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/vroegsignaal"^^xsd:anyURI ;
+    mim:indicatieAbstractObject false ;
+    mim:naam "Vroegsignaal"@nl ;
+    dcterms:identifier "EAID_C6DA2586_C0E3_4868_93E8_64AF6D118092" ;
+    rdfs:comment """Een Vroegsignaal is een bericht dat door een signaalpartner (zoals een zorgverzekeraar, energieleverancier of verhuurder) aan de gemeente wordt verstrekt, met als doel de gemeente te informeren over een mogelijk beginnende schuldsituatie van een inwoner. Het vroegsignaal vormt het startpunt van het gemeentelijk proces van vroegsignalering van schulden.
+
+De juridische grondslag voor het ontvangen en verwerken van vroegsignalen is vastgelegd in artikel 2.2.1 van de Wet gemeentelijke schuldhulpverlening (Wgs). Deze wet verplicht gemeenten om vroegtijdig signalen van betalingsachterstanden te ontvangen en op basis daarvan inwoners passende hulp aan te bieden."""@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/vroegsignaalzaak> a mim:Objecttype,
+        owl:Class ;
+    rdfs:label "Vroegsignaalzaak"@nl ;
+    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/vroegsignaalzaak/datum-opgepakt>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/vroegsignaalzaak/einddatum-matchingperiode>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/vroegsignaalzaak/matchingsdatum>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/vroegsignaalzaak/resultaat>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/vroegsignaalzaak/startdatum-matchtingperiode> ;
+    mim:definitie "Een Vroegsignaalzaak is procesmatige eenheid binnen de gemeentelijke organisatie waarin de behandeling van &#233;&#233;n of meerdere vroegsigna(a)len is/zijn ondergebracht. De vroegsignaalzaak omvat alle handelingen die de gemeente verricht naar aanleiding van het ontvangen vroegsignaal, zoals het vastleggen van het signaal, het uitvoeren van een eerste beoordeling, het leggen van contact met de inwoner, het registreren van contactpogingen en -resultaten, en het eventueel toeleiden naar schuldhulpverlening of andere passende ondersteuning."@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/vroegsignaalzaak"^^xsd:anyURI ;
+    mim:indicatieAbstractObject false ;
+    mim:naam "Vroegsignaalzaak"@nl ;
+    dcterms:identifier "EAID_1AA67F0D_3B94_48a3_A037_A2ACC6D61CF0" ;
+    rdfs:comment "Een Vroegsignaalzaak is procesmatige eenheid binnen de gemeentelijke organisatie waarin de behandeling van &#233;&#233;n of meerdere vroegsigna(a)len is/zijn ondergebracht. De vroegsignaalzaak omvat alle handelingen die de gemeente verricht naar aanleiding van het ontvangen vroegsignaal, zoals het vastleggen van het signaal, het uitvoeren van een eerste beoordeling, het leggen van contact met de inwoner, het registreren van contactpogingen en -resultaten, en het eventueel toeleiden naar schuldhulpverlening of andere passende ondersteuning."@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/nietnatuurlijkpersoon> a mim:Objecttype,
+        owl:Class ;
+    rdfs:label "NietNatuurlijkPersoon"@nl ;
+    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/nietnatuurlijkpersoon/datumaanvang>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/nietnatuurlijkpersoon/datumeinde>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/nietnatuurlijkpersoon/datumuitschrijving>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/nietnatuurlijkpersoon/datumvoortzetting>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/nietnatuurlijkpersoon/faxnummer>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/nietnatuurlijkpersoon/ingeschreven>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/nietnatuurlijkpersoon/inoprichting>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/nietnatuurlijkpersoon/kvknummer>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/nietnatuurlijkpersoon/nnpid>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/nietnatuurlijkpersoon/rechtsvorm>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/nietnatuurlijkpersoon/rsinnummer>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/nietnatuurlijkpersoon/statutairenaam>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/nietnatuurlijkpersoon/statutairezetel>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/nietnatuurlijkpersoon/websiteurl> ;
+    mim:definitie "Een INGESCHREVEN NIET-NATUURLIJK PERSOON of een ANDER BUITENLANDS NIET-NATUURLIJK PERSOON"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/nietnatuurlijkpersoon"^^xsd:anyURI ;
+    mim:indicatieAbstractObject false ;
+    mim:naam "NietNatuurlijkPersoon"@nl ;
+    dcterms:identifier "EAID_3D5CCB29_91E4_458e_8BCD_6741198E45B8" ;
+    rdfs:comment "Een INGESCHREVEN NIET-NATUURLIJK PERSOON of een ANDER BUITENLANDS NIET-NATUURLIJK PERSOON"@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gemeente> a mim:Objecttype,
+        owl:Class ;
+    rdfs:label "Gemeente"@nl ;
+    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gemeente/begingeldigheid>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gemeente/datumeinde>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gemeente/datumingang>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gemeente/eindgeldigheid>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gemeente/geconstateerd>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gemeente/gemeentecode>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gemeente/gemeentenaam>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gemeente/gemeentenaam-nen>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gemeente/geometrie>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gemeente/identificatie>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gemeente/versie> ;
+    mim:datumOpname "2007-04-09"^^xsd:date ;
+    mim:definitie "Een gedeelte van het grondgebied van Nederland, ingesteld op basis van artikel 123 van de Grondwet."@nl ;
+    mim:herkomst "Door KING toegevoegd objecttype,ontleend aan het GFO BG (maakt geen deel uit van enige basisregistratie)." ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gemeente"^^xsd:anyURI ;
+    mim:indicatieAbstractObject false ;
+    mim:naam "Gemeente"@nl ;
+    dcterms:identifier "EAID_EA6F820F_C458_4b24_8055_5C2CC76F5904" ;
+    rdfs:comment "Een gedeelte van het grondgebied van Nederland, ingesteld op basis van artikel 123 van de Grondwet."@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumsignaalstatus> a mim:Enumeratie,
+        owl:Class,
+        skos:ConceptScheme ;
+    rdfs:label "EnumSignaalstatus"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumsignaalstatus"^^xsd:anyURI ;
+    mim:naam "EnumSignaalstatus"@nl ;
+    mim:waarde <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumsignaalstatus/inwoner-is-overleden>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumsignaalstatus/niet-opgepakt-andere-reden>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumsignaalstatus/niet-opgepakt-herhaalde-melding>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumsignaalstatus/niet-opgepakt-onterecht-signaal>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumsignaalstatus/nog-niet-opgepakt>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumsignaalstatus/persoon-is-geen-inwoner-meer-in-de-gemeente> ;
+    dcterms:identifier "EAID_568499A3_3FE7_4342_B1B4_36A01AEAC1C9" ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/> ;
+    rdfs:subClassOf skos:Concept .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumcontactsoort> a mim:Enumeratie,
+        owl:Class,
+        skos:ConceptScheme ;
+    rdfs:label "EnumContactsoort"@nl ;
+    mim:definitie "Enumeratie met daarin de soorten onderscheiden contactsoorten bij een contactpoging."@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumcontactsoort"^^xsd:anyURI ;
+    mim:naam "EnumContactsoort"@nl ;
+    mim:waarde <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumcontactsoort/administratief>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumcontactsoort/afspraak-op-locatie>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumcontactsoort/brief>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumcontactsoort/huisbezoek>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumcontactsoort/kaartje>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumcontactsoort/mail>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumcontactsoort/sms-whatsapp>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumcontactsoort/telefoon> ;
+    dcterms:identifier "EAID_7BA37694_65C5_4cfb_8804_D7EB6CE344FB" ;
+    rdfs:comment "Enumeratie met daarin de soorten onderscheiden contactsoorten bij een contactpoging."@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/> ;
+    rdfs:subClassOf skos:Concept .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumsignaalpartner> a mim:Enumeratie,
+        owl:Class,
+        skos:ConceptScheme ;
+    rdfs:label "EnumSignaalpartner"@nl ;
+    mim:definitie "Enumeratie met de soorten te onderscheiden Signaalpartners."@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumsignaalpartner"^^xsd:anyURI ;
+    mim:naam "EnumSignaalpartner"@nl ;
+    mim:waarde <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumsignaalpartner/belastingdienst>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumsignaalpartner/cak-eigen-bijdrage>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumsignaalpartner/cak-zorgverzekeringen>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumsignaalpartner/dienst-toeslagen>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumsignaalpartner/duo>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumsignaalpartner/energie>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumsignaalpartner/huur>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumsignaalpartner/hypotheek>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumsignaalpartner/overige>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumsignaalpartner/water>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumsignaalpartner/zorg> ;
+    dcterms:identifier "EAID_ACE0EA25_898C_4de3_8196_49AD3AE5481F" ;
+    rdfs:comment "Enumeratie met de soorten te onderscheiden Signaalpartners."@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/> ;
+    rdfs:subClassOf skos:Concept .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumeindresultaat> a mim:Enumeratie,
+        owl:Class,
+        skos:ConceptScheme ;
+    rdfs:label "EnumEindresultaat"@nl ;
+    mim:definitie "Enumeratie met de soorten Eindresultaten van een Vroegsignaalzaak."@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumeindresultaat"^^xsd:anyURI ;
+    mim:naam "EnumEindresultaat"@nl ;
+    mim:waarde <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumeindresultaat/budget-advies-en-of-quick-fix>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumeindresultaat/definitief-geen-contact-kunnen-krijgen>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumeindresultaat/geen-reactie-na-eerder-contact>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumeindresultaat/inwoner-al-bekend-bij-schuldhulpverlening>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumeindresultaat/inwoner-heeft-al-een-ander-lopend-traject>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumeindresultaat/inwoner-heeft-zelf-al-betaald-betalingsregeling-getroffen>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumeindresultaat/inwoner-hoeft-geen-hulp-vanuit-vroegsignalering>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumeindresultaat/inwoner-is-overleden>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumeindresultaat/niet-opgepakt-andere-reden>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumeindresultaat/niet-opgepakt-herhaalde-melding>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumeindresultaat/niet-opgepakt-onterecht-signaal>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumeindresultaat/persoon-is-geen-inwoner-meer-in-de-gemeente>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumeindresultaat/vervolghulp-en-of-verwijzing-financieel>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumeindresultaat/vervolghulp-en-of-verwijzing-niet-financieel>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumeindresultaat/verwijzing-zonder-contact> ;
+    dcterms:identifier "EAID_B78A9A0E_65B0_4c4b_AA01_99CFA196D740" ;
+    rdfs:comment "Enumeratie met de soorten Eindresultaten van een Vroegsignaalzaak."@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/> ;
+    rdfs:subClassOf skos:Concept .
+
+<https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm> a mim:Enumeratie,
+        owl:Class,
+        skos:ConceptScheme ;
+    rdfs:label "soortRechtsvorm"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm"^^xsd:anyURI ;
+    mim:naam "soortRechtsvorm"@nl ;
+    mim:waarde <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm/besloten-vennootschap>,
+        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm/commanditaire-vennootschap>,
+        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm/cooperatie-europees-economische-samenwerking>,
+        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm/europese-cooperatieve-vennootschap>,
+        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm/europese-naamloze-vennootschap>,
+        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm/kapitaalvennootschap-binnen-eer>,
+        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm/kapitaalvennootschap-buiten-eer>,
+        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm/kerkelijke-organisatie>,
+        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm/leeg>,
+        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm/maatschap>,
+        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm/naamloze-vennootschap>,
+        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm/onbekend>,
+        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm/onderlinge-waarborg-maatschappij>,
+        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm/overig-privaatrechtelijke-rechtspersoon>,
+        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm/overige-buitenlandse-rechtspersoon-vennootschap>,
+        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm/publiekrechtelijke-rechtspersoon>,
+        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm/rederij>,
+        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm/stichting>,
+        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm/vennootschap-onder-firma>,
+        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm/vereniging>,
+        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm/vereniging-van-eigenaars> ;
+    dcterms:identifier "EAID_EE5726F5_3FA7_4476_B74B_1C0775775F6B" ;
+    rdfs:subClassOf skos:Concept .
+

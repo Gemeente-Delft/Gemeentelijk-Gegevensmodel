@@ -1,0 +1,286 @@
+# graph: <https://lod.gemeentelijkgegevensmodel.nl/v3.0.0/kern/generiek/generieke-locatie>
+
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix mim: <http://modellen.mim-standaard.nl/def/mim#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/generiek/gebiedengroep/omvat> a mim:Relatiesoort,
+        owl:ObjectProperty ;
+    rdfs:label "omvat"@nl ;
+    mim:aggregatietype mim:Geen ;
+    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/kern/generiek/gebiedengroep> ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/kern/generiek/gebied> ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/generiek/gebiedengroep/omvat"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..*" ;
+    mim:kardinaliteitRelatieBron "0..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "omvat"@nl ;
+    mim:unidirectioneel true ;
+    dcterms:identifier "EAID_D5C41A3E_F7C6_47ce_89E8_55CD70D5B20B" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/generiek/gebiedengroep> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/generiek/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/generiek/gebied> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/generiek/lijnengroep/omvat> a mim:Relatiesoort,
+        owl:ObjectProperty ;
+    rdfs:label "omvat"@nl ;
+    mim:aggregatietype mim:Geen ;
+    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/kern/generiek/lijnengroep> ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/kern/generiek/lijn> ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/generiek/lijnengroep/omvat"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "0..*" ;
+    mim:kardinaliteitRelatieBron "0..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "omvat"@nl ;
+    mim:unidirectioneel true ;
+    dcterms:identifier "EAID_17B63209_082A_486f_8C97_693197D5283D" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/generiek/lijnengroep> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/generiek/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/generiek/lijn> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/generiek/puntengroep/omvat> a mim:Relatiesoort,
+        owl:ObjectProperty ;
+    rdfs:label "omvat"@nl ;
+    mim:aggregatietype mim:Geen ;
+    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/kern/generiek/puntengroep> ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/kern/generiek/punt> ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/generiek/puntengroep/omvat"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..*" ;
+    mim:kardinaliteitRelatieBron "0..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "omvat"@nl ;
+    mim:unidirectioneel true ;
+    dcterms:identifier "EAID_15EBE58A_B543_4c88_9A5E_D4A42C45195A" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/generiek/puntengroep> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/generiek/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/generiek/punt> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/v3.0.0/kern/generiek/generieke-locatie> a owl:Ontology ;
+    rdfs:label "Generieke Locatie"@nl ;
+    dcterms:identifier "EAID_8DBF3226_FD39_4d9b_8101_633FF36CA47E" ;
+    dcterms:isPartOf <https://lod.gemeentelijkgegevensmodel.nl/> ;
+    owl:versionInfo "v3.0.0" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/generiek/gebied/gebiedsaanduiding> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "gebiedsAanduiding"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/generiek/gebied/gebiedsaanduiding"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "gebiedsAanduiding"@nl ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/wktliteral> ;
+    dcterms:identifier "EAID_2DC4E719_E39D_461e_A307_5A2DE296C2BD" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/generiek/gebied> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/generiek/> ;
+    rdfs:range geo:wktLiteral .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/generiek/lijn/lijnlocatie> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "lijnLocatie"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/generiek/lijn/lijnlocatie"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "lijnLocatie"@nl ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/lijn> ;
+    dcterms:identifier "EAID_8AF322D4_9916_4fde_9593_176DB6DF2DAE" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/generiek/lijn> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/generiek/> ;
+    rdfs:range geo:wktLiteral .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/generiek/locatie/hoogte> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "hoogte"@nl ;
+    mim:definitie "Hoogte in meters. Negatief is onder het maaiveld en positief boven het maaiveld"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/generiek/locatie/hoogte"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "hoogte"@nl ;
+    mim:type mim:Integer ;
+    dcterms:identifier "EAID_CC27F57F_F667_4c80_B01A_F43D697EDD6F" ;
+    rdfs:comment "Hoogte in meters. Negatief is onder het maaiveld en positief boven het maaiveld"@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/generiek/locatie> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/generiek/> ;
+    rdfs:range xsd:integer .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/generiek/locatie/naam> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "naam"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/generiek/locatie/naam"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "naam"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_24C789DD_262C_461d_AAFD_1B0EFA704D16" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/generiek/locatie> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/generiek/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/generiek/locatie/nen3610id> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "NEN3610ID"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/generiek/locatie/nen3610id"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "NEN3610ID"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_51EB34D1_025C_4fc1_A995_086F8BD72353" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/generiek/locatie> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/generiek/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/generiek/punt/puntlocatie> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "puntLocatie"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/generiek/punt/puntlocatie"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "puntLocatie"@nl ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/wktliteral> ;
+    dcterms:identifier "EAID_EB1CB430_44DE_4192_8698_0934AA0BCAD2" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/generiek/punt> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/generiek/> ;
+    rdfs:range geo:wktLiteral .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/generiek/gebiedengroep> a mim:Objecttype,
+        owl:Class ;
+    rdfs:label "Gebiedengroep"@nl ;
+    mim:definitie "Verzameling van gebieden"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/generiek/gebiedengroep"^^xsd:anyURI ;
+    mim:indicatieAbstractObject false ;
+    mim:naam "Gebiedengroep"@nl ;
+    dcterms:identifier "EAID_85E3996B_578D_4313_B078_2773F98412D9" ;
+    rdfs:comment "Verzameling van gebieden"@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/generiek/> ;
+    rdfs:subClassOf <https://lod.gemeentelijkgegevensmodel.nl/kern/generiek/locatie> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/generiek/lijnengroep> a mim:Objecttype,
+        owl:Class ;
+    rdfs:label "Lijnengroep"@nl ;
+    mim:definitie "Verzameling van lijnen"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/generiek/lijnengroep"^^xsd:anyURI ;
+    mim:indicatieAbstractObject false ;
+    mim:naam "Lijnengroep"@nl ;
+    dcterms:identifier "EAID_CD06432A_B69D_4ab2_A5B0_C4C3092835A0" ;
+    rdfs:comment "Verzameling van lijnen"@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/generiek/> ;
+    rdfs:subClassOf <https://lod.gemeentelijkgegevensmodel.nl/kern/generiek/locatie> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/generiek/puntengroep> a mim:Objecttype,
+        owl:Class ;
+    rdfs:label "Puntengroep"@nl ;
+    mim:definitie "Verzameling van punten"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/generiek/puntengroep"^^xsd:anyURI ;
+    mim:indicatieAbstractObject false ;
+    mim:naam "Puntengroep"@nl ;
+    dcterms:identifier "EAID_4C0C5DDB_E5BA_42a0_BA5B_65E2D433B16C" ;
+    rdfs:comment "Verzameling van punten"@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/generiek/> ;
+    rdfs:subClassOf <https://lod.gemeentelijkgegevensmodel.nl/kern/generiek/locatie> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/generiek/gebied> a mim:Objecttype,
+        owl:Class ;
+    rdfs:label "Gebied"@nl ;
+    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/kern/generiek/gebied/gebiedsaanduiding> ;
+    mim:definitie "Een aaneengesloten gedeelte van een wijk, waarvan de grenzen zo veel mogelijk gebaseerd zijn op topografische elementen."@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/generiek/gebied"^^xsd:anyURI ;
+    mim:indicatieAbstractObject false ;
+    mim:naam "Gebied"@nl ;
+    dcterms:identifier "EAID_0303A7A4_EF51_4262_AEE0_642FA5064807" ;
+    rdfs:comment "Een aaneengesloten gedeelte van een wijk, waarvan de grenzen zo veel mogelijk gebaseerd zijn op topografische elementen."@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/generiek/> ;
+    rdfs:subClassOf <https://lod.gemeentelijkgegevensmodel.nl/kern/generiek/locatie> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/generiek/lijn> a mim:Objecttype,
+        owl:Class ;
+    rdfs:label "Lijn"@nl ;
+    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/kern/generiek/lijn/lijnlocatie> ;
+    mim:definitie "Denkbeeldige streep op de aardoppervlakte"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/generiek/lijn"^^xsd:anyURI ;
+    mim:indicatieAbstractObject false ;
+    mim:naam "Lijn"@nl ;
+    dcterms:identifier "EAID_FAB83AD1_DC8C_4f78_B54F_33466EB9B139" ;
+    rdfs:comment "Denkbeeldige streep op de aardoppervlakte"@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/generiek/> ;
+    rdfs:subClassOf <https://lod.gemeentelijkgegevensmodel.nl/kern/generiek/locatie> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/generiek/punt> a mim:Objecttype,
+        owl:Class ;
+    rdfs:label "Punt"@nl ;
+    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/kern/generiek/punt/puntlocatie> ;
+    mim:definitie "Plaats in de ruimte"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/generiek/punt"^^xsd:anyURI ;
+    mim:indicatieAbstractObject false ;
+    mim:naam "Punt"@nl ;
+    dcterms:identifier "EAID_20437683_6777_4c7b_B44B_1E3A216239AA" ;
+    rdfs:comment "Plaats in de ruimte"@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/generiek/> ;
+    rdfs:subClassOf <https://lod.gemeentelijkgegevensmodel.nl/kern/generiek/locatie> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/generiek/locatie> a mim:Objecttype,
+        owl:Class ;
+    rdfs:label "Locatie"@nl ;
+    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/kern/generiek/locatie/hoogte>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/generiek/locatie/naam>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/generiek/locatie/nen3610id> ;
+    mim:definitie "De locatie beschrijft middels co√∂rdinaten de ruimtelijke dimensie of ruimtelijke afbakening van een regel of van een objecttype die in de regel beschreven wordt. (CIMOW)"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/generiek/locatie"^^xsd:anyURI ;
+    mim:indicatieAbstractObject false ;
+    mim:naam "Locatie"@nl ;
+    dcterms:identifier "EAID_79284529_B817_4e3f_BE51_AEAFC60BDE44" ;
+    rdfs:comment "De locatie beschrijft middels co√∂rdinaten de ruimtelijke dimensie of ruimtelijke afbakening van een regel of van een objecttype die in de regel beschreven wordt. (CIMOW)"@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/generiek/> .
+

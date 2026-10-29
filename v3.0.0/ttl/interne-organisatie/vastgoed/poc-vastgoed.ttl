@@ -1,0 +1,2915 @@
+# graph: <https://lod.gemeentelijkgegevensmodel.nl/v3.0.0/interne-organisatie/vastgoed/poc-vastgoed>
+
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix mim: <http://modellen.mim-standaard.nl/def/mim#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/betreft-kadastraleonroerendezaak> a mim:Relatiesoort,
+        owl:ObjectProperty ;
+    rdfs:label "betreft"@nl ;
+    mim:aggregatietype mim:Geen ;
+    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject> ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/kadastraleonroerendezaak> ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/betreft-kadastraleonroerendezaak"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "0..*" ;
+    mim:kardinaliteitRelatieBron "0..*" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "betreft"@nl ;
+    mim:unidirectioneel true ;
+    dcterms:identifier "EAID_0B49106E_8E0D_4868_AD7B_FBE77EA922D9" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/kadastraleonroerendezaak> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/heeft-verhuurbaar-eenheid> a mim:Relatiesoort,
+        owl:ObjectProperty ;
+    rdfs:label "heeft"@nl ;
+    mim:aggregatietype mim:Geen ;
+    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject> ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/verhuurbaar-eenheid> ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/heeft-verhuurbaar-eenheid"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "0..*" ;
+    mim:kardinaliteitRelatieBron "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "heeft"@nl ;
+    mim:unidirectioneel true ;
+    dcterms:identifier "EAID_96F3EE4A_4E0B_4427_A6AC_941B7F0ACCD8" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/verhuurbaar-eenheid> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/wijk> a mim:Relatiesoort,
+        owl:ObjectProperty ;
+    rdfs:label "wijk"@nl ;
+    mim:aggregatietype mim:Geen ;
+    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject> ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/archief/kern-rsgb/wijk> ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/wijk"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "wijk"@nl ;
+    mim:unidirectioneel true ;
+    dcterms:identifier "EAID_3377FAC7_7098_4fcf_997D_B37CED2CFCE6" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/archief/kern-rsgb/wijk> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/kadastraleonroerendezaak/gerelateerd> a mim:Relatiesoort,
+        owl:ObjectProperty ;
+    rdfs:label "gerelateerd"@nl ;
+    mim:aggregatietype mim:Geen ;
+    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/kadastraleonroerendezaak> ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/kadastraleonroerendezaak> ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/kadastraleonroerendezaak/gerelateerd"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "0..*" ;
+    mim:kardinaliteitRelatieBron "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "gerelateerd"@nl ;
+    mim:unidirectioneel true ;
+    dcterms:identifier "EAID_7912F892_8D2F_464d_BE9D_E90D1CEEA7DE" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/kadastraleonroerendezaak> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/kadastraleonroerendezaak> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/kadastraleonroerendezaak/heeft-adres> a mim:Relatiesoort,
+        owl:ObjectProperty ;
+    rdfs:label "heeft adres"@nl ;
+    mim:aggregatietype mim:Geen ;
+    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/kadastraleonroerendezaak> ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/adresaanduiding> ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/kadastraleonroerendezaak/heeft-adres"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "0..*" ;
+    mim:kardinaliteitRelatieBron "1..*" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "heeft adres"@nl ;
+    mim:unidirectioneel true ;
+    dcterms:identifier "EAID_2564E656_78D5_4563_A39D_C357E78CC456" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/kadastraleonroerendezaak> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/adresaanduiding> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/kadastraleonroerendezaak/is-ontstaan-uit-andere-kadastrale-onroerende-zaak-bij> a mim:Relatiesoort,
+        owl:ObjectProperty ;
+    rdfs:label "is ontstaan uit andere kadastrale onroerende zaak bij"@nl ;
+    mim:aggregatietype mim:Geen ;
+    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/kadastraleonroerendezaak> ;
+    mim:datumOpname "2007-04-09"^^xsd:date ;
+    mim:definitie "De verwijzing naar andere KADASTRALE ONROERENDE ZAAKen waaruit de KADASTRALE ONROERENDE ZAAK is ontstaan."@nl ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/kadastraleonroerendezaak> ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:herkomst "BRK" ;
+    mim:herkomstDefinitie "KING op basis van BRK" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/kadastraleonroerendezaak/is-ontstaan-uit-andere-kadastrale-onroerende-zaak-bij"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "0..*" ;
+    mim:kardinaliteitRelatieBron "0..*" ;
+    mim:mogelijkGeenWaarde false ;
+    mim:naam "is ontstaan uit andere kadastrale onroerende zaak bij"@nl ;
+    mim:unidirectioneel true ;
+    dcterms:identifier "EAID_EBEE5BED_D39A_4e50_ACD7_4924DF1DF463" ;
+    rdfs:comment "De verwijzing naar andere KADASTRALE ONROERENDE ZAAKen waaruit de KADASTRALE ONROERENDE ZAAK is ontstaan."@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/kadastraleonroerendezaak> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/kadastraleonroerendezaak> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/rechtspersoon/adresbinnenland> a mim:Relatiesoort,
+        owl:ObjectProperty ;
+    rdfs:label "adresBinnenland"@nl ;
+    mim:aggregatietype mim:Geen ;
+    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/rechtspersoon> ;
+    mim:definitie "De aanduiding van het adres waar het SUBJECT verblijft dan wel bereikbaar is."@nl ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/binnenlandsadres> ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/rechtspersoon/adresbinnenland"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "adresBinnenland"@nl ;
+    mim:unidirectioneel true ;
+    dcterms:identifier "EAID_0F55857A_1582_46f5_9621_0E93F8C13310" ;
+    rdfs:comment "De aanduiding van het adres waar het SUBJECT verblijft dan wel bereikbaar is."@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/rechtspersoon> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/binnenlandsadres> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/zakelijkrecht/is-belast-met> a mim:Relatiesoort,
+        owl:ObjectProperty ;
+    rdfs:label "is belast met"@nl ;
+    mim:aggregatietype mim:Geen ;
+    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/zakelijkrecht> ;
+    mim:datumOpname "2016-05-01"^^xsd:date ;
+    mim:definitie "Verwijzing naar het ZAKELIJK RECHT waarmee het onderhavige ZAKELIJK RECHT is belast."@nl ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/zakelijkrecht> ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:herkomst "BRK" ;
+    mim:herkomstDefinitie "KING" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/zakelijkrecht/is-belast-met"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "0..*" ;
+    mim:kardinaliteitRelatieBron "0..1" ;
+    mim:mogelijkGeenWaarde false ;
+    mim:naam "is belast met"@nl ;
+    mim:unidirectioneel true ;
+    dcterms:identifier "EAID_BA508E5B_A499_4ff8_91A5_37368D6C0481" ;
+    rdfs:comment "Verwijzing naar het ZAKELIJK RECHT waarmee het onderhavige ZAKELIJK RECHT is belast."@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/zakelijkrecht> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/zakelijkrecht> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/zakelijkrecht/rust-op> a mim:Relatiesoort,
+        owl:ObjectProperty ;
+    rdfs:label "rust op"@nl ;
+    mim:aggregatietype mim:Geen ;
+    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/zakelijkrecht> ;
+    mim:datumOpname "2007-04-09"^^xsd:date ;
+    mim:definitie "Een verwijzing naar de KADASTRALE ONROERENDE ZAAK waarop het ZAKELIJK RECHT betrekking heeft."@nl ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/kadastraleonroerendezaak> ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:herkomst "BRK" ;
+    mim:herkomstDefinitie "KING op basis van BRK" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/zakelijkrecht/rust-op"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "0..1" ;
+    mim:kardinaliteitRelatieBron "1..*" ;
+    mim:mogelijkGeenWaarde false ;
+    mim:naam "rust op"@nl ;
+    mim:unidirectioneel true ;
+    dcterms:identifier "EAID_2BE9BA3F_23CF_4095_84AC_068C9CE16747" ;
+    rdfs:comment "Een verwijzing naar de KADASTRALE ONROERENDE ZAAK waarop het ZAKELIJK RECHT betrekking heeft."@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/zakelijkrecht> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/kadastraleonroerendezaak> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/v3.0.0/interne-organisatie/vastgoed/poc-vastgoed> a owl:Ontology ;
+    rdfs:label "POC Vastgoed"@nl ;
+    dcterms:identifier "EAID_8B8444CB_1E64_454b_82F9_48A7C9011CE0" ;
+    dcterms:isPartOf <https://lod.gemeentelijkgegevensmodel.nl/> ;
+    owl:versionInfo "v3.0.0" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean/ja> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean> ;
+    rdfs:label "Ja"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean/ja"^^xsd:anyURI ;
+    mim:naam "Ja"@nl ;
+    dcterms:identifier "EAID_ED373F5C_75C8_4f9f_B72B_DC069BEFFB72" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean> ;
+    skos:prefLabel "Ja"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean/leeg> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean> ;
+    rdfs:label "Leeg"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean/leeg"^^xsd:anyURI ;
+    mim:naam "Leeg"@nl ;
+    dcterms:identifier "EAID_15FACEFF_7709_47aa_9827_7C4B604C8D7B" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean> ;
+    skos:prefLabel "Leeg"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean/nee> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean> ;
+    rdfs:label "Nee"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean/nee"^^xsd:anyURI ;
+    mim:naam "Nee"@nl ;
+    dcterms:identifier "EAID_7ECA54CF_CE58_4610_80BC_B502ED1347A3" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean> ;
+    skos:prefLabel "Nee"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean/onbekend> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean> ;
+    rdfs:label "Onbekend"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean/onbekend"^^xsd:anyURI ;
+    mim:naam "Onbekend"@nl ;
+    dcterms:identifier "EAID_D11CFFBC_096A_4d6c_99EB_8969CD67687E" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean> ;
+    skos:prefLabel "Onbekend"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/adresaanduiding/adres> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "adres"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/adresaanduiding/adres"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "adres"@nl ;
+    mim:type mim:Integer ;
+    dcterms:identifier "EAID_657E5172_4BA3_4ec2_A26F_51A44D46891E" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/adresaanduiding> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/> ;
+    rdfs:range xsd:integer .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/energielabel-gebouwen/a> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/energielabel-gebouwen> ;
+    rdfs:label "A"@nl ;
+    mim:definitie "Minder dan verbruik 1,05 gigajoule energie per m2 per jaar"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/energielabel-gebouwen/a"^^xsd:anyURI ;
+    mim:naam "A"@nl ;
+    dcterms:identifier "EAID_33F06BC6_FC74_43c5_A091_DE71B29187C8" ;
+    skos:definition "Minder dan verbruik 1,05 gigajoule energie per m2 per jaar"@nl ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/energielabel-gebouwen> ;
+    skos:prefLabel "A"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/energielabel-gebouwen> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/energielabel-gebouwen/a-2> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/energielabel-gebouwen> ;
+    rdfs:label "A+"@nl ;
+    mim:definitie "Minder dan verbruik 0,7 gigajoule energie per m2 per jaar"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/energielabel-gebouwen/a-2"^^xsd:anyURI ;
+    mim:naam "A+"@nl ;
+    dcterms:identifier "EAID_60B0AADA_0F48_4f56_93F9_F5A5A111BE3E" ;
+    skos:definition "Minder dan verbruik 0,7 gigajoule energie per m2 per jaar"@nl ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/energielabel-gebouwen> ;
+    skos:prefLabel "A+"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/energielabel-gebouwen> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/energielabel-gebouwen/a-3> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/energielabel-gebouwen> ;
+    rdfs:label "A++"@nl ;
+    mim:definitie "Minder dan verbruik 0,5 gigajoule energie per m2 per jaar"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/energielabel-gebouwen/a-3"^^xsd:anyURI ;
+    mim:naam "A++"@nl ;
+    dcterms:identifier "EAID_039A6360_3CEE_4b00_9437_7510B6C8D12E" ;
+    skos:definition "Minder dan verbruik 0,5 gigajoule energie per m2 per jaar"@nl ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/energielabel-gebouwen> ;
+    skos:prefLabel "A++"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/energielabel-gebouwen> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/energielabel-gebouwen/b> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/energielabel-gebouwen> ;
+    rdfs:label "B"@nl ;
+    mim:definitie "Minder dan verbruik 1,3 gigajoule energie per m2 per jaar"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/energielabel-gebouwen/b"^^xsd:anyURI ;
+    mim:naam "B"@nl ;
+    dcterms:identifier "EAID_82AA047F_5BE6_4bce_A716_DF6889162325" ;
+    skos:definition "Minder dan verbruik 1,3 gigajoule energie per m2 per jaar"@nl ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/energielabel-gebouwen> ;
+    skos:prefLabel "B"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/energielabel-gebouwen> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/energielabel-gebouwen/c> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/energielabel-gebouwen> ;
+    rdfs:label "C"@nl ;
+    mim:definitie "Minder dan verbruik 1,6 gigajoule energie per m2 per jaar"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/energielabel-gebouwen/c"^^xsd:anyURI ;
+    mim:naam "C"@nl ;
+    dcterms:identifier "EAID_01AB5F99_E534_466b_83A7_DF120782163D" ;
+    skos:definition "Minder dan verbruik 1,6 gigajoule energie per m2 per jaar"@nl ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/energielabel-gebouwen> ;
+    skos:prefLabel "C"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/energielabel-gebouwen> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/energielabel-gebouwen/d> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/energielabel-gebouwen> ;
+    rdfs:label "D"@nl ;
+    mim:definitie "Minder dan verbruik 2,0 gigajoule energie per m2 per jaar"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/energielabel-gebouwen/d"^^xsd:anyURI ;
+    mim:naam "D"@nl ;
+    dcterms:identifier "EAID_A78DC3E1_0A10_43fa_96BD_B642C4A479FB" ;
+    skos:definition "Minder dan verbruik 2,0 gigajoule energie per m2 per jaar"@nl ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/energielabel-gebouwen> ;
+    skos:prefLabel "D"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/energielabel-gebouwen> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/energielabel-gebouwen/e> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/energielabel-gebouwen> ;
+    rdfs:label "E"@nl ;
+    mim:definitie "Minder dan verbruik 2,4 gigajoule energie per m2 per jaar"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/energielabel-gebouwen/e"^^xsd:anyURI ;
+    mim:naam "E"@nl ;
+    dcterms:identifier "EAID_8FD2E496_F1BC_4867_9021_C7143944C7AF" ;
+    skos:definition "Minder dan verbruik 2,4 gigajoule energie per m2 per jaar"@nl ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/energielabel-gebouwen> ;
+    skos:prefLabel "E"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/energielabel-gebouwen> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/energielabel-gebouwen/f> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/energielabel-gebouwen> ;
+    rdfs:label "F"@nl ;
+    mim:definitie "Minder dan verbruik 2,9 gigajoule energie per m2 per jaar"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/energielabel-gebouwen/f"^^xsd:anyURI ;
+    mim:naam "F"@nl ;
+    dcterms:identifier "EAID_5349B6BD_F7B5_4aa0_AFC2_AD590551E3C1" ;
+    skos:definition "Minder dan verbruik 2,9 gigajoule energie per m2 per jaar"@nl ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/energielabel-gebouwen> ;
+    skos:prefLabel "F"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/energielabel-gebouwen> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/energielabel-gebouwen/g> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/energielabel-gebouwen> ;
+    rdfs:label "G"@nl ;
+    mim:definitie "Meer dan verbruik 2,9 gigajoule energie per m2 per jaar"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/energielabel-gebouwen/g"^^xsd:anyURI ;
+    mim:naam "G"@nl ;
+    dcterms:identifier "EAID_37B7384E_FCC5_4dee_8CF6_9180D92C17DD" ;
+    skos:definition "Meer dan verbruik 2,9 gigajoule energie per m2 per jaar"@nl ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/energielabel-gebouwen> ;
+    skos:prefLabel "G"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/energielabel-gebouwen> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/energielabel-gebouwen/leeg> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/energielabel-gebouwen> ;
+    rdfs:label "Leeg"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/energielabel-gebouwen/leeg"^^xsd:anyURI ;
+    mim:naam "Leeg"@nl ;
+    dcterms:identifier "EAID_FE157D47_0370_48ea_8608_BDDB03554FBA" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/energielabel-gebouwen> ;
+    skos:prefLabel "Leeg"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/energielabel-gebouwen> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/energielabel-gebouwen/onbekend> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/energielabel-gebouwen> ;
+    rdfs:label "Onbekend"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/energielabel-gebouwen/onbekend"^^xsd:anyURI ;
+    mim:naam "Onbekend"@nl ;
+    dcterms:identifier "EAID_FA08BB18_ACA8_4cad_A007_DB84E2226863" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/energielabel-gebouwen> ;
+    skos:prefLabel "Onbekend"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/energielabel-gebouwen> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/monumenttypering/beschermd-stadsgezicht> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/monumenttypering> ;
+    rdfs:label "Beschermd Stadsgezicht"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/monumenttypering/beschermd-stadsgezicht"^^xsd:anyURI ;
+    mim:naam "Beschermd Stadsgezicht"@nl ;
+    dcterms:identifier "EAID_649571B0_B5C1_49b4_8A3A_920B15E9D559" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/monumenttypering> ;
+    skos:prefLabel "Beschermd Stadsgezicht"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/monumenttypering> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/monumenttypering/deels-rijksmonument> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/monumenttypering> ;
+    rdfs:label "Deels rijksmonument"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/monumenttypering/deels-rijksmonument"^^xsd:anyURI ;
+    mim:naam "Deels rijksmonument"@nl ;
+    dcterms:identifier "EAID_5D0840DF_3A87_4970_BB59_A5FF8AB256EA" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/monumenttypering> ;
+    skos:prefLabel "Deels rijksmonument"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/monumenttypering> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/monumenttypering/geen-monument> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/monumenttypering> ;
+    rdfs:label "Geen monument"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/monumenttypering/geen-monument"^^xsd:anyURI ;
+    mim:naam "Geen monument"@nl ;
+    dcterms:identifier "EAID_C989803A_2315_4a50_BB05_9DE4BB288C2A" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/monumenttypering> ;
+    skos:prefLabel "Geen monument"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/monumenttypering> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/monumenttypering/gemeentelijk-monument> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/monumenttypering> ;
+    rdfs:label "Gemeentelijk monument"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/monumenttypering/gemeentelijk-monument"^^xsd:anyURI ;
+    mim:naam "Gemeentelijk monument"@nl ;
+    dcterms:identifier "EAID_4AA9D7C2_5C82_41cd_A03B_A1DD2169D4E1" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/monumenttypering> ;
+    skos:prefLabel "Gemeentelijk monument"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/monumenttypering> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/monumenttypering/ja> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/monumenttypering> ;
+    rdfs:label "Ja"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/monumenttypering/ja"^^xsd:anyURI ;
+    mim:naam "Ja"@nl ;
+    dcterms:identifier "EAID_0631D653_803B_4e85_AC6C_58638F2F03A5" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/monumenttypering> ;
+    skos:prefLabel "Ja"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/monumenttypering> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/monumenttypering/leeg> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/monumenttypering> ;
+    rdfs:label "Leeg"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/monumenttypering/leeg"^^xsd:anyURI ;
+    mim:naam "Leeg"@nl ;
+    dcterms:identifier "EAID_23FE797C_0D3F_4b6c_8463_6909DB29C3BE" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/monumenttypering> ;
+    skos:prefLabel "Leeg"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/monumenttypering> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/monumenttypering/nee> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/monumenttypering> ;
+    rdfs:label "Nee"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/monumenttypering/nee"^^xsd:anyURI ;
+    mim:naam "Nee"@nl ;
+    dcterms:identifier "EAID_218BC8F2_1359_41fb_9A7B_AA1F050AFCF2" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/monumenttypering> ;
+    skos:prefLabel "Nee"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/monumenttypering> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/monumenttypering/onbekend> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/monumenttypering> ;
+    rdfs:label "Onbekend"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/monumenttypering/onbekend"^^xsd:anyURI ;
+    mim:naam "Onbekend"@nl ;
+    dcterms:identifier "EAID_DECA676F_AA4C_400a_97AA_2DD8E5E62F85" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/monumenttypering> ;
+    skos:prefLabel "Onbekend"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/monumenttypering> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/monumenttypering/rijksmonument> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/monumenttypering> ;
+    rdfs:label "Rijksmonument"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/monumenttypering/rijksmonument"^^xsd:anyURI ;
+    mim:naam "Rijksmonument"@nl ;
+    dcterms:identifier "EAID_54D2DD58_292B_4b15_9B86_5C54442C1519" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/monumenttypering> ;
+    skos:prefLabel "Rijksmonument"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/monumenttypering> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/nen2767-conditiescore/1> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/nen2767-conditiescore> ;
+    rdfs:label "1"@nl ;
+    mim:definitie "Uitstekende conditie; incidenteel geringe gebreken"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/nen2767-conditiescore/1"^^xsd:anyURI ;
+    mim:naam "1"@nl ;
+    dcterms:identifier "EAID_81F42BC8_61DD_44d9_B900_B9E9B3CF5860" ;
+    skos:definition "Uitstekende conditie; incidenteel geringe gebreken"@nl ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/nen2767-conditiescore> ;
+    skos:prefLabel "1"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/nen2767-conditiescore> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/nen2767-conditiescore/2> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/nen2767-conditiescore> ;
+    rdfs:label "2"@nl ;
+    mim:definitie "Goede conditie; <font color=\"#262626\">Incidenteel beginnende veroudering</font>"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/nen2767-conditiescore/2"^^xsd:anyURI ;
+    mim:naam "2"@nl ;
+    dcterms:identifier "EAID_467B1F40_5DFB_424d_A695_201FD313515F" ;
+    skos:definition "Goede conditie; <font color=\"#262626\">Incidenteel beginnende veroudering</font>"@nl ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/nen2767-conditiescore> ;
+    skos:prefLabel "2"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/nen2767-conditiescore> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/nen2767-conditiescore/3> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/nen2767-conditiescore> ;
+    rdfs:label "3"@nl ;
+    mim:definitie "Redelijke conditie; <font color=\"#262626\">Plaatselijk zichtbare veroudering Functievervulling van bouw- en installatiedelen niet in gevaar</font>"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/nen2767-conditiescore/3"^^xsd:anyURI ;
+    mim:naam "3"@nl ;
+    dcterms:identifier "EAID_FBBAA4D4_0811_4714_9DAC_8B1E5ED08083" ;
+    skos:definition "Redelijke conditie; <font color=\"#262626\">Plaatselijk zichtbare veroudering Functievervulling van bouw- en installatiedelen niet in gevaar</font>"@nl ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/nen2767-conditiescore> ;
+    skos:prefLabel "3"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/nen2767-conditiescore> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/nen2767-conditiescore/4> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/nen2767-conditiescore> ;
+    rdfs:label "4"@nl ;
+    mim:definitie "Matige conditie; <font color=\"#262626\">Functievervulling van bouw- en installatiedelen incidenteel in gevaar</font>"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/nen2767-conditiescore/4"^^xsd:anyURI ;
+    mim:naam "4"@nl ;
+    dcterms:identifier "EAID_3BA07C37_BBA6_4024_8A0D_39AFEC49AEE1" ;
+    skos:definition "Matige conditie; <font color=\"#262626\">Functievervulling van bouw- en installatiedelen incidenteel in gevaar</font>"@nl ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/nen2767-conditiescore> ;
+    skos:prefLabel "4"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/nen2767-conditiescore> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/nen2767-conditiescore/5> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/nen2767-conditiescore> ;
+    rdfs:label "5"@nl ;
+    mim:definitie "Slechte conditie; <font color=\"#262626\">De veroudering is onomkeerbaar</font>"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/nen2767-conditiescore/5"^^xsd:anyURI ;
+    mim:naam "5"@nl ;
+    dcterms:identifier "EAID_CF00A550_E72E_4dd8_9417_2BBB408273F4" ;
+    skos:definition "Slechte conditie; <font color=\"#262626\">De veroudering is onomkeerbaar</font>"@nl ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/nen2767-conditiescore> ;
+    skos:prefLabel "5"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/nen2767-conditiescore> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/nen2767-conditiescore/6> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/nen2767-conditiescore> ;
+    rdfs:label "6"@nl ;
+    mim:definitie "Zeer slechte conditie; <font color=\"#262626\">Technisch rijp voor sloop</font>"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/nen2767-conditiescore/6"^^xsd:anyURI ;
+    mim:naam "6"@nl ;
+    dcterms:identifier "EAID_93A4AC73_6B0E_4b9e_9212_7754FE52543C" ;
+    skos:definition "Zeer slechte conditie; <font color=\"#262626\">Technisch rijp voor sloop</font>"@nl ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/nen2767-conditiescore> ;
+    skos:prefLabel "6"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/nen2767-conditiescore> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/nen2767-conditiescore/leeg> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/nen2767-conditiescore> ;
+    rdfs:label "Leeg"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/nen2767-conditiescore/leeg"^^xsd:anyURI ;
+    mim:naam "Leeg"@nl ;
+    dcterms:identifier "EAID_1B158133_8FCB_46b3_80ED_2BB5422A09BC" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/nen2767-conditiescore> ;
+    skos:prefLabel "Leeg"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/nen2767-conditiescore> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/nen2767-conditiescore/onbekend> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/nen2767-conditiescore> ;
+    rdfs:label "Onbekend"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/nen2767-conditiescore/onbekend"^^xsd:anyURI ;
+    mim:naam "Onbekend"@nl ;
+    dcterms:identifier "EAID_14402A36_FB20_4e56_A226_39FA69CAD087" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/nen2767-conditiescore> ;
+    skos:prefLabel "Onbekend"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/nen2767-conditiescore> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/aantaletages> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "aantalEtages"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/aantaletages"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "aantalEtages"@nl ;
+    mim:type mim:Integer ;
+    dcterms:identifier "EAID_AA2D81C2_63BE_433b_BB31_EB646C491F3C" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/> ;
+    rdfs:range xsd:integer .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/aantalparkeerplaatsen> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "aantalParkeerplaatsen"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/aantalparkeerplaatsen"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "aantalParkeerplaatsen"@nl ;
+    mim:type mim:Integer ;
+    dcterms:identifier "EAID_299B6BC3_B7C4_49b6_BAED_A024283E7D04" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/> ;
+    rdfs:range xsd:integer .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/aantalrioleringen> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "aantalRioleringen"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/aantalrioleringen"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "aantalRioleringen"@nl ;
+    mim:type mim:Integer ;
+    dcterms:identifier "EAID_522B15B0_0C55_4243_81F9_A4360C7995F1" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/> ;
+    rdfs:range xsd:integer .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/adresaanduiding> a mim:Gegevensgroep,
+        owl:ObjectProperty ;
+    rdfs:label "adresaanduiding"@nl ;
+    mim:gegevensgroeptype <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/groepattribuutsoort/adresaanduiding> ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/adresaanduiding"^^xsd:anyURI ;
+    mim:kardinaliteit "1..1" ;
+    mim:naam "adresaanduiding"@nl ;
+    dcterms:identifier "EAID_A97A81BF_C5BC_49e0_9101_9732D3DFD040" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/groepattribuutsoort/adresaanduiding> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/afgekochteerfpacht> a mim:Attribuutsoort,
+        owl:ObjectProperty ;
+    rdfs:label "afgekochteErfpacht"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/afgekochteerfpacht"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "afgekochteErfpacht"@nl ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean> ;
+    dcterms:identifier "EAID_D64A858C_3726_42c3_8663_CFE49FBFF0D9" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/afgesprokenconditiescore> a mim:Attribuutsoort,
+        owl:ObjectProperty ;
+    rdfs:label "afgesprokenConditiescore"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/afgesprokenconditiescore"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "afgesprokenConditiescore"@nl ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/nen2767-conditiescore> ;
+    dcterms:identifier "EAID_6853B752_006D_49ae_923D_AC97B53B0229" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/nen2767-conditiescore> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/afkoopwaarde> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "afkoopwaarde"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/afkoopwaarde"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "afkoopwaarde"@nl ;
+    mim:type mim:Decimal ;
+    dcterms:identifier "EAID_09914432_1061_48f2_B199_ED98AB2B5C5D" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/> ;
+    rdfs:range xsd:decimal .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/asbestrapportageaanwezig> a mim:Attribuutsoort,
+        owl:ObjectProperty ;
+    rdfs:label "asbestrapportageAanwezig"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/asbestrapportageaanwezig"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "asbestrapportageAanwezig"@nl ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean> ;
+    dcterms:identifier "EAID_5B5F0462_9CCC_40fc_95CA_20F1A8CFB5C7" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/bedragaankoop> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "bedragAankoop"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/bedragaankoop"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "bedragAankoop"@nl ;
+    mim:type mim:Decimal ;
+    dcterms:identifier "EAID_179DAA12_727F_433d_96EC_0A4E5F22816C" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/> ;
+    rdfs:range xsd:decimal .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/bestemmingsplan> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "bestemmingsplan"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/bestemmingsplan"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "bestemmingsplan"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_ACD164B1_E1B4_4592_B076_6F3876FDEB7E" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/boekwaarde> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "boekwaarde"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/boekwaarde"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "boekwaarde"@nl ;
+    mim:type mim:Decimal ;
+    dcterms:identifier "EAID_884FF02D_5C9C_4fee_8600_AD87EC62294E" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/> ;
+    rdfs:range xsd:decimal .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/bouwjaar> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "bouwjaar"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/bouwjaar"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "bouwjaar"@nl ;
+    mim:type mim:Integer ;
+    dcterms:identifier "EAID_00D8AEB1_1030_47f4_814A_8DA2011856EF" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/> ;
+    rdfs:range xsd:integer .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/bouwwerk> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "bouwwerk"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/bouwwerk"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "bouwwerk"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_717965C1_2785_4f8b_9D16_FCBE4428F7D2" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/bovenliggendniveau> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "bovenliggendNiveau"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/bovenliggendniveau"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "bovenliggendNiveau"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_86AADC85_1264_4834_9DE5_F4478198B998" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/bovenliggendniveaucode> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "bovenliggendNiveaucode"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/bovenliggendniveaucode"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "bovenliggendNiveaucode"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_7BE787BE_BDAF_4a3d_B571_83E8C4746631" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/brutovloeroppervlakte> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "brutoVloeroppervlakte"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/brutovloeroppervlakte"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "brutoVloeroppervlakte"@nl ;
+    mim:type mim:Integer ;
+    dcterms:identifier "EAID_A2306622_C899_4357_8F7B_7D45298AF3DA" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/> ;
+    rdfs:range xsd:integer .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/co2uitstoot> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "CO2Uitstoot"@nl ;
+    mim:definitie "Jaarlijkse CO2 uitstoot in ton CO2-e"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/co2uitstoot"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "CO2Uitstoot"@nl ;
+    mim:type mim:Integer ;
+    dcterms:identifier "EAID_E3142621_85D0_440b_9AF6_6F1FEA09537F" ;
+    rdfs:comment "Jaarlijkse CO2 uitstoot in ton CO2-e"@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/> ;
+    rdfs:range xsd:integer .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/conditiescore> a mim:Attribuutsoort,
+        owl:ObjectProperty ;
+    rdfs:label "conditiescore"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/conditiescore"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "conditiescore"@nl ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/nen2767-conditiescore> ;
+    dcterms:identifier "EAID_B433712B_A1EB_4e37_ABFC_08407ADAA718" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/nen2767-conditiescore> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/datumafstoten> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "datumAfstoten"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/datumafstoten"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "datumAfstoten"@nl ;
+    mim:type mim:Date ;
+    dcterms:identifier "EAID_6C30B407_E956_485a_B9F3_30B2731956BF" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/> ;
+    rdfs:range xsd:date .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/datumberekeningoppervlak> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "datumBerekeningOppervlak"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/datumberekeningoppervlak"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "datumBerekeningOppervlak"@nl ;
+    mim:type mim:Date ;
+    dcterms:identifier "EAID_19113077_AEA1_426e_8DBB_EA3C83F0423D" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/> ;
+    rdfs:range xsd:date .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/datumeigendom> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "datumEigendom"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/datumeigendom"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "datumEigendom"@nl ;
+    mim:type mim:Date ;
+    dcterms:identifier "EAID_C3D7BE2F_7C18_4ce0_B9E3_A6E36D334864" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/> ;
+    rdfs:range xsd:date .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/datumverkoop> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "datumVerkoop"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/datumverkoop"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "datumVerkoop"@nl ;
+    mim:type mim:Date ;
+    dcterms:identifier "EAID_69027EB4_D944_4623_9EFF_325589265042" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/> ;
+    rdfs:range xsd:date .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/deelportefeuille> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "deelportefeuille"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/deelportefeuille"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "deelportefeuille"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_C3FCB8BA_88CB_4cc3_9CAE_E43344A61C8F" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/energiekosten> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "energiekosten"@nl ;
+    mim:definitie "Jaarlijkse energiekosten"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/energiekosten"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "energiekosten"@nl ;
+    mim:type mim:Decimal ;
+    dcterms:identifier "EAID_3EBA54DF_9C3E_4d47_9F73_75B10A5E04B9" ;
+    rdfs:comment "Jaarlijkse energiekosten"@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/> ;
+    rdfs:range xsd:decimal .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/energielabel> a mim:Attribuutsoort,
+        owl:ObjectProperty ;
+    rdfs:label "energielabel"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/energielabel"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "energielabel"@nl ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/energielabel-gebouwen> ;
+    dcterms:identifier "EAID_3B58F194_3105_4041_B99B_90D011830879" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/energielabel-gebouwen> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/energieverbruik> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "energieverbruik"@nl ;
+    mim:definitie "jaarlijks energieverbruik in Kwh"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/energieverbruik"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "energieverbruik"@nl ;
+    mim:type mim:Integer ;
+    dcterms:identifier "EAID_96A03580_3DBD_4d09_808B_79ADC4C1BA7C" ;
+    rdfs:comment "jaarlijks energieverbruik in Kwh"@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/> ;
+    rdfs:range xsd:integer .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/fiscalewaarde> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "fiscaleWaarde"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/fiscalewaarde"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "fiscaleWaarde"@nl ;
+    mim:type mim:Decimal ;
+    dcterms:identifier "EAID_5ED1B87F_F1F4_4451_9BAE_242C267E9D1F" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/> ;
+    rdfs:range xsd:decimal .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/foto> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "foto"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/foto"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "foto"@nl ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/base64binary> ;
+    dcterms:identifier "EAID_BA3834D8_2614_4115_9A00_0DE6745BB44F" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/> ;
+    rdfs:range xsd:base64Binary .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/gearchiveerd> a mim:Attribuutsoort,
+        owl:ObjectProperty ;
+    rdfs:label "gearchiveerd"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/gearchiveerd"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "gearchiveerd"@nl ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean> ;
+    dcterms:identifier "EAID_0CC22B7C_CAD3_4494_A244_04986EEADA11" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/herbouwwaarde> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "herbouwwaarde"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/herbouwwaarde"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "herbouwwaarde"@nl ;
+    mim:type mim:Decimal ;
+    dcterms:identifier "EAID_B2487EEF_53FD_4463_A5DD_DD54217D4152" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/> ;
+    rdfs:range xsd:decimal .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/hoofdstuk> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "hoofdstuk"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/hoofdstuk"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "hoofdstuk"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_AF97ACEB_152F_4574_8A99_6B45395A18DB" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/identificatie> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "identificatie"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/identificatie"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "identificatie"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_7341B753_2057_49cd_9449_293719957072" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/jaarlaatsterenovatie> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "jaarLaatsteRenovatie"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/jaarlaatsterenovatie"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "jaarLaatsteRenovatie"@nl ;
+    mim:type mim:Integer ;
+    dcterms:identifier "EAID_FFB98B25_354A_4845_AA9E_C733A4A9D1A7" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/> ;
+    rdfs:range xsd:integer .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/kostenplaats> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "kostenplaats"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/kostenplaats"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "kostenplaats"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_3905E9D7_1972_49c7_B74D_7EB6A0510101" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/locatie> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "locatie"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/locatie"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "locatie"@nl ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/wktliteral> ;
+    dcterms:identifier "EAID_9490FB83_B960_4c74_B22B_38ADAADB67C8" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/> ;
+    rdfs:range geo:wktLiteral .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/marktwaarde> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "marktwaarde"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/marktwaarde"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "marktwaarde"@nl ;
+    mim:type mim:Decimal ;
+    dcterms:identifier "EAID_6D4A37AC_3A78_46e3_B990_F742930C0DD2" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/> ;
+    rdfs:range xsd:decimal .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/monument> a mim:Attribuutsoort,
+        owl:ObjectProperty ;
+    rdfs:label "monument"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/monument"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "monument"@nl ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/monumenttypering> ;
+    dcterms:identifier "EAID_AA070C19_03E6_4c20_A9BE_92F926BA1405" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/monumenttypering> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/naam> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "naam"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/naam"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "naam"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_276F36DB_67AF_4d06_B244_10BD6F479146" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/objectstatus> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "objectstatus"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/objectstatus"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "objectstatus"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_9C532F8C_638F_45b6_9FA4_DB7836358443" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/objectstatuscode> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "objectstatuscode"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/objectstatuscode"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "objectstatuscode"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_4FE919E5_7EE7_431b_97AD_FFB771FF0483" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/objecttype> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "objecttype"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/objecttype"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "objecttype"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_3A4B46CC_C9E8_43ff_9448_8DAEFF8C5C3C" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/objecttypecode> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "objecttypecode"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/objecttypecode"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "objecttypecode"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_1E6968B9_F940_4cf7_BA5D_34579D8BF458" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/omschrijving> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "omschrijving"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/omschrijving"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "omschrijving"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_7FD90F1D_7CBB_42f8_89F4_2662C6A8CC23" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/onderhoudscategorie> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "onderhoudscategorie"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/onderhoudscategorie"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "onderhoudscategorie"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_9A1B28B7_AC46_4e1d_BA4C_9B45B8480021" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/oppervlaktekantoor> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "oppervlakteKantoor"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/oppervlaktekantoor"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "oppervlakteKantoor"@nl ;
+    mim:type mim:Integer ;
+    dcterms:identifier "EAID_7B706FA1_779F_4322_AADC_85E0E6F9F275" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/> ;
+    rdfs:range xsd:integer .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/portefeuille> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "portefeuille"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/portefeuille"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "portefeuille"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_8629AC6C_D35A_4acf_AFEF_4926C119CCF2" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/portefeuillecode> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "portefeuillecode"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/portefeuillecode"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "portefeuillecode"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_FE722782_3E48_4fa0_9651_C939A0AA360A" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/provincie> a mim:Attribuutsoort,
+        owl:ObjectProperty ;
+    rdfs:label "provincie"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/provincie"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "provincie"@nl ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/referentielijsten/provincie> ;
+    dcterms:identifier "EAID_5AFC63B7_07DE_4a67_A3FF_31A1743E20A9" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/referentielijsten/provincie> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/toelichting> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "toelichting"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/toelichting"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "toelichting"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_68EB19D7_769F_488b_9D53_5699CC5946B9" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/verhuurbaarvloeroppervlak> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "verhuurbaarVloeroppervlak"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/verhuurbaarvloeroppervlak"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "verhuurbaarVloeroppervlak"@nl ;
+    mim:type mim:Integer ;
+    dcterms:identifier "EAID_865074AF_B55C_4bd0_B4B2_1219C141F845" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/> ;
+    rdfs:range xsd:integer .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/verkoopbaarheid> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "verkoopbaarheid"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/verkoopbaarheid"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "verkoopbaarheid"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_762102CC_B9F8_4270_8D75_ECECD95F286A" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/verkoopbedrag> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "verkoopbedrag"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/verkoopbedrag"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "verkoopbedrag"@nl ;
+    mim:type mim:Decimal ;
+    dcterms:identifier "EAID_55E22C81_289E_4e5f_AF60_68D665915FD1" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/> ;
+    rdfs:range xsd:decimal .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/verzekerdewaarde> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "verzekerdeWaarde"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/verzekerdewaarde"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "verzekerdeWaarde"@nl ;
+    mim:type mim:Decimal ;
+    dcterms:identifier "EAID_A7252277_C7DB_42ad_8F54_EE768D2D7675" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/> ;
+    rdfs:range xsd:decimal .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/waardegrond> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "waardeGrond"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/waardegrond"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "waardeGrond"@nl ;
+    mim:type mim:Decimal ;
+    dcterms:identifier "EAID_324D4BE8_BE1B_4d7c_AD28_A3E9D0068EBE" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/> ;
+    rdfs:range xsd:decimal .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/waardeopstal> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "waardeOpstal"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/waardeopstal"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "waardeOpstal"@nl ;
+    mim:type mim:Decimal ;
+    dcterms:identifier "EAID_752A37F4_680B_4a16_B29F_10D094064735" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/> ;
+    rdfs:range xsd:decimal .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/wozwaarde> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "WOZWaarde"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/wozwaarde"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "WOZWaarde"@nl ;
+    mim:type mim:Decimal ;
+    dcterms:identifier "EAID_58B023FA_6BE5_4d19_B610_49FF44127625" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/> ;
+    rdfs:range xsd:decimal .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/verhuurbaar-eenheid/adres> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "adres"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/verhuurbaar-eenheid/adres"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "adres"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_D5E27702_8ADA_41ab_94EF_2E2FA4F8531E" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/verhuurbaar-eenheid> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/verhuurbaar-eenheid/afmeting> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "afmeting"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/verhuurbaar-eenheid/afmeting"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "afmeting"@nl ;
+    mim:type mim:Integer ;
+    dcterms:identifier "EAID_EF4D4E5A_186C_4f3c_8B97_1C796147AD4C" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/verhuurbaar-eenheid> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/> ;
+    rdfs:range xsd:integer .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/verhuurbaar-eenheid/bezetting> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "bezetting"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/verhuurbaar-eenheid/bezetting"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "bezetting"@nl ;
+    mim:type mim:Integer ;
+    dcterms:identifier "EAID_97B24D72_F8A0_4557_BFA9_9EB2315472FB" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/verhuurbaar-eenheid> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/> ;
+    rdfs:range xsd:integer .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/verhuurbaar-eenheid/datumeinde> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "datumEinde"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/verhuurbaar-eenheid/datumeinde"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "datumEinde"@nl ;
+    mim:type mim:Date ;
+    dcterms:identifier "EAID_AFF88BDC_B780_4c58_B608_6A34B19F333B" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/verhuurbaar-eenheid> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/> ;
+    rdfs:range xsd:date .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/verhuurbaar-eenheid/datumstart> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "datumStart"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/verhuurbaar-eenheid/datumstart"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "datumStart"@nl ;
+    mim:type mim:Date ;
+    dcterms:identifier "EAID_49CFB6CF_2E2F_475a_8B7A_9DD5504BBEF5" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/verhuurbaar-eenheid> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/> ;
+    rdfs:range xsd:date .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/verhuurbaar-eenheid/datumwerkelijkbegin> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "datumWerkelijkBegin"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/verhuurbaar-eenheid/datumwerkelijkbegin"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "datumWerkelijkBegin"@nl ;
+    mim:type mim:Date ;
+    dcterms:identifier "EAID_05A48FF9_8D15_4d2e_B1A9_1A9659F9DA79" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/verhuurbaar-eenheid> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/> ;
+    rdfs:range xsd:date .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/verhuurbaar-eenheid/datumwerkelijkeinde> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "datumWerkelijkEinde"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/verhuurbaar-eenheid/datumwerkelijkeinde"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "datumWerkelijkEinde"@nl ;
+    mim:type mim:Date ;
+    dcterms:identifier "EAID_48DCA58D_ACDF_49f5_93DA_E897A06E4AC3" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/verhuurbaar-eenheid> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/> ;
+    rdfs:range xsd:date .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/verhuurbaar-eenheid/huurprijs> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "huurprijs"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/verhuurbaar-eenheid/huurprijs"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "huurprijs"@nl ;
+    mim:type mim:Integer ;
+    dcterms:identifier "EAID_891D01DE_9F02_4b68_BC05_C9D862AAB1D4" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/verhuurbaar-eenheid> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/> ;
+    rdfs:range xsd:integer .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/verhuurbaar-eenheid/identificatie> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "identificatie"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/verhuurbaar-eenheid/identificatie"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "identificatie"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_2EDD8970_0E16_4eba_A46A_6FBFD3D554B0" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/verhuurbaar-eenheid> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/verhuurbaar-eenheid/naam> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "naam"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/verhuurbaar-eenheid/naam"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "naam"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_4AEC5002_ACFE_45e7_BC96_933FFE8158D6" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/verhuurbaar-eenheid> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/verhuurbaar-eenheid/nettoomtrek> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "nettoOmtrek"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/verhuurbaar-eenheid/nettoomtrek"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "nettoOmtrek"@nl ;
+    mim:type mim:Integer ;
+    dcterms:identifier "EAID_FFC37352_2025_4cc4_8111_4E6739E0A4F3" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/verhuurbaar-eenheid> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/> ;
+    rdfs:range xsd:integer .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/verhuurbaar-eenheid/nettooppervlak> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "nettoOppervlak"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/verhuurbaar-eenheid/nettooppervlak"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "nettoOppervlak"@nl ;
+    mim:type mim:Integer ;
+    dcterms:identifier "EAID_F01755AB_E5F8_4c69_9C77_0892EB300815" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/verhuurbaar-eenheid> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/> ;
+    rdfs:range xsd:integer .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/verhuurbaar-eenheid/opmerkingen> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "opmerkingen"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/verhuurbaar-eenheid/opmerkingen"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "opmerkingen"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_08847F95_8049_4fe9_A5FA_206329DF2E72" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/verhuurbaar-eenheid> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/verhuurbaar-eenheid/type> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "type"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/verhuurbaar-eenheid/type"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "type"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_9152521D_5C2D_41b4_8D62_D58EDFC56B99" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/verhuurbaar-eenheid> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/kadastraleonroerendezaak/appartementsrechtvolgnummer> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "appartementsrechtvolgnummer"@nl ;
+    mim:definitie "Nummer dat het kadastraal object uniek identificeert als een appartementsrecht binnen het complex."@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:herkomst "BRK" ;
+    mim:herkomstDefinitie "BRK" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/kadastraleonroerendezaak/appartementsrechtvolgnummer"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "0..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "appartementsrechtvolgnummer"@nl ;
+    mim:type mim:Integer ;
+    dcterms:identifier "EAID_5C7FF171_7066_4b7d_BF03_DE2377256EDC" ;
+    rdfs:comment "Nummer dat het kadastraal object uniek identificeert als een appartementsrecht binnen het complex."@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/kadastraleonroerendezaak> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
+    rdfs:range xsd:integer .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/kadastraleonroerendezaak/begrenzing> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "begrenzing"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/kadastraleonroerendezaak/begrenzing"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "begrenzing"@nl ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/wktliteral> ;
+    dcterms:identifier "EAID_9C5D09AB_2838_4e13_81CB_A4991283B757" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/kadastraleonroerendezaak> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
+    rdfs:range geo:wktLiteral .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/kadastraleonroerendezaak/cultuurcodeonbebouwd> a mim:Attribuutsoort,
+        owl:ObjectProperty ;
+    rdfs:label "cultuurcodeOnbebouwd"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/kadastraleonroerendezaak/cultuurcodeonbebouwd"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "cultuurcodeOnbebouwd"@nl ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/referentielijsten/cultuurcodeonbebouwd> ;
+    dcterms:identifier "EAID_65BFF3F5_9825_4c25_B51B_0C67CB65A899" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/kadastraleonroerendezaak> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/referentielijsten/cultuurcodeonbebouwd> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/kadastraleonroerendezaak/datumbegingeldigheid> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "datumBeginGeldigheid"@nl ;
+    mim:datumOpname "2007-04-09"^^xsd:date ;
+    mim:definitie "De datum waarop de gegevens van de kadastrale onroerende zaak voor het eerst geldig zijn geworden."@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:herkomst "KING/GFO" ;
+    mim:herkomstDefinitie "KING" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/kadastraleonroerendezaak/datumbegingeldigheid"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde false ;
+    mim:naam "datumBeginGeldigheid"@nl ;
+    mim:type mim:Date ;
+    dcterms:identifier "EAID_DE40E6DF_2675_472c_AEB6_C2B605CFDD72" ;
+    rdfs:comment "De datum waarop de gegevens van de kadastrale onroerende zaak voor het eerst geldig zijn geworden."@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/kadastraleonroerendezaak> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
+    rdfs:range xsd:date .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/kadastraleonroerendezaak/datumeindegeldigheid> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "datumEindeGeldigheid"@nl ;
+    mim:datumOpname "2007-04-09"^^xsd:date ;
+    mim:definitie "De datum waarop de gegevens van de kadastrale onroerende zaak voor het laatst geldig zijn geweest."@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:herkomst "KING/GFO" ;
+    mim:herkomstDefinitie "KING" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/kadastraleonroerendezaak/datumeindegeldigheid"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "0..1" ;
+    mim:mogelijkGeenWaarde false ;
+    mim:naam "datumEindeGeldigheid"@nl ;
+    mim:type mim:Date ;
+    dcterms:identifier "EAID_7BC9A1AB_479E_482b_A469_700FC66F7A5F" ;
+    rdfs:comment "De datum waarop de gegevens van de kadastrale onroerende zaak voor het laatst geldig zijn geweest."@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/kadastraleonroerendezaak> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
+    rdfs:range xsd:date .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/kadastraleonroerendezaak/identificatie> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "identificatie"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/kadastraleonroerendezaak/identificatie"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "identificatie"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_EAF627DA_ED68_4dd1_90FB_84E3EBDF332C" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/kadastraleonroerendezaak> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/kadastraleonroerendezaak/kadastralegemeente> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "kadastraleGemeente"@nl ;
+    mim:datumOpname "2009-03-01"^^xsd:date ;
+    mim:definitie """De   KADASTRALE   GEMEENTE   waarin   de   KADASTRALE
+ONROERENDE ZAAK gelegen is."""@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:herkomst "KING" ;
+    mim:herkomstDefinitie "KING" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/kadastraleonroerendezaak/kadastralegemeente"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde false ;
+    mim:naam "kadastraleGemeente"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_B22181E2_917B_48d4_B426_68508E07AC8E" ;
+    rdfs:comment """De   KADASTRALE   GEMEENTE   waarin   de   KADASTRALE
+ONROERENDE ZAAK gelegen is."""@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/kadastraleonroerendezaak> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/kadastraleonroerendezaak/kadastralegemeentecode> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "kadastraleGemeentecode"@nl ;
+    mim:definitie "AKR code voor de kadastrale gemeente."@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:herkomst "BRK" ;
+    mim:herkomstDefinitie "BRK" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/kadastraleonroerendezaak/kadastralegemeentecode"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "kadastraleGemeentecode"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_9139A52A_814B_4611_A787_49517441943D" ;
+    rdfs:comment "AKR code voor de kadastrale gemeente."@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/kadastraleonroerendezaak> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/kadastraleonroerendezaak/koopjaar> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "koopjaar"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/kadastraleonroerendezaak/koopjaar"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "koopjaar"@nl ;
+    mim:type mim:Integer ;
+    dcterms:identifier "EAID_413F678C_F957_4819_8089_86A3FD46BD34" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/kadastraleonroerendezaak> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
+    rdfs:range xsd:integer .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/kadastraleonroerendezaak/koopsom> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "koopsom"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/kadastraleonroerendezaak/koopsom"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "koopsom"@nl ;
+    mim:type mim:Decimal ;
+    dcterms:identifier "EAID_FDE2EF5A_3F03_4b04_97E4_D8EA4CA7280D" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/kadastraleonroerendezaak> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
+    rdfs:range xsd:decimal .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/kadastraleonroerendezaak/landinrichtingrentebedrag> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "landInrichtingRenteBedrag"@nl ;
+    mim:definitie "Het bedrag waarmee de Onroerende zaak is belast in het kader van de landinrichtingswet."@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:herkomst "BRK" ;
+    mim:herkomstDefinitie "BRK" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/kadastraleonroerendezaak/landinrichtingrentebedrag"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "0..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "landInrichtingRenteBedrag"@nl ;
+    mim:type mim:Decimal ;
+    dcterms:identifier "EAID_A6851C93_52A7_4e45_A30D_C4F97B231C3E" ;
+    rdfs:comment "Het bedrag waarmee de Onroerende zaak is belast in het kader van de landinrichtingswet."@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/kadastraleonroerendezaak> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
+    rdfs:range xsd:decimal .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/kadastraleonroerendezaak/landinrichtingrenteeindejaar> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "landInrichtingRenteEindejaar"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:herkomst "BRK" ;
+    mim:herkomstDefinitie "BRK" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/kadastraleonroerendezaak/landinrichtingrenteeindejaar"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "0..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "landInrichtingRenteEindejaar"@nl ;
+    mim:type mim:Integer ;
+    dcterms:identifier "EAID_71E3AD7F_FFDE_4c61_AE71_9CC9288E1577" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/kadastraleonroerendezaak> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
+    rdfs:range xsd:integer .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/kadastraleonroerendezaak/ligging> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "ligging"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/kadastraleonroerendezaak/ligging"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "ligging"@nl ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/wktliteral> ;
+    dcterms:identifier "EAID_8DFA2FA3_E6A2_4763_86DE_8174533594F2" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/kadastraleonroerendezaak> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
+    rdfs:range geo:wktLiteral .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/kadastraleonroerendezaak/locatieomschrijving> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "locatieOmschrijving"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/kadastraleonroerendezaak/locatieomschrijving"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "locatieOmschrijving"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_0D0309CA_C29A_44c0_84BB_42A251AC352E" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/kadastraleonroerendezaak> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/kadastraleonroerendezaak/oppervlakte> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "oppervlakte"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/kadastraleonroerendezaak/oppervlakte"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "oppervlakte"@nl ;
+    mim:type mim:Integer ;
+    dcterms:identifier "EAID_522E0C4B_8039_4e4f_849A_84FD4C0DC26B" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/kadastraleonroerendezaak> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
+    rdfs:range xsd:integer .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/kadastraleonroerendezaak/perceelnummer> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "perceelnummer"@nl ;
+    mim:definitie "Het perceelnummer dat een geheel perceel of een complex uniek identificeert binnen de sectie."@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:herkomst "BRK" ;
+    mim:herkomstDefinitie "BRK" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/kadastraleonroerendezaak/perceelnummer"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "perceelnummer"@nl ;
+    mim:type mim:Integer ;
+    dcterms:identifier "EAID_A94CB032_D8A6_4119_AF0F_3F9A80597A0D" ;
+    rdfs:comment "Het perceelnummer dat een geheel perceel of een complex uniek identificeert binnen de sectie."@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/kadastraleonroerendezaak> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
+    rdfs:range xsd:integer .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/kadastraleonroerendezaak/sectie> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "sectie"@nl ;
+    mim:definitie "De sectie die de sectie binnen de kadastrale gemeente uniek identificeert."@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:herkomst "BRK" ;
+    mim:herkomstDefinitie "BRK" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/kadastraleonroerendezaak/sectie"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "sectie"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_10CB743D_4A15_408e_BF22_E5C6F7A4D236" ;
+    rdfs:comment "De sectie die de sectie binnen de kadastrale gemeente uniek identificeert."@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/kadastraleonroerendezaak> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/kadastraleonroerendezaak/valutacode> a mim:Attribuutsoort,
+        owl:ObjectProperty ;
+    rdfs:label "valutacode"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/kadastraleonroerendezaak/valutacode"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "valutacode"@nl ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/referentielijsten/valuta> ;
+    dcterms:identifier "EAID_1203832A_064B_44c1_92B9_739D1C22121B" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/kadastraleonroerendezaak> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/referentielijsten/valuta> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/rechtspersoon/adresbuitenland> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "adresBuitenland"@nl ;
+    mim:definitie "De aanduiding van het adres waar het SUBJECT verblijft dan wel bereikbaar is in het buitenland."@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/rechtspersoon/adresbuitenland"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "0..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "adresBuitenland"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_F6185DF1_173C_47b0_A94A_55D055A89104" ;
+    rdfs:comment "De aanduiding van het adres waar het SUBJECT verblijft dan wel bereikbaar is in het buitenland."@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/rechtspersoon> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/rechtspersoon/adrescorrespondentie> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "adresCorrespondentie"@nl ;
+    mim:definitie "postbus of antwoordnummer"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/rechtspersoon/adrescorrespondentie"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "adresCorrespondentie"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_3A5CEB3F_40E2_4890_92D1_61133EE48E9D" ;
+    rdfs:comment "postbus of antwoordnummer"@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/rechtspersoon> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/rechtspersoon/emailadres> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "emailadres"@nl ;
+    mim:definitie "Elektronisch postadres waaronder het subject in de regel bereikbaar is."@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/rechtspersoon/emailadres"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "0..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "emailadres"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_D003FAB1_3C25_4b00_9247_B6D6CA5155F9" ;
+    rdfs:comment "Elektronisch postadres waaronder het subject in de regel bereikbaar is."@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/rechtspersoon> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/rechtspersoon/faxnummer> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "faxnummer"@nl ;
+    mim:definitie "Faxnummer waaronder het subject in de regel bereikbaar is."@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/rechtspersoon/faxnummer"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "0..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "faxnummer"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_6E61DBA6_E0F0_47bd_9BA5_1D8A04C0EAA6" ;
+    rdfs:comment "Faxnummer waaronder het subject in de regel bereikbaar is."@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/rechtspersoon> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/rechtspersoon/identificatie> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "identificatie"@nl ;
+    mim:definitie "De unieke identificatie van het SUBJECT"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/rechtspersoon/identificatie"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "identificatie"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_5581C29C_3143_42f6_970E_CFB7282258C9" ;
+    rdfs:comment "De unieke identificatie van het SUBJECT"@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/rechtspersoon> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/rechtspersoon/kvknummer> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "KVKnummer"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/rechtspersoon/kvknummer"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "KVKnummer"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_C43F0DE4_C49D_442f_B7F6_157CF378EBE8" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/rechtspersoon> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/rechtspersoon/naam> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "naam"@nl ;
+    mim:definitie "De benaming van het SUBJECT"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/rechtspersoon/naam"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "naam"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_0BBB4DB3_7F02_4dda_82D4_38976334D948" ;
+    rdfs:comment "De benaming van het SUBJECT"@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/rechtspersoon> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/rechtspersoon/rechtsvorm> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "rechtsvorm"@nl ;
+    mim:definitie "Bron: Handelsregister"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/rechtspersoon/rechtsvorm"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "rechtsvorm"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_9FB55106_DB14_4192_B325_75B7272FDE36" ;
+    rdfs:comment "Bron: Handelsregister"@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/rechtspersoon> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/rechtspersoon/rekeningnummer> a mim:Attribuutsoort,
+        owl:ObjectProperty ;
+    rdfs:label "rekeningnummer"@nl ;
+    mim:definitie "Het nummer van een Nederlandse bank/girorekening, zoals dat door een bankinstelling als identificator aan een overeenkomst tussen de bank en een of meer subjecten wordt toegekend, op basis waarvan het SUBJECT in de regel financieel communiceert."@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/rechtspersoon/rekeningnummer"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "0..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "rekeningnummer"@nl ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/ggm-datatypes/iban> ;
+    dcterms:identifier "EAID_6BB892F7_1C6E_4aeb_8BFA_3012FEB03B78" ;
+    rdfs:comment "Het nummer van een Nederlandse bank/girorekening, zoals dat door een bankinstelling als identificator aan een overeenkomst tussen de bank en een of meer subjecten wordt toegekend, op basis waarvan het SUBJECT in de regel financieel communiceert."@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/rechtspersoon> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/ggm-datatypes/iban> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/rechtspersoon/telefoonnummer> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "telefoonnummer"@nl ;
+    mim:definitie "Telefoonnummer waaronder het subject in de regel bereikbaar is."@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/rechtspersoon/telefoonnummer"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "0..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "telefoonnummer"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_6B41E997_26A2_4f32_AE3B_A46BA0E3BE20" ;
+    rdfs:comment "Telefoonnummer waaronder het subject in de regel bereikbaar is."@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/rechtspersoon> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/zakelijkrecht/aardzakelijkrecht> a mim:Attribuutsoort,
+        owl:ObjectProperty ;
+    rdfs:label "aardZakelijkRecht"@nl ;
+    mim:datumOpname "2007-04-09"^^xsd:date ;
+    mim:definitie "Een aanduiding voor de aard van het recht."@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:herkomst "BRK" ;
+    mim:herkomstDefinitie "BRK" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/zakelijkrecht/aardzakelijkrecht"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie true ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde false ;
+    mim:naam "aardZakelijkRecht"@nl ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/referentielijsten/aardzakelijkrecht> ;
+    dcterms:identifier "EAID_849744DC_6CAF_4432_8A26_AEF00D9D520D" ;
+    rdfs:comment "Een aanduiding voor de aard van het recht."@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/zakelijkrecht> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/referentielijsten/aardzakelijkrecht> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/zakelijkrecht/datumeinderecht> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "datumEindeRecht"@nl ;
+    mim:datumOpname "2007-04-09"^^xsd:date ;
+    mim:definitie "De laatste dag waarop het recht volgens het brondocument, op grond waarvan het recht is opgevoerd, nog van toepassing zal zijn."@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:herkomst "BRK" ;
+    mim:herkomstDefinitie "BRK" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/zakelijkrecht/datumeinderecht"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "0..1" ;
+    mim:mogelijkGeenWaarde false ;
+    mim:naam "datumEindeRecht"@nl ;
+    mim:type mim:Date ;
+    dcterms:identifier "EAID_51E43412_915A_4714_8567_0AB4AB7C0717" ;
+    rdfs:comment "De laatste dag waarop het recht volgens het brondocument, op grond waarvan het recht is opgevoerd, nog van toepassing zal zijn."@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/zakelijkrecht> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
+    rdfs:range xsd:date .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/zakelijkrecht/datumingangrecht> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "datumIngangRecht"@nl ;
+    mim:datumOpname "2008-05-01"^^xsd:date ;
+    mim:definitie "De datum waarop de notariële akte is ingeschreven of anderszins een brondocument waar het zakelijk recht op berust is ingeschreven."@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:herkomst "GFO BG" ;
+    mim:herkomstDefinitie "GFO BG" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/zakelijkrecht/datumingangrecht"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "0..1" ;
+    mim:mogelijkGeenWaarde false ;
+    mim:naam "datumIngangRecht"@nl ;
+    mim:type mim:Date ;
+    dcterms:identifier "EAID_86FAF41B_71BB_413a_8993_006A96097E2A" ;
+    rdfs:comment "De datum waarop de notariële akte is ingeschreven of anderszins een brondocument waar het zakelijk recht op berust is ingeschreven."@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/zakelijkrecht> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
+    rdfs:range xsd:date .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/zakelijkrecht/identificatiezakelijkrecht> a mim:Attribuutsoort,
+        owl:ObjectProperty ;
+    rdfs:label "identificatieZakelijkRecht"@nl ;
+    mim:datumOpname "2007-04-09"^^xsd:date ;
+    mim:definitie "Een door het Kadaster toegekende landelijk uniek nummer aan een recht."@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:herkomst "BRK" ;
+    mim:herkomstDefinitie "BRK" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/zakelijkrecht/identificatiezakelijkrecht"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde false ;
+    mim:naam "identificatieZakelijkRecht"@nl ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/complex-datatype/compositeid> ;
+    dcterms:identifier "EAID_24A5065B_8919_42d8_90E5_0B9E0310B051" ;
+    rdfs:comment "Een door het Kadaster toegekende landelijk uniek nummer aan een recht."@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/zakelijkrecht> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/complex-datatype/compositeid> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/zakelijkrecht/toelichtingbewaarder> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "toelichtingBewaarder"@nl ;
+    mim:definitie "ToelichtingBewaarder is een toelichtende tekst die de bewaarder vermeld wil hebben bij de onroerende zaak."@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/zakelijkrecht/toelichtingbewaarder"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "toelichtingBewaarder"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_7EE35923_853A_4413_B127_57DD45C6EA3B" ;
+    rdfs:comment "ToelichtingBewaarder is een toelichtende tekst die de bewaarder vermeld wil hebben bij de onroerende zaak."@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/zakelijkrecht> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/adresaanduiding> a mim:Objecttype,
+        owl:Class ;
+    rdfs:label "Adresaanduiding"@nl ;
+    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/adresaanduiding/adres> ;
+    mim:definitie "De adresaanduiding van het WOZ-OBJECT"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/adresaanduiding"^^xsd:anyURI ;
+    mim:indicatieAbstractObject false ;
+    mim:naam "Adresaanduiding"@nl ;
+    dcterms:identifier "EAID_909E635B_E33D_4ded_8471_900CD175B7D1" ;
+    rdfs:comment "De adresaanduiding van het WOZ-OBJECT"@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/zakelijkrecht> a mim:Objecttype,
+        owl:Class ;
+    rdfs:label "ZakelijkRecht"@nl ;
+    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/zakelijkrecht/aardzakelijkrecht>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/zakelijkrecht/datumeinderecht>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/zakelijkrecht/datumingangrecht>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/zakelijkrecht/identificatiezakelijkrecht>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/zakelijkrecht/toelichtingbewaarder> ;
+    mim:datumOpname "2007-04-09"^^xsd:date ;
+    mim:definitie "Het eigendom van, of een beperkt recht van een natuurlijk of niet-natuurlijk persoon (PERSOON) op, een onroerende zaak (met uitzondering van hypotheken en beslagen)."@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/zakelijkrecht"^^xsd:anyURI ;
+    mim:indicatieAbstractObject false ;
+    mim:naam "ZakelijkRecht"@nl ;
+    mim:toelichting """Zie de catalogus van de BRK. Daarin is sprake van een zowel rechten als zekerheidsrechten op onroerende zaken (zie de toelichting bij KADASTRALE ONROERENDE ZAAK). Geoordeeld is dat alleen de rechten zodanig van belang zijn voor de gemeentelijke taakuitoefening dat zij deel moeten uit maken van het voorliggende referentiemodel. Zij zijn hierin gezamenlijk gemodelleerd als ZAKELIJK RECHT tussen KADASTRALE ONROERENDE ZAAK en TENAAMSTELLING van een persoon.
+(Zakelijke) rechten worden beschouwd vanuit één onroerende zaak, in dit geval het kadastrale object. Recht vormt de relatie tussen één onroerende zaak en één of meer tenaamgestelde personen en heeft betrekking op het eigendom van deze tenaamgestelde personen van één onroerende zaak of op een beperkt recht van deze tenaamgestelde personen op één onroerende zaak. Met een beperkt recht op een onroerende zaak wordt erfpacht, opstal, e.d. bedoeld."""@nl ;
+    dcterms:identifier "EAID_8C809341_AC60_4378_8BA0_0843E8C06AF3" ;
+    rdfs:comment "Het eigendom van, of een beperkt recht van een natuurlijk of niet-natuurlijk persoon (PERSOON) op, een onroerende zaak (met uitzondering van hypotheken en beslagen)."@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/rechtspersoon> a mim:Objecttype,
+        owl:Class ;
+    rdfs:label "Rechtspersoon"@nl ;
+    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/rechtspersoon/adresbuitenland>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/rechtspersoon/adrescorrespondentie>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/rechtspersoon/emailadres>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/rechtspersoon/faxnummer>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/rechtspersoon/identificatie>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/rechtspersoon/kvknummer>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/rechtspersoon/naam>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/rechtspersoon/rechtsvorm>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/rechtspersoon/rekeningnummer>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/rechtspersoon/telefoonnummer> ;
+    mim:definitie "Een NATUURLIJK PERSOON of een NIET-NATUURLIJK PERSOON"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/rechtspersoon"^^xsd:anyURI ;
+    mim:indicatieAbstractObject false ;
+    mim:naam "Rechtspersoon"@nl ;
+    dcterms:identifier "EAID_9DF5AC43_3673_4b9a_BB5E_6DCA7BE28835" ;
+    rdfs:comment "Een NATUURLIJK PERSOON of een NIET-NATUURLIJK PERSOON"@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/verhuurbaar-eenheid> a mim:Objecttype,
+        owl:Class ;
+    rdfs:label "Verhuurbaar Eenheid"@nl ;
+    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/verhuurbaar-eenheid/adres>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/verhuurbaar-eenheid/afmeting>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/verhuurbaar-eenheid/bezetting>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/verhuurbaar-eenheid/datumeinde>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/verhuurbaar-eenheid/datumstart>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/verhuurbaar-eenheid/datumwerkelijkbegin>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/verhuurbaar-eenheid/datumwerkelijkeinde>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/verhuurbaar-eenheid/huurprijs>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/verhuurbaar-eenheid/identificatie>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/verhuurbaar-eenheid/naam>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/verhuurbaar-eenheid/nettoomtrek>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/verhuurbaar-eenheid/nettooppervlak>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/verhuurbaar-eenheid/opmerkingen>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/verhuurbaar-eenheid/type> ;
+    mim:definitie "Een Verhuurbare Eenheid (VHE) is een eenheid die individueel verhuurbaar is. Verhuurbaar komt voort uit 'exploitatie'"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/verhuurbaar-eenheid"^^xsd:anyURI ;
+    mim:indicatieAbstractObject false ;
+    mim:naam "Verhuurbaar Eenheid"@nl ;
+    dcterms:identifier "EAID_98A7AE65_A061_449a_94CD_6218069CA86A" ;
+    rdfs:comment "Een Verhuurbare Eenheid (VHE) is een eenheid die individueel verhuurbaar is. Verhuurbaar komt voort uit 'exploitatie'"@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean> a mim:Enumeratie,
+        owl:Class,
+        skos:ConceptScheme ;
+    rdfs:label "Boolean"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean"^^xsd:anyURI ;
+    mim:naam "Boolean"@nl ;
+    mim:waarde <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean/ja>,
+        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean/leeg>,
+        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean/nee>,
+        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean/onbekend> ;
+    dcterms:identifier "EAID_9BD0FBCB_1A9E_4cab_9280_0EBC428E38F7" ;
+    rdfs:subClassOf skos:Concept .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/nen2767-conditiescore> a mim:Enumeratie,
+        owl:Class,
+        skos:ConceptScheme ;
+    rdfs:label "NEN2767 Conditiescore"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/nen2767-conditiescore"^^xsd:anyURI ;
+    mim:naam "NEN2767 Conditiescore"@nl ;
+    mim:waarde <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/nen2767-conditiescore/1>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/nen2767-conditiescore/2>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/nen2767-conditiescore/3>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/nen2767-conditiescore/4>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/nen2767-conditiescore/5>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/nen2767-conditiescore/6>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/nen2767-conditiescore/leeg>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/nen2767-conditiescore/onbekend> ;
+    dcterms:identifier "EAID_81CA4474_4D1E_485d_94F9_1243FA00B1FE" ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/> ;
+    rdfs:subClassOf skos:Concept .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/monumenttypering> a mim:Enumeratie,
+        owl:Class,
+        skos:ConceptScheme ;
+    rdfs:label "Monumenttypering"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/monumenttypering"^^xsd:anyURI ;
+    mim:naam "Monumenttypering"@nl ;
+    mim:waarde <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/monumenttypering/beschermd-stadsgezicht>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/monumenttypering/deels-rijksmonument>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/monumenttypering/geen-monument>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/monumenttypering/gemeentelijk-monument>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/monumenttypering/ja>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/monumenttypering/leeg>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/monumenttypering/nee>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/monumenttypering/onbekend>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/monumenttypering/rijksmonument> ;
+    dcterms:identifier "EAID_764193B9_F588_46a2_A230_4B9D29B8CF44" ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/> ;
+    rdfs:subClassOf skos:Concept .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/kadastraleonroerendezaak> a mim:Objecttype,
+        owl:Class ;
+    rdfs:label "KadastraleOnroerendeZaak"@nl ;
+    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/kadastraleonroerendezaak/appartementsrechtvolgnummer>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/kadastraleonroerendezaak/begrenzing>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/kadastraleonroerendezaak/cultuurcodeonbebouwd>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/kadastraleonroerendezaak/datumbegingeldigheid>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/kadastraleonroerendezaak/datumeindegeldigheid>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/kadastraleonroerendezaak/identificatie>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/kadastraleonroerendezaak/kadastralegemeente>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/kadastraleonroerendezaak/kadastralegemeentecode>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/kadastraleonroerendezaak/koopjaar>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/kadastraleonroerendezaak/koopsom>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/kadastraleonroerendezaak/landinrichtingrentebedrag>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/kadastraleonroerendezaak/landinrichtingrenteeindejaar>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/kadastraleonroerendezaak/ligging>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/kadastraleonroerendezaak/locatieomschrijving>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/kadastraleonroerendezaak/oppervlakte>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/kadastraleonroerendezaak/perceelnummer>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/kadastraleonroerendezaak/sectie>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/kadastraleonroerendezaak/valutacode> ;
+    mim:datumOpname "2007-04-09"^^xsd:date ;
+    mim:definitie "Een geregistreerd goed waarvoor bij overdracht of vestiging van rechten inschrijving in de openbare registers van het Kadaster is vereist zijnde een KADASTRAAL PERCEEL of een APPARTEMENTSRECHT."@nl ;
+    mim:herkomstDefinitie "KING O.B.V. BRK" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/kadastraleonroerendezaak"^^xsd:anyURI ;
+    mim:indicatieAbstractObject false ;
+    mim:naam "KadastraleOnroerendeZaak"@nl ;
+    mim:toelichting """Zie de catalogus BRK. Daarin is sprake van een ‘onroerende zaak’ zijnde een ‘perceel’, ‘appartementsrecht’ of ‘leidingnetwerk’. Geoordeeld is dat alleen de eerste twee objecttypen zodanig van belang zijn voor de gemeentelijke taakuitoefening dat zij deel moeten uit maken van het voorliggende referentiemodel. Zij zijn hierin gezamenlijk gemodelleerd als KADASTRALE ONROERENDE ZAAK.
+In de BRK wordt de Kadaster identificatie onroerende zaak (hier: Kadastrale identificatie) als unieke aanduiding beschouwd Aangezien de gegevenslevering door het Kadaster hier nog niet op aangepast is hanteren we vooralsnog de Kadastrale aanduiding als unieke identificatie. 
+In de BRK wordt een relatie naar het adresseerbaar object (verblijfsobject, standplaats of ligplaats) onderkend teneinde via een adres (nummeraanduiding) een kadastraal object te kunnen lokaliseren. Vanwege de uitbreiding in dit model naar gebouwde objecten en benoemde terreinen is deze relatie naar deze beide laatstgenoemde objecttypen gelegd.
+Niet alle kadastrale objecten komen qua ligging overeen met een gebouwd object of benoemd terrein. In die gevallen opteert de BRK om voor het aanduiden van de globale ligging gebruik te maken van een dichtbijgelegen adres i.c.m. de aanduiding ‘Bij’ of ‘Tegenover’ dan wel een locatieomschrijving met daarin de beschrijving van de locatie, veelal door middel van een woonplaatsnaam en een straatnaam. Beide wijzen van aanduiden van de locatie zijn hier opgenomen in Locatie-omschrijving zodat de relaties naar gebouwde objecten en benoemde terreinen alleen ruimtelijke relaties tussen de objecten betreffen."""@nl ;
+    dcterms:identifier "EAID_9775E778_DBF8_4122_94CE_551466B62F46" ;
+    rdfs:comment "Een geregistreerd goed waarvoor bij overdracht of vestiging van rechten inschrijving in de openbare registers van het Kadaster is vereist zijnde een KADASTRAAL PERCEEL of een APPARTEMENTSRECHT."@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/energielabel-gebouwen> a mim:Enumeratie,
+        owl:Class,
+        skos:ConceptScheme ;
+    rdfs:label "Energielabel Gebouwen"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/energielabel-gebouwen"^^xsd:anyURI ;
+    mim:naam "Energielabel Gebouwen"@nl ;
+    mim:waarde <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/energielabel-gebouwen/a>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/energielabel-gebouwen/a-2>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/energielabel-gebouwen/a-3>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/energielabel-gebouwen/b>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/energielabel-gebouwen/c>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/energielabel-gebouwen/d>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/energielabel-gebouwen/e>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/energielabel-gebouwen/f>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/energielabel-gebouwen/g>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/energielabel-gebouwen/leeg>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/energielabel-gebouwen/onbekend> ;
+    dcterms:identifier "EAID_808592B6_401F_48c7_BD2A_2A3D77E846A4" ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/> ;
+    rdfs:subClassOf skos:Concept .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject> a mim:Objecttype,
+        owl:Class ;
+    rdfs:label "Vastgoedobject"@nl ;
+    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/aantaletages>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/aantalparkeerplaatsen>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/aantalrioleringen>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/afgekochteerfpacht>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/afgesprokenconditiescore>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/afkoopwaarde>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/asbestrapportageaanwezig>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/bedragaankoop>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/bestemmingsplan>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/boekwaarde>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/bouwjaar>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/bouwwerk>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/bovenliggendniveau>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/bovenliggendniveaucode>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/brutovloeroppervlakte>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/co2uitstoot>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/conditiescore>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/datumafstoten>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/datumberekeningoppervlak>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/datumeigendom>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/datumverkoop>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/deelportefeuille>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/energiekosten>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/energielabel>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/energieverbruik>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/fiscalewaarde>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/foto>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/gearchiveerd>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/herbouwwaarde>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/hoofdstuk>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/identificatie>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/jaarlaatsterenovatie>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/kostenplaats>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/locatie>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/marktwaarde>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/monument>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/naam>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/objectstatus>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/objectstatuscode>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/objecttype>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/objecttypecode>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/omschrijving>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/onderhoudscategorie>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/oppervlaktekantoor>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/portefeuille>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/portefeuillecode>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/provincie>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/toelichting>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/verhuurbaarvloeroppervlak>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/verkoopbaarheid>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/verkoopbedrag>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/verzekerdewaarde>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/waardegrond>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/waardeopstal>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/wozwaarde> ;
+    mim:definitie "Perceel of vastgoed waar de gemeente een zakelijk recht heeft, en optioneel verhuurd, verpacht of anderzinds aan een derde partij."@nl ;
+    mim:gegevensgroep <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/adresaanduiding> ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject"^^xsd:anyURI ;
+    mim:indicatieAbstractObject false ;
+    mim:naam "Vastgoedobject"@nl ;
+    dcterms:identifier "EAID_28A6F2AC_5AB1_4f25_8876_931152CA28E0" ;
+    rdfs:comment "Perceel of vastgoed waar de gemeente een zakelijk recht heeft, en optioneel verhuurd, verpacht of anderzinds aan een derde partij."@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/> .
+

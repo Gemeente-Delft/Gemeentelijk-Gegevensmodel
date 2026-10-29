@@ -1,0 +1,1084 @@
+# graph: <https://lod.gemeentelijkgegevensmodel.nl/v3.0.0/volksgezondheid-en-milieu/afval/diagram-afval-ophalen>
+
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix mim: <http://modellen.mim-standaard.nl/def/mim#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/v3.0.0/volksgezondheid-en-milieu/afval/diagram-afval-ophalen> a owl:Ontology ;
+    rdfs:label "Diagram Afval Ophalen"@nl ;
+    dcterms:identifier "EAID_D98AA96C_2EB0_4b46_9E9C_09D55E02FE38" ;
+    dcterms:isPartOf <https://lod.gemeentelijkgegevensmodel.nl/> ;
+    owl:versionInfo "v3.0.0" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/container/geschikt-voor> a mim:Relatiesoort,
+        owl:ObjectProperty ;
+    rdfs:label "geschikt voor"@nl ;
+    mim:aggregatietype mim:Geen ;
+    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/container> ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/fractie> ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/container/geschikt-voor"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:kardinaliteitRelatieBron "0..*" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "geschikt voor"@nl ;
+    mim:unidirectioneel true ;
+    dcterms:identifier "EAID_36405EF9_1834_4820_AC14_E948C8E501CA" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/container> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/fractie> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/container/heeft-locatie> a mim:Relatiesoort,
+        owl:ObjectProperty ;
+    rdfs:label "heeft"@nl ;
+    mim:aggregatietype mim:Geen ;
+    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/container> ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/locatie> ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/container/heeft-locatie"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:kardinaliteitRelatieBron "0..*" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "heeft"@nl ;
+    mim:unidirectioneel true ;
+    dcterms:identifier "EAID_B6A165E1_F6F2_447a_83F3_8786CC50D691" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/container> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/locatie> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/container/heeft-vulgraadmeting> a mim:Relatiesoort,
+        owl:ObjectProperty ;
+    rdfs:label "heeft"@nl ;
+    mim:aggregatietype mim:Geen ;
+    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/container> ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/vulgraadmeting> ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/container/heeft-vulgraadmeting"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "0..*" ;
+    mim:kardinaliteitRelatieBron "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "heeft"@nl ;
+    mim:unidirectioneel true ;
+    dcterms:identifier "EAID_B9EFC41B_C77E_43e5_80BE_886D1F7FF6A7" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/container> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/vulgraadmeting> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/container/soort> a mim:Relatiesoort,
+        owl:ObjectProperty ;
+    rdfs:label "soort"@nl ;
+    mim:aggregatietype mim:Geen ;
+    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/container> ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/containertype> ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/container/soort"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "0..1" ;
+    mim:kardinaliteitRelatieBron "0..*" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "soort"@nl ;
+    mim:unidirectioneel true ;
+    dcterms:identifier "EAID_A3FEE3DD_1148_4a7e_A133_1DAA02D2F1EA" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/container> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/containertype> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/ophaalmoment/gelost> a mim:Relatiesoort,
+        owl:ObjectProperty ;
+    rdfs:label "gelost"@nl ;
+    mim:aggregatietype mim:Geen ;
+    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/ophaalmoment> ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/container> ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/ophaalmoment/gelost"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "0..1" ;
+    mim:kardinaliteitRelatieBron "0..*" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "gelost"@nl ;
+    mim:unidirectioneel true ;
+    dcterms:identifier "EAID_99AE0490_31AD_4cde_9104_15B00595495C" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/ophaalmoment> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/container> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/ophaalmoment/gestopt-op> a mim:Relatiesoort,
+        owl:ObjectProperty ;
+    rdfs:label "gestopt op"@nl ;
+    mim:aggregatietype mim:Geen ;
+    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/ophaalmoment> ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/locatie> ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/ophaalmoment/gestopt-op"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:kardinaliteitRelatieBron "0..*" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "gestopt op"@nl ;
+    mim:unidirectioneel true ;
+    dcterms:identifier "EAID_90CF5882_E7C6_47d8_BC38_F44A69FF7F31" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/ophaalmoment> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/locatie> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/prijsafspraak/heeft> a mim:Relatiesoort,
+        owl:ObjectProperty ;
+    rdfs:label "heeft"@nl ;
+    mim:aggregatietype mim:Geen ;
+    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/prijsafspraak> ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/prijsregel> ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/prijsafspraak/heeft"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "0..*" ;
+    mim:kardinaliteitRelatieBron "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "heeft"@nl ;
+    mim:unidirectioneel true ;
+    dcterms:identifier "EAID_FDDDA9A7_05A7_4fc6_A28F_9A131CAD0BAD" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/prijsafspraak> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/prijsregel> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/prijsregel/betreft> a mim:Relatiesoort,
+        owl:ObjectProperty ;
+    rdfs:label "betreft"@nl ;
+    mim:aggregatietype mim:Geen ;
+    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/prijsregel> ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/fractie> ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/prijsregel/betreft"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:kardinaliteitRelatieBron "1..*" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "betreft"@nl ;
+    mim:unidirectioneel true ;
+    dcterms:identifier "EAID_7E95D3E7_7C41_4873_9BC8_6BE07BD58617" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/prijsregel> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/fractie> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/rit/heeft> a mim:Relatiesoort,
+        owl:ObjectProperty ;
+    rdfs:label "heeft"@nl ;
+    mim:aggregatietype mim:Geen ;
+    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/rit> ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/ophaalmoment> ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/rit/heeft"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "0..*" ;
+    mim:kardinaliteitRelatieBron "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "heeft"@nl ;
+    mim:unidirectioneel true ;
+    dcterms:identifier "EAID_616888E8_12DB_4385_9F2A_EEABBBE80C6E" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/rit> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/ophaalmoment> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/rit/uitgevoerd-met> a mim:Relatiesoort,
+        owl:ObjectProperty ;
+    rdfs:label "uitgevoerd met"@nl ;
+    mim:aggregatietype mim:Geen ;
+    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/rit> ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/vuilniswagen> ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/rit/uitgevoerd-met"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:kardinaliteitRelatieBron "0..*" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "uitgevoerd met"@nl ;
+    mim:unidirectioneel true ;
+    dcterms:identifier "EAID_F197BB35_77DD_4309_A8B7_D910A033AE6C" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/rit> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/vuilniswagen> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/rit/volgens> a mim:Relatiesoort,
+        owl:ObjectProperty ;
+    rdfs:label "volgens"@nl ;
+    mim:aggregatietype mim:Geen ;
+    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/rit> ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/route> ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/rit/volgens"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "0..1" ;
+    mim:kardinaliteitRelatieBron "0..*" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "volgens"@nl ;
+    mim:unidirectioneel true ;
+    dcterms:identifier "EAID_27329A36_5B92_44c6_8A47_EE43404FD628" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/rit> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/route> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/route/gaat-langs> a mim:Relatiesoort,
+        owl:ObjectProperty ;
+    rdfs:label "gaat langs"@nl ;
+    mim:aggregatietype mim:Geen ;
+    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/route> ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/locatie> ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/route/gaat-langs"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "0..*" ;
+    mim:kardinaliteitRelatieBron "0..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "gaat langs"@nl ;
+    mim:unidirectioneel true ;
+    dcterms:identifier "EAID_33F2F523_1BA7_4b83_A62D_19A8622465F5" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/route> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/locatie> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/route/ophalen> a mim:Relatiesoort,
+        owl:ObjectProperty ;
+    rdfs:label "ophalen"@nl ;
+    mim:aggregatietype mim:Geen ;
+    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/route> ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/fractie> ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/route/ophalen"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:kardinaliteitRelatieBron "0..*" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "ophalen"@nl ;
+    mim:unidirectioneel true ;
+    dcterms:identifier "EAID_C09F3E43_5B6A_460b_AD49_C26FE2DCFF78" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/route> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/fractie> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/vuilniswagen/geschikt-voor> a mim:Relatiesoort,
+        owl:ObjectProperty ;
+    rdfs:label "geschikt voor"@nl ;
+    mim:aggregatietype mim:Geen ;
+    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/vuilniswagen> ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/containertype> ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/vuilniswagen/geschikt-voor"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..*" ;
+    mim:kardinaliteitRelatieBron "0..*" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "geschikt voor"@nl ;
+    mim:unidirectioneel true ;
+    dcterms:identifier "EAID_F27204F9_AFF0_431a_A5C8_66A1A1736ED1" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/vuilniswagen> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/containertype> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/container/containercode> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "containercode"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/container/containercode"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "containercode"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_EAF73966_4627_4622_BE7D_3BF4A4302C2F" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/container> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/container/sensorid> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "sensorID"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/container/sensorid"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "sensorID"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_8B5A9096_6DBF_4b86_AEBC_1E4C2A545495" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/container> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/containertype/naam> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "naam"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/containertype/naam"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "naam"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_E680E358_90CA_4a54_BDF9_629A38F1552D" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/containertype> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/containertype/omschrijving> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "omschrijving"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/containertype/omschrijving"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "omschrijving"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_56083901_A7EA_4dfc_9718_985A7D414C80" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/containertype> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/fractie/naam> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "naam"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/fractie/naam"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "naam"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_F66CC356_50B7_49b8_9982_C5BFCE331CE1" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/fractie> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/fractie/omschrijving> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "omschrijving"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/fractie/omschrijving"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "omschrijving"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_19DB02EE_F4B9_46d9_BFCA_FFD860F8E4D1" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/fractie> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/locatie/adresaanduiding> a mim:Gegevensgroep,
+        owl:ObjectProperty ;
+    rdfs:label "adresaanduiding"@nl ;
+    mim:gegevensgroeptype <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/groepattribuutsoort/adresaanduiding> ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/locatie/adresaanduiding"^^xsd:anyURI ;
+    mim:kardinaliteit "1..1" ;
+    mim:naam "adresaanduiding"@nl ;
+    dcterms:identifier "EAID_EEDF5A2A_11A0_44b6_87CC_41AE8E4C66A6" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/locatie> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/groepattribuutsoort/adresaanduiding> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/locatie/locatiecode> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "locatiecode"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/locatie/locatiecode"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "locatiecode"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_C0076BED_1245_45e6_99AE_11EEE2693EBB" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/locatie> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/locatie/locatiepunt> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "locatiePunt"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/locatie/locatiepunt"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "locatiePunt"@nl ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/wktliteral> ;
+    dcterms:identifier "EAID_FAE8EDF4_8515_4ae0_8E77_3AB5C3C6270A" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/locatie> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/> ;
+    rdfs:range geo:wktLiteral .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/ophaalmoment/gewichtstoename> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "gewichtstoename"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/ophaalmoment/gewichtstoename"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "gewichtstoename"@nl ;
+    mim:type mim:Integer ;
+    dcterms:identifier "EAID_44829426_C0C9_45ae_B636_2C580EC777B8" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/ophaalmoment> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/> ;
+    rdfs:range xsd:integer .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/ophaalmoment/tijdstip> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "tijdstip"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/ophaalmoment/tijdstip"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "tijdstip"@nl ;
+    mim:type mim:DateTime ;
+    dcterms:identifier "EAID_9A8749EF_5B24_4c73_A9CB_6183D84303BB" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/ophaalmoment> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/> ;
+    rdfs:range xsd:dateTime .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/prijsafspraak/datumeinde> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "datumEinde"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/prijsafspraak/datumeinde"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "datumEinde"@nl ;
+    mim:type mim:Date ;
+    dcterms:identifier "EAID_34ACB021_8E1E_43d5_BD29_97F4EAE95C6D" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/prijsafspraak> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/> ;
+    rdfs:range xsd:date .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/prijsafspraak/datumstart> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "datumStart"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/prijsafspraak/datumstart"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "datumStart"@nl ;
+    mim:type mim:Date ;
+    dcterms:identifier "EAID_2FC3ECC9_7676_4b83_A7A1_9795497228C4" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/prijsafspraak> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/> ;
+    rdfs:range xsd:date .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/prijsafspraak/titel> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "titel"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/prijsafspraak/titel"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "titel"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_19C286C0_5061_4afd_82B6_5DD85A09E335" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/prijsafspraak> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/prijsregel/bedrag> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "bedrag"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/prijsregel/bedrag"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "bedrag"@nl ;
+    mim:type mim:Decimal ;
+    dcterms:identifier "EAID_B8474925_5686_4b63_A6E5_78B72CA48A8F" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/prijsregel> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/> ;
+    rdfs:range xsd:decimal .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/prijsregel/credit> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "credit"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/prijsregel/credit"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "credit"@nl ;
+    mim:type mim:Boolean ;
+    dcterms:identifier "EAID_BBB63AAE_87EA_40eb_8E0E_D40B850D50D0" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/prijsregel> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/> ;
+    rdfs:range xsd:boolean .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/rit/eindtijd> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "eindtijd"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/rit/eindtijd"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "eindtijd"@nl ;
+    mim:type mim:DateTime ;
+    dcterms:identifier "EAID_3D9DDD6F_848E_4c64_87A4_D49543AAD0A7" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/rit> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/> ;
+    rdfs:range xsd:dateTime .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/rit/ritcode> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "ritcode"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/rit/ritcode"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "ritcode"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_3C559529_86C7_4855_8B84_5A6CBD98F5A3" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/rit> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/rit/starttijd> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "starttijd"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/rit/starttijd"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "starttijd"@nl ;
+    mim:type mim:DateTime ;
+    dcterms:identifier "EAID_D0F65549_FCFD_4fab_BFAF_8C27507A3797" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/rit> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/> ;
+    rdfs:range xsd:dateTime .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/route/geometrie> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "geometrie"@nl ;
+    mim:definitie "Geometrie: lijnen die gezamenlijk de route bepalen. Nog onvoldoende ondersteund met GML. Ij dat geval leeglaten."@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/route/geometrie"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "geometrie"@nl ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/wktliteral> ;
+    dcterms:identifier "EAID_4F22BB61_A2F8_4b3c_B2B5_A66C6BAA2685" ;
+    rdfs:comment "Geometrie: lijnen die gezamenlijk de route bepalen. Nog onvoldoende ondersteund met GML. Ij dat geval leeglaten."@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/route> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/> ;
+    rdfs:range geo:wktLiteral .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/route/routecode> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "routecode"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/route/routecode"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "routecode"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_35A00788_DB70_4af5_99E2_D40F05F01B6C" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/route> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/route/routesoort> a mim:Attribuutsoort,
+        owl:ObjectProperty ;
+    rdfs:label "routesoort"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/route/routesoort"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "routesoort"@nl ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/routesoort> ;
+    dcterms:identifier "EAID_995CF172_F9D9_4b5a_A0FE_6A0D0107D4E1" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/route> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/routesoort> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/routesoort/grofvuil> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/routesoort> ;
+    rdfs:label "grofvuil"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/routesoort/grofvuil"^^xsd:anyURI ;
+    mim:naam "grofvuil"@nl ;
+    dcterms:identifier "EAID_76ABEBE6_12FA_4e44_94E4_7B0D3B4ADC2E" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/routesoort> ;
+    skos:prefLabel "grofvuil"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/routesoort> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/routesoort/hot-spot-locaties> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/routesoort> ;
+    rdfs:label "hot-spot-locaties"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/routesoort/hot-spot-locaties"^^xsd:anyURI ;
+    mim:naam "hot-spot-locaties"@nl ;
+    dcterms:identifier "EAID_0264FCC9_A802_469f_9151_F1FA2087A364" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/routesoort> ;
+    skos:prefLabel "hot-spot-locaties"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/routesoort> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/routesoort/huis-aan-huis> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/routesoort> ;
+    rdfs:label "huis-aan-huis"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/routesoort/huis-aan-huis"^^xsd:anyURI ;
+    mim:naam "huis-aan-huis"@nl ;
+    dcterms:identifier "EAID_9D722377_46B9_4f33_9196_C2873EC31F54" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/routesoort> ;
+    skos:prefLabel "huis-aan-huis"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/routesoort> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/routesoort/illegale-dumping> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/routesoort> ;
+    rdfs:label "illegale dumping"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/routesoort/illegale-dumping"^^xsd:anyURI ;
+    mim:naam "illegale dumping"@nl ;
+    dcterms:identifier "EAID_55D66C92_DBD7_4b02_8818_9E78B0EB16A8" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/routesoort> ;
+    skos:prefLabel "illegale dumping"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/routesoort> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/routesoort/vangnetregeling> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/routesoort> ;
+    rdfs:label "vangnetregeling"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/routesoort/vangnetregeling"^^xsd:anyURI ;
+    mim:naam "vangnetregeling"@nl ;
+    dcterms:identifier "EAID_157C583D_128F_4ca6_A693_6C826F308D46" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/routesoort> ;
+    skos:prefLabel "vangnetregeling"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/routesoort> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/vuilniswagen/code> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "code"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/vuilniswagen/code"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "code"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_22757D93_E464_4486_8593_576FA128B61B" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/vuilniswagen> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/vuilniswagen/kenteken> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "kenteken"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/vuilniswagen/kenteken"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "kenteken"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_0C2B6E67_2350_49bc_A447_9B1A42645889" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/vuilniswagen> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/vuilniswagen/type> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "type"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/vuilniswagen/type"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "type"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_5BD00866_24F7_4244_88BD_679A8040E205" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/vuilniswagen> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/vulgraadmeting/tijdstip> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "tijdstip"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/vulgraadmeting/tijdstip"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "tijdstip"@nl ;
+    mim:type mim:DateTime ;
+    dcterms:identifier "EAID_59D17BF9_7FF9_4cdb_A485_D14A8E859E51" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/vulgraadmeting> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/> ;
+    rdfs:range xsd:dateTime .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/vulgraadmeting/vulgraad> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "vulgraad"@nl ;
+    mim:definitie "Vulgraadpercentage"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/vulgraadmeting/vulgraad"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "vulgraad"@nl ;
+    mim:type mim:Integer ;
+    dcterms:identifier "EAID_85567414_601F_48ef_8659_2C4DC6D58302" ;
+    rdfs:comment "Vulgraadpercentage"@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/vulgraadmeting> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/> ;
+    rdfs:range xsd:integer .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/vulgraadmeting/vullinggewicht> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "vullingGewicht"@nl ;
+    mim:definitie "Gewicht vulling in kilo's"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/vulgraadmeting/vullinggewicht"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "vullingGewicht"@nl ;
+    mim:type mim:Integer ;
+    dcterms:identifier "EAID_C723B221_4835_4676_8C6C_501FB16C95FE" ;
+    rdfs:comment "Gewicht vulling in kilo's"@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/vulgraadmeting> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/> ;
+    rdfs:range xsd:integer .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/prijsafspraak> a mim:Objecttype,
+        owl:Class ;
+    rdfs:label "Prijsafspraak"@nl ;
+    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/prijsafspraak/datumeinde>,
+        <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/prijsafspraak/datumstart>,
+        <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/prijsafspraak/titel> ;
+    mim:definitie "Overeenkomst tussen concurrenten met betrekking tot de prijs van goederen of diensten."@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/prijsafspraak"^^xsd:anyURI ;
+    mim:indicatieAbstractObject false ;
+    mim:naam "Prijsafspraak"@nl ;
+    dcterms:identifier "EAID_21BBA828_AAE0_4785_9E44_45C1B866C882" ;
+    rdfs:comment "Overeenkomst tussen concurrenten met betrekking tot de prijs van goederen of diensten."@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/vulgraadmeting> a mim:Objecttype,
+        owl:Class ;
+    rdfs:label "Vulgraadmeting"@nl ;
+    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/vulgraadmeting/tijdstip>,
+        <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/vulgraadmeting/vulgraad>,
+        <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/vulgraadmeting/vullinggewicht> ;
+    mim:definitie "Mate waarin een (afval)container gevuld is"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/vulgraadmeting"^^xsd:anyURI ;
+    mim:indicatieAbstractObject false ;
+    mim:naam "Vulgraadmeting"@nl ;
+    dcterms:identifier "EAID_3650DB98_AC7B_46c0_A607_C54D69E38E42" ;
+    rdfs:comment "Mate waarin een (afval)container gevuld is"@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/containertype> a mim:Objecttype,
+        owl:Class ;
+    rdfs:label "Containertype"@nl ;
+    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/containertype/naam>,
+        <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/containertype/omschrijving> ;
+    mim:definitie "Typologie van container"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/containertype"^^xsd:anyURI ;
+    mim:indicatieAbstractObject false ;
+    mim:naam "Containertype"@nl ;
+    dcterms:identifier "EAID_0A7769C7_FE3E_45eb_A644_22E5CB207B42" ;
+    rdfs:comment "Typologie van container"@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/prijsregel> a mim:Objecttype,
+        owl:Class ;
+    rdfs:label "Prijsregel"@nl ;
+    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/prijsregel/bedrag>,
+        <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/prijsregel/credit> ;
+    mim:definitie "Een *prijsregel* is een **regel die aangeeft hoe de prijs van een product, dienst of prestatie wordt vastgesteld of toegepast**, bijvoorbeeld binnen een declaratie- of tariefstructuur."@nl ;
+    mim:herkomstDefinitie "https://www.zorgprestatiemodel.nl/content/uploads/2023/07/20230628-Spelregels-correct-registreren-en-declareren_definitief.pdf" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/prijsregel"^^xsd:anyURI ;
+    mim:indicatieAbstractObject false ;
+    mim:naam "Prijsregel"@nl ;
+    mim:toelichting "In administratieve en financiële systemen geeft een *prijsregel* aan **welke tarieven of prijsinstellingen** gehanteerd moeten worden voor het berekenen van het te factureren bedrag bij een levering of prestatie. Het kan bijvoorbeeld de manier beschrijven waarop een tarief wordt bepaald binnen een declaratiesysteem (zoals in de zorg waar prestaties aan specifieke tarieven zijn gekoppeld) of hoe prijzen worden berekend op basis van volume-, tijds- of productcriteria. Prijsregels worden gebruikt om consistent en systematisch te kunnen berekenen wat er in rekening gebracht mag worden voor een geleverde prestatie."@nl ;
+    dcterms:identifier "EAID_E79C6C20_3D05_49fb_96ED_105B5CD0ABA5" ;
+    rdfs:comment "Een *prijsregel* is een **regel die aangeeft hoe de prijs van een product, dienst of prestatie wordt vastgesteld of toegepast**, bijvoorbeeld binnen een declaratie- of tariefstructuur."@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/vuilniswagen> a mim:Objecttype,
+        owl:Class ;
+    rdfs:label "Vuilniswagen"@nl ;
+    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/vuilniswagen/code>,
+        <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/vuilniswagen/kenteken>,
+        <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/vuilniswagen/type> ;
+    mim:definitie "Een vrachtwagen die gebruikt wordt om afval in te zamelen bij bedrijven en huishoudens (huisvuil)"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/vuilniswagen"^^xsd:anyURI ;
+    mim:indicatieAbstractObject false ;
+    mim:naam "Vuilniswagen"@nl ;
+    dcterms:identifier "EAID_9A422266_783E_4f48_9B12_F442C1B22A45" ;
+    rdfs:comment "Een vrachtwagen die gebruikt wordt om afval in te zamelen bij bedrijven en huishoudens (huisvuil)"@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/fractie> a mim:Objecttype,
+        owl:Class ;
+    rdfs:label "Fractie"@nl ;
+    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/fractie/naam>,
+        <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/fractie/omschrijving> ;
+    mim:definitie "Onderdeel, deeltje"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/fractie"^^xsd:anyURI ;
+    mim:indicatieAbstractObject false ;
+    mim:naam "Fractie"@nl ;
+    dcterms:identifier "EAID_80A7D18F_7C7E_4ee6_9F07_055559BCEF9F" ;
+    rdfs:comment "Onderdeel, deeltje"@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/ophaalmoment> a mim:Objecttype,
+        owl:Class ;
+    rdfs:label "Ophaalmoment"@nl ;
+    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/ophaalmoment/gewichtstoename>,
+        <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/ophaalmoment/tijdstip> ;
+    mim:definitie "Een stop die een vuilniswagen maakt tijdens het doen van een rit. Bijgehouden wordt de gewichtstoename van de lading"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/ophaalmoment"^^xsd:anyURI ;
+    mim:indicatieAbstractObject false ;
+    mim:naam "Ophaalmoment"@nl ;
+    dcterms:identifier "EAID_9079F098_1084_4484_ACCC_6C6C07043193" ;
+    rdfs:comment "Een stop die een vuilniswagen maakt tijdens het doen van een rit. Bijgehouden wordt de gewichtstoename van de lading"@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/locatie> a mim:Objecttype,
+        owl:Class ;
+    rdfs:label "Locatie"@nl ;
+    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/locatie/locatiecode>,
+        <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/locatie/locatiepunt> ;
+    mim:definitie "Locaties die worden aangedaan tijdens het rijden van een route. Dit kunnen adressen zijn en/of GML-punten met een x- en y-coordinaat. Avalex hanteert op het moment van schrijven alleen adressen, ook voor de containers."@nl ;
+    mim:gegevensgroep <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/locatie/adresaanduiding> ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/locatie"^^xsd:anyURI ;
+    mim:indicatieAbstractObject false ;
+    mim:naam "Locatie"@nl ;
+    dcterms:identifier "EAID_7F4E17A3_0EC2_4bee_B4E0_BFA26D653EB9" ;
+    rdfs:comment "Locaties die worden aangedaan tijdens het rijden van een route. Dit kunnen adressen zijn en/of GML-punten met een x- en y-coordinaat. Avalex hanteert op het moment van schrijven alleen adressen, ook voor de containers."@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/rit> a mim:Objecttype,
+        owl:Class ;
+    rdfs:label "Rit"@nl ;
+    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/rit/eindtijd>,
+        <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/rit/ritcode>,
+        <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/rit/starttijd> ;
+    mim:definitie "Verplaatsing van een wegvoertuig over een wegpad"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/rit"^^xsd:anyURI ;
+    mim:indicatieAbstractObject false ;
+    mim:naam "Rit"@nl ;
+    dcterms:identifier "EAID_832DA9A0_0E64_4d41_8266_38418B095919" ;
+    rdfs:comment "Verplaatsing van een wegvoertuig over een wegpad"@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/route> a mim:Objecttype,
+        owl:Class ;
+    rdfs:label "Route"@nl ;
+    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/route/geometrie>,
+        <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/route/routecode>,
+        <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/route/routesoort> ;
+    mim:definitie """Routes die gereden worden om bepaalde fracties vuilnis op te halen. Routes gaan langs locaties, waar afhankelijk van de routesoort een containers, bepaalde plekken of adressen worden aangedaan.
+
+ huis-aan-huis: er worden locaties met adressen aangedaan
+ illegale dumping, grofvuil: er worden locaties aangedaan (evt met adres)
+ containters: er worden locaties met containers aangedaan"""@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/route"^^xsd:anyURI ;
+    mim:indicatieAbstractObject false ;
+    mim:naam "Route"@nl ;
+    dcterms:identifier "EAID_55A58838_3877_4e76_B5BF_26C68FAD463D" ;
+    rdfs:comment """Routes die gereden worden om bepaalde fracties vuilnis op te halen. Routes gaan langs locaties, waar afhankelijk van de routesoort een containers, bepaalde plekken of adressen worden aangedaan.
+
+ huis-aan-huis: er worden locaties met adressen aangedaan
+ illegale dumping, grofvuil: er worden locaties aangedaan (evt met adres)
+ containters: er worden locaties met containers aangedaan"""@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/container> a mim:Objecttype,
+        owl:Class ;
+    rdfs:label "Container"@nl ;
+    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/container/containercode>,
+        <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/container/sensorid> ;
+    mim:definitie "Container voor het gescheiden inzamelen van huishoudelijke afvalstoffen dwz afvalstoffen afkomstig uit particuliere huishoudens behoudens voor zover het ingezamelde bestanddelen van die afvalstoffen betreft die zijn aangewezen als gevaarlijke afvalstoffen"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/container"^^xsd:anyURI ;
+    mim:indicatieAbstractObject false ;
+    mim:naam "Container"@nl ;
+    dcterms:identifier "EAID_7D3D98F0_664C_4605_9D95_F68C88ECBA9A" ;
+    rdfs:comment "Container voor het gescheiden inzamelen van huishoudelijke afvalstoffen dwz afvalstoffen afkomstig uit particuliere huishoudens behoudens voor zover het ingezamelde bestanddelen van die afvalstoffen betreft die zijn aangewezen als gevaarlijke afvalstoffen"@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/routesoort> a mim:Enumeratie,
+        owl:Class,
+        skos:ConceptScheme ;
+    rdfs:label "Routesoort"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/routesoort"^^xsd:anyURI ;
+    mim:naam "Routesoort"@nl ;
+    mim:waarde <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/routesoort/grofvuil>,
+        <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/routesoort/hot-spot-locaties>,
+        <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/routesoort/huis-aan-huis>,
+        <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/routesoort/illegale-dumping>,
+        <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/routesoort/vangnetregeling> ;
+    dcterms:identifier "EAID_0121B2BE_F262_4433_8AA5_49FC7866EF68" ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/> ;
+    rdfs:subClassOf skos:Concept .
+
