@@ -19,9 +19,9 @@
 # - To generate translations: `task generate:translations`
 # - To generate excel-file: `task generate:excel`
 # - To generate documentation: `task generate:docs`
-# - To deploy the documentation of this version to the LOCAL gh-pages branch: `task publish:local`
-# - To make this version the default of the site (alias latest + start page): `task publish:release`
-# - To publish documentation to GitHub Pages: `task publish:github`
+# - To deploy the documentation of this version to the LOCAL gh-pages branch (preview): `task publish:local`
+# - To publish documentation to GitHub Pages: `task publish:github` (runs publish:release first, which
+#   makes this version the default of the site: alias latest + start page, after confirmation)
 # - To generate the Linked Data (ontology, SHACL shapes, one sub-model per EA diagram, merged file): `task generate:lod`
 # - To publish the Linked Data sub-models as named graphs on the LOD server: `task publish:lod`
 #   (see tools/README-lod.md for how the LOD pipeline works)
@@ -377,10 +377,10 @@ tasks:
     shell: bash
 
   publish:release:
-    desc: "Maak {{.VERSION}} de standaardversie van de documentatie: alias 'latest' en de startpagina verschuiven (lokaal op gh-pages; live pas na publish:github)."
+    desc: "Maak {{.VERSION}} de standaardversie van de documentatie: alias 'latest' en de startpagina verschuiven (lokaal op gh-pages; stap van publish:github)."
     deps: [publish:local]
     prompt:
-      - "Dit maakt {{.VERSION}} de standaardversie van de documentatie: de alias 'latest' en de startpagina verschuiven naar {{.VERSION}}. Dat gebeurt op de lokale gh-pages-branch en wordt live zodra je 'task publish:github' draait. Doorgaan?"
+      - "Dit maakt {{.VERSION}} de standaardversie van de documentatie: de alias 'latest' en de startpagina verschuiven naar {{.VERSION}}. Dat gebeurt op de lokale gh-pages-branch; publish:github pusht het daarna naar de LIVE site. Doorgaan?"
     cmds:
       - mike alias --update-aliases "{{.VERSION}}" latest
       - mike set-default latest
@@ -388,8 +388,8 @@ tasks:
     shell: bash
 
   publish:github:
-    desc: "Publish the documentation directly to GitHub Pages."
-    deps: [publish:local]
+    desc: "Publish the documentation of {{.VERSION}} to GitHub Pages as the default version (runs publish:release first)."
+    deps: [publish:release]
     prompt:
      - Dit commando publiceert de documentatie direct naar de LIVE GitHub pages. Doorgaan?
      - Weet je het zeker?
