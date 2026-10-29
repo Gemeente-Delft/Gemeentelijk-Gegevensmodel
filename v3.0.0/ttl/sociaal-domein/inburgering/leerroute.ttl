@@ -158,10 +158,12 @@
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/classificatiearmtotuitstekend> ;
     rdfs:label "Arm"@nl ;
+    mim:code "1" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/classificatiearmtotuitstekend/arm"^^xsd:anyURI ;
     mim:naam "Arm"@nl ;
     dcterms:identifier "EAID_BC6648B1_1271_B282_AC14_42E7C0BCB410" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/classificatiearmtotuitstekend> ;
+    skos:notation "1" ;
     skos:prefLabel "Arm"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/classificatiearmtotuitstekend> .
 
@@ -169,10 +171,12 @@
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/classificatiearmtotuitstekend> ;
     rdfs:label "Goed"@nl ;
+    mim:code "4" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/classificatiearmtotuitstekend/goed"^^xsd:anyURI ;
     mim:naam "Goed"@nl ;
     dcterms:identifier "EAID_84D6BE73_3B45_4CCB_9140_10EE7305A366" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/classificatiearmtotuitstekend> ;
+    skos:notation "4" ;
     skos:prefLabel "Goed"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/classificatiearmtotuitstekend> .
 
@@ -180,10 +184,12 @@
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/classificatiearmtotuitstekend> ;
     rdfs:label "Middelmatig"@nl ;
+    mim:code "2" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/classificatiearmtotuitstekend/middelmatig"^^xsd:anyURI ;
     mim:naam "Middelmatig"@nl ;
     dcterms:identifier "EAID_854EEFAD_9A0B_8F8A_914A_5930162437D5" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/classificatiearmtotuitstekend> ;
+    skos:notation "2" ;
     skos:prefLabel "Middelmatig"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/classificatiearmtotuitstekend> .
 
@@ -191,10 +197,12 @@
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/classificatiearmtotuitstekend> ;
     rdfs:label "Uitstekend"@nl ;
+    mim:code "5" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/classificatiearmtotuitstekend/uitstekend"^^xsd:anyURI ;
     mim:naam "Uitstekend"@nl ;
     dcterms:identifier "EAID_B0D0D32B_14C8_3791_BDAF_5558D353D83E" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/classificatiearmtotuitstekend> ;
+    skos:notation "5" ;
     skos:prefLabel "Uitstekend"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/classificatiearmtotuitstekend> .
 
@@ -202,10 +210,12 @@
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/classificatiearmtotuitstekend> ;
     rdfs:label "Voldoende"@nl ;
+    mim:code "3" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/classificatiearmtotuitstekend/voldoende"^^xsd:anyURI ;
     mim:naam "Voldoende"@nl ;
     dcterms:identifier "EAID_A236060E_BA91_18C1_BB3B_E07ADA07E227" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/classificatiearmtotuitstekend> ;
+    skos:notation "3" ;
     skos:prefLabel "Voldoende"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/classificatiearmtotuitstekend> .
 

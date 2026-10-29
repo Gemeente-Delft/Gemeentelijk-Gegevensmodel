@@ -7,6 +7,48 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/organisatorische-eenheid-organisatorischeeenheid> a mim:Relatiesoort,
+        owl:ObjectProperty ;
+    rdfs:label "organisatorische eenheid"@nl ;
+    mim:aggregatietype mim:Geen ;
+    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker> ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/organisatorischeeenheid> ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/organisatorische-eenheid-organisatorischeeenheid"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "0..*" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "organisatorische eenheid"@nl ;
+    mim:unidirectioneel true ;
+    dcterms:identifier "EAID_dst008EC2_F42E_4e6b_8000_E9A81F3A2ECA" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/organisatorischeeenheid> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/organisatorische-eenheid-organisatorischeeenheid-2> a mim:Relatiesoort,
+        owl:ObjectProperty ;
+    rdfs:label "organisatorische eenheid"@nl ;
+    mim:aggregatietype mim:Geen ;
+    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker> ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/organisatorischeeenheid> ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/organisatorische-eenheid-organisatorischeeenheid-2"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "0..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "organisatorische eenheid"@nl ;
+    mim:unidirectioneel true ;
+    dcterms:identifier "EAID_dstBB7F66_64B4_40dd_9628_02202FF00FB1" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/organisatorischeeenheid> .
+
 <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/ingeschrevenpersoon/ouder-1> a mim:Relatiesoort,
         owl:ObjectProperty ;
     rdfs:label "Ouder 1"@nl ;
@@ -80,407 +122,6 @@
     dcterms:identifier "EAID_D33047E8_3A39_4171_A7EC_93B137023ED8" ;
     dcterms:isPartOf <https://lod.gemeentelijkgegevensmodel.nl/> ;
     owl:versionInfo "v3.0.0" .
-
-<https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean/ja> a mim:Enumeratiewaarde,
-        skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean> ;
-    rdfs:label "Ja"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean/ja"^^xsd:anyURI ;
-    mim:naam "Ja"@nl ;
-    dcterms:identifier "EAID_ED373F5C_75C8_4f9f_B72B_DC069BEFFB72" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean> ;
-    skos:prefLabel "Ja"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean> .
-
-<https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean/leeg> a mim:Enumeratiewaarde,
-        skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean> ;
-    rdfs:label "Leeg"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean/leeg"^^xsd:anyURI ;
-    mim:naam "Leeg"@nl ;
-    dcterms:identifier "EAID_15FACEFF_7709_47aa_9827_7C4B604C8D7B" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean> ;
-    skos:prefLabel "Leeg"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean> .
-
-<https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean/nee> a mim:Enumeratiewaarde,
-        skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean> ;
-    rdfs:label "Nee"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean/nee"^^xsd:anyURI ;
-    mim:naam "Nee"@nl ;
-    dcterms:identifier "EAID_7ECA54CF_CE58_4610_80BC_B502ED1347A3" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean> ;
-    skos:prefLabel "Nee"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean> .
-
-<https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean/onbekend> a mim:Enumeratiewaarde,
-        skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean> ;
-    rdfs:label "Onbekend"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean/onbekend"^^xsd:anyURI ;
-    mim:naam "Onbekend"@nl ;
-    dcterms:identifier "EAID_D11CFFBC_096A_4d6c_99EB_8969CD67687E" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean> ;
-    skos:prefLabel "Onbekend"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean> .
-
-<https://lod.gemeentelijkgegevensmodel.nl/enumeraties/gezinsrelatie/alleenstaand-samenwonend> a mim:Enumeratiewaarde,
-        skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/gezinsrelatie> ;
-    rdfs:label "Alleenstaand/Samenwonend"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/enumeraties/gezinsrelatie/alleenstaand-samenwonend"^^xsd:anyURI ;
-    mim:naam "Alleenstaand/Samenwonend"@nl ;
-    dcterms:identifier "EAID_A478AAD7_3604_432f_90E0_19BF4CCEF232" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/gezinsrelatie> ;
-    skos:prefLabel "Alleenstaand/Samenwonend"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/gezinsrelatie> .
-
-<https://lod.gemeentelijkgegevensmodel.nl/enumeraties/gezinsrelatie/echtgenote-binnen-gezin> a mim:Enumeratiewaarde,
-        skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/gezinsrelatie> ;
-    rdfs:label "Echtgenote binnen gezin"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/enumeraties/gezinsrelatie/echtgenote-binnen-gezin"^^xsd:anyURI ;
-    mim:naam "Echtgenote binnen gezin"@nl ;
-    dcterms:identifier "EAID_E167D9D0_737C_48b8_96C2_4AB455D2EEAB" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/gezinsrelatie> ;
-    skos:prefLabel "Echtgenote binnen gezin"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/gezinsrelatie> .
-
-<https://lod.gemeentelijkgegevensmodel.nl/enumeraties/gezinsrelatie/hoofd-gezin-met-kind-eren> a mim:Enumeratiewaarde,
-        skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/gezinsrelatie> ;
-    rdfs:label "Hoofd gezin met kind(eren)"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/enumeraties/gezinsrelatie/hoofd-gezin-met-kind-eren"^^xsd:anyURI ;
-    mim:naam "Hoofd gezin met kind(eren)"@nl ;
-    dcterms:identifier "EAID_AA8BF84A_8147_4b15_92F1_85CAB5DC4669" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/gezinsrelatie> ;
-    skos:prefLabel "Hoofd gezin met kind(eren)"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/gezinsrelatie> .
-
-<https://lod.gemeentelijkgegevensmodel.nl/enumeraties/gezinsrelatie/hoofd-gezin-zonder-kind-eren> a mim:Enumeratiewaarde,
-        skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/gezinsrelatie> ;
-    rdfs:label "Hoofd gezin zonder kind(eren)"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/enumeraties/gezinsrelatie/hoofd-gezin-zonder-kind-eren"^^xsd:anyURI ;
-    mim:naam "Hoofd gezin zonder kind(eren)"@nl ;
-    dcterms:identifier "EAID_C35DC38E_74CF_4dc2_AB77_F8FD92490D9A" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/gezinsrelatie> ;
-    skos:prefLabel "Hoofd gezin zonder kind(eren)"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/gezinsrelatie> .
-
-<https://lod.gemeentelijkgegevensmodel.nl/enumeraties/gezinsrelatie/hoofd-huwelijk-gelijk-geslacht> a mim:Enumeratiewaarde,
-        skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/gezinsrelatie> ;
-    rdfs:label "Hoofd huwelijk gelijk geslacht"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/enumeraties/gezinsrelatie/hoofd-huwelijk-gelijk-geslacht"^^xsd:anyURI ;
-    mim:naam "Hoofd huwelijk gelijk geslacht"@nl ;
-    dcterms:identifier "EAID_E1A8E0AD_9719_46bc_A860_E3297BD14D88" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/gezinsrelatie> ;
-    skos:prefLabel "Hoofd huwelijk gelijk geslacht"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/gezinsrelatie> .
-
-<https://lod.gemeentelijkgegevensmodel.nl/enumeraties/gezinsrelatie/hoofd-partnerrelatie> a mim:Enumeratiewaarde,
-        skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/gezinsrelatie> ;
-    rdfs:label "Hoofd partnerrelatie"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/enumeraties/gezinsrelatie/hoofd-partnerrelatie"^^xsd:anyURI ;
-    mim:naam "Hoofd partnerrelatie"@nl ;
-    dcterms:identifier "EAID_09C9986A_7D08_435c_8F67_BBA681A7B561" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/gezinsrelatie> ;
-    skos:prefLabel "Hoofd partnerrelatie"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/gezinsrelatie> .
-
-<https://lod.gemeentelijkgegevensmodel.nl/enumeraties/gezinsrelatie/kind> a mim:Enumeratiewaarde,
-        skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/gezinsrelatie> ;
-    rdfs:label "Kind"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/enumeraties/gezinsrelatie/kind"^^xsd:anyURI ;
-    mim:naam "Kind"@nl ;
-    dcterms:identifier "EAID_B9D782B4_D570_4441_80D4_7325E096A084" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/gezinsrelatie> ;
-    skos:prefLabel "Kind"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/gezinsrelatie> .
-
-<https://lod.gemeentelijkgegevensmodel.nl/enumeraties/gezinsrelatie/leeg> a mim:Enumeratiewaarde,
-        skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/gezinsrelatie> ;
-    rdfs:label "Leeg"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/enumeraties/gezinsrelatie/leeg"^^xsd:anyURI ;
-    mim:naam "Leeg"@nl ;
-    dcterms:identifier "EAID_0FE738DC_3A5A_4680_959A_FAF464BC8E92" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/gezinsrelatie> ;
-    skos:prefLabel "Leeg"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/gezinsrelatie> .
-
-<https://lod.gemeentelijkgegevensmodel.nl/enumeraties/gezinsrelatie/onbekend> a mim:Enumeratiewaarde,
-        skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/gezinsrelatie> ;
-    rdfs:label "Onbekend"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/enumeraties/gezinsrelatie/onbekend"^^xsd:anyURI ;
-    mim:naam "Onbekend"@nl ;
-    dcterms:identifier "EAID_1A13DB07_A488_42c3_BBC0_E2C949B62677" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/gezinsrelatie> ;
-    skos:prefLabel "Onbekend"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/gezinsrelatie> .
-
-<https://lod.gemeentelijkgegevensmodel.nl/enumeraties/gezinsrelatie/ouder-met-kind-eren> a mim:Enumeratiewaarde,
-        skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/gezinsrelatie> ;
-    rdfs:label "Ouder met kind(eren)"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/enumeraties/gezinsrelatie/ouder-met-kind-eren"^^xsd:anyURI ;
-    mim:naam "Ouder met kind(eren)"@nl ;
-    dcterms:identifier "EAID_766FFC8D_5EF1_4fe4_8474_134943B2D035" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/gezinsrelatie> ;
-    skos:prefLabel "Ouder met kind(eren)"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/gezinsrelatie> .
-
-<https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm/besloten-vennootschap> a mim:Enumeratiewaarde,
-        skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm> ;
-    rdfs:label "Besloten vennootschap"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm/besloten-vennootschap"^^xsd:anyURI ;
-    mim:naam "Besloten vennootschap"@nl ;
-    dcterms:identifier "EAID_0421043D_7674_4676_AFB1_BC3D99D4B6E5" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm> ;
-    skos:prefLabel "Besloten vennootschap"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm> .
-
-<https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm/commanditaire-vennootschap> a mim:Enumeratiewaarde,
-        skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm> ;
-    rdfs:label "commanditaire vennootschap"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm/commanditaire-vennootschap"^^xsd:anyURI ;
-    mim:naam "commanditaire vennootschap"@nl ;
-    dcterms:identifier "EAID_D6D501EE_C49F_48a8_82C6_FEE1F2B3379F" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm> ;
-    skos:prefLabel "commanditaire vennootschap"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm> .
-
-<https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm/cooperatie-europees-economische-samenwerking> a mim:Enumeratiewaarde,
-        skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm> ;
-    rdfs:label "cooperatie, Europees Economische Samenwerking"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm/cooperatie-europees-economische-samenwerking"^^xsd:anyURI ;
-    mim:naam "cooperatie, Europees Economische Samenwerking"@nl ;
-    dcterms:identifier "EAID_2E4AB75B_0AC0_41ea_BB36_EBF64B695CEE" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm> ;
-    skos:prefLabel "cooperatie, Europees Economische Samenwerking"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm> .
-
-<https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm/europese-cooperatieve-vennootschap> a mim:Enumeratiewaarde,
-        skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm> ;
-    rdfs:label "Europese Cooperatieve Vennootschap"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm/europese-cooperatieve-vennootschap"^^xsd:anyURI ;
-    mim:naam "Europese Cooperatieve Vennootschap"@nl ;
-    dcterms:identifier "EAID_70A9994B_495D_4f9d_809C_42A7CC776AFD" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm> ;
-    skos:prefLabel "Europese Cooperatieve Vennootschap"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm> .
-
-<https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm/europese-naamloze-vennootschap> a mim:Enumeratiewaarde,
-        skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm> ;
-    rdfs:label "Europese Naamloze Vennootschap"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm/europese-naamloze-vennootschap"^^xsd:anyURI ;
-    mim:naam "Europese Naamloze Vennootschap"@nl ;
-    dcterms:identifier "EAID_6B9385CD_C640_4bdf_926C_1297DBF6D661" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm> ;
-    skos:prefLabel "Europese Naamloze Vennootschap"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm> .
-
-<https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm/kapitaalvennootschap-binnen-eer> a mim:Enumeratiewaarde,
-        skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm> ;
-    rdfs:label "kapitaalvennootschap binnen EER"@nl ;
-    mim:definitie """Een kapitaalvennootschap die is opgericht buiten Nederland in een van 
-de landen van de Europese Economische Ruimte (Europese Unie + 
-IJsland, Noorwegen en Liechtenstein)."""@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm/kapitaalvennootschap-binnen-eer"^^xsd:anyURI ;
-    mim:naam "kapitaalvennootschap binnen EER"@nl ;
-    dcterms:identifier "EAID_34E7DC73_16A8_4fd1_9CB3_4095FE202D8B" ;
-    skos:definition """Een kapitaalvennootschap die is opgericht buiten Nederland in een van 
-de landen van de Europese Economische Ruimte (Europese Unie + 
-IJsland, Noorwegen en Liechtenstein)."""@nl ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm> ;
-    skos:prefLabel "kapitaalvennootschap binnen EER"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm> .
-
-<https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm/kapitaalvennootschap-buiten-eer> a mim:Enumeratiewaarde,
-        skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm> ;
-    rdfs:label "kapitaalvennootschap buiten EER"@nl ;
-    mim:definitie """Een kapitaalvennootschap die is opgericht buiten de landen van de 
-Europese Economische Ruimte (Europese Unie + IJsland, Noorwegen 
-en Liechtenstein)."""@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm/kapitaalvennootschap-buiten-eer"^^xsd:anyURI ;
-    mim:naam "kapitaalvennootschap buiten EER"@nl ;
-    dcterms:identifier "EAID_6D8C84F4_AF13_446b_8F70_9464C373D128" ;
-    skos:definition """Een kapitaalvennootschap die is opgericht buiten de landen van de 
-Europese Economische Ruimte (Europese Unie + IJsland, Noorwegen 
-en Liechtenstein)."""@nl ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm> ;
-    skos:prefLabel "kapitaalvennootschap buiten EER"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm> .
-
-<https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm/kerkelijke-organisatie> a mim:Enumeratiewaarde,
-        skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm> ;
-    rdfs:label "kerkelijke Organisatie"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm/kerkelijke-organisatie"^^xsd:anyURI ;
-    mim:naam "kerkelijke Organisatie"@nl ;
-    dcterms:identifier "EAID_5FA6B487_7E31_4f47_AE95_A6C1C55FA712" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm> ;
-    skos:prefLabel "kerkelijke Organisatie"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm> .
-
-<https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm/leeg> a mim:Enumeratiewaarde,
-        skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm> ;
-    rdfs:label "Leeg"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm/leeg"^^xsd:anyURI ;
-    mim:naam "Leeg"@nl ;
-    dcterms:identifier "EAID_6E086C68_3842_4654_8E6C_390DAABECFDB" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm> ;
-    skos:prefLabel "Leeg"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm> .
-
-<https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm/maatschap> a mim:Enumeratiewaarde,
-        skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm> ;
-    rdfs:label "maatschap"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm/maatschap"^^xsd:anyURI ;
-    mim:naam "maatschap"@nl ;
-    dcterms:identifier "EAID_F6B9EB56_4FAE_4b95_8912_EFAA70A3B3A8" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm> ;
-    skos:prefLabel "maatschap"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm> .
-
-<https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm/naamloze-vennootschap> a mim:Enumeratiewaarde,
-        skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm> ;
-    rdfs:label "naamloze Vennootschap"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm/naamloze-vennootschap"^^xsd:anyURI ;
-    mim:naam "naamloze Vennootschap"@nl ;
-    dcterms:identifier "EAID_F5F8021F_07D1_47d9_95B0_31E560C8ED8C" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm> ;
-    skos:prefLabel "naamloze Vennootschap"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm> .
-
-<https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm/onbekend> a mim:Enumeratiewaarde,
-        skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm> ;
-    rdfs:label "Onbekend"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm/onbekend"^^xsd:anyURI ;
-    mim:naam "Onbekend"@nl ;
-    dcterms:identifier "EAID_14EACDE4_4C1D_4fe8_BE9F_1DC635A935D2" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm> ;
-    skos:prefLabel "Onbekend"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm> .
-
-<https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm/onderlinge-waarborg-maatschappij> a mim:Enumeratiewaarde,
-        skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm> ;
-    rdfs:label "onderlinge Waarborg Maatschappij"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm/onderlinge-waarborg-maatschappij"^^xsd:anyURI ;
-    mim:naam "onderlinge Waarborg Maatschappij"@nl ;
-    dcterms:identifier "EAID_CE577F8B_2CED_4ec1_A4C7_F9CC015979C5" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm> ;
-    skos:prefLabel "onderlinge Waarborg Maatschappij"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm> .
-
-<https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm/overig-privaatrechtelijke-rechtspersoon> a mim:Enumeratiewaarde,
-        skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm> ;
-    rdfs:label "overig privaatrechtelijke rechtspersoon"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm/overig-privaatrechtelijke-rechtspersoon"^^xsd:anyURI ;
-    mim:naam "overig privaatrechtelijke rechtspersoon"@nl ;
-    dcterms:identifier "EAID_CC7F4098_8416_428a_849F_77D9EB7EBA52" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm> ;
-    skos:prefLabel "overig privaatrechtelijke rechtspersoon"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm> .
-
-<https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm/overige-buitenlandse-rechtspersoon-vennootschap> a mim:Enumeratiewaarde,
-        skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm> ;
-    rdfs:label "overige buitenlandse rechtspersoon vennootschap"@nl ;
-    mim:definitie """Overige buitenlandse rechtspersonen of vennootschappen die geen 
-kapitaalvennootschap zijn binnen of buiten de E.E.R."""@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm/overige-buitenlandse-rechtspersoon-vennootschap"^^xsd:anyURI ;
-    mim:naam "overige buitenlandse rechtspersoon vennootschap"@nl ;
-    dcterms:identifier "EAID_76EB22E5_E000_40d1_BEC5_5ECC9CEF7BEA" ;
-    skos:definition """Overige buitenlandse rechtspersonen of vennootschappen die geen 
-kapitaalvennootschap zijn binnen of buiten de E.E.R."""@nl ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm> ;
-    skos:prefLabel "overige buitenlandse rechtspersoon vennootschap"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm> .
-
-<https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm/publiekrechtelijke-rechtspersoon> a mim:Enumeratiewaarde,
-        skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm> ;
-    rdfs:label "publiekrechtelijke Rechtspersoon"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm/publiekrechtelijke-rechtspersoon"^^xsd:anyURI ;
-    mim:naam "publiekrechtelijke Rechtspersoon"@nl ;
-    dcterms:identifier "EAID_BA025807_24BE_454c_9F23_661C5D9D7449" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm> ;
-    skos:prefLabel "publiekrechtelijke Rechtspersoon"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm> .
-
-<https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm/rederij> a mim:Enumeratiewaarde,
-        skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm> ;
-    rdfs:label "rederij"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm/rederij"^^xsd:anyURI ;
-    mim:naam "rederij"@nl ;
-    dcterms:identifier "EAID_2F8FA210_9463_4253_8ADE_30CB5A546093" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm> ;
-    skos:prefLabel "rederij"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm> .
-
-<https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm/stichting> a mim:Enumeratiewaarde,
-        skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm> ;
-    rdfs:label "stichting"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm/stichting"^^xsd:anyURI ;
-    mim:naam "stichting"@nl ;
-    dcterms:identifier "EAID_62D96762_6F98_478a_B1E7_8F146257999D" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm> ;
-    skos:prefLabel "stichting"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm> .
-
-<https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm/vennootschap-onder-firma> a mim:Enumeratiewaarde,
-        skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm> ;
-    rdfs:label "vennootschap onder Firma"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm/vennootschap-onder-firma"^^xsd:anyURI ;
-    mim:naam "vennootschap onder Firma"@nl ;
-    dcterms:identifier "EAID_7A712E16_3CAC_499a_9F1D_3160D77259EF" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm> ;
-    skos:prefLabel "vennootschap onder Firma"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm> .
-
-<https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm/vereniging> a mim:Enumeratiewaarde,
-        skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm> ;
-    rdfs:label "vereniging"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm/vereniging"^^xsd:anyURI ;
-    mim:naam "vereniging"@nl ;
-    dcterms:identifier "EAID_56D0E57A_8C54_4da5_AA99_875B773FBA0E" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm> ;
-    skos:prefLabel "vereniging"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm> .
-
-<https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm/vereniging-van-eigenaars> a mim:Enumeratiewaarde,
-        skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm> ;
-    rdfs:label "vereniging van Eigenaars"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm/vereniging-van-eigenaars"^^xsd:anyURI ;
-    mim:naam "vereniging van Eigenaars"@nl ;
-    dcterms:identifier "EAID_17271F2C_240A_4179_97BC_B7A3756F7305" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm> ;
-    skos:prefLabel "vereniging van Eigenaars"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/achternaam> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
@@ -560,27 +201,6 @@ kapitaalvennootschap zijn binnen of buiten de E.E.R."""@nl ;
     mim:type mim:CharacterString ;
     dcterms:identifier "EAID_2EEFDDE3_164E_4dc6_8573_205834C1AF47" ;
     rdfs:comment "<font color=\"#610e6a\">Elektronisch postadres waaronder de medewerker in de regel bereikbaar is.</font>"@nl ;
-    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker> ;
-    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> ;
-    rdfs:range xsd:string .
-
-<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/extern> a mim:Attribuutsoort,
-        owl:DatatypeProperty ;
-    rdfs:label "extern"@nl ;
-    mim:definitie "Medewerker is een externe?"@nl ;
-    mim:heeftTijdlijnGeldigheid false ;
-    mim:heeftTijdlijnRegistratie false ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/extern"^^xsd:anyURI ;
-    mim:indicatieAfleidbaar false ;
-    mim:indicatieClassificerend false ;
-    mim:indicatieFormeleHistorie false ;
-    mim:indicatieMaterieleHistorie false ;
-    mim:kardinaliteit "1..1" ;
-    mim:mogelijkGeenWaarde true ;
-    mim:naam "extern"@nl ;
-    mim:type mim:CharacterString ;
-    dcterms:identifier "EAID_8DDB6FA2_A79D_4423_9969_7AF045B86351" ;
-    rdfs:comment "Medewerker is een externe?"@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> ;
     rdfs:range xsd:string .
@@ -754,6 +374,200 @@ kapitaalvennootschap zijn binnen of buiten de E.E.R."""@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> ;
     rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/boolean/ja> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/boolean> ;
+    rdfs:label "Ja"@nl ;
+    mim:code "1" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/boolean/ja"^^xsd:anyURI ;
+    mim:naam "Ja"@nl ;
+    dcterms:identifier "EAID_24a4dc7f_97c2_4a44_a534_b0c9540faa60",
+        "EAID_5a1b8ce8_0840_482d_b3a9_d3c04a9e49fe",
+        "EAID_5b25c120_e637_4654_a671_48f6422f7fee",
+        "EAID_b4607180_c778_479b_baf5_4b65a3d0b374" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/boolean> ;
+    skos:notation "1" ;
+    skos:prefLabel "Ja"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/boolean> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/boolean/leeg> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/boolean> ;
+    rdfs:label "Leeg"@nl ;
+    mim:code "-2" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/boolean/leeg"^^xsd:anyURI ;
+    mim:naam "Leeg"@nl ;
+    dcterms:identifier "EAID_46da2abf_5984_4e1e_a83f_3af049d2b6c4",
+        "EAID_5cb252bd_d151_4b67_865b_e837449d6025",
+        "EAID_6354b0d3_19a8_4189_a955_823b472058fb",
+        "EAID_c928324c_76b9_4828_8fd4_f0cdecc57049" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/boolean> ;
+    skos:notation "-2" ;
+    skos:prefLabel "Leeg"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/boolean> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/boolean/nee> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/boolean> ;
+    rdfs:label "Nee"@nl ;
+    mim:code "0" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/boolean/nee"^^xsd:anyURI ;
+    mim:naam "Nee"@nl ;
+    dcterms:identifier "EAID_11e6535c_cc5d_4e82_ad73_7fd70ad69e5e",
+        "EAID_5d958171_bb48_4618_be9d_52df38243007",
+        "EAID_c48939f9_0cda_4bc9_aa7c_ed695378dfd5",
+        "EAID_f582ebdf_e162_467b_9044_e4c4449921b4" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/boolean> ;
+    skos:notation "0" ;
+    skos:prefLabel "Nee"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/boolean> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/boolean/onbekend> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/boolean> ;
+    rdfs:label "Onbekend"@nl ;
+    mim:code "-1" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/boolean/onbekend"^^xsd:anyURI ;
+    mim:naam "Onbekend"@nl ;
+    dcterms:identifier "EAID_28a21d06_b807_4857_8083_e4b3d6abb3df",
+        "EAID_3ebc077d_5589_4380_af54_32eea7e3a0d9",
+        "EAID_5dd6c9c0_045e_4163_bfe0_53698a19a9ca",
+        "EAID_69946d30_43ff_4b06_b2c0_4fece102c49e" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/boolean> ;
+    skos:notation "-1" ;
+    skos:prefLabel "Onbekend"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/boolean> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gezinsrelatie/alleenstaand-samenwonend> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gezinsrelatie> ;
+    rdfs:label "Alleenstaand/Samenwonend"@nl ;
+    mim:code "6" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gezinsrelatie/alleenstaand-samenwonend"^^xsd:anyURI ;
+    mim:naam "Alleenstaand/Samenwonend"@nl ;
+    dcterms:identifier "EAID_5d2efc0a_4b4a_4912_a3aa_ba74de9255c9" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gezinsrelatie> ;
+    skos:notation "6" ;
+    skos:prefLabel "Alleenstaand/Samenwonend"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gezinsrelatie> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gezinsrelatie/echtgenote-binnen-gezin> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gezinsrelatie> ;
+    rdfs:label "Echtgenote binnen gezin"@nl ;
+    mim:code "4" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gezinsrelatie/echtgenote-binnen-gezin"^^xsd:anyURI ;
+    mim:naam "Echtgenote binnen gezin"@nl ;
+    dcterms:identifier "EAID_5f7a1ef9_7b76_4f0b_8ace_2eafe134870e" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gezinsrelatie> ;
+    skos:notation "4" ;
+    skos:prefLabel "Echtgenote binnen gezin"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gezinsrelatie> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gezinsrelatie/hoofd-gezin-met-kind-eren> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gezinsrelatie> ;
+    rdfs:label "Hoofd gezin met kind(eren)"@nl ;
+    mim:code "2" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gezinsrelatie/hoofd-gezin-met-kind-eren"^^xsd:anyURI ;
+    mim:naam "Hoofd gezin met kind(eren)"@nl ;
+    dcterms:identifier "EAID_0dd23d4e_afee_467f_bcc2_7322133ed315" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gezinsrelatie> ;
+    skos:notation "2" ;
+    skos:prefLabel "Hoofd gezin met kind(eren)"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gezinsrelatie> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gezinsrelatie/hoofd-gezin-zonder-kind-eren> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gezinsrelatie> ;
+    rdfs:label "Hoofd gezin zonder kind(eren)"@nl ;
+    mim:code "1" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gezinsrelatie/hoofd-gezin-zonder-kind-eren"^^xsd:anyURI ;
+    mim:naam "Hoofd gezin zonder kind(eren)"@nl ;
+    dcterms:identifier "EAID_aa1fbece_fd0f_41ba_9dc9_09239caa2e03" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gezinsrelatie> ;
+    skos:notation "1" ;
+    skos:prefLabel "Hoofd gezin zonder kind(eren)"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gezinsrelatie> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gezinsrelatie/hoofd-huwelijk-gelijk-geslacht> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gezinsrelatie> ;
+    rdfs:label "Hoofd huwelijk gelijk geslacht"@nl ;
+    mim:code "8" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gezinsrelatie/hoofd-huwelijk-gelijk-geslacht"^^xsd:anyURI ;
+    mim:naam "Hoofd huwelijk gelijk geslacht"@nl ;
+    dcterms:identifier "EAID_126f2894_65a3_47b9_8311_e0ab368f68e3" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gezinsrelatie> ;
+    skos:notation "8" ;
+    skos:prefLabel "Hoofd huwelijk gelijk geslacht"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gezinsrelatie> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gezinsrelatie/hoofd-partnerrelatie> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gezinsrelatie> ;
+    rdfs:label "Hoofd partnerrelatie"@nl ;
+    mim:code "7" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gezinsrelatie/hoofd-partnerrelatie"^^xsd:anyURI ;
+    mim:naam "Hoofd partnerrelatie"@nl ;
+    dcterms:identifier "EAID_3e309fcf_2cec_4620_9ff4_b7b941a2c365" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gezinsrelatie> ;
+    skos:notation "7" ;
+    skos:prefLabel "Hoofd partnerrelatie"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gezinsrelatie> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gezinsrelatie/kind> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gezinsrelatie> ;
+    rdfs:label "Kind"@nl ;
+    mim:code "5" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gezinsrelatie/kind"^^xsd:anyURI ;
+    mim:naam "Kind"@nl ;
+    dcterms:identifier "EAID_07ef3742_0730_4490_a64a_7acfdb998d8f" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gezinsrelatie> ;
+    skos:notation "5" ;
+    skos:prefLabel "Kind"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gezinsrelatie> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gezinsrelatie/leeg> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gezinsrelatie> ;
+    rdfs:label "Leeg"@nl ;
+    mim:code "-2" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gezinsrelatie/leeg"^^xsd:anyURI ;
+    mim:naam "Leeg"@nl ;
+    dcterms:identifier "EAID_2953695c_b25e_4d2b_abcc_4e450868d9cb" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gezinsrelatie> ;
+    skos:notation "-2" ;
+    skos:prefLabel "Leeg"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gezinsrelatie> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gezinsrelatie/onbekend> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gezinsrelatie> ;
+    rdfs:label "Onbekend"@nl ;
+    mim:code "-1" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gezinsrelatie/onbekend"^^xsd:anyURI ;
+    mim:naam "Onbekend"@nl ;
+    dcterms:identifier "EAID_e5765891_229a_491b_9ce3_424bc7e004a8" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gezinsrelatie> ;
+    skos:notation "-1" ;
+    skos:prefLabel "Onbekend"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gezinsrelatie> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gezinsrelatie/ouder-met-kind-eren> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gezinsrelatie> ;
+    rdfs:label "Ouder met kind(eren)"@nl ;
+    mim:code "3" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gezinsrelatie/ouder-met-kind-eren"^^xsd:anyURI ;
+    mim:naam "Ouder met kind(eren)"@nl ;
+    dcterms:identifier "EAID_9de8a522_6180_41de_9d3d_712433e2827f" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gezinsrelatie> ;
+    skos:notation "3" ;
+    skos:prefLabel "Ouder met kind(eren)"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gezinsrelatie> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/ingeschrevenpersoon/adresherkomst> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
@@ -1018,11 +832,11 @@ kapitaalvennootschap zijn binnen of buiten de E.E.R."""@nl ;
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "gezinsrelatie"@nl ;
-    mim:type <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/gezinsrelatie> ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gezinsrelatie> ;
     dcterms:identifier "EAID_3F731B82_EB3A_41f9_B730_765599798863" ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/ingeschrevenpersoon> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
-    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/gezinsrelatie> .
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gezinsrelatie> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/ingeschrevenpersoon/indicatiegeheim> a mim:Attribuutsoort,
         owl:ObjectProperty ;
@@ -1038,12 +852,12 @@ kapitaalvennootschap zijn binnen of buiten de E.E.R."""@nl ;
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "indicatieGeheim"@nl ;
-    mim:type <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean> ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/boolean> ;
     dcterms:identifier "EAID_D6FC9878_9865_4090_94C4_9FA4BA55E120" ;
     rdfs:comment "Een aanduiding die aangeeft dat gegevens wel of niet verstrekt mogen worden."@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/ingeschrevenpersoon> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
-    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean> .
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/boolean> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/ingeschrevenpersoon/ingezetene> a mim:Attribuutsoort,
         owl:ObjectProperty ;
@@ -1058,11 +872,11 @@ kapitaalvennootschap zijn binnen of buiten de E.E.R."""@nl ;
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "ingezetene"@nl ;
-    mim:type <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean> ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/boolean> ;
     dcterms:identifier "EAID_0DBB807F_62ED_4c66_B535_0B9B9ECD7CFC" ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/ingeschrevenpersoon> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
-    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean> .
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/boolean> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/ingeschrevenpersoon/landwaarnaarvertrokken> a mim:Attribuutsoort,
         owl:ObjectProperty ;
@@ -1217,12 +1031,12 @@ kapitaalvennootschap zijn binnen of buiten de E.E.R."""@nl ;
     mim:kardinaliteit "0..1" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "signaleringReisdocument"@nl ;
-    mim:type <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean> ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/boolean> ;
     dcterms:identifier "EAID_A8141D41_5EA9_4e14_BC51_77DBC8738968" ;
     rdfs:comment "Een aanduiding dat aan de ingeschrevene geen reisdocument mag worden verstrekt."@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/ingeschrevenpersoon> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
-    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean> .
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/boolean> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/ingeschrevenpersoon/verblijfstitel> a mim:Attribuutsoort,
         owl:ObjectProperty ;
@@ -1442,12 +1256,12 @@ kapitaalvennootschap zijn binnen of buiten de E.E.R."""@nl ;
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "rechtsvorm"@nl ;
-    mim:type <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm> ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortrechtsvorm> ;
     dcterms:identifier "EAID_2912AA27_945C_4e90_B95D_CA80312F884E" ;
     rdfs:comment "Aanduiding van de vorm die in rechte bekend is van de INGESCHREVEN NIET-NATUURLIJKE PERSOON"@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/nietnatuurlijkpersoon> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
-    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm> .
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortrechtsvorm> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/nietnatuurlijkpersoon/rsinnummer> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
@@ -1531,6 +1345,372 @@ kapitaalvennootschap zijn binnen of buiten de E.E.R."""@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
     rdfs:range xsd:string .
 
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortrechtsvorm/besloten-vennootschap> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortrechtsvorm> ;
+    rdfs:label "Besloten vennootschap"@nl ;
+    mim:code "1" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortrechtsvorm/besloten-vennootschap"^^xsd:anyURI ;
+    mim:naam "Besloten vennootschap"@nl ;
+    dcterms:identifier "EAID_430ac886_d7c6_43f2_b9bf_acf02f2d27af",
+        "EAID_f6ff4b46_a30d_47e0_b6c9_55c553492edf" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortrechtsvorm> ;
+    skos:notation "1" ;
+    skos:prefLabel "Besloten vennootschap"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortrechtsvorm> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortrechtsvorm/commanditaire-vennootschap> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortrechtsvorm> ;
+    rdfs:label "commanditaire vennootschap"@nl ;
+    mim:code "2" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortrechtsvorm/commanditaire-vennootschap"^^xsd:anyURI ;
+    mim:naam "commanditaire vennootschap"@nl ;
+    dcterms:identifier "EAID_0230d0b2_6c48_44c2_ad73_3def93b43b42",
+        "EAID_37bc54e0_1967_4800_870d_441dfb19d2c9" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortrechtsvorm> ;
+    skos:notation "2" ;
+    skos:prefLabel "commanditaire vennootschap"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortrechtsvorm> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortrechtsvorm/cooperatie-europees-economische-samenwerking> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortrechtsvorm> ;
+    rdfs:label "cooperatie, Europees Economische Samenwerking"@nl ;
+    mim:code "3" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortrechtsvorm/cooperatie-europees-economische-samenwerking"^^xsd:anyURI ;
+    mim:naam "cooperatie, Europees Economische Samenwerking"@nl ;
+    dcterms:identifier "EAID_ac421bb2_ffbb_44ac_9d4d_333d69470a48",
+        "EAID_b226f730_d0fa_4e74_bf2b_c6a6a1a010af" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortrechtsvorm> ;
+    skos:notation "3" ;
+    skos:prefLabel "cooperatie, Europees Economische Samenwerking"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortrechtsvorm> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortrechtsvorm/europese-cooperatieve-vennootschap> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortrechtsvorm> ;
+    rdfs:label "Europese Cooperatieve Vennootschap"@nl ;
+    mim:code "4" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortrechtsvorm/europese-cooperatieve-vennootschap"^^xsd:anyURI ;
+    mim:naam "Europese Cooperatieve Vennootschap"@nl ;
+    dcterms:identifier "EAID_2a8a198b_346c_4045_932d_d469c4bc8792",
+        "EAID_36a59a1a_0a2a_4b93_9990_3a2c9309b5c9" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortrechtsvorm> ;
+    skos:notation "4" ;
+    skos:prefLabel "Europese Cooperatieve Vennootschap"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortrechtsvorm> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortrechtsvorm/europese-naamloze-vennootschap> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortrechtsvorm> ;
+    rdfs:label "Europese Naamloze Vennootschap"@nl ;
+    mim:code "5" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortrechtsvorm/europese-naamloze-vennootschap"^^xsd:anyURI ;
+    mim:naam "Europese Naamloze Vennootschap"@nl ;
+    dcterms:identifier "EAID_898dc1b1_e324_4ab9_be13_37682ac9037c",
+        "EAID_c94859e7_76c1_4d68_b5cc_2bb79ee55e16" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortrechtsvorm> ;
+    skos:notation "5" ;
+    skos:prefLabel "Europese Naamloze Vennootschap"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortrechtsvorm> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortrechtsvorm/kapitaalvennootschap-binnen-eer> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortrechtsvorm> ;
+    rdfs:label "kapitaalvennootschap binnen EER"@nl ;
+    mim:code "6" ;
+    mim:definitie """Een kapitaalvennootschap die is opgericht buiten Nederland in een van 
+de landen van de Europese Economische Ruimte (Europese Unie + 
+IJsland, Noorwegen en Liechtenstein)."""@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortrechtsvorm/kapitaalvennootschap-binnen-eer"^^xsd:anyURI ;
+    mim:naam "kapitaalvennootschap binnen EER"@nl ;
+    dcterms:identifier "EAID_7307f386_d68b_40e7_ad32_1340c9d4c471",
+        "EAID_df081653_a797_4615_bb4c_28852a3a0692" ;
+    skos:definition """Een kapitaalvennootschap die is opgericht buiten Nederland in een van 
+de landen van de Europese Economische Ruimte (Europese Unie + 
+IJsland, Noorwegen en Liechtenstein)."""@nl ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortrechtsvorm> ;
+    skos:notation "6" ;
+    skos:prefLabel "kapitaalvennootschap binnen EER"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortrechtsvorm> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortrechtsvorm/kapitaalvennootschap-buiten-eer> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortrechtsvorm> ;
+    rdfs:label "kapitaalvennootschap buiten EER"@nl ;
+    mim:code "7" ;
+    mim:definitie """Een kapitaalvennootschap die is opgericht buiten de landen van de 
+Europese Economische Ruimte (Europese Unie + IJsland, Noorwegen 
+en Liechtenstein)."""@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortrechtsvorm/kapitaalvennootschap-buiten-eer"^^xsd:anyURI ;
+    mim:naam "kapitaalvennootschap buiten EER"@nl ;
+    dcterms:identifier "EAID_2157933f_4157_4698_a67e_b0bee1e52a33",
+        "EAID_40c82761_3e42_438f_8111_d9fe67fc0a3e" ;
+    skos:definition """Een kapitaalvennootschap die is opgericht buiten de landen van de 
+Europese Economische Ruimte (Europese Unie + IJsland, Noorwegen 
+en Liechtenstein)."""@nl ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortrechtsvorm> ;
+    skos:notation "7" ;
+    skos:prefLabel "kapitaalvennootschap buiten EER"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortrechtsvorm> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortrechtsvorm/kerkelijke-organisatie> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortrechtsvorm> ;
+    rdfs:label "kerkelijke Organisatie"@nl ;
+    mim:code "8" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortrechtsvorm/kerkelijke-organisatie"^^xsd:anyURI ;
+    mim:naam "kerkelijke Organisatie"@nl ;
+    dcterms:identifier "EAID_2077ab2e_bacd_4819_94e0_a802349460cb",
+        "EAID_99ee4a52_b4bb_4c46_9391_07599f04b500" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortrechtsvorm> ;
+    skos:notation "8" ;
+    skos:prefLabel "kerkelijke Organisatie"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortrechtsvorm> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortrechtsvorm/leeg> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortrechtsvorm> ;
+    rdfs:label "Leeg"@nl ;
+    mim:code "-2" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortrechtsvorm/leeg"^^xsd:anyURI ;
+    mim:naam "Leeg"@nl ;
+    dcterms:identifier "EAID_28efb04c_28c0_48c6_b34b_1360ce04f16f",
+        "EAID_b9322268_eb98_431b_b1f8_cd299f0fbc7b" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortrechtsvorm> ;
+    skos:notation "-2" ;
+    skos:prefLabel "Leeg"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortrechtsvorm> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortrechtsvorm/maatschap> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortrechtsvorm> ;
+    rdfs:label "maatschap"@nl ;
+    mim:code "9" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortrechtsvorm/maatschap"^^xsd:anyURI ;
+    mim:naam "maatschap"@nl ;
+    dcterms:identifier "EAID_06bc1f36_9842_409d_bb0c_b7429c0ed56c",
+        "EAID_3a0a57f4_18eb_4f23_9815_536fcae7e834" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortrechtsvorm> ;
+    skos:notation "9" ;
+    skos:prefLabel "maatschap"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortrechtsvorm> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortrechtsvorm/naamloze-vennootschap> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortrechtsvorm> ;
+    rdfs:label "naamloze Vennootschap"@nl ;
+    mim:code "10" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortrechtsvorm/naamloze-vennootschap"^^xsd:anyURI ;
+    mim:naam "naamloze Vennootschap"@nl ;
+    dcterms:identifier "EAID_37060d9c_decc_43e8_8abe_a7620de4c616",
+        "EAID_f9ed0a37_db91_4859_a6e6_3958d36a876c" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortrechtsvorm> ;
+    skos:notation "10" ;
+    skos:prefLabel "naamloze Vennootschap"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortrechtsvorm> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortrechtsvorm/onbekend> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortrechtsvorm> ;
+    rdfs:label "Onbekend"@nl ;
+    mim:code "-1" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortrechtsvorm/onbekend"^^xsd:anyURI ;
+    mim:naam "Onbekend"@nl ;
+    dcterms:identifier "EAID_7de7026e_c5f9_4d83_ab81_378b05664170",
+        "EAID_f08cd3fb_ebb3_4663_82f2_858aad25ae97" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortrechtsvorm> ;
+    skos:notation "-1" ;
+    skos:prefLabel "Onbekend"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortrechtsvorm> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortrechtsvorm/onderlinge-waarborg-maatschappij> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortrechtsvorm> ;
+    rdfs:label "onderlinge Waarborg Maatschappij"@nl ;
+    mim:code "11" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortrechtsvorm/onderlinge-waarborg-maatschappij"^^xsd:anyURI ;
+    mim:naam "onderlinge Waarborg Maatschappij"@nl ;
+    dcterms:identifier "EAID_55efc8fe_9721_45b2_bbd6_472b19c90e3c",
+        "EAID_ce2eed55_b0bd_421a_8a14_267eea1e9ebf" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortrechtsvorm> ;
+    skos:notation "11" ;
+    skos:prefLabel "onderlinge Waarborg Maatschappij"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortrechtsvorm> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortrechtsvorm/overig-privaatrechtelijke-rechtspersoon> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortrechtsvorm> ;
+    rdfs:label "overig privaatrechtelijke rechtspersoon"@nl ;
+    mim:code "12" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortrechtsvorm/overig-privaatrechtelijke-rechtspersoon"^^xsd:anyURI ;
+    mim:naam "overig privaatrechtelijke rechtspersoon"@nl ;
+    dcterms:identifier "EAID_8ebd5f65_a80c_4540_9c29_848b408eed6c",
+        "EAID_b287b88e_1021_405d_bf49_0e2d4e25abe4" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortrechtsvorm> ;
+    skos:notation "12" ;
+    skos:prefLabel "overig privaatrechtelijke rechtspersoon"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortrechtsvorm> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortrechtsvorm/overige-buitenlandse-rechtspersoon-vennootschap> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortrechtsvorm> ;
+    rdfs:label "overige buitenlandse rechtspersoon vennootschap"@nl ;
+    mim:code "13" ;
+    mim:definitie """Overige buitenlandse rechtspersonen of vennootschappen die geen 
+kapitaalvennootschap zijn binnen of buiten de E.E.R."""@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortrechtsvorm/overige-buitenlandse-rechtspersoon-vennootschap"^^xsd:anyURI ;
+    mim:naam "overige buitenlandse rechtspersoon vennootschap"@nl ;
+    dcterms:identifier "EAID_52bdc1b5_0e33_4a83_9f20_fa035e96e598",
+        "EAID_e926cbae_ba94_497c_8db3_b43e37d00dba" ;
+    skos:definition """Overige buitenlandse rechtspersonen of vennootschappen die geen 
+kapitaalvennootschap zijn binnen of buiten de E.E.R."""@nl ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortrechtsvorm> ;
+    skos:notation "13" ;
+    skos:prefLabel "overige buitenlandse rechtspersoon vennootschap"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortrechtsvorm> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortrechtsvorm/publiekrechtelijke-rechtspersoon> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortrechtsvorm> ;
+    rdfs:label "publiekrechtelijke Rechtspersoon"@nl ;
+    mim:code "14" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortrechtsvorm/publiekrechtelijke-rechtspersoon"^^xsd:anyURI ;
+    mim:naam "publiekrechtelijke Rechtspersoon"@nl ;
+    dcterms:identifier "EAID_b075a6e9_4972_468b_a1a5_18a00aa90d81",
+        "EAID_f88a0ece_526b_46bc_8564_086f2deda051" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortrechtsvorm> ;
+    skos:notation "14" ;
+    skos:prefLabel "publiekrechtelijke Rechtspersoon"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortrechtsvorm> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortrechtsvorm/rederij> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortrechtsvorm> ;
+    rdfs:label "rederij"@nl ;
+    mim:code "15" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortrechtsvorm/rederij"^^xsd:anyURI ;
+    mim:naam "rederij"@nl ;
+    dcterms:identifier "EAID_bf49a938_7c2e_4d98_b12f_0254f62af0e3",
+        "EAID_e767e6e5_bb11_47b3_9aee_b3d7424d0c3a" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortrechtsvorm> ;
+    skos:notation "15" ;
+    skos:prefLabel "rederij"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortrechtsvorm> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortrechtsvorm/stichting> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortrechtsvorm> ;
+    rdfs:label "stichting"@nl ;
+    mim:code "16" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortrechtsvorm/stichting"^^xsd:anyURI ;
+    mim:naam "stichting"@nl ;
+    dcterms:identifier "EAID_77534283_0aa0_472e_8573_82a401a42bbb",
+        "EAID_c13033f5_4f84_41a0_b9f5_b41e8fe8f989" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortrechtsvorm> ;
+    skos:notation "16" ;
+    skos:prefLabel "stichting"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortrechtsvorm> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortrechtsvorm/vennootschap-onder-firma> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortrechtsvorm> ;
+    rdfs:label "vennootschap onder Firma"@nl ;
+    mim:code "17" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortrechtsvorm/vennootschap-onder-firma"^^xsd:anyURI ;
+    mim:naam "vennootschap onder Firma"@nl ;
+    dcterms:identifier "EAID_031bf5a3_6ffc_4267_a236_78199f3e362a",
+        "EAID_8d821b83_54cd_4ca0_8ccd_c8ae7a34b9e8" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortrechtsvorm> ;
+    skos:notation "17" ;
+    skos:prefLabel "vennootschap onder Firma"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortrechtsvorm> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortrechtsvorm/vereniging> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortrechtsvorm> ;
+    rdfs:label "vereniging"@nl ;
+    mim:code "18" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortrechtsvorm/vereniging"^^xsd:anyURI ;
+    mim:naam "vereniging"@nl ;
+    dcterms:identifier "EAID_c743fd39_573e_4674_aec1_9016f6e45c91",
+        "EAID_cf781494_d205_499a_9b4a_07b80e3f938a" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortrechtsvorm> ;
+    skos:notation "18" ;
+    skos:prefLabel "vereniging"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortrechtsvorm> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortrechtsvorm/vereniging-van-eigenaars> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortrechtsvorm> ;
+    rdfs:label "vereniging van Eigenaars"@nl ;
+    mim:code "19" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortrechtsvorm/vereniging-van-eigenaars"^^xsd:anyURI ;
+    mim:naam "vereniging van Eigenaars"@nl ;
+    dcterms:identifier "EAID_d2638a1f_58d8_4923_8e47_7fb3a28172d9",
+        "EAID_d2b9f4f8_107c_4925_89d2_c830a5e9502a" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortrechtsvorm> ;
+    skos:notation "19" ;
+    skos:prefLabel "vereniging van Eigenaars"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortrechtsvorm> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/boolean/ja> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/boolean> ;
+    rdfs:label "Ja"@nl ;
+    mim:code "1" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/onderwijs/boolean/ja"^^xsd:anyURI ;
+    mim:naam "Ja"@nl ;
+    dcterms:identifier "EAID_4b172e2c_cf6f_4624_bcec_b1cbbe0fe665",
+        "EAID_4bfa392c_eee3_4ace_8e2e_a4e187f5c257" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/boolean> ;
+    skos:notation "1" ;
+    skos:prefLabel "Ja"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/boolean> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/boolean/leeg> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/boolean> ;
+    rdfs:label "Leeg"@nl ;
+    mim:code "-2" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/onderwijs/boolean/leeg"^^xsd:anyURI ;
+    mim:naam "Leeg"@nl ;
+    dcterms:identifier "EAID_2575ffcb_2230_4dba_8ec2_a3f4070eb053",
+        "EAID_4dfd05bf_97ea_4acf_a4e2_c73b9629df0d" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/boolean> ;
+    skos:notation "-2" ;
+    skos:prefLabel "Leeg"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/boolean> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/boolean/nee> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/boolean> ;
+    rdfs:label "Nee"@nl ;
+    mim:code "0" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/onderwijs/boolean/nee"^^xsd:anyURI ;
+    mim:naam "Nee"@nl ;
+    dcterms:identifier "EAID_eac93977_d925_42bb_b490_d5d7ff7d4827",
+        "EAID_f268089d_e60a_416d_9b4e_2dc357408033" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/boolean> ;
+    skos:notation "0" ;
+    skos:prefLabel "Nee"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/boolean> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/boolean/onbekend> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/boolean> ;
+    rdfs:label "Onbekend"@nl ;
+    mim:code "-1" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/onderwijs/boolean/onbekend"^^xsd:anyURI ;
+    mim:naam "Onbekend"@nl ;
+    dcterms:identifier "EAID_7e6c7cb5_f072_44aa_92f1_7e85aaaea5a6",
+        "EAID_b5cf3aa6_f74e_4cd2_9500_01a473246416" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/boolean> ;
+    skos:notation "-1" ;
+    skos:prefLabel "Onbekend"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/boolean> .
+
 <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerling> a mim:Objecttype,
         owl:Class ;
     rdfs:label "Leerling"@nl ;
@@ -1557,11 +1737,11 @@ kapitaalvennootschap zijn binnen of buiten de E.E.R."""@nl ;
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "kwetsbareJongere"@nl ;
-    mim:type <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean> ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/boolean> ;
     dcterms:identifier "EAID_70DE2997_48B9_4f71_B6BF_2B9C3163F429" ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerling> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/> ;
-    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean> .
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/boolean> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/school> a mim:Objecttype,
         owl:Class ;
@@ -1595,29 +1775,20 @@ kapitaalvennootschap zijn binnen of buiten de E.E.R."""@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/> ;
     rdfs:range xsd:string .
 
-<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker> a mim:Objecttype,
-        owl:Class ;
-    rdfs:label "Medewerker"@nl ;
-    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/achternaam>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/datumindienst>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/datumuitdienst>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/emailadres>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/extern>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/functie>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/geslachtsaanduiding>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/medewerkeridentificatie>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/medewerkertoelichting>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/roepnaam>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/telefoonnummer>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/voorletters>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/voorvoegselachternaam> ;
-    mim:definitie "Een medewerker van de organisatie die zaken behandelt uit hoofde van zijn of haar functie binnen een ORGANISATORISCHE EENHEID."@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker"^^xsd:anyURI ;
-    mim:indicatieAbstractObject false ;
-    mim:naam "Medewerker"@nl ;
-    dcterms:identifier "EAID_16EB3936_03CB_4854_9CD8_9F0911EEA51B" ;
-    rdfs:comment "Een medewerker van de organisatie die zaken behandelt uit hoofde van zijn of haar functie binnen een ORGANISATORISCHE EENHEID."@nl ;
-    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> .
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/boolean> a mim:Enumeratie,
+        owl:Class,
+        skos:ConceptScheme ;
+    rdfs:label "Boolean"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/onderwijs/boolean"^^xsd:anyURI ;
+    mim:naam "Boolean"@nl ;
+    mim:waarde <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/boolean/ja>,
+        <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/boolean/leeg>,
+        <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/boolean/nee>,
+        <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/boolean/onbekend> ;
+    dcterms:identifier "EAID_195bc5bd_9054_41bb_8088_d6e3d5e4a0cd",
+        "EAID_9c95faf0_7738_46cf_b1cb_cde23c8fe0e6" ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/> ;
+    rdfs:subClassOf skos:Concept .
 
 <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/nietnatuurlijkpersoon> a mim:Objecttype,
         owl:Class ;
@@ -1644,36 +1815,64 @@ kapitaalvennootschap zijn binnen of buiten de E.E.R."""@nl ;
     rdfs:comment "Een INGESCHREVEN NIET-NATUURLIJK PERSOON of een ANDER BUITENLANDS NIET-NATUURLIJK PERSOON"@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean> a mim:Enumeratie,
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker> a mim:Objecttype,
+        owl:Class ;
+    rdfs:label "Medewerker"@nl ;
+    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/achternaam>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/datumindienst>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/datumuitdienst>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/emailadres>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/functie>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/geslachtsaanduiding>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/medewerkeridentificatie>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/medewerkertoelichting>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/roepnaam>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/telefoonnummer>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/voorletters>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/voorvoegselachternaam> ;
+    mim:definitie "Een medewerker van de organisatie die zaken behandelt uit hoofde van zijn of haar functie binnen een ORGANISATORISCHE EENHEID."@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker"^^xsd:anyURI ;
+    mim:indicatieAbstractObject false ;
+    mim:naam "Medewerker"@nl ;
+    dcterms:identifier "EAID_16EB3936_03CB_4854_9CD8_9F0911EEA51B" ;
+    rdfs:comment "Een medewerker van de organisatie die zaken behandelt uit hoofde van zijn of haar functie binnen een ORGANISATORISCHE EENHEID."@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/boolean> a mim:Enumeratie,
         owl:Class,
         skos:ConceptScheme ;
     rdfs:label "Boolean"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean"^^xsd:anyURI ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/boolean"^^xsd:anyURI ;
     mim:naam "Boolean"@nl ;
-    mim:waarde <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean/ja>,
-        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean/leeg>,
-        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean/nee>,
-        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean/onbekend> ;
-    dcterms:identifier "EAID_9BD0FBCB_1A9E_4cab_9280_0EBC428E38F7" ;
+    mim:waarde <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/boolean/ja>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/boolean/leeg>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/boolean/nee>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/boolean/onbekend> ;
+    dcterms:identifier "EAID_2179c80b_2ceb_42db_a05b_7ded365b6149",
+        "EAID_29f28a9a_735f_4774_a689_0a0c7a3f0af3",
+        "EAID_2a22382b_06fe_4fdb_9652_b371b79a7109",
+        "EAID_e4981a53_8fa6_4a4f_84f0_a3a38f2ffb3a" ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
     rdfs:subClassOf skos:Concept .
 
-<https://lod.gemeentelijkgegevensmodel.nl/enumeraties/gezinsrelatie> a mim:Enumeratie,
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gezinsrelatie> a mim:Enumeratie,
         owl:Class,
         skos:ConceptScheme ;
     rdfs:label "Gezinsrelatie"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/enumeraties/gezinsrelatie"^^xsd:anyURI ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gezinsrelatie"^^xsd:anyURI ;
     mim:naam "Gezinsrelatie"@nl ;
-    mim:waarde <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/gezinsrelatie/alleenstaand-samenwonend>,
-        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/gezinsrelatie/echtgenote-binnen-gezin>,
-        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/gezinsrelatie/hoofd-gezin-met-kind-eren>,
-        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/gezinsrelatie/hoofd-gezin-zonder-kind-eren>,
-        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/gezinsrelatie/hoofd-huwelijk-gelijk-geslacht>,
-        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/gezinsrelatie/hoofd-partnerrelatie>,
-        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/gezinsrelatie/kind>,
-        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/gezinsrelatie/leeg>,
-        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/gezinsrelatie/onbekend>,
-        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/gezinsrelatie/ouder-met-kind-eren> ;
-    dcterms:identifier "EAID_8F83BD4F_86BF_459d_89EF_6E7CE6DCA385" ;
+    mim:waarde <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gezinsrelatie/alleenstaand-samenwonend>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gezinsrelatie/echtgenote-binnen-gezin>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gezinsrelatie/hoofd-gezin-met-kind-eren>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gezinsrelatie/hoofd-gezin-zonder-kind-eren>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gezinsrelatie/hoofd-huwelijk-gelijk-geslacht>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gezinsrelatie/hoofd-partnerrelatie>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gezinsrelatie/kind>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gezinsrelatie/leeg>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gezinsrelatie/onbekend>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gezinsrelatie/ouder-met-kind-eren> ;
+    dcterms:identifier "EAID_eef8d985_cff5_4ca2_b018_be146aea1216" ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
     rdfs:subClassOf skos:Concept .
 
 <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/ingeschrevenpersoon> a mim:Objecttype,
@@ -1711,33 +1910,35 @@ kapitaalvennootschap zijn binnen of buiten de E.E.R."""@nl ;
     rdfs:comment "Een INGEZETENE of NIET-INGEZETENE"@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm> a mim:Enumeratie,
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortrechtsvorm> a mim:Enumeratie,
         owl:Class,
         skos:ConceptScheme ;
     rdfs:label "soortRechtsvorm"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm"^^xsd:anyURI ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortrechtsvorm"^^xsd:anyURI ;
     mim:naam "soortRechtsvorm"@nl ;
-    mim:waarde <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm/besloten-vennootschap>,
-        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm/commanditaire-vennootschap>,
-        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm/cooperatie-europees-economische-samenwerking>,
-        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm/europese-cooperatieve-vennootschap>,
-        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm/europese-naamloze-vennootschap>,
-        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm/kapitaalvennootschap-binnen-eer>,
-        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm/kapitaalvennootschap-buiten-eer>,
-        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm/kerkelijke-organisatie>,
-        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm/leeg>,
-        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm/maatschap>,
-        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm/naamloze-vennootschap>,
-        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm/onbekend>,
-        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm/onderlinge-waarborg-maatschappij>,
-        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm/overig-privaatrechtelijke-rechtspersoon>,
-        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm/overige-buitenlandse-rechtspersoon-vennootschap>,
-        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm/publiekrechtelijke-rechtspersoon>,
-        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm/rederij>,
-        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm/stichting>,
-        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm/vennootschap-onder-firma>,
-        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm/vereniging>,
-        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/soortrechtsvorm/vereniging-van-eigenaars> ;
-    dcterms:identifier "EAID_EE5726F5_3FA7_4476_B74B_1C0775775F6B" ;
+    mim:waarde <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortrechtsvorm/besloten-vennootschap>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortrechtsvorm/commanditaire-vennootschap>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortrechtsvorm/cooperatie-europees-economische-samenwerking>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortrechtsvorm/europese-cooperatieve-vennootschap>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortrechtsvorm/europese-naamloze-vennootschap>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortrechtsvorm/kapitaalvennootschap-binnen-eer>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortrechtsvorm/kapitaalvennootschap-buiten-eer>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortrechtsvorm/kerkelijke-organisatie>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortrechtsvorm/leeg>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortrechtsvorm/maatschap>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortrechtsvorm/naamloze-vennootschap>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortrechtsvorm/onbekend>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortrechtsvorm/onderlinge-waarborg-maatschappij>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortrechtsvorm/overig-privaatrechtelijke-rechtspersoon>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortrechtsvorm/overige-buitenlandse-rechtspersoon-vennootschap>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortrechtsvorm/publiekrechtelijke-rechtspersoon>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortrechtsvorm/rederij>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortrechtsvorm/stichting>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortrechtsvorm/vennootschap-onder-firma>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortrechtsvorm/vereniging>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortrechtsvorm/vereniging-van-eigenaars> ;
+    dcterms:identifier "EAID_ee43fb26_a483_4458_a147_4441c8ea378f",
+        "EAID_f924d91b_db79_4ccc_9879_659776d1a3e2" ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
     rdfs:subClassOf skos:Concept .
 

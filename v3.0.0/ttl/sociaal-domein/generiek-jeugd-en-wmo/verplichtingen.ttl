@@ -249,6 +249,27 @@
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/> ;
     rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/leverancier> .
 
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/client/client> a mim:Relatiesoort,
+        owl:ObjectProperty ;
+    rdfs:label "client"@nl ;
+    mim:aggregatietype mim:Geen ;
+    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/client> ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/schuldhulpverlening/schuldhulptraject> ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/client/client"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "0..*" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "client"@nl ;
+    mim:unidirectioneel true ;
+    dcterms:identifier "EAID_src2A7C80_3621_40aa_B091_E30616E65F1D" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/client> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/schuldhulpverlening/schuldhulptraject> .
+
 <https://lod.gemeentelijkgegevensmodel.nl/v3.0.0/sociaal-domein/generiek-jeugd-en-wmo/verplichtingen> a owl:Ontology ;
     rdfs:label "Verplichtingen"@nl ;
     dcterms:identifier "EAID_4E7479D8_ACA3_45ed_B349_24A3CC271F29" ;
@@ -1099,11 +1120,11 @@ gekozen doorlooptijd. Dit is datum plan, datum beschikking, datum afsluiten proc
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "leveringsvorm"@nl ;
-    mim:type <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/enumleveringsvorm> ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/leveringsvorm> ;
     dcterms:identifier "EAID_3B0E943E_C928_401f_A7A8_CD969C13F9F2" ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/beschikte-voorziening> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/> ;
-    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/enumleveringsvorm> .
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/leveringsvorm> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/beschikte-voorziening/omvang> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
@@ -1185,10 +1206,12 @@ gekozen doorlooptijd. Dit is datum plan, datum beschikking, datum afsluiten proc
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/eenheid> ;
     rdfs:label "Dagdeel (4 uur)"@nl ;
+    mim:code "16" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/eenheid/dagdeel-4-uur"^^xsd:anyURI ;
     mim:naam "Dagdeel (4 uur)"@nl ;
     dcterms:identifier "EAID_70818466_45F8_4ccd_93DF_A37EBEF6CA14" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/eenheid> ;
+    skos:notation "16" ;
     skos:prefLabel "Dagdeel (4 uur)"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/eenheid> .
 
@@ -1196,32 +1219,38 @@ gekozen doorlooptijd. Dit is datum plan, datum beschikking, datum afsluiten proc
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/eenheid> ;
     rdfs:label "Etmaal"@nl ;
+    mim:code "14" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/eenheid/etmaal"^^xsd:anyURI ;
     mim:naam "Etmaal"@nl ;
     dcterms:identifier "EAID_37DCBD6A_3E76_4799_A9F2_29BE13EC8D20" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/eenheid> ;
+    skos:notation "14" ;
     skos:prefLabel "Etmaal"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/eenheid> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/eenheid/euro-s> a mim:Enumeratiewaarde,
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/eenheid/euros> a mim:Enumeratiewaarde,
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/eenheid> ;
-    rdfs:label "Euro's"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/eenheid/euro-s"^^xsd:anyURI ;
-    mim:naam "Euro's"@nl ;
+    rdfs:label "Euros"@nl ;
+    mim:code "83" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/eenheid/euros"^^xsd:anyURI ;
+    mim:naam "Euros"@nl ;
     dcterms:identifier "EAID_70AB0639_89B9_4914_B6BA_9234DF316B0F" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/eenheid> ;
-    skos:prefLabel "Euro's"@nl ;
+    skos:notation "83" ;
+    skos:prefLabel "Euros"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/eenheid> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/eenheid/leeg> a mim:Enumeratiewaarde,
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/eenheid> ;
     rdfs:label "Leeg"@nl ;
+    mim:code "-2" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/eenheid/leeg"^^xsd:anyURI ;
     mim:naam "Leeg"@nl ;
     dcterms:identifier "EAID_4AD592E6_3A51_41fc_87C3_C5AE0740E66E" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/eenheid> ;
+    skos:notation "-2" ;
     skos:prefLabel "Leeg"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/eenheid> .
 
@@ -1229,10 +1258,12 @@ gekozen doorlooptijd. Dit is datum plan, datum beschikking, datum afsluiten proc
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/eenheid> ;
     rdfs:label "Minuut"@nl ;
+    mim:code "1" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/eenheid/minuut"^^xsd:anyURI ;
     mim:naam "Minuut"@nl ;
     dcterms:identifier "EAID_58E4FD67_C88D_42ed_B524_74D841576C39" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/eenheid> ;
+    skos:notation "1" ;
     skos:prefLabel "Minuut"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/eenheid> .
 
@@ -1240,100 +1271,53 @@ gekozen doorlooptijd. Dit is datum plan, datum beschikking, datum afsluiten proc
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/eenheid> ;
     rdfs:label "Onbekend"@nl ;
+    mim:code "-1" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/eenheid/onbekend"^^xsd:anyURI ;
     mim:naam "Onbekend"@nl ;
     dcterms:identifier "EAID_B26AE1BB_4D37_4a7c_A333_F2D31382DC90" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/eenheid> ;
+    skos:notation "-1" ;
     skos:prefLabel "Onbekend"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/eenheid> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/eenheid/stuks-inspanning> a mim:Enumeratiewaarde,
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/eenheid/stuks> a mim:Enumeratiewaarde,
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/eenheid> ;
-    rdfs:label "Stuks (inspanning)"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/eenheid/stuks-inspanning"^^xsd:anyURI ;
-    mim:naam "Stuks (inspanning)"@nl ;
-    dcterms:identifier "EAID_E1D332E5_A4CC_4D5D_80D6_69750811196E" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/eenheid> ;
-    skos:prefLabel "Stuks (inspanning)"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/eenheid> .
-
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/eenheid/stuks-output> a mim:Enumeratiewaarde,
-        skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/eenheid> ;
-    rdfs:label "Stuks (output)"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/eenheid/stuks-output"^^xsd:anyURI ;
-    mim:naam "Stuks (output)"@nl ;
+    rdfs:label "Stuks"@nl ;
+    mim:code "82" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/eenheid/stuks"^^xsd:anyURI ;
+    mim:naam "Stuks"@nl ;
     dcterms:identifier "EAID_9B5E3056_74F7_4a60_B23B_42317E6DBAB9" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/eenheid> ;
-    skos:prefLabel "Stuks (output)"@nl ;
+    skos:notation "82" ;
+    skos:prefLabel "Stuks"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/eenheid> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/eenheid/uur> a mim:Enumeratiewaarde,
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/eenheid> ;
     rdfs:label "Uur"@nl ;
+    mim:code "4" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/eenheid/uur"^^xsd:anyURI ;
     mim:naam "Uur"@nl ;
     dcterms:identifier "EAID_B741968A_373F_48ca_A242_DAA13496E912" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/eenheid> ;
+    skos:notation "4" ;
     skos:prefLabel "Uur"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/eenheid> .
-
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/enumleveringsvorm/leeg> a mim:Enumeratiewaarde,
-        skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/enumleveringsvorm> ;
-    rdfs:label "Leeg"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/enumleveringsvorm/leeg"^^xsd:anyURI ;
-    mim:naam "Leeg"@nl ;
-    dcterms:identifier "EAID_0F8FE6A1_33D7_4dbd_943E_FFD80154AD0D" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/enumleveringsvorm> ;
-    skos:prefLabel "Leeg"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/enumleveringsvorm> .
-
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/enumleveringsvorm/onbekend> a mim:Enumeratiewaarde,
-        skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/enumleveringsvorm> ;
-    rdfs:label "Onbekend"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/enumleveringsvorm/onbekend"^^xsd:anyURI ;
-    mim:naam "Onbekend"@nl ;
-    dcterms:identifier "EAID_069925E7_08B3_4c57_98BA_3F6B57994AD7" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/enumleveringsvorm> ;
-    skos:prefLabel "Onbekend"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/enumleveringsvorm> .
-
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/enumleveringsvorm/pgb> a mim:Enumeratiewaarde,
-        skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/enumleveringsvorm> ;
-    rdfs:label "PGB"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/enumleveringsvorm/pgb"^^xsd:anyURI ;
-    mim:naam "PGB"@nl ;
-    dcterms:identifier "EAID_C293B753_0259_44e2_8EE5_17D26F818577" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/enumleveringsvorm> ;
-    skos:prefLabel "PGB"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/enumleveringsvorm> .
-
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/enumleveringsvorm/zin> a mim:Enumeratiewaarde,
-        skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/enumleveringsvorm> ;
-    rdfs:label "ZIN"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/enumleveringsvorm/zin"^^xsd:anyURI ;
-    mim:naam "ZIN"@nl ;
-    dcterms:identifier "EAID_BBAC8FF0_1439_4292_81D4_582966A39A6E" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/enumleveringsvorm> ;
-    skos:prefLabel "ZIN"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/enumleveringsvorm> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/frequentie/binnen-geldigheid-beschikking> a mim:Enumeratiewaarde,
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/frequentie> ;
     rdfs:label "Binnen geldigheid Beschikking"@nl ;
+    mim:code "6" ;
     mim:definitie "Frequentie bij beschikking conform iWmo 2.0 zie https://www.istandaarden.nl/ibieb/functionele-uitwerking-release-iwmo-20"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/frequentie/binnen-geldigheid-beschikking"^^xsd:anyURI ;
     mim:naam "Binnen geldigheid Beschikking"@nl ;
     dcterms:identifier "EAID_4787A4FA_A901_4342_B699_3DF39F0DE9E1" ;
     skos:definition "Frequentie bij beschikking conform iWmo 2.0 zie https://www.istandaarden.nl/ibieb/functionele-uitwerking-release-iwmo-20"@nl ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/frequentie> ;
+    skos:notation "6" ;
     skos:prefLabel "Binnen geldigheid Beschikking"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/frequentie> .
 
@@ -1341,10 +1325,12 @@ gekozen doorlooptijd. Dit is datum plan, datum beschikking, datum afsluiten proc
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/frequentie> ;
     rdfs:label "Leeg"@nl ;
+    mim:code "-2" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/frequentie/leeg"^^xsd:anyURI ;
     mim:naam "Leeg"@nl ;
     dcterms:identifier "EAID_196F084B_9807_4c14_8295_F08699BAB616" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/frequentie> ;
+    skos:notation "-2" ;
     skos:prefLabel "Leeg"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/frequentie> .
 
@@ -1352,10 +1338,12 @@ gekozen doorlooptijd. Dit is datum plan, datum beschikking, datum afsluiten proc
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/frequentie> ;
     rdfs:label "Onbekend"@nl ;
+    mim:code "-1" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/frequentie/onbekend"^^xsd:anyURI ;
     mim:naam "Onbekend"@nl ;
     dcterms:identifier "EAID_AE1E9AE5_CFA8_48bf_A9A5_B04E59E5BA96" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/frequentie> ;
+    skos:notation "-1" ;
     skos:prefLabel "Onbekend"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/frequentie> .
 
@@ -1363,10 +1351,12 @@ gekozen doorlooptijd. Dit is datum plan, datum beschikking, datum afsluiten proc
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/frequentie> ;
     rdfs:label "Per 4 weken"@nl ;
+    mim:code "3" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/frequentie/per-4-weken"^^xsd:anyURI ;
     mim:naam "Per 4 weken"@nl ;
     dcterms:identifier "EAID_A675C7E7_1A44_464c_8BD4_07DC7BACFBAF" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/frequentie> ;
+    skos:notation "3" ;
     skos:prefLabel "Per 4 weken"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/frequentie> .
 
@@ -1374,10 +1364,12 @@ gekozen doorlooptijd. Dit is datum plan, datum beschikking, datum afsluiten proc
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/frequentie> ;
     rdfs:label "Per dag"@nl ;
+    mim:code "1" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/frequentie/per-dag"^^xsd:anyURI ;
     mim:naam "Per dag"@nl ;
     dcterms:identifier "EAID_26C17FDB_9778_4fe5_AB94_1E82F15BC871" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/frequentie> ;
+    skos:notation "1" ;
     skos:prefLabel "Per dag"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/frequentie> .
 
@@ -1385,10 +1377,12 @@ gekozen doorlooptijd. Dit is datum plan, datum beschikking, datum afsluiten proc
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/frequentie> ;
     rdfs:label "Per jaar"@nl ;
+    mim:code "5" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/frequentie/per-jaar"^^xsd:anyURI ;
     mim:naam "Per jaar"@nl ;
     dcterms:identifier "EAID_86266082_255E_4248_8BB1_E077D79A4A48" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/frequentie> ;
+    skos:notation "5" ;
     skos:prefLabel "Per jaar"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/frequentie> .
 
@@ -1396,10 +1390,12 @@ gekozen doorlooptijd. Dit is datum plan, datum beschikking, datum afsluiten proc
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/frequentie> ;
     rdfs:label "Per maand"@nl ;
+    mim:code "4" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/frequentie/per-maand"^^xsd:anyURI ;
     mim:naam "Per maand"@nl ;
     dcterms:identifier "EAID_32B1EA0A_CFCA_479b_896E_907372DF5E66" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/frequentie> ;
+    skos:notation "4" ;
     skos:prefLabel "Per maand"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/frequentie> .
 
@@ -1407,12 +1403,66 @@ gekozen doorlooptijd. Dit is datum plan, datum beschikking, datum afsluiten proc
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/frequentie> ;
     rdfs:label "Per week"@nl ;
+    mim:code "2" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/frequentie/per-week"^^xsd:anyURI ;
     mim:naam "Per week"@nl ;
     dcterms:identifier "EAID_2BFD16C5_8708_4618_B7E7_A310B6862320" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/frequentie> ;
+    skos:notation "2" ;
     skos:prefLabel "Per week"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/frequentie> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/leveringsvorm/leeg> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/leveringsvorm> ;
+    rdfs:label "Leeg"@nl ;
+    mim:code "-2" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/leveringsvorm/leeg"^^xsd:anyURI ;
+    mim:naam "Leeg"@nl ;
+    dcterms:identifier "EAID_0F8FE6A1_33D7_4dbd_943E_FFD80154AD0D" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/leveringsvorm> ;
+    skos:notation "-2" ;
+    skos:prefLabel "Leeg"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/leveringsvorm> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/leveringsvorm/onbekend> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/leveringsvorm> ;
+    rdfs:label "Onbekend"@nl ;
+    mim:code "-1" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/leveringsvorm/onbekend"^^xsd:anyURI ;
+    mim:naam "Onbekend"@nl ;
+    dcterms:identifier "EAID_069925E7_08B3_4c57_98BA_3F6B57994AD7" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/leveringsvorm> ;
+    skos:notation "-1" ;
+    skos:prefLabel "Onbekend"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/leveringsvorm> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/leveringsvorm/pgb> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/leveringsvorm> ;
+    rdfs:label "PGB"@nl ;
+    mim:code "2" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/leveringsvorm/pgb"^^xsd:anyURI ;
+    mim:naam "PGB"@nl ;
+    dcterms:identifier "EAID_C293B753_0259_44e2_8EE5_17D26F818577" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/leveringsvorm> ;
+    skos:notation "2" ;
+    skos:prefLabel "PGB"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/leveringsvorm> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/leveringsvorm/zin> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/leveringsvorm> ;
+    rdfs:label "ZIN"@nl ;
+    mim:code "1" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/leveringsvorm/zin"^^xsd:anyURI ;
+    mim:naam "ZIN"@nl ;
+    dcterms:identifier "EAID_BBAC8FF0_1439_4292_81D4_582966A39A6E" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/leveringsvorm> ;
+    skos:notation "1" ;
+    skos:prefLabel "ZIN"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/leveringsvorm> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/verplichting-wmo-jeugd/budgetsoort> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
@@ -1551,10 +1601,12 @@ gekozen doorlooptijd. Dit is datum plan, datum beschikking, datum afsluiten proc
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/wet> ;
     rdfs:label "Andere wet"@nl ;
+    mim:code "3" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/wet/andere-wet"^^xsd:anyURI ;
     mim:naam "Andere wet"@nl ;
     dcterms:identifier "EAID_F5C54F95_641F_4a5b_AAFF_3210423034CC" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/wet> ;
+    skos:notation "3" ;
     skos:prefLabel "Andere wet"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/wet> .
 
@@ -1562,10 +1614,12 @@ gekozen doorlooptijd. Dit is datum plan, datum beschikking, datum afsluiten proc
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/wet> ;
     rdfs:label "Bijzondere Bijstand"@nl ;
+    mim:code "6" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/wet/bijzondere-bijstand"^^xsd:anyURI ;
     mim:naam "Bijzondere Bijstand"@nl ;
     dcterms:identifier "EAID_36E70B43_1CFA_4201_B747_89A381E33DA6" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/wet> ;
+    skos:notation "6" ;
     skos:prefLabel "Bijzondere Bijstand"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/wet> .
 
@@ -1573,10 +1627,12 @@ gekozen doorlooptijd. Dit is datum plan, datum beschikking, datum afsluiten proc
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/wet> ;
     rdfs:label "I.O.A.W./I.O.A.Z."@nl ;
+    mim:code "5" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/wet/i-o-a-w-i-o-a-z"^^xsd:anyURI ;
     mim:naam "I.O.A.W./I.O.A.Z."@nl ;
     dcterms:identifier "EAID_1470E5EF_B26A_4ba2_8190_2E5803ACA303" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/wet> ;
+    skos:notation "5" ;
     skos:prefLabel "I.O.A.W./I.O.A.Z."@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/wet> .
 
@@ -1584,12 +1640,14 @@ gekozen doorlooptijd. Dit is datum plan, datum beschikking, datum afsluiten proc
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/wet> ;
     rdfs:label "Jeugdwet"@nl ;
+    mim:code "2" ;
     mim:definitie "dere"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/wet/jeugdwet"^^xsd:anyURI ;
     mim:naam "Jeugdwet"@nl ;
     dcterms:identifier "EAID_9D7FFD3C_99F1_4170_9407_51C836617B41" ;
     skos:definition "dere"@nl ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/wet> ;
+    skos:notation "2" ;
     skos:prefLabel "Jeugdwet"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/wet> .
 
@@ -1597,10 +1655,12 @@ gekozen doorlooptijd. Dit is datum plan, datum beschikking, datum afsluiten proc
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/wet> ;
     rdfs:label "Leeg"@nl ;
+    mim:code "-2" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/wet/leeg"^^xsd:anyURI ;
     mim:naam "Leeg"@nl ;
     dcterms:identifier "EAID_3DE857DE_5AE1_4198_A779_57921204109F" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/wet> ;
+    skos:notation "-2" ;
     skos:prefLabel "Leeg"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/wet> .
 
@@ -1608,10 +1668,12 @@ gekozen doorlooptijd. Dit is datum plan, datum beschikking, datum afsluiten proc
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/wet> ;
     rdfs:label "Niet van toepassing"@nl ;
+    mim:code "0" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/wet/niet-van-toepassing"^^xsd:anyURI ;
     mim:naam "Niet van toepassing"@nl ;
     dcterms:identifier "EAID_6AA2A690_274B_4d98_9FEC_1BF082E06750" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/wet> ;
+    skos:notation "0" ;
     skos:prefLabel "Niet van toepassing"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/wet> .
 
@@ -1619,10 +1681,12 @@ gekozen doorlooptijd. Dit is datum plan, datum beschikking, datum afsluiten proc
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/wet> ;
     rdfs:label "Onbekend"@nl ;
+    mim:code "-1" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/wet/onbekend"^^xsd:anyURI ;
     mim:naam "Onbekend"@nl ;
     dcterms:identifier "EAID_CC25D5AB_9F57_49f9_B924_99821B0FA5E0" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/wet> ;
+    skos:notation "-1" ;
     skos:prefLabel "Onbekend"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/wet> .
 
@@ -1630,10 +1694,12 @@ gekozen doorlooptijd. Dit is datum plan, datum beschikking, datum afsluiten proc
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/wet> ;
     rdfs:label "Participatiewet PW-I"@nl ;
+    mim:code "4" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/wet/participatiewet-pw-i"^^xsd:anyURI ;
     mim:naam "Participatiewet PW-I"@nl ;
     dcterms:identifier "EAID_3300C780_B581_4660_A7E4_0624B30CCDC0" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/wet> ;
+    skos:notation "4" ;
     skos:prefLabel "Participatiewet PW-I"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/wet> .
 
@@ -1641,10 +1707,12 @@ gekozen doorlooptijd. Dit is datum plan, datum beschikking, datum afsluiten proc
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/wet> ;
     rdfs:label "Wmo"@nl ;
+    mim:code "1" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/wet/wmo"^^xsd:anyURI ;
     mim:naam "Wmo"@nl ;
     dcterms:identifier "EAID_BE76A7E6_C025_4f0e_9178_95CABB0B7649" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/wet> ;
+    skos:notation "1" ;
     skos:prefLabel "Wmo"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/wet> .
 
@@ -1913,17 +1981,25 @@ gekozen doorlooptijd. Dit is datum plan, datum beschikking, datum afsluiten proc
     rdfs:comment "*AOM_AanvraagWmoJeugd* is een objecttype in het gegevensmodel voor Wmo en Jeugd dat een **aanvraagtraject voor ondersteuning onder de Wet maatschappelijke ondersteuning (Wmo) en/of Jeugdwet** representeert."@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/enumleveringsvorm> a mim:Enumeratie,
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/leveringsvorm> a mim:Enumeratie,
+        mim:Objecttype,
         owl:Class,
         skos:ConceptScheme ;
-    rdfs:label "EnumLeveringsvorm"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/enumleveringsvorm"^^xsd:anyURI ;
-    mim:naam "EnumLeveringsvorm"@nl ;
-    mim:waarde <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/enumleveringsvorm/leeg>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/enumleveringsvorm/onbekend>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/enumleveringsvorm/pgb>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/enumleveringsvorm/zin> ;
-    dcterms:identifier "EAID_DC1D1F90_E28B_4fb7_A5E1_C2F76132BE12" ;
+    rdfs:label "Leveringsvorm"@nl ;
+    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/leveringsvorm/leveringsvormcode>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/leveringsvorm/naam>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/leveringsvorm/wet> ;
+    mim:definitie "Zorg die onder de Wlz, de Zvw-Wijkverpleging of de Wmo 2015 valt, kan aan personen als zorg in natura (zin) worden geleverd of bekostigd worden uit een persoonsgebonden budget (pgb)."@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/leveringsvorm"^^xsd:anyURI ;
+    mim:indicatieAbstractObject false ;
+    mim:naam "Leveringsvorm"@nl ;
+    mim:waarde <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/leveringsvorm/leeg>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/leveringsvorm/onbekend>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/leveringsvorm/pgb>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/leveringsvorm/zin> ;
+    dcterms:identifier "EAID_DC1D1F90_E28B_4fb7_A5E1_C2F76132BE12",
+        "EAID_F35DA519_FA0C_48ae_9EFC_C4EBEC4BF144" ;
+    rdfs:comment "Zorg die onder de Wlz, de Zvw-Wijkverpleging of de Wmo 2015 valt, kan aan personen als zorg in natura (zin) worden geleverd of bekostigd worden uit een persoonsgebonden budget (pgb)."@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/> ;
     rdfs:subClassOf skos:Concept .
 
@@ -1989,6 +2065,24 @@ gekozen doorlooptijd. Dit is datum plan, datum beschikking, datum afsluiten proc
     rdfs:comment "Een opdracht (gezien vanuit de klant) voor één of meer leveringen door de leverancier aan die klant van een bepaalde hoeveelheid gespecificeerde goederen en/of diensten onder overeengekomen leveringsvoorwaarden en prijzen."@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/> .
 
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/eenheid> a mim:Enumeratie,
+        owl:Class,
+        skos:ConceptScheme ;
+    rdfs:label "Eenheid"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/eenheid"^^xsd:anyURI ;
+    mim:naam "Eenheid"@nl ;
+    mim:waarde <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/eenheid/dagdeel-4-uur>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/eenheid/etmaal>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/eenheid/euros>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/eenheid/leeg>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/eenheid/minuut>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/eenheid/onbekend>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/eenheid/stuks>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/eenheid/uur> ;
+    dcterms:identifier "EAID_838B4669_4F50_4835_ABA8_03E3FCE48184" ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/> ;
+    rdfs:subClassOf skos:Concept .
+
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/frequentie> a mim:Enumeratie,
         owl:Class,
         skos:ConceptScheme ;
@@ -2004,25 +2098,6 @@ gekozen doorlooptijd. Dit is datum plan, datum beschikking, datum afsluiten proc
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/frequentie/per-maand>,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/frequentie/per-week> ;
     dcterms:identifier "EAID_8640ED99_341B_4f10_A335_9324459F19B3" ;
-    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/> ;
-    rdfs:subClassOf skos:Concept .
-
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/eenheid> a mim:Enumeratie,
-        owl:Class,
-        skos:ConceptScheme ;
-    rdfs:label "Eenheid"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/eenheid"^^xsd:anyURI ;
-    mim:naam "Eenheid"@nl ;
-    mim:waarde <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/eenheid/dagdeel-4-uur>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/eenheid/etmaal>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/eenheid/euro-s>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/eenheid/leeg>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/eenheid/minuut>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/eenheid/onbekend>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/eenheid/stuks-inspanning>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/eenheid/stuks-output>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/eenheid/uur> ;
-    dcterms:identifier "EAID_838B4669_4F50_4835_ABA8_03E3FCE48184" ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/> ;
     rdfs:subClassOf skos:Concept .
 

@@ -422,11 +422,11 @@
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "afgehandeld"@nl ;
-    mim:type <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean> ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/boolean> ;
     dcterms:identifier "EAID_AC248AAD_192D_40e3_B2C3_107CBA34CB21" ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/> ;
-    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean> .
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/boolean> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/categorie> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
@@ -772,49 +772,57 @@
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/> ;
     rdfs:range xsd:string .
 
-<https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean/ja> a mim:Enumeratiewaarde,
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/boolean/ja> a mim:Enumeratiewaarde,
         skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean> ;
+        <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/boolean> ;
     rdfs:label "Ja"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean/ja"^^xsd:anyURI ;
+    mim:code "1" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/boolean/ja"^^xsd:anyURI ;
     mim:naam "Ja"@nl ;
-    dcterms:identifier "EAID_ED373F5C_75C8_4f9f_B72B_DC069BEFFB72" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean> ;
+    dcterms:identifier "EAID_6a702d51_e8a6_4ba1_8797_34112d24ca24" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/boolean> ;
+    skos:notation "1" ;
     skos:prefLabel "Ja"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean> .
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/boolean> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean/leeg> a mim:Enumeratiewaarde,
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/boolean/leeg> a mim:Enumeratiewaarde,
         skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean> ;
+        <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/boolean> ;
     rdfs:label "Leeg"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean/leeg"^^xsd:anyURI ;
+    mim:code "-2" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/boolean/leeg"^^xsd:anyURI ;
     mim:naam "Leeg"@nl ;
-    dcterms:identifier "EAID_15FACEFF_7709_47aa_9827_7C4B604C8D7B" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean> ;
+    dcterms:identifier "EAID_8a486db5_332d_4eae_ad27_23d02b392dcd" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/boolean> ;
+    skos:notation "-2" ;
     skos:prefLabel "Leeg"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean> .
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/boolean> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean/nee> a mim:Enumeratiewaarde,
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/boolean/nee> a mim:Enumeratiewaarde,
         skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean> ;
+        <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/boolean> ;
     rdfs:label "Nee"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean/nee"^^xsd:anyURI ;
+    mim:code "0" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/boolean/nee"^^xsd:anyURI ;
     mim:naam "Nee"@nl ;
-    dcterms:identifier "EAID_7ECA54CF_CE58_4610_80BC_B502ED1347A3" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean> ;
+    dcterms:identifier "EAID_96c01eb4_11b5_40e2_9157_0104c43118a2" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/boolean> ;
+    skos:notation "0" ;
     skos:prefLabel "Nee"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean> .
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/boolean> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean/onbekend> a mim:Enumeratiewaarde,
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/boolean/onbekend> a mim:Enumeratiewaarde,
         skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean> ;
+        <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/boolean> ;
     rdfs:label "Onbekend"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean/onbekend"^^xsd:anyURI ;
+    mim:code "-1" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/boolean/onbekend"^^xsd:anyURI ;
     mim:naam "Onbekend"@nl ;
-    dcterms:identifier "EAID_D11CFFBC_096A_4d6c_99EB_8969CD67687E" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean> ;
+    dcterms:identifier "EAID_9f4e3169_b730_47f2_b621_7d438902918c" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/boolean> ;
+    skos:notation "-1" ;
     skos:prefLabel "Onbekend"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean> .
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/boolean> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/inkoop/leverancier/naam> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
@@ -854,6 +862,62 @@
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/inkoop/> ;
     rdfs:range xsd:string .
 
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/boolean/ja> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/boolean> ;
+    rdfs:label "Ja"@nl ;
+    mim:code "1" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/onderwijs/boolean/ja"^^xsd:anyURI ;
+    mim:naam "Ja"@nl ;
+    dcterms:identifier "EAID_4b172e2c_cf6f_4624_bcec_b1cbbe0fe665",
+        "EAID_4bfa392c_eee3_4ace_8e2e_a4e187f5c257" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/boolean> ;
+    skos:notation "1" ;
+    skos:prefLabel "Ja"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/boolean> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/boolean/leeg> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/boolean> ;
+    rdfs:label "Leeg"@nl ;
+    mim:code "-2" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/onderwijs/boolean/leeg"^^xsd:anyURI ;
+    mim:naam "Leeg"@nl ;
+    dcterms:identifier "EAID_2575ffcb_2230_4dba_8ec2_a3f4070eb053",
+        "EAID_4dfd05bf_97ea_4acf_a4e2_c73b9629df0d" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/boolean> ;
+    skos:notation "-2" ;
+    skos:prefLabel "Leeg"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/boolean> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/boolean/nee> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/boolean> ;
+    rdfs:label "Nee"@nl ;
+    mim:code "0" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/onderwijs/boolean/nee"^^xsd:anyURI ;
+    mim:naam "Nee"@nl ;
+    dcterms:identifier "EAID_eac93977_d925_42bb_b490_d5d7ff7d4827",
+        "EAID_f268089d_e60a_416d_9b4e_2dc357408033" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/boolean> ;
+    skos:notation "0" ;
+    skos:prefLabel "Nee"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/boolean> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/boolean/onbekend> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/boolean> ;
+    rdfs:label "Onbekend"@nl ;
+    mim:code "-1" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/onderwijs/boolean/onbekend"^^xsd:anyURI ;
+    mim:naam "Onbekend"@nl ;
+    dcterms:identifier "EAID_7e6c7cb5_f072_44aa_92f1_7e85aaaea5a6",
+        "EAID_b5cf3aa6_f74e_4cd2_9500_01a473246416" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/boolean> ;
+    skos:notation "-1" ;
+    skos:prefLabel "Onbekend"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/boolean> .
+
 <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerling/kwetsbarejongere> a mim:Attribuutsoort,
         owl:ObjectProperty ;
     rdfs:label "kwetsbareJongere"@nl ;
@@ -867,11 +931,11 @@
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "kwetsbareJongere"@nl ;
-    mim:type <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean> ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/boolean> ;
     dcterms:identifier "EAID_70DE2997_48B9_4f71_B6BF_2B9C3163F429" ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerling> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/> ;
-    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean> .
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/boolean> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/aanvraagofmelding/datum> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
@@ -1043,6 +1107,62 @@
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/beslissing> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/> ;
     rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/boolean/ja> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/boolean> ;
+    rdfs:label "Ja"@nl ;
+    mim:code "1" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/boolean/ja"^^xsd:anyURI ;
+    mim:naam "Ja"@nl ;
+    dcterms:identifier "EAID_c7452486_02a1_4de7_a7a2_bd1af8bbf3cf",
+        "EAID_f9339fae_206d_4294_aa6f_5eb7d6782a09" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/boolean> ;
+    skos:notation "1" ;
+    skos:prefLabel "Ja"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/boolean> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/boolean/leeg> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/boolean> ;
+    rdfs:label "Leeg"@nl ;
+    mim:code "-2" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/boolean/leeg"^^xsd:anyURI ;
+    mim:naam "Leeg"@nl ;
+    dcterms:identifier "EAID_a335c51e_894e_489d_b118_df3d89138cf4",
+        "EAID_b4f7e9a1_71b3_4206_a52b_88870717ffbb" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/boolean> ;
+    skos:notation "-2" ;
+    skos:prefLabel "Leeg"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/boolean> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/boolean/nee> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/boolean> ;
+    rdfs:label "Nee"@nl ;
+    mim:code "0" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/boolean/nee"^^xsd:anyURI ;
+    mim:naam "Nee"@nl ;
+    dcterms:identifier "EAID_8c01724f_2144_4ae7_9764_40060683ac28",
+        "EAID_de6a77ef_be9c_4729_a439_7479ce76c098" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/boolean> ;
+    skos:notation "0" ;
+    skos:prefLabel "Nee"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/boolean> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/boolean/onbekend> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/boolean> ;
+    rdfs:label "Onbekend"@nl ;
+    mim:code "-1" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/boolean/onbekend"^^xsd:anyURI ;
+    mim:naam "Onbekend"@nl ;
+    dcterms:identifier "EAID_7bfdd91e_dadc_49c2_ac92_44df07bdcb44",
+        "EAID_fa88a9f5_d1e8_4a69_8e2c_33a4bb86cb9e" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/boolean> ;
+    skos:notation "-1" ;
+    skos:prefLabel "Onbekend"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/boolean> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/doorgeleiding-om/afdoening> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
@@ -1266,11 +1386,11 @@
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "geldboeteVoorwaardelijk"@nl ;
-    mim:type <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean> ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/boolean> ;
     dcterms:identifier "EAID_E7F9C9A0_9142_4dc3_9BB3_8BC257E25899" ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/procesverbaal-onderwijs> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/> ;
-    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean> .
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/boolean> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/procesverbaal-onderwijs/opmerkingen> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
@@ -1537,11 +1657,11 @@
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "aanvraagToegekend"@nl ;
-    mim:type <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean> ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/boolean> ;
     dcterms:identifier "EAID_9BB5E44A_DAE0_4ab1_9112_ADAECCF38A6D" ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/vrijstelling> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/> ;
-    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean> .
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/boolean> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/vrijstelling/buitenlandseschoollocatie> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
@@ -1851,6 +1971,35 @@
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/> ;
     rdfs:subClassOf <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding> .
 
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/boolean> a mim:Enumeratie,
+        owl:Class,
+        skos:ConceptScheme ;
+    rdfs:label "Boolean"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/boolean"^^xsd:anyURI ;
+    mim:naam "Boolean"@nl ;
+    mim:waarde <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/boolean/ja>,
+        <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/boolean/leeg>,
+        <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/boolean/nee>,
+        <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/boolean/onbekend> ;
+    dcterms:identifier "EAID_fcc997d9_711a_43df_b1fa_30158b0b0429" ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/> ;
+    rdfs:subClassOf skos:Concept .
+
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/boolean> a mim:Enumeratie,
+        owl:Class,
+        skos:ConceptScheme ;
+    rdfs:label "Boolean"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/onderwijs/boolean"^^xsd:anyURI ;
+    mim:naam "Boolean"@nl ;
+    mim:waarde <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/boolean/ja>,
+        <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/boolean/leeg>,
+        <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/boolean/nee>,
+        <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/boolean/onbekend> ;
+    dcterms:identifier "EAID_195bc5bd_9054_41bb_8088_d6e3d5e4a0cd",
+        "EAID_9c95faf0_7738_46cf_b1cb_cde23c8fe0e6" ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/> ;
+    rdfs:subClassOf skos:Concept .
+
 <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerling> a mim:Objecttype,
         owl:Class ;
     rdfs:label "Leerling"@nl ;
@@ -1876,6 +2025,21 @@
     dcterms:identifier "EAID_B65280CD_3429_4966_AD2D_CB3EE76EE2E8" ;
     rdfs:comment "Selectie van een voorstelbare werkelijkheid (voorkeursvariant) uit een aantal mogelijke werkelijkheden (varianten) op basis van een verzameling van criteria."@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/boolean> a mim:Enumeratie,
+        owl:Class,
+        skos:ConceptScheme ;
+    rdfs:label "Boolean"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/boolean"^^xsd:anyURI ;
+    mim:naam "Boolean"@nl ;
+    mim:waarde <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/boolean/ja>,
+        <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/boolean/leeg>,
+        <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/boolean/nee>,
+        <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/boolean/onbekend> ;
+    dcterms:identifier "EAID_b6565441_cac1_4cab_9e54_cc22d69fa08a",
+        "EAID_b7d9a55f_4816_4474_9236_06a89dab467b" ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/> ;
+    rdfs:subClassOf skos:Concept .
 
 <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/procesverbaal-onderwijs> a mim:Objecttype,
         owl:Class ;
@@ -1937,17 +2101,4 @@ ID: REQ_ID"""@nl ;
 Bron: GEM_VJV (Distinct op REQ_ID)
 ID: REQ_ID"""@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/> .
-
-<https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean> a mim:Enumeratie,
-        owl:Class,
-        skos:ConceptScheme ;
-    rdfs:label "Boolean"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean"^^xsd:anyURI ;
-    mim:naam "Boolean"@nl ;
-    mim:waarde <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean/ja>,
-        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean/leeg>,
-        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean/nee>,
-        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean/onbekend> ;
-    dcterms:identifier "EAID_9BD0FBCB_1A9E_4cab_9280_0EBC428E38F7" ;
-    rdfs:subClassOf skos:Concept .
 

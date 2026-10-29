@@ -469,6 +469,27 @@
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/inkoop/> ;
     rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/inkoop/leverancier> .
 
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/document/type> a mim:Relatiesoort,
+        owl:ObjectProperty ;
+    rdfs:label "type"@nl ;
+    mim:aggregatietype mim:Geen ;
+    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/document> ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/documenttype> ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/document/type"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "type"@nl ;
+    mim:unidirectioneel true ;
+    dcterms:identifier "EAID_dstC59C3B_CE93_4428_B10D_BE49A6FCD782" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/document> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/documenttype> .
+
 <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/geleverd-via> a mim:Relatiesoort,
         owl:ObjectProperty ;
     rdfs:label "geleverd via"@nl ;
@@ -563,6 +584,48 @@
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> ;
     rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/organisatorischeeenheid> .
 
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/organisatorische-eenheid-organisatorischeeenheid> a mim:Relatiesoort,
+        owl:ObjectProperty ;
+    rdfs:label "organisatorische eenheid"@nl ;
+    mim:aggregatietype mim:Geen ;
+    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker> ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/organisatorischeeenheid> ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/organisatorische-eenheid-organisatorischeeenheid"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "0..*" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "organisatorische eenheid"@nl ;
+    mim:unidirectioneel true ;
+    dcterms:identifier "EAID_dst008EC2_F42E_4e6b_8000_E9A81F3A2ECA" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/organisatorischeeenheid> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/organisatorische-eenheid-organisatorischeeenheid-2> a mim:Relatiesoort,
+        owl:ObjectProperty ;
+    rdfs:label "organisatorische eenheid"@nl ;
+    mim:aggregatietype mim:Geen ;
+    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker> ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/organisatorischeeenheid> ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/organisatorische-eenheid-organisatorischeeenheid-2"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "0..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "organisatorische eenheid"@nl ;
+    mim:unidirectioneel true ;
+    dcterms:identifier "EAID_dstBB7F66_64B4_40dd_9628_02202FF00FB1" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/organisatorischeeenheid> .
+
 <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/organisatorischeeenheid/heeft-kostenplaats> a mim:Relatiesoort,
         owl:ObjectProperty ;
     rdfs:label "heeft"@nl ;
@@ -607,154 +670,53 @@
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> ;
     rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/organisatorischeeenheid> .
 
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/organisatorischeeenheid/vestiging> a mim:Relatiesoort,
+        owl:ObjectProperty ;
+    rdfs:label "vestiging"@nl ;
+    mim:aggregatietype mim:Geen ;
+    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/organisatorischeeenheid> ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/vestigingvanzaakbehandelendeorganisatie> ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/organisatorischeeenheid/vestiging"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "vestiging"@nl ;
+    mim:unidirectioneel true ;
+    dcterms:identifier "EAID_dst9523F1_DB08_428a_B016_53B63C975012" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/organisatorischeeenheid> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/vestigingvanzaakbehandelendeorganisatie> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/organisatorischeeenheid/zaaktype> a mim:Relatiesoort,
+        owl:ObjectProperty ;
+    rdfs:label "zaaktype"@nl ;
+    mim:aggregatietype mim:Geen ;
+    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/organisatorischeeenheid> ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaaktype> ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/organisatorischeeenheid/zaaktype"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "0..*" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "zaaktype"@nl ;
+    mim:unidirectioneel true ;
+    dcterms:identifier "EAID_dst6014D0_A1AF_4738_9D86_FF18128429F5" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/organisatorischeeenheid> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaaktype> .
+
 <https://lod.gemeentelijkgegevensmodel.nl/v3.0.0/interne-organisatie/inkoop/diagram-inkoop-inhuur> a owl:Ontology ;
     rdfs:label "Diagram Inkoop Inhuur"@nl ;
     dcterms:identifier "EAID_1172FBF0_04B4_46c7_9FB5_F34730E060FB" ;
     dcterms:isPartOf <https://lod.gemeentelijkgegevensmodel.nl/> ;
     owl:versionInfo "v3.0.0" .
-
-<https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel/baron> a mim:Enumeratiewaarde,
-        skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel> ;
-    rdfs:label "baron"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel/baron"^^xsd:anyURI ;
-    mim:naam "baron"@nl ;
-    dcterms:identifier "EAID_4E960B48_5F5A_491a_BBD5_708B92271E94" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel> ;
-    skos:prefLabel "baron"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel> .
-
-<https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel/barones> a mim:Enumeratiewaarde,
-        skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel> ;
-    rdfs:label "barones"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel/barones"^^xsd:anyURI ;
-    mim:naam "barones"@nl ;
-    dcterms:identifier "EAID_7908254F_3149_488a_964D_33D76F7F03FE" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel> ;
-    skos:prefLabel "barones"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel> .
-
-<https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel/graaf> a mim:Enumeratiewaarde,
-        skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel> ;
-    rdfs:label "graaf"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel/graaf"^^xsd:anyURI ;
-    mim:naam "graaf"@nl ;
-    dcterms:identifier "EAID_0AA8D702_6288_4621_AD24_D375E6921C75" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel> ;
-    skos:prefLabel "graaf"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel> .
-
-<https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel/gravin> a mim:Enumeratiewaarde,
-        skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel> ;
-    rdfs:label "gravin"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel/gravin"^^xsd:anyURI ;
-    mim:naam "gravin"@nl ;
-    dcterms:identifier "EAID_4C2106FF_FE00_4103_A914_C34A56B72F06" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel> ;
-    skos:prefLabel "gravin"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel> .
-
-<https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel/hertog> a mim:Enumeratiewaarde,
-        skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel> ;
-    rdfs:label "hertog"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel/hertog"^^xsd:anyURI ;
-    mim:naam "hertog"@nl ;
-    dcterms:identifier "EAID_ED11FD6F_9F2C_4dd8_9A24_5EF2F24E376D" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel> ;
-    skos:prefLabel "hertog"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel> .
-
-<https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel/hertogin> a mim:Enumeratiewaarde,
-        skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel> ;
-    rdfs:label "hertogin"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel/hertogin"^^xsd:anyURI ;
-    mim:naam "hertogin"@nl ;
-    dcterms:identifier "EAID_0BFF11E0_D82E_4d86_87A0_56FBC38C006B" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel> ;
-    skos:prefLabel "hertogin"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel> .
-
-<https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel/leeg> a mim:Enumeratiewaarde,
-        skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel> ;
-    rdfs:label "Leeg"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel/leeg"^^xsd:anyURI ;
-    mim:naam "Leeg"@nl ;
-    dcterms:identifier "EAID_26517860_E059_4fff_B750_299D075577DB" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel> ;
-    skos:prefLabel "Leeg"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel> .
-
-<https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel/markies> a mim:Enumeratiewaarde,
-        skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel> ;
-    rdfs:label "markies"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel/markies"^^xsd:anyURI ;
-    mim:naam "markies"@nl ;
-    dcterms:identifier "EAID_9D0FFC5E_DB66_43e1_81A5_167340C6C5E7" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel> ;
-    skos:prefLabel "markies"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel> .
-
-<https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel/markiezin> a mim:Enumeratiewaarde,
-        skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel> ;
-    rdfs:label "markiezin"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel/markiezin"^^xsd:anyURI ;
-    mim:naam "markiezin"@nl ;
-    dcterms:identifier "EAID_790824F4_AFC4_4799_BDD6_F124474B615A" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel> ;
-    skos:prefLabel "markiezin"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel> .
-
-<https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel/onbekend> a mim:Enumeratiewaarde,
-        skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel> ;
-    rdfs:label "Onbekend"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel/onbekend"^^xsd:anyURI ;
-    mim:naam "Onbekend"@nl ;
-    dcterms:identifier "EAID_BF82DBF7_F85E_4179_B3FA_33CF880C12C0" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel> ;
-    skos:prefLabel "Onbekend"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel> .
-
-<https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel/prins> a mim:Enumeratiewaarde,
-        skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel> ;
-    rdfs:label "prins"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel/prins"^^xsd:anyURI ;
-    mim:naam "prins"@nl ;
-    dcterms:identifier "EAID_FA4A562A_BB05_47b2_A70F_8E15B7ECF124" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel> ;
-    skos:prefLabel "prins"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel> .
-
-<https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel/prinses> a mim:Enumeratiewaarde,
-        skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel> ;
-    rdfs:label "prinses"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel/prinses"^^xsd:anyURI ;
-    mim:naam "prinses"@nl ;
-    dcterms:identifier "EAID_07B16146_BF17_47fc_AE2B_3B856F8F3020" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel> ;
-    skos:prefLabel "prinses"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel> .
-
-<https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel/ridder> a mim:Enumeratiewaarde,
-        skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel> ;
-    rdfs:label "ridder"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel/ridder"^^xsd:anyURI ;
-    mim:naam "ridder"@nl ;
-    dcterms:identifier "EAID_8B516517_E401_434e_888D_C523233FC810" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel> ;
-    skos:prefLabel "ridder"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/inkooporder/artikelcode> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
@@ -2071,10 +2033,12 @@
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/inkoop/opdrachtcategorie> ;
     rdfs:label "Diensten - regulier"@nl ;
+    mim:code "2" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/inkoop/opdrachtcategorie/diensten-regulier"^^xsd:anyURI ;
     mim:naam "Diensten - regulier"@nl ;
     dcterms:identifier "EAID_317DB9A7_5F12_4546_A72E_ADFA01B97225" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/inkoop/opdrachtcategorie> ;
+    skos:notation "2" ;
     skos:prefLabel "Diensten - regulier"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/inkoop/opdrachtcategorie> .
 
@@ -2082,10 +2046,12 @@
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/inkoop/opdrachtcategorie> ;
     rdfs:label "Diensten - sociale of specifieke diensten"@nl ;
+    mim:code "3" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/inkoop/opdrachtcategorie/diensten-sociale-of-specifieke-diensten"^^xsd:anyURI ;
     mim:naam "Diensten - sociale of specifieke diensten"@nl ;
     dcterms:identifier "EAID_2837903F_2272_42e0_926B_792A7C769C32" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/inkoop/opdrachtcategorie> ;
+    skos:notation "3" ;
     skos:prefLabel "Diensten - sociale of specifieke diensten"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/inkoop/opdrachtcategorie> .
 
@@ -2093,10 +2059,12 @@
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/inkoop/opdrachtcategorie> ;
     rdfs:label "Leveringen"@nl ;
+    mim:code "1" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/inkoop/opdrachtcategorie/leveringen"^^xsd:anyURI ;
     mim:naam "Leveringen"@nl ;
     dcterms:identifier "EAID_F836866E_17F7_4456_AFE5_5E36220F49A1" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/inkoop/opdrachtcategorie> ;
+    skos:notation "1" ;
     skos:prefLabel "Leveringen"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/inkoop/opdrachtcategorie> .
 
@@ -2104,10 +2072,12 @@
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/inkoop/opdrachtcategorie> ;
     rdfs:label "Werken"@nl ;
+    mim:code "4" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/inkoop/opdrachtcategorie/werken"^^xsd:anyURI ;
     mim:naam "Werken"@nl ;
     dcterms:identifier "EAID_3DAE4CFE_67EC_4b5b_BE76_45B0F957127A" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/inkoop/opdrachtcategorie> ;
+    skos:notation "4" ;
     skos:prefLabel "Werken"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/inkoop/opdrachtcategorie> .
 
@@ -2416,27 +2386,6 @@
     mim:type mim:CharacterString ;
     dcterms:identifier "EAID_2EEFDDE3_164E_4dc6_8573_205834C1AF47" ;
     rdfs:comment "<font color=\"#610e6a\">Elektronisch postadres waaronder de medewerker in de regel bereikbaar is.</font>"@nl ;
-    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker> ;
-    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> ;
-    rdfs:range xsd:string .
-
-<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/extern> a mim:Attribuutsoort,
-        owl:DatatypeProperty ;
-    rdfs:label "extern"@nl ;
-    mim:definitie "Medewerker is een externe?"@nl ;
-    mim:heeftTijdlijnGeldigheid false ;
-    mim:heeftTijdlijnRegistratie false ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/extern"^^xsd:anyURI ;
-    mim:indicatieAfleidbaar false ;
-    mim:indicatieClassificerend false ;
-    mim:indicatieFormeleHistorie false ;
-    mim:indicatieMaterieleHistorie false ;
-    mim:kardinaliteit "1..1" ;
-    mim:mogelijkGeenWaarde true ;
-    mim:naam "extern"@nl ;
-    mim:type mim:CharacterString ;
-    dcterms:identifier "EAID_8DDB6FA2_A79D_4423_9969_7AF045B86351" ;
-    rdfs:comment "Medewerker is een externe?"@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> ;
     rdfs:range xsd:string .
@@ -2841,6 +2790,175 @@
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> ;
     rdfs:range xsd:string .
 
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel/baron> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel> ;
+    rdfs:label "baron"@nl ;
+    mim:code "1" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel/baron"^^xsd:anyURI ;
+    mim:naam "baron"@nl ;
+    dcterms:identifier "EAID_1ee1a35d_2ae1_4e16_80c7_f7c89cd357aa" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel> ;
+    skos:notation "1" ;
+    skos:prefLabel "baron"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel/barones> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel> ;
+    rdfs:label "barones"@nl ;
+    mim:code "2" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel/barones"^^xsd:anyURI ;
+    mim:naam "barones"@nl ;
+    dcterms:identifier "EAID_909a266a_2006_45c4_9a2e_b7b616eda8f3" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel> ;
+    skos:notation "2" ;
+    skos:prefLabel "barones"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel/graaf> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel> ;
+    rdfs:label "graaf"@nl ;
+    mim:code "3" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel/graaf"^^xsd:anyURI ;
+    mim:naam "graaf"@nl ;
+    dcterms:identifier "EAID_d76847af_bdf7_4019_a049_76160afa923c" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel> ;
+    skos:notation "3" ;
+    skos:prefLabel "graaf"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel/gravin> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel> ;
+    rdfs:label "gravin"@nl ;
+    mim:code "4" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel/gravin"^^xsd:anyURI ;
+    mim:naam "gravin"@nl ;
+    dcterms:identifier "EAID_fb4f835d_c607_4c78_8ccb_ec106f8684dc" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel> ;
+    skos:notation "4" ;
+    skos:prefLabel "gravin"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel/hertog> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel> ;
+    rdfs:label "hertog"@nl ;
+    mim:code "5" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel/hertog"^^xsd:anyURI ;
+    mim:naam "hertog"@nl ;
+    dcterms:identifier "EAID_63667b0c_7b35_4f53_b842_6287df3ee7ff" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel> ;
+    skos:notation "5" ;
+    skos:prefLabel "hertog"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel/hertogin> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel> ;
+    rdfs:label "hertogin"@nl ;
+    mim:code "6" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel/hertogin"^^xsd:anyURI ;
+    mim:naam "hertogin"@nl ;
+    dcterms:identifier "EAID_c80c5b19_3409_469b_90c5_b2554cdc2ada" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel> ;
+    skos:notation "6" ;
+    skos:prefLabel "hertogin"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel/leeg> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel> ;
+    rdfs:label "Leeg"@nl ;
+    mim:code "-2" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel/leeg"^^xsd:anyURI ;
+    mim:naam "Leeg"@nl ;
+    dcterms:identifier "EAID_ac223a5f_c31a_4f25_b6ee_c22042cc920f" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel> ;
+    skos:notation "-2" ;
+    skos:prefLabel "Leeg"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel/markies> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel> ;
+    rdfs:label "markies"@nl ;
+    mim:code "7" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel/markies"^^xsd:anyURI ;
+    mim:naam "markies"@nl ;
+    dcterms:identifier "EAID_74478cdf_6f28_4a26_85a8_586e66bcb673" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel> ;
+    skos:notation "7" ;
+    skos:prefLabel "markies"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel/markiezin> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel> ;
+    rdfs:label "markiezin"@nl ;
+    mim:code "8" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel/markiezin"^^xsd:anyURI ;
+    mim:naam "markiezin"@nl ;
+    dcterms:identifier "EAID_53ab6f22_c437_43e7_9117_4a5c40bbe644" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel> ;
+    skos:notation "8" ;
+    skos:prefLabel "markiezin"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel/onbekend> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel> ;
+    rdfs:label "Onbekend"@nl ;
+    mim:code "-1" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel/onbekend"^^xsd:anyURI ;
+    mim:naam "Onbekend"@nl ;
+    dcterms:identifier "EAID_98578285_3283_4b1b_ab55_6bed62cb5055" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel> ;
+    skos:notation "-1" ;
+    skos:prefLabel "Onbekend"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel/prins> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel> ;
+    rdfs:label "prins"@nl ;
+    mim:code "9" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel/prins"^^xsd:anyURI ;
+    mim:naam "prins"@nl ;
+    dcterms:identifier "EAID_5f30d1ce_fa65_4197_ae86_0ff05a705e50" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel> ;
+    skos:notation "9" ;
+    skos:prefLabel "prins"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel/prinses> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel> ;
+    rdfs:label "prinses"@nl ;
+    mim:code "10" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel/prinses"^^xsd:anyURI ;
+    mim:naam "prinses"@nl ;
+    dcterms:identifier "EAID_01c43022_8f24_4dfb_a3b8_4a3fdd5d185f" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel> ;
+    skos:notation "10" ;
+    skos:prefLabel "prinses"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel/ridder> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel> ;
+    rdfs:label "ridder"@nl ;
+    mim:code "11" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel/ridder"^^xsd:anyURI ;
+    mim:naam "ridder"@nl ;
+    dcterms:identifier "EAID_58efec5e_328c_467f_8249_3614e966585c" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel> ;
+    skos:notation "11" ;
+    skos:prefLabel "ridder"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel> .
+
 <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/natuurlijkpersoon/aanduidingnaamgebruik> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "aanduidingNaamgebruik"@nl ;
@@ -2937,12 +3055,12 @@
     mim:kardinaliteit "0..1" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "adellijkeTitelOfPredikaat"@nl ;
-    mim:type <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel> ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel> ;
     dcterms:identifier "EAID_5CB3C6B2_826C_4645_AC21_6E4F8A103B29" ;
     rdfs:comment "Een omschrijving die aangeeft welke titel of welk predikaat behoort tot de naam (bij adellijke titel geslachtsnaam, bij predikaat voornaam)."@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/natuurlijkpersoon> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
-    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel> .
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/natuurlijkpersoon/anummer> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
@@ -3391,26 +3509,6 @@ geslachtsnaam voorafgaat.."""@nl ;
     rdfs:comment "Een verzoek om iets bij te wonen."@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/inkoop/> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/document> a mim:Objecttype,
-        owl:Class ;
-    rdfs:label "Document"@nl ;
-    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/document/cocumentbeschrijving>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/document/datumcreatiedocument>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/document/datumontvangstdocument>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/document/datumverzendingdocument>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/document/documentauteur>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/document/documentidentificatie>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/document/documenttitel>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/document/vertrouwelijkaanduiding> ;
-    mim:definitie "Geheel van gegevens met een eigen identiteit ongeacht zijn vorm, met de bijbehorende metadata ontvangen of opgemaakt door een natuurlijke en/of rechtspersoon bij de uitvoering van taken, zijnde een ENKELVOUDIG DOCUMENT of een SAMENGESTELD DOCUMENT."@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/document"^^xsd:anyURI ;
-    mim:indicatieAbstractObject false ;
-    mim:naam "Document"@nl ;
-    mim:populatie "Voor objecttypen die deel uitmaken van een (basis)registratie betreft dit de beschrijving van de exemplaren van het gedefinieerde objecttype die in de desbetreffende (basis)-registratie voorhanden zijn.#NOTES#Voor objecttypen die deel uitmaken van een (basis)registratie betreft dit de beschrijving van de exemplaren van het gedefinieerde objecttype die in de desbetreffende (basis)-registratie voorhanden zijn.#NOTES#Voor objecttypen die deel uitmaken van een (basis)registratie betreft dit de beschrijving van de exemplaren van het gedefinieerde objecttype die in de desbetreffende (basis)-registratie voorhanden zijn.#NOTES#Voor objecttypen die deel uitmaken van een (basis)registratie betreft dit de beschrijving van de exemplaren van het gedefinieerde objecttype die in de desbetreffende (basis)-registratie voorhanden zijn.#NOTES#Voor objecttypen die deel uitmaken van een (basis)registratie betreft dit de beschrijving van de exemplaren van het gedefinieerde objecttype die in de desbetreffende (basis)-registratie voorhanden zijn.#NOTES#Voor objecttypen die deel uitmaken van een (basis)registratie betreft dit de beschrijving van de exemplaren van het gedefinieerde objecttype die in de desbetreffende (basis)-registratie voorhanden zijn.#NOTES#Voor objecttypen die deel uitmaken van een (basis)registratie betreft dit de beschrijving van de exemplaren van het gedefinieerde objecttype die in de desbetreffende (basis)-registratie voorhanden zijn.#NOTES#Voor objecttypen die deel uitmaken van een (basis)registratie betreft dit de beschrijving van de exemplaren van het gedefinieerde objecttype die in de desbetreffende (basis)-registratie voorhanden zijn.#NOTES#Voor objecttypen die deel uitmaken van een (basis)registratie betreft dit de beschrijving van de exemplaren van het gedefinieerde objecttype die in de desbetreffende (basis)-registratie voorhanden zijn.#NOTES#Voor objecttypen die deel uitmaken van een (basis)registratie betreft dit de beschrijving van de exemplaren van het gedefinieerde objecttype die in de desbetreffende (basis)-registratie voorhanden zijn.#NOTES#Voor objecttypen die deel uitmaken van een (basis)registratie betreft dit de beschrijving van de exemplaren van het gedefinieerde objecttype die in de desbetreffende (basis)-registratie voorhanden zijn.#NOTES#Voor objecttypen die deel uitmaken van een (basis)registratie betreft dit de beschrijving van de exemplaren van het gedefinieerde objecttype die in de desbetreffende (basis)-registratie voorhanden zijn.#NOTES#Voor objecttypen die deel uitmaken van een (basis)registratie betreft dit de beschrijving van de exemplaren van het gedefinieerde objecttype die in de desbetreffende (basis)-registratie voorhanden zijn." ;
-    dcterms:identifier "EAID_5641C50A_C0FA_4e71_B07B_26C7B1CE94ED" ;
-    rdfs:comment "Geheel van gegevens met een eigen identiteit ongeacht zijn vorm, met de bijbehorende metadata ontvangen of opgemaakt door een natuurlijke en/of rechtspersoon bij de uitvoering van taken, zijnde een ENKELVOUDIG DOCUMENT of een SAMENGESTELD DOCUMENT."@nl ;
-    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> .
-
 <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/inkoop/kandidaat> a mim:Objecttype,
         owl:Class ;
     rdfs:label "Kandidaat"@nl ;
@@ -3437,6 +3535,26 @@ geslachtsnaam voorafgaat.."""@nl ;
     dcterms:identifier "EAID_B598FF22_CDD0_486f_B528_99421D0FA608" ;
     rdfs:comment "Formulier ten behoeve van inhuur personeel"@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/inkoop/> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/document> a mim:Objecttype,
+        owl:Class ;
+    rdfs:label "Document"@nl ;
+    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/document/cocumentbeschrijving>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/document/datumcreatiedocument>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/document/datumontvangstdocument>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/document/datumverzendingdocument>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/document/documentauteur>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/document/documentidentificatie>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/document/documenttitel>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/document/vertrouwelijkaanduiding> ;
+    mim:definitie "Geheel van gegevens met een eigen identiteit ongeacht zijn vorm, met de bijbehorende metadata ontvangen of opgemaakt door een natuurlijke en/of rechtspersoon bij de uitvoering van taken, zijnde een ENKELVOUDIG DOCUMENT of een SAMENGESTELD DOCUMENT."@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/document"^^xsd:anyURI ;
+    mim:indicatieAbstractObject false ;
+    mim:naam "Document"@nl ;
+    mim:populatie "Voor objecttypen die deel uitmaken van een (basis)registratie betreft dit de beschrijving van de exemplaren van het gedefinieerde objecttype die in de desbetreffende (basis)-registratie voorhanden zijn.#NOTES#Voor objecttypen die deel uitmaken van een (basis)registratie betreft dit de beschrijving van de exemplaren van het gedefinieerde objecttype die in de desbetreffende (basis)-registratie voorhanden zijn.#NOTES#Voor objecttypen die deel uitmaken van een (basis)registratie betreft dit de beschrijving van de exemplaren van het gedefinieerde objecttype die in de desbetreffende (basis)-registratie voorhanden zijn.#NOTES#Voor objecttypen die deel uitmaken van een (basis)registratie betreft dit de beschrijving van de exemplaren van het gedefinieerde objecttype die in de desbetreffende (basis)-registratie voorhanden zijn.#NOTES#Voor objecttypen die deel uitmaken van een (basis)registratie betreft dit de beschrijving van de exemplaren van het gedefinieerde objecttype die in de desbetreffende (basis)-registratie voorhanden zijn.#NOTES#Voor objecttypen die deel uitmaken van een (basis)registratie betreft dit de beschrijving van de exemplaren van het gedefinieerde objecttype die in de desbetreffende (basis)-registratie voorhanden zijn.#NOTES#Voor objecttypen die deel uitmaken van een (basis)registratie betreft dit de beschrijving van de exemplaren van het gedefinieerde objecttype die in de desbetreffende (basis)-registratie voorhanden zijn.#NOTES#Voor objecttypen die deel uitmaken van een (basis)registratie betreft dit de beschrijving van de exemplaren van het gedefinieerde objecttype die in de desbetreffende (basis)-registratie voorhanden zijn.#NOTES#Voor objecttypen die deel uitmaken van een (basis)registratie betreft dit de beschrijving van de exemplaren van het gedefinieerde objecttype die in de desbetreffende (basis)-registratie voorhanden zijn.#NOTES#Voor objecttypen die deel uitmaken van een (basis)registratie betreft dit de beschrijving van de exemplaren van het gedefinieerde objecttype die in de desbetreffende (basis)-registratie voorhanden zijn.#NOTES#Voor objecttypen die deel uitmaken van een (basis)registratie betreft dit de beschrijving van de exemplaren van het gedefinieerde objecttype die in de desbetreffende (basis)-registratie voorhanden zijn.#NOTES#Voor objecttypen die deel uitmaken van een (basis)registratie betreft dit de beschrijving van de exemplaren van het gedefinieerde objecttype die in de desbetreffende (basis)-registratie voorhanden zijn.#NOTES#Voor objecttypen die deel uitmaken van een (basis)registratie betreft dit de beschrijving van de exemplaren van het gedefinieerde objecttype die in de desbetreffende (basis)-registratie voorhanden zijn." ;
+    dcterms:identifier "EAID_5641C50A_C0FA_4e71_B07B_26C7B1CE94ED" ;
+    rdfs:comment "Geheel van gegevens met een eigen identiteit ongeacht zijn vorm, met de bijbehorende metadata ontvangen of opgemaakt door een natuurlijke en/of rechtspersoon bij de uitvoering van taken, zijnde een ENKELVOUDIG DOCUMENT of een SAMENGESTELD DOCUMENT."@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/inkoop/gunning> a mim:Objecttype,
         owl:Class ;
@@ -3502,28 +3620,6 @@ Of voor levering personeel"""@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/inkoop/> ;
     rdfs:subClassOf skos:Concept .
 
-<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/organisatorischeeenheid> a mim:Objecttype,
-        owl:Class ;
-    rdfs:label "OrganisatorischeEenheid"@nl ;
-    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/organisatorischeeenheid/datumontstaan>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/organisatorischeeenheid/datumopheffing>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/organisatorischeeenheid/emailadres>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/organisatorischeeenheid/faxnummer>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/organisatorischeeenheid/formatie>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/organisatorischeeenheid/naam>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/organisatorischeeenheid/naamverkort>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/organisatorischeeenheid/omschrijving>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/organisatorischeeenheid/organisatieidentificatie>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/organisatorischeeenheid/telefoonnummer>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/organisatorischeeenheid/toelichting> ;
-    mim:definitie "Het deel van een functioneel afgebakend onderdeel binnen de organisatie dat haar activiteiten uitvoert binnen een VESTIGING VAN ZAAKBEHANDELENDE ORGANISATIE en die verantwoordelijk is voor de behandeling van zaken."@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/organisatorischeeenheid"^^xsd:anyURI ;
-    mim:indicatieAbstractObject false ;
-    mim:naam "OrganisatorischeEenheid"@nl ;
-    dcterms:identifier "EAID_936A4E8B_3E5A_44b6_8A5D_EFB39F83FB6D" ;
-    rdfs:comment "Het deel van een functioneel afgebakend onderdeel binnen de organisatie dat haar activiteiten uitvoert binnen een VESTIGING VAN ZAAKBEHANDELENDE ORGANISATIE en die verantwoordelijk is voor de behandeling van zaken."@nl ;
-    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> .
-
 <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/inkoop/contract> a mim:Objecttype,
         owl:Class ;
     rdfs:label "Contract"@nl ;
@@ -3574,30 +3670,6 @@ Of voor levering personeel"""@nl ;
     rdfs:comment "Een opdracht (gezien vanuit de klant) voor één of meer leveringen door de leverancier aan die klant van een bepaalde hoeveelheid gespecificeerde goederen en/of diensten onder overeengekomen leveringsvoorwaarden en prijzen."@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker> a mim:Objecttype,
-        owl:Class ;
-    rdfs:label "Medewerker"@nl ;
-    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/achternaam>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/datumindienst>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/datumuitdienst>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/emailadres>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/extern>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/functie>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/geslachtsaanduiding>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/medewerkeridentificatie>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/medewerkertoelichting>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/roepnaam>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/telefoonnummer>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/voorletters>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/voorvoegselachternaam> ;
-    mim:definitie "Een medewerker van de organisatie die zaken behandelt uit hoofde van zijn of haar functie binnen een ORGANISATORISCHE EENHEID."@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker"^^xsd:anyURI ;
-    mim:indicatieAbstractObject false ;
-    mim:naam "Medewerker"@nl ;
-    dcterms:identifier "EAID_16EB3936_03CB_4854_9CD8_9F0911EEA51B" ;
-    rdfs:comment "Een medewerker van de organisatie die zaken behandelt uit hoofde van zijn of haar functie binnen een ORGANISATORISCHE EENHEID."@nl ;
-    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> .
-
 <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/natuurlijkpersoon> a mim:Objecttype,
         owl:Class ;
     rdfs:label "NatuurlijkPersoon"@nl ;
@@ -3634,6 +3706,29 @@ Of voor levering personeel"""@nl ;
     rdfs:comment "Een INGESCHREVEN PERSOON of ANDER NATUURLIJK PERSOON"@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> .
 
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker> a mim:Objecttype,
+        owl:Class ;
+    rdfs:label "Medewerker"@nl ;
+    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/achternaam>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/datumindienst>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/datumuitdienst>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/emailadres>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/functie>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/geslachtsaanduiding>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/medewerkeridentificatie>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/medewerkertoelichting>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/roepnaam>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/telefoonnummer>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/voorletters>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/voorvoegselachternaam> ;
+    mim:definitie "Een medewerker van de organisatie die zaken behandelt uit hoofde van zijn of haar functie binnen een ORGANISATORISCHE EENHEID."@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker"^^xsd:anyURI ;
+    mim:indicatieAbstractObject false ;
+    mim:naam "Medewerker"@nl ;
+    dcterms:identifier "EAID_16EB3936_03CB_4854_9CD8_9F0911EEA51B" ;
+    rdfs:comment "Een medewerker van de organisatie die zaken behandelt uit hoofde van zijn of haar functie binnen een ORGANISATORISCHE EENHEID."@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> .
+
 <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/inkoop/aanbesteding-inhuur> a mim:Objecttype,
         owl:Class ;
     rdfs:label "Aanbesteding Inhuur"@nl ;
@@ -3664,25 +3759,48 @@ Of voor levering personeel"""@nl ;
     rdfs:comment "Aanbesteding voor inhuur van personen of diensten"@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/inkoop/> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel> a mim:Enumeratie,
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/organisatorischeeenheid> a mim:Objecttype,
+        owl:Class ;
+    rdfs:label "OrganisatorischeEenheid"@nl ;
+    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/organisatorischeeenheid/datumontstaan>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/organisatorischeeenheid/datumopheffing>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/organisatorischeeenheid/emailadres>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/organisatorischeeenheid/faxnummer>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/organisatorischeeenheid/formatie>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/organisatorischeeenheid/naam>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/organisatorischeeenheid/naamverkort>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/organisatorischeeenheid/omschrijving>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/organisatorischeeenheid/organisatieidentificatie>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/organisatorischeeenheid/telefoonnummer>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/organisatorischeeenheid/toelichting> ;
+    mim:definitie "Het deel van een functioneel afgebakend onderdeel binnen de organisatie dat haar activiteiten uitvoert binnen een VESTIGING VAN ZAAKBEHANDELENDE ORGANISATIE en die verantwoordelijk is voor de behandeling van zaken."@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/organisatorischeeenheid"^^xsd:anyURI ;
+    mim:indicatieAbstractObject false ;
+    mim:naam "OrganisatorischeEenheid"@nl ;
+    dcterms:identifier "EAID_936A4E8B_3E5A_44b6_8A5D_EFB39F83FB6D" ;
+    rdfs:comment "Het deel van een functioneel afgebakend onderdeel binnen de organisatie dat haar activiteiten uitvoert binnen een VESTIGING VAN ZAAKBEHANDELENDE ORGANISATIE en die verantwoordelijk is voor de behandeling van zaken."@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel> a mim:Enumeratie,
         owl:Class,
         skos:ConceptScheme ;
     rdfs:label "adelijkeTitel"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel"^^xsd:anyURI ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel"^^xsd:anyURI ;
     mim:naam "adelijkeTitel"@nl ;
-    mim:waarde <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel/baron>,
-        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel/barones>,
-        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel/graaf>,
-        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel/gravin>,
-        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel/hertog>,
-        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel/hertogin>,
-        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel/leeg>,
-        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel/markies>,
-        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel/markiezin>,
-        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel/onbekend>,
-        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel/prins>,
-        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel/prinses>,
-        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel/ridder> ;
-    dcterms:identifier "EAID_C27488AF_81A5_4ae3_8838_C036EA0B3167" ;
+    mim:waarde <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel/baron>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel/barones>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel/graaf>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel/gravin>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel/hertog>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel/hertogin>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel/leeg>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel/markies>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel/markiezin>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel/onbekend>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel/prins>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel/prinses>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel/ridder> ;
+    dcterms:identifier "EAID_8cfb5be5_72e1_4363_87ab_205d3595a633" ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
     rdfs:subClassOf skos:Concept .
 

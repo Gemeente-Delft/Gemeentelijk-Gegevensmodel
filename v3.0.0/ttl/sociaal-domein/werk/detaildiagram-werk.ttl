@@ -735,27 +735,27 @@
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/> ;
     rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/doelreintegratievoorziening> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/werkzoekende/relatie-flexibiliteit> a mim:Relatiesoort,
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/werkzoekende/relatie-flexibliteit> a mim:Relatiesoort,
         owl:ObjectProperty ;
-    rdfs:label "relatie naar Flexibiliteit"@nl ;
+    rdfs:label "relatie naar Flexibliteit"@nl ;
     mim:aggregatietype mim:Geen ;
     mim:bron <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/werkzoekende> ;
-    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/flexibiliteit> ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/flexibliteit> ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/werkzoekende/relatie-flexibiliteit"^^xsd:anyURI ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/werkzoekende/relatie-flexibliteit"^^xsd:anyURI ;
     mim:indicatieAfleidbaar false ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "0..1" ;
     mim:kardinaliteitRelatieBron "1..1" ;
     mim:mogelijkGeenWaarde true ;
-    mim:naam "relatie naar Flexibiliteit"@nl ;
+    mim:naam "relatie naar Flexibliteit"@nl ;
     mim:unidirectioneel true ;
     dcterms:identifier "EAID_2D3D13CF_83DE_4d64_8792_11D476954F4D" ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/werkzoekende> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/> ;
-    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/flexibiliteit> .
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/flexibliteit> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/werkzoekende/relatie-mobiliteit> a mim:Relatiesoort,
         owl:ObjectProperty ;
@@ -1067,6 +1067,84 @@
     dcterms:isPartOf <https://lod.gemeentelijkgegevensmodel.nl/> ;
     owl:versionInfo "v3.0.0" .
 
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/codeniveauopleiding/basisonderwijs> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/codeniveauopleiding> ;
+    rdfs:label "Basisonderwijs"@nl ;
+    mim:code "1" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/codeniveauopleiding/basisonderwijs"^^xsd:anyURI ;
+    mim:naam "Basisonderwijs"@nl ;
+    dcterms:identifier "EAID_8545bedd_c88c_4c02_83bf_4b529278a5a3" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/codeniveauopleiding> ;
+    skos:notation "1" ;
+    skos:prefLabel "Basisonderwijs"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/codeniveauopleiding> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/codeniveauopleiding/havo-vwo> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/codeniveauopleiding> ;
+    rdfs:label "HAVO / VWO"@nl ;
+    mim:code "4" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/codeniveauopleiding/havo-vwo"^^xsd:anyURI ;
+    mim:naam "HAVO / VWO"@nl ;
+    dcterms:identifier "EAID_df2ae830_6a39_4ac0_a833_9dbe38fea3f8" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/codeniveauopleiding> ;
+    skos:notation "4" ;
+    skos:prefLabel "HAVO / VWO"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/codeniveauopleiding> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/codeniveauopleiding/hbo-bachelor> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/codeniveauopleiding> ;
+    rdfs:label "HBO / Bachelor"@nl ;
+    mim:code "5" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/codeniveauopleiding/hbo-bachelor"^^xsd:anyURI ;
+    mim:naam "HBO / Bachelor"@nl ;
+    dcterms:identifier "EAID_b81bfe03_b708_4799_81f9_7bf7c068f5b9" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/codeniveauopleiding> ;
+    skos:notation "5" ;
+    skos:prefLabel "HBO / Bachelor"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/codeniveauopleiding> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/codeniveauopleiding/mbo> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/codeniveauopleiding> ;
+    rdfs:label "MBO"@nl ;
+    mim:code "3" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/codeniveauopleiding/mbo"^^xsd:anyURI ;
+    mim:naam "MBO"@nl ;
+    dcterms:identifier "EAID_7414b5b0_f75c_4fd2_acc6_acc2361d179e" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/codeniveauopleiding> ;
+    skos:notation "3" ;
+    skos:prefLabel "MBO"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/codeniveauopleiding> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/codeniveauopleiding/vmbo-mbo-1> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/codeniveauopleiding> ;
+    rdfs:label "VMBO / MBO-1"@nl ;
+    mim:code "2" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/codeniveauopleiding/vmbo-mbo-1"^^xsd:anyURI ;
+    mim:naam "VMBO / MBO-1"@nl ;
+    dcterms:identifier "EAID_df610b01_9785_4fed_9207_7ba50ca61356" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/codeniveauopleiding> ;
+    skos:notation "2" ;
+    skos:prefLabel "VMBO / MBO-1"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/codeniveauopleiding> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/codeniveauopleiding/wo-master> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/codeniveauopleiding> ;
+    rdfs:label "WO / Master"@nl ;
+    mim:code "6" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/codeniveauopleiding/wo-master"^^xsd:anyURI ;
+    mim:naam "WO / Master"@nl ;
+    dcterms:identifier "EAID_7abc1ed8_b79d_4645_8733_4a3363b23ede" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/codeniveauopleiding> ;
+    skos:notation "6" ;
+    skos:prefLabel "WO / Master"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/codeniveauopleiding> .
+
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/arbeidsmarktkwalificaties/klanttypering> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "KlantTypering"@nl ;
@@ -1144,7 +1222,7 @@
     rdfs:range xsd:string .
 
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/arbeidsperiode/contact-telefoon> a mim:Attribuutsoort,
-        owl:ObjectProperty ;
+        owl:DatatypeProperty ;
     rdfs:label "Contact telefoon"@nl ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
@@ -1156,11 +1234,11 @@
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "Contact telefoon"@nl ;
-    mim:type <https://lod.gemeentelijkgegevensmodel.nl/ggm-datatypes/telefoonnummer> ;
+    mim:type mim:CharacterString ;
     dcterms:identifier "EAID_0C1E8137_E218_4ce4_8177_763B146FD020" ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/arbeidsperiode> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/> ;
-    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/ggm-datatypes/telefoonnummer> .
+    rdfs:range xsd:string .
 
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/arbeidsperiode/datum-aanvang-arbeidsperiode> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
@@ -1641,10 +1719,12 @@
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/code-arbeidsvermogen> ;
     rdfs:label "met hulp WML of hoger"@nl ;
+    mim:code "11" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/code-arbeidsvermogen/met-hulp-wml-of-hoger"^^xsd:anyURI ;
     mim:naam "met hulp WML of hoger"@nl ;
     dcterms:identifier "EAID_0438AEAB_F631_40fa_9D49_FA7D82B8058B" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/code-arbeidsvermogen> ;
+    skos:notation "11" ;
     skos:prefLabel "met hulp WML of hoger"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/code-arbeidsvermogen> .
 
@@ -1652,10 +1732,12 @@
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/code-arbeidsvermogen> ;
     rdfs:label "nog niet bekend"@nl ;
+    mim:code "40" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/code-arbeidsvermogen/nog-niet-bekend"^^xsd:anyURI ;
     mim:naam "nog niet bekend"@nl ;
     dcterms:identifier "EAID_4E943910_73AC_4c80_A25D_9D967DE3A5A0" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/code-arbeidsvermogen> ;
+    skos:notation "40" ;
     skos:prefLabel "nog niet bekend"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/code-arbeidsvermogen> .
 
@@ -1663,10 +1745,12 @@
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/code-arbeidsvermogen> ;
     rdfs:label "onder WML"@nl ;
+    mim:code "10" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/code-arbeidsvermogen/onder-wml"^^xsd:anyURI ;
     mim:naam "onder WML"@nl ;
     dcterms:identifier "EAID_B0C98B10_ABA0_4b64_8958_890706F1437B" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/code-arbeidsvermogen> ;
+    skos:notation "10" ;
     skos:prefLabel "onder WML"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/code-arbeidsvermogen> .
 
@@ -1674,10 +1758,12 @@
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/code-arbeidsvermogen> ;
     rdfs:label "tijdelijk geen arbeidsvermogen"@nl ;
+    mim:code "30" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/code-arbeidsvermogen/tijdelijk-geen-arbeidsvermogen"^^xsd:anyURI ;
     mim:naam "tijdelijk geen arbeidsvermogen"@nl ;
     dcterms:identifier "EAID_72BA7761_4957_43df_9841_F4D2A22A9553" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/code-arbeidsvermogen> ;
+    skos:notation "30" ;
     skos:prefLabel "tijdelijk geen arbeidsvermogen"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/code-arbeidsvermogen> .
 
@@ -1685,10 +1771,12 @@
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/code-arbeidsvermogen> ;
     rdfs:label "zelfstandig WML of hoger"@nl ;
+    mim:code "20" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/code-arbeidsvermogen/zelfstandig-wml-of-hoger"^^xsd:anyURI ;
     mim:naam "zelfstandig WML of hoger"@nl ;
     dcterms:identifier "EAID_A6E123CC_89B7_4577_9C5A_07CCCD61C64F" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/code-arbeidsvermogen> ;
+    skos:notation "20" ;
     skos:prefLabel "zelfstandig WML of hoger"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/code-arbeidsvermogen> .
 
@@ -1696,10 +1784,12 @@
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/code-maatschappelijke-context-werkzaamheden-anders-dan-in-arbeidsverhouding> ;
     rdfs:label "Werkzaamheden als freelancer"@nl ;
+    mim:code "4" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/code-maatschappelijke-context-werkzaamheden-anders-dan-in-arbeidsverhouding/werkzaamheden-als-freelancer"^^xsd:anyURI ;
     mim:naam "Werkzaamheden als freelancer"@nl ;
     dcterms:identifier "EAID_01950171_0574_48cc_A186_474A0E6B6115" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/code-maatschappelijke-context-werkzaamheden-anders-dan-in-arbeidsverhouding> ;
+    skos:notation "4" ;
     skos:prefLabel "Werkzaamheden als freelancer"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/code-maatschappelijke-context-werkzaamheden-anders-dan-in-arbeidsverhouding> .
 
@@ -1707,10 +1797,12 @@
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/code-maatschappelijke-context-werkzaamheden-anders-dan-in-arbeidsverhouding> ;
     rdfs:label "Werkzaamheden als mantelzorger"@nl ;
+    mim:code "5" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/code-maatschappelijke-context-werkzaamheden-anders-dan-in-arbeidsverhouding/werkzaamheden-als-mantelzorger"^^xsd:anyURI ;
     mim:naam "Werkzaamheden als mantelzorger"@nl ;
     dcterms:identifier "EAID_48B8B996_F79B_45f0_8055_6C96D356C622" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/code-maatschappelijke-context-werkzaamheden-anders-dan-in-arbeidsverhouding> ;
+    skos:notation "5" ;
     skos:prefLabel "Werkzaamheden als mantelzorger"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/code-maatschappelijke-context-werkzaamheden-anders-dan-in-arbeidsverhouding> .
 
@@ -1718,10 +1810,12 @@
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/code-maatschappelijke-context-werkzaamheden-anders-dan-in-arbeidsverhouding> ;
     rdfs:label "Werkzaamheden als vrijwilliger"@nl ;
+    mim:code "2" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/code-maatschappelijke-context-werkzaamheden-anders-dan-in-arbeidsverhouding/werkzaamheden-als-vrijwilliger"^^xsd:anyURI ;
     mim:naam "Werkzaamheden als vrijwilliger"@nl ;
     dcterms:identifier "EAID_ACF84AF0_65A9_4767_97A9_1C225522ECF0" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/code-maatschappelijke-context-werkzaamheden-anders-dan-in-arbeidsverhouding> ;
+    skos:notation "2" ;
     skos:prefLabel "Werkzaamheden als vrijwilliger"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/code-maatschappelijke-context-werkzaamheden-anders-dan-in-arbeidsverhouding> .
 
@@ -1729,10 +1823,12 @@
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/code-maatschappelijke-context-werkzaamheden-anders-dan-in-arbeidsverhouding> ;
     rdfs:label "Werkzaamheden als zelfstandige"@nl ;
+    mim:code "1" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/code-maatschappelijke-context-werkzaamheden-anders-dan-in-arbeidsverhouding/werkzaamheden-als-zelfstandige"^^xsd:anyURI ;
     mim:naam "Werkzaamheden als zelfstandige"@nl ;
     dcterms:identifier "EAID_35B4BC8A_2F2D_4081_85B9_173B59A1790C" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/code-maatschappelijke-context-werkzaamheden-anders-dan-in-arbeidsverhouding> ;
+    skos:notation "1" ;
     skos:prefLabel "Werkzaamheden als zelfstandige"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/code-maatschappelijke-context-werkzaamheden-anders-dan-in-arbeidsverhouding> .
 
@@ -1740,10 +1836,12 @@
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/code-maatschappelijke-context-werkzaamheden-anders-dan-in-arbeidsverhouding> ;
     rdfs:label "Werkzaamheden in een niet nader gespecificeerde context, niet zijnde een arbeidsverhouding"@nl ;
+    mim:code "9" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/code-maatschappelijke-context-werkzaamheden-anders-dan-in-arbeidsverhouding/werkzaamheden-in-een-niet-nader-gespecificeerde-context-niet-zijnde-een-arbeidsverhouding"^^xsd:anyURI ;
     mim:naam "Werkzaamheden in een niet nader gespecificeerde context, niet zijnde een arbeidsverhouding"@nl ;
     dcterms:identifier "EAID_2EA7EC52_DD87_45ef_BCB9_95B67E56DEAF" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/code-maatschappelijke-context-werkzaamheden-anders-dan-in-arbeidsverhouding> ;
+    skos:notation "9" ;
     skos:prefLabel "Werkzaamheden in een niet nader gespecificeerde context, niet zijnde een arbeidsverhouding"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/code-maatschappelijke-context-werkzaamheden-anders-dan-in-arbeidsverhouding> .
 
@@ -1751,10 +1849,12 @@
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/code-maatschappelijke-context-werkzaamheden-anders-dan-in-arbeidsverhouding> ;
     rdfs:label "Werkzaamheden in een politieke functie"@nl ;
+    mim:code "3" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/code-maatschappelijke-context-werkzaamheden-anders-dan-in-arbeidsverhouding/werkzaamheden-in-een-politieke-functie"^^xsd:anyURI ;
     mim:naam "Werkzaamheden in een politieke functie"@nl ;
     dcterms:identifier "EAID_26E07F15_1E17_496d_97C7_0AE4E6A1F67D" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/code-maatschappelijke-context-werkzaamheden-anders-dan-in-arbeidsverhouding> ;
+    skos:notation "3" ;
     skos:prefLabel "Werkzaamheden in een politieke functie"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/code-maatschappelijke-context-werkzaamheden-anders-dan-in-arbeidsverhouding> .
 
@@ -1762,10 +1862,12 @@
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/code-opleidingsniveau-cli-nt> ;
     rdfs:label "Basisniveau"@nl ;
+    mim:code "2" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/code-opleidingsniveau-cli-nt/basisniveau"^^xsd:anyURI ;
     mim:naam "Basisniveau"@nl ;
     dcterms:identifier "EAID_A8A90C2E_D2C1_4123_A10E_F49CA99EA14E" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/code-opleidingsniveau-cli-nt> ;
+    skos:notation "2" ;
     skos:prefLabel "Basisniveau"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/code-opleidingsniveau-cli-nt> .
 
@@ -1773,10 +1875,12 @@
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/code-opleidingsniveau-cli-nt> ;
     rdfs:label "Geen basisopleiding"@nl ;
+    mim:code "1" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/code-opleidingsniveau-cli-nt/geen-basisopleiding"^^xsd:anyURI ;
     mim:naam "Geen basisopleiding"@nl ;
     dcterms:identifier "EAID_0C11257A_C6D8_442f_974D_0145FEE8E279" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/code-opleidingsniveau-cli-nt> ;
+    skos:notation "1" ;
     skos:prefLabel "Geen basisopleiding"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/code-opleidingsniveau-cli-nt> .
 
@@ -1784,10 +1888,12 @@
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/code-opleidingsniveau-cli-nt> ;
     rdfs:label "Hbo-niveau"@nl ;
+    mim:code "5" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/code-opleidingsniveau-cli-nt/hbo-niveau"^^xsd:anyURI ;
     mim:naam "Hbo-niveau"@nl ;
     dcterms:identifier "EAID_2C32EAF8_4D31_4fd6_AD87_D22B67FC172A" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/code-opleidingsniveau-cli-nt> ;
+    skos:notation "5" ;
     skos:prefLabel "Hbo-niveau"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/code-opleidingsniveau-cli-nt> .
 
@@ -1795,10 +1901,12 @@
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/code-opleidingsniveau-cli-nt> ;
     rdfs:label "Lbo/mavo-niveau"@nl ;
+    mim:code "3" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/code-opleidingsniveau-cli-nt/lbo-mavo-niveau"^^xsd:anyURI ;
     mim:naam "Lbo/mavo-niveau"@nl ;
     dcterms:identifier "EAID_C3DAA7B1_6A0A_4344_9BAC_F839E574A3C4" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/code-opleidingsniveau-cli-nt> ;
+    skos:notation "3" ;
     skos:prefLabel "Lbo/mavo-niveau"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/code-opleidingsniveau-cli-nt> .
 
@@ -1806,10 +1914,12 @@
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/code-opleidingsniveau-cli-nt> ;
     rdfs:label "Mbo/havo/vwo-niveau"@nl ;
+    mim:code "4" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/code-opleidingsniveau-cli-nt/mbo-havo-vwo-niveau"^^xsd:anyURI ;
     mim:naam "Mbo/havo/vwo-niveau"@nl ;
     dcterms:identifier "EAID_0721181F_186F_41d6_9231_9BEC7C0991E7" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/code-opleidingsniveau-cli-nt> ;
+    skos:notation "4" ;
     skos:prefLabel "Mbo/havo/vwo-niveau"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/code-opleidingsniveau-cli-nt> .
 
@@ -1817,10 +1927,12 @@
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/code-opleidingsniveau-cli-nt> ;
     rdfs:label "Niet van toepassing"@nl ;
+    mim:code "0" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/code-opleidingsniveau-cli-nt/niet-van-toepassing"^^xsd:anyURI ;
     mim:naam "Niet van toepassing"@nl ;
     dcterms:identifier "EAID_015B7494_B715_409e_8177_61BC624981FB" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/code-opleidingsniveau-cli-nt> ;
+    skos:notation "0" ;
     skos:prefLabel "Niet van toepassing"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/code-opleidingsniveau-cli-nt> .
 
@@ -1828,10 +1940,12 @@
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/code-opleidingsniveau-cli-nt> ;
     rdfs:label "(Nog) niet bekend"@nl ;
+    mim:code "7" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/code-opleidingsniveau-cli-nt/nog-niet-bekend"^^xsd:anyURI ;
     mim:naam "(Nog) niet bekend"@nl ;
     dcterms:identifier "EAID_75F0FF7B_8D72_4257_8006_42E629A31B03" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/code-opleidingsniveau-cli-nt> ;
+    skos:notation "7" ;
     skos:prefLabel "(Nog) niet bekend"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/code-opleidingsniveau-cli-nt> .
 
@@ -1839,10 +1953,12 @@
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/code-opleidingsniveau-cli-nt> ;
     rdfs:label "Wetenschappelijk onderwijs"@nl ;
+    mim:code "6" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/code-opleidingsniveau-cli-nt/wetenschappelijk-onderwijs"^^xsd:anyURI ;
     mim:naam "Wetenschappelijk onderwijs"@nl ;
     dcterms:identifier "EAID_1D5BABB6_8716_46b0_8C6B_D194CB400879" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/code-opleidingsniveau-cli-nt> ;
+    skos:notation "6" ;
     skos:prefLabel "Wetenschappelijk onderwijs"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/code-opleidingsniveau-cli-nt> .
 
@@ -1850,10 +1966,12 @@
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/code-tijdsbeslag-opleiding> ;
     rdfs:label "Anders"@nl ;
+    mim:code "5" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/code-tijdsbeslag-opleiding/anders"^^xsd:anyURI ;
     mim:naam "Anders"@nl ;
     dcterms:identifier "EAID_4176AABF_79D1_46a7_8882_3708D69E3AEA" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/code-tijdsbeslag-opleiding> ;
+    skos:notation "5" ;
     skos:prefLabel "Anders"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/code-tijdsbeslag-opleiding> .
 
@@ -1861,10 +1979,12 @@
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/code-tijdsbeslag-opleiding> ;
     rdfs:label "Avondopleiding"@nl ;
+    mim:code "2" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/code-tijdsbeslag-opleiding/avondopleiding"^^xsd:anyURI ;
     mim:naam "Avondopleiding"@nl ;
     dcterms:identifier "EAID_1DD4D6AA_178C_4d99_9A6E_9D6FC24DB080" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/code-tijdsbeslag-opleiding> ;
+    skos:notation "2" ;
     skos:prefLabel "Avondopleiding"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/code-tijdsbeslag-opleiding> .
 
@@ -1872,10 +1992,12 @@
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/code-tijdsbeslag-opleiding> ;
     rdfs:label "Dag- + avondopleiding"@nl ;
+    mim:code "3" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/code-tijdsbeslag-opleiding/dag-avondopleiding"^^xsd:anyURI ;
     mim:naam "Dag- + avondopleiding"@nl ;
     dcterms:identifier "EAID_ED3F3980_3371_4247_A791_C4AA86DB6AE6" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/code-tijdsbeslag-opleiding> ;
+    skos:notation "3" ;
     skos:prefLabel "Dag- + avondopleiding"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/code-tijdsbeslag-opleiding> .
 
@@ -1883,10 +2005,12 @@
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/code-tijdsbeslag-opleiding> ;
     rdfs:label "Dagopleiding"@nl ;
+    mim:code "1" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/code-tijdsbeslag-opleiding/dagopleiding"^^xsd:anyURI ;
     mim:naam "Dagopleiding"@nl ;
     dcterms:identifier "EAID_D48757DA_77EF_4598_BDF3_A8DA416D6246" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/code-tijdsbeslag-opleiding> ;
+    skos:notation "1" ;
     skos:prefLabel "Dagopleiding"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/code-tijdsbeslag-opleiding> .
 
@@ -1894,10 +2018,12 @@
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/code-tijdsbeslag-opleiding> ;
     rdfs:label "Onbekend"@nl ;
+    mim:code "0" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/code-tijdsbeslag-opleiding/onbekend"^^xsd:anyURI ;
     mim:naam "Onbekend"@nl ;
     dcterms:identifier "EAID_87885249_05DE_4d5f_818F_549154C9899D" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/code-tijdsbeslag-opleiding> ;
+    skos:notation "0" ;
     skos:prefLabel "Onbekend"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/code-tijdsbeslag-opleiding> .
 
@@ -1905,10 +2031,12 @@
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/code-tijdsbeslag-opleiding> ;
     rdfs:label "Schriftelijk"@nl ;
+    mim:code "4" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/code-tijdsbeslag-opleiding/schriftelijk"^^xsd:anyURI ;
     mim:naam "Schriftelijk"@nl ;
     dcterms:identifier "EAID_17F20732_F931_47fc_B7E3_17344CBC9693" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/code-tijdsbeslag-opleiding> ;
+    skos:notation "4" ;
     skos:prefLabel "Schriftelijk"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/code-tijdsbeslag-opleiding> .
 
@@ -1971,10 +2099,12 @@
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/codeniveauopleiding> ;
     rdfs:label "Basisonderwijs"@nl ;
+    mim:code "1" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/codeniveauopleiding/basisonderwijs"^^xsd:anyURI ;
     mim:naam "Basisonderwijs"@nl ;
     dcterms:identifier "EAID_8398D85A_52E9_4846_B4DA_0D71BF3FD695" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/codeniveauopleiding> ;
+    skos:notation "1" ;
     skos:prefLabel "Basisonderwijs"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/codeniveauopleiding> .
 
@@ -1982,10 +2112,12 @@
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/codeniveauopleiding> ;
     rdfs:label "HAVO / VWO"@nl ;
+    mim:code "4" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/codeniveauopleiding/havo-vwo"^^xsd:anyURI ;
     mim:naam "HAVO / VWO"@nl ;
     dcterms:identifier "EAID_74BDE52B_3C9C_405f_AF96_D4C71BA36FFF" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/codeniveauopleiding> ;
+    skos:notation "4" ;
     skos:prefLabel "HAVO / VWO"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/codeniveauopleiding> .
 
@@ -1993,10 +2125,12 @@
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/codeniveauopleiding> ;
     rdfs:label "HBO / Bachelor"@nl ;
+    mim:code "5" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/codeniveauopleiding/hbo-bachelor"^^xsd:anyURI ;
     mim:naam "HBO / Bachelor"@nl ;
     dcterms:identifier "EAID_169823AE_5721_4b4b_8E72_7A8FBA12C0CD" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/codeniveauopleiding> ;
+    skos:notation "5" ;
     skos:prefLabel "HBO / Bachelor"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/codeniveauopleiding> .
 
@@ -2004,10 +2138,12 @@
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/codeniveauopleiding> ;
     rdfs:label "MBO"@nl ;
+    mim:code "3" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/codeniveauopleiding/mbo"^^xsd:anyURI ;
     mim:naam "MBO"@nl ;
     dcterms:identifier "EAID_81475092_46F5_427d_B1AC_D5F42305341E" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/codeniveauopleiding> ;
+    skos:notation "3" ;
     skos:prefLabel "MBO"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/codeniveauopleiding> .
 
@@ -2015,10 +2151,12 @@
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/codeniveauopleiding> ;
     rdfs:label "VMBO / MBO-1"@nl ;
+    mim:code "2" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/codeniveauopleiding/vmbo-mbo-1"^^xsd:anyURI ;
     mim:naam "VMBO / MBO-1"@nl ;
     dcterms:identifier "EAID_C31374AD_3576_4ab0_945B_80BC49A9F16A" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/codeniveauopleiding> ;
+    skos:notation "2" ;
     skos:prefLabel "VMBO / MBO-1"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/codeniveauopleiding> .
 
@@ -2026,10 +2164,12 @@
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/codeniveauopleiding> ;
     rdfs:label "WO / Master"@nl ;
+    mim:code "6" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/codeniveauopleiding/wo-master"^^xsd:anyURI ;
     mim:naam "WO / Master"@nl ;
     dcterms:identifier "EAID_CD7FE58E_3C4E_447c_8225_418AE2AD67A0" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/codeniveauopleiding> ;
+    skos:notation "6" ;
     skos:prefLabel "WO / Master"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/codeniveauopleiding> .
 
@@ -2037,10 +2177,12 @@
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/codeopleidingsnaam> ;
     rdfs:label "Referentieopleiding"@nl ;
+    mim:code "4" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/codeopleidingsnaam/referentieopleiding"^^xsd:anyURI ;
     mim:naam "Referentieopleiding"@nl ;
     dcterms:identifier "EAID_C672311C_50B6_498c_8549_49BDF710205E" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/codeopleidingsnaam> ;
+    skos:notation "4" ;
     skos:prefLabel "Referentieopleiding"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/codeopleidingsnaam> .
 
@@ -2048,10 +2190,12 @@
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/codeopleidingsnaam> ;
     rdfs:label "Synoniem"@nl ;
+    mim:code "5" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/codeopleidingsnaam/synoniem"^^xsd:anyURI ;
     mim:naam "Synoniem"@nl ;
     dcterms:identifier "EAID_B8461AAA_F724_4879_9628_43A09D85CFDA" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/codeopleidingsnaam> ;
+    skos:notation "5" ;
     skos:prefLabel "Synoniem"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/codeopleidingsnaam> .
 
@@ -2059,10 +2203,12 @@
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/codestatusopleiding> ;
     rdfs:label "Afgebroken"@nl ;
+    mim:code "2" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/codestatusopleiding/afgebroken"^^xsd:anyURI ;
     mim:naam "Afgebroken"@nl ;
     dcterms:identifier "EAID_BBD019EC_10D4_4a34_B1F5_A52E22C484A7" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/codestatusopleiding> ;
+    skos:notation "2" ;
     skos:prefLabel "Afgebroken"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/codestatusopleiding> .
 
@@ -2070,10 +2216,12 @@
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/codestatusopleiding> ;
     rdfs:label "Lopend"@nl ;
+    mim:code "3" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/codestatusopleiding/lopend"^^xsd:anyURI ;
     mim:naam "Lopend"@nl ;
     dcterms:identifier "EAID_71F4CFC3_A6C1_4362_A09A_F40999DC2F66" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/codestatusopleiding> ;
+    skos:notation "3" ;
     skos:prefLabel "Lopend"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/codestatusopleiding> .
 
@@ -2081,10 +2229,12 @@
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/codestatusopleiding> ;
     rdfs:label "Onbekend"@nl ;
+    mim:code "0" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/codestatusopleiding/onbekend"^^xsd:anyURI ;
     mim:naam "Onbekend"@nl ;
     dcterms:identifier "EAID_D1FC60F3_3475_45f6_9580_21EBBF0B8AE6" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/codestatusopleiding> ;
+    skos:notation "0" ;
     skos:prefLabel "Onbekend"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/codestatusopleiding> .
 
@@ -2092,10 +2242,12 @@
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/codestatusopleiding> ;
     rdfs:label "Succesvol afgerond"@nl ;
+    mim:code "1" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/codestatusopleiding/succesvol-afgerond"^^xsd:anyURI ;
     mim:naam "Succesvol afgerond"@nl ;
     dcterms:identifier "EAID_A5D24575_DB32_461e_A1FE_AFC4957406DF" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/codestatusopleiding> ;
+    skos:notation "1" ;
     skos:prefLabel "Succesvol afgerond"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/codestatusopleiding> .
 
@@ -2103,10 +2255,12 @@
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/dag-beschikbaarheid> ;
     rdfs:label "Dinsdag"@nl ;
+    mim:code "2" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/dag-beschikbaarheid/dinsdag"^^xsd:anyURI ;
     mim:naam "Dinsdag"@nl ;
     dcterms:identifier "EAID_87616C3D_70E5_4589_9E42_F00B351C87A0" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/dag-beschikbaarheid> ;
+    skos:notation "2" ;
     skos:prefLabel "Dinsdag"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/dag-beschikbaarheid> .
 
@@ -2114,10 +2268,12 @@
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/dag-beschikbaarheid> ;
     rdfs:label "Donderdag"@nl ;
+    mim:code "4" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/dag-beschikbaarheid/donderdag"^^xsd:anyURI ;
     mim:naam "Donderdag"@nl ;
     dcterms:identifier "EAID_E882422A_78C2_40ab_B260_B0E2C6A6336C" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/dag-beschikbaarheid> ;
+    skos:notation "4" ;
     skos:prefLabel "Donderdag"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/dag-beschikbaarheid> .
 
@@ -2125,10 +2281,12 @@
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/dag-beschikbaarheid> ;
     rdfs:label "Maandag"@nl ;
+    mim:code "1" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/dag-beschikbaarheid/maandag"^^xsd:anyURI ;
     mim:naam "Maandag"@nl ;
     dcterms:identifier "EAID_DDE16837_33E9_429e_A472_CC039D53C0BE" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/dag-beschikbaarheid> ;
+    skos:notation "1" ;
     skos:prefLabel "Maandag"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/dag-beschikbaarheid> .
 
@@ -2136,10 +2294,12 @@
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/dag-beschikbaarheid> ;
     rdfs:label "Vrijdag"@nl ;
+    mim:code "5" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/dag-beschikbaarheid/vrijdag"^^xsd:anyURI ;
     mim:naam "Vrijdag"@nl ;
     dcterms:identifier "EAID_6B3C2804_F8A3_4c2a_8FC5_2E06E439CA91" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/dag-beschikbaarheid> ;
+    skos:notation "5" ;
     skos:prefLabel "Vrijdag"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/dag-beschikbaarheid> .
 
@@ -2147,10 +2307,12 @@
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/dag-beschikbaarheid> ;
     rdfs:label "Woensdag"@nl ;
+    mim:code "3" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/dag-beschikbaarheid/woensdag"^^xsd:anyURI ;
     mim:naam "Woensdag"@nl ;
     dcterms:identifier "EAID_84508475_5B0F_4570_AD0B_041C9EF89A2A" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/dag-beschikbaarheid> ;
+    skos:notation "3" ;
     skos:prefLabel "Woensdag"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/dag-beschikbaarheid> .
 
@@ -2158,10 +2320,12 @@
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/dag-beschikbaarheid> ;
     rdfs:label "Zaterdag"@nl ;
+    mim:code "6" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/dag-beschikbaarheid/zaterdag"^^xsd:anyURI ;
     mim:naam "Zaterdag"@nl ;
     dcterms:identifier "EAID_D84BD808_DCB3_4daa_B334_877165101219" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/dag-beschikbaarheid> ;
+    skos:notation "6" ;
     skos:prefLabel "Zaterdag"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/dag-beschikbaarheid> .
 
@@ -2169,10 +2333,12 @@
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/dag-beschikbaarheid> ;
     rdfs:label "Zondag"@nl ;
+    mim:code "7" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/dag-beschikbaarheid/zondag"^^xsd:anyURI ;
     mim:naam "Zondag"@nl ;
     dcterms:identifier "EAID_A7FADC7F_F860_4bd5_815E_302F4C61C5CE" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/dag-beschikbaarheid> ;
+    skos:notation "7" ;
     skos:prefLabel "Zondag"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/dag-beschikbaarheid> .
 
@@ -2376,12 +2542,12 @@
     skos:prefLabel "Werk & Opleiding"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/domein-van-zelfredzaamheid> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/flexibiliteit/indicatiebereidbuitenberoepswens> a mim:Attribuutsoort,
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/flexibliteit/indicatiebereidbuitenberoepswens> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "IndicatieBereidBuitenBeroepswens"@nl ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/flexibiliteit/indicatiebereidbuitenberoepswens"^^xsd:anyURI ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/flexibliteit/indicatiebereidbuitenberoepswens"^^xsd:anyURI ;
     mim:indicatieAfleidbaar false ;
     mim:indicatieClassificerend false ;
     mim:indicatieFormeleHistorie false ;
@@ -2391,16 +2557,16 @@
     mim:naam "IndicatieBereidBuitenBeroepswens"@nl ;
     mim:type mim:Boolean ;
     dcterms:identifier "EAID_E5540357_1431_4cfe_B155_ABE51AAE4050" ;
-    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/flexibiliteit> ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/flexibliteit> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/> ;
     rdfs:range xsd:boolean .
 
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/flexibiliteit/indicatiebereidheidonregelmatigwerk> a mim:Attribuutsoort,
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/flexibliteit/indicatiebereidheidonregelmatigwerk> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "IndicatieBereidheidOnregelmatigWerk"@nl ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/flexibiliteit/indicatiebereidheidonregelmatigwerk"^^xsd:anyURI ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/flexibliteit/indicatiebereidheidonregelmatigwerk"^^xsd:anyURI ;
     mim:indicatieAfleidbaar false ;
     mim:indicatieClassificerend false ;
     mim:indicatieFormeleHistorie false ;
@@ -2410,16 +2576,16 @@
     mim:naam "IndicatieBereidheidOnregelmatigWerk"@nl ;
     mim:type mim:Boolean ;
     dcterms:identifier "EAID_1B48CBA3_1323_447e_8410_5B1EE470CFE4" ;
-    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/flexibiliteit> ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/flexibliteit> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/> ;
     rdfs:range xsd:boolean .
 
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/flexibiliteit/indicatiebereidheidzoekenonderniveau> a mim:Attribuutsoort,
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/flexibliteit/indicatiebereidheidzoekenonderniveau> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "IndicatieBereidheidZoekenOnderNiveau"@nl ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/flexibiliteit/indicatiebereidheidzoekenonderniveau"^^xsd:anyURI ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/flexibliteit/indicatiebereidheidzoekenonderniveau"^^xsd:anyURI ;
     mim:indicatieAfleidbaar false ;
     mim:indicatieClassificerend false ;
     mim:indicatieFormeleHistorie false ;
@@ -2429,16 +2595,16 @@
     mim:naam "IndicatieBereidheidZoekenOnderNiveau"@nl ;
     mim:type mim:Boolean ;
     dcterms:identifier "EAID_F4F19A4C_EDEB_45bc_9A4A_F0C068A9FA9B" ;
-    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/flexibiliteit> ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/flexibliteit> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/> ;
     rdfs:range xsd:boolean .
 
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/flexibiliteit/indicatiebereidheidzwaarwerk> a mim:Attribuutsoort,
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/flexibliteit/indicatiebereidheidzwaarwerk> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "IndicatieBereidheidZwaarWerk"@nl ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/flexibiliteit/indicatiebereidheidzwaarwerk"^^xsd:anyURI ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/flexibliteit/indicatiebereidheidzwaarwerk"^^xsd:anyURI ;
     mim:indicatieAfleidbaar false ;
     mim:indicatieClassificerend false ;
     mim:indicatieFormeleHistorie false ;
@@ -2448,16 +2614,16 @@
     mim:naam "IndicatieBereidheidZwaarWerk"@nl ;
     mim:type mim:Boolean ;
     dcterms:identifier "EAID_186D8C6D_5A6B_43bd_947F_B203E3C24A63" ;
-    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/flexibiliteit> ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/flexibliteit> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/> ;
     rdfs:range xsd:boolean .
 
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/flexibiliteit/ingeschrevenbijuitzendbureau> a mim:Attribuutsoort,
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/flexibliteit/ingeschrevenbijuitzendbureau> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "IngeschrevenbijUitzendbureau"@nl ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/flexibiliteit/ingeschrevenbijuitzendbureau"^^xsd:anyURI ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/flexibliteit/ingeschrevenbijuitzendbureau"^^xsd:anyURI ;
     mim:indicatieAfleidbaar false ;
     mim:indicatieClassificerend false ;
     mim:indicatieFormeleHistorie false ;
@@ -2467,7 +2633,7 @@
     mim:naam "IngeschrevenbijUitzendbureau"@nl ;
     mim:type mim:Boolean ;
     dcterms:identifier "EAID_D948C4B8_E632_4218_8C96_8AC381B8F339" ;
-    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/flexibiliteit> ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/flexibliteit> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/> ;
     rdfs:range xsd:boolean .
 
@@ -2541,10 +2707,12 @@
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/indicatie-mate-van-vaardigheid> ;
     rdfs:label "Goed"@nl ;
+    mim:code "1" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/indicatie-mate-van-vaardigheid/goed"^^xsd:anyURI ;
     mim:naam "Goed"@nl ;
     dcterms:identifier "EAID_CEA8237B_B6D5_4033_941D_102CD0A21C97" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/indicatie-mate-van-vaardigheid> ;
+    skos:notation "1" ;
     skos:prefLabel "Goed"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/indicatie-mate-van-vaardigheid> .
 
@@ -2552,10 +2720,12 @@
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/indicatie-mate-van-vaardigheid> ;
     rdfs:label "Niet"@nl ;
+    mim:code "4" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/indicatie-mate-van-vaardigheid/niet"^^xsd:anyURI ;
     mim:naam "Niet"@nl ;
     dcterms:identifier "EAID_9DAF8388_01D4_47a0_B721_3D01B532CFE9" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/indicatie-mate-van-vaardigheid> ;
+    skos:notation "4" ;
     skos:prefLabel "Niet"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/indicatie-mate-van-vaardigheid> .
 
@@ -2563,10 +2733,12 @@
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/indicatie-mate-van-vaardigheid> ;
     rdfs:label "Niet van toepassing"@nl ;
+    mim:code "9" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/indicatie-mate-van-vaardigheid/niet-van-toepassing"^^xsd:anyURI ;
     mim:naam "Niet van toepassing"@nl ;
     dcterms:identifier "EAID_2116515D_C3C4_4426_8349_0B8184D6E4D9" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/indicatie-mate-van-vaardigheid> ;
+    skos:notation "9" ;
     skos:prefLabel "Niet van toepassing"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/indicatie-mate-van-vaardigheid> .
 
@@ -2574,10 +2746,12 @@
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/indicatie-mate-van-vaardigheid> ;
     rdfs:label "Onderzoek noodzakelijk"@nl ;
+    mim:code "5" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/indicatie-mate-van-vaardigheid/onderzoek-noodzakelijk"^^xsd:anyURI ;
     mim:naam "Onderzoek noodzakelijk"@nl ;
     dcterms:identifier "EAID_1A3DEE08_17B3_49c7_9DD2_89E78D75E71F" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/indicatie-mate-van-vaardigheid> ;
+    skos:notation "5" ;
     skos:prefLabel "Onderzoek noodzakelijk"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/indicatie-mate-van-vaardigheid> .
 
@@ -2585,10 +2759,12 @@
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/indicatie-mate-van-vaardigheid> ;
     rdfs:label "Onvoldoende"@nl ;
+    mim:code "3" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/indicatie-mate-van-vaardigheid/onvoldoende"^^xsd:anyURI ;
     mim:naam "Onvoldoende"@nl ;
     dcterms:identifier "EAID_E4289B91_8971_4ebd_9EF8_F9DA6673AE79" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/indicatie-mate-van-vaardigheid> ;
+    skos:notation "3" ;
     skos:prefLabel "Onvoldoende"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/indicatie-mate-van-vaardigheid> .
 
@@ -2596,10 +2772,12 @@
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/indicatie-mate-van-vaardigheid> ;
     rdfs:label "Voldoende"@nl ;
+    mim:code "2" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/indicatie-mate-van-vaardigheid/voldoende"^^xsd:anyURI ;
     mim:naam "Voldoende"@nl ;
     dcterms:identifier "EAID_3B296E51_7A27_4166_8DE1_3B4F7A61E1E7" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/indicatie-mate-van-vaardigheid> ;
+    skos:notation "2" ;
     skos:prefLabel "Voldoende"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/indicatie-mate-van-vaardigheid> .
 
@@ -2715,11 +2893,11 @@
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "PercentageLoonwaardeWML"@nl ;
-    mim:type mim:Decimal ;
+    mim:type mim:Real ;
     dcterms:identifier "EAID_919E7CB6_9488_4f7b_B4B9_6115E836BF9D" ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/loonkostensubsidie> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/> ;
-    rdfs:range xsd:decimal .
+    rdfs:range xsd:double .
 
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/mobiliteit/codevervoermiddel> a mim:Attribuutsoort,
         owl:ObjectProperty ;
@@ -2953,10 +3131,12 @@
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/ontheffingsverplichting> ;
     rdfs:label "A,"@nl ;
+    mim:code "1" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/ontheffingsverplichting/a"^^xsd:anyURI ;
     mim:naam "A,"@nl ;
     dcterms:identifier "EAID_94D6784A_8BC0_42bc_9E0B_20B0EC08C131" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/ontheffingsverplichting> ;
+    skos:notation "1" ;
     skos:prefLabel "A,"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/ontheffingsverplichting> .
 
@@ -2964,10 +3144,12 @@
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/ontheffingsverplichting> ;
     rdfs:label "A,B,C"@nl ;
+    mim:code "3" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/ontheffingsverplichting/a-b-c"^^xsd:anyURI ;
     mim:naam "A,B,C"@nl ;
     dcterms:identifier "EAID_92C9B7C1_395C_4286_87F1_D17739357A7B" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/ontheffingsverplichting> ;
+    skos:notation "3" ;
     skos:prefLabel "A,B,C"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/ontheffingsverplichting> .
 
@@ -2975,10 +3157,12 @@
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/ontheffingsverplichting> ;
     rdfs:label "A,C,"@nl ;
+    mim:code "2" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/ontheffingsverplichting/a-c"^^xsd:anyURI ;
     mim:naam "A,C,"@nl ;
     dcterms:identifier "EAID_2E7BC7F2_D993_4830_81C8_FDB3373A9542" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/ontheffingsverplichting> ;
+    skos:notation "2" ;
     skos:prefLabel "A,C,"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/ontheffingsverplichting> .
 
@@ -3033,11 +3217,11 @@
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "CodeNiveauOpleiding"@nl ;
-    mim:type <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/codeniveauopleiding> ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/codeniveauopleiding> ;
     dcterms:identifier "EAID_CC173EEB_83CB_4cdf_95C7_E9AE7AE7984E" ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/opleiding> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/> ;
-    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/codeniveauopleiding> .
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/codeniveauopleiding> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/opleiding/codestatusopleiding> a mim:Attribuutsoort,
         owl:ObjectProperty ;
@@ -3441,10 +3625,12 @@
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/opleidingsrichting> ;
     rdfs:label "Hoger onderwijs, derde fase"@nl ;
+    mim:code "7" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/opleidingsrichting/hoger-onderwijs-derde-fase"^^xsd:anyURI ;
     mim:naam "Hoger onderwijs, derde fase"@nl ;
     dcterms:identifier "EAID_A1367433_3EB6_40bf_A4E2_B366B1D561BE" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/opleidingsrichting> ;
+    skos:notation "7" ;
     skos:prefLabel "Hoger onderwijs, derde fase"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/opleidingsrichting> .
 
@@ -3452,10 +3638,12 @@
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/opleidingsrichting> ;
     rdfs:label "Hoger onderwijs, eerste fase"@nl ;
+    mim:code "5" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/opleidingsrichting/hoger-onderwijs-eerste-fase"^^xsd:anyURI ;
     mim:naam "Hoger onderwijs, eerste fase"@nl ;
     dcterms:identifier "EAID_A5767B30_EE8C_497d_A0AE_2B3D77E97E2C" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/opleidingsrichting> ;
+    skos:notation "5" ;
     skos:prefLabel "Hoger onderwijs, eerste fase"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/opleidingsrichting> .
 
@@ -3463,10 +3651,12 @@
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/opleidingsrichting> ;
     rdfs:label "Hoger onderwijs, tweede fase"@nl ;
+    mim:code "6" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/opleidingsrichting/hoger-onderwijs-tweede-fase"^^xsd:anyURI ;
     mim:naam "Hoger onderwijs, tweede fase"@nl ;
     dcterms:identifier "EAID_E34D9462_C178_466b_BF1C_4F6E08FBF82C" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/opleidingsrichting> ;
+    skos:notation "6" ;
     skos:prefLabel "Hoger onderwijs, tweede fase"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/opleidingsrichting> .
 
@@ -3474,10 +3664,12 @@
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/opleidingsrichting> ;
     rdfs:label "Onderwijs aan kleuters"@nl ;
+    mim:code "1" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/opleidingsrichting/onderwijs-aan-kleuters"^^xsd:anyURI ;
     mim:naam "Onderwijs aan kleuters"@nl ;
     dcterms:identifier "EAID_B5E3AF6D_C82E_4b23_B7B3_FD8BF9DD5802" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/opleidingsrichting> ;
+    skos:notation "1" ;
     skos:prefLabel "Onderwijs aan kleuters"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/opleidingsrichting> .
 
@@ -3485,10 +3677,12 @@
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/opleidingsrichting> ;
     rdfs:label "Primair onderwijs"@nl ;
+    mim:code "2" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/opleidingsrichting/primair-onderwijs"^^xsd:anyURI ;
     mim:naam "Primair onderwijs"@nl ;
     dcterms:identifier "EAID_05E18264_4E27_4eb0_9613_2EFC2D2006D2" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/opleidingsrichting> ;
+    skos:notation "2" ;
     skos:prefLabel "Primair onderwijs"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/opleidingsrichting> .
 
@@ -3496,10 +3690,12 @@
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/opleidingsrichting> ;
     rdfs:label "Secundair onderwijs, eerste fase"@nl ;
+    mim:code "3" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/opleidingsrichting/secundair-onderwijs-eerste-fase"^^xsd:anyURI ;
     mim:naam "Secundair onderwijs, eerste fase"@nl ;
     dcterms:identifier "EAID_72CE1345_3B17_47c9_9F7A_45725E17C60E" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/opleidingsrichting> ;
+    skos:notation "3" ;
     skos:prefLabel "Secundair onderwijs, eerste fase"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/opleidingsrichting> .
 
@@ -3507,10 +3703,12 @@
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/opleidingsrichting> ;
     rdfs:label "Secundair onderwijs, tweede fase"@nl ;
+    mim:code "4" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/opleidingsrichting/secundair-onderwijs-tweede-fase"^^xsd:anyURI ;
     mim:naam "Secundair onderwijs, tweede fase"@nl ;
     dcterms:identifier "EAID_C86497D8_E85F_4e05_8EB3_15AD3A2FD888" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/opleidingsrichting> ;
+    skos:notation "4" ;
     skos:prefLabel "Secundair onderwijs, tweede fase"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/opleidingsrichting> .
 
@@ -3898,10 +4096,12 @@
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/setu-job-category> ;
     rdfs:label "Administratieve / Secretariat"@nl ;
+    mim:code "8" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/setu-job-category/administratieve-secretariat"^^xsd:anyURI ;
     mim:naam "Administratieve / Secretariat"@nl ;
     dcterms:identifier "EAID_4E4BA464_0FBC_4818_99E8_EE2F86E71B52" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/setu-job-category> ;
+    skos:notation "8" ;
     skos:prefLabel "Administratieve / Secretariat"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/setu-job-category> .
 
@@ -3909,10 +4109,12 @@
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/setu-job-category> ;
     rdfs:label "Agricultural / Cattle breeding / Animal care / Nature conservation"@nl ;
+    mim:code "1" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/setu-job-category/agricultural-cattle-breeding-animal-care-nature-conservation"^^xsd:anyURI ;
     mim:naam "Agricultural / Cattle breeding / Animal care / Nature conservation"@nl ;
     dcterms:identifier "EAID_7081CA8F_C6B4_4895_B655_327AC688BA23" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/setu-job-category> ;
+    skos:notation "1" ;
     skos:prefLabel "Agricultural / Cattle breeding / Animal care / Nature conservation"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/setu-job-category> .
 
@@ -3920,10 +4122,12 @@
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/setu-job-category> ;
     rdfs:label "Building industry"@nl ;
+    mim:code "3" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/setu-job-category/building-industry"^^xsd:anyURI ;
     mim:naam "Building industry"@nl ;
     dcterms:identifier "EAID_C700BE8D_1862_43a9_9A67_65F72BE4EDE2" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/setu-job-category> ;
+    skos:notation "3" ;
     skos:prefLabel "Building industry"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/setu-job-category> .
 
@@ -3931,10 +4135,12 @@
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/setu-job-category> ;
     rdfs:label "Business services / Retail trade"@nl ;
+    mim:code "11" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/setu-job-category/business-services-retail-trade"^^xsd:anyURI ;
     mim:naam "Business services / Retail trade"@nl ;
     dcterms:identifier "EAID_1B3CEC36_614F_4a97_9C37_67C6E18DBEDF" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/setu-job-category> ;
+    skos:notation "11" ;
     skos:prefLabel "Business services / Retail trade"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/setu-job-category> .
 
@@ -3942,10 +4148,12 @@
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/setu-job-category> ;
     rdfs:label "Catering / Tourism"@nl ;
+    mim:code "14" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/setu-job-category/catering-tourism"^^xsd:anyURI ;
     mim:naam "Catering / Tourism"@nl ;
     dcterms:identifier "EAID_C79E7C71_7C13_431a_9DE7_18BEC5C9A835" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/setu-job-category> ;
+    skos:notation "14" ;
     skos:prefLabel "Catering / Tourism"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/setu-job-category> .
 
@@ -3953,10 +4161,12 @@
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/setu-job-category> ;
     rdfs:label "Cleaning / Housekeeing / Clean up"@nl ;
+    mim:code "25" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/setu-job-category/cleaning-housekeeing-clean-up"^^xsd:anyURI ;
     mim:naam "Cleaning / Housekeeing / Clean up"@nl ;
     dcterms:identifier "EAID_DC6E6C71_3766_4a6e_8246_82E613052998" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/setu-job-category> ;
+    skos:notation "25" ;
     skos:prefLabel "Cleaning / Housekeeing / Clean up"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/setu-job-category> .
 
@@ -3964,10 +4174,12 @@
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/setu-job-category> ;
     rdfs:label "Consulting / Staff / Policy"@nl ;
+    mim:code "9" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/setu-job-category/consulting-staff-policy"^^xsd:anyURI ;
     mim:naam "Consulting / Staff / Policy"@nl ;
     dcterms:identifier "EAID_6C7447D4_6DE6_4583_A14B_A2DCB21F6424" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/setu-job-category> ;
+    skos:notation "9" ;
     skos:prefLabel "Consulting / Staff / Policy"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/setu-job-category> .
 
@@ -3975,10 +4187,12 @@
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/setu-job-category> ;
     rdfs:label "Culture / Arts / Creative"@nl ;
+    mim:code "28" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/setu-job-category/culture-arts-creative"^^xsd:anyURI ;
     mim:naam "Culture / Arts / Creative"@nl ;
     dcterms:identifier "EAID_1D374ED9_8B96_434e_8FAB_A9C985E94462" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/setu-job-category> ;
+    skos:notation "28" ;
     skos:prefLabel "Culture / Arts / Creative"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/setu-job-category> .
 
@@ -3986,10 +4200,12 @@
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/setu-job-category> ;
     rdfs:label "Customer service / Call centre / Reception"@nl ;
+    mim:code "16" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/setu-job-category/customer-service-call-centre-reception"^^xsd:anyURI ;
     mim:naam "Customer service / Call centre / Reception"@nl ;
     dcterms:identifier "EAID_7494CC3A_CC6F_45ab_9AD8_0488C4E3E0C2" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/setu-job-category> ;
+    skos:notation "16" ;
     skos:prefLabel "Customer service / Call centre / Reception"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/setu-job-category> .
 
@@ -3997,10 +4213,12 @@
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/setu-job-category> ;
     rdfs:label "Design / Architecture / Graphical"@nl ;
+    mim:code "6" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/setu-job-category/design-architecture-graphical"^^xsd:anyURI ;
     mim:naam "Design / Architecture / Graphical"@nl ;
     dcterms:identifier "EAID_BD53E9F8_EBC4_45ec_BB47_39E8BEA8F043" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/setu-job-category> ;
+    skos:notation "6" ;
     skos:prefLabel "Design / Architecture / Graphical"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/setu-job-category> .
 
@@ -4008,10 +4226,12 @@
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/setu-job-category> ;
     rdfs:label "Editior / Journalism"@nl ;
+    mim:code "23" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/setu-job-category/editior-journalism"^^xsd:anyURI ;
     mim:naam "Editior / Journalism"@nl ;
     dcterms:identifier "EAID_F75A0098_0CA3_4da0_8A97_F9F5E6D0120B" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/setu-job-category> ;
+    skos:notation "23" ;
     skos:prefLabel "Editior / Journalism"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/setu-job-category> .
 
@@ -4019,10 +4239,12 @@
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/setu-job-category> ;
     rdfs:label "Education / Training"@nl ;
+    mim:code "19" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/setu-job-category/education-training"^^xsd:anyURI ;
     mim:naam "Education / Training"@nl ;
     dcterms:identifier "EAID_653B7005_5313_4e8b_A410_18AF443392C2" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/setu-job-category> ;
+    skos:notation "19" ;
     skos:prefLabel "Education / Training"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/setu-job-category> .
 
@@ -4030,10 +4252,12 @@
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/setu-job-category> ;
     rdfs:label "Financial administratieve / Accounting"@nl ;
+    mim:code "7" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/setu-job-category/financial-administratieve-accounting"^^xsd:anyURI ;
     mim:naam "Financial administratieve / Accounting"@nl ;
     dcterms:identifier "EAID_5D0A118A_AA70_4b91_992F_BBDA551C92E6" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/setu-job-category> ;
+    skos:notation "7" ;
     skos:prefLabel "Financial administratieve / Accounting"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/setu-job-category> .
 
@@ -4041,10 +4265,12 @@
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/setu-job-category> ;
     rdfs:label "Government service / Government"@nl ;
+    mim:code "29" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/setu-job-category/government-service-government"^^xsd:anyURI ;
     mim:naam "Government service / Government"@nl ;
     dcterms:identifier "EAID_8EA88FFA_849B_41c0_BA73_A27BADD9CF50" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/setu-job-category> ;
+    skos:notation "29" ;
     skos:prefLabel "Government service / Government"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/setu-job-category> .
 
@@ -4052,10 +4278,12 @@
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/setu-job-category> ;
     rdfs:label "Health care / Medical / Nursing / Paramedical"@nl ;
+    mim:code "13" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/setu-job-category/health-care-medical-nursing-paramedical"^^xsd:anyURI ;
     mim:naam "Health care / Medical / Nursing / Paramedical"@nl ;
     dcterms:identifier "EAID_5E99109D_3322_4e68_A430_1E08C0D6E79B" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/setu-job-category> ;
+    skos:notation "13" ;
     skos:prefLabel "Health care / Medical / Nursing / Paramedical"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/setu-job-category> .
 
@@ -4063,10 +4291,12 @@
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/setu-job-category> ;
     rdfs:label "IT / ICT / Software development/ Internet"@nl ;
+    mim:code "5" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/setu-job-category/it-ict-software-development-internet"^^xsd:anyURI ;
     mim:naam "IT / ICT / Software development/ Internet"@nl ;
     dcterms:identifier "EAID_42BB6253_1E7F_4165_BBCB_FF30F9ECB09C" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/setu-job-category> ;
+    skos:notation "5" ;
     skos:prefLabel "IT / ICT / Software development/ Internet"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/setu-job-category> .
 
@@ -4074,10 +4304,12 @@
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/setu-job-category> ;
     rdfs:label "Legal"@nl ;
+    mim:code "15" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/setu-job-category/legal"^^xsd:anyURI ;
     mim:naam "Legal"@nl ;
     dcterms:identifier "EAID_5D5EBE42_8275_46a5_A045_BFEEF6C40A9D" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/setu-job-category> ;
+    skos:notation "15" ;
     skos:prefLabel "Legal"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/setu-job-category> .
 
@@ -4085,10 +4317,12 @@
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/setu-job-category> ;
     rdfs:label "Marketing / Advertisement / Public relations / Communication"@nl ;
+    mim:code "18" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/setu-job-category/marketing-advertisement-public-relations-communication"^^xsd:anyURI ;
     mim:naam "Marketing / Advertisement / Public relations / Communication"@nl ;
     dcterms:identifier "EAID_E4F141F9_0F4D_461a_81F3_98B8324F04E3" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/setu-job-category> ;
+    skos:notation "18" ;
     skos:prefLabel "Marketing / Advertisement / Public relations / Communication"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/setu-job-category> .
 
@@ -4096,10 +4330,12 @@
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/setu-job-category> ;
     rdfs:label "Personal health car"@nl ;
+    mim:code "22" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/setu-job-category/personal-health-car"^^xsd:anyURI ;
     mim:naam "Personal health car"@nl ;
     dcterms:identifier "EAID_9C6210F2_2362_43d2_B7DA_0B18EA99540A" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/setu-job-category> ;
+    skos:notation "22" ;
     skos:prefLabel "Personal health car"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/setu-job-category> .
 
@@ -4107,10 +4343,12 @@
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/setu-job-category> ;
     rdfs:label "Personnel matters / Human resources / Employment-finding"@nl ;
+    mim:code "21" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/setu-job-category/personnel-matters-human-resources-employment-finding"^^xsd:anyURI ;
     mim:naam "Personnel matters / Human resources / Employment-finding"@nl ;
     dcterms:identifier "EAID_49195725_8865_44d2_B0C4_A038A0896586" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/setu-job-category> ;
+    skos:notation "21" ;
     skos:prefLabel "Personnel matters / Human resources / Employment-finding"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/setu-job-category> .
 
@@ -4118,10 +4356,12 @@
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/setu-job-category> ;
     rdfs:label "Production / Crafts"@nl ;
+    mim:code "2" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/setu-job-category/production-crafts"^^xsd:anyURI ;
     mim:naam "Production / Crafts"@nl ;
     dcterms:identifier "EAID_15352A82_F6D3_451e_8323_4BE4D7E5AE6E" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/setu-job-category> ;
+    skos:notation "2" ;
     skos:prefLabel "Production / Crafts"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/setu-job-category> .
 
@@ -4129,10 +4369,12 @@
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/setu-job-category> ;
     rdfs:label "Research / Science / Laboratory"@nl ;
+    mim:code "20" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/setu-job-category/research-science-laboratory"^^xsd:anyURI ;
     mim:naam "Research / Science / Laboratory"@nl ;
     dcterms:identifier "EAID_5A14893B_B438_4b27_AF95_57F792FF8F84" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/setu-job-category> ;
+    skos:notation "20" ;
     skos:prefLabel "Research / Science / Laboratory"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/setu-job-category> .
 
@@ -4140,10 +4382,12 @@
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/setu-job-category> ;
     rdfs:label "Sales / Commercial"@nl ;
+    mim:code "24" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/setu-job-category/sales-commercial"^^xsd:anyURI ;
     mim:naam "Sales / Commercial"@nl ;
     dcterms:identifier "EAID_C8CAA1B8_786A_4bdb_B74C_B0A6B2532105" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/setu-job-category> ;
+    skos:notation "24" ;
     skos:prefLabel "Sales / Commercial"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/setu-job-category> .
 
@@ -4151,10 +4395,12 @@
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/setu-job-category> ;
     rdfs:label "Security / Defence / Auxiliary service"@nl ;
+    mim:code "27" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/setu-job-category/security-defence-auxiliary-service"^^xsd:anyURI ;
     mim:naam "Security / Defence / Auxiliary service"@nl ;
     dcterms:identifier "EAID_8645CC6F_3CF2_4d97_A401_213C1970E24B" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/setu-job-category> ;
+    skos:notation "27" ;
     skos:prefLabel "Security / Defence / Auxiliary service"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/setu-job-category> .
 
@@ -4162,10 +4408,12 @@
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/setu-job-category> ;
     rdfs:label "Sport / Relaxation"@nl ;
+    mim:code "26" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/setu-job-category/sport-relaxation"^^xsd:anyURI ;
     mim:naam "Sport / Relaxation"@nl ;
     dcterms:identifier "EAID_4BC33DC7_BAD2_41a3_935D_74458DEF8086" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/setu-job-category> ;
+    skos:notation "26" ;
     skos:prefLabel "Sport / Relaxation"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/setu-job-category> .
 
@@ -4173,10 +4421,12 @@
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/setu-job-category> ;
     rdfs:label "Technology / Engineering"@nl ;
+    mim:code "4" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/setu-job-category/technology-engineering"^^xsd:anyURI ;
     mim:naam "Technology / Engineering"@nl ;
     dcterms:identifier "EAID_371DAFB3_4EEA_4e44_BE4F_625ACAB498E1" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/setu-job-category> ;
+    skos:notation "4" ;
     skos:prefLabel "Technology / Engineering"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/setu-job-category> .
 
@@ -4405,10 +4655,12 @@
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/taalvaardigheid> ;
     rdfs:label "arm"@nl ;
+    mim:code "1" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/taalvaardigheid/arm"^^xsd:anyURI ;
     mim:naam "arm"@nl ;
     dcterms:identifier "EAID_988A231B_0A19_4e02_A9A9_7DFA8A937518" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/taalvaardigheid> ;
+    skos:notation "1" ;
     skos:prefLabel "arm"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/taalvaardigheid> .
 
@@ -4416,10 +4668,12 @@
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/taalvaardigheid> ;
     rdfs:label "goed"@nl ;
+    mim:code "4" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/taalvaardigheid/goed"^^xsd:anyURI ;
     mim:naam "goed"@nl ;
     dcterms:identifier "EAID_FED5211B_01C2_4a6d_A227_5DA693691116" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/taalvaardigheid> ;
+    skos:notation "4" ;
     skos:prefLabel "goed"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/taalvaardigheid> .
 
@@ -4427,10 +4681,12 @@
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/taalvaardigheid> ;
     rdfs:label "middelmatig"@nl ;
+    mim:code "2" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/taalvaardigheid/middelmatig"^^xsd:anyURI ;
     mim:naam "middelmatig"@nl ;
     dcterms:identifier "EAID_7DED4ED9_C331_42ee_8427_E2F5F219AC99" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/taalvaardigheid> ;
+    skos:notation "2" ;
     skos:prefLabel "middelmatig"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/taalvaardigheid> .
 
@@ -4438,10 +4694,12 @@
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/taalvaardigheid> ;
     rdfs:label "uitstekend"@nl ;
+    mim:code "5" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/taalvaardigheid/uitstekend"^^xsd:anyURI ;
     mim:naam "uitstekend"@nl ;
     dcterms:identifier "EAID_63458DFF_9D17_45b4_A17C_32360CE586AD" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/taalvaardigheid> ;
+    skos:notation "5" ;
     skos:prefLabel "uitstekend"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/taalvaardigheid> .
 
@@ -4449,10 +4707,12 @@
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/taalvaardigheid> ;
     rdfs:label "voldoende"@nl ;
+    mim:code "3" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/taalvaardigheid/voldoende"^^xsd:anyURI ;
     mim:naam "voldoende"@nl ;
     dcterms:identifier "EAID_C8A89888_A591_410b_BFAA_F09E652AC3E3" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/taalvaardigheid> ;
+    skos:notation "3" ;
     skos:prefLabel "voldoende"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/taalvaardigheid> .
 
@@ -4498,10 +4758,12 @@
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/vervoermiddel> ;
     rdfs:label "Anders"@nl ;
+    mim:code "10" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/vervoermiddel/anders"^^xsd:anyURI ;
     mim:naam "Anders"@nl ;
     dcterms:identifier "EAID_0E31F847_397C_47b1_9191_E5BA0C270515" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/vervoermiddel> ;
+    skos:notation "10" ;
     skos:prefLabel "Anders"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/vervoermiddel> .
 
@@ -4509,10 +4771,12 @@
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/vervoermiddel> ;
     rdfs:label "Auto"@nl ;
+    mim:code "4" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/vervoermiddel/auto"^^xsd:anyURI ;
     mim:naam "Auto"@nl ;
     dcterms:identifier "EAID_A184761A_D93D_4e8a_80A1_CEBF04B37979" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/vervoermiddel> ;
+    skos:notation "4" ;
     skos:prefLabel "Auto"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/vervoermiddel> .
 
@@ -4520,10 +4784,12 @@
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/vervoermiddel> ;
     rdfs:label "Bromfiets/scooter"@nl ;
+    mim:code "6" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/vervoermiddel/bromfiets-scooter"^^xsd:anyURI ;
     mim:naam "Bromfiets/scooter"@nl ;
     dcterms:identifier "EAID_077284B5_37F7_4729_8FF7_B465A0A6B27E" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/vervoermiddel> ;
+    skos:notation "6" ;
     skos:prefLabel "Bromfiets/scooter"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/vervoermiddel> .
 
@@ -4531,10 +4797,12 @@
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/vervoermiddel> ;
     rdfs:label "Fiets"@nl ;
+    mim:code "7" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/vervoermiddel/fiets"^^xsd:anyURI ;
     mim:naam "Fiets"@nl ;
     dcterms:identifier "EAID_A8C14793_FA9F_44b6_B04B_F4EFFA53F36E" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/vervoermiddel> ;
+    skos:notation "7" ;
     skos:prefLabel "Fiets"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/vervoermiddel> .
 
@@ -4542,10 +4810,12 @@
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/vervoermiddel> ;
     rdfs:label "Geen"@nl ;
+    mim:code "9" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/vervoermiddel/geen"^^xsd:anyURI ;
     mim:naam "Geen"@nl ;
     dcterms:identifier "EAID_F19ED5AD_1163_4222_8A11_375C620EE2CB" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/vervoermiddel> ;
+    skos:notation "9" ;
     skos:prefLabel "Geen"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/vervoermiddel> .
 
@@ -4553,10 +4823,12 @@
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/vervoermiddel> ;
     rdfs:label "Lopen"@nl ;
+    mim:code "8" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/vervoermiddel/lopen"^^xsd:anyURI ;
     mim:naam "Lopen"@nl ;
     dcterms:identifier "EAID_27AF1E08_0B28_409f_A7CA_CF32322E93F8" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/vervoermiddel> ;
+    skos:notation "8" ;
     skos:prefLabel "Lopen"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/vervoermiddel> .
 
@@ -4564,10 +4836,12 @@
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/vervoermiddel> ;
     rdfs:label "Motorfiets"@nl ;
+    mim:code "5" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/vervoermiddel/motorfiets"^^xsd:anyURI ;
     mim:naam "Motorfiets"@nl ;
     dcterms:identifier "EAID_91D7B21F_DA0E_43b3_BD32_B81A67D9D499" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/vervoermiddel> ;
+    skos:notation "5" ;
     skos:prefLabel "Motorfiets"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/vervoermiddel> .
 
@@ -4575,10 +4849,12 @@
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/vervoermiddel> ;
     rdfs:label "Openbaar vervoer"@nl ;
+    mim:code "1" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/vervoermiddel/openbaar-vervoer"^^xsd:anyURI ;
     mim:naam "Openbaar vervoer"@nl ;
     dcterms:identifier "EAID_8D73A68C_989D_4f35_8889_23877E7C481E" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/vervoermiddel> ;
+    skos:notation "1" ;
     skos:prefLabel "Openbaar vervoer"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/vervoermiddel> .
 
@@ -4586,10 +4862,12 @@
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/vervoermiddel> ;
     rdfs:label "Openbaar vervoer (week-ov)"@nl ;
+    mim:code "2" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/vervoermiddel/openbaar-vervoer-week-ov"^^xsd:anyURI ;
     mim:naam "Openbaar vervoer (week-ov)"@nl ;
     dcterms:identifier "EAID_B268AEAD_54DC_4453_9D40_C933D2ED3E6A" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/vervoermiddel> ;
+    skos:notation "2" ;
     skos:prefLabel "Openbaar vervoer (week-ov)"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/vervoermiddel> .
 
@@ -4597,10 +4875,12 @@
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/vervoermiddel> ;
     rdfs:label "Openbaar vervoer (weekend-ov)"@nl ;
+    mim:code "3" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/vervoermiddel/openbaar-vervoer-weekend-ov"^^xsd:anyURI ;
     mim:naam "Openbaar vervoer (weekend-ov)"@nl ;
     dcterms:identifier "EAID_C33985B1_7F66_40ed_B868_0AA09CD9DA70" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/vervoermiddel> ;
+    skos:notation "3" ;
     skos:prefLabel "Openbaar vervoer (weekend-ov)"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/vervoermiddel> .
 
@@ -4608,10 +4888,12 @@
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/vervoersmogelijkheden> ;
     rdfs:label "Anders"@nl ;
+    mim:code "10" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/vervoersmogelijkheden/anders"^^xsd:anyURI ;
     mim:naam "Anders"@nl ;
     dcterms:identifier "EAID_590556D0_F605_4a67_B733_F8A27C49498B" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/vervoersmogelijkheden> ;
+    skos:notation "10" ;
     skos:prefLabel "Anders"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/vervoersmogelijkheden> .
 
@@ -4619,10 +4901,12 @@
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/vervoersmogelijkheden> ;
     rdfs:label "Auto"@nl ;
+    mim:code "4" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/vervoersmogelijkheden/auto"^^xsd:anyURI ;
     mim:naam "Auto"@nl ;
     dcterms:identifier "EAID_DD7CD61F_C957_43cd_B7EC_69B30B418DC3" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/vervoersmogelijkheden> ;
+    skos:notation "4" ;
     skos:prefLabel "Auto"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/vervoersmogelijkheden> .
 
@@ -4630,10 +4914,12 @@
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/vervoersmogelijkheden> ;
     rdfs:label "Bromfiets/scooter"@nl ;
+    mim:code "6" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/vervoersmogelijkheden/bromfiets-scooter"^^xsd:anyURI ;
     mim:naam "Bromfiets/scooter"@nl ;
     dcterms:identifier "EAID_1825CEFE_0BE5_4f20_B7E0_3B4E5585A728" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/vervoersmogelijkheden> ;
+    skos:notation "6" ;
     skos:prefLabel "Bromfiets/scooter"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/vervoersmogelijkheden> .
 
@@ -4641,10 +4927,12 @@
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/vervoersmogelijkheden> ;
     rdfs:label "Fiets"@nl ;
+    mim:code "7" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/vervoersmogelijkheden/fiets"^^xsd:anyURI ;
     mim:naam "Fiets"@nl ;
     dcterms:identifier "EAID_23FFD420_CE73_40ce_B360_37A4983B89E5" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/vervoersmogelijkheden> ;
+    skos:notation "7" ;
     skos:prefLabel "Fiets"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/vervoersmogelijkheden> .
 
@@ -4652,10 +4940,12 @@
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/vervoersmogelijkheden> ;
     rdfs:label "Geen"@nl ;
+    mim:code "9" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/vervoersmogelijkheden/geen"^^xsd:anyURI ;
     mim:naam "Geen"@nl ;
     dcterms:identifier "EAID_4D53B94F_3D77_49f9_81D9_A8333633C3E8" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/vervoersmogelijkheden> ;
+    skos:notation "9" ;
     skos:prefLabel "Geen"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/vervoersmogelijkheden> .
 
@@ -4663,10 +4953,12 @@
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/vervoersmogelijkheden> ;
     rdfs:label "Lopen"@nl ;
+    mim:code "8" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/vervoersmogelijkheden/lopen"^^xsd:anyURI ;
     mim:naam "Lopen"@nl ;
     dcterms:identifier "EAID_8BE142D6_B0C6_482c_910B_2BD92A507103" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/vervoersmogelijkheden> ;
+    skos:notation "8" ;
     skos:prefLabel "Lopen"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/vervoersmogelijkheden> .
 
@@ -4674,10 +4966,12 @@
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/vervoersmogelijkheden> ;
     rdfs:label "Motorfiets"@nl ;
+    mim:code "5" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/vervoersmogelijkheden/motorfiets"^^xsd:anyURI ;
     mim:naam "Motorfiets"@nl ;
     dcterms:identifier "EAID_1588E7B4_AB2B_4e11_8D59_53CD592C74A2" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/vervoersmogelijkheden> ;
+    skos:notation "5" ;
     skos:prefLabel "Motorfiets"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/vervoersmogelijkheden> .
 
@@ -4685,10 +4979,12 @@
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/vervoersmogelijkheden> ;
     rdfs:label "Openbaar vervoer"@nl ;
+    mim:code "1" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/vervoersmogelijkheden/openbaar-vervoer"^^xsd:anyURI ;
     mim:naam "Openbaar vervoer"@nl ;
     dcterms:identifier "EAID_E583A226_D521_4bf5_BFD4_ED71C079DD9D" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/vervoersmogelijkheden> ;
+    skos:notation "1" ;
     skos:prefLabel "Openbaar vervoer"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/vervoersmogelijkheden> .
 
@@ -4696,10 +4992,12 @@
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/vervoersmogelijkheden> ;
     rdfs:label "Openbaar vervoer (week-ov)"@nl ;
+    mim:code "2" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/vervoersmogelijkheden/openbaar-vervoer-week-ov"^^xsd:anyURI ;
     mim:naam "Openbaar vervoer (week-ov)"@nl ;
     dcterms:identifier "EAID_2903B9C3_A8DF_41c5_855C_34A664FE1F7E" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/vervoersmogelijkheden> ;
+    skos:notation "2" ;
     skos:prefLabel "Openbaar vervoer (week-ov)"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/vervoersmogelijkheden> .
 
@@ -4707,10 +5005,12 @@
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/vervoersmogelijkheden> ;
     rdfs:label "Openbaar vervoer (weekend-ov)"@nl ;
+    mim:code "3" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/vervoersmogelijkheden/openbaar-vervoer-weekend-ov"^^xsd:anyURI ;
     mim:naam "Openbaar vervoer (weekend-ov)"@nl ;
     dcterms:identifier "EAID_04B9DC06_19D8_402e_93A4_ADF60BEBD453" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/vervoersmogelijkheden> ;
+    skos:notation "3" ;
     skos:prefLabel "Openbaar vervoer (weekend-ov)"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/vervoersmogelijkheden> .
 
@@ -5478,10 +5778,12 @@
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/zrm-score> ;
     rdfs:label "Acute problematiek"@nl ;
+    mim:code "1" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/zrm-score/acute-problematiek"^^xsd:anyURI ;
     mim:naam "Acute problematiek"@nl ;
     dcterms:identifier "EAID_E06A7DD8_04EC_4d5b_A3EF_BAAB2A6AB133" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/zrm-score> ;
+    skos:notation "1" ;
     skos:prefLabel "Acute problematiek"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/zrm-score> .
 
@@ -5489,10 +5791,12 @@
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/zrm-score> ;
     rdfs:label "Beperkt zelfredzaam"@nl ;
+    mim:code "3" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/zrm-score/beperkt-zelfredzaam"^^xsd:anyURI ;
     mim:naam "Beperkt zelfredzaam"@nl ;
     dcterms:identifier "EAID_42E40A4B_8791_4b89_8A91_0539B6A77C97" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/zrm-score> ;
+    skos:notation "3" ;
     skos:prefLabel "Beperkt zelfredzaam"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/zrm-score> .
 
@@ -5500,10 +5804,12 @@
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/zrm-score> ;
     rdfs:label "Niet zelfredzaam"@nl ;
+    mim:code "2" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/zrm-score/niet-zelfredzaam"^^xsd:anyURI ;
     mim:naam "Niet zelfredzaam"@nl ;
     dcterms:identifier "EAID_7C821349_2758_4c25_8F29_2A24649329F6" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/zrm-score> ;
+    skos:notation "2" ;
     skos:prefLabel "Niet zelfredzaam"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/zrm-score> .
 
@@ -5511,10 +5817,12 @@
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/zrm-score> ;
     rdfs:label "Voldoende zelfredzaam"@nl ;
+    mim:code "4" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/zrm-score/voldoende-zelfredzaam"^^xsd:anyURI ;
     mim:naam "Voldoende zelfredzaam"@nl ;
     dcterms:identifier "EAID_58B6A6D4_263F_4e51_9C2D_FE7C998EE416" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/zrm-score> ;
+    skos:notation "4" ;
     skos:prefLabel "Voldoende zelfredzaam"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/zrm-score> .
 
@@ -5522,10 +5830,12 @@
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/zrm-score> ;
     rdfs:label "Volledig zelfredzaam"@nl ;
+    mim:code "5" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/zrm-score/volledig-zelfredzaam"^^xsd:anyURI ;
     mim:naam "Volledig zelfredzaam"@nl ;
     dcterms:identifier "EAID_202CCCDA_5155_46a0_B81F_87E922254A3F" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/zrm-score> ;
+    skos:notation "5" ;
     skos:prefLabel "Volledig zelfredzaam"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/zrm-score> .
 
@@ -5676,18 +5986,18 @@
     rdfs:comment "<font color=\"#0e0e0e\">Een landelijk register waarin mensen met een afstand tot de arbeidsmarkt worden opgenomen, vaak ten behoeve van loonkostensubsidie of andere voorzieningen.</font>"@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/flexibiliteit> a mim:Objecttype,
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/flexibliteit> a mim:Objecttype,
         owl:Class ;
-    rdfs:label "Flexibiliteit"@nl ;
-    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/flexibiliteit/indicatiebereidbuitenberoepswens>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/flexibiliteit/indicatiebereidheidonregelmatigwerk>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/flexibiliteit/indicatiebereidheidzoekenonderniveau>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/flexibiliteit/indicatiebereidheidzwaarwerk>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/flexibiliteit/ingeschrevenbijuitzendbureau> ;
+    rdfs:label "Flexibliteit"@nl ;
+    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/flexibliteit/indicatiebereidbuitenberoepswens>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/flexibliteit/indicatiebereidheidonregelmatigwerk>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/flexibliteit/indicatiebereidheidzoekenonderniveau>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/flexibliteit/indicatiebereidheidzwaarwerk>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/flexibliteit/ingeschrevenbijuitzendbureau> ;
     mim:definitie "<font color=\"#0e0e0e\">De mate waarin een persoon flexibel inzetbaar is qua werktijden, werkplek of werkzaamheden.</font>"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/flexibiliteit"^^xsd:anyURI ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/flexibliteit"^^xsd:anyURI ;
     mim:indicatieAbstractObject false ;
-    mim:naam "Flexibiliteit"@nl ;
+    mim:naam "Flexibliteit"@nl ;
     dcterms:identifier "EAID_E7BC941E_A54D_49e1_8F77_1D8D7CE8EBD7" ;
     rdfs:comment "<font color=\"#0e0e0e\">De mate waarin een persoon flexibel inzetbaar is qua werktijden, werkplek of werkzaamheden.</font>"@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/> .
@@ -6136,6 +6446,24 @@
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/> ;
     rdfs:subClassOf skos:Concept .
 
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/codeniveauopleiding> a mim:Enumeratie,
+        owl:Class,
+        skos:ConceptScheme ;
+    rdfs:label "CodeNiveauOpleiding"@nl ;
+    mim:definitie "<font color=\"#0e0e0e\">Opleidingsniveau volgens NLQF/ISCED-systematiek. Voorbeelden: <i>mbo-3</i>, <i>hbo</i>, <i>wo-bachelor</i>.</font>"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/codeniveauopleiding"^^xsd:anyURI ;
+    mim:naam "CodeNiveauOpleiding"@nl ;
+    mim:waarde <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/codeniveauopleiding/basisonderwijs>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/codeniveauopleiding/havo-vwo>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/codeniveauopleiding/hbo-bachelor>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/codeniveauopleiding/mbo>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/codeniveauopleiding/vmbo-mbo-1>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/codeniveauopleiding/wo-master> ;
+    dcterms:identifier "EAID_EF820B1A_DCDA_4a11_9953_2BF164FFFF8B" ;
+    rdfs:comment "<font color=\"#0e0e0e\">Opleidingsniveau volgens NLQF/ISCED-systematiek. Voorbeelden: <i>mbo-3</i>, <i>hbo</i>, <i>wo-bachelor</i>.</font>"@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/> ;
+    rdfs:subClassOf skos:Concept .
+
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/indicatie-mate-van-vaardigheid> a mim:Enumeratie,
         owl:Class,
         skos:ConceptScheme ;
@@ -6171,6 +6499,24 @@
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/> ;
     rdfs:subClassOf skos:Concept .
 
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/codeniveauopleiding> a mim:Enumeratie,
+        owl:Class,
+        skos:ConceptScheme ;
+    rdfs:label "CodeNiveauOpleiding"@nl ;
+    mim:definitie "<font color=\"#0e0e0e\">Opleidingsniveau volgens NLQF/ISCED-systematiek. Voorbeelden: <i>mbo-3</i>, <i>hbo</i>, <i>wo-bachelor</i>.</font>"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/codeniveauopleiding"^^xsd:anyURI ;
+    mim:naam "CodeNiveauOpleiding"@nl ;
+    mim:waarde <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/codeniveauopleiding/basisonderwijs>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/codeniveauopleiding/havo-vwo>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/codeniveauopleiding/hbo-bachelor>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/codeniveauopleiding/mbo>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/codeniveauopleiding/vmbo-mbo-1>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/codeniveauopleiding/wo-master> ;
+    dcterms:identifier "EAID_fa31fb6b_fad6_4354_ade8_051dd2c53ab5" ;
+    rdfs:comment "<font color=\"#0e0e0e\">Opleidingsniveau volgens NLQF/ISCED-systematiek. Voorbeelden: <i>mbo-3</i>, <i>hbo</i>, <i>wo-bachelor</i>.</font>"@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/> ;
+    rdfs:subClassOf skos:Concept .
+
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/code-maatschappelijke-context-werkzaamheden-anders-dan-in-arbeidsverhouding> a mim:Enumeratie,
         owl:Class,
         skos:ConceptScheme ;
@@ -6204,24 +6550,6 @@
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/code-tijdsbeslag-opleiding/schriftelijk> ;
     dcterms:identifier "EAID_5B31FFA6_B0C4_4d12_8753_6E4028F1FD81" ;
     rdfs:comment "<font color=\"#0e0e0e\">Geeft aan hoeveel tijd een opleiding per week vraagt, zoals voltijd, deeltijd of duaal.</font>"@nl ;
-    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/> ;
-    rdfs:subClassOf skos:Concept .
-
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/codeniveauopleiding> a mim:Enumeratie,
-        owl:Class,
-        skos:ConceptScheme ;
-    rdfs:label "CodeNiveauOpleiding"@nl ;
-    mim:definitie "<font color=\"#0e0e0e\">Opleidingsniveau volgens NLQF/ISCED-systematiek. Voorbeelden: <i>mbo-3</i>, <i>hbo</i>, <i>wo-bachelor</i>.</font>"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/codeniveauopleiding"^^xsd:anyURI ;
-    mim:naam "CodeNiveauOpleiding"@nl ;
-    mim:waarde <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/codeniveauopleiding/basisonderwijs>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/codeniveauopleiding/havo-vwo>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/codeniveauopleiding/hbo-bachelor>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/codeniveauopleiding/mbo>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/codeniveauopleiding/vmbo-mbo-1>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/codeniveauopleiding/wo-master> ;
-    dcterms:identifier "EAID_EF820B1A_DCDA_4a11_9953_2BF164FFFF8B" ;
-    rdfs:comment "<font color=\"#0e0e0e\">Opleidingsniveau volgens NLQF/ISCED-systematiek. Voorbeelden: <i>mbo-3</i>, <i>hbo</i>, <i>wo-bachelor</i>.</font>"@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/> ;
     rdfs:subClassOf skos:Concept .
 

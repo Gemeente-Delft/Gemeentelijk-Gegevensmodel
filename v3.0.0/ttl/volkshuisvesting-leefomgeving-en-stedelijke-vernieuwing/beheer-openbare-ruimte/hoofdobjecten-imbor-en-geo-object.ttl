@@ -1,7 +1,6 @@
 # graph: <https://lod.gemeentelijkgegevensmodel.nl/v3.0.0/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/hoofdobjecten-imbor-en-geo-object>
 
 @prefix dcterms: <http://purl.org/dc/terms/> .
-@prefix geo: <http://www.opengis.net/ont/geosparql#> .
 @prefix mim: <http://modellen.mim-standaard.nl/def/mim#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
@@ -429,38 +428,18 @@
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/imbor/> ;
     rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/leverancier> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/geo-object/verwijst-naar> a mim:Relatiesoort,
-        owl:ObjectProperty ;
-    rdfs:label "verwijst naar"@nl ;
-    mim:aggregatietype mim:Geen ;
-    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/geo-object> ;
-    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/imbor/beheerobject> ;
-    mim:heeftTijdlijnGeldigheid false ;
-    mim:heeftTijdlijnRegistratie false ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/geo-object/verwijst-naar"^^xsd:anyURI ;
-    mim:indicatieAfleidbaar false ;
-    mim:indicatieFormeleHistorie false ;
-    mim:indicatieMaterieleHistorie false ;
-    mim:kardinaliteit "0..1" ;
-    mim:kardinaliteitRelatieBron "1..1" ;
-    mim:mogelijkGeenWaarde true ;
-    mim:naam "verwijst naar"@nl ;
-    mim:unidirectioneel true ;
-    dcterms:identifier "EAID_ECEFCF19_B735_4e84_A480_F63B7890E038" ;
-    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/geo-object> ;
-    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/> ;
-    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/imbor/beheerobject> .
-
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/frequentie/binnen-geldigheid-beschikking> a mim:Enumeratiewaarde,
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/frequentie> ;
     rdfs:label "Binnen geldigheid Beschikking"@nl ;
+    mim:code "6" ;
     mim:definitie "Frequentie bij beschikking conform iWmo 2.0 zie https://www.istandaarden.nl/ibieb/functionele-uitwerking-release-iwmo-20"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/frequentie/binnen-geldigheid-beschikking"^^xsd:anyURI ;
     mim:naam "Binnen geldigheid Beschikking"@nl ;
     dcterms:identifier "EAID_4787A4FA_A901_4342_B699_3DF39F0DE9E1" ;
     skos:definition "Frequentie bij beschikking conform iWmo 2.0 zie https://www.istandaarden.nl/ibieb/functionele-uitwerking-release-iwmo-20"@nl ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/frequentie> ;
+    skos:notation "6" ;
     skos:prefLabel "Binnen geldigheid Beschikking"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/frequentie> .
 
@@ -468,10 +447,12 @@
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/frequentie> ;
     rdfs:label "Leeg"@nl ;
+    mim:code "-2" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/frequentie/leeg"^^xsd:anyURI ;
     mim:naam "Leeg"@nl ;
     dcterms:identifier "EAID_196F084B_9807_4c14_8295_F08699BAB616" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/frequentie> ;
+    skos:notation "-2" ;
     skos:prefLabel "Leeg"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/frequentie> .
 
@@ -479,10 +460,12 @@
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/frequentie> ;
     rdfs:label "Onbekend"@nl ;
+    mim:code "-1" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/frequentie/onbekend"^^xsd:anyURI ;
     mim:naam "Onbekend"@nl ;
     dcterms:identifier "EAID_AE1E9AE5_CFA8_48bf_A9A5_B04E59E5BA96" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/frequentie> ;
+    skos:notation "-1" ;
     skos:prefLabel "Onbekend"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/frequentie> .
 
@@ -490,10 +473,12 @@
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/frequentie> ;
     rdfs:label "Per 4 weken"@nl ;
+    mim:code "3" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/frequentie/per-4-weken"^^xsd:anyURI ;
     mim:naam "Per 4 weken"@nl ;
     dcterms:identifier "EAID_A675C7E7_1A44_464c_8BD4_07DC7BACFBAF" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/frequentie> ;
+    skos:notation "3" ;
     skos:prefLabel "Per 4 weken"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/frequentie> .
 
@@ -501,10 +486,12 @@
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/frequentie> ;
     rdfs:label "Per dag"@nl ;
+    mim:code "1" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/frequentie/per-dag"^^xsd:anyURI ;
     mim:naam "Per dag"@nl ;
     dcterms:identifier "EAID_26C17FDB_9778_4fe5_AB94_1E82F15BC871" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/frequentie> ;
+    skos:notation "1" ;
     skos:prefLabel "Per dag"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/frequentie> .
 
@@ -512,10 +499,12 @@
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/frequentie> ;
     rdfs:label "Per jaar"@nl ;
+    mim:code "5" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/frequentie/per-jaar"^^xsd:anyURI ;
     mim:naam "Per jaar"@nl ;
     dcterms:identifier "EAID_86266082_255E_4248_8BB1_E077D79A4A48" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/frequentie> ;
+    skos:notation "5" ;
     skos:prefLabel "Per jaar"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/frequentie> .
 
@@ -523,10 +512,12 @@
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/frequentie> ;
     rdfs:label "Per maand"@nl ;
+    mim:code "4" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/frequentie/per-maand"^^xsd:anyURI ;
     mim:naam "Per maand"@nl ;
     dcterms:identifier "EAID_32B1EA0A_CFCA_479b_896E_907372DF5E66" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/frequentie> ;
+    skos:notation "4" ;
     skos:prefLabel "Per maand"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/frequentie> .
 
@@ -534,10 +525,12 @@
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/frequentie> ;
     rdfs:label "Per week"@nl ;
+    mim:code "2" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/frequentie/per-week"^^xsd:anyURI ;
     mim:naam "Per week"@nl ;
     dcterms:identifier "EAID_2BFD16C5_8708_4618_B7E7_A310B6862320" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/frequentie> ;
+    skos:notation "2" ;
     skos:prefLabel "Per week"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/frequentie> .
 
@@ -1216,12 +1209,12 @@ Eenheid: mmddyyyy"""@nl ;
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "geometrie"@nl ;
-    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/wktliteral> ;
+    mim:type mim:CharacterString ;
     dcterms:identifier "EAID_2f67459a_c613_48c5_b4fc_c994ff8d3548" ;
     rdfs:comment "Aanduiding voor de geometrie van het beheerobject."@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/imbor/beheerobject> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/imbor/> ;
-    rdfs:range geo:wktLiteral .
+    rdfs:range xsd:string .
 
 <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/imbor/beheerobject/gewijzigddoor> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
@@ -3339,27 +3332,6 @@ Eenheid: m"""@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/imbor/> ;
     rdfs:range xsd:string .
 
-<https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/imbor/installatie/installateur> a mim:Attribuutsoort,
-        owl:DatatypeProperty ;
-    rdfs:label "installateur"@nl ;
-    mim:definitie "Naam van de installateur."@nl ;
-    mim:heeftTijdlijnGeldigheid false ;
-    mim:heeftTijdlijnRegistratie false ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/imbor/installatie/installateur"^^xsd:anyURI ;
-    mim:indicatieAfleidbaar false ;
-    mim:indicatieClassificerend false ;
-    mim:indicatieFormeleHistorie false ;
-    mim:indicatieMaterieleHistorie false ;
-    mim:kardinaliteit "1..1" ;
-    mim:mogelijkGeenWaarde true ;
-    mim:naam "installateur"@nl ;
-    mim:type mim:CharacterString ;
-    dcterms:identifier "EAID_2f18b492_e814_497c_b949_c2217ccec6df" ;
-    rdfs:comment "Naam van de installateur."@nl ;
-    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/imbor/installatie> ;
-    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/imbor/> ;
-    rdfs:range xsd:string .
-
 <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/imbor/installatie/jaaronderhouduitgevoerd> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "jaarOnderhoudUitgevoerd"@nl ;
@@ -4405,12 +4377,12 @@ Eenheid: m2"""@nl ;
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "orientatie"@nl ;
-    mim:type mim:Integer ;
+    mim:type mim:CharacterString ;
     dcterms:identifier "EAID_23cd7435_cea2_4b5a_82e5_72a023df5743" ;
     rdfs:comment "OriÃ«ntatie van het beheerobject t.o.v.  een weg, vaarweg, etc."@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/imbor/kunstwerk> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/imbor/> ;
-    rdfs:range xsd:integer .
+    rdfs:range xsd:string .
 
 <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/imbor/kunstwerk/technischelevensduur> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
@@ -8117,12 +8089,12 @@ Eenheid: m2"""@nl ;
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "plaatsorientatie"@nl ;
-    mim:type mim:Integer ;
+    mim:type mim:CharacterString ;
     dcterms:identifier "EAID_9a2e7092_00e8_4f2b_a7c9_30ab6e632a97" ;
     rdfs:comment "Positie van het wegobject binnen het wegvak."@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/imbor/verhardingsobject> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/imbor/> ;
-    rdfs:range xsd:integer .
+    rdfs:range xsd:string .
 
 <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/imbor/verhardingsobject/prijsaanschaf> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
@@ -9720,11 +9692,11 @@ Eenheid: m2"""@nl ;
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "identificatie"@nl ;
-    mim:type mim:Integer ;
+    mim:type mim:CharacterString ;
     dcterms:identifier "EAID_E5DE47F4_61AF_4297_B789_BB857F109648" ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/geo-object> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/> ;
-    rdfs:range xsd:integer .
+    rdfs:range xsd:string .
 
 <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/imbor/functioneelgebied> a mim:Objecttype,
         owl:Class ;
@@ -9807,6 +9779,26 @@ Eenheid: m2"""@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/imbor/> ;
     rdfs:subClassOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/imbor/beheerobject> .
 
+<https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/imbor/installatie> a mim:Objecttype,
+        owl:Class ;
+    rdfs:label "Installatie"@nl ;
+    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/imbor/installatie/breedte>,
+        <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/imbor/installatie/eancode>,
+        <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/imbor/installatie/fabrikant>,
+        <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/imbor/installatie/hoogte>,
+        <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/imbor/installatie/inbelgegevens>,
+        <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/imbor/installatie/jaaronderhouduitgevoerd>,
+        <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/imbor/installatie/lengte>,
+        <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/imbor/installatie/typecommunicatie> ;
+    mim:definitie "Samenhangend systeem dat een bepaald doel dient."@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/imbor/installatie"^^xsd:anyURI ;
+    mim:indicatieAbstractObject false ;
+    mim:naam "Installatie"@nl ;
+    dcterms:identifier "EAID_A143A97F_28C5_4B56_90F8_4773481A034" ;
+    rdfs:comment "Samenhangend systeem dat een bepaald doel dient."@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/imbor/> ;
+    rdfs:subClassOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/imbor/beheerobject> .
+
 <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/imbor/bouwwerk> a mim:Objecttype,
         owl:Class ;
     rdfs:label "Bouwwerk"@nl ;
@@ -9825,27 +9817,6 @@ Eenheid: m2"""@nl ;
     mim:naam "Bouwwerk"@nl ;
     dcterms:identifier "EAID_FFA16BB2_FA5A_49F1_B3E8_794499B0278" ;
     rdfs:comment "Met de aarde verbonden duurzaam bouwwerk, dat niet valt onder de definities van een pand of kunstwerk  (bron: definities.geostandaarden.nl)"@nl ;
-    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/imbor/> ;
-    rdfs:subClassOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/imbor/beheerobject> .
-
-<https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/imbor/installatie> a mim:Objecttype,
-        owl:Class ;
-    rdfs:label "Installatie"@nl ;
-    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/imbor/installatie/breedte>,
-        <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/imbor/installatie/eancode>,
-        <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/imbor/installatie/fabrikant>,
-        <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/imbor/installatie/hoogte>,
-        <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/imbor/installatie/inbelgegevens>,
-        <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/imbor/installatie/installateur>,
-        <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/imbor/installatie/jaaronderhouduitgevoerd>,
-        <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/imbor/installatie/lengte>,
-        <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/imbor/installatie/typecommunicatie> ;
-    mim:definitie "Samenhangend systeem dat een bepaald doel dient."@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/imbor/installatie"^^xsd:anyURI ;
-    mim:indicatieAbstractObject false ;
-    mim:naam "Installatie"@nl ;
-    dcterms:identifier "EAID_A143A97F_28C5_4B56_90F8_4773481A034" ;
-    rdfs:comment "Samenhangend systeem dat een bepaald doel dient."@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/imbor/> ;
     rdfs:subClassOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/imbor/beheerobject> .
 
@@ -10274,12 +10245,12 @@ Een ruimtelijk object ter inrichting van de openbare ruimte."""@nl ;
         <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/imbor/kunstwerk/typemonument>,
         <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/imbor/kunstwerk/vervangingswaarde>,
         <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/imbor/kunstwerk/wegnummer> ;
-    mim:definitie "Civiel-technisch werk voor de infrastructuur van wegen, water, spoorbanen, waterkeringen en/of leidingen en niet bedoeld voor permanent menselijk verblijf. https://definities.geostandaarden.nl/nl/"@nl ;
+    mim:definitie "Civiel-technisch werk voor de infrastructuur van wegen, water, spoorbanen, waterkeringen en/of leidingen en niet bedoeld voor permanent menselijk verblijf. http://definities.geostandaarden.nl"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/imbor/kunstwerk"^^xsd:anyURI ;
     mim:indicatieAbstractObject false ;
     mim:naam "Kunstwerk"@nl ;
     dcterms:identifier "EAID_71BCDE9D_88C2_4519_8105_028E40898AB" ;
-    rdfs:comment "Civiel-technisch werk voor de infrastructuur van wegen, water, spoorbanen, waterkeringen en/of leidingen en niet bedoeld voor permanent menselijk verblijf. https://definities.geostandaarden.nl/nl/"@nl ;
+    rdfs:comment "Civiel-technisch werk voor de infrastructuur van wegen, water, spoorbanen, waterkeringen en/of leidingen en niet bedoeld voor permanent menselijk verblijf. http://definities.geostandaarden.nl"@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/imbor/> ;
     rdfs:subClassOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/imbor/beheerobject> .
 

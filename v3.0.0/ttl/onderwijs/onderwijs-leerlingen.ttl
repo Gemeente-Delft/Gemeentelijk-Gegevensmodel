@@ -276,60 +276,82 @@
     dcterms:isPartOf <https://lod.gemeentelijkgegevensmodel.nl/> ;
     owl:versionInfo "v3.0.0" .
 
-<https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean/ja> a mim:Enumeratiewaarde,
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/boolean/ja> a mim:Enumeratiewaarde,
         skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean> ;
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/boolean> ;
     rdfs:label "Ja"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean/ja"^^xsd:anyURI ;
+    mim:code "1" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/boolean/ja"^^xsd:anyURI ;
     mim:naam "Ja"@nl ;
-    dcterms:identifier "EAID_ED373F5C_75C8_4f9f_B72B_DC069BEFFB72" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean> ;
+    dcterms:identifier "EAID_1e2533ea_5cdc_4378_99ae_9b676fcb68f0",
+        "EAID_3812e7b4_0b8e_46e0_a1f5_1d07729244a8",
+        "EAID_605acd50_f645_4951_8f20_97d561cc4301",
+        "EAID_f2e9e12e_fdcd_4368_9ed5_5f633bcd5838" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/boolean> ;
+    skos:notation "1" ;
     skos:prefLabel "Ja"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean> .
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/boolean> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean/leeg> a mim:Enumeratiewaarde,
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/boolean/leeg> a mim:Enumeratiewaarde,
         skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean> ;
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/boolean> ;
     rdfs:label "Leeg"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean/leeg"^^xsd:anyURI ;
+    mim:code "-2" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/boolean/leeg"^^xsd:anyURI ;
     mim:naam "Leeg"@nl ;
-    dcterms:identifier "EAID_15FACEFF_7709_47aa_9827_7C4B604C8D7B" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean> ;
+    dcterms:identifier "EAID_06198395_f764_40ac_97fe_221e9fcfe93f",
+        "EAID_09290977_09fa_4c49_ad03_7c2ff6f52b8c",
+        "EAID_70aaba0f_6cb2_41fb_83d8_562ec1081b7e",
+        "EAID_cf99590a_d95a_48d2_a723_aa1d3f8d9564" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/boolean> ;
+    skos:notation "-2" ;
     skos:prefLabel "Leeg"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean> .
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/boolean> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean/nee> a mim:Enumeratiewaarde,
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/boolean/nee> a mim:Enumeratiewaarde,
         skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean> ;
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/boolean> ;
     rdfs:label "Nee"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean/nee"^^xsd:anyURI ;
+    mim:code "0" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/boolean/nee"^^xsd:anyURI ;
     mim:naam "Nee"@nl ;
-    dcterms:identifier "EAID_7ECA54CF_CE58_4610_80BC_B502ED1347A3" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean> ;
+    dcterms:identifier "EAID_021f3d67_7e6e_419c_8029_ab396b6dc30d",
+        "EAID_42fc6ff9_5801_4338_bb63_023a8b6ffd9b",
+        "EAID_6f1b3d89_2ce2_4890_bc67_5e14b8d355fe",
+        "EAID_fb49fc2d_6c7e_4aa9_943f_20f267544ce1" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/boolean> ;
+    skos:notation "0" ;
     skos:prefLabel "Nee"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean> .
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/boolean> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean/onbekend> a mim:Enumeratiewaarde,
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/boolean/onbekend> a mim:Enumeratiewaarde,
         skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean> ;
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/boolean> ;
     rdfs:label "Onbekend"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean/onbekend"^^xsd:anyURI ;
+    mim:code "-1" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/boolean/onbekend"^^xsd:anyURI ;
     mim:naam "Onbekend"@nl ;
-    dcterms:identifier "EAID_D11CFFBC_096A_4d6c_99EB_8969CD67687E" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean> ;
+    dcterms:identifier "EAID_09aab797_27be_4fe1_b403_e90217293efd",
+        "EAID_3190ca13_f9ac_46a3_ae80_bb9fc38d4c28",
+        "EAID_851ed503_54f8_458a_94fd_1d462671939e",
+        "EAID_bfe0145b_d9b7_47fa_a759_c8a0d2988a95" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/boolean> ;
+    skos:notation "-1" ;
     skos:prefLabel "Onbekend"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean> .
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/boolean> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/energielabel-gebouwen/a> a mim:Enumeratiewaarde,
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/energielabel-gebouwen> ;
     rdfs:label "A"@nl ;
+    mim:code "1" ;
     mim:definitie "Minder dan verbruik 1,05 gigajoule energie per m2 per jaar"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/energielabel-gebouwen/a"^^xsd:anyURI ;
     mim:naam "A"@nl ;
     dcterms:identifier "EAID_33F06BC6_FC74_43c5_A091_DE71B29187C8" ;
     skos:definition "Minder dan verbruik 1,05 gigajoule energie per m2 per jaar"@nl ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/energielabel-gebouwen> ;
+    skos:notation "1" ;
     skos:prefLabel "A"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/energielabel-gebouwen> .
 
@@ -337,12 +359,14 @@
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/energielabel-gebouwen> ;
     rdfs:label "A+"@nl ;
+    mim:code "2" ;
     mim:definitie "Minder dan verbruik 0,7 gigajoule energie per m2 per jaar"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/energielabel-gebouwen/a-2"^^xsd:anyURI ;
     mim:naam "A+"@nl ;
     dcterms:identifier "EAID_60B0AADA_0F48_4f56_93F9_F5A5A111BE3E" ;
     skos:definition "Minder dan verbruik 0,7 gigajoule energie per m2 per jaar"@nl ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/energielabel-gebouwen> ;
+    skos:notation "2" ;
     skos:prefLabel "A+"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/energielabel-gebouwen> .
 
@@ -350,12 +374,14 @@
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/energielabel-gebouwen> ;
     rdfs:label "A++"@nl ;
+    mim:code "3" ;
     mim:definitie "Minder dan verbruik 0,5 gigajoule energie per m2 per jaar"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/energielabel-gebouwen/a-3"^^xsd:anyURI ;
     mim:naam "A++"@nl ;
     dcterms:identifier "EAID_039A6360_3CEE_4b00_9437_7510B6C8D12E" ;
     skos:definition "Minder dan verbruik 0,5 gigajoule energie per m2 per jaar"@nl ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/energielabel-gebouwen> ;
+    skos:notation "3" ;
     skos:prefLabel "A++"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/energielabel-gebouwen> .
 
@@ -363,12 +389,14 @@
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/energielabel-gebouwen> ;
     rdfs:label "B"@nl ;
+    mim:code "4" ;
     mim:definitie "Minder dan verbruik 1,3 gigajoule energie per m2 per jaar"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/energielabel-gebouwen/b"^^xsd:anyURI ;
     mim:naam "B"@nl ;
     dcterms:identifier "EAID_82AA047F_5BE6_4bce_A716_DF6889162325" ;
     skos:definition "Minder dan verbruik 1,3 gigajoule energie per m2 per jaar"@nl ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/energielabel-gebouwen> ;
+    skos:notation "4" ;
     skos:prefLabel "B"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/energielabel-gebouwen> .
 
@@ -376,12 +404,14 @@
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/energielabel-gebouwen> ;
     rdfs:label "C"@nl ;
+    mim:code "5" ;
     mim:definitie "Minder dan verbruik 1,6 gigajoule energie per m2 per jaar"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/energielabel-gebouwen/c"^^xsd:anyURI ;
     mim:naam "C"@nl ;
     dcterms:identifier "EAID_01AB5F99_E534_466b_83A7_DF120782163D" ;
     skos:definition "Minder dan verbruik 1,6 gigajoule energie per m2 per jaar"@nl ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/energielabel-gebouwen> ;
+    skos:notation "5" ;
     skos:prefLabel "C"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/energielabel-gebouwen> .
 
@@ -389,12 +419,14 @@
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/energielabel-gebouwen> ;
     rdfs:label "D"@nl ;
+    mim:code "6" ;
     mim:definitie "Minder dan verbruik 2,0 gigajoule energie per m2 per jaar"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/energielabel-gebouwen/d"^^xsd:anyURI ;
     mim:naam "D"@nl ;
     dcterms:identifier "EAID_A78DC3E1_0A10_43fa_96BD_B642C4A479FB" ;
     skos:definition "Minder dan verbruik 2,0 gigajoule energie per m2 per jaar"@nl ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/energielabel-gebouwen> ;
+    skos:notation "6" ;
     skos:prefLabel "D"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/energielabel-gebouwen> .
 
@@ -402,12 +434,14 @@
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/energielabel-gebouwen> ;
     rdfs:label "E"@nl ;
+    mim:code "7" ;
     mim:definitie "Minder dan verbruik 2,4 gigajoule energie per m2 per jaar"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/energielabel-gebouwen/e"^^xsd:anyURI ;
     mim:naam "E"@nl ;
     dcterms:identifier "EAID_8FD2E496_F1BC_4867_9021_C7143944C7AF" ;
     skos:definition "Minder dan verbruik 2,4 gigajoule energie per m2 per jaar"@nl ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/energielabel-gebouwen> ;
+    skos:notation "7" ;
     skos:prefLabel "E"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/energielabel-gebouwen> .
 
@@ -415,12 +449,14 @@
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/energielabel-gebouwen> ;
     rdfs:label "F"@nl ;
+    mim:code "8" ;
     mim:definitie "Minder dan verbruik 2,9 gigajoule energie per m2 per jaar"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/energielabel-gebouwen/f"^^xsd:anyURI ;
     mim:naam "F"@nl ;
     dcterms:identifier "EAID_5349B6BD_F7B5_4aa0_AFC2_AD590551E3C1" ;
     skos:definition "Minder dan verbruik 2,9 gigajoule energie per m2 per jaar"@nl ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/energielabel-gebouwen> ;
+    skos:notation "8" ;
     skos:prefLabel "F"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/energielabel-gebouwen> .
 
@@ -428,12 +464,14 @@
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/energielabel-gebouwen> ;
     rdfs:label "G"@nl ;
+    mim:code "9" ;
     mim:definitie "Meer dan verbruik 2,9 gigajoule energie per m2 per jaar"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/energielabel-gebouwen/g"^^xsd:anyURI ;
     mim:naam "G"@nl ;
     dcterms:identifier "EAID_37B7384E_FCC5_4dee_8CF6_9180D92C17DD" ;
     skos:definition "Meer dan verbruik 2,9 gigajoule energie per m2 per jaar"@nl ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/energielabel-gebouwen> ;
+    skos:notation "9" ;
     skos:prefLabel "G"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/energielabel-gebouwen> .
 
@@ -441,10 +479,12 @@
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/energielabel-gebouwen> ;
     rdfs:label "Leeg"@nl ;
+    mim:code "-2" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/energielabel-gebouwen/leeg"^^xsd:anyURI ;
     mim:naam "Leeg"@nl ;
     dcterms:identifier "EAID_FE157D47_0370_48ea_8608_BDDB03554FBA" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/energielabel-gebouwen> ;
+    skos:notation "-2" ;
     skos:prefLabel "Leeg"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/energielabel-gebouwen> .
 
@@ -452,10 +492,12 @@
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/energielabel-gebouwen> ;
     rdfs:label "Onbekend"@nl ;
+    mim:code "-1" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/energielabel-gebouwen/onbekend"^^xsd:anyURI ;
     mim:naam "Onbekend"@nl ;
     dcterms:identifier "EAID_FA08BB18_ACA8_4cad_A007_DB84E2226863" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/energielabel-gebouwen> ;
+    skos:notation "-1" ;
     skos:prefLabel "Onbekend"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/energielabel-gebouwen> .
 
@@ -463,10 +505,12 @@
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/monumenttypering> ;
     rdfs:label "Beschermd Stadsgezicht"@nl ;
+    mim:code "2" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/monumenttypering/beschermd-stadsgezicht"^^xsd:anyURI ;
     mim:naam "Beschermd Stadsgezicht"@nl ;
     dcterms:identifier "EAID_649571B0_B5C1_49b4_8A3A_920B15E9D559" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/monumenttypering> ;
+    skos:notation "2" ;
     skos:prefLabel "Beschermd Stadsgezicht"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/monumenttypering> .
 
@@ -474,10 +518,12 @@
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/monumenttypering> ;
     rdfs:label "Deels rijksmonument"@nl ;
+    mim:code "4" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/monumenttypering/deels-rijksmonument"^^xsd:anyURI ;
     mim:naam "Deels rijksmonument"@nl ;
     dcterms:identifier "EAID_5D0840DF_3A87_4970_BB59_A5FF8AB256EA" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/monumenttypering> ;
+    skos:notation "4" ;
     skos:prefLabel "Deels rijksmonument"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/monumenttypering> .
 
@@ -485,10 +531,12 @@
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/monumenttypering> ;
     rdfs:label "Geen monument"@nl ;
+    mim:code "6" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/monumenttypering/geen-monument"^^xsd:anyURI ;
     mim:naam "Geen monument"@nl ;
     dcterms:identifier "EAID_C989803A_2315_4a50_BB05_9DE4BB288C2A" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/monumenttypering> ;
+    skos:notation "6" ;
     skos:prefLabel "Geen monument"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/monumenttypering> .
 
@@ -496,10 +544,12 @@
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/monumenttypering> ;
     rdfs:label "Gemeentelijk monument"@nl ;
+    mim:code "5" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/monumenttypering/gemeentelijk-monument"^^xsd:anyURI ;
     mim:naam "Gemeentelijk monument"@nl ;
     dcterms:identifier "EAID_4AA9D7C2_5C82_41cd_A03B_A1DD2169D4E1" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/monumenttypering> ;
+    skos:notation "5" ;
     skos:prefLabel "Gemeentelijk monument"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/monumenttypering> .
 
@@ -507,10 +557,12 @@
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/monumenttypering> ;
     rdfs:label "Ja"@nl ;
+    mim:code "1" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/monumenttypering/ja"^^xsd:anyURI ;
     mim:naam "Ja"@nl ;
     dcterms:identifier "EAID_0631D653_803B_4e85_AC6C_58638F2F03A5" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/monumenttypering> ;
+    skos:notation "1" ;
     skos:prefLabel "Ja"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/monumenttypering> .
 
@@ -518,10 +570,12 @@
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/monumenttypering> ;
     rdfs:label "Leeg"@nl ;
+    mim:code "-2" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/monumenttypering/leeg"^^xsd:anyURI ;
     mim:naam "Leeg"@nl ;
     dcterms:identifier "EAID_23FE797C_0D3F_4b6c_8463_6909DB29C3BE" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/monumenttypering> ;
+    skos:notation "-2" ;
     skos:prefLabel "Leeg"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/monumenttypering> .
 
@@ -529,10 +583,12 @@
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/monumenttypering> ;
     rdfs:label "Nee"@nl ;
+    mim:code "0" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/monumenttypering/nee"^^xsd:anyURI ;
     mim:naam "Nee"@nl ;
     dcterms:identifier "EAID_218BC8F2_1359_41fb_9A7B_AA1F050AFCF2" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/monumenttypering> ;
+    skos:notation "0" ;
     skos:prefLabel "Nee"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/monumenttypering> .
 
@@ -540,10 +596,12 @@
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/monumenttypering> ;
     rdfs:label "Onbekend"@nl ;
+    mim:code "-1" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/monumenttypering/onbekend"^^xsd:anyURI ;
     mim:naam "Onbekend"@nl ;
     dcterms:identifier "EAID_DECA676F_AA4C_400a_97AA_2DD8E5E62F85" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/monumenttypering> ;
+    skos:notation "-1" ;
     skos:prefLabel "Onbekend"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/monumenttypering> .
 
@@ -551,10 +609,12 @@
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/monumenttypering> ;
     rdfs:label "Rijksmonument"@nl ;
+    mim:code "3" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/monumenttypering/rijksmonument"^^xsd:anyURI ;
     mim:naam "Rijksmonument"@nl ;
     dcterms:identifier "EAID_54D2DD58_292B_4b15_9B86_5C54442C1519" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/monumenttypering> ;
+    skos:notation "3" ;
     skos:prefLabel "Rijksmonument"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/monumenttypering> .
 
@@ -562,12 +622,14 @@
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/nen2767-conditiescore> ;
     rdfs:label "1"@nl ;
+    mim:code "1" ;
     mim:definitie "Uitstekende conditie; incidenteel geringe gebreken"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/nen2767-conditiescore/1"^^xsd:anyURI ;
     mim:naam "1"@nl ;
     dcterms:identifier "EAID_81F42BC8_61DD_44d9_B900_B9E9B3CF5860" ;
     skos:definition "Uitstekende conditie; incidenteel geringe gebreken"@nl ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/nen2767-conditiescore> ;
+    skos:notation "1" ;
     skos:prefLabel "1"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/nen2767-conditiescore> .
 
@@ -575,12 +637,14 @@
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/nen2767-conditiescore> ;
     rdfs:label "2"@nl ;
+    mim:code "2" ;
     mim:definitie "Goede conditie; <font color=\"#262626\">Incidenteel beginnende veroudering</font>"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/nen2767-conditiescore/2"^^xsd:anyURI ;
     mim:naam "2"@nl ;
     dcterms:identifier "EAID_467B1F40_5DFB_424d_A695_201FD313515F" ;
     skos:definition "Goede conditie; <font color=\"#262626\">Incidenteel beginnende veroudering</font>"@nl ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/nen2767-conditiescore> ;
+    skos:notation "2" ;
     skos:prefLabel "2"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/nen2767-conditiescore> .
 
@@ -588,12 +652,14 @@
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/nen2767-conditiescore> ;
     rdfs:label "3"@nl ;
+    mim:code "3" ;
     mim:definitie "Redelijke conditie; <font color=\"#262626\">Plaatselijk zichtbare veroudering Functievervulling van bouw- en installatiedelen niet in gevaar</font>"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/nen2767-conditiescore/3"^^xsd:anyURI ;
     mim:naam "3"@nl ;
     dcterms:identifier "EAID_FBBAA4D4_0811_4714_9DAC_8B1E5ED08083" ;
     skos:definition "Redelijke conditie; <font color=\"#262626\">Plaatselijk zichtbare veroudering Functievervulling van bouw- en installatiedelen niet in gevaar</font>"@nl ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/nen2767-conditiescore> ;
+    skos:notation "3" ;
     skos:prefLabel "3"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/nen2767-conditiescore> .
 
@@ -601,12 +667,14 @@
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/nen2767-conditiescore> ;
     rdfs:label "4"@nl ;
+    mim:code "4" ;
     mim:definitie "Matige conditie; <font color=\"#262626\">Functievervulling van bouw- en installatiedelen incidenteel in gevaar</font>"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/nen2767-conditiescore/4"^^xsd:anyURI ;
     mim:naam "4"@nl ;
     dcterms:identifier "EAID_3BA07C37_BBA6_4024_8A0D_39AFEC49AEE1" ;
     skos:definition "Matige conditie; <font color=\"#262626\">Functievervulling van bouw- en installatiedelen incidenteel in gevaar</font>"@nl ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/nen2767-conditiescore> ;
+    skos:notation "4" ;
     skos:prefLabel "4"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/nen2767-conditiescore> .
 
@@ -614,12 +682,14 @@
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/nen2767-conditiescore> ;
     rdfs:label "5"@nl ;
+    mim:code "5" ;
     mim:definitie "Slechte conditie; <font color=\"#262626\">De veroudering is onomkeerbaar</font>"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/nen2767-conditiescore/5"^^xsd:anyURI ;
     mim:naam "5"@nl ;
     dcterms:identifier "EAID_CF00A550_E72E_4dd8_9417_2BBB408273F4" ;
     skos:definition "Slechte conditie; <font color=\"#262626\">De veroudering is onomkeerbaar</font>"@nl ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/nen2767-conditiescore> ;
+    skos:notation "5" ;
     skos:prefLabel "5"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/nen2767-conditiescore> .
 
@@ -627,12 +697,14 @@
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/nen2767-conditiescore> ;
     rdfs:label "6"@nl ;
+    mim:code "6" ;
     mim:definitie "Zeer slechte conditie; <font color=\"#262626\">Technisch rijp voor sloop</font>"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/nen2767-conditiescore/6"^^xsd:anyURI ;
     mim:naam "6"@nl ;
     dcterms:identifier "EAID_93A4AC73_6B0E_4b9e_9212_7754FE52543C" ;
     skos:definition "Zeer slechte conditie; <font color=\"#262626\">Technisch rijp voor sloop</font>"@nl ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/nen2767-conditiescore> ;
+    skos:notation "6" ;
     skos:prefLabel "6"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/nen2767-conditiescore> .
 
@@ -640,10 +712,12 @@
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/nen2767-conditiescore> ;
     rdfs:label "Leeg"@nl ;
+    mim:code "-2" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/nen2767-conditiescore/leeg"^^xsd:anyURI ;
     mim:naam "Leeg"@nl ;
     dcterms:identifier "EAID_1B158133_8FCB_46b3_80ED_2BB5422A09BC" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/nen2767-conditiescore> ;
+    skos:notation "-2" ;
     skos:prefLabel "Leeg"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/nen2767-conditiescore> .
 
@@ -651,10 +725,12 @@
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/nen2767-conditiescore> ;
     rdfs:label "Onbekend"@nl ;
+    mim:code "-1" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/nen2767-conditiescore/onbekend"^^xsd:anyURI ;
     mim:naam "Onbekend"@nl ;
     dcterms:identifier "EAID_14402A36_FB20_4e56_A226_39FA69CAD087" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/nen2767-conditiescore> ;
+    skos:notation "-1" ;
     skos:prefLabel "Onbekend"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/nen2767-conditiescore> .
 
@@ -740,11 +816,11 @@
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "afgekochteErfpacht"@nl ;
-    mim:type <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean> ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/boolean> ;
     dcterms:identifier "EAID_D64A858C_3726_42c3_8663_CFE49FBFF0D9" ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/> ;
-    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean> .
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/boolean> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/afgesprokenconditiescore> a mim:Attribuutsoort,
         owl:ObjectProperty ;
@@ -797,11 +873,11 @@
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "asbestrapportageAanwezig"@nl ;
-    mim:type <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean> ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/boolean> ;
     dcterms:identifier "EAID_5B5F0462_9CCC_40fc_95CA_20F1A8CFB5C7" ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/> ;
-    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean> .
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/boolean> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/bedragaankoop> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
@@ -1183,7 +1259,7 @@
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "foto"@nl ;
-    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/base64binary> ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/blob> ;
     dcterms:identifier "EAID_BA3834D8_2614_4115_9A00_0DE6745BB44F" ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/> ;
@@ -1202,11 +1278,11 @@
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "gearchiveerd"@nl ;
-    mim:type <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean> ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/boolean> ;
     dcterms:identifier "EAID_0CC22B7C_CAD3_4494_A244_04986EEADA11" ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/> ;
-    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean> .
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/boolean> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/herbouwwaarde> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
@@ -1316,7 +1392,7 @@
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "locatie"@nl ;
-    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/wktliteral> ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/punt> ;
     dcterms:identifier "EAID_9490FB83_B960_4c74_B22B_38ADAADB67C8" ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/> ;
@@ -1721,6 +1797,62 @@
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/> ;
     rdfs:range xsd:decimal .
 
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/boolean/ja> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/boolean> ;
+    rdfs:label "Ja"@nl ;
+    mim:code "1" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/onderwijs/boolean/ja"^^xsd:anyURI ;
+    mim:naam "Ja"@nl ;
+    dcterms:identifier "EAID_4b172e2c_cf6f_4624_bcec_b1cbbe0fe665",
+        "EAID_4bfa392c_eee3_4ace_8e2e_a4e187f5c257" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/boolean> ;
+    skos:notation "1" ;
+    skos:prefLabel "Ja"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/boolean> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/boolean/leeg> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/boolean> ;
+    rdfs:label "Leeg"@nl ;
+    mim:code "-2" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/onderwijs/boolean/leeg"^^xsd:anyURI ;
+    mim:naam "Leeg"@nl ;
+    dcterms:identifier "EAID_2575ffcb_2230_4dba_8ec2_a3f4070eb053",
+        "EAID_4dfd05bf_97ea_4acf_a4e2_c73b9629df0d" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/boolean> ;
+    skos:notation "-2" ;
+    skos:prefLabel "Leeg"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/boolean> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/boolean/nee> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/boolean> ;
+    rdfs:label "Nee"@nl ;
+    mim:code "0" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/onderwijs/boolean/nee"^^xsd:anyURI ;
+    mim:naam "Nee"@nl ;
+    dcterms:identifier "EAID_eac93977_d925_42bb_b490_d5d7ff7d4827",
+        "EAID_f268089d_e60a_416d_9b4e_2dc357408033" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/boolean> ;
+    skos:notation "0" ;
+    skos:prefLabel "Nee"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/boolean> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/boolean/onbekend> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/boolean> ;
+    rdfs:label "Onbekend"@nl ;
+    mim:code "-1" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/onderwijs/boolean/onbekend"^^xsd:anyURI ;
+    mim:naam "Onbekend"@nl ;
+    dcterms:identifier "EAID_7e6c7cb5_f072_44aa_92f1_7e85aaaea5a6",
+        "EAID_b5cf3aa6_f74e_4cd2_9500_01a473246416" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/boolean> ;
+    skos:notation "-1" ;
+    skos:prefLabel "Onbekend"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/boolean> .
+
 <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/inschrijving/datum> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "datum"@nl ;
@@ -1791,11 +1923,11 @@
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "kwetsbareJongere"@nl ;
-    mim:type <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean> ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/boolean> ;
     dcterms:identifier "EAID_70DE2997_48B9_4f71_B6BF_2B9C3163F429" ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerling> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/> ;
-    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean> .
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/boolean> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/locatie/adres> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
@@ -2017,11 +2149,11 @@
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "diplomaBehaald"@nl ;
-    mim:type <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean> ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/boolean> ;
     dcterms:identifier "EAID_C80129DA_1725_46ff_828A_A57944C5E46E" ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/uitschrijving> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/> ;
-    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean> .
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/boolean> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/locatie> a mim:Objecttype,
         owl:Class ;
@@ -2147,6 +2279,38 @@
     rdfs:comment "Gebouw in gebruik voor basis, middelbaar of hoger onderwijs."@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/> .
 
+<https://lod.gemeentelijkgegevensmodel.nl/onderwijs/boolean> a mim:Enumeratie,
+        owl:Class,
+        skos:ConceptScheme ;
+    rdfs:label "Boolean"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/onderwijs/boolean"^^xsd:anyURI ;
+    mim:naam "Boolean"@nl ;
+    mim:waarde <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/boolean/ja>,
+        <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/boolean/leeg>,
+        <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/boolean/nee>,
+        <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/boolean/onbekend> ;
+    dcterms:identifier "EAID_195bc5bd_9054_41bb_8088_d6e3d5e4a0cd",
+        "EAID_9c95faf0_7738_46cf_b1cb_cde23c8fe0e6" ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/> ;
+    rdfs:subClassOf skos:Concept .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/boolean> a mim:Enumeratie,
+        owl:Class,
+        skos:ConceptScheme ;
+    rdfs:label "Boolean"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/boolean"^^xsd:anyURI ;
+    mim:naam "Boolean"@nl ;
+    mim:waarde <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/boolean/ja>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/boolean/leeg>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/boolean/nee>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/boolean/onbekend> ;
+    dcterms:identifier "EAID_1f9f1e5f_f5c5_45d6_babc_6c058bd7704b",
+        "EAID_3a3b3230_9bb2_4646_9170_143960b68821",
+        "EAID_496c5444_b415_4d8e_97e4_fda92e669450",
+        "EAID_d1992801_6cff_4c1e_b017_83f21b76c0ef" ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/> ;
+    rdfs:subClassOf skos:Concept .
+
 <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/onderwijstype> a mim:Enumeratie,
         owl:Class,
         skos:ConceptScheme ;
@@ -2160,19 +2324,6 @@
         <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/onderwijstype/vwo> ;
     dcterms:identifier "EAID_354AA899_00C3_4c36_93F7_0B364D331C93" ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/> ;
-    rdfs:subClassOf skos:Concept .
-
-<https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean> a mim:Enumeratie,
-        owl:Class,
-        skos:ConceptScheme ;
-    rdfs:label "Boolean"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean"^^xsd:anyURI ;
-    mim:naam "Boolean"@nl ;
-    mim:waarde <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean/ja>,
-        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean/leeg>,
-        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean/nee>,
-        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean/onbekend> ;
-    dcterms:identifier "EAID_9BD0FBCB_1A9E_4cab_9280_0EBC428E38F7" ;
     rdfs:subClassOf skos:Concept .
 
 <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/nen2767-conditiescore> a mim:Enumeratie,

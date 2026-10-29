@@ -6,6 +6,27 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/document/type> a mim:Relatiesoort,
+        owl:ObjectProperty ;
+    rdfs:label "type"@nl ;
+    mim:aggregatietype mim:Geen ;
+    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/document> ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/documenttype> ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/document/type"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "type"@nl ;
+    mim:unidirectioneel true ;
+    dcterms:identifier "EAID_dstC59C3B_CE93_4428_B10D_BE49A6FCD782" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/document> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/documenttype> .
+
 <https://lod.gemeentelijkgegevensmodel.nl/v3.0.0/verkeer-vervoer-en-waterstaat/mobiliteit/verkeersbesluiten> a owl:Ontology ;
     rdfs:label "Verkeersbesluiten"@nl ;
     dcterms:identifier "EAID_280799E6_5FC1_4cd0_90E6_F4DB9C7A78A3" ;
@@ -356,6 +377,25 @@
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/mobiliteit/> ;
     rdfs:range xsd:string .
 
+<https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/mobiliteit/verkeersbesluit> a mim:Objecttype,
+        owl:Class ;
+    rdfs:label "Verkeersbesluit"@nl ;
+    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/mobiliteit/verkeersbesluit/datumbesluit>,
+        <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/mobiliteit/verkeersbesluit/datumeinde>,
+        <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/mobiliteit/verkeersbesluit/datumstart>,
+        <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/mobiliteit/verkeersbesluit/huisnummer>,
+        <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/mobiliteit/verkeersbesluit/postcode>,
+        <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/mobiliteit/verkeersbesluit/referentienummer>,
+        <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/mobiliteit/verkeersbesluit/straat>,
+        <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/mobiliteit/verkeersbesluit/titel> ;
+    mim:definitie "Een besluit van een wegbeheerder om een bepaald verkeersteken te plaatsen, te wijzigen of in te trekken of een bepaalde fysieke maatregel te treffen."@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/mobiliteit/verkeersbesluit"^^xsd:anyURI ;
+    mim:indicatieAbstractObject false ;
+    mim:naam "Verkeersbesluit"@nl ;
+    dcterms:identifier "EAID_3F83DAA3_C37F_42b2_8D35_D75B840172F8" ;
+    rdfs:comment "Een besluit van een wegbeheerder om een bepaald verkeersteken te plaatsen, te wijzigen of in te trekken of een bepaalde fysieke maatregel te treffen."@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/mobiliteit/> .
+
 <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/document> a mim:Objecttype,
         owl:Class ;
     rdfs:label "Document"@nl ;
@@ -375,23 +415,4 @@
     dcterms:identifier "EAID_5641C50A_C0FA_4e71_B07B_26C7B1CE94ED" ;
     rdfs:comment "Geheel van gegevens met een eigen identiteit ongeacht zijn vorm, met de bijbehorende metadata ontvangen of opgemaakt door een natuurlijke en/of rechtspersoon bij de uitvoering van taken, zijnde een ENKELVOUDIG DOCUMENT of een SAMENGESTELD DOCUMENT."@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> .
-
-<https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/mobiliteit/verkeersbesluit> a mim:Objecttype,
-        owl:Class ;
-    rdfs:label "Verkeersbesluit"@nl ;
-    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/mobiliteit/verkeersbesluit/datumbesluit>,
-        <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/mobiliteit/verkeersbesluit/datumeinde>,
-        <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/mobiliteit/verkeersbesluit/datumstart>,
-        <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/mobiliteit/verkeersbesluit/huisnummer>,
-        <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/mobiliteit/verkeersbesluit/postcode>,
-        <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/mobiliteit/verkeersbesluit/referentienummer>,
-        <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/mobiliteit/verkeersbesluit/straat>,
-        <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/mobiliteit/verkeersbesluit/titel> ;
-    mim:definitie "Een besluit van een wegbeheerder om een bepaald verkeersteken te plaatsen, te wijzigen of in te trekken of een bepaalde fysieke maatregel te treffen."@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/mobiliteit/verkeersbesluit"^^xsd:anyURI ;
-    mim:indicatieAbstractObject false ;
-    mim:naam "Verkeersbesluit"@nl ;
-    dcterms:identifier "EAID_3F83DAA3_C37F_42b2_8D35_D75B840172F8" ;
-    rdfs:comment "Een besluit van een wegbeheerder om een bepaald verkeersteken te plaatsen, te wijzigen of in te trekken of een bepaalde fysieke maatregel te treffen."@nl ;
-    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/mobiliteit/> .
 

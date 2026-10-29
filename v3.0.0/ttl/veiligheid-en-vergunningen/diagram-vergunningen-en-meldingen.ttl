@@ -96,6 +96,27 @@
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/> ;
     rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/rechtspersoon> .
 
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/besluit/document> a mim:Relatiesoort,
+        owl:ObjectProperty ;
+    rdfs:label "document"@nl ;
+    mim:aggregatietype mim:Geen ;
+    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/besluit> ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/document> ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/besluit/document"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "0..*" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "document"@nl ;
+    mim:unidirectioneel true ;
+    dcterms:identifier "EAID_dstF1389D_562F_4850_BA96_74239D26E835" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/besluit> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/document> .
+
 <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/besluit/is-uitkomst-van> a mim:Relatiesoort,
         owl:ObjectProperty ;
     rdfs:label "is uitkomst van"@nl ;
@@ -166,6 +187,48 @@
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> ;
     rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/document> .
 
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/besluit/type> a mim:Relatiesoort,
+        owl:ObjectProperty ;
+    rdfs:label "type"@nl ;
+    mim:aggregatietype mim:Geen ;
+    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/besluit> ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/besluittype> ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/besluit/type"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "type"@nl ;
+    mim:unidirectioneel true ;
+    dcterms:identifier "EAID_dst835500_2830_4eb0_812A_4088C8C3F672" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/besluit> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/besluittype> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/besluit/zaak> a mim:Relatiesoort,
+        owl:ObjectProperty ;
+    rdfs:label "zaak"@nl ;
+    mim:aggregatietype mim:Geen ;
+    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/besluit> ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaak> ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/besluit/zaak"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "zaak"@nl ;
+    mim:unidirectioneel true ;
+    dcterms:identifier "EAID_dst0BC9F9_923B_4ed1_B58C_4940D065F52E" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/besluit> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaak> .
+
 <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/betrokkene/adresbinnenland> a mim:Relatiesoort,
         owl:ObjectProperty ;
     rdfs:label "adresBinnenland"@nl ;
@@ -189,6 +252,27 @@
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> ;
     rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/binnenlandsadres> .
 
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/betrokkene/betrokkene> a mim:Relatiesoort,
+        owl:ObjectProperty ;
+    rdfs:label "betrokkene"@nl ;
+    mim:aggregatietype mim:Geen ;
+    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/betrokkene> ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/natuurlijkpersoon> ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/betrokkene/betrokkene"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "betrokkene"@nl ;
+    mim:unidirectioneel true ;
+    dcterms:identifier "EAID_dst608E86_9614_4a15_A3CE_8FC5D0508750" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/betrokkene> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/natuurlijkpersoon> .
+
 <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/betrokkene/is-medewerker> a mim:Relatiesoort,
         owl:ObjectProperty ;
     rdfs:label "is"@nl ;
@@ -209,6 +293,27 @@
     mim:unidirectioneel true ;
     dcterms:identifier "EAID_F096C1D1_2139_414d_AF41_CDC5AB0453EE" ;
     rdfs:comment "Een MEDEWERKER als specialisatie van BETROKKENE."@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/betrokkene> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/betrokkene/medewerker> a mim:Relatiesoort,
+        owl:ObjectProperty ;
+    rdfs:label "medewerker"@nl ;
+    mim:aggregatietype mim:Geen ;
+    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/betrokkene> ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker> ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/betrokkene/medewerker"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "medewerker"@nl ;
+    mim:unidirectioneel true ;
+    dcterms:identifier "EAID_dst96C1D1_2139_414d_AF41_CDC5AB0453EE" ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/betrokkene> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> ;
     rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker> .
@@ -236,6 +341,90 @@
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/betrokkene> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> ;
     rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaak> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/betrokkene/organisatorische-eenheid> a mim:Relatiesoort,
+        owl:ObjectProperty ;
+    rdfs:label "organisatorische eenheid"@nl ;
+    mim:aggregatietype mim:Geen ;
+    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/betrokkene> ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/organisatorischeeenheid> ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/betrokkene/organisatorische-eenheid"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "organisatorische eenheid"@nl ;
+    mim:unidirectioneel true ;
+    dcterms:identifier "EAID_dst62BEFD_0485_4a41_9C55_A1480F0DF153" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/betrokkene> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/organisatorischeeenheid> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/betrokkene/rol> a mim:Relatiesoort,
+        owl:ObjectProperty ;
+    rdfs:label "rol"@nl ;
+    mim:aggregatietype mim:Geen ;
+    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/betrokkene> ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaak> ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/betrokkene/rol"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..*" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "rol"@nl ;
+    mim:unidirectioneel true ;
+    dcterms:identifier "EAID_dst6348C0_B9D0_49ba_A200_75D0213B2FB4" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/betrokkene> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaak> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/betrokkene/vestiging> a mim:Relatiesoort,
+        owl:ObjectProperty ;
+    rdfs:label "vestiging"@nl ;
+    mim:aggregatietype mim:Geen ;
+    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/betrokkene> ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/nietnatuurlijkpersoon> ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/betrokkene/vestiging"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "vestiging"@nl ;
+    mim:unidirectioneel true ;
+    dcterms:identifier "EAID_dstA5DA8A_9CBA_444a_93C8_9665C5DF1A99" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/betrokkene> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/nietnatuurlijkpersoon> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/document/type> a mim:Relatiesoort,
+        owl:ObjectProperty ;
+    rdfs:label "type"@nl ;
+    mim:aggregatietype mim:Geen ;
+    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/document> ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/documenttype> ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/document/type"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "type"@nl ;
+    mim:unidirectioneel true ;
+    dcterms:identifier "EAID_dstC59C3B_CE93_4428_B10D_BE49A6FCD782" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/document> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/documenttype> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/heffing/betreft> a mim:Relatiesoort,
         owl:ObjectProperty ;
@@ -304,6 +493,48 @@
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> ;
     rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaaktype> .
 
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/organisatorische-eenheid-organisatorischeeenheid> a mim:Relatiesoort,
+        owl:ObjectProperty ;
+    rdfs:label "organisatorische eenheid"@nl ;
+    mim:aggregatietype mim:Geen ;
+    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker> ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/organisatorischeeenheid> ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/organisatorische-eenheid-organisatorischeeenheid"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "0..*" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "organisatorische eenheid"@nl ;
+    mim:unidirectioneel true ;
+    dcterms:identifier "EAID_dst008EC2_F42E_4e6b_8000_E9A81F3A2ECA" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/organisatorischeeenheid> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/organisatorische-eenheid-organisatorischeeenheid-2> a mim:Relatiesoort,
+        owl:ObjectProperty ;
+    rdfs:label "organisatorische eenheid"@nl ;
+    mim:aggregatietype mim:Geen ;
+    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker> ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/organisatorischeeenheid> ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/organisatorische-eenheid-organisatorischeeenheid-2"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "0..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "organisatorische eenheid"@nl ;
+    mim:unidirectioneel true ;
+    dcterms:identifier "EAID_dstBB7F66_64B4_40dd_9628_02202FF00FB1" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/organisatorischeeenheid> .
+
 <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/status/is-van> a mim:Relatiesoort,
         owl:ObjectProperty ;
     rdfs:label "is van"@nl ;
@@ -324,6 +555,27 @@
     mim:unidirectioneel true ;
     dcterms:identifier "EAID_B632C4ED_D11A_49a2_9AE8_70F6799F2EB1" ;
     rdfs:comment "<font color=\"#610e6a\">Aanduiding van de aard van de STATUS.</font>"@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/status> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/statustype> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/status/type> a mim:Relatiesoort,
+        owl:ObjectProperty ;
+    rdfs:label "type"@nl ;
+    mim:aggregatietype mim:Geen ;
+    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/status> ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/statustype> ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/status/type"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "type"@nl ;
+    mim:unidirectioneel true ;
+    dcterms:identifier "EAID_dst32C4ED_D11A_49a2_9AE8_70F6799F2EB1" ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/status> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> ;
     rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/statustype> .
@@ -349,6 +601,27 @@
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaak> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> ;
     rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaak/document> a mim:Relatiesoort,
+        owl:ObjectProperty ;
+    rdfs:label "document"@nl ;
+    mim:aggregatietype mim:Geen ;
+    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaak> ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/document> ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaak/document"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..*" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "document"@nl ;
+    mim:unidirectioneel true ;
+    dcterms:identifier "EAID_dst9D9C03_1963_4320_9F82_3ED1E30C2895" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaak> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/document> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaak/heeft-betrekking-op-andere> a mim:Relatiesoort,
         owl:ObjectProperty ;
@@ -490,6 +763,48 @@
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> ;
     rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/document> .
 
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaak/status> a mim:Relatiesoort,
+        owl:ObjectProperty ;
+    rdfs:label "status"@nl ;
+    mim:aggregatietype mim:Geen ;
+    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaak> ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/status> ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaak/status"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "0..*" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "status"@nl ;
+    mim:unidirectioneel true ;
+    dcterms:identifier "EAID_dst90DE4F_C686_4701_A3A0_5A67856C004D" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaak> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/status> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaak/type> a mim:Relatiesoort,
+        owl:ObjectProperty ;
+    rdfs:label "type"@nl ;
+    mim:aggregatietype mim:Geen ;
+    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaak> ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaaktype> ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaak/type"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "type"@nl ;
+    mim:unidirectioneel true ;
+    dcterms:identifier "EAID_dst3C1581_1B5D_467e_B825_25738FF800C9" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaak> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaaktype> .
+
 <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaaktype/heeft-heffinggrondslag> a mim:Relatiesoort,
         owl:ObjectProperty ;
     rdfs:label "heeft"@nl ;
@@ -532,6 +847,27 @@
     mim:unidirectioneel true ;
     dcterms:identifier "EAID_EF19B3B9_08AC_4c8c_B785_4571F6FA8DDF" ;
     rdfs:comment "<font color=\"#610e6a\">De STATUSTYPEn die bereikt kunnen worden bij behandeling van ZAAKen van het ZAAKTYPE.</font>"@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaaktype> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/statustype> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaaktype/statustype> a mim:Relatiesoort,
+        owl:ObjectProperty ;
+    rdfs:label "statustype"@nl ;
+    mim:aggregatietype mim:Geen ;
+    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaaktype> ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/statustype> ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaaktype/statustype"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..*" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "statustype"@nl ;
+    mim:unidirectioneel true ;
+    dcterms:identifier "EAID_dst19B3B9_08AC_4c8c_B785_4571F6FA8DDF" ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaaktype> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> ;
     rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/statustype> .
@@ -706,11 +1042,11 @@
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "afgehandeld"@nl ;
-    mim:type <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean> ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/boolean> ;
     dcterms:identifier "EAID_AC248AAD_192D_40e3_B2C3_107CBA34CB21" ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/> ;
-    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean> .
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/boolean> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/categorie> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
@@ -1056,49 +1392,57 @@
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/> ;
     rdfs:range xsd:string .
 
-<https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean/ja> a mim:Enumeratiewaarde,
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/boolean/ja> a mim:Enumeratiewaarde,
         skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean> ;
+        <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/boolean> ;
     rdfs:label "Ja"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean/ja"^^xsd:anyURI ;
+    mim:code "1" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/boolean/ja"^^xsd:anyURI ;
     mim:naam "Ja"@nl ;
-    dcterms:identifier "EAID_ED373F5C_75C8_4f9f_B72B_DC069BEFFB72" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean> ;
+    dcterms:identifier "EAID_6a702d51_e8a6_4ba1_8797_34112d24ca24" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/boolean> ;
+    skos:notation "1" ;
     skos:prefLabel "Ja"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean> .
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/boolean> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean/leeg> a mim:Enumeratiewaarde,
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/boolean/leeg> a mim:Enumeratiewaarde,
         skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean> ;
+        <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/boolean> ;
     rdfs:label "Leeg"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean/leeg"^^xsd:anyURI ;
+    mim:code "-2" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/boolean/leeg"^^xsd:anyURI ;
     mim:naam "Leeg"@nl ;
-    dcterms:identifier "EAID_15FACEFF_7709_47aa_9827_7C4B604C8D7B" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean> ;
+    dcterms:identifier "EAID_8a486db5_332d_4eae_ad27_23d02b392dcd" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/boolean> ;
+    skos:notation "-2" ;
     skos:prefLabel "Leeg"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean> .
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/boolean> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean/nee> a mim:Enumeratiewaarde,
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/boolean/nee> a mim:Enumeratiewaarde,
         skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean> ;
+        <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/boolean> ;
     rdfs:label "Nee"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean/nee"^^xsd:anyURI ;
+    mim:code "0" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/boolean/nee"^^xsd:anyURI ;
     mim:naam "Nee"@nl ;
-    dcterms:identifier "EAID_7ECA54CF_CE58_4610_80BC_B502ED1347A3" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean> ;
+    dcterms:identifier "EAID_96c01eb4_11b5_40e2_9157_0104c43118a2" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/boolean> ;
+    skos:notation "0" ;
     skos:prefLabel "Nee"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean> .
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/boolean> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean/onbekend> a mim:Enumeratiewaarde,
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/boolean/onbekend> a mim:Enumeratiewaarde,
         skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean> ;
+        <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/boolean> ;
     rdfs:label "Onbekend"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean/onbekend"^^xsd:anyURI ;
+    mim:code "-1" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/boolean/onbekend"^^xsd:anyURI ;
     mim:naam "Onbekend"@nl ;
-    dcterms:identifier "EAID_D11CFFBC_096A_4d6c_99EB_8969CD67687E" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean> ;
+    dcterms:identifier "EAID_9f4e3169_b730_47f2_b621_7d438902918c" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/boolean> ;
+    skos:notation "-1" ;
     skos:prefLabel "Onbekend"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean> .
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/boolean> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/besluit/besluitidentificatie> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
@@ -1756,27 +2100,6 @@
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> ;
     rdfs:range xsd:string .
 
-<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/extern> a mim:Attribuutsoort,
-        owl:DatatypeProperty ;
-    rdfs:label "extern"@nl ;
-    mim:definitie "Medewerker is een externe?"@nl ;
-    mim:heeftTijdlijnGeldigheid false ;
-    mim:heeftTijdlijnRegistratie false ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/extern"^^xsd:anyURI ;
-    mim:indicatieAfleidbaar false ;
-    mim:indicatieClassificerend false ;
-    mim:indicatieFormeleHistorie false ;
-    mim:indicatieMaterieleHistorie false ;
-    mim:kardinaliteit "1..1" ;
-    mim:mogelijkGeenWaarde true ;
-    mim:naam "extern"@nl ;
-    mim:type mim:CharacterString ;
-    dcterms:identifier "EAID_8DDB6FA2_A79D_4423_9969_7AF045B86351" ;
-    rdfs:comment "Medewerker is een externe?"@nl ;
-    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker> ;
-    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> ;
-    rdfs:range xsd:string .
-
 <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/functie> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "functie"@nl ;
@@ -2364,27 +2687,6 @@
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaak> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> ;
     rdfs:range xsd:string .
-
-<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaak/indicatiedeelzaken> a mim:Attribuutsoort,
-        owl:DatatypeProperty ;
-    rdfs:label "indicatieDeelzaken"@nl ;
-    mim:definitie "<font color=\"#610e6a\">De aanduiding of een ZAAK behandeld wordt in deelzaken.</font>"@nl ;
-    mim:heeftTijdlijnGeldigheid false ;
-    mim:heeftTijdlijnRegistratie false ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaak/indicatiedeelzaken"^^xsd:anyURI ;
-    mim:indicatieAfleidbaar false ;
-    mim:indicatieClassificerend false ;
-    mim:indicatieFormeleHistorie false ;
-    mim:indicatieMaterieleHistorie false ;
-    mim:kardinaliteit "1..1" ;
-    mim:mogelijkGeenWaarde true ;
-    mim:naam "indicatieDeelzaken"@nl ;
-    mim:type mim:Boolean ;
-    dcterms:identifier "EAID_2CE7ABD9_EEC4_4346_908D_098C68A2CE12" ;
-    rdfs:comment "<font color=\"#610e6a\">De aanduiding of een ZAAK behandeld wordt in deelzaken.</font>"@nl ;
-    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaak> ;
-    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> ;
-    rdfs:range xsd:boolean .
 
 <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaak/indicatieopschorting> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
@@ -3026,7 +3328,7 @@
     rdfs:range xsd:string .
 
 <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/rechtspersoon/rekeningnummer> a mim:Attribuutsoort,
-        owl:ObjectProperty ;
+        owl:DatatypeProperty ;
     rdfs:label "rekeningnummer"@nl ;
     mim:definitie "Het nummer van een Nederlandse bank/girorekening, zoals dat door een bankinstelling als identificator aan een overeenkomst tussen de bank en een of meer subjecten wordt toegekend, op basis waarvan het SUBJECT in de regel financieel communiceert."@nl ;
     mim:heeftTijdlijnGeldigheid false ;
@@ -3039,12 +3341,12 @@
     mim:kardinaliteit "0..1" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "rekeningnummer"@nl ;
-    mim:type <https://lod.gemeentelijkgegevensmodel.nl/ggm-datatypes/iban> ;
+    mim:type mim:CharacterString ;
     dcterms:identifier "EAID_6BB892F7_1C6E_4aeb_8BFA_3012FEB03B78" ;
     rdfs:comment "Het nummer van een Nederlandse bank/girorekening, zoals dat door een bankinstelling als identificator aan een overeenkomst tussen de bank en een of meer subjecten wordt toegekend, op basis waarvan het SUBJECT in de regel financieel communiceert."@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/rechtspersoon> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
-    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/ggm-datatypes/iban> .
+    rdfs:range xsd:string .
 
 <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/rechtspersoon/telefoonnummer> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
@@ -3275,6 +3577,62 @@
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/veiligheid-en-vergunningen/vth/bevinding> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/veiligheid-en-vergunningen/vth/> ;
     rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/veiligheid-en-vergunningen/vth/boolean/ja> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/veiligheid-en-vergunningen/vth/boolean> ;
+    rdfs:label "Ja"@nl ;
+    mim:code "1" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/veiligheid-en-vergunningen/vth/boolean/ja"^^xsd:anyURI ;
+    mim:naam "Ja"@nl ;
+    dcterms:identifier "EAID_82cb4a45_bd66_469b_aaef_18035a55063e",
+        "EAID_d57e89ff_8548_44ea_b67b_3300971a85f2" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/veiligheid-en-vergunningen/vth/boolean> ;
+    skos:notation "1" ;
+    skos:prefLabel "Ja"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/veiligheid-en-vergunningen/vth/boolean> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/veiligheid-en-vergunningen/vth/boolean/leeg> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/veiligheid-en-vergunningen/vth/boolean> ;
+    rdfs:label "Leeg"@nl ;
+    mim:code "-2" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/veiligheid-en-vergunningen/vth/boolean/leeg"^^xsd:anyURI ;
+    mim:naam "Leeg"@nl ;
+    dcterms:identifier "EAID_af0b8288_891f_48aa_aa1f_af006ef47c63",
+        "EAID_bd2ad7f1_3579_4bd2_bb06_63ab3d3e3065" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/veiligheid-en-vergunningen/vth/boolean> ;
+    skos:notation "-2" ;
+    skos:prefLabel "Leeg"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/veiligheid-en-vergunningen/vth/boolean> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/veiligheid-en-vergunningen/vth/boolean/nee> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/veiligheid-en-vergunningen/vth/boolean> ;
+    rdfs:label "Nee"@nl ;
+    mim:code "0" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/veiligheid-en-vergunningen/vth/boolean/nee"^^xsd:anyURI ;
+    mim:naam "Nee"@nl ;
+    dcterms:identifier "EAID_62e51d60_d7d5_490c_87f2_0765fb196b7d",
+        "EAID_6f5f076e_556f_4068_880c_30c33c451d83" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/veiligheid-en-vergunningen/vth/boolean> ;
+    skos:notation "0" ;
+    skos:prefLabel "Nee"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/veiligheid-en-vergunningen/vth/boolean> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/veiligheid-en-vergunningen/vth/boolean/onbekend> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/veiligheid-en-vergunningen/vth/boolean> ;
+    rdfs:label "Onbekend"@nl ;
+    mim:code "-1" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/veiligheid-en-vergunningen/vth/boolean/onbekend"^^xsd:anyURI ;
+    mim:naam "Onbekend"@nl ;
+    dcterms:identifier "EAID_37f704f3_8acc_4d77_8469_070bfafca7cf",
+        "EAID_86bcf382_6f4a_4d5f_9d4a_9a822338d5ea" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/veiligheid-en-vergunningen/vth/boolean> ;
+    skos:notation "-1" ;
+    skos:prefLabel "Onbekend"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/veiligheid-en-vergunningen/vth/boolean> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/veiligheid-en-vergunningen/vth/heffinggrondslag/bedrag> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
@@ -3767,7 +4125,7 @@
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "locatie"@nl ;
-    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/wktliteral> ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/point> ;
     dcterms:identifier "EAID_F564749B_4432_4242_90EB_6AC5B496EEE6" ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/veiligheid-en-vergunningen/vth/vomaanvraagofmelding> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/veiligheid-en-vergunningen/vth/> ;
@@ -4388,11 +4746,11 @@
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "verkamering"@nl ;
-    mim:type <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean> ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/veiligheid-en-vergunningen/vth/boolean> ;
     dcterms:identifier "EAID_89E7E19F_DC65_4884_91A2_416536E23A5F" ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/veiligheid-en-vergunningen/vth/vthzaak> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/veiligheid-en-vergunningen/vth/> ;
-    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean> .
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/veiligheid-en-vergunningen/vth/boolean> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/veiligheid-en-vergunningen/vth/waboaanvraagofmelding/bouwkosten> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
@@ -4544,52 +4902,6 @@
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/veiligheid-en-vergunningen/vth/> ;
     rdfs:subClassOf skos:Concept .
 
-<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/status> a mim:Objecttype,
-        owl:Class ;
-    rdfs:label "Status"@nl ;
-    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/status/datumstatusgezet>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/status/indicatieiaatstgezettestatus>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/status/statustoelichting> ;
-    mim:definitie "Een aanduiding van de stand van zaken van een zaak op basis van betekenisvol behaald resultaat voor de initiator van de zaak."@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/status"^^xsd:anyURI ;
-    mim:indicatieAbstractObject false ;
-    mim:naam "Status"@nl ;
-    dcterms:identifier "EAID_7C975D37_670B_405e_B825_924BCAFA74C7" ;
-    rdfs:comment "Een aanduiding van de stand van zaken van een zaak op basis van betekenisvol behaald resultaat voor de initiator van de zaak."@nl ;
-    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> .
-
-<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/betrokkene> a mim:Objecttype,
-        owl:Class ;
-    rdfs:label "Betrokkene"@nl ;
-    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/betrokkene/adresbuitenland>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/betrokkene/identificatie>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/betrokkene/naam> ;
-    mim:definitie "Een SUBJECT, zijnde een NATUURLIJK PERSOON, NIET-NATUURLIJK PERSOON of VESTIGING, ORGANISATORISCHE EENHEID (binnen een vestiging van de zaak-behandelende niet-natuurlijk persoon), of MEDEWERKER (van die organisatorische eenheid) die een rol kan spelen bij een ZAAK."@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/betrokkene"^^xsd:anyURI ;
-    mim:indicatieAbstractObject false ;
-    mim:naam "Betrokkene"@nl ;
-    dcterms:identifier "EAID_16FB8171_A9ED_4027_A663_C035509501C8" ;
-    rdfs:comment "Een SUBJECT, zijnde een NATUURLIJK PERSOON, NIET-NATUURLIJK PERSOON of VESTIGING, ORGANISATORISCHE EENHEID (binnen een vestiging van de zaak-behandelende niet-natuurlijk persoon), of MEDEWERKER (van die organisatorische eenheid) die een rol kan spelen bij een ZAAK."@nl ;
-    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> ;
-    rdfs:subClassOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/rechtspersoon> .
-
-<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/statustype> a mim:Objecttype,
-        owl:Class ;
-    rdfs:label "Statustype"@nl ;
-    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/statustype/datumbegingeldigheidstatustype>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/statustype/datumeindegeldigheidstatustype>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/statustype/doorlooptijdstatus>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/statustype/statustypeomschrijving>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/statustype/statustypeomschrijvinggeneriek>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/statustype/statustypevolgnummer> ;
-    mim:definitie "Generieke aanduiding van de aard van een STATUS"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/statustype"^^xsd:anyURI ;
-    mim:indicatieAbstractObject false ;
-    mim:naam "Statustype"@nl ;
-    dcterms:identifier "EAID_AA496B7B_913C_40fd_943E_52F1A6E89440" ;
-    rdfs:comment "Generieke aanduiding van de aard van een STATUS"@nl ;
-    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> .
-
 <https://lod.gemeentelijkgegevensmodel.nl/veiligheid-en-vergunningen/vth/vthzaak> a mim:Objecttype,
         owl:Class ;
     rdfs:label "VTHzaak"@nl ;
@@ -4609,6 +4921,20 @@
     rdfs:comment "Een *VTHzaak* is een zaak of dossier binnen de gemeentelijke administratie die betrekking heeft op **vergunningverlening, toezicht en handhaving (VTH)** van regels en voorschriften in de fysieke leefomgeving."@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/veiligheid-en-vergunningen/vth/> ;
     rdfs:subClassOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaak> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/status> a mim:Objecttype,
+        owl:Class ;
+    rdfs:label "Status"@nl ;
+    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/status/datumstatusgezet>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/status/indicatieiaatstgezettestatus>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/status/statustoelichting> ;
+    mim:definitie "Een aanduiding van de stand van zaken van een zaak op basis van betekenisvol behaald resultaat voor de initiator van de zaak."@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/status"^^xsd:anyURI ;
+    mim:indicatieAbstractObject false ;
+    mim:naam "Status"@nl ;
+    dcterms:identifier "EAID_7C975D37_670B_405e_B825_924BCAFA74C7" ;
+    rdfs:comment "Een aanduiding van de stand van zaken van een zaak op basis van betekenisvol behaald resultaat voor de initiator van de zaak."@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/veiligheid-en-vergunningen/vth/heffinggrondslag> a mim:Objecttype,
         owl:Class ;
@@ -4667,6 +4993,52 @@
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/veiligheid-en-vergunningen/vth/> ;
     rdfs:subClassOf <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding> .
 
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/boolean> a mim:Enumeratie,
+        owl:Class,
+        skos:ConceptScheme ;
+    rdfs:label "Boolean"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/boolean"^^xsd:anyURI ;
+    mim:naam "Boolean"@nl ;
+    mim:waarde <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/boolean/ja>,
+        <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/boolean/leeg>,
+        <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/boolean/nee>,
+        <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/boolean/onbekend> ;
+    dcterms:identifier "EAID_fcc997d9_711a_43df_b1fa_30158b0b0429" ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/> ;
+    rdfs:subClassOf skos:Concept .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/statustype> a mim:Objecttype,
+        owl:Class ;
+    rdfs:label "Statustype"@nl ;
+    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/statustype/datumbegingeldigheidstatustype>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/statustype/datumeindegeldigheidstatustype>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/statustype/doorlooptijdstatus>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/statustype/statustypeomschrijving>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/statustype/statustypeomschrijvinggeneriek>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/statustype/statustypevolgnummer> ;
+    mim:definitie "Generieke aanduiding van de aard van een STATUS"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/statustype"^^xsd:anyURI ;
+    mim:indicatieAbstractObject false ;
+    mim:naam "Statustype"@nl ;
+    dcterms:identifier "EAID_AA496B7B_913C_40fd_943E_52F1A6E89440" ;
+    rdfs:comment "Generieke aanduiding van de aard van een STATUS"@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/veiligheid-en-vergunningen/vth/boolean> a mim:Enumeratie,
+        owl:Class,
+        skos:ConceptScheme ;
+    rdfs:label "Boolean"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/veiligheid-en-vergunningen/vth/boolean"^^xsd:anyURI ;
+    mim:naam "Boolean"@nl ;
+    mim:waarde <https://lod.gemeentelijkgegevensmodel.nl/veiligheid-en-vergunningen/vth/boolean/ja>,
+        <https://lod.gemeentelijkgegevensmodel.nl/veiligheid-en-vergunningen/vth/boolean/leeg>,
+        <https://lod.gemeentelijkgegevensmodel.nl/veiligheid-en-vergunningen/vth/boolean/nee>,
+        <https://lod.gemeentelijkgegevensmodel.nl/veiligheid-en-vergunningen/vth/boolean/onbekend> ;
+    dcterms:identifier "EAID_69487bd1_d54b_437c_af1e_de05bad793a9",
+        "EAID_e69804ce_5b5d_4b3f_a349_c228bfb8cb6f" ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/veiligheid-en-vergunningen/vth/> ;
+    rdfs:subClassOf skos:Concept .
+
 <https://lod.gemeentelijkgegevensmodel.nl/veiligheid-en-vergunningen/vth/vorderingregel> a mim:Objecttype,
         owl:Class ;
     rdfs:label "Vorderingregel"@nl ;
@@ -4712,40 +5084,6 @@
     rdfs:comment "het inwinnen, verwerken en interpreteren van informatie met het doel om de momentane toestand van de boezemkade vast te stellen."@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/veiligheid-en-vergunningen/vth/> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean> a mim:Enumeratie,
-        owl:Class,
-        skos:ConceptScheme ;
-    rdfs:label "Boolean"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean"^^xsd:anyURI ;
-    mim:naam "Boolean"@nl ;
-    mim:waarde <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean/ja>,
-        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean/leeg>,
-        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean/nee>,
-        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean/onbekend> ;
-    dcterms:identifier "EAID_9BD0FBCB_1A9E_4cab_9280_0EBC428E38F7" ;
-    rdfs:subClassOf skos:Concept .
-
-<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/besluit> a mim:Objecttype,
-        owl:Class ;
-    rdfs:label "Besluit"@nl ;
-    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/besluit/besluitidentificatie>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/besluit/besluittoelichting>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/besluit/datumbesluit>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/besluit/datumpublicatie>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/besluit/datumstart>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/besluit/datumuiterlijkereactie>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/besluit/datumverval>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/besluit/datumverzending>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/besluit/omschrijving>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/besluit/redenverval> ;
-    mim:definitie "Een na overweging of beraadslaging vastgestelde beslissing voor een individueel of concreet geval."@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/besluit"^^xsd:anyURI ;
-    mim:indicatieAbstractObject false ;
-    mim:naam "Besluit"@nl ;
-    dcterms:identifier "EAID_AFB100D2_8C68_4488_8949_13E945D15920" ;
-    rdfs:comment "Een na overweging of beraadslaging vastgestelde beslissing voor een individueel of concreet geval."@nl ;
-    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> .
-
 <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/rechtspersoon> a mim:Objecttype,
         owl:Class ;
     rdfs:label "Rechtspersoon"@nl ;
@@ -4766,26 +5104,6 @@
     dcterms:identifier "EAID_9DF5AC43_3673_4b9a_BB5E_6DCA7BE28835" ;
     rdfs:comment "Een NATUURLIJK PERSOON of een NIET-NATUURLIJK PERSOON"@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> .
-
-<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/document> a mim:Objecttype,
-        owl:Class ;
-    rdfs:label "Document"@nl ;
-    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/document/cocumentbeschrijving>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/document/datumcreatiedocument>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/document/datumontvangstdocument>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/document/datumverzendingdocument>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/document/documentauteur>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/document/documentidentificatie>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/document/documenttitel>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/document/vertrouwelijkaanduiding> ;
-    mim:definitie "Geheel van gegevens met een eigen identiteit ongeacht zijn vorm, met de bijbehorende metadata ontvangen of opgemaakt door een natuurlijke en/of rechtspersoon bij de uitvoering van taken, zijnde een ENKELVOUDIG DOCUMENT of een SAMENGESTELD DOCUMENT."@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/document"^^xsd:anyURI ;
-    mim:indicatieAbstractObject false ;
-    mim:naam "Document"@nl ;
-    mim:populatie "Voor objecttypen die deel uitmaken van een (basis)registratie betreft dit de beschrijving van de exemplaren van het gedefinieerde objecttype die in de desbetreffende (basis)-registratie voorhanden zijn.#NOTES#Voor objecttypen die deel uitmaken van een (basis)registratie betreft dit de beschrijving van de exemplaren van het gedefinieerde objecttype die in de desbetreffende (basis)-registratie voorhanden zijn.#NOTES#Voor objecttypen die deel uitmaken van een (basis)registratie betreft dit de beschrijving van de exemplaren van het gedefinieerde objecttype die in de desbetreffende (basis)-registratie voorhanden zijn.#NOTES#Voor objecttypen die deel uitmaken van een (basis)registratie betreft dit de beschrijving van de exemplaren van het gedefinieerde objecttype die in de desbetreffende (basis)-registratie voorhanden zijn.#NOTES#Voor objecttypen die deel uitmaken van een (basis)registratie betreft dit de beschrijving van de exemplaren van het gedefinieerde objecttype die in de desbetreffende (basis)-registratie voorhanden zijn.#NOTES#Voor objecttypen die deel uitmaken van een (basis)registratie betreft dit de beschrijving van de exemplaren van het gedefinieerde objecttype die in de desbetreffende (basis)-registratie voorhanden zijn.#NOTES#Voor objecttypen die deel uitmaken van een (basis)registratie betreft dit de beschrijving van de exemplaren van het gedefinieerde objecttype die in de desbetreffende (basis)-registratie voorhanden zijn.#NOTES#Voor objecttypen die deel uitmaken van een (basis)registratie betreft dit de beschrijving van de exemplaren van het gedefinieerde objecttype die in de desbetreffende (basis)-registratie voorhanden zijn.#NOTES#Voor objecttypen die deel uitmaken van een (basis)registratie betreft dit de beschrijving van de exemplaren van het gedefinieerde objecttype die in de desbetreffende (basis)-registratie voorhanden zijn.#NOTES#Voor objecttypen die deel uitmaken van een (basis)registratie betreft dit de beschrijving van de exemplaren van het gedefinieerde objecttype die in de desbetreffende (basis)-registratie voorhanden zijn.#NOTES#Voor objecttypen die deel uitmaken van een (basis)registratie betreft dit de beschrijving van de exemplaren van het gedefinieerde objecttype die in de desbetreffende (basis)-registratie voorhanden zijn.#NOTES#Voor objecttypen die deel uitmaken van een (basis)registratie betreft dit de beschrijving van de exemplaren van het gedefinieerde objecttype die in de desbetreffende (basis)-registratie voorhanden zijn.#NOTES#Voor objecttypen die deel uitmaken van een (basis)registratie betreft dit de beschrijving van de exemplaren van het gedefinieerde objecttype die in de desbetreffende (basis)-registratie voorhanden zijn." ;
-    dcterms:identifier "EAID_5641C50A_C0FA_4e71_B07B_26C7B1CE94ED" ;
-    rdfs:comment "Geheel van gegevens met een eigen identiteit ongeacht zijn vorm, met de bijbehorende metadata ontvangen of opgemaakt door een natuurlijke en/of rechtspersoon bij de uitvoering van taken, zijnde een ENKELVOUDIG DOCUMENT of een SAMENGESTELD DOCUMENT."@nl ;
-    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/veiligheid-en-vergunningen/vth/bevinding> a mim:Objecttype,
         owl:Class ;
@@ -4837,6 +5155,62 @@
     rdfs:comment "Een *vordering* is een juridisch recht dat een schuldeiser heeft om van een andere partij (schuldenaar) een prestatie te ontvangen, zoals een geldbedrag, levering van goederen of uitvoering van een dienst."@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/veiligheid-en-vergunningen/vth/> .
 
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/betrokkene> a mim:Objecttype,
+        owl:Class ;
+    rdfs:label "Betrokkene"@nl ;
+    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/betrokkene/adresbuitenland>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/betrokkene/identificatie>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/betrokkene/naam> ;
+    mim:definitie "Een SUBJECT, zijnde een NATUURLIJK PERSOON, NIET-NATUURLIJK PERSOON of VESTIGING, ORGANISATORISCHE EENHEID (binnen een vestiging van de zaak-behandelende niet-natuurlijk persoon), of MEDEWERKER (van die organisatorische eenheid) die een rol kan spelen bij een ZAAK."@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/betrokkene"^^xsd:anyURI ;
+    mim:indicatieAbstractObject false ;
+    mim:naam "Betrokkene"@nl ;
+    dcterms:identifier "EAID_16FB8171_A9ED_4027_A663_C035509501C8" ;
+    rdfs:comment "Een SUBJECT, zijnde een NATUURLIJK PERSOON, NIET-NATUURLIJK PERSOON of VESTIGING, ORGANISATORISCHE EENHEID (binnen een vestiging van de zaak-behandelende niet-natuurlijk persoon), of MEDEWERKER (van die organisatorische eenheid) die een rol kan spelen bij een ZAAK."@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> ;
+    rdfs:subClassOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/rechtspersoon> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/besluit> a mim:Objecttype,
+        owl:Class ;
+    rdfs:label "Besluit"@nl ;
+    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/besluit/besluitidentificatie>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/besluit/besluittoelichting>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/besluit/datumbesluit>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/besluit/datumpublicatie>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/besluit/datumstart>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/besluit/datumuiterlijkereactie>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/besluit/datumverval>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/besluit/datumverzending>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/besluit/omschrijving>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/besluit/redenverval> ;
+    mim:definitie "Een na overweging of beraadslaging vastgestelde beslissing voor een individueel of concreet geval."@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/besluit"^^xsd:anyURI ;
+    mim:indicatieAbstractObject false ;
+    mim:naam "Besluit"@nl ;
+    dcterms:identifier "EAID_AFB100D2_8C68_4488_8949_13E945D15920" ;
+    rdfs:comment "Een na overweging of beraadslaging vastgestelde beslissing voor een individueel of concreet geval."@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/document> a mim:Objecttype,
+        owl:Class ;
+    rdfs:label "Document"@nl ;
+    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/document/cocumentbeschrijving>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/document/datumcreatiedocument>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/document/datumontvangstdocument>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/document/datumverzendingdocument>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/document/documentauteur>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/document/documentidentificatie>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/document/documenttitel>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/document/vertrouwelijkaanduiding> ;
+    mim:definitie "Geheel van gegevens met een eigen identiteit ongeacht zijn vorm, met de bijbehorende metadata ontvangen of opgemaakt door een natuurlijke en/of rechtspersoon bij de uitvoering van taken, zijnde een ENKELVOUDIG DOCUMENT of een SAMENGESTELD DOCUMENT."@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/document"^^xsd:anyURI ;
+    mim:indicatieAbstractObject false ;
+    mim:naam "Document"@nl ;
+    mim:populatie "Voor objecttypen die deel uitmaken van een (basis)registratie betreft dit de beschrijving van de exemplaren van het gedefinieerde objecttype die in de desbetreffende (basis)-registratie voorhanden zijn.#NOTES#Voor objecttypen die deel uitmaken van een (basis)registratie betreft dit de beschrijving van de exemplaren van het gedefinieerde objecttype die in de desbetreffende (basis)-registratie voorhanden zijn.#NOTES#Voor objecttypen die deel uitmaken van een (basis)registratie betreft dit de beschrijving van de exemplaren van het gedefinieerde objecttype die in de desbetreffende (basis)-registratie voorhanden zijn.#NOTES#Voor objecttypen die deel uitmaken van een (basis)registratie betreft dit de beschrijving van de exemplaren van het gedefinieerde objecttype die in de desbetreffende (basis)-registratie voorhanden zijn.#NOTES#Voor objecttypen die deel uitmaken van een (basis)registratie betreft dit de beschrijving van de exemplaren van het gedefinieerde objecttype die in de desbetreffende (basis)-registratie voorhanden zijn.#NOTES#Voor objecttypen die deel uitmaken van een (basis)registratie betreft dit de beschrijving van de exemplaren van het gedefinieerde objecttype die in de desbetreffende (basis)-registratie voorhanden zijn.#NOTES#Voor objecttypen die deel uitmaken van een (basis)registratie betreft dit de beschrijving van de exemplaren van het gedefinieerde objecttype die in de desbetreffende (basis)-registratie voorhanden zijn.#NOTES#Voor objecttypen die deel uitmaken van een (basis)registratie betreft dit de beschrijving van de exemplaren van het gedefinieerde objecttype die in de desbetreffende (basis)-registratie voorhanden zijn.#NOTES#Voor objecttypen die deel uitmaken van een (basis)registratie betreft dit de beschrijving van de exemplaren van het gedefinieerde objecttype die in de desbetreffende (basis)-registratie voorhanden zijn.#NOTES#Voor objecttypen die deel uitmaken van een (basis)registratie betreft dit de beschrijving van de exemplaren van het gedefinieerde objecttype die in de desbetreffende (basis)-registratie voorhanden zijn.#NOTES#Voor objecttypen die deel uitmaken van een (basis)registratie betreft dit de beschrijving van de exemplaren van het gedefinieerde objecttype die in de desbetreffende (basis)-registratie voorhanden zijn.#NOTES#Voor objecttypen die deel uitmaken van een (basis)registratie betreft dit de beschrijving van de exemplaren van het gedefinieerde objecttype die in de desbetreffende (basis)-registratie voorhanden zijn.#NOTES#Voor objecttypen die deel uitmaken van een (basis)registratie betreft dit de beschrijving van de exemplaren van het gedefinieerde objecttype die in de desbetreffende (basis)-registratie voorhanden zijn." ;
+    dcterms:identifier "EAID_5641C50A_C0FA_4e71_B07B_26C7B1CE94ED" ;
+    rdfs:comment "Geheel van gegevens met een eigen identiteit ongeacht zijn vorm, met de bijbehorende metadata ontvangen of opgemaakt door een natuurlijke en/of rechtspersoon bij de uitvoering van taken, zijnde een ENKELVOUDIG DOCUMENT of een SAMENGESTELD DOCUMENT."@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> .
+
 <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker> a mim:Objecttype,
         owl:Class ;
     rdfs:label "Medewerker"@nl ;
@@ -4844,7 +5218,6 @@
         <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/datumindienst>,
         <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/datumuitdienst>,
         <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/emailadres>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/extern>,
         <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/functie>,
         <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/geslachtsaanduiding>,
         <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/medewerkeridentificatie>,
@@ -4934,7 +5307,6 @@ ID: REQ_ID"""@nl ;
         <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaak/datumvernietigingdossier>,
         <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaak/duurverlenging>,
         <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaak/indicatiebetaling>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaak/indicatiedeelzaken>,
         <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaak/indicatieopschorting>,
         <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaak/leges>,
         <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaak/omschrijving>,

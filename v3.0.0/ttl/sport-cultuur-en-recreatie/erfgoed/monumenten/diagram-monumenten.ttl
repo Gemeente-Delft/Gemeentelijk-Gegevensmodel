@@ -123,6 +123,27 @@
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
     rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/kadastraleonroerendezaak> .
 
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/kadastraleonroerendezaak/oud> a mim:Relatiesoort,
+        owl:ObjectProperty ;
+    rdfs:label "oud"@nl ;
+    mim:aggregatietype mim:Geen ;
+    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/kadastraleonroerendezaak> ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/kadastraleonroerendezaak> ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/kadastraleonroerendezaak/oud"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "0..*" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "oud"@nl ;
+    mim:unidirectioneel true ;
+    dcterms:identifier "EAID_dstEE5BED_D39A_4e50_ACD7_4924DF1DF463" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/kadastraleonroerendezaak> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/kadastraleonroerendezaak> .
+
 <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/monumenten/beschermde-status/betreft-kadastraleonroerendezaak> a mim:Relatiesoort,
         owl:ObjectProperty ;
     rdfs:label "betreft"@nl ;
@@ -400,7 +421,7 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "geometrie"@nl ;
-    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/wktliteral> ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/point> ;
     dcterms:identifier "EAID_9DA708DF_59E5_4fe4_B85C_DC0FE8EA7F21" ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/nummeraanduiding> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/> ;
@@ -763,7 +784,7 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "geometrie"@nl ;
-    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/wktliteral> ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/multisurface> ;
     dcterms:identifier "EAID_C0987BF8_E01C_49af_AF3E_814D39E90620" ;
     rdfs:comment "De tweedimensionale geometrische representatie van de omtrekken van de openbare ruimte."@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/openbareruimte> ;
@@ -872,7 +893,6 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
     mim:definitie "<font color=\"#0f0f0f\">Bevat de naam van de openbare ruimte ten behoeve van visualisatie.</font>"@nl ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
-    mim:herkomst "BGT" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/bag/openbareruimte/labelnaam"^^xsd:anyURI ;
     mim:indicatieAfleidbaar false ;
     mim:indicatieClassificerend false ;
@@ -1032,7 +1052,7 @@ RUIMTE."""@nl ;
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "wegsegment"@nl ;
-    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/wktliteral> ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/curve> ;
     dcterms:identifier "EAID_BCC760A4_FCF9_416c_ADA2_F75BE3A4D5AE" ;
     rdfs:comment "De geometrische representatie van de openbare ruimte als een lijn."@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/openbareruimte> ;
@@ -1043,10 +1063,12 @@ RUIMTE."""@nl ;
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusnummeraanduiding> ;
     rdfs:label "Leeg"@nl ;
+    mim:code "-2" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusnummeraanduiding/leeg"^^xsd:anyURI ;
     mim:naam "Leeg"@nl ;
     dcterms:identifier "EAID_6DE2BB37_7244_4701_AC87_F6003BE2C8CC" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusnummeraanduiding> ;
+    skos:notation "-2" ;
     skos:prefLabel "Leeg"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusnummeraanduiding> .
 
@@ -1054,10 +1076,12 @@ RUIMTE."""@nl ;
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusnummeraanduiding> ;
     rdfs:label "naamgeving ingetrokken"@nl ;
+    mim:code "1" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusnummeraanduiding/naamgeving-ingetrokken"^^xsd:anyURI ;
     mim:naam "naamgeving ingetrokken"@nl ;
     dcterms:identifier "EAID_D45D056F_351B_41c1_9F3B_CDA6047AD108" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusnummeraanduiding> ;
+    skos:notation "1" ;
     skos:prefLabel "naamgeving ingetrokken"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusnummeraanduiding> .
 
@@ -1065,10 +1089,12 @@ RUIMTE."""@nl ;
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusnummeraanduiding> ;
     rdfs:label "naamgeving uitgegeven"@nl ;
+    mim:code "2" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusnummeraanduiding/naamgeving-uitgegeven"^^xsd:anyURI ;
     mim:naam "naamgeving uitgegeven"@nl ;
     dcterms:identifier "EAID_18A1FBDC_1935_4484_B0C7_888320E6CCE3" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusnummeraanduiding> ;
+    skos:notation "2" ;
     skos:prefLabel "naamgeving uitgegeven"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusnummeraanduiding> .
 
@@ -1076,10 +1102,12 @@ RUIMTE."""@nl ;
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusnummeraanduiding> ;
     rdfs:label "Onbekend"@nl ;
+    mim:code "-1" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusnummeraanduiding/onbekend"^^xsd:anyURI ;
     mim:naam "Onbekend"@nl ;
     dcterms:identifier "EAID_1E636BF9_BC6D_46f4_9EBD_C6C96F000E14" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusnummeraanduiding> ;
+    skos:notation "-1" ;
     skos:prefLabel "Onbekend"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusnummeraanduiding> .
 
@@ -1087,10 +1115,12 @@ RUIMTE."""@nl ;
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusopenbareruimte> ;
     rdfs:label "Leeg"@nl ;
+    mim:code "-2" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusopenbareruimte/leeg"^^xsd:anyURI ;
     mim:naam "Leeg"@nl ;
     dcterms:identifier "EAID_A454C453_692F_4200_BE02_247500A09374" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusopenbareruimte> ;
+    skos:notation "-2" ;
     skos:prefLabel "Leeg"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusopenbareruimte> .
 
@@ -1098,10 +1128,12 @@ RUIMTE."""@nl ;
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusopenbareruimte> ;
     rdfs:label "naamgeving ingetrokken"@nl ;
+    mim:code "1" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusopenbareruimte/naamgeving-ingetrokken"^^xsd:anyURI ;
     mim:naam "naamgeving ingetrokken"@nl ;
     dcterms:identifier "EAID_A7A853E5_2B98_441c_89B2_803A50EB05CE" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusopenbareruimte> ;
+    skos:notation "1" ;
     skos:prefLabel "naamgeving ingetrokken"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusopenbareruimte> .
 
@@ -1109,10 +1141,12 @@ RUIMTE."""@nl ;
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusopenbareruimte> ;
     rdfs:label "naamgeving uitgegeven"@nl ;
+    mim:code "2" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusopenbareruimte/naamgeving-uitgegeven"^^xsd:anyURI ;
     mim:naam "naamgeving uitgegeven"@nl ;
     dcterms:identifier "EAID_8A953D13_0BA4_41f6_9183_5BD6AC5CAA25" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusopenbareruimte> ;
+    skos:notation "2" ;
     skos:prefLabel "naamgeving uitgegeven"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusopenbareruimte> .
 
@@ -1120,10 +1154,12 @@ RUIMTE."""@nl ;
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusopenbareruimte> ;
     rdfs:label "Onbekend"@nl ;
+    mim:code "-1" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusopenbareruimte/onbekend"^^xsd:anyURI ;
     mim:naam "Onbekend"@nl ;
     dcterms:identifier "EAID_2833B08E_B2BF_4e9b_A6D4_91D082F901BF" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusopenbareruimte> ;
+    skos:notation "-1" ;
     skos:prefLabel "Onbekend"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusopenbareruimte> .
 
@@ -1164,12 +1200,14 @@ RUIMTE."""@nl ;
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/typeringopenbareruimte> ;
     rdfs:label "administratief gebied"@nl ;
+    mim:code "1" ;
     mim:definitie "Op basis van wet- of regelgeving afgebakend gebied dat als eenheid geldt van politiek/bestuurlijke verantwoordelijkheid of voor bedrijfsvoering"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/bag/typeringopenbareruimte/administratief-gebied"^^xsd:anyURI ;
     mim:naam "administratief gebied"@nl ;
     dcterms:identifier "EAID_147EF253_09E9_4668_9CF7_271048752062" ;
     skos:definition "Op basis van wet- of regelgeving afgebakend gebied dat als eenheid geldt van politiek/bestuurlijke verantwoordelijkheid of voor bedrijfsvoering"@nl ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/typeringopenbareruimte> ;
+    skos:notation "1" ;
     skos:prefLabel "administratief gebied"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/typeringopenbareruimte> .
 
@@ -1177,12 +1215,14 @@ RUIMTE."""@nl ;
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/typeringopenbareruimte> ;
     rdfs:label "functioneel gebied"@nl ;
+    mim:code "2" ;
     mim:definitie "Begrensd en benoemd gebied dat door een functionele eenheid wordt beschreven (bijvoorbeeld bedrijventerrein, bungalowpark, plantsoen, begraafplaats, jachthaven, windmolenpark, recreatiegebied ."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/bag/typeringopenbareruimte/functioneel-gebied"^^xsd:anyURI ;
     mim:naam "functioneel gebied"@nl ;
     dcterms:identifier "EAID_55771DCC_564D_423c_8166_150428728843" ;
     skos:definition "Begrensd en benoemd gebied dat door een functionele eenheid wordt beschreven (bijvoorbeeld bedrijventerrein, bungalowpark, plantsoen, begraafplaats, jachthaven, windmolenpark, recreatiegebied ."@nl ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/typeringopenbareruimte> ;
+    skos:notation "2" ;
     skos:prefLabel "functioneel gebied"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/typeringopenbareruimte> .
 
@@ -1190,6 +1230,7 @@ RUIMTE."""@nl ;
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/typeringopenbareruimte> ;
     rdfs:label "kunstwerk"@nl ;
+    mim:code "3" ;
     mim:definitie """Civiel-technisch werk voor de infrastructuur van wegen, water, spoorbanen, waterkeringen en/of leidingen  en niet bedoeld voor permanent menselijk verblijf.
 Hieronder vallen overbruggingen, waterstaatkundige werken en waterkerende constructies. verbruggingen  kunnen zijn: brug, viaduct, aquaduct enz. Een voorbeeld van een waterstaatkundig werk is een sluis.    
 Voorbeelden van waterkerende constructies zijn stuw en vaste dam."""@nl ;
@@ -1200,6 +1241,7 @@ Voorbeelden van waterkerende constructies zijn stuw en vaste dam."""@nl ;
 Hieronder vallen overbruggingen, waterstaatkundige werken en waterkerende constructies. verbruggingen  kunnen zijn: brug, viaduct, aquaduct enz. Een voorbeeld van een waterstaatkundig werk is een sluis.    
 Voorbeelden van waterkerende constructies zijn stuw en vaste dam."""@nl ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/typeringopenbareruimte> ;
+    skos:notation "3" ;
     skos:prefLabel "kunstwerk"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/typeringopenbareruimte> .
 
@@ -1207,6 +1249,7 @@ Voorbeelden van waterkerende constructies zijn stuw en vaste dam."""@nl ;
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/typeringopenbareruimte> ;
     rdfs:label "landschappelijk gebied"@nl ;
+    mim:code "4" ;
     mim:definitie """Geografisch gebied’: begrensd en benoemd gebied dat door een geografische eenheid wordt beschreven. 
 De grenzen  zijn niet altijd exact vastgesteld (bijvoorbeeld Polder, Midden-Nederland,  Rivierengebied, Veluwe, Zuid-Limburg, Kustgebied)."""@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/bag/typeringopenbareruimte/landschappelijk-gebied"^^xsd:anyURI ;
@@ -1215,6 +1258,7 @@ De grenzen  zijn niet altijd exact vastgesteld (bijvoorbeeld Polder, Midden-Nede
     skos:definition """Geografisch gebied’: begrensd en benoemd gebied dat door een geografische eenheid wordt beschreven. 
 De grenzen  zijn niet altijd exact vastgesteld (bijvoorbeeld Polder, Midden-Nederland,  Rivierengebied, Veluwe, Zuid-Limburg, Kustgebied)."""@nl ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/typeringopenbareruimte> ;
+    skos:notation "4" ;
     skos:prefLabel "landschappelijk gebied"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/typeringopenbareruimte> .
 
@@ -1222,10 +1266,12 @@ De grenzen  zijn niet altijd exact vastgesteld (bijvoorbeeld Polder, Midden-Nede
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/typeringopenbareruimte> ;
     rdfs:label "Leeg"@nl ;
+    mim:code "-2" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/bag/typeringopenbareruimte/leeg"^^xsd:anyURI ;
     mim:naam "Leeg"@nl ;
     dcterms:identifier "EAID_F57BBEB3_78D1_481c_879D_5E875207A827" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/typeringopenbareruimte> ;
+    skos:notation "-2" ;
     skos:prefLabel "Leeg"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/typeringopenbareruimte> .
 
@@ -1233,10 +1279,12 @@ De grenzen  zijn niet altijd exact vastgesteld (bijvoorbeeld Polder, Midden-Nede
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/typeringopenbareruimte> ;
     rdfs:label "Onbekend"@nl ;
+    mim:code "-1" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/bag/typeringopenbareruimte/onbekend"^^xsd:anyURI ;
     mim:naam "Onbekend"@nl ;
     dcterms:identifier "EAID_FA27ED5A_52B3_4e62_9A14_F067E7A3AF53" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/typeringopenbareruimte> ;
+    skos:notation "-1" ;
     skos:prefLabel "Onbekend"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/typeringopenbareruimte> .
 
@@ -1244,6 +1292,7 @@ De grenzen  zijn niet altijd exact vastgesteld (bijvoorbeeld Polder, Midden-Nede
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/typeringopenbareruimte> ;
     rdfs:label "spoorbaan"@nl ;
+    mim:code "5" ;
     mim:definitie """Gebaand gedeelte voor het verkeer over rails.
 Voorbeelden zijn: spoorbaan, metrobaan, trambaan"""@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/bag/typeringopenbareruimte/spoorbaan"^^xsd:anyURI ;
@@ -1252,6 +1301,7 @@ Voorbeelden zijn: spoorbaan, metrobaan, trambaan"""@nl ;
     skos:definition """Gebaand gedeelte voor het verkeer over rails.
 Voorbeelden zijn: spoorbaan, metrobaan, trambaan"""@nl ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/typeringopenbareruimte> ;
+    skos:notation "5" ;
     skos:prefLabel "spoorbaan"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/typeringopenbareruimte> .
 
@@ -1259,6 +1309,7 @@ Voorbeelden zijn: spoorbaan, metrobaan, trambaan"""@nl ;
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/typeringopenbareruimte> ;
     rdfs:label "terrein"@nl ;
+    mim:code "6" ;
     mim:definitie """Door een fysiek voorkomen gekarakteriseerd zichtbaar begrensd stuk grond. 
 Terrein wordt gebruikt om een zichtbaar (tastbaar) begrensd stuk grond aan te geven waarvoor een bepaald fysiek voorkomen typerend is. Voorbeelden zijn: bos, landschap, bebouwing, landbouwgebied. Belangrijk is dat het stuk grond een zichtbare grens heeft met aangrenzende geo-objecten."""@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/bag/typeringopenbareruimte/terrein"^^xsd:anyURI ;
@@ -1267,6 +1318,7 @@ Terrein wordt gebruikt om een zichtbaar (tastbaar) begrensd stuk grond aan te ge
     skos:definition """Door een fysiek voorkomen gekarakteriseerd zichtbaar begrensd stuk grond. 
 Terrein wordt gebruikt om een zichtbaar (tastbaar) begrensd stuk grond aan te geven waarvoor een bepaald fysiek voorkomen typerend is. Voorbeelden zijn: bos, landschap, bebouwing, landbouwgebied. Belangrijk is dat het stuk grond een zichtbare grens heeft met aangrenzende geo-objecten."""@nl ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/typeringopenbareruimte> ;
+    skos:notation "6" ;
     skos:prefLabel "terrein"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/typeringopenbareruimte> .
 
@@ -1274,6 +1326,7 @@ Terrein wordt gebruikt om een zichtbaar (tastbaar) begrensd stuk grond aan te ge
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/typeringopenbareruimte> ;
     rdfs:label "water"@nl ;
+    mim:code "7" ;
     mim:definitie """grondoppervlak in principe bedekt met water.
  Voorbeelden zijn: rivier, kanaal, beek, zee, meer, oppervlaktewater in algemene zin. Objecten die in het kader  van de waterhuishouding periodiek met water zijn bedekt, vallen hier ook onder."""@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/bag/typeringopenbareruimte/water"^^xsd:anyURI ;
@@ -1282,6 +1335,7 @@ Terrein wordt gebruikt om een zichtbaar (tastbaar) begrensd stuk grond aan te ge
     skos:definition """grondoppervlak in principe bedekt met water.
  Voorbeelden zijn: rivier, kanaal, beek, zee, meer, oppervlaktewater in algemene zin. Objecten die in het kader  van de waterhuishouding periodiek met water zijn bedekt, vallen hier ook onder."""@nl ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/typeringopenbareruimte> ;
+    skos:notation "7" ;
     skos:prefLabel "water"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/typeringopenbareruimte> .
 
@@ -1289,12 +1343,14 @@ Terrein wordt gebruikt om een zichtbaar (tastbaar) begrensd stuk grond aan te ge
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/typeringopenbareruimte> ;
     rdfs:label "weg"@nl ;
+    mim:code "8" ;
     mim:definitie "Gebaand gedeelte voor het wegverkeer en vliegverkeer te land. Hieronder vallen ook start- en landingsbanen voor het vliegverkeer."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/bag/typeringopenbareruimte/weg"^^xsd:anyURI ;
     mim:naam "weg"@nl ;
     dcterms:identifier "EAID_6AF72983_537D_4326_8B7B_363AA67B1158" ;
     skos:definition "Gebaand gedeelte voor het wegverkeer en vliegverkeer te land. Hieronder vallen ook start- en landingsbanen voor het vliegverkeer."@nl ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/typeringopenbareruimte> ;
+    skos:notation "8" ;
     skos:prefLabel "weg"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/typeringopenbareruimte> .
 
@@ -1334,7 +1390,7 @@ Terrein wordt gebruikt om een zichtbaar (tastbaar) begrensd stuk grond aan te ge
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "begrenzing"@nl ;
-    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/wktliteral> ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/surface> ;
     dcterms:identifier "EAID_9C5D09AB_2838_4e13_81CB_A4991283B757" ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/kadastraleonroerendezaak> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
@@ -1570,7 +1626,7 @@ ONROERENDE ZAAK gelegen is."""@nl ;
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "ligging"@nl ;
-    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/wktliteral> ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/point> ;
     dcterms:identifier "EAID_8DFA2FA3_E6A2_4763_86DE_8174533594F2" ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/kadastraleonroerendezaak> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
@@ -2037,6 +2093,26 @@ ONROERENDE ZAAK gelegen is."""@nl ;
     rdfs:comment "Een openbare ruimte is een door het bevoegde gemeentelijke orgaan als zodanig aangewezen en van een naam voorziene buitenruimte die binnen &#233;&#233;n woonplaats is gelegen. Beschrijving: Een buitenruimte die door de gemeente als openbare ruimte is aangewezen en waaraan de gemeente een naam heeft gegeven. Een openbare ruimte ligt binnen 1 woonplaats. De BAG kent 7 soorten openbare ruimten: weg, water, spoorbaan, terrein, kunstwerk, landschappelijk gebied en administratief gebied. Een openbare ruimte is meestal een straat(naam)."@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/> .
 
+<https://lod.gemeentelijkgegevensmodel.nl/kern/bag/typeringopenbareruimte> a mim:Enumeratie,
+        owl:Class,
+        skos:ConceptScheme ;
+    rdfs:label "typeringOpenbareRuimte"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/bag/typeringopenbareruimte"^^xsd:anyURI ;
+    mim:naam "typeringOpenbareRuimte"@nl ;
+    mim:waarde <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/typeringopenbareruimte/administratief-gebied>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/typeringopenbareruimte/functioneel-gebied>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/typeringopenbareruimte/kunstwerk>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/typeringopenbareruimte/landschappelijk-gebied>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/typeringopenbareruimte/leeg>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/typeringopenbareruimte/onbekend>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/typeringopenbareruimte/spoorbaan>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/typeringopenbareruimte/terrein>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/typeringopenbareruimte/water>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/typeringopenbareruimte/weg> ;
+    dcterms:identifier "EAID_AB6C1EDC_AF99_48fa_A1EB_DB9EA1ED58A9" ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/> ;
+    rdfs:subClassOf skos:Concept .
+
 <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/kadastraleonroerendezaak> a mim:Objecttype,
         owl:Class ;
     rdfs:label "KadastraleOnroerendeZaak"@nl ;
@@ -2071,24 +2147,4 @@ Niet alle kadastrale objecten komen qua ligging overeen met een gebouwd object o
     dcterms:identifier "EAID_9775E778_DBF8_4122_94CE_551466B62F46" ;
     rdfs:comment "Een geregistreerd goed waarvoor bij overdracht of vestiging van rechten inschrijving in de openbare registers van het Kadaster is vereist zijnde een KADASTRAAL PERCEEL of een APPARTEMENTSRECHT."@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> .
-
-<https://lod.gemeentelijkgegevensmodel.nl/kern/bag/typeringopenbareruimte> a mim:Enumeratie,
-        owl:Class,
-        skos:ConceptScheme ;
-    rdfs:label "typeringOpenbareRuimte"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/bag/typeringopenbareruimte"^^xsd:anyURI ;
-    mim:naam "typeringOpenbareRuimte"@nl ;
-    mim:waarde <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/typeringopenbareruimte/administratief-gebied>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/typeringopenbareruimte/functioneel-gebied>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/typeringopenbareruimte/kunstwerk>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/typeringopenbareruimte/landschappelijk-gebied>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/typeringopenbareruimte/leeg>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/typeringopenbareruimte/onbekend>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/typeringopenbareruimte/spoorbaan>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/typeringopenbareruimte/terrein>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/typeringopenbareruimte/water>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/typeringopenbareruimte/weg> ;
-    dcterms:identifier "EAID_AB6C1EDC_AF99_48fa_A1EB_DB9EA1ED58A9" ;
-    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/> ;
-    rdfs:subClassOf skos:Concept .
 

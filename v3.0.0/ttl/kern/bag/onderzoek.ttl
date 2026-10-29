@@ -267,10 +267,12 @@
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/boolean> ;
     rdfs:label "Ja"@nl ;
+    mim:code "1" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/bag/boolean/ja"^^xsd:anyURI ;
     mim:naam "Ja"@nl ;
     dcterms:identifier "EAID_09A32FFB_F302_42ad_B2C7_F5EE3F9B0DFF" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/boolean> ;
+    skos:notation "1" ;
     skos:prefLabel "Ja"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/boolean> .
 
@@ -278,10 +280,12 @@
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/boolean> ;
     rdfs:label "Leeg"@nl ;
+    mim:code "-2" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/bag/boolean/leeg"^^xsd:anyURI ;
     mim:naam "Leeg"@nl ;
     dcterms:identifier "EAID_586B24ED_FF6C_4c96_AC5C_F20E3191186E" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/boolean> ;
+    skos:notation "-2" ;
     skos:prefLabel "Leeg"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/boolean> .
 
@@ -289,10 +293,12 @@
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/boolean> ;
     rdfs:label "Nee"@nl ;
+    mim:code "0" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/bag/boolean/nee"^^xsd:anyURI ;
     mim:naam "Nee"@nl ;
     dcterms:identifier "EAID_5AB379AF_F672_4b81_B2FA_8D39DC5C8289" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/boolean> ;
+    skos:notation "0" ;
     skos:prefLabel "Nee"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/boolean> .
 
@@ -300,10 +306,12 @@
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/boolean> ;
     rdfs:label "Onbekend"@nl ;
+    mim:code "-1" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/bag/boolean/onbekend"^^xsd:anyURI ;
     mim:naam "Onbekend"@nl ;
     dcterms:identifier "EAID_5A3213D0_80D2_450d_8FBA_D2EB84278E51" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/boolean> ;
+    skos:notation "-1" ;
     skos:prefLabel "Onbekend"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/boolean> .
 
@@ -311,10 +319,12 @@
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gebruiksdoel> ;
     rdfs:label "bijeenkomstfunctie"@nl ;
+    mim:code "2" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gebruiksdoel/bijeenkomstfunctie"^^xsd:anyURI ;
     mim:naam "bijeenkomstfunctie"@nl ;
     dcterms:identifier "EAID_1782BF1E_8A6A_488e_B881_03AB11F5D4BB" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gebruiksdoel> ;
+    skos:notation "2" ;
     skos:prefLabel "bijeenkomstfunctie"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gebruiksdoel> .
 
@@ -322,10 +332,12 @@
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gebruiksdoel> ;
     rdfs:label "celfunctie"@nl ;
+    mim:code "3" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gebruiksdoel/celfunctie"^^xsd:anyURI ;
     mim:naam "celfunctie"@nl ;
     dcterms:identifier "EAID_AB51DFA3_C89A_4329_82BC_5192D7B9F02E" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gebruiksdoel> ;
+    skos:notation "3" ;
     skos:prefLabel "celfunctie"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gebruiksdoel> .
 
@@ -333,10 +345,12 @@
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gebruiksdoel> ;
     rdfs:label "gezondheidszorgfunctie"@nl ;
+    mim:code "4" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gebruiksdoel/gezondheidszorgfunctie"^^xsd:anyURI ;
     mim:naam "gezondheidszorgfunctie"@nl ;
     dcterms:identifier "EAID_FC41B601_6552_454f_A435_15A20529BACA" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gebruiksdoel> ;
+    skos:notation "4" ;
     skos:prefLabel "gezondheidszorgfunctie"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gebruiksdoel> .
 
@@ -344,10 +358,12 @@
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gebruiksdoel> ;
     rdfs:label "industriefunctie"@nl ;
+    mim:code "5" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gebruiksdoel/industriefunctie"^^xsd:anyURI ;
     mim:naam "industriefunctie"@nl ;
     dcterms:identifier "EAID_959D2D11_00B6_459f_88EA_963101D84585" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gebruiksdoel> ;
+    skos:notation "5" ;
     skos:prefLabel "industriefunctie"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gebruiksdoel> .
 
@@ -355,10 +371,12 @@
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gebruiksdoel> ;
     rdfs:label "kantoorfunctie"@nl ;
+    mim:code "6" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gebruiksdoel/kantoorfunctie"^^xsd:anyURI ;
     mim:naam "kantoorfunctie"@nl ;
     dcterms:identifier "EAID_75E90B02_0EE7_4108_A897_6E259DFD9611" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gebruiksdoel> ;
+    skos:notation "6" ;
     skos:prefLabel "kantoorfunctie"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gebruiksdoel> .
 
@@ -366,10 +384,12 @@
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gebruiksdoel> ;
     rdfs:label "Leeg"@nl ;
+    mim:code "-2" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gebruiksdoel/leeg"^^xsd:anyURI ;
     mim:naam "Leeg"@nl ;
     dcterms:identifier "EAID_C225F224_3849_47e2_B64E_3A45C9FDD49C" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gebruiksdoel> ;
+    skos:notation "-2" ;
     skos:prefLabel "Leeg"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gebruiksdoel> .
 
@@ -377,10 +397,12 @@
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gebruiksdoel> ;
     rdfs:label "logiesfunctie"@nl ;
+    mim:code "7" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gebruiksdoel/logiesfunctie"^^xsd:anyURI ;
     mim:naam "logiesfunctie"@nl ;
     dcterms:identifier "EAID_FE5EB51E_BE48_4515_83F1_36C07F2B1ABE" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gebruiksdoel> ;
+    skos:notation "7" ;
     skos:prefLabel "logiesfunctie"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gebruiksdoel> .
 
@@ -388,10 +410,12 @@
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gebruiksdoel> ;
     rdfs:label "Onbekend"@nl ;
+    mim:code "-1" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gebruiksdoel/onbekend"^^xsd:anyURI ;
     mim:naam "Onbekend"@nl ;
     dcterms:identifier "EAID_4F9200D3_D527_4092_8666_37D76CACE9B1" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gebruiksdoel> ;
+    skos:notation "-1" ;
     skos:prefLabel "Onbekend"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gebruiksdoel> .
 
@@ -399,10 +423,12 @@
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gebruiksdoel> ;
     rdfs:label "onderwijsfunctie"@nl ;
+    mim:code "8" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gebruiksdoel/onderwijsfunctie"^^xsd:anyURI ;
     mim:naam "onderwijsfunctie"@nl ;
     dcterms:identifier "EAID_94A48959_211B_4a8b_8ED3_BC7E65EEBEA6" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gebruiksdoel> ;
+    skos:notation "8" ;
     skos:prefLabel "onderwijsfunctie"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gebruiksdoel> .
 
@@ -410,10 +436,12 @@
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gebruiksdoel> ;
     rdfs:label "overige gebruiksfunctie"@nl ;
+    mim:code "11" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gebruiksdoel/overige-gebruiksfunctie"^^xsd:anyURI ;
     mim:naam "overige gebruiksfunctie"@nl ;
     dcterms:identifier "EAID_58A1BF3D_3AED_4d2b_8C42_B5370D58DB96" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gebruiksdoel> ;
+    skos:notation "11" ;
     skos:prefLabel "overige gebruiksfunctie"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gebruiksdoel> .
 
@@ -421,10 +449,12 @@
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gebruiksdoel> ;
     rdfs:label "sportfunctie"@nl ;
+    mim:code "9" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gebruiksdoel/sportfunctie"^^xsd:anyURI ;
     mim:naam "sportfunctie"@nl ;
     dcterms:identifier "EAID_5B6D0EE9_62A0_4f54_9507_0CD55EBE7940" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gebruiksdoel> ;
+    skos:notation "9" ;
     skos:prefLabel "sportfunctie"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gebruiksdoel> .
 
@@ -432,10 +462,12 @@
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gebruiksdoel> ;
     rdfs:label "winkelfunctie"@nl ;
+    mim:code "10" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gebruiksdoel/winkelfunctie"^^xsd:anyURI ;
     mim:naam "winkelfunctie"@nl ;
     dcterms:identifier "EAID_720262B7_B263_4b19_9B6D_6393E5F207F1" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gebruiksdoel> ;
+    skos:notation "10" ;
     skos:prefLabel "winkelfunctie"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gebruiksdoel> .
 
@@ -443,10 +475,12 @@
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gebruiksdoel> ;
     rdfs:label "woonfunctie"@nl ;
+    mim:code "1" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gebruiksdoel/woonfunctie"^^xsd:anyURI ;
     mim:naam "woonfunctie"@nl ;
     dcterms:identifier "EAID_A49A33FA_7AEA_4ce0_9154_08FAEB7D842F" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gebruiksdoel> ;
+    skos:notation "1" ;
     skos:prefLabel "woonfunctie"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gebruiksdoel> .
 
@@ -625,7 +659,7 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "geometrie"@nl ;
-    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/wktliteral> ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/surface> ;
     dcterms:identifier "EAID_793060EE_F8D6_4e82_B064_1EE08061D5B0" ;
     rdfs:comment "Loodrechte bovenaanzicht van de ligplaats in het Nationale Rijksdriehoekstelsel, inclusief alle zichtbare en onzichtbare delen boven en onder de grond, maar exclusief alle delen die kunnen bewegen ten opzichte van de aarde"@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/ligplaats> ;
@@ -697,11 +731,11 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "versie"@nl ;
-    mim:type mim:Integer ;
+    mim:type mim:CharacterString ;
     dcterms:identifier "EAID_468BDC0D_2C13_4d3f_951B_E194043151AF" ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/ligplaats> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/> ;
-    rdfs:range xsd:integer .
+    rdfs:range xsd:string .
 
 <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/nummeraanduiding/begingeldigheid> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
@@ -871,7 +905,7 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "geometrie"@nl ;
-    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/wktliteral> ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/point> ;
     dcterms:identifier "EAID_9DA708DF_59E5_4fe4_B85C_DC0FE8EA7F21" ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/nummeraanduiding> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/> ;
@@ -1528,10 +1562,12 @@ Herkomst: BAG Plus"""@nl ;
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/ontsluitingswijzeverdieping> ;
     rdfs:label "Leeg"@nl ;
+    mim:code "-2" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/bag/ontsluitingswijzeverdieping/leeg"^^xsd:anyURI ;
     mim:naam "Leeg"@nl ;
     dcterms:identifier "EAID_2BD86A76_FBCE_4409_A0A1_EE2139FCBE8B" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/ontsluitingswijzeverdieping> ;
+    skos:notation "-2" ;
     skos:prefLabel "Leeg"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/ontsluitingswijzeverdieping> .
 
@@ -1539,10 +1575,12 @@ Herkomst: BAG Plus"""@nl ;
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/ontsluitingswijzeverdieping> ;
     rdfs:label "lift"@nl ;
+    mim:code "1" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/bag/ontsluitingswijzeverdieping/lift"^^xsd:anyURI ;
     mim:naam "lift"@nl ;
     dcterms:identifier "EAID_D06497CE_5DFA_4804_B7D9_1238BEB8B042" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/ontsluitingswijzeverdieping> ;
+    skos:notation "1" ;
     skos:prefLabel "lift"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/ontsluitingswijzeverdieping> .
 
@@ -1550,10 +1588,12 @@ Herkomst: BAG Plus"""@nl ;
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/ontsluitingswijzeverdieping> ;
     rdfs:label "Onbekend"@nl ;
+    mim:code "-1" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/bag/ontsluitingswijzeverdieping/onbekend"^^xsd:anyURI ;
     mim:naam "Onbekend"@nl ;
     dcterms:identifier "EAID_3C96AB9B_5AC5_42c3_8FEF_0D32624C13EA" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/ontsluitingswijzeverdieping> ;
+    skos:notation "-1" ;
     skos:prefLabel "Onbekend"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/ontsluitingswijzeverdieping> .
 
@@ -1561,10 +1601,12 @@ Herkomst: BAG Plus"""@nl ;
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/ontsluitingswijzeverdieping> ;
     rdfs:label "roltrap"@nl ;
+    mim:code "2" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/bag/ontsluitingswijzeverdieping/roltrap"^^xsd:anyURI ;
     mim:naam "roltrap"@nl ;
     dcterms:identifier "EAID_CA17563D_AAB3_46c0_9CA1_3ACD6C210AB7" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/ontsluitingswijzeverdieping> ;
+    skos:notation "2" ;
     skos:prefLabel "roltrap"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/ontsluitingswijzeverdieping> .
 
@@ -1572,10 +1614,12 @@ Herkomst: BAG Plus"""@nl ;
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/ontsluitingswijzeverdieping> ;
     rdfs:label "trap"@nl ;
+    mim:code "3" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/bag/ontsluitingswijzeverdieping/trap"^^xsd:anyURI ;
     mim:naam "trap"@nl ;
     dcterms:identifier "EAID_30563C1D_DB39_462b_AFB0_7A39681B8620" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/ontsluitingswijzeverdieping> ;
+    skos:notation "3" ;
     skos:prefLabel "trap"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/ontsluitingswijzeverdieping> .
 
@@ -1747,7 +1791,7 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "geometrie"@nl ;
-    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/wktliteral> ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/multisurface> ;
     dcterms:identifier "EAID_C0987BF8_E01C_49af_AF3E_814D39E90620" ;
     rdfs:comment "De tweedimensionale geometrische representatie van de omtrekken van de openbare ruimte."@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/openbareruimte> ;
@@ -1856,7 +1900,6 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
     mim:definitie "<font color=\"#0f0f0f\">Bevat de naam van de openbare ruimte ten behoeve van visualisatie.</font>"@nl ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
-    mim:herkomst "BGT" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/bag/openbareruimte/labelnaam"^^xsd:anyURI ;
     mim:indicatieAfleidbaar false ;
     mim:indicatieClassificerend false ;
@@ -2016,7 +2059,7 @@ RUIMTE."""@nl ;
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "wegsegment"@nl ;
-    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/wktliteral> ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/curve> ;
     dcterms:identifier "EAID_BCC760A4_FCF9_416c_ADA2_F75BE3A4D5AE" ;
     rdfs:comment "De geometrische representatie van de openbare ruimte als een lijn."@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/openbareruimte> ;
@@ -2218,7 +2261,7 @@ Dit geeft aan dat een PAND in de registratie is opgenomen als gevolg van een fei
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "geometrieBovenaanzicht"@nl ;
-    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/wktliteral> ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/surface> ;
     dcterms:identifier "EAID_203A64ED_F28E_48f8_A0E6_EA1CB2925F41" ;
     rdfs:comment "<font color=\"#0f0f0f\">De minimaal tweedimensionale geometrische representatie van het bovenaanzicht van de omtrekken van een PAND</font>"@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/pand> ;
@@ -2239,7 +2282,7 @@ Dit geeft aan dat een PAND in de registratie is opgenomen als gevolg van een fei
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "geometrieMaaiveld"@nl ;
-    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/wktliteral> ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/multisurface> ;
     dcterms:identifier "EAID_BD33C5E2_0F05_4d48_8AB3_6C04354A5E06" ;
     rdfs:comment "De tweedimensionale geometrische representatie van de omtrekken van een PAND op maaiveldniveau"@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/pand> ;
@@ -2259,7 +2302,7 @@ Dit geeft aan dat een PAND in de registratie is opgenomen als gevolg van een fei
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "geometriePunt"@nl ;
-    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/wktliteral> ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/point> ;
     dcterms:identifier "EAID_3649B913_F912_47b4_97C8_6858E00C62E6" ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/pand> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/> ;
@@ -2483,10 +2526,12 @@ Dit geeft aan dat een PAND in de registratie is opgenomen als gevolg van een fei
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/soortwoonobject> ;
     rdfs:label "bijzonder woongebouw"@nl ;
+    mim:code "1" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/bag/soortwoonobject/bijzonder-woongebouw"^^xsd:anyURI ;
     mim:naam "bijzonder woongebouw"@nl ;
     dcterms:identifier "EAID_E07400C6_FD47_435d_A05D_B4F3053C907F" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/soortwoonobject> ;
+    skos:notation "1" ;
     skos:prefLabel "bijzonder woongebouw"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/soortwoonobject> .
 
@@ -2494,10 +2539,12 @@ Dit geeft aan dat een PAND in de registratie is opgenomen als gevolg van een fei
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/soortwoonobject> ;
     rdfs:label "Leeg"@nl ;
+    mim:code "-2" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/bag/soortwoonobject/leeg"^^xsd:anyURI ;
     mim:naam "Leeg"@nl ;
     dcterms:identifier "EAID_97D82EAF_973E_4653_87A9_0313BF3020C7" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/soortwoonobject> ;
+    skos:notation "-2" ;
     skos:prefLabel "Leeg"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/soortwoonobject> .
 
@@ -2505,10 +2552,12 @@ Dit geeft aan dat een PAND in de registratie is opgenomen als gevolg van een fei
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/soortwoonobject> ;
     rdfs:label "Onbekend"@nl ;
+    mim:code "-1" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/bag/soortwoonobject/onbekend"^^xsd:anyURI ;
     mim:naam "Onbekend"@nl ;
     dcterms:identifier "EAID_9A7CB622_4B1B_4d83_AAAC_F697F9567D7E" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/soortwoonobject> ;
+    skos:notation "-1" ;
     skos:prefLabel "Onbekend"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/soortwoonobject> .
 
@@ -2516,10 +2565,12 @@ Dit geeft aan dat een PAND in de registratie is opgenomen als gevolg van een fei
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/soortwoonobject> ;
     rdfs:label "overig woonverblijf"@nl ;
+    mim:code "2" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/bag/soortwoonobject/overig-woonverblijf"^^xsd:anyURI ;
     mim:naam "overig woonverblijf"@nl ;
     dcterms:identifier "EAID_CDC898CE_A33C_4da1_B71E_272726B0181C" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/soortwoonobject> ;
+    skos:notation "2" ;
     skos:prefLabel "overig woonverblijf"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/soortwoonobject> .
 
@@ -2527,10 +2578,12 @@ Dit geeft aan dat een PAND in de registratie is opgenomen als gevolg van een fei
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/soortwoonobject> ;
     rdfs:label "recreatiewoning"@nl ;
+    mim:code "3" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/bag/soortwoonobject/recreatiewoning"^^xsd:anyURI ;
     mim:naam "recreatiewoning"@nl ;
     dcterms:identifier "EAID_C5B8BB44_F310_4c17_91BD_A64EF9E9BD64" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/soortwoonobject> ;
+    skos:notation "3" ;
     skos:prefLabel "recreatiewoning"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/soortwoonobject> .
 
@@ -2538,10 +2591,12 @@ Dit geeft aan dat een PAND in de registratie is opgenomen als gevolg van een fei
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/soortwoonobject> ;
     rdfs:label "woning"@nl ;
+    mim:code "4" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/bag/soortwoonobject/woning"^^xsd:anyURI ;
     mim:naam "woning"@nl ;
     dcterms:identifier "EAID_F536C4CA_4C66_4d99_816C_4FE4937E1649" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/soortwoonobject> ;
+    skos:notation "4" ;
     skos:prefLabel "woning"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/soortwoonobject> .
 
@@ -2549,10 +2604,12 @@ Dit geeft aan dat een PAND in de registratie is opgenomen als gevolg van een fei
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/soortwoonobject> ;
     rdfs:label "wooneenheid"@nl ;
+    mim:code "5" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/bag/soortwoonobject/wooneenheid"^^xsd:anyURI ;
     mim:naam "wooneenheid"@nl ;
     dcterms:identifier "EAID_8A1AEC91_7403_4322_819E_62A5807D4CC0" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/soortwoonobject> ;
+    skos:notation "5" ;
     skos:prefLabel "wooneenheid"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/soortwoonobject> .
 
@@ -2732,7 +2789,7 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "Geometrie"@nl ;
-    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/wktliteral> ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/surface> ;
     dcterms:identifier "EAID_774E8A93_CE73_4ac5_8AA2_FBED2F203A6C" ;
     rdfs:comment "Loodrechte bovenaanzicht van de standplaats in het Nationale Rijksdriehoekstelsel, inclusief alle zichbare en onzichtbare delen boven en onder de grond, maar exclusief alle delen die kunnen bewegen ten opzichte van de aarde"@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/standplaats> ;
@@ -2804,10 +2861,12 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusligplaats> ;
     rdfs:label "Leeg"@nl ;
+    mim:code "-2" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusligplaats/leeg"^^xsd:anyURI ;
     mim:naam "Leeg"@nl ;
     dcterms:identifier "EAID_467066A6_8FB4_47c1_816F_29ABEA02207E" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusligplaats> ;
+    skos:notation "-2" ;
     skos:prefLabel "Leeg"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusligplaats> .
 
@@ -2815,10 +2874,12 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusligplaats> ;
     rdfs:label "Onbekend"@nl ;
+    mim:code "-1" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusligplaats/onbekend"^^xsd:anyURI ;
     mim:naam "Onbekend"@nl ;
     dcterms:identifier "EAID_7118BF35_4097_4e61_A21E_70B269A5728F" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusligplaats> ;
+    skos:notation "-1" ;
     skos:prefLabel "Onbekend"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusligplaats> .
 
@@ -2826,10 +2887,12 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusligplaats> ;
     rdfs:label "plaats aangewezen"@nl ;
+    mim:code "1" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusligplaats/plaats-aangewezen"^^xsd:anyURI ;
     mim:naam "plaats aangewezen"@nl ;
     dcterms:identifier "EAID_DB80ACFC_5E95_4f5f_A93F_01472E4B027C" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusligplaats> ;
+    skos:notation "1" ;
     skos:prefLabel "plaats aangewezen"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusligplaats> .
 
@@ -2837,10 +2900,12 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusligplaats> ;
     rdfs:label "plaats ingetrokken"@nl ;
+    mim:code "2" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusligplaats/plaats-ingetrokken"^^xsd:anyURI ;
     mim:naam "plaats ingetrokken"@nl ;
     dcterms:identifier "EAID_48546ECF_6895_43b5_A6F4_EBD04D04F6D1" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusligplaats> ;
+    skos:notation "2" ;
     skos:prefLabel "plaats ingetrokken"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusligplaats> .
 
@@ -2848,10 +2913,12 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusnummeraanduiding> ;
     rdfs:label "Leeg"@nl ;
+    mim:code "-2" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusnummeraanduiding/leeg"^^xsd:anyURI ;
     mim:naam "Leeg"@nl ;
     dcterms:identifier "EAID_6DE2BB37_7244_4701_AC87_F6003BE2C8CC" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusnummeraanduiding> ;
+    skos:notation "-2" ;
     skos:prefLabel "Leeg"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusnummeraanduiding> .
 
@@ -2859,10 +2926,12 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusnummeraanduiding> ;
     rdfs:label "naamgeving ingetrokken"@nl ;
+    mim:code "1" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusnummeraanduiding/naamgeving-ingetrokken"^^xsd:anyURI ;
     mim:naam "naamgeving ingetrokken"@nl ;
     dcterms:identifier "EAID_D45D056F_351B_41c1_9F3B_CDA6047AD108" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusnummeraanduiding> ;
+    skos:notation "1" ;
     skos:prefLabel "naamgeving ingetrokken"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusnummeraanduiding> .
 
@@ -2870,10 +2939,12 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusnummeraanduiding> ;
     rdfs:label "naamgeving uitgegeven"@nl ;
+    mim:code "2" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusnummeraanduiding/naamgeving-uitgegeven"^^xsd:anyURI ;
     mim:naam "naamgeving uitgegeven"@nl ;
     dcterms:identifier "EAID_18A1FBDC_1935_4484_B0C7_888320E6CCE3" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusnummeraanduiding> ;
+    skos:notation "2" ;
     skos:prefLabel "naamgeving uitgegeven"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusnummeraanduiding> .
 
@@ -2881,10 +2952,12 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusnummeraanduiding> ;
     rdfs:label "Onbekend"@nl ;
+    mim:code "-1" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusnummeraanduiding/onbekend"^^xsd:anyURI ;
     mim:naam "Onbekend"@nl ;
     dcterms:identifier "EAID_1E636BF9_BC6D_46f4_9EBD_C6C96F000E14" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusnummeraanduiding> ;
+    skos:notation "-1" ;
     skos:prefLabel "Onbekend"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusnummeraanduiding> .
 
@@ -2892,10 +2965,12 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusopenbareruimte> ;
     rdfs:label "Leeg"@nl ;
+    mim:code "-2" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusopenbareruimte/leeg"^^xsd:anyURI ;
     mim:naam "Leeg"@nl ;
     dcterms:identifier "EAID_A454C453_692F_4200_BE02_247500A09374" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusopenbareruimte> ;
+    skos:notation "-2" ;
     skos:prefLabel "Leeg"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusopenbareruimte> .
 
@@ -2903,10 +2978,12 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusopenbareruimte> ;
     rdfs:label "naamgeving ingetrokken"@nl ;
+    mim:code "1" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusopenbareruimte/naamgeving-ingetrokken"^^xsd:anyURI ;
     mim:naam "naamgeving ingetrokken"@nl ;
     dcterms:identifier "EAID_A7A853E5_2B98_441c_89B2_803A50EB05CE" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusopenbareruimte> ;
+    skos:notation "1" ;
     skos:prefLabel "naamgeving ingetrokken"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusopenbareruimte> .
 
@@ -2914,10 +2991,12 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusopenbareruimte> ;
     rdfs:label "naamgeving uitgegeven"@nl ;
+    mim:code "2" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusopenbareruimte/naamgeving-uitgegeven"^^xsd:anyURI ;
     mim:naam "naamgeving uitgegeven"@nl ;
     dcterms:identifier "EAID_8A953D13_0BA4_41f6_9183_5BD6AC5CAA25" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusopenbareruimte> ;
+    skos:notation "2" ;
     skos:prefLabel "naamgeving uitgegeven"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusopenbareruimte> .
 
@@ -2925,10 +3004,12 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusopenbareruimte> ;
     rdfs:label "Onbekend"@nl ;
+    mim:code "-1" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusopenbareruimte/onbekend"^^xsd:anyURI ;
     mim:naam "Onbekend"@nl ;
     dcterms:identifier "EAID_2833B08E_B2BF_4e9b_A6D4_91D082F901BF" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusopenbareruimte> ;
+    skos:notation "-1" ;
     skos:prefLabel "Onbekend"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusopenbareruimte> .
 
@@ -2936,6 +3017,7 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statuspand> ;
     rdfs:label "bouw gestart"@nl ;
+    mim:code "1" ;
     mim:definitie """Een pand waarvan de aanvrager van de bouwvergunning heeft gemeld dat de bouw is gestart of waarvan in een schriftelijke verklaring van een daartoe bevoegd ambtenaar is vastgesteld dat de feitelijke bouw is 
 aangevangen door minimaal de aanleg van de fundering 
 (waartoe niet het bouwrijp maken van een terrein wordt 
@@ -2948,6 +3030,7 @@ aangevangen door minimaal de aanleg van de fundering
 (waartoe niet het bouwrijp maken van een terrein wordt 
 gerekend)"""@nl ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statuspand> ;
+    skos:notation "1" ;
     skos:prefLabel "bouw gestart"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statuspand> .
 
@@ -2955,10 +3038,12 @@ gerekend)"""@nl ;
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statuspand> ;
     rdfs:label "bouwaanvraag ontvangen"@nl ;
+    mim:code "2" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statuspand/bouwaanvraag-ontvangen"^^xsd:anyURI ;
     mim:naam "bouwaanvraag ontvangen"@nl ;
     dcterms:identifier "EAID_0E391EA7_5DE3_4534_AD7E_C8993FEFC5FA" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statuspand> ;
+    skos:notation "2" ;
     skos:prefLabel "bouwaanvraag ontvangen"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statuspand> .
 
@@ -2966,12 +3051,14 @@ gerekend)"""@nl ;
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statuspand> ;
     rdfs:label "bouwvergunning verleend"@nl ;
+    mim:code "3" ;
     mim:definitie "Een nieuw pand dat nog niet is gebouwd maar waarvoor wel een bouwvergunning is verleend."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statuspand/bouwvergunning-verleend"^^xsd:anyURI ;
     mim:naam "bouwvergunning verleend"@nl ;
     dcterms:identifier "EAID_F5AE081E_3CDC_402c_B51E_5B8616B3EF0C" ;
     skos:definition "Een nieuw pand dat nog niet is gebouwd maar waarvoor wel een bouwvergunning is verleend."@nl ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statuspand> ;
+    skos:notation "3" ;
     skos:prefLabel "bouwvergunning verleend"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statuspand> .
 
@@ -2979,10 +3066,12 @@ gerekend)"""@nl ;
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statuspand> ;
     rdfs:label "Leeg"@nl ;
+    mim:code "-2" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statuspand/leeg"^^xsd:anyURI ;
     mim:naam "Leeg"@nl ;
     dcterms:identifier "EAID_85FA2EBC_644D_493a_A5B5_B55D8057335E" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statuspand> ;
+    skos:notation "-2" ;
     skos:prefLabel "Leeg"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statuspand> .
 
@@ -2990,6 +3079,7 @@ gerekend)"""@nl ;
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statuspand> ;
     rdfs:label "niet gerealiseerd pand"@nl ;
+    mim:code "4" ;
     mim:definitie """Een pand waarvoor een bouwvergunning was verleend, maar waarvan in een schriftelijke verklaring van een daartoe bevoegd ambtenaar is 
 vastgesteld dat wordt afgezien van de bouw of waarvan de 
 bouwvergunning is ingetrokken."""@nl ;
@@ -3000,6 +3090,7 @@ bouwvergunning is ingetrokken."""@nl ;
 vastgesteld dat wordt afgezien van de bouw of waarvan de 
 bouwvergunning is ingetrokken."""@nl ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statuspand> ;
+    skos:notation "4" ;
     skos:prefLabel "niet gerealiseerd pand"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statuspand> .
 
@@ -3007,10 +3098,12 @@ bouwvergunning is ingetrokken."""@nl ;
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statuspand> ;
     rdfs:label "Onbekend"@nl ;
+    mim:code "-1" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statuspand/onbekend"^^xsd:anyURI ;
     mim:naam "Onbekend"@nl ;
     dcterms:identifier "EAID_3EDCDAF5_9EDE_4481_A906_D745AD4252C1" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statuspand> ;
+    skos:notation "-1" ;
     skos:prefLabel "Onbekend"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statuspand> .
 
@@ -3018,12 +3111,14 @@ bouwvergunning is ingetrokken."""@nl ;
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statuspand> ;
     rdfs:label "pand buiten gebruik"@nl ;
+    mim:code "5" ;
     mim:definitie "Een pand dat in dusdanige bouwkundige staat is dat niet te verwachten is dat het pand zal worden hersteld en weer in gebruik zal worden genomen."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statuspand/pand-buiten-gebruik"^^xsd:anyURI ;
     mim:naam "pand buiten gebruik"@nl ;
     dcterms:identifier "EAID_DF431C42_9ED8_42fc_A8C1_44A192AE531E" ;
     skos:definition "Een pand dat in dusdanige bouwkundige staat is dat niet te verwachten is dat het pand zal worden hersteld en weer in gebruik zal worden genomen."@nl ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statuspand> ;
+    skos:notation "5" ;
     skos:prefLabel "pand buiten gebruik"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statuspand> .
 
@@ -3031,12 +3126,14 @@ bouwvergunning is ingetrokken."""@nl ;
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statuspand> ;
     rdfs:label "pand gesloopt"@nl ;
+    mim:code "6" ;
     mim:definitie "Een pand waarvan de aanvrager van de sloopvergunning heeft gemeld dat de sloop is voltooid of in een schriftelijke verklaring van een daartoe bevoegd ambtenaar is vastgesteld dat het pand is gesloopt."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statuspand/pand-gesloopt"^^xsd:anyURI ;
     mim:naam "pand gesloopt"@nl ;
     dcterms:identifier "EAID_CBF0AFA5_4CC9_48af_882F_9C289A2FD47C" ;
     skos:definition "Een pand waarvan de aanvrager van de sloopvergunning heeft gemeld dat de sloop is voltooid of in een schriftelijke verklaring van een daartoe bevoegd ambtenaar is vastgesteld dat het pand is gesloopt."@nl ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statuspand> ;
+    skos:notation "6" ;
     skos:prefLabel "pand gesloopt"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statuspand> .
 
@@ -3044,12 +3141,14 @@ bouwvergunning is ingetrokken."""@nl ;
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statuspand> ;
     rdfs:label "pand in gebruik"@nl ;
+    mim:code "7" ;
     mim:definitie "Een pand dat feitelijk de status “Pand in gebruik (niet ingemeten)” had en waarvan de definitieve geometrie is ingemeten"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statuspand/pand-in-gebruik"^^xsd:anyURI ;
     mim:naam "pand in gebruik"@nl ;
     dcterms:identifier "EAID_76DA02A5_5246_4520_A322_ED92BA409F8F" ;
     skos:definition "Een pand dat feitelijk de status “Pand in gebruik (niet ingemeten)” had en waarvan de definitieve geometrie is ingemeten"@nl ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statuspand> ;
+    skos:notation "7" ;
     skos:prefLabel "pand in gebruik"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statuspand> .
 
@@ -3057,6 +3156,7 @@ bouwvergunning is ingetrokken."""@nl ;
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statuspand> ;
     rdfs:label "pand in gebruik (niet ingemeten)"@nl ;
+    mim:code "8" ;
     mim:definitie """Een pand, waarvan de geometrie nog niet is ingemeten, waarvan de aanvrager van de bouwvergunning heeft gemeld dat de bouw is voltooid of waarvan in een schriftelijke verklaring van een daartoe bevoegd ambtenaar is vastgesteld dat het pand feitelijk 
 in gebruik is genomen voor bijvoorbeeld bewoning dan wel 
 bedrijfsuitoefening of dat het weliswaar (nog) niet in gebruik is 
@@ -3069,6 +3169,7 @@ in gebruik is genomen voor bijvoorbeeld bewoning dan wel
 bedrijfsuitoefening of dat het weliswaar (nog) niet in gebruik is 
 genomen maar naar het oordeel van de gemeente wel gebruiksgereed is"""@nl ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statuspand> ;
+    skos:notation "8" ;
     skos:prefLabel "pand in gebruik (niet ingemeten)"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statuspand> .
 
@@ -3076,10 +3177,12 @@ genomen maar naar het oordeel van de gemeente wel gebruiksgereed is"""@nl ;
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statuspand> ;
     rdfs:label "pand ten onrechte opgevoerd"@nl ;
+    mim:code "9" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statuspand/pand-ten-onrechte-opgevoerd"^^xsd:anyURI ;
     mim:naam "pand ten onrechte opgevoerd"@nl ;
     dcterms:identifier "EAID_02140B28_50DF_4ade_A7DE_D1EC1C8C12DB" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statuspand> ;
+    skos:notation "9" ;
     skos:prefLabel "pand ten onrechte opgevoerd"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statuspand> .
 
@@ -3087,12 +3190,14 @@ genomen maar naar het oordeel van de gemeente wel gebruiksgereed is"""@nl ;
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statuspand> ;
     rdfs:label "sloopvergunning verleend"@nl ;
+    mim:code "10" ;
     mim:definitie "Een pand waarvoor een sloopvergunning is verleend"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statuspand/sloopvergunning-verleend"^^xsd:anyURI ;
     mim:naam "sloopvergunning verleend"@nl ;
     dcterms:identifier "EAID_CDB3A3D0_963E_4ed2_9EF6_ECB310A811B7" ;
     skos:definition "Een pand waarvoor een sloopvergunning is verleend"@nl ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statuspand> ;
+    skos:notation "10" ;
     skos:prefLabel "sloopvergunning verleend"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statuspand> .
 
@@ -3100,10 +3205,12 @@ genomen maar naar het oordeel van de gemeente wel gebruiksgereed is"""@nl ;
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statuspand> ;
     rdfs:label "verbouwing pand"@nl ;
+    mim:code "11" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statuspand/verbouwing-pand"^^xsd:anyURI ;
     mim:naam "verbouwing pand"@nl ;
     dcterms:identifier "EAID_3BBD48CA_09B6_4fa0_B6C3_AED8F1243754" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statuspand> ;
+    skos:notation "11" ;
     skos:prefLabel "verbouwing pand"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statuspand> .
 
@@ -3111,10 +3218,12 @@ genomen maar naar het oordeel van de gemeente wel gebruiksgereed is"""@nl ;
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusstandplaats> ;
     rdfs:label "Leeg"@nl ;
+    mim:code "-2" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusstandplaats/leeg"^^xsd:anyURI ;
     mim:naam "Leeg"@nl ;
     dcterms:identifier "EAID_5CCF4D4A_1749_4be7_BB97_E50728A57959" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusstandplaats> ;
+    skos:notation "-2" ;
     skos:prefLabel "Leeg"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusstandplaats> .
 
@@ -3122,10 +3231,12 @@ genomen maar naar het oordeel van de gemeente wel gebruiksgereed is"""@nl ;
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusstandplaats> ;
     rdfs:label "Onbekend"@nl ;
+    mim:code "-1" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusstandplaats/onbekend"^^xsd:anyURI ;
     mim:naam "Onbekend"@nl ;
     dcterms:identifier "EAID_BDAC8527_D9C8_47d2_BDC8_23AB73C665A4" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusstandplaats> ;
+    skos:notation "-1" ;
     skos:prefLabel "Onbekend"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusstandplaats> .
 
@@ -3133,10 +3244,12 @@ genomen maar naar het oordeel van de gemeente wel gebruiksgereed is"""@nl ;
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusstandplaats> ;
     rdfs:label "plaats aangewezen"@nl ;
+    mim:code "1" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusstandplaats/plaats-aangewezen"^^xsd:anyURI ;
     mim:naam "plaats aangewezen"@nl ;
     dcterms:identifier "EAID_7497D417_4269_4254_A3EC_97390BD91637" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusstandplaats> ;
+    skos:notation "1" ;
     skos:prefLabel "plaats aangewezen"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusstandplaats> .
 
@@ -3144,10 +3257,12 @@ genomen maar naar het oordeel van de gemeente wel gebruiksgereed is"""@nl ;
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusstandplaats> ;
     rdfs:label "plaats ingetrokken"@nl ;
+    mim:code "2" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusstandplaats/plaats-ingetrokken"^^xsd:anyURI ;
     mim:naam "plaats ingetrokken"@nl ;
     dcterms:identifier "EAID_E8060485_1BFF_429a_AE8A_C5C18B9EA437" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusstandplaats> ;
+    skos:notation "2" ;
     skos:prefLabel "plaats ingetrokken"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusstandplaats> .
 
@@ -3155,10 +3270,12 @@ genomen maar naar het oordeel van de gemeente wel gebruiksgereed is"""@nl ;
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusverblijfsobject> ;
     rdfs:label "Leeg"@nl ;
+    mim:code "-2" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusverblijfsobject/leeg"^^xsd:anyURI ;
     mim:naam "Leeg"@nl ;
     dcterms:identifier "EAID_4CCBF4CC_F0C3_4f6b_9CCD_F909E55BDDED" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusverblijfsobject> ;
+    skos:notation "-2" ;
     skos:prefLabel "Leeg"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusverblijfsobject> .
 
@@ -3166,12 +3283,14 @@ genomen maar naar het oordeel van de gemeente wel gebruiksgereed is"""@nl ;
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusverblijfsobject> ;
     rdfs:label "niet gerealiseerd verblijfsobject"@nl ;
+    mim:code "1" ;
     mim:definitie "Een verblijfsobject in een pand waarvoor een bouwvergunning was verleend of dat gerealiseerd zou worden in een reeds bestaand pand, maar waarvan in een schriftelijke verklaring van een daartoe bevoegd ambtenaar is vastgesteld dat wordt afgezien van de bouw of waarvan de bouwvergunning is ingetrokken."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusverblijfsobject/niet-gerealiseerd-verblijfsobject"^^xsd:anyURI ;
     mim:naam "niet gerealiseerd verblijfsobject"@nl ;
     dcterms:identifier "EAID_26DE8B1B_579F_43d7_ABC1_615B171A30D3" ;
     skos:definition "Een verblijfsobject in een pand waarvoor een bouwvergunning was verleend of dat gerealiseerd zou worden in een reeds bestaand pand, maar waarvan in een schriftelijke verklaring van een daartoe bevoegd ambtenaar is vastgesteld dat wordt afgezien van de bouw of waarvan de bouwvergunning is ingetrokken."@nl ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusverblijfsobject> ;
+    skos:notation "1" ;
     skos:prefLabel "niet gerealiseerd verblijfsobject"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusverblijfsobject> .
 
@@ -3179,10 +3298,12 @@ genomen maar naar het oordeel van de gemeente wel gebruiksgereed is"""@nl ;
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusverblijfsobject> ;
     rdfs:label "Onbekend"@nl ;
+    mim:code "-1" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusverblijfsobject/onbekend"^^xsd:anyURI ;
     mim:naam "Onbekend"@nl ;
     dcterms:identifier "EAID_72191DEE_0445_4684_9D74_4D18A8DC718A" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusverblijfsobject> ;
+    skos:notation "-1" ;
     skos:prefLabel "Onbekend"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusverblijfsobject> .
 
@@ -3190,12 +3311,14 @@ genomen maar naar het oordeel van de gemeente wel gebruiksgereed is"""@nl ;
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusverblijfsobject> ;
     rdfs:label "verblijfsobject buiten gebruik"@nl ;
+    mim:code "2" ;
     mim:definitie "Een verblijfsobject dat onderdeel uitmaakt van een pand dat in dusdanige bouwkundige staat is dat niet te verwachten is dat het pand zal worden hersteld en weer in gebruik zal worden genomen."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusverblijfsobject/verblijfsobject-buiten-gebruik"^^xsd:anyURI ;
     mim:naam "verblijfsobject buiten gebruik"@nl ;
     dcterms:identifier "EAID_C5E5B926_8E7E_43a5_91CF_24D650A19124" ;
     skos:definition "Een verblijfsobject dat onderdeel uitmaakt van een pand dat in dusdanige bouwkundige staat is dat niet te verwachten is dat het pand zal worden hersteld en weer in gebruik zal worden genomen."@nl ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusverblijfsobject> ;
+    skos:notation "2" ;
     skos:prefLabel "verblijfsobject buiten gebruik"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusverblijfsobject> .
 
@@ -3203,12 +3326,14 @@ genomen maar naar het oordeel van de gemeente wel gebruiksgereed is"""@nl ;
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusverblijfsobject> ;
     rdfs:label "verblijfsobject gevormd"@nl ;
+    mim:code "3" ;
     mim:definitie "Een nieuw verblijfsobject dat deel gaat uitmaken van een nog niet gebouwd pand waarvoor een bouwvergunning is verleend of dat wordt gerealiseerd in een reeds bestaand pand."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusverblijfsobject/verblijfsobject-gevormd"^^xsd:anyURI ;
     mim:naam "verblijfsobject gevormd"@nl ;
     dcterms:identifier "EAID_0F4E9BFF_CCD7_42f7_BBB5_19997D63155C" ;
     skos:definition "Een nieuw verblijfsobject dat deel gaat uitmaken van een nog niet gebouwd pand waarvoor een bouwvergunning is verleend of dat wordt gerealiseerd in een reeds bestaand pand."@nl ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusverblijfsobject> ;
+    skos:notation "3" ;
     skos:prefLabel "verblijfsobject gevormd"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusverblijfsobject> .
 
@@ -3216,12 +3341,14 @@ genomen maar naar het oordeel van de gemeente wel gebruiksgereed is"""@nl ;
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusverblijfsobject> ;
     rdfs:label "verblijfsobject in gebruik"@nl ;
+    mim:code "4" ;
     mim:definitie "Een verblijfsobject dat feitelijk de status “Verblijfsobject in gebruik (niet ingemeten)” had en waarvan de definitieve geometrie is ingemeten."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusverblijfsobject/verblijfsobject-in-gebruik"^^xsd:anyURI ;
     mim:naam "verblijfsobject in gebruik"@nl ;
     dcterms:identifier "EAID_8F715B77_E57D_4189_B0BE_1B83D6D5E438" ;
     skos:definition "Een verblijfsobject dat feitelijk de status “Verblijfsobject in gebruik (niet ingemeten)” had en waarvan de definitieve geometrie is ingemeten."@nl ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusverblijfsobject> ;
+    skos:notation "4" ;
     skos:prefLabel "verblijfsobject in gebruik"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusverblijfsobject> .
 
@@ -3229,6 +3356,7 @@ genomen maar naar het oordeel van de gemeente wel gebruiksgereed is"""@nl ;
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusverblijfsobject> ;
     rdfs:label "verblijfsobject in gebruik (niet ingemeten)"@nl ;
+    mim:code "5" ;
     mim:definitie """Een verblijfsobject waarvan de aanvrager van de bouwvergunning heeft gemeld dat de bouw is voltooid of waarvan in een schriftelijke 
 verklaring van een daartoe bevoegd ambtenaar is vastgesteld dat het verblijfsobject feitelijk in gebruik is genomen voor bijvoorbeeld bewoning dan wel bedrijfsuitoefening of dat het weliswaar (nog) niet in gebruik is genomen maar naar het oordeel van de gemeente wel gebruiksgereed is. Het object is nog niet ingemeten."""@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusverblijfsobject/verblijfsobject-in-gebruik-niet-ingemeten"^^xsd:anyURI ;
@@ -3237,6 +3365,7 @@ verklaring van een daartoe bevoegd ambtenaar is vastgesteld dat het verblijfsobj
     skos:definition """Een verblijfsobject waarvan de aanvrager van de bouwvergunning heeft gemeld dat de bouw is voltooid of waarvan in een schriftelijke 
 verklaring van een daartoe bevoegd ambtenaar is vastgesteld dat het verblijfsobject feitelijk in gebruik is genomen voor bijvoorbeeld bewoning dan wel bedrijfsuitoefening of dat het weliswaar (nog) niet in gebruik is genomen maar naar het oordeel van de gemeente wel gebruiksgereed is. Het object is nog niet ingemeten."""@nl ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusverblijfsobject> ;
+    skos:notation "5" ;
     skos:prefLabel "verblijfsobject in gebruik (niet ingemeten)"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusverblijfsobject> .
 
@@ -3244,6 +3373,7 @@ verklaring van een daartoe bevoegd ambtenaar is vastgesteld dat het verblijfsobj
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusverblijfsobject> ;
     rdfs:label "verblijfsobject ingetrokken"@nl ;
+    mim:code "6" ;
     mim:definitie """een verblijfsobject dat als zodanig Catalogus basisregistraties adressen en gebouwen 2009 Pagina 79 van 79 opgehouden heeft te bestaan omdat de aanvrager van een sloopvergunning heeft gemeld dat de sloop is voltooid of in een schriftelijke verklaring van een daartoe bevoegd ambtenaar is.
 vastgesteld dat het verblijfsobject als zodanig niet meer 
 bestaat"""@nl ;
@@ -3254,6 +3384,7 @@ bestaat"""@nl ;
 vastgesteld dat het verblijfsobject als zodanig niet meer 
 bestaat"""@nl ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusverblijfsobject> ;
+    skos:notation "6" ;
     skos:prefLabel "verblijfsobject ingetrokken"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusverblijfsobject> .
 
@@ -3261,10 +3392,12 @@ bestaat"""@nl ;
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusvoortgangbouw> ;
     rdfs:label "Leeg"@nl ;
+    mim:code "-2" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusvoortgangbouw/leeg"^^xsd:anyURI ;
     mim:naam "Leeg"@nl ;
     dcterms:identifier "EAID_15366441_0C4E_4277_964A_63090907CC66" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusvoortgangbouw> ;
+    skos:notation "-2" ;
     skos:prefLabel "Leeg"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusvoortgangbouw> .
 
@@ -3272,10 +3405,12 @@ bestaat"""@nl ;
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusvoortgangbouw> ;
     rdfs:label "nieuwbouw gereed"@nl ;
+    mim:code "1" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusvoortgangbouw/nieuwbouw-gereed"^^xsd:anyURI ;
     mim:naam "nieuwbouw gereed"@nl ;
     dcterms:identifier "EAID_5A309D6B_A20F_4ba4_A575_F69A7E229593" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusvoortgangbouw> ;
+    skos:notation "1" ;
     skos:prefLabel "nieuwbouw gereed"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusvoortgangbouw> .
 
@@ -3283,10 +3418,12 @@ bestaat"""@nl ;
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusvoortgangbouw> ;
     rdfs:label "nieuwbouw gestart"@nl ;
+    mim:code "2" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusvoortgangbouw/nieuwbouw-gestart"^^xsd:anyURI ;
     mim:naam "nieuwbouw gestart"@nl ;
     dcterms:identifier "EAID_807DA5B4_0667_43d0_8C0D_B5EF2B800D9C" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusvoortgangbouw> ;
+    skos:notation "2" ;
     skos:prefLabel "nieuwbouw gestart"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusvoortgangbouw> .
 
@@ -3294,10 +3431,12 @@ bestaat"""@nl ;
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusvoortgangbouw> ;
     rdfs:label "nieuwbouwvergunning ingetrokken"@nl ;
+    mim:code "3" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusvoortgangbouw/nieuwbouwvergunning-ingetrokken"^^xsd:anyURI ;
     mim:naam "nieuwbouwvergunning ingetrokken"@nl ;
     dcterms:identifier "EAID_680D28BB_2ACC_4289_9E54_D35E61A04E28" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusvoortgangbouw> ;
+    skos:notation "3" ;
     skos:prefLabel "nieuwbouwvergunning ingetrokken"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusvoortgangbouw> .
 
@@ -3305,10 +3444,12 @@ bestaat"""@nl ;
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusvoortgangbouw> ;
     rdfs:label "nieuwbouwvergunning verleend"@nl ;
+    mim:code "4" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusvoortgangbouw/nieuwbouwvergunning-verleend"^^xsd:anyURI ;
     mim:naam "nieuwbouwvergunning verleend"@nl ;
     dcterms:identifier "EAID_E60879D6_09F9_457c_91C3_BB3F808E57BE" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusvoortgangbouw> ;
+    skos:notation "4" ;
     skos:prefLabel "nieuwbouwvergunning verleend"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusvoortgangbouw> .
 
@@ -3316,10 +3457,12 @@ bestaat"""@nl ;
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusvoortgangbouw> ;
     rdfs:label "Onbekend"@nl ;
+    mim:code "-1" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusvoortgangbouw/onbekend"^^xsd:anyURI ;
     mim:naam "Onbekend"@nl ;
     dcterms:identifier "EAID_29C81645_DD9D_40e2_BE4E_B9E77275CE36" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusvoortgangbouw> ;
+    skos:notation "-1" ;
     skos:prefLabel "Onbekend"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusvoortgangbouw> .
 
@@ -3327,10 +3470,12 @@ bestaat"""@nl ;
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusvoortgangbouw> ;
     rdfs:label "sloop gereed"@nl ;
+    mim:code "5" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusvoortgangbouw/sloop-gereed"^^xsd:anyURI ;
     mim:naam "sloop gereed"@nl ;
     dcterms:identifier "EAID_4B5007A9_9918_49c0_BB81_23F6B58D117E" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusvoortgangbouw> ;
+    skos:notation "5" ;
     skos:prefLabel "sloop gereed"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusvoortgangbouw> .
 
@@ -3338,10 +3483,12 @@ bestaat"""@nl ;
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusvoortgangbouw> ;
     rdfs:label "sloop gestart"@nl ;
+    mim:code "6" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusvoortgangbouw/sloop-gestart"^^xsd:anyURI ;
     mim:naam "sloop gestart"@nl ;
     dcterms:identifier "EAID_6C744291_3B43_44cf_A587_6504577B206B" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusvoortgangbouw> ;
+    skos:notation "6" ;
     skos:prefLabel "sloop gestart"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusvoortgangbouw> .
 
@@ -3349,10 +3496,12 @@ bestaat"""@nl ;
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusvoortgangbouw> ;
     rdfs:label "sloopvergunning ingetrokken"@nl ;
+    mim:code "7" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusvoortgangbouw/sloopvergunning-ingetrokken"^^xsd:anyURI ;
     mim:naam "sloopvergunning ingetrokken"@nl ;
     dcterms:identifier "EAID_3E494042_38CA_4d13_8170_033C1BE148AC" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusvoortgangbouw> ;
+    skos:notation "7" ;
     skos:prefLabel "sloopvergunning ingetrokken"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusvoortgangbouw> .
 
@@ -3360,10 +3509,12 @@ bestaat"""@nl ;
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusvoortgangbouw> ;
     rdfs:label "sloopvergunning verleend"@nl ;
+    mim:code "8" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusvoortgangbouw/sloopvergunning-verleend"^^xsd:anyURI ;
     mim:naam "sloopvergunning verleend"@nl ;
     dcterms:identifier "EAID_A511A0CB_F60E_4bbb_BA0F_AE0EA9EFFA2C" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusvoortgangbouw> ;
+    skos:notation "8" ;
     skos:prefLabel "sloopvergunning verleend"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusvoortgangbouw> .
 
@@ -3371,10 +3522,12 @@ bestaat"""@nl ;
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusvoortgangbouw> ;
     rdfs:label "verbouw gereed"@nl ;
+    mim:code "9" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusvoortgangbouw/verbouw-gereed"^^xsd:anyURI ;
     mim:naam "verbouw gereed"@nl ;
     dcterms:identifier "EAID_6DB462C4_DB36_4511_AFAB_EDF308F30636" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusvoortgangbouw> ;
+    skos:notation "9" ;
     skos:prefLabel "verbouw gereed"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusvoortgangbouw> .
 
@@ -3382,10 +3535,12 @@ bestaat"""@nl ;
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusvoortgangbouw> ;
     rdfs:label "verbouw gestart"@nl ;
+    mim:code "10" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusvoortgangbouw/verbouw-gestart"^^xsd:anyURI ;
     mim:naam "verbouw gestart"@nl ;
     dcterms:identifier "EAID_85E282D4_ADAD_4045_9CDC_121FE7B9EF17" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusvoortgangbouw> ;
+    skos:notation "10" ;
     skos:prefLabel "verbouw gestart"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusvoortgangbouw> .
 
@@ -3393,10 +3548,12 @@ bestaat"""@nl ;
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusvoortgangbouw> ;
     rdfs:label "verbouwvergunning ingetrokken"@nl ;
+    mim:code "11" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusvoortgangbouw/verbouwvergunning-ingetrokken"^^xsd:anyURI ;
     mim:naam "verbouwvergunning ingetrokken"@nl ;
     dcterms:identifier "EAID_5220326E_9294_4e1a_912B_9F3C833983EA" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusvoortgangbouw> ;
+    skos:notation "11" ;
     skos:prefLabel "verbouwvergunning ingetrokken"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusvoortgangbouw> .
 
@@ -3404,10 +3561,12 @@ bestaat"""@nl ;
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusvoortgangbouw> ;
     rdfs:label "verbouwvergunning verleend"@nl ;
+    mim:code "12" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusvoortgangbouw/verbouwvergunning-verleend"^^xsd:anyURI ;
     mim:naam "verbouwvergunning verleend"@nl ;
     dcterms:identifier "EAID_C8CFD381_88FB_4d41_B1A6_36F069B61A4F" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusvoortgangbouw> ;
+    skos:notation "12" ;
     skos:prefLabel "verbouwvergunning verleend"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusvoortgangbouw> .
 
@@ -3415,10 +3574,12 @@ bestaat"""@nl ;
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statuswoonplaats> ;
     rdfs:label "Leeg"@nl ;
+    mim:code "-2" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statuswoonplaats/leeg"^^xsd:anyURI ;
     mim:naam "Leeg"@nl ;
     dcterms:identifier "EAID_1E809683_8852_4f82_93DE_9D1EAE573048" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statuswoonplaats> ;
+    skos:notation "-2" ;
     skos:prefLabel "Leeg"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statuswoonplaats> .
 
@@ -3426,10 +3587,12 @@ bestaat"""@nl ;
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statuswoonplaats> ;
     rdfs:label "Onbekend"@nl ;
+    mim:code "-1" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statuswoonplaats/onbekend"^^xsd:anyURI ;
     mim:naam "Onbekend"@nl ;
     dcterms:identifier "EAID_3392BB3C_AA21_4e49_874E_399079699ABB" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statuswoonplaats> ;
+    skos:notation "-1" ;
     skos:prefLabel "Onbekend"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statuswoonplaats> .
 
@@ -3437,10 +3600,12 @@ bestaat"""@nl ;
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statuswoonplaats> ;
     rdfs:label "woonplaats aangewezen"@nl ;
+    mim:code "2" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statuswoonplaats/woonplaats-aangewezen"^^xsd:anyURI ;
     mim:naam "woonplaats aangewezen"@nl ;
     dcterms:identifier "EAID_4898A355_6DEC_4e7e_B81D_DFF441BFA1B1" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statuswoonplaats> ;
+    skos:notation "2" ;
     skos:prefLabel "woonplaats aangewezen"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statuswoonplaats> .
 
@@ -3448,10 +3613,12 @@ bestaat"""@nl ;
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statuswoonplaats> ;
     rdfs:label "woonplaats ingetrokken"@nl ;
+    mim:code "1" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statuswoonplaats/woonplaats-ingetrokken"^^xsd:anyURI ;
     mim:naam "woonplaats ingetrokken"@nl ;
     dcterms:identifier "EAID_D78EFF47_CC6E_4003_9AEA_ABE76D82B1A4" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statuswoonplaats> ;
+    skos:notation "1" ;
     skos:prefLabel "woonplaats ingetrokken"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statuswoonplaats> .
 
@@ -3492,12 +3659,14 @@ bestaat"""@nl ;
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/typeringopenbareruimte> ;
     rdfs:label "administratief gebied"@nl ;
+    mim:code "1" ;
     mim:definitie "Op basis van wet- of regelgeving afgebakend gebied dat als eenheid geldt van politiek/bestuurlijke verantwoordelijkheid of voor bedrijfsvoering"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/bag/typeringopenbareruimte/administratief-gebied"^^xsd:anyURI ;
     mim:naam "administratief gebied"@nl ;
     dcterms:identifier "EAID_147EF253_09E9_4668_9CF7_271048752062" ;
     skos:definition "Op basis van wet- of regelgeving afgebakend gebied dat als eenheid geldt van politiek/bestuurlijke verantwoordelijkheid of voor bedrijfsvoering"@nl ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/typeringopenbareruimte> ;
+    skos:notation "1" ;
     skos:prefLabel "administratief gebied"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/typeringopenbareruimte> .
 
@@ -3505,12 +3674,14 @@ bestaat"""@nl ;
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/typeringopenbareruimte> ;
     rdfs:label "functioneel gebied"@nl ;
+    mim:code "2" ;
     mim:definitie "Begrensd en benoemd gebied dat door een functionele eenheid wordt beschreven (bijvoorbeeld bedrijventerrein, bungalowpark, plantsoen, begraafplaats, jachthaven, windmolenpark, recreatiegebied ."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/bag/typeringopenbareruimte/functioneel-gebied"^^xsd:anyURI ;
     mim:naam "functioneel gebied"@nl ;
     dcterms:identifier "EAID_55771DCC_564D_423c_8166_150428728843" ;
     skos:definition "Begrensd en benoemd gebied dat door een functionele eenheid wordt beschreven (bijvoorbeeld bedrijventerrein, bungalowpark, plantsoen, begraafplaats, jachthaven, windmolenpark, recreatiegebied ."@nl ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/typeringopenbareruimte> ;
+    skos:notation "2" ;
     skos:prefLabel "functioneel gebied"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/typeringopenbareruimte> .
 
@@ -3518,6 +3689,7 @@ bestaat"""@nl ;
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/typeringopenbareruimte> ;
     rdfs:label "kunstwerk"@nl ;
+    mim:code "3" ;
     mim:definitie """Civiel-technisch werk voor de infrastructuur van wegen, water, spoorbanen, waterkeringen en/of leidingen  en niet bedoeld voor permanent menselijk verblijf.
 Hieronder vallen overbruggingen, waterstaatkundige werken en waterkerende constructies. verbruggingen  kunnen zijn: brug, viaduct, aquaduct enz. Een voorbeeld van een waterstaatkundig werk is een sluis.    
 Voorbeelden van waterkerende constructies zijn stuw en vaste dam."""@nl ;
@@ -3528,6 +3700,7 @@ Voorbeelden van waterkerende constructies zijn stuw en vaste dam."""@nl ;
 Hieronder vallen overbruggingen, waterstaatkundige werken en waterkerende constructies. verbruggingen  kunnen zijn: brug, viaduct, aquaduct enz. Een voorbeeld van een waterstaatkundig werk is een sluis.    
 Voorbeelden van waterkerende constructies zijn stuw en vaste dam."""@nl ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/typeringopenbareruimte> ;
+    skos:notation "3" ;
     skos:prefLabel "kunstwerk"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/typeringopenbareruimte> .
 
@@ -3535,6 +3708,7 @@ Voorbeelden van waterkerende constructies zijn stuw en vaste dam."""@nl ;
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/typeringopenbareruimte> ;
     rdfs:label "landschappelijk gebied"@nl ;
+    mim:code "4" ;
     mim:definitie """Geografisch gebied’: begrensd en benoemd gebied dat door een geografische eenheid wordt beschreven. 
 De grenzen  zijn niet altijd exact vastgesteld (bijvoorbeeld Polder, Midden-Nederland,  Rivierengebied, Veluwe, Zuid-Limburg, Kustgebied)."""@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/bag/typeringopenbareruimte/landschappelijk-gebied"^^xsd:anyURI ;
@@ -3543,6 +3717,7 @@ De grenzen  zijn niet altijd exact vastgesteld (bijvoorbeeld Polder, Midden-Nede
     skos:definition """Geografisch gebied’: begrensd en benoemd gebied dat door een geografische eenheid wordt beschreven. 
 De grenzen  zijn niet altijd exact vastgesteld (bijvoorbeeld Polder, Midden-Nederland,  Rivierengebied, Veluwe, Zuid-Limburg, Kustgebied)."""@nl ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/typeringopenbareruimte> ;
+    skos:notation "4" ;
     skos:prefLabel "landschappelijk gebied"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/typeringopenbareruimte> .
 
@@ -3550,10 +3725,12 @@ De grenzen  zijn niet altijd exact vastgesteld (bijvoorbeeld Polder, Midden-Nede
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/typeringopenbareruimte> ;
     rdfs:label "Leeg"@nl ;
+    mim:code "-2" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/bag/typeringopenbareruimte/leeg"^^xsd:anyURI ;
     mim:naam "Leeg"@nl ;
     dcterms:identifier "EAID_F57BBEB3_78D1_481c_879D_5E875207A827" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/typeringopenbareruimte> ;
+    skos:notation "-2" ;
     skos:prefLabel "Leeg"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/typeringopenbareruimte> .
 
@@ -3561,10 +3738,12 @@ De grenzen  zijn niet altijd exact vastgesteld (bijvoorbeeld Polder, Midden-Nede
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/typeringopenbareruimte> ;
     rdfs:label "Onbekend"@nl ;
+    mim:code "-1" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/bag/typeringopenbareruimte/onbekend"^^xsd:anyURI ;
     mim:naam "Onbekend"@nl ;
     dcterms:identifier "EAID_FA27ED5A_52B3_4e62_9A14_F067E7A3AF53" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/typeringopenbareruimte> ;
+    skos:notation "-1" ;
     skos:prefLabel "Onbekend"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/typeringopenbareruimte> .
 
@@ -3572,6 +3751,7 @@ De grenzen  zijn niet altijd exact vastgesteld (bijvoorbeeld Polder, Midden-Nede
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/typeringopenbareruimte> ;
     rdfs:label "spoorbaan"@nl ;
+    mim:code "5" ;
     mim:definitie """Gebaand gedeelte voor het verkeer over rails.
 Voorbeelden zijn: spoorbaan, metrobaan, trambaan"""@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/bag/typeringopenbareruimte/spoorbaan"^^xsd:anyURI ;
@@ -3580,6 +3760,7 @@ Voorbeelden zijn: spoorbaan, metrobaan, trambaan"""@nl ;
     skos:definition """Gebaand gedeelte voor het verkeer over rails.
 Voorbeelden zijn: spoorbaan, metrobaan, trambaan"""@nl ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/typeringopenbareruimte> ;
+    skos:notation "5" ;
     skos:prefLabel "spoorbaan"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/typeringopenbareruimte> .
 
@@ -3587,6 +3768,7 @@ Voorbeelden zijn: spoorbaan, metrobaan, trambaan"""@nl ;
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/typeringopenbareruimte> ;
     rdfs:label "terrein"@nl ;
+    mim:code "6" ;
     mim:definitie """Door een fysiek voorkomen gekarakteriseerd zichtbaar begrensd stuk grond. 
 Terrein wordt gebruikt om een zichtbaar (tastbaar) begrensd stuk grond aan te geven waarvoor een bepaald fysiek voorkomen typerend is. Voorbeelden zijn: bos, landschap, bebouwing, landbouwgebied. Belangrijk is dat het stuk grond een zichtbare grens heeft met aangrenzende geo-objecten."""@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/bag/typeringopenbareruimte/terrein"^^xsd:anyURI ;
@@ -3595,6 +3777,7 @@ Terrein wordt gebruikt om een zichtbaar (tastbaar) begrensd stuk grond aan te ge
     skos:definition """Door een fysiek voorkomen gekarakteriseerd zichtbaar begrensd stuk grond. 
 Terrein wordt gebruikt om een zichtbaar (tastbaar) begrensd stuk grond aan te geven waarvoor een bepaald fysiek voorkomen typerend is. Voorbeelden zijn: bos, landschap, bebouwing, landbouwgebied. Belangrijk is dat het stuk grond een zichtbare grens heeft met aangrenzende geo-objecten."""@nl ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/typeringopenbareruimte> ;
+    skos:notation "6" ;
     skos:prefLabel "terrein"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/typeringopenbareruimte> .
 
@@ -3602,6 +3785,7 @@ Terrein wordt gebruikt om een zichtbaar (tastbaar) begrensd stuk grond aan te ge
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/typeringopenbareruimte> ;
     rdfs:label "water"@nl ;
+    mim:code "7" ;
     mim:definitie """grondoppervlak in principe bedekt met water.
  Voorbeelden zijn: rivier, kanaal, beek, zee, meer, oppervlaktewater in algemene zin. Objecten die in het kader  van de waterhuishouding periodiek met water zijn bedekt, vallen hier ook onder."""@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/bag/typeringopenbareruimte/water"^^xsd:anyURI ;
@@ -3610,6 +3794,7 @@ Terrein wordt gebruikt om een zichtbaar (tastbaar) begrensd stuk grond aan te ge
     skos:definition """grondoppervlak in principe bedekt met water.
  Voorbeelden zijn: rivier, kanaal, beek, zee, meer, oppervlaktewater in algemene zin. Objecten die in het kader  van de waterhuishouding periodiek met water zijn bedekt, vallen hier ook onder."""@nl ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/typeringopenbareruimte> ;
+    skos:notation "7" ;
     skos:prefLabel "water"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/typeringopenbareruimte> .
 
@@ -3617,12 +3802,14 @@ Terrein wordt gebruikt om een zichtbaar (tastbaar) begrensd stuk grond aan te ge
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/typeringopenbareruimte> ;
     rdfs:label "weg"@nl ;
+    mim:code "8" ;
     mim:definitie "Gebaand gedeelte voor het wegverkeer en vliegverkeer te land. Hieronder vallen ook start- en landingsbanen voor het vliegverkeer."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/bag/typeringopenbareruimte/weg"^^xsd:anyURI ;
     mim:naam "weg"@nl ;
     dcterms:identifier "EAID_6AF72983_537D_4326_8B7B_363AA67B1158" ;
     skos:definition "Gebaand gedeelte voor het wegverkeer en vliegverkeer te land. Hieronder vallen ook start- en landingsbanen voor het vliegverkeer."@nl ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/typeringopenbareruimte> ;
+    skos:notation "8" ;
     skos:prefLabel "weg"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/typeringopenbareruimte> .
 
@@ -3829,7 +4016,7 @@ Terrein wordt gebruikt om een zichtbaar (tastbaar) begrensd stuk grond aan te ge
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "geometrie"@nl ;
-    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/wktliteral> ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/point> ;
     dcterms:identifier "EAID_EA34202C_6D0B_4b14_8E0A_A07B2CD46E0C" ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/verblijfsobject> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/> ;
@@ -4215,7 +4402,7 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "geometrie"@nl ;
-    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/wktliteral> ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/surface> ;
     dcterms:identifier "EAID_D5FD9A6C_D887_49db_8986_26A6F0E84405" ;
     rdfs:comment "De tweedimensionale geometrische representatie van het vlak dat wordt gevormd door de omtrekken van een woonplaats."@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/woonplaats> ;

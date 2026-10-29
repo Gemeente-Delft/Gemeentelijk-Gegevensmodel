@@ -20,9 +20,9 @@
 # - To generate excel-file: `task generate:excel`
 # - To generate documentation: `task generate:docs`
 # - To publish documentation to GitHub Pages: `task publish:github`
-# - To generate the LOD sub-models (one Turtle per EA diagram) plus the ontology and SHACL shapes: `task generate:lod-views`
-# - To publish the LOD sub-models (one graph per diagram) to the LOD server: `task publish:lod`
-# - To merge the LOD sub-models into one downloadable Turtle file: `task generate:lod-views-merged`
+# - To generate the Linked Data (ontology, SHACL shapes, one sub-model per EA diagram, merged file): `task generate:lod`
+# - To publish the Linked Data sub-models as named graphs on the LOD server: `task publish:lod`
+#   (see tools/README-lod.md for how the LOD pipeline works)
 #
 # Author: Arjen Brienen
 # Last Updated: 29 oktober 2026
@@ -45,46 +45,35 @@ vars:
   GGM_PREVIOUS_SCHEMA_RAW: "GGM_PREVIOUS_SCHEMA_RAW"
   GGM_PREVIOUS_SCHEMA: "GGM_PREVIOUS_SCHEMA"
   CRUNCH_UML_DB: "./crunch_uml.db"
-  # crunch_uml draait in een eigen venv (eigen site-packages) in plaats van de homebrew-python,
-  # zodat een 'brew upgrade python' de pipeline niet breekt en de versie per release vastligt.
-  # 0.8.0 is de eerste uitgebrachte versie met de herziene Linked Data-renderer (IRI's zonder
-  # spaties, generalisaties in de juiste richting, unieke property-IRI's, technische packages
-  # uitgesloten) en de MIM 1.2-laag (mim:-typering, metagegevens, kardinaliteit, taaltags).
-  # Oudere versies (t/m 0.7.0) leveren een LOD-export met de bekende gebreken; niet terugzetten.
-  # 0.8.1 voegt de deelmodellen per diagram (--lod_views_dir), de losse SHACL-shapes
-  # (--lod_shapes_file) en IRI's langs de pakketboom toe; generate:lod-views vereist die versie.
-  # Zie taak prepare:venv-crunch.
+  # crunch_uml draait in een eigen venv, los van de homebrew-python, met een vaste versie per
+  # release (prepare:venv-crunch bouwt hem bij een versiewissel opnieuw op). Minimaal 0.8.1:
+  # deelmodellen per diagram, losse SHACL-shapes en IRI's langs de pakketboom.
   CRUNCH_UML_VERSION: "0.8.1"
   CRUNCH_VENV: "tools/.venv-crunch"
   CRUNCH: "tools/.venv-crunch/bin/crunch_uml"
-  # Metagegevens van het informatiemodel in de Linked Data-export (MIM 1.2: mim:Informatiemodel
-  # op de basis-URI met dcterms:title/publisher/license; owl:versionInfo komt uit VERSION).
+  # --- Linked Data -----------------------------------------------------------------------
+  # Eén export (generate:lod) levert vier producten in {{.VERSION_DIR}}; publish:lod zet de
+  # deelmodellen als named graphs onder <LINKED_DATA_NS>/<VERSION>/ op de LOD-server.
+  # Werking en valkuilen: tools/README-lod.md. Opties: docs/handleiding/export.md van crunch_uml.
+  #   LOD          ontologie (RDFS/OWL met MIM 1.2-metagegevens), bestandsnaam LOD_FILE uit .env
+  #   LOD_SHAPES   SHACL-shapes apart; importeren de ontologie (owl:imports)
+  #   LOD_VIEWS    per EA-diagram een deelmodel: deelgraaf van de ontologie, pad langs de
+  #                pakketboom (99 Kern > Model BAG > Onderzoek -> kern/bag/onderzoek), kopregel
+  #                '# graph: <LINKED_DATA_NS/VERSION/pad>'
+  #   LOD_GEHEEL   alle deelmodellen samengevoegd, om te downloaden (staat in git)
+  LOD_SHAPES: "{{.VERSION_DIR}}/Gemeentelijk Gegevensmodel Linked Data-shapes.ttl"
+  LOD_VIEWS: "{{.VERSION_DIR}}/ttl"
+  LOD_GEHEEL: "{{.LOD_VIEWS}}/ggm-geheel-{{.VERSION}}.ttl"
+  # Metagegevens van het informatiemodel (mim:Informatiemodel op de basis-URI).
   LOD_TITLE: "Gemeentelijk Gegevensmodel"
   LOD_PUBLISHER: "https://www.delft.nl/"
   LOD_LICENSE: "https://github.com/Gemeente-Delft/Gemeentelijk-Gegevensmodel/blob/master/LICENSE"
   LOD_INFORMATIEDOMEIN: "Gemeentelijke overheid"
-  # Technische EA-packages die niet in de Linked Data horen (met subpackages; patronen, hoofdletterongevoelig).
+  # Uitsluitingen (patronen, hoofdletterongevoelig): technische EA-packages (met subpackages)
+  # horen niet in de ontologie; de RSGB/RGBZ-catalogi, interne en tekentechnische diagrammen en
+  # GML3 worden geen deelmodel ('View*' bewust niet: de views Betrokkene en (Zaak)objecten wel).
   LOD_EXCLUDE_PACKAGES: "Diagram,Diagrammen intern gebruik,Tekenwijze,View*"
-  # De SHACL-shapes van de Linked Data-export apart van de ontologie (crunch_uml --lod_shapes_file):
-  # de ontologie ({{.LOD}}) bevat dan alleen RDFS/OWL met de MIM-metagegevens, de shapes importeren
-  # de ontologie met owl:imports. Samen valideren: python tools/validate_mim_lod.py ontologie shapes.
-  LOD_SHAPES: "{{.VERSION_DIR}}/Gemeentelijk Gegevensmodel Linked Data-shapes.ttl"
-  # Deelmodellen (views): één Turtle-bestand per EA-diagram in <release>/ttl, elk met als eerste
-  # regel '# graph: <LINKED_DATA_NS/<versie>/pad>', gegenereerd door crunch_uml (generate:lod-views,
-  # vereist crunch_uml met --lod_views_dir; vóór 29 oktober 2026 door de generator van Ashkan).
-  # Het pad volgt de EA-pakketboom zonder volgnummers en zonder het package 'Diagram':
-  # 99 Kern > Model BAG > Diagram > Onderzoek -> kern/bag/onderzoek. publish:lod zet ze als
-  # graphs onder <LINKED_DATA_NS>/<LOD_VIEWS_PREFIX>/<pad> op de server;
-  # generate:lod-views-merged voegt ze samen tot één bestand in dezelfde map, dat in git staat
-  # zodat het geheel te downloaden is. Overschrijfbaar op de commandline (task ... VAR=waarde).
-  LOD_VIEWS_SRC: "{{.VERSION_DIR}}/ttl"
-  LOD_VIEWS_PREFIX: "{{.VERSION}}"
-  LOD_VIEWS_MERGED: "{{.LOD_VIEWS_SRC}}/ggm-geheel-{{.VERSION}}.ttl"
-  # Diagrammen (en packages waar ze onder vallen) die geen deelmodel worden: de RSGB/RGBZ-catalogi,
-  # interne en tekentechnische diagrammen en het GML3-pakket. Patronen, hoofdletterongevoelig;
-  # vervangt de standaardlijst van crunch_uml (dus 'View*' hier niet: de views Betrokkene en
-  # (Zaak)objecten van RGBZPlus horen er wél bij).
-  LOD_VIEWS_EXCLUDE: "Abstracte en concrete objecttypen,Catalogus RGBZ,Catalogus RSGB,Referentielijsten,Relatieklassen,Diagrammen intern gebruik,Tekentechnische relaties,Dimensies,Metagegevens,Model RGBZ,Model Kern RGBZ,RSGB Model,Diagram RSGB,GML3"
+  LOD_EXCLUDE_DIAGRAMS: "Abstracte en concrete objecttypen,Catalogus RGBZ,Catalogus RSGB,Referentielijsten,Relatieklassen,Diagrammen intern gebruik,Tekentechnische relaties,Dimensies,Metagegevens,Model RGBZ,Model Kern RGBZ,RSGB Model,Diagram RSGB,GML3"
   DOCS: "./docs"
   DEFS: "./docs/definities"
   PUBLISH: "false"
@@ -156,10 +145,8 @@ tasks:
     desc: "Zorg voor een geïsoleerde venv met crunch_uml {{.CRUNCH_UML_VERSION}}, ongevoelig voor brew-python-upgrades."
     cmds:
       - |
-        # crunch_uml draait in een eigen venv ({{.CRUNCH_VENV}}) met eigen site-packages. De venv
-        # wordt (her)opgebouwd zodra hij ontbreekt, stuk is (bv. na een python-upgrade) of een
-        # andere crunch_uml-versie bevat dan CRUNCH_UML_VERSION, zodat een versiewissel in deze
-        # TaskFile altijd doorwerkt. crunch_uml vereist Python 3.10 t/m 3.13 (gepinde lxml-wheels).
+        # Herbouwen zodra de venv ontbreekt, stuk is (python-upgrade) of een andere crunch_uml-
+        # versie bevat. crunch_uml vereist Python 3.10 t/m 3.13 (gepinde lxml-wheels).
         VENV="{{.CRUNCH_VENV}}"; : "${VENV:?CRUNCH_VENV is leeg}"
         WANT="{{.CRUNCH_UML_VERSION}}"
         if ! "$VENV/bin/python" -c "import importlib.metadata as m, sys; sys.exit(0 if m.version('crunch_uml') == '$WANT' else 1)" >/dev/null 2>&1; then
@@ -301,47 +288,18 @@ tasks:
     shell: bash
 
   generate:lod:
-    desc: "Generate the Linked Data specification (Turtle met MIM 1.2-laag) from the model: ontologie '{{.LOD}}' en SHACL-shapes '{{.LOD_SHAPES}}'"
+    desc: "Genereer de Linked Data uit het model: ontologie '{{.LOD}}', SHACL-shapes '{{.LOD_SHAPES}}', deelmodellen per diagram in '{{.LOD_VIEWS}}' en het geheel '{{.LOD_GEHEEL}}'."
     deps: [import:model]
     cmds:
-      - echo "Generating Lod specification..."
-      # Eén shell-regel (gevouwen YAML). Opties: technische packages weglaten (-xpn), Nederlandse
-      # taaltags op labels/definities/toelichtingen, de GGM-versie als owl:versionInfo/versionIRI,
-      # de MIM 1.2-metagegevens van het informatiemodel en de SHACL-shapes in een eigen bestand.
-      # Zie docs/handleiding/export.md van crunch_uml.
-      - >-
-        {{.CRUNCH}} -sch "{{.GGM_ROOT_SCHEMA}}" export -t ttl -f "{{.LOD}}"
-        --linked_data_namespace {{.LINKED_DATA_NS}}
-        --output_exclude_package_names "{{.LOD_EXCLUDE_PACKAGES}}"
-        --lod_language nl
-        --lod_version {{.VERSION}}
-        --lod_title "{{.LOD_TITLE}}"
-        --lod_publisher {{.LOD_PUBLISHER}}
-        --lod_license {{.LOD_LICENSE}}
-        --lod_informatiedomein "{{.LOD_INFORMATIEDOMEIN}}"
-        --lod_informatiemodeltype logisch
-        --lod_shapes_file "{{.LOD_SHAPES}}"
-    shell: bash
-
-  generate:lod-views:
-    desc: "Genereer de deelmodellen (één Turtle per EA-diagram) in '{{.LOD_VIEWS_SRC}}', samen met de ontologie '{{.LOD}}' en de SHACL-shapes '{{.LOD_SHAPES}}', en voeg ze samen tot '{{.LOD_VIEWS_MERGED}}'."
-    deps: [import:model]
-    cmds:
-      - echo "Generating Linked Data views (deelmodellen per diagram)..."
-      # 1. Oude deelmodellen opruimen: crunch_uml overschrijft bestanden maar ruimt verdwenen of
-      #    hernoemde diagrammen niet op. Het samengevoegde bestand blijft staan (wordt in stap 3
-      #    opnieuw geschreven).
+      - echo "Generating Linked Data..."
+      # Verdwenen of hernoemde diagrammen opruimen: crunch_uml overschrijft bestanden, maar wist niet.
       - |
         set -euo pipefail
-        SRC="{{.LOD_VIEWS_SRC}}"; MERGED="$(basename "{{.LOD_VIEWS_MERGED}}")"
-        mkdir -p "$SRC"
-        find "$SRC" -mindepth 1 -name '*.ttl' ! -name "$MERGED" -delete
-        find "$SRC" -mindepth 1 -type d -empty -delete
-      # 2. Eén export: ontologie + shapes (zoals generate:lod) én per diagram een view in
-      #    LOD_VIEWS_SRC/<pad>.ttl met als eerste regel '# graph: <LINKED_DATA_NS/VERSION/pad>'.
-      #    Een view is een deelgraaf van de ontologie (dezelfde IRI's, zonder SHACL): de klassen en
-      #    enumeraties op het diagram met al hun attributen, en de relaties en generalisaties
-      #    tussen die elementen. Zie docs/handleiding/export.md van crunch_uml.
+        mkdir -p "{{.LOD_VIEWS}}"
+        find "{{.LOD_VIEWS}}" -mindepth 1 -name '*.ttl' ! -name "$(basename "{{.LOD_GEHEEL}}")" -delete
+        find "{{.LOD_VIEWS}}" -mindepth 1 -type d -empty -delete
+      # Eén export: ontologie, shapes en per diagram een deelmodel. Nederlandse taaltags, de
+      # GGM-versie als owl:versionInfo/versionIRI en als segment in de graph-IRI's van de views.
       - >-
         {{.CRUNCH}} -sch "{{.GGM_ROOT_SCHEMA}}" export -t ttl -f "{{.LOD}}"
         --linked_data_namespace {{.LINKED_DATA_NS}}
@@ -354,23 +312,19 @@ tasks:
         --lod_informatiedomein "{{.LOD_INFORMATIEDOMEIN}}"
         --lod_informatiemodeltype logisch
         --lod_shapes_file "{{.LOD_SHAPES}}"
-        --lod_views_dir "{{.LOD_VIEWS_SRC}}"
-        --lod_views_exclude "{{.LOD_VIEWS_EXCLUDE}}"
-      # 3. Controleren (kopregel, uniek pad, geldige Turtle) en samenvoegen tot het downloadbestand.
-      - task: generate:lod-views-merged
+        --lod_views_dir "{{.LOD_VIEWS}}"
+        --lod_views_exclude "{{.LOD_EXCLUDE_DIAGRAMS}}"
+      - task: generate:lod-geheel
     shell: bash
 
-  generate:lod-views-merged:
-    desc: "Voeg de deelmodellen uit '{{.LOD_VIEWS_SRC}}' samen tot één Turtle-bestand '{{.LOD_VIEWS_MERGED}}' (om te committen en te downloaden)."
+  generate:lod-geheel:
+    desc: "Controleer de deelmodellen in '{{.LOD_VIEWS}}' en voeg ze samen tot '{{.LOD_GEHEEL}}' (stap van generate:lod en publish:lod)."
     deps: [prepare:check-vars, prepare:venv-crunch]
     cmds:
-      # Zelfde controles als publish:lod (kopregel, uniek graph-pad, geldige Turtle). De uitvoer
-      # is deterministisch: ongewijzigde deelmodellen geven een byte-gelijk bestand en dus geen
-      # git-diff. publish:lod werkt het bestand ook bij.
+      # Deterministisch: ongewijzigde deelmodellen geven een byte-gelijk bestand, dus geen git-diff.
       - >-
-        "{{.CRUNCH_VENV}}/bin/python" tools/stage_lod_views.py "{{.LOD_VIEWS_SRC}}"
-        --namespace "{{.LINKED_DATA_NS}}" --prefix "{{.LOD_VIEWS_PREFIX}}"
-        --merged "{{.LOD_VIEWS_MERGED}}"
+        "{{.CRUNCH_VENV}}/bin/python" tools/stage_lod_views.py "{{.LOD_VIEWS}}"
+        --namespace "{{.LINKED_DATA_NS}}" --version "{{.VERSION}}" --merged "{{.LOD_GEHEEL}}"
     shell: bash
 
   generate:mim:
@@ -436,94 +390,43 @@ tasks:
       - lftp -e "set ssl:verify-certificate no; cd {{.FTP_REMOTE_DIR}}; mirror -R --delete --verbose ./{{.FTP_LOCAL_DIR}} .; bye" {{.FTP_HOST}}
     shell: bash
 
-  # --------------------------------------------------------------------------
-  # UITGESCHAKELD (28 oktober 2026): de oude publish:lod rsyncte de volledige crunch_uml-export
-  # ({{.LOD}}) als één graph <LINKED_DATA_NS>/ggm-<versie>. Vervangen door publish:lod
-  # hieronder (de deelmodellen per diagram). generate:lod maakt de volledige export nog wel.
-  # Let op: op de server blijven ggm-<versie>.ttl in de dropmap en de graph in Virtuoso staan
-  # tot ze daar worden weggehaald (bestand verwijderen + SPARQL CLEAR GRAPH via isql).
-  # --------------------------------------------------------------------------
-  # publish:lod:
-  #   desc: "Rsync de LOD-export van {{.VERSION}} naar de dropmap van de lod-browser-stack; de loader daar herlaadt de named graph binnen ~30 s."
-  #   deps: [prepare:check-vars]
-  #   vars:
-  #     # Defaults; overschrijf desgewenst in .env. SSH_HOST is een ssh-config-profiel (user arjen,
-  #     # eigen sleutel) voor de server 51.158.201.157 (lod.gemeentelijkgegevensmodel.nl).
-  #     SSH_HOST: '{{.SSH_HOST | default "lod-ggm"}}'
-  #     LOD_DROP: '{{.LOD_DROP | default "/home/gemeentelijkgegevensmodel-lod/ggm-lod"}}'
-  #   prompt:
-  #     - "rsync de LOD-TTL van {{.VERSION}} naar '{{.SSH_HOST}}:{{.LOD_DROP}}/ggm-{{.VERSION}}.ttl'. Het bestand daar wordt overschreven en de loader herlaadt de graph {{.LINKED_DATA_NS}}/ggm-{{.VERSION}} (alle IRI's van die versie gaan mee). Doorgaan?"
-  #   cmds:
-  #     - |
-  #       set -euo pipefail
-  #       if [ ! -f "{{.LOD}}" ]; then
-  #         echo "Error: LOD-bestand '{{.LOD}}' bestaat niet. Draai eerst: task generate:lod VERSION={{.VERSION}}"
-  #         exit 1
-  #       fi
-  #       DROP="{{.LOD_DROP}}"
-  #       DEST="${DROP%/}/ggm-{{.VERSION}}.ttl"
-  #       # De stack (github.com/AshkanA/lod-browser, docker compose achter CloudPanel) bewaakt de
-  #       # dropmap: elke *.ttl wordt als named graph <LINKED_DATA_NS>/<bestandsnaam zonder .ttl>
-  #       # geladen (CLEAR GRAPH + herladen zodra de md5 van het bestand wijzigt; poll elke 30 s).
-  #       # Er is geen laadscript meer op de server: het bestand neerzetten volstaat.
-  #       # Rechten 644: de loader-container leest als een andere gebruiker. macOS openrsync kent
-  #       # --chmod=F644 niet, de symbolische vorm wel; GNU rsync op de server past 'm toe.
-  #       echo "publish:lod: rsync '{{.LOD}}' -> {{.SSH_HOST}}:$DEST"
-  #       rsync -az --chmod=Fu=rw,Fgo=r "{{.LOD}}" "{{.SSH_HOST}}:$DEST"
-  #       echo "publish:lod: klaar; de loader laadt ggm-{{.VERSION}} binnen ~30 s. Controleer met: task publish:lod-list"
-  #   shell: bash
-
   publish:lod:
-    desc: "Rsync de deelmodellen (één TTL per diagram uit {{.LOD_VIEWS_SRC}}) als named graphs onder {{.LINKED_DATA_NS}}/{{.LOD_VIEWS_PREFIX}}/ naar de dropmap van de lod-browser-stack en werk '{{.LOD_VIEWS_MERGED}}' bij."
+    desc: "Zet de deelmodellen uit '{{.LOD_VIEWS}}' als named graphs onder {{.LINKED_DATA_NS}}/{{.VERSION}}/ op de LOD-server (rsync naar de dropmap) en werk '{{.LOD_GEHEEL}}' bij."
     deps: [prepare:check-vars, prepare:venv-crunch]
     vars:
-      # Defaults; overschrijf desgewenst in .env. SSH_HOST is een ssh-config-profiel (user arjen,
-      # eigen sleutel) voor de server 51.158.201.157 (lod.gemeentelijkgegevensmodel.nl).
+      # Defaults; overschrijf desgewenst in .env. SSH_HOST is een ssh-config-profiel voor de
+      # server van lod.gemeentelijkgegevensmodel.nl. DRY_RUN=true: alles controleren, rsync alleen tonen.
       SSH_HOST: '{{.SSH_HOST | default "lod-ggm"}}'
       LOD_DROP: '{{.LOD_DROP | default "/home/gemeentelijkgegevensmodel-lod/ggm-lod"}}'
-      # DRY_RUN=true: wel controleren en samenvoegen, rsync alleen tonen (-n --itemize-changes).
+      LOD_LOCAL_PORT: '{{.LOD_LOCAL_PORT | default "8080"}}'
       DRY_RUN: '{{.DRY_RUN | default "false"}}'
     prompt:
-      - "rsync de deelmodellen uit '{{.LOD_VIEWS_SRC}}' naar '{{.SSH_HOST}}:{{.LOD_DROP}}/{{.LOD_VIEWS_PREFIX}}/' (met --delete binnen die map; de rest van de dropmap blijft staan) en werk '{{.LOD_VIEWS_MERGED}}' bij. De loader laadt elk bestand als graph {{.LINKED_DATA_NS}}/{{.LOD_VIEWS_PREFIX}}/<pad> en herlaadt gewijzigde graphs binnen ~30 s. Doorgaan?"
+      - "rsync de deelmodellen uit '{{.LOD_VIEWS}}' naar '{{.SSH_HOST}}:{{.LOD_DROP}}/{{.VERSION}}/' (met --delete binnen die map). Graphs onder {{.LINKED_DATA_NS}}/{{.VERSION}}/ die geen deelmodel meer zijn worden op de server leeggemaakt. De loader verwerkt wijzigingen binnen ~30 s. Doorgaan?"
     cmds:
+      # Zie tools/README-lod.md voor de werking van de loader op de server en de rsync-keuzes.
       - |
         set -euo pipefail
-        SRC="{{.LOD_VIEWS_SRC}}"; NS="{{.LINKED_DATA_NS}}"
-        PREFIX="{{.LOD_VIEWS_PREFIX}}"; PREFIX="${PREFIX#/}"; PREFIX="${PREFIX%/}"
-        DROP="{{.LOD_DROP}}"; DEST="${DROP%/}/${PREFIX:+$PREFIX/}"
-        STAGE="$(mktemp -d "${TMPDIR:-/tmp}/lod-views.XXXXXX")"; trap 'rm -rf "$STAGE"' EXIT
-        chmod 755 "$STAGE"  # mktemp maakt 700 en rsync -a neemt dat over als rechten van <dropmap>/<prefix>/
-        # 1. Controleren, klaarzetten en samenvoegen (tools/stage_lod_views.py, rdflib uit de
-        #    crunch-venv). De loader op de server leest de kopregel '# graph: <...>' NIET: hij
-        #    leidt de graph-URI af uit het relatieve pad in de dropmap (GRAPH_BASE + pad zonder
-        #    .ttl). De dropmap moet dus de graph-URI's volgen, niet de EA-packagestructuur van de
-        #    bronmap (3_Economie/Diagram/kvk.ttl -> v3.0.0/economie/kvk.ttl). Het script zet per
-        #    TTL het bestand op <STAGE>/<pad>.ttl, herschrijft de kopregel naar de graph die het
-        #    op de server wordt (<NS>/<prefix>/<pad>) en parset alles vooraf, zodat een kapot
-        #    bestand hier faalt en niet elke ronde opnieuw bij de loader. Daarnaast schrijft het
-        #    het samengevoegde bestand LOD_VIEWS_MERGED (zie generate:lod-views-merged); dat gaat
-        #    niet naar de server en wordt niet als deelmodel meegelezen.
-        #    Bewust een script en geen shell-lus: Task draait cmds in zijn eigen Go-shell
-        #    (mvdan/sh), waarin een while-read-lus en < <(...) blijven hangen.
-        "{{.CRUNCH_VENV}}/bin/python" tools/stage_lod_views.py "$SRC" --namespace "$NS" --prefix "$PREFIX" \
-          --stage "$STAGE" --merged "{{.LOD_VIEWS_MERGED}}"
-        # 2. Rsync van de boom naar <dropmap>/<prefix>/. --delete werkt alleen binnen die map:
-        #    verdwenen deelmodellen gaan daar weg, de rest van de dropmap blijft staan.
-        #    Een verwijderd bestand haalt de loader NIET uit Virtuoso; die graph wissen is
-        #    (nog) handwerk, zie publish:lod-list. Rechten: bestanden 644, mappen 755 (de
-        #    loader-container leest als een andere gebruiker). macOS openrsync kent --chmod=F644
-        #    niet, de symbolische vorm wel; voor mappen past openrsync --chmod NIET toe, daarom
-        #    zet het script (en de chmod hierboven) de rechten al in de staging en neemt -a ze over.
-        #    -c: vergelijken op inhoud. De staging heeft elke run nieuwe bestandsdatums; zonder -c
-        #    gaan alle bestanden opnieuw over, met -c alleen de gewijzigde (in DRY_RUN: regels die
-        #    met '<f' beginnen; '.f..t' is alleen een nieuwe datum).
+        DEST="{{.LOD_DROP}}"; DEST="${DEST%/}/{{.VERSION}}/"
+        STAGE="$(mktemp -d "${TMPDIR:-/tmp}/lod-views.XXXXXX")"; LIVE="$STAGE.live"
+        trap 'rm -rf "$STAGE" "$LIVE"' EXIT
+        chmod 755 "$STAGE"
+        # 1. Welke graphs staan er nu live? Elke graph onder <NS>/<VERSION>/ die geen deelmodel
+        #    meer is krijgt in de staging een leeg bestand, zodat de loader hem leegmaakt.
+        ssh "{{.SSH_HOST}}" "curl -fsS -H 'Accept: text/csv' --data-urlencode 'query=SELECT DISTINCT ?g WHERE { GRAPH ?g { ?s ?p ?o } }' 'http://127.0.0.1:{{.LOD_LOCAL_PORT}}/sparql'" > "$LIVE"
+        # 2. Controleren, klaarzetten als <STAGE>/<pad>.ttl (de loader leidt de graph-IRI af uit
+        #    het pad in de dropmap) en het geheel bijwerken. Een script, geen shell-lus: Task
+        #    draait cmds in een Go-shell waarin while-read-lussen blijven hangen.
+        "{{.CRUNCH_VENV}}/bin/python" tools/stage_lod_views.py "{{.LOD_VIEWS}}" \
+          --namespace "{{.LINKED_DATA_NS}}" --version "{{.VERSION}}" \
+          --stage "$STAGE" --merged "{{.LOD_GEHEEL}}" --live-graphs "$LIVE"
+        # 3. rsync op inhoud (-c), --delete alleen binnen <dropmap>/<VERSION>/, rechten 644/755.
         OPTS=(-azc --delete --exclude='/*.ttl' --exclude='/*.graph' --chmod=Du=rwx,Dgo=rx,Fu=rw,Fgo=r)
         if [ "{{.DRY_RUN}}" = "true" ]; then
           OPTS+=(-n --itemize-changes); echo "publish:lod: DRY RUN, er wordt niets verstuurd"
         fi
         echo "publish:lod: rsync $STAGE/ -> {{.SSH_HOST}}:$DEST"
         rsync "${OPTS[@]}" "$STAGE/" "{{.SSH_HOST}}:$DEST"
-        echo "publish:lod: klaar; de loader laadt gewijzigde graphs binnen ~30 s. Controleer met: task publish:lod-list"
+        echo "publish:lod: klaar; de loader verwerkt wijzigingen binnen ~30 s. Controleer met: task publish:lod-list"
     shell: bash
 
   publish:lod-list:

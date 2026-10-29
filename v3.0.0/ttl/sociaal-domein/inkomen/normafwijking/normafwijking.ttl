@@ -211,6 +211,105 @@
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/> ;
     rdfs:range xsd:decimal .
 
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/coderedenmaatregel/agressief-gedrag> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/coderedenmaatregel> ;
+    rdfs:label "Agressief gedrag"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/coderedenmaatregel/agressief-gedrag"^^xsd:anyURI ;
+    mim:naam "Agressief gedrag"@nl ;
+    dcterms:identifier "EAID_fa24fe3d_5e5d_4084_9500_e075cba60167" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/coderedenmaatregel> ;
+    skos:prefLabel "Agressief gedrag"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/coderedenmaatregel> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/coderedenmaatregel/niet-nakomen-tegenprestatie> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/coderedenmaatregel> ;
+    rdfs:label "niet nakomen tegenprestatie"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/coderedenmaatregel/niet-nakomen-tegenprestatie"^^xsd:anyURI ;
+    mim:naam "niet nakomen tegenprestatie"@nl ;
+    dcterms:identifier "EAID_1e00fcee_8385_46e9_85ec_2614e8177d45" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/coderedenmaatregel> ;
+    skos:prefLabel "niet nakomen tegenprestatie"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/coderedenmaatregel> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/coderedenmaatregel/niet-nakomen-verplichtingen-plan-van-aanpak> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/coderedenmaatregel> ;
+    rdfs:label "niet nakomen verplichtingen plan van aanpak"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/coderedenmaatregel/niet-nakomen-verplichtingen-plan-van-aanpak"^^xsd:anyURI ;
+    mim:naam "niet nakomen verplichtingen plan van aanpak"@nl ;
+    dcterms:identifier "EAID_c72121c0_7b32_417b_a31b_d6654b493f2e" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/coderedenmaatregel> ;
+    skos:prefLabel "niet nakomen verplichtingen plan van aanpak"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/coderedenmaatregel> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/coderedenmaatregel/niet-voldoende-nakomen-van-afspraken-m-b-t-beheersing-van-de-nederlandse-taal-art-18b-participatiewet> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/coderedenmaatregel> ;
+    rdfs:label "niet (voldoende) nakomen van afspraken m.b.t. beheersing van de Nederlandse taal (art. 18b Participatiewet)"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/coderedenmaatregel/niet-voldoende-nakomen-van-afspraken-m-b-t-beheersing-van-de-nederlandse-taal-art-18b-participatiewet"^^xsd:anyURI ;
+    mim:naam "niet (voldoende) nakomen van afspraken m.b.t. beheersing van de Nederlandse taal (art. 18b Participatiewet)"@nl ;
+    dcterms:identifier "EAID_51dec5f2_7ff4_4d50_9b97_650b216186a2" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/coderedenmaatregel> ;
+    skos:prefLabel "niet (voldoende) nakomen van afspraken m.b.t. beheersing van de Nederlandse taal (art. 18b Participatiewet)"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/coderedenmaatregel> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/coderedenmaatregel/niet-voldoende-zoeken-naar-scholing-in-zoekperiode-van-4-weken> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/coderedenmaatregel> ;
+    rdfs:label "niet (voldoende) zoeken naar scholing in zoekperiode van 4 weken"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/coderedenmaatregel/niet-voldoende-zoeken-naar-scholing-in-zoekperiode-van-4-weken"^^xsd:anyURI ;
+    mim:naam "niet (voldoende) zoeken naar scholing in zoekperiode van 4 weken"@nl ;
+    dcterms:identifier "EAID_8afcdf8b_8ce9_4e74_b0db_0d2250991a73" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/coderedenmaatregel> ;
+    skos:prefLabel "niet (voldoende) zoeken naar scholing in zoekperiode van 4 weken"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/coderedenmaatregel> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/coderedenmaatregel/niet-voldoende-zoeken-naar-werk-in-zoekperiode-van-4-weken> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/coderedenmaatregel> ;
+    rdfs:label "niet (voldoende) zoeken naar werk in zoekperiode van 4 weken"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/coderedenmaatregel/niet-voldoende-zoeken-naar-werk-in-zoekperiode-van-4-weken"^^xsd:anyURI ;
+    mim:naam "niet (voldoende) zoeken naar werk in zoekperiode van 4 weken"@nl ;
+    dcterms:identifier "EAID_50e54fe4_72d1_4e33_a3f1_a3026394484b" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/coderedenmaatregel> ;
+    skos:prefLabel "niet (voldoende) zoeken naar werk in zoekperiode van 4 weken"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/coderedenmaatregel> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/coderedenmaatregel/oorzaak-bij-partner> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/coderedenmaatregel> ;
+    rdfs:label "oorzaak bij partner"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/coderedenmaatregel/oorzaak-bij-partner"^^xsd:anyURI ;
+    mim:naam "oorzaak bij partner"@nl ;
+    dcterms:identifier "EAID_a46444f0_3ffa_46b4_b90e_e36510817dd7" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/coderedenmaatregel> ;
+    skos:prefLabel "oorzaak bij partner"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/coderedenmaatregel> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/coderedenmaatregel/reden-op-het-vlak-van-plicht-tot-arbeidsinschakeling> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/coderedenmaatregel> ;
+    rdfs:label "reden op het vlak van plicht tot arbeidsinschakeling"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/coderedenmaatregel/reden-op-het-vlak-van-plicht-tot-arbeidsinschakeling"^^xsd:anyURI ;
+    mim:naam "reden op het vlak van plicht tot arbeidsinschakeling"@nl ;
+    dcterms:identifier "EAID_80ac58e4_87ab_46cb_82bd_67a965841131" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/coderedenmaatregel> ;
+    skos:prefLabel "reden op het vlak van plicht tot arbeidsinschakeling"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/coderedenmaatregel> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/coderedenmaatregel/tekortschietend-besef-van-verantwoordelijkheid> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/coderedenmaatregel> ;
+    rdfs:label "tekortschietend besef van verantwoordelijkheid"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/coderedenmaatregel/tekortschietend-besef-van-verantwoordelijkheid"^^xsd:anyURI ;
+    mim:naam "tekortschietend besef van verantwoordelijkheid"@nl ;
+    dcterms:identifier "EAID_af3e13fd_46b1_46f6_af70_430074b919fd" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/coderedenmaatregel> ;
+    skos:prefLabel "tekortschietend besef van verantwoordelijkheid"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/coderedenmaatregel> .
+
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/datatypes/coderedenmaatregel/agressief-gedrag> a mim:Enumeratiewaarde,
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/datatypes/coderedenmaatregel> ;
@@ -310,83 +409,6 @@
     skos:prefLabel "tekortschietend besef van verantwoordelijkheid"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/datatypes/coderedenmaatregel> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/datatypes/stdindjn/ja> a mim:Enumeratiewaarde,
-        skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/datatypes/stdindjn> ;
-    rdfs:label "Ja"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/datatypes/stdindjn/ja"^^xsd:anyURI ;
-    mim:naam "Ja"@nl ;
-    dcterms:identifier "EAID_syn_ea3e8cf2b7b3b2ccdb5cf77e77419b6965f4eca6" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/datatypes/stdindjn> ;
-    skos:prefLabel "Ja"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/datatypes/stdindjn> .
-
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/datatypes/stdindjn/nee> a mim:Enumeratiewaarde,
-        skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/datatypes/stdindjn> ;
-    rdfs:label "Nee"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/datatypes/stdindjn/nee"^^xsd:anyURI ;
-    mim:naam "Nee"@nl ;
-    dcterms:identifier "EAID_syn_e052a4b5f476a9f933f78fc9197e82228fe208b7" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/datatypes/stdindjn> ;
-    skos:prefLabel "Nee"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/datatypes/stdindjn> .
-
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/datatypes/typemaatregel/afwijking-maatregel> a mim:Enumeratiewaarde,
-        skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/datatypes/typemaatregel> ;
-    rdfs:label "Afwijking maatregel"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/datatypes/typemaatregel/afwijking-maatregel"^^xsd:anyURI ;
-    mim:naam "Afwijking maatregel"@nl ;
-    dcterms:identifier "EAID_syn_9af982050acf26ed73f0bd54bf292102a7b2de38" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/datatypes/typemaatregel> ;
-    skos:prefLabel "Afwijking maatregel"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/datatypes/typemaatregel> .
-
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/datatypes/typemaatregel/boete> a mim:Enumeratiewaarde,
-        skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/datatypes/typemaatregel> ;
-    rdfs:label "Boete"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/datatypes/typemaatregel/boete"^^xsd:anyURI ;
-    mim:naam "Boete"@nl ;
-    dcterms:identifier "EAID_syn_00a9da20ad05afdb1932d8e521e3d6f322adccdb" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/datatypes/typemaatregel> ;
-    skos:prefLabel "Boete"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/datatypes/typemaatregel> .
-
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/datatypes/typemaatregel/maatregel-op-uitkering> a mim:Enumeratiewaarde,
-        skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/datatypes/typemaatregel> ;
-    rdfs:label "Maatregel op uitkering"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/datatypes/typemaatregel/maatregel-op-uitkering"^^xsd:anyURI ;
-    mim:naam "Maatregel op uitkering"@nl ;
-    dcterms:identifier "EAID_syn_ccd1ba4326521acb73c9c063c612426abb28dab8" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/datatypes/typemaatregel> ;
-    skos:prefLabel "Maatregel op uitkering"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/datatypes/typemaatregel> .
-
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/datatypes/typenormafwijking/afwikingstype-1> a mim:Enumeratiewaarde,
-        skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/datatypes/typenormafwijking> ;
-    rdfs:label "Afwikingstype 1"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/datatypes/typenormafwijking/afwikingstype-1"^^xsd:anyURI ;
-    mim:naam "Afwikingstype 1"@nl ;
-    dcterms:identifier "EAID_syn_f324dc1adb0b1f524deb68c7e8ce332eace110e6" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/datatypes/typenormafwijking> ;
-    skos:prefLabel "Afwikingstype 1"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/datatypes/typenormafwijking> .
-
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/datatypes/typenormafwijking/afwikingstype-2> a mim:Enumeratiewaarde,
-        skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/datatypes/typenormafwijking> ;
-    rdfs:label "Afwikingstype 2"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/datatypes/typenormafwijking/afwikingstype-2"^^xsd:anyURI ;
-    mim:naam "Afwikingstype 2"@nl ;
-    dcterms:identifier "EAID_syn_aabaffcbd36feb2948bde33323768febf10ef9ab" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/datatypes/typenormafwijking> ;
-    skos:prefLabel "Afwikingstype 2"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/datatypes/typenormafwijking> .
-
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/maatregel-op-uitkering/code-reden-maatregel> a mim:Attribuutsoort,
         owl:ObjectProperty ;
     rdfs:label "Code reden maatregel"@nl ;
@@ -400,11 +422,11 @@
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "Code reden maatregel"@nl ;
-    mim:type <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/datatypes/coderedenmaatregel> ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/coderedenmaatregel> ;
     dcterms:identifier "EAID_syn_b13f7a735d2a839266c6df060768dca08fc6cc96" ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/maatregel-op-uitkering> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/> ;
-    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/datatypes/coderedenmaatregel> .
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/coderedenmaatregel> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/maatregel-op-uitkering/motivatie-vermindering-maatregel> a mim:Attribuutsoort,
         owl:ObjectProperty ;
@@ -533,11 +555,11 @@
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "Type maatregel"@nl ;
-    mim:type <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/datatypes/typemaatregel> ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/typemaatregel> ;
     dcterms:identifier "EAID_syn_f536521b03ff1244a0d7977aaec9fc07ae750a24" ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/maatregel> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/> ;
-    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/datatypes/typemaatregel> .
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/typemaatregel> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/normafwijking/datum-vaststelling-normafwijking> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
@@ -628,11 +650,11 @@
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "Recidive"@nl ;
-    mim:type <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/datatypes/stdindjn> ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/stdindjn> ;
     dcterms:identifier "EAID_syn_59a81921801475c7a7679a491c6fba051b4424be" ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/normafwijking> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/> ;
-    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/datatypes/stdindjn> .
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/stdindjn> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/normafwijking/type-normafwijking> a mim:Attribuutsoort,
         owl:ObjectProperty ;
@@ -647,11 +669,11 @@
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "Type normafwijking"@nl ;
-    mim:type <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/datatypes/typenormafwijking> ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/typenormafwijking> ;
     dcterms:identifier "EAID_syn_666e160ac9e0c48d0e3f31f9e08cb0c1e575c83f" ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/normafwijking> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/> ;
-    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/datatypes/typenormafwijking> .
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/typenormafwijking> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/normafwijking/verwijtbaarheid> a mim:Attribuutsoort,
         owl:ObjectProperty ;
@@ -666,11 +688,90 @@
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "Verwijtbaarheid"@nl ;
-    mim:type <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/datatypes/stdindjn> ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/stdindjn> ;
     dcterms:identifier "EAID_syn_f9c59857e525fa2a58df5e817b551023590505ca" ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/normafwijking> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/> ;
-    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/datatypes/stdindjn> .
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/stdindjn> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/stdindjn/ja> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/stdindjn> ;
+    rdfs:label "Ja"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/stdindjn/ja"^^xsd:anyURI ;
+    mim:naam "Ja"@nl ;
+    dcterms:identifier "EAID_489955c4_34dc_4c8f_8d2b_b3263a388891",
+        "EAID_6f0c0ff4_f73d_40be_9440_9a3c02ef331f" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/stdindjn> ;
+    skos:prefLabel "Ja"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/stdindjn> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/stdindjn/nee> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/stdindjn> ;
+    rdfs:label "Nee"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/stdindjn/nee"^^xsd:anyURI ;
+    mim:naam "Nee"@nl ;
+    dcterms:identifier "EAID_a8f5b943_ae79_48b9_b736_884123e95dc4",
+        "EAID_bf2767df_11a7_4cc5_a231_2774cda6ef55" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/stdindjn> ;
+    skos:prefLabel "Nee"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/stdindjn> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/typemaatregel/afwijking-maatregel> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/typemaatregel> ;
+    rdfs:label "Afwijking maatregel"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/typemaatregel/afwijking-maatregel"^^xsd:anyURI ;
+    mim:naam "Afwijking maatregel"@nl ;
+    dcterms:identifier "EAID_bd30a80c_88da_4a36_bfe5_9826b1b698ba" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/typemaatregel> ;
+    skos:prefLabel "Afwijking maatregel"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/typemaatregel> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/typemaatregel/boete> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/typemaatregel> ;
+    rdfs:label "Boete"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/typemaatregel/boete"^^xsd:anyURI ;
+    mim:naam "Boete"@nl ;
+    dcterms:identifier "EAID_e825670d_93b4_40ef_90be_06394d43c3e8" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/typemaatregel> ;
+    skos:prefLabel "Boete"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/typemaatregel> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/typemaatregel/maatregel-op-uitkering> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/typemaatregel> ;
+    rdfs:label "Maatregel op uitkering"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/typemaatregel/maatregel-op-uitkering"^^xsd:anyURI ;
+    mim:naam "Maatregel op uitkering"@nl ;
+    dcterms:identifier "EAID_78bbe2d5_7f30_459f_98a4_e0eed5ab30fb" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/typemaatregel> ;
+    skos:prefLabel "Maatregel op uitkering"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/typemaatregel> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/typenormafwijking/afwikingstype-1> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/typenormafwijking> ;
+    rdfs:label "Afwikingstype 1"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/typenormafwijking/afwikingstype-1"^^xsd:anyURI ;
+    mim:naam "Afwikingstype 1"@nl ;
+    dcterms:identifier "EAID_12df9e96_7254_4e96_a16b_6909d1735f3f" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/typenormafwijking> ;
+    skos:prefLabel "Afwikingstype 1"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/typenormafwijking> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/typenormafwijking/afwikingstype-2> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/typenormafwijking> ;
+    rdfs:label "Afwikingstype 2"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/typenormafwijking/afwikingstype-2"^^xsd:anyURI ;
+    mim:naam "Afwikingstype 2"@nl ;
+    dcterms:identifier "EAID_47131a28_8506_4512_b2d1_80fd1aad61f9" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/typenormafwijking> ;
+    skos:prefLabel "Afwikingstype 2"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/typenormafwijking> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/boete> a mim:Objecttype,
         owl:Class ;
@@ -723,16 +824,16 @@
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/> ;
     rdfs:subClassOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/maatregel> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/datatypes/typenormafwijking> a mim:Enumeratie,
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/typenormafwijking> a mim:Enumeratie,
         owl:Class,
         skos:ConceptScheme ;
     rdfs:label "TypeNormafwijking"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/datatypes/typenormafwijking"^^xsd:anyURI ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/typenormafwijking"^^xsd:anyURI ;
     mim:naam "TypeNormafwijking"@nl ;
-    mim:waarde <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/datatypes/typenormafwijking/afwikingstype-1>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/datatypes/typenormafwijking/afwikingstype-2> ;
-    dcterms:identifier "EAID_0A07D319_79DD_744C_0EAB_26EBD163528A" ;
-    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/datatypes/> ;
+    mim:waarde <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/typenormafwijking/afwikingstype-1>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/typenormafwijking/afwikingstype-2> ;
+    dcterms:identifier "EAID_8a98c298_403a_4526_8650_606f96f090e5" ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/> ;
     rdfs:subClassOf skos:Concept .
 
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/normafwijking> a mim:Objecttype,
@@ -755,18 +856,6 @@
     rdfs:comment "Een *normafwijking* (in het kader van bijstand) is het constateren dat een bijstandsgerechtigde **afwijkt van de normatieve verplichtingen** die verbonden zijn aan het recht op bijstand (bijv. arbeids- of inlichtingenplicht), wat aanleiding kan geven tot toepassing van een maatregel op de uitkering."@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/datatypes/stdindjn> a mim:Enumeratie,
-        owl:Class,
-        skos:ConceptScheme ;
-    rdfs:label "StdIndJN"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/datatypes/stdindjn"^^xsd:anyURI ;
-    mim:naam "StdIndJN"@nl ;
-    mim:waarde <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/datatypes/stdindjn/ja>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/datatypes/stdindjn/nee> ;
-    dcterms:identifier "EAID_209C648E_45E7_A357_6812_273ED24FB2BD" ;
-    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/datatypes/> ;
-    rdfs:subClassOf skos:Concept .
-
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/maatregel> a mim:Objecttype,
         owl:Class ;
     rdfs:label "Maatregel"@nl ;
@@ -785,17 +874,49 @@
     rdfs:comment "Een *maatregel* is een besluit of handeling waarmee een bestuursorgaan of rechter ingrijpt om een doel te bereiken, een probleem op te lossen of een regel te handhaven."@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/datatypes/typemaatregel> a mim:Enumeratie,
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/stdindjn> a mim:Enumeratie,
+        owl:Class,
+        skos:ConceptScheme ;
+    rdfs:label "StdIndJN"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/stdindjn"^^xsd:anyURI ;
+    mim:naam "StdIndJN"@nl ;
+    mim:waarde <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/stdindjn/ja>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/stdindjn/nee> ;
+    dcterms:identifier "EAID_3425a120_4aa8_4e41_9325_32eb15a95780",
+        "EAID_e16bd260_54b3_454d_9e3b_1aabfca0ba96" ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/> ;
+    rdfs:subClassOf skos:Concept .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/typemaatregel> a mim:Enumeratie,
         owl:Class,
         skos:ConceptScheme ;
     rdfs:label "TypeMaatregel"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/datatypes/typemaatregel"^^xsd:anyURI ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/typemaatregel"^^xsd:anyURI ;
     mim:naam "TypeMaatregel"@nl ;
-    mim:waarde <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/datatypes/typemaatregel/afwijking-maatregel>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/datatypes/typemaatregel/boete>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/datatypes/typemaatregel/maatregel-op-uitkering> ;
-    dcterms:identifier "EAID_24C282CF_327C_224C_ED18_26EBD163ADFF" ;
-    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/datatypes/> ;
+    mim:waarde <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/typemaatregel/afwijking-maatregel>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/typemaatregel/boete>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/typemaatregel/maatregel-op-uitkering> ;
+    dcterms:identifier "EAID_387f6a1c_ec0f_4ed7_a921_974ecd3c1336" ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/> ;
+    rdfs:subClassOf skos:Concept .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/coderedenmaatregel> a mim:Enumeratie,
+        owl:Class,
+        skos:ConceptScheme ;
+    rdfs:label "CodeRedenMaatregel"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/coderedenmaatregel"^^xsd:anyURI ;
+    mim:naam "CodeRedenMaatregel"@nl ;
+    mim:waarde <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/coderedenmaatregel/agressief-gedrag>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/coderedenmaatregel/niet-nakomen-tegenprestatie>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/coderedenmaatregel/niet-nakomen-verplichtingen-plan-van-aanpak>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/coderedenmaatregel/niet-voldoende-nakomen-van-afspraken-m-b-t-beheersing-van-de-nederlandse-taal-art-18b-participatiewet>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/coderedenmaatregel/niet-voldoende-zoeken-naar-scholing-in-zoekperiode-van-4-weken>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/coderedenmaatregel/niet-voldoende-zoeken-naar-werk-in-zoekperiode-van-4-weken>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/coderedenmaatregel/oorzaak-bij-partner>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/coderedenmaatregel/reden-op-het-vlak-van-plicht-tot-arbeidsinschakeling>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/coderedenmaatregel/tekortschietend-besef-van-verantwoordelijkheid> ;
+    dcterms:identifier "EAID_548e09e1_f8a1_472c_ac89_611142401e08" ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/> ;
     rdfs:subClassOf skos:Concept .
 
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/datatypes/coderedenmaatregel> a mim:Enumeratie,

@@ -71,11 +71,11 @@
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "afgehandeld"@nl ;
-    mim:type <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean> ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/boolean> ;
     dcterms:identifier "EAID_AC248AAD_192D_40e3_B2C3_107CBA34CB21" ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/> ;
-    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean> .
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/boolean> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/categorie> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
@@ -421,49 +421,57 @@
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/> ;
     rdfs:range xsd:string .
 
-<https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean/ja> a mim:Enumeratiewaarde,
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/boolean/ja> a mim:Enumeratiewaarde,
         skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean> ;
+        <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/boolean> ;
     rdfs:label "Ja"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean/ja"^^xsd:anyURI ;
+    mim:code "1" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/boolean/ja"^^xsd:anyURI ;
     mim:naam "Ja"@nl ;
-    dcterms:identifier "EAID_ED373F5C_75C8_4f9f_B72B_DC069BEFFB72" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean> ;
+    dcterms:identifier "EAID_6a702d51_e8a6_4ba1_8797_34112d24ca24" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/boolean> ;
+    skos:notation "1" ;
     skos:prefLabel "Ja"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean> .
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/boolean> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean/leeg> a mim:Enumeratiewaarde,
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/boolean/leeg> a mim:Enumeratiewaarde,
         skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean> ;
+        <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/boolean> ;
     rdfs:label "Leeg"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean/leeg"^^xsd:anyURI ;
+    mim:code "-2" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/boolean/leeg"^^xsd:anyURI ;
     mim:naam "Leeg"@nl ;
-    dcterms:identifier "EAID_15FACEFF_7709_47aa_9827_7C4B604C8D7B" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean> ;
+    dcterms:identifier "EAID_8a486db5_332d_4eae_ad27_23d02b392dcd" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/boolean> ;
+    skos:notation "-2" ;
     skos:prefLabel "Leeg"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean> .
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/boolean> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean/nee> a mim:Enumeratiewaarde,
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/boolean/nee> a mim:Enumeratiewaarde,
         skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean> ;
+        <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/boolean> ;
     rdfs:label "Nee"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean/nee"^^xsd:anyURI ;
+    mim:code "0" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/boolean/nee"^^xsd:anyURI ;
     mim:naam "Nee"@nl ;
-    dcterms:identifier "EAID_7ECA54CF_CE58_4610_80BC_B502ED1347A3" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean> ;
+    dcterms:identifier "EAID_96c01eb4_11b5_40e2_9157_0104c43118a2" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/boolean> ;
+    skos:notation "0" ;
     skos:prefLabel "Nee"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean> .
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/boolean> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean/onbekend> a mim:Enumeratiewaarde,
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/boolean/onbekend> a mim:Enumeratiewaarde,
         skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean> ;
+        <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/boolean> ;
     rdfs:label "Onbekend"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean/onbekend"^^xsd:anyURI ;
+    mim:code "-1" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/boolean/onbekend"^^xsd:anyURI ;
     mim:naam "Onbekend"@nl ;
-    dcterms:identifier "EAID_D11CFFBC_096A_4d6c_99EB_8969CD67687E" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean> ;
+    dcterms:identifier "EAID_9f4e3169_b730_47f2_b621_7d438902918c" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/boolean> ;
+    skos:notation "-1" ;
     skos:prefLabel "Onbekend"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean> .
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/boolean> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/jeugdbescherming-en-reclassering/jeugdbescherming/zorgelijke-situatie/nadereomschrijving> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
@@ -573,11 +581,11 @@
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "verzoek"@nl ;
-    mim:type <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/jeugdbescherming-en-reclassering/jeugdbescherming/enumverzoeksoort> ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/jeugdbescherming-en-reclassering/jeugdbescherming/enum-verzoeksoort> ;
     dcterms:identifier "EAID_75535181_7FB8_45b7_BD86_EE41E8B44690" ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/jeugdbescherming-en-reclassering/jeugdbescherming/zorgmelding> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/jeugdbescherming-en-reclassering/jeugdbescherming/> ;
-    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/jeugdbescherming-en-reclassering/jeugdbescherming/enumverzoeksoort> .
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/jeugdbescherming-en-reclassering/jeugdbescherming/enum-verzoeksoort> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/jeugdbescherming-en-reclassering/jeugdbescherming/zorgmelding/zorgmeldingsoort> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
@@ -649,7 +657,7 @@
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "locatie"@nl ;
-    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/wktliteral> ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/point> ;
     dcterms:identifier "EAID_2105A3E2_C40D_4535_8E41_6FD5A62338AC" ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/incident> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/> ;
@@ -687,11 +695,11 @@
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "soort"@nl ;
-    mim:type <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/jeugdbescherming-en-reclassering/jeugdbescherming/enumincidenttype> ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/enum-incidenttype> ;
     dcterms:identifier "EAID_0CE138DD_E96A_4561_9CAD_55C5D4C49D0E" ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/incident> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/> ;
-    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/jeugdbescherming-en-reclassering/jeugdbescherming/enumincidenttype> .
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/enum-incidenttype> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/incident/toelichting> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
@@ -712,24 +720,24 @@
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/> ;
     rdfs:range xsd:string .
 
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/jeugdbescherming-en-reclassering/jeugdbescherming/enumincidenttype> a mim:Enumeratie,
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/jeugdbescherming-en-reclassering/jeugdbescherming/enum-verzoeksoort> a mim:Enumeratie,
         owl:Class,
         skos:ConceptScheme ;
-    rdfs:label "EnumIncidenttype"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/jeugdbescherming-en-reclassering/jeugdbescherming/enumincidenttype"^^xsd:anyURI ;
-    mim:naam "EnumIncidenttype"@nl ;
-    dcterms:identifier "EAID_2296EC14_B00D_4836_B553_1CB1F48CFDB2" ;
+    rdfs:label "enum_Verzoeksoort"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/jeugdbescherming-en-reclassering/jeugdbescherming/enum-verzoeksoort"^^xsd:anyURI ;
+    mim:naam "enum_Verzoeksoort"@nl ;
+    dcterms:identifier "EAID_3D8D8ED8_A382_4ffb_8608_4846CFF95E28" ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/jeugdbescherming-en-reclassering/jeugdbescherming/> ;
     rdfs:subClassOf skos:Concept .
 
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/jeugdbescherming-en-reclassering/jeugdbescherming/enumverzoeksoort> a mim:Enumeratie,
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/enum-incidenttype> a mim:Enumeratie,
         owl:Class,
         skos:ConceptScheme ;
-    rdfs:label "EnumVerzoeksoort"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/jeugdbescherming-en-reclassering/jeugdbescherming/enumverzoeksoort"^^xsd:anyURI ;
-    mim:naam "EnumVerzoeksoort"@nl ;
-    dcterms:identifier "EAID_3D8D8ED8_A382_4ffb_8608_4846CFF95E28" ;
-    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/jeugdbescherming-en-reclassering/jeugdbescherming/> ;
+    rdfs:label "enum_Incidenttype"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/enum-incidenttype"^^xsd:anyURI ;
+    mim:naam "enum_Incidenttype"@nl ;
+    dcterms:identifier "EAID_27d37248_8797_464c_a6c4_b2121db70f40" ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/> ;
     rdfs:subClassOf skos:Concept .
 
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/jeugdbescherming-en-reclassering/jeugdbescherming/zorgelijke-situatie> a mim:Objecttype,
@@ -781,17 +789,18 @@
     rdfs:comment "Een *incident* is een afzonderlijke gebeurtenis of voorval dat plaatsvindt en kan afwijken van de normale gang van zaken, vaak onverwacht of onvoorzien."@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean> a mim:Enumeratie,
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/boolean> a mim:Enumeratie,
         owl:Class,
         skos:ConceptScheme ;
     rdfs:label "Boolean"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean"^^xsd:anyURI ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/boolean"^^xsd:anyURI ;
     mim:naam "Boolean"@nl ;
-    mim:waarde <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean/ja>,
-        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean/leeg>,
-        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean/nee>,
-        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean/onbekend> ;
-    dcterms:identifier "EAID_9BD0FBCB_1A9E_4cab_9280_0EBC428E38F7" ;
+    mim:waarde <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/boolean/ja>,
+        <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/boolean/leeg>,
+        <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/boolean/nee>,
+        <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/boolean/onbekend> ;
+    dcterms:identifier "EAID_fcc997d9_711a_43df_b1fa_30158b0b0429" ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/> ;
     rdfs:subClassOf skos:Concept .
 
 <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding> a mim:Objecttype,

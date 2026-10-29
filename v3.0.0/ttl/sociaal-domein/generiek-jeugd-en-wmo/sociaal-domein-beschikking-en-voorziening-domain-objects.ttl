@@ -51,6 +51,48 @@
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/inkoop/> ;
     rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/inkoop/contract> .
 
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/organisatorische-eenheid-organisatorischeeenheid> a mim:Relatiesoort,
+        owl:ObjectProperty ;
+    rdfs:label "organisatorische eenheid"@nl ;
+    mim:aggregatietype mim:Geen ;
+    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker> ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/organisatorischeeenheid> ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/organisatorische-eenheid-organisatorischeeenheid"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "0..*" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "organisatorische eenheid"@nl ;
+    mim:unidirectioneel true ;
+    dcterms:identifier "EAID_dst008EC2_F42E_4e6b_8000_E9A81F3A2ECA" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/organisatorischeeenheid> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/organisatorische-eenheid-organisatorischeeenheid-2> a mim:Relatiesoort,
+        owl:ObjectProperty ;
+    rdfs:label "organisatorische eenheid"@nl ;
+    mim:aggregatietype mim:Geen ;
+    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker> ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/organisatorischeeenheid> ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/organisatorische-eenheid-organisatorischeeenheid-2"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "0..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "organisatorische eenheid"@nl ;
+    mim:unidirectioneel true ;
+    dcterms:identifier "EAID_dstBB7F66_64B4_40dd_9628_02202FF00FB1" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/organisatorischeeenheid> .
+
 <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/ingeschrevenpersoon/ouder-1> a mim:Relatiesoort,
         owl:ObjectProperty ;
     rdfs:label "Ouder 1"@nl ;
@@ -690,6 +732,27 @@
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/> ;
     rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/voorzieningsoort> .
 
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/client/client> a mim:Relatiesoort,
+        owl:ObjectProperty ;
+    rdfs:label "client"@nl ;
+    mim:aggregatietype mim:Geen ;
+    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/client> ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/schuldhulpverlening/schuldhulptraject> ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/client/client"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "0..*" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "client"@nl ;
+    mim:unidirectioneel true ;
+    dcterms:identifier "EAID_src2A7C80_3621_40aa_B091_E30616E65F1D" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/client> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/schuldhulpverlening/schuldhulptraject> .
+
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/clientbegeleider/geeft-af> a mim:Relatiesoort,
         owl:ObjectProperty ;
     rdfs:label "geeft af"@nl ;
@@ -783,303 +846,6 @@
     dcterms:identifier "EAID_5AE29494_3572_4924_B2B8_3206E55D71BB" ;
     dcterms:isPartOf <https://lod.gemeentelijkgegevensmodel.nl/> ;
     owl:versionInfo "v3.0.0" .
-
-<https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel/baron> a mim:Enumeratiewaarde,
-        skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel> ;
-    rdfs:label "baron"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel/baron"^^xsd:anyURI ;
-    mim:naam "baron"@nl ;
-    dcterms:identifier "EAID_4E960B48_5F5A_491a_BBD5_708B92271E94" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel> ;
-    skos:prefLabel "baron"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel> .
-
-<https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel/barones> a mim:Enumeratiewaarde,
-        skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel> ;
-    rdfs:label "barones"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel/barones"^^xsd:anyURI ;
-    mim:naam "barones"@nl ;
-    dcterms:identifier "EAID_7908254F_3149_488a_964D_33D76F7F03FE" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel> ;
-    skos:prefLabel "barones"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel> .
-
-<https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel/graaf> a mim:Enumeratiewaarde,
-        skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel> ;
-    rdfs:label "graaf"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel/graaf"^^xsd:anyURI ;
-    mim:naam "graaf"@nl ;
-    dcterms:identifier "EAID_0AA8D702_6288_4621_AD24_D375E6921C75" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel> ;
-    skos:prefLabel "graaf"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel> .
-
-<https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel/gravin> a mim:Enumeratiewaarde,
-        skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel> ;
-    rdfs:label "gravin"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel/gravin"^^xsd:anyURI ;
-    mim:naam "gravin"@nl ;
-    dcterms:identifier "EAID_4C2106FF_FE00_4103_A914_C34A56B72F06" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel> ;
-    skos:prefLabel "gravin"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel> .
-
-<https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel/hertog> a mim:Enumeratiewaarde,
-        skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel> ;
-    rdfs:label "hertog"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel/hertog"^^xsd:anyURI ;
-    mim:naam "hertog"@nl ;
-    dcterms:identifier "EAID_ED11FD6F_9F2C_4dd8_9A24_5EF2F24E376D" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel> ;
-    skos:prefLabel "hertog"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel> .
-
-<https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel/hertogin> a mim:Enumeratiewaarde,
-        skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel> ;
-    rdfs:label "hertogin"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel/hertogin"^^xsd:anyURI ;
-    mim:naam "hertogin"@nl ;
-    dcterms:identifier "EAID_0BFF11E0_D82E_4d86_87A0_56FBC38C006B" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel> ;
-    skos:prefLabel "hertogin"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel> .
-
-<https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel/leeg> a mim:Enumeratiewaarde,
-        skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel> ;
-    rdfs:label "Leeg"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel/leeg"^^xsd:anyURI ;
-    mim:naam "Leeg"@nl ;
-    dcterms:identifier "EAID_26517860_E059_4fff_B750_299D075577DB" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel> ;
-    skos:prefLabel "Leeg"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel> .
-
-<https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel/markies> a mim:Enumeratiewaarde,
-        skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel> ;
-    rdfs:label "markies"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel/markies"^^xsd:anyURI ;
-    mim:naam "markies"@nl ;
-    dcterms:identifier "EAID_9D0FFC5E_DB66_43e1_81A5_167340C6C5E7" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel> ;
-    skos:prefLabel "markies"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel> .
-
-<https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel/markiezin> a mim:Enumeratiewaarde,
-        skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel> ;
-    rdfs:label "markiezin"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel/markiezin"^^xsd:anyURI ;
-    mim:naam "markiezin"@nl ;
-    dcterms:identifier "EAID_790824F4_AFC4_4799_BDD6_F124474B615A" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel> ;
-    skos:prefLabel "markiezin"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel> .
-
-<https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel/onbekend> a mim:Enumeratiewaarde,
-        skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel> ;
-    rdfs:label "Onbekend"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel/onbekend"^^xsd:anyURI ;
-    mim:naam "Onbekend"@nl ;
-    dcterms:identifier "EAID_BF82DBF7_F85E_4179_B3FA_33CF880C12C0" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel> ;
-    skos:prefLabel "Onbekend"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel> .
-
-<https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel/prins> a mim:Enumeratiewaarde,
-        skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel> ;
-    rdfs:label "prins"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel/prins"^^xsd:anyURI ;
-    mim:naam "prins"@nl ;
-    dcterms:identifier "EAID_FA4A562A_BB05_47b2_A70F_8E15B7ECF124" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel> ;
-    skos:prefLabel "prins"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel> .
-
-<https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel/prinses> a mim:Enumeratiewaarde,
-        skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel> ;
-    rdfs:label "prinses"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel/prinses"^^xsd:anyURI ;
-    mim:naam "prinses"@nl ;
-    dcterms:identifier "EAID_07B16146_BF17_47fc_AE2B_3B856F8F3020" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel> ;
-    skos:prefLabel "prinses"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel> .
-
-<https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel/ridder> a mim:Enumeratiewaarde,
-        skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel> ;
-    rdfs:label "ridder"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel/ridder"^^xsd:anyURI ;
-    mim:naam "ridder"@nl ;
-    dcterms:identifier "EAID_8B516517_E401_434e_888D_C523233FC810" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel> ;
-    skos:prefLabel "ridder"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel> .
-
-<https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean/ja> a mim:Enumeratiewaarde,
-        skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean> ;
-    rdfs:label "Ja"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean/ja"^^xsd:anyURI ;
-    mim:naam "Ja"@nl ;
-    dcterms:identifier "EAID_ED373F5C_75C8_4f9f_B72B_DC069BEFFB72" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean> ;
-    skos:prefLabel "Ja"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean> .
-
-<https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean/leeg> a mim:Enumeratiewaarde,
-        skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean> ;
-    rdfs:label "Leeg"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean/leeg"^^xsd:anyURI ;
-    mim:naam "Leeg"@nl ;
-    dcterms:identifier "EAID_15FACEFF_7709_47aa_9827_7C4B604C8D7B" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean> ;
-    skos:prefLabel "Leeg"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean> .
-
-<https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean/nee> a mim:Enumeratiewaarde,
-        skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean> ;
-    rdfs:label "Nee"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean/nee"^^xsd:anyURI ;
-    mim:naam "Nee"@nl ;
-    dcterms:identifier "EAID_7ECA54CF_CE58_4610_80BC_B502ED1347A3" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean> ;
-    skos:prefLabel "Nee"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean> .
-
-<https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean/onbekend> a mim:Enumeratiewaarde,
-        skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean> ;
-    rdfs:label "Onbekend"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean/onbekend"^^xsd:anyURI ;
-    mim:naam "Onbekend"@nl ;
-    dcterms:identifier "EAID_D11CFFBC_096A_4d6c_99EB_8969CD67687E" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean> ;
-    skos:prefLabel "Onbekend"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean> .
-
-<https://lod.gemeentelijkgegevensmodel.nl/enumeraties/gezinsrelatie/alleenstaand-samenwonend> a mim:Enumeratiewaarde,
-        skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/gezinsrelatie> ;
-    rdfs:label "Alleenstaand/Samenwonend"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/enumeraties/gezinsrelatie/alleenstaand-samenwonend"^^xsd:anyURI ;
-    mim:naam "Alleenstaand/Samenwonend"@nl ;
-    dcterms:identifier "EAID_A478AAD7_3604_432f_90E0_19BF4CCEF232" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/gezinsrelatie> ;
-    skos:prefLabel "Alleenstaand/Samenwonend"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/gezinsrelatie> .
-
-<https://lod.gemeentelijkgegevensmodel.nl/enumeraties/gezinsrelatie/echtgenote-binnen-gezin> a mim:Enumeratiewaarde,
-        skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/gezinsrelatie> ;
-    rdfs:label "Echtgenote binnen gezin"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/enumeraties/gezinsrelatie/echtgenote-binnen-gezin"^^xsd:anyURI ;
-    mim:naam "Echtgenote binnen gezin"@nl ;
-    dcterms:identifier "EAID_E167D9D0_737C_48b8_96C2_4AB455D2EEAB" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/gezinsrelatie> ;
-    skos:prefLabel "Echtgenote binnen gezin"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/gezinsrelatie> .
-
-<https://lod.gemeentelijkgegevensmodel.nl/enumeraties/gezinsrelatie/hoofd-gezin-met-kind-eren> a mim:Enumeratiewaarde,
-        skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/gezinsrelatie> ;
-    rdfs:label "Hoofd gezin met kind(eren)"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/enumeraties/gezinsrelatie/hoofd-gezin-met-kind-eren"^^xsd:anyURI ;
-    mim:naam "Hoofd gezin met kind(eren)"@nl ;
-    dcterms:identifier "EAID_AA8BF84A_8147_4b15_92F1_85CAB5DC4669" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/gezinsrelatie> ;
-    skos:prefLabel "Hoofd gezin met kind(eren)"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/gezinsrelatie> .
-
-<https://lod.gemeentelijkgegevensmodel.nl/enumeraties/gezinsrelatie/hoofd-gezin-zonder-kind-eren> a mim:Enumeratiewaarde,
-        skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/gezinsrelatie> ;
-    rdfs:label "Hoofd gezin zonder kind(eren)"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/enumeraties/gezinsrelatie/hoofd-gezin-zonder-kind-eren"^^xsd:anyURI ;
-    mim:naam "Hoofd gezin zonder kind(eren)"@nl ;
-    dcterms:identifier "EAID_C35DC38E_74CF_4dc2_AB77_F8FD92490D9A" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/gezinsrelatie> ;
-    skos:prefLabel "Hoofd gezin zonder kind(eren)"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/gezinsrelatie> .
-
-<https://lod.gemeentelijkgegevensmodel.nl/enumeraties/gezinsrelatie/hoofd-huwelijk-gelijk-geslacht> a mim:Enumeratiewaarde,
-        skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/gezinsrelatie> ;
-    rdfs:label "Hoofd huwelijk gelijk geslacht"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/enumeraties/gezinsrelatie/hoofd-huwelijk-gelijk-geslacht"^^xsd:anyURI ;
-    mim:naam "Hoofd huwelijk gelijk geslacht"@nl ;
-    dcterms:identifier "EAID_E1A8E0AD_9719_46bc_A860_E3297BD14D88" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/gezinsrelatie> ;
-    skos:prefLabel "Hoofd huwelijk gelijk geslacht"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/gezinsrelatie> .
-
-<https://lod.gemeentelijkgegevensmodel.nl/enumeraties/gezinsrelatie/hoofd-partnerrelatie> a mim:Enumeratiewaarde,
-        skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/gezinsrelatie> ;
-    rdfs:label "Hoofd partnerrelatie"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/enumeraties/gezinsrelatie/hoofd-partnerrelatie"^^xsd:anyURI ;
-    mim:naam "Hoofd partnerrelatie"@nl ;
-    dcterms:identifier "EAID_09C9986A_7D08_435c_8F67_BBA681A7B561" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/gezinsrelatie> ;
-    skos:prefLabel "Hoofd partnerrelatie"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/gezinsrelatie> .
-
-<https://lod.gemeentelijkgegevensmodel.nl/enumeraties/gezinsrelatie/kind> a mim:Enumeratiewaarde,
-        skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/gezinsrelatie> ;
-    rdfs:label "Kind"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/enumeraties/gezinsrelatie/kind"^^xsd:anyURI ;
-    mim:naam "Kind"@nl ;
-    dcterms:identifier "EAID_B9D782B4_D570_4441_80D4_7325E096A084" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/gezinsrelatie> ;
-    skos:prefLabel "Kind"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/gezinsrelatie> .
-
-<https://lod.gemeentelijkgegevensmodel.nl/enumeraties/gezinsrelatie/leeg> a mim:Enumeratiewaarde,
-        skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/gezinsrelatie> ;
-    rdfs:label "Leeg"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/enumeraties/gezinsrelatie/leeg"^^xsd:anyURI ;
-    mim:naam "Leeg"@nl ;
-    dcterms:identifier "EAID_0FE738DC_3A5A_4680_959A_FAF464BC8E92" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/gezinsrelatie> ;
-    skos:prefLabel "Leeg"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/gezinsrelatie> .
-
-<https://lod.gemeentelijkgegevensmodel.nl/enumeraties/gezinsrelatie/onbekend> a mim:Enumeratiewaarde,
-        skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/gezinsrelatie> ;
-    rdfs:label "Onbekend"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/enumeraties/gezinsrelatie/onbekend"^^xsd:anyURI ;
-    mim:naam "Onbekend"@nl ;
-    dcterms:identifier "EAID_1A13DB07_A488_42c3_BBC0_E2C949B62677" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/gezinsrelatie> ;
-    skos:prefLabel "Onbekend"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/gezinsrelatie> .
-
-<https://lod.gemeentelijkgegevensmodel.nl/enumeraties/gezinsrelatie/ouder-met-kind-eren> a mim:Enumeratiewaarde,
-        skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/gezinsrelatie> ;
-    rdfs:label "Ouder met kind(eren)"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/enumeraties/gezinsrelatie/ouder-met-kind-eren"^^xsd:anyURI ;
-    mim:naam "Ouder met kind(eren)"@nl ;
-    dcterms:identifier "EAID_766FFC8D_5EF1_4fe4_8474_134943B2D035" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/gezinsrelatie> ;
-    skos:prefLabel "Ouder met kind(eren)"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/gezinsrelatie> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/inkoop/contract/autorisatiegroep> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
@@ -1467,27 +1233,6 @@
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> ;
     rdfs:range xsd:string .
 
-<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/extern> a mim:Attribuutsoort,
-        owl:DatatypeProperty ;
-    rdfs:label "extern"@nl ;
-    mim:definitie "Medewerker is een externe?"@nl ;
-    mim:heeftTijdlijnGeldigheid false ;
-    mim:heeftTijdlijnRegistratie false ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/extern"^^xsd:anyURI ;
-    mim:indicatieAfleidbaar false ;
-    mim:indicatieClassificerend false ;
-    mim:indicatieFormeleHistorie false ;
-    mim:indicatieMaterieleHistorie false ;
-    mim:kardinaliteit "1..1" ;
-    mim:mogelijkGeenWaarde true ;
-    mim:naam "extern"@nl ;
-    mim:type mim:CharacterString ;
-    dcterms:identifier "EAID_8DDB6FA2_A79D_4423_9969_7AF045B86351" ;
-    rdfs:comment "Medewerker is een externe?"@nl ;
-    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker> ;
-    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> ;
-    rdfs:range xsd:string .
-
 <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/functie> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "functie"@nl ;
@@ -1657,6 +1402,369 @@
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> ;
     rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel/baron> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel> ;
+    rdfs:label "baron"@nl ;
+    mim:code "1" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel/baron"^^xsd:anyURI ;
+    mim:naam "baron"@nl ;
+    dcterms:identifier "EAID_1ee1a35d_2ae1_4e16_80c7_f7c89cd357aa" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel> ;
+    skos:notation "1" ;
+    skos:prefLabel "baron"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel/barones> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel> ;
+    rdfs:label "barones"@nl ;
+    mim:code "2" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel/barones"^^xsd:anyURI ;
+    mim:naam "barones"@nl ;
+    dcterms:identifier "EAID_909a266a_2006_45c4_9a2e_b7b616eda8f3" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel> ;
+    skos:notation "2" ;
+    skos:prefLabel "barones"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel/graaf> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel> ;
+    rdfs:label "graaf"@nl ;
+    mim:code "3" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel/graaf"^^xsd:anyURI ;
+    mim:naam "graaf"@nl ;
+    dcterms:identifier "EAID_d76847af_bdf7_4019_a049_76160afa923c" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel> ;
+    skos:notation "3" ;
+    skos:prefLabel "graaf"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel/gravin> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel> ;
+    rdfs:label "gravin"@nl ;
+    mim:code "4" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel/gravin"^^xsd:anyURI ;
+    mim:naam "gravin"@nl ;
+    dcterms:identifier "EAID_fb4f835d_c607_4c78_8ccb_ec106f8684dc" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel> ;
+    skos:notation "4" ;
+    skos:prefLabel "gravin"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel/hertog> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel> ;
+    rdfs:label "hertog"@nl ;
+    mim:code "5" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel/hertog"^^xsd:anyURI ;
+    mim:naam "hertog"@nl ;
+    dcterms:identifier "EAID_63667b0c_7b35_4f53_b842_6287df3ee7ff" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel> ;
+    skos:notation "5" ;
+    skos:prefLabel "hertog"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel/hertogin> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel> ;
+    rdfs:label "hertogin"@nl ;
+    mim:code "6" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel/hertogin"^^xsd:anyURI ;
+    mim:naam "hertogin"@nl ;
+    dcterms:identifier "EAID_c80c5b19_3409_469b_90c5_b2554cdc2ada" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel> ;
+    skos:notation "6" ;
+    skos:prefLabel "hertogin"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel/leeg> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel> ;
+    rdfs:label "Leeg"@nl ;
+    mim:code "-2" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel/leeg"^^xsd:anyURI ;
+    mim:naam "Leeg"@nl ;
+    dcterms:identifier "EAID_ac223a5f_c31a_4f25_b6ee_c22042cc920f" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel> ;
+    skos:notation "-2" ;
+    skos:prefLabel "Leeg"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel/markies> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel> ;
+    rdfs:label "markies"@nl ;
+    mim:code "7" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel/markies"^^xsd:anyURI ;
+    mim:naam "markies"@nl ;
+    dcterms:identifier "EAID_74478cdf_6f28_4a26_85a8_586e66bcb673" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel> ;
+    skos:notation "7" ;
+    skos:prefLabel "markies"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel/markiezin> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel> ;
+    rdfs:label "markiezin"@nl ;
+    mim:code "8" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel/markiezin"^^xsd:anyURI ;
+    mim:naam "markiezin"@nl ;
+    dcterms:identifier "EAID_53ab6f22_c437_43e7_9117_4a5c40bbe644" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel> ;
+    skos:notation "8" ;
+    skos:prefLabel "markiezin"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel/onbekend> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel> ;
+    rdfs:label "Onbekend"@nl ;
+    mim:code "-1" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel/onbekend"^^xsd:anyURI ;
+    mim:naam "Onbekend"@nl ;
+    dcterms:identifier "EAID_98578285_3283_4b1b_ab55_6bed62cb5055" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel> ;
+    skos:notation "-1" ;
+    skos:prefLabel "Onbekend"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel/prins> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel> ;
+    rdfs:label "prins"@nl ;
+    mim:code "9" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel/prins"^^xsd:anyURI ;
+    mim:naam "prins"@nl ;
+    dcterms:identifier "EAID_5f30d1ce_fa65_4197_ae86_0ff05a705e50" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel> ;
+    skos:notation "9" ;
+    skos:prefLabel "prins"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel/prinses> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel> ;
+    rdfs:label "prinses"@nl ;
+    mim:code "10" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel/prinses"^^xsd:anyURI ;
+    mim:naam "prinses"@nl ;
+    dcterms:identifier "EAID_01c43022_8f24_4dfb_a3b8_4a3fdd5d185f" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel> ;
+    skos:notation "10" ;
+    skos:prefLabel "prinses"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel/ridder> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel> ;
+    rdfs:label "ridder"@nl ;
+    mim:code "11" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel/ridder"^^xsd:anyURI ;
+    mim:naam "ridder"@nl ;
+    dcterms:identifier "EAID_58efec5e_328c_467f_8249_3614e966585c" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel> ;
+    skos:notation "11" ;
+    skos:prefLabel "ridder"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/boolean/ja> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/boolean> ;
+    rdfs:label "Ja"@nl ;
+    mim:code "1" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/boolean/ja"^^xsd:anyURI ;
+    mim:naam "Ja"@nl ;
+    dcterms:identifier "EAID_24a4dc7f_97c2_4a44_a534_b0c9540faa60",
+        "EAID_5a1b8ce8_0840_482d_b3a9_d3c04a9e49fe",
+        "EAID_5b25c120_e637_4654_a671_48f6422f7fee",
+        "EAID_b4607180_c778_479b_baf5_4b65a3d0b374" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/boolean> ;
+    skos:notation "1" ;
+    skos:prefLabel "Ja"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/boolean> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/boolean/leeg> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/boolean> ;
+    rdfs:label "Leeg"@nl ;
+    mim:code "-2" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/boolean/leeg"^^xsd:anyURI ;
+    mim:naam "Leeg"@nl ;
+    dcterms:identifier "EAID_46da2abf_5984_4e1e_a83f_3af049d2b6c4",
+        "EAID_5cb252bd_d151_4b67_865b_e837449d6025",
+        "EAID_6354b0d3_19a8_4189_a955_823b472058fb",
+        "EAID_c928324c_76b9_4828_8fd4_f0cdecc57049" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/boolean> ;
+    skos:notation "-2" ;
+    skos:prefLabel "Leeg"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/boolean> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/boolean/nee> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/boolean> ;
+    rdfs:label "Nee"@nl ;
+    mim:code "0" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/boolean/nee"^^xsd:anyURI ;
+    mim:naam "Nee"@nl ;
+    dcterms:identifier "EAID_11e6535c_cc5d_4e82_ad73_7fd70ad69e5e",
+        "EAID_5d958171_bb48_4618_be9d_52df38243007",
+        "EAID_c48939f9_0cda_4bc9_aa7c_ed695378dfd5",
+        "EAID_f582ebdf_e162_467b_9044_e4c4449921b4" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/boolean> ;
+    skos:notation "0" ;
+    skos:prefLabel "Nee"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/boolean> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/boolean/onbekend> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/boolean> ;
+    rdfs:label "Onbekend"@nl ;
+    mim:code "-1" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/boolean/onbekend"^^xsd:anyURI ;
+    mim:naam "Onbekend"@nl ;
+    dcterms:identifier "EAID_28a21d06_b807_4857_8083_e4b3d6abb3df",
+        "EAID_3ebc077d_5589_4380_af54_32eea7e3a0d9",
+        "EAID_5dd6c9c0_045e_4163_bfe0_53698a19a9ca",
+        "EAID_69946d30_43ff_4b06_b2c0_4fece102c49e" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/boolean> ;
+    skos:notation "-1" ;
+    skos:prefLabel "Onbekend"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/boolean> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gezinsrelatie/alleenstaand-samenwonend> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gezinsrelatie> ;
+    rdfs:label "Alleenstaand/Samenwonend"@nl ;
+    mim:code "6" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gezinsrelatie/alleenstaand-samenwonend"^^xsd:anyURI ;
+    mim:naam "Alleenstaand/Samenwonend"@nl ;
+    dcterms:identifier "EAID_5d2efc0a_4b4a_4912_a3aa_ba74de9255c9" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gezinsrelatie> ;
+    skos:notation "6" ;
+    skos:prefLabel "Alleenstaand/Samenwonend"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gezinsrelatie> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gezinsrelatie/echtgenote-binnen-gezin> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gezinsrelatie> ;
+    rdfs:label "Echtgenote binnen gezin"@nl ;
+    mim:code "4" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gezinsrelatie/echtgenote-binnen-gezin"^^xsd:anyURI ;
+    mim:naam "Echtgenote binnen gezin"@nl ;
+    dcterms:identifier "EAID_5f7a1ef9_7b76_4f0b_8ace_2eafe134870e" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gezinsrelatie> ;
+    skos:notation "4" ;
+    skos:prefLabel "Echtgenote binnen gezin"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gezinsrelatie> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gezinsrelatie/hoofd-gezin-met-kind-eren> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gezinsrelatie> ;
+    rdfs:label "Hoofd gezin met kind(eren)"@nl ;
+    mim:code "2" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gezinsrelatie/hoofd-gezin-met-kind-eren"^^xsd:anyURI ;
+    mim:naam "Hoofd gezin met kind(eren)"@nl ;
+    dcterms:identifier "EAID_0dd23d4e_afee_467f_bcc2_7322133ed315" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gezinsrelatie> ;
+    skos:notation "2" ;
+    skos:prefLabel "Hoofd gezin met kind(eren)"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gezinsrelatie> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gezinsrelatie/hoofd-gezin-zonder-kind-eren> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gezinsrelatie> ;
+    rdfs:label "Hoofd gezin zonder kind(eren)"@nl ;
+    mim:code "1" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gezinsrelatie/hoofd-gezin-zonder-kind-eren"^^xsd:anyURI ;
+    mim:naam "Hoofd gezin zonder kind(eren)"@nl ;
+    dcterms:identifier "EAID_aa1fbece_fd0f_41ba_9dc9_09239caa2e03" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gezinsrelatie> ;
+    skos:notation "1" ;
+    skos:prefLabel "Hoofd gezin zonder kind(eren)"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gezinsrelatie> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gezinsrelatie/hoofd-huwelijk-gelijk-geslacht> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gezinsrelatie> ;
+    rdfs:label "Hoofd huwelijk gelijk geslacht"@nl ;
+    mim:code "8" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gezinsrelatie/hoofd-huwelijk-gelijk-geslacht"^^xsd:anyURI ;
+    mim:naam "Hoofd huwelijk gelijk geslacht"@nl ;
+    dcterms:identifier "EAID_126f2894_65a3_47b9_8311_e0ab368f68e3" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gezinsrelatie> ;
+    skos:notation "8" ;
+    skos:prefLabel "Hoofd huwelijk gelijk geslacht"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gezinsrelatie> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gezinsrelatie/hoofd-partnerrelatie> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gezinsrelatie> ;
+    rdfs:label "Hoofd partnerrelatie"@nl ;
+    mim:code "7" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gezinsrelatie/hoofd-partnerrelatie"^^xsd:anyURI ;
+    mim:naam "Hoofd partnerrelatie"@nl ;
+    dcterms:identifier "EAID_3e309fcf_2cec_4620_9ff4_b7b941a2c365" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gezinsrelatie> ;
+    skos:notation "7" ;
+    skos:prefLabel "Hoofd partnerrelatie"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gezinsrelatie> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gezinsrelatie/kind> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gezinsrelatie> ;
+    rdfs:label "Kind"@nl ;
+    mim:code "5" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gezinsrelatie/kind"^^xsd:anyURI ;
+    mim:naam "Kind"@nl ;
+    dcterms:identifier "EAID_07ef3742_0730_4490_a64a_7acfdb998d8f" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gezinsrelatie> ;
+    skos:notation "5" ;
+    skos:prefLabel "Kind"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gezinsrelatie> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gezinsrelatie/leeg> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gezinsrelatie> ;
+    rdfs:label "Leeg"@nl ;
+    mim:code "-2" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gezinsrelatie/leeg"^^xsd:anyURI ;
+    mim:naam "Leeg"@nl ;
+    dcterms:identifier "EAID_2953695c_b25e_4d2b_abcc_4e450868d9cb" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gezinsrelatie> ;
+    skos:notation "-2" ;
+    skos:prefLabel "Leeg"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gezinsrelatie> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gezinsrelatie/onbekend> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gezinsrelatie> ;
+    rdfs:label "Onbekend"@nl ;
+    mim:code "-1" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gezinsrelatie/onbekend"^^xsd:anyURI ;
+    mim:naam "Onbekend"@nl ;
+    dcterms:identifier "EAID_e5765891_229a_491b_9ce3_424bc7e004a8" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gezinsrelatie> ;
+    skos:notation "-1" ;
+    skos:prefLabel "Onbekend"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gezinsrelatie> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gezinsrelatie/ouder-met-kind-eren> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gezinsrelatie> ;
+    rdfs:label "Ouder met kind(eren)"@nl ;
+    mim:code "3" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gezinsrelatie/ouder-met-kind-eren"^^xsd:anyURI ;
+    mim:naam "Ouder met kind(eren)"@nl ;
+    dcterms:identifier "EAID_9de8a522_6180_41de_9d3d_712433e2827f" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gezinsrelatie> ;
+    skos:notation "3" ;
+    skos:prefLabel "Ouder met kind(eren)"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gezinsrelatie> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/ingeschrevenpersoon/adresherkomst> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
@@ -1921,11 +2029,11 @@
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "gezinsrelatie"@nl ;
-    mim:type <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/gezinsrelatie> ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gezinsrelatie> ;
     dcterms:identifier "EAID_3F731B82_EB3A_41f9_B730_765599798863" ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/ingeschrevenpersoon> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
-    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/gezinsrelatie> .
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gezinsrelatie> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/ingeschrevenpersoon/indicatiegeheim> a mim:Attribuutsoort,
         owl:ObjectProperty ;
@@ -1941,12 +2049,12 @@
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "indicatieGeheim"@nl ;
-    mim:type <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean> ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/boolean> ;
     dcterms:identifier "EAID_D6FC9878_9865_4090_94C4_9FA4BA55E120" ;
     rdfs:comment "Een aanduiding die aangeeft dat gegevens wel of niet verstrekt mogen worden."@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/ingeschrevenpersoon> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
-    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean> .
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/boolean> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/ingeschrevenpersoon/ingezetene> a mim:Attribuutsoort,
         owl:ObjectProperty ;
@@ -1961,11 +2069,11 @@
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "ingezetene"@nl ;
-    mim:type <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean> ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/boolean> ;
     dcterms:identifier "EAID_0DBB807F_62ED_4c66_B535_0B9B9ECD7CFC" ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/ingeschrevenpersoon> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
-    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean> .
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/boolean> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/ingeschrevenpersoon/landwaarnaarvertrokken> a mim:Attribuutsoort,
         owl:ObjectProperty ;
@@ -2120,12 +2228,12 @@
     mim:kardinaliteit "0..1" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "signaleringReisdocument"@nl ;
-    mim:type <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean> ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/boolean> ;
     dcterms:identifier "EAID_A8141D41_5EA9_4e14_BC51_77DBC8738968" ;
     rdfs:comment "Een aanduiding dat aan de ingeschrevene geen reisdocument mag worden verstrekt."@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/ingeschrevenpersoon> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
-    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean> .
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/boolean> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/ingeschrevenpersoon/verblijfstitel> a mim:Attribuutsoort,
         owl:ObjectProperty ;
@@ -2242,12 +2350,12 @@
     mim:kardinaliteit "0..1" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "adellijkeTitelOfPredikaat"@nl ;
-    mim:type <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel> ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel> ;
     dcterms:identifier "EAID_5CB3C6B2_826C_4645_AC21_6E4F8A103B29" ;
     rdfs:comment "Een omschrijving die aangeeft welke titel of welk predikaat behoort tot de naam (bij adellijke titel geslachtsnaam, bij predikaat voornaam)."@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/natuurlijkpersoon> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
-    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel> .
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/natuurlijkpersoon/anummer> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
@@ -2836,7 +2944,7 @@ geslachtsnaam voorafgaat.."""@nl ;
     rdfs:range xsd:string .
 
 <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/rechtspersoon/rekeningnummer> a mim:Attribuutsoort,
-        owl:ObjectProperty ;
+        owl:DatatypeProperty ;
     rdfs:label "rekeningnummer"@nl ;
     mim:definitie "Het nummer van een Nederlandse bank/girorekening, zoals dat door een bankinstelling als identificator aan een overeenkomst tussen de bank en een of meer subjecten wordt toegekend, op basis waarvan het SUBJECT in de regel financieel communiceert."@nl ;
     mim:heeftTijdlijnGeldigheid false ;
@@ -2849,12 +2957,12 @@ geslachtsnaam voorafgaat.."""@nl ;
     mim:kardinaliteit "0..1" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "rekeningnummer"@nl ;
-    mim:type <https://lod.gemeentelijkgegevensmodel.nl/ggm-datatypes/iban> ;
+    mim:type mim:CharacterString ;
     dcterms:identifier "EAID_6BB892F7_1C6E_4aeb_8BFA_3012FEB03B78" ;
     rdfs:comment "Het nummer van een Nederlandse bank/girorekening, zoals dat door een bankinstelling als identificator aan een overeenkomst tussen de bank en een of meer subjecten wordt toegekend, op basis waarvan het SUBJECT in de regel financieel communiceert."@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/rechtspersoon> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
-    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/ggm-datatypes/iban> .
+    rdfs:range xsd:string .
 
 <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/rechtspersoon/telefoonnummer> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
@@ -3099,11 +3207,11 @@ geslachtsnaam voorafgaat.."""@nl ;
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "leveringsvorm"@nl ;
-    mim:type <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/enumleveringsvorm> ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/leveringsvorm> ;
     dcterms:identifier "EAID_3B0E943E_C928_401f_A7A8_CD969C13F9F2" ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/beschikte-voorziening> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/> ;
-    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/enumleveringsvorm> .
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/leveringsvorm> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/beschikte-voorziening/omvang> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
@@ -3356,10 +3464,12 @@ geslachtsnaam voorafgaat.."""@nl ;
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/eenheid> ;
     rdfs:label "Dagdeel (4 uur)"@nl ;
+    mim:code "16" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/eenheid/dagdeel-4-uur"^^xsd:anyURI ;
     mim:naam "Dagdeel (4 uur)"@nl ;
     dcterms:identifier "EAID_70818466_45F8_4ccd_93DF_A37EBEF6CA14" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/eenheid> ;
+    skos:notation "16" ;
     skos:prefLabel "Dagdeel (4 uur)"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/eenheid> .
 
@@ -3367,32 +3477,38 @@ geslachtsnaam voorafgaat.."""@nl ;
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/eenheid> ;
     rdfs:label "Etmaal"@nl ;
+    mim:code "14" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/eenheid/etmaal"^^xsd:anyURI ;
     mim:naam "Etmaal"@nl ;
     dcterms:identifier "EAID_37DCBD6A_3E76_4799_A9F2_29BE13EC8D20" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/eenheid> ;
+    skos:notation "14" ;
     skos:prefLabel "Etmaal"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/eenheid> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/eenheid/euro-s> a mim:Enumeratiewaarde,
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/eenheid/euros> a mim:Enumeratiewaarde,
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/eenheid> ;
-    rdfs:label "Euro's"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/eenheid/euro-s"^^xsd:anyURI ;
-    mim:naam "Euro's"@nl ;
+    rdfs:label "Euros"@nl ;
+    mim:code "83" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/eenheid/euros"^^xsd:anyURI ;
+    mim:naam "Euros"@nl ;
     dcterms:identifier "EAID_70AB0639_89B9_4914_B6BA_9234DF316B0F" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/eenheid> ;
-    skos:prefLabel "Euro's"@nl ;
+    skos:notation "83" ;
+    skos:prefLabel "Euros"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/eenheid> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/eenheid/leeg> a mim:Enumeratiewaarde,
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/eenheid> ;
     rdfs:label "Leeg"@nl ;
+    mim:code "-2" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/eenheid/leeg"^^xsd:anyURI ;
     mim:naam "Leeg"@nl ;
     dcterms:identifier "EAID_4AD592E6_3A51_41fc_87C3_C5AE0740E66E" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/eenheid> ;
+    skos:notation "-2" ;
     skos:prefLabel "Leeg"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/eenheid> .
 
@@ -3400,10 +3516,12 @@ geslachtsnaam voorafgaat.."""@nl ;
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/eenheid> ;
     rdfs:label "Minuut"@nl ;
+    mim:code "1" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/eenheid/minuut"^^xsd:anyURI ;
     mim:naam "Minuut"@nl ;
     dcterms:identifier "EAID_58E4FD67_C88D_42ed_B524_74D841576C39" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/eenheid> ;
+    skos:notation "1" ;
     skos:prefLabel "Minuut"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/eenheid> .
 
@@ -3411,100 +3529,53 @@ geslachtsnaam voorafgaat.."""@nl ;
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/eenheid> ;
     rdfs:label "Onbekend"@nl ;
+    mim:code "-1" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/eenheid/onbekend"^^xsd:anyURI ;
     mim:naam "Onbekend"@nl ;
     dcterms:identifier "EAID_B26AE1BB_4D37_4a7c_A333_F2D31382DC90" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/eenheid> ;
+    skos:notation "-1" ;
     skos:prefLabel "Onbekend"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/eenheid> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/eenheid/stuks-inspanning> a mim:Enumeratiewaarde,
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/eenheid/stuks> a mim:Enumeratiewaarde,
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/eenheid> ;
-    rdfs:label "Stuks (inspanning)"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/eenheid/stuks-inspanning"^^xsd:anyURI ;
-    mim:naam "Stuks (inspanning)"@nl ;
-    dcterms:identifier "EAID_E1D332E5_A4CC_4D5D_80D6_69750811196E" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/eenheid> ;
-    skos:prefLabel "Stuks (inspanning)"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/eenheid> .
-
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/eenheid/stuks-output> a mim:Enumeratiewaarde,
-        skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/eenheid> ;
-    rdfs:label "Stuks (output)"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/eenheid/stuks-output"^^xsd:anyURI ;
-    mim:naam "Stuks (output)"@nl ;
+    rdfs:label "Stuks"@nl ;
+    mim:code "82" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/eenheid/stuks"^^xsd:anyURI ;
+    mim:naam "Stuks"@nl ;
     dcterms:identifier "EAID_9B5E3056_74F7_4a60_B23B_42317E6DBAB9" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/eenheid> ;
-    skos:prefLabel "Stuks (output)"@nl ;
+    skos:notation "82" ;
+    skos:prefLabel "Stuks"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/eenheid> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/eenheid/uur> a mim:Enumeratiewaarde,
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/eenheid> ;
     rdfs:label "Uur"@nl ;
+    mim:code "4" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/eenheid/uur"^^xsd:anyURI ;
     mim:naam "Uur"@nl ;
     dcterms:identifier "EAID_B741968A_373F_48ca_A242_DAA13496E912" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/eenheid> ;
+    skos:notation "4" ;
     skos:prefLabel "Uur"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/eenheid> .
-
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/enumleveringsvorm/leeg> a mim:Enumeratiewaarde,
-        skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/enumleveringsvorm> ;
-    rdfs:label "Leeg"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/enumleveringsvorm/leeg"^^xsd:anyURI ;
-    mim:naam "Leeg"@nl ;
-    dcterms:identifier "EAID_0F8FE6A1_33D7_4dbd_943E_FFD80154AD0D" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/enumleveringsvorm> ;
-    skos:prefLabel "Leeg"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/enumleveringsvorm> .
-
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/enumleveringsvorm/onbekend> a mim:Enumeratiewaarde,
-        skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/enumleveringsvorm> ;
-    rdfs:label "Onbekend"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/enumleveringsvorm/onbekend"^^xsd:anyURI ;
-    mim:naam "Onbekend"@nl ;
-    dcterms:identifier "EAID_069925E7_08B3_4c57_98BA_3F6B57994AD7" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/enumleveringsvorm> ;
-    skos:prefLabel "Onbekend"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/enumleveringsvorm> .
-
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/enumleveringsvorm/pgb> a mim:Enumeratiewaarde,
-        skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/enumleveringsvorm> ;
-    rdfs:label "PGB"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/enumleveringsvorm/pgb"^^xsd:anyURI ;
-    mim:naam "PGB"@nl ;
-    dcterms:identifier "EAID_C293B753_0259_44e2_8EE5_17D26F818577" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/enumleveringsvorm> ;
-    skos:prefLabel "PGB"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/enumleveringsvorm> .
-
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/enumleveringsvorm/zin> a mim:Enumeratiewaarde,
-        skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/enumleveringsvorm> ;
-    rdfs:label "ZIN"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/enumleveringsvorm/zin"^^xsd:anyURI ;
-    mim:naam "ZIN"@nl ;
-    dcterms:identifier "EAID_BBAC8FF0_1439_4292_81D4_582966A39A6E" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/enumleveringsvorm> ;
-    skos:prefLabel "ZIN"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/enumleveringsvorm> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/frequentie/binnen-geldigheid-beschikking> a mim:Enumeratiewaarde,
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/frequentie> ;
     rdfs:label "Binnen geldigheid Beschikking"@nl ;
+    mim:code "6" ;
     mim:definitie "Frequentie bij beschikking conform iWmo 2.0 zie https://www.istandaarden.nl/ibieb/functionele-uitwerking-release-iwmo-20"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/frequentie/binnen-geldigheid-beschikking"^^xsd:anyURI ;
     mim:naam "Binnen geldigheid Beschikking"@nl ;
     dcterms:identifier "EAID_4787A4FA_A901_4342_B699_3DF39F0DE9E1" ;
     skos:definition "Frequentie bij beschikking conform iWmo 2.0 zie https://www.istandaarden.nl/ibieb/functionele-uitwerking-release-iwmo-20"@nl ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/frequentie> ;
+    skos:notation "6" ;
     skos:prefLabel "Binnen geldigheid Beschikking"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/frequentie> .
 
@@ -3512,10 +3583,12 @@ geslachtsnaam voorafgaat.."""@nl ;
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/frequentie> ;
     rdfs:label "Leeg"@nl ;
+    mim:code "-2" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/frequentie/leeg"^^xsd:anyURI ;
     mim:naam "Leeg"@nl ;
     dcterms:identifier "EAID_196F084B_9807_4c14_8295_F08699BAB616" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/frequentie> ;
+    skos:notation "-2" ;
     skos:prefLabel "Leeg"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/frequentie> .
 
@@ -3523,10 +3596,12 @@ geslachtsnaam voorafgaat.."""@nl ;
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/frequentie> ;
     rdfs:label "Onbekend"@nl ;
+    mim:code "-1" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/frequentie/onbekend"^^xsd:anyURI ;
     mim:naam "Onbekend"@nl ;
     dcterms:identifier "EAID_AE1E9AE5_CFA8_48bf_A9A5_B04E59E5BA96" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/frequentie> ;
+    skos:notation "-1" ;
     skos:prefLabel "Onbekend"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/frequentie> .
 
@@ -3534,10 +3609,12 @@ geslachtsnaam voorafgaat.."""@nl ;
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/frequentie> ;
     rdfs:label "Per 4 weken"@nl ;
+    mim:code "3" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/frequentie/per-4-weken"^^xsd:anyURI ;
     mim:naam "Per 4 weken"@nl ;
     dcterms:identifier "EAID_A675C7E7_1A44_464c_8BD4_07DC7BACFBAF" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/frequentie> ;
+    skos:notation "3" ;
     skos:prefLabel "Per 4 weken"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/frequentie> .
 
@@ -3545,10 +3622,12 @@ geslachtsnaam voorafgaat.."""@nl ;
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/frequentie> ;
     rdfs:label "Per dag"@nl ;
+    mim:code "1" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/frequentie/per-dag"^^xsd:anyURI ;
     mim:naam "Per dag"@nl ;
     dcterms:identifier "EAID_26C17FDB_9778_4fe5_AB94_1E82F15BC871" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/frequentie> ;
+    skos:notation "1" ;
     skos:prefLabel "Per dag"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/frequentie> .
 
@@ -3556,10 +3635,12 @@ geslachtsnaam voorafgaat.."""@nl ;
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/frequentie> ;
     rdfs:label "Per jaar"@nl ;
+    mim:code "5" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/frequentie/per-jaar"^^xsd:anyURI ;
     mim:naam "Per jaar"@nl ;
     dcterms:identifier "EAID_86266082_255E_4248_8BB1_E077D79A4A48" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/frequentie> ;
+    skos:notation "5" ;
     skos:prefLabel "Per jaar"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/frequentie> .
 
@@ -3567,10 +3648,12 @@ geslachtsnaam voorafgaat.."""@nl ;
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/frequentie> ;
     rdfs:label "Per maand"@nl ;
+    mim:code "4" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/frequentie/per-maand"^^xsd:anyURI ;
     mim:naam "Per maand"@nl ;
     dcterms:identifier "EAID_32B1EA0A_CFCA_479b_896E_907372DF5E66" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/frequentie> ;
+    skos:notation "4" ;
     skos:prefLabel "Per maand"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/frequentie> .
 
@@ -3578,10 +3661,12 @@ geslachtsnaam voorafgaat.."""@nl ;
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/frequentie> ;
     rdfs:label "Per week"@nl ;
+    mim:code "2" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/frequentie/per-week"^^xsd:anyURI ;
     mim:naam "Per week"@nl ;
     dcterms:identifier "EAID_2BFD16C5_8708_4618_B7E7_A310B6862320" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/frequentie> ;
+    skos:notation "2" ;
     skos:prefLabel "Per week"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/frequentie> .
 
@@ -3718,6 +3803,19 @@ geslachtsnaam voorafgaat.."""@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/> ;
     rdfs:range xsd:string .
 
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/leveringsvorm/leeg> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/leveringsvorm> ;
+    rdfs:label "Leeg"@nl ;
+    mim:code "-2" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/leveringsvorm/leeg"^^xsd:anyURI ;
+    mim:naam "Leeg"@nl ;
+    dcterms:identifier "EAID_0F8FE6A1_33D7_4dbd_943E_FFD80154AD0D" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/leveringsvorm> ;
+    skos:notation "-2" ;
+    skos:prefLabel "Leeg"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/leveringsvorm> .
+
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/leveringsvorm/leveringsvormcode> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "leveringsvormCode"@nl ;
@@ -3756,6 +3854,32 @@ geslachtsnaam voorafgaat.."""@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/> ;
     rdfs:range xsd:string .
 
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/leveringsvorm/onbekend> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/leveringsvorm> ;
+    rdfs:label "Onbekend"@nl ;
+    mim:code "-1" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/leveringsvorm/onbekend"^^xsd:anyURI ;
+    mim:naam "Onbekend"@nl ;
+    dcterms:identifier "EAID_069925E7_08B3_4c57_98BA_3F6B57994AD7" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/leveringsvorm> ;
+    skos:notation "-1" ;
+    skos:prefLabel "Onbekend"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/leveringsvorm> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/leveringsvorm/pgb> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/leveringsvorm> ;
+    rdfs:label "PGB"@nl ;
+    mim:code "2" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/leveringsvorm/pgb"^^xsd:anyURI ;
+    mim:naam "PGB"@nl ;
+    dcterms:identifier "EAID_C293B753_0259_44e2_8EE5_17D26F818577" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/leveringsvorm> ;
+    skos:notation "2" ;
+    skos:prefLabel "PGB"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/leveringsvorm> .
+
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/leveringsvorm/wet> a mim:Attribuutsoort,
         owl:ObjectProperty ;
     rdfs:label "wet"@nl ;
@@ -3774,6 +3898,19 @@ geslachtsnaam voorafgaat.."""@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/leveringsvorm> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/> ;
     rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/wet> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/leveringsvorm/zin> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/leveringsvorm> ;
+    rdfs:label "ZIN"@nl ;
+    mim:code "1" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/leveringsvorm/zin"^^xsd:anyURI ;
+    mim:naam "ZIN"@nl ;
+    dcterms:identifier "EAID_BBAC8FF0_1439_4292_81D4_582966A39A6E" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/leveringsvorm> ;
+    skos:notation "1" ;
+    skos:prefLabel "ZIN"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/leveringsvorm> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/melding-eigen-bijdrage/datumstart> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
@@ -3874,10 +4011,12 @@ geslachtsnaam voorafgaat.."""@nl ;
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/soort-verwijzer> ;
     rdfs:label "Gecertificeerde instelling"@nl ;
+    mim:code "1" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/soort-verwijzer/gecertificeerde-instelling"^^xsd:anyURI ;
     mim:naam "Gecertificeerde instelling"@nl ;
     dcterms:identifier "EAID_041A7B31_5CFA_4f18_914E_FF85F5BEF86C" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/soort-verwijzer> ;
+    skos:notation "1" ;
     skos:prefLabel "Gecertificeerde instelling"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/soort-verwijzer> .
 
@@ -3885,10 +4024,12 @@ geslachtsnaam voorafgaat.."""@nl ;
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/soort-verwijzer> ;
     rdfs:label "Gemeente"@nl ;
+    mim:code "2" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/soort-verwijzer/gemeente"^^xsd:anyURI ;
     mim:naam "Gemeente"@nl ;
     dcterms:identifier "EAID_6E848FB7_FE8D_4896_B96A_C304857CA9C2" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/soort-verwijzer> ;
+    skos:notation "2" ;
     skos:prefLabel "Gemeente"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/soort-verwijzer> .
 
@@ -3896,10 +4037,12 @@ geslachtsnaam voorafgaat.."""@nl ;
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/soort-verwijzer> ;
     rdfs:label "Huisarts"@nl ;
+    mim:code "3" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/soort-verwijzer/huisarts"^^xsd:anyURI ;
     mim:naam "Huisarts"@nl ;
     dcterms:identifier "EAID_4162398C_6034_4f22_856B_DCC4EE4574E0" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/soort-verwijzer> ;
+    skos:notation "3" ;
     skos:prefLabel "Huisarts"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/soort-verwijzer> .
 
@@ -3907,10 +4050,12 @@ geslachtsnaam voorafgaat.."""@nl ;
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/soort-verwijzer> ;
     rdfs:label "Jeugdarts"@nl ;
+    mim:code "4" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/soort-verwijzer/jeugdarts"^^xsd:anyURI ;
     mim:naam "Jeugdarts"@nl ;
     dcterms:identifier "EAID_BFF0B9DF_9094_49e3_AE90_08C0559369A0" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/soort-verwijzer> ;
+    skos:notation "4" ;
     skos:prefLabel "Jeugdarts"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/soort-verwijzer> .
 
@@ -3918,10 +4063,12 @@ geslachtsnaam voorafgaat.."""@nl ;
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/soort-verwijzer> ;
     rdfs:label "Leeg"@nl ;
+    mim:code "-2" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/soort-verwijzer/leeg"^^xsd:anyURI ;
     mim:naam "Leeg"@nl ;
     dcterms:identifier "EAID_CF24AAC4_FDFE_4af6_9B40_57530ACC676C" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/soort-verwijzer> ;
+    skos:notation "-2" ;
     skos:prefLabel "Leeg"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/soort-verwijzer> .
 
@@ -3929,10 +4076,12 @@ geslachtsnaam voorafgaat.."""@nl ;
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/soort-verwijzer> ;
     rdfs:label "Medisch specialist"@nl ;
+    mim:code "5" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/soort-verwijzer/medisch-specialist"^^xsd:anyURI ;
     mim:naam "Medisch specialist"@nl ;
     dcterms:identifier "EAID_38D8C249_E78F_4005_A5F7_65F789470065" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/soort-verwijzer> ;
+    skos:notation "5" ;
     skos:prefLabel "Medisch specialist"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/soort-verwijzer> .
 
@@ -3940,10 +4089,12 @@ geslachtsnaam voorafgaat.."""@nl ;
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/soort-verwijzer> ;
     rdfs:label "Onbekend"@nl ;
+    mim:code "-1" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/soort-verwijzer/onbekend"^^xsd:anyURI ;
     mim:naam "Onbekend"@nl ;
     dcterms:identifier "EAID_205021EE_0A5D_4d73_87F3_E327FA09D4DF" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/soort-verwijzer> ;
+    skos:notation "-1" ;
     skos:prefLabel "Onbekend"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/soort-verwijzer> .
 
@@ -3951,10 +4102,12 @@ geslachtsnaam voorafgaat.."""@nl ;
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/soort-verwijzer> ;
     rdfs:label "Rechter, Officier van Justitie, functionaris Justitiële jeugdinrichting"@nl ;
+    mim:code "6" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/soort-verwijzer/rechter-officier-van-justitie-functionaris-justiti-le-jeugdinrichting"^^xsd:anyURI ;
     mim:naam "Rechter, Officier van Justitie, functionaris Justitiële jeugdinrichting"@nl ;
     dcterms:identifier "EAID_3EFB3B70_7C66_4b7e_9CEC_A492121205A2" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/soort-verwijzer> ;
+    skos:notation "6" ;
     skos:prefLabel "Rechter, Officier van Justitie, functionaris Justitiële jeugdinrichting"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/soort-verwijzer> .
 
@@ -3962,10 +4115,12 @@ geslachtsnaam voorafgaat.."""@nl ;
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/soort-verwijzer> ;
     rdfs:label "Zelfverwijzer / geen verwijzer"@nl ;
+    mim:code "7" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/soort-verwijzer/zelfverwijzer-geen-verwijzer"^^xsd:anyURI ;
     mim:naam "Zelfverwijzer / geen verwijzer"@nl ;
     dcterms:identifier "EAID_8974A6A4_7896_4da7_84E9_9B179C76ED0C" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/soort-verwijzer> ;
+    skos:notation "7" ;
     skos:prefLabel "Zelfverwijzer / geen verwijzer"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/soort-verwijzer> .
 
@@ -4790,10 +4945,12 @@ geslachtsnaam voorafgaat.."""@nl ;
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/wet> ;
     rdfs:label "Andere wet"@nl ;
+    mim:code "3" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/wet/andere-wet"^^xsd:anyURI ;
     mim:naam "Andere wet"@nl ;
     dcterms:identifier "EAID_F5C54F95_641F_4a5b_AAFF_3210423034CC" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/wet> ;
+    skos:notation "3" ;
     skos:prefLabel "Andere wet"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/wet> .
 
@@ -4801,10 +4958,12 @@ geslachtsnaam voorafgaat.."""@nl ;
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/wet> ;
     rdfs:label "Bijzondere Bijstand"@nl ;
+    mim:code "6" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/wet/bijzondere-bijstand"^^xsd:anyURI ;
     mim:naam "Bijzondere Bijstand"@nl ;
     dcterms:identifier "EAID_36E70B43_1CFA_4201_B747_89A381E33DA6" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/wet> ;
+    skos:notation "6" ;
     skos:prefLabel "Bijzondere Bijstand"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/wet> .
 
@@ -4812,10 +4971,12 @@ geslachtsnaam voorafgaat.."""@nl ;
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/wet> ;
     rdfs:label "I.O.A.W./I.O.A.Z."@nl ;
+    mim:code "5" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/wet/i-o-a-w-i-o-a-z"^^xsd:anyURI ;
     mim:naam "I.O.A.W./I.O.A.Z."@nl ;
     dcterms:identifier "EAID_1470E5EF_B26A_4ba2_8190_2E5803ACA303" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/wet> ;
+    skos:notation "5" ;
     skos:prefLabel "I.O.A.W./I.O.A.Z."@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/wet> .
 
@@ -4823,12 +4984,14 @@ geslachtsnaam voorafgaat.."""@nl ;
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/wet> ;
     rdfs:label "Jeugdwet"@nl ;
+    mim:code "2" ;
     mim:definitie "dere"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/wet/jeugdwet"^^xsd:anyURI ;
     mim:naam "Jeugdwet"@nl ;
     dcterms:identifier "EAID_9D7FFD3C_99F1_4170_9407_51C836617B41" ;
     skos:definition "dere"@nl ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/wet> ;
+    skos:notation "2" ;
     skos:prefLabel "Jeugdwet"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/wet> .
 
@@ -4836,10 +4999,12 @@ geslachtsnaam voorafgaat.."""@nl ;
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/wet> ;
     rdfs:label "Leeg"@nl ;
+    mim:code "-2" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/wet/leeg"^^xsd:anyURI ;
     mim:naam "Leeg"@nl ;
     dcterms:identifier "EAID_3DE857DE_5AE1_4198_A779_57921204109F" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/wet> ;
+    skos:notation "-2" ;
     skos:prefLabel "Leeg"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/wet> .
 
@@ -4847,10 +5012,12 @@ geslachtsnaam voorafgaat.."""@nl ;
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/wet> ;
     rdfs:label "Niet van toepassing"@nl ;
+    mim:code "0" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/wet/niet-van-toepassing"^^xsd:anyURI ;
     mim:naam "Niet van toepassing"@nl ;
     dcterms:identifier "EAID_6AA2A690_274B_4d98_9FEC_1BF082E06750" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/wet> ;
+    skos:notation "0" ;
     skos:prefLabel "Niet van toepassing"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/wet> .
 
@@ -4858,10 +5025,12 @@ geslachtsnaam voorafgaat.."""@nl ;
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/wet> ;
     rdfs:label "Onbekend"@nl ;
+    mim:code "-1" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/wet/onbekend"^^xsd:anyURI ;
     mim:naam "Onbekend"@nl ;
     dcterms:identifier "EAID_CC25D5AB_9F57_49f9_B924_99821B0FA5E0" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/wet> ;
+    skos:notation "-1" ;
     skos:prefLabel "Onbekend"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/wet> .
 
@@ -4869,10 +5038,12 @@ geslachtsnaam voorafgaat.."""@nl ;
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/wet> ;
     rdfs:label "Participatiewet PW-I"@nl ;
+    mim:code "4" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/wet/participatiewet-pw-i"^^xsd:anyURI ;
     mim:naam "Participatiewet PW-I"@nl ;
     dcterms:identifier "EAID_3300C780_B581_4660_A7E4_0624B30CCDC0" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/wet> ;
+    skos:notation "4" ;
     skos:prefLabel "Participatiewet PW-I"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/wet> .
 
@@ -4880,10 +5051,12 @@ geslachtsnaam voorafgaat.."""@nl ;
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/wet> ;
     rdfs:label "Wmo"@nl ;
+    mim:code "1" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/wet/wmo"^^xsd:anyURI ;
     mim:naam "Wmo"@nl ;
     dcterms:identifier "EAID_BE76A7E6_C025_4f0e_9178_95CABB0B7649" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/wet> ;
+    skos:notation "1" ;
     skos:prefLabel "Wmo"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/wet> .
 
@@ -5103,20 +5276,6 @@ geslachtsnaam voorafgaat.."""@nl ;
     rdfs:comment "Aangifte van de evetuele eigen bijdrage"@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/leveringsvorm> a mim:Objecttype,
-        owl:Class ;
-    rdfs:label "Leveringsvorm"@nl ;
-    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/leveringsvorm/leveringsvormcode>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/leveringsvorm/naam>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/leveringsvorm/wet> ;
-    mim:definitie "Zorg die onder de Wlz, de Zvw-Wijkverpleging of de Wmo 2015 valt, kan aan personen als zorg in natura (zin) worden geleverd of bekostigd worden uit een persoonsgebonden budget (pgb)."@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/leveringsvorm"^^xsd:anyURI ;
-    mim:indicatieAbstractObject false ;
-    mim:naam "Leveringsvorm"@nl ;
-    dcterms:identifier "EAID_F35DA519_FA0C_48ae_9EFC_C4EBEC4BF144" ;
-    rdfs:comment "Zorg die onder de Wlz, de Zvw-Wijkverpleging of de Wmo 2015 valt, kan aan personen als zorg in natura (zin) worden geleverd of bekostigd worden uit een persoonsgebonden budget (pgb)."@nl ;
-    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/> .
-
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/clientbegeleider> a mim:Objecttype,
         owl:Class ;
     rdfs:label "Clientbegeleider"@nl ;
@@ -5211,30 +5370,6 @@ Opgebouwd op basis van het TKB (Toekenninsgbericht) aan het SVB, en het BAB-beri
     rdfs:comment "Een *declaratieregel* is de **administratieve regel** waarin het **volume van één product of geleverde prestatie** binnen een bepaalde declaratieperiode voor één cliënt wordt vastgelegd."@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker> a mim:Objecttype,
-        owl:Class ;
-    rdfs:label "Medewerker"@nl ;
-    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/achternaam>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/datumindienst>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/datumuitdienst>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/emailadres>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/extern>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/functie>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/geslachtsaanduiding>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/medewerkeridentificatie>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/medewerkertoelichting>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/roepnaam>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/telefoonnummer>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/voorletters>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/voorvoegselachternaam> ;
-    mim:definitie "Een medewerker van de organisatie die zaken behandelt uit hoofde van zijn of haar functie binnen een ORGANISATORISCHE EENHEID."@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker"^^xsd:anyURI ;
-    mim:indicatieAbstractObject false ;
-    mim:naam "Medewerker"@nl ;
-    dcterms:identifier "EAID_16EB3936_03CB_4854_9CD8_9F0911EEA51B" ;
-    rdfs:comment "Een medewerker van de organisatie die zaken behandelt uit hoofde van zijn of haar functie binnen een ORGANISATORISCHE EENHEID."@nl ;
-    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> .
-
 <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/rechtspersoon> a mim:Objecttype,
         owl:Class ;
     rdfs:label "Rechtspersoon"@nl ;
@@ -5256,19 +5391,22 @@ Opgebouwd op basis van het TKB (Toekenninsgbericht) aan het SVB, en het BAB-beri
     rdfs:comment "Een NATUURLIJK PERSOON of een NIET-NATUURLIJK PERSOON"@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/enumleveringsvorm> a mim:Enumeratie,
-        owl:Class,
-        skos:ConceptScheme ;
-    rdfs:label "EnumLeveringsvorm"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/enumleveringsvorm"^^xsd:anyURI ;
-    mim:naam "EnumLeveringsvorm"@nl ;
-    mim:waarde <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/enumleveringsvorm/leeg>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/enumleveringsvorm/onbekend>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/enumleveringsvorm/pgb>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/enumleveringsvorm/zin> ;
-    dcterms:identifier "EAID_DC1D1F90_E28B_4fb7_A5E1_C2F76132BE12" ;
-    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/> ;
-    rdfs:subClassOf skos:Concept .
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/voorziening> a mim:Objecttype,
+        owl:Class ;
+    rdfs:label "Voorziening"@nl ;
+    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/voorziening/afhandelwijze>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/voorziening/code>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/voorziening/naam>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/voorziening/omschrijving>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/voorziening/productcode>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/voorziening/wet> ;
+    mim:definitie "Middel om services/maatregelen in te vullen."@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/voorziening"^^xsd:anyURI ;
+    mim:indicatieAbstractObject false ;
+    mim:naam "Voorziening"@nl ;
+    dcterms:identifier "EAID_EAAF2F59_6BC0_4243_B126_A8E604B32C5E" ;
+    rdfs:comment "Middel om services/maatregelen in te vullen."@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/client> a mim:Objecttype,
         owl:Class ;
@@ -5286,22 +5424,28 @@ Opgebouwd op basis van het TKB (Toekenninsgbericht) aan het SVB, en het BAB-beri
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/> ;
     rdfs:subClassOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/ingeschrevenpersoon> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/voorziening> a mim:Objecttype,
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker> a mim:Objecttype,
         owl:Class ;
-    rdfs:label "Voorziening"@nl ;
-    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/voorziening/afhandelwijze>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/voorziening/code>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/voorziening/naam>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/voorziening/omschrijving>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/voorziening/productcode>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/voorziening/wet> ;
-    mim:definitie "Middel om services/maatregelen in te vullen."@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/voorziening"^^xsd:anyURI ;
+    rdfs:label "Medewerker"@nl ;
+    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/achternaam>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/datumindienst>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/datumuitdienst>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/emailadres>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/functie>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/geslachtsaanduiding>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/medewerkeridentificatie>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/medewerkertoelichting>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/roepnaam>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/telefoonnummer>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/voorletters>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/voorvoegselachternaam> ;
+    mim:definitie "Een medewerker van de organisatie die zaken behandelt uit hoofde van zijn of haar functie binnen een ORGANISATORISCHE EENHEID."@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker"^^xsd:anyURI ;
     mim:indicatieAbstractObject false ;
-    mim:naam "Voorziening"@nl ;
-    dcterms:identifier "EAID_EAAF2F59_6BC0_4243_B126_A8E604B32C5E" ;
-    rdfs:comment "Middel om services/maatregelen in te vullen."@nl ;
-    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/> .
+    mim:naam "Medewerker"@nl ;
+    dcterms:identifier "EAID_16EB3936_03CB_4854_9CD8_9F0911EEA51B" ;
+    rdfs:comment "Een medewerker van de organisatie die zaken behandelt uit hoofde van zijn of haar functie binnen een ORGANISATORISCHE EENHEID."@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/levering> a mim:Objecttype,
         owl:Class ;
@@ -5342,17 +5486,43 @@ In PxQ uren maal tarief"""@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/> ;
     rdfs:subClassOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/rechtspersoon> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean> a mim:Enumeratie,
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/boolean> a mim:Enumeratie,
         owl:Class,
         skos:ConceptScheme ;
     rdfs:label "Boolean"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean"^^xsd:anyURI ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/boolean"^^xsd:anyURI ;
     mim:naam "Boolean"@nl ;
-    mim:waarde <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean/ja>,
-        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean/leeg>,
-        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean/nee>,
-        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/boolean/onbekend> ;
-    dcterms:identifier "EAID_9BD0FBCB_1A9E_4cab_9280_0EBC428E38F7" ;
+    mim:waarde <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/boolean/ja>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/boolean/leeg>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/boolean/nee>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/boolean/onbekend> ;
+    dcterms:identifier "EAID_2179c80b_2ceb_42db_a05b_7ded365b6149",
+        "EAID_29f28a9a_735f_4774_a689_0a0c7a3f0af3",
+        "EAID_2a22382b_06fe_4fdb_9652_b371b79a7109",
+        "EAID_e4981a53_8fa6_4a4f_84f0_a3a38f2ffb3a" ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
+    rdfs:subClassOf skos:Concept .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/leveringsvorm> a mim:Enumeratie,
+        mim:Objecttype,
+        owl:Class,
+        skos:ConceptScheme ;
+    rdfs:label "Leveringsvorm"@nl ;
+    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/leveringsvorm/leveringsvormcode>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/leveringsvorm/naam>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/leveringsvorm/wet> ;
+    mim:definitie "Zorg die onder de Wlz, de Zvw-Wijkverpleging of de Wmo 2015 valt, kan aan personen als zorg in natura (zin) worden geleverd of bekostigd worden uit een persoonsgebonden budget (pgb)."@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/leveringsvorm"^^xsd:anyURI ;
+    mim:indicatieAbstractObject false ;
+    mim:naam "Leveringsvorm"@nl ;
+    mim:waarde <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/leveringsvorm/leeg>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/leveringsvorm/onbekend>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/leveringsvorm/pgb>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/leveringsvorm/zin> ;
+    dcterms:identifier "EAID_DC1D1F90_E28B_4fb7_A5E1_C2F76132BE12",
+        "EAID_F35DA519_FA0C_48ae_9EFC_C4EBEC4BF144" ;
+    rdfs:comment "Zorg die onder de Wlz, de Zvw-Wijkverpleging of de Wmo 2015 valt, kan aan personen als zorg in natura (zin) worden geleverd of bekostigd worden uit een persoonsgebonden budget (pgb)."@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/> ;
     rdfs:subClassOf skos:Concept .
 
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/beschikking> a mim:Objecttype,
@@ -5523,23 +5693,24 @@ In PxQ uren maal tarief"""@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/> ;
     rdfs:subClassOf skos:Concept .
 
-<https://lod.gemeentelijkgegevensmodel.nl/enumeraties/gezinsrelatie> a mim:Enumeratie,
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gezinsrelatie> a mim:Enumeratie,
         owl:Class,
         skos:ConceptScheme ;
     rdfs:label "Gezinsrelatie"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/enumeraties/gezinsrelatie"^^xsd:anyURI ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gezinsrelatie"^^xsd:anyURI ;
     mim:naam "Gezinsrelatie"@nl ;
-    mim:waarde <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/gezinsrelatie/alleenstaand-samenwonend>,
-        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/gezinsrelatie/echtgenote-binnen-gezin>,
-        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/gezinsrelatie/hoofd-gezin-met-kind-eren>,
-        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/gezinsrelatie/hoofd-gezin-zonder-kind-eren>,
-        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/gezinsrelatie/hoofd-huwelijk-gelijk-geslacht>,
-        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/gezinsrelatie/hoofd-partnerrelatie>,
-        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/gezinsrelatie/kind>,
-        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/gezinsrelatie/leeg>,
-        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/gezinsrelatie/onbekend>,
-        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/gezinsrelatie/ouder-met-kind-eren> ;
-    dcterms:identifier "EAID_8F83BD4F_86BF_459d_89EF_6E7CE6DCA385" ;
+    mim:waarde <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gezinsrelatie/alleenstaand-samenwonend>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gezinsrelatie/echtgenote-binnen-gezin>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gezinsrelatie/hoofd-gezin-met-kind-eren>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gezinsrelatie/hoofd-gezin-zonder-kind-eren>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gezinsrelatie/hoofd-huwelijk-gelijk-geslacht>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gezinsrelatie/hoofd-partnerrelatie>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gezinsrelatie/kind>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gezinsrelatie/leeg>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gezinsrelatie/onbekend>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gezinsrelatie/ouder-met-kind-eren> ;
+    dcterms:identifier "EAID_eef8d985_cff5_4ca2_b018_be146aea1216" ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
     rdfs:subClassOf skos:Concept .
 
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/frequentie> a mim:Enumeratie,
@@ -5604,37 +5775,37 @@ In PxQ uren maal tarief"""@nl ;
     mim:naam "Eenheid"@nl ;
     mim:waarde <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/eenheid/dagdeel-4-uur>,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/eenheid/etmaal>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/eenheid/euro-s>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/eenheid/euros>,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/eenheid/leeg>,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/eenheid/minuut>,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/eenheid/onbekend>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/eenheid/stuks-inspanning>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/eenheid/stuks-output>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/eenheid/stuks>,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/eenheid/uur> ;
     dcterms:identifier "EAID_838B4669_4F50_4835_ABA8_03E3FCE48184" ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/> ;
     rdfs:subClassOf skos:Concept .
 
-<https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel> a mim:Enumeratie,
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel> a mim:Enumeratie,
         owl:Class,
         skos:ConceptScheme ;
     rdfs:label "adelijkeTitel"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel"^^xsd:anyURI ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel"^^xsd:anyURI ;
     mim:naam "adelijkeTitel"@nl ;
-    mim:waarde <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel/baron>,
-        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel/barones>,
-        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel/graaf>,
-        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel/gravin>,
-        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel/hertog>,
-        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel/hertogin>,
-        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel/leeg>,
-        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel/markies>,
-        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel/markiezin>,
-        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel/onbekend>,
-        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel/prins>,
-        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel/prinses>,
-        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/adelijketitel/ridder> ;
-    dcterms:identifier "EAID_C27488AF_81A5_4ae3_8838_C036EA0B3167" ;
+    mim:waarde <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel/baron>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel/barones>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel/graaf>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel/gravin>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel/hertog>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel/hertogin>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel/leeg>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel/markies>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel/markiezin>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel/onbekend>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel/prins>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel/prinses>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel/ridder> ;
+    dcterms:identifier "EAID_8cfb5be5_72e1_4363_87ab_205d3595a633" ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
     rdfs:subClassOf skos:Concept .
 
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/wet> a mim:Enumeratie,

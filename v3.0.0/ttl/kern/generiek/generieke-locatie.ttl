@@ -92,7 +92,7 @@
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "gebiedsAanduiding"@nl ;
-    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/wktliteral> ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/multisurface> ;
     dcterms:identifier "EAID_2DC4E719_E39D_461e_A307_5A2DE296C2BD" ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/generiek/gebied> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/generiek/> ;
@@ -189,7 +189,7 @@
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "puntLocatie"@nl ;
-    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/wktliteral> ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/punt> ;
     dcterms:identifier "EAID_EB1CB430_44DE_4192_8698_0934AA0BCAD2" ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/generiek/punt> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/generiek/> ;

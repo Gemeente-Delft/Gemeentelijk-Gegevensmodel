@@ -6,6 +6,27 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/document/type> a mim:Relatiesoort,
+        owl:ObjectProperty ;
+    rdfs:label "type"@nl ;
+    mim:aggregatietype mim:Geen ;
+    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/document> ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/documenttype> ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/document/type"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "type"@nl ;
+    mim:unidirectioneel true ;
+    dcterms:identifier "EAID_dstC59C3B_CE93_4428_B10D_BE49A6FCD782" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/document> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/documenttype> .
+
 <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/archief/archiefstuk/heeft-digitaalbestand> a mim:Relatiesoort,
         owl:ObjectProperty ;
     rdfs:label "heeft"@nl ;
@@ -567,7 +588,7 @@
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "blob"@nl ;
-    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/base64binary> ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/blob> ;
     dcterms:identifier "EAID_4CB9A679_B14C_44e0_970F_0F769ECA98F9" ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/archief/digitaalbestand> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/archief/> ;
@@ -762,6 +783,17 @@
     rdfs:comment "Een systeem om goederen op te slaan die worden vervoerd en opgeslagen op pallets, in bundels of per stuk.(Wikipedia)"@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/archief/> .
 
+<https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/archief/vindplaats> a mim:Objecttype,
+        owl:Class ;
+    rdfs:label "Vindplaats"@nl ;
+    mim:definitie "Een plek waar men iets gevonden heeft."@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/archief/vindplaats"^^xsd:anyURI ;
+    mim:indicatieAbstractObject false ;
+    mim:naam "Vindplaats"@nl ;
+    dcterms:identifier "EAID_D7947186_4317_407b_A456_41DF5187E810" ;
+    rdfs:comment "Een plek waar men iets gevonden heeft."@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/archief/> .
+
 <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/document> a mim:Objecttype,
         owl:Class ;
     rdfs:label "Document"@nl ;
@@ -781,17 +813,6 @@
     dcterms:identifier "EAID_5641C50A_C0FA_4e71_B07B_26C7B1CE94ED" ;
     rdfs:comment "Geheel van gegevens met een eigen identiteit ongeacht zijn vorm, met de bijbehorende metadata ontvangen of opgemaakt door een natuurlijke en/of rechtspersoon bij de uitvoering van taken, zijnde een ENKELVOUDIG DOCUMENT of een SAMENGESTELD DOCUMENT."@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> .
-
-<https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/archief/vindplaats> a mim:Objecttype,
-        owl:Class ;
-    rdfs:label "Vindplaats"@nl ;
-    mim:definitie "Een plek waar men iets gevonden heeft."@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/archief/vindplaats"^^xsd:anyURI ;
-    mim:indicatieAbstractObject false ;
-    mim:naam "Vindplaats"@nl ;
-    dcterms:identifier "EAID_D7947186_4317_407b_A456_41DF5187E810" ;
-    rdfs:comment "Een plek waar men iets gevonden heeft."@nl ;
-    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/archief/> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/archief/archiefstuk> a mim:Objecttype,
         owl:Class ;

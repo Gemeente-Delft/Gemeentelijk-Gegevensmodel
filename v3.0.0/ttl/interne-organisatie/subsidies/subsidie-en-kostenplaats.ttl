@@ -934,10 +934,12 @@ Alleen bij uitgaande subsidies, anders NULL!"""@nl ;
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/subsidies/subsidieniveau> ;
     rdfs:label "Europees"@nl ;
+    mim:code "5" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/subsidies/subsidieniveau/europees"^^xsd:anyURI ;
     mim:naam "Europees"@nl ;
     dcterms:identifier "EAID_3263F3EA_D72D_4a98_8BFC_53E79EEA3069" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/subsidies/subsidieniveau> ;
+    skos:notation "5" ;
     skos:prefLabel "Europees"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/subsidies/subsidieniveau> .
 
@@ -945,10 +947,12 @@ Alleen bij uitgaande subsidies, anders NULL!"""@nl ;
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/subsidies/subsidieniveau> ;
     rdfs:label "Gemeente"@nl ;
+    mim:code "1" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/subsidies/subsidieniveau/gemeente"^^xsd:anyURI ;
     mim:naam "Gemeente"@nl ;
     dcterms:identifier "EAID_39524D19_2FDC_40cb_8028_0F76664261D8" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/subsidies/subsidieniveau> ;
+    skos:notation "1" ;
     skos:prefLabel "Gemeente"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/subsidies/subsidieniveau> .
 
@@ -956,10 +960,12 @@ Alleen bij uitgaande subsidies, anders NULL!"""@nl ;
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/subsidies/subsidieniveau> ;
     rdfs:label "Nationaal"@nl ;
+    mim:code "4" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/subsidies/subsidieniveau/nationaal"^^xsd:anyURI ;
     mim:naam "Nationaal"@nl ;
     dcterms:identifier "EAID_3F86F49C_1384_454d_AA41_BA3BC7D01B3A" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/subsidies/subsidieniveau> ;
+    skos:notation "4" ;
     skos:prefLabel "Nationaal"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/subsidies/subsidieniveau> .
 
@@ -967,10 +973,12 @@ Alleen bij uitgaande subsidies, anders NULL!"""@nl ;
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/subsidies/subsidieniveau> ;
     rdfs:label "Provincie"@nl ;
+    mim:code "3" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/subsidies/subsidieniveau/provincie"^^xsd:anyURI ;
     mim:naam "Provincie"@nl ;
     dcterms:identifier "EAID_F2ACEB57_FC9E_46b1_9162_16A06CD3A21E" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/subsidies/subsidieniveau> ;
+    skos:notation "3" ;
     skos:prefLabel "Provincie"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/subsidies/subsidieniveau> .
 
@@ -978,10 +986,12 @@ Alleen bij uitgaande subsidies, anders NULL!"""@nl ;
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/subsidies/subsidieniveau> ;
     rdfs:label "Regionaal"@nl ;
+    mim:code "2" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/subsidies/subsidieniveau/regionaal"^^xsd:anyURI ;
     mim:naam "Regionaal"@nl ;
     dcterms:identifier "EAID_5E14ED84_4D24_47f3_BF31_7B091BB550D5" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/subsidies/subsidieniveau> ;
+    skos:notation "2" ;
     skos:prefLabel "Regionaal"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/subsidies/subsidieniveau> .
 

@@ -182,6 +182,27 @@
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/> ;
     rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaaktype> .
 
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaaktype/statustype> a mim:Relatiesoort,
+        owl:ObjectProperty ;
+    rdfs:label "statustype"@nl ;
+    mim:aggregatietype mim:Geen ;
+    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaaktype> ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/statustype> ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaaktype/statustype"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..*" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "statustype"@nl ;
+    mim:unidirectioneel true ;
+    dcterms:identifier "EAID_dst19B3B9_08AC_4c8c_B785_4571F6FA8DDF" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaaktype> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/statustype> .
+
 <https://lod.gemeentelijkgegevensmodel.nl/v3.0.0/interne-organisatie/ict/diagram-domeinen-pdc-en-zaken> a owl:Ontology ;
     rdfs:label "Diagram Domeinen, PDC en zaken"@nl ;
     dcterms:identifier "EAID_CC3C7277_FF05_4ff4_B0D2_68545E6D5A1D" ;

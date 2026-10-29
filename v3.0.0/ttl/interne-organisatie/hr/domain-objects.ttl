@@ -778,6 +778,48 @@
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> ;
     rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/vestigingvanzaakbehandelendeorganisatie> .
 
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/organisatorischeeenheid/vestiging> a mim:Relatiesoort,
+        owl:ObjectProperty ;
+    rdfs:label "vestiging"@nl ;
+    mim:aggregatietype mim:Geen ;
+    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/organisatorischeeenheid> ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/vestigingvanzaakbehandelendeorganisatie> ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/organisatorischeeenheid/vestiging"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "vestiging"@nl ;
+    mim:unidirectioneel true ;
+    dcterms:identifier "EAID_dst9523F1_DB08_428a_B016_53B63C975012" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/organisatorischeeenheid> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/vestigingvanzaakbehandelendeorganisatie> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/organisatorischeeenheid/zaaktype> a mim:Relatiesoort,
+        owl:ObjectProperty ;
+    rdfs:label "zaaktype"@nl ;
+    mim:aggregatietype mim:Geen ;
+    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/organisatorischeeenheid> ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaaktype> ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/organisatorischeeenheid/zaaktype"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "0..*" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "zaaktype"@nl ;
+    mim:unidirectioneel true ;
+    dcterms:identifier "EAID_dst6014D0_A1AF_4738_9D86_FF18128429F5" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/organisatorischeeenheid> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaaktype> .
+
 <https://lod.gemeentelijkgegevensmodel.nl/v3.0.0/interne-organisatie/hr/domain-objects> a owl:Ontology ;
     rdfs:label "Domain Objects"@nl ;
     dcterms:identifier "EAID_891372E6_27FB_442d_9CC4_08C2659E8C53" ;
@@ -2577,17 +2619,6 @@
     rdfs:comment "Typologie van verzuim"@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/vestigingvanzaakbehandelendeorganisatie> a mim:Objecttype,
-        owl:Class ;
-    rdfs:label "VestigingVanZaakbehandelendeOrganisatie"@nl ;
-    mim:definitie "Een VESTIGING van een onderneming of rechtspersoon zijnde de zaakbehandelende organisatie."@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/vestigingvanzaakbehandelendeorganisatie"^^xsd:anyURI ;
-    mim:indicatieAbstractObject false ;
-    mim:naam "VestigingVanZaakbehandelendeOrganisatie"@nl ;
-    dcterms:identifier "EAID_D8142B98_64CB_408e_9941_92423543F08A" ;
-    rdfs:comment "Een VESTIGING van een onderneming of rechtspersoon zijnde de zaakbehandelende organisatie."@nl ;
-    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> .
-
 <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/geweldsincident> a mim:Objecttype,
         owl:Class ;
     rdfs:label "Geweldsincident"@nl ;
@@ -2627,6 +2658,17 @@
     dcterms:identifier "EAID_610B18E6_B675_4cc0_A883_BAB9D384C668" ;
     rdfs:comment "Een afwezigheid van een werknemer van werk."@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/vestigingvanzaakbehandelendeorganisatie> a mim:Objecttype,
+        owl:Class ;
+    rdfs:label "VestigingVanZaakbehandelendeOrganisatie"@nl ;
+    mim:definitie "Een VESTIGING van een onderneming of rechtspersoon zijnde de zaakbehandelende organisatie."@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/vestigingvanzaakbehandelendeorganisatie"^^xsd:anyURI ;
+    mim:indicatieAbstractObject false ;
+    mim:naam "VestigingVanZaakbehandelendeOrganisatie"@nl ;
+    dcterms:identifier "EAID_D8142B98_64CB_408e_9941_92423543F08A" ;
+    rdfs:comment "Een VESTIGING van een onderneming of rechtspersoon zijnde de zaakbehandelende organisatie."@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/beoordeling> a mim:Objecttype,
         owl:Class ;

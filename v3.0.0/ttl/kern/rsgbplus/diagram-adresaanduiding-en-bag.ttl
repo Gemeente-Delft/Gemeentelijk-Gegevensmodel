@@ -204,7 +204,7 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "geometrie"@nl ;
-    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/wktliteral> ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/point> ;
     dcterms:identifier "EAID_9DA708DF_59E5_4fe4_B85C_DC0FE8EA7F21" ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/nummeraanduiding> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/> ;
@@ -403,10 +403,12 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusnummeraanduiding> ;
     rdfs:label "Leeg"@nl ;
+    mim:code "-2" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusnummeraanduiding/leeg"^^xsd:anyURI ;
     mim:naam "Leeg"@nl ;
     dcterms:identifier "EAID_6DE2BB37_7244_4701_AC87_F6003BE2C8CC" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusnummeraanduiding> ;
+    skos:notation "-2" ;
     skos:prefLabel "Leeg"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusnummeraanduiding> .
 
@@ -414,10 +416,12 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusnummeraanduiding> ;
     rdfs:label "naamgeving ingetrokken"@nl ;
+    mim:code "1" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusnummeraanduiding/naamgeving-ingetrokken"^^xsd:anyURI ;
     mim:naam "naamgeving ingetrokken"@nl ;
     dcterms:identifier "EAID_D45D056F_351B_41c1_9F3B_CDA6047AD108" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusnummeraanduiding> ;
+    skos:notation "1" ;
     skos:prefLabel "naamgeving ingetrokken"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusnummeraanduiding> .
 
@@ -425,10 +429,12 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusnummeraanduiding> ;
     rdfs:label "naamgeving uitgegeven"@nl ;
+    mim:code "2" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusnummeraanduiding/naamgeving-uitgegeven"^^xsd:anyURI ;
     mim:naam "naamgeving uitgegeven"@nl ;
     dcterms:identifier "EAID_18A1FBDC_1935_4484_B0C7_888320E6CCE3" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusnummeraanduiding> ;
+    skos:notation "2" ;
     skos:prefLabel "naamgeving uitgegeven"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusnummeraanduiding> .
 
@@ -436,10 +442,12 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusnummeraanduiding> ;
     rdfs:label "Onbekend"@nl ;
+    mim:code "-1" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusnummeraanduiding/onbekend"^^xsd:anyURI ;
     mim:naam "Onbekend"@nl ;
     dcterms:identifier "EAID_1E636BF9_BC6D_46f4_9EBD_C6C96F000E14" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusnummeraanduiding> ;
+    skos:notation "-1" ;
     skos:prefLabel "Onbekend"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusnummeraanduiding> .
 
@@ -489,11 +497,11 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "BAGID"@nl ;
-    mim:type mim:Integer ;
+    mim:type mim:CharacterString ;
     dcterms:identifier "EAID_113ACBCB_17EF_4329_AC83_40925A0CC4C3" ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/groepattribuutsoort/adresaanduiding> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/groepattribuutsoort/> ;
-    rdfs:range xsd:integer .
+    rdfs:range xsd:string .
 
 <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/groepattribuutsoort/adresaanduiding/gemeentenaam> a mim:Attribuutsoort,
         owl:DatatypeProperty ;

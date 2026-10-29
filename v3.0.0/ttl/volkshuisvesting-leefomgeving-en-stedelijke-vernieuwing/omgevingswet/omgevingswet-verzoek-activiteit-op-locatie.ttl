@@ -472,10 +472,12 @@
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/omgevingswet/aanvragen-en-meldingen/doel-verzoek> ;
     rdfs:label "aanvullen"@nl ;
+    mim:code "3" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/omgevingswet/aanvragen-en-meldingen/doel-verzoek/aanvullen"^^xsd:anyURI ;
     mim:naam "aanvullen"@nl ;
     dcterms:identifier "EAID_CB63CFDB_8F84_46ea_B77C_04F7EA8C5A61" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/omgevingswet/aanvragen-en-meldingen/doel-verzoek> ;
+    skos:notation "3" ;
     skos:prefLabel "aanvullen"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/omgevingswet/aanvragen-en-meldingen/doel-verzoek> .
 
@@ -483,10 +485,12 @@
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/omgevingswet/aanvragen-en-meldingen/doel-verzoek> ;
     rdfs:label "initieren"@nl ;
+    mim:code "2" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/omgevingswet/aanvragen-en-meldingen/doel-verzoek/initieren"^^xsd:anyURI ;
     mim:naam "initieren"@nl ;
     dcterms:identifier "EAID_E282F4AD_B617_40f3_A212_239CA1AA00D7" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/omgevingswet/aanvragen-en-meldingen/doel-verzoek> ;
+    skos:notation "2" ;
     skos:prefLabel "initieren"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/omgevingswet/aanvragen-en-meldingen/doel-verzoek> .
 
@@ -494,10 +498,12 @@
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/omgevingswet/aanvragen-en-meldingen/doel-verzoek> ;
     rdfs:label "intrekken"@nl ;
+    mim:code "4" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/omgevingswet/aanvragen-en-meldingen/doel-verzoek/intrekken"^^xsd:anyURI ;
     mim:naam "intrekken"@nl ;
     dcterms:identifier "EAID_CA99102F_9940_466b_8DB3_2472D0D133FE" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/omgevingswet/aanvragen-en-meldingen/doel-verzoek> ;
+    skos:notation "4" ;
     skos:prefLabel "intrekken"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/omgevingswet/aanvragen-en-meldingen/doel-verzoek> .
 
@@ -505,10 +511,12 @@
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/omgevingswet/aanvragen-en-meldingen/doel-verzoek> ;
     rdfs:label "vooroverleg"@nl ;
+    mim:code "1" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/omgevingswet/aanvragen-en-meldingen/doel-verzoek/vooroverleg"^^xsd:anyURI ;
     mim:naam "vooroverleg"@nl ;
     dcterms:identifier "EAID_23EDD29A_2B12_4733_B692_AB4BD75307E5" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/omgevingswet/aanvragen-en-meldingen/doel-verzoek> ;
+    skos:notation "1" ;
     skos:prefLabel "vooroverleg"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/omgevingswet/aanvragen-en-meldingen/doel-verzoek> .
 
@@ -516,10 +524,12 @@
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/omgevingswet/aanvragen-en-meldingen/type-verzoek> ;
     rdfs:label "Aanvraag Maatwerkvoorschrift"@nl ;
+    mim:code "5" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/omgevingswet/aanvragen-en-meldingen/type-verzoek/aanvraag-maatwerkvoorschrift"^^xsd:anyURI ;
     mim:naam "Aanvraag Maatwerkvoorschrift"@nl ;
     dcterms:identifier "EAID_3C7922D6_584A_4c01_9CBF_4FFCE5579BBA" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/omgevingswet/aanvragen-en-meldingen/type-verzoek> ;
+    skos:notation "5" ;
     skos:prefLabel "Aanvraag Maatwerkvoorschrift"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/omgevingswet/aanvragen-en-meldingen/type-verzoek> .
 
@@ -527,10 +537,12 @@
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/omgevingswet/aanvragen-en-meldingen/type-verzoek> ;
     rdfs:label "Aanvraag Toestemming Gelijkwaardige Maatregel"@nl ;
+    mim:code "7" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/omgevingswet/aanvragen-en-meldingen/type-verzoek/aanvraag-toestemming-gelijkwaardige-maatregel"^^xsd:anyURI ;
     mim:naam "Aanvraag Toestemming Gelijkwaardige Maatregel"@nl ;
     dcterms:identifier "EAID_1D41C1B8_B497_41a0_B958_2889DA749B14" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/omgevingswet/aanvragen-en-meldingen/type-verzoek> ;
+    skos:notation "7" ;
     skos:prefLabel "Aanvraag Toestemming Gelijkwaardige Maatregel"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/omgevingswet/aanvragen-en-meldingen/type-verzoek> .
 
@@ -538,10 +550,12 @@
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/omgevingswet/aanvragen-en-meldingen/type-verzoek> ;
     rdfs:label "Aanvraag vergunning"@nl ;
+    mim:code "1" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/omgevingswet/aanvragen-en-meldingen/type-verzoek/aanvraag-vergunning"^^xsd:anyURI ;
     mim:naam "Aanvraag vergunning"@nl ;
     dcterms:identifier "EAID_0FCC2FDD_993B_4ca1_80E9_7225D4ED4AB9" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/omgevingswet/aanvragen-en-meldingen/type-verzoek> ;
+    skos:notation "1" ;
     skos:prefLabel "Aanvraag vergunning"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/omgevingswet/aanvragen-en-meldingen/type-verzoek> .
 
@@ -549,10 +563,12 @@
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/omgevingswet/aanvragen-en-meldingen/type-verzoek> ;
     rdfs:label "Informatie"@nl ;
+    mim:code "3" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/omgevingswet/aanvragen-en-meldingen/type-verzoek/informatie"^^xsd:anyURI ;
     mim:naam "Informatie"@nl ;
     dcterms:identifier "EAID_EA6C2E90_3308_4546_BA39_01D548044160" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/omgevingswet/aanvragen-en-meldingen/type-verzoek> ;
+    skos:notation "3" ;
     skos:prefLabel "Informatie"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/omgevingswet/aanvragen-en-meldingen/type-verzoek> .
 
@@ -560,10 +576,12 @@
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/omgevingswet/aanvragen-en-meldingen/type-verzoek> ;
     rdfs:label "Informatie ongewoon Voorval"@nl ;
+    mim:code "4" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/omgevingswet/aanvragen-en-meldingen/type-verzoek/informatie-ongewoon-voorval"^^xsd:anyURI ;
     mim:naam "Informatie ongewoon Voorval"@nl ;
     dcterms:identifier "EAID_9369E1F7_9637_491f_874A_627827516F9A" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/omgevingswet/aanvragen-en-meldingen/type-verzoek> ;
+    skos:notation "4" ;
     skos:prefLabel "Informatie ongewoon Voorval"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/omgevingswet/aanvragen-en-meldingen/type-verzoek> .
 
@@ -571,10 +589,12 @@
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/omgevingswet/aanvragen-en-meldingen/type-verzoek> ;
     rdfs:label "Melding"@nl ;
+    mim:code "2" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/omgevingswet/aanvragen-en-meldingen/type-verzoek/melding"^^xsd:anyURI ;
     mim:naam "Melding"@nl ;
     dcterms:identifier "EAID_C9A529C9_A557_4853_B47F_9C7066449F9C" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/omgevingswet/aanvragen-en-meldingen/type-verzoek> ;
+    skos:notation "2" ;
     skos:prefLabel "Melding"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/omgevingswet/aanvragen-en-meldingen/type-verzoek> .
 
@@ -582,10 +602,12 @@
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/omgevingswet/aanvragen-en-meldingen/type-verzoek> ;
     rdfs:label "Melding Gelijkwaardige Maatregel"@nl ;
+    mim:code "6" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/omgevingswet/aanvragen-en-meldingen/type-verzoek/melding-gelijkwaardige-maatregel"^^xsd:anyURI ;
     mim:naam "Melding Gelijkwaardige Maatregel"@nl ;
     dcterms:identifier "EAID_F5E2D35F_52F9_4b4d_86AB_2D159F7F8E41" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/omgevingswet/aanvragen-en-meldingen/type-verzoek> ;
+    skos:notation "6" ;
     skos:prefLabel "Melding Gelijkwaardige Maatregel"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/omgevingswet/aanvragen-en-meldingen/type-verzoek> .
 

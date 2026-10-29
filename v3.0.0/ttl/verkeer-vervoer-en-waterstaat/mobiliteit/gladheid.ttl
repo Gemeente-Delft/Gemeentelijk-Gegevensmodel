@@ -89,11 +89,11 @@
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "maximumtemperatuur"@nl ;
-    mim:type mim:Decimal ;
+    mim:type mim:Real ;
     dcterms:identifier "EAID_5506FB89_8DC8_42d9_8075_69C3B2F71C75" ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/mobiliteit/strooidag> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/mobiliteit/> ;
-    rdfs:range xsd:decimal .
+    rdfs:range xsd:double .
 
 <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/mobiliteit/strooidag/minimumtemperatuur> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
@@ -108,11 +108,11 @@
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "minimumtemperatuur"@nl ;
-    mim:type mim:Decimal ;
+    mim:type mim:Real ;
     dcterms:identifier "EAID_83D74E70_5123_4578_9DDC_DBACEA602912" ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/mobiliteit/strooidag> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/mobiliteit/> ;
-    rdfs:range xsd:decimal .
+    rdfs:range xsd:double .
 
 <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/mobiliteit/strooidag/tijdmaximumtemperatuur> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
@@ -165,7 +165,7 @@
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "route"@nl ;
-    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/wktliteral> ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/multicurve> ;
     dcterms:identifier "EAID_3E6F38DC_4F65_478b_9B3F_C4A1A86507FA" ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/mobiliteit/strooiroute> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/mobiliteit/> ;
@@ -222,7 +222,7 @@
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "route"@nl ;
-    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/wktliteral> ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/multicurve> ;
     dcterms:identifier "EAID_CF133730_E2C2_4d0c_9EC3_CA0CFE32CF03" ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/mobiliteit/strooirouteuitvoering> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/mobiliteit/> ;

@@ -8,6 +8,27 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/document/type> a mim:Relatiesoort,
+        owl:ObjectProperty ;
+    rdfs:label "type"@nl ;
+    mim:aggregatietype mim:Geen ;
+    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/document> ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/documenttype> ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/document/type"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "type"@nl ;
+    mim:unidirectioneel true ;
+    dcterms:identifier "EAID_dstC59C3B_CE93_4428_B10D_BE49A6FCD782" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/document> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/documenttype> .
+
 <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/sport/binnenlocatie/adres> a mim:Relatiesoort,
         owl:ObjectProperty ;
     rdfs:label "adres"@nl ;
@@ -145,157 +166,16 @@
     dcterms:isPartOf <https://lod.gemeentelijkgegevensmodel.nl/> ;
     owl:versionInfo "v3.0.0" .
 
-<https://lod.gemeentelijkgegevensmodel.nl/enumeraties/gebruiksdoel/bijeenkomstfunctie> a mim:Enumeratiewaarde,
-        skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/gebruiksdoel> ;
-    rdfs:label "bijeenkomstfunctie"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/enumeraties/gebruiksdoel/bijeenkomstfunctie"^^xsd:anyURI ;
-    mim:naam "bijeenkomstfunctie"@nl ;
-    dcterms:identifier "EAID_9E9343E1_7783_4400_85D9_12053ADBBD89" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/gebruiksdoel> ;
-    skos:prefLabel "bijeenkomstfunctie"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/gebruiksdoel> .
-
-<https://lod.gemeentelijkgegevensmodel.nl/enumeraties/gebruiksdoel/celfunctie> a mim:Enumeratiewaarde,
-        skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/gebruiksdoel> ;
-    rdfs:label "celfunctie"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/enumeraties/gebruiksdoel/celfunctie"^^xsd:anyURI ;
-    mim:naam "celfunctie"@nl ;
-    dcterms:identifier "EAID_D4A92DAD_79C1_48d4_B5C0_0EF25C1F6E5B" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/gebruiksdoel> ;
-    skos:prefLabel "celfunctie"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/gebruiksdoel> .
-
-<https://lod.gemeentelijkgegevensmodel.nl/enumeraties/gebruiksdoel/gezondheidszorgfunctie> a mim:Enumeratiewaarde,
-        skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/gebruiksdoel> ;
-    rdfs:label "gezondheidszorgfunctie"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/enumeraties/gebruiksdoel/gezondheidszorgfunctie"^^xsd:anyURI ;
-    mim:naam "gezondheidszorgfunctie"@nl ;
-    dcterms:identifier "EAID_77ADA25B_12BB_4176_813A_39E4D28CA168" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/gebruiksdoel> ;
-    skos:prefLabel "gezondheidszorgfunctie"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/gebruiksdoel> .
-
-<https://lod.gemeentelijkgegevensmodel.nl/enumeraties/gebruiksdoel/industriefunctie> a mim:Enumeratiewaarde,
-        skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/gebruiksdoel> ;
-    rdfs:label "industriefunctie"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/enumeraties/gebruiksdoel/industriefunctie"^^xsd:anyURI ;
-    mim:naam "industriefunctie"@nl ;
-    dcterms:identifier "EAID_B6326991_28D0_48e8_A7A8_AC1CF35ECB04" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/gebruiksdoel> ;
-    skos:prefLabel "industriefunctie"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/gebruiksdoel> .
-
-<https://lod.gemeentelijkgegevensmodel.nl/enumeraties/gebruiksdoel/kantoorfunctie> a mim:Enumeratiewaarde,
-        skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/gebruiksdoel> ;
-    rdfs:label "kantoorfunctie"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/enumeraties/gebruiksdoel/kantoorfunctie"^^xsd:anyURI ;
-    mim:naam "kantoorfunctie"@nl ;
-    dcterms:identifier "EAID_A9B9347D_C67B_4c0e_B4A9_CF601ABA8E74" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/gebruiksdoel> ;
-    skos:prefLabel "kantoorfunctie"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/gebruiksdoel> .
-
-<https://lod.gemeentelijkgegevensmodel.nl/enumeraties/gebruiksdoel/leeg> a mim:Enumeratiewaarde,
-        skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/gebruiksdoel> ;
-    rdfs:label "Leeg"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/enumeraties/gebruiksdoel/leeg"^^xsd:anyURI ;
-    mim:naam "Leeg"@nl ;
-    dcterms:identifier "EAID_D57DAC58_A2F4_4d75_9C60_E8E3FF798954" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/gebruiksdoel> ;
-    skos:prefLabel "Leeg"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/gebruiksdoel> .
-
-<https://lod.gemeentelijkgegevensmodel.nl/enumeraties/gebruiksdoel/logiesfunctie> a mim:Enumeratiewaarde,
-        skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/gebruiksdoel> ;
-    rdfs:label "logiesfunctie"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/enumeraties/gebruiksdoel/logiesfunctie"^^xsd:anyURI ;
-    mim:naam "logiesfunctie"@nl ;
-    dcterms:identifier "EAID_45D7FF96_0C2B_4651_8030_7AAA27C0DA29" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/gebruiksdoel> ;
-    skos:prefLabel "logiesfunctie"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/gebruiksdoel> .
-
-<https://lod.gemeentelijkgegevensmodel.nl/enumeraties/gebruiksdoel/onbekend> a mim:Enumeratiewaarde,
-        skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/gebruiksdoel> ;
-    rdfs:label "Onbekend"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/enumeraties/gebruiksdoel/onbekend"^^xsd:anyURI ;
-    mim:naam "Onbekend"@nl ;
-    dcterms:identifier "EAID_0E88240A_F8E9_4986_A90C_EBB0C48D6FA1" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/gebruiksdoel> ;
-    skos:prefLabel "Onbekend"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/gebruiksdoel> .
-
-<https://lod.gemeentelijkgegevensmodel.nl/enumeraties/gebruiksdoel/onderwijsfunctie> a mim:Enumeratiewaarde,
-        skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/gebruiksdoel> ;
-    rdfs:label "onderwijsfunctie"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/enumeraties/gebruiksdoel/onderwijsfunctie"^^xsd:anyURI ;
-    mim:naam "onderwijsfunctie"@nl ;
-    dcterms:identifier "EAID_89361EBA_512D_42ed_BEE5_E4EDEE1A3A07" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/gebruiksdoel> ;
-    skos:prefLabel "onderwijsfunctie"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/gebruiksdoel> .
-
-<https://lod.gemeentelijkgegevensmodel.nl/enumeraties/gebruiksdoel/overige-gebruiksfunctie> a mim:Enumeratiewaarde,
-        skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/gebruiksdoel> ;
-    rdfs:label "overige gebruiksfunctie"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/enumeraties/gebruiksdoel/overige-gebruiksfunctie"^^xsd:anyURI ;
-    mim:naam "overige gebruiksfunctie"@nl ;
-    dcterms:identifier "EAID_58E0AC00_FC99_45fa_9751_B817CF41191D" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/gebruiksdoel> ;
-    skos:prefLabel "overige gebruiksfunctie"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/gebruiksdoel> .
-
-<https://lod.gemeentelijkgegevensmodel.nl/enumeraties/gebruiksdoel/sportfunctie> a mim:Enumeratiewaarde,
-        skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/gebruiksdoel> ;
-    rdfs:label "sportfunctie"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/enumeraties/gebruiksdoel/sportfunctie"^^xsd:anyURI ;
-    mim:naam "sportfunctie"@nl ;
-    dcterms:identifier "EAID_18B70DA9_AAFF_45e5_9796_5D18950997DE" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/gebruiksdoel> ;
-    skos:prefLabel "sportfunctie"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/gebruiksdoel> .
-
-<https://lod.gemeentelijkgegevensmodel.nl/enumeraties/gebruiksdoel/winkelfunctie> a mim:Enumeratiewaarde,
-        skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/gebruiksdoel> ;
-    rdfs:label "winkelfunctie"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/enumeraties/gebruiksdoel/winkelfunctie"^^xsd:anyURI ;
-    mim:naam "winkelfunctie"@nl ;
-    dcterms:identifier "EAID_85F6C184_82E2_420d_B0A6_808AE2A77067" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/gebruiksdoel> ;
-    skos:prefLabel "winkelfunctie"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/gebruiksdoel> .
-
-<https://lod.gemeentelijkgegevensmodel.nl/enumeraties/gebruiksdoel/woonfunctie> a mim:Enumeratiewaarde,
-        skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/gebruiksdoel> ;
-    rdfs:label "woonfunctie"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/enumeraties/gebruiksdoel/woonfunctie"^^xsd:anyURI ;
-    mim:naam "woonfunctie"@nl ;
-    dcterms:identifier "EAID_EE787B7F_3795_4d16_A7B7_9BA39F7DF57A" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/gebruiksdoel> ;
-    skos:prefLabel "woonfunctie"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/gebruiksdoel> .
-
 <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gebruiksdoel/bijeenkomstfunctie> a mim:Enumeratiewaarde,
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gebruiksdoel> ;
     rdfs:label "bijeenkomstfunctie"@nl ;
+    mim:code "2" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gebruiksdoel/bijeenkomstfunctie"^^xsd:anyURI ;
     mim:naam "bijeenkomstfunctie"@nl ;
     dcterms:identifier "EAID_1782BF1E_8A6A_488e_B881_03AB11F5D4BB" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gebruiksdoel> ;
+    skos:notation "2" ;
     skos:prefLabel "bijeenkomstfunctie"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gebruiksdoel> .
 
@@ -303,10 +183,12 @@
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gebruiksdoel> ;
     rdfs:label "celfunctie"@nl ;
+    mim:code "3" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gebruiksdoel/celfunctie"^^xsd:anyURI ;
     mim:naam "celfunctie"@nl ;
     dcterms:identifier "EAID_AB51DFA3_C89A_4329_82BC_5192D7B9F02E" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gebruiksdoel> ;
+    skos:notation "3" ;
     skos:prefLabel "celfunctie"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gebruiksdoel> .
 
@@ -314,10 +196,12 @@
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gebruiksdoel> ;
     rdfs:label "gezondheidszorgfunctie"@nl ;
+    mim:code "4" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gebruiksdoel/gezondheidszorgfunctie"^^xsd:anyURI ;
     mim:naam "gezondheidszorgfunctie"@nl ;
     dcterms:identifier "EAID_FC41B601_6552_454f_A435_15A20529BACA" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gebruiksdoel> ;
+    skos:notation "4" ;
     skos:prefLabel "gezondheidszorgfunctie"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gebruiksdoel> .
 
@@ -325,10 +209,12 @@
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gebruiksdoel> ;
     rdfs:label "industriefunctie"@nl ;
+    mim:code "5" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gebruiksdoel/industriefunctie"^^xsd:anyURI ;
     mim:naam "industriefunctie"@nl ;
     dcterms:identifier "EAID_959D2D11_00B6_459f_88EA_963101D84585" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gebruiksdoel> ;
+    skos:notation "5" ;
     skos:prefLabel "industriefunctie"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gebruiksdoel> .
 
@@ -336,10 +222,12 @@
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gebruiksdoel> ;
     rdfs:label "kantoorfunctie"@nl ;
+    mim:code "6" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gebruiksdoel/kantoorfunctie"^^xsd:anyURI ;
     mim:naam "kantoorfunctie"@nl ;
     dcterms:identifier "EAID_75E90B02_0EE7_4108_A897_6E259DFD9611" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gebruiksdoel> ;
+    skos:notation "6" ;
     skos:prefLabel "kantoorfunctie"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gebruiksdoel> .
 
@@ -347,10 +235,12 @@
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gebruiksdoel> ;
     rdfs:label "Leeg"@nl ;
+    mim:code "-2" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gebruiksdoel/leeg"^^xsd:anyURI ;
     mim:naam "Leeg"@nl ;
     dcterms:identifier "EAID_C225F224_3849_47e2_B64E_3A45C9FDD49C" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gebruiksdoel> ;
+    skos:notation "-2" ;
     skos:prefLabel "Leeg"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gebruiksdoel> .
 
@@ -358,10 +248,12 @@
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gebruiksdoel> ;
     rdfs:label "logiesfunctie"@nl ;
+    mim:code "7" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gebruiksdoel/logiesfunctie"^^xsd:anyURI ;
     mim:naam "logiesfunctie"@nl ;
     dcterms:identifier "EAID_FE5EB51E_BE48_4515_83F1_36C07F2B1ABE" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gebruiksdoel> ;
+    skos:notation "7" ;
     skos:prefLabel "logiesfunctie"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gebruiksdoel> .
 
@@ -369,10 +261,12 @@
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gebruiksdoel> ;
     rdfs:label "Onbekend"@nl ;
+    mim:code "-1" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gebruiksdoel/onbekend"^^xsd:anyURI ;
     mim:naam "Onbekend"@nl ;
     dcterms:identifier "EAID_4F9200D3_D527_4092_8666_37D76CACE9B1" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gebruiksdoel> ;
+    skos:notation "-1" ;
     skos:prefLabel "Onbekend"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gebruiksdoel> .
 
@@ -380,10 +274,12 @@
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gebruiksdoel> ;
     rdfs:label "onderwijsfunctie"@nl ;
+    mim:code "8" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gebruiksdoel/onderwijsfunctie"^^xsd:anyURI ;
     mim:naam "onderwijsfunctie"@nl ;
     dcterms:identifier "EAID_94A48959_211B_4a8b_8ED3_BC7E65EEBEA6" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gebruiksdoel> ;
+    skos:notation "8" ;
     skos:prefLabel "onderwijsfunctie"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gebruiksdoel> .
 
@@ -391,10 +287,12 @@
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gebruiksdoel> ;
     rdfs:label "overige gebruiksfunctie"@nl ;
+    mim:code "11" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gebruiksdoel/overige-gebruiksfunctie"^^xsd:anyURI ;
     mim:naam "overige gebruiksfunctie"@nl ;
     dcterms:identifier "EAID_58A1BF3D_3AED_4d2b_8C42_B5370D58DB96" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gebruiksdoel> ;
+    skos:notation "11" ;
     skos:prefLabel "overige gebruiksfunctie"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gebruiksdoel> .
 
@@ -402,10 +300,12 @@
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gebruiksdoel> ;
     rdfs:label "sportfunctie"@nl ;
+    mim:code "9" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gebruiksdoel/sportfunctie"^^xsd:anyURI ;
     mim:naam "sportfunctie"@nl ;
     dcterms:identifier "EAID_5B6D0EE9_62A0_4f54_9507_0CD55EBE7940" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gebruiksdoel> ;
+    skos:notation "9" ;
     skos:prefLabel "sportfunctie"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gebruiksdoel> .
 
@@ -413,10 +313,12 @@
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gebruiksdoel> ;
     rdfs:label "winkelfunctie"@nl ;
+    mim:code "10" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gebruiksdoel/winkelfunctie"^^xsd:anyURI ;
     mim:naam "winkelfunctie"@nl ;
     dcterms:identifier "EAID_720262B7_B263_4b19_9B6D_6393E5F207F1" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gebruiksdoel> ;
+    skos:notation "10" ;
     skos:prefLabel "winkelfunctie"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gebruiksdoel> .
 
@@ -424,10 +326,12 @@
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gebruiksdoel> ;
     rdfs:label "woonfunctie"@nl ;
+    mim:code "1" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gebruiksdoel/woonfunctie"^^xsd:anyURI ;
     mim:naam "woonfunctie"@nl ;
     dcterms:identifier "EAID_A49A33FA_7AEA_4ce0_9154_08FAEB7D842F" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gebruiksdoel> ;
+    skos:notation "1" ;
     skos:prefLabel "woonfunctie"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gebruiksdoel> .
 
@@ -435,10 +339,12 @@
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/ontsluitingswijzeverdieping> ;
     rdfs:label "Leeg"@nl ;
+    mim:code "-2" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/bag/ontsluitingswijzeverdieping/leeg"^^xsd:anyURI ;
     mim:naam "Leeg"@nl ;
     dcterms:identifier "EAID_2BD86A76_FBCE_4409_A0A1_EE2139FCBE8B" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/ontsluitingswijzeverdieping> ;
+    skos:notation "-2" ;
     skos:prefLabel "Leeg"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/ontsluitingswijzeverdieping> .
 
@@ -446,10 +352,12 @@
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/ontsluitingswijzeverdieping> ;
     rdfs:label "lift"@nl ;
+    mim:code "1" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/bag/ontsluitingswijzeverdieping/lift"^^xsd:anyURI ;
     mim:naam "lift"@nl ;
     dcterms:identifier "EAID_D06497CE_5DFA_4804_B7D9_1238BEB8B042" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/ontsluitingswijzeverdieping> ;
+    skos:notation "1" ;
     skos:prefLabel "lift"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/ontsluitingswijzeverdieping> .
 
@@ -457,10 +365,12 @@
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/ontsluitingswijzeverdieping> ;
     rdfs:label "Onbekend"@nl ;
+    mim:code "-1" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/bag/ontsluitingswijzeverdieping/onbekend"^^xsd:anyURI ;
     mim:naam "Onbekend"@nl ;
     dcterms:identifier "EAID_3C96AB9B_5AC5_42c3_8FEF_0D32624C13EA" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/ontsluitingswijzeverdieping> ;
+    skos:notation "-1" ;
     skos:prefLabel "Onbekend"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/ontsluitingswijzeverdieping> .
 
@@ -468,10 +378,12 @@
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/ontsluitingswijzeverdieping> ;
     rdfs:label "roltrap"@nl ;
+    mim:code "2" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/bag/ontsluitingswijzeverdieping/roltrap"^^xsd:anyURI ;
     mim:naam "roltrap"@nl ;
     dcterms:identifier "EAID_CA17563D_AAB3_46c0_9CA1_3ACD6C210AB7" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/ontsluitingswijzeverdieping> ;
+    skos:notation "2" ;
     skos:prefLabel "roltrap"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/ontsluitingswijzeverdieping> .
 
@@ -479,10 +391,12 @@
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/ontsluitingswijzeverdieping> ;
     rdfs:label "trap"@nl ;
+    mim:code "3" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/bag/ontsluitingswijzeverdieping/trap"^^xsd:anyURI ;
     mim:naam "trap"@nl ;
     dcterms:identifier "EAID_30563C1D_DB39_462b_AFB0_7A39681B8620" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/ontsluitingswijzeverdieping> ;
+    skos:notation "3" ;
     skos:prefLabel "trap"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/ontsluitingswijzeverdieping> .
 
@@ -490,10 +404,12 @@
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/soortwoonobject> ;
     rdfs:label "bijzonder woongebouw"@nl ;
+    mim:code "1" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/bag/soortwoonobject/bijzonder-woongebouw"^^xsd:anyURI ;
     mim:naam "bijzonder woongebouw"@nl ;
     dcterms:identifier "EAID_E07400C6_FD47_435d_A05D_B4F3053C907F" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/soortwoonobject> ;
+    skos:notation "1" ;
     skos:prefLabel "bijzonder woongebouw"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/soortwoonobject> .
 
@@ -501,10 +417,12 @@
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/soortwoonobject> ;
     rdfs:label "Leeg"@nl ;
+    mim:code "-2" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/bag/soortwoonobject/leeg"^^xsd:anyURI ;
     mim:naam "Leeg"@nl ;
     dcterms:identifier "EAID_97D82EAF_973E_4653_87A9_0313BF3020C7" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/soortwoonobject> ;
+    skos:notation "-2" ;
     skos:prefLabel "Leeg"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/soortwoonobject> .
 
@@ -512,10 +430,12 @@
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/soortwoonobject> ;
     rdfs:label "Onbekend"@nl ;
+    mim:code "-1" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/bag/soortwoonobject/onbekend"^^xsd:anyURI ;
     mim:naam "Onbekend"@nl ;
     dcterms:identifier "EAID_9A7CB622_4B1B_4d83_AAAC_F697F9567D7E" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/soortwoonobject> ;
+    skos:notation "-1" ;
     skos:prefLabel "Onbekend"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/soortwoonobject> .
 
@@ -523,10 +443,12 @@
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/soortwoonobject> ;
     rdfs:label "overig woonverblijf"@nl ;
+    mim:code "2" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/bag/soortwoonobject/overig-woonverblijf"^^xsd:anyURI ;
     mim:naam "overig woonverblijf"@nl ;
     dcterms:identifier "EAID_CDC898CE_A33C_4da1_B71E_272726B0181C" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/soortwoonobject> ;
+    skos:notation "2" ;
     skos:prefLabel "overig woonverblijf"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/soortwoonobject> .
 
@@ -534,10 +456,12 @@
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/soortwoonobject> ;
     rdfs:label "recreatiewoning"@nl ;
+    mim:code "3" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/bag/soortwoonobject/recreatiewoning"^^xsd:anyURI ;
     mim:naam "recreatiewoning"@nl ;
     dcterms:identifier "EAID_C5B8BB44_F310_4c17_91BD_A64EF9E9BD64" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/soortwoonobject> ;
+    skos:notation "3" ;
     skos:prefLabel "recreatiewoning"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/soortwoonobject> .
 
@@ -545,10 +469,12 @@
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/soortwoonobject> ;
     rdfs:label "woning"@nl ;
+    mim:code "4" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/bag/soortwoonobject/woning"^^xsd:anyURI ;
     mim:naam "woning"@nl ;
     dcterms:identifier "EAID_F536C4CA_4C66_4d99_816C_4FE4937E1649" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/soortwoonobject> ;
+    skos:notation "4" ;
     skos:prefLabel "woning"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/soortwoonobject> .
 
@@ -556,10 +482,12 @@
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/soortwoonobject> ;
     rdfs:label "wooneenheid"@nl ;
+    mim:code "5" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/bag/soortwoonobject/wooneenheid"^^xsd:anyURI ;
     mim:naam "wooneenheid"@nl ;
     dcterms:identifier "EAID_8A1AEC91_7403_4322_819E_62A5807D4CC0" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/soortwoonobject> ;
+    skos:notation "5" ;
     skos:prefLabel "wooneenheid"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/soortwoonobject> .
 
@@ -567,10 +495,12 @@
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusopenbareruimte> ;
     rdfs:label "Leeg"@nl ;
+    mim:code "-2" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusopenbareruimte/leeg"^^xsd:anyURI ;
     mim:naam "Leeg"@nl ;
     dcterms:identifier "EAID_A454C453_692F_4200_BE02_247500A09374" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusopenbareruimte> ;
+    skos:notation "-2" ;
     skos:prefLabel "Leeg"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusopenbareruimte> .
 
@@ -578,10 +508,12 @@
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusopenbareruimte> ;
     rdfs:label "naamgeving ingetrokken"@nl ;
+    mim:code "1" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusopenbareruimte/naamgeving-ingetrokken"^^xsd:anyURI ;
     mim:naam "naamgeving ingetrokken"@nl ;
     dcterms:identifier "EAID_A7A853E5_2B98_441c_89B2_803A50EB05CE" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusopenbareruimte> ;
+    skos:notation "1" ;
     skos:prefLabel "naamgeving ingetrokken"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusopenbareruimte> .
 
@@ -589,10 +521,12 @@
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusopenbareruimte> ;
     rdfs:label "naamgeving uitgegeven"@nl ;
+    mim:code "2" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusopenbareruimte/naamgeving-uitgegeven"^^xsd:anyURI ;
     mim:naam "naamgeving uitgegeven"@nl ;
     dcterms:identifier "EAID_8A953D13_0BA4_41f6_9183_5BD6AC5CAA25" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusopenbareruimte> ;
+    skos:notation "2" ;
     skos:prefLabel "naamgeving uitgegeven"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusopenbareruimte> .
 
@@ -600,10 +534,12 @@
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusopenbareruimte> ;
     rdfs:label "Onbekend"@nl ;
+    mim:code "-1" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusopenbareruimte/onbekend"^^xsd:anyURI ;
     mim:naam "Onbekend"@nl ;
     dcterms:identifier "EAID_2833B08E_B2BF_4e9b_A6D4_91D082F901BF" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusopenbareruimte> ;
+    skos:notation "-1" ;
     skos:prefLabel "Onbekend"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusopenbareruimte> .
 
@@ -611,10 +547,12 @@
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusverblijfsobject> ;
     rdfs:label "Leeg"@nl ;
+    mim:code "-2" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusverblijfsobject/leeg"^^xsd:anyURI ;
     mim:naam "Leeg"@nl ;
     dcterms:identifier "EAID_4CCBF4CC_F0C3_4f6b_9CCD_F909E55BDDED" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusverblijfsobject> ;
+    skos:notation "-2" ;
     skos:prefLabel "Leeg"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusverblijfsobject> .
 
@@ -622,12 +560,14 @@
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusverblijfsobject> ;
     rdfs:label "niet gerealiseerd verblijfsobject"@nl ;
+    mim:code "1" ;
     mim:definitie "Een verblijfsobject in een pand waarvoor een bouwvergunning was verleend of dat gerealiseerd zou worden in een reeds bestaand pand, maar waarvan in een schriftelijke verklaring van een daartoe bevoegd ambtenaar is vastgesteld dat wordt afgezien van de bouw of waarvan de bouwvergunning is ingetrokken."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusverblijfsobject/niet-gerealiseerd-verblijfsobject"^^xsd:anyURI ;
     mim:naam "niet gerealiseerd verblijfsobject"@nl ;
     dcterms:identifier "EAID_26DE8B1B_579F_43d7_ABC1_615B171A30D3" ;
     skos:definition "Een verblijfsobject in een pand waarvoor een bouwvergunning was verleend of dat gerealiseerd zou worden in een reeds bestaand pand, maar waarvan in een schriftelijke verklaring van een daartoe bevoegd ambtenaar is vastgesteld dat wordt afgezien van de bouw of waarvan de bouwvergunning is ingetrokken."@nl ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusverblijfsobject> ;
+    skos:notation "1" ;
     skos:prefLabel "niet gerealiseerd verblijfsobject"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusverblijfsobject> .
 
@@ -635,10 +575,12 @@
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusverblijfsobject> ;
     rdfs:label "Onbekend"@nl ;
+    mim:code "-1" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusverblijfsobject/onbekend"^^xsd:anyURI ;
     mim:naam "Onbekend"@nl ;
     dcterms:identifier "EAID_72191DEE_0445_4684_9D74_4D18A8DC718A" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusverblijfsobject> ;
+    skos:notation "-1" ;
     skos:prefLabel "Onbekend"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusverblijfsobject> .
 
@@ -646,12 +588,14 @@
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusverblijfsobject> ;
     rdfs:label "verblijfsobject buiten gebruik"@nl ;
+    mim:code "2" ;
     mim:definitie "Een verblijfsobject dat onderdeel uitmaakt van een pand dat in dusdanige bouwkundige staat is dat niet te verwachten is dat het pand zal worden hersteld en weer in gebruik zal worden genomen."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusverblijfsobject/verblijfsobject-buiten-gebruik"^^xsd:anyURI ;
     mim:naam "verblijfsobject buiten gebruik"@nl ;
     dcterms:identifier "EAID_C5E5B926_8E7E_43a5_91CF_24D650A19124" ;
     skos:definition "Een verblijfsobject dat onderdeel uitmaakt van een pand dat in dusdanige bouwkundige staat is dat niet te verwachten is dat het pand zal worden hersteld en weer in gebruik zal worden genomen."@nl ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusverblijfsobject> ;
+    skos:notation "2" ;
     skos:prefLabel "verblijfsobject buiten gebruik"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusverblijfsobject> .
 
@@ -659,12 +603,14 @@
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusverblijfsobject> ;
     rdfs:label "verblijfsobject gevormd"@nl ;
+    mim:code "3" ;
     mim:definitie "Een nieuw verblijfsobject dat deel gaat uitmaken van een nog niet gebouwd pand waarvoor een bouwvergunning is verleend of dat wordt gerealiseerd in een reeds bestaand pand."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusverblijfsobject/verblijfsobject-gevormd"^^xsd:anyURI ;
     mim:naam "verblijfsobject gevormd"@nl ;
     dcterms:identifier "EAID_0F4E9BFF_CCD7_42f7_BBB5_19997D63155C" ;
     skos:definition "Een nieuw verblijfsobject dat deel gaat uitmaken van een nog niet gebouwd pand waarvoor een bouwvergunning is verleend of dat wordt gerealiseerd in een reeds bestaand pand."@nl ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusverblijfsobject> ;
+    skos:notation "3" ;
     skos:prefLabel "verblijfsobject gevormd"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusverblijfsobject> .
 
@@ -672,12 +618,14 @@
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusverblijfsobject> ;
     rdfs:label "verblijfsobject in gebruik"@nl ;
+    mim:code "4" ;
     mim:definitie "Een verblijfsobject dat feitelijk de status “Verblijfsobject in gebruik (niet ingemeten)” had en waarvan de definitieve geometrie is ingemeten."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusverblijfsobject/verblijfsobject-in-gebruik"^^xsd:anyURI ;
     mim:naam "verblijfsobject in gebruik"@nl ;
     dcterms:identifier "EAID_8F715B77_E57D_4189_B0BE_1B83D6D5E438" ;
     skos:definition "Een verblijfsobject dat feitelijk de status “Verblijfsobject in gebruik (niet ingemeten)” had en waarvan de definitieve geometrie is ingemeten."@nl ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusverblijfsobject> ;
+    skos:notation "4" ;
     skos:prefLabel "verblijfsobject in gebruik"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusverblijfsobject> .
 
@@ -685,6 +633,7 @@
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusverblijfsobject> ;
     rdfs:label "verblijfsobject in gebruik (niet ingemeten)"@nl ;
+    mim:code "5" ;
     mim:definitie """Een verblijfsobject waarvan de aanvrager van de bouwvergunning heeft gemeld dat de bouw is voltooid of waarvan in een schriftelijke 
 verklaring van een daartoe bevoegd ambtenaar is vastgesteld dat het verblijfsobject feitelijk in gebruik is genomen voor bijvoorbeeld bewoning dan wel bedrijfsuitoefening of dat het weliswaar (nog) niet in gebruik is genomen maar naar het oordeel van de gemeente wel gebruiksgereed is. Het object is nog niet ingemeten."""@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusverblijfsobject/verblijfsobject-in-gebruik-niet-ingemeten"^^xsd:anyURI ;
@@ -693,6 +642,7 @@ verklaring van een daartoe bevoegd ambtenaar is vastgesteld dat het verblijfsobj
     skos:definition """Een verblijfsobject waarvan de aanvrager van de bouwvergunning heeft gemeld dat de bouw is voltooid of waarvan in een schriftelijke 
 verklaring van een daartoe bevoegd ambtenaar is vastgesteld dat het verblijfsobject feitelijk in gebruik is genomen voor bijvoorbeeld bewoning dan wel bedrijfsuitoefening of dat het weliswaar (nog) niet in gebruik is genomen maar naar het oordeel van de gemeente wel gebruiksgereed is. Het object is nog niet ingemeten."""@nl ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusverblijfsobject> ;
+    skos:notation "5" ;
     skos:prefLabel "verblijfsobject in gebruik (niet ingemeten)"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusverblijfsobject> .
 
@@ -700,6 +650,7 @@ verklaring van een daartoe bevoegd ambtenaar is vastgesteld dat het verblijfsobj
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusverblijfsobject> ;
     rdfs:label "verblijfsobject ingetrokken"@nl ;
+    mim:code "6" ;
     mim:definitie """een verblijfsobject dat als zodanig Catalogus basisregistraties adressen en gebouwen 2009 Pagina 79 van 79 opgehouden heeft te bestaan omdat de aanvrager van een sloopvergunning heeft gemeld dat de sloop is voltooid of in een schriftelijke verklaring van een daartoe bevoegd ambtenaar is.
 vastgesteld dat het verblijfsobject als zodanig niet meer 
 bestaat"""@nl ;
@@ -710,6 +661,7 @@ bestaat"""@nl ;
 vastgesteld dat het verblijfsobject als zodanig niet meer 
 bestaat"""@nl ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusverblijfsobject> ;
+    skos:notation "6" ;
     skos:prefLabel "verblijfsobject ingetrokken"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusverblijfsobject> .
 
@@ -916,7 +868,7 @@ bestaat"""@nl ;
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "geometrie"@nl ;
-    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/wktliteral> ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/point> ;
     dcterms:identifier "EAID_EA34202C_6D0B_4b14_8E0A_A07B2CD46E0C" ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/verblijfsobject> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/> ;
@@ -1249,7 +1201,7 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "geometrie"@nl ;
-    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/wktliteral> ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/multisurface> ;
     dcterms:identifier "EAID_DB2ED099_6545_4d8a_853B_AC0632D69129" ;
     rdfs:comment "De tweedimensionale geometrische representatie van de omtrekken van de wijk."@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/wijk> ;
@@ -1531,6 +1483,175 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> ;
     rdfs:range xsd:string .
 
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gebruiksdoel/bijeenkomstfunctie> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gebruiksdoel> ;
+    rdfs:label "bijeenkomstfunctie"@nl ;
+    mim:code "2" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gebruiksdoel/bijeenkomstfunctie"^^xsd:anyURI ;
+    mim:naam "bijeenkomstfunctie"@nl ;
+    dcterms:identifier "EAID_3fde5a27_a224_4ae2_aa93_924473959b3a" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gebruiksdoel> ;
+    skos:notation "2" ;
+    skos:prefLabel "bijeenkomstfunctie"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gebruiksdoel> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gebruiksdoel/celfunctie> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gebruiksdoel> ;
+    rdfs:label "celfunctie"@nl ;
+    mim:code "3" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gebruiksdoel/celfunctie"^^xsd:anyURI ;
+    mim:naam "celfunctie"@nl ;
+    dcterms:identifier "EAID_7d341d3e_67a1_4158_92a2_06132b974a15" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gebruiksdoel> ;
+    skos:notation "3" ;
+    skos:prefLabel "celfunctie"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gebruiksdoel> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gebruiksdoel/gezondheidszorgfunctie> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gebruiksdoel> ;
+    rdfs:label "gezondheidszorgfunctie"@nl ;
+    mim:code "4" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gebruiksdoel/gezondheidszorgfunctie"^^xsd:anyURI ;
+    mim:naam "gezondheidszorgfunctie"@nl ;
+    dcterms:identifier "EAID_4e94d9f0_b6f4_46b8_9799_2d3ef341b47b" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gebruiksdoel> ;
+    skos:notation "4" ;
+    skos:prefLabel "gezondheidszorgfunctie"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gebruiksdoel> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gebruiksdoel/industriefunctie> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gebruiksdoel> ;
+    rdfs:label "industriefunctie"@nl ;
+    mim:code "5" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gebruiksdoel/industriefunctie"^^xsd:anyURI ;
+    mim:naam "industriefunctie"@nl ;
+    dcterms:identifier "EAID_8d82ffc7_30f8_4b86_aa59_77d7b0bfaf97" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gebruiksdoel> ;
+    skos:notation "5" ;
+    skos:prefLabel "industriefunctie"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gebruiksdoel> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gebruiksdoel/kantoorfunctie> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gebruiksdoel> ;
+    rdfs:label "kantoorfunctie"@nl ;
+    mim:code "6" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gebruiksdoel/kantoorfunctie"^^xsd:anyURI ;
+    mim:naam "kantoorfunctie"@nl ;
+    dcterms:identifier "EAID_dc9e7442_c401_4b46_adae_cb42518ddcd0" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gebruiksdoel> ;
+    skos:notation "6" ;
+    skos:prefLabel "kantoorfunctie"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gebruiksdoel> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gebruiksdoel/leeg> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gebruiksdoel> ;
+    rdfs:label "Leeg"@nl ;
+    mim:code "-2" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gebruiksdoel/leeg"^^xsd:anyURI ;
+    mim:naam "Leeg"@nl ;
+    dcterms:identifier "EAID_71a3b183_1314_45aa_8677_b6ea8f0236c9" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gebruiksdoel> ;
+    skos:notation "-2" ;
+    skos:prefLabel "Leeg"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gebruiksdoel> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gebruiksdoel/logiesfunctie> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gebruiksdoel> ;
+    rdfs:label "logiesfunctie"@nl ;
+    mim:code "7" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gebruiksdoel/logiesfunctie"^^xsd:anyURI ;
+    mim:naam "logiesfunctie"@nl ;
+    dcterms:identifier "EAID_fd0a033a_647d_4dd3_9403_20e12be9c849" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gebruiksdoel> ;
+    skos:notation "7" ;
+    skos:prefLabel "logiesfunctie"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gebruiksdoel> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gebruiksdoel/onbekend> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gebruiksdoel> ;
+    rdfs:label "Onbekend"@nl ;
+    mim:code "-1" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gebruiksdoel/onbekend"^^xsd:anyURI ;
+    mim:naam "Onbekend"@nl ;
+    dcterms:identifier "EAID_fe55a508_31d5_45ff_8840_d1a297a37215" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gebruiksdoel> ;
+    skos:notation "-1" ;
+    skos:prefLabel "Onbekend"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gebruiksdoel> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gebruiksdoel/onderwijsfunctie> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gebruiksdoel> ;
+    rdfs:label "onderwijsfunctie"@nl ;
+    mim:code "8" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gebruiksdoel/onderwijsfunctie"^^xsd:anyURI ;
+    mim:naam "onderwijsfunctie"@nl ;
+    dcterms:identifier "EAID_abd49265_793b_413d_8ec5_3d72c2d8c8ea" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gebruiksdoel> ;
+    skos:notation "8" ;
+    skos:prefLabel "onderwijsfunctie"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gebruiksdoel> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gebruiksdoel/overige-gebruiksfunctie> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gebruiksdoel> ;
+    rdfs:label "overige gebruiksfunctie"@nl ;
+    mim:code "11" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gebruiksdoel/overige-gebruiksfunctie"^^xsd:anyURI ;
+    mim:naam "overige gebruiksfunctie"@nl ;
+    dcterms:identifier "EAID_423f60db_6991_4391_931f_827ebebbea32" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gebruiksdoel> ;
+    skos:notation "11" ;
+    skos:prefLabel "overige gebruiksfunctie"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gebruiksdoel> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gebruiksdoel/sportfunctie> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gebruiksdoel> ;
+    rdfs:label "sportfunctie"@nl ;
+    mim:code "9" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gebruiksdoel/sportfunctie"^^xsd:anyURI ;
+    mim:naam "sportfunctie"@nl ;
+    dcterms:identifier "EAID_b1a092c5_a836_4762_b95b_e45954e6ef75" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gebruiksdoel> ;
+    skos:notation "9" ;
+    skos:prefLabel "sportfunctie"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gebruiksdoel> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gebruiksdoel/winkelfunctie> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gebruiksdoel> ;
+    rdfs:label "winkelfunctie"@nl ;
+    mim:code "10" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gebruiksdoel/winkelfunctie"^^xsd:anyURI ;
+    mim:naam "winkelfunctie"@nl ;
+    dcterms:identifier "EAID_57d42d34_b201_4f38_a650_3c4d08ef45b8" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gebruiksdoel> ;
+    skos:notation "10" ;
+    skos:prefLabel "winkelfunctie"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gebruiksdoel> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gebruiksdoel/woonfunctie> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gebruiksdoel> ;
+    rdfs:label "woonfunctie"@nl ;
+    mim:code "1" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gebruiksdoel/woonfunctie"^^xsd:anyURI ;
+    mim:naam "woonfunctie"@nl ;
+    dcterms:identifier "EAID_e850ee6f_b9ee_4adb_a75e_63e60363c99b" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gebruiksdoel> ;
+    skos:notation "1" ;
+    skos:prefLabel "woonfunctie"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gebruiksdoel> .
+
 <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/overigbenoemdterrein/gebruiksdoeloverigbenoemdterrein> a mim:Attribuutsoort,
         owl:ObjectProperty ;
     rdfs:label "gebruiksdoelOverigBenoemdTerrein"@nl ;
@@ -1548,12 +1669,12 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
     mim:kardinaliteit "1..*" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "gebruiksdoelOverigBenoemdTerrein"@nl ;
-    mim:type <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/gebruiksdoel> ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gebruiksdoel> ;
     dcterms:identifier "EAID_12195899_466D_4429_952B_1D5949346406" ;
     rdfs:comment "Een categorisering van de gebruiksdoelen van het betreffende OVERIG BENOEMD TERREIN, zoals dit formeel door de overheid als zodanig is toegestaan."@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/overigbenoemdterrein> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
-    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/gebruiksdoel> .
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gebruiksdoel> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/overigbenoemdterrein/overigbenoemdterreinidentificatie> a mim:Attribuutsoort,
         owl:ObjectProperty ;
@@ -1669,12 +1790,12 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "klokurenOnderwijs"@nl ;
-    mim:type mim:Decimal ;
+    mim:type mim:Real ;
     dcterms:identifier "EAID_3A1FC714_21E8_4595_A47E_7DA39712E338" ;
     rdfs:comment "Aantal klokuren per week"@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/sport/binnenlocatie> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/sport/> ;
-    rdfs:range xsd:decimal .
+    rdfs:range xsd:double .
 
 <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/sport/binnenlocatie/klokurenverenigingen> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
@@ -1690,12 +1811,12 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "klokurenVerenigingen"@nl ;
-    mim:type mim:Decimal ;
+    mim:type mim:Real ;
     dcterms:identifier "EAID_9C245010_A095_4788_99CF_ECD52F21B21D" ;
     rdfs:comment "aantal klokuren per week"@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/sport/binnenlocatie> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/sport/> ;
-    rdfs:range xsd:decimal .
+    rdfs:range xsd:double .
 
 <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/sport/binnenlocatie/locatie> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
@@ -1710,7 +1831,7 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "locatie"@nl ;
-    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/wktliteral> ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/point> ;
     dcterms:identifier "EAID_50596FF3_4FC0_4420_B4B9_8AB4BD3FE7AF" ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/sport/binnenlocatie> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/sport/> ;
@@ -2023,28 +2144,6 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/> ;
     rdfs:subClassOf skos:Concept .
 
-<https://lod.gemeentelijkgegevensmodel.nl/enumeraties/gebruiksdoel> a mim:Enumeratie,
-        owl:Class,
-        skos:ConceptScheme ;
-    rdfs:label "gebruiksdoel"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/enumeraties/gebruiksdoel"^^xsd:anyURI ;
-    mim:naam "gebruiksdoel"@nl ;
-    mim:waarde <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/gebruiksdoel/bijeenkomstfunctie>,
-        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/gebruiksdoel/celfunctie>,
-        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/gebruiksdoel/gezondheidszorgfunctie>,
-        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/gebruiksdoel/industriefunctie>,
-        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/gebruiksdoel/kantoorfunctie>,
-        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/gebruiksdoel/leeg>,
-        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/gebruiksdoel/logiesfunctie>,
-        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/gebruiksdoel/onbekend>,
-        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/gebruiksdoel/onderwijsfunctie>,
-        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/gebruiksdoel/overige-gebruiksfunctie>,
-        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/gebruiksdoel/sportfunctie>,
-        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/gebruiksdoel/winkelfunctie>,
-        <https://lod.gemeentelijkgegevensmodel.nl/enumeraties/gebruiksdoel/woonfunctie> ;
-    dcterms:identifier "EAID_6C1FC62B_EE66_4c73_BDBF_A59114A3806A" ;
-    rdfs:subClassOf skos:Concept .
-
 <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gebruiksdoel> a mim:Enumeratie,
         owl:Class,
         skos:ConceptScheme ;
@@ -2066,5 +2165,28 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
         <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gebruiksdoel/woonfunctie> ;
     dcterms:identifier "EAID_9DBACB9E_CE04_4fd6_AB16_2010C4C61B0A" ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/> ;
+    rdfs:subClassOf skos:Concept .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gebruiksdoel> a mim:Enumeratie,
+        owl:Class,
+        skos:ConceptScheme ;
+    rdfs:label "gebruiksdoel"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gebruiksdoel"^^xsd:anyURI ;
+    mim:naam "gebruiksdoel"@nl ;
+    mim:waarde <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gebruiksdoel/bijeenkomstfunctie>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gebruiksdoel/celfunctie>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gebruiksdoel/gezondheidszorgfunctie>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gebruiksdoel/industriefunctie>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gebruiksdoel/kantoorfunctie>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gebruiksdoel/leeg>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gebruiksdoel/logiesfunctie>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gebruiksdoel/onbekend>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gebruiksdoel/onderwijsfunctie>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gebruiksdoel/overige-gebruiksfunctie>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gebruiksdoel/sportfunctie>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gebruiksdoel/winkelfunctie>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gebruiksdoel/woonfunctie> ;
+    dcterms:identifier "EAID_7d0b64b8_18c9_4038_813f_8edbfee8d0e7" ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
     rdfs:subClassOf skos:Concept .
 
