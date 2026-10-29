@@ -51,8 +51,10 @@ vars:
   # spaties, generalisaties in de juiste richting, unieke property-IRI's, technische packages
   # uitgesloten) en de MIM 1.2-laag (mim:-typering, metagegevens, kardinaliteit, taaltags).
   # Oudere versies (t/m 0.7.0) leveren een LOD-export met de bekende gebreken; niet terugzetten.
+  # 0.8.1 voegt de deelmodellen per diagram (--lod_views_dir), de losse SHACL-shapes
+  # (--lod_shapes_file) en IRI's langs de pakketboom toe; generate:lod-views vereist die versie.
   # Zie taak prepare:venv-crunch.
-  CRUNCH_UML_VERSION: "0.8.0"
+  CRUNCH_UML_VERSION: "0.8.1"
   CRUNCH_VENV: "tools/.venv-crunch"
   CRUNCH: "tools/.venv-crunch/bin/crunch_uml"
   # Metagegevens van het informatiemodel in de Linked Data-export (MIM 1.2: mim:Informatiemodel
