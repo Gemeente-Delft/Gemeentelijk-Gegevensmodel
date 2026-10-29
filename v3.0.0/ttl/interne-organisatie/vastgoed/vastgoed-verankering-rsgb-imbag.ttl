@@ -1450,11 +1450,11 @@
         <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/nen2767-conditiescore> ;
     rdfs:label "2"@nl ;
     mim:code "2" ;
-    mim:definitie "Goede conditie; <font color=\"#262626\">Incidenteel beginnende veroudering</font>"@nl ;
+    mim:definitie "Goede conditie; Incidenteel beginnende veroudering"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/nen2767-conditiescore/2"^^xsd:anyURI ;
     mim:naam "2"@nl ;
     dcterms:identifier "EAID_467B1F40_5DFB_424d_A695_201FD313515F" ;
-    skos:definition "Goede conditie; <font color=\"#262626\">Incidenteel beginnende veroudering</font>"@nl ;
+    skos:definition "Goede conditie; Incidenteel beginnende veroudering"@nl ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/nen2767-conditiescore> ;
     skos:notation "2" ;
     skos:prefLabel "2"@nl ;
@@ -1465,11 +1465,11 @@
         <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/nen2767-conditiescore> ;
     rdfs:label "3"@nl ;
     mim:code "3" ;
-    mim:definitie "Redelijke conditie; <font color=\"#262626\">Plaatselijk zichtbare veroudering Functievervulling van bouw- en installatiedelen niet in gevaar</font>"@nl ;
+    mim:definitie "Redelijke conditie; Plaatselijk zichtbare veroudering Functievervulling van bouw- en installatiedelen niet in gevaar"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/nen2767-conditiescore/3"^^xsd:anyURI ;
     mim:naam "3"@nl ;
     dcterms:identifier "EAID_FBBAA4D4_0811_4714_9DAC_8B1E5ED08083" ;
-    skos:definition "Redelijke conditie; <font color=\"#262626\">Plaatselijk zichtbare veroudering Functievervulling van bouw- en installatiedelen niet in gevaar</font>"@nl ;
+    skos:definition "Redelijke conditie; Plaatselijk zichtbare veroudering Functievervulling van bouw- en installatiedelen niet in gevaar"@nl ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/nen2767-conditiescore> ;
     skos:notation "3" ;
     skos:prefLabel "3"@nl ;
@@ -1480,11 +1480,11 @@
         <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/nen2767-conditiescore> ;
     rdfs:label "4"@nl ;
     mim:code "4" ;
-    mim:definitie "Matige conditie; <font color=\"#262626\">Functievervulling van bouw- en installatiedelen incidenteel in gevaar</font>"@nl ;
+    mim:definitie "Matige conditie; Functievervulling van bouw- en installatiedelen incidenteel in gevaar"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/nen2767-conditiescore/4"^^xsd:anyURI ;
     mim:naam "4"@nl ;
     dcterms:identifier "EAID_3BA07C37_BBA6_4024_8A0D_39AFEC49AEE1" ;
-    skos:definition "Matige conditie; <font color=\"#262626\">Functievervulling van bouw- en installatiedelen incidenteel in gevaar</font>"@nl ;
+    skos:definition "Matige conditie; Functievervulling van bouw- en installatiedelen incidenteel in gevaar"@nl ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/nen2767-conditiescore> ;
     skos:notation "4" ;
     skos:prefLabel "4"@nl ;
@@ -1495,11 +1495,11 @@
         <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/nen2767-conditiescore> ;
     rdfs:label "5"@nl ;
     mim:code "5" ;
-    mim:definitie "Slechte conditie; <font color=\"#262626\">De veroudering is onomkeerbaar</font>"@nl ;
+    mim:definitie "Slechte conditie; De veroudering is onomkeerbaar"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/nen2767-conditiescore/5"^^xsd:anyURI ;
     mim:naam "5"@nl ;
     dcterms:identifier "EAID_CF00A550_E72E_4dd8_9417_2BBB408273F4" ;
-    skos:definition "Slechte conditie; <font color=\"#262626\">De veroudering is onomkeerbaar</font>"@nl ;
+    skos:definition "Slechte conditie; De veroudering is onomkeerbaar"@nl ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/nen2767-conditiescore> ;
     skos:notation "5" ;
     skos:prefLabel "5"@nl ;
@@ -1510,11 +1510,11 @@
         <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/nen2767-conditiescore> ;
     rdfs:label "6"@nl ;
     mim:code "6" ;
-    mim:definitie "Zeer slechte conditie; <font color=\"#262626\">Technisch rijp voor sloop</font>"@nl ;
+    mim:definitie "Zeer slechte conditie; Technisch rijp voor sloop"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/nen2767-conditiescore/6"^^xsd:anyURI ;
     mim:naam "6"@nl ;
     dcterms:identifier "EAID_93A4AC73_6B0E_4b9e_9212_7754FE52543C" ;
-    skos:definition "Zeer slechte conditie; <font color=\"#262626\">Technisch rijp voor sloop</font>"@nl ;
+    skos:definition "Zeer slechte conditie; Technisch rijp voor sloop"@nl ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/nen2767-conditiescore> ;
     skos:notation "6" ;
     skos:prefLabel "6"@nl ;
@@ -4249,11 +4249,9 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
         owl:ObjectProperty ;
     rdfs:label "status"@nl ;
     mim:definitie """De fase van de levenscyclus van een LIGPLAATS waarin de betreffende LIGPLAATS zich bevindt.
-&nbsp;
-<ul>
-	<li>Plaats aangewezen</li>
-	<li>Plaats ingetrokken</li>
-</ul>"""@nl ;
+
+- Plaats aangewezen
+- Plaats ingetrokken"""@nl ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/bag/ligplaats/status"^^xsd:anyURI ;
@@ -4267,11 +4265,9 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
     mim:type <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusligplaats> ;
     dcterms:identifier "EAID_2FE8B0B6_3CD5_4c0a_828B_7FBA9CB604B7" ;
     rdfs:comment """De fase van de levenscyclus van een LIGPLAATS waarin de betreffende LIGPLAATS zich bevindt.
-&nbsp;
-<ul>
-	<li>Plaats aangewezen</li>
-	<li>Plaats ingetrokken</li>
-</ul>"""@nl ;
+
+- Plaats aangewezen
+- Plaats ingetrokken"""@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/ligplaats> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/> ;
     rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusligplaats> .
@@ -4591,11 +4587,9 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
         owl:ObjectProperty ;
     rdfs:label "status"@nl ;
     mim:definitie """De levenscyclus van een nummeraanduiding, waarin de betreffende nummeraanduiding zich bevindt.
-&nbsp;
-<ul>
-	<li>Naamgeving uitgegeven</li>
-	<li>Naamgeving ingetrokken</li>
-</ul>"""@nl ;
+
+- Naamgeving uitgegeven
+- Naamgeving ingetrokken"""@nl ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/bag/nummeraanduiding/status"^^xsd:anyURI ;
@@ -4609,11 +4603,9 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
     mim:type <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusnummeraanduiding> ;
     dcterms:identifier "EAID_C5D0D5C3_1292_457f_A381_3E7594A0CB9E" ;
     rdfs:comment """De levenscyclus van een nummeraanduiding, waarin de betreffende nummeraanduiding zich bevindt.
-&nbsp;
-<ul>
-	<li>Naamgeving uitgegeven</li>
-	<li>Naamgeving ingetrokken</li>
-</ul>"""@nl ;
+
+- Naamgeving uitgegeven
+- Naamgeving ingetrokken"""@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/nummeraanduiding> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/> ;
     rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusnummeraanduiding> .
@@ -4997,7 +4989,7 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
 <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/openbareruimte/labelnaam> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "labelNaam"@nl ;
-    mim:definitie "<font color=\"#0f0f0f\">Bevat de naam van de openbare ruimte ten behoeve van visualisatie.</font>"@nl ;
+    mim:definitie "Bevat de naam van de openbare ruimte ten behoeve van visualisatie."@nl ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:herkomst "BGT" ;
@@ -5011,7 +5003,7 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
     mim:naam "labelNaam"@nl ;
     mim:type mim:CharacterString ;
     dcterms:identifier "EAID_CE2EE44D_6BD6_4d0c_B3D8_6020CA8A8F19" ;
-    rdfs:comment "<font color=\"#0f0f0f\">Bevat de naam van de openbare ruimte ten behoeve van visualisatie.</font>"@nl ;
+    rdfs:comment "Bevat de naam van de openbare ruimte ten behoeve van visualisatie."@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/openbareruimte> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/> ;
     rdfs:range xsd:string .
@@ -5019,7 +5011,7 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
 <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/openbareruimte/naamopenbareruimte> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "naamOpenbareruimte"@nl ;
-    mim:definitie "<font color=\"#0f0f0f\">Een door het bevoegde gemeentelijke orgaan aan een OPENBARE RUIMTE toegekende benaming</font>"@nl ;
+    mim:definitie "Een door het bevoegde gemeentelijke orgaan aan een OPENBARE RUIMTE toegekende benaming"@nl ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/bag/openbareruimte/naamopenbareruimte"^^xsd:anyURI ;
@@ -5032,7 +5024,7 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
     mim:naam "naamOpenbareruimte"@nl ;
     mim:type mim:CharacterString ;
     dcterms:identifier "EAID_77B5FC93_6AFF_42d8_A94B_155DC2933668" ;
-    rdfs:comment "<font color=\"#0f0f0f\">Een door het bevoegde gemeentelijke orgaan aan een OPENBARE RUIMTE toegekende benaming</font>"@nl ;
+    rdfs:comment "Een door het bevoegde gemeentelijke orgaan aan een OPENBARE RUIMTE toegekende benaming"@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/openbareruimte> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/> ;
     rdfs:range xsd:string .
@@ -5351,7 +5343,7 @@ Dit geeft aan dat een PAND in de registratie is opgenomen als gevolg van een fei
 <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/pand/geometriebovenaanzicht> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "geometrieBovenaanzicht"@nl ;
-    mim:definitie "<font color=\"#0f0f0f\">De minimaal tweedimensionale geometrische representatie van het bovenaanzicht van de omtrekken van een PAND</font>"@nl ;
+    mim:definitie "De minimaal tweedimensionale geometrische representatie van het bovenaanzicht van de omtrekken van een PAND"@nl ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/bag/pand/geometriebovenaanzicht"^^xsd:anyURI ;
@@ -5364,7 +5356,7 @@ Dit geeft aan dat een PAND in de registratie is opgenomen als gevolg van een fei
     mim:naam "geometrieBovenaanzicht"@nl ;
     mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/surface> ;
     dcterms:identifier "EAID_203A64ED_F28E_48f8_A0E6_EA1CB2925F41" ;
-    rdfs:comment "<font color=\"#0f0f0f\">De minimaal tweedimensionale geometrische representatie van het bovenaanzicht van de omtrekken van een PAND</font>"@nl ;
+    rdfs:comment "De minimaal tweedimensionale geometrische representatie van het bovenaanzicht van de omtrekken van een PAND"@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/pand> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/> ;
     rdfs:range geo:wktLiteral .
@@ -5475,7 +5467,7 @@ Dit geeft aan dat een PAND in de registratie is opgenomen als gevolg van een fei
 <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/pand/oorspronkelijkbouwjaar> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "oorspronkelijkBouwjaar"@nl ;
-    mim:definitie "<font color=\"#0f0f0f\">De aanduiding van het jaar waarin een PAND oorspronkelijk als bouwkundig gereed is of wordt opgeleverd.</font>"@nl ;
+    mim:definitie "De aanduiding van het jaar waarin een PAND oorspronkelijk als bouwkundig gereed is of wordt opgeleverd."@nl ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/bag/pand/oorspronkelijkbouwjaar"^^xsd:anyURI ;
@@ -5488,7 +5480,7 @@ Dit geeft aan dat een PAND in de registratie is opgenomen als gevolg van een fei
     mim:naam "oorspronkelijkBouwjaar"@nl ;
     mim:type mim:Integer ;
     dcterms:identifier "EAID_ECE8BAE7_5731_423f_A398_5C3B4164C83B" ;
-    rdfs:comment "<font color=\"#0f0f0f\">De aanduiding van het jaar waarin een PAND oorspronkelijk als bouwkundig gereed is of wordt opgeleverd.</font>"@nl ;
+    rdfs:comment "De aanduiding van het jaar waarin een PAND oorspronkelijk als bouwkundig gereed is of wordt opgeleverd."@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/pand> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/> ;
     rdfs:range xsd:integer .
@@ -5542,18 +5534,17 @@ Dit geeft aan dat een PAND in de registratie is opgenomen als gevolg van een fei
         owl:ObjectProperty ;
     rdfs:label "status"@nl ;
     mim:definitie """De fase van de levenscyclus van een PAND, waarin het betreffende PAND zich bevindt.
-<ul>
-	<li>Bouwvergunning verleend</li>
-	<li>Niet gerealiseerd pand</li>
-	<li>Bouw gestart</li>
-	<li>Pand in gebruik (niet ingemeten)</li>
-	<li>Pand in gebruik</li>
-	<li>Sloopvergunning verleend</li>
-	<li>Pand gesloopt</li>
-	<li>Pand buiten gebruik</li>
-	<li>Verbouwing pand</li>
-	<li>Pand ten onrechte opgevoerd</li>
-</ul>"""@nl ;
+
+- Bouwvergunning verleend
+- Niet gerealiseerd pand
+- Bouw gestart
+- Pand in gebruik (niet ingemeten)
+- Pand in gebruik
+- Sloopvergunning verleend
+- Pand gesloopt
+- Pand buiten gebruik
+- Verbouwing pand
+- Pand ten onrechte opgevoerd"""@nl ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/bag/pand/status"^^xsd:anyURI ;
@@ -5567,18 +5558,17 @@ Dit geeft aan dat een PAND in de registratie is opgenomen als gevolg van een fei
     mim:type <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statuspand> ;
     dcterms:identifier "EAID_E9E38009_52E2_47b4_8F70_C51240C72D0D" ;
     rdfs:comment """De fase van de levenscyclus van een PAND, waarin het betreffende PAND zich bevindt.
-<ul>
-	<li>Bouwvergunning verleend</li>
-	<li>Niet gerealiseerd pand</li>
-	<li>Bouw gestart</li>
-	<li>Pand in gebruik (niet ingemeten)</li>
-	<li>Pand in gebruik</li>
-	<li>Sloopvergunning verleend</li>
-	<li>Pand gesloopt</li>
-	<li>Pand buiten gebruik</li>
-	<li>Verbouwing pand</li>
-	<li>Pand ten onrechte opgevoerd</li>
-</ul>"""@nl ;
+
+- Bouwvergunning verleend
+- Niet gerealiseerd pand
+- Bouw gestart
+- Pand in gebruik (niet ingemeten)
+- Pand in gebruik
+- Sloopvergunning verleend
+- Pand gesloopt
+- Pand buiten gebruik
+- Verbouwing pand
+- Pand ten onrechte opgevoerd"""@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/pand> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/> ;
     rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statuspand> .
@@ -11701,7 +11691,7 @@ geslachtsnaam voorafgaat.."""@nl ;
 <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/nietnatuurlijkpersoon/nnpid> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "NNPID"@nl ;
-    mim:definitie "Een in het handelsregister over een NIET-NATUURLIJK PERSOON opgenomen, door de Kamer van Koophandel toegekend, uniek nummer. De attribuutsoort kent onder meer historie omdat het mogelijk is dat de NNP-ID van een ingeschreven niet-natuurlijk persoon wijzigt, met name vanwege &lsquo;ambtelijke&rsquo; correcties."@nl ;
+    mim:definitie "Een in het handelsregister over een NIET-NATUURLIJK PERSOON opgenomen, door de Kamer van Koophandel toegekend, uniek nummer. De attribuutsoort kent onder meer historie omdat het mogelijk is dat de NNP-ID van een ingeschreven niet-natuurlijk persoon wijzigt, met name vanwege ‘ambtelijke’ correcties."@nl ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/nietnatuurlijkpersoon/nnpid"^^xsd:anyURI ;
@@ -11714,7 +11704,7 @@ geslachtsnaam voorafgaat.."""@nl ;
     mim:naam "NNPID"@nl ;
     mim:type mim:Integer ;
     dcterms:identifier "EAID_53D269C1_BBFD_4e2f_9166_5165EBBFBD9F" ;
-    rdfs:comment "Een in het handelsregister over een NIET-NATUURLIJK PERSOON opgenomen, door de Kamer van Koophandel toegekend, uniek nummer. De attribuutsoort kent onder meer historie omdat het mogelijk is dat de NNP-ID van een ingeschreven niet-natuurlijk persoon wijzigt, met name vanwege &lsquo;ambtelijke&rsquo; correcties."@nl ;
+    rdfs:comment "Een in het handelsregister over een NIET-NATUURLIJK PERSOON opgenomen, door de Kamer van Koophandel toegekend, uniek nummer. De attribuutsoort kent onder meer historie omdat het mogelijk is dat de NNP-ID van een ingeschreven niet-natuurlijk persoon wijzigt, met name vanwege ‘ambtelijke’ correcties."@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/nietnatuurlijkpersoon> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
     rdfs:range xsd:integer .
@@ -12237,7 +12227,7 @@ geslachtsnaam voorafgaat.."""@nl ;
         owl:ObjectProperty ;
     rdfs:label "exploitantcode"@nl ;
     mim:datumOpname "2016-05-01"^^xsd:date ;
-    mim:definitie "<font color=\"#000080\">Het recht wat de exploitant van de eigenaar te weten de gemeente heeft gekregen.</font>"@nl ;
+    mim:definitie "Het recht wat de exploitant van de eigenaar te weten de gemeente heeft gekregen."@nl ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:herkomst "KING" ;
@@ -12252,7 +12242,7 @@ geslachtsnaam voorafgaat.."""@nl ;
     mim:naam "exploitantcode"@nl ;
     mim:type <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/codeexploitant> ;
     dcterms:identifier "EAID_FA5E47B4_20B1_4ec5_8A10_A33144D1BE12" ;
-    rdfs:comment "<font color=\"#000080\">Het recht wat de exploitant van de eigenaar te weten de gemeente heeft gekregen.</font>"@nl ;
+    rdfs:comment "Het recht wat de exploitant van de eigenaar te weten de gemeente heeft gekregen."@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/tenaamstelling> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
     rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/codeexploitant> .
@@ -12672,7 +12662,7 @@ geslachtsnaam voorafgaat.."""@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/overiggebouwdobject"^^xsd:anyURI ;
     mim:indicatieAbstractObject false ;
     mim:naam "OverigGebouwdObject"@nl ;
-    mim:populatie "Is deelpopulatie van OVERIG BOUWWERK#NOTES#Is deelpopulatie van OVERIG BOUWWERK#NOTES#Is deelpopulatie van OVERIG BOUWWERK#NOTES#Is deelpopulatie van OVERIG BOUWWERK#NOTES#Is deelpopulatie van OVERIG BOUWWERK#NOTES#Is deelpopulatie van OVERIG BOUWWERK#NOTES#Is deelpopulatie van OVERIG BOUWWERK#NOTES#Is deelpopulatie van OVERIG BOUWWERK#NOTES#Is deelpopulatie van OVERIG BOUWWERK#NOTES#Is deelpopulatie van OVERIG BOUWWERK#NOTES#Is deelpopulatie van OVERIG BOUWWERK#NOTES#Is deelpopulatie van OVERIG BOUWWERK#NOTES#Is deelpopulatie van OVERIG BOUWWERK" ;
+    mim:populatie "Is deelpopulatie van OVERIG BOUWWERK" ;
     dcterms:identifier "EAID_7CDF37D9_26D7_46a5_9CF3_392601BDCECA" ;
     rdfs:comment "De kleinste eenheid van gebruik, geen verblijfsobject zijnde, binnen een bij de totstandkoming functioneel en bouwkundig constructief zelfstandige eenheid die direct en duurzaam met de aarde is verbonden."@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
@@ -13054,7 +13044,7 @@ geslachtsnaam voorafgaat.."""@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/bag/wijk"^^xsd:anyURI ;
     mim:indicatieAbstractObject false ;
     mim:naam "Wijk"@nl ;
-    mim:populatie "Alleen bestaande wijken maken deel uit van de populatie WIJK. Plantopografie maakt geen onderdeel uit van de populatie.#NOTES#Alleen bestaande wijken maken deel uit van de populatie WIJK. Plantopografie maakt geen onderdeel uit van de populatie.#NOTES#Alleen bestaande wijken maken deel uit van de populatie WIJK. Plantopografie maakt geen onderdeel uit van de populatie.#NOTES#Alleen bestaande wijken maken deel uit van de populatie WIJK. Plantopografie maakt geen onderdeel uit van de populatie.#NOTES#Alleen bestaande wijken maken deel uit van de populatie WIJK. Plantopografie maakt geen onderdeel uit van de populatie.#NOTES#Alleen bestaande wijken maken deel uit van de populatie WIJK. Plantopografie maakt geen onderdeel uit van de populatie.#NOTES#Alleen bestaande wijken maken deel uit van de populatie WIJK. Plantopografie maakt geen onderdeel uit van de populatie.#NOTES#Alleen bestaande wijken maken deel uit van de populatie WIJK. Plantopografie maakt geen onderdeel uit van de populatie.#NOTES#Alleen bestaande wijken maken deel uit van de populatie WIJK. Plantopografie maakt geen onderdeel uit van de populatie.#NOTES#Alleen bestaande wijken maken deel uit van de populatie WIJK. Plantopografie maakt geen onderdeel uit van de populatie.#NOTES#Alleen bestaande wijken maken deel uit van de populatie WIJK. Plantopografie maakt geen onderdeel uit van de populatie.#NOTES#Alleen bestaande wijken maken deel uit van de populatie WIJK. Plantopografie maakt geen onderdeel uit van de populatie.#NOTES#Alleen bestaande wijken maken deel uit van de populatie WIJK. Plantopografie maakt geen onderdeel uit van de populatie." ;
+    mim:populatie "Alleen bestaande wijken maken deel uit van de populatie WIJK. Plantopografie maakt geen onderdeel uit van de populatie." ;
     mim:toelichting "Het betreft hier de in overleg met het CBS bepaalde indeling van de gemeente in wijken."@nl ;
     dcterms:identifier "EAID_120EA50B_B9A2_4869_A3BE_46931F631D33" ;
     rdfs:comment "Een aaneengesloten gedeelte van het grondgebied van een gemeente, waarvan de grenzen zo veel mogelijk zijn gebaseerd op sociaal-geografische kenmerken."@nl ;
@@ -13248,31 +13238,7 @@ geslachtsnaam voorafgaat.."""@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/bag/buurt"^^xsd:anyURI ;
     mim:indicatieAbstractObject false ;
     mim:naam "Buurt"@nl ;
-    mim:populatie """Alleen bestaande buurten maken deel uit van de populatie BUURT. Plantopografie maakt geen onderdeel uit van de populatie.
-
-#NOTES#Alleen bestaande buurten maken deel uit van de populatie BUURT. Plantopografie maakt geen onderdeel uit van de populatie.
-
-#NOTES#Alleen bestaande buurten maken deel uit van de populatie BUURT. Plantopografie maakt geen onderdeel uit van de populatie.
-
-#NOTES#Alleen bestaande buurten maken deel uit van de populatie BUURT. Plantopografie maakt geen onderdeel uit van de populatie.
-
-#NOTES#Alleen bestaande buurten maken deel uit van de populatie BUURT. Plantopografie maakt geen onderdeel uit van de populatie.
-
-#NOTES#Alleen bestaande buurten maken deel uit van de populatie BUURT. Plantopografie maakt geen onderdeel uit van de populatie.
-
-#NOTES#Alleen bestaande buurten maken deel uit van de populatie BUURT. Plantopografie maakt geen onderdeel uit van de populatie.
-
-#NOTES#Alleen bestaande buurten maken deel uit van de populatie BUURT. Plantopografie maakt geen onderdeel uit van de populatie.
-
-#NOTES#Alleen bestaande buurten maken deel uit van de populatie BUURT. Plantopografie maakt geen onderdeel uit van de populatie.
-
-#NOTES#Alleen bestaande buurten maken deel uit van de populatie BUURT. Plantopografie maakt geen onderdeel uit van de populatie.
-
-#NOTES#Alleen bestaande buurten maken deel uit van de populatie BUURT. Plantopografie maakt geen onderdeel uit van de populatie.
-
-#NOTES#Alleen bestaande buurten maken deel uit van de populatie BUURT. Plantopografie maakt geen onderdeel uit van de populatie.
-
-#NOTES#Alleen bestaande buurten maken deel uit van de populatie BUURT. Plantopografie maakt geen onderdeel uit van de populatie.""" ;
+    mim:populatie "Alleen bestaande buurten maken deel uit van de populatie BUURT. Plantopografie maakt geen onderdeel uit van de populatie." ;
     mim:toelichting "Het betreft hier de in overleg met het CBS bepaalde indeling van wijken in buurten."@nl ;
     dcterms:identifier "EAID_38649FF6_88C6_437d_AF8E_A9023D55E16C" ;
     rdfs:comment "Een aaneengesloten gedeelte van een wijk, waarvan de grenzen zo veel mogelijk gebaseerd zijn op topografische elementen."@nl ;
@@ -13369,12 +13335,12 @@ geslachtsnaam voorafgaat.."""@nl ;
         <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/verblijfsobject/status>,
         <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/verblijfsobject/toegangbouwlaag>,
         <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/verblijfsobject/versie> ;
-    mim:definitie "Een verblijfsobject is een kleinste binnen &#233;&#233;n of meer panden gelegen en voor woon-, bedrijfsmatige, of recreatieve doeleinden geschikte eenheid van gebruik die ontsloten wordt via een eigen afsluitbare toegang vanaf de openbare weg, een erf of een gedeelde verkeersruimte, onderwerp kan zijn van goederenrechtelijke rechtshandelingen en in functioneel opzicht zelfstandig is. Beschrijving: Een verblijfsobject is een ruimte in 1 of meer panden en voldoet aan de volgende eisen: kan worden gebruikt om in te wonen, een bedrijf in te hebben of om voor plezier in te verblijven, is bereikbaar via een eigen afsluitbare toegang vanaf de openbare weg, een erf of een gedeelde verkeersruimte, kan worden gekocht en verkocht, kan helemaal zelf worden gebruikt voor het doel dat ervoor is gegeven. Deze eisen voor verblijfsobjecten worden toegelicht in de Catalogus BAG 2018. Een verblijfsobject krijgt een adres."@nl ;
+    mim:definitie "Een verblijfsobject is een kleinste binnen één of meer panden gelegen en voor woon-, bedrijfsmatige, of recreatieve doeleinden geschikte eenheid van gebruik die ontsloten wordt via een eigen afsluitbare toegang vanaf de openbare weg, een erf of een gedeelde verkeersruimte, onderwerp kan zijn van goederenrechtelijke rechtshandelingen en in functioneel opzicht zelfstandig is. Beschrijving: Een verblijfsobject is een ruimte in 1 of meer panden en voldoet aan de volgende eisen: kan worden gebruikt om in te wonen, een bedrijf in te hebben of om voor plezier in te verblijven, is bereikbaar via een eigen afsluitbare toegang vanaf de openbare weg, een erf of een gedeelde verkeersruimte, kan worden gekocht en verkocht, kan helemaal zelf worden gebruikt voor het doel dat ervoor is gegeven. Deze eisen voor verblijfsobjecten worden toegelicht in de Catalogus BAG 2018. Een verblijfsobject krijgt een adres."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/bag/verblijfsobject"^^xsd:anyURI ;
     mim:indicatieAbstractObject false ;
     mim:naam "Verblijfsobject"@nl ;
     dcterms:identifier "EAID_461EFCF0_E65E_4c7c_B44D_8F36C36FDCE4" ;
-    rdfs:comment "Een verblijfsobject is een kleinste binnen &#233;&#233;n of meer panden gelegen en voor woon-, bedrijfsmatige, of recreatieve doeleinden geschikte eenheid van gebruik die ontsloten wordt via een eigen afsluitbare toegang vanaf de openbare weg, een erf of een gedeelde verkeersruimte, onderwerp kan zijn van goederenrechtelijke rechtshandelingen en in functioneel opzicht zelfstandig is. Beschrijving: Een verblijfsobject is een ruimte in 1 of meer panden en voldoet aan de volgende eisen: kan worden gebruikt om in te wonen, een bedrijf in te hebben of om voor plezier in te verblijven, is bereikbaar via een eigen afsluitbare toegang vanaf de openbare weg, een erf of een gedeelde verkeersruimte, kan worden gekocht en verkocht, kan helemaal zelf worden gebruikt voor het doel dat ervoor is gegeven. Deze eisen voor verblijfsobjecten worden toegelicht in de Catalogus BAG 2018. Een verblijfsobject krijgt een adres."@nl ;
+    rdfs:comment "Een verblijfsobject is een kleinste binnen één of meer panden gelegen en voor woon-, bedrijfsmatige, of recreatieve doeleinden geschikte eenheid van gebruik die ontsloten wordt via een eigen afsluitbare toegang vanaf de openbare weg, een erf of een gedeelde verkeersruimte, onderwerp kan zijn van goederenrechtelijke rechtshandelingen en in functioneel opzicht zelfstandig is. Beschrijving: Een verblijfsobject is een ruimte in 1 of meer panden en voldoet aan de volgende eisen: kan worden gebruikt om in te wonen, een bedrijf in te hebben of om voor plezier in te verblijven, is bereikbaar via een eigen afsluitbare toegang vanaf de openbare weg, een erf of een gedeelde verkeersruimte, kan worden gekocht en verkocht, kan helemaal zelf worden gebruikt voor het doel dat ervoor is gegeven. Deze eisen voor verblijfsobjecten worden toegelicht in de Catalogus BAG 2018. Een verblijfsobject krijgt een adres."@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/> ;
     rdfs:subClassOf <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/adresseerbaarobject> .
 
@@ -13461,12 +13427,12 @@ geslachtsnaam voorafgaat.."""@nl ;
         <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/openbareruimte/typeopenbareruimte>,
         <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/openbareruimte/versie>,
         <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/openbareruimte/wegsegment> ;
-    mim:definitie "Een openbare ruimte is een door het bevoegde gemeentelijke orgaan als zodanig aangewezen en van een naam voorziene buitenruimte die binnen &#233;&#233;n woonplaats is gelegen. Beschrijving: Een buitenruimte die door de gemeente als openbare ruimte is aangewezen en waaraan de gemeente een naam heeft gegeven. Een openbare ruimte ligt binnen 1 woonplaats. De BAG kent 7 soorten openbare ruimten: weg, water, spoorbaan, terrein, kunstwerk, landschappelijk gebied en administratief gebied. Een openbare ruimte is meestal een straat(naam)."@nl ;
+    mim:definitie "Een openbare ruimte is een door het bevoegde gemeentelijke orgaan als zodanig aangewezen en van een naam voorziene buitenruimte die binnen één woonplaats is gelegen. Beschrijving: Een buitenruimte die door de gemeente als openbare ruimte is aangewezen en waaraan de gemeente een naam heeft gegeven. Een openbare ruimte ligt binnen 1 woonplaats. De BAG kent 7 soorten openbare ruimten: weg, water, spoorbaan, terrein, kunstwerk, landschappelijk gebied en administratief gebied. Een openbare ruimte is meestal een straat(naam)."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/bag/openbareruimte"^^xsd:anyURI ;
     mim:indicatieAbstractObject false ;
     mim:naam "OpenbareRuimte"@nl ;
     dcterms:identifier "EAID_BFE30E32_8CB9_4272_A559_9FB3FD74DACC" ;
-    rdfs:comment "Een openbare ruimte is een door het bevoegde gemeentelijke orgaan als zodanig aangewezen en van een naam voorziene buitenruimte die binnen &#233;&#233;n woonplaats is gelegen. Beschrijving: Een buitenruimte die door de gemeente als openbare ruimte is aangewezen en waaraan de gemeente een naam heeft gegeven. Een openbare ruimte ligt binnen 1 woonplaats. De BAG kent 7 soorten openbare ruimten: weg, water, spoorbaan, terrein, kunstwerk, landschappelijk gebied en administratief gebied. Een openbare ruimte is meestal een straat(naam)."@nl ;
+    rdfs:comment "Een openbare ruimte is een door het bevoegde gemeentelijke orgaan als zodanig aangewezen en van een naam voorziene buitenruimte die binnen één woonplaats is gelegen. Beschrijving: Een buitenruimte die door de gemeente als openbare ruimte is aangewezen en waaraan de gemeente een naam heeft gegeven. Een openbare ruimte ligt binnen 1 woonplaats. De BAG kent 7 soorten openbare ruimten: weg, water, spoorbaan, terrein, kunstwerk, landschappelijk gebied en administratief gebied. Een openbare ruimte is meestal een straat(naam)."@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/pand> a mim:Objecttype,

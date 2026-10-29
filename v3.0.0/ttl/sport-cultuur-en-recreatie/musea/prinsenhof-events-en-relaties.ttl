@@ -1900,11 +1900,11 @@
         <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/musea/programma/publiekstaak>,
         <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/musea/programma/schoolniveau>,
         <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/musea/programma/starttijd> ;
-    mim:definitie "Een tijdelijke, flexibele organisatiestructuur, die is opgezet om de implementatie van een verzameling met elkaar samenhangende projecten en activiteiten te co&#246;rdineren, te sturen en te controleren teneinde te zorgen voor de realisatie van de eindresultaten en benefits die zijn gerelateerd aan de strategische doelstellingen van de organisatie."@nl ;
+    mim:definitie "Een tijdelijke, flexibele organisatiestructuur, die is opgezet om de implementatie van een verzameling met elkaar samenhangende projecten en activiteiten te coördineren, te sturen en te controleren teneinde te zorgen voor de realisatie van de eindresultaten en benefits die zijn gerelateerd aan de strategische doelstellingen van de organisatie."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/musea/programma"^^xsd:anyURI ;
     mim:indicatieAbstractObject false ;
     mim:naam "Programma"@nl ;
     dcterms:identifier "EAID_3B84D5F0_FCA3_47a5_B90C_F0834DAD6EBD" ;
-    rdfs:comment "Een tijdelijke, flexibele organisatiestructuur, die is opgezet om de implementatie van een verzameling met elkaar samenhangende projecten en activiteiten te co&#246;rdineren, te sturen en te controleren teneinde te zorgen voor de realisatie van de eindresultaten en benefits die zijn gerelateerd aan de strategische doelstellingen van de organisatie."@nl ;
+    rdfs:comment "Een tijdelijke, flexibele organisatiestructuur, die is opgezet om de implementatie van een verzameling met elkaar samenhangende projecten en activiteiten te coördineren, te sturen en te controleren teneinde te zorgen voor de realisatie van de eindresultaten en benefits die zijn gerelateerd aan de strategische doelstellingen van de organisatie."@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/musea/> .
 

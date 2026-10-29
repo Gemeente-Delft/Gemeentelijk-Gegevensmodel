@@ -461,13 +461,13 @@
     rdfs:label "Idealisatie"@nl ;
     mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/omgevingswet/idealisatie/naam>,
         <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/omgevingswet/idealisatie/omschrijving> ;
-    mim:definitie "Vastlegging van de manier de begrenzing van Locatie voor deze Juridische regel ge&#239;nterpreteerd moet worden en door het bevoegd gezag bedoeld is."@nl ;
+    mim:definitie "Vastlegging van de manier de begrenzing van Locatie voor deze Juridische regel geïnterpreteerd moet worden en door het bevoegd gezag bedoeld is."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/omgevingswet/idealisatie"^^xsd:anyURI ;
     mim:indicatieAbstractObject false ;
     mim:naam "Idealisatie"@nl ;
     mim:toelichting "Voorbeeld: exact, indicatief. Indicatief kan gebruikt worden wanneer een grens berekend is en mogelijk niet overal geheel rekening houdt met de fysieke situatie ter plaatse."@nl ;
     dcterms:identifier "EAID_4942AB0A_804B_4043_BD3C_7F65E2D697E0" ;
-    rdfs:comment "Vastlegging van de manier de begrenzing van Locatie voor deze Juridische regel ge&#239;nterpreteerd moet worden en door het bevoegd gezag bedoeld is."@nl ;
+    rdfs:comment "Vastlegging van de manier de begrenzing van Locatie voor deze Juridische regel geïnterpreteerd moet worden en door het bevoegd gezag bedoeld is."@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/omgevingswet/> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/omgevingswet/thema> a mim:Objecttype,

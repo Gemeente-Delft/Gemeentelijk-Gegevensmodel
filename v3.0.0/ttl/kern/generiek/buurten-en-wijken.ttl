@@ -1401,31 +1401,7 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/bag/buurt"^^xsd:anyURI ;
     mim:indicatieAbstractObject false ;
     mim:naam "Buurt"@nl ;
-    mim:populatie """Alleen bestaande buurten maken deel uit van de populatie BUURT. Plantopografie maakt geen onderdeel uit van de populatie.
-
-#NOTES#Alleen bestaande buurten maken deel uit van de populatie BUURT. Plantopografie maakt geen onderdeel uit van de populatie.
-
-#NOTES#Alleen bestaande buurten maken deel uit van de populatie BUURT. Plantopografie maakt geen onderdeel uit van de populatie.
-
-#NOTES#Alleen bestaande buurten maken deel uit van de populatie BUURT. Plantopografie maakt geen onderdeel uit van de populatie.
-
-#NOTES#Alleen bestaande buurten maken deel uit van de populatie BUURT. Plantopografie maakt geen onderdeel uit van de populatie.
-
-#NOTES#Alleen bestaande buurten maken deel uit van de populatie BUURT. Plantopografie maakt geen onderdeel uit van de populatie.
-
-#NOTES#Alleen bestaande buurten maken deel uit van de populatie BUURT. Plantopografie maakt geen onderdeel uit van de populatie.
-
-#NOTES#Alleen bestaande buurten maken deel uit van de populatie BUURT. Plantopografie maakt geen onderdeel uit van de populatie.
-
-#NOTES#Alleen bestaande buurten maken deel uit van de populatie BUURT. Plantopografie maakt geen onderdeel uit van de populatie.
-
-#NOTES#Alleen bestaande buurten maken deel uit van de populatie BUURT. Plantopografie maakt geen onderdeel uit van de populatie.
-
-#NOTES#Alleen bestaande buurten maken deel uit van de populatie BUURT. Plantopografie maakt geen onderdeel uit van de populatie.
-
-#NOTES#Alleen bestaande buurten maken deel uit van de populatie BUURT. Plantopografie maakt geen onderdeel uit van de populatie.
-
-#NOTES#Alleen bestaande buurten maken deel uit van de populatie BUURT. Plantopografie maakt geen onderdeel uit van de populatie.""" ;
+    mim:populatie "Alleen bestaande buurten maken deel uit van de populatie BUURT. Plantopografie maakt geen onderdeel uit van de populatie." ;
     mim:toelichting "Het betreft hier de in overleg met het CBS bepaalde indeling van wijken in buurten."@nl ;
     dcterms:identifier "EAID_38649FF6_88C6_437d_AF8E_A9023D55E16C" ;
     rdfs:comment "Een aaneengesloten gedeelte van een wijk, waarvan de grenzen zo veel mogelijk gebaseerd zijn op topografische elementen."@nl ;
@@ -1464,7 +1440,7 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/bag/wijk"^^xsd:anyURI ;
     mim:indicatieAbstractObject false ;
     mim:naam "Wijk"@nl ;
-    mim:populatie "Alleen bestaande wijken maken deel uit van de populatie WIJK. Plantopografie maakt geen onderdeel uit van de populatie.#NOTES#Alleen bestaande wijken maken deel uit van de populatie WIJK. Plantopografie maakt geen onderdeel uit van de populatie.#NOTES#Alleen bestaande wijken maken deel uit van de populatie WIJK. Plantopografie maakt geen onderdeel uit van de populatie.#NOTES#Alleen bestaande wijken maken deel uit van de populatie WIJK. Plantopografie maakt geen onderdeel uit van de populatie.#NOTES#Alleen bestaande wijken maken deel uit van de populatie WIJK. Plantopografie maakt geen onderdeel uit van de populatie.#NOTES#Alleen bestaande wijken maken deel uit van de populatie WIJK. Plantopografie maakt geen onderdeel uit van de populatie.#NOTES#Alleen bestaande wijken maken deel uit van de populatie WIJK. Plantopografie maakt geen onderdeel uit van de populatie.#NOTES#Alleen bestaande wijken maken deel uit van de populatie WIJK. Plantopografie maakt geen onderdeel uit van de populatie.#NOTES#Alleen bestaande wijken maken deel uit van de populatie WIJK. Plantopografie maakt geen onderdeel uit van de populatie.#NOTES#Alleen bestaande wijken maken deel uit van de populatie WIJK. Plantopografie maakt geen onderdeel uit van de populatie.#NOTES#Alleen bestaande wijken maken deel uit van de populatie WIJK. Plantopografie maakt geen onderdeel uit van de populatie.#NOTES#Alleen bestaande wijken maken deel uit van de populatie WIJK. Plantopografie maakt geen onderdeel uit van de populatie.#NOTES#Alleen bestaande wijken maken deel uit van de populatie WIJK. Plantopografie maakt geen onderdeel uit van de populatie." ;
+    mim:populatie "Alleen bestaande wijken maken deel uit van de populatie WIJK. Plantopografie maakt geen onderdeel uit van de populatie." ;
     mim:toelichting "Het betreft hier de in overleg met het CBS bepaalde indeling van de gemeente in wijken."@nl ;
     dcterms:identifier "EAID_120EA50B_B9A2_4869_A3BE_46931F631D33" ;
     rdfs:comment "Een aaneengesloten gedeelte van het grondgebied van een gemeente, waarvan de grenzen zo veel mogelijk zijn gebaseerd op sociaal-geografische kenmerken."@nl ;

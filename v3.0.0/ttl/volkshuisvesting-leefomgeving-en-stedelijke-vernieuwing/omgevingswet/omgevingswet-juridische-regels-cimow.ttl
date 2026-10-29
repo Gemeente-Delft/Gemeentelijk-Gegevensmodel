@@ -10,16 +10,16 @@
     rdfs:label "Omgevingswet Juridische Regels (CIMOW)"@nl ;
     dcterms:identifier "EAID_0AC65EDC_5C77_4fd6_8548_98FCF09F72D0" ;
     dcterms:isPartOf <https://lod.gemeentelijkgegevensmodel.nl/> ;
-    rdfs:comment """De objecttypen uit dit diagram zijn afgeleid van CIMOW v0.98-kern, zie https://www.geonovum.nl/over-geonovum/actueel/cimow-en-imow-versie-098-beta-beschikbaar 
+    rdfs:comment """De objecttypen uit dit diagram zijn afgeleid van CIMOW v0.98-kern, zie https://www.geonovum.nl/over-geonovum/actueel/cimow-en-imow-versie-098-beta-beschikbaar
 
 Het Conceptueel Informatiemodel voor de Omgevingswet (CIMOW) beschrijft het domein van de Omgevingswet. Dit beperkt zich tot de informatie die in dit domein wordt vastgelegd en vastgesteld en in ketens wordt uitgewisseld ten behoeve van het digitaal stelsel van de Omgevingswet (DSO).
 CIMOW beschrijft sec de informatie. Hoe en waar deze informatie precies gebruikt wordt is geen onderdeel van dit informatiemodel. Anders gezegd, de informatie zoals beschreven in dit model mag overal waar dit nuttig is gebruikt en toegepast worden. In tekstvorm, in een document, in een keten, in processen, in een product of API, in een technisch formaat zoals XML of JSON et cetera. Het CIM is implementatieonafhankelijk en los van de techniek opgezet. Dit maakt het mogelijk om de informatie in verschillende ketens en in verschillende technieken met behoud van betekenis te implementeren.
 In de context van Omgevingswet zijn in de ketens uitwisselstandaarden aan de orde, te weten STOP, STTR en STAM. Bevoegde gezagen en het DSO gaan bij de Omgevingswet in de volle breedte integreren op basis van concepten als: regel, locatie, functie, activiteit, norm, et cetera, CIMOW speelt hierin een centrale rol bij de inrichting van de informatievoorziening, door het verbinden van verschillende disciplines, standaarden en systemen, met behulp van centrale informatie definities.
 Wat wel en wat niet?
 • CIMOW bevat minimaal alle Omgevingswet gerelateerde informatie die uitgewisseld wordt in de keten van plan tot publicatie (via het bronhouders koppelvlak van de LVBB);
-• CIMOW beschrijft niet het domein van offici&#235;le overheidspublicaties (OP) zelf. Concepten zoals artikel of een besluit zijn wel relevant voor het DSO, staan in CIMOP gedefinieerd en niet (nogmaals) in CIMOW.
+• CIMOW beschrijft niet het domein van officiële overheidspublicaties (OP) zelf. Concepten zoals artikel of een besluit zijn wel relevant voor het DSO, staan in CIMOP gedefinieerd en niet (nogmaals) in CIMOW.
 • In CIMOW is geen specificatie voor welke informatie wel of niet mag voorkomen, of juist moet voorkomen, in een bepaald type instrument (ook wel omgevingsdocument genoemd);
-• Als er sprake is van een koppelvlak met een uitwisselingsmodel waarin delen uit het domein van Offici&#235;le Publicaties (OP) en delen uit het Omgevingswet (OW) domein bij elkaar komen, dan kan hiervoor CIMOW gebruikt worden als bron, alsmede CIMOP (alsmede andere modellen van nog andere domeinen);
+• Als er sprake is van een koppelvlak met een uitwisselingsmodel waarin delen uit het domein van Officiële Publicaties (OP) en delen uit het Omgevingswet (OW) domein bij elkaar komen, dan kan hiervoor CIMOW gebruikt worden als bron, alsmede CIMOP (alsmede andere modellen van nog andere domeinen);
 • Niet binnen scope is informatie die primair de implementatie ondersteunt, zoals de informatie die nodig is voor weergave. Een symbool voor de weergave of een kleurcode voor de weergave op de kaart zit niet in het CIMOW. Wat wel in het CIMOW zit is de informatie die weergegeven wordt, zoals een functiegroep of een activiteitengroep."""@nl ;
     owl:versionInfo "v3.0.0" .
 
@@ -671,7 +671,7 @@ Wat wel en wat niet?
 <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/omgevingswet/instructieregel/instructieregelinstrument> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "instructieregelInstrument"@nl ;
-    mim:definitie """<font color="#032547"><b>Attribuutsoort instructieregel instrument</b></font>
+    mim:definitie """Attribuutsoort instructieregel instrument
 Naam Definitie Formaat Toelichting
 Instructieregel instrument
 De naam van het instrument waartoe de instructieregel zich richt.
@@ -690,7 +690,7 @@ Dit kenmerk geeft nadere informatie in aanvulling op het type instructieregel, i
     mim:naam "instructieregelInstrument"@nl ;
     mim:type mim:CharacterString ;
     dcterms:identifier "EAID_F187C8F1_63A2_4bb6_90C3_7D75DDF3F3FB" ;
-    rdfs:comment """<font color="#032547"><b>Attribuutsoort instructieregel instrument</b></font>
+    rdfs:comment """Attribuutsoort instructieregel instrument
 Naam Definitie Formaat Toelichting
 Instructieregel instrument
 De naam van het instrument waartoe de instructieregel zich richt.
@@ -1105,7 +1105,7 @@ Dit kenmerk geeft nadere informatie in aanvulling op het type instructieregel, i
 <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/omgevingswet/regel-voor-iedereen/activiteitregelkwalificatie> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "activiteitRegelKwalificatie"@nl ;
-    mim:definitie """<font color="#032547"><b>Attribuutsoort activiteitregelkwalificatie</b></font>
+    mim:definitie """Attribuutsoort activiteitregelkwalificatie
 Naam Definitie Formaat Toelichting
 Constraint(s)
 
@@ -1127,7 +1127,7 @@ Dit kenmerk heeft alleen betekenis wanneer de regel een activiteit beschrijft. A
     mim:naam "activiteitRegelKwalificatie"@nl ;
     mim:type mim:CharacterString ;
     dcterms:identifier "EAID_0E905317_067A_477b_8CE4_F54F53A54667" ;
-    rdfs:comment """<font color="#032547"><b>Attribuutsoort activiteitregelkwalificatie</b></font>
+    rdfs:comment """Attribuutsoort activiteitregelkwalificatie
 Naam Definitie Formaat Toelichting
 Constraint(s)
 

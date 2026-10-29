@@ -40,7 +40,7 @@
     rdfs:label "heeft betrekking op andere"@nl ;
     mim:aggregatietype mim:Geen ;
     mim:bron <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaak> ;
-    mim:definitie "<font color=\"#610e6a\">De andere ZAAKen die het onderwerp zijn van de ZAAK.</font>"@nl ;
+    mim:definitie "De andere ZAAKen die het onderwerp zijn van de ZAAK."@nl ;
     mim:doel <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaak> ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
@@ -54,7 +54,7 @@
     mim:naam "heeft betrekking op andere"@nl ;
     mim:unidirectioneel true ;
     dcterms:identifier "EAID_87D7E92A_583F_4b4a_AA34_019ABCFBD939" ;
-    rdfs:comment "<font color=\"#610e6a\">De andere ZAAKen die het onderwerp zijn van de ZAAK.</font>"@nl ;
+    rdfs:comment "De andere ZAAKen die het onderwerp zijn van de ZAAK."@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaak> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> ;
     rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaak> .
@@ -64,7 +64,7 @@
     rdfs:label "is deelzaak van"@nl ;
     mim:aggregatietype mim:Geen ;
     mim:bron <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaak> ;
-    mim:definitie "<font color=\"#610e6a\">De verwijzing naar de ZAAK, waarom verzocht is door de initiator daarvan, die door de zaakbehandelende organisatie is opgedeeld in twee of meer separaat te behandelen zaken waarvan de onderhavige zaak er één is.</font>"@nl ;
+    mim:definitie "De verwijzing naar de ZAAK, waarom verzocht is door de initiator daarvan, die door de zaakbehandelende organisatie is opgedeeld in twee of meer separaat te behandelen zaken waarvan de onderhavige zaak er één is."@nl ;
     mim:doel <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaak> ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
@@ -78,7 +78,7 @@
     mim:naam "is deelzaak van"@nl ;
     mim:unidirectioneel true ;
     dcterms:identifier "EAID_0B81CD99_DB7F_40a0_BD64_26FCBC96420A" ;
-    rdfs:comment "<font color=\"#610e6a\">De verwijzing naar de ZAAK, waarom verzocht is door de initiator daarvan, die door de zaakbehandelende organisatie is opgedeeld in twee of meer separaat te behandelen zaken waarvan de onderhavige zaak er één is.</font>"@nl ;
+    rdfs:comment "De verwijzing naar de ZAAK, waarom verzocht is door de initiator daarvan, die door de zaakbehandelende organisatie is opgedeeld in twee of meer separaat te behandelen zaken waarvan de onderhavige zaak er één is."@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaak> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> ;
     rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaak> .
@@ -882,11 +882,9 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
         owl:ObjectProperty ;
     rdfs:label "status"@nl ;
     mim:definitie """De levenscyclus van een nummeraanduiding, waarin de betreffende nummeraanduiding zich bevindt.
-&nbsp;
-<ul>
-	<li>Naamgeving uitgegeven</li>
-	<li>Naamgeving ingetrokken</li>
-</ul>"""@nl ;
+
+- Naamgeving uitgegeven
+- Naamgeving ingetrokken"""@nl ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/bag/nummeraanduiding/status"^^xsd:anyURI ;
@@ -900,11 +898,9 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
     mim:type <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusnummeraanduiding> ;
     dcterms:identifier "EAID_C5D0D5C3_1292_457f_A381_3E7594A0CB9E" ;
     rdfs:comment """De levenscyclus van een nummeraanduiding, waarin de betreffende nummeraanduiding zich bevindt.
-&nbsp;
-<ul>
-	<li>Naamgeving uitgegeven</li>
-	<li>Naamgeving ingetrokken</li>
-</ul>"""@nl ;
+
+- Naamgeving uitgegeven
+- Naamgeving ingetrokken"""@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/nummeraanduiding> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/> ;
     rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusnummeraanduiding> .
@@ -1037,7 +1033,7 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
 <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaak/archiefnominatie> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "archiefnominatie"@nl ;
-    mim:definitie "<font color=\"#610e6a\">Indicatie of het zaakdossier (de ZAAK met alle bijbehorende DOCUMENTen) gearchiveerd dient te worden</font>"@nl ;
+    mim:definitie "Indicatie of het zaakdossier (de ZAAK met alle bijbehorende DOCUMENTen) gearchiveerd dient te worden"@nl ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaak/archiefnominatie"^^xsd:anyURI ;
@@ -1050,7 +1046,7 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
     mim:naam "archiefnominatie"@nl ;
     mim:type mim:CharacterString ;
     dcterms:identifier "EAID_7CD86512_436C_4d63_9BC0_2724FAE4CA2F" ;
-    rdfs:comment "<font color=\"#610e6a\">Indicatie of het zaakdossier (de ZAAK met alle bijbehorende DOCUMENTen) gearchiveerd dient te worden</font>"@nl ;
+    rdfs:comment "Indicatie of het zaakdossier (de ZAAK met alle bijbehorende DOCUMENTen) gearchiveerd dient te worden"@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaak> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> ;
     rdfs:range xsd:string .
@@ -1058,7 +1054,7 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
 <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaak/datumeinde> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "datumEinde"@nl ;
-    mim:definitie "<font color=\"#610e6a\">De datum waarop de uitvoering van de zaak afgerond is.</font>"@nl ;
+    mim:definitie "De datum waarop de uitvoering van de zaak afgerond is."@nl ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaak/datumeinde"^^xsd:anyURI ;
@@ -1071,7 +1067,7 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
     mim:naam "datumEinde"@nl ;
     mim:type mim:Date ;
     dcterms:identifier "EAID_94D60B00_F31B_4d52_95FB_2C2D916FE91E" ;
-    rdfs:comment "<font color=\"#610e6a\">De datum waarop de uitvoering van de zaak afgerond is.</font>"@nl ;
+    rdfs:comment "De datum waarop de uitvoering van de zaak afgerond is."@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaak> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> ;
     rdfs:range xsd:date .
@@ -1079,7 +1075,7 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
 <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaak/datumeindegepland> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "datumEindeGepland"@nl ;
-    mim:definitie "<font color=\"#610e6a\">De datum waarop volgens de planning verwacht wordt dat de zaak afgerond wordt.</font>"@nl ;
+    mim:definitie "De datum waarop volgens de planning verwacht wordt dat de zaak afgerond wordt."@nl ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaak/datumeindegepland"^^xsd:anyURI ;
@@ -1092,7 +1088,7 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
     mim:naam "datumEindeGepland"@nl ;
     mim:type mim:Date ;
     dcterms:identifier "EAID_5B057B5C_A885_4f60_846E_080CA164352C" ;
-    rdfs:comment "<font color=\"#610e6a\">De datum waarop volgens de planning verwacht wordt dat de zaak afgerond wordt.</font>"@nl ;
+    rdfs:comment "De datum waarop volgens de planning verwacht wordt dat de zaak afgerond wordt."@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaak> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> ;
     rdfs:range xsd:date .
@@ -1100,7 +1096,7 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
 <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaak/datumeindeuiterlijkeafdoening> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "datumEindeUiterlijkeAfdoening"@nl ;
-    mim:definitie "<font color=\"#610e6a\">De laatste datum waarop volgens wet- en regelgeving de zaak afgerond dient te zijn.</font>"@nl ;
+    mim:definitie "De laatste datum waarop volgens wet- en regelgeving de zaak afgerond dient te zijn."@nl ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaak/datumeindeuiterlijkeafdoening"^^xsd:anyURI ;
@@ -1113,7 +1109,7 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
     mim:naam "datumEindeUiterlijkeAfdoening"@nl ;
     mim:type mim:Date ;
     dcterms:identifier "EAID_E6F82191_D298_4848_92D9_7D52B8C8805F" ;
-    rdfs:comment "<font color=\"#610e6a\">De laatste datum waarop volgens wet- en regelgeving de zaak afgerond dient te zijn.</font>"@nl ;
+    rdfs:comment "De laatste datum waarop volgens wet- en regelgeving de zaak afgerond dient te zijn."@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaak> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> ;
     rdfs:range xsd:date .
@@ -1121,7 +1117,7 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
 <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaak/datumlaatstebetaling> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "datumLaatsteBetaling"@nl ;
-    mim:definitie "<font color=\"#610e6a\">De datum waarop de meest recente betaling is verwerkt van kosten die gemoeid zijn met behandeling van de zaak.</font>"@nl ;
+    mim:definitie "De datum waarop de meest recente betaling is verwerkt van kosten die gemoeid zijn met behandeling van de zaak."@nl ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaak/datumlaatstebetaling"^^xsd:anyURI ;
@@ -1134,7 +1130,7 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
     mim:naam "datumLaatsteBetaling"@nl ;
     mim:type mim:Date ;
     dcterms:identifier "EAID_A7A56294_D2F6_46a5_802F_07883A4947F2" ;
-    rdfs:comment "<font color=\"#610e6a\">De datum waarop de meest recente betaling is verwerkt van kosten die gemoeid zijn met behandeling van de zaak.</font>"@nl ;
+    rdfs:comment "De datum waarop de meest recente betaling is verwerkt van kosten die gemoeid zijn met behandeling van de zaak."@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaak> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> ;
     rdfs:range xsd:date .
@@ -1142,7 +1138,7 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
 <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaak/datumpublicatie> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "datumPublicatie"@nl ;
-    mim:definitie "<font color=\"#610e6a\">Datum waarop (het starten van) de zaak gepubliceerd is of wordt.</font>"@nl ;
+    mim:definitie "Datum waarop (het starten van) de zaak gepubliceerd is of wordt."@nl ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaak/datumpublicatie"^^xsd:anyURI ;
@@ -1155,7 +1151,7 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
     mim:naam "datumPublicatie"@nl ;
     mim:type mim:Date ;
     dcterms:identifier "EAID_2EF856F4_5F31_4a7c_96B6_D8366C1A7CD6" ;
-    rdfs:comment "<font color=\"#610e6a\">Datum waarop (het starten van) de zaak gepubliceerd is of wordt.</font>"@nl ;
+    rdfs:comment "Datum waarop (het starten van) de zaak gepubliceerd is of wordt."@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaak> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> ;
     rdfs:range xsd:date .
@@ -1163,7 +1159,7 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
 <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaak/datumregistratie> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "datumRegistratie"@nl ;
-    mim:definitie "<font color=\"#610e6a\">De datum waarop de zaakbehandelende organisatie de ZAAK heeft geregistreerd</font>"@nl ;
+    mim:definitie "De datum waarop de zaakbehandelende organisatie de ZAAK heeft geregistreerd"@nl ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaak/datumregistratie"^^xsd:anyURI ;
@@ -1176,7 +1172,7 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
     mim:naam "datumRegistratie"@nl ;
     mim:type mim:Date ;
     dcterms:identifier "EAID_200CCB8B_C5C7_41ed_8EA1_6C2143FAEE8E" ;
-    rdfs:comment "<font color=\"#610e6a\">De datum waarop de zaakbehandelende organisatie de ZAAK heeft geregistreerd</font>"@nl ;
+    rdfs:comment "De datum waarop de zaakbehandelende organisatie de ZAAK heeft geregistreerd"@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaak> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> ;
     rdfs:range xsd:date .
@@ -1184,7 +1180,7 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
 <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaak/datumstart> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "datumStart"@nl ;
-    mim:definitie "<font color=\"#610e6a\">De datum waarop met de uitvoering van de zaak is gestart.</font>"@nl ;
+    mim:definitie "De datum waarop met de uitvoering van de zaak is gestart."@nl ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaak/datumstart"^^xsd:anyURI ;
@@ -1197,7 +1193,7 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
     mim:naam "datumStart"@nl ;
     mim:type mim:Date ;
     dcterms:identifier "EAID_6888533D_41DF_4209_A351_189A1C7E73CB" ;
-    rdfs:comment "<font color=\"#610e6a\">De datum waarop met de uitvoering van de zaak is gestart.</font>"@nl ;
+    rdfs:comment "De datum waarop met de uitvoering van de zaak is gestart."@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaak> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> ;
     rdfs:range xsd:date .
@@ -1205,7 +1201,7 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
 <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaak/datumvernietigingdossier> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "datumVernietigingDossier"@nl ;
-    mim:definitie "<font color=\"#610e6a\">De datum waarop het, al dan niet gearchiveerde, zaakdossier (de ZAAK met alle bijbehorende DOCUMENTen) vernietigd mag worden.</font>"@nl ;
+    mim:definitie "De datum waarop het, al dan niet gearchiveerde, zaakdossier (de ZAAK met alle bijbehorende DOCUMENTen) vernietigd mag worden."@nl ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaak/datumvernietigingdossier"^^xsd:anyURI ;
@@ -1218,7 +1214,7 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
     mim:naam "datumVernietigingDossier"@nl ;
     mim:type mim:Date ;
     dcterms:identifier "EAID_95D1CF5F_7994_46f6_84FF_0EC1C5E55606" ;
-    rdfs:comment "<font color=\"#610e6a\">De datum waarop het, al dan niet gearchiveerde, zaakdossier (de ZAAK met alle bijbehorende DOCUMENTen) vernietigd mag worden.</font>"@nl ;
+    rdfs:comment "De datum waarop het, al dan niet gearchiveerde, zaakdossier (de ZAAK met alle bijbehorende DOCUMENTen) vernietigd mag worden."@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaak> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> ;
     rdfs:range xsd:date .
@@ -1245,7 +1241,7 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
 <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaak/indicatiebetaling> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "indicatieBetaling"@nl ;
-    mim:definitie "<font color=\"#610e6a\">Indicatie of de, met behandeling van de zaak gemoeide, kosten betaald zijn door de desbetreffende betrokkene.</font>"@nl ;
+    mim:definitie "Indicatie of de, met behandeling van de zaak gemoeide, kosten betaald zijn door de desbetreffende betrokkene."@nl ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaak/indicatiebetaling"^^xsd:anyURI ;
@@ -1258,7 +1254,7 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
     mim:naam "indicatieBetaling"@nl ;
     mim:type mim:CharacterString ;
     dcterms:identifier "EAID_AB37B072_E532_4ac1_93CA_EF6ECFC85551" ;
-    rdfs:comment "<font color=\"#610e6a\">Indicatie of de, met behandeling van de zaak gemoeide, kosten betaald zijn door de desbetreffende betrokkene.</font>"@nl ;
+    rdfs:comment "Indicatie of de, met behandeling van de zaak gemoeide, kosten betaald zijn door de desbetreffende betrokkene."@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaak> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> ;
     rdfs:range xsd:string .
@@ -1266,7 +1262,7 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
 <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaak/indicatiedeelzaken> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "indicatieDeelzaken"@nl ;
-    mim:definitie "<font color=\"#610e6a\">De aanduiding of een ZAAK behandeld wordt in deelzaken.</font>"@nl ;
+    mim:definitie "De aanduiding of een ZAAK behandeld wordt in deelzaken."@nl ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaak/indicatiedeelzaken"^^xsd:anyURI ;
@@ -1279,7 +1275,7 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
     mim:naam "indicatieDeelzaken"@nl ;
     mim:type mim:Boolean ;
     dcterms:identifier "EAID_2CE7ABD9_EEC4_4346_908D_098C68A2CE12" ;
-    rdfs:comment "<font color=\"#610e6a\">De aanduiding of een ZAAK behandeld wordt in deelzaken.</font>"@nl ;
+    rdfs:comment "De aanduiding of een ZAAK behandeld wordt in deelzaken."@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaak> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> ;
     rdfs:range xsd:boolean .
@@ -1325,7 +1321,7 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
 <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaak/omschrijving> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "omschrijving"@nl ;
-    mim:definitie "<font color=\"#610e6a\">Een korte omschrijving van de zaak.</font>"@nl ;
+    mim:definitie "Een korte omschrijving van de zaak."@nl ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaak/omschrijving"^^xsd:anyURI ;
@@ -1338,7 +1334,7 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
     mim:naam "omschrijving"@nl ;
     mim:type mim:CharacterString ;
     dcterms:identifier "EAID_EA5C69D7_7B05_41cd_B82D_03C85D2B624D" ;
-    rdfs:comment "<font color=\"#610e6a\">Een korte omschrijving van de zaak.</font>"@nl ;
+    rdfs:comment "Een korte omschrijving van de zaak."@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaak> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> ;
     rdfs:range xsd:string .
@@ -1346,7 +1342,7 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
 <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaak/omschrijvingresultaat> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "omschrijvingResultaat"@nl ;
-    mim:definitie "<font color=\"#610e6a\">Een korte omschrijving wat het resultaat van de zaak inhoudt.</font>"@nl ;
+    mim:definitie "Een korte omschrijving wat het resultaat van de zaak inhoudt."@nl ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaak/omschrijvingresultaat"^^xsd:anyURI ;
@@ -1359,7 +1355,7 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
     mim:naam "omschrijvingResultaat"@nl ;
     mim:type mim:CharacterString ;
     dcterms:identifier "EAID_776327B3_71E8_41f8_A7F0_06C21BC8F79C" ;
-    rdfs:comment "<font color=\"#610e6a\">Een korte omschrijving wat het resultaat van de zaak inhoudt.</font>"@nl ;
+    rdfs:comment "Een korte omschrijving wat het resultaat van de zaak inhoudt."@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaak> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> ;
     rdfs:range xsd:string .
@@ -1405,7 +1401,7 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
 <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaak/toelichting> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "toelichting"@nl ;
-    mim:definitie "<font color=\"#610e6a\">Een toelichting op de zaak.</font>"@nl ;
+    mim:definitie "Een toelichting op de zaak."@nl ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaak/toelichting"^^xsd:anyURI ;
@@ -1418,7 +1414,7 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
     mim:naam "toelichting"@nl ;
     mim:type mim:CharacterString ;
     dcterms:identifier "EAID_C27D84E1_1C87_4ec6_A0F7_2DB5C6143D18" ;
-    rdfs:comment "<font color=\"#610e6a\">Een toelichting op de zaak.</font>"@nl ;
+    rdfs:comment "Een toelichting op de zaak."@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaak> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> ;
     rdfs:range xsd:string .
@@ -1426,7 +1422,7 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
 <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaak/toelichtingresultaat> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "toelichtingResultaat"@nl ;
-    mim:definitie "<font color=\"#610e6a\">Een toelichting op wat het resultaat van de zaak inhoudt.</font>"@nl ;
+    mim:definitie "Een toelichting op wat het resultaat van de zaak inhoudt."@nl ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaak/toelichtingresultaat"^^xsd:anyURI ;
@@ -1439,7 +1435,7 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
     mim:naam "toelichtingResultaat"@nl ;
     mim:type mim:CharacterString ;
     dcterms:identifier "EAID_1EFA2D76_E623_429e_BF3A_700E3E1611FD" ;
-    rdfs:comment "<font color=\"#610e6a\">Een toelichting op wat het resultaat van de zaak inhoudt.</font>"@nl ;
+    rdfs:comment "Een toelichting op wat het resultaat van de zaak inhoudt."@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaak> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> ;
     rdfs:range xsd:string .
@@ -1466,7 +1462,7 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
 <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaak/zaakidentificatie> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "zaakidentificatie"@nl ;
-    mim:definitie "<font color=\"#610e6a\">Een identificatie van de zaak.</font>"@nl ;
+    mim:definitie "Een identificatie van de zaak."@nl ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaak/zaakidentificatie"^^xsd:anyURI ;
@@ -1479,7 +1475,7 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
     mim:naam "zaakidentificatie"@nl ;
     mim:type mim:CharacterString ;
     dcterms:identifier "EAID_363632A5_8F1E_43ae_AD8A_8156697E72B5" ;
-    rdfs:comment "<font color=\"#610e6a\">Een identificatie van de zaak.</font>"@nl ;
+    rdfs:comment "Een identificatie van de zaak."@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaak> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> ;
     rdfs:range xsd:string .
@@ -1487,7 +1483,7 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
 <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaak/zaakniveau> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "zaakniveau"@nl ;
-    mim:definitie "<font color=\"#610e6a\">Het niveau van een ZAAK in de hierarchie van hoofdzaak met deelzaken.</font>"@nl ;
+    mim:definitie "Het niveau van een ZAAK in de hierarchie van hoofdzaak met deelzaken."@nl ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaak/zaakniveau"^^xsd:anyURI ;
@@ -1500,7 +1496,7 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
     mim:naam "zaakniveau"@nl ;
     mim:type mim:Integer ;
     dcterms:identifier "EAID_AE7374FB_745D_4f5e_A713_CF67EDDF9498" ;
-    rdfs:comment "<font color=\"#610e6a\">Het niveau van een ZAAK in de hierarchie van hoofdzaak met deelzaken.</font>"@nl ;
+    rdfs:comment "Het niveau van een ZAAK in de hierarchie van hoofdzaak met deelzaken."@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaak> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> ;
     rdfs:range xsd:integer .
@@ -3323,7 +3319,7 @@ geslachtsnaam voorafgaat.."""@nl ;
 <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/nietnatuurlijkpersoon/nnpid> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "NNPID"@nl ;
-    mim:definitie "Een in het handelsregister over een NIET-NATUURLIJK PERSOON opgenomen, door de Kamer van Koophandel toegekend, uniek nummer. De attribuutsoort kent onder meer historie omdat het mogelijk is dat de NNP-ID van een ingeschreven niet-natuurlijk persoon wijzigt, met name vanwege &lsquo;ambtelijke&rsquo; correcties."@nl ;
+    mim:definitie "Een in het handelsregister over een NIET-NATUURLIJK PERSOON opgenomen, door de Kamer van Koophandel toegekend, uniek nummer. De attribuutsoort kent onder meer historie omdat het mogelijk is dat de NNP-ID van een ingeschreven niet-natuurlijk persoon wijzigt, met name vanwege ‘ambtelijke’ correcties."@nl ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/nietnatuurlijkpersoon/nnpid"^^xsd:anyURI ;
@@ -3336,7 +3332,7 @@ geslachtsnaam voorafgaat.."""@nl ;
     mim:naam "NNPID"@nl ;
     mim:type mim:Integer ;
     dcterms:identifier "EAID_53D269C1_BBFD_4e2f_9166_5165EBBFBD9F" ;
-    rdfs:comment "Een in het handelsregister over een NIET-NATUURLIJK PERSOON opgenomen, door de Kamer van Koophandel toegekend, uniek nummer. De attribuutsoort kent onder meer historie omdat het mogelijk is dat de NNP-ID van een ingeschreven niet-natuurlijk persoon wijzigt, met name vanwege &lsquo;ambtelijke&rsquo; correcties."@nl ;
+    rdfs:comment "Een in het handelsregister over een NIET-NATUURLIJK PERSOON opgenomen, door de Kamer van Koophandel toegekend, uniek nummer. De attribuutsoort kent onder meer historie omdat het mogelijk is dat de NNP-ID van een ingeschreven niet-natuurlijk persoon wijzigt, met name vanwege ‘ambtelijke’ correcties."@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/nietnatuurlijkpersoon> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
     rdfs:range xsd:integer .
@@ -3902,31 +3898,29 @@ geslachtsnaam voorafgaat.."""@nl ;
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumeindresultaat> ;
     rdfs:label "(Budget)advies en/of quick fix"@nl ;
     mim:code "QF" ;
-    mim:definitie """Er is contact (geweest) met de inwoner en er is zodanige hulp geboden dat de inwoner binnen 30 dagen na hulpacceptatie (zelf) de betalingsachterstanden op kan lossen. 
-Voorbeelden van ‘quick fixes’: 
-<ul>
-	<li>Hulp bij het maken van betalingsregeling/ betalingsafspraken; </li>
-	<li>Een gesprek over de mogelijkheden om de betalingsachterstanden op te lossen; </li>
-	<li>Hulp bij het ordenen van de administratie; </li>
-	<li>Het voeren van een budgetadviesgesprek; </li>
-	<li>Het geven van informatie en advies over het zelfstandig bereiken van duurzaam financieel evenwicht (zonder gebruik te maken van schuldhulpverlening of andere vormen van financi&#235;le dienstverlening); </li>
-	<li>Hulp bij het aanvragen van toeslagen en andere inkomensondersteunende voorzieningen; </li>
-	<li>Berekening van de beslagvrije voet.</li>
-</ul>"""@nl ;
+    mim:definitie """Er is contact (geweest) met de inwoner en er is zodanige hulp geboden dat de inwoner binnen 30 dagen na hulpacceptatie (zelf) de betalingsachterstanden op kan lossen.
+Voorbeelden van ‘quick fixes’:
+
+- Hulp bij het maken van betalingsregeling/ betalingsafspraken;
+- Een gesprek over de mogelijkheden om de betalingsachterstanden op te lossen;
+- Hulp bij het ordenen van de administratie;
+- Het voeren van een budgetadviesgesprek;
+- Het geven van informatie en advies over het zelfstandig bereiken van duurzaam financieel evenwicht (zonder gebruik te maken van schuldhulpverlening of andere vormen van financiële dienstverlening);
+- Hulp bij het aanvragen van toeslagen en andere inkomensondersteunende voorzieningen;
+- Berekening van de beslagvrije voet."""@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumeindresultaat/budget-advies-en-of-quick-fix"^^xsd:anyURI ;
     mim:naam "(Budget)advies en/of quick fix"@nl ;
     dcterms:identifier "EAID_4906ED26_E182_43c7_B408_C9F240A7B831" ;
-    skos:definition """Er is contact (geweest) met de inwoner en er is zodanige hulp geboden dat de inwoner binnen 30 dagen na hulpacceptatie (zelf) de betalingsachterstanden op kan lossen. 
-Voorbeelden van ‘quick fixes’: 
-<ul>
-	<li>Hulp bij het maken van betalingsregeling/ betalingsafspraken; </li>
-	<li>Een gesprek over de mogelijkheden om de betalingsachterstanden op te lossen; </li>
-	<li>Hulp bij het ordenen van de administratie; </li>
-	<li>Het voeren van een budgetadviesgesprek; </li>
-	<li>Het geven van informatie en advies over het zelfstandig bereiken van duurzaam financieel evenwicht (zonder gebruik te maken van schuldhulpverlening of andere vormen van financi&#235;le dienstverlening); </li>
-	<li>Hulp bij het aanvragen van toeslagen en andere inkomensondersteunende voorzieningen; </li>
-	<li>Berekening van de beslagvrije voet.</li>
-</ul>"""@nl ;
+    skos:definition """Er is contact (geweest) met de inwoner en er is zodanige hulp geboden dat de inwoner binnen 30 dagen na hulpacceptatie (zelf) de betalingsachterstanden op kan lossen.
+Voorbeelden van ‘quick fixes’:
+
+- Hulp bij het maken van betalingsregeling/ betalingsafspraken;
+- Een gesprek over de mogelijkheden om de betalingsachterstanden op te lossen;
+- Hulp bij het ordenen van de administratie;
+- Het voeren van een budgetadviesgesprek;
+- Het geven van informatie en advies over het zelfstandig bereiken van duurzaam financieel evenwicht (zonder gebruik te maken van schuldhulpverlening of andere vormen van financiële dienstverlening);
+- Hulp bij het aanvragen van toeslagen en andere inkomensondersteunende voorzieningen;
+- Berekening van de beslagvrije voet."""@nl ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumeindresultaat> ;
     skos:notation "QF" ;
     skos:prefLabel "(Budget)advies en/of quick fix"@nl ;
@@ -3985,36 +3979,32 @@ Bijvoorbeeld: de inwoner komt niet op de afspraak, is telefonisch onbereikbaar o
     rdfs:label "Inwoner heeft al een ander lopend traject"@nl ;
     mim:code "LT" ;
     mim:definitie """Uit eerder contact met de inwoner is bekend dat de inwoner al hulpverlening ontvangt, anders dan schuldhulpverlening. Dit kan zijn bij een externe netwerkpartner of bij een ander onderdeel van het sociaal domein.
-Wanneer de betrokken hulpverlener het signaal overneemt en verdere opvolging doet, wordt de melding binnen vroegsignalering afgesloten met het resultaat: <i>‘inwoner heeft al een ander lopend traject’.</i>
-
-<b>Voorwaarde: afstemming tussen vroegsignalering en betrokken hulpverlener </b>
+Wanneer de betrokken hulpverlener het signaal overneemt en verdere opvolging doet, wordt de melding binnen vroegsignalering afgesloten met het resultaat: ‘inwoner heeft al een ander lopend traject’.
+Voorwaarde: afstemming tussen vroegsignalering en betrokken hulpverlener
 Vroegsignalering neemt contact op de betrokken hulpverlener. Zij spreken af wie de opvolging doet:
-<ul>
-	<li><b>Optie 1:</b> De betrokken hulpverlener neemt contact op met de inwoner en eventueel de schuldeiser.
+
+- Optie 1: De betrokken hulpverlener neemt contact op met de inwoner en eventueel de schuldeiser.
 De vroegsignalering blijft niet actief betrokken en ontvangt mogelijk alleen een terugkoppeling.
-→ Eindresultaat: <i>Inwoner heeft al een ander lopend traject.</i></li>
-	<li><b>Optie 2:</b> De vroegsignalering neemt zelf contact op met de inwoner over de betalingsachterstand. De betrokken hulpverlener speelt hierin geen actieve rol.
-→ Eindresultaat: afhankelijk van de uitkomst van het contact. In de notities kan worden vermeld dat de inwoner ook andere hulp ontvangt, maar het resultaat is <b>niet</b> <i>‘inwoner heeft al een ander lopend traject’.</i></li>
-</ul>
-<b>
-</b><b>Let op:</b> Een bewindvoerder wordt niet beschouwd als betrokken hulpverlener, maar als een verlengde van de inwoner zelf."""@nl ;
+→ Eindresultaat: Inwoner heeft al een ander lopend traject.
+- Optie 2: De vroegsignalering neemt zelf contact op met de inwoner over de betalingsachterstand. De betrokken hulpverlener speelt hierin geen actieve rol.
+→ Eindresultaat: afhankelijk van de uitkomst van het contact. In de notities kan worden vermeld dat de inwoner ook andere hulp ontvangt, maar het resultaat is niet ‘inwoner heeft al een ander lopend traject’.
+
+Let op: Een bewindvoerder wordt niet beschouwd als betrokken hulpverlener, maar als een verlengde van de inwoner zelf."""@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumeindresultaat/inwoner-heeft-al-een-ander-lopend-traject"^^xsd:anyURI ;
     mim:naam "Inwoner heeft al een ander lopend traject"@nl ;
     dcterms:identifier "EAID_EC1F5DE9_2F1A_4df2_9810_D650279C51AF" ;
     skos:definition """Uit eerder contact met de inwoner is bekend dat de inwoner al hulpverlening ontvangt, anders dan schuldhulpverlening. Dit kan zijn bij een externe netwerkpartner of bij een ander onderdeel van het sociaal domein.
-Wanneer de betrokken hulpverlener het signaal overneemt en verdere opvolging doet, wordt de melding binnen vroegsignalering afgesloten met het resultaat: <i>‘inwoner heeft al een ander lopend traject’.</i>
-
-<b>Voorwaarde: afstemming tussen vroegsignalering en betrokken hulpverlener </b>
+Wanneer de betrokken hulpverlener het signaal overneemt en verdere opvolging doet, wordt de melding binnen vroegsignalering afgesloten met het resultaat: ‘inwoner heeft al een ander lopend traject’.
+Voorwaarde: afstemming tussen vroegsignalering en betrokken hulpverlener
 Vroegsignalering neemt contact op de betrokken hulpverlener. Zij spreken af wie de opvolging doet:
-<ul>
-	<li><b>Optie 1:</b> De betrokken hulpverlener neemt contact op met de inwoner en eventueel de schuldeiser.
+
+- Optie 1: De betrokken hulpverlener neemt contact op met de inwoner en eventueel de schuldeiser.
 De vroegsignalering blijft niet actief betrokken en ontvangt mogelijk alleen een terugkoppeling.
-→ Eindresultaat: <i>Inwoner heeft al een ander lopend traject.</i></li>
-	<li><b>Optie 2:</b> De vroegsignalering neemt zelf contact op met de inwoner over de betalingsachterstand. De betrokken hulpverlener speelt hierin geen actieve rol.
-→ Eindresultaat: afhankelijk van de uitkomst van het contact. In de notities kan worden vermeld dat de inwoner ook andere hulp ontvangt, maar het resultaat is <b>niet</b> <i>‘inwoner heeft al een ander lopend traject’.</i></li>
-</ul>
-<b>
-</b><b>Let op:</b> Een bewindvoerder wordt niet beschouwd als betrokken hulpverlener, maar als een verlengde van de inwoner zelf."""@nl ;
+→ Eindresultaat: Inwoner heeft al een ander lopend traject.
+- Optie 2: De vroegsignalering neemt zelf contact op met de inwoner over de betalingsachterstand. De betrokken hulpverlener speelt hierin geen actieve rol.
+→ Eindresultaat: afhankelijk van de uitkomst van het contact. In de notities kan worden vermeld dat de inwoner ook andere hulp ontvangt, maar het resultaat is niet ‘inwoner heeft al een ander lopend traject’.
+
+Let op: Een bewindvoerder wordt niet beschouwd als betrokken hulpverlener, maar als een verlengde van de inwoner zelf."""@nl ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumeindresultaat> ;
     skos:notation "LT" ;
     skos:prefLabel "Inwoner heeft al een ander lopend traject"@nl ;
@@ -4040,24 +4030,24 @@ De vroegsignalering blijft niet actief betrokken en ontvangt mogelijk alleen een
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumeindresultaat> ;
     rdfs:label "Inwoner hoeft geen hulp vanuit vroegsignalering"@nl ;
     mim:code "GH" ;
-    mim:definitie """Er is contact geweest met de inwoner. Tijdens dit contactmoment geeft de inwoner aan geen hulp nodig te hebben en/of hier geen behoefte aan te hebben.  
+    mim:definitie """Er is contact geweest met de inwoner. Tijdens dit contactmoment geeft de inwoner aan geen hulp nodig te hebben en/of hier geen behoefte aan te hebben.
 Dit kan verschillende redenen hebben, zoals:
-<ul>
-	<li>De inwoner geeft tijdens het contactmoment aan de betalingsachterstand zelf op te gaan lossen. Bijvoorbeeld door zelf een betalingsregeling te treffen en/of contact op te nemen met de schuldeiser.</li>
-	<li>De inwoner geeft aan niet te wachten op bemoeienis vanuit de gemeente en/of hulpverleningsorganisaties.</li>
-	<li>De inwoner heeft zelf naasten, een bewindvoerder en/of een hulpverleningsorganisatie die (kunnen) gaan helpen.</li>
-</ul>
+
+- De inwoner geeft tijdens het contactmoment aan de betalingsachterstand zelf op te gaan lossen. Bijvoorbeeld door zelf een betalingsregeling te treffen en/of contact op te nemen met de schuldeiser.
+- De inwoner geeft aan niet te wachten op bemoeienis vanuit de gemeente en/of hulpverleningsorganisaties.
+- De inwoner heeft zelf naasten, een bewindvoerder en/of een hulpverleningsorganisatie die (kunnen) gaan helpen.
+
 Er kan tijdens dit contactmoment wat algemene informatie zijn verstrekt en/of tips gegeven, waar de inwoner zelf mee aan de slag gaat."""@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumeindresultaat/inwoner-hoeft-geen-hulp-vanuit-vroegsignalering"^^xsd:anyURI ;
     mim:naam "Inwoner hoeft geen hulp vanuit vroegsignalering"@nl ;
     dcterms:identifier "EAID_0816C533_EF0B_47ac_9A2B_BB439F69E38D" ;
-    skos:definition """Er is contact geweest met de inwoner. Tijdens dit contactmoment geeft de inwoner aan geen hulp nodig te hebben en/of hier geen behoefte aan te hebben.  
+    skos:definition """Er is contact geweest met de inwoner. Tijdens dit contactmoment geeft de inwoner aan geen hulp nodig te hebben en/of hier geen behoefte aan te hebben.
 Dit kan verschillende redenen hebben, zoals:
-<ul>
-	<li>De inwoner geeft tijdens het contactmoment aan de betalingsachterstand zelf op te gaan lossen. Bijvoorbeeld door zelf een betalingsregeling te treffen en/of contact op te nemen met de schuldeiser.</li>
-	<li>De inwoner geeft aan niet te wachten op bemoeienis vanuit de gemeente en/of hulpverleningsorganisaties.</li>
-	<li>De inwoner heeft zelf naasten, een bewindvoerder en/of een hulpverleningsorganisatie die (kunnen) gaan helpen.</li>
-</ul>
+
+- De inwoner geeft tijdens het contactmoment aan de betalingsachterstand zelf op te gaan lossen. Bijvoorbeeld door zelf een betalingsregeling te treffen en/of contact op te nemen met de schuldeiser.
+- De inwoner geeft aan niet te wachten op bemoeienis vanuit de gemeente en/of hulpverleningsorganisaties.
+- De inwoner heeft zelf naasten, een bewindvoerder en/of een hulpverleningsorganisatie die (kunnen) gaan helpen.
+
 Er kan tijdens dit contactmoment wat algemene informatie zijn verstrekt en/of tips gegeven, waar de inwoner zelf mee aan de slag gaat."""@nl ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumeindresultaat> ;
     skos:notation "GH" ;
@@ -4086,33 +4076,31 @@ Al contact met nabestaanden? Registreer desondanks dit resultaat. Zo wordt de va
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumeindresultaat> ;
     rdfs:label "Niet opgepakt: andere reden"@nl ;
     mim:code "NA" ;
-    mim:definitie """Als er een andere reden is dan de hierboven genoemde redenen waarom de melding niet wordt opgepakt. Vastelastenpartners mogen hierbij alleen weten dat de melding niet is opgepakt, maar de specifieke reden daarvoor niet. De gemeente kunnen de redenen voor zichzelf wel bijhouden. 
-Mogelijke redenen om een melding <b>niet</b> op te pakken:
-<ul>
-	<li>Inwoner verblijft onrechtmatig in Nederland volgens de BRP</li>
-	<li>Inwoner zit in detentie</li>
-	<li>De melding is bedoeld voor een rechtspersoon (bijv. een BV) in plaats van voor een ondernemer die een natuurlijk persoon is (eenmanszaak, VOF, CV of maatschap).</li>
-	<li>De melding is voor een inwoner die op een uitsluitingslijst van de gemeente, waarbij het onveilig is voor de vroegsignaleerder om contact te leggen. Bijvoorbeeld als sprake is van agressief gedrag of toegangsbeperking bij het gemeentehuis.</li>
-	<li>Als het vanwege een tekort aan personeel niet lukt om een melding op te pakken en contact te leggen met een inwoner.</li>
-	<li>Als een persoon niet meer op het adres woont en het is onbekend waar diegene wel woont</li>
-</ul>
-<b>
-</b><b>Verhuizing binnen de gemeente</b>: woont de persoon niet meer op het adres dat bij het signaal staat, maar nog wel binnen de gemeente? Pak de melding dan in principe op. Als onbekend is waar ieHet eindresultaat hangt dan af van de uitkomst van het contact."""@nl ;
+    mim:definitie """Als er een andere reden is dan de hierboven genoemde redenen waarom de melding niet wordt opgepakt. Vastelastenpartners mogen hierbij alleen weten dat de melding niet is opgepakt, maar de specifieke reden daarvoor niet. De gemeente kunnen de redenen voor zichzelf wel bijhouden.
+Mogelijke redenen om een melding niet op te pakken:
+
+- Inwoner verblijft onrechtmatig in Nederland volgens de BRP
+- Inwoner zit in detentie
+- De melding is bedoeld voor een rechtspersoon (bijv. een BV) in plaats van voor een ondernemer die een natuurlijk persoon is (eenmanszaak, VOF, CV of maatschap).
+- De melding is voor een inwoner die op een uitsluitingslijst van de gemeente, waarbij het onveilig is voor de vroegsignaleerder om contact te leggen. Bijvoorbeeld als sprake is van agressief gedrag of toegangsbeperking bij het gemeentehuis.
+- Als het vanwege een tekort aan personeel niet lukt om een melding op te pakken en contact te leggen met een inwoner.
+- Als een persoon niet meer op het adres woont en het is onbekend waar diegene wel woont
+
+Verhuizing binnen de gemeente: woont de persoon niet meer op het adres dat bij het signaal staat, maar nog wel binnen de gemeente? Pak de melding dan in principe op. Als onbekend is waar ieHet eindresultaat hangt dan af van de uitkomst van het contact."""@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumeindresultaat/niet-opgepakt-andere-reden"^^xsd:anyURI ;
     mim:naam "Niet opgepakt: andere reden"@nl ;
     dcterms:identifier "EAID_6BE529E0_5D15_481b_B967_7501FE3C279B" ;
-    skos:definition """Als er een andere reden is dan de hierboven genoemde redenen waarom de melding niet wordt opgepakt. Vastelastenpartners mogen hierbij alleen weten dat de melding niet is opgepakt, maar de specifieke reden daarvoor niet. De gemeente kunnen de redenen voor zichzelf wel bijhouden. 
-Mogelijke redenen om een melding <b>niet</b> op te pakken:
-<ul>
-	<li>Inwoner verblijft onrechtmatig in Nederland volgens de BRP</li>
-	<li>Inwoner zit in detentie</li>
-	<li>De melding is bedoeld voor een rechtspersoon (bijv. een BV) in plaats van voor een ondernemer die een natuurlijk persoon is (eenmanszaak, VOF, CV of maatschap).</li>
-	<li>De melding is voor een inwoner die op een uitsluitingslijst van de gemeente, waarbij het onveilig is voor de vroegsignaleerder om contact te leggen. Bijvoorbeeld als sprake is van agressief gedrag of toegangsbeperking bij het gemeentehuis.</li>
-	<li>Als het vanwege een tekort aan personeel niet lukt om een melding op te pakken en contact te leggen met een inwoner.</li>
-	<li>Als een persoon niet meer op het adres woont en het is onbekend waar diegene wel woont</li>
-</ul>
-<b>
-</b><b>Verhuizing binnen de gemeente</b>: woont de persoon niet meer op het adres dat bij het signaal staat, maar nog wel binnen de gemeente? Pak de melding dan in principe op. Als onbekend is waar ieHet eindresultaat hangt dan af van de uitkomst van het contact."""@nl ;
+    skos:definition """Als er een andere reden is dan de hierboven genoemde redenen waarom de melding niet wordt opgepakt. Vastelastenpartners mogen hierbij alleen weten dat de melding niet is opgepakt, maar de specifieke reden daarvoor niet. De gemeente kunnen de redenen voor zichzelf wel bijhouden.
+Mogelijke redenen om een melding niet op te pakken:
+
+- Inwoner verblijft onrechtmatig in Nederland volgens de BRP
+- Inwoner zit in detentie
+- De melding is bedoeld voor een rechtspersoon (bijv. een BV) in plaats van voor een ondernemer die een natuurlijk persoon is (eenmanszaak, VOF, CV of maatschap).
+- De melding is voor een inwoner die op een uitsluitingslijst van de gemeente, waarbij het onveilig is voor de vroegsignaleerder om contact te leggen. Bijvoorbeeld als sprake is van agressief gedrag of toegangsbeperking bij het gemeentehuis.
+- Als het vanwege een tekort aan personeel niet lukt om een melding op te pakken en contact te leggen met een inwoner.
+- Als een persoon niet meer op het adres woont en het is onbekend waar diegene wel woont
+
+Verhuizing binnen de gemeente: woont de persoon niet meer op het adres dat bij het signaal staat, maar nog wel binnen de gemeente? Pak de melding dan in principe op. Als onbekend is waar ieHet eindresultaat hangt dan af van de uitkomst van het contact."""@nl ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumeindresultaat> ;
     skos:notation "NA" ;
     skos:prefLabel "Niet opgepakt: andere reden"@nl ;
@@ -4141,19 +4129,19 @@ Dit eindresultaat wordt teruggekoppeld aan de vastelastenpartner."""@nl ;
     rdfs:label "Niet opgepakt: onterecht signaal"@nl ;
     mim:code "NO" ;
     mim:definitie """Een signaal dat niet wordt opgepakt, omdat:
-<ul>
-	<li>de gemelde achterstand lager is dan het drempelbedrag dat de gemeente hanteert, of;</li>
-	<li>het aantal dagen achterstand te hoog of te laag is.</li>
-</ul>
+
+- de gemelde achterstand lager is dan het drempelbedrag dat de gemeente hanteert, of;
+- het aantal dagen achterstand te hoog of te laag is.
+
 Dit eindresultaat wordt teruggekoppeld aan de vastelastenpartner."""@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumeindresultaat/niet-opgepakt-onterecht-signaal"^^xsd:anyURI ;
     mim:naam "Niet opgepakt: onterecht signaal"@nl ;
     dcterms:identifier "EAID_16425ABA_C902_4291_98DA_AC8C1C6F80FD" ;
     skos:definition """Een signaal dat niet wordt opgepakt, omdat:
-<ul>
-	<li>de gemelde achterstand lager is dan het drempelbedrag dat de gemeente hanteert, of;</li>
-	<li>het aantal dagen achterstand te hoog of te laag is.</li>
-</ul>
+
+- de gemelde achterstand lager is dan het drempelbedrag dat de gemeente hanteert, of;
+- het aantal dagen achterstand te hoog of te laag is.
+
 Dit eindresultaat wordt teruggekoppeld aan de vastelastenpartner."""@nl ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumeindresultaat> ;
     skos:notation "NO" ;
@@ -4165,21 +4153,19 @@ Dit eindresultaat wordt teruggekoppeld aan de vastelastenpartner."""@nl ;
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumeindresultaat> ;
     rdfs:label "Persoon is geen inwoner (meer) in de gemeente"@nl ;
     mim:code "VH" ;
-    mim:definitie """Wanneer de inwoner in een andere gemeente staat ingeschreven, geef de melding dan dit eindresultaat. De vastelastenpartner wordt hierdoor automatisch vanuit het systeem ge&#239;nformeerd dat de aangemelde klant geen inwoner (meer) is van de gemeente.
-Deel het signaal – waar mogelijk – vanuit vroegsignalering met de gemeente waar de inwoner <b>w&#233;l</b> staat ingeschreven. Doe dit telefonisch en/of per (beveiligde) e-mail.
-<ul>
-	<li><b>Al contact gehad met inwoner</b>: Is de inwoner niet meer woonachtig in de gemeente, maar is er wel (telefonisch) contact geweest? Registreer dan alsnog dit als eindresultaat. Zo wordt de vastelastenpartner op de hoogte gebracht.</li>
-	<li><b> Verhuizing binnen de gemeente</b>: Woont de persoon niet meer op het adres dat bij het signaal staat, maar nog wel binnen de gemeente? Pak de melding dan op. Het eindresultaat hangt dan af van de uitkomst van het contact.</li>
-</ul>"""@nl ;
+    mim:definitie """Wanneer de inwoner in een andere gemeente staat ingeschreven, geef de melding dan dit eindresultaat. De vastelastenpartner wordt hierdoor automatisch vanuit het systeem geïnformeerd dat de aangemelde klant geen inwoner (meer) is van de gemeente.
+Deel het signaal – waar mogelijk – vanuit vroegsignalering met de gemeente waar de inwoner wél staat ingeschreven. Doe dit telefonisch en/of per (beveiligde) e-mail.
+
+- Al contact gehad met inwoner: Is de inwoner niet meer woonachtig in de gemeente, maar is er wel (telefonisch) contact geweest? Registreer dan alsnog dit als eindresultaat. Zo wordt de vastelastenpartner op de hoogte gebracht.
+- Verhuizing binnen de gemeente: Woont de persoon niet meer op het adres dat bij het signaal staat, maar nog wel binnen de gemeente? Pak de melding dan op. Het eindresultaat hangt dan af van de uitkomst van het contact."""@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumeindresultaat/persoon-is-geen-inwoner-meer-in-de-gemeente"^^xsd:anyURI ;
     mim:naam "Persoon is geen inwoner (meer) in de gemeente"@nl ;
     dcterms:identifier "EAID_A3351909_0E1B_48dd_A0B6_39B6D08098CC" ;
-    skos:definition """Wanneer de inwoner in een andere gemeente staat ingeschreven, geef de melding dan dit eindresultaat. De vastelastenpartner wordt hierdoor automatisch vanuit het systeem ge&#239;nformeerd dat de aangemelde klant geen inwoner (meer) is van de gemeente.
-Deel het signaal – waar mogelijk – vanuit vroegsignalering met de gemeente waar de inwoner <b>w&#233;l</b> staat ingeschreven. Doe dit telefonisch en/of per (beveiligde) e-mail.
-<ul>
-	<li><b>Al contact gehad met inwoner</b>: Is de inwoner niet meer woonachtig in de gemeente, maar is er wel (telefonisch) contact geweest? Registreer dan alsnog dit als eindresultaat. Zo wordt de vastelastenpartner op de hoogte gebracht.</li>
-	<li><b> Verhuizing binnen de gemeente</b>: Woont de persoon niet meer op het adres dat bij het signaal staat, maar nog wel binnen de gemeente? Pak de melding dan op. Het eindresultaat hangt dan af van de uitkomst van het contact.</li>
-</ul>"""@nl ;
+    skos:definition """Wanneer de inwoner in een andere gemeente staat ingeschreven, geef de melding dan dit eindresultaat. De vastelastenpartner wordt hierdoor automatisch vanuit het systeem geïnformeerd dat de aangemelde klant geen inwoner (meer) is van de gemeente.
+Deel het signaal – waar mogelijk – vanuit vroegsignalering met de gemeente waar de inwoner wél staat ingeschreven. Doe dit telefonisch en/of per (beveiligde) e-mail.
+
+- Al contact gehad met inwoner: Is de inwoner niet meer woonachtig in de gemeente, maar is er wel (telefonisch) contact geweest? Registreer dan alsnog dit als eindresultaat. Zo wordt de vastelastenpartner op de hoogte gebracht.
+- Verhuizing binnen de gemeente: Woont de persoon niet meer op het adres dat bij het signaal staat, maar nog wel binnen de gemeente? Pak de melding dan op. Het eindresultaat hangt dan af van de uitkomst van het contact."""@nl ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumeindresultaat> ;
     skos:notation "VH" ;
     skos:prefLabel "Persoon is geen inwoner (meer) in de gemeente"@nl ;
@@ -4254,21 +4240,19 @@ De vervolghulp kan binnen de eigen organisatie zijn (zelfs door dezelfde persoon
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumsignaalpartner> ;
     rdfs:label "CAK Eigen bijdrage"@nl ;
     mim:code "CE" ;
-    mim:definitie """Achterstand bij het betalen van de Eigen bijdrage in het kader van WLZ, en WMO. <font color="#0e0e0e">De doelgroep voldoet aan deze drie voorwaarden:</font>
-<ul>
-	<li><font color="#0e0e0e">Inwoners van de Gemeenten die het incassotraject hebben doorlopen (schriftelijke herinnering, aanmaning, minnelijk deurwaarders traject en telefonische poging tot persoonlijk contact). Het betreft hier achterstanden op gebied van eigen bijdrage Wmo of Wlz, ge&#239;ncasseerd door het CAK. Het gaat hierbij specifiek om de groep die terugkeert van een minnelijk deurwaarderstraject.</font></li>
-	<li><font color="#0e0e0e">Er is nog geen sprake van een gerechtelijke dwangmaatregel. De vroegsignalering gaat vooraf aan de inzet van een gerechtelijke procedure (doorgaans wordt die ingezet bij vorderingen &gt; € 100,= achterstand).</font></li>
-	<li><font color="#0e0e0e">Het lukt CAK niet om contact te krijgen of een betaalafspraak te maken met de klant.</font></li>
-</ul>"""@nl ;
+    mim:definitie """Achterstand bij het betalen van de Eigen bijdrage in het kader van WLZ, en WMO. De doelgroep voldoet aan deze drie voorwaarden:
+
+- Inwoners van de Gemeenten die het incassotraject hebben doorlopen (schriftelijke herinnering, aanmaning, minnelijk deurwaarders traject en telefonische poging tot persoonlijk contact). Het betreft hier achterstanden op gebied van eigen bijdrage Wmo of Wlz, geïncasseerd door het CAK. Het gaat hierbij specifiek om de groep die terugkeert van een minnelijk deurwaarderstraject.
+- Er is nog geen sprake van een gerechtelijke dwangmaatregel. De vroegsignalering gaat vooraf aan de inzet van een gerechtelijke procedure (doorgaans wordt die ingezet bij vorderingen > € 100,= achterstand).
+- Het lukt CAK niet om contact te krijgen of een betaalafspraak te maken met de klant."""@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumsignaalpartner/cak-eigen-bijdrage"^^xsd:anyURI ;
     mim:naam "CAK Eigen bijdrage"@nl ;
     dcterms:identifier "EAID_EB1640B0_4AB7_402d_822B_300216703363" ;
-    skos:definition """Achterstand bij het betalen van de Eigen bijdrage in het kader van WLZ, en WMO. <font color="#0e0e0e">De doelgroep voldoet aan deze drie voorwaarden:</font>
-<ul>
-	<li><font color="#0e0e0e">Inwoners van de Gemeenten die het incassotraject hebben doorlopen (schriftelijke herinnering, aanmaning, minnelijk deurwaarders traject en telefonische poging tot persoonlijk contact). Het betreft hier achterstanden op gebied van eigen bijdrage Wmo of Wlz, ge&#239;ncasseerd door het CAK. Het gaat hierbij specifiek om de groep die terugkeert van een minnelijk deurwaarderstraject.</font></li>
-	<li><font color="#0e0e0e">Er is nog geen sprake van een gerechtelijke dwangmaatregel. De vroegsignalering gaat vooraf aan de inzet van een gerechtelijke procedure (doorgaans wordt die ingezet bij vorderingen &gt; € 100,= achterstand).</font></li>
-	<li><font color="#0e0e0e">Het lukt CAK niet om contact te krijgen of een betaalafspraak te maken met de klant.</font></li>
-</ul>"""@nl ;
+    skos:definition """Achterstand bij het betalen van de Eigen bijdrage in het kader van WLZ, en WMO. De doelgroep voldoet aan deze drie voorwaarden:
+
+- Inwoners van de Gemeenten die het incassotraject hebben doorlopen (schriftelijke herinnering, aanmaning, minnelijk deurwaarders traject en telefonische poging tot persoonlijk contact). Het betreft hier achterstanden op gebied van eigen bijdrage Wmo of Wlz, geïncasseerd door het CAK. Het gaat hierbij specifiek om de groep die terugkeert van een minnelijk deurwaarderstraject.
+- Er is nog geen sprake van een gerechtelijke dwangmaatregel. De vroegsignalering gaat vooraf aan de inzet van een gerechtelijke procedure (doorgaans wordt die ingezet bij vorderingen > € 100,= achterstand).
+- Het lukt CAK niet om contact te krijgen of een betaalafspraak te maken met de klant."""@nl ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumsignaalpartner> ;
     skos:notation "CE" ;
     skos:prefLabel "CAK Eigen bijdrage"@nl ;
@@ -4429,34 +4413,32 @@ De vervolghulp kan binnen de eigen organisatie zijn (zelfs door dezelfde persoon
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumsignaalstatus> ;
     rdfs:label "Niet opgepakt: andere reden"@nl ;
     mim:code "NA" ;
-    mim:definitie """Als er een andere reden is dan de hierboven genoemde redenen waarom de melding niet wordt opgepakt. Vastelastenpartners mogen hierbij alleen weten dat de melding niet is opgepakt, maar de specifieke reden daarvoor niet. De gemeente kunnen de redenen voor zichzelf wel bijhouden. 
-Mogelijke redenen om een melding <b>niet</b> op te pakken:
-<ul>
-	<li>Inwoner verblijft onrechtmatig in Nederland volgens de BRP</li>
-	<li>Inwoner zit in detentie</li>
-	<li>De melding is bedoeld voor een rechtspersoon (bijv. een BV) in plaats van voor een ondernemer die een natuurlijk persoon is (eenmanszaak, VOF, CV of maatschap).</li>
-	<li>De melding is voor een inwoner die op een uitsluitingslijst van de gemeente, waarbij het onveilig is voor de vroegsignaleerder om contact te leggen. Bijvoorbeeld als sprake is van agressief gedrag of toegangsbeperking bij het gemeentehuis.</li>
-	<li>Als het vanwege een tekort aan personeel niet lukt om een melding op te pakken en contact te leggen met een inwoner.</li>
-	<li>Als een persoon niet meer op het adres woont en het is onbekend waar diegene wel woont</li>
-</ul>
-<b>
-</b><b>Verhuizing binnen de gemeente</b>
+    mim:definitie """Als er een andere reden is dan de hierboven genoemde redenen waarom de melding niet wordt opgepakt. Vastelastenpartners mogen hierbij alleen weten dat de melding niet is opgepakt, maar de specifieke reden daarvoor niet. De gemeente kunnen de redenen voor zichzelf wel bijhouden.
+Mogelijke redenen om een melding niet op te pakken:
+
+- Inwoner verblijft onrechtmatig in Nederland volgens de BRP
+- Inwoner zit in detentie
+- De melding is bedoeld voor een rechtspersoon (bijv. een BV) in plaats van voor een ondernemer die een natuurlijk persoon is (eenmanszaak, VOF, CV of maatschap).
+- De melding is voor een inwoner die op een uitsluitingslijst van de gemeente, waarbij het onveilig is voor de vroegsignaleerder om contact te leggen. Bijvoorbeeld als sprake is van agressief gedrag of toegangsbeperking bij het gemeentehuis.
+- Als het vanwege een tekort aan personeel niet lukt om een melding op te pakken en contact te leggen met een inwoner.
+- Als een persoon niet meer op het adres woont en het is onbekend waar diegene wel woont
+
+Verhuizing binnen de gemeente
 Woont de persoon niet meer op het adres dat bij het signaal staat, maar nog wel binnen de gemeente? Pak de melding dan in principe op. Als onbekend is waar ieHet eindresultaat hangt dan af van de uitkomst van het contact."""@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumsignaalstatus/niet-opgepakt-andere-reden"^^xsd:anyURI ;
     mim:naam "Niet opgepakt: andere reden"@nl ;
     dcterms:identifier "EAID_B387157B_71EB_449c_9B34_DA29B6BFA88A" ;
-    skos:definition """Als er een andere reden is dan de hierboven genoemde redenen waarom de melding niet wordt opgepakt. Vastelastenpartners mogen hierbij alleen weten dat de melding niet is opgepakt, maar de specifieke reden daarvoor niet. De gemeente kunnen de redenen voor zichzelf wel bijhouden. 
-Mogelijke redenen om een melding <b>niet</b> op te pakken:
-<ul>
-	<li>Inwoner verblijft onrechtmatig in Nederland volgens de BRP</li>
-	<li>Inwoner zit in detentie</li>
-	<li>De melding is bedoeld voor een rechtspersoon (bijv. een BV) in plaats van voor een ondernemer die een natuurlijk persoon is (eenmanszaak, VOF, CV of maatschap).</li>
-	<li>De melding is voor een inwoner die op een uitsluitingslijst van de gemeente, waarbij het onveilig is voor de vroegsignaleerder om contact te leggen. Bijvoorbeeld als sprake is van agressief gedrag of toegangsbeperking bij het gemeentehuis.</li>
-	<li>Als het vanwege een tekort aan personeel niet lukt om een melding op te pakken en contact te leggen met een inwoner.</li>
-	<li>Als een persoon niet meer op het adres woont en het is onbekend waar diegene wel woont</li>
-</ul>
-<b>
-</b><b>Verhuizing binnen de gemeente</b>
+    skos:definition """Als er een andere reden is dan de hierboven genoemde redenen waarom de melding niet wordt opgepakt. Vastelastenpartners mogen hierbij alleen weten dat de melding niet is opgepakt, maar de specifieke reden daarvoor niet. De gemeente kunnen de redenen voor zichzelf wel bijhouden.
+Mogelijke redenen om een melding niet op te pakken:
+
+- Inwoner verblijft onrechtmatig in Nederland volgens de BRP
+- Inwoner zit in detentie
+- De melding is bedoeld voor een rechtspersoon (bijv. een BV) in plaats van voor een ondernemer die een natuurlijk persoon is (eenmanszaak, VOF, CV of maatschap).
+- De melding is voor een inwoner die op een uitsluitingslijst van de gemeente, waarbij het onveilig is voor de vroegsignaleerder om contact te leggen. Bijvoorbeeld als sprake is van agressief gedrag of toegangsbeperking bij het gemeentehuis.
+- Als het vanwege een tekort aan personeel niet lukt om een melding op te pakken en contact te leggen met een inwoner.
+- Als een persoon niet meer op het adres woont en het is onbekend waar diegene wel woont
+
+Verhuizing binnen de gemeente
 Woont de persoon niet meer op het adres dat bij het signaal staat, maar nog wel binnen de gemeente? Pak de melding dan in principe op. Als onbekend is waar ieHet eindresultaat hangt dan af van de uitkomst van het contact."""@nl ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumsignaalstatus> ;
     skos:notation "NA" ;
@@ -4486,19 +4468,19 @@ Dit eindresultaat wordt teruggekoppeld aan de vastelastenpartner."""@nl ;
     rdfs:label "Niet opgepakt: onterecht signaal"@nl ;
     mim:code "NO" ;
     mim:definitie """Een signaal dat niet wordt opgepakt, omdat:
-<ul>
-	<li>de gemelde achterstand lager is dan het drempelbedrag dat de gemeente hanteert, of;</li>
-	<li>het aantal dagen achterstand te hoog of te laag is.</li>
-</ul>
+
+- de gemelde achterstand lager is dan het drempelbedrag dat de gemeente hanteert, of;
+- het aantal dagen achterstand te hoog of te laag is.
+
 Dit eindresultaat wordt teruggekoppeld aan de vastelastenpartner."""@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumsignaalstatus/niet-opgepakt-onterecht-signaal"^^xsd:anyURI ;
     mim:naam "Niet opgepakt: onterecht signaal"@nl ;
     dcterms:identifier "EAID_16FC98E9_9031_4e28_9004_52E99E6FEEB2" ;
     skos:definition """Een signaal dat niet wordt opgepakt, omdat:
-<ul>
-	<li>de gemelde achterstand lager is dan het drempelbedrag dat de gemeente hanteert, of;</li>
-	<li>het aantal dagen achterstand te hoog of te laag is.</li>
-</ul>
+
+- de gemelde achterstand lager is dan het drempelbedrag dat de gemeente hanteert, of;
+- het aantal dagen achterstand te hoog of te laag is.
+
 Dit eindresultaat wordt teruggekoppeld aan de vastelastenpartner."""@nl ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumsignaalstatus> ;
     skos:notation "NO" ;
@@ -4525,21 +4507,19 @@ Dit eindresultaat wordt teruggekoppeld aan de vastelastenpartner."""@nl ;
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumsignaalstatus> ;
     rdfs:label "Persoon is geen inwoner (meer) in de gemeente"@nl ;
     mim:code "GI" ;
-    mim:definitie """Wanneer de inwoner in een andere gemeente staat ingeschreven, geef de melding dan dit eindresultaat. De vastelastenpartner wordt hierdoor automatisch vanuit het systeem ge&#239;nformeerd dat de aangemelde klant geen inwoner (meer) is van de gemeente.
-Deel het signaal – waar mogelijk – vanuit vroegsignalering met de gemeente waar de inwoner <b>w&#233;l</b> staat ingeschreven. Doe dit telefonisch en/of per (beveiligde) e-mail.
-<ul>
-	<li><b>Al contact gehad met inwoner</b>: is de inwoner niet meer woonachtig in de gemeente, maar is er wel (telefonisch) contact geweest? Registreer dan alsnog dit als eindresultaat. Zo wordt de vastelastenpartner op de hoogte gebracht.</li>
-	<li><b>Verhuizing binnen de gemeente</b>: woont de persoon niet meer op het adres dat bij het signaal staat, maar nog wel binnen de gemeente? Pak de melding dan op. Het eindresultaat hangt dan af van de uitkomst van het contact.</li>
-</ul>"""@nl ;
+    mim:definitie """Wanneer de inwoner in een andere gemeente staat ingeschreven, geef de melding dan dit eindresultaat. De vastelastenpartner wordt hierdoor automatisch vanuit het systeem geïnformeerd dat de aangemelde klant geen inwoner (meer) is van de gemeente.
+Deel het signaal – waar mogelijk – vanuit vroegsignalering met de gemeente waar de inwoner wél staat ingeschreven. Doe dit telefonisch en/of per (beveiligde) e-mail.
+
+- Al contact gehad met inwoner: is de inwoner niet meer woonachtig in de gemeente, maar is er wel (telefonisch) contact geweest? Registreer dan alsnog dit als eindresultaat. Zo wordt de vastelastenpartner op de hoogte gebracht.
+- Verhuizing binnen de gemeente: woont de persoon niet meer op het adres dat bij het signaal staat, maar nog wel binnen de gemeente? Pak de melding dan op. Het eindresultaat hangt dan af van de uitkomst van het contact."""@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumsignaalstatus/persoon-is-geen-inwoner-meer-in-de-gemeente"^^xsd:anyURI ;
     mim:naam "Persoon is geen inwoner (meer) in de gemeente"@nl ;
     dcterms:identifier "EAID_581BEE7B_B648_4cfd_9405_BB8B7EEFBE2C" ;
-    skos:definition """Wanneer de inwoner in een andere gemeente staat ingeschreven, geef de melding dan dit eindresultaat. De vastelastenpartner wordt hierdoor automatisch vanuit het systeem ge&#239;nformeerd dat de aangemelde klant geen inwoner (meer) is van de gemeente.
-Deel het signaal – waar mogelijk – vanuit vroegsignalering met de gemeente waar de inwoner <b>w&#233;l</b> staat ingeschreven. Doe dit telefonisch en/of per (beveiligde) e-mail.
-<ul>
-	<li><b>Al contact gehad met inwoner</b>: is de inwoner niet meer woonachtig in de gemeente, maar is er wel (telefonisch) contact geweest? Registreer dan alsnog dit als eindresultaat. Zo wordt de vastelastenpartner op de hoogte gebracht.</li>
-	<li><b>Verhuizing binnen de gemeente</b>: woont de persoon niet meer op het adres dat bij het signaal staat, maar nog wel binnen de gemeente? Pak de melding dan op. Het eindresultaat hangt dan af van de uitkomst van het contact.</li>
-</ul>"""@nl ;
+    skos:definition """Wanneer de inwoner in een andere gemeente staat ingeschreven, geef de melding dan dit eindresultaat. De vastelastenpartner wordt hierdoor automatisch vanuit het systeem geïnformeerd dat de aangemelde klant geen inwoner (meer) is van de gemeente.
+Deel het signaal – waar mogelijk – vanuit vroegsignalering met de gemeente waar de inwoner wél staat ingeschreven. Doe dit telefonisch en/of per (beveiligde) e-mail.
+
+- Al contact gehad met inwoner: is de inwoner niet meer woonachtig in de gemeente, maar is er wel (telefonisch) contact geweest? Registreer dan alsnog dit als eindresultaat. Zo wordt de vastelastenpartner op de hoogte gebracht.
+- Verhuizing binnen de gemeente: woont de persoon niet meer op het adres dat bij het signaal staat, maar nog wel binnen de gemeente? Pak de melding dan op. Het eindresultaat hangt dan af van de uitkomst van het contact."""@nl ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/enumsignaalstatus> ;
     skos:notation "GI" ;
     skos:prefLabel "Persoon is geen inwoner (meer) in de gemeente"@nl ;
@@ -4966,12 +4946,12 @@ De juridische grondslag voor het ontvangen en verwerken van vroegsignalen is vas
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/vroegsignaalzaak/matchingsdatum>,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/vroegsignaalzaak/resultaat>,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/vroegsignaalzaak/startdatum-matchtingperiode> ;
-    mim:definitie "Een Vroegsignaalzaak is procesmatige eenheid binnen de gemeentelijke organisatie waarin de behandeling van &#233;&#233;n of meerdere vroegsigna(a)len is/zijn ondergebracht. De vroegsignaalzaak omvat alle handelingen die de gemeente verricht naar aanleiding van het ontvangen vroegsignaal, zoals het vastleggen van het signaal, het uitvoeren van een eerste beoordeling, het leggen van contact met de inwoner, het registreren van contactpogingen en -resultaten, en het eventueel toeleiden naar schuldhulpverlening of andere passende ondersteuning."@nl ;
+    mim:definitie "Een Vroegsignaalzaak is procesmatige eenheid binnen de gemeentelijke organisatie waarin de behandeling van één of meerdere vroegsigna(a)len is/zijn ondergebracht. De vroegsignaalzaak omvat alle handelingen die de gemeente verricht naar aanleiding van het ontvangen vroegsignaal, zoals het vastleggen van het signaal, het uitvoeren van een eerste beoordeling, het leggen van contact met de inwoner, het registreren van contactpogingen en -resultaten, en het eventueel toeleiden naar schuldhulpverlening of andere passende ondersteuning."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/vroegsignaalzaak"^^xsd:anyURI ;
     mim:indicatieAbstractObject false ;
     mim:naam "Vroegsignaalzaak"@nl ;
     dcterms:identifier "EAID_1AA67F0D_3B94_48a3_A037_A2ACC6D61CF0" ;
-    rdfs:comment "Een Vroegsignaalzaak is procesmatige eenheid binnen de gemeentelijke organisatie waarin de behandeling van &#233;&#233;n of meerdere vroegsigna(a)len is/zijn ondergebracht. De vroegsignaalzaak omvat alle handelingen die de gemeente verricht naar aanleiding van het ontvangen vroegsignaal, zoals het vastleggen van het signaal, het uitvoeren van een eerste beoordeling, het leggen van contact met de inwoner, het registreren van contactpogingen en -resultaten, en het eventueel toeleiden naar schuldhulpverlening of andere passende ondersteuning."@nl ;
+    rdfs:comment "Een Vroegsignaalzaak is procesmatige eenheid binnen de gemeentelijke organisatie waarin de behandeling van één of meerdere vroegsigna(a)len is/zijn ondergebracht. De vroegsignaalzaak omvat alle handelingen die de gemeente verricht naar aanleiding van het ontvangen vroegsignaal, zoals het vastleggen van het signaal, het uitvoeren van een eerste beoordeling, het leggen van contact met de inwoner, het registreren van contactpogingen en -resultaten, en het eventueel toeleiden naar schuldhulpverlening of andere passende ondersteuning."@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/> ;
     rdfs:subClassOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaak> .
 

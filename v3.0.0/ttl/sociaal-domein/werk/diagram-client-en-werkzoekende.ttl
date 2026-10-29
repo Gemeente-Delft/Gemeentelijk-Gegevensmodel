@@ -232,12 +232,12 @@
     rdfs:label "Werkzoekende"@nl ;
     mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/werkzoekende/datumaanvangwerkzoekende>,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/werkzoekende/datumeindewerkzoekende> ;
-    mim:definitie "<font color=\"#0e0e0e\">Een generiek werkprofiel van een persoon waarin diens arbeidspositie, bemiddelbaarheid en begeleidingsbehoefte worden vastgelegd, als basis voor begeleiding naar arbeid.</font>"@nl ;
+    mim:definitie "Een generiek werkprofiel van een persoon waarin diens arbeidspositie, bemiddelbaarheid en begeleidingsbehoefte worden vastgelegd, als basis voor begeleiding naar arbeid."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/werkzoekende"^^xsd:anyURI ;
     mim:indicatieAbstractObject false ;
     mim:naam "Werkzoekende"@nl ;
     dcterms:identifier "EAID_24A45AF2_13FF_491d_9E3D_F8D8113F28E1" ;
-    rdfs:comment "<font color=\"#0e0e0e\">Een generiek werkprofiel van een persoon waarin diens arbeidspositie, bemiddelbaarheid en begeleidingsbehoefte worden vastgelegd, als basis voor begeleiding naar arbeid.</font>"@nl ;
+    rdfs:comment "Een generiek werkprofiel van een persoon waarin diens arbeidspositie, bemiddelbaarheid en begeleidingsbehoefte worden vastgelegd, als basis voor begeleiding naar arbeid."@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/> ;
     rdfs:subClassOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/client> .
 
@@ -258,12 +258,12 @@
     rdfs:label "Doelgroep"@nl ;
     mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/doelgroep/naam>,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/doelgroep/omschrijving> ;
-    mim:definitie "<font color=\"#0e0e0e\">Een specifieke groep personen met gedeelde kenmerken (zoals afstand tot de arbeidsmarkt) die in aanmerking komt voor bepaalde voorzieningen of aangepaste begeleiding.</font>"@nl ;
+    mim:definitie "Een specifieke groep personen met gedeelde kenmerken (zoals afstand tot de arbeidsmarkt) die in aanmerking komt voor bepaalde voorzieningen of aangepaste begeleiding."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/doelgroep"^^xsd:anyURI ;
     mim:indicatieAbstractObject false ;
     mim:naam "Doelgroep"@nl ;
     dcterms:identifier "EAID_FF5A6019_C72C_4bcc_ADDF_84811CBDA79B" ;
-    rdfs:comment "<font color=\"#0e0e0e\">Een specifieke groep personen met gedeelde kenmerken (zoals afstand tot de arbeidsmarkt) die in aanmerking komt voor bepaalde voorzieningen of aangepaste begeleiding.</font>"@nl ;
+    rdfs:comment "Een specifieke groep personen met gedeelde kenmerken (zoals afstand tot de arbeidsmarkt) die in aanmerking komt voor bepaalde voorzieningen of aangepaste begeleiding."@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/client> a mim:Objecttype,

@@ -1915,7 +1915,7 @@ geslachtsnaam voorafgaat.."""@nl ;
 <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/nietnatuurlijkpersoon/nnpid> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "NNPID"@nl ;
-    mim:definitie "Een in het handelsregister over een NIET-NATUURLIJK PERSOON opgenomen, door de Kamer van Koophandel toegekend, uniek nummer. De attribuutsoort kent onder meer historie omdat het mogelijk is dat de NNP-ID van een ingeschreven niet-natuurlijk persoon wijzigt, met name vanwege &lsquo;ambtelijke&rsquo; correcties."@nl ;
+    mim:definitie "Een in het handelsregister over een NIET-NATUURLIJK PERSOON opgenomen, door de Kamer van Koophandel toegekend, uniek nummer. De attribuutsoort kent onder meer historie omdat het mogelijk is dat de NNP-ID van een ingeschreven niet-natuurlijk persoon wijzigt, met name vanwege ‘ambtelijke’ correcties."@nl ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/nietnatuurlijkpersoon/nnpid"^^xsd:anyURI ;
@@ -1928,7 +1928,7 @@ geslachtsnaam voorafgaat.."""@nl ;
     mim:naam "NNPID"@nl ;
     mim:type mim:Integer ;
     dcterms:identifier "EAID_53D269C1_BBFD_4e2f_9166_5165EBBFBD9F" ;
-    rdfs:comment "Een in het handelsregister over een NIET-NATUURLIJK PERSOON opgenomen, door de Kamer van Koophandel toegekend, uniek nummer. De attribuutsoort kent onder meer historie omdat het mogelijk is dat de NNP-ID van een ingeschreven niet-natuurlijk persoon wijzigt, met name vanwege &lsquo;ambtelijke&rsquo; correcties."@nl ;
+    rdfs:comment "Een in het handelsregister over een NIET-NATUURLIJK PERSOON opgenomen, door de Kamer van Koophandel toegekend, uniek nummer. De attribuutsoort kent onder meer historie omdat het mogelijk is dat de NNP-ID van een ingeschreven niet-natuurlijk persoon wijzigt, met name vanwege ‘ambtelijke’ correcties."@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/nietnatuurlijkpersoon> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
     rdfs:range xsd:integer .
@@ -2083,7 +2083,7 @@ geslachtsnaam voorafgaat.."""@nl ;
         owl:DatatypeProperty ;
     rdfs:label "datumEinde"@nl ;
     mim:datumOpname "2009-02-02"^^xsd:date ;
-    mim:definitie "De datum  van<b> </b>beëindiging van de vestiging"@nl ;
+    mim:definitie "De datum van beëindiging van de vestiging"@nl ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:herkomst "NHR" ;
@@ -2098,7 +2098,7 @@ geslachtsnaam voorafgaat.."""@nl ;
     mim:naam "datumEinde"@nl ;
     mim:type mim:Date ;
     dcterms:identifier "EAID_A278D410_911B_4df2_93C6_56F7F5DF2667" ;
-    rdfs:comment "De datum  van<b> </b>beëindiging van de vestiging"@nl ;
+    rdfs:comment "De datum van beëindiging van de vestiging"@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/vestiging> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
     rdfs:range xsd:date .

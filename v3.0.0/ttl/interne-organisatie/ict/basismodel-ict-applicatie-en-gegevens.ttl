@@ -493,7 +493,7 @@
 <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/attribuutsoort/domein> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "domein"@nl ;
-    mim:definitie "<i>Domein is zelf geen metadata aspect. Onder het kopje ‘domein’ vallen een aantal metadata aspecten die gelden voor een waarde, oftewel de eisen waaraan een waarde van een attribuutsoort moet voldoen.</i>"@nl ;
+    mim:definitie "Domein is zelf geen metadata aspect. Onder het kopje ‘domein’ vallen een aantal metadata aspecten die gelden voor een waarde, oftewel de eisen waaraan een waarde van een attribuutsoort moet voldoen."@nl ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/attribuutsoort/domein"^^xsd:anyURI ;
@@ -506,7 +506,7 @@
     mim:naam "domein"@nl ;
     mim:type mim:CharacterString ;
     dcterms:identifier "EAID_8417A62B_538D_44ca_8077_01E548BA0F68" ;
-    rdfs:comment "<i>Domein is zelf geen metadata aspect. Onder het kopje ‘domein’ vallen een aantal metadata aspecten die gelden voor een waarde, oftewel de eisen waaraan een waarde van een attribuutsoort moet voldoen.</i>"@nl ;
+    rdfs:comment "Domein is zelf geen metadata aspect. Onder het kopje ‘domein’ vallen een aantal metadata aspecten die gelden voor een waarde, oftewel de eisen waaraan een waarde van een attribuutsoort moet voldoen."@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/attribuutsoort> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/> ;
     rdfs:range xsd:string .
@@ -689,9 +689,9 @@ Indien een attribuutsoort deel uit maakt van een gegevensgroeptype, dan wordt de
         owl:DatatypeProperty ;
     rdfs:label "lengte"@nl ;
     mim:definitie """De aanduiding van de lengte van een gegeven. Getallen kunnen altijd positief of negatief zijn.
-<i>Bijvoorbeeld:</i>
-<i>‘1’ als de lengte exact 1 is;</i>
-<i>‘1..2’ als de lengte 1 tot en met 2 lang kan zijn; '‘1,2’ voor Decimale getallen met 1 cijfer voor de komma en 2 erna. </i>Dit is van -9,99 tot +9,99;"""@nl ;
+Bijvoorbeeld:
+‘1’ als de lengte exact 1 is;
+‘1..2’ als de lengte 1 tot en met 2 lang kan zijn; '‘1,2’ voor Decimale getallen met 1 cijfer voor de komma en 2 erna. Dit is van -9,99 tot +9,99;"""@nl ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/attribuutsoort/lengte"^^xsd:anyURI ;
@@ -705,9 +705,9 @@ Indien een attribuutsoort deel uit maakt van een gegevensgroeptype, dan wordt de
     mim:type mim:CharacterString ;
     dcterms:identifier "EAID_2A694ECB_063B_4706_8DF1_30276464306A" ;
     rdfs:comment """De aanduiding van de lengte van een gegeven. Getallen kunnen altijd positief of negatief zijn.
-<i>Bijvoorbeeld:</i>
-<i>‘1’ als de lengte exact 1 is;</i>
-<i>‘1..2’ als de lengte 1 tot en met 2 lang kan zijn; '‘1,2’ voor Decimale getallen met 1 cijfer voor de komma en 2 erna. </i>Dit is van -9,99 tot +9,99;"""@nl ;
+Bijvoorbeeld:
+‘1’ als de lengte exact 1 is;
+‘1..2’ als de lengte 1 tot en met 2 lang kan zijn; '‘1,2’ voor Decimale getallen met 1 cijfer voor de komma en 2 erna. Dit is van -9,99 tot +9,99;"""@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/attribuutsoort> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/> ;
     rdfs:range xsd:string .
@@ -913,7 +913,7 @@ De verzameling van waarden die gegevens van deze attribuutsoort kunnen hebben, d
 <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/datatype/domein> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "domein"@nl ;
-    mim:definitie "<i>Domein is zelf geen metadata aspect. Onder het kopje ‘domein’ vallen een aantal metadata aspecten die gelden voor een waarde, oftewel de eisen waaraan een waarde van een attribuutsoort moet voldoen.</i>"@nl ;
+    mim:definitie "Domein is zelf geen metadata aspect. Onder het kopje ‘domein’ vallen een aantal metadata aspecten die gelden voor een waarde, oftewel de eisen waaraan een waarde van een attribuutsoort moet voldoen."@nl ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/datatype/domein"^^xsd:anyURI ;
@@ -926,7 +926,7 @@ De verzameling van waarden die gegevens van deze attribuutsoort kunnen hebben, d
     mim:naam "domein"@nl ;
     mim:type mim:CharacterString ;
     dcterms:identifier "EAID_97D23359_0986_4f80_BC78_2FF05445894A" ;
-    rdfs:comment "<i>Domein is zelf geen metadata aspect. Onder het kopje ‘domein’ vallen een aantal metadata aspecten die gelden voor een waarde, oftewel de eisen waaraan een waarde van een attribuutsoort moet voldoen.</i>"@nl ;
+    rdfs:comment "Domein is zelf geen metadata aspect. Onder het kopje ‘domein’ vallen een aantal metadata aspecten die gelden voor een waarde, oftewel de eisen waaraan een waarde van een attribuutsoort moet voldoen."@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/datatype> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/> ;
     rdfs:range xsd:string .
@@ -1027,9 +1027,9 @@ Indien een attribuutsoort deel uit maakt van een gegevensgroeptype, dan wordt de
         owl:DatatypeProperty ;
     rdfs:label "lengte"@nl ;
     mim:definitie """De aanduiding van de lengte van een gegeven. Getallen kunnen altijd positief of negatief zijn.
-<i>Bijvoorbeeld:</i>
-<i>‘1’ als de lengte exact 1 is;</i>
-<i>‘1..2’ als de lengte 1 tot en met 2 lang kan zijn; '‘1,2’ voor Decimale getallen met 1 cijfer voor de komma en 2 erna. </i>Dit is van -9,99 tot +9,99;"""@nl ;
+Bijvoorbeeld:
+‘1’ als de lengte exact 1 is;
+‘1..2’ als de lengte 1 tot en met 2 lang kan zijn; '‘1,2’ voor Decimale getallen met 1 cijfer voor de komma en 2 erna. Dit is van -9,99 tot +9,99;"""@nl ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/datatype/lengte"^^xsd:anyURI ;
@@ -1043,9 +1043,9 @@ Indien een attribuutsoort deel uit maakt van een gegevensgroeptype, dan wordt de
     mim:type mim:CharacterString ;
     dcterms:identifier "EAID_6E342D72_808F_4e7a_AA37_B633F2DA55AF" ;
     rdfs:comment """De aanduiding van de lengte van een gegeven. Getallen kunnen altijd positief of negatief zijn.
-<i>Bijvoorbeeld:</i>
-<i>‘1’ als de lengte exact 1 is;</i>
-<i>‘1..2’ als de lengte 1 tot en met 2 lang kan zijn; '‘1,2’ voor Decimale getallen met 1 cijfer voor de komma en 2 erna. </i>Dit is van -9,99 tot +9,99;"""@nl ;
+Bijvoorbeeld:
+‘1’ als de lengte exact 1 is;
+‘1..2’ als de lengte 1 tot en met 2 lang kan zijn; '‘1,2’ voor Decimale getallen met 1 cijfer voor de komma en 2 erna. Dit is van -9,99 tot +9,99;"""@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/datatype> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/> ;
     rdfs:range xsd:string .

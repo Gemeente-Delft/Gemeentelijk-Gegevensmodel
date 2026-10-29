@@ -165,7 +165,7 @@ Gezinsmigrant en Overige Migrant heeft geen kenmerken en is bedoeld om relaties 
 <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/achternaam> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "achternaam"@nl ;
-    mim:definitie "<font color=\"#610e6a\">De achternaam zoals de medewerker die in het dagelijkse verkeer gebruikt.</font>"@nl ;
+    mim:definitie "De achternaam zoals de medewerker die in het dagelijkse verkeer gebruikt."@nl ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/achternaam"^^xsd:anyURI ;
@@ -178,7 +178,7 @@ Gezinsmigrant en Overige Migrant heeft geen kenmerken en is bedoeld om relaties 
     mim:naam "achternaam"@nl ;
     mim:type mim:CharacterString ;
     dcterms:identifier "EAID_79457AE1_2585_4ce0_A864_D4ADE30A2135" ;
-    rdfs:comment "<font color=\"#610e6a\">De achternaam zoals de medewerker die in het dagelijkse verkeer gebruikt.</font>"@nl ;
+    rdfs:comment "De achternaam zoals de medewerker die in het dagelijkse verkeer gebruikt."@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> ;
     rdfs:range xsd:string .
@@ -205,7 +205,7 @@ Gezinsmigrant en Overige Migrant heeft geen kenmerken en is bedoeld om relaties 
 <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/datumuitdienst> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "datumUitDienst"@nl ;
-    mim:definitie "<font color=\"#610e6a\">Een aanduiding van de datum waarop de arbeidsplaatsvervulling eindigt.</font>"@nl ;
+    mim:definitie "Een aanduiding van de datum waarop de arbeidsplaatsvervulling eindigt."@nl ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/datumuitdienst"^^xsd:anyURI ;
@@ -218,7 +218,7 @@ Gezinsmigrant en Overige Migrant heeft geen kenmerken en is bedoeld om relaties 
     mim:naam "datumUitDienst"@nl ;
     mim:type mim:Date ;
     dcterms:identifier "EAID_AE3CF305_B845_40cf_A9E3_2DE97CB31F46" ;
-    rdfs:comment "<font color=\"#610e6a\">Een aanduiding van de datum waarop de arbeidsplaatsvervulling eindigt.</font>"@nl ;
+    rdfs:comment "Een aanduiding van de datum waarop de arbeidsplaatsvervulling eindigt."@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> ;
     rdfs:range xsd:date .
@@ -226,7 +226,7 @@ Gezinsmigrant en Overige Migrant heeft geen kenmerken en is bedoeld om relaties 
 <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/emailadres> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "emailadres"@nl ;
-    mim:definitie "<font color=\"#610e6a\">Elektronisch postadres waaronder de medewerker in de regel bereikbaar is.</font>"@nl ;
+    mim:definitie "Elektronisch postadres waaronder de medewerker in de regel bereikbaar is."@nl ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/emailadres"^^xsd:anyURI ;
@@ -239,7 +239,7 @@ Gezinsmigrant en Overige Migrant heeft geen kenmerken en is bedoeld om relaties 
     mim:naam "emailadres"@nl ;
     mim:type mim:CharacterString ;
     dcterms:identifier "EAID_2EEFDDE3_164E_4dc6_8573_205834C1AF47" ;
-    rdfs:comment "<font color=\"#610e6a\">Elektronisch postadres waaronder de medewerker in de regel bereikbaar is.</font>"@nl ;
+    rdfs:comment "Elektronisch postadres waaronder de medewerker in de regel bereikbaar is."@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> ;
     rdfs:range xsd:string .
@@ -268,7 +268,7 @@ Gezinsmigrant en Overige Migrant heeft geen kenmerken en is bedoeld om relaties 
 <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/functie> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "functie"@nl ;
-    mim:definitie "<font color=\"#610e6a\">De aanduiding van de taken, rechten en plichten die de medewerker heeft of heeft gehad binnen de zaakbehandelende organisatie.</font>"@nl ;
+    mim:definitie "De aanduiding van de taken, rechten en plichten die de medewerker heeft of heeft gehad binnen de zaakbehandelende organisatie."@nl ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/functie"^^xsd:anyURI ;
@@ -281,7 +281,7 @@ Gezinsmigrant en Overige Migrant heeft geen kenmerken en is bedoeld om relaties 
     mim:naam "functie"@nl ;
     mim:type mim:CharacterString ;
     dcterms:identifier "EAID_F17EE707_8A6A_483b_9ED7_204707E1F384" ;
-    rdfs:comment "<font color=\"#610e6a\">De aanduiding van de taken, rechten en plichten die de medewerker heeft of heeft gehad binnen de zaakbehandelende organisatie.</font>"@nl ;
+    rdfs:comment "De aanduiding van de taken, rechten en plichten die de medewerker heeft of heeft gehad binnen de zaakbehandelende organisatie."@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> ;
     rdfs:range xsd:string .
@@ -289,7 +289,7 @@ Gezinsmigrant en Overige Migrant heeft geen kenmerken en is bedoeld om relaties 
 <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/geslachtsaanduiding> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "geslachtsaanduiding"@nl ;
-    mim:definitie "<font color=\"#610e6a\">Een aanduiding die aangeeft of de persoon een man of een vrouw is, of dat het geslacht nog onbekend is.</font>"@nl ;
+    mim:definitie "Een aanduiding die aangeeft of de persoon een man of een vrouw is, of dat het geslacht nog onbekend is."@nl ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/geslachtsaanduiding"^^xsd:anyURI ;
@@ -302,7 +302,7 @@ Gezinsmigrant en Overige Migrant heeft geen kenmerken en is bedoeld om relaties 
     mim:naam "geslachtsaanduiding"@nl ;
     mim:type mim:CharacterString ;
     dcterms:identifier "EAID_AA40C186_C355_457e_99D9_24BE43B05301" ;
-    rdfs:comment "<font color=\"#610e6a\">Een aanduiding die aangeeft of de persoon een man of een vrouw is, of dat het geslacht nog onbekend is.</font>"@nl ;
+    rdfs:comment "Een aanduiding die aangeeft of de persoon een man of een vrouw is, of dat het geslacht nog onbekend is."@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> ;
     rdfs:range xsd:string .
@@ -310,7 +310,7 @@ Gezinsmigrant en Overige Migrant heeft geen kenmerken en is bedoeld om relaties 
 <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/medewerkeridentificatie> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "medewerkerIdentificatie"@nl ;
-    mim:definitie "<font color=\"#610e6a\">Een korte unieke aanduiding van de medewerker.</font>"@nl ;
+    mim:definitie "Een korte unieke aanduiding van de medewerker."@nl ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/medewerkeridentificatie"^^xsd:anyURI ;
@@ -323,7 +323,7 @@ Gezinsmigrant en Overige Migrant heeft geen kenmerken en is bedoeld om relaties 
     mim:naam "medewerkerIdentificatie"@nl ;
     mim:type mim:CharacterString ;
     dcterms:identifier "EAID_FF819D54_0C4A_4cf7_A828_6587669A8702" ;
-    rdfs:comment "<font color=\"#610e6a\">Een korte unieke aanduiding van de medewerker.</font>"@nl ;
+    rdfs:comment "Een korte unieke aanduiding van de medewerker."@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> ;
     rdfs:range xsd:string .
@@ -331,7 +331,7 @@ Gezinsmigrant en Overige Migrant heeft geen kenmerken en is bedoeld om relaties 
 <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/medewerkertoelichting> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "medewerkerToelichting"@nl ;
-    mim:definitie "<font color=\"#610e6a\">Toelichting bij en/of over de medewerker.</font>"@nl ;
+    mim:definitie "Toelichting bij en/of over de medewerker."@nl ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/medewerkertoelichting"^^xsd:anyURI ;
@@ -344,7 +344,7 @@ Gezinsmigrant en Overige Migrant heeft geen kenmerken en is bedoeld om relaties 
     mim:naam "medewerkerToelichting"@nl ;
     mim:type mim:CharacterString ;
     dcterms:identifier "EAID_C59B1A14_1E2F_4a54_B273_6D4C84713390" ;
-    rdfs:comment "<font color=\"#610e6a\">Toelichting bij en/of over de medewerker.</font>"@nl ;
+    rdfs:comment "Toelichting bij en/of over de medewerker."@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> ;
     rdfs:range xsd:string .
@@ -352,7 +352,7 @@ Gezinsmigrant en Overige Migrant heeft geen kenmerken en is bedoeld om relaties 
 <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/roepnaam> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "roepnaam"@nl ;
-    mim:definitie "<font color=\"#610e6a\">Naam waarmee de werknemer wordt aangesproken.</font>"@nl ;
+    mim:definitie "Naam waarmee de werknemer wordt aangesproken."@nl ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/roepnaam"^^xsd:anyURI ;
@@ -365,7 +365,7 @@ Gezinsmigrant en Overige Migrant heeft geen kenmerken en is bedoeld om relaties 
     mim:naam "roepnaam"@nl ;
     mim:type mim:CharacterString ;
     dcterms:identifier "EAID_A7726010_7E58_40b6_9523_A4CC9844F5DD" ;
-    rdfs:comment "<font color=\"#610e6a\">Naam waarmee de werknemer wordt aangesproken.</font>"@nl ;
+    rdfs:comment "Naam waarmee de werknemer wordt aangesproken."@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> ;
     rdfs:range xsd:string .
@@ -373,7 +373,7 @@ Gezinsmigrant en Overige Migrant heeft geen kenmerken en is bedoeld om relaties 
 <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/telefoonnummer> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "telefoonnummer"@nl ;
-    mim:definitie "<font color=\"#610e6a\">Telefoonnummer waaronder de medewerker in de regel bereikbaar is.</font>"@nl ;
+    mim:definitie "Telefoonnummer waaronder de medewerker in de regel bereikbaar is."@nl ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/telefoonnummer"^^xsd:anyURI ;
@@ -386,7 +386,7 @@ Gezinsmigrant en Overige Migrant heeft geen kenmerken en is bedoeld om relaties 
     mim:naam "telefoonnummer"@nl ;
     mim:type mim:CharacterString ;
     dcterms:identifier "EAID_0BE56460_275E_4dcb_9946_5B88658BF3BD" ;
-    rdfs:comment "<font color=\"#610e6a\">Telefoonnummer waaronder de medewerker in de regel bereikbaar is.</font>"@nl ;
+    rdfs:comment "Telefoonnummer waaronder de medewerker in de regel bereikbaar is."@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> ;
     rdfs:range xsd:string .
@@ -394,7 +394,7 @@ Gezinsmigrant en Overige Migrant heeft geen kenmerken en is bedoeld om relaties 
 <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/voorletters> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "voorletters"@nl ;
-    mim:definitie "<font color=\"#610e6a\">De verzameling letters die gevormd wordt door de eerste letter van alle in volgorde voorkomende voornamen.</font>"@nl ;
+    mim:definitie "De verzameling letters die gevormd wordt door de eerste letter van alle in volgorde voorkomende voornamen."@nl ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/voorletters"^^xsd:anyURI ;
@@ -407,7 +407,7 @@ Gezinsmigrant en Overige Migrant heeft geen kenmerken en is bedoeld om relaties 
     mim:naam "voorletters"@nl ;
     mim:type mim:CharacterString ;
     dcterms:identifier "EAID_65D1582C_5922_4ebb_8CE6_3B0F1BBD0941" ;
-    rdfs:comment "<font color=\"#610e6a\">De verzameling letters die gevormd wordt door de eerste letter van alle in volgorde voorkomende voornamen.</font>"@nl ;
+    rdfs:comment "De verzameling letters die gevormd wordt door de eerste letter van alle in volgorde voorkomende voornamen."@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> ;
     rdfs:range xsd:string .
@@ -415,8 +415,8 @@ Gezinsmigrant en Overige Migrant heeft geen kenmerken en is bedoeld om relaties 
 <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/voorvoegselachternaam> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "voorvoegselAchternaam"@nl ;
-    mim:definitie """<font color="#610e6a">Dat deel van de geslachtsnaam dat voorkomt in Tabel 36 (GBA), voorvoegseltabel, en door een spatie van de geslachtsnaam is</font>
-<font color="#610e6a">gescheiden.</font>"""@nl ;
+    mim:definitie """Dat deel van de geslachtsnaam dat voorkomt in Tabel 36 (GBA), voorvoegseltabel, en door een spatie van de geslachtsnaam is
+gescheiden."""@nl ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/voorvoegselachternaam"^^xsd:anyURI ;
@@ -429,8 +429,8 @@ Gezinsmigrant en Overige Migrant heeft geen kenmerken en is bedoeld om relaties 
     mim:naam "voorvoegselAchternaam"@nl ;
     mim:type mim:CharacterString ;
     dcterms:identifier "EAID_01234EAF_833A_4cd6_8EA0_045F889301FF" ;
-    rdfs:comment """<font color="#610e6a">Dat deel van de geslachtsnaam dat voorkomt in Tabel 36 (GBA), voorvoegseltabel, en door een spatie van de geslachtsnaam is</font>
-<font color="#610e6a">gescheiden.</font>"""@nl ;
+    rdfs:comment """Dat deel van de geslachtsnaam dat voorkomt in Tabel 36 (GBA), voorvoegseltabel, en door een spatie van de geslachtsnaam is
+gescheiden."""@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> ;
     rdfs:range xsd:string .
@@ -2265,18 +2265,18 @@ Dit gegeven wordt door COA bijgewerkt totdat Asielstatushouder  het AZV verlaat.
     mim:definitie """Arbeidsmigranten die oorspronkelijk tijdelijk naar Nederland zijn gekomen, maar zich blijvend willen vestigen.
 
 **Kenmerken:**
-<font color="#1400c4">-</font> Combinatie van werken en leren  
-<font color="#1400c4">-</font> Behoefte aan praktisch en functioneel taalgebruik  
-<font color="#1400c4">-</font> Vaak behoefte aan flexibel en laagdrempelig aanbod"""@nl ;
+- Combinatie van werken en leren
+- Behoefte aan praktisch en functioneel taalgebruik
+- Vaak behoefte aan flexibel en laagdrempelig aanbod"""@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/doelgroep/arbeidsmigranten-met-vestigingsintentie"^^xsd:anyURI ;
     mim:naam "Arbeidsmigranten met vestigingsintentie"@nl ;
     dcterms:identifier "EAID_469317C7_243F_49e3_9EBD_886CB3699F0D" ;
     skos:definition """Arbeidsmigranten die oorspronkelijk tijdelijk naar Nederland zijn gekomen, maar zich blijvend willen vestigen.
 
 **Kenmerken:**
-<font color="#1400c4">-</font> Combinatie van werken en leren  
-<font color="#1400c4">-</font> Behoefte aan praktisch en functioneel taalgebruik  
-<font color="#1400c4">-</font> Vaak behoefte aan flexibel en laagdrempelig aanbod"""@nl ;
+- Combinatie van werken en leren
+- Behoefte aan praktisch en functioneel taalgebruik
+- Vaak behoefte aan flexibel en laagdrempelig aanbod"""@nl ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/doelgroep> ;
     skos:prefLabel "Arbeidsmigranten met vestigingsintentie"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/doelgroep> .
@@ -2288,18 +2288,18 @@ Dit gegeven wordt door COA bijgewerkt totdat Asielstatushouder  het AZV verlaat.
     mim:definitie """Burgers uit EU- en EER-landen die vrijwillig Nederlands willen leren en actief willen deelnemen aan de Nederlandse samenleving.
 
 **Kenmerken:**
-<font color="#1400c4">-</font> Vrijwillige deelname aan inburgerings- of taalactiviteiten  
-<font color="#1400c4">-</font> Vaak gebruik van gemeentelijk aanbod of laagdrempelige voorzieningen  
-<font color="#1400c4">-</font> Focus op praktische taal en maatschappelijke ori&#235;ntatie"""@nl ;
+- Vrijwillige deelname aan inburgerings- of taalactiviteiten
+- Vaak gebruik van gemeentelijk aanbod of laagdrempelige voorzieningen
+- Focus op praktische taal en maatschappelijke oriëntatie"""@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/doelgroep/eu-burgers"^^xsd:anyURI ;
     mim:naam "EU-burgers"@nl ;
     dcterms:identifier "EAID_7157A93A_A6AE_4032_BCCC_0B89F252CFDA" ;
     skos:definition """Burgers uit EU- en EER-landen die vrijwillig Nederlands willen leren en actief willen deelnemen aan de Nederlandse samenleving.
 
 **Kenmerken:**
-<font color="#1400c4">-</font> Vrijwillige deelname aan inburgerings- of taalactiviteiten  
-<font color="#1400c4">-</font> Vaak gebruik van gemeentelijk aanbod of laagdrempelige voorzieningen  
-<font color="#1400c4">-</font> Focus op praktische taal en maatschappelijke ori&#235;ntatie"""@nl ;
+- Vrijwillige deelname aan inburgerings- of taalactiviteiten
+- Vaak gebruik van gemeentelijk aanbod of laagdrempelige voorzieningen
+- Focus op praktische taal en maatschappelijke oriëntatie"""@nl ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/doelgroep> ;
     skos:prefLabel "EU-burgers"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/doelgroep> .
@@ -2311,18 +2311,18 @@ Dit gegeven wordt door COA bijgewerkt totdat Asielstatushouder  het AZV verlaat.
     mim:definitie """Hoogopgeleide migranten die zich duurzaam in Nederland willen vestigen en bewust kiezen voor inburgering.
 
 **Kenmerken:**
-<font color="#1400c4">-</font> Geen wettelijke plicht, wel intrinsieke motivatie  
-<font color="#1400c4">-</font> Gericht op taal, cultuur en sociaal netwerk  
-<font color="#1400c4">-</font> Vaak gefaciliteerd via werkgever of private aanbieders"""@nl ;
+- Geen wettelijke plicht, wel intrinsieke motivatie
+- Gericht op taal, cultuur en sociaal netwerk
+- Vaak gefaciliteerd via werkgever of private aanbieders"""@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/doelgroep/expats-en-kennismigranten"^^xsd:anyURI ;
     mim:naam "Expats en kennismigranten"@nl ;
     dcterms:identifier "EAID_03C67978_CA8D_4305_B71D_CB5E8FE27C3D" ;
     skos:definition """Hoogopgeleide migranten die zich duurzaam in Nederland willen vestigen en bewust kiezen voor inburgering.
 
 **Kenmerken:**
-<font color="#1400c4">-</font> Geen wettelijke plicht, wel intrinsieke motivatie  
-<font color="#1400c4">-</font> Gericht op taal, cultuur en sociaal netwerk  
-<font color="#1400c4">-</font> Vaak gefaciliteerd via werkgever of private aanbieders"""@nl ;
+- Geen wettelijke plicht, wel intrinsieke motivatie
+- Gericht op taal, cultuur en sociaal netwerk
+- Vaak gefaciliteerd via werkgever of private aanbieders"""@nl ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/doelgroep> ;
     skos:prefLabel "Expats en kennismigranten"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/doelgroep> .
@@ -2331,25 +2331,23 @@ Dit gegeven wordt door COA bijgewerkt totdat Asielstatushouder  het AZV verlaat.
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/doelgroep> ;
     rdfs:label "Gezinsmigranten"@nl ;
-    mim:definitie """<font color="#0e0e0e">Mensen die naar Nederland zijn gekomen voor gezinshereniging/-vorming en actief willen participeren.</font>
-<font color="#0e0e0e">
-</font><font color="#0e0e0e"><b>Kenmerkend:</b></font>
-<ul>
-	<li><font color="#0e0e0e">	Sterke motivatie om taal te leren</font></li>
-	<li><font color="#0e0e0e">Vaak gericht op zelfredzaamheid, opvoeding, werk of vrijwilligerswerk</font></li>
-	<li><font color="#0e0e0e">Wisselend opleidingsniveau</font></li>
-</ul>"""@nl ;
+    mim:definitie """Mensen die naar Nederland zijn gekomen voor gezinshereniging/-vorming en actief willen participeren.
+
+Kenmerkend:
+
+- Sterke motivatie om taal te leren
+- Vaak gericht op zelfredzaamheid, opvoeding, werk of vrijwilligerswerk
+- Wisselend opleidingsniveau"""@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/doelgroep/gezinsmigranten"^^xsd:anyURI ;
     mim:naam "Gezinsmigranten"@nl ;
     dcterms:identifier "EAID_1BE710E0_8B08_4257_BF18_B2CF5C0C3C0A" ;
-    skos:definition """<font color="#0e0e0e">Mensen die naar Nederland zijn gekomen voor gezinshereniging/-vorming en actief willen participeren.</font>
-<font color="#0e0e0e">
-</font><font color="#0e0e0e"><b>Kenmerkend:</b></font>
-<ul>
-	<li><font color="#0e0e0e">	Sterke motivatie om taal te leren</font></li>
-	<li><font color="#0e0e0e">Vaak gericht op zelfredzaamheid, opvoeding, werk of vrijwilligerswerk</font></li>
-	<li><font color="#0e0e0e">Wisselend opleidingsniveau</font></li>
-</ul>"""@nl ;
+    skos:definition """Mensen die naar Nederland zijn gekomen voor gezinshereniging/-vorming en actief willen participeren.
+
+Kenmerkend:
+
+- Sterke motivatie om taal te leren
+- Vaak gericht op zelfredzaamheid, opvoeding, werk of vrijwilligerswerk
+- Wisselend opleidingsniveau"""@nl ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/doelgroep> ;
     skos:prefLabel "Gezinsmigranten"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/doelgroep> .
@@ -2361,18 +2359,18 @@ Dit gegeven wordt door COA bijgewerkt totdat Asielstatushouder  het AZV verlaat.
     mim:definitie """Internationale studenten of promovendi die na afronding van hun studie in Nederland willen blijven wonen en werken.
 
 **Kenmerken:**
-<font color="#1400c4">-</font> Vaak hoogopgeleid  
-<font color="#1400c4">-</font> Goede beheersing van Engels, beperkte beheersing van Nederlands  
-<font color="#1400c4">-</font> Focus op arbeidsmarkt, professionele communicatie en burgerschap"""@nl ;
+- Vaak hoogopgeleid
+- Goede beheersing van Engels, beperkte beheersing van Nederlands
+- Focus op arbeidsmarkt, professionele communicatie en burgerschap"""@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/doelgroep/internationale-studenten-blijvers"^^xsd:anyURI ;
     mim:naam "Internationale studenten (blijvers)"@nl ;
     dcterms:identifier "EAID_F95302C2_C06C_4bc2_B20E_BAB809185FD9" ;
     skos:definition """Internationale studenten of promovendi die na afronding van hun studie in Nederland willen blijven wonen en werken.
 
 **Kenmerken:**
-<font color="#1400c4">-</font> Vaak hoogopgeleid  
-<font color="#1400c4">-</font> Goede beheersing van Engels, beperkte beheersing van Nederlands  
-<font color="#1400c4">-</font> Focus op arbeidsmarkt, professionele communicatie en burgerschap"""@nl ;
+- Vaak hoogopgeleid
+- Goede beheersing van Engels, beperkte beheersing van Nederlands
+- Focus op arbeidsmarkt, professionele communicatie en burgerschap"""@nl ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/doelgroep> ;
     skos:prefLabel "Internationale studenten (blijvers)"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/doelgroep> .
@@ -2384,18 +2382,18 @@ Dit gegeven wordt door COA bijgewerkt totdat Asielstatushouder  het AZV verlaat.
     mim:definitie """Personen die willen inburgeren maar extra ondersteuning nodig hebben vanwege persoonlijke of maatschappelijke omstandigheden.
 
 **Kenmerken:**
-<font color="#1400c4">-</font> Laaggeletterdheid, gezondheidsproblemen of psychosociale problematiek  
-<font color="#1400c4">-</font> Langzamer leertraject en intensievere begeleiding  
-<font color="#1400c4">-</font> Combinatie van taal, participatie en ondersteuning nodig"""@nl ;
+- Laaggeletterdheid, gezondheidsproblemen of psychosociale problematiek
+- Langzamer leertraject en intensievere begeleiding
+- Combinatie van taal, participatie en ondersteuning nodig"""@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/doelgroep/kwetsbare-nieuwkomers"^^xsd:anyURI ;
     mim:naam "Kwetsbare nieuwkomers"@nl ;
     dcterms:identifier "EAID_FBB42A58_694F_4020_B346_772EED74E97F" ;
     skos:definition """Personen die willen inburgeren maar extra ondersteuning nodig hebben vanwege persoonlijke of maatschappelijke omstandigheden.
 
 **Kenmerken:**
-<font color="#1400c4">-</font> Laaggeletterdheid, gezondheidsproblemen of psychosociale problematiek  
-<font color="#1400c4">-</font> Langzamer leertraject en intensievere begeleiding  
-<font color="#1400c4">-</font> Combinatie van taal, participatie en ondersteuning nodig"""@nl ;
+- Laaggeletterdheid, gezondheidsproblemen of psychosociale problematiek
+- Langzamer leertraject en intensievere begeleiding
+- Combinatie van taal, participatie en ondersteuning nodig"""@nl ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/doelgroep> ;
     skos:prefLabel "Kwetsbare nieuwkomers"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/doelgroep> .
@@ -2404,25 +2402,25 @@ Dit gegeven wordt door COA bijgewerkt totdat Asielstatushouder  het AZV verlaat.
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/doelgroep> ;
     rdfs:label "Nieuwkomers"@nl ;
-    mim:definitie """<font color="#0e0e0e">Mensen die recent in Nederland zijn komen wonen en zich willen ori&#235;nteren op taal, samenleving en werk.</font>
-<font color="#0e0e0e">
-</font><font color="#0e0e0e"><b>Voorbeelden:</b></font>
-<font color="#0e0e0e">	•	Asielstatushouders</font>
-<font color="#0e0e0e">	•	Gezinsmigranten</font>
-<font color="#0e0e0e">	•	Kennismigranten (met partner)</font>
-<font color="#0e0e0e">
-</font><font color="#0e0e0e"><b>Kenmerkend:</b></font><font color="#0e0e0e"> behoefte aan basisori&#235;ntatie, taalverwerving, wegwijs in instituties.</font>"""@nl ;
+    mim:definitie """Mensen die recent in Nederland zijn komen wonen en zich willen oriënteren op taal, samenleving en werk.
+
+Voorbeelden:
+• Asielstatushouders
+• Gezinsmigranten
+• Kennismigranten (met partner)
+
+Kenmerkend: behoefte aan basisoriëntatie, taalverwerving, wegwijs in instituties."""@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/doelgroep/nieuwkomers"^^xsd:anyURI ;
     mim:naam "Nieuwkomers"@nl ;
     dcterms:identifier "EAID_5D7E8A03_573A_4690_8387_CA160B109E3E" ;
-    skos:definition """<font color="#0e0e0e">Mensen die recent in Nederland zijn komen wonen en zich willen ori&#235;nteren op taal, samenleving en werk.</font>
-<font color="#0e0e0e">
-</font><font color="#0e0e0e"><b>Voorbeelden:</b></font>
-<font color="#0e0e0e">	•	Asielstatushouders</font>
-<font color="#0e0e0e">	•	Gezinsmigranten</font>
-<font color="#0e0e0e">	•	Kennismigranten (met partner)</font>
-<font color="#0e0e0e">
-</font><font color="#0e0e0e"><b>Kenmerkend:</b></font><font color="#0e0e0e"> behoefte aan basisori&#235;ntatie, taalverwerving, wegwijs in instituties.</font>"""@nl ;
+    skos:definition """Mensen die recent in Nederland zijn komen wonen en zich willen oriënteren op taal, samenleving en werk.
+
+Voorbeelden:
+• Asielstatushouders
+• Gezinsmigranten
+• Kennismigranten (met partner)
+
+Kenmerkend: behoefte aan basisoriëntatie, taalverwerving, wegwijs in instituties."""@nl ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/doelgroep> ;
     skos:prefLabel "Nieuwkomers"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/doelgroep> .
@@ -2434,18 +2432,18 @@ Dit gegeven wordt door COA bijgewerkt totdat Asielstatushouder  het AZV verlaat.
     mim:definitie """Personen die al langere tijd in Nederland wonen en alsnog willen inburgeren of hun taal- en participatievaardigheden willen verbeteren.
 
 **Kenmerken:**
-<font color="#1400c4">-</font> Hebben vaak informele participatie opgebouwd  
-<font color="#1400c4">-</font> Motivatie vanuit werk, opvoeding of maatschappelijke betrokkenheid  
-<font color="#1400c4">-</font> Behoefte aan maatwerk en herkenning van bestaande vaardigheden"""@nl ;
+- Hebben vaak informele participatie opgebouwd
+- Motivatie vanuit werk, opvoeding of maatschappelijke betrokkenheid
+- Behoefte aan maatwerk en herkenning van bestaande vaardigheden"""@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/doelgroep/oudkomers"^^xsd:anyURI ;
     mim:naam "Oudkomers"@nl ;
     dcterms:identifier "EAID_4655581F_EB8B_4364_8D44_C9F88011EBEC" ;
     skos:definition """Personen die al langere tijd in Nederland wonen en alsnog willen inburgeren of hun taal- en participatievaardigheden willen verbeteren.
 
 **Kenmerken:**
-<font color="#1400c4">-</font> Hebben vaak informele participatie opgebouwd  
-<font color="#1400c4">-</font> Motivatie vanuit werk, opvoeding of maatschappelijke betrokkenheid  
-<font color="#1400c4">-</font> Behoefte aan maatwerk en herkenning van bestaande vaardigheden"""@nl ;
+- Hebben vaak informele participatie opgebouwd
+- Motivatie vanuit werk, opvoeding of maatschappelijke betrokkenheid
+- Behoefte aan maatwerk en herkenning van bestaande vaardigheden"""@nl ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/doelgroep> ;
     skos:prefLabel "Oudkomers"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/doelgroep> .

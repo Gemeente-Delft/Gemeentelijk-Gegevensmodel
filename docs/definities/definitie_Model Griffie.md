@@ -392,7 +392,7 @@ Attributen van objecttype Raadslid
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Raadsstuk |
-    | toelichting | #NOTES#Een inhoudelijke toelichting op de toepassing van het informatie-element. |
+    | toelichting |  |
     | synoniemen |  |
     | uri |  |
     | bron |  |
@@ -505,7 +505,7 @@ Attributen van objecttype Taakveld
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Vergadering |
-    | toelichting | #NOTES#Een inhoudelijke toelichting op de toepassing van het informatie-element. |
+    | toelichting |  |
     | synoniemen |  |
     | uri |  |
     | bron |  |

@@ -213,3 +213,47 @@ waar de typeklasse buiten de scope valt (`<onbekend:EAID_…>`); dat staat nog o
 - Het shapes-bestand kreeg per run een andere volgorde van de property shapes (willekeurige
   blank-node-id's, rdflib sorteert erop). Sinds 0.8.4 dragen de blank nodes een label uit shape en pad;
   ontologie, shapes, views en definities zijn tussen twee geforceerde runs byte-gelijk.
+
+## Review van de LOD-site door Ashkan (29 oktober 2026) en crunch_uml 0.8.5
+
+Ashkan liet de site door Grok nalopen; zeven punten, drie soorten oorzaak.
+
+**In de renderer, opgelost in crunch_uml 0.8.5.** (1) De `mim:populatie` van Wijk en Buurt stond dertien keer
+achter elkaar: EA plakt de memotekst van een tag bij elke profielsynchronisatie opnieuw achter een
+`#NOTES#`-scheider (681 tagwaarden in het model, 510 identieke herhalingen) en `clean_value` knipte alleen
+bij de eerste scheider. Nu blijft elke tekst één keer over, ook in de documentatie (13 pagina's toonden
+rauwe `#NOTES#`-tekst). (2) HTML uit EA-notities (676 `<font>`, 216 `<ul>`/`<li>`, 164 `<b>`/`<i>`, 114
+entiteiten in de ontologie) wordt platte tekst, lijstitems als `- `-regels. (3) Relaties met een onleesbare
+multipliciteit staan met naam in de samenvatting van de export. Proef op de GGM-database: 0 HTML-resten,
+0 `#NOTES#`.
+
+**In het model, te corrigeren in EA (beheerder).**
+
+- Naamgeving van de BAG-attributen: Standplaats gebruikt `Datum Begin Geldigheid`, `Datum Einde Geldigheid`,
+  `Datum Einde` en `Geconstateerd` (ook bij Buurt, Gemeente, Wijk); OpenbareRuimte `begingeldigheid`;
+  Nummeraanduiding `eindeGeldigheid`; de overige klassen `beginGeldigheid`, `eindGeldigheid`, `datumEinde`.
+  De typen wisselen tussen `DATUM`, `Date` en `DateTime`; `Wijk.datumEinde` is `char`. Labels en IRI's volgen
+  de namen, dus `standplaats/datum-einde` naast `nummeraanduiding/eindegeldigheid` komt hiervandaan.
+- `geconstateerd`: Buurt, Ligplaats en Woonplaats typeren het met de BAG-enumeratie `Boolean` (ja, nee,
+  leeg, onbekend) en worden daardoor `owl:ObjectProperty` met range `kern/bag/boolean`; de andere acht
+  BAG-klassen gebruiken het primitieve `boolean` (`owl:DatatypeProperty`, `xsd:boolean`).
+- Multipliciteit `1..` zonder bovengrens bij 13 relaties (geen `mim:kardinaliteit` in de LOD):
+  - 'Ligt in' (kern/bag/woonplaats -> kern/bag/gemeente): 1..
+  - 'betreft' (kern/rgbzplus/rgbz/kern-rgbz/heffing -> veiligheid-en-vergunningen/vth/vorderingregel): 1..
+  - 'betreft' (volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/omgevingswet/aanvragen-en-meldingen/verzoek -> volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/omgevingswet/aanvragen-en-meldingen/project): 1..
+  - 'heeft' (veiligheid-en-vergunningen/vth/bevinding -> veiligheid-en-vergunningen/vth/inspectie): 1..
+  - 'heeft' (veiligheid-en-vergunningen/vth/heffinggrondslag -> veiligheid-en-vergunningen/vth/activiteit-omgevingswet): 1..
+  - 'heeft' (veiligheid-en-vergunningen/vth/inspectie -> veiligheid-en-vergunningen/vth/vthzaak): 1..
+  - 'heeft' (veiligheid-en-vergunningen/vth/kosten -> veiligheid-en-vergunningen/vth/vthzaak): 1..
+  - 'heeft' (veiligheid-en-vergunningen/vth/vordering -> veiligheid-en-vergunningen/vth/vthzaak): 1..
+  - 'is functionaris van' (kern/rsgbplus/rsgb/kern-rsgb/maatschappelijkeactiviteit -> kern/rsgbplus/rsgb/kern-rsgb/natuurlijkpersoon): 1..
+  - 'is van' (kern/rgbzplus/rgbz/kern-rgbz/bedrijfsproces -> kern/rgbzplus/rgbz/kern-rgbz/bedrijfsprocestype): 1..
+  - 'is van' (veiligheid-en-vergunningen/vth/leges-grondslag -> veiligheid-en-vergunningen/vth/vthzaak): 1..
+  - 'is' (kern/rgbzplus/rgbz/kern-rgbz/object -> kern/rgbzplus/rgbz/kern-rgbz/besluit): 1..
+  - 'ligt in' (kern/rsgbplus/rsgb/archief/kern-rsgb/openbareruimte -> kern/rsgbplus/rsgb/archief/kern-rsgb/woonplaats): 1..
+
+**Bewuste keuze.** `mim:definitie` naast `rdfs:comment` met dezelfde tekst is geen fout: MIM verlangt
+`mim:definitie` (in de MIM-vocabulaire geen subproperty van `rdfs:comment`), en de lod-browser leest
+`skos:definition`, `rdfs:comment` of `dct:description`. Zonder `rdfs:comment` toont de browser geen
+definitie. Wil Ashkan het compacter, dan kan hij `mim:definitie` aan zijn beschrijvingspredicaten
+toevoegen, waarna `rdfs:comment` kan vervallen.

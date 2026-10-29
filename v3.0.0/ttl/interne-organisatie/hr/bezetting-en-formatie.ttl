@@ -893,7 +893,7 @@
 <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/organisatorischeeenheid/datumontstaan> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "datumOntstaan"@nl ;
-    mim:definitie "<font color=\"#610e6a\">De datum waarop de organisatorische eenheid is ontstaan.</font>"@nl ;
+    mim:definitie "De datum waarop de organisatorische eenheid is ontstaan."@nl ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/organisatorischeeenheid/datumontstaan"^^xsd:anyURI ;
@@ -906,7 +906,7 @@
     mim:naam "datumOntstaan"@nl ;
     mim:type mim:Date ;
     dcterms:identifier "EAID_034DF486_CDDD_4f7a_B42A_3C6A19F2903E" ;
-    rdfs:comment "<font color=\"#610e6a\">De datum waarop de organisatorische eenheid is ontstaan.</font>"@nl ;
+    rdfs:comment "De datum waarop de organisatorische eenheid is ontstaan."@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/organisatorischeeenheid> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> ;
     rdfs:range xsd:date .
@@ -914,7 +914,7 @@
 <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/organisatorischeeenheid/datumopheffing> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "datumOpheffing"@nl ;
-    mim:definitie "<font color=\"#610e6a\">De datum waarop de organisatorische eenheid is opgeheven.</font>"@nl ;
+    mim:definitie "De datum waarop de organisatorische eenheid is opgeheven."@nl ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/organisatorischeeenheid/datumopheffing"^^xsd:anyURI ;
@@ -927,7 +927,7 @@
     mim:naam "datumOpheffing"@nl ;
     mim:type mim:Date ;
     dcterms:identifier "EAID_91E44BF9_97BF_4c2b_8835_9B5D61343BE3" ;
-    rdfs:comment "<font color=\"#610e6a\">De datum waarop de organisatorische eenheid is opgeheven.</font>"@nl ;
+    rdfs:comment "De datum waarop de organisatorische eenheid is opgeheven."@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/organisatorischeeenheid> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> ;
     rdfs:range xsd:date .
@@ -935,7 +935,7 @@
 <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/organisatorischeeenheid/emailadres> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "emailadres"@nl ;
-    mim:definitie "<font color=\"#610e6a\">Elektronisch postadres waaronder de organisatorische eenheid in de regel bereikbaar is.</font>"@nl ;
+    mim:definitie "Elektronisch postadres waaronder de organisatorische eenheid in de regel bereikbaar is."@nl ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/organisatorischeeenheid/emailadres"^^xsd:anyURI ;
@@ -948,7 +948,7 @@
     mim:naam "emailadres"@nl ;
     mim:type mim:CharacterString ;
     dcterms:identifier "EAID_4AE8DAEC_78F6_4b89_8FE6_2BADE0E8D539" ;
-    rdfs:comment "<font color=\"#610e6a\">Elektronisch postadres waaronder de organisatorische eenheid in de regel bereikbaar is.</font>"@nl ;
+    rdfs:comment "Elektronisch postadres waaronder de organisatorische eenheid in de regel bereikbaar is."@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/organisatorischeeenheid> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> ;
     rdfs:range xsd:string .
@@ -956,7 +956,7 @@
 <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/organisatorischeeenheid/faxnummer> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "faxnummer"@nl ;
-    mim:definitie "<font color=\"#610e6a\">Faxnummer waaronder de organisatorische eenheid in de regel bereikbaar is.</font>"@nl ;
+    mim:definitie "Faxnummer waaronder de organisatorische eenheid in de regel bereikbaar is."@nl ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/organisatorischeeenheid/faxnummer"^^xsd:anyURI ;
@@ -969,7 +969,7 @@
     mim:naam "faxnummer"@nl ;
     mim:type mim:CharacterString ;
     dcterms:identifier "EAID_8C18F19B_24D1_433d_B435_194735264036" ;
-    rdfs:comment "<font color=\"#610e6a\">Faxnummer waaronder de organisatorische eenheid in de regel bereikbaar is.</font>"@nl ;
+    rdfs:comment "Faxnummer waaronder de organisatorische eenheid in de regel bereikbaar is."@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/organisatorischeeenheid> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> ;
     rdfs:range xsd:string .
@@ -997,7 +997,7 @@
 <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/organisatorischeeenheid/naam> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "naam"@nl ;
-    mim:definitie "<font color=\"#610e6a\">De feitelijke naam van de organisatorische eenheid.</font>"@nl ;
+    mim:definitie "De feitelijke naam van de organisatorische eenheid."@nl ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/organisatorischeeenheid/naam"^^xsd:anyURI ;
@@ -1010,7 +1010,7 @@
     mim:naam "naam"@nl ;
     mim:type mim:CharacterString ;
     dcterms:identifier "EAID_62135F33_66B8_435f_804E_C86312DEFA0D" ;
-    rdfs:comment "<font color=\"#610e6a\">De feitelijke naam van de organisatorische eenheid.</font>"@nl ;
+    rdfs:comment "De feitelijke naam van de organisatorische eenheid."@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/organisatorischeeenheid> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> ;
     rdfs:range xsd:string .
@@ -1018,7 +1018,7 @@
 <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/organisatorischeeenheid/naamverkort> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "naamVerkort"@nl ;
-    mim:definitie "<font color=\"#610e6a\">Een verkorte naam voor de organisatorische eenheid.</font>"@nl ;
+    mim:definitie "Een verkorte naam voor de organisatorische eenheid."@nl ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/organisatorischeeenheid/naamverkort"^^xsd:anyURI ;
@@ -1031,7 +1031,7 @@
     mim:naam "naamVerkort"@nl ;
     mim:type mim:CharacterString ;
     dcterms:identifier "EAID_FE9B02D3_DE16_4c7f_8B02_166657BCFE77" ;
-    rdfs:comment "<font color=\"#610e6a\">Een verkorte naam voor de organisatorische eenheid.</font>"@nl ;
+    rdfs:comment "Een verkorte naam voor de organisatorische eenheid."@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/organisatorischeeenheid> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> ;
     rdfs:range xsd:string .
@@ -1039,7 +1039,7 @@
 <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/organisatorischeeenheid/omschrijving> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "omschrijving"@nl ;
-    mim:definitie "<font color=\"#610e6a\">Een omschrijving van de organisatorische eenheid.</font>"@nl ;
+    mim:definitie "Een omschrijving van de organisatorische eenheid."@nl ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/organisatorischeeenheid/omschrijving"^^xsd:anyURI ;
@@ -1052,7 +1052,7 @@
     mim:naam "omschrijving"@nl ;
     mim:type mim:CharacterString ;
     dcterms:identifier "EAID_BE46B281_992C_4153_94DF_6E8ADEB407CC" ;
-    rdfs:comment "<font color=\"#610e6a\">Een omschrijving van de organisatorische eenheid.</font>"@nl ;
+    rdfs:comment "Een omschrijving van de organisatorische eenheid."@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/organisatorischeeenheid> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> ;
     rdfs:range xsd:string .
@@ -1060,7 +1060,7 @@
 <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/organisatorischeeenheid/organisatieidentificatie> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "organisatieIdentificatie"@nl ;
-    mim:definitie "<font color=\"#610e6a\">Een korte identificatie van de organisatorische eenheid.</font>"@nl ;
+    mim:definitie "Een korte identificatie van de organisatorische eenheid."@nl ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/organisatorischeeenheid/organisatieidentificatie"^^xsd:anyURI ;
@@ -1073,7 +1073,7 @@
     mim:naam "organisatieIdentificatie"@nl ;
     mim:type mim:CharacterString ;
     dcterms:identifier "EAID_59CD4AEE_EF70_4ac1_8728_80096C4DA80F" ;
-    rdfs:comment "<font color=\"#610e6a\">Een korte identificatie van de organisatorische eenheid.</font>"@nl ;
+    rdfs:comment "Een korte identificatie van de organisatorische eenheid."@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/organisatorischeeenheid> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> ;
     rdfs:range xsd:string .
@@ -1081,7 +1081,7 @@
 <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/organisatorischeeenheid/telefoonnummer> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "telefoonnummer"@nl ;
-    mim:definitie "<font color=\"#610e6a\">Telefoonnummer waaronder de organisatorische eenheid in de regel bereikbaar is.</font>"@nl ;
+    mim:definitie "Telefoonnummer waaronder de organisatorische eenheid in de regel bereikbaar is."@nl ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/organisatorischeeenheid/telefoonnummer"^^xsd:anyURI ;
@@ -1094,7 +1094,7 @@
     mim:naam "telefoonnummer"@nl ;
     mim:type mim:CharacterString ;
     dcterms:identifier "EAID_7D7E7DCC_9938_43df_A3E6_CD6A6CD80564" ;
-    rdfs:comment "<font color=\"#610e6a\">Telefoonnummer waaronder de organisatorische eenheid in de regel bereikbaar is.</font>"@nl ;
+    rdfs:comment "Telefoonnummer waaronder de organisatorische eenheid in de regel bereikbaar is."@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/organisatorischeeenheid> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> ;
     rdfs:range xsd:string .
@@ -1102,7 +1102,7 @@
 <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/organisatorischeeenheid/toelichting> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "toelichting"@nl ;
-    mim:definitie "<font color=\"#610e6a\">Toelichting bij de organisatorische eenheid.</font>"@nl ;
+    mim:definitie "Toelichting bij de organisatorische eenheid."@nl ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/organisatorischeeenheid/toelichting"^^xsd:anyURI ;
@@ -1115,7 +1115,7 @@
     mim:naam "toelichting"@nl ;
     mim:type mim:CharacterString ;
     dcterms:identifier "EAID_F40EF4CB_AF65_4c93_8B9D_7D78F5D0A0DC" ;
-    rdfs:comment "<font color=\"#610e6a\">Toelichting bij de organisatorische eenheid.</font>"@nl ;
+    rdfs:comment "Toelichting bij de organisatorische eenheid."@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/organisatorischeeenheid> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> ;
     rdfs:range xsd:string .

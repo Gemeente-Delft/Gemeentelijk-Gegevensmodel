@@ -134,7 +134,7 @@ Attributen van objecttype Andere reden verzoek
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Diensten::Aanvraag |
-    | toelichting | • In de context van diensten bij de overheid betreft een aanvraag het formele indienen van informatie of documenten door een aanvrager zodat de overheid een dienst kan verlenen of een besluit kan nemen.<br>• Diensten omvatten dienstverlening zoals vergunningen, belastingen, subsidies, uitkeringen en andere producten die een grondslag hebben in wet- en regelgeving en waarvoor een aanvraagprocedure geldt.<br>• De aanvraag kan schriftelijk, digitaal of via een online formulier plaatsvinden en vormt vaak de start van een bestuurlijke procedure met termen zoals ontvangstbevestiging, beoordeling en besluitvorming.#NOTES#Description: Aanvullende beschrijving van het construct met de bedoeling dat te verduidelijken.<br>#NOTES#Description: Aanvullende beschrijving van het construct met de bedoeling dat te verduidelijken. |
+    | toelichting | • In de context van diensten bij de overheid betreft een aanvraag het formele indienen van informatie of documenten door een aanvrager zodat de overheid een dienst kan verlenen of een besluit kan nemen.<br>• Diensten omvatten dienstverlening zoals vergunningen, belastingen, subsidies, uitkeringen en andere producten die een grondslag hebben in wet- en regelgeving en waarvoor een aanvraagprocedure geldt.<br>• De aanvraag kan schriftelijk, digitaal of via een online formulier plaatsvinden en vormt vaak de start van een bestuurlijke procedure met termen zoals ontvangstbevestiging, beoordeling en besluitvorming. |
     | synoniemen |  |
     | uri |  |
     | bron |  |
@@ -169,7 +169,7 @@ Attributen van objecttype Diensten::Aanvraag
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Diensten::Aanvraag levensonderhoud |
-    | toelichting | • Het begrip verwijst in de praktijk meestal naar de aanvraag van een bijstandsuitkering of andere sociale uitkering die bedoeld is om een tekort aan inkomen voor noodzakelijke kosten van bestaan (zoals voedsel, huisvesting en basisbehoeften) aan te vullen.<br>• Deze aanvraag wordt beoordeeld op basis van wettelijke regelingen zoals de Participatiewet: de gemeente bepaalt of de aanvrager voldoet aan voorwaarden zoals inkomen, vermogen en leefsituatie.<br>• Een aanvraag levensonderhoud start de procedure voor het vaststellen van recht op bijstand of soortgelijke ondersteuning en kan digitaal of schriftelijk worden ingediend.#NOTES#Description: Aanvullende beschrijving van het construct met de bedoeling dat te verduidelijken.<br>#NOTES#Description: Aanvullende beschrijving van het construct met de bedoeling dat te verduidelijken. |
+    | toelichting | • Het begrip verwijst in de praktijk meestal naar de aanvraag van een bijstandsuitkering of andere sociale uitkering die bedoeld is om een tekort aan inkomen voor noodzakelijke kosten van bestaan (zoals voedsel, huisvesting en basisbehoeften) aan te vullen.<br>• Deze aanvraag wordt beoordeeld op basis van wettelijke regelingen zoals de Participatiewet: de gemeente bepaalt of de aanvrager voldoet aan voorwaarden zoals inkomen, vermogen en leefsituatie.<br>• Een aanvraag levensonderhoud start de procedure voor het vaststellen van recht op bijstand of soortgelijke ondersteuning en kan digitaal of schriftelijk worden ingediend. |
     | synoniemen |  |
     | uri |  |
     | bron |  |
@@ -537,7 +537,7 @@ Attributen van objecttype Ingang bijstandsuitkering
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Levenssituatie::Levenssituatie |
-    | toelichting | • Levenssituatie beschrijft de samenhang van persoonlijke omstandigheden zoals inkomen, woonomgeving, gezinssituatie, gezondheid, werk en sociale relaties die samen de leefwereld van een individu bepalen.<br>• Het begrip wordt gebruikt in beleid, statistiek en sociale analyses om te duiden hoe iemands omstandigheden de mogelijkheden en het welzijn beïnvloeden.<br>• In sociale contexten kan een instabiele of kwetsbare levenssituatie aanleiding zijn voor (extra) ondersteuning of interventies door gemeenten en andere instanties.#NOTES#Description: Aanvullende beschrijving van het construct met de bedoeling dat te verduidelijken.<br>#NOTES#Description: Aanvullende beschrijving van het construct met de bedoeling dat te verduidelijken. |
+    | toelichting | • Levenssituatie beschrijft de samenhang van persoonlijke omstandigheden zoals inkomen, woonomgeving, gezinssituatie, gezondheid, werk en sociale relaties die samen de leefwereld van een individu bepalen.<br>• Het begrip wordt gebruikt in beleid, statistiek en sociale analyses om te duiden hoe iemands omstandigheden de mogelijkheden en het welzijn beïnvloeden.<br>• In sociale contexten kan een instabiele of kwetsbare levenssituatie aanleiding zijn voor (extra) ondersteuning of interventies door gemeenten en andere instanties. |
     | synoniemen |  |
     | uri |  |
     | bron |  |

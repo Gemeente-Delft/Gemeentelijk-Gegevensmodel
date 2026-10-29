@@ -191,7 +191,7 @@
 <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaaktype/archiefcode> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "archiefcode"@nl ;
-    mim:definitie "<font color=\"#610e6a\">De systematische identificatie van zaakdossiers van dit ZAAKTYPE overeenkomstig logisch gestructureerde conventies, methoden en procedureregels.</font>"@nl ;
+    mim:definitie "De systematische identificatie van zaakdossiers van dit ZAAKTYPE overeenkomstig logisch gestructureerde conventies, methoden en procedureregels."@nl ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaaktype/archiefcode"^^xsd:anyURI ;
@@ -204,7 +204,7 @@
     mim:naam "archiefcode"@nl ;
     mim:type mim:CharacterString ;
     dcterms:identifier "EAID_EA3C4D9F_1F0E_42bb_AF6C_468862470DEA" ;
-    rdfs:comment "<font color=\"#610e6a\">De systematische identificatie van zaakdossiers van dit ZAAKTYPE overeenkomstig logisch gestructureerde conventies, methoden en procedureregels.</font>"@nl ;
+    rdfs:comment "De systematische identificatie van zaakdossiers van dit ZAAKTYPE overeenkomstig logisch gestructureerde conventies, methoden en procedureregels."@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaaktype> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> ;
     rdfs:range xsd:string .
@@ -212,7 +212,7 @@
 <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaaktype/datumbegingeldigheidzaaktype> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "datumBeginGeldigheidZaaktype"@nl ;
-    mim:definitie "<font color=\"#610e6a\">De datum waarop het ZAAKTYPE is ontstaan.</font>"@nl ;
+    mim:definitie "De datum waarop het ZAAKTYPE is ontstaan."@nl ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaaktype/datumbegingeldigheidzaaktype"^^xsd:anyURI ;
@@ -225,7 +225,7 @@
     mim:naam "datumBeginGeldigheidZaaktype"@nl ;
     mim:type mim:CharacterString ;
     dcterms:identifier "EAID_18396FA2_8AF3_4690_9F6D_30A688A9859B" ;
-    rdfs:comment "<font color=\"#610e6a\">De datum waarop het ZAAKTYPE is ontstaan.</font>"@nl ;
+    rdfs:comment "De datum waarop het ZAAKTYPE is ontstaan."@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaaktype> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> ;
     rdfs:range xsd:string .
@@ -233,7 +233,7 @@
 <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaaktype/datumeindegeldigheidzaaktype> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "datumEindeGeldigheidZaaktype"@nl ;
-    mim:definitie "<font color=\"#610e6a\">De datum waarop het ZAAKTYPE is opgeheven.</font>"@nl ;
+    mim:definitie "De datum waarop het ZAAKTYPE is opgeheven."@nl ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaaktype/datumeindegeldigheidzaaktype"^^xsd:anyURI ;
@@ -246,7 +246,7 @@
     mim:naam "datumEindeGeldigheidZaaktype"@nl ;
     mim:type mim:CharacterString ;
     dcterms:identifier "EAID_CD96679E_7E9B_4ae4_B47B_AFEDB831F847" ;
-    rdfs:comment "<font color=\"#610e6a\">De datum waarop het ZAAKTYPE is opgeheven.</font>"@nl ;
+    rdfs:comment "De datum waarop het ZAAKTYPE is opgeheven."@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaaktype> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> ;
     rdfs:range xsd:string .
@@ -254,7 +254,7 @@
 <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaaktype/doorlooptijdbehandeling> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "doorlooptijdBehandeling"@nl ;
-    mim:definitie "<font color=\"#610e6a\">De periode waarbinnen volgens wet- en regelgeving een ZAAk van het ZAAKTYPE afgerond dient te zijn.</font>"@nl ;
+    mim:definitie "De periode waarbinnen volgens wet- en regelgeving een ZAAk van het ZAAKTYPE afgerond dient te zijn."@nl ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaaktype/doorlooptijdbehandeling"^^xsd:anyURI ;
@@ -267,7 +267,7 @@
     mim:naam "doorlooptijdBehandeling"@nl ;
     mim:type mim:Integer ;
     dcterms:identifier "EAID_7FC0FD86_BD22_4080_814C_E17637DC8605" ;
-    rdfs:comment "<font color=\"#610e6a\">De periode waarbinnen volgens wet- en regelgeving een ZAAk van het ZAAKTYPE afgerond dient te zijn.</font>"@nl ;
+    rdfs:comment "De periode waarbinnen volgens wet- en regelgeving een ZAAk van het ZAAKTYPE afgerond dient te zijn."@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaaktype> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> ;
     rdfs:range xsd:integer .
@@ -275,7 +275,7 @@
 <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaaktype/indicatiepublicatie> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "indicatiePublicatie"@nl ;
-    mim:definitie "<font color=\"#610e6a\">Aanduiding of (het starten van) een ZAAK van dit ZAAKTYPE gepubliceerd moet worden.</font>"@nl ;
+    mim:definitie "Aanduiding of (het starten van) een ZAAK van dit ZAAKTYPE gepubliceerd moet worden."@nl ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaaktype/indicatiepublicatie"^^xsd:anyURI ;
@@ -288,7 +288,7 @@
     mim:naam "indicatiePublicatie"@nl ;
     mim:type mim:CharacterString ;
     dcterms:identifier "EAID_0F36D8CC_8F45_4e89_9A49_795AAF96EA04" ;
-    rdfs:comment "<font color=\"#610e6a\">Aanduiding of (het starten van) een ZAAK van dit ZAAKTYPE gepubliceerd moet worden.</font>"@nl ;
+    rdfs:comment "Aanduiding of (het starten van) een ZAAK van dit ZAAKTYPE gepubliceerd moet worden."@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaaktype> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> ;
     rdfs:range xsd:string .
@@ -296,7 +296,7 @@
 <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaaktype/publicatietekst> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "publicatietekst"@nl ;
-    mim:definitie "<font color=\"#610e6a\">De generieke tekst van de publicatie van ZAAKen van dit ZAAKTYPE</font>"@nl ;
+    mim:definitie "De generieke tekst van de publicatie van ZAAKen van dit ZAAKTYPE"@nl ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaaktype/publicatietekst"^^xsd:anyURI ;
@@ -309,7 +309,7 @@
     mim:naam "publicatietekst"@nl ;
     mim:type mim:CharacterString ;
     dcterms:identifier "EAID_E7C21283_8D81_4da2_A284_3E0F6E76788C" ;
-    rdfs:comment "<font color=\"#610e6a\">De generieke tekst van de publicatie van ZAAKen van dit ZAAKTYPE</font>"@nl ;
+    rdfs:comment "De generieke tekst van de publicatie van ZAAKen van dit ZAAKTYPE"@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaaktype> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> ;
     rdfs:range xsd:string .
@@ -317,7 +317,7 @@
 <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaaktype/servicenormbehandeling> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "servicenormBehandeling"@nl ;
-    mim:definitie "<font color=\"#610e6a\">De periode waarbinnen verwacht wordt dat een ZAAk van het ZAAKTYPE afgerond wordt coform de geldende servicenormen van de zaakbehandelende organisatie(s).</font>"@nl ;
+    mim:definitie "De periode waarbinnen verwacht wordt dat een ZAAk van het ZAAKTYPE afgerond wordt coform de geldende servicenormen van de zaakbehandelende organisatie(s)."@nl ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaaktype/servicenormbehandeling"^^xsd:anyURI ;
@@ -330,7 +330,7 @@
     mim:naam "servicenormBehandeling"@nl ;
     mim:type mim:Integer ;
     dcterms:identifier "EAID_43E2E9F2_6A2C_44e0_A5B1_CEC8325D9C1F" ;
-    rdfs:comment "<font color=\"#610e6a\">De periode waarbinnen verwacht wordt dat een ZAAk van het ZAAKTYPE afgerond wordt coform de geldende servicenormen van de zaakbehandelende organisatie(s).</font>"@nl ;
+    rdfs:comment "De periode waarbinnen verwacht wordt dat een ZAAk van het ZAAKTYPE afgerond wordt coform de geldende servicenormen van de zaakbehandelende organisatie(s)."@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaaktype> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> ;
     rdfs:range xsd:integer .
@@ -338,7 +338,7 @@
 <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaaktype/trefwoord> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "trefwoord"@nl ;
-    mim:definitie "<font color=\"#610e6a\">Een trefwoord waarmee ZAAKen van het ZAAKTYPE kunnen worden gekarakteriseerd.</font>"@nl ;
+    mim:definitie "Een trefwoord waarmee ZAAKen van het ZAAKTYPE kunnen worden gekarakteriseerd."@nl ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaaktype/trefwoord"^^xsd:anyURI ;
@@ -351,7 +351,7 @@
     mim:naam "trefwoord"@nl ;
     mim:type mim:CharacterString ;
     dcterms:identifier "EAID_A0C90878_FDB3_4f79_99E8_F99309D1D4E6" ;
-    rdfs:comment "<font color=\"#610e6a\">Een trefwoord waarmee ZAAKen van het ZAAKTYPE kunnen worden gekarakteriseerd.</font>"@nl ;
+    rdfs:comment "Een trefwoord waarmee ZAAKen van het ZAAKTYPE kunnen worden gekarakteriseerd."@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaaktype> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> ;
     rdfs:range xsd:string .
@@ -359,7 +359,7 @@
 <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaaktype/vertrouwelijkaanduiding> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "vertrouwelijkAanduiding"@nl ;
-    mim:definitie "<font color=\"#610e6a\">Aanduiding van de mate waarin zaakdossiers van ZAAKen van dit ZAAKTYPE voor de openbaarheid bestemd zijn.</font>"@nl ;
+    mim:definitie "Aanduiding van de mate waarin zaakdossiers van ZAAKen van dit ZAAKTYPE voor de openbaarheid bestemd zijn."@nl ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaaktype/vertrouwelijkaanduiding"^^xsd:anyURI ;
@@ -372,7 +372,7 @@
     mim:naam "vertrouwelijkAanduiding"@nl ;
     mim:type mim:CharacterString ;
     dcterms:identifier "EAID_7AA3DD6A_2FBC_4873_9B86_C80E9F87CDF8" ;
-    rdfs:comment "<font color=\"#610e6a\">Aanduiding van de mate waarin zaakdossiers van ZAAKen van dit ZAAKTYPE voor de openbaarheid bestemd zijn.</font>"@nl ;
+    rdfs:comment "Aanduiding van de mate waarin zaakdossiers van ZAAKen van dit ZAAKTYPE voor de openbaarheid bestemd zijn."@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaaktype> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> ;
     rdfs:range xsd:string .
@@ -380,7 +380,7 @@
 <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaaktype/zaakcategorie> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "zaakcategorie"@nl ;
-    mim:definitie "<font color=\"#610e6a\">Typering van de aard van ZAAKen van het ZAAKTYPE.</font>"@nl ;
+    mim:definitie "Typering van de aard van ZAAKen van het ZAAKTYPE."@nl ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaaktype/zaakcategorie"^^xsd:anyURI ;
@@ -393,7 +393,7 @@
     mim:naam "zaakcategorie"@nl ;
     mim:type mim:CharacterString ;
     dcterms:identifier "EAID_1706776B_9325_44fb_84CB_F0637097EAC3" ;
-    rdfs:comment "<font color=\"#610e6a\">Typering van de aard van ZAAKen van het ZAAKTYPE.</font>"@nl ;
+    rdfs:comment "Typering van de aard van ZAAKen van het ZAAKTYPE."@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaaktype> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> ;
     rdfs:range xsd:string .
@@ -401,7 +401,7 @@
 <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaaktype/zaaktypeomschrijving> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "zaaktypeOmschrijving"@nl ;
-    mim:definitie "<font color=\"#610e6a\">Omschrijving van de aard van ZAAKen van het ZAAKTYPE.</font>"@nl ;
+    mim:definitie "Omschrijving van de aard van ZAAKen van het ZAAKTYPE."@nl ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaaktype/zaaktypeomschrijving"^^xsd:anyURI ;
@@ -414,7 +414,7 @@
     mim:naam "zaaktypeOmschrijving"@nl ;
     mim:type mim:CharacterString ;
     dcterms:identifier "EAID_189BD3BF_9167_4891_B937_73EBAAB53BD1" ;
-    rdfs:comment "<font color=\"#610e6a\">Omschrijving van de aard van ZAAKen van het ZAAKTYPE.</font>"@nl ;
+    rdfs:comment "Omschrijving van de aard van ZAAKen van het ZAAKTYPE."@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaaktype> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> ;
     rdfs:range xsd:string .
@@ -422,7 +422,7 @@
 <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaaktype/zaaktypeomschrijvinggeneriek> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "zaaktypeOmschrijvingGeneriek"@nl ;
-    mim:definitie "<font color=\"#610e6a\">Algemeen gehanteerde omschrijving van de aard van ZAAKen van het ZAAKTYPE</font>"@nl ;
+    mim:definitie "Algemeen gehanteerde omschrijving van de aard van ZAAKen van het ZAAKTYPE"@nl ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaaktype/zaaktypeomschrijvinggeneriek"^^xsd:anyURI ;
@@ -435,7 +435,7 @@
     mim:naam "zaaktypeOmschrijvingGeneriek"@nl ;
     mim:type mim:CharacterString ;
     dcterms:identifier "EAID_8AC6178D_D605_4238_A0FE_5C5E40A12B60" ;
-    rdfs:comment "<font color=\"#610e6a\">Algemeen gehanteerde omschrijving van de aard van ZAAKen van het ZAAKTYPE</font>"@nl ;
+    rdfs:comment "Algemeen gehanteerde omschrijving van de aard van ZAAKen van het ZAAKTYPE"@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaaktype> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> ;
     rdfs:range xsd:string .

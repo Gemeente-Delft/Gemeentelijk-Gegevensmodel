@@ -2578,18 +2578,18 @@ Dit gegeven wordt door COA bijgewerkt totdat Asielstatushouder  het AZV verlaat.
     mim:definitie """Arbeidsmigranten die oorspronkelijk tijdelijk naar Nederland zijn gekomen, maar zich blijvend willen vestigen.
 
 **Kenmerken:**
-<font color="#1400c4">-</font> Combinatie van werken en leren  
-<font color="#1400c4">-</font> Behoefte aan praktisch en functioneel taalgebruik  
-<font color="#1400c4">-</font> Vaak behoefte aan flexibel en laagdrempelig aanbod"""@nl ;
+- Combinatie van werken en leren
+- Behoefte aan praktisch en functioneel taalgebruik
+- Vaak behoefte aan flexibel en laagdrempelig aanbod"""@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/doelgroep/arbeidsmigranten-met-vestigingsintentie"^^xsd:anyURI ;
     mim:naam "Arbeidsmigranten met vestigingsintentie"@nl ;
     dcterms:identifier "EAID_469317C7_243F_49e3_9EBD_886CB3699F0D" ;
     skos:definition """Arbeidsmigranten die oorspronkelijk tijdelijk naar Nederland zijn gekomen, maar zich blijvend willen vestigen.
 
 **Kenmerken:**
-<font color="#1400c4">-</font> Combinatie van werken en leren  
-<font color="#1400c4">-</font> Behoefte aan praktisch en functioneel taalgebruik  
-<font color="#1400c4">-</font> Vaak behoefte aan flexibel en laagdrempelig aanbod"""@nl ;
+- Combinatie van werken en leren
+- Behoefte aan praktisch en functioneel taalgebruik
+- Vaak behoefte aan flexibel en laagdrempelig aanbod"""@nl ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/doelgroep> ;
     skos:prefLabel "Arbeidsmigranten met vestigingsintentie"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/doelgroep> .
@@ -2601,18 +2601,18 @@ Dit gegeven wordt door COA bijgewerkt totdat Asielstatushouder  het AZV verlaat.
     mim:definitie """Burgers uit EU- en EER-landen die vrijwillig Nederlands willen leren en actief willen deelnemen aan de Nederlandse samenleving.
 
 **Kenmerken:**
-<font color="#1400c4">-</font> Vrijwillige deelname aan inburgerings- of taalactiviteiten  
-<font color="#1400c4">-</font> Vaak gebruik van gemeentelijk aanbod of laagdrempelige voorzieningen  
-<font color="#1400c4">-</font> Focus op praktische taal en maatschappelijke ori&#235;ntatie"""@nl ;
+- Vrijwillige deelname aan inburgerings- of taalactiviteiten
+- Vaak gebruik van gemeentelijk aanbod of laagdrempelige voorzieningen
+- Focus op praktische taal en maatschappelijke oriëntatie"""@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/doelgroep/eu-burgers"^^xsd:anyURI ;
     mim:naam "EU-burgers"@nl ;
     dcterms:identifier "EAID_7157A93A_A6AE_4032_BCCC_0B89F252CFDA" ;
     skos:definition """Burgers uit EU- en EER-landen die vrijwillig Nederlands willen leren en actief willen deelnemen aan de Nederlandse samenleving.
 
 **Kenmerken:**
-<font color="#1400c4">-</font> Vrijwillige deelname aan inburgerings- of taalactiviteiten  
-<font color="#1400c4">-</font> Vaak gebruik van gemeentelijk aanbod of laagdrempelige voorzieningen  
-<font color="#1400c4">-</font> Focus op praktische taal en maatschappelijke ori&#235;ntatie"""@nl ;
+- Vrijwillige deelname aan inburgerings- of taalactiviteiten
+- Vaak gebruik van gemeentelijk aanbod of laagdrempelige voorzieningen
+- Focus op praktische taal en maatschappelijke oriëntatie"""@nl ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/doelgroep> ;
     skos:prefLabel "EU-burgers"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/doelgroep> .
@@ -2624,18 +2624,18 @@ Dit gegeven wordt door COA bijgewerkt totdat Asielstatushouder  het AZV verlaat.
     mim:definitie """Hoogopgeleide migranten die zich duurzaam in Nederland willen vestigen en bewust kiezen voor inburgering.
 
 **Kenmerken:**
-<font color="#1400c4">-</font> Geen wettelijke plicht, wel intrinsieke motivatie  
-<font color="#1400c4">-</font> Gericht op taal, cultuur en sociaal netwerk  
-<font color="#1400c4">-</font> Vaak gefaciliteerd via werkgever of private aanbieders"""@nl ;
+- Geen wettelijke plicht, wel intrinsieke motivatie
+- Gericht op taal, cultuur en sociaal netwerk
+- Vaak gefaciliteerd via werkgever of private aanbieders"""@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/doelgroep/expats-en-kennismigranten"^^xsd:anyURI ;
     mim:naam "Expats en kennismigranten"@nl ;
     dcterms:identifier "EAID_03C67978_CA8D_4305_B71D_CB5E8FE27C3D" ;
     skos:definition """Hoogopgeleide migranten die zich duurzaam in Nederland willen vestigen en bewust kiezen voor inburgering.
 
 **Kenmerken:**
-<font color="#1400c4">-</font> Geen wettelijke plicht, wel intrinsieke motivatie  
-<font color="#1400c4">-</font> Gericht op taal, cultuur en sociaal netwerk  
-<font color="#1400c4">-</font> Vaak gefaciliteerd via werkgever of private aanbieders"""@nl ;
+- Geen wettelijke plicht, wel intrinsieke motivatie
+- Gericht op taal, cultuur en sociaal netwerk
+- Vaak gefaciliteerd via werkgever of private aanbieders"""@nl ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/doelgroep> ;
     skos:prefLabel "Expats en kennismigranten"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/doelgroep> .
@@ -2644,25 +2644,23 @@ Dit gegeven wordt door COA bijgewerkt totdat Asielstatushouder  het AZV verlaat.
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/doelgroep> ;
     rdfs:label "Gezinsmigranten"@nl ;
-    mim:definitie """<font color="#0e0e0e">Mensen die naar Nederland zijn gekomen voor gezinshereniging/-vorming en actief willen participeren.</font>
-<font color="#0e0e0e">
-</font><font color="#0e0e0e"><b>Kenmerkend:</b></font>
-<ul>
-	<li><font color="#0e0e0e">	Sterke motivatie om taal te leren</font></li>
-	<li><font color="#0e0e0e">Vaak gericht op zelfredzaamheid, opvoeding, werk of vrijwilligerswerk</font></li>
-	<li><font color="#0e0e0e">Wisselend opleidingsniveau</font></li>
-</ul>"""@nl ;
+    mim:definitie """Mensen die naar Nederland zijn gekomen voor gezinshereniging/-vorming en actief willen participeren.
+
+Kenmerkend:
+
+- Sterke motivatie om taal te leren
+- Vaak gericht op zelfredzaamheid, opvoeding, werk of vrijwilligerswerk
+- Wisselend opleidingsniveau"""@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/doelgroep/gezinsmigranten"^^xsd:anyURI ;
     mim:naam "Gezinsmigranten"@nl ;
     dcterms:identifier "EAID_1BE710E0_8B08_4257_BF18_B2CF5C0C3C0A" ;
-    skos:definition """<font color="#0e0e0e">Mensen die naar Nederland zijn gekomen voor gezinshereniging/-vorming en actief willen participeren.</font>
-<font color="#0e0e0e">
-</font><font color="#0e0e0e"><b>Kenmerkend:</b></font>
-<ul>
-	<li><font color="#0e0e0e">	Sterke motivatie om taal te leren</font></li>
-	<li><font color="#0e0e0e">Vaak gericht op zelfredzaamheid, opvoeding, werk of vrijwilligerswerk</font></li>
-	<li><font color="#0e0e0e">Wisselend opleidingsniveau</font></li>
-</ul>"""@nl ;
+    skos:definition """Mensen die naar Nederland zijn gekomen voor gezinshereniging/-vorming en actief willen participeren.
+
+Kenmerkend:
+
+- Sterke motivatie om taal te leren
+- Vaak gericht op zelfredzaamheid, opvoeding, werk of vrijwilligerswerk
+- Wisselend opleidingsniveau"""@nl ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/doelgroep> ;
     skos:prefLabel "Gezinsmigranten"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/doelgroep> .
@@ -2674,18 +2672,18 @@ Dit gegeven wordt door COA bijgewerkt totdat Asielstatushouder  het AZV verlaat.
     mim:definitie """Internationale studenten of promovendi die na afronding van hun studie in Nederland willen blijven wonen en werken.
 
 **Kenmerken:**
-<font color="#1400c4">-</font> Vaak hoogopgeleid  
-<font color="#1400c4">-</font> Goede beheersing van Engels, beperkte beheersing van Nederlands  
-<font color="#1400c4">-</font> Focus op arbeidsmarkt, professionele communicatie en burgerschap"""@nl ;
+- Vaak hoogopgeleid
+- Goede beheersing van Engels, beperkte beheersing van Nederlands
+- Focus op arbeidsmarkt, professionele communicatie en burgerschap"""@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/doelgroep/internationale-studenten-blijvers"^^xsd:anyURI ;
     mim:naam "Internationale studenten (blijvers)"@nl ;
     dcterms:identifier "EAID_F95302C2_C06C_4bc2_B20E_BAB809185FD9" ;
     skos:definition """Internationale studenten of promovendi die na afronding van hun studie in Nederland willen blijven wonen en werken.
 
 **Kenmerken:**
-<font color="#1400c4">-</font> Vaak hoogopgeleid  
-<font color="#1400c4">-</font> Goede beheersing van Engels, beperkte beheersing van Nederlands  
-<font color="#1400c4">-</font> Focus op arbeidsmarkt, professionele communicatie en burgerschap"""@nl ;
+- Vaak hoogopgeleid
+- Goede beheersing van Engels, beperkte beheersing van Nederlands
+- Focus op arbeidsmarkt, professionele communicatie en burgerschap"""@nl ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/doelgroep> ;
     skos:prefLabel "Internationale studenten (blijvers)"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/doelgroep> .
@@ -2697,18 +2695,18 @@ Dit gegeven wordt door COA bijgewerkt totdat Asielstatushouder  het AZV verlaat.
     mim:definitie """Personen die willen inburgeren maar extra ondersteuning nodig hebben vanwege persoonlijke of maatschappelijke omstandigheden.
 
 **Kenmerken:**
-<font color="#1400c4">-</font> Laaggeletterdheid, gezondheidsproblemen of psychosociale problematiek  
-<font color="#1400c4">-</font> Langzamer leertraject en intensievere begeleiding  
-<font color="#1400c4">-</font> Combinatie van taal, participatie en ondersteuning nodig"""@nl ;
+- Laaggeletterdheid, gezondheidsproblemen of psychosociale problematiek
+- Langzamer leertraject en intensievere begeleiding
+- Combinatie van taal, participatie en ondersteuning nodig"""@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/doelgroep/kwetsbare-nieuwkomers"^^xsd:anyURI ;
     mim:naam "Kwetsbare nieuwkomers"@nl ;
     dcterms:identifier "EAID_FBB42A58_694F_4020_B346_772EED74E97F" ;
     skos:definition """Personen die willen inburgeren maar extra ondersteuning nodig hebben vanwege persoonlijke of maatschappelijke omstandigheden.
 
 **Kenmerken:**
-<font color="#1400c4">-</font> Laaggeletterdheid, gezondheidsproblemen of psychosociale problematiek  
-<font color="#1400c4">-</font> Langzamer leertraject en intensievere begeleiding  
-<font color="#1400c4">-</font> Combinatie van taal, participatie en ondersteuning nodig"""@nl ;
+- Laaggeletterdheid, gezondheidsproblemen of psychosociale problematiek
+- Langzamer leertraject en intensievere begeleiding
+- Combinatie van taal, participatie en ondersteuning nodig"""@nl ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/doelgroep> ;
     skos:prefLabel "Kwetsbare nieuwkomers"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/doelgroep> .
@@ -2717,25 +2715,25 @@ Dit gegeven wordt door COA bijgewerkt totdat Asielstatushouder  het AZV verlaat.
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/doelgroep> ;
     rdfs:label "Nieuwkomers"@nl ;
-    mim:definitie """<font color="#0e0e0e">Mensen die recent in Nederland zijn komen wonen en zich willen ori&#235;nteren op taal, samenleving en werk.</font>
-<font color="#0e0e0e">
-</font><font color="#0e0e0e"><b>Voorbeelden:</b></font>
-<font color="#0e0e0e">	•	Asielstatushouders</font>
-<font color="#0e0e0e">	•	Gezinsmigranten</font>
-<font color="#0e0e0e">	•	Kennismigranten (met partner)</font>
-<font color="#0e0e0e">
-</font><font color="#0e0e0e"><b>Kenmerkend:</b></font><font color="#0e0e0e"> behoefte aan basisori&#235;ntatie, taalverwerving, wegwijs in instituties.</font>"""@nl ;
+    mim:definitie """Mensen die recent in Nederland zijn komen wonen en zich willen oriënteren op taal, samenleving en werk.
+
+Voorbeelden:
+• Asielstatushouders
+• Gezinsmigranten
+• Kennismigranten (met partner)
+
+Kenmerkend: behoefte aan basisoriëntatie, taalverwerving, wegwijs in instituties."""@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/doelgroep/nieuwkomers"^^xsd:anyURI ;
     mim:naam "Nieuwkomers"@nl ;
     dcterms:identifier "EAID_5D7E8A03_573A_4690_8387_CA160B109E3E" ;
-    skos:definition """<font color="#0e0e0e">Mensen die recent in Nederland zijn komen wonen en zich willen ori&#235;nteren op taal, samenleving en werk.</font>
-<font color="#0e0e0e">
-</font><font color="#0e0e0e"><b>Voorbeelden:</b></font>
-<font color="#0e0e0e">	•	Asielstatushouders</font>
-<font color="#0e0e0e">	•	Gezinsmigranten</font>
-<font color="#0e0e0e">	•	Kennismigranten (met partner)</font>
-<font color="#0e0e0e">
-</font><font color="#0e0e0e"><b>Kenmerkend:</b></font><font color="#0e0e0e"> behoefte aan basisori&#235;ntatie, taalverwerving, wegwijs in instituties.</font>"""@nl ;
+    skos:definition """Mensen die recent in Nederland zijn komen wonen en zich willen oriënteren op taal, samenleving en werk.
+
+Voorbeelden:
+• Asielstatushouders
+• Gezinsmigranten
+• Kennismigranten (met partner)
+
+Kenmerkend: behoefte aan basisoriëntatie, taalverwerving, wegwijs in instituties."""@nl ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/doelgroep> ;
     skos:prefLabel "Nieuwkomers"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/doelgroep> .
@@ -2747,18 +2745,18 @@ Dit gegeven wordt door COA bijgewerkt totdat Asielstatushouder  het AZV verlaat.
     mim:definitie """Personen die al langere tijd in Nederland wonen en alsnog willen inburgeren of hun taal- en participatievaardigheden willen verbeteren.
 
 **Kenmerken:**
-<font color="#1400c4">-</font> Hebben vaak informele participatie opgebouwd  
-<font color="#1400c4">-</font> Motivatie vanuit werk, opvoeding of maatschappelijke betrokkenheid  
-<font color="#1400c4">-</font> Behoefte aan maatwerk en herkenning van bestaande vaardigheden"""@nl ;
+- Hebben vaak informele participatie opgebouwd
+- Motivatie vanuit werk, opvoeding of maatschappelijke betrokkenheid
+- Behoefte aan maatwerk en herkenning van bestaande vaardigheden"""@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/doelgroep/oudkomers"^^xsd:anyURI ;
     mim:naam "Oudkomers"@nl ;
     dcterms:identifier "EAID_4655581F_EB8B_4364_8D44_C9F88011EBEC" ;
     skos:definition """Personen die al langere tijd in Nederland wonen en alsnog willen inburgeren of hun taal- en participatievaardigheden willen verbeteren.
 
 **Kenmerken:**
-<font color="#1400c4">-</font> Hebben vaak informele participatie opgebouwd  
-<font color="#1400c4">-</font> Motivatie vanuit werk, opvoeding of maatschappelijke betrokkenheid  
-<font color="#1400c4">-</font> Behoefte aan maatwerk en herkenning van bestaande vaardigheden"""@nl ;
+- Hebben vaak informele participatie opgebouwd
+- Motivatie vanuit werk, opvoeding of maatschappelijke betrokkenheid
+- Behoefte aan maatwerk en herkenning van bestaande vaardigheden"""@nl ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/doelgroep> ;
     skos:prefLabel "Oudkomers"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/doelgroep> .
@@ -3914,7 +3912,7 @@ Z1"""@nl ;
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/leerroute/geenleerbaarheidstoetszb> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "geenLeerbaarheidstoetsZB"@nl ;
-    mim:definitie "<font color=\"#0e0e0e\"><i>Indicator die aangeeft of de leerbaarheidstoets niet is afgenomen vanwege een zintuigelijke beperking van de inburgeraar.</i></font>"@nl ;
+    mim:definitie "Indicator die aangeeft of de leerbaarheidstoets niet is afgenomen vanwege een zintuigelijke beperking van de inburgeraar."@nl ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/leerroute/geenleerbaarheidstoetszb"^^xsd:anyURI ;
@@ -3927,7 +3925,7 @@ Z1"""@nl ;
     mim:naam "geenLeerbaarheidstoetsZB"@nl ;
     mim:type mim:Boolean ;
     dcterms:identifier "EAID_C743FEA5_C42B_44d0_943A_2DF805D9FED3" ;
-    rdfs:comment "<font color=\"#0e0e0e\"><i>Indicator die aangeeft of de leerbaarheidstoets niet is afgenomen vanwege een zintuigelijke beperking van de inburgeraar.</i></font>"@nl ;
+    rdfs:comment "Indicator die aangeeft of de leerbaarheidstoets niet is afgenomen vanwege een zintuigelijke beperking van de inburgeraar."@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/leerroute> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/> ;
     rdfs:range xsd:boolean .
@@ -6804,12 +6802,12 @@ Z1"""@nl ;
     rdfs:label "ICT-Vaardigheid"@nl ;
     mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/ict-vaardigheid/ictvaardigheid>,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/ict-vaardigheid/niveauictvaardigheid> ;
-    mim:definitie "<font color=\"#0e0e0e\"><b>ICT-vaardigheid</b></font><font color=\"#0e0e0e\"> betreft het vermogen van de inburgeringsplichtige om digitale middelen en toepassingen zelfstandig en doelgericht te gebruiken voor communicatie, informatieverwerking en deelname aan de samenleving.</font>"@nl ;
+    mim:definitie "ICT-vaardigheid betreft het vermogen van de inburgeringsplichtige om digitale middelen en toepassingen zelfstandig en doelgericht te gebruiken voor communicatie, informatieverwerking en deelname aan de samenleving."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/ict-vaardigheid"^^xsd:anyURI ;
     mim:indicatieAbstractObject false ;
     mim:naam "ICT-Vaardigheid"@nl ;
     dcterms:identifier "EAID_1095BF0E_087F_4341_8B3C_E0DD4C9AF269" ;
-    rdfs:comment "<font color=\"#0e0e0e\"><b>ICT-vaardigheid</b></font><font color=\"#0e0e0e\"> betreft het vermogen van de inburgeringsplichtige om digitale middelen en toepassingen zelfstandig en doelgericht te gebruiken voor communicatie, informatieverwerking en deelname aan de samenleving.</font>"@nl ;
+    rdfs:comment "ICT-vaardigheid betreft het vermogen van de inburgeringsplichtige om digitale middelen en toepassingen zelfstandig en doelgericht te gebruiken voor communicatie, informatieverwerking en deelname aan de samenleving."@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/examen> a mim:Objecttype,
@@ -6830,7 +6828,7 @@ Z1"""@nl ;
     mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/hoofddoel/doel>,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/hoofddoel/einddatum>,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/hoofddoel/startdatum> ;
-    mim:definitie "<font color=\"#0e0e0e\">Het </font><font color=\"#0e0e0e\"><b>Hoofddoel</b></font><font color=\"#0e0e0e\"> is de door de gemeente vastgestelde eindbestemming van het inburgeringstraject, waarin wordt vastgelegd of de inburgeringsplichtige wordt begeleid richting werk, onderwijs of (maatschappelijke) participatie, op basis van de brede intake en het leerrouteadvies.</font>"@nl ;
+    mim:definitie "Het Hoofddoel is de door de gemeente vastgestelde eindbestemming van het inburgeringstraject, waarin wordt vastgelegd of de inburgeringsplichtige wordt begeleid richting werk, onderwijs of (maatschappelijke) participatie, op basis van de brede intake en het leerrouteadvies."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/hoofddoel"^^xsd:anyURI ;
     mim:indicatieAbstractObject false ;
     mim:naam "Hoofddoel"@nl ;
@@ -6839,14 +6837,14 @@ Z1"""@nl ;
 	•	Voorbeelden van hoofddoelen zijn: uitstroom naar betaald werk, instroom in een opleiding (zoals mbo of hbo), of duurzame maatschappelijke participatie (bijvoorbeeld via vrijwilligerswerk).
 	•	Het hoofddoel is bepalend voor de keuze en inrichting van de leerroute (B1-route, Z-route, Onderwijsroute)."""@nl ;
     dcterms:identifier "EAID_CEAAEBFB_9CB8_4c5e_98F7_11791C0A21D2" ;
-    rdfs:comment "<font color=\"#0e0e0e\">Het </font><font color=\"#0e0e0e\"><b>Hoofddoel</b></font><font color=\"#0e0e0e\"> is de door de gemeente vastgestelde eindbestemming van het inburgeringstraject, waarin wordt vastgelegd of de inburgeringsplichtige wordt begeleid richting werk, onderwijs of (maatschappelijke) participatie, op basis van de brede intake en het leerrouteadvies.</font>"@nl ;
+    rdfs:comment "Het Hoofddoel is de door de gemeente vastgestelde eindbestemming van het inburgeringstraject, waarin wordt vastgelegd of de inburgeringsplichtige wordt begeleid richting werk, onderwijs of (maatschappelijke) participatie, op basis van de brede intake en het leerrouteadvies."@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/introductiemodule> a mim:Objecttype,
         owl:Class ;
     rdfs:label "Introductiemodule"@nl ;
     mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/introductiemodule/deelnameintroductiemodule> ;
-    mim:definitie "<font color=\"#0e0e0e\">De </font><font color=\"#0e0e0e\"><b>Introductiemodule</b></font><font color=\"#0e0e0e\"> is een verplicht onderdeel van het inburgeringstraject waarin de inburgeringsplichtige basisinformatie ontvangt over de Nederlandse samenleving, de inburgeringsplicht en het lokale voorzieningenaanbod, direct na de brede intake.</font>"@nl ;
+    mim:definitie "De Introductiemodule is een verplicht onderdeel van het inburgeringstraject waarin de inburgeringsplichtige basisinformatie ontvangt over de Nederlandse samenleving, de inburgeringsplicht en het lokale voorzieningenaanbod, direct na de brede intake."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/introductiemodule"^^xsd:anyURI ;
     mim:indicatieAbstractObject false ;
     mim:naam "Introductiemodule"@nl ;
@@ -6855,7 +6853,7 @@ Z1"""@nl ;
 	•	De introductiemodule vindt plaats voordat het definitieve Persoonlijk Plan Inburgering en Participatie (PIP) wordt vastgesteld.
 	•	Deelname aan de module is verplicht voor iedere inburgeringsplichtige en moet bijdragen aan een realistisch en geïnformeerd leerrouteadvies."""@nl ;
     dcterms:identifier "EAID_7328FC95_FA03_405d_8EC4_5C4B3D5CF042" ;
-    rdfs:comment "<font color=\"#0e0e0e\">De </font><font color=\"#0e0e0e\"><b>Introductiemodule</b></font><font color=\"#0e0e0e\"> is een verplicht onderdeel van het inburgeringstraject waarin de inburgeringsplichtige basisinformatie ontvangt over de Nederlandse samenleving, de inburgeringsplicht en het lokale voorzieningenaanbod, direct na de brede intake.</font>"@nl ;
+    rdfs:comment "De Introductiemodule is een verplicht onderdeel van het inburgeringstraject waarin de inburgeringsplichtige basisinformatie ontvangt over de Nederlandse samenleving, de inburgeringsplicht en het lokale voorzieningenaanbod, direct na de brede intake."@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/subdoel-aandachtspunt> a mim:Objecttype,
@@ -6864,12 +6862,12 @@ Z1"""@nl ;
     mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/subdoel-aandachtspunt/einddatum>,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/subdoel-aandachtspunt/startdatum>,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/subdoel-aandachtspunt/subdoel> ;
-    mim:definitie "<font color=\"#0e0e0e\">Een </font><font color=\"#0e0e0e\"><b>Subdoel aandachtspunt</b></font><font color=\"#0e0e0e\"> is een concreet, afgebakend leer- of begeleidingsdoel dat voortvloeit uit een gesignaleerd aandachtspunt in de persoonlijke situatie van de inburgeringsplichtige, en dat bijdraagt aan het wegnemen van belemmeringen voor het volgen van de leerroute of het behalen van het PIP-doel.</font>"@nl ;
+    mim:definitie "Een Subdoel aandachtspunt is een concreet, afgebakend leer- of begeleidingsdoel dat voortvloeit uit een gesignaleerd aandachtspunt in de persoonlijke situatie van de inburgeringsplichtige, en dat bijdraagt aan het wegnemen van belemmeringen voor het volgen van de leerroute of het behalen van het PIP-doel."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/subdoel-aandachtspunt"^^xsd:anyURI ;
     mim:indicatieAbstractObject false ;
     mim:naam "Subdoel Aandachtspunt"@nl ;
     dcterms:identifier "EAID_0279048D_E742_400c_9D86_03085E5EF917" ;
-    rdfs:comment "<font color=\"#0e0e0e\">Een </font><font color=\"#0e0e0e\"><b>Subdoel aandachtspunt</b></font><font color=\"#0e0e0e\"> is een concreet, afgebakend leer- of begeleidingsdoel dat voortvloeit uit een gesignaleerd aandachtspunt in de persoonlijke situatie van de inburgeringsplichtige, en dat bijdraagt aan het wegnemen van belemmeringen voor het volgen van de leerroute of het behalen van het PIP-doel.</font>"@nl ;
+    rdfs:comment "Een Subdoel aandachtspunt is een concreet, afgebakend leer- of begeleidingsdoel dat voortvloeit uit een gesignaleerd aandachtspunt in de persoonlijke situatie van de inburgeringsplichtige, en dat bijdraagt aan het wegnemen van belemmeringen voor het volgen van de leerroute of het behalen van het PIP-doel."@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/subdoel-ontwikkelwens> a mim:Objecttype,
@@ -6878,12 +6876,12 @@ Z1"""@nl ;
     mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/subdoel-ontwikkelwens/einddatum>,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/subdoel-ontwikkelwens/startdatum>,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/subdoel-ontwikkelwens/subdoel> ;
-    mim:definitie "<font color=\"#0e0e0e\">Een </font><font color=\"#0e0e0e\"><b>Subdoel ontwikkelwens</b></font><font color=\"#0e0e0e\"> is een concreet, haalbaar leer- of ontwikkeldoel dat is afgeleid van een door de inburgeringsplichtige geuite ontwikkelwens, en dat richting geeft aan de invulling van het inburgeringstraject binnen het PIP.</font>"@nl ;
+    mim:definitie "Een Subdoel ontwikkelwens is een concreet, haalbaar leer- of ontwikkeldoel dat is afgeleid van een door de inburgeringsplichtige geuite ontwikkelwens, en dat richting geeft aan de invulling van het inburgeringstraject binnen het PIP."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/subdoel-ontwikkelwens"^^xsd:anyURI ;
     mim:indicatieAbstractObject false ;
     mim:naam "Subdoel Ontwikkelwens"@nl ;
     dcterms:identifier "EAID_564CEF80_C5BE_4d74_8BC7_B48BEFDEE655" ;
-    rdfs:comment "<font color=\"#0e0e0e\">Een </font><font color=\"#0e0e0e\"><b>Subdoel ontwikkelwens</b></font><font color=\"#0e0e0e\"> is een concreet, haalbaar leer- of ontwikkeldoel dat is afgeleid van een door de inburgeringsplichtige geuite ontwikkelwens, en dat richting geeft aan de invulling van het inburgeringstraject binnen het PIP.</font>"@nl ;
+    rdfs:comment "Een Subdoel ontwikkelwens is een concreet, haalbaar leer- of ontwikkeldoel dat is afgeleid van een door de inburgeringsplichtige geuite ontwikkelwens, en dat richting geeft aan de invulling van het inburgeringstraject binnen het PIP."@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/training> a mim:Objecttype,
@@ -6892,7 +6890,7 @@ Z1"""@nl ;
     mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/training/periodetraining>,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/training/resultaattraining>,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/training/traininggevolgd> ;
-    mim:definitie "<font color=\"#0e0e0e\">Een </font><font color=\"#0e0e0e\"><b>Training</b></font><font color=\"#0e0e0e\"> is een gestructureerde leeractiviteit binnen het inburgeringstraject, gericht op het aanleren of versterken van specifieke vaardigheden of kennis ter ondersteuning van taalverwerving, participatie of persoonlijke ontwikkeling.</font>"@nl ;
+    mim:definitie "Een Training is een gestructureerde leeractiviteit binnen het inburgeringstraject, gericht op het aanleren of versterken van specifieke vaardigheden of kennis ter ondersteuning van taalverwerving, participatie of persoonlijke ontwikkeling."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/training"^^xsd:anyURI ;
     mim:indicatieAbstractObject false ;
     mim:naam "Training"@nl ;
@@ -6902,7 +6900,7 @@ Z1"""@nl ;
 	•	De deelname aan een training wordt vastgelegd als onderdeel van het PIP of een begeleidings- of ontwikkelplan, met gegevens over inhoud, duur, frequentie en resultaat.
 	•	Trainingen dragen bij aan de realisatie van subdoelen die voortkomen uit aandachtspunten of ontwikkelwensen van de inburgeringsplichtige."""@nl ;
     dcterms:identifier "EAID_88DF555F_9F2F_4274_A1ED_B201EEE0E62E" ;
-    rdfs:comment "<font color=\"#0e0e0e\">Een </font><font color=\"#0e0e0e\"><b>Training</b></font><font color=\"#0e0e0e\"> is een gestructureerde leeractiviteit binnen het inburgeringstraject, gericht op het aanleren of versterken van specifieke vaardigheden of kennis ter ondersteuning van taalverwerving, participatie of persoonlijke ontwikkeling.</font>"@nl ;
+    rdfs:comment "Een Training is een gestructureerde leeractiviteit binnen het inburgeringstraject, gericht op het aanleren of versterken van specifieke vaardigheden of kennis ter ondersteuning van taalverwerving, participatie of persoonlijke ontwikkeling."@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/map> a mim:Objecttype,
@@ -6912,13 +6910,13 @@ Z1"""@nl ;
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/map/indicatorverwijtbaar>,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/map/redennietsuccesvolvoltooid>,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/map/resultaat> ;
-    mim:definitie "<font color=\"#0e0e0e\">De </font><font color=\"#0e0e0e\"><b>Module Arbeidsmarkt en Participatie (MAP)</b></font><font color=\"#0e0e0e\"> is een verplicht onderdeel van het inburgeringstraject waarin de inburgeringsplichtige wordt voorbereid op deelname aan de Nederlandse arbeidsmarkt, door middel van voorlichting, ori&#235;ntatie en arbeidsmarktgerichte activiteiten.</font>"@nl ;
+    mim:definitie "De Module Arbeidsmarkt en Participatie (MAP) is een verplicht onderdeel van het inburgeringstraject waarin de inburgeringsplichtige wordt voorbereid op deelname aan de Nederlandse arbeidsmarkt, door middel van voorlichting, oriëntatie en arbeidsmarktgerichte activiteiten."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/map"^^xsd:anyURI ;
     mim:indicatieAbstractObject false ;
     mim:naam "MAP"@nl ;
     mim:toelichting "•	De MAP is opgenomen in het Besluit inburgering 2021, artikel 24, en geldt voor alle leerroutes, met aanpassingen naar gelang het leervermogen en het einddoel."@nl ;
     dcterms:identifier "EAID_2177E7F0_0F76_41b7_B5CA_5FE182355E94" ;
-    rdfs:comment "<font color=\"#0e0e0e\">De </font><font color=\"#0e0e0e\"><b>Module Arbeidsmarkt en Participatie (MAP)</b></font><font color=\"#0e0e0e\"> is een verplicht onderdeel van het inburgeringstraject waarin de inburgeringsplichtige wordt voorbereid op deelname aan de Nederlandse arbeidsmarkt, door middel van voorlichting, ori&#235;ntatie en arbeidsmarktgerichte activiteiten.</font>"@nl ;
+    rdfs:comment "De Module Arbeidsmarkt en Participatie (MAP) is een verplicht onderdeel van het inburgeringstraject waarin de inburgeringsplichtige wordt voorbereid op deelname aan de Nederlandse arbeidsmarkt, door middel van voorlichting, oriëntatie en arbeidsmarktgerichte activiteiten."@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/ontheffing> a mim:Objecttype,
@@ -6926,7 +6924,7 @@ Z1"""@nl ;
     rdfs:label "Ontheffing"@nl ;
     mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/ontheffing/beslissingontheffing>,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/ontheffing/datumontheffing> ;
-    mim:definitie "<font color=\"#0e0e0e\">Een </font><font color=\"#0e0e0e\"><b>Ontheffing</b></font><font color=\"#0e0e0e\"> is een formeel besluit van de gemeente of van DUO waarbij een inburgeringsplichtige geheel of gedeeltelijk wordt vrijgesteld van onderdelen van de inburgeringsplicht, op grond van persoonlijke omstandigheden zoals medische beperkingen, psychische problematiek of aantoonbare inspanning.</font>"@nl ;
+    mim:definitie "Een Ontheffing is een formeel besluit van de gemeente of van DUO waarbij een inburgeringsplichtige geheel of gedeeltelijk wordt vrijgesteld van onderdelen van de inburgeringsplicht, op grond van persoonlijke omstandigheden zoals medische beperkingen, psychische problematiek of aantoonbare inspanning."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/ontheffing"^^xsd:anyURI ;
     mim:indicatieAbstractObject false ;
     mim:naam "Ontheffing"@nl ;
@@ -6938,7 +6936,7 @@ Z1"""@nl ;
 	•	De beoordeling gebeurt op basis van bewijsstukken, eventueel met advies van een arts of deskundige.
 	•	De beslissing tot ontheffing wordt vastgelegd in een formeel besluit met motivering."""@nl ;
     dcterms:identifier "EAID_3F5932BD_C721_402d_8154_74A1CE097825" ;
-    rdfs:comment "<font color=\"#0e0e0e\">Een </font><font color=\"#0e0e0e\"><b>Ontheffing</b></font><font color=\"#0e0e0e\"> is een formeel besluit van de gemeente of van DUO waarbij een inburgeringsplichtige geheel of gedeeltelijk wordt vrijgesteld van onderdelen van de inburgeringsplicht, op grond van persoonlijke omstandigheden zoals medische beperkingen, psychische problematiek of aantoonbare inspanning.</font>"@nl ;
+    rdfs:comment "Een Ontheffing is een formeel besluit van de gemeente of van DUO waarbij een inburgeringsplichtige geheel of gedeeltelijk wordt vrijgesteld van onderdelen van de inburgeringsplicht, op grond van persoonlijke omstandigheden zoals medische beperkingen, psychische problematiek of aantoonbare inspanning."@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/participatiedeelname> a mim:Enumeratie,
@@ -6960,13 +6958,13 @@ Z1"""@nl ;
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/pvt/redennietvoldaan>,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/pvt/resultaat>,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/pvt/verwijtbaarnietvoldaan> ;
-    mim:definitie "<font color=\"#0e0e0e\">Het </font><font color=\"#0e0e0e\"><b>Participatieverklaringstraject (PVT)</b></font><font color=\"#0e0e0e\"> is een verplicht onderdeel van het inburgeringstraject waarin de inburgeringsplichtige kennismaakt met de basiswaarden van de Nederlandse samenleving, en deze onderschrijft door het ondertekenen van de participatieverklaring.</font>"@nl ;
+    mim:definitie "Het Participatieverklaringstraject (PVT) is een verplicht onderdeel van het inburgeringstraject waarin de inburgeringsplichtige kennismaakt met de basiswaarden van de Nederlandse samenleving, en deze onderschrijft door het ondertekenen van de participatieverklaring."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/pvt"^^xsd:anyURI ;
     mim:indicatieAbstractObject false ;
     mim:naam "PVT"@nl ;
     mim:toelichting "Het PVT is geregeld in artikel 7.6 van de Wet inburgering 2021 en maakt onderdeel uit van het wettelijk verplichte inburgeringspakket."@nl ;
     dcterms:identifier "EAID_783B026E_E993_467c_85E0_E90E9E01BAA0" ;
-    rdfs:comment "<font color=\"#0e0e0e\">Het </font><font color=\"#0e0e0e\"><b>Participatieverklaringstraject (PVT)</b></font><font color=\"#0e0e0e\"> is een verplicht onderdeel van het inburgeringstraject waarin de inburgeringsplichtige kennismaakt met de basiswaarden van de Nederlandse samenleving, en deze onderschrijft door het ondertekenen van de participatieverklaring.</font>"@nl ;
+    rdfs:comment "Het Participatieverklaringstraject (PVT) is een verplicht onderdeel van het inburgeringstraject waarin de inburgeringsplichtige kennismaakt met de basiswaarden van de Nederlandse samenleving, en deze onderschrijft door het ondertekenen van de participatieverklaring."@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/subdoel-digitale-vaardigheden> a mim:Enumeratie,
@@ -7034,13 +7032,13 @@ Z1"""@nl ;
     rdfs:label "Verblijfplaats AZC"@nl ;
     mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/verblijfplaats-azc/huisnummer>,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/verblijfplaats-azc/straatnummer> ;
-    mim:definitie "<font color=\"#0e0e0e\"><b>Verblijfplaats AZC</b></font><font color=\"#0e0e0e\"> is de formele verblijfslocatie van een asielgerechtigde of inburgeringsplichtige binnen een Asielzoekerscentrum (AZC), beheerd door het Centraal Orgaan opvang Asielzoekers (COA), voorafgaand aan of tijdens het inburgeringstraject.</font>"@nl ;
+    mim:definitie "Verblijfplaats AZC is de formele verblijfslocatie van een asielgerechtigde of inburgeringsplichtige binnen een Asielzoekerscentrum (AZC), beheerd door het Centraal Orgaan opvang Asielzoekers (COA), voorafgaand aan of tijdens het inburgeringstraject."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/verblijfplaats-azc"^^xsd:anyURI ;
     mim:indicatieAbstractObject false ;
     mim:naam "Verblijfplaats AZC"@nl ;
     mim:toelichting "•	In het kader van de Wet inburgering 2021 begint de inburgeringsplicht voor statushouders op het moment dat zij worden ingeschreven in de BRP van een gemeente, meestal na uitstroom uit het AZC."@nl ;
     dcterms:identifier "EAID_40C9655E_15CF_4b46_8B59_FD8D4CBC57B5" ;
-    rdfs:comment "<font color=\"#0e0e0e\"><b>Verblijfplaats AZC</b></font><font color=\"#0e0e0e\"> is de formele verblijfslocatie van een asielgerechtigde of inburgeringsplichtige binnen een Asielzoekerscentrum (AZC), beheerd door het Centraal Orgaan opvang Asielzoekers (COA), voorafgaand aan of tijdens het inburgeringstraject.</font>"@nl ;
+    rdfs:comment "Verblijfplaats AZC is de formele verblijfslocatie van een asielgerechtigde of inburgeringsplichtige binnen een Asielzoekerscentrum (AZC), beheerd door het Centraal Orgaan opvang Asielzoekers (COA), voorafgaand aan of tijdens het inburgeringstraject."@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/vrijstelling> a mim:Objecttype,
@@ -7048,12 +7046,12 @@ Z1"""@nl ;
     rdfs:label "Vrijstelling"@nl ;
     mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/vrijstelling/datumvrijstelling>,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/vrijstelling/eindoordeelvrijstelling> ;
-    mim:definitie "<font color=\"#0e0e0e\">Een </font><font color=\"#0e0e0e\"><b>Vrijstelling</b></font><font color=\"#0e0e0e\"> is een formeel besluit waarbij een inburgeringsplichtige geheel of gedeeltelijk wordt ontheven van specifieke onderdelen van de inburgeringsplicht, omdat deze reeds op andere wijze zijn behaald of niet van toepassing zijn, zoals bedoeld in artikel 7.2 van de Wet inburgering 2021.</font>"@nl ;
+    mim:definitie "Een Vrijstelling is een formeel besluit waarbij een inburgeringsplichtige geheel of gedeeltelijk wordt ontheven van specifieke onderdelen van de inburgeringsplicht, omdat deze reeds op andere wijze zijn behaald of niet van toepassing zijn, zoals bedoeld in artikel 7.2 van de Wet inburgering 2021."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/vrijstelling"^^xsd:anyURI ;
     mim:indicatieAbstractObject false ;
     mim:naam "Vrijstelling"@nl ;
     dcterms:identifier "EAID_C31D4A7E_1F25_4b85_B49C_AEC45EB3DB54" ;
-    rdfs:comment "<font color=\"#0e0e0e\">Een </font><font color=\"#0e0e0e\"><b>Vrijstelling</b></font><font color=\"#0e0e0e\"> is een formeel besluit waarbij een inburgeringsplichtige geheel of gedeeltelijk wordt ontheven van specifieke onderdelen van de inburgeringsplicht, omdat deze reeds op andere wijze zijn behaald of niet van toepassing zijn, zoals bedoeld in artikel 7.2 van de Wet inburgering 2021.</font>"@nl ;
+    rdfs:comment "Een Vrijstelling is een formeel besluit waarbij een inburgeringsplichtige geheel of gedeeltelijk wordt ontheven van specifieke onderdelen van de inburgeringsplicht, omdat deze reeds op andere wijze zijn behaald of niet van toepassing zijn, zoals bedoeld in artikel 7.2 van de Wet inburgering 2021."@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/aandachtspunt> a mim:Objecttype,
@@ -7062,7 +7060,7 @@ Z1"""@nl ;
     mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/aandachtspunt/aandachtspuntomschrijving>,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/aandachtspunt/einddatum>,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/aandachtspunt/startdatum> ;
-    mim:definitie "<font color=\"#0e0e0e\">Een </font><font color=\"#0e0e0e\"><b>Aandachtspunt</b></font><font color=\"#0e0e0e\"> is een bijzonder aspect of omstandigheid in de persoonlijke situatie van de inburgeraar, dat extra aandacht vereist bij de begeleiding of dienstverlening in het kader van inburgering.</font>"@nl ;
+    mim:definitie "Een Aandachtspunt is een bijzonder aspect of omstandigheid in de persoonlijke situatie van de inburgeraar, dat extra aandacht vereist bij de begeleiding of dienstverlening in het kader van inburgering."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/aandachtspunt"^^xsd:anyURI ;
     mim:indicatieAbstractObject false ;
     mim:naam "Aandachtspunt"@nl ;
@@ -7070,7 +7068,7 @@ Z1"""@nl ;
 	•	In het model wordt Aandachtspunt gekoppeld aan onder meer de objecttypen Traject en Ondersteuningsactiviteit.
 	•	Mogelijke voorbeelden (zie onderliggende attributen of enumeraties in het model) zijn: psychische kwetsbaarheid, verslaving, schulden, of laaggeletterdheid."""@nl ;
     dcterms:identifier "EAID_F188F63C_0033_4164_9F73_413AE6943497" ;
-    rdfs:comment "<font color=\"#0e0e0e\">Een </font><font color=\"#0e0e0e\"><b>Aandachtspunt</b></font><font color=\"#0e0e0e\"> is een bijzonder aspect of omstandigheid in de persoonlijke situatie van de inburgeraar, dat extra aandacht vereist bij de begeleiding of dienstverlening in het kader van inburgering.</font>"@nl ;
+    rdfs:comment "Een Aandachtspunt is een bijzonder aspect of omstandigheid in de persoonlijke situatie van de inburgeraar, dat extra aandacht vereist bij de begeleiding of dienstverlening in het kader van inburgering."@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/b1-route> a mim:Objecttype,
@@ -7081,7 +7079,7 @@ Z1"""@nl ;
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/b1-route/gevolgdeurenparticipatietaalles>,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/b1-route/redengeenresultaat>,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/b1-route/resultaat> ;
-    mim:definitie "<font color=\"#0e0e0e\">De </font><font color=\"#0e0e0e\"><b>B1-route</b></font><font color=\"#0e0e0e\"> is &#233;&#233;n van de drie leerroutes in het inburgeringsstelsel, waarbij de inburgeringsplichtige zich voorbereidt op het afleggen van het inburgeringsexamen op taalniveau B1, gericht op brede participatie in de Nederlandse samenleving en toeleiding naar arbeid.</font>"@nl ;
+    mim:definitie "De B1-route is één van de drie leerroutes in het inburgeringsstelsel, waarbij de inburgeringsplichtige zich voorbereidt op het afleggen van het inburgeringsexamen op taalniveau B1, gericht op brede participatie in de Nederlandse samenleving en toeleiding naar arbeid."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/b1-route"^^xsd:anyURI ;
     mim:indicatieAbstractObject false ;
     mim:naam "B1-route"@nl ;
@@ -7090,7 +7088,7 @@ Z1"""@nl ;
 	•	De gemeente stelt de leerroute vast op basis van de brede intake en de leerbaarheidstoets (zie artikelen 15 en 16 van de Wet inburgering 2021).
 	•	Binnen deze route is ook ruimte voor duale trajecten waarin taalverwerving en praktijkervaring worden gecombineerd (zoals werken of vrijwilligerswerk)."""@nl ;
     dcterms:identifier "EAID_09D462A9_94C8_4803_A0A0_B7DB4363B45D" ;
-    rdfs:comment "<font color=\"#0e0e0e\">De </font><font color=\"#0e0e0e\"><b>B1-route</b></font><font color=\"#0e0e0e\"> is &#233;&#233;n van de drie leerroutes in het inburgeringsstelsel, waarbij de inburgeringsplichtige zich voorbereidt op het afleggen van het inburgeringsexamen op taalniveau B1, gericht op brede participatie in de Nederlandse samenleving en toeleiding naar arbeid.</font>"@nl ;
+    rdfs:comment "De B1-route is één van de drie leerroutes in het inburgeringsstelsel, waarbij de inburgeringsplichtige zich voorbereidt op het afleggen van het inburgeringsexamen op taalniveau B1, gericht op brede participatie in de Nederlandse samenleving en toeleiding naar arbeid."@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/diplomawaardering> a mim:Objecttype,
@@ -7101,12 +7099,12 @@ Z1"""@nl ;
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/diplomawaardering/diplomawaarderingvoor>,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/diplomawaardering/niveaucompetentie>,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/diplomawaardering/waarderingaangevraagd> ;
-    mim:definitie "<font color=\"#0e0e0e\">Een </font><font color=\"#0e0e0e\"><b>Diplomawaardering</b></font><font color=\"#0e0e0e\"> is de beoordeling van een buitenlands diploma, certificaat of graad door het Informatiecentrum Diplomawaardering (IDW), met als doel het vaststellen van het Nederlandse opleidingsniveau waarmee dit diploma vergelijkbaar is.</font>"@nl ;
+    mim:definitie "Een Diplomawaardering is de beoordeling van een buitenlands diploma, certificaat of graad door het Informatiecentrum Diplomawaardering (IDW), met als doel het vaststellen van het Nederlandse opleidingsniveau waarmee dit diploma vergelijkbaar is."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/diplomawaardering"^^xsd:anyURI ;
     mim:indicatieAbstractObject false ;
     mim:naam "Diplomawaardering"@nl ;
     dcterms:identifier "EAID_950DD620_01C0_4594_875F_AE23C9154826" ;
-    rdfs:comment "<font color=\"#0e0e0e\">Een </font><font color=\"#0e0e0e\"><b>Diplomawaardering</b></font><font color=\"#0e0e0e\"> is de beoordeling van een buitenlands diploma, certificaat of graad door het Informatiecentrum Diplomawaardering (IDW), met als doel het vaststellen van het Nederlandse opleidingsniveau waarmee dit diploma vergelijkbaar is.</font>"@nl ;
+    rdfs:comment "Een Diplomawaardering is de beoordeling van een buitenlands diploma, certificaat of graad door het Informatiecentrum Diplomawaardering (IDW), met als doel het vaststellen van het Nederlandse opleidingsniveau waarmee dit diploma vergelijkbaar is."@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/inburgeringstraject> a mim:Objecttype,
@@ -7127,12 +7125,12 @@ Z1"""@nl ;
     mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/ontwikkelwens/einddatum>,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/ontwikkelwens/ontwikkelwensomschrijving>,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/ontwikkelwens/startdatum> ;
-    mim:definitie "<font color=\"#0e0e0e\">Een </font><font color=\"#0e0e0e\"><b>Ontwikkelwens</b></font><font color=\"#0e0e0e\"> is een door de inburgeringsplichtige geuite persoonlijke ambitie of leerdoel die richting kan geven aan het inburgeringstraject, en wordt meegenomen bij het opstellen van het Persoonlijk Plan Inburgering en Participatie (PIP).</font>"@nl ;
+    mim:definitie "Een Ontwikkelwens is een door de inburgeringsplichtige geuite persoonlijke ambitie of leerdoel die richting kan geven aan het inburgeringstraject, en wordt meegenomen bij het opstellen van het Persoonlijk Plan Inburgering en Participatie (PIP)."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/ontwikkelwens"^^xsd:anyURI ;
     mim:indicatieAbstractObject false ;
     mim:naam "Ontwikkelwens"@nl ;
     dcterms:identifier "EAID_AE33D54A_A105_4fac_B378_D5651B66F0F0" ;
-    rdfs:comment "<font color=\"#0e0e0e\">Een </font><font color=\"#0e0e0e\"><b>Ontwikkelwens</b></font><font color=\"#0e0e0e\"> is een door de inburgeringsplichtige geuite persoonlijke ambitie of leerdoel die richting kan geven aan het inburgeringstraject, en wordt meegenomen bij het opstellen van het Persoonlijk Plan Inburgering en Participatie (PIP).</font>"@nl ;
+    rdfs:comment "Een Ontwikkelwens is een door de inburgeringsplichtige geuite persoonlijke ambitie of leerdoel die richting kan geven aan het inburgeringstraject, en wordt meegenomen bij het opstellen van het Persoonlijk Plan Inburgering en Participatie (PIP)."@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/voorbereiding-op-inburgering> a mim:Objecttype,
@@ -7141,7 +7139,7 @@ Z1"""@nl ;
     mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/voorbereiding-op-inburgering/datuminstemming>,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/voorbereiding-op-inburgering/instemmingdeelnamevoorinburgering>,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/voorbereiding-op-inburgering/reden> ;
-    mim:definitie "<font color=\"#0e0e0e\"><b>Voorbereiding op inburgering</b></font><font color=\"#0e0e0e\"> omvat de activiteiten die worden aangeboden aan asielstatushouders v&#243;&#243;r de start van de formele inburgeringsplicht, gericht op ori&#235;ntatie op de Nederlandse samenleving, taal en het inburgeringsstelsel.</font>"@nl ;
+    mim:definitie "Voorbereiding op inburgering omvat de activiteiten die worden aangeboden aan asielstatushouders vóór de start van de formele inburgeringsplicht, gericht op oriëntatie op de Nederlandse samenleving, taal en het inburgeringsstelsel."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/voorbereiding-op-inburgering"^^xsd:anyURI ;
     mim:indicatieAbstractObject false ;
     mim:naam "Voorbereiding op Inburgering"@nl ;
@@ -7151,7 +7149,7 @@ Z1"""@nl ;
 	•	De activiteiten worden gecoördineerd door het COA in samenwerking met lokale partners, en vormen geen wettelijk verplicht onderdeel van de inburgeringsplicht.
 	•	Gemeenten kunnen bij de overdracht gebruikmaken van informatie over gevolgde voorbereidingsactiviteiten bij het opstellen van het PIP."""@nl ;
     dcterms:identifier "EAID_6AEA0314_895B_46be_B525_96F4657E7F0D" ;
-    rdfs:comment "<font color=\"#0e0e0e\"><b>Voorbereiding op inburgering</b></font><font color=\"#0e0e0e\"> omvat de activiteiten die worden aangeboden aan asielstatushouders v&#243;&#243;r de start van de formele inburgeringsplicht, gericht op ori&#235;ntatie op de Nederlandse samenleving, taal en het inburgeringsstelsel.</font>"@nl ;
+    rdfs:comment "Voorbereiding op inburgering omvat de activiteiten die worden aangeboden aan asielstatushouders vóór de start van de formele inburgeringsplicht, gericht op oriëntatie op de Nederlandse samenleving, taal en het inburgeringsstelsel."@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/aanvraag-verlenging-inburgeringstermijn> a mim:Objecttype,
@@ -7159,7 +7157,7 @@ Z1"""@nl ;
     rdfs:label "Aanvraag verlenging Inburgeringstermijn"@nl ;
     mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/aanvraag-verlenging-inburgeringstermijn/beoordelingaanvraagverlenging>,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/aanvraag-verlenging-inburgeringstermijn/verlengingsgrond> ;
-    mim:definitie "<font color=\"#0e0e0e\">Een </font><font color=\"#0e0e0e\"><b>Aanvraag verlenging inburgeringstermijn</b></font><font color=\"#0e0e0e\"> is een verzoek van een inburgeringsplichtige aan het college van burgemeester en wethouders tot verlenging van de inburgeringstermijn op grond van persoonlijke omstandigheden als bedoeld in artikel 7.3, tweede lid, van de Wet inburgering 2021.</font>"@nl ;
+    mim:definitie "Een Aanvraag verlenging inburgeringstermijn is een verzoek van een inburgeringsplichtige aan het college van burgemeester en wethouders tot verlenging van de inburgeringstermijn op grond van persoonlijke omstandigheden als bedoeld in artikel 7.3, tweede lid, van de Wet inburgering 2021."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/aanvraag-verlenging-inburgeringstermijn"^^xsd:anyURI ;
     mim:indicatieAbstractObject false ;
     mim:naam "Aanvraag verlenging Inburgeringstermijn"@nl ;
@@ -7168,7 +7166,7 @@ Z1"""@nl ;
 	•	De verlenging kan alleen worden verleend als er sprake is van aantoonbare belemmeringen die het afronden van het inburgeringstraject binnen de standaardtermijn (drie jaar) onmogelijk maken.
 	•	De gemeente besluit op de aanvraag, eventueel na het inwinnen van advies of aanvullende informatie."""@nl ;
     dcterms:identifier "EAID_63D30089_AD78_4c29_9D17_160FE4A242E8" ;
-    rdfs:comment "<font color=\"#0e0e0e\">Een </font><font color=\"#0e0e0e\"><b>Aanvraag verlenging inburgeringstermijn</b></font><font color=\"#0e0e0e\"> is een verzoek van een inburgeringsplichtige aan het college van burgemeester en wethouders tot verlenging van de inburgeringstermijn op grond van persoonlijke omstandigheden als bedoeld in artikel 7.3, tweede lid, van de Wet inburgering 2021.</font>"@nl ;
+    rdfs:comment "Een Aanvraag verlenging inburgeringstermijn is een verzoek van een inburgeringsplichtige aan het college van burgemeester en wethouders tot verlenging van de inburgeringstermijn op grond van persoonlijke omstandigheden als bedoeld in artikel 7.3, tweede lid, van de Wet inburgering 2021."@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/beoordelingaanvraagverlenging> a mim:Enumeratie,
@@ -7191,12 +7189,12 @@ Z1"""@nl ;
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/educatie/educatietot>,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/educatie/educatievan>,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/educatie/opleiding> ;
-    mim:definitie "<font color=\"#0e0e0e\"><b>Educatie</b></font><font color=\"#0e0e0e\"> betreft het formele en non-formele onderwijsaanbod dat gericht is op het vergroten van basisvaardigheden, zoals taalvaardigheid, rekenen en digitale vaardigheden, ter ondersteuning van participatie en zelfredzaamheid van (laagopgeleide) volwassenen, waaronder inburgeringsplichtigen.</font>"@nl ;
+    mim:definitie "Educatie betreft het formele en non-formele onderwijsaanbod dat gericht is op het vergroten van basisvaardigheden, zoals taalvaardigheid, rekenen en digitale vaardigheden, ter ondersteuning van participatie en zelfredzaamheid van (laagopgeleide) volwassenen, waaronder inburgeringsplichtigen."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/educatie"^^xsd:anyURI ;
     mim:indicatieAbstractObject false ;
     mim:naam "Educatie"@nl ;
     dcterms:identifier "EAID_8C5FEEDF_1AE5_44a6_8A13_53A70F06DBBC" ;
-    rdfs:comment "<font color=\"#0e0e0e\"><b>Educatie</b></font><font color=\"#0e0e0e\"> betreft het formele en non-formele onderwijsaanbod dat gericht is op het vergroten van basisvaardigheden, zoals taalvaardigheid, rekenen en digitale vaardigheden, ter ondersteuning van participatie en zelfredzaamheid van (laagopgeleide) volwassenen, waaronder inburgeringsplichtigen.</font>"@nl ;
+    rdfs:comment "Educatie betreft het formele en non-formele onderwijsaanbod dat gericht is op het vergroten van basisvaardigheden, zoals taalvaardigheid, rekenen en digitale vaardigheden, ter ondersteuning van participatie en zelfredzaamheid van (laagopgeleide) volwassenen, waaronder inburgeringsplichtigen."@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/inburgeringstermijn> a mim:Objecttype,
@@ -7207,12 +7205,12 @@ Z1"""@nl ;
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/inburgeringstermijn/datumboete>,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/inburgeringstermijn/datumeindeinburgeringstermijn>,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/inburgeringstermijn/vooraankondigingboete> ;
-    mim:definitie "<font color=\"#0e0e0e\">De </font><font color=\"#0e0e0e\"><b>Inburgeringstermijn</b></font><font color=\"#0e0e0e\"> is de wettelijke periode waarbinnen een inburgeringsplichtige moet voldoen aan de inburgeringsplicht, gerekend vanaf de startdatum van de verplichting zoals vastgesteld door DUO of de gemeente.</font>"@nl ;
+    mim:definitie "De Inburgeringstermijn is de wettelijke periode waarbinnen een inburgeringsplichtige moet voldoen aan de inburgeringsplicht, gerekend vanaf de startdatum van de verplichting zoals vastgesteld door DUO of de gemeente."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/inburgeringstermijn"^^xsd:anyURI ;
     mim:indicatieAbstractObject false ;
     mim:naam "Inburgeringstermijn"@nl ;
     dcterms:identifier "EAID_E07490AD_C5DE_4665_8540_92B19656A027" ;
-    rdfs:comment "<font color=\"#0e0e0e\">De </font><font color=\"#0e0e0e\"><b>Inburgeringstermijn</b></font><font color=\"#0e0e0e\"> is de wettelijke periode waarbinnen een inburgeringsplichtige moet voldoen aan de inburgeringsplicht, gerekend vanaf de startdatum van de verplichting zoals vastgesteld door DUO of de gemeente.</font>"@nl ;
+    rdfs:comment "De Inburgeringstermijn is de wettelijke periode waarbinnen een inburgeringsplichtige moet voldoen aan de inburgeringsplicht, gerekend vanaf de startdatum van de verplichting zoals vastgesteld door DUO of de gemeente."@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/pip> a mim:Objecttype,
@@ -7224,13 +7222,13 @@ Z1"""@nl ;
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/pip/emailcontactpersoon>,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/pip/indicatormagopleidingafmaken>,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/pip/naamcontactpersoon> ;
-    mim:definitie "<font color=\"#0e0e0e\">Het </font><font color=\"#0e0e0e\"><b>Persoonlijk Plan Inburgering en Participatie (PIP)</b></font><font color=\"#0e0e0e\"> is een individueel plan dat door de gemeente wordt vastgesteld in overleg met de inburgeringsplichtige, waarin het leerrouteadvies, het inburgeringsaanbod, het hoofddoel en de begeleidingsafspraken zijn vastgelegd, met als doel het succesvol afronden van de inburgering binnen de gestelde termijn.</font>"@nl ;
+    mim:definitie "Het Persoonlijk Plan Inburgering en Participatie (PIP) is een individueel plan dat door de gemeente wordt vastgesteld in overleg met de inburgeringsplichtige, waarin het leerrouteadvies, het inburgeringsaanbod, het hoofddoel en de begeleidingsafspraken zijn vastgelegd, met als doel het succesvol afronden van de inburgering binnen de gestelde termijn."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/pip"^^xsd:anyURI ;
     mim:indicatieAbstractObject false ;
     mim:naam "PIP"@nl ;
     mim:toelichting "•	Het PIP wordt opgesteld na de brede intake en op basis van onder meer de leerbaarheidstoets, diplomawaardering en persoonlijke omstandigheden (artikel 17 van de Wet inburgering 2021)."@nl ;
     dcterms:identifier "EAID_94EB7844_F863_4330_A15A_06ED4D1401E0" ;
-    rdfs:comment "<font color=\"#0e0e0e\">Het </font><font color=\"#0e0e0e\"><b>Persoonlijk Plan Inburgering en Participatie (PIP)</b></font><font color=\"#0e0e0e\"> is een individueel plan dat door de gemeente wordt vastgesteld in overleg met de inburgeringsplichtige, waarin het leerrouteadvies, het inburgeringsaanbod, het hoofddoel en de begeleidingsafspraken zijn vastgelegd, met als doel het succesvol afronden van de inburgering binnen de gestelde termijn.</font>"@nl ;
+    rdfs:comment "Het Persoonlijk Plan Inburgering en Participatie (PIP) is een individueel plan dat door de gemeente wordt vastgesteld in overleg met de inburgeringsplichtige, waarin het leerrouteadvies, het inburgeringsaanbod, het hoofddoel en de begeleidingsafspraken zijn vastgelegd, met als doel het succesvol afronden van de inburgering binnen de gestelde termijn."@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/presentietaalles> a mim:Enumeratie,
@@ -7336,7 +7334,7 @@ Z1"""@nl ;
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/verlengingsgrond/datumbeoordelingverlengingsgrond>,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/verlengingsgrond/datumeindeverlengingsgrond>,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/verlengingsgrond/verlenginginweken> ;
-    mim:definitie "<font color=\"#0e0e0e\">Een </font><font color=\"#0e0e0e\"><b>Verlengingsgrond</b></font><font color=\"#0e0e0e\"> is een wettelijk erkende reden op basis waarvan de gemeente de inburgeringstermijn van een inburgeringsplichtige kan verlengen, zoals vastgelegd in artikel 7.3, tweede lid, van de Wet inburgering 2021.</font>"@nl ;
+    mim:definitie "Een Verlengingsgrond is een wettelijk erkende reden op basis waarvan de gemeente de inburgeringstermijn van een inburgeringsplichtige kan verlengen, zoals vastgelegd in artikel 7.3, tweede lid, van de Wet inburgering 2021."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/verlengingsgrond"^^xsd:anyURI ;
     mim:indicatieAbstractObject false ;
     mim:naam "Verlengingsgrond"@nl ;
@@ -7350,7 +7348,7 @@ Z1"""@nl ;
 	•	De verlengingsgrond wordt onderbouwd met bewijsstukken en beoordeeld door het college van burgemeester en wethouders.
 	•	De aard en duur van de verlengingsgrond bepalen de omvang van de verlenging, die in principe tijdelijk is."""@nl ;
     dcterms:identifier "EAID_951AC549_985D_4bdb_BEE0_65AD3C1ED9E2" ;
-    rdfs:comment "<font color=\"#0e0e0e\">Een </font><font color=\"#0e0e0e\"><b>Verlengingsgrond</b></font><font color=\"#0e0e0e\"> is een wettelijk erkende reden op basis waarvan de gemeente de inburgeringstermijn van een inburgeringsplichtige kan verlengen, zoals vastgelegd in artikel 7.3, tweede lid, van de Wet inburgering 2021.</font>"@nl ;
+    rdfs:comment "Een Verlengingsgrond is een wettelijk erkende reden op basis waarvan de gemeente de inburgeringstermijn van een inburgeringsplichtige kan verlengen, zoals vastgelegd in artikel 7.3, tweede lid, van de Wet inburgering 2021."@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/examenonderdeel> a mim:Objecttype,
@@ -7458,12 +7456,12 @@ Z1"""@nl ;
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/inburgeringsaanbod/indicatoralfabetisering>,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/inburgeringsaanbod/participatiedeelname>,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/inburgeringsaanbod/taalschakeltraject> ;
-    mim:definitie "<font color=\"#0e0e0e\">Het </font><font color=\"#0e0e0e\"><b>Inburgeringsaanbod</b></font><font color=\"#0e0e0e\"> is het geheel van activiteiten, voorzieningen en ondersteuning dat door de gemeente wordt aangeboden aan de inburgeringsplichtige om de inburgeringsdoelen te behalen, zoals vastgelegd in het persoonlijk plan inburgering en participatie (PIP).</font>"@nl ;
+    mim:definitie "Het Inburgeringsaanbod is het geheel van activiteiten, voorzieningen en ondersteuning dat door de gemeente wordt aangeboden aan de inburgeringsplichtige om de inburgeringsdoelen te behalen, zoals vastgelegd in het persoonlijk plan inburgering en participatie (PIP)."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/inburgeringsaanbod"^^xsd:anyURI ;
     mim:indicatieAbstractObject false ;
     mim:naam "InburgeringsAanbod"@nl ;
     dcterms:identifier "EAID_D9FAEFEC_2B8E_48dc_A1E8_E134754E9943" ;
-    rdfs:comment "<font color=\"#0e0e0e\">Het </font><font color=\"#0e0e0e\"><b>Inburgeringsaanbod</b></font><font color=\"#0e0e0e\"> is het geheel van activiteiten, voorzieningen en ondersteuning dat door de gemeente wordt aangeboden aan de inburgeringsplichtige om de inburgeringsdoelen te behalen, zoals vastgelegd in het persoonlijk plan inburgering en participatie (PIP).</font>"@nl ;
+    rdfs:comment "Het Inburgeringsaanbod is het geheel van activiteiten, voorzieningen en ondersteuning dat door de gemeente wordt aangeboden aan de inburgeringsplichtige om de inburgeringsdoelen te behalen, zoals vastgelegd in het persoonlijk plan inburgering en participatie (PIP)."@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/werk> a mim:Objecttype,
@@ -7480,12 +7478,12 @@ Z1"""@nl ;
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/werk/taaktot>,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/werk/taakvan>,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/werk/vrijetekstbesteding> ;
-    mim:definitie "<font color=\"#0e0e0e\"><b>Werk</b></font><font color=\"#0e0e0e\"> betreft het verrichten van betaalde arbeid door een inburgeringsplichtige, als onderdeel van of resultaat uit het inburgeringstraject, en wordt meegenomen in de beoordeling van participatie, uitstroom en leerroutegeschiktheid.</font>"@nl ;
+    mim:definitie "Werk betreft het verrichten van betaalde arbeid door een inburgeringsplichtige, als onderdeel van of resultaat uit het inburgeringstraject, en wordt meegenomen in de beoordeling van participatie, uitstroom en leerroutegeschiktheid."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/werk"^^xsd:anyURI ;
     mim:indicatieAbstractObject false ;
     mim:naam "Werk"@nl ;
     dcterms:identifier "EAID_45BB12F8_C796_43aa_A4D0_FDC724601EB9" ;
-    rdfs:comment "<font color=\"#0e0e0e\"><b>Werk</b></font><font color=\"#0e0e0e\"> betreft het verrichten van betaalde arbeid door een inburgeringsplichtige, als onderdeel van of resultaat uit het inburgeringstraject, en wordt meegenomen in de beoordeling van participatie, uitstroom en leerroutegeschiktheid.</font>"@nl ;
+    rdfs:comment "Werk betreft het verrichten van betaalde arbeid door een inburgeringsplichtige, als onderdeel van of resultaat uit het inburgeringstraject, en wordt meegenomen in de beoordeling van participatie, uitstroom en leerroutegeschiktheid."@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/subdoel-lichamelijke-gezondheid> a mim:Enumeratie,
@@ -7593,7 +7591,7 @@ Z1"""@nl ;
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/taalvaardigheid/taalvaardigheidschriftelijk>,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/taalvaardigheid/toetsspreekvaardigheid>,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/taalvaardigheid/toetstaalleerbaarheid> ;
-    mim:definitie "<font color=\"#0e0e0e\"><b>Taalvaardigheid</b></font><font color=\"#0e0e0e\"> is het niveau van beheersing van de Nederlandse taal door de inburgeringsplichtige, gemeten op onderdelen zoals luisteren, spreken, lezen en schrijven, overeenkomstig het Europees Referentiekader voor Talen (ERK).</font>"@nl ;
+    mim:definitie "Taalvaardigheid is het niveau van beheersing van de Nederlandse taal door de inburgeringsplichtige, gemeten op onderdelen zoals luisteren, spreken, lezen en schrijven, overeenkomstig het Europees Referentiekader voor Talen (ERK)."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/taalvaardigheid"^^xsd:anyURI ;
     mim:indicatieAbstractObject false ;
     mim:naam "Taalvaardigheid"@nl ;
@@ -7602,14 +7600,14 @@ Z1"""@nl ;
 	•	Gemeenten gebruiken het niveau van taalvaardigheid als input voor het leerrouteadvies, en als evaluatiecriterium in voortgangsgesprekken en de afsluiting van het traject.
 	•	De taalvaardigheid kan per vaardigheid verschillen en wordt vaak als afzonderlijke subniveaus vastgelegd (bijv. A2 lezen, B1 spreken)."""@nl ;
     dcterms:identifier "EAID_0C74C068_BA3A_4394_AA76_16B47FEFC88C" ;
-    rdfs:comment "<font color=\"#0e0e0e\"><b>Taalvaardigheid</b></font><font color=\"#0e0e0e\"> is het niveau van beheersing van de Nederlandse taal door de inburgeringsplichtige, gemeten op onderdelen zoals luisteren, spreken, lezen en schrijven, overeenkomstig het Europees Referentiekader voor Talen (ERK).</font>"@nl ;
+    rdfs:comment "Taalvaardigheid is het niveau van beheersing van de Nederlandse taal door de inburgeringsplichtige, gemeten op onderdelen zoals luisteren, spreken, lezen en schrijven, overeenkomstig het Europees Referentiekader voor Talen (ERK)."@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/soortwerk> a mim:Enumeratie,
         owl:Class,
         skos:ConceptScheme ;
     rdfs:label "SoortWerk"@nl ;
-    mim:definitie "<font color=\"#0e0e0e\">Soorten werkzaamheden die iemand uitvoert of nastreeft. Voorbeelden: <i>maken</i>, <i>helpen</i>, <i>vervoeren</i>.</font>"@nl ;
+    mim:definitie "Soorten werkzaamheden die iemand uitvoert of nastreeft. Voorbeelden: maken, helpen, vervoeren."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/soortwerk"^^xsd:anyURI ;
     mim:naam "SoortWerk"@nl ;
     mim:waarde <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/soortwerk/aanpakken>,
@@ -7618,7 +7616,7 @@ Z1"""@nl ;
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/soortwerk/verkopen>,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/soortwerk/vervoeren> ;
     dcterms:identifier "EAID_92859227_EB07_3E39_8641_39C5765453D0" ;
-    rdfs:comment "<font color=\"#0e0e0e\">Soorten werkzaamheden die iemand uitvoert of nastreeft. Voorbeelden: <i>maken</i>, <i>helpen</i>, <i>vervoeren</i>.</font>"@nl ;
+    rdfs:comment "Soorten werkzaamheden die iemand uitvoert of nastreeft. Voorbeelden: maken, helpen, vervoeren."@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/> ;
     rdfs:subClassOf skos:Concept .
 
@@ -7681,20 +7679,20 @@ Z1"""@nl ;
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/leerroute/indicatortoestemmingexamena2>,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/leerroute/leerroutetype>,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/leerroute/niveau> ;
-    mim:definitie "<font color=\"#0e0e0e\">Een </font><font color=\"#0e0e0e\"><b>Leerroute</b></font><font color=\"#0e0e0e\"> is het door de gemeente vastgestelde traject dat een inburgeringsplichtige volgt om te voldoen aan de inburgeringsplicht, bestaande uit taallessen, participatieactiviteiten en aanvullende modules, afgestemd op het leervermogen en het hoofddoel van de inburgeraar.</font>"@nl ;
+    mim:definitie "Een Leerroute is het door de gemeente vastgestelde traject dat een inburgeringsplichtige volgt om te voldoen aan de inburgeringsplicht, bestaande uit taallessen, participatieactiviteiten en aanvullende modules, afgestemd op het leervermogen en het hoofddoel van de inburgeraar."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/leerroute"^^xsd:anyURI ;
     mim:indicatieAbstractObject false ;
     mim:naam "Leerroute"@nl ;
     mim:toelichting "•	De leerroute wordt bepaald op basis van de brede intake en de leerbaarheidstoets, zoals vastgelegd in artikelen 15 en 16 van de Wet inburgering 2021."@nl ;
     dcterms:identifier "EAID_51285531_9529_4b2d_9EC6_B6BAEA729D9A" ;
-    rdfs:comment "<font color=\"#0e0e0e\">Een </font><font color=\"#0e0e0e\"><b>Leerroute</b></font><font color=\"#0e0e0e\"> is het door de gemeente vastgestelde traject dat een inburgeringsplichtige volgt om te voldoen aan de inburgeringsplicht, bestaande uit taallessen, participatieactiviteiten en aanvullende modules, afgestemd op het leervermogen en het hoofddoel van de inburgeraar.</font>"@nl ;
+    rdfs:comment "Een Leerroute is het door de gemeente vastgestelde traject dat een inburgeringsplichtige volgt om te voldoen aan de inburgeringsplicht, bestaande uit taallessen, participatieactiviteiten en aanvullende modules, afgestemd op het leervermogen en het hoofddoel van de inburgeraar."@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/codeniveauopleiding> a mim:Enumeratie,
         owl:Class,
         skos:ConceptScheme ;
     rdfs:label "CodeNiveauOpleiding"@nl ;
-    mim:definitie "<font color=\"#0e0e0e\">Opleidingsniveau volgens NLQF/ISCED-systematiek. Voorbeelden: <i>mbo-3</i>, <i>hbo</i>, <i>wo-bachelor</i>.</font>"@nl ;
+    mim:definitie "Opleidingsniveau volgens NLQF/ISCED-systematiek. Voorbeelden: mbo-3, hbo, wo-bachelor."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/codeniveauopleiding"^^xsd:anyURI ;
     mim:naam "CodeNiveauOpleiding"@nl ;
     mim:waarde <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/codeniveauopleiding/basisonderwijs>,
@@ -7704,7 +7702,7 @@ Z1"""@nl ;
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/codeniveauopleiding/vmbo-mbo-1>,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/codeniveauopleiding/wo-master> ;
     dcterms:identifier "EAID_EF820B1A_DCDA_4a11_9953_2BF164FFFF8B" ;
-    rdfs:comment "<font color=\"#0e0e0e\">Opleidingsniveau volgens NLQF/ISCED-systematiek. Voorbeelden: <i>mbo-3</i>, <i>hbo</i>, <i>wo-bachelor</i>.</font>"@nl ;
+    rdfs:comment "Opleidingsniveau volgens NLQF/ISCED-systematiek. Voorbeelden: mbo-3, hbo, wo-bachelor."@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/> ;
     rdfs:subClassOf skos:Concept .
 
@@ -7900,7 +7898,7 @@ Z1"""@nl ;
         owl:Class,
         skos:ConceptScheme ;
     rdfs:label "SETU job category"@nl ;
-    mim:definitie "<font color=\"#0e0e0e\">Beroepscategorie&#235;n volgens de SETU-standaard. Voorbeelden: <i>Engineering</i>, <i>Healthcare</i>, <i>ICT</i>.</font>"@nl ;
+    mim:definitie "Beroepscategorieën volgens de SETU-standaard. Voorbeelden: Engineering, Healthcare, ICT."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/setu-job-category"^^xsd:anyURI ;
     mim:naam "SETU job category"@nl ;
     mim:waarde <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/setu-job-category/administratieve-secretariat>,
@@ -7930,7 +7928,7 @@ Z1"""@nl ;
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/setu-job-category/sport-relaxation>,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/setu-job-category/technology-engineering> ;
     dcterms:identifier "EAID_B085E84B_BC20_5199_A56E_86CD393F1542" ;
-    rdfs:comment "<font color=\"#0e0e0e\">Beroepscategorie&#235;n volgens de SETU-standaard. Voorbeelden: <i>Engineering</i>, <i>Healthcare</i>, <i>ICT</i>.</font>"@nl ;
+    rdfs:comment "Beroepscategorieën volgens de SETU-standaard. Voorbeelden: Engineering, Healthcare, ICT."@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/> ;
     rdfs:subClassOf skos:Concept .
 

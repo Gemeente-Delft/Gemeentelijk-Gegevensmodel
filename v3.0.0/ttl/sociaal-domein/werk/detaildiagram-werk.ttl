@@ -5765,11 +5765,11 @@
         owl:Class,
         skos:ConceptScheme ;
     rdfs:label "CodeSoortOpleidingsnaam"@nl ;
-    mim:definitie "<font color=\"#0e0e0e\">Geeft het type naamgebruik aan. Voorbeelden: <i>referentie</i>, <i>synoniem</i>.</font>"@nl ;
+    mim:definitie "Geeft het type naamgebruik aan. Voorbeelden: referentie, synoniem."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/codesoortopleidingsnaam"^^xsd:anyURI ;
     mim:naam "CodeSoortOpleidingsnaam"@nl ;
     dcterms:identifier "EAID_67A98336_8C7B_48b1_B75B_B37EE52CA8C9" ;
-    rdfs:comment "<font color=\"#0e0e0e\">Geeft het type naamgebruik aan. Voorbeelden: <i>referentie</i>, <i>synoniem</i>.</font>"@nl ;
+    rdfs:comment "Geeft het type naamgebruik aan. Voorbeelden: referentie, synoniem."@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/> ;
     rdfs:subClassOf skos:Concept .
 
@@ -5778,47 +5778,47 @@
     rdfs:label "Vaardigheidsvaststelling"@nl ;
     mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/vaardigheidsvaststelling/datumlaatstevaststelling>,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/vaardigheidsvaststelling/indicatie-mate-van-vaardigheid> ;
-    mim:definitie "<font color=\"#0e0e0e\">Het proces waarin specifieke vaardigheden van een persoon worden beoordeeld of gemeten, vaak ter ondersteuning van een werkprofiel of plaatsingsbeslissing.</font>"@nl ;
+    mim:definitie "Het proces waarin specifieke vaardigheden van een persoon worden beoordeeld of gemeten, vaak ter ondersteuning van een werkprofiel of plaatsingsbeslissing."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/vaardigheidsvaststelling"^^xsd:anyURI ;
     mim:indicatieAbstractObject false ;
     mim:naam "Vaardigheidsvaststelling"@nl ;
     dcterms:identifier "EAID_A1912CA8_11EA_4d8a_A5FB_C5F98F521367" ;
-    rdfs:comment "<font color=\"#0e0e0e\">Het proces waarin specifieke vaardigheden van een persoon worden beoordeeld of gemeten, vaak ter ondersteuning van een werkprofiel of plaatsingsbeslissing.</font>"@nl ;
+    rdfs:comment "Het proces waarin specifieke vaardigheden van een persoon worden beoordeeld of gemeten, vaak ter ondersteuning van een werkprofiel of plaatsingsbeslissing."@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/doelreintegratievoorziening> a mim:Objecttype,
         owl:Class ;
     rdfs:label "DoelReintegratievoorziening"@nl ;
     mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/doelreintegratievoorziening/codedoelreintegratievoorziening> ;
-    mim:definitie "<font color=\"#0e0e0e\">Het beoogde effect van een ingezette voorziening, bijvoorbeeld toeleiding naar werk, dagbesteding of maatschappelijke participatie.</font>"@nl ;
+    mim:definitie "Het beoogde effect van een ingezette voorziening, bijvoorbeeld toeleiding naar werk, dagbesteding of maatschappelijke participatie."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/doelreintegratievoorziening"^^xsd:anyURI ;
     mim:indicatieAbstractObject false ;
     mim:naam "DoelReintegratievoorziening"@nl ;
     dcterms:identifier "EAID_2F1FD6B9_AF03_4864_B40C_027155621707" ;
-    rdfs:comment "<font color=\"#0e0e0e\">Het beoogde effect van een ingezette voorziening, bijvoorbeeld toeleiding naar werk, dagbesteding of maatschappelijke participatie.</font>"@nl ;
+    rdfs:comment "Het beoogde effect van een ingezette voorziening, bijvoorbeeld toeleiding naar werk, dagbesteding of maatschappelijke participatie."@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/loonkostensubsidie> a mim:Objecttype,
         owl:Class ;
     rdfs:label "Loonkostensubsidie"@nl ;
     mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/loonkostensubsidie/percentageloonwaardewml> ;
-    mim:definitie "<font color=\"#0e0e0e\">Een tegemoetkoming aan een werkgever voor het in dienst nemen van een werknemer met verminderde loonwaarde.</font>"@nl ;
+    mim:definitie "Een tegemoetkoming aan een werkgever voor het in dienst nemen van een werknemer met verminderde loonwaarde."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/loonkostensubsidie"^^xsd:anyURI ;
     mim:indicatieAbstractObject false ;
     mim:naam "Loonkostensubsidie"@nl ;
     dcterms:identifier "EAID_F600A89B_EE8E_4b86_949E_F15E9328EB83" ;
-    rdfs:comment "<font color=\"#0e0e0e\">Een tegemoetkoming aan een werkgever voor het in dienst nemen van een werknemer met verminderde loonwaarde.</font>"@nl ;
+    rdfs:comment "Een tegemoetkoming aan een werkgever voor het in dienst nemen van een werknemer met verminderde loonwaarde."@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/bemiddelingsberoep> a mim:Objecttype,
         owl:Class ;
     rdfs:label "Bemiddelingsberoep"@nl ;
-    mim:definitie "<font color=\"#0e0e0e\">Het beoogde beroep waarvoor een persoon wordt begeleid of bemiddeld in een traject.</font>"@nl ;
+    mim:definitie "Het beoogde beroep waarvoor een persoon wordt begeleid of bemiddeld in een traject."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/bemiddelingsberoep"^^xsd:anyURI ;
     mim:indicatieAbstractObject false ;
     mim:naam "Bemiddelingsberoep"@nl ;
     dcterms:identifier "EAID_E2147AA5_89F8_4a59_A8F2_558AA872037F" ;
-    rdfs:comment "<font color=\"#0e0e0e\">Het beoogde beroep waarvoor een persoon wordt begeleid of bemiddeld in een traject.</font>"@nl ;
+    rdfs:comment "Het beoogde beroep waarvoor een persoon wordt begeleid of bemiddeld in een traject."@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/beschikbaarvoorbemiddeling> a mim:Objecttype,
@@ -5826,12 +5826,12 @@
     rdfs:label "BeschikbaarVoorBemiddeling"@nl ;
     mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/beschikbaarvoorbemiddeling/datumeinde>,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/beschikbaarvoorbemiddeling/indicatiedirectbemiddelbaar> ;
-    mim:definitie "<font color=\"#0e0e0e\">Een indicatie dat een persoon beschikbaar is voor bemiddeling richting arbeid, waarbij wordt gekeken naar inzetbaarheid, bereidheid en eventuele beperkingen.</font>"@nl ;
+    mim:definitie "Een indicatie dat een persoon beschikbaar is voor bemiddeling richting arbeid, waarbij wordt gekeken naar inzetbaarheid, bereidheid en eventuele beperkingen."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/beschikbaarvoorbemiddeling"^^xsd:anyURI ;
     mim:indicatieAbstractObject false ;
     mim:naam "BeschikbaarVoorBemiddeling"@nl ;
     dcterms:identifier "EAID_1F4F46AC_825C_46c7_A417_BFA6775FF3D9" ;
-    rdfs:comment "<font color=\"#0e0e0e\">Een indicatie dat een persoon beschikbaar is voor bemiddeling richting arbeid, waarbij wordt gekeken naar inzetbaarheid, bereidheid en eventuele beperkingen.</font>"@nl ;
+    rdfs:comment "Een indicatie dat een persoon beschikbaar is voor bemiddeling richting arbeid, waarbij wordt gekeken naar inzetbaarheid, bereidheid en eventuele beperkingen."@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/werkervaring> a mim:Objecttype,
@@ -5839,36 +5839,36 @@
     rdfs:label "Werkervaring"@nl ;
     mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/werkervaring/aantal-jaren-werkzaam-in-beroep>,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/werkervaring/toelichting-beroep> ;
-    mim:definitie "<font color=\"#0e0e0e\">Eerdere functies of werkzaamheden van een persoon, inclusief sector, duur en aard van de werkzaamheden.</font>"@nl ;
+    mim:definitie "Eerdere functies of werkzaamheden van een persoon, inclusief sector, duur en aard van de werkzaamheden."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/werkervaring"^^xsd:anyURI ;
     mim:indicatieAbstractObject false ;
     mim:naam "Werkervaring"@nl ;
     dcterms:identifier "EAID_48CCBBD0_2327_4620_881C_A39F151BABD6" ;
-    rdfs:comment "<font color=\"#0e0e0e\">Eerdere functies of werkzaamheden van een persoon, inclusief sector, duur en aard van de werkzaamheden.</font>"@nl ;
+    rdfs:comment "Eerdere functies of werkzaamheden van een persoon, inclusief sector, duur en aard van de werkzaamheden."@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/opleidingsnaam> a mim:Objecttype,
         owl:Class ;
     rdfs:label "Opleidingsnaam"@nl ;
     mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/opleidingsnaam/naamopleiding> ;
-    mim:definitie "<font color=\"#0e0e0e\">De naam waarmee een gevolgde opleiding aangeduid wordt. Dit kan een offici&#235;le (gecodeerde) of vrije tekst zijn.</font>"@nl ;
+    mim:definitie "De naam waarmee een gevolgde opleiding aangeduid wordt. Dit kan een officiële (gecodeerde) of vrije tekst zijn."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/opleidingsnaam"^^xsd:anyURI ;
     mim:indicatieAbstractObject false ;
     mim:naam "Opleidingsnaam"@nl ;
     dcterms:identifier "EAID_DD9C65D4_0B47_4623_9BE4_6CE711DB846E" ;
-    rdfs:comment "<font color=\"#0e0e0e\">De naam waarmee een gevolgde opleiding aangeduid wordt. Dit kan een offici&#235;le (gecodeerde) of vrije tekst zijn.</font>"@nl ;
+    rdfs:comment "De naam waarmee een gevolgde opleiding aangeduid wordt. Dit kan een officiële (gecodeerde) of vrije tekst zijn."@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/opleidingsniveau> a mim:Objecttype,
         owl:Class ;
     rdfs:label "Opleidingsniveau"@nl ;
     mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/opleidingsniveau/codeopleidingsniveauclient> ;
-    mim:definitie "<font color=\"#0e0e0e\">Het abstractieniveau waarop de opleiding is ingeschaald, vaak gebaseerd op landelijke of Europese onderwijsclassificaties.</font>"@nl ;
+    mim:definitie "Het abstractieniveau waarop de opleiding is ingeschaald, vaak gebaseerd op landelijke of Europese onderwijsclassificaties."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/opleidingsniveau"^^xsd:anyURI ;
     mim:indicatieAbstractObject false ;
     mim:naam "Opleidingsniveau"@nl ;
     dcterms:identifier "EAID_FBDF2AE8_AC88_4288_9B40_5B26C450FC20" ;
-    rdfs:comment "<font color=\"#0e0e0e\">Het abstractieniveau waarop de opleiding is ingeschaald, vaak gebaseerd op landelijke of Europese onderwijsclassificaties.</font>"@nl ;
+    rdfs:comment "Het abstractieniveau waarop de opleiding is ingeschaald, vaak gebaseerd op landelijke of Europese onderwijsclassificaties."@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/arbeidsverhouding> a mim:Objecttype,
@@ -5876,23 +5876,23 @@
     rdfs:label "Arbeidsverhouding"@nl ;
     mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/arbeidsverhouding/datum-aanvraag-arbeidsverhouding>,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/arbeidsverhouding/datum-einde-arbeidsverhouding> ;
-    mim:definitie "<font color=\"#0e0e0e\">Een relatie waarin sprake is van afspraken tussen een werknemer en een werkgever over het verrichten van arbeid.</font>"@nl ;
+    mim:definitie "Een relatie waarin sprake is van afspraken tussen een werknemer en een werkgever over het verrichten van arbeid."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/arbeidsverhouding"^^xsd:anyURI ;
     mim:indicatieAbstractObject false ;
     mim:naam "Arbeidsverhouding"@nl ;
     dcterms:identifier "EAID_BDC8C949_2563_45eb_9E85_866ED51B3AC4" ;
-    rdfs:comment "<font color=\"#0e0e0e\">Een relatie waarin sprake is van afspraken tussen een werknemer en een werkgever over het verrichten van arbeid.</font>"@nl ;
+    rdfs:comment "Een relatie waarin sprake is van afspraken tussen een werknemer en een werkgever over het verrichten van arbeid."@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/arbeidsvermogen> a mim:Objecttype,
         owl:Class ;
     rdfs:label "Arbeidsvermogen"@nl ;
-    mim:definitie "<font color=\"#0e0e0e\">Een inschatting van wat iemand op basis van fysieke, mentale en sociale capaciteiten aan arbeid kan verrichten.</font>"@nl ;
+    mim:definitie "Een inschatting van wat iemand op basis van fysieke, mentale en sociale capaciteiten aan arbeid kan verrichten."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/arbeidsvermogen"^^xsd:anyURI ;
     mim:indicatieAbstractObject false ;
     mim:naam "Arbeidsvermogen"@nl ;
     dcterms:identifier "EAID_F657BA3E_8B66_4b84_8036_0FA4CCC2D3CE" ;
-    rdfs:comment "<font color=\"#0e0e0e\">Een inschatting van wat iemand op basis van fysieke, mentale en sociale capaciteiten aan arbeid kan verrichten.</font>"@nl ;
+    rdfs:comment "Een inschatting van wat iemand op basis van fysieke, mentale en sociale capaciteiten aan arbeid kan verrichten."@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/doelgroepenregister> a mim:Objecttype,
@@ -5900,12 +5900,12 @@
     rdfs:label "Doelgroepenregister"@nl ;
     mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/doelgroepenregister/baanafspraak>,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/doelgroepenregister/indicatiedoelgroepenregister> ;
-    mim:definitie "<font color=\"#0e0e0e\">Een landelijk register waarin mensen met een afstand tot de arbeidsmarkt worden opgenomen, vaak ten behoeve van loonkostensubsidie of andere voorzieningen.</font>"@nl ;
+    mim:definitie "Een landelijk register waarin mensen met een afstand tot de arbeidsmarkt worden opgenomen, vaak ten behoeve van loonkostensubsidie of andere voorzieningen."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/doelgroepenregister"^^xsd:anyURI ;
     mim:indicatieAbstractObject false ;
     mim:naam "Doelgroepenregister"@nl ;
     dcterms:identifier "EAID_B1CD002A_85A3_41db_A905_D9A7512A7307" ;
-    rdfs:comment "<font color=\"#0e0e0e\">Een landelijk register waarin mensen met een afstand tot de arbeidsmarkt worden opgenomen, vaak ten behoeve van loonkostensubsidie of andere voorzieningen.</font>"@nl ;
+    rdfs:comment "Een landelijk register waarin mensen met een afstand tot de arbeidsmarkt worden opgenomen, vaak ten behoeve van loonkostensubsidie of andere voorzieningen."@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/flexibiliteit> a mim:Objecttype,
@@ -5916,12 +5916,12 @@
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/flexibiliteit/indicatiebereidheidzoekenonderniveau>,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/flexibiliteit/indicatiebereidheidzwaarwerk>,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/flexibiliteit/ingeschrevenbijuitzendbureau> ;
-    mim:definitie "<font color=\"#0e0e0e\">De mate waarin een persoon flexibel inzetbaar is qua werktijden, werkplek of werkzaamheden.</font>"@nl ;
+    mim:definitie "De mate waarin een persoon flexibel inzetbaar is qua werktijden, werkplek of werkzaamheden."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/flexibiliteit"^^xsd:anyURI ;
     mim:indicatieAbstractObject false ;
     mim:naam "Flexibiliteit"@nl ;
     dcterms:identifier "EAID_E7BC941E_A54D_49e1_8F77_1D8D7CE8EBD7" ;
-    rdfs:comment "<font color=\"#0e0e0e\">De mate waarin een persoon flexibel inzetbaar is qua werktijden, werkplek of werkzaamheden.</font>"@nl ;
+    rdfs:comment "De mate waarin een persoon flexibel inzetbaar is qua werktijden, werkplek of werkzaamheden."@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/mobiliteit> a mim:Objecttype,
@@ -5932,12 +5932,12 @@
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/mobiliteit/maximalereistijd>,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/mobiliteit/toelichtingmaximalereistijd>,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/mobiliteit/toelichtingvervoermiddel> ;
-    mim:definitie "<font color=\"#0e0e0e\">De bereikbaarheid van werkplekken voor een persoon, afhankelijk van vervoermiddel, rijbewijs en fysieke mogelijkheden.</font>"@nl ;
+    mim:definitie "De bereikbaarheid van werkplekken voor een persoon, afhankelijk van vervoermiddel, rijbewijs en fysieke mogelijkheden."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/mobiliteit"^^xsd:anyURI ;
     mim:indicatieAbstractObject false ;
     mim:naam "Mobiliteit"@nl ;
     dcterms:identifier "EAID_8C8FAE2D_5F4D_4e3b_8EA3_43FF544775F2" ;
-    rdfs:comment "<font color=\"#0e0e0e\">De bereikbaarheid van werkplekken voor een persoon, afhankelijk van vervoermiddel, rijbewijs en fysieke mogelijkheden.</font>"@nl ;
+    rdfs:comment "De bereikbaarheid van werkplekken voor een persoon, afhankelijk van vervoermiddel, rijbewijs en fysieke mogelijkheden."@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/vrijstellingarbeidsplicht> a mim:Objecttype,
@@ -5948,12 +5948,12 @@
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/vrijstellingarbeidsplicht/datumeinde>,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/vrijstellingarbeidsplicht/datumstart>,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/vrijstellingarbeidsplicht/indicatievrijstelling> ;
-    mim:definitie "<font color=\"#0e0e0e\">Geeft aan of en waarom iemand tijdelijk of structureel is vrijgesteld van de plicht om arbeid te verrichten.</font>"@nl ;
+    mim:definitie "Geeft aan of en waarom iemand tijdelijk of structureel is vrijgesteld van de plicht om arbeid te verrichten."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/vrijstellingarbeidsplicht"^^xsd:anyURI ;
     mim:indicatieAbstractObject false ;
     mim:naam "VrijstellingArbeidsplicht"@nl ;
     dcterms:identifier "EAID_5E0C3ED7_DCB9_4fc0_A11C_50F079D74EFD" ;
-    rdfs:comment "<font color=\"#0e0e0e\">Geeft aan of en waarom iemand tijdelijk of structureel is vrijgesteld van de plicht om arbeid te verrichten.</font>"@nl ;
+    rdfs:comment "Geeft aan of en waarom iemand tijdelijk of structureel is vrijgesteld van de plicht om arbeid te verrichten."@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/bemiddelingstraject> a mim:Objecttype,
@@ -5965,25 +5965,25 @@
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/bemiddelingstraject/omschrijvingcontactbemiddeling>,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/bemiddelingstraject/omschrijvingresultaatbemiddeling>,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/bemiddelingstraject/omschrijvingstatusbemiddeling> ;
-    mim:definitie "<font color=\"#0e0e0e\">Een traject waarin een persoon begeleid wordt naar passend werk, bijvoorbeeld door een gemeente of uitvoeringsinstantie.</font>"@nl ;
+    mim:definitie "Een traject waarin een persoon begeleid wordt naar passend werk, bijvoorbeeld door een gemeente of uitvoeringsinstantie."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/bemiddelingstraject"^^xsd:anyURI ;
     mim:indicatieAbstractObject false ;
     mim:naam "Bemiddelingstraject"@nl ;
     dcterms:identifier "EAID_1C180C62_5B5E_45b4_BB94_F44454D11BDE" ;
-    rdfs:comment "<font color=\"#0e0e0e\">Een traject waarin een persoon begeleid wordt naar passend werk, bijvoorbeeld door een gemeente of uitvoeringsinstantie.</font>"@nl ;
+    rdfs:comment "Een traject waarin een persoon begeleid wordt naar passend werk, bijvoorbeeld door een gemeente of uitvoeringsinstantie."@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/codeopleidingsnaam> a mim:Enumeratie,
         owl:Class,
         skos:ConceptScheme ;
     rdfs:label "CodeOpleidingsnaam"@nl ;
-    mim:definitie "<font color=\"#0e0e0e\">Gecodeerde of vrije naam van een opleiding. Voorbeeld: <i>Sociaal Werk (mbo-4)</i>.</font>"@nl ;
+    mim:definitie "Gecodeerde of vrije naam van een opleiding. Voorbeeld: Sociaal Werk (mbo-4)."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/codeopleidingsnaam"^^xsd:anyURI ;
     mim:naam "CodeOpleidingsnaam"@nl ;
     mim:waarde <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/codeopleidingsnaam/referentieopleiding>,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/codeopleidingsnaam/synoniem> ;
     dcterms:identifier "EAID_8BC797B1_8F85_4da4_866C_AAAD4C469D02" ;
-    rdfs:comment "<font color=\"#0e0e0e\">Gecodeerde of vrije naam van een opleiding. Voorbeeld: <i>Sociaal Werk (mbo-4)</i>.</font>"@nl ;
+    rdfs:comment "Gecodeerde of vrije naam van een opleiding. Voorbeeld: Sociaal Werk (mbo-4)."@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/> ;
     rdfs:subClassOf skos:Concept .
 
@@ -6016,26 +6016,26 @@
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/taalbeheersing/spreekvaardigheid>,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/taalbeheersing/taalcode>,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/taalbeheersing/taalnaam> ;
-    mim:definitie "<font color=\"#0e0e0e\">Het Europese of Nederlandse taalniveau (zoals A1 t/m C2) waarop de taalvaardigheid van een persoon is ingeschaald.</font>"@nl ;
+    mim:definitie "Het Europese of Nederlandse taalniveau (zoals A1 t/m C2) waarop de taalvaardigheid van een persoon is ingeschaald."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/taalbeheersing"^^xsd:anyURI ;
     mim:indicatieAbstractObject false ;
     mim:naam "Taalbeheersing"@nl ;
     dcterms:identifier "EAID_AFB7351F_6761_4db2_ACC4_537A1B7C0CAA" ;
-    rdfs:comment "<font color=\"#0e0e0e\">Het Europese of Nederlandse taalniveau (zoals A1 t/m C2) waarop de taalvaardigheid van een persoon is ingeschaald.</font>"@nl ;
+    rdfs:comment "Het Europese of Nederlandse taalniveau (zoals A1 t/m C2) waarop de taalvaardigheid van een persoon is ingeschaald."@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/hulp-aanwezig> a mim:Enumeratie,
         owl:Class,
         skos:ConceptScheme ;
     rdfs:label "Hulp aanwezig"@nl ;
-    mim:definitie "<font color=\"#0e0e0e\">Geeft aan of er op een domein hulp wordt ontvangen. Waarden zijn: <i>ja</i>, <i>nee</i>, <i>onbekend</i>.</font>"@nl ;
+    mim:definitie "Geeft aan of er op een domein hulp wordt ontvangen. Waarden zijn: ja, nee, onbekend."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/hulp-aanwezig"^^xsd:anyURI ;
     mim:naam "Hulp aanwezig"@nl ;
     mim:waarde <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/hulp-aanwezig/ja-formeel>,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/hulp-aanwezig/ja-informeel>,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/hulp-aanwezig/nee> ;
     dcterms:identifier "EAID_00A0566C_D23C_4139_9CA7_73ACFC055821" ;
-    rdfs:comment "<font color=\"#0e0e0e\">Geeft aan of er op een domein hulp wordt ontvangen. Waarden zijn: <i>ja</i>, <i>nee</i>, <i>onbekend</i>.</font>"@nl ;
+    rdfs:comment "Geeft aan of er op een domein hulp wordt ontvangen. Waarden zijn: ja, nee, onbekend."@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/> ;
     rdfs:subClassOf skos:Concept .
 
@@ -6043,14 +6043,14 @@
         owl:Class,
         skos:ConceptScheme ;
     rdfs:label "Soort ontheffing"@nl ;
-    mim:definitie "<font color=\"#0e0e0e\">Het type ontheffing van arbeidsplicht. Voorbeelden: <i>structureel</i>, <i>tijdelijk</i>.</font>"@nl ;
+    mim:definitie "Het type ontheffing van arbeidsplicht. Voorbeelden: structureel, tijdelijk."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/soort-ontheffing"^^xsd:anyURI ;
     mim:naam "Soort ontheffing"@nl ;
     mim:waarde <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/soort-ontheffing/ouder-met-kind-5>,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/soort-ontheffing/sociaal-medisch-permanent>,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/soort-ontheffing/sociaal-medisch-tijdelijk> ;
     dcterms:identifier "EAID_EEB18D04_9D40_4b51_8AF9_F1B1E104F649" ;
-    rdfs:comment "<font color=\"#0e0e0e\">Het type ontheffing van arbeidsplicht. Voorbeelden: <i>structureel</i>, <i>tijdelijk</i>.</font>"@nl ;
+    rdfs:comment "Het type ontheffing van arbeidsplicht. Voorbeelden: structureel, tijdelijk."@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/> ;
     rdfs:subClassOf skos:Concept .
 
@@ -6066,12 +6066,12 @@
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/werkzaamheden-als-mantelzorger/toezicht-houden>,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/werkzaamheden-als-mantelzorger/vervoer-en-begeleiding>,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/werkzaamheden-als-mantelzorger/verzorgde-actviteiten> ;
-    mim:definitie "<font color=\"#0e0e0e\">Activiteiten die een persoon uitvoert in de rol van mantelzorger, buiten een formele arbeidsverhouding, maar met mogelijke invloed op beschikbaarheid voor arbeid.</font>"@nl ;
+    mim:definitie "Activiteiten die een persoon uitvoert in de rol van mantelzorger, buiten een formele arbeidsverhouding, maar met mogelijke invloed op beschikbaarheid voor arbeid."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/werkzaamheden-als-mantelzorger"^^xsd:anyURI ;
     mim:indicatieAbstractObject false ;
     mim:naam "Werkzaamheden als mantelzorger"@nl ;
     dcterms:identifier "EAID_D985F79E_8616_4144_9071_238FB9240B85" ;
-    rdfs:comment "<font color=\"#0e0e0e\">Activiteiten die een persoon uitvoert in de rol van mantelzorger, buiten een formele arbeidsverhouding, maar met mogelijke invloed op beschikbaarheid voor arbeid.</font>"@nl ;
+    rdfs:comment "Activiteiten die een persoon uitvoert in de rol van mantelzorger, buiten een formele arbeidsverhouding, maar met mogelijke invloed op beschikbaarheid voor arbeid."@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/> ;
     rdfs:subClassOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/werkzaamheden-anders-dan-in-arbeidsverhouding> .
 
@@ -6080,12 +6080,12 @@
     rdfs:label "Arbeidsmarktkwalificaties"@nl ;
     mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/arbeidsmarktkwalificaties/klanttypering>,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/arbeidsmarktkwalificaties/toelichtingarbeidsmarktkwalificaties> ;
-    mim:definitie "<font color=\"#0e0e0e\">Een verzameling formele en informele kwalificaties, vaardigheden en eigenschappen die relevant zijn voor de inzetbaarheid van een persoon op de arbeidsmarkt.</font>"@nl ;
+    mim:definitie "Een verzameling formele en informele kwalificaties, vaardigheden en eigenschappen die relevant zijn voor de inzetbaarheid van een persoon op de arbeidsmarkt."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/arbeidsmarktkwalificaties"^^xsd:anyURI ;
     mim:indicatieAbstractObject false ;
     mim:naam "Arbeidsmarktkwalificaties"@nl ;
     dcterms:identifier "EAID_E771BA5B_93D4_48a0_A6FC_BEBDD18C8975" ;
-    rdfs:comment "<font color=\"#0e0e0e\">Een verzameling formele en informele kwalificaties, vaardigheden en eigenschappen die relevant zijn voor de inzetbaarheid van een persoon op de arbeidsmarkt.</font>"@nl ;
+    rdfs:comment "Een verzameling formele en informele kwalificaties, vaardigheden en eigenschappen die relevant zijn voor de inzetbaarheid van een persoon op de arbeidsmarkt."@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/arbeidsperiode> a mim:Objecttype,
@@ -6099,12 +6099,12 @@
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/arbeidsperiode/functienaam>,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/arbeidsperiode/functieomschrijving>,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/arbeidsperiode/gemiddeld-aantal-uur-per-week> ;
-    mim:definitie "<font color=\"#0e0e0e\">Een aaneengesloten periode waarin een persoon arbeid heeft verricht, met begin- en einddatum.</font>"@nl ;
+    mim:definitie "Een aaneengesloten periode waarin een persoon arbeid heeft verricht, met begin- en einddatum."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/arbeidsperiode"^^xsd:anyURI ;
     mim:indicatieAbstractObject false ;
     mim:naam "Arbeidsperiode"@nl ;
     dcterms:identifier "EAID_E2F30023_4E8C_44fc_8989_1E467EA8618F" ;
-    rdfs:comment "<font color=\"#0e0e0e\">Een aaneengesloten periode waarin een persoon arbeid heeft verricht, met begin- en einddatum.</font>"@nl ;
+    rdfs:comment "Een aaneengesloten periode waarin een persoon arbeid heeft verricht, met begin- en einddatum."@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/rijbewijs-certificaat> a mim:Objecttype,
@@ -6118,12 +6118,12 @@
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/rijbewijs-certificaat/naamcertificaat>,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/rijbewijs-certificaat/nummercertificaat>,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/rijbewijs-certificaat/verstrekkendepartij> ;
-    mim:definitie "<font color=\"#0e0e0e\">Een door een bevoegde instantie afgegeven document dat aangeeft dat een persoon bevoegd is tot het besturen van bepaalde typen voertuigen.</font>"@nl ;
+    mim:definitie "Een door een bevoegde instantie afgegeven document dat aangeeft dat een persoon bevoegd is tot het besturen van bepaalde typen voertuigen."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/rijbewijs-certificaat"^^xsd:anyURI ;
     mim:indicatieAbstractObject false ;
     mim:naam "Rijbewijs /Certificaat"@nl ;
     dcterms:identifier "EAID_40C7DD8D_7F0A_4019_860A_EB59841D1DAF" ;
-    rdfs:comment "<font color=\"#0e0e0e\">Een door een bevoegde instantie afgegeven document dat aangeeft dat een persoon bevoegd is tot het besturen van bepaalde typen voertuigen.</font>"@nl ;
+    rdfs:comment "Een door een bevoegde instantie afgegeven document dat aangeeft dat een persoon bevoegd is tot het besturen van bepaalde typen voertuigen."@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/zelfredzaamheidscore> a mim:Objecttype,
@@ -6133,26 +6133,26 @@
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/zelfredzaamheidscore/domein-van-zelfredzaamheid>,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/zelfredzaamheidscore/indicatiehulpaanwezig>,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/zelfredzaamheidscore/kenmerkbeoordelaar> ;
-    mim:definitie "<font color=\"#0e0e0e\">Een gekwantificeerde weergave van het niveau van zelfstandigheid van een persoon op meerdere levensgebieden, vaak volgens de methodiek van de ZRM (Zelfredzaamheidsmatrix).</font>"@nl ;
+    mim:definitie "Een gekwantificeerde weergave van het niveau van zelfstandigheid van een persoon op meerdere levensgebieden, vaak volgens de methodiek van de ZRM (Zelfredzaamheidsmatrix)."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/zelfredzaamheidscore"^^xsd:anyURI ;
     mim:indicatieAbstractObject false ;
     mim:naam "ZelfredzaamheidScore"@nl ;
     dcterms:identifier "EAID_609AECDB_CFEA_4316_9541_5239A26CC069" ;
-    rdfs:comment "<font color=\"#0e0e0e\">Een gekwantificeerde weergave van het niveau van zelfstandigheid van een persoon op meerdere levensgebieden, vaak volgens de methodiek van de ZRM (Zelfredzaamheidsmatrix).</font>"@nl ;
+    rdfs:comment "Een gekwantificeerde weergave van het niveau van zelfstandigheid van een persoon op meerdere levensgebieden, vaak volgens de methodiek van de ZRM (Zelfredzaamheidsmatrix)."@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/indicatie-doelgroepenregister> a mim:Enumeratie,
         owl:Class,
         skos:ConceptScheme ;
     rdfs:label "Indicatie doelgroepenregister"@nl ;
-    mim:definitie "<font color=\"#0e0e0e\">Geeft aan of iemand valt onder het doelgroepregister voor de banenafspraak. Voorbeelden: <i>Wajong</i>, <i>Participatiewet</i>.</font>"@nl ;
+    mim:definitie "Geeft aan of iemand valt onder het doelgroepregister voor de banenafspraak. Voorbeelden: Wajong, Participatiewet."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/indicatie-doelgroepenregister"^^xsd:anyURI ;
     mim:naam "Indicatie doelgroepenregister"@nl ;
     mim:waarde <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/indicatie-doelgroepenregister/ja>,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/indicatie-doelgroepenregister/nee>,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/indicatie-doelgroepenregister/vermoedelijk> ;
     dcterms:identifier "EAID_9356C95E_1B27_42c8_8CC5_6CD45E070CF5" ;
-    rdfs:comment "<font color=\"#0e0e0e\">Geeft aan of iemand valt onder het doelgroepregister voor de banenafspraak. Voorbeelden: <i>Wajong</i>, <i>Participatiewet</i>.</font>"@nl ;
+    rdfs:comment "Geeft aan of iemand valt onder het doelgroepregister voor de banenafspraak. Voorbeelden: Wajong, Participatiewet."@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/> ;
     rdfs:subClassOf skos:Concept .
 
@@ -6160,14 +6160,14 @@
         owl:Class,
         skos:ConceptScheme ;
     rdfs:label "Ontheffingsverplichting"@nl ;
-    mim:definitie "<font color=\"#0e0e0e\">Geeft aan of een persoon verplicht is tot arbeidsparticipatie. Voorbeelden: <i>geen ontheffing</i>, <i>medische gronden</i>.</font>"@nl ;
+    mim:definitie "Geeft aan of een persoon verplicht is tot arbeidsparticipatie. Voorbeelden: geen ontheffing, medische gronden."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/ontheffingsverplichting"^^xsd:anyURI ;
     mim:naam "Ontheffingsverplichting"@nl ;
     mim:waarde <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/ontheffingsverplichting/a>,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/ontheffingsverplichting/a-b-c>,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/ontheffingsverplichting/a-c> ;
     dcterms:identifier "EAID_4198974E_B813_4707_9C29_2AAAAF86F9DA" ;
-    rdfs:comment "<font color=\"#0e0e0e\">Geeft aan of een persoon verplicht is tot arbeidsparticipatie. Voorbeelden: <i>geen ontheffing</i>, <i>medische gronden</i>.</font>"@nl ;
+    rdfs:comment "Geeft aan of een persoon verplicht is tot arbeidsparticipatie. Voorbeelden: geen ontheffing, medische gronden."@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/> ;
     rdfs:subClassOf skos:Concept .
 
@@ -6184,12 +6184,12 @@
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/beschikbaarvoorarbeid/startdatumbeschikbaarheid>,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/beschikbaarvoorarbeid/toelichtingbeschikbaarheid>,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/beschikbaarvoorarbeid/waardeopzegtermijn> ;
-    mim:definitie "<font color=\"#0e0e0e\">Een indicatie of iemand op dit moment inzetbaar is voor arbeid, los van begeleiding of ondersteuning.</font>"@nl ;
+    mim:definitie "Een indicatie of iemand op dit moment inzetbaar is voor arbeid, los van begeleiding of ondersteuning."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/beschikbaarvoorarbeid"^^xsd:anyURI ;
     mim:indicatieAbstractObject false ;
     mim:naam "BeschikbaarVoorArbeid"@nl ;
     dcterms:identifier "EAID_A0F5CBE4_67D2_47bb_9CE9_B104E7093D12" ;
-    rdfs:comment "<font color=\"#0e0e0e\">Een indicatie of iemand op dit moment inzetbaar is voor arbeid, los van begeleiding of ondersteuning.</font>"@nl ;
+    rdfs:comment "Een indicatie of iemand op dit moment inzetbaar is voor arbeid, los van begeleiding of ondersteuning."@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/werkzaamheden-anders-dan-in-arbeidsverhouding> a mim:Objecttype,
@@ -6204,24 +6204,24 @@
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/werkzaamheden-anders-dan-in-arbeidsverhouding/omschrijving-reden-einde-werkzaamheden>,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/werkzaamheden-anders-dan-in-arbeidsverhouding/omschrijving-werkzaamheden>,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/werkzaamheden-anders-dan-in-arbeidsverhouding/persoonorganisatiewaarbij> ;
-    mim:definitie "<font color=\"#0e0e0e\">Taken of activiteiten die een persoon verricht zonder dat sprake is van een formele arbeidsovereenkomst, zoals vrijwilligerswerk of mantelzorg.</font>"@nl ;
+    mim:definitie "Taken of activiteiten die een persoon verricht zonder dat sprake is van een formele arbeidsovereenkomst, zoals vrijwilligerswerk of mantelzorg."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/werkzaamheden-anders-dan-in-arbeidsverhouding"^^xsd:anyURI ;
     mim:indicatieAbstractObject false ;
     mim:naam "Werkzaamheden anders dan in arbeidsverhouding"@nl ;
     dcterms:identifier "EAID_F0C047DA_725B_486b_9FF3_EB60662C1895" ;
-    rdfs:comment "<font color=\"#0e0e0e\">Taken of activiteiten die een persoon verricht zonder dat sprake is van een formele arbeidsovereenkomst, zoals vrijwilligerswerk of mantelzorg.</font>"@nl ;
+    rdfs:comment "Taken of activiteiten die een persoon verricht zonder dat sprake is van een formele arbeidsovereenkomst, zoals vrijwilligerswerk of mantelzorg."@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/taalbeheersingnederlands> a mim:Objecttype,
         owl:Class ;
     rdfs:label "TaalbeheersingNederlands"@nl ;
     mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/taalbeheersingnederlands/ontheffingtaaleis> ;
-    mim:definitie "<font color=\"#0e0e0e\">De mate waarin een persoon de Nederlandse taal beheerst, inclusief mondelinge en schriftelijke vaardigheden.</font>"@nl ;
+    mim:definitie "De mate waarin een persoon de Nederlandse taal beheerst, inclusief mondelinge en schriftelijke vaardigheden."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/taalbeheersingnederlands"^^xsd:anyURI ;
     mim:indicatieAbstractObject false ;
     mim:naam "TaalbeheersingNederlands"@nl ;
     dcterms:identifier "EAID_14E98618_2093_4442_9593_1B15890260A8" ;
-    rdfs:comment "<font color=\"#0e0e0e\">De mate waarin een persoon de Nederlandse taal beheerst, inclusief mondelinge en schriftelijke vaardigheden.</font>"@nl ;
+    rdfs:comment "De mate waarin een persoon de Nederlandse taal beheerst, inclusief mondelinge en schriftelijke vaardigheden."@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/voorkeur> a mim:Objecttype,
@@ -6236,20 +6236,20 @@
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/voorkeur/toelichtingvervoersmiddel>,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/voorkeur/verloopdatumovk>,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/voorkeur/vervoermiddel> ;
-    mim:definitie "<font color=\"#0e0e0e\"><b>Voorkeur</b></font><font color=\"#0e0e0e\"> is een door de klant geuite wens of voorkeur met betrekking tot werk, opleiding of ondersteuning, waarmee bij de invulling van het re-integratie- of participatietraject rekening kan worden gehouden voor zover dit past binnen de wettelijke kaders en mogelijkheden van de gemeente.</font>"@nl ;
+    mim:definitie "Voorkeur is een door de klant geuite wens of voorkeur met betrekking tot werk, opleiding of ondersteuning, waarmee bij de invulling van het re-integratie- of participatietraject rekening kan worden gehouden voor zover dit past binnen de wettelijke kaders en mogelijkheden van de gemeente."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/voorkeur"^^xsd:anyURI ;
     mim:indicatieAbstractObject false ;
     mim:naam "Voorkeur"@nl ;
     mim:toelichting "•	Een voorkeur kan betrekking hebben op type werkzaamheden, branche, werkomgeving, werktijden, opleidingsrichting of gewenste ondersteuning."@nl ;
     dcterms:identifier "EAID_A514BC85_0096_4bbc_B393_DE1784056420" ;
-    rdfs:comment "<font color=\"#0e0e0e\"><b>Voorkeur</b></font><font color=\"#0e0e0e\"> is een door de klant geuite wens of voorkeur met betrekking tot werk, opleiding of ondersteuning, waarmee bij de invulling van het re-integratie- of participatietraject rekening kan worden gehouden voor zover dit past binnen de wettelijke kaders en mogelijkheden van de gemeente.</font>"@nl ;
+    rdfs:comment "Voorkeur is een door de klant geuite wens of voorkeur met betrekking tot werk, opleiding of ondersteuning, waarmee bij de invulling van het re-integratie- of participatietraject rekening kan worden gehouden voor zover dit past binnen de wettelijke kaders en mogelijkheden van de gemeente."@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/codestatusopleiding> a mim:Enumeratie,
         owl:Class,
         skos:ConceptScheme ;
     rdfs:label "CodeStatusOpleiding"@nl ;
-    mim:definitie "<font color=\"#0e0e0e\">tatus van de opleiding op het moment van registratie. Waarden zijn onder andere <i>bezig</i>, <i>afgerond</i>, <i>gestopt</i>.</font>"@nl ;
+    mim:definitie "tatus van de opleiding op het moment van registratie. Waarden zijn onder andere bezig, afgerond, gestopt."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/codestatusopleiding"^^xsd:anyURI ;
     mim:naam "CodeStatusOpleiding"@nl ;
     mim:waarde <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/codestatusopleiding/afgebroken>,
@@ -6257,7 +6257,7 @@
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/codestatusopleiding/onbekend>,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/codestatusopleiding/succesvol-afgerond> ;
     dcterms:identifier "EAID_4278AD00_AF48_4af8_B06E_E63021FAA8CB" ;
-    rdfs:comment "<font color=\"#0e0e0e\">tatus van de opleiding op het moment van registratie. Waarden zijn onder andere <i>bezig</i>, <i>afgerond</i>, <i>gestopt</i>.</font>"@nl ;
+    rdfs:comment "tatus van de opleiding op het moment van registratie. Waarden zijn onder andere bezig, afgerond, gestopt."@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/> ;
     rdfs:subClassOf skos:Concept .
 
@@ -6265,7 +6265,7 @@
         owl:Class,
         skos:ConceptScheme ;
     rdfs:label "Interval opzegtermijn"@nl ;
-    mim:definitie "<font color=\"#0e0e0e\">De geldende opzegtermijn bij een arbeidsverhouding. Voorbeelden: <i>1 maand</i>, <i>2 weken</i>.</font>"@nl ;
+    mim:definitie "De geldende opzegtermijn bij een arbeidsverhouding. Voorbeelden: 1 maand, 2 weken."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/interval-opzegtermijn"^^xsd:anyURI ;
     mim:naam "Interval opzegtermijn"@nl ;
     mim:waarde <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/interval-opzegtermijn/dag>,
@@ -6273,7 +6273,7 @@
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/interval-opzegtermijn/uur>,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/interval-opzegtermijn/week> ;
     dcterms:identifier "EAID_8E6192D2_DD00_4322_9970_FB81F3177B43" ;
-    rdfs:comment "<font color=\"#0e0e0e\">De geldende opzegtermijn bij een arbeidsverhouding. Voorbeelden: <i>1 maand</i>, <i>2 weken</i>.</font>"@nl ;
+    rdfs:comment "De geldende opzegtermijn bij een arbeidsverhouding. Voorbeelden: 1 maand, 2 weken."@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/> ;
     rdfs:subClassOf skos:Concept .
 
@@ -6281,7 +6281,7 @@
         owl:Class,
         skos:ConceptScheme ;
     rdfs:label "Code arbeidsvermogen"@nl ;
-    mim:definitie "<font color=\"#0e0e0e\">Indeling van het arbeidsvermogen van een persoon in functionele categorie&#235;n zoals “kan werken”, “kan beperkt werken”, of “is (tijdelijk) niet inzetbaar voor arbeid”.</font>"@nl ;
+    mim:definitie "Indeling van het arbeidsvermogen van een persoon in functionele categorieën zoals “kan werken”, “kan beperkt werken”, of “is (tijdelijk) niet inzetbaar voor arbeid”."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/code-arbeidsvermogen"^^xsd:anyURI ;
     mim:naam "Code arbeidsvermogen"@nl ;
     mim:waarde <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/code-arbeidsvermogen/met-hulp-wml-of-hoger>,
@@ -6290,7 +6290,7 @@
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/code-arbeidsvermogen/tijdelijk-geen-arbeidsvermogen>,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/code-arbeidsvermogen/zelfstandig-wml-of-hoger> ;
     dcterms:identifier "EAID_4A764F24_4D95_4f8a_8B94_D83AD82D8021" ;
-    rdfs:comment "<font color=\"#0e0e0e\">Indeling van het arbeidsvermogen van een persoon in functionele categorie&#235;n zoals “kan werken”, “kan beperkt werken”, of “is (tijdelijk) niet inzetbaar voor arbeid”.</font>"@nl ;
+    rdfs:comment "Indeling van het arbeidsvermogen van een persoon in functionele categorieën zoals “kan werken”, “kan beperkt werken”, of “is (tijdelijk) niet inzetbaar voor arbeid”."@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/> ;
     rdfs:subClassOf skos:Concept .
 
@@ -6298,7 +6298,7 @@
         owl:Class,
         skos:ConceptScheme ;
     rdfs:label "Kanaal contactmoment"@nl ;
-    mim:definitie "<font color=\"#0e0e0e\">Het gebruikte communicatiekanaal bij een contactmoment. Voorbeelden: <i>telefoon</i>, <i>email</i>, <i>huisbezoek</i>.</font>"@nl ;
+    mim:definitie "Het gebruikte communicatiekanaal bij een contactmoment. Voorbeelden: telefoon, email, huisbezoek."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/kanaal-contactmoment"^^xsd:anyURI ;
     mim:naam "Kanaal contactmoment"@nl ;
     mim:waarde <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/kanaal-contactmoment/berichten-via-thomas>,
@@ -6307,7 +6307,7 @@
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/kanaal-contactmoment/ontvangen-correspondentie>,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/kanaal-contactmoment/telefonisch-gesprek> ;
     dcterms:identifier "EAID_362B3FC2_A412_450f_AF4D_CF3A4B149060" ;
-    rdfs:comment "<font color=\"#0e0e0e\">Het gebruikte communicatiekanaal bij een contactmoment. Voorbeelden: <i>telefoon</i>, <i>email</i>, <i>huisbezoek</i>.</font>"@nl ;
+    rdfs:comment "Het gebruikte communicatiekanaal bij een contactmoment. Voorbeelden: telefoon, email, huisbezoek."@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/> ;
     rdfs:subClassOf skos:Concept .
 
@@ -6315,7 +6315,7 @@
         owl:Class,
         skos:ConceptScheme ;
     rdfs:label "ZRM-score"@nl ;
-    mim:definitie "<font color=\"#0e0e0e\">Zelfredzaamheidsscore op een domein volgens de ZRM. Voorbeelden: <i>onvoldoende</i>, <i>voldoende</i>, <i>volledig zelfredzaam</i>.</font>"@nl ;
+    mim:definitie "Zelfredzaamheidsscore op een domein volgens de ZRM. Voorbeelden: onvoldoende, voldoende, volledig zelfredzaam."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/zrm-score"^^xsd:anyURI ;
     mim:naam "ZRM-score"@nl ;
     mim:waarde <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/zrm-score/acute-problematiek>,
@@ -6324,7 +6324,7 @@
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/zrm-score/voldoende-zelfredzaam>,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/zrm-score/volledig-zelfredzaam> ;
     dcterms:identifier "EAID_DA737608_8BA7_40db_ACD0_00F90B8084C0" ;
-    rdfs:comment "<font color=\"#0e0e0e\">Zelfredzaamheidsscore op een domein volgens de ZRM. Voorbeelden: <i>onvoldoende</i>, <i>voldoende</i>, <i>volledig zelfredzaam</i>.</font>"@nl ;
+    rdfs:comment "Zelfredzaamheidsscore op een domein volgens de ZRM. Voorbeelden: onvoldoende, voldoende, volledig zelfredzaam."@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/> ;
     rdfs:subClassOf skos:Concept .
 
@@ -6343,19 +6343,19 @@
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/reintegratievoorziening/omschrijvingtype>,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/reintegratievoorziening/registratienummerreintegratievoorziening>,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/reintegratievoorziening/toelichtingomschrijving> ;
-    mim:definitie "<font color=\"#0e0e0e\">Een voorziening of dienst die wordt ingezet om de kansen van een persoon op arbeidsparticipatie te vergroten.</font>"@nl ;
+    mim:definitie "Een voorziening of dienst die wordt ingezet om de kansen van een persoon op arbeidsparticipatie te vergroten."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/reintegratievoorziening"^^xsd:anyURI ;
     mim:indicatieAbstractObject false ;
     mim:naam "Reintegratievoorziening"@nl ;
     dcterms:identifier "EAID_6B1C7773_77F8_47a5_8C4E_E7E129148ADB" ;
-    rdfs:comment "<font color=\"#0e0e0e\">Een voorziening of dienst die wordt ingezet om de kansen van een persoon op arbeidsparticipatie te vergroten.</font>"@nl ;
+    rdfs:comment "Een voorziening of dienst die wordt ingezet om de kansen van een persoon op arbeidsparticipatie te vergroten."@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/codeleerwegmbo> a mim:Enumeratie,
         owl:Class,
         skos:ConceptScheme ;
     rdfs:label "CodeLeerwegMBO"@nl ;
-    mim:definitie "<font color=\"#0e0e0e\">Geeft de leerweg aan binnen het mbo. Voorbeelden: <i>BOL</i>, <i>BBL</i></font>"@nl ;
+    mim:definitie "Geeft de leerweg aan binnen het mbo. Voorbeelden: BOL, BBL"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/codeleerwegmbo"^^xsd:anyURI ;
     mim:naam "CodeLeerwegMBO"@nl ;
     mim:waarde <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/codeleerwegmbo/bbl-beroepsbegeleidende-leerweg>,
@@ -6364,7 +6364,7 @@
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/codeleerwegmbo/col-combinatie-beroepsopleidende-leerweg>,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/codeleerwegmbo/ovo-overig-onderwijs-niet-bekostigd> ;
     dcterms:identifier "EAID_8342F88A_D42A_4820_B65E_181F1466CE2F" ;
-    rdfs:comment "<font color=\"#0e0e0e\">Geeft de leerweg aan binnen het mbo. Voorbeelden: <i>BOL</i>, <i>BBL</i></font>"@nl ;
+    rdfs:comment "Geeft de leerweg aan binnen het mbo. Voorbeelden: BOL, BBL"@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/> ;
     rdfs:subClassOf skos:Concept .
 
@@ -6372,7 +6372,7 @@
         owl:Class,
         skos:ConceptScheme ;
     rdfs:label "Indicatie mate van vaardigheid"@nl ;
-    mim:definitie "<font color=\"#0e0e0e\">Schatting van het vaardigheidsniveau op een bepaald gebied. Voorbeelden: <i>voldoende</i>, <i>goed</i>.</font>"@nl ;
+    mim:definitie "Schatting van het vaardigheidsniveau op een bepaald gebied. Voorbeelden: voldoende, goed."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/indicatie-mate-van-vaardigheid"^^xsd:anyURI ;
     mim:naam "Indicatie mate van vaardigheid"@nl ;
     mim:waarde <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/indicatie-mate-van-vaardigheid/goed>,
@@ -6382,7 +6382,7 @@
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/indicatie-mate-van-vaardigheid/onvoldoende>,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/indicatie-mate-van-vaardigheid/voldoende> ;
     dcterms:identifier "EAID_EF6B492C_3C43_4558_BEFC_30685FEBCDE3" ;
-    rdfs:comment "<font color=\"#0e0e0e\">Schatting van het vaardigheidsniveau op een bepaald gebied. Voorbeelden: <i>voldoende</i>, <i>goed</i>.</font>"@nl ;
+    rdfs:comment "Schatting van het vaardigheidsniveau op een bepaald gebied. Voorbeelden: voldoende, goed."@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/> ;
     rdfs:subClassOf skos:Concept .
 
@@ -6390,7 +6390,7 @@
         owl:Class,
         skos:ConceptScheme ;
     rdfs:label "SoortWerk"@nl ;
-    mim:definitie "<font color=\"#0e0e0e\">Soorten werkzaamheden die iemand uitvoert of nastreeft. Voorbeelden: <i>maken</i>, <i>helpen</i>, <i>vervoeren</i>.</font>"@nl ;
+    mim:definitie "Soorten werkzaamheden die iemand uitvoert of nastreeft. Voorbeelden: maken, helpen, vervoeren."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/soortwerk"^^xsd:anyURI ;
     mim:naam "SoortWerk"@nl ;
     mim:waarde <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/soortwerk/aanpakken>,
@@ -6399,7 +6399,7 @@
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/soortwerk/verkopen>,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/soortwerk/vervoeren> ;
     dcterms:identifier "EAID_C04B989A_CDB8_48e0_9285_9227EB073E39" ;
-    rdfs:comment "<font color=\"#0e0e0e\">Soorten werkzaamheden die iemand uitvoert of nastreeft. Voorbeelden: <i>maken</i>, <i>helpen</i>, <i>vervoeren</i>.</font>"@nl ;
+    rdfs:comment "Soorten werkzaamheden die iemand uitvoert of nastreeft. Voorbeelden: maken, helpen, vervoeren."@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/> ;
     rdfs:subClassOf skos:Concept .
 
@@ -6407,7 +6407,7 @@
         owl:Class,
         skos:ConceptScheme ;
     rdfs:label "Code maatschappelijke context werkzaamheden anders dan in arbeidsverhouding"@nl ;
-    mim:definitie "<font color=\"#0e0e0e\">Typologie van werkzaamheden buiten formeel dienstverband, zoals mantelzorg, vrijwilligerswerk of informele zorg.</font>"@nl ;
+    mim:definitie "Typologie van werkzaamheden buiten formeel dienstverband, zoals mantelzorg, vrijwilligerswerk of informele zorg."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/code-maatschappelijke-context-werkzaamheden-anders-dan-in-arbeidsverhouding"^^xsd:anyURI ;
     mim:naam "Code maatschappelijke context werkzaamheden anders dan in arbeidsverhouding"@nl ;
     mim:waarde <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/code-maatschappelijke-context-werkzaamheden-anders-dan-in-arbeidsverhouding/werkzaamheden-als-freelancer>,
@@ -6417,7 +6417,7 @@
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/code-maatschappelijke-context-werkzaamheden-anders-dan-in-arbeidsverhouding/werkzaamheden-in-een-niet-nader-gespecificeerde-context-niet-zijnde-een-arbeidsverhouding>,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/code-maatschappelijke-context-werkzaamheden-anders-dan-in-arbeidsverhouding/werkzaamheden-in-een-politieke-functie> ;
     dcterms:identifier "EAID_465F4C44_6311_45a1_89ED_A4BD135DEDEF" ;
-    rdfs:comment "<font color=\"#0e0e0e\">Typologie van werkzaamheden buiten formeel dienstverband, zoals mantelzorg, vrijwilligerswerk of informele zorg.</font>"@nl ;
+    rdfs:comment "Typologie van werkzaamheden buiten formeel dienstverband, zoals mantelzorg, vrijwilligerswerk of informele zorg."@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/> ;
     rdfs:subClassOf skos:Concept .
 
@@ -6425,7 +6425,7 @@
         owl:Class,
         skos:ConceptScheme ;
     rdfs:label "Code tijdsbeslag opleiding"@nl ;
-    mim:definitie "<font color=\"#0e0e0e\">Geeft aan hoeveel tijd een opleiding per week vraagt, zoals voltijd, deeltijd of duaal.</font>"@nl ;
+    mim:definitie "Geeft aan hoeveel tijd een opleiding per week vraagt, zoals voltijd, deeltijd of duaal."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/code-tijdsbeslag-opleiding"^^xsd:anyURI ;
     mim:naam "Code tijdsbeslag opleiding"@nl ;
     mim:waarde <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/code-tijdsbeslag-opleiding/anders>,
@@ -6435,7 +6435,7 @@
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/code-tijdsbeslag-opleiding/onbekend>,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/code-tijdsbeslag-opleiding/schriftelijk> ;
     dcterms:identifier "EAID_5B31FFA6_B0C4_4d12_8753_6E4028F1FD81" ;
-    rdfs:comment "<font color=\"#0e0e0e\">Geeft aan hoeveel tijd een opleiding per week vraagt, zoals voltijd, deeltijd of duaal.</font>"@nl ;
+    rdfs:comment "Geeft aan hoeveel tijd een opleiding per week vraagt, zoals voltijd, deeltijd of duaal."@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/> ;
     rdfs:subClassOf skos:Concept .
 
@@ -6443,7 +6443,7 @@
         owl:Class,
         skos:ConceptScheme ;
     rdfs:label "CodeNiveauOpleiding"@nl ;
-    mim:definitie "<font color=\"#0e0e0e\">Opleidingsniveau volgens NLQF/ISCED-systematiek. Voorbeelden: <i>mbo-3</i>, <i>hbo</i>, <i>wo-bachelor</i>.</font>"@nl ;
+    mim:definitie "Opleidingsniveau volgens NLQF/ISCED-systematiek. Voorbeelden: mbo-3, hbo, wo-bachelor."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/codeniveauopleiding"^^xsd:anyURI ;
     mim:naam "CodeNiveauOpleiding"@nl ;
     mim:waarde <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/codeniveauopleiding/basisonderwijs>,
@@ -6453,7 +6453,7 @@
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/codeniveauopleiding/vmbo-mbo-1>,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/codeniveauopleiding/wo-master> ;
     dcterms:identifier "EAID_EF820B1A_DCDA_4a11_9953_2BF164FFFF8B" ;
-    rdfs:comment "<font color=\"#0e0e0e\">Opleidingsniveau volgens NLQF/ISCED-systematiek. Voorbeelden: <i>mbo-3</i>, <i>hbo</i>, <i>wo-bachelor</i>.</font>"@nl ;
+    rdfs:comment "Opleidingsniveau volgens NLQF/ISCED-systematiek. Voorbeelden: mbo-3, hbo, wo-bachelor."@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/> ;
     rdfs:subClassOf skos:Concept .
 
@@ -6476,19 +6476,19 @@
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/opleiding/opleidingstype>,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/opleiding/toelichtingbeeindigenopleiding>,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/opleiding/toelichtingopleiding> ;
-    mim:definitie "<font color=\"#0e0e0e\">Een formeel of informeel leertraject dat een persoon heeft gevolgd met als doel het verwerven van kennis, vaardigheden of competenties.</font>"@nl ;
+    mim:definitie "Een formeel of informeel leertraject dat een persoon heeft gevolgd met als doel het verwerven van kennis, vaardigheden of competenties."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/opleiding"^^xsd:anyURI ;
     mim:indicatieAbstractObject false ;
     mim:naam "Opleiding"@nl ;
     dcterms:identifier "EAID_E250F980_18C3_4666_8022_302ACDC18A56" ;
-    rdfs:comment "<font color=\"#0e0e0e\">Een formeel of informeel leertraject dat een persoon heeft gevolgd met als doel het verwerven van kennis, vaardigheden of competenties.</font>"@nl ;
+    rdfs:comment "Een formeel of informeel leertraject dat een persoon heeft gevolgd met als doel het verwerven van kennis, vaardigheden of competenties."@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/dag-beschikbaarheid> a mim:Enumeratie,
         owl:Class,
         skos:ConceptScheme ;
     rdfs:label "Dag beschikbaarheid"@nl ;
-    mim:definitie "<font color=\"#0e0e0e\">Beschikbare dagen in de week voor werk of activiteiten. Voorbeelden: <i>maandag</i>, <i>vrijdag</i>.</font>"@nl ;
+    mim:definitie "Beschikbare dagen in de week voor werk of activiteiten. Voorbeelden: maandag, vrijdag."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/dag-beschikbaarheid"^^xsd:anyURI ;
     mim:naam "Dag beschikbaarheid"@nl ;
     mim:waarde <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/dag-beschikbaarheid/dinsdag>,
@@ -6499,7 +6499,7 @@
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/dag-beschikbaarheid/zaterdag>,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/dag-beschikbaarheid/zondag> ;
     dcterms:identifier "EAID_A091CC76_7576_45ac_B5D7_4D5C2D40BFD6" ;
-    rdfs:comment "<font color=\"#0e0e0e\">Beschikbare dagen in de week voor werk of activiteiten. Voorbeelden: <i>maandag</i>, <i>vrijdag</i>.</font>"@nl ;
+    rdfs:comment "Beschikbare dagen in de week voor werk of activiteiten. Voorbeelden: maandag, vrijdag."@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/> ;
     rdfs:subClassOf skos:Concept .
 
@@ -6507,7 +6507,7 @@
         owl:Class,
         skos:ConceptScheme ;
     rdfs:label "Taalvaardigheid"@nl ;
-    mim:definitie "<font color=\"#0e0e0e\">Beheersingsniveau van de Nederlandse taal. </font>"@nl ;
+    mim:definitie "Beheersingsniveau van de Nederlandse taal."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/taalvaardigheid"^^xsd:anyURI ;
     mim:naam "Taalvaardigheid"@nl ;
     mim:waarde <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/taalvaardigheid/arm>,
@@ -6516,7 +6516,7 @@
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/taalvaardigheid/uitstekend>,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/taalvaardigheid/voldoende> ;
     dcterms:identifier "EAID_1667C22C_75BD_4181_9BA0_27D5A8EDE1B5" ;
-    rdfs:comment "<font color=\"#0e0e0e\">Beheersingsniveau van de Nederlandse taal. </font>"@nl ;
+    rdfs:comment "Beheersingsniveau van de Nederlandse taal."@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/> ;
     rdfs:subClassOf skos:Concept .
 
@@ -6530,19 +6530,19 @@
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/ontheffing/ontheffenverplichtingen>,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/ontheffing/redenaanvraag>,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/ontheffing/versienummeraanvraag> ;
-    mim:definitie "<font color=\"#0e0e0e\">Een formele vrijstelling van verplichtingen rond arbeidsparticipatie, zoals beschikbaarheid of tegenprestatie, op basis van persoonlijke of juridische gronden.</font>"@nl ;
+    mim:definitie "Een formele vrijstelling van verplichtingen rond arbeidsparticipatie, zoals beschikbaarheid of tegenprestatie, op basis van persoonlijke of juridische gronden."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/ontheffing"^^xsd:anyURI ;
     mim:indicatieAbstractObject false ;
     mim:naam "Ontheffing"@nl ;
     dcterms:identifier "EAID_8EE515EA_11F9_4f56_B9AA_F7B0904B39E7" ;
-    rdfs:comment "<font color=\"#0e0e0e\">Een formele vrijstelling van verplichtingen rond arbeidsparticipatie, zoals beschikbaarheid of tegenprestatie, op basis van persoonlijke of juridische gronden.</font>"@nl ;
+    rdfs:comment "Een formele vrijstelling van verplichtingen rond arbeidsparticipatie, zoals beschikbaarheid of tegenprestatie, op basis van persoonlijke of juridische gronden."@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/opleidingsrichting> a mim:Enumeratie,
         owl:Class,
         skos:ConceptScheme ;
     rdfs:label "Opleidingsrichting"@nl ;
-    mim:definitie "<font color=\"#0e0e0e\">Het vakgebied waarop een opleiding betrekking heeft. </font>"@nl ;
+    mim:definitie "Het vakgebied waarop een opleiding betrekking heeft."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/opleidingsrichting"^^xsd:anyURI ;
     mim:naam "Opleidingsrichting"@nl ;
     mim:waarde <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/opleidingsrichting/hoger-onderwijs-derde-fase>,
@@ -6553,7 +6553,7 @@
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/opleidingsrichting/secundair-onderwijs-eerste-fase>,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/opleidingsrichting/secundair-onderwijs-tweede-fase> ;
     dcterms:identifier "EAID_39A87FE7_2240_4193_A5CC_3A23AA13357B" ;
-    rdfs:comment "<font color=\"#0e0e0e\">Het vakgebied waarop een opleiding betrekking heeft. </font>"@nl ;
+    rdfs:comment "Het vakgebied waarop een opleiding betrekking heeft."@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/> ;
     rdfs:subClassOf skos:Concept .
 
@@ -6561,7 +6561,7 @@
         owl:Class,
         skos:ConceptScheme ;
     rdfs:label "Code opleidingsniveau cliënt"@nl ;
-    mim:definitie "<font color=\"#0e0e0e\">Schatting van het opleidingsniveau van de cli&#235;nt, vaak gebaseerd op zelfrapportage. Voorbeelden: <i>vmbo / praktijkonderwijs</i>, <i>mbo-2</i>, <i>hbo</i>.</font>"@nl ;
+    mim:definitie "Schatting van het opleidingsniveau van de cliënt, vaak gebaseerd op zelfrapportage. Voorbeelden: vmbo / praktijkonderwijs, mbo-2, hbo."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/code-opleidingsniveau-cli-nt"^^xsd:anyURI ;
     mim:naam "Code opleidingsniveau cliënt"@nl ;
     mim:waarde <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/code-opleidingsniveau-cli-nt/basisniveau>,
@@ -6573,7 +6573,7 @@
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/code-opleidingsniveau-cli-nt/nog-niet-bekend>,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/code-opleidingsniveau-cli-nt/wetenschappelijk-onderwijs> ;
     dcterms:identifier "EAID_67EF841C_7814_49bc_84AC_39EB57C936B3" ;
-    rdfs:comment "<font color=\"#0e0e0e\">Schatting van het opleidingsniveau van de cli&#235;nt, vaak gebaseerd op zelfrapportage. Voorbeelden: <i>vmbo / praktijkonderwijs</i>, <i>mbo-2</i>, <i>hbo</i>.</font>"@nl ;
+    rdfs:comment "Schatting van het opleidingsniveau van de cliënt, vaak gebaseerd op zelfrapportage. Voorbeelden: vmbo / praktijkonderwijs, mbo-2, hbo."@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/> ;
     rdfs:subClassOf skos:Concept .
 
@@ -6581,7 +6581,7 @@
         owl:Class,
         skos:ConceptScheme ;
     rdfs:label "Vervoersmogelijkheden"@nl ;
-    mim:definitie "<font color=\"#0e0e0e\">Mate waarin iemand zich kan verplaatsen naar werk of activiteiten.</font>"@nl ;
+    mim:definitie "Mate waarin iemand zich kan verplaatsen naar werk of activiteiten."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/vervoersmogelijkheden"^^xsd:anyURI ;
     mim:naam "Vervoersmogelijkheden"@nl ;
     mim:waarde <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/vervoersmogelijkheden/anders>,
@@ -6595,7 +6595,7 @@
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/vervoersmogelijkheden/openbaar-vervoer-week-ov>,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/vervoersmogelijkheden/openbaar-vervoer-weekend-ov> ;
     dcterms:identifier "EAID_4E17ABC6_7138_4f97_B2F0_22095642A089" ;
-    rdfs:comment "<font color=\"#0e0e0e\">Mate waarin iemand zich kan verplaatsen naar werk of activiteiten.</font>"@nl ;
+    rdfs:comment "Mate waarin iemand zich kan verplaatsen naar werk of activiteiten."@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/> ;
     rdfs:subClassOf skos:Concept .
 
@@ -6603,7 +6603,7 @@
         owl:Class,
         skos:ConceptScheme ;
     rdfs:label "Vervoermiddel"@nl ;
-    mim:definitie "<font color=\"#0e0e0e\">Beschikbare of gebruikte vervoermiddelen. Voorbeelden: <i>fiets</i>, <i>openbaar vervoer</i>, <i>auto</i>.</font>"@nl ;
+    mim:definitie "Beschikbare of gebruikte vervoermiddelen. Voorbeelden: fiets, openbaar vervoer, auto."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/vervoermiddel"^^xsd:anyURI ;
     mim:naam "Vervoermiddel"@nl ;
     mim:waarde <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/vervoermiddel/anders>,
@@ -6617,7 +6617,7 @@
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/vervoermiddel/openbaar-vervoer-week-ov>,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/vervoermiddel/openbaar-vervoer-weekend-ov> ;
     dcterms:identifier "EAID_CA2AC9CB_D807_42a5_AAEC_FB096C23392B" ;
-    rdfs:comment "<font color=\"#0e0e0e\">Beschikbare of gebruikte vervoermiddelen. Voorbeelden: <i>fiets</i>, <i>openbaar vervoer</i>, <i>auto</i>.</font>"@nl ;
+    rdfs:comment "Beschikbare of gebruikte vervoermiddelen. Voorbeelden: fiets, openbaar vervoer, auto."@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/> ;
     rdfs:subClassOf skos:Concept .
 
@@ -6625,7 +6625,7 @@
         owl:Class,
         skos:ConceptScheme ;
     rdfs:label "Domein van zelfredzaamheid"@nl ;
-    mim:definitie "<font color=\"#0e0e0e\">Levensgebied waarop zelfredzaamheid wordt beoordeeld. Voorbeelden: <i>Financi&#235;n</i>, <i>Psychische gezondheid</i>, <i>Dagbesteding</i>.</font>"@nl ;
+    mim:definitie "Levensgebied waarop zelfredzaamheid wordt beoordeeld. Voorbeelden: Financiën, Psychische gezondheid, Dagbesteding."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/domein-van-zelfredzaamheid"^^xsd:anyURI ;
     mim:naam "Domein van zelfredzaamheid"@nl ;
     mim:waarde <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/domein-van-zelfredzaamheid/basale-adl-activiteiten-dagelijks-leven>,
@@ -6642,7 +6642,7 @@
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/domein-van-zelfredzaamheid/tijdsbesteding>,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/domein-van-zelfredzaamheid/werk-opleiding> ;
     dcterms:identifier "EAID_6BACDBD1_1236_4f4b_B5F6_B6DA30B79D10" ;
-    rdfs:comment "<font color=\"#0e0e0e\">Levensgebied waarop zelfredzaamheid wordt beoordeeld. Voorbeelden: <i>Financi&#235;n</i>, <i>Psychische gezondheid</i>, <i>Dagbesteding</i>.</font>"@nl ;
+    rdfs:comment "Levensgebied waarop zelfredzaamheid wordt beoordeeld. Voorbeelden: Financiën, Psychische gezondheid, Dagbesteding."@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/> ;
     rdfs:subClassOf skos:Concept .
 
@@ -6651,19 +6651,19 @@
     rdfs:label "Werkzoekende"@nl ;
     mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/werkzoekende/datumaanvangwerkzoekende>,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/werkzoekende/datumeindewerkzoekende> ;
-    mim:definitie "<font color=\"#0e0e0e\">Een generiek werkprofiel van een persoon waarin diens arbeidspositie, bemiddelbaarheid en begeleidingsbehoefte worden vastgelegd, als basis voor begeleiding naar arbeid.</font>"@nl ;
+    mim:definitie "Een generiek werkprofiel van een persoon waarin diens arbeidspositie, bemiddelbaarheid en begeleidingsbehoefte worden vastgelegd, als basis voor begeleiding naar arbeid."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/werkzoekende"^^xsd:anyURI ;
     mim:indicatieAbstractObject false ;
     mim:naam "Werkzoekende"@nl ;
     dcterms:identifier "EAID_24A45AF2_13FF_491d_9E3D_F8D8113F28E1" ;
-    rdfs:comment "<font color=\"#0e0e0e\">Een generiek werkprofiel van een persoon waarin diens arbeidspositie, bemiddelbaarheid en begeleidingsbehoefte worden vastgelegd, als basis voor begeleiding naar arbeid.</font>"@nl ;
+    rdfs:comment "Een generiek werkprofiel van een persoon waarin diens arbeidspositie, bemiddelbaarheid en begeleidingsbehoefte worden vastgelegd, als basis voor begeleiding naar arbeid."@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/setu-job-category> a mim:Enumeratie,
         owl:Class,
         skos:ConceptScheme ;
     rdfs:label "SETU job category"@nl ;
-    mim:definitie "<font color=\"#0e0e0e\">Beroepscategorie&#235;n volgens de SETU-standaard. Voorbeelden: <i>Engineering</i>, <i>Healthcare</i>, <i>ICT</i>.</font>"@nl ;
+    mim:definitie "Beroepscategorieën volgens de SETU-standaard. Voorbeelden: Engineering, Healthcare, ICT."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/setu-job-category"^^xsd:anyURI ;
     mim:naam "SETU job category"@nl ;
     mim:waarde <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/setu-job-category/administratieve-secretariat>,
@@ -6693,7 +6693,7 @@
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/setu-job-category/sport-relaxation>,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/setu-job-category/technology-engineering> ;
     dcterms:identifier "EAID_065C201E_2825_4f32_B085_E84BBC205199" ;
-    rdfs:comment "<font color=\"#0e0e0e\">Beroepscategorie&#235;n volgens de SETU-standaard. Voorbeelden: <i>Engineering</i>, <i>Healthcare</i>, <i>ICT</i>.</font>"@nl ;
+    rdfs:comment "Beroepscategorieën volgens de SETU-standaard. Voorbeelden: Engineering, Healthcare, ICT."@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/> ;
     rdfs:subClassOf skos:Concept .
 

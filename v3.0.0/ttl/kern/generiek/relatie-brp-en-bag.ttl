@@ -399,11 +399,9 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
         owl:ObjectProperty ;
     rdfs:label "status"@nl ;
     mim:definitie """De levenscyclus van een nummeraanduiding, waarin de betreffende nummeraanduiding zich bevindt.
-&nbsp;
-<ul>
-	<li>Naamgeving uitgegeven</li>
-	<li>Naamgeving ingetrokken</li>
-</ul>"""@nl ;
+
+- Naamgeving uitgegeven
+- Naamgeving ingetrokken"""@nl ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/bag/nummeraanduiding/status"^^xsd:anyURI ;
@@ -417,11 +415,9 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
     mim:type <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusnummeraanduiding> ;
     dcterms:identifier "EAID_C5D0D5C3_1292_457f_A381_3E7594A0CB9E" ;
     rdfs:comment """De levenscyclus van een nummeraanduiding, waarin de betreffende nummeraanduiding zich bevindt.
-&nbsp;
-<ul>
-	<li>Naamgeving uitgegeven</li>
-	<li>Naamgeving ingetrokken</li>
-</ul>"""@nl ;
+
+- Naamgeving uitgegeven
+- Naamgeving ingetrokken"""@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/nummeraanduiding> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/> ;
     rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusnummeraanduiding> .

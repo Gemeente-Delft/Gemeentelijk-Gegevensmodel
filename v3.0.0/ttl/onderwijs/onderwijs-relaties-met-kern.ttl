@@ -84,7 +84,7 @@
 <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/achternaam> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "achternaam"@nl ;
-    mim:definitie "<font color=\"#610e6a\">De achternaam zoals de medewerker die in het dagelijkse verkeer gebruikt.</font>"@nl ;
+    mim:definitie "De achternaam zoals de medewerker die in het dagelijkse verkeer gebruikt."@nl ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/achternaam"^^xsd:anyURI ;
@@ -97,7 +97,7 @@
     mim:naam "achternaam"@nl ;
     mim:type mim:CharacterString ;
     dcterms:identifier "EAID_79457AE1_2585_4ce0_A864_D4ADE30A2135" ;
-    rdfs:comment "<font color=\"#610e6a\">De achternaam zoals de medewerker die in het dagelijkse verkeer gebruikt.</font>"@nl ;
+    rdfs:comment "De achternaam zoals de medewerker die in het dagelijkse verkeer gebruikt."@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> ;
     rdfs:range xsd:string .
@@ -124,7 +124,7 @@
 <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/datumuitdienst> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "datumUitDienst"@nl ;
-    mim:definitie "<font color=\"#610e6a\">Een aanduiding van de datum waarop de arbeidsplaatsvervulling eindigt.</font>"@nl ;
+    mim:definitie "Een aanduiding van de datum waarop de arbeidsplaatsvervulling eindigt."@nl ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/datumuitdienst"^^xsd:anyURI ;
@@ -137,7 +137,7 @@
     mim:naam "datumUitDienst"@nl ;
     mim:type mim:Date ;
     dcterms:identifier "EAID_AE3CF305_B845_40cf_A9E3_2DE97CB31F46" ;
-    rdfs:comment "<font color=\"#610e6a\">Een aanduiding van de datum waarop de arbeidsplaatsvervulling eindigt.</font>"@nl ;
+    rdfs:comment "Een aanduiding van de datum waarop de arbeidsplaatsvervulling eindigt."@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> ;
     rdfs:range xsd:date .
@@ -145,7 +145,7 @@
 <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/emailadres> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "emailadres"@nl ;
-    mim:definitie "<font color=\"#610e6a\">Elektronisch postadres waaronder de medewerker in de regel bereikbaar is.</font>"@nl ;
+    mim:definitie "Elektronisch postadres waaronder de medewerker in de regel bereikbaar is."@nl ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/emailadres"^^xsd:anyURI ;
@@ -158,7 +158,7 @@
     mim:naam "emailadres"@nl ;
     mim:type mim:CharacterString ;
     dcterms:identifier "EAID_2EEFDDE3_164E_4dc6_8573_205834C1AF47" ;
-    rdfs:comment "<font color=\"#610e6a\">Elektronisch postadres waaronder de medewerker in de regel bereikbaar is.</font>"@nl ;
+    rdfs:comment "Elektronisch postadres waaronder de medewerker in de regel bereikbaar is."@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> ;
     rdfs:range xsd:string .
@@ -187,7 +187,7 @@
 <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/functie> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "functie"@nl ;
-    mim:definitie "<font color=\"#610e6a\">De aanduiding van de taken, rechten en plichten die de medewerker heeft of heeft gehad binnen de zaakbehandelende organisatie.</font>"@nl ;
+    mim:definitie "De aanduiding van de taken, rechten en plichten die de medewerker heeft of heeft gehad binnen de zaakbehandelende organisatie."@nl ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/functie"^^xsd:anyURI ;
@@ -200,7 +200,7 @@
     mim:naam "functie"@nl ;
     mim:type mim:CharacterString ;
     dcterms:identifier "EAID_F17EE707_8A6A_483b_9ED7_204707E1F384" ;
-    rdfs:comment "<font color=\"#610e6a\">De aanduiding van de taken, rechten en plichten die de medewerker heeft of heeft gehad binnen de zaakbehandelende organisatie.</font>"@nl ;
+    rdfs:comment "De aanduiding van de taken, rechten en plichten die de medewerker heeft of heeft gehad binnen de zaakbehandelende organisatie."@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> ;
     rdfs:range xsd:string .
@@ -208,7 +208,7 @@
 <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/geslachtsaanduiding> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "geslachtsaanduiding"@nl ;
-    mim:definitie "<font color=\"#610e6a\">Een aanduiding die aangeeft of de persoon een man of een vrouw is, of dat het geslacht nog onbekend is.</font>"@nl ;
+    mim:definitie "Een aanduiding die aangeeft of de persoon een man of een vrouw is, of dat het geslacht nog onbekend is."@nl ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/geslachtsaanduiding"^^xsd:anyURI ;
@@ -221,7 +221,7 @@
     mim:naam "geslachtsaanduiding"@nl ;
     mim:type mim:CharacterString ;
     dcterms:identifier "EAID_AA40C186_C355_457e_99D9_24BE43B05301" ;
-    rdfs:comment "<font color=\"#610e6a\">Een aanduiding die aangeeft of de persoon een man of een vrouw is, of dat het geslacht nog onbekend is.</font>"@nl ;
+    rdfs:comment "Een aanduiding die aangeeft of de persoon een man of een vrouw is, of dat het geslacht nog onbekend is."@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> ;
     rdfs:range xsd:string .
@@ -229,7 +229,7 @@
 <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/medewerkeridentificatie> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "medewerkerIdentificatie"@nl ;
-    mim:definitie "<font color=\"#610e6a\">Een korte unieke aanduiding van de medewerker.</font>"@nl ;
+    mim:definitie "Een korte unieke aanduiding van de medewerker."@nl ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/medewerkeridentificatie"^^xsd:anyURI ;
@@ -242,7 +242,7 @@
     mim:naam "medewerkerIdentificatie"@nl ;
     mim:type mim:CharacterString ;
     dcterms:identifier "EAID_FF819D54_0C4A_4cf7_A828_6587669A8702" ;
-    rdfs:comment "<font color=\"#610e6a\">Een korte unieke aanduiding van de medewerker.</font>"@nl ;
+    rdfs:comment "Een korte unieke aanduiding van de medewerker."@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> ;
     rdfs:range xsd:string .
@@ -250,7 +250,7 @@
 <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/medewerkertoelichting> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "medewerkerToelichting"@nl ;
-    mim:definitie "<font color=\"#610e6a\">Toelichting bij en/of over de medewerker.</font>"@nl ;
+    mim:definitie "Toelichting bij en/of over de medewerker."@nl ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/medewerkertoelichting"^^xsd:anyURI ;
@@ -263,7 +263,7 @@
     mim:naam "medewerkerToelichting"@nl ;
     mim:type mim:CharacterString ;
     dcterms:identifier "EAID_C59B1A14_1E2F_4a54_B273_6D4C84713390" ;
-    rdfs:comment "<font color=\"#610e6a\">Toelichting bij en/of over de medewerker.</font>"@nl ;
+    rdfs:comment "Toelichting bij en/of over de medewerker."@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> ;
     rdfs:range xsd:string .
@@ -271,7 +271,7 @@
 <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/roepnaam> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "roepnaam"@nl ;
-    mim:definitie "<font color=\"#610e6a\">Naam waarmee de werknemer wordt aangesproken.</font>"@nl ;
+    mim:definitie "Naam waarmee de werknemer wordt aangesproken."@nl ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/roepnaam"^^xsd:anyURI ;
@@ -284,7 +284,7 @@
     mim:naam "roepnaam"@nl ;
     mim:type mim:CharacterString ;
     dcterms:identifier "EAID_A7726010_7E58_40b6_9523_A4CC9844F5DD" ;
-    rdfs:comment "<font color=\"#610e6a\">Naam waarmee de werknemer wordt aangesproken.</font>"@nl ;
+    rdfs:comment "Naam waarmee de werknemer wordt aangesproken."@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> ;
     rdfs:range xsd:string .
@@ -292,7 +292,7 @@
 <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/telefoonnummer> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "telefoonnummer"@nl ;
-    mim:definitie "<font color=\"#610e6a\">Telefoonnummer waaronder de medewerker in de regel bereikbaar is.</font>"@nl ;
+    mim:definitie "Telefoonnummer waaronder de medewerker in de regel bereikbaar is."@nl ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/telefoonnummer"^^xsd:anyURI ;
@@ -305,7 +305,7 @@
     mim:naam "telefoonnummer"@nl ;
     mim:type mim:CharacterString ;
     dcterms:identifier "EAID_0BE56460_275E_4dcb_9946_5B88658BF3BD" ;
-    rdfs:comment "<font color=\"#610e6a\">Telefoonnummer waaronder de medewerker in de regel bereikbaar is.</font>"@nl ;
+    rdfs:comment "Telefoonnummer waaronder de medewerker in de regel bereikbaar is."@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> ;
     rdfs:range xsd:string .
@@ -313,7 +313,7 @@
 <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/voorletters> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "voorletters"@nl ;
-    mim:definitie "<font color=\"#610e6a\">De verzameling letters die gevormd wordt door de eerste letter van alle in volgorde voorkomende voornamen.</font>"@nl ;
+    mim:definitie "De verzameling letters die gevormd wordt door de eerste letter van alle in volgorde voorkomende voornamen."@nl ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/voorletters"^^xsd:anyURI ;
@@ -326,7 +326,7 @@
     mim:naam "voorletters"@nl ;
     mim:type mim:CharacterString ;
     dcterms:identifier "EAID_65D1582C_5922_4ebb_8CE6_3B0F1BBD0941" ;
-    rdfs:comment "<font color=\"#610e6a\">De verzameling letters die gevormd wordt door de eerste letter van alle in volgorde voorkomende voornamen.</font>"@nl ;
+    rdfs:comment "De verzameling letters die gevormd wordt door de eerste letter van alle in volgorde voorkomende voornamen."@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> ;
     rdfs:range xsd:string .
@@ -334,8 +334,8 @@
 <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/voorvoegselachternaam> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "voorvoegselAchternaam"@nl ;
-    mim:definitie """<font color="#610e6a">Dat deel van de geslachtsnaam dat voorkomt in Tabel 36 (GBA), voorvoegseltabel, en door een spatie van de geslachtsnaam is</font>
-<font color="#610e6a">gescheiden.</font>"""@nl ;
+    mim:definitie """Dat deel van de geslachtsnaam dat voorkomt in Tabel 36 (GBA), voorvoegseltabel, en door een spatie van de geslachtsnaam is
+gescheiden."""@nl ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/voorvoegselachternaam"^^xsd:anyURI ;
@@ -348,8 +348,8 @@
     mim:naam "voorvoegselAchternaam"@nl ;
     mim:type mim:CharacterString ;
     dcterms:identifier "EAID_01234EAF_833A_4cd6_8EA0_045F889301FF" ;
-    rdfs:comment """<font color="#610e6a">Dat deel van de geslachtsnaam dat voorkomt in Tabel 36 (GBA), voorvoegseltabel, en door een spatie van de geslachtsnaam is</font>
-<font color="#610e6a">gescheiden.</font>"""@nl ;
+    rdfs:comment """Dat deel van de geslachtsnaam dat voorkomt in Tabel 36 (GBA), voorvoegseltabel, en door een spatie van de geslachtsnaam is
+gescheiden."""@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> ;
     rdfs:range xsd:string .
@@ -1480,7 +1480,7 @@ kapitaalvennootschap zijn binnen of buiten de E.E.R."""@nl ;
 <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/nietnatuurlijkpersoon/nnpid> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "NNPID"@nl ;
-    mim:definitie "Een in het handelsregister over een NIET-NATUURLIJK PERSOON opgenomen, door de Kamer van Koophandel toegekend, uniek nummer. De attribuutsoort kent onder meer historie omdat het mogelijk is dat de NNP-ID van een ingeschreven niet-natuurlijk persoon wijzigt, met name vanwege &lsquo;ambtelijke&rsquo; correcties."@nl ;
+    mim:definitie "Een in het handelsregister over een NIET-NATUURLIJK PERSOON opgenomen, door de Kamer van Koophandel toegekend, uniek nummer. De attribuutsoort kent onder meer historie omdat het mogelijk is dat de NNP-ID van een ingeschreven niet-natuurlijk persoon wijzigt, met name vanwege ‘ambtelijke’ correcties."@nl ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/nietnatuurlijkpersoon/nnpid"^^xsd:anyURI ;
@@ -1493,7 +1493,7 @@ kapitaalvennootschap zijn binnen of buiten de E.E.R."""@nl ;
     mim:naam "NNPID"@nl ;
     mim:type mim:Integer ;
     dcterms:identifier "EAID_53D269C1_BBFD_4e2f_9166_5165EBBFBD9F" ;
-    rdfs:comment "Een in het handelsregister over een NIET-NATUURLIJK PERSOON opgenomen, door de Kamer van Koophandel toegekend, uniek nummer. De attribuutsoort kent onder meer historie omdat het mogelijk is dat de NNP-ID van een ingeschreven niet-natuurlijk persoon wijzigt, met name vanwege &lsquo;ambtelijke&rsquo; correcties."@nl ;
+    rdfs:comment "Een in het handelsregister over een NIET-NATUURLIJK PERSOON opgenomen, door de Kamer van Koophandel toegekend, uniek nummer. De attribuutsoort kent onder meer historie omdat het mogelijk is dat de NNP-ID van een ingeschreven niet-natuurlijk persoon wijzigt, met name vanwege ‘ambtelijke’ correcties."@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/nietnatuurlijkpersoon> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
     rdfs:range xsd:integer .

@@ -44,7 +44,7 @@ Het model 'Tekenwijze' kent de volgende objecttypen:
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | ObjecttypeA |
-    | toelichting | #NOTES#Default:<br>#NOTES#Default: |
+    | toelichting |  |
     | synoniemen |  |
     | uri |  |
     | bron |  |
@@ -79,7 +79,7 @@ Attributen van objecttype ObjecttypeA
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | ObjecttypeB |
-    | toelichting | #NOTES#Default:<br>#NOTES#Default: |
+    | toelichting |  |
     | synoniemen |  |
     | uri |  |
     | bron |  |
@@ -114,7 +114,7 @@ Attributen van objecttype ObjecttypeB
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | ObjecttypeC |
-    | toelichting | #NOTES#Default:<br>#NOTES#Default: |
+    | toelichting |  |
     | synoniemen |  |
     | uri |  |
     | bron |  |
@@ -149,7 +149,7 @@ Attributen van objecttype ObjecttypeC
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | ObjecttypeD |
-    | toelichting | #NOTES#Default:<br>#NOTES#Default: |
+    | toelichting |  |
     | synoniemen |  |
     | uri |  |
     | bron |  |
@@ -184,7 +184,7 @@ Attributen van objecttype ObjecttypeD
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | ObjecttypeE |
-    | toelichting | #NOTES#Default:<br>#NOTES#Default: |
+    | toelichting |  |
     | synoniemen |  |
     | uri |  |
     | bron |  |
@@ -219,7 +219,7 @@ Attributen van objecttype ObjecttypeE
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | ObjecttypeF |
-    | toelichting | #NOTES#Default:<br>#NOTES#Default: |
+    | toelichting |  |
     | synoniemen |  |
     | uri |  |
     | bron |  |
@@ -254,7 +254,7 @@ Attributen van objecttype ObjecttypeF
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | ObjecttypeG |
-    | toelichting | #NOTES#Default:<br>#NOTES#Default: |
+    | toelichting |  |
     | synoniemen |  |
     | uri |  |
     | bron |  |

@@ -70,7 +70,7 @@ Het model 'Model Werk' kent de volgende objecttypen:
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Arbeidsmarktkwalificaties |
-    | toelichting | #NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding. |
+    | toelichting |  |
     | synoniemen |  |
     | uri |  |
     | bron |  |
@@ -110,7 +110,7 @@ Attributen van objecttype Arbeidsmarktkwalificaties
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Arbeidsperiode |
-    | toelichting | #NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding. |
+    | toelichting |  |
     | synoniemen |  |
     | uri |  |
     | bron |  |
@@ -153,7 +153,7 @@ Attributen van objecttype Arbeidsperiode
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Arbeidsverhouding |
-    | toelichting | #NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding. |
+    | toelichting |  |
     | synoniemen |  |
     | uri |  |
     | bron |  |
@@ -190,7 +190,7 @@ Attributen van objecttype Arbeidsverhouding
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Arbeidsvermogen |
-    | toelichting | #NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding. |
+    | toelichting |  |
     | synoniemen |  |
     | uri |  |
     | bron |  |
@@ -226,7 +226,7 @@ Attributen van objecttype Arbeidsvermogen
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Bemiddelingsactiviteit |
-    | toelichting | #NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding. |
+    | toelichting |  |
     | synoniemen |  |
     | uri |  |
     | bron |  |
@@ -267,7 +267,7 @@ Attributen van objecttype Bemiddelingsactiviteit
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Bemiddelingsberoep |
-    | toelichting | #NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding. |
+    | toelichting |  |
     | synoniemen |  |
     | uri |  |
     | bron |  |
@@ -303,7 +303,7 @@ Attributen van objecttype Bemiddelingsberoep
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Bemiddelingstraject |
-    | toelichting | #NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding. |
+    | toelichting |  |
     | synoniemen |  |
     | uri |  |
     | bron |  |
@@ -344,7 +344,7 @@ Attributen van objecttype Bemiddelingstraject
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | BeschikbaarVoorArbeid |
-    | toelichting | #NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding. |
+    | toelichting |  |
     | synoniemen |  |
     | uri |  |
     | bron |  |
@@ -389,7 +389,7 @@ Attributen van objecttype BeschikbaarVoorArbeid
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | BeschikbaarVoorBemiddeling |
-    | toelichting | #NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding. |
+    | toelichting |  |
     | synoniemen |  |
     | uri |  |
     | bron |  |
@@ -426,7 +426,7 @@ Attributen van objecttype BeschikbaarVoorBemiddeling
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Doelgroep |
-    | toelichting | #NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding. |
+    | toelichting |  |
     | synoniemen |  |
     | uri |  |
     | bron |  |
@@ -463,7 +463,7 @@ Attributen van objecttype Doelgroep
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Doelgroepenregister |
-    | toelichting | #NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding. |
+    | toelichting |  |
     | synoniemen |  |
     | uri |  |
     | bron |  |
@@ -501,7 +501,7 @@ Attributen van objecttype Doelgroepenregister
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | DoelReintegratievoorziening |
-    | toelichting | #NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding. |
+    | toelichting |  |
     | synoniemen |  |
     | uri |  |
     | bron |  |
@@ -537,7 +537,7 @@ Attributen van objecttype DoelReintegratievoorziening
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Flexibiliteit |
-    | toelichting | #NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding. |
+    | toelichting |  |
     | synoniemen |  |
     | uri |  |
     | bron |  |
@@ -577,7 +577,7 @@ Attributen van objecttype Flexibiliteit
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Loonkostensubsidie |
-    | toelichting | #NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding. |
+    | toelichting |  |
     | synoniemen |  |
     | uri |  |
     | bron |  |
@@ -613,7 +613,7 @@ Attributen van objecttype Loonkostensubsidie
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Mobiliteit |
-    | toelichting | #NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding. |
+    | toelichting |  |
     | synoniemen |  |
     | uri |  |
     | bron |  |
@@ -653,7 +653,7 @@ Attributen van objecttype Mobiliteit
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Ontheffing |
-    | toelichting | #NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding. |
+    | toelichting |  |
     | synoniemen |  |
     | uri |  |
     | bron |  |
@@ -703,7 +703,7 @@ Attributen van objecttype Ontheffing
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Opleiding |
-    | toelichting | #NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding. |
+    | toelichting |  |
     | synoniemen |  |
     | uri |  |
     | bron |  |
@@ -754,7 +754,7 @@ Attributen van objecttype Opleiding
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Opleidingsnaam |
-    | toelichting | #NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding. |
+    | toelichting |  |
     | synoniemen |  |
     | uri |  |
     | bron |  |
@@ -790,7 +790,7 @@ Attributen van objecttype Opleidingsnaam
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | OpleidingsnaamGecodeerd |
-    | toelichting | • Deze variabele representeert de opleidingsnaam in gecodeerde vorm, waarbij de feitelijke naam van de opleiding niet als open tekst in het microdata bestand staat.<br>• De gecodeerde naam wordt gebruikt om consistent te koppelen met referentietabellen (zoals opleidingsnummer-referentieboeken) waarin de opleiding met bijbehorende kenmerken (zoals niveau, richting, sector) volledig beschreven staat.<br>• Door gebruik te maken van gecodeerde namen kan CBS data publiceren of beschikbaar stellen zonder direct herleidbare tekstuele beschrijvingen te delen, wat zowel de datakwaliteit als privacy waarborgt.#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding. |
+    | toelichting | • Deze variabele representeert de opleidingsnaam in gecodeerde vorm, waarbij de feitelijke naam van de opleiding niet als open tekst in het microdata bestand staat.<br>• De gecodeerde naam wordt gebruikt om consistent te koppelen met referentietabellen (zoals opleidingsnummer-referentieboeken) waarin de opleiding met bijbehorende kenmerken (zoals niveau, richting, sector) volledig beschreven staat.<br>• Door gebruik te maken van gecodeerde namen kan CBS data publiceren of beschikbaar stellen zonder direct herleidbare tekstuele beschrijvingen te delen, wat zowel de datakwaliteit als privacy waarborgt. |
     | synoniemen |  |
     | uri |  |
     | bron |  |
@@ -829,7 +829,7 @@ Attributen van objecttype OpleidingsnaamGecodeerd
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | OpleidingsnaamOngecodeerd |
-    | toelichting | In CBS-microdata-bestanden over onderwijs worden opleidingskenmerken vaak vastgelegd via referentietabellen met een opleidingsnummer (bijv. OPLNR) dat gekoppeld kan worden aan meerdere beschrijvende variabelen:<br>- \*OpleidingsnaamOngecodeerd\* geeft de \*\*onomcodeerde opleidingsnaam\*\*; dit is de begrijpelijke, tekstuele benaming van de opleiding.<br>- Dit staat in contrast met variabelen als \*OpleidingsnaamGecodeerd\*, waarin dezelfde opleiding wordt aangeduid via een code om privacy en koppeling met referentietabellen te waarborgen.<br>- De tekstuele naam maakt het eenvoudiger om zonder extra referentietabel te begrijpen om welke opleiding het gaat in analyses en publicaties. #NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding. |
+    | toelichting | In CBS-microdata-bestanden over onderwijs worden opleidingskenmerken vaak vastgelegd via referentietabellen met een opleidingsnummer (bijv. OPLNR) dat gekoppeld kan worden aan meerdere beschrijvende variabelen:<br>- \*OpleidingsnaamOngecodeerd\* geeft de \*\*onomcodeerde opleidingsnaam\*\*; dit is de begrijpelijke, tekstuele benaming van de opleiding.<br>- Dit staat in contrast met variabelen als \*OpleidingsnaamGecodeerd\*, waarin dezelfde opleiding wordt aangeduid via een code om privacy en koppeling met referentietabellen te waarborgen.<br>- De tekstuele naam maakt het eenvoudiger om zonder extra referentietabel te begrijpen om welke opleiding het gaat in analyses en publicaties. |
     | synoniemen |  |
     | uri |  |
     | bron |  |
@@ -865,7 +865,7 @@ Attributen van objecttype OpleidingsnaamOngecodeerd
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Opleidingsniveau |
-    | toelichting | #NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding. |
+    | toelichting |  |
     | synoniemen |  |
     | uri |  |
     | bron |  |
@@ -901,7 +901,7 @@ Attributen van objecttype Opleidingsniveau
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Reintegratievoorziening |
-    | toelichting | #NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding. |
+    | toelichting |  |
     | synoniemen |  |
     | uri |  |
     | bron |  |
@@ -948,7 +948,7 @@ Attributen van objecttype Reintegratievoorziening
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Rijbewijs /Certificaat |
-    | toelichting | #NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding. |
+    | toelichting |  |
     | synoniemen |  |
     | uri |  |
     | bron |  |
@@ -991,7 +991,7 @@ Attributen van objecttype Rijbewijs /Certificaat
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Taalbeheersing |
-    | toelichting | #NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding. |
+    | toelichting |  |
     | synoniemen |  |
     | uri |  |
     | bron |  |
@@ -1032,7 +1032,7 @@ Attributen van objecttype Taalbeheersing
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | TaalbeheersingNederlands |
-    | toelichting | #NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding. |
+    | toelichting |  |
     | synoniemen |  |
     | uri |  |
     | bron |  |
@@ -1073,7 +1073,7 @@ Attributen van objecttype TaalbeheersingNederlands
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Vaardigheidsvaststelling |
-    | toelichting | #NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding. |
+    | toelichting |  |
     | synoniemen |  |
     | uri |  |
     | bron |  |
@@ -1110,7 +1110,7 @@ Attributen van objecttype Vaardigheidsvaststelling
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Voorkeur |
-    | toelichting | • Een voorkeur kan betrekking hebben op type werkzaamheden, branche, werkomgeving, werktijden, opleidingsrichting of gewenste ondersteuning.#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding.<br>#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding.<br>#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding.<br>#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding.<br>#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding.<br>#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding.<br>#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding.<br>#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding. |
+    | toelichting | • Een voorkeur kan betrekking hebben op type werkzaamheden, branche, werkomgeving, werktijden, opleidingsrichting of gewenste ondersteuning. |
     | synoniemen |  |
     | uri |  |
     | bron |  |
@@ -1155,7 +1155,7 @@ Attributen van objecttype Voorkeur
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | VrijstellingArbeidsplicht |
-    | toelichting | #NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding. |
+    | toelichting |  |
     | synoniemen |  |
     | uri |  |
     | bron |  |
@@ -1195,7 +1195,7 @@ Attributen van objecttype VrijstellingArbeidsplicht
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Werkervaring |
-    | toelichting | #NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding. |
+    | toelichting |  |
     | synoniemen |  |
     | uri |  |
     | bron |  |
@@ -1232,7 +1232,7 @@ Attributen van objecttype Werkervaring
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Werkzaamheden als mantelzorger |
-    | toelichting | #NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding. |
+    | toelichting |  |
     | synoniemen |  |
     | uri |  |
     | bron |  |
@@ -1276,7 +1276,7 @@ Attributen van objecttype Werkzaamheden als mantelzorger
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Werkzaamheden anders dan in arbeidsverhouding |
-    | toelichting | #NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding. |
+    | toelichting |  |
     | synoniemen |  |
     | uri |  |
     | bron |  |
@@ -1320,7 +1320,7 @@ Attributen van objecttype Werkzaamheden anders dan in arbeidsverhouding
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Werkzoekende |
-    | toelichting | #NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding. |
+    | toelichting |  |
     | synoniemen |  |
     | uri |  |
     | bron |  |
@@ -1357,7 +1357,7 @@ Attributen van objecttype Werkzoekende
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | ZelfredzaamheidScore |
-    | toelichting | #NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding. |
+    | toelichting |  |
     | synoniemen |  |
     | uri |  |
     | bron |  |
@@ -1413,7 +1413,7 @@ De enumeratie Code arbeidsvermogen heeft de volgende kenmerken:
     | Kenmerk | Waarde |
     | :--- | :------ |
     | name | Code arbeidsvermogen |
-    | toelichting | #NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding.<br>#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding.<br>#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding.<br>#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding.<br>#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding.<br>#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding.<br>#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding.<br>#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding. |
+    | toelichting |  |
     | synoniemen |  |
     | uri |  |
     | bron |  |
@@ -1452,7 +1452,7 @@ De enumeratie Code maatschappelijke context werkzaamheden anders dan in arbeidsv
     | Kenmerk | Waarde |
     | :--- | :------ |
     | name | Code maatschappelijke context werkzaamheden anders dan in arbeidsverhouding |
-    | toelichting | #NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding.<br>#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding.<br>#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding.<br>#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding.<br>#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding.<br>#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding.<br>#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding.<br>#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding. |
+    | toelichting |  |
     | synoniemen |  |
     | uri |  |
     | bron |  |
@@ -1493,7 +1493,7 @@ De enumeratie Code opleidingsniveau cliënt heeft de volgende kenmerken:
     | Kenmerk | Waarde |
     | :--- | :------ |
     | name | Code opleidingsniveau cliënt |
-    | toelichting | #NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding.<br>#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding.<br>#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding.<br>#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding.<br>#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding.<br>#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding.<br>#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding.<br>#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding. |
+    | toelichting |  |
     | synoniemen |  |
     | uri |  |
     | bron |  |
@@ -1532,7 +1532,7 @@ De enumeratie Code tijdsbeslag opleiding heeft de volgende kenmerken:
     | Kenmerk | Waarde |
     | :--- | :------ |
     | name | Code tijdsbeslag opleiding |
-    | toelichting | #NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding.<br>#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding.<br>#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding.<br>#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding.<br>#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding.<br>#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding.<br>#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding.<br>#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding. |
+    | toelichting |  |
     | synoniemen |  |
     | uri |  |
     | bron |  |
@@ -1570,7 +1570,7 @@ De enumeratie CodeLeerwegMBO heeft de volgende kenmerken:
     | Kenmerk | Waarde |
     | :--- | :------ |
     | name | CodeLeerwegMBO |
-    | toelichting | #NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding.<br>#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding.<br>#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding.<br>#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding.<br>#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding.<br>#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding.<br>#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding.<br>#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding. |
+    | toelichting |  |
     | synoniemen |  |
     | uri |  |
     | bron |  |
@@ -1609,7 +1609,7 @@ De enumeratie CodeNiveauOpleiding heeft de volgende kenmerken:
     | Kenmerk | Waarde |
     | :--- | :------ |
     | name | CodeNiveauOpleiding |
-    | toelichting | #NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding.<br>#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding.<br>#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding.<br>#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding.<br>#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding.<br>#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding.<br>#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding.<br>#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding. |
+    | toelichting |  |
     | synoniemen |  |
     | uri |  |
     | bron |  |
@@ -1644,7 +1644,7 @@ De enumeratie CodeOpleidingsnaam heeft de volgende kenmerken:
     | Kenmerk | Waarde |
     | :--- | :------ |
     | name | CodeOpleidingsnaam |
-    | toelichting | #NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding.<br>#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding.<br>#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding.<br>#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding.<br>#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding.<br>#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding.<br>#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding.<br>#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding. |
+    | toelichting |  |
     | synoniemen |  |
     | uri |  |
     | bron |  |
@@ -1677,7 +1677,7 @@ De enumeratie CodeSoortOpleidingsnaam heeft de volgende kenmerken:
     | Kenmerk | Waarde |
     | :--- | :------ |
     | name | CodeSoortOpleidingsnaam |
-    | toelichting | #NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding.<br>#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding.<br>#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding.<br>#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding.<br>#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding.<br>#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding.<br>#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding.<br>#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding. |
+    | toelichting |  |
     | synoniemen |  |
     | uri |  |
     | bron |  |
@@ -1714,7 +1714,7 @@ De enumeratie CodeStatusOpleiding heeft de volgende kenmerken:
     | Kenmerk | Waarde |
     | :--- | :------ |
     | name | CodeStatusOpleiding |
-    | toelichting | #NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding.<br>#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding.<br>#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding.<br>#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding.<br>#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding.<br>#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding.<br>#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding.<br>#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding. |
+    | toelichting |  |
     | synoniemen |  |
     | uri |  |
     | bron |  |
@@ -1754,7 +1754,7 @@ De enumeratie Dag beschikbaarheid heeft de volgende kenmerken:
     | Kenmerk | Waarde |
     | :--- | :------ |
     | name | Dag beschikbaarheid |
-    | toelichting | #NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding.<br>#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding.<br>#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding.<br>#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding.<br>#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding.<br>#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding.<br>#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding.<br>#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding. |
+    | toelichting |  |
     | synoniemen |  |
     | uri |  |
     | bron |  |
@@ -1800,7 +1800,7 @@ De enumeratie Domein van zelfredzaamheid heeft de volgende kenmerken:
     | Kenmerk | Waarde |
     | :--- | :------ |
     | name | Domein van zelfredzaamheid |
-    | toelichting | #NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding.<br>#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding.<br>#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding.<br>#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding.<br>#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding.<br>#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding.<br>#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding.<br>#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding. |
+    | toelichting |  |
     | synoniemen |  |
     | uri |  |
     | bron |  |
@@ -1836,7 +1836,7 @@ De enumeratie Hulp aanwezig heeft de volgende kenmerken:
     | Kenmerk | Waarde |
     | :--- | :------ |
     | name | Hulp aanwezig |
-    | toelichting | #NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding.<br>#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding.<br>#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding.<br>#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding.<br>#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding.<br>#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding.<br>#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding.<br>#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding. |
+    | toelichting |  |
     | synoniemen |  |
     | uri |  |
     | bron |  |
@@ -1872,7 +1872,7 @@ De enumeratie Indicatie doelgroepenregister heeft de volgende kenmerken:
     | Kenmerk | Waarde |
     | :--- | :------ |
     | name | Indicatie doelgroepenregister |
-    | toelichting | #NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding.<br>#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding.<br>#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding.<br>#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding.<br>#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding.<br>#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding.<br>#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding.<br>#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding. |
+    | toelichting |  |
     | synoniemen |  |
     | uri |  |
     | bron |  |
@@ -1911,7 +1911,7 @@ De enumeratie Indicatie mate van vaardigheid heeft de volgende kenmerken:
     | Kenmerk | Waarde |
     | :--- | :------ |
     | name | Indicatie mate van vaardigheid |
-    | toelichting | #NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding.<br>#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding.<br>#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding.<br>#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding.<br>#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding.<br>#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding.<br>#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding.<br>#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding. |
+    | toelichting |  |
     | synoniemen |  |
     | uri |  |
     | bron |  |
@@ -1948,7 +1948,7 @@ De enumeratie Interval opzegtermijn heeft de volgende kenmerken:
     | Kenmerk | Waarde |
     | :--- | :------ |
     | name | Interval opzegtermijn |
-    | toelichting | #NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding.<br>#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding.<br>#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding.<br>#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding.<br>#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding.<br>#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding.<br>#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding.<br>#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding. |
+    | toelichting |  |
     | synoniemen |  |
     | uri |  |
     | bron |  |
@@ -1986,7 +1986,7 @@ De enumeratie Kanaal contactmoment heeft de volgende kenmerken:
     | Kenmerk | Waarde |
     | :--- | :------ |
     | name | Kanaal contactmoment |
-    | toelichting | #NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding.<br>#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding.<br>#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding.<br>#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding.<br>#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding.<br>#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding.<br>#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding.<br>#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding. |
+    | toelichting |  |
     | synoniemen |  |
     | uri |  |
     | bron |  |
@@ -2022,7 +2022,7 @@ De enumeratie Ontheffingsverplichting heeft de volgende kenmerken:
     | Kenmerk | Waarde |
     | :--- | :------ |
     | name | Ontheffingsverplichting |
-    | toelichting | #NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding.<br>#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding.<br>#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding.<br>#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding.<br>#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding.<br>#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding.<br>#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding.<br>#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding. |
+    | toelichting |  |
     | synoniemen |  |
     | uri |  |
     | bron |  |
@@ -2062,7 +2062,7 @@ De enumeratie Opleidingsrichting heeft de volgende kenmerken:
     | Kenmerk | Waarde |
     | :--- | :------ |
     | name | Opleidingsrichting |
-    | toelichting | #NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding.<br>#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding.<br>#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding.<br>#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding.<br>#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding.<br>#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding.<br>#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding.<br>#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding. |
+    | toelichting |  |
     | synoniemen |  |
     | uri |  |
     | bron |  |
@@ -2121,7 +2121,7 @@ De enumeratie SETU job category heeft de volgende kenmerken:
     | Kenmerk | Waarde |
     | :--- | :------ |
     | name | SETU job category |
-    | toelichting | #NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding.<br>#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding.<br>#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding.<br>#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding.<br>#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding.<br>#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding.<br>#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding.<br>#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding. |
+    | toelichting |  |
     | synoniemen |  |
     | uri |  |
     | bron |  |
@@ -2157,7 +2157,7 @@ De enumeratie Soort ontheffing heeft de volgende kenmerken:
     | Kenmerk | Waarde |
     | :--- | :------ |
     | name | Soort ontheffing |
-    | toelichting | #NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding.<br>#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding.<br>#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding.<br>#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding.<br>#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding.<br>#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding.<br>#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding.<br>#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding. |
+    | toelichting |  |
     | synoniemen |  |
     | uri |  |
     | bron |  |
@@ -2195,7 +2195,7 @@ De enumeratie SoortWerk heeft de volgende kenmerken:
     | Kenmerk | Waarde |
     | :--- | :------ |
     | name | SoortWerk |
-    | toelichting | #NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding.<br>#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding.<br>#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding.<br>#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding.<br>#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding.<br>#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding.<br>#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding.<br>#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding. |
+    | toelichting |  |
     | synoniemen |  |
     | uri |  |
     | bron |  |
@@ -2233,7 +2233,7 @@ De enumeratie Taalvaardigheid heeft de volgende kenmerken:
     | Kenmerk | Waarde |
     | :--- | :------ |
     | name | Taalvaardigheid |
-    | toelichting | #NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding.<br>#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding.<br>#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding.<br>#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding.<br>#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding.<br>#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding.<br>#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding.<br>#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding. |
+    | toelichting |  |
     | synoniemen |  |
     | uri |  |
     | bron |  |
@@ -2276,7 +2276,7 @@ De enumeratie Vervoermiddel heeft de volgende kenmerken:
     | Kenmerk | Waarde |
     | :--- | :------ |
     | name | Vervoermiddel |
-    | toelichting | #NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding.<br>#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding.<br>#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding.<br>#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding.<br>#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding.<br>#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding.<br>#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding.<br>#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding. |
+    | toelichting |  |
     | synoniemen |  |
     | uri |  |
     | bron |  |
@@ -2319,7 +2319,7 @@ De enumeratie Vervoersmogelijkheden heeft de volgende kenmerken:
     | Kenmerk | Waarde |
     | :--- | :------ |
     | name | Vervoersmogelijkheden |
-    | toelichting | #NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding.<br>#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding.<br>#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding.<br>#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding.<br>#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding.<br>#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding.<br>#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding.<br>#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding. |
+    | toelichting |  |
     | synoniemen |  |
     | uri |  |
     | bron |  |
@@ -2357,7 +2357,7 @@ De enumeratie ZRM-score heeft de volgende kenmerken:
     | Kenmerk | Waarde |
     | :--- | :------ |
     | name | ZRM-score |
-    | toelichting | #NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding.<br>#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding.<br>#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding.<br>#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding.<br>#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding.<br>#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding.<br>#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding.<br>#NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding. |
+    | toelichting |  |
     | synoniemen |  |
     | uri |  |
     | bron |  |

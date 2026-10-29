@@ -767,7 +767,7 @@ kapitaalvennootschap zijn binnen of buiten de E.E.R."""@nl ;
         owl:ObjectProperty ;
     rdfs:label "exploitantcode"@nl ;
     mim:datumOpname "2016-05-01"^^xsd:date ;
-    mim:definitie "<font color=\"#000080\">Het recht wat de exploitant van de eigenaar te weten de gemeente heeft gekregen.</font>"@nl ;
+    mim:definitie "Het recht wat de exploitant van de eigenaar te weten de gemeente heeft gekregen."@nl ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:herkomst "KING" ;
@@ -782,7 +782,7 @@ kapitaalvennootschap zijn binnen of buiten de E.E.R."""@nl ;
     mim:naam "exploitantcode"@nl ;
     mim:type <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/codeexploitant> ;
     dcterms:identifier "EAID_FA5E47B4_20B1_4ec5_8A10_A33144D1BE12" ;
-    rdfs:comment "<font color=\"#000080\">Het recht wat de exploitant van de eigenaar te weten de gemeente heeft gekregen.</font>"@nl ;
+    rdfs:comment "Het recht wat de exploitant van de eigenaar te weten de gemeente heeft gekregen."@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/tenaamstelling> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
     rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/codeexploitant> .

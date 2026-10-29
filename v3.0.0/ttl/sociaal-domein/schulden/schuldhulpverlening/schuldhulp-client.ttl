@@ -1195,11 +1195,11 @@ geslachtsnaam voorafgaat.."""@nl ;
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/schuldhulpverlening/enumschuldensoort> ;
     rdfs:label "Overig"@nl ;
-    mim:definitie "Alle schulden die niet onder &#233;&#233;n van de andere categorie&#235;n zijn in te delen."@nl ;
+    mim:definitie "Alle schulden die niet onder één van de andere categorieën zijn in te delen."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/schuldhulpverlening/enumschuldensoort/overig"^^xsd:anyURI ;
     mim:naam "Overig"@nl ;
     dcterms:identifier "EAID_0D9F89AD_9AEF_44db_B409_420570DE3E3C" ;
-    skos:definition "Alle schulden die niet onder &#233;&#233;n van de andere categorie&#235;n zijn in te delen."@nl ;
+    skos:definition "Alle schulden die niet onder één van de andere categorieën zijn in te delen."@nl ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/schuldhulpverlening/enumschuldensoort> ;
     skos:prefLabel "Overig"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/schuldhulpverlening/enumschuldensoort> .
@@ -1954,12 +1954,12 @@ geslachtsnaam voorafgaat.."""@nl ;
         owl:Class ;
     rdfs:label "Huishouden"@nl ;
     mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/huishouden/soort> ;
-    mim:definitie "Persoon of groep personen die een huishouden voert waarbij sprake is van een onderlinge verbondenheid en continu&#239;teit in de samenstelling ervan, die binnen een woning duurzaam gebruik maakt van dezelfde voorzieningen."@nl ;
+    mim:definitie "Persoon of groep personen die een huishouden voert waarbij sprake is van een onderlinge verbondenheid en continuïteit in de samenstelling ervan, die binnen een woning duurzaam gebruik maakt van dezelfde voorzieningen."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/huishouden"^^xsd:anyURI ;
     mim:indicatieAbstractObject false ;
     mim:naam "Huishouden"@nl ;
     dcterms:identifier "EAID_F0467610_553B_47cd_A9F7_3B1D20CC425E" ;
-    rdfs:comment "Persoon of groep personen die een huishouden voert waarbij sprake is van een onderlinge verbondenheid en continu&#239;teit in de samenstelling ervan, die binnen een woning duurzaam gebruik maakt van dezelfde voorzieningen."@nl ;
+    rdfs:comment "Persoon of groep personen die een huishouden voert waarbij sprake is van een onderlinge verbondenheid en continuïteit in de samenstelling ervan, die binnen een woning duurzaam gebruik maakt van dezelfde voorzieningen."@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/schuldhulpverlening/partner> a mim:Objecttype,
@@ -2016,12 +2016,12 @@ geslachtsnaam voorafgaat.."""@nl ;
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/schuldhulpverlening/schuld/peildatum>,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/schuldhulpverlening/schuld/schuldsoort>,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/schuldhulpverlening/schuld/zakelijkeschuld> ;
-    mim:definitie "Een schuld is een financi&#235;le verplichting waarbij een persoon nu of in de toekomst een bedrag moet betalen aan een derde. In het kader van schuldhulpverlening wordt over een schuld gesproken als de persoon niet aan deze verplichting kan voldoen. ."@nl ;
+    mim:definitie "Een schuld is een financiële verplichting waarbij een persoon nu of in de toekomst een bedrag moet betalen aan een derde. In het kader van schuldhulpverlening wordt over een schuld gesproken als de persoon niet aan deze verplichting kan voldoen. ."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/schuldhulpverlening/schuld"^^xsd:anyURI ;
     mim:indicatieAbstractObject false ;
     mim:naam "Schuld"@nl ;
     dcterms:identifier "EAID_93E12A3E_71E3_431e_9871_BF6075EAAEF1" ;
-    rdfs:comment "Een schuld is een financi&#235;le verplichting waarbij een persoon nu of in de toekomst een bedrag moet betalen aan een derde. In het kader van schuldhulpverlening wordt over een schuld gesproken als de persoon niet aan deze verplichting kan voldoen. ."@nl ;
+    rdfs:comment "Een schuld is een financiële verplichting waarbij een persoon nu of in de toekomst een bedrag moet betalen aan een derde. In het kader van schuldhulpverlening wordt over een schuld gesproken als de persoon niet aan deze verplichting kan voldoen. ."@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/schuldhulpverlening/> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/schuldhulpverlening/schuldhulptraject> a mim:Objecttype,
@@ -2093,7 +2093,7 @@ geslachtsnaam voorafgaat.."""@nl ;
         owl:Class,
         skos:ConceptScheme ;
     rdfs:label "EnumSchuldensoort"@nl ;
-    mim:definitie "Lijst met alle cattegori&#235;n van soorten schulden die worden onderkend in het kader van schuldhulpverlening."@nl ;
+    mim:definitie "Lijst met alle cattegoriën van soorten schulden die worden onderkend in het kader van schuldhulpverlening."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/schuldhulpverlening/enumschuldensoort"^^xsd:anyURI ;
     mim:naam "EnumSchuldensoort"@nl ;
     mim:waarde <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/schuldhulpverlening/enumschuldensoort/nuts>,
@@ -2101,7 +2101,7 @@ geslachtsnaam voorafgaat.."""@nl ;
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/schuldhulpverlening/enumschuldensoort/publiek>,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/schuldhulpverlening/enumschuldensoort/zorg> ;
     dcterms:identifier "EAID_D34DF6F1_CC5C_42c8_A013_D59698E9F530" ;
-    rdfs:comment "Lijst met alle cattegori&#235;n van soorten schulden die worden onderkend in het kader van schuldhulpverlening."@nl ;
+    rdfs:comment "Lijst met alle cattegoriën van soorten schulden die worden onderkend in het kader van schuldhulpverlening."@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/schuldhulpverlening/> ;
     rdfs:subClassOf skos:Concept .
 

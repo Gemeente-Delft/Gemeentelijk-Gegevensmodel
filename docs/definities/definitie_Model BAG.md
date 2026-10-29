@@ -191,7 +191,7 @@ Attributen van objecttype Nummeraanduiding
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Buurt |
-    | toelichting | Het betreft hier de in overleg met het CBS bepaalde indeling van wijken in buurten.#NOTES#Het betreft hier de in overleg met het CBS bepaalde indeling van wijken in buurten.#NOTES#Het betreft hier de in overleg met het CBS bepaalde indeling van wijken in buurten.#NOTES#Het betreft hier de in overleg met het CBS bepaalde indeling van wijken in buurten.#NOTES#Het betreft hier de in overleg met het CBS bepaalde indeling van wijken in buurten.#NOTES#Het betreft hier de in overleg met het CBS bepaalde indeling van wijken in buurten.#NOTES#Het betreft hier de in overleg met het CBS bepaalde indeling van wijken in buurten.#NOTES#Het betreft hier de in overleg met het CBS bepaalde indeling van wijken in buurten. |
+    | toelichting | Het betreft hier de in overleg met het CBS bepaalde indeling van wijken in buurten. |
     | synoniemen |  |
     | uri |  |
     | bron |  |
@@ -237,7 +237,7 @@ Attributen van objecttype Buurt
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Gemeente |
-    | toelichting | #NOTES#De gemeente fungeert in het model als geo-object. Door de relatie van gemeente met andere objecttypen kan achterhaald worden welke gemeente verantwoordelijk is voor het beheer van de hieraan gerelateerde objecten en gegevens. |
+    | toelichting |  |
     | synoniemen |  |
     | uri |  |
     | bron |  |
@@ -577,7 +577,7 @@ Attributen van objecttype Verblijfsobject
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Wijk |
-    | toelichting | Het betreft hier de in overleg met het CBS bepaalde indeling van de gemeente in wijken.<br>#NOTES#Het betreft hier de in overleg met het CBS bepaalde indeling van de gemeente in wijken.<br>#NOTES#Het betreft hier de in overleg met het CBS bepaalde indeling van de gemeente in wijken.<br>#NOTES#Het betreft hier de in overleg met het CBS bepaalde indeling van de gemeente in wijken.<br>#NOTES#Het betreft hier de in overleg met het CBS bepaalde indeling van de gemeente in wijken.<br>#NOTES#Het betreft hier de in overleg met het CBS bepaalde indeling van de gemeente in wijken.<br>#NOTES#Het betreft hier de in overleg met het CBS bepaalde indeling van de gemeente in wijken.<br>#NOTES#Het betreft hier de in overleg met het CBS bepaalde indeling van de gemeente in wijken. |
+    | toelichting | Het betreft hier de in overleg met het CBS bepaalde indeling van de gemeente in wijken. |
     | synoniemen |  |
     | uri |  |
     | bron |  |

@@ -299,12 +299,12 @@
         owl:Class ;
     rdfs:label "Programma"@nl ;
     mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/programma/naam> ;
-    mim:definitie "Een tijdelijke, flexibele organisatiestructuur, die is opgezet om de implementatie van een verzameling met elkaar samenhangende projecten en activiteiten te co&#246;rdineren, te sturen en te controleren teneinde te zorgen voor de realisatie van de eindresultaten en benefits die zijn gerelateerd aan de strategische doelstellingen van de organisatie."@nl ;
+    mim:definitie "Een tijdelijke, flexibele organisatiestructuur, die is opgezet om de implementatie van een verzameling met elkaar samenhangende projecten en activiteiten te coördineren, te sturen en te controleren teneinde te zorgen voor de realisatie van de eindresultaten en benefits die zijn gerelateerd aan de strategische doelstellingen van de organisatie."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/programma"^^xsd:anyURI ;
     mim:indicatieAbstractObject false ;
     mim:naam "Programma"@nl ;
     dcterms:identifier "EAID_CA56A59A_F855_4c19_89BE_578B12481EA0" ;
-    rdfs:comment "Een tijdelijke, flexibele organisatiestructuur, die is opgezet om de implementatie van een verzameling met elkaar samenhangende projecten en activiteiten te co&#246;rdineren, te sturen en te controleren teneinde te zorgen voor de realisatie van de eindresultaten en benefits die zijn gerelateerd aan de strategische doelstellingen van de organisatie."@nl ;
+    rdfs:comment "Een tijdelijke, flexibele organisatiestructuur, die is opgezet om de implementatie van een verzameling met elkaar samenhangende projecten en activiteiten te coördineren, te sturen en te controleren teneinde te zorgen voor de realisatie van de eindresultaten en benefits die zijn gerelateerd aan de strategische doelstellingen van de organisatie."@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/taakveld> a mim:Objecttype,
@@ -331,7 +331,7 @@
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/raadsstuk"^^xsd:anyURI ;
     mim:indicatieAbstractObject false ;
     mim:naam "Raadsstuk"@nl ;
-    mim:populatie "Voor objecttypen die deel uitmaken van een (basis)registratie betreft dit de beschrijving van de exemplaren van het gedefinieerde objecttype die in de desbetreffende (basis)-registratie voorhanden zijn.#NOTES#Voor objecttypen die deel uitmaken van een (basis)registratie betreft dit de beschrijving van de exemplaren van het gedefinieerde objecttype die in de desbetreffende (basis)-registratie voorhanden zijn.#NOTES#Voor objecttypen die deel uitmaken van een (basis)registratie betreft dit de beschrijving van de exemplaren van het gedefinieerde objecttype die in de desbetreffende (basis)-registratie voorhanden zijn.#NOTES#Voor objecttypen die deel uitmaken van een (basis)registratie betreft dit de beschrijving van de exemplaren van het gedefinieerde objecttype die in de desbetreffende (basis)-registratie voorhanden zijn.#NOTES#Voor objecttypen die deel uitmaken van een (basis)registratie betreft dit de beschrijving van de exemplaren van het gedefinieerde objecttype die in de desbetreffende (basis)-registratie voorhanden zijn.#NOTES#Voor objecttypen die deel uitmaken van een (basis)registratie betreft dit de beschrijving van de exemplaren van het gedefinieerde objecttype die in de desbetreffende (basis)-registratie voorhanden zijn.#NOTES#Voor objecttypen die deel uitmaken van een (basis)registratie betreft dit de beschrijving van de exemplaren van het gedefinieerde objecttype die in de desbetreffende (basis)-registratie voorhanden zijn.#NOTES#Voor objecttypen die deel uitmaken van een (basis)registratie betreft dit de beschrijving van de exemplaren van het gedefinieerde objecttype die in de desbetreffende (basis)-registratie voorhanden zijn." ;
+    mim:populatie "Voor objecttypen die deel uitmaken van een (basis)registratie betreft dit de beschrijving van de exemplaren van het gedefinieerde objecttype die in de desbetreffende (basis)-registratie voorhanden zijn." ;
     dcterms:identifier "EAID_440219A4_C64B_4eac_ADE5_E79ED6AA9BFE" ;
     rdfs:comment "Stuk dat door de gemeenteraad wordt behandeld"@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/> .

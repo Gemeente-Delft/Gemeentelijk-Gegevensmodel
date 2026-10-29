@@ -560,7 +560,7 @@ De enumeratie EnumSignaalstatus heeft de volgende kenmerken:
     | Kenmerk | Waarde |
     | :--- | :------ |
     | name | EnumSignaalstatus |
-    | toelichting | #NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding. |
+    | toelichting |  |
     | synoniemen |  |
     | uri |  |
     | bron |  |

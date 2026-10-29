@@ -272,12 +272,12 @@
         owl:Class ;
     rdfs:label "Huishouden"@nl ;
     mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/huishouden/soort> ;
-    mim:definitie "Persoon of groep personen die een huishouden voert waarbij sprake is van een onderlinge verbondenheid en continu&#239;teit in de samenstelling ervan, die binnen een woning duurzaam gebruik maakt van dezelfde voorzieningen."@nl ;
+    mim:definitie "Persoon of groep personen die een huishouden voert waarbij sprake is van een onderlinge verbondenheid en continuïteit in de samenstelling ervan, die binnen een woning duurzaam gebruik maakt van dezelfde voorzieningen."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/huishouden"^^xsd:anyURI ;
     mim:indicatieAbstractObject false ;
     mim:naam "Huishouden"@nl ;
     dcterms:identifier "EAID_F0467610_553B_47cd_A9F7_3B1D20CC425E" ;
-    rdfs:comment "Persoon of groep personen die een huishouden voert waarbij sprake is van een onderlinge verbondenheid en continu&#239;teit in de samenstelling ervan, die binnen een woning duurzaam gebruik maakt van dezelfde voorzieningen."@nl ;
+    rdfs:comment "Persoon of groep personen die een huishouden voert waarbij sprake is van een onderlinge verbondenheid en continuïteit in de samenstelling ervan, die binnen een woning duurzaam gebruik maakt van dezelfde voorzieningen."@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/relatie> a mim:Objecttype,

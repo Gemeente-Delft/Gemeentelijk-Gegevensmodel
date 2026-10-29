@@ -1594,12 +1594,12 @@ Dit is vergelijkbaar met **betaling- of payroll runs** in financiële systemen w
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/inkomensvoorziening/toekenningsdatum>,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/inkomensvoorziening/versterkkingsvorm>,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/inkomensvoorziening/verwerkttotenmetdatum> ;
-    mim:definitie "Een voorziening die voorziet in inkomen conform landelijke wetgeving, zoals bijstand, bijzondere bijstand, IOAW of IOAZ. Een inkomensvoorziening is opgebouwd uit componenten en gekoppeld aan een cli&#235;nt via een regeling."@nl ;
+    mim:definitie "Een voorziening die voorziet in inkomen conform landelijke wetgeving, zoals bijstand, bijzondere bijstand, IOAW of IOAZ. Een inkomensvoorziening is opgebouwd uit componenten en gekoppeld aan een cliënt via een regeling."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/inkomensvoorziening"^^xsd:anyURI ;
     mim:indicatieAbstractObject false ;
     mim:naam "Inkomensvoorziening"@nl ;
     dcterms:identifier "EAID_07784236_3AA6_45e5_8253_7D088C4020B0" ;
-    rdfs:comment "Een voorziening die voorziet in inkomen conform landelijke wetgeving, zoals bijstand, bijzondere bijstand, IOAW of IOAZ. Een inkomensvoorziening is opgebouwd uit componenten en gekoppeld aan een cli&#235;nt via een regeling."@nl ;
+    rdfs:comment "Een voorziening die voorziet in inkomen conform landelijke wetgeving, zoals bijstand, bijzondere bijstand, IOAW of IOAZ. Een inkomensvoorziening is opgebouwd uit componenten en gekoppeld aan een cliënt via een regeling."@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/wet> a mim:Enumeratie,

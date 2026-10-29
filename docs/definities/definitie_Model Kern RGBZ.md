@@ -380,7 +380,7 @@ Attributen van objecttype Deelprocestype
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Document |
-    | toelichting | #NOTES#Een inhoudelijke toelichting op de toepassing van het informatie-element. |
+    | toelichting |  |
     | synoniemen |  |
     | uri |  |
     | bron |  |

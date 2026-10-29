@@ -57,7 +57,7 @@
     rdfs:label "heeft als locatie-adres"@nl ;
     mim:aggregatietype mim:Geen ;
     mim:bron <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/nummeraanduiding> ;
-    mim:definitie "De ADRESSEERBAAR OBJECT AANDUIDING bij het BENOEMD OBJECT waarin de VESTIGING (&#233;&#233;n van) haar lokatie(s) heeft en die bij inschrijving gekozen is als vestigingssadres."@nl ;
+    mim:definitie "De ADRESSEERBAAR OBJECT AANDUIDING bij het BENOEMD OBJECT waarin de VESTIGING (één van) haar lokatie(s) heeft en die bij inschrijving gekozen is als vestigingssadres."@nl ;
     mim:doel <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/vestiging> ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
@@ -71,7 +71,7 @@
     mim:naam "heeft als locatie-adres"@nl ;
     mim:unidirectioneel true ;
     dcterms:identifier "EAID_2F6083B5_170E_46af_937A_5A13F67F58E6" ;
-    rdfs:comment "De ADRESSEERBAAR OBJECT AANDUIDING bij het BENOEMD OBJECT waarin de VESTIGING (&#233;&#233;n van) haar lokatie(s) heeft en die bij inschrijving gekozen is als vestigingssadres."@nl ;
+    rdfs:comment "De ADRESSEERBAAR OBJECT AANDUIDING bij het BENOEMD OBJECT waarin de VESTIGING (één van) haar lokatie(s) heeft en die bij inschrijving gekozen is als vestigingssadres."@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/nummeraanduiding> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/> ;
     rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/vestiging> .
@@ -690,11 +690,9 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
         owl:ObjectProperty ;
     rdfs:label "status"@nl ;
     mim:definitie """De levenscyclus van een nummeraanduiding, waarin de betreffende nummeraanduiding zich bevindt.
-&nbsp;
-<ul>
-	<li>Naamgeving uitgegeven</li>
-	<li>Naamgeving ingetrokken</li>
-</ul>"""@nl ;
+
+- Naamgeving uitgegeven
+- Naamgeving ingetrokken"""@nl ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/bag/nummeraanduiding/status"^^xsd:anyURI ;
@@ -708,11 +706,9 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
     mim:type <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusnummeraanduiding> ;
     dcterms:identifier "EAID_C5D0D5C3_1292_457f_A381_3E7594A0CB9E" ;
     rdfs:comment """De levenscyclus van een nummeraanduiding, waarin de betreffende nummeraanduiding zich bevindt.
-&nbsp;
-<ul>
-	<li>Naamgeving uitgegeven</li>
-	<li>Naamgeving ingetrokken</li>
-</ul>"""@nl ;
+
+- Naamgeving uitgegeven
+- Naamgeving ingetrokken"""@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/nummeraanduiding> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/> ;
     rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusnummeraanduiding> .
@@ -2319,7 +2315,7 @@ geslachtsnaam voorafgaat.."""@nl ;
 <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/nietnatuurlijkpersoon/nnpid> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "NNPID"@nl ;
-    mim:definitie "Een in het handelsregister over een NIET-NATUURLIJK PERSOON opgenomen, door de Kamer van Koophandel toegekend, uniek nummer. De attribuutsoort kent onder meer historie omdat het mogelijk is dat de NNP-ID van een ingeschreven niet-natuurlijk persoon wijzigt, met name vanwege &lsquo;ambtelijke&rsquo; correcties."@nl ;
+    mim:definitie "Een in het handelsregister over een NIET-NATUURLIJK PERSOON opgenomen, door de Kamer van Koophandel toegekend, uniek nummer. De attribuutsoort kent onder meer historie omdat het mogelijk is dat de NNP-ID van een ingeschreven niet-natuurlijk persoon wijzigt, met name vanwege ‘ambtelijke’ correcties."@nl ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/nietnatuurlijkpersoon/nnpid"^^xsd:anyURI ;
@@ -2332,7 +2328,7 @@ geslachtsnaam voorafgaat.."""@nl ;
     mim:naam "NNPID"@nl ;
     mim:type mim:Integer ;
     dcterms:identifier "EAID_53D269C1_BBFD_4e2f_9166_5165EBBFBD9F" ;
-    rdfs:comment "Een in het handelsregister over een NIET-NATUURLIJK PERSOON opgenomen, door de Kamer van Koophandel toegekend, uniek nummer. De attribuutsoort kent onder meer historie omdat het mogelijk is dat de NNP-ID van een ingeschreven niet-natuurlijk persoon wijzigt, met name vanwege &lsquo;ambtelijke&rsquo; correcties."@nl ;
+    rdfs:comment "Een in het handelsregister over een NIET-NATUURLIJK PERSOON opgenomen, door de Kamer van Koophandel toegekend, uniek nummer. De attribuutsoort kent onder meer historie omdat het mogelijk is dat de NNP-ID van een ingeschreven niet-natuurlijk persoon wijzigt, met name vanwege ‘ambtelijke’ correcties."@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/nietnatuurlijkpersoon> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
     rdfs:range xsd:integer .
@@ -2695,7 +2691,7 @@ geslachtsnaam voorafgaat.."""@nl ;
         owl:DatatypeProperty ;
     rdfs:label "datumEinde"@nl ;
     mim:datumOpname "2009-02-02"^^xsd:date ;
-    mim:definitie "De datum  van<b> </b>beëindiging van de vestiging"@nl ;
+    mim:definitie "De datum van beëindiging van de vestiging"@nl ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:herkomst "NHR" ;
@@ -2710,7 +2706,7 @@ geslachtsnaam voorafgaat.."""@nl ;
     mim:naam "datumEinde"@nl ;
     mim:type mim:Date ;
     dcterms:identifier "EAID_A278D410_911B_4df2_93C6_56F7F5DF2667" ;
-    rdfs:comment "De datum  van<b> </b>beëindiging van de vestiging"@nl ;
+    rdfs:comment "De datum van beëindiging van de vestiging"@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/vestiging> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
     rdfs:range xsd:date .

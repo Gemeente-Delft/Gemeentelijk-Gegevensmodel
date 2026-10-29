@@ -645,7 +645,7 @@ kapitaalvennootschap zijn binnen of buiten de E.E.R."""@nl ;
 <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/nietnatuurlijkpersoon/nnpid> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "NNPID"@nl ;
-    mim:definitie "Een in het handelsregister over een NIET-NATUURLIJK PERSOON opgenomen, door de Kamer van Koophandel toegekend, uniek nummer. De attribuutsoort kent onder meer historie omdat het mogelijk is dat de NNP-ID van een ingeschreven niet-natuurlijk persoon wijzigt, met name vanwege &lsquo;ambtelijke&rsquo; correcties."@nl ;
+    mim:definitie "Een in het handelsregister over een NIET-NATUURLIJK PERSOON opgenomen, door de Kamer van Koophandel toegekend, uniek nummer. De attribuutsoort kent onder meer historie omdat het mogelijk is dat de NNP-ID van een ingeschreven niet-natuurlijk persoon wijzigt, met name vanwege ‘ambtelijke’ correcties."@nl ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/nietnatuurlijkpersoon/nnpid"^^xsd:anyURI ;
@@ -658,7 +658,7 @@ kapitaalvennootschap zijn binnen of buiten de E.E.R."""@nl ;
     mim:naam "NNPID"@nl ;
     mim:type mim:Integer ;
     dcterms:identifier "EAID_53D269C1_BBFD_4e2f_9166_5165EBBFBD9F" ;
-    rdfs:comment "Een in het handelsregister over een NIET-NATUURLIJK PERSOON opgenomen, door de Kamer van Koophandel toegekend, uniek nummer. De attribuutsoort kent onder meer historie omdat het mogelijk is dat de NNP-ID van een ingeschreven niet-natuurlijk persoon wijzigt, met name vanwege &lsquo;ambtelijke&rsquo; correcties."@nl ;
+    rdfs:comment "Een in het handelsregister over een NIET-NATUURLIJK PERSOON opgenomen, door de Kamer van Koophandel toegekend, uniek nummer. De attribuutsoort kent onder meer historie omdat het mogelijk is dat de NNP-ID van een ingeschreven niet-natuurlijk persoon wijzigt, met name vanwege ‘ambtelijke’ correcties."@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/nietnatuurlijkpersoon> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
     rdfs:range xsd:integer .
@@ -922,23 +922,23 @@ kapitaalvennootschap zijn binnen of buiten de E.E.R."""@nl ;
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/schuldhulpverlening/enumbegeleidingssoort> ;
     rdfs:label "Beschermingsbewind"@nl ;
-    mim:definitie """Beschermingsbewind is een wettelijke maatregel die bedoeld is om iemands financi&#235;le belangen, volledig of gedeeltelijk, te beschermen als diegene daar zelf niet toe in staat is. Het is bedoeld voor meerderjarigen die niet in staat zijn om hun eigen vermogen te beheren doordat ze:
+    mim:definitie """Beschermingsbewind is een wettelijke maatregel die bedoeld is om iemands financiële belangen, volledig of gedeeltelijk, te beschermen als diegene daar zelf niet toe in staat is. Het is bedoeld voor meerderjarigen die niet in staat zijn om hun eigen vermogen te beheren doordat ze:
 ■ een lichamelijke of geestelijke beperking hebben;
 ■ hun bezit (dreigen te) verkwisten of problematische schulden hebben.
 
 De kantonrechter beslist of iemand beschermingsbewind nodig heeft. Na uitspraak van de kantonrechter wordt
-een bewindvoerder verantwoordelijk om  alle handelingen te verrichten die
+een bewindvoerder verantwoordelijk om alle handelingen te verrichten die
 aan een goed bewind bijdragen en om betrokkene in en buiten rechte te
 vertegenwoordigen."""@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/schuldhulpverlening/enumbegeleidingssoort/beschermingsbewind"^^xsd:anyURI ;
     mim:naam "Beschermingsbewind"@nl ;
     dcterms:identifier "EAID_EEFC8B3A_9042_45bf_88C0_4564E353BE8C" ;
-    skos:definition """Beschermingsbewind is een wettelijke maatregel die bedoeld is om iemands financi&#235;le belangen, volledig of gedeeltelijk, te beschermen als diegene daar zelf niet toe in staat is. Het is bedoeld voor meerderjarigen die niet in staat zijn om hun eigen vermogen te beheren doordat ze:
+    skos:definition """Beschermingsbewind is een wettelijke maatregel die bedoeld is om iemands financiële belangen, volledig of gedeeltelijk, te beschermen als diegene daar zelf niet toe in staat is. Het is bedoeld voor meerderjarigen die niet in staat zijn om hun eigen vermogen te beheren doordat ze:
 ■ een lichamelijke of geestelijke beperking hebben;
 ■ hun bezit (dreigen te) verkwisten of problematische schulden hebben.
 
 De kantonrechter beslist of iemand beschermingsbewind nodig heeft. Na uitspraak van de kantonrechter wordt
-een bewindvoerder verantwoordelijk om  alle handelingen te verrichten die
+een bewindvoerder verantwoordelijk om alle handelingen te verrichten die
 aan een goed bewind bijdragen en om betrokkene in en buiten rechte te
 vertegenwoordigen."""@nl ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/schuldhulpverlening/enumbegeleidingssoort> ;
@@ -949,11 +949,11 @@ vertegenwoordigen."""@nl ;
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/schuldhulpverlening/enumbegeleidingssoort> ;
     rdfs:label "Budgetbegeleiding"@nl ;
-    mim:definitie "Verbeteren financi&#235;le kennis en vaardigheden, door: verhogen van zelfredzaamheid door de financiele vaardigheden, kennis en inzicht van de hulpvrager te ontwikkelen d.m.v. budgetbegeleiding en training."@nl ;
+    mim:definitie "Verbeteren financiële kennis en vaardigheden, door: verhogen van zelfredzaamheid door de financiele vaardigheden, kennis en inzicht van de hulpvrager te ontwikkelen d.m.v. budgetbegeleiding en training."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/schuldhulpverlening/enumbegeleidingssoort/budgetbegeleiding"^^xsd:anyURI ;
     mim:naam "Budgetbegeleiding"@nl ;
     dcterms:identifier "EAID_B63869BF_221B_4361_A507_C41B601A12B3" ;
-    skos:definition "Verbeteren financi&#235;le kennis en vaardigheden, door: verhogen van zelfredzaamheid door de financiele vaardigheden, kennis en inzicht van de hulpvrager te ontwikkelen d.m.v. budgetbegeleiding en training."@nl ;
+    skos:definition "Verbeteren financiële kennis en vaardigheden, door: verhogen van zelfredzaamheid door de financiele vaardigheden, kennis en inzicht van de hulpvrager te ontwikkelen d.m.v. budgetbegeleiding en training."@nl ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/schuldhulpverlening/enumbegeleidingssoort> ;
     skos:prefLabel "Budgetbegeleiding"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/schuldhulpverlening/enumbegeleidingssoort> .
@@ -975,11 +975,11 @@ vertegenwoordigen."""@nl ;
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/schuldhulpverlening/enumbegeleidingssoort> ;
     rdfs:label "Budgetcoaching"@nl ;
-    mim:definitie "Het bijbrengen van financi&#235;le kennis en vaardigheden zodat een persoon in staat is om zijn eigen geldzaken zelfstandig te regelen (al dan niet met medewerking van derden)."@nl ;
+    mim:definitie "Het bijbrengen van financiële kennis en vaardigheden zodat een persoon in staat is om zijn eigen geldzaken zelfstandig te regelen (al dan niet met medewerking van derden)."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/schuldhulpverlening/enumbegeleidingssoort/budgetcoaching"^^xsd:anyURI ;
     mim:naam "Budgetcoaching"@nl ;
     dcterms:identifier "EAID_8DAEAE4A_D0E0_46b8_8642_8D29EA4C39EE" ;
-    skos:definition "Het bijbrengen van financi&#235;le kennis en vaardigheden zodat een persoon in staat is om zijn eigen geldzaken zelfstandig te regelen (al dan niet met medewerking van derden)."@nl ;
+    skos:definition "Het bijbrengen van financiële kennis en vaardigheden zodat een persoon in staat is om zijn eigen geldzaken zelfstandig te regelen (al dan niet met medewerking van derden)."@nl ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/schuldhulpverlening/enumbegeleidingssoort> ;
     skos:prefLabel "Budgetcoaching"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/schuldhulpverlening/enumbegeleidingssoort> .
@@ -988,11 +988,11 @@ vertegenwoordigen."""@nl ;
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/schuldhulpverlening/enumbegeleidingssoort> ;
     rdfs:label "Lange Termijn Begeleiding (DFD)"@nl ;
-    mim:definitie "<font color=\"#1e1d3a\">Het doel van Duurzame Financi&#235;le Dienstverlening (DFD) is om de inkomsten en uitgaven van een inwoner in evenwicht te brengen als de schulden (nog) niet duurzaam opgelost kunnen worden.</font>"@nl ;
+    mim:definitie "Het doel van Duurzame Financiële Dienstverlening (DFD) is om de inkomsten en uitgaven van een inwoner in evenwicht te brengen als de schulden (nog) niet duurzaam opgelost kunnen worden."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/schuldhulpverlening/enumbegeleidingssoort/lange-termijn-begeleiding-dfd"^^xsd:anyURI ;
     mim:naam "Lange Termijn Begeleiding (DFD)"@nl ;
     dcterms:identifier "EAID_59DF0F15_2611_4521_B5C4_7446879D2F74" ;
-    skos:definition "<font color=\"#1e1d3a\">Het doel van Duurzame Financi&#235;le Dienstverlening (DFD) is om de inkomsten en uitgaven van een inwoner in evenwicht te brengen als de schulden (nog) niet duurzaam opgelost kunnen worden.</font>"@nl ;
+    skos:definition "Het doel van Duurzame Financiële Dienstverlening (DFD) is om de inkomsten en uitgaven van een inwoner in evenwicht te brengen als de schulden (nog) niet duurzaam opgelost kunnen worden."@nl ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/schuldhulpverlening/enumbegeleidingssoort> ;
     skos:prefLabel "Lange Termijn Begeleiding (DFD)"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/schuldhulpverlening/enumbegeleidingssoort> .
@@ -1001,11 +1001,11 @@ vertegenwoordigen."""@nl ;
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/schuldhulpverlening/enumoplossingssoort> ;
     rdfs:label "0%-aanbod"@nl ;
-    mim:definitie "In een 0%-regeling erkent men dat de schuldenaar geen financi&#235;le ruimte heeft om schulden af te lossen, en daarom wordt er geen aflossing van de schulden gevraagd gedurende de looptijd van de regeling. Na afloop van de afgesproken periode kunnen de schulden, mits aan alle voorwaarden is voldaan, worden kwijtgescholden."@nl ;
+    mim:definitie "In een 0%-regeling erkent men dat de schuldenaar geen financiële ruimte heeft om schulden af te lossen, en daarom wordt er geen aflossing van de schulden gevraagd gedurende de looptijd van de regeling. Na afloop van de afgesproken periode kunnen de schulden, mits aan alle voorwaarden is voldaan, worden kwijtgescholden."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/schuldhulpverlening/enumoplossingssoort/0-aanbod"^^xsd:anyURI ;
     mim:naam "0%-aanbod"@nl ;
     dcterms:identifier "EAID_317F642C_CBD3_4ae8_A1B2_D56A1E4D8EFF" ;
-    skos:definition "In een 0%-regeling erkent men dat de schuldenaar geen financi&#235;le ruimte heeft om schulden af te lossen, en daarom wordt er geen aflossing van de schulden gevraagd gedurende de looptijd van de regeling. Na afloop van de afgesproken periode kunnen de schulden, mits aan alle voorwaarden is voldaan, worden kwijtgescholden."@nl ;
+    skos:definition "In een 0%-regeling erkent men dat de schuldenaar geen financiële ruimte heeft om schulden af te lossen, en daarom wordt er geen aflossing van de schulden gevraagd gedurende de looptijd van de regeling. Na afloop van de afgesproken periode kunnen de schulden, mits aan alle voorwaarden is voldaan, worden kwijtgescholden."@nl ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/schuldhulpverlening/enumoplossingssoort> ;
     skos:prefLabel "0%-aanbod"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/schuldhulpverlening/enumoplossingssoort> .
@@ -1040,11 +1040,11 @@ vertegenwoordigen."""@nl ;
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/schuldhulpverlening/enumoplossingssoort> ;
     rdfs:label "Saneringskrediet"@nl ;
-    mim:definitie "Het ineens afkopen van de totale schuldenlast tegen finale kwijting, op basis van betaling van een percentage van de totale schuldenlast.De afbetaling aan de schuldeisers is ineens en wordt gedaan met een krediet. De afsluiting van een saneringskrediet gaat via de eigen organisatie als dat een gemeentelijke of andere kredietbank is of de schuldhulpverlener bemiddelt naar een (gemeentelijke) kredietbank, een reguliere bank of een andere financieringsmogelijkheid (bijv. priv&#233;persoon of werkgever), die vervolgens het saneringskrediet verstrekt."@nl ;
+    mim:definitie "Het ineens afkopen van de totale schuldenlast tegen finale kwijting, op basis van betaling van een percentage van de totale schuldenlast.De afbetaling aan de schuldeisers is ineens en wordt gedaan met een krediet. De afsluiting van een saneringskrediet gaat via de eigen organisatie als dat een gemeentelijke of andere kredietbank is of de schuldhulpverlener bemiddelt naar een (gemeentelijke) kredietbank, een reguliere bank of een andere financieringsmogelijkheid (bijv. privépersoon of werkgever), die vervolgens het saneringskrediet verstrekt."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/schuldhulpverlening/enumoplossingssoort/saneringskrediet"^^xsd:anyURI ;
     mim:naam "Saneringskrediet"@nl ;
     dcterms:identifier "EAID_2CCC4C4C_31D3_493f_AB43_34C10199736C" ;
-    skos:definition "Het ineens afkopen van de totale schuldenlast tegen finale kwijting, op basis van betaling van een percentage van de totale schuldenlast.De afbetaling aan de schuldeisers is ineens en wordt gedaan met een krediet. De afsluiting van een saneringskrediet gaat via de eigen organisatie als dat een gemeentelijke of andere kredietbank is of de schuldhulpverlener bemiddelt naar een (gemeentelijke) kredietbank, een reguliere bank of een andere financieringsmogelijkheid (bijv. priv&#233;persoon of werkgever), die vervolgens het saneringskrediet verstrekt."@nl ;
+    skos:definition "Het ineens afkopen van de totale schuldenlast tegen finale kwijting, op basis van betaling van een percentage van de totale schuldenlast.De afbetaling aan de schuldeisers is ineens en wordt gedaan met een krediet. De afsluiting van een saneringskrediet gaat via de eigen organisatie als dat een gemeentelijke of andere kredietbank is of de schuldhulpverlener bemiddelt naar een (gemeentelijke) kredietbank, een reguliere bank of een andere financieringsmogelijkheid (bijv. privépersoon of werkgever), die vervolgens het saneringskrediet verstrekt."@nl ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/schuldhulpverlening/enumoplossingssoort> ;
     skos:prefLabel "Saneringskrediet"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/schuldhulpverlening/enumoplossingssoort> .
@@ -1079,11 +1079,11 @@ vertegenwoordigen."""@nl ;
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/schuldhulpverlening/enumschuldensoort> ;
     rdfs:label "Overig"@nl ;
-    mim:definitie "Alle schulden die niet onder &#233;&#233;n van de andere categorie&#235;n zijn in te delen."@nl ;
+    mim:definitie "Alle schulden die niet onder één van de andere categorieën zijn in te delen."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/schuldhulpverlening/enumschuldensoort/overig"^^xsd:anyURI ;
     mim:naam "Overig"@nl ;
     dcterms:identifier "EAID_0D9F89AD_9AEF_44db_B409_420570DE3E3C" ;
-    skos:definition "Alle schulden die niet onder &#233;&#233;n van de andere categorie&#235;n zijn in te delen."@nl ;
+    skos:definition "Alle schulden die niet onder één van de andere categorieën zijn in te delen."@nl ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/schuldhulpverlening/enumschuldensoort> ;
     skos:prefLabel "Overig"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/schuldhulpverlening/enumschuldensoort> .
@@ -1391,12 +1391,12 @@ vertegenwoordigen."""@nl ;
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/schuldhulpverlening/oplossing/soort>,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/schuldhulpverlening/oplossing/startdatum>,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/schuldhulpverlening/oplossing/vtlb> ;
-    mim:definitie "<font color=\"#0e0e0e\">In de schuldhulpverlening verwijst een “oplossing” naar een regeling waarbij schulden op een beheersbare manier worden afgelost of kwijtgescholden, met als doel de financi&#235;le situatie van de schuldenaar te stabiliseren. Er worden verschillende oplossingsvormen onderscheiden, waaronder saneringskrediet, schuldbemiddeling, herfinanciering, betalingsregelingen en schuldregelingen zonder afloscapaciteit. Bij een saneringskrediet ontvangt de schuldenaar een lening om alle schuldeisers in &#233;&#233;n keer af te betalen, waarna hij deze lening aflost aan de kredietverstrekker. Schuldbemiddeling houdt in dat de schuldenaar gedurende een afgesproken periode periodiek bedragen aflost aan de schuldeisers. Herfinanciering betreft het vervangen van bestaande schulden door een nieuwe lening met gunstigere voorwaarden. Een betalingsregeling is een afspraak tussen schuldenaar en schuldeiser om de schuld in termijnen af te lossen. Bij een schuldregeling zonder afloscapaciteit wordt vastgesteld dat de schuldenaar geen financi&#235;le ruimte heeft om af te lossen, wat kan leiden tot kwijtschelding van de schuld. Deze oplossingsvormen worden ingezet afhankelijk van de specifieke situatie van de schuldenaar en zijn gericht op een duurzame oplossing van de schuldenproblematiek.  </font>"@nl ;
+    mim:definitie "In de schuldhulpverlening verwijst een “oplossing” naar een regeling waarbij schulden op een beheersbare manier worden afgelost of kwijtgescholden, met als doel de financiële situatie van de schuldenaar te stabiliseren. Er worden verschillende oplossingsvormen onderscheiden, waaronder saneringskrediet, schuldbemiddeling, herfinanciering, betalingsregelingen en schuldregelingen zonder afloscapaciteit. Bij een saneringskrediet ontvangt de schuldenaar een lening om alle schuldeisers in één keer af te betalen, waarna hij deze lening aflost aan de kredietverstrekker. Schuldbemiddeling houdt in dat de schuldenaar gedurende een afgesproken periode periodiek bedragen aflost aan de schuldeisers. Herfinanciering betreft het vervangen van bestaande schulden door een nieuwe lening met gunstigere voorwaarden. Een betalingsregeling is een afspraak tussen schuldenaar en schuldeiser om de schuld in termijnen af te lossen. Bij een schuldregeling zonder afloscapaciteit wordt vastgesteld dat de schuldenaar geen financiële ruimte heeft om af te lossen, wat kan leiden tot kwijtschelding van de schuld. Deze oplossingsvormen worden ingezet afhankelijk van de specifieke situatie van de schuldenaar en zijn gericht op een duurzame oplossing van de schuldenproblematiek."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/schuldhulpverlening/oplossing"^^xsd:anyURI ;
     mim:indicatieAbstractObject false ;
     mim:naam "Oplossing"@nl ;
     dcterms:identifier "EAID_7E274EE0_FB77_43ef_ABCB_91ACF0ACD469" ;
-    rdfs:comment "<font color=\"#0e0e0e\">In de schuldhulpverlening verwijst een “oplossing” naar een regeling waarbij schulden op een beheersbare manier worden afgelost of kwijtgescholden, met als doel de financi&#235;le situatie van de schuldenaar te stabiliseren. Er worden verschillende oplossingsvormen onderscheiden, waaronder saneringskrediet, schuldbemiddeling, herfinanciering, betalingsregelingen en schuldregelingen zonder afloscapaciteit. Bij een saneringskrediet ontvangt de schuldenaar een lening om alle schuldeisers in &#233;&#233;n keer af te betalen, waarna hij deze lening aflost aan de kredietverstrekker. Schuldbemiddeling houdt in dat de schuldenaar gedurende een afgesproken periode periodiek bedragen aflost aan de schuldeisers. Herfinanciering betreft het vervangen van bestaande schulden door een nieuwe lening met gunstigere voorwaarden. Een betalingsregeling is een afspraak tussen schuldenaar en schuldeiser om de schuld in termijnen af te lossen. Bij een schuldregeling zonder afloscapaciteit wordt vastgesteld dat de schuldenaar geen financi&#235;le ruimte heeft om af te lossen, wat kan leiden tot kwijtschelding van de schuld. Deze oplossingsvormen worden ingezet afhankelijk van de specifieke situatie van de schuldenaar en zijn gericht op een duurzame oplossing van de schuldenproblematiek.  </font>"@nl ;
+    rdfs:comment "In de schuldhulpverlening verwijst een “oplossing” naar een regeling waarbij schulden op een beheersbare manier worden afgelost of kwijtgescholden, met als doel de financiële situatie van de schuldenaar te stabiliseren. Er worden verschillende oplossingsvormen onderscheiden, waaronder saneringskrediet, schuldbemiddeling, herfinanciering, betalingsregelingen en schuldregelingen zonder afloscapaciteit. Bij een saneringskrediet ontvangt de schuldenaar een lening om alle schuldeisers in één keer af te betalen, waarna hij deze lening aflost aan de kredietverstrekker. Schuldbemiddeling houdt in dat de schuldenaar gedurende een afgesproken periode periodiek bedragen aflost aan de schuldeisers. Herfinanciering betreft het vervangen van bestaande schulden door een nieuwe lening met gunstigere voorwaarden. Een betalingsregeling is een afspraak tussen schuldenaar en schuldeiser om de schuld in termijnen af te lossen. Bij een schuldregeling zonder afloscapaciteit wordt vastgesteld dat de schuldenaar geen financiële ruimte heeft om af te lossen, wat kan leiden tot kwijtschelding van de schuld. Deze oplossingsvormen worden ingezet afhankelijk van de specifieke situatie van de schuldenaar en zijn gericht op een duurzame oplossing van de schuldenproblematiek."@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/schuldhulpverlening/> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/schuldhulpverlening/schuldhulporganisatie> a mim:Objecttype,
@@ -1434,7 +1434,7 @@ Het betreft een gemeenten of een SHV-organisatie die de gemeentelijke schuldhulp
         owl:Class,
         skos:ConceptScheme ;
     rdfs:label "EnumSchuldensoort"@nl ;
-    mim:definitie "Lijst met alle cattegori&#235;n van soorten schulden die worden onderkend in het kader van schuldhulpverlening."@nl ;
+    mim:definitie "Lijst met alle cattegoriën van soorten schulden die worden onderkend in het kader van schuldhulpverlening."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/schuldhulpverlening/enumschuldensoort"^^xsd:anyURI ;
     mim:naam "EnumSchuldensoort"@nl ;
     mim:waarde <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/schuldhulpverlening/enumschuldensoort/nuts>,
@@ -1442,7 +1442,7 @@ Het betreft een gemeenten of een SHV-organisatie die de gemeentelijke schuldhulp
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/schuldhulpverlening/enumschuldensoort/publiek>,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/schuldhulpverlening/enumschuldensoort/zorg> ;
     dcterms:identifier "EAID_D34DF6F1_CC5C_42c8_A013_D59698E9F530" ;
-    rdfs:comment "Lijst met alle cattegori&#235;n van soorten schulden die worden onderkend in het kader van schuldhulpverlening."@nl ;
+    rdfs:comment "Lijst met alle cattegoriën van soorten schulden die worden onderkend in het kader van schuldhulpverlening."@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/schuldhulpverlening/> ;
     rdfs:subClassOf skos:Concept .
 

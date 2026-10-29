@@ -2824,15 +2824,15 @@ Indien een attribuutsoort deel uit maakt van een gegevensgroeptype, dan wordt de
             sh:path <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/attribuutsoort/heeft> ],
         [ sh:datatype xsd:string ;
             sh:description """De aanduiding van de lengte van een gegeven. Getallen kunnen altijd positief of negatief zijn.
-<i>Bijvoorbeeld:</i>
-<i>‘1’ als de lengte exact 1 is;</i>
-<i>‘1..2’ als de lengte 1 tot en met 2 lang kan zijn; '‘1,2’ voor Decimale getallen met 1 cijfer voor de komma en 2 erna. </i>Dit is van -9,99 tot +9,99;"""@nl ;
+Bijvoorbeeld:
+‘1’ als de lengte exact 1 is;
+‘1..2’ als de lengte 1 tot en met 2 lang kan zijn; '‘1,2’ voor Decimale getallen met 1 cijfer voor de komma en 2 erna. Dit is van -9,99 tot +9,99;"""@nl ;
             sh:maxCount 1 ;
             sh:maxLength 40 ;
             sh:name "lengte"@nl ;
             sh:path <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/attribuutsoort/lengte> ],
         [ sh:datatype xsd:string ;
-            sh:description "<i>Domein is zelf geen metadata aspect. Onder het kopje ‘domein’ vallen een aantal metadata aspecten die gelden voor een waarde, oftewel de eisen waaraan een waarde van een attribuutsoort moet voldoen.</i>"@nl ;
+            sh:description "Domein is zelf geen metadata aspect. Onder het kopje ‘domein’ vallen een aantal metadata aspecten die gelden voor een waarde, oftewel de eisen waaraan een waarde van een attribuutsoort moet voldoen."@nl ;
             sh:maxCount 1 ;
             sh:maxLength 80 ;
             sh:name "domein"@nl ;
@@ -2970,16 +2970,16 @@ De verzameling van waarden die gegevens van deze attribuutsoort kunnen hebben, d
             sh:name "naam"@nl ;
             sh:path <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/datatype/naam> ],
         [ sh:datatype xsd:string ;
-            sh:description "<i>Domein is zelf geen metadata aspect. Onder het kopje ‘domein’ vallen een aantal metadata aspecten die gelden voor een waarde, oftewel de eisen waaraan een waarde van een attribuutsoort moet voldoen.</i>"@nl ;
+            sh:description "Domein is zelf geen metadata aspect. Onder het kopje ‘domein’ vallen een aantal metadata aspecten die gelden voor een waarde, oftewel de eisen waaraan een waarde van een attribuutsoort moet voldoen."@nl ;
             sh:maxCount 1 ;
             sh:maxLength 255 ;
             sh:name "domein"@nl ;
             sh:path <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/datatype/domein> ],
         [ sh:datatype xsd:string ;
             sh:description """De aanduiding van de lengte van een gegeven. Getallen kunnen altijd positief of negatief zijn.
-<i>Bijvoorbeeld:</i>
-<i>‘1’ als de lengte exact 1 is;</i>
-<i>‘1..2’ als de lengte 1 tot en met 2 lang kan zijn; '‘1,2’ voor Decimale getallen met 1 cijfer voor de komma en 2 erna. </i>Dit is van -9,99 tot +9,99;"""@nl ;
+Bijvoorbeeld:
+‘1’ als de lengte exact 1 is;
+‘1..2’ als de lengte 1 tot en met 2 lang kan zijn; '‘1,2’ voor Decimale getallen met 1 cijfer voor de komma en 2 erna. Dit is van -9,99 tot +9,99;"""@nl ;
             sh:maxCount 1 ;
             sh:maxLength 40 ;
             sh:name "lengte"@nl ;
@@ -4522,11 +4522,10 @@ Indien een attribuutsoort deel uit maakt van een gegevensgroeptype, dan wordt de
             sh:nodeKind sh:IRI ;
             sh:path <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/inkoop/startformulieraanbesteden/mondt-uit-aankondiging> ],
         [ sh:datatype xsd:boolean ;
-            sh:description """Welke aanbestedingsprocedure ben je voornemens te volgen? 
-<ol>
- <li>1-op-1 (enkelvoudig onderhands) of 3 tot 5 offertes (meervoudig onderhands)</li>
- <li>Nationale of Europese aanbesteding </li>
-</ol>"""@nl ;
+            sh:description """Welke aanbestedingsprocedure ben je voornemens te volgen?
+
+1. 1-op-1 (enkelvoudig onderhands) of 3 tot 5 offertes (meervoudig onderhands)
+2. Nationale of Europese aanbesteding"""@nl ;
             sh:maxCount 1 ;
             sh:name "indicatieBeoogdeAanbestedingOnderhands"@nl ;
             sh:path <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/inkoop/startformulieraanbesteden/indicatiebeoogdeaanbestedingonderhands> ],
@@ -6248,11 +6247,9 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
             sh:path <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/ligplaats/documentnummer> ],
         [ sh:class <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusligplaats> ;
             sh:description """De fase van de levenscyclus van een LIGPLAATS waarin de betreffende LIGPLAATS zich bevindt.
-&nbsp;
-<ul>
-	<li>Plaats aangewezen</li>
-	<li>Plaats ingetrokken</li>
-</ul>"""@nl ;
+
+- Plaats aangewezen
+- Plaats ingetrokken"""@nl ;
             sh:in ( <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusligplaats/plaats-aangewezen> <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusligplaats/plaats-ingetrokken> <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusligplaats/onbekend> <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusligplaats/leeg> ) ;
             sh:maxCount 1 ;
             sh:minCount 1 ;
@@ -6389,11 +6386,9 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
             sh:path <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/nummeraanduiding/huisletter> ],
         [ sh:class <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusnummeraanduiding> ;
             sh:description """De levenscyclus van een nummeraanduiding, waarin de betreffende nummeraanduiding zich bevindt.
-&nbsp;
-<ul>
-	<li>Naamgeving uitgegeven</li>
-	<li>Naamgeving ingetrokken</li>
-</ul>"""@nl ;
+
+- Naamgeving uitgegeven
+- Naamgeving ingetrokken"""@nl ;
             sh:in ( <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusnummeraanduiding/naamgeving-uitgegeven> <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusnummeraanduiding/naamgeving-ingetrokken> <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusnummeraanduiding/onbekend> <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusnummeraanduiding/leeg> ) ;
             sh:maxCount 1 ;
             sh:minCount 1 ;
@@ -6409,7 +6404,7 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
             sh:nodeKind sh:IRI ;
             sh:path <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/nummeraanduiding/typeadresseerbaarobject> ],
         [ sh:class <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/vestiging> ;
-            sh:description "De ADRESSEERBAAR OBJECT AANDUIDING bij het BENOEMD OBJECT waarin de VESTIGING (&#233;&#233;n van) haar lokatie(s) heeft en die bij inschrijving gekozen is als vestigingssadres."@nl ;
+            sh:description "De ADRESSEERBAAR OBJECT AANDUIDING bij het BENOEMD OBJECT waarin de VESTIGING (één van) haar lokatie(s) heeft en die bij inschrijving gekozen is als vestigingssadres."@nl ;
             sh:name "heeft als locatie-adres"@nl ;
             sh:nodeKind sh:IRI ;
             sh:path <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/nummeraanduiding/heeft-als-locatie-adres> ],
@@ -6480,65 +6475,58 @@ Herkomst: BAG"""@nl ;
 Per object kunnen de volgende kenmerken of relaties in onderzoek worden geplaatst:
 
 Woonplaats:
-<ul>
-	<li>naam</li>
-	<li>geometrie</li>
-	<li>status </li>
-</ul>
+
+- naam
+- geometrie
+- status
 
 Openbare ruimte:
-<ul>
-	<li>naam</li>
-	<li>type</li>
-	<li>status</li>
-	<li>ligt in woonplaats </li>
-</ul>
+
+- naam
+- type
+- status
+- ligt in woonplaats
 
 Nummeraanduiding:
-<ul>
-	<li>huisnummer</li>
-	<li>huisletter</li>
-	<li>huisnummertoevoeging</li>
-	<li>postcode</li>
-	<li>type adresseerbaar object</li>
-	<li>status</li>
-	<li>ligt in woonplaats</li>
-	<li>ligt aan openbare ruimte </li>
-</ul>
+
+- huisnummer
+- huisletter
+- huisnummertoevoeging
+- postcode
+- type adresseerbaar object
+- status
+- ligt in woonplaats
+- ligt aan openbare ruimte
 
 Pand:
-<ul>
-	<li>geometrie</li>
-	<li>bouwjaar</li>
-	<li>status </li>
-</ul>
+
+- geometrie
+- bouwjaar
+- status
 
 Verblijfsobject:
-<ul>
-	<li>geometrie</li>
-	<li>gebruiksdoel</li>
-	<li>oppervlakte</li>
-	<li>status</li>
-	<li>ligt in pand</li>
-	<li>heeft hoofdadres</li>
-	<li>heeft nevenadres </li>
-</ul>
+
+- geometrie
+- gebruiksdoel
+- oppervlakte
+- status
+- ligt in pand
+- heeft hoofdadres
+- heeft nevenadres
 
 Standplaats:
-<ul>
-	<li>geometrie</li>
-	<li>status</li>
-	<li>heeft hoofdadres</li>
-	<li>heeft nevenadres </li>
-</ul>
+
+- geometrie
+- status
+- heeft hoofdadres
+- heeft nevenadres
 
 Ligplaats:
-<ul>
-	<li>geometrie</li>
-	<li>status</li>
-	<li>heeft hoofdadres</li>
-	<li>heeft nevenadres </li>
-</ul>
+
+- geometrie
+- status
+- heeft hoofdadres
+- heeft nevenadres
 
 Herkomst: BAG"""@nl ;
             sh:maxCount 1 ;
@@ -6573,7 +6561,7 @@ Herkomst: BAG Plus"""@nl ;
             sh:nodeKind sh:IRI ;
             sh:path <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/onderzoek/objectidentificatie-woonplaats> ],
         [ sh:datatype xsd:dateTime ;
-            sh:description """Het tijdstip waarop de registratie van het onderzoek is be&#235;indigd bij de bronhouder.
+            sh:description """Het tijdstip waarop de registratie van het onderzoek is beëindigd bij de bronhouder.
 
 Herkomst: BAG"""@nl ;
             sh:maxCount 1 ;
@@ -6767,7 +6755,7 @@ RUIMTE."""@nl ;
             sh:nodeKind sh:IRI ;
             sh:path <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/openbareruimte/ligt-in-buurt-2> ],
         [ sh:datatype xsd:string ;
-            sh:description "<font color=\"#0f0f0f\">Bevat de naam van de openbare ruimte ten behoeve van visualisatie.</font>"@nl ;
+            sh:description "Bevat de naam van de openbare ruimte ten behoeve van visualisatie."@nl ;
             sh:maxCount 1 ;
             sh:maxLength 80 ;
             sh:minCount 1 ;
@@ -6809,7 +6797,7 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
             sh:name "Huisnummerrange even en oneven nummers"@nl ;
             sh:path <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/openbareruimte/huisnummerrange-even-en-oneven-nummers> ],
         [ sh:datatype xsd:string ;
-            sh:description "<font color=\"#0f0f0f\">Een door het bevoegde gemeentelijke orgaan aan een OPENBARE RUIMTE toegekende benaming</font>"@nl ;
+            sh:description "Een door het bevoegde gemeentelijke orgaan aan een OPENBARE RUIMTE toegekende benaming"@nl ;
             sh:maxCount 1 ;
             sh:maxLength 80 ;
             sh:minCount 1 ;
@@ -6821,7 +6809,7 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
     rdfs:label "Pand"@nl ;
     dcterms:identifier "EAID_11595AD8_CE67_40dd_BDA9_489DC7D244ED" ;
     sh:property [ sh:datatype geo:wktLiteral ;
-            sh:description "<font color=\"#0f0f0f\">De minimaal tweedimensionale geometrische representatie van het bovenaanzicht van de omtrekken van een PAND</font>"@nl ;
+            sh:description "De minimaal tweedimensionale geometrische representatie van het bovenaanzicht van de omtrekken van een PAND"@nl ;
             sh:maxCount 1 ;
             sh:minCount 1 ;
             sh:name "geometrieBovenaanzicht"@nl ;
@@ -6893,7 +6881,7 @@ Dit geeft aan dat een PAND in de registratie is opgenomen als gevolg van een fei
             sh:name "oppervlakte"@nl ;
             sh:path <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/pand/oppervlakte> ],
         [ sh:datatype xsd:integer ;
-            sh:description "<font color=\"#0f0f0f\">De aanduiding van het jaar waarin een PAND oorspronkelijk als bouwkundig gereed is of wordt opgeleverd.</font>"@nl ;
+            sh:description "De aanduiding van het jaar waarin een PAND oorspronkelijk als bouwkundig gereed is of wordt opgeleverd."@nl ;
             sh:maxCount 1 ;
             sh:minCount 1 ;
             sh:name "oorspronkelijkBouwjaar"@nl ;
@@ -6952,18 +6940,17 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
             sh:path <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/pand/zonder-verblijfsobject-ligt-in-buurt> ],
         [ sh:class <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statuspand> ;
             sh:description """De fase van de levenscyclus van een PAND, waarin het betreffende PAND zich bevindt.
-<ul>
-	<li>Bouwvergunning verleend</li>
-	<li>Niet gerealiseerd pand</li>
-	<li>Bouw gestart</li>
-	<li>Pand in gebruik (niet ingemeten)</li>
-	<li>Pand in gebruik</li>
-	<li>Sloopvergunning verleend</li>
-	<li>Pand gesloopt</li>
-	<li>Pand buiten gebruik</li>
-	<li>Verbouwing pand</li>
-	<li>Pand ten onrechte opgevoerd</li>
-</ul>"""@nl ;
+
+- Bouwvergunning verleend
+- Niet gerealiseerd pand
+- Bouw gestart
+- Pand in gebruik (niet ingemeten)
+- Pand in gebruik
+- Sloopvergunning verleend
+- Pand gesloopt
+- Pand buiten gebruik
+- Verbouwing pand
+- Pand ten onrechte opgevoerd"""@nl ;
             sh:in ( <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statuspand/bouwvergunning-verleend> <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statuspand/niet-gerealiseerd-pand> <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statuspand/bouw-gestart> <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statuspand/pand-in-gebruik-niet-ingemeten> <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statuspand/pand-in-gebruik> <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statuspand/sloopvergunning-verleend> <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statuspand/pand-gesloopt> <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statuspand/pand-buiten-gebruik> <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statuspand/verbouwing-pand> <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statuspand/pand-ten-onrechte-opgevoerd> <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statuspand/bouwaanvraag-ontvangen> <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statuspand/onbekend> <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statuspand/leeg> ) ;
             sh:maxCount 1 ;
             sh:minCount 1 ;
@@ -7718,25 +7705,25 @@ Vanaf deze datum zijn gegevens in de BAG geldig. Bij elke verandering in de BAG 
     rdfs:label "AfwijkendBuitenlandsCorrespondentieadresRol"@nl ;
     dcterms:identifier "EAID_6F75D9F8_50B8_4d89_9798_26B7FD9A6DA2" ;
     sh:property [ sh:datatype xsd:string ;
-            sh:description "&lt;ontbrekende specificatie&gt;"@nl ;
+            sh:description "<ontbrekende specificatie>"@nl ;
             sh:maxCount 1 ;
             sh:maxLength 200 ;
             sh:name "adresBuitenland3"@nl ;
             sh:path <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/groepattribuutsoort/afwijkendbuitenlandscorrespondentieadresrol/adresbuitenland3> ],
         [ sh:datatype xsd:string ;
-            sh:description "&lt;ontbrekende specificatie&gt;"@nl ;
+            sh:description "<ontbrekende specificatie>"@nl ;
             sh:maxCount 1 ;
             sh:maxLength 200 ;
             sh:name "adresBuitenland2"@nl ;
             sh:path <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/groepattribuutsoort/afwijkendbuitenlandscorrespondentieadresrol/adresbuitenland2> ],
         [ sh:datatype xsd:string ;
-            sh:description "&lt;ontbrekende specificatie&gt;"@nl ;
+            sh:description "<ontbrekende specificatie>"@nl ;
             sh:maxCount 1 ;
             sh:maxLength 200 ;
             sh:name "adresBuitenland1"@nl ;
             sh:path <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/groepattribuutsoort/afwijkendbuitenlandscorrespondentieadresrol/adresbuitenland1> ],
         [ sh:class <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/referentielijsten/land> ;
-            sh:description "<font color=\"#610e6a\">Het LAND dat behoort bij het afwijkend buitenlandse correspondentieadres van de betrokkene in zijn/haar rol bij de zaak</font>"@nl ;
+            sh:description "Het LAND dat behoort bij het afwijkend buitenlandse correspondentieadres van de betrokkene in zijn/haar rol bij de zaak"@nl ;
             sh:maxCount 1 ;
             sh:name "landPostadres"@nl ;
             sh:nodeKind sh:IRI ;
@@ -7747,18 +7734,18 @@ Vanaf deze datum zijn gegevens in de BAG geldig. Bij elke verandering in de BAG 
     rdfs:label "AfwijkendCorrespondentiePostadresRol"@nl ;
     dcterms:identifier "EAID_8F133649_AE11_491c_998B_6288B7FC8FE4" ;
     sh:property [ sh:datatype xsd:string ;
-            sh:description "<font color=\"#610e6a\">De officiële Nederlandse PTT codering, bestaande uit een numerieke woonplaatscode en een alfabetische lettercode.</font>"@nl ;
+            sh:description "De officiële Nederlandse PTT codering, bestaande uit een numerieke woonplaatscode en een alfabetische lettercode."@nl ;
             sh:maxCount 1 ;
             sh:maxLength 6 ;
             sh:name "postcodePostadres"@nl ;
             sh:path <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/groepattribuutsoort/afwijkendcorrespondentiepostadresrol/postcodepostadres> ],
         [ sh:datatype xsd:integer ;
-            sh:description "<font color=\"#610e6a\">De numerieke aanduiding zoals deze door de Nederlandse PTT is vastgesteld voor postbusadressen en antwoordnummeradressen. </font>"@nl ;
+            sh:description "De numerieke aanduiding zoals deze door de Nederlandse PTT is vastgesteld voor postbusadressen en antwoordnummeradressen."@nl ;
             sh:maxCount 1 ;
             sh:name "postbusOfAntwoordnummer"@nl ;
             sh:path <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/groepattribuutsoort/afwijkendcorrespondentiepostadresrol/postbusofantwoordnummer> ],
         [ sh:datatype xsd:string ;
-            sh:description "<font color=\"#610e6a\">Aanduiding van het soort postadres</font>"@nl ;
+            sh:description "Aanduiding van het soort postadres"@nl ;
             sh:maxCount 1 ;
             sh:name "postadresType"@nl ;
             sh:path <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/groepattribuutsoort/afwijkendcorrespondentiepostadresrol/postadrestype> ] ;
@@ -7768,25 +7755,25 @@ Vanaf deze datum zijn gegevens in de BAG geldig. Bij elke verandering in de BAG 
     rdfs:label "AnderZaakobjectZaak"@nl ;
     dcterms:identifier "EAID_ABF8E616_8600_49e8_BD38_52F7C9FB70CA" ;
     sh:property [ sh:datatype xsd:string ;
-            sh:description "<font color=\"#610e6a\">Een korte omschrijving van de aard van het zaakobject.</font>"@nl ;
+            sh:description "Een korte omschrijving van de aard van het zaakobject."@nl ;
             sh:maxCount 1 ;
             sh:maxLength 80 ;
             sh:name "anderZaakobjectOmschrijving"@nl ;
             sh:path <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/groepattribuutsoort/anderzaakobjectzaak/anderzaakobjectomschrijving> ],
         [ sh:datatype xsd:string ;
-            sh:description "<font color=\"#610e6a\">Een identificerende beschrijving van het zaakobject.</font>"@nl ;
+            sh:description "Een identificerende beschrijving van het zaakobject."@nl ;
             sh:maxCount 1 ;
             sh:maxLength 80 ;
             sh:name "anderZaakobjectAanduiding"@nl ;
             sh:path <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/groepattribuutsoort/anderzaakobjectzaak/anderzaakobjectaanduiding> ],
         [ sh:datatype xsd:string ;
-            sh:description "<font color=\"#610e6a\">De naam van de registratie waarin gegevens van het ANDER ZAAKOBJECT worden beheerd.</font>"@nl ;
+            sh:description "De naam van de registratie waarin gegevens van het ANDER ZAAKOBJECT worden beheerd."@nl ;
             sh:maxCount 1 ;
             sh:maxLength 50 ;
             sh:name "anderZaakobjectRegistratie"@nl ;
             sh:path <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/groepattribuutsoort/anderzaakobjectzaak/anderzaakobjectregistratie> ],
         [ sh:datatype geo:wktLiteral ;
-            sh:description "<font color=\"#610e6a\">De minimaal tweedimensionale geometrische representatie van de ligging of de omtrek van het zaakobject.</font>"@nl ;
+            sh:description "De minimaal tweedimensionale geometrische representatie van de ligging of de omtrek van het zaakobject."@nl ;
             sh:maxCount 1 ;
             sh:name "anderZaakobjectLocatie"@nl ;
             sh:path <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/groepattribuutsoort/anderzaakobjectzaak/anderzaakobjectlocatie> ] ;
@@ -7796,25 +7783,25 @@ Vanaf deze datum zijn gegevens in de BAG geldig. Bij elke verandering in de BAG 
     rdfs:label "ContactpersoonRol"@nl ;
     dcterms:identifier "EAID_22A29BB4_15B8_43bb_ACF5_2EAF09ABFFFB" ;
     sh:property [ sh:datatype xsd:string ;
-            sh:description "<font color=\"#610e6a\">De aanduiding van de taken, rechten en plichten die de contactpersoon heeft binnen de organisatie van BETROKKENE.</font>"@nl ;
+            sh:description "De aanduiding van de taken, rechten en plichten die de contactpersoon heeft binnen de organisatie van BETROKKENE."@nl ;
             sh:maxCount 1 ;
             sh:maxLength 50 ;
             sh:name "contactpersoonFunctie"@nl ;
             sh:path <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/groepattribuutsoort/contactpersoonrol/contactpersoonfunctie> ],
         [ sh:datatype xsd:string ;
-            sh:description "<font color=\"#610e6a\">Elektronich postadres waaronder de contactpersoon in de regel bereikbaar is.</font>"@nl ;
+            sh:description "Elektronich postadres waaronder de contactpersoon in de regel bereikbaar is."@nl ;
             sh:maxCount 1 ;
             sh:maxLength 80 ;
             sh:name "contactpersoonEmailadres"@nl ;
             sh:path <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/groepattribuutsoort/contactpersoonrol/contactpersoonemailadres> ],
         [ sh:datatype xsd:string ;
-            sh:description "<font color=\"#610e6a\">Telefoonnummer waaronder de contactpersoon in de regel bereikbaar is.</font>"@nl ;
+            sh:description "Telefoonnummer waaronder de contactpersoon in de regel bereikbaar is."@nl ;
             sh:maxCount 1 ;
             sh:maxLength 20 ;
             sh:name "contactpersoonTelefoonnummer"@nl ;
             sh:path <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/groepattribuutsoort/contactpersoonrol/contactpersoontelefoonnummer> ],
         [ sh:datatype xsd:string ;
-            sh:description "<font color=\"#610e6a\">De opgemaakte naam van de contactpersoon namens de BETROKKENE.</font>"@nl ;
+            sh:description "De opgemaakte naam van de contactpersoon namens de BETROKKENE."@nl ;
             sh:maxCount 1 ;
             sh:maxLength 40 ;
             sh:name "Contactpersoonnaam"@nl ;
@@ -7825,13 +7812,13 @@ Vanaf deze datum zijn gegevens in de BAG geldig. Bij elke verandering in de BAG 
     rdfs:label "KenmerkenZaak"@nl ;
     dcterms:identifier "EAID_9E261D63_5143_4aa8_A1DA_554AB3D27025" ;
     sh:property [ sh:datatype xsd:string ;
-            sh:description "<font color=\"#610e6a\">Identificeert uniek de zaak in een andere administratie.</font>"@nl ;
+            sh:description "Identificeert uniek de zaak in een andere administratie."@nl ;
             sh:maxCount 1 ;
             sh:maxLength 40 ;
             sh:name "kenmerk"@nl ;
             sh:path <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/groepattribuutsoort/kenmerkenzaak/kenmerk> ],
         [ sh:datatype xsd:string ;
-            sh:description "<font color=\"#610e6a\">De aanduiding van de administratie waar het kenmerk op slaat.</font>"@nl ;
+            sh:description "De aanduiding van de administratie waar het kenmerk op slaat."@nl ;
             sh:maxCount 1 ;
             sh:maxLength 40 ;
             sh:name "kenmerkBron"@nl ;
@@ -7842,12 +7829,12 @@ Vanaf deze datum zijn gegevens in de BAG geldig. Bij elke verandering in de BAG 
     rdfs:label "OpschortingZaak"@nl ;
     dcterms:identifier "EAID_8EF0E043_5575_42fe_B2E7_81D8F12ADC77" ;
     sh:property [ sh:datatype xsd:string ;
-            sh:description "<font color=\"#610e6a\">Aanduiding of de behandeling van de ZAAK tijdelijk is opgeschort.</font>"@nl ;
+            sh:description "Aanduiding of de behandeling van de ZAAK tijdelijk is opgeschort."@nl ;
             sh:maxCount 1 ;
             sh:name "indicatieOpschorting"@nl ;
             sh:path <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/groepattribuutsoort/opschortingzaak/indicatieopschorting> ],
         [ sh:datatype xsd:string ;
-            sh:description "<font color=\"#610e6a\">Omschrijving van de reden voor het opschorten van de behandeling van de zaak.</font>"@nl ;
+            sh:description "Omschrijving van de reden voor het opschorten van de behandeling van de zaak."@nl ;
             sh:maxCount 1 ;
             sh:maxLength 200 ;
             sh:name "redenOpschorting"@nl ;
@@ -7858,12 +7845,12 @@ Vanaf deze datum zijn gegevens in de BAG geldig. Bij elke verandering in de BAG 
     rdfs:label "VerlengingZaak"@nl ;
     dcterms:identifier "EAID_7014565C_F8AF_459a_A2FD_30E8D7F9F0CC" ;
     sh:property [ sh:datatype xsd:integer ;
-            sh:description "<font color=\"#610e6a\">Het aantal werkbare dagen waarmee de doorlooptijd van de behandeling van de ZAAK is verlengd (of verkort) ten opzichte van de eerder gecommuniceerde doorlooptijd.</font>"@nl ;
+            sh:description "Het aantal werkbare dagen waarmee de doorlooptijd van de behandeling van de ZAAK is verlengd (of verkort) ten opzichte van de eerder gecommuniceerde doorlooptijd."@nl ;
             sh:maxCount 1 ;
             sh:name "duurVerlenging"@nl ;
             sh:path <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/groepattribuutsoort/verlengingzaak/duurverlenging> ],
         [ sh:datatype xsd:string ;
-            sh:description "<font color=\"#610e6a\">Omschrijving van de reden voor het verlengen van de behandeling van de zaak.</font>"@nl ;
+            sh:description "Omschrijving van de reden voor het verlengen van de behandeling van de zaak."@nl ;
             sh:maxCount 1 ;
             sh:maxLength 200 ;
             sh:name "redenVerlenging"@nl ;
@@ -7933,7 +7920,7 @@ Vanaf deze datum zijn gegevens in de BAG geldig. Bij elke verandering in de BAG 
     rdfs:label "Besluit"@nl ;
     dcterms:identifier "EAID_AFB100D2_8C68_4488_8949_13E945D15920" ;
     sh:property [ sh:datatype xsd:date ;
-            sh:description "<font color=\"#610e6a\">Ingangsdatum van de werkingsperiode van het besluit.</font>"@nl ;
+            sh:description "Ingangsdatum van de werkingsperiode van het besluit."@nl ;
             sh:maxCount 1 ;
             sh:name "datumStart"@nl ;
             sh:path <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/besluit/datumstart> ],
@@ -7943,51 +7930,51 @@ Vanaf deze datum zijn gegevens in de BAG geldig. Bij elke verandering in de BAG 
             sh:nodeKind sh:IRI ;
             sh:path <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/besluit/is-vastgelegd-in> ],
         [ sh:datatype xsd:date ;
-            sh:description "<font color=\"#610e6a\">Datum waarop de werkingsperiode van het besluit eindigt.</font>"@nl ;
+            sh:description "Datum waarop de werkingsperiode van het besluit eindigt."@nl ;
             sh:maxCount 1 ;
             sh:name "datumVerval"@nl ;
             sh:path <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/besluit/datumverval> ],
         [ sh:datatype xsd:date ;
-            sh:description "<font color=\"#610e6a\">Datum waarop het besluit gepubliceerd wordt.</font>"@nl ;
+            sh:description "Datum waarop het besluit gepubliceerd wordt."@nl ;
             sh:maxCount 1 ;
             sh:name "datumPublicatie"@nl ;
             sh:path <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/besluit/datumpublicatie> ],
         [ sh:class <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaak> ;
-            sh:description "<font color=\"#610e6a\">Aanduiding van de ZAAK waarbinnen het BESLUIT genomen is.</font>"@nl ;
+            sh:description "Aanduiding van de ZAAK waarbinnen het BESLUIT genomen is."@nl ;
             sh:maxCount 1 ;
             sh:name "is uitkomst van"@nl ;
             sh:nodeKind sh:IRI ;
             sh:path <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/besluit/is-uitkomst-van> ],
         [ sh:class <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/document> ;
-            sh:description "<font color=\"#610e6a\">Aanduiding van het (de) DOCUMENT(en) waarin het BESLUIT beschreven is.</font>"@nl ;
+            sh:description "Aanduiding van het (de) DOCUMENT(en) waarin het BESLUIT beschreven is."@nl ;
             sh:name "kan vastgelegd zijn als"@nl ;
             sh:nodeKind sh:IRI ;
             sh:path <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/besluit/kan-vastgelegd-zijn-als> ],
         [ sh:datatype xsd:string ;
-            sh:description "<font color=\"#610e6a\">Toelichting bij het besluit.</font>"@nl ;
+            sh:description "Toelichting bij het besluit."@nl ;
             sh:maxCount 1 ;
             sh:maxLength 1000 ;
             sh:name "besluittoelichting"@nl ;
             sh:path <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/besluit/besluittoelichting> ],
         [ sh:class <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/besluittype> ;
-            sh:description "<font color=\"#610e6a\">Aanduiding van de aard van het BESLUIT.</font>"@nl ;
+            sh:description "Aanduiding van de aard van het BESLUIT."@nl ;
             sh:maxCount 1 ;
             sh:name "is van"@nl ;
             sh:nodeKind sh:IRI ;
             sh:path <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/besluit/is-van> ],
         [ sh:datatype xsd:date ;
-            sh:description "<font color=\"#610e6a\">Datum waarop het besluit verzonden is.</font>"@nl ;
+            sh:description "Datum waarop het besluit verzonden is."@nl ;
             sh:maxCount 1 ;
             sh:name "datumVerzending"@nl ;
             sh:path <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/besluit/datumverzending> ],
         [ sh:datatype xsd:string ;
-            sh:description "<font color=\"#610e6a\">De omschrijving die aangeeft op grond waarvan het besluit is of komt te vervallen.</font>"@nl ;
+            sh:description "De omschrijving die aangeeft op grond waarvan het besluit is of komt te vervallen."@nl ;
             sh:maxCount 1 ;
             sh:maxLength 40 ;
             sh:name "redenVerval"@nl ;
             sh:path <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/besluit/redenverval> ],
         [ sh:datatype xsd:string ;
-            sh:description "<font color=\"#610e6a\">Identificatie van het besluit.</font>"@nl ;
+            sh:description "Identificatie van het besluit."@nl ;
             sh:maxCount 1 ;
             sh:maxLength 50 ;
             sh:name "besluitidentificatie"@nl ;
@@ -7998,12 +7985,12 @@ Vanaf deze datum zijn gegevens in de BAG geldig. Bij elke verandering in de BAG 
             sh:name "omschrijving"@nl ;
             sh:path <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/besluit/omschrijving> ],
         [ sh:datatype xsd:date ;
-            sh:description "<font color=\"#610e6a\">De beslisdatum (AWB) van het besluit.</font>"@nl ;
+            sh:description "De beslisdatum (AWB) van het besluit."@nl ;
             sh:maxCount 1 ;
             sh:name "datumBesluit"@nl ;
             sh:path <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/besluit/datumbesluit> ],
         [ sh:datatype xsd:date ;
-            sh:description "<font color=\"#610e6a\">De datum tot wanneer verweer tegen het besluit mogelijk is.</font>"@nl ;
+            sh:description "De datum tot wanneer verweer tegen het besluit mogelijk is."@nl ;
             sh:maxCount 1 ;
             sh:name "datumUiterlijkeReactie"@nl ;
             sh:path <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/besluit/datumuiterlijkereactie> ] ;
@@ -8013,52 +8000,52 @@ Vanaf deze datum zijn gegevens in de BAG geldig. Bij elke verandering in de BAG 
     rdfs:label "Besluittype"@nl ;
     dcterms:identifier "EAID_922D3938_A0EA_42bf_9EFC_23A6A236AF9B" ;
     sh:property [ sh:datatype xsd:string ;
-            sh:description "<font color=\"#610e6a\">De generieke tekst van de publicatie van BESLUITen van dit BESLUITTYPE</font>"@nl ;
+            sh:description "De generieke tekst van de publicatie van BESLUITen van dit BESLUITTYPE"@nl ;
             sh:maxCount 1 ;
             sh:maxLength 1000 ;
             sh:name "publicatietekst"@nl ;
             sh:path <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/besluittype/publicatietekst> ],
         [ sh:datatype xsd:integer ;
-            sh:description "<font color=\"#610e6a\">Het aantal dagen, gerekend vanaf de verzend- of publicatiedatum, dat BESLUITen van dit BESLUITTYPE gepubliceerd moeten blijven.</font>"@nl ;
+            sh:description "Het aantal dagen, gerekend vanaf de verzend- of publicatiedatum, dat BESLUITen van dit BESLUITTYPE gepubliceerd moeten blijven."@nl ;
             sh:maxCount 1 ;
             sh:name "publicatietermijn"@nl ;
             sh:path <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/besluittype/publicatietermijn> ],
         [ sh:datatype xsd:string ;
-            sh:description "<font color=\"#610e6a\">Algemeen gehanteerde omschrijving van de aard van BESLUITen van het BESLUITTYPE</font>"@nl ;
+            sh:description "Algemeen gehanteerde omschrijving van de aard van BESLUITen van het BESLUITTYPE"@nl ;
             sh:maxCount 1 ;
             sh:maxLength 80 ;
             sh:name "besluittypeOmschrijvingGeneriek"@nl ;
             sh:path <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/besluittype/besluittypeomschrijvinggeneriek> ],
         [ sh:datatype xsd:string ;
-            sh:description "<font color=\"#610e6a\">Omschrijving van de aard van BESLUITen van het BESLUITTYPE.</font>"@nl ;
+            sh:description "Omschrijving van de aard van BESLUITen van het BESLUITTYPE."@nl ;
             sh:maxCount 1 ;
             sh:maxLength 80 ;
             sh:name "besluittypeOmschrijving"@nl ;
             sh:path <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/besluittype/besluittypeomschrijving> ],
         [ sh:datatype xsd:integer ;
-            sh:description "<font color=\"#610e6a\">Het aantal dagen, gerekend vanaf de verzend- of publicatiedatum, waarbinnen verweer tegen een besluit van het besluittype mogelijk is.</font>"@nl ;
+            sh:description "Het aantal dagen, gerekend vanaf de verzend- of publicatiedatum, waarbinnen verweer tegen een besluit van het besluittype mogelijk is."@nl ;
             sh:maxCount 1 ;
             sh:name "reactietermijn"@nl ;
             sh:path <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/besluittype/reactietermijn> ],
         [ sh:datatype xsd:string ;
-            sh:description "<font color=\"#610e6a\">Aanduiding of BESLUITen van dit BESLUITTYPE gepubliceerd moeten worden.</font>"@nl ;
+            sh:description "Aanduiding of BESLUITen van dit BESLUITTYPE gepubliceerd moeten worden."@nl ;
             sh:maxCount 1 ;
             sh:maxLength 1 ;
             sh:name "indicatiePublicatie"@nl ;
             sh:path <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/besluittype/indicatiepublicatie> ],
         [ sh:datatype xsd:string ;
-            sh:description "<font color=\"#610e6a\">De datum waarop het BESLUITTYPE is opgeheven.</font>"@nl ;
+            sh:description "De datum waarop het BESLUITTYPE is opgeheven."@nl ;
             sh:maxCount 1 ;
             sh:name "datumEindeGeldigheidBesluittype"@nl ;
             sh:path <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/besluittype/datumeindegeldigheidbesluittype> ],
         [ sh:datatype xsd:string ;
-            sh:description "<font color=\"#610e6a\">Typering van de aard van BESLUITen van het BESLUITTYPE.</font>"@nl ;
+            sh:description "Typering van de aard van BESLUITen van het BESLUITTYPE."@nl ;
             sh:maxCount 1 ;
             sh:maxLength 40 ;
             sh:name "besluitcategorie"@nl ;
             sh:path <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/besluittype/besluitcategorie> ],
         [ sh:datatype xsd:string ;
-            sh:description "<font color=\"#610e6a\">De datum waarop het BESLUITTYPE is ontstaan.</font>"@nl ;
+            sh:description "De datum waarop het BESLUITTYPE is ontstaan."@nl ;
             sh:maxCount 1 ;
             sh:name "datumBeginGeldigheidBesluittype"@nl ;
             sh:path <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/besluittype/datumbegingeldigheidbesluittype> ] ;
@@ -8096,13 +8083,13 @@ Vanaf deze datum zijn gegevens in de BAG geldig. Bij elke verandering in de BAG 
     rdfs:label "Betrokkene"@nl ;
     dcterms:identifier "EAID_16FB8171_A9ED_4027_A663_C035509501C8" ;
     sh:property [ sh:datatype xsd:string ;
-            sh:description "<font color=\"#610e6a\">De unieke identificatie van de BETROKKENE</font>"@nl ;
+            sh:description "De unieke identificatie van de BETROKKENE"@nl ;
             sh:maxCount 1 ;
             sh:maxLength 50 ;
             sh:name "identificatie"@nl ;
             sh:path <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/betrokkene/identificatie> ],
         [ sh:datatype xsd:string ;
-            sh:description "<font color=\"#610e6a\">De benaming van de BETROKKENE  indien dit een (NIET) NATUURLIJK PERSOON, VESTIGING of specialisatie daarvan is.</font>"@nl ;
+            sh:description "De benaming van de BETROKKENE indien dit een (NIET) NATUURLIJK PERSOON, VESTIGING of specialisatie daarvan is."@nl ;
             sh:maxCount 1 ;
             sh:maxLength 200 ;
             sh:name "naam"@nl ;
@@ -8114,12 +8101,12 @@ Vanaf deze datum zijn gegevens in de BAG geldig. Bij elke verandering in de BAG 
             sh:nodeKind sh:IRI ;
             sh:path <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/betrokkene/is-nietnatuurlijkpersoon> ],
         [ sh:class <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaak> ;
-            sh:description "<font color=\"#610e6a\">De ROLlen die BETROKKENE heeft in de zaken waarin BETROKKENE een ROL speelt.</font>"@nl ;
+            sh:description "De ROLlen die BETROKKENE heeft in de zaken waarin BETROKKENE een ROL speelt."@nl ;
             sh:name "oefent uit"@nl ;
             sh:nodeKind sh:IRI ;
             sh:path <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/betrokkene/oefent-uit> ],
         [ sh:datatype xsd:string ;
-            sh:description "<font color=\"#610e6a\">De aanduiding van het adres waar specialisaties van de BETROKKENE  zijnde een (NIET) NATUURLIJK PERSOON of VESTIGING dan wel een specialisatie daarvan, verblijft dan wel bereikbaar is in het buitenland.</font>"@nl ;
+            sh:description "De aanduiding van het adres waar specialisaties van de BETROKKENE zijnde een (NIET) NATUURLIJK PERSOON of VESTIGING dan wel een specialisatie daarvan, verblijft dan wel bereikbaar is in het buitenland."@nl ;
             sh:maxCount 1 ;
             sh:maxLength 200 ;
             sh:name "adresBuitenland"@nl ;
@@ -8137,7 +8124,7 @@ Vanaf deze datum zijn gegevens in de BAG geldig. Bij elke verandering in de BAG 
             sh:nodeKind sh:IRI ;
             sh:path <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/betrokkene/is-natuurlijkpersoon> ],
         [ sh:class <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/binnenlandsadres> ;
-            sh:description "<font color=\"#610e6a\">De aanduiding van het adres van de BETROKKENE indien dit adres in Nederland gelegen is.</font>"@nl ;
+            sh:description "De aanduiding van het adres van de BETROKKENE indien dit adres in Nederland gelegen is."@nl ;
             sh:maxCount 1 ;
             sh:name "adresBinnenland"@nl ;
             sh:nodeKind sh:IRI ;
@@ -8196,42 +8183,42 @@ Vanaf deze datum zijn gegevens in de BAG geldig. Bij elke verandering in de BAG 
     rdfs:label "Document"@nl ;
     dcterms:identifier "EAID_5641C50A_C0FA_4e71_B07B_26C7B1CE94ED" ;
     sh:property [ sh:datatype xsd:string ;
-            sh:description """<font color="#610e6a">Een binnen een gegeven context ondubbelzinnige referentie naar het document.</font>
-<font color="#610e6a">Bijvoorbeeld potsregistratienummer</font>"""@nl ;
+            sh:description """Een binnen een gegeven context ondubbelzinnige referentie naar het document.
+Bijvoorbeeld potsregistratienummer"""@nl ;
             sh:maxCount 1 ;
             sh:maxLength 40 ;
             sh:name "documentIdentificatie"@nl ;
             sh:path <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/document/documentidentificatie> ],
         [ sh:datatype xsd:string ;
-            sh:description "<font color=\"#610e6a\">De naam waaronder het document formeel bekend is.</font>"@nl ;
+            sh:description "De naam waaronder het document formeel bekend is."@nl ;
             sh:maxCount 1 ;
             sh:maxLength 200 ;
             sh:name "documentTitel"@nl ;
             sh:path <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/document/documenttitel> ],
         [ sh:datatype xsd:string ;
-            sh:description "<font color=\"#610e6a\">Aanduiding van de mate waarin het DOCUMENT voor de openbaarheid bestemd is.</font>"@nl ;
+            sh:description "Aanduiding van de mate waarin het DOCUMENT voor de openbaarheid bestemd is."@nl ;
             sh:maxCount 1 ;
             sh:maxLength 20 ;
             sh:name "vertrouwelijkAanduiding"@nl ;
             sh:path <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/document/vertrouwelijkaanduiding> ],
         [ sh:datatype xsd:date ;
-            sh:description "<font color=\"#610e6a\">De datum waarop het DOCUMENT verzonden is.</font>"@nl ;
+            sh:description "De datum waarop het DOCUMENT verzonden is."@nl ;
             sh:maxCount 1 ;
             sh:name "datumVerzendingDocument"@nl ;
             sh:path <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/document/datumverzendingdocument> ],
         [ sh:class <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/documenttype> ;
-            sh:description "<font color=\"#610e6a\">Aanduiding van de aard van het DOCUMENT.</font>"@nl ;
+            sh:description "Aanduiding van de aard van het DOCUMENT."@nl ;
             sh:maxCount 1 ;
             sh:name "is van"@nl ;
             sh:nodeKind sh:IRI ;
             sh:path <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/document/is-van> ],
         [ sh:datatype xsd:date ;
-            sh:description "<font color=\"#610e6a\">Een datum of een gebeurtenis in de levenscyclus van het document.</font>"@nl ;
+            sh:description "Een datum of een gebeurtenis in de levenscyclus van het document."@nl ;
             sh:maxCount 1 ;
             sh:name "datumCreatieDocument"@nl ;
             sh:path <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/document/datumcreatiedocument> ],
         [ sh:datatype xsd:date ;
-            sh:description "<font color=\"#610e6a\">De datum waarop het DOCUMENT ontvangen is.</font>"@nl ;
+            sh:description "De datum waarop het DOCUMENT ontvangen is."@nl ;
             sh:maxCount 1 ;
             sh:name "datumOntvangstdocument"@nl ;
             sh:path <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/document/datumontvangstdocument> ],
@@ -8241,13 +8228,13 @@ Vanaf deze datum zijn gegevens in de BAG geldig. Bij elke verandering in de BAG 
             sh:nodeKind sh:IRI ;
             sh:path <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/document/heeft-kenmerk> ],
         [ sh:datatype xsd:string ;
-            sh:description "<font color=\"#610e6a\">De persoon of organisatie die in de eerste plaats verantwoordelijk is voor het creëren van de inhoud van het document.</font>"@nl ;
+            sh:description "De persoon of organisatie die in de eerste plaats verantwoordelijk is voor het creëren van de inhoud van het document."@nl ;
             sh:maxCount 1 ;
             sh:maxLength 200 ;
             sh:name "documentAuteur"@nl ;
             sh:path <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/document/documentauteur> ],
         [ sh:datatype xsd:string ;
-            sh:description "<font color=\"#610e6a\">Een generieke beschrijving van de inhoud van het document.</font>"@nl ;
+            sh:description "Een generieke beschrijving van de inhoud van het document."@nl ;
             sh:maxCount 1 ;
             sh:maxLength 1000 ;
             sh:name "cocumentBeschrijving"@nl ;
@@ -8258,35 +8245,35 @@ Vanaf deze datum zijn gegevens in de BAG geldig. Bij elke verandering in de BAG 
     rdfs:label "Documenttype"@nl ;
     dcterms:identifier "EAID_77C7D6B6_44DE_44c0_A662_8E1A0A226EA8" ;
     sh:property [ sh:datatype xsd:string ;
-            sh:description "<font color=\"#610e6a\">De datum waarop het DOCUMENTTYPE is ontstaan.</font>"@nl ;
+            sh:description "De datum waarop het DOCUMENTTYPE is ontstaan."@nl ;
             sh:maxCount 1 ;
             sh:name "datumBeginGeldigheidDocumenttype"@nl ;
             sh:path <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/documenttype/datumbegingeldigheiddocumenttype> ],
         [ sh:datatype xsd:string ;
-            sh:description "<font color=\"#610e6a\">Algemeen gehanteerde omschrijving van het DOCUMENTTYPE</font>"@nl ;
+            sh:description "Algemeen gehanteerde omschrijving van het DOCUMENTTYPE"@nl ;
             sh:maxCount 1 ;
             sh:maxLength 80 ;
             sh:name "documenttypeOmschrijvingGeneriek"@nl ;
             sh:path <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/documenttype/documenttypeomschrijvinggeneriek> ],
         [ sh:datatype xsd:string ;
-            sh:description "<font color=\"#610e6a\">Typering van de aard van DOCUMENTen van dit DOCUMENTTYPE.</font>"@nl ;
+            sh:description "Typering van de aard van DOCUMENTen van dit DOCUMENTTYPE."@nl ;
             sh:maxCount 1 ;
             sh:maxLength 80 ;
             sh:name "documentCategorie"@nl ;
             sh:path <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/documenttype/documentcategorie> ],
         [ sh:datatype xsd:string ;
-            sh:description "<font color=\"#610e6a\">De datum waarop het DOCUMENTTYPE is opgeheven.</font>"@nl ;
+            sh:description "De datum waarop het DOCUMENTTYPE is opgeheven."@nl ;
             sh:maxCount 1 ;
             sh:name "datumEindeGeldigheidDocumenttype"@nl ;
             sh:path <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/documenttype/datumeindegeldigheiddocumenttype> ],
         [ sh:datatype xsd:string ;
-            sh:description "<font color=\"#610e6a\">Omschrijving van de aard van DOCUMENTen van dit DOCUMENTTYPE.</font>"@nl ;
+            sh:description "Omschrijving van de aard van DOCUMENTen van dit DOCUMENTTYPE."@nl ;
             sh:maxCount 1 ;
             sh:maxLength 80 ;
             sh:name "documenttypeOmschrijving"@nl ;
             sh:path <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/documenttype/documenttypeomschrijving> ],
         [ sh:datatype xsd:string ;
-            sh:description "<font color=\"#610e6a\">Trefwoord(en) waarmee DOCUMENTen van het DOCUMENTTYPE kunnen worden gekarakteriseerd.</font>"@nl ;
+            sh:description "Trefwoord(en) waarmee DOCUMENTen van het DOCUMENTTYPE kunnen worden gekarakteriseerd."@nl ;
             sh:maxLength 30 ;
             sh:name "documenttypeTrefwoord"@nl ;
             sh:path <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/documenttype/documenttypetrefwoord> ] ;
@@ -8296,43 +8283,43 @@ Vanaf deze datum zijn gegevens in de BAG geldig. Bij elke verandering in de BAG 
     rdfs:label "EnkelvoudigDocument"@nl ;
     dcterms:identifier "EAID_547FD48D_F885_4816_BCFA_4048995C8D83" ;
     sh:property [ sh:datatype xsd:string ;
-            sh:description "<font color=\"#610e6a\">De naam van het fysieke bestand waarin de documentinhoud is vastgelegd.</font>"@nl ;
+            sh:description "De naam van het fysieke bestand waarin de documentinhoud is vastgelegd."@nl ;
             sh:maxCount 1 ;
             sh:maxLength 255 ;
             sh:name "bestandsnaam"@nl ;
             sh:path <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/enkelvoudigdocument/bestandsnaam> ],
         [ sh:datatype xsd:string ;
-            sh:description "<font color=\"#610e6a\">Een taal van de intellectuele inhoud van het ENKELVOUDIG DOCUMENT</font>"@nl ;
+            sh:description "Een taal van de intellectuele inhoud van het ENKELVOUDIG DOCUMENT"@nl ;
             sh:maxCount 1 ;
             sh:maxLength 20 ;
             sh:name "documentTaal"@nl ;
             sh:path <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/enkelvoudigdocument/documenttaal> ],
         [ sh:datatype xsd:string ;
-            sh:description "<font color=\"#610e6a\">Aanduiding van de bewerkingsfase van het ENKELVOUDIG DOCUMENT</font>"@nl ;
+            sh:description "Aanduiding van de bewerkingsfase van het ENKELVOUDIG DOCUMENT"@nl ;
             sh:maxCount 1 ;
             sh:maxLength 5 ;
             sh:name "documentVersie"@nl ;
             sh:path <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/enkelvoudigdocument/documentversie> ],
         [ sh:datatype xsd:string ;
-            sh:description "<font color=\"#610e6a\">Datgene wat in een ENKELVOUDIG DOCUMENT wordt meegedeeld.</font>"@nl ;
+            sh:description "Datgene wat in een ENKELVOUDIG DOCUMENT wordt meegedeeld."@nl ;
             sh:maxCount 1 ;
             sh:maxLength 255 ;
             sh:name "documentInhoud"@nl ;
             sh:path <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/enkelvoudigdocument/documentinhoud> ],
         [ sh:datatype xsd:string ;
-            sh:description "<font color=\"#610e6a\">De digitale manifestatie van het ENKELVOUDIG DOCUMENT.</font>"@nl ;
+            sh:description "De digitale manifestatie van het ENKELVOUDIG DOCUMENT."@nl ;
             sh:maxCount 1 ;
             sh:maxLength 10 ;
             sh:name "documentFormaat"@nl ;
             sh:path <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/enkelvoudigdocument/documentformaat> ],
         [ sh:datatype xsd:string ;
-            sh:description "<font color=\"#610e6a\">Aanduiding van de stand van zaken van een ENKELVOUDIG DOCUMENTDOCUMENT.</font>"@nl ;
+            sh:description "Aanduiding van de stand van zaken van een ENKELVOUDIG DOCUMENTDOCUMENT."@nl ;
             sh:maxCount 1 ;
             sh:maxLength 20 ;
             sh:name "documentStatus"@nl ;
             sh:path <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/enkelvoudigdocument/documentstatus> ],
         [ sh:datatype xsd:string ;
-            sh:description "<font color=\"#610e6a\">De URL waarmee de documentinhoud op te vragen is.</font>"@nl ;
+            sh:description "De URL waarmee de documentinhoud op te vragen is."@nl ;
             sh:maxCount 1 ;
             sh:maxLength 200 ;
             sh:name "documentLink"@nl ;
@@ -8465,18 +8452,18 @@ Bij digitaal klantcontact (het indienen van een webformulier) zijn start- en ein
     rdfs:label "Medewerker"@nl ;
     dcterms:identifier "EAID_16EB3936_03CB_4854_9CD8_9F0911EEA51B" ;
     sh:property [ sh:datatype xsd:string ;
-            sh:description "<font color=\"#610e6a\">Een korte unieke aanduiding van de medewerker.</font>"@nl ;
+            sh:description "Een korte unieke aanduiding van de medewerker."@nl ;
             sh:maxCount 1 ;
             sh:maxLength 24 ;
             sh:name "medewerkerIdentificatie"@nl ;
             sh:path <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/medewerkeridentificatie> ],
         [ sh:class <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/organisatorischeeenheid> ;
-            sh:description "<font color=\"#610e6a\">De ORGANISATORISCHE EENHEID waarvan de MEDEWERKER deel uitmaakt of deel heeft uitgemaakt.</font>"@nl ;
+            sh:description "De ORGANISATORISCHE EENHEID waarvan de MEDEWERKER deel uitmaakt of deel heeft uitgemaakt."@nl ;
             sh:name "hoort bij"@nl ;
             sh:nodeKind sh:IRI ;
             sh:path <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/hoort-bij> ],
         [ sh:datatype xsd:string ;
-            sh:description "<font color=\"#610e6a\">Naam waarmee de werknemer wordt aangesproken.</font>"@nl ;
+            sh:description "Naam waarmee de werknemer wordt aangesproken."@nl ;
             sh:maxCount 1 ;
             sh:maxLength 30 ;
             sh:name "roepnaam"@nl ;
@@ -8486,18 +8473,18 @@ Bij digitaal klantcontact (het indienen van een webformulier) zijn start- en ein
             sh:nodeKind sh:IRI ;
             sh:path <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/ingevoerd-door> ],
         [ sh:datatype xsd:date ;
-            sh:description "<font color=\"#610e6a\">Een aanduiding van de datum waarop de arbeidsplaatsvervulling eindigt.</font>"@nl ;
+            sh:description "Een aanduiding van de datum waarop de arbeidsplaatsvervulling eindigt."@nl ;
             sh:maxCount 1 ;
             sh:name "datumUitDienst"@nl ;
             sh:path <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/datumuitdienst> ],
         [ sh:datatype xsd:string ;
-            sh:description "<font color=\"#610e6a\">De achternaam zoals de medewerker die in het dagelijkse verkeer gebruikt.</font>"@nl ;
+            sh:description "De achternaam zoals de medewerker die in het dagelijkse verkeer gebruikt."@nl ;
             sh:maxCount 1 ;
             sh:maxLength 200 ;
             sh:name "achternaam"@nl ;
             sh:path <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/achternaam> ],
         [ sh:class <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/organisatorischeeenheid> ;
-            sh:description "<font color=\"#610e6a\">De MEDEWERKER die anderen desgevraagd in contact brengt met (andere) medewerkers van deze ORGANISATORISCHE EENHEID.</font>"@nl ;
+            sh:description "De MEDEWERKER die anderen desgevraagd in contact brengt met (andere) medewerkers van deze ORGANISATORISCHE EENHEID."@nl ;
             sh:maxCount 1 ;
             sh:name "is contactpersoon voor"@nl ;
             sh:nodeKind sh:IRI ;
@@ -8511,7 +8498,7 @@ Bij digitaal klantcontact (het indienen van een webformulier) zijn start- en ein
             sh:nodeKind sh:IRI ;
             sh:path <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/gewijzigd-door> ],
         [ sh:datatype xsd:string ;
-            sh:description "<font color=\"#610e6a\">Telefoonnummer waaronder de medewerker in de regel bereikbaar is.</font>"@nl ;
+            sh:description "Telefoonnummer waaronder de medewerker in de regel bereikbaar is."@nl ;
             sh:maxCount 1 ;
             sh:maxLength 20 ;
             sh:name "telefoonnummer"@nl ;
@@ -8521,13 +8508,13 @@ Bij digitaal klantcontact (het indienen van een webformulier) zijn start- en ein
             sh:nodeKind sh:IRI ;
             sh:path <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/dient-in> ],
         [ sh:datatype xsd:string ;
-            sh:description "<font color=\"#610e6a\">De verzameling letters die gevormd wordt door de eerste letter van alle in volgorde voorkomende voornamen.</font>"@nl ;
+            sh:description "De verzameling letters die gevormd wordt door de eerste letter van alle in volgorde voorkomende voornamen."@nl ;
             sh:maxCount 1 ;
             sh:maxLength 20 ;
             sh:name "voorletters"@nl ;
             sh:path <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/voorletters> ],
         [ sh:class <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/organisatorischeeenheid> ;
-            sh:description "<font color=\"#610e6a\">De ORGANISATORISCHE EENHEID waarvoor de MEDEWERKER uit hoofde van zijn of haar functie zorgt (of zorgde) dat deze goed functioneert en daar rekenschap van geeft.</font>"@nl ;
+            sh:description "De ORGANISATORISCHE EENHEID waarvoor de MEDEWERKER uit hoofde van zijn of haar functie zorgt (of zorgde) dat deze goed functioneert en daar rekenschap van geeft."@nl ;
             sh:maxCount 1 ;
             sh:name "is verantwoordelijk voor"@nl ;
             sh:nodeKind sh:IRI ;
@@ -8542,7 +8529,7 @@ Bij digitaal klantcontact (het indienen van een webformulier) zijn start- en ein
             sh:name "datumInDienst"@nl ;
             sh:path <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/datumindienst> ],
         [ sh:datatype xsd:string ;
-            sh:description "<font color=\"#610e6a\">Een aanduiding die aangeeft of de persoon een man of een vrouw is, of dat het geslacht nog onbekend is.</font>"@nl ;
+            sh:description "Een aanduiding die aangeeft of de persoon een man of een vrouw is, of dat het geslacht nog onbekend is."@nl ;
             sh:maxCount 1 ;
             sh:name "geslachtsaanduiding"@nl ;
             sh:path <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/geslachtsaanduiding> ],
@@ -8556,14 +8543,14 @@ Bij digitaal klantcontact (het indienen van een webformulier) zijn start- en ein
             sh:nodeKind sh:IRI ;
             sh:path <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/vraagt-aan> ],
         [ sh:datatype xsd:string ;
-            sh:description """<font color="#610e6a">Dat deel van de geslachtsnaam dat voorkomt in Tabel 36 (GBA), voorvoegseltabel, en door een spatie van de geslachtsnaam is</font>
-<font color="#610e6a">gescheiden.</font>"""@nl ;
+            sh:description """Dat deel van de geslachtsnaam dat voorkomt in Tabel 36 (GBA), voorvoegseltabel, en door een spatie van de geslachtsnaam is
+gescheiden."""@nl ;
             sh:maxCount 1 ;
             sh:maxLength 10 ;
             sh:name "voorvoegselAchternaam"@nl ;
             sh:path <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/voorvoegselachternaam> ],
         [ sh:datatype xsd:string ;
-            sh:description "<font color=\"#610e6a\">Elektronisch postadres waaronder de medewerker in de regel bereikbaar is.</font>"@nl ;
+            sh:description "Elektronisch postadres waaronder de medewerker in de regel bereikbaar is."@nl ;
             sh:maxCount 1 ;
             sh:maxLength 254 ;
             sh:name "emailadres"@nl ;
@@ -8574,7 +8561,7 @@ Bij digitaal klantcontact (het indienen van een webformulier) zijn start- en ein
             sh:nodeKind sh:IRI ;
             sh:path <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/geleverd-via> ],
         [ sh:class <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaaktype> ;
-            sh:description "<font color=\"#610e6a\">De MEDEWERKER die verantwoordelijk is voor ZAAKen van het ZAAKTYPE.</font>"@nl ;
+            sh:description "De MEDEWERKER die verantwoordelijk is voor ZAAKen van het ZAAKTYPE."@nl ;
             sh:name "is verantwoordelijke voor"@nl ;
             sh:nodeKind sh:IRI ;
             sh:path <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/is-verantwoordelijke-voor> ],
@@ -8587,13 +8574,13 @@ Bij digitaal klantcontact (het indienen van een webformulier) zijn start- en ein
             sh:nodeKind sh:IRI ;
             sh:path <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/verleent> ],
         [ sh:datatype xsd:string ;
-            sh:description "<font color=\"#610e6a\">De aanduiding van de taken, rechten en plichten die de medewerker heeft of heeft gehad binnen de zaakbehandelende organisatie.</font>"@nl ;
+            sh:description "De aanduiding van de taken, rechten en plichten die de medewerker heeft of heeft gehad binnen de zaakbehandelende organisatie."@nl ;
             sh:maxCount 1 ;
             sh:maxLength 50 ;
             sh:name "functie"@nl ;
             sh:path <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/functie> ],
         [ sh:datatype xsd:string ;
-            sh:description "<font color=\"#610e6a\">Toelichting bij en/of over de medewerker.</font>"@nl ;
+            sh:description "Toelichting bij en/of over de medewerker."@nl ;
             sh:maxCount 1 ;
             sh:maxLength 1000 ;
             sh:name "medewerkerToelichting"@nl ;
@@ -8612,7 +8599,7 @@ Bij digitaal klantcontact (het indienen van een webformulier) zijn start- en ein
             sh:nodeKind sh:IRI ;
             sh:path <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/object/is-buurt-2> ],
         [ sh:class <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/binnenlandsadres> ;
-            sh:description "<font color=\"#610e6a\">De aanduiding van het adres van het OBJECT indien dit adres in Nederland gelegen is.</font>"@nl ;
+            sh:description "De aanduiding van het adres van het OBJECT indien dit adres in Nederland gelegen is."@nl ;
             sh:maxCount 1 ;
             sh:name "adresBinnenland"@nl ;
             sh:nodeKind sh:IRI ;
@@ -8634,7 +8621,7 @@ Bij digitaal klantcontact (het indienen van een webformulier) zijn start- en ein
             sh:nodeKind sh:IRI ;
             sh:path <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/object/is-openbareruimte> ],
         [ sh:datatype xsd:string ;
-            sh:description "<font color=\"#610e6a\">De aanduiding van het adres waar specialisaties van het OBJECT zijnde een SUBJECT dan wel een specialisatie daarvan, verblijft dan wel bereikbaar is in het buitenland.</font>"@nl ;
+            sh:description "De aanduiding van het adres waar specialisaties van het OBJECT zijnde een SUBJECT dan wel een specialisatie daarvan, verblijft dan wel bereikbaar is in het buitenland."@nl ;
             sh:maxCount 1 ;
             sh:maxLength 200 ;
             sh:name "adresBuitenland"@nl ;
@@ -8653,13 +8640,13 @@ Bij digitaal klantcontact (het indienen van een webformulier) zijn start- en ein
             sh:nodeKind sh:IRI ;
             sh:path <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/object/is-natuurlijkpersoon> ],
         [ sh:class <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaak> ;
-            sh:description "<font color=\"#610e6a\">De ZAAKen die betrekking hebben op het OBJECT</font>"@nl ;
+            sh:description "De ZAAKen die betrekking hebben op het OBJECT"@nl ;
             sh:maxCount 1 ;
             sh:name "betreft"@nl ;
             sh:nodeKind sh:IRI ;
             sh:path <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/object/betreft> ],
         [ sh:datatype geo:wktLiteral ;
-            sh:description "<font color=\"#610e6a\">De minimaal tweedimensionale geometrische representatie van het OBJECT.</font>"@nl ;
+            sh:description "De minimaal tweedimensionale geometrische representatie van het OBJECT."@nl ;
             sh:maxCount 1 ;
             sh:name "geometrie"@nl ;
             sh:path <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/object/geometrie> ],
@@ -8668,7 +8655,7 @@ Bij digitaal klantcontact (het indienen van een webformulier) zijn start- en ein
             sh:nodeKind sh:IRI ;
             sh:path <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/object/is-pand-2> ],
         [ sh:datatype xsd:string ;
-            sh:description "<font color=\"#610e6a\">De kadastrale aanduiding van het OBJECT</font>"@nl ;
+            sh:description "De kadastrale aanduiding van het OBJECT"@nl ;
             sh:maxCount 1 ;
             sh:maxLength 30 ;
             sh:name "kadastraleAanduiding"@nl ;
@@ -8713,7 +8700,7 @@ Bij digitaal klantcontact (het indienen van een webformulier) zijn start- en ein
             sh:nodeKind sh:IRI ;
             sh:path <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/object/is-standplaats-2> ],
         [ sh:datatype xsd:string ;
-            sh:description "<font color=\"#610e6a\">De unieke identificatie van het OBJECT</font>"@nl ;
+            sh:description "De unieke identificatie van het OBJECT"@nl ;
             sh:maxCount 1 ;
             sh:maxLength 50 ;
             sh:name "identificatie"@nl ;
@@ -8724,10 +8711,10 @@ Bij digitaal klantcontact (het indienen van een webformulier) zijn start- en ein
             sh:name "indicatieRisico"@nl ;
             sh:path <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/object/indicatierisico> ],
         [ sh:datatype xsd:string ;
-            sh:description """<font color="#610e6a">Het onderscheid van een OBJECT naar haar specialisatiies.</font>
-<font color="#610e6a">De code voor de Objecttypering gevolgd door de unieke aanduiding van de specialisatie (van OBJECT):</font>
-<font color="#610e6a">ADRESSEERBAAR OBJECT AANDUIDING, BENOEMD OBJECT, BESLUIT, BUURT, ENKELVOUDIG INFORMATIEOBJECT, GEMEENTE, GEMEENTELIJKE OPENBARE RUIMTE, HUISHOUDEN, INRICHTINGSELEMENT, KADASTRALE ONROERENDE ZAAK, KUNSTWERKDEEL, MAATSSCHAPPELIJKE ACTIVITEIT, MEDEWERKER, OPENBARE RUIMTE, SAMENGESTELD INFORMATIEOBJECT, ORGANISATORISCHE EENHEID, PAND, SPOORBAANDEEL, STATUS, SUBJECT, TERREINDEEL, WATERDEEL, WEGDEEL, WIJK, WOONPLAATS, WOZ- DEELOBJECT, WOZ-OBJECT, WOZ-WAARDE of</font>
-<font color="#610e6a">ZAKELIJK RECHT (of afleidbare identificatie).</font>"""@nl ;
+            sh:description """Het onderscheid van een OBJECT naar haar specialisatiies.
+De code voor de Objecttypering gevolgd door de unieke aanduiding van de specialisatie (van OBJECT):
+ADRESSEERBAAR OBJECT AANDUIDING, BENOEMD OBJECT, BESLUIT, BUURT, ENKELVOUDIG INFORMATIEOBJECT, GEMEENTE, GEMEENTELIJKE OPENBARE RUIMTE, HUISHOUDEN, INRICHTINGSELEMENT, KADASTRALE ONROERENDE ZAAK, KUNSTWERKDEEL, MAATSSCHAPPELIJKE ACTIVITEIT, MEDEWERKER, OPENBARE RUIMTE, SAMENGESTELD INFORMATIEOBJECT, ORGANISATORISCHE EENHEID, PAND, SPOORBAANDEEL, STATUS, SUBJECT, TERREINDEEL, WATERDEEL, WEGDEEL, WIJK, WOONPLAATS, WOZ- DEELOBJECT, WOZ-OBJECT, WOZ-WAARDE of
+ZAKELIJK RECHT (of afleidbare identificatie)."""@nl ;
             sh:maxCount 1 ;
             sh:maxLength 3 ;
             sh:name "objecttype"@nl ;
@@ -8749,7 +8736,7 @@ Bij digitaal klantcontact (het indienen van een webformulier) zijn start- en ein
             sh:nodeKind sh:IRI ;
             sh:path <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/object/is-ingezetene> ],
         [ sh:datatype xsd:string ;
-            sh:description "<font color=\"#610e6a\">De benaming van het OBJECT indien dit een SUBJECT of specialisatie daarvan is.</font>"@nl ;
+            sh:description "De benaming van het OBJECT indien dit een SUBJECT of specialisatie daarvan is."@nl ;
             sh:maxCount 1 ;
             sh:maxLength 200 ;
             sh:name "naam"@nl ;
@@ -8778,19 +8765,19 @@ Bij digitaal klantcontact (het indienen van een webformulier) zijn start- en ein
     rdfs:label "OrganisatorischeEenheid"@nl ;
     dcterms:identifier "EAID_936A4E8B_3E5A_44b6_8A5D_EFB39F83FB6D" ;
     sh:property [ sh:datatype xsd:string ;
-            sh:description "<font color=\"#610e6a\">Een korte identificatie van de organisatorische eenheid.</font>"@nl ;
+            sh:description "Een korte identificatie van de organisatorische eenheid."@nl ;
             sh:maxCount 1 ;
             sh:maxLength 24 ;
             sh:name "organisatieIdentificatie"@nl ;
             sh:path <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/organisatorischeeenheid/organisatieidentificatie> ],
         [ sh:datatype xsd:string ;
-            sh:description "<font color=\"#610e6a\">Een verkorte naam voor de organisatorische eenheid.</font>"@nl ;
+            sh:description "Een verkorte naam voor de organisatorische eenheid."@nl ;
             sh:maxCount 1 ;
             sh:maxLength 25 ;
             sh:name "naamVerkort"@nl ;
             sh:path <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/organisatorischeeenheid/naamverkort> ],
         [ sh:datatype xsd:date ;
-            sh:description "<font color=\"#610e6a\">De datum waarop de organisatorische eenheid is ontstaan.</font>"@nl ;
+            sh:description "De datum waarop de organisatorische eenheid is ontstaan."@nl ;
             sh:maxCount 1 ;
             sh:name "datumOntstaan"@nl ;
             sh:path <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/organisatorischeeenheid/datumontstaan> ],
@@ -8804,30 +8791,30 @@ Bij digitaal klantcontact (het indienen van een webformulier) zijn start- en ein
             sh:name "Formatie"@nl ;
             sh:path <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/organisatorischeeenheid/formatie> ],
         [ sh:datatype xsd:string ;
-            sh:description "<font color=\"#610e6a\">Elektronisch postadres waaronder de organisatorische eenheid in de regel bereikbaar is.</font>"@nl ;
+            sh:description "Elektronisch postadres waaronder de organisatorische eenheid in de regel bereikbaar is."@nl ;
             sh:maxCount 1 ;
             sh:maxLength 254 ;
             sh:name "emailadres"@nl ;
             sh:path <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/organisatorischeeenheid/emailadres> ],
         [ sh:class <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaaktype> ;
-            sh:description "<font color=\"#610e6a\">De ORGANISATORISCHE EENHEID die verantwoordelijk is voor ZAAKen van het ZAAKTYPE.</font>"@nl ;
+            sh:description "De ORGANISATORISCHE EENHEID die verantwoordelijk is voor ZAAKen van het ZAAKTYPE."@nl ;
             sh:name "is verantwoordelijke voor"@nl ;
             sh:nodeKind sh:IRI ;
             sh:path <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/organisatorischeeenheid/is-verantwoordelijke-voor> ],
         [ sh:datatype xsd:string ;
-            sh:description "<font color=\"#610e6a\">De feitelijke naam van de organisatorische eenheid.</font>"@nl ;
+            sh:description "De feitelijke naam van de organisatorische eenheid."@nl ;
             sh:maxCount 1 ;
             sh:maxLength 50 ;
             sh:name "naam"@nl ;
             sh:path <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/organisatorischeeenheid/naam> ],
         [ sh:datatype xsd:string ;
-            sh:description "<font color=\"#610e6a\">Toelichting bij de organisatorische eenheid.</font>"@nl ;
+            sh:description "Toelichting bij de organisatorische eenheid."@nl ;
             sh:maxCount 1 ;
             sh:maxLength 1000 ;
             sh:name "toelichting"@nl ;
             sh:path <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/organisatorischeeenheid/toelichting> ],
         [ sh:datatype xsd:string ;
-            sh:description "<font color=\"#610e6a\">Een omschrijving van de organisatorische eenheid.</font>"@nl ;
+            sh:description "Een omschrijving van de organisatorische eenheid."@nl ;
             sh:maxCount 1 ;
             sh:maxLength 80 ;
             sh:name "omschrijving"@nl ;
@@ -8838,12 +8825,12 @@ Bij digitaal klantcontact (het indienen van een webformulier) zijn start- en ein
             sh:nodeKind sh:IRI ;
             sh:path <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/organisatorischeeenheid/is-deel-van> ],
         [ sh:datatype xsd:date ;
-            sh:description "<font color=\"#610e6a\">De datum waarop de organisatorische eenheid is opgeheven.</font>"@nl ;
+            sh:description "De datum waarop de organisatorische eenheid is opgeheven."@nl ;
             sh:maxCount 1 ;
             sh:name "datumOpheffing"@nl ;
             sh:path <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/organisatorischeeenheid/datumopheffing> ],
         [ sh:datatype xsd:string ;
-            sh:description "<font color=\"#610e6a\">Telefoonnummer waaronder de organisatorische eenheid in de regel bereikbaar is.</font>"@nl ;
+            sh:description "Telefoonnummer waaronder de organisatorische eenheid in de regel bereikbaar is."@nl ;
             sh:maxCount 1 ;
             sh:maxLength 20 ;
             sh:name "telefoonnummer"@nl ;
@@ -8854,13 +8841,13 @@ Bij digitaal klantcontact (het indienen van een webformulier) zijn start- en ein
             sh:nodeKind sh:IRI ;
             sh:path <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/organisatorischeeenheid/heeft-kostenplaats> ],
         [ sh:datatype xsd:string ;
-            sh:description "<font color=\"#610e6a\">Faxnummer waaronder de organisatorische eenheid in de regel bereikbaar is.</font>"@nl ;
+            sh:description "Faxnummer waaronder de organisatorische eenheid in de regel bereikbaar is."@nl ;
             sh:maxCount 1 ;
             sh:maxLength 20 ;
             sh:name "faxnummer"@nl ;
             sh:path <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/organisatorischeeenheid/faxnummer> ],
         [ sh:class <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/vestigingvanzaakbehandelendeorganisatie> ;
-            sh:description "<font color=\"#610e6a\">De VESTIGING VAN ZAAKBEHANDELENDE ORGANISATIE waar de ORGANISATORISCHE EENHEID haar activiteiten uitvoert.</font>"@nl ;
+            sh:description "De VESTIGING VAN ZAAKBEHANDELENDE ORGANISATIE waar de ORGANISATORISCHE EENHEID haar activiteiten uitvoert."@nl ;
             sh:maxCount 1 ;
             sh:name "is gehuisvest in"@nl ;
             sh:nodeKind sh:IRI ;
@@ -8871,7 +8858,7 @@ Bij digitaal klantcontact (het indienen van een webformulier) zijn start- en ein
     rdfs:label "SamengesteldDocument"@nl ;
     dcterms:identifier "EAID_47DA1FC8_F181_41bc_B16A_CE80D2CA13B1" ;
     sh:property [ sh:class <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/enkelvoudigdocument> ;
-            sh:description "<font color=\"#610e6a\">De ENKELVOUDIGe DOCUMENTen die deel uit maken van het SAMENGESTELD DOCUMENT.</font>"@nl ;
+            sh:description "De ENKELVOUDIGe DOCUMENTen die deel uit maken van het SAMENGESTELD DOCUMENT."@nl ;
             sh:name "omvat"@nl ;
             sh:nodeKind sh:IRI ;
             sh:path <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/samengestelddocument/omvat> ] ;
@@ -8881,25 +8868,25 @@ Bij digitaal klantcontact (het indienen van een webformulier) zijn start- en ein
     rdfs:label "Status"@nl ;
     dcterms:identifier "EAID_7C975D37_670B_405e_B825_924BCAFA74C7" ;
     sh:property [ sh:datatype xsd:string ;
-            sh:description "<font color=\"#610e6a\">Een, voor de initiator van de zaak relevante, toelichting op de status van een zaak.</font>"@nl ;
+            sh:description "Een, voor de initiator van de zaak relevante, toelichting op de status van een zaak."@nl ;
             sh:maxCount 1 ;
             sh:maxLength 1000 ;
             sh:name "statustoelichting"@nl ;
             sh:path <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/status/statustoelichting> ],
         [ sh:datatype xsd:string ;
-            sh:description "<font color=\"#610e6a\">Aanduding of het de laatst bekende bereikte status betreft.</font>"@nl ;
+            sh:description "Aanduding of het de laatst bekende bereikte status betreft."@nl ;
             sh:maxCount 1 ;
             sh:maxLength 1 ;
             sh:name "indicatieIaatstGezetteStatus"@nl ;
             sh:path <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/status/indicatieiaatstgezettestatus> ],
         [ sh:class <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/statustype> ;
-            sh:description "<font color=\"#610e6a\">Aanduiding van de aard van de STATUS.</font>"@nl ;
+            sh:description "Aanduiding van de aard van de STATUS."@nl ;
             sh:maxCount 1 ;
             sh:name "is van"@nl ;
             sh:nodeKind sh:IRI ;
             sh:path <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/status/is-van> ],
         [ sh:datatype xsd:date ;
-            sh:description "<font color=\"#610e6a\">De datum waarop de zaak de status heeft verkregen.</font>"@nl ;
+            sh:description "De datum waarop de zaak de status heeft verkregen."@nl ;
             sh:maxCount 1 ;
             sh:name "datumStatusGezet"@nl ;
             sh:path <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/status/datumstatusgezet> ] ;
@@ -8909,34 +8896,34 @@ Bij digitaal klantcontact (het indienen van een webformulier) zijn start- en ein
     rdfs:label "Statustype"@nl ;
     dcterms:identifier "EAID_AA496B7B_913C_40fd_943E_52F1A6E89440" ;
     sh:property [ sh:datatype xsd:string ;
-            sh:description "<font color=\"#610e6a\">De datum waarop het STATUSTYPE is opgeheven.</font>"@nl ;
+            sh:description "De datum waarop het STATUSTYPE is opgeheven."@nl ;
             sh:maxCount 1 ;
             sh:name "datumEindeGeldigheidStatustype"@nl ;
             sh:path <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/statustype/datumeindegeldigheidstatustype> ],
         [ sh:datatype xsd:string ;
-            sh:description "<font color=\"#610e6a\">Een korte, voor de initiator van de zaak relevante, omschrijving van de aard van de STATUS van zaken van een ZAAKTYPE.</font>"@nl ;
+            sh:description "Een korte, voor de initiator van de zaak relevante, omschrijving van de aard van de STATUS van zaken van een ZAAKTYPE."@nl ;
             sh:maxCount 1 ;
             sh:maxLength 80 ;
             sh:name "statustypeOmschrijving"@nl ;
             sh:path <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/statustype/statustypeomschrijving> ],
         [ sh:datatype xsd:string ;
-            sh:description "<font color=\"#610e6a\">Algemeen gehanteerde omschrijving van de aard van STATUSsen van het STATUSTYPE</font>"@nl ;
+            sh:description "Algemeen gehanteerde omschrijving van de aard van STATUSsen van het STATUSTYPE"@nl ;
             sh:maxCount 1 ;
             sh:maxLength 80 ;
             sh:name "statustypeOmschrijvingGeneriek"@nl ;
             sh:path <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/statustype/statustypeomschrijvinggeneriek> ],
         [ sh:datatype xsd:integer ;
-            sh:description "<font color=\"#610e6a\">De door de zaakbehandelende organisatie(s) gestelde norm voor de doorlooptijd voor het bereiken van STATUSsen van dit STATUSTYPE bij het desbetreffende ZAAKTYPE.</font>"@nl ;
+            sh:description "De door de zaakbehandelende organisatie(s) gestelde norm voor de doorlooptijd voor het bereiken van STATUSsen van dit STATUSTYPE bij het desbetreffende ZAAKTYPE."@nl ;
             sh:maxCount 1 ;
             sh:name "doorlooptijdStatus"@nl ;
             sh:path <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/statustype/doorlooptijdstatus> ],
         [ sh:datatype xsd:string ;
-            sh:description "<font color=\"#610e6a\">De datum waarop het STATUSTYPE is ontstaan.</font>"@nl ;
+            sh:description "De datum waarop het STATUSTYPE is ontstaan."@nl ;
             sh:maxCount 1 ;
             sh:name "datumBeginGeldigheidStatustype"@nl ;
             sh:path <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/statustype/datumbegingeldigheidstatustype> ],
         [ sh:datatype xsd:integer ;
-            sh:description "<font color=\"#610e6a\">Een volgnummer voor de status binnen een zaak.</font>"@nl ;
+            sh:description "Een volgnummer voor de status binnen een zaak."@nl ;
             sh:maxCount 1 ;
             sh:name "statustypeVolgnummer"@nl ;
             sh:path <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/statustype/statustypevolgnummer> ] ;
@@ -8955,7 +8942,7 @@ Bij digitaal klantcontact (het indienen van een webformulier) zijn start- en ein
             sh:nodeKind sh:IRI ;
             sh:path <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaak/heeft-betaling> ],
         [ sh:datatype xsd:date ;
-            sh:description "<font color=\"#610e6a\">De datum waarop de uitvoering van de zaak afgerond is.</font>"@nl ;
+            sh:description "De datum waarop de uitvoering van de zaak afgerond is."@nl ;
             sh:maxCount 1 ;
             sh:name "datumEinde"@nl ;
             sh:path <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaak/datumeinde> ],
@@ -8970,7 +8957,7 @@ Bij digitaal klantcontact (het indienen van een webformulier) zijn start- en ein
             sh:name "vertrouwelijkheid"@nl ;
             sh:path <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaak/vertrouwelijkheid> ],
         [ sh:datatype xsd:date ;
-            sh:description "<font color=\"#610e6a\">De datum waarop de zaakbehandelende organisatie de ZAAK heeft geregistreerd</font>"@nl ;
+            sh:description "De datum waarop de zaakbehandelende organisatie de ZAAK heeft geregistreerd"@nl ;
             sh:maxCount 1 ;
             sh:name "datumRegistratie"@nl ;
             sh:path <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaak/datumregistratie> ],
@@ -8980,7 +8967,7 @@ Bij digitaal klantcontact (het indienen van een webformulier) zijn start- en ein
             sh:name "indicatieOpschorting"@nl ;
             sh:path <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaak/indicatieopschorting> ],
         [ sh:datatype xsd:string ;
-            sh:description "<font color=\"#610e6a\">Indicatie of de, met behandeling van de zaak gemoeide, kosten betaald zijn door de desbetreffende betrokkene.</font>"@nl ;
+            sh:description "Indicatie of de, met behandeling van de zaak gemoeide, kosten betaald zijn door de desbetreffende betrokkene."@nl ;
             sh:maxCount 1 ;
             sh:maxLength 12 ;
             sh:name "indicatieBetaling"@nl ;
@@ -8990,7 +8977,7 @@ Bij digitaal klantcontact (het indienen van een webformulier) zijn start- en ein
             sh:nodeKind sh:IRI ;
             sh:path <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaak/kent> ],
         [ sh:datatype xsd:date ;
-            sh:description "<font color=\"#610e6a\">De datum waarop het, al dan niet gearchiveerde, zaakdossier (de ZAAK met alle bijbehorende DOCUMENTen) vernietigd mag worden.</font>"@nl ;
+            sh:description "De datum waarop het, al dan niet gearchiveerde, zaakdossier (de ZAAK met alle bijbehorende DOCUMENTen) vernietigd mag worden."@nl ;
             sh:maxCount 1 ;
             sh:name "datumVernietigingDossier"@nl ;
             sh:path <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaak/datumvernietigingdossier> ],
@@ -9010,13 +8997,13 @@ Bij digitaal klantcontact (het indienen van een webformulier) zijn start- en ein
             sh:name "redenVerlenging"@nl ;
             sh:path <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaak/redenverlenging> ],
         [ sh:datatype xsd:string ;
-            sh:description "<font color=\"#610e6a\">Indicatie of het zaakdossier (de ZAAK met alle bijbehorende DOCUMENTen) gearchiveerd dient te worden</font>"@nl ;
+            sh:description "Indicatie of het zaakdossier (de ZAAK met alle bijbehorende DOCUMENTen) gearchiveerd dient te worden"@nl ;
             sh:maxCount 1 ;
             sh:maxLength 1 ;
             sh:name "archiefnominatie"@nl ;
             sh:path <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaak/archiefnominatie> ],
         [ sh:datatype xsd:string ;
-            sh:description "<font color=\"#610e6a\">Een toelichting op de zaak.</font>"@nl ;
+            sh:description "Een toelichting op de zaak."@nl ;
             sh:maxCount 1 ;
             sh:maxLength 1000 ;
             sh:name "toelichting"@nl ;
@@ -9027,33 +9014,33 @@ Bij digitaal klantcontact (het indienen van een webformulier) zijn start- en ein
             sh:name "leges"@nl ;
             sh:path <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaak/leges> ],
         [ sh:datatype xsd:date ;
-            sh:description "<font color=\"#610e6a\">De datum waarop volgens de planning verwacht wordt dat de zaak afgerond wordt.</font>"@nl ;
+            sh:description "De datum waarop volgens de planning verwacht wordt dat de zaak afgerond wordt."@nl ;
             sh:maxCount 1 ;
             sh:name "datumEindeGepland"@nl ;
             sh:path <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaak/datumeindegepland> ],
         [ sh:datatype xsd:date ;
-            sh:description "<font color=\"#610e6a\">Datum waarop (het starten van) de zaak gepubliceerd is of wordt.</font>"@nl ;
+            sh:description "Datum waarop (het starten van) de zaak gepubliceerd is of wordt."@nl ;
             sh:maxCount 1 ;
             sh:name "datumPublicatie"@nl ;
             sh:path <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaak/datumpublicatie> ],
         [ sh:datatype xsd:integer ;
-            sh:description "<font color=\"#610e6a\">Het niveau van een ZAAK in de hierarchie van hoofdzaak met deelzaken.</font>"@nl ;
+            sh:description "Het niveau van een ZAAK in de hierarchie van hoofdzaak met deelzaken."@nl ;
             sh:maxCount 1 ;
             sh:name "zaakniveau"@nl ;
             sh:path <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaak/zaakniveau> ],
         [ sh:class <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaaktype> ;
-            sh:description "<font color=\"#610e6a\">Aanduiding van de aard van de ZAAK.</font>"@nl ;
+            sh:description "Aanduiding van de aard van de ZAAK."@nl ;
             sh:maxCount 1 ;
             sh:name "is van"@nl ;
             sh:nodeKind sh:IRI ;
             sh:path <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaak/is-van> ],
         [ sh:class <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaak> ;
-            sh:description "<font color=\"#610e6a\">De andere ZAAKen die het onderwerp zijn van de ZAAK.</font>"@nl ;
+            sh:description "De andere ZAAKen die het onderwerp zijn van de ZAAK."@nl ;
             sh:name "heeft betrekking op andere"@nl ;
             sh:nodeKind sh:IRI ;
             sh:path <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaak/heeft-betrekking-op-andere> ],
         [ sh:class <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaak> ;
-            sh:description "<font color=\"#610e6a\">De verwijzing naar de ZAAK, waarom verzocht is door de initiator daarvan, die door de zaakbehandelende organisatie is opgedeeld in twee of meer separaat te behandelen zaken waarvan de onderhavige zaak er één is.</font>"@nl ;
+            sh:description "De verwijzing naar de ZAAK, waarom verzocht is door de initiator daarvan, die door de zaakbehandelende organisatie is opgedeeld in twee of meer separaat te behandelen zaken waarvan de onderhavige zaak er één is."@nl ;
             sh:maxCount 1 ;
             sh:name "is deelzaak van"@nl ;
             sh:nodeKind sh:IRI ;
@@ -9064,7 +9051,7 @@ Bij digitaal klantcontact (het indienen van een webformulier) zijn start- en ein
             sh:nodeKind sh:IRI ;
             sh:path <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaak/betreft> ],
         [ sh:datatype xsd:string ;
-            sh:description "<font color=\"#610e6a\">Een korte omschrijving wat het resultaat van de zaak inhoudt.</font>"@nl ;
+            sh:description "Een korte omschrijving wat het resultaat van de zaak inhoudt."@nl ;
             sh:maxCount 1 ;
             sh:maxLength 80 ;
             sh:name "omschrijvingResultaat"@nl ;
@@ -9074,18 +9061,18 @@ Bij digitaal klantcontact (het indienen van een webformulier) zijn start- en ein
             sh:name "duurVerlenging"@nl ;
             sh:path <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaak/duurverlenging> ],
         [ sh:datatype xsd:string ;
-            sh:description "<font color=\"#610e6a\">Een identificatie van de zaak.</font>"@nl ;
+            sh:description "Een identificatie van de zaak."@nl ;
             sh:maxCount 1 ;
             sh:maxLength 40 ;
             sh:name "zaakidentificatie"@nl ;
             sh:path <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaak/zaakidentificatie> ],
         [ sh:class <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/status> ;
-            sh:description "<font color=\"#610e6a\">De STATUSsen die bereikt zijn gedurende de behandeling van de ZAAK.</font>"@nl ;
+            sh:description "De STATUSsen die bereikt zijn gedurende de behandeling van de ZAAK."@nl ;
             sh:name "heeft"@nl ;
             sh:nodeKind sh:IRI ;
             sh:path <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaak/heeft-status> ],
         [ sh:datatype xsd:string ;
-            sh:description "<font color=\"#610e6a\">Een toelichting op wat het resultaat van de zaak inhoudt.</font>"@nl ;
+            sh:description "Een toelichting op wat het resultaat van de zaak inhoudt."@nl ;
             sh:maxCount 1 ;
             sh:maxLength 1000 ;
             sh:name "toelichtingResultaat"@nl ;
@@ -9099,12 +9086,12 @@ Bij digitaal klantcontact (het indienen van een webformulier) zijn start- en ein
             sh:nodeKind sh:IRI ;
             sh:path <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaak/heeft-kenmerken> ],
         [ sh:datatype xsd:date ;
-            sh:description "<font color=\"#610e6a\">De datum waarop de meest recente betaling is verwerkt van kosten die gemoeid zijn met behandeling van de zaak.</font>"@nl ;
+            sh:description "De datum waarop de meest recente betaling is verwerkt van kosten die gemoeid zijn met behandeling van de zaak."@nl ;
             sh:maxCount 1 ;
             sh:name "datumLaatsteBetaling"@nl ;
             sh:path <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaak/datumlaatstebetaling> ],
         [ sh:datatype xsd:date ;
-            sh:description "<font color=\"#610e6a\">De laatste datum waarop volgens wet- en regelgeving de zaak afgerond dient te zijn.</font>"@nl ;
+            sh:description "De laatste datum waarop volgens wet- en regelgeving de zaak afgerond dient te zijn."@nl ;
             sh:maxCount 1 ;
             sh:name "datumEindeUiterlijkeAfdoening"@nl ;
             sh:path <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaak/datumeindeuiterlijkeafdoening> ],
@@ -9114,18 +9101,18 @@ Bij digitaal klantcontact (het indienen van een webformulier) zijn start- en ein
             sh:nodeKind sh:IRI ;
             sh:path <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaak/heeft-klantbeoordeling> ],
         [ sh:datatype xsd:boolean ;
-            sh:description "<font color=\"#610e6a\">De aanduiding of een ZAAK behandeld wordt in deelzaken.</font>"@nl ;
+            sh:description "De aanduiding of een ZAAK behandeld wordt in deelzaken."@nl ;
             sh:maxCount 1 ;
             sh:name "indicatieDeelzaken"@nl ;
             sh:path <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaak/indicatiedeelzaken> ],
         [ sh:datatype xsd:string ;
-            sh:description "<font color=\"#610e6a\">Een korte omschrijving van de zaak.</font>"@nl ;
+            sh:description "Een korte omschrijving van de zaak."@nl ;
             sh:maxCount 1 ;
             sh:maxLength 80 ;
             sh:name "omschrijving"@nl ;
             sh:path <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaak/omschrijving> ],
         [ sh:datatype xsd:date ;
-            sh:description "<font color=\"#610e6a\">De datum waarop met de uitvoering van de zaak is gestart.</font>"@nl ;
+            sh:description "De datum waarop met de uitvoering van de zaak is gestart."@nl ;
             sh:maxCount 1 ;
             sh:name "datumStart"@nl ;
             sh:path <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaak/datumstart> ] ;
@@ -9135,19 +9122,19 @@ Bij digitaal klantcontact (het indienen van een webformulier) zijn start- en ein
     rdfs:label "ZAAK - Origineel"@nl ;
     dcterms:identifier "EAID_766265DF_56DD_4560_A55C_FF82E3B9751A" ;
     sh:property [ sh:datatype xsd:string ;
-            sh:description "<font color=\"#610e6a\">Indicatie of de, met behandeling van de zaak gemoeide, kosten betaald zijn door de desbetreffende betrokkene.</font>"@nl ;
+            sh:description "Indicatie of de, met behandeling van de zaak gemoeide, kosten betaald zijn door de desbetreffende betrokkene."@nl ;
             sh:maxCount 1 ;
             sh:maxLength 12 ;
             sh:name "indicatieBetaling"@nl ;
             sh:path <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaak-origineel/indicatiebetaling> ],
         [ sh:datatype xsd:string ;
-            sh:description "<font color=\"#610e6a\">Indicatie of het zaakdossier (de ZAAK met alle bijbehorende DOCUMENTen) gearchiveerd dient te worden</font>"@nl ;
+            sh:description "Indicatie of het zaakdossier (de ZAAK met alle bijbehorende DOCUMENTen) gearchiveerd dient te worden"@nl ;
             sh:maxCount 1 ;
             sh:maxLength 1 ;
             sh:name "archiefnominatie"@nl ;
             sh:path <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaak-origineel/archiefnominatie> ],
         [ sh:datatype xsd:date ;
-            sh:description "<font color=\"#610e6a\">De datum waarop met de uitvoering van de zaak is gestart.</font>"@nl ;
+            sh:description "De datum waarop met de uitvoering van de zaak is gestart."@nl ;
             sh:maxCount 1 ;
             sh:name "datumStart"@nl ;
             sh:path <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaak-origineel/datumstart> ],
@@ -9156,56 +9143,56 @@ Bij digitaal klantcontact (het indienen van een webformulier) zijn start- en ein
             sh:nodeKind sh:BlankNodeOrIRI ;
             sh:path <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaak-origineel/kenmerk> ],
         [ sh:datatype xsd:date ;
-            sh:description "<font color=\"#610e6a\">De datum waarop de uitvoering van de zaak afgerond is.</font>"@nl ;
+            sh:description "De datum waarop de uitvoering van de zaak afgerond is."@nl ;
             sh:maxCount 1 ;
             sh:name "datumEinde"@nl ;
             sh:path <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaak-origineel/datumeinde> ],
         [ sh:datatype xsd:string ;
-            sh:description "<font color=\"#610e6a\">Een toelichting op wat het resultaat van de zaak inhoudt.</font>"@nl ;
+            sh:description "Een toelichting op wat het resultaat van de zaak inhoudt."@nl ;
             sh:maxCount 1 ;
             sh:maxLength 1000 ;
             sh:name "toelichtingResultaat"@nl ;
             sh:path <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaak-origineel/toelichtingresultaat> ],
         [ sh:datatype xsd:date ;
-            sh:description "<font color=\"#610e6a\">De datum waarop het, al dan niet gearchiveerde, zaakdossier (de ZAAK met alle bijbehorende DOCUMENTen) vernietigd mag worden.</font>"@nl ;
+            sh:description "De datum waarop het, al dan niet gearchiveerde, zaakdossier (de ZAAK met alle bijbehorende DOCUMENTen) vernietigd mag worden."@nl ;
             sh:maxCount 1 ;
             sh:name "datumVernietigingDossier"@nl ;
             sh:path <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaak-origineel/datumvernietigingdossier> ],
         [ sh:datatype xsd:string ;
-            sh:description "<font color=\"#610e6a\">Een toelichting op de zaak.</font>"@nl ;
+            sh:description "Een toelichting op de zaak."@nl ;
             sh:maxCount 1 ;
             sh:maxLength 1000 ;
             sh:name "toelichting"@nl ;
             sh:path <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaak-origineel/toelichting> ],
         [ sh:datatype xsd:string ;
-            sh:description "<font color=\"#610e6a\">Een korte omschrijving wat het resultaat van de zaak inhoudt.</font>"@nl ;
+            sh:description "Een korte omschrijving wat het resultaat van de zaak inhoudt."@nl ;
             sh:maxCount 1 ;
             sh:maxLength 80 ;
             sh:name "omschrijvingResultaat"@nl ;
             sh:path <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaak-origineel/omschrijvingresultaat> ],
         [ sh:datatype xsd:date ;
-            sh:description "<font color=\"#610e6a\">De datum waarop de meest recente betaling is verwerkt van kosten die gemoeid zijn met behandeling van de zaak.</font>"@nl ;
+            sh:description "De datum waarop de meest recente betaling is verwerkt van kosten die gemoeid zijn met behandeling van de zaak."@nl ;
             sh:maxCount 1 ;
             sh:name "datumLaatsteBetaling"@nl ;
             sh:path <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaak-origineel/datumlaatstebetaling> ],
         [ sh:datatype xsd:date ;
-            sh:description "<font color=\"#610e6a\">Datum waarop (het starten van) de zaak gepubliceerd is of wordt.</font>"@nl ;
+            sh:description "Datum waarop (het starten van) de zaak gepubliceerd is of wordt."@nl ;
             sh:maxCount 1 ;
             sh:name "datumPublicatie"@nl ;
             sh:path <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaak-origineel/datumpublicatie> ],
         [ sh:datatype xsd:integer ;
-            sh:description "<font color=\"#610e6a\">Het niveau van een ZAAK in de hierarchie van hoofdzaak met deelzaken.</font>"@nl ;
+            sh:description "Het niveau van een ZAAK in de hierarchie van hoofdzaak met deelzaken."@nl ;
             sh:maxCount 1 ;
             sh:name "zaakniveau"@nl ;
             sh:path <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaak-origineel/zaakniveau> ],
         [ sh:datatype xsd:string ;
-            sh:description "<font color=\"#610e6a\">Een identificatie van de zaak.</font>"@nl ;
+            sh:description "Een identificatie van de zaak."@nl ;
             sh:maxCount 1 ;
             sh:maxLength 40 ;
             sh:name "zaakidentificatie"@nl ;
             sh:path <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaak-origineel/zaakidentificatie> ],
         [ sh:class <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaak-origineel> ;
-            sh:description "<font color=\"#610e6a\">De verwijzing naar de ZAAK, waarom verzocht is door de initiator daarvan, die door de zaakbehandelende organisatie is opgedeeld in twee of meer separaat te behandelen zaken waarvan de onderhavige zaak er één is.</font>"@nl ;
+            sh:description "De verwijzing naar de ZAAK, waarom verzocht is door de initiator daarvan, die door de zaakbehandelende organisatie is opgedeeld in twee of meer separaat te behandelen zaken waarvan de onderhavige zaak er één is."@nl ;
             sh:maxCount 1 ;
             sh:name "is deelzaak van"@nl ;
             sh:nodeKind sh:IRI ;
@@ -9216,18 +9203,18 @@ Bij digitaal klantcontact (het indienen van een webformulier) zijn start- en ein
             sh:nodeKind sh:BlankNodeOrIRI ;
             sh:path <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaak-origineel/opschorting> ],
         [ sh:class <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaak-origineel> ;
-            sh:description "<font color=\"#610e6a\">De andere ZAAKen die het onderwerp zijn van de ZAAK.</font>"@nl ;
+            sh:description "De andere ZAAKen die het onderwerp zijn van de ZAAK."@nl ;
             sh:name "heeft betrekking op andere"@nl ;
             sh:nodeKind sh:IRI ;
             sh:path <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaak-origineel/heeft-betrekking-op-andere> ],
         [ sh:datatype xsd:string ;
-            sh:description "<font color=\"#610e6a\">Een korte omschrijving van de zaak.</font>"@nl ;
+            sh:description "Een korte omschrijving van de zaak."@nl ;
             sh:maxCount 1 ;
             sh:maxLength 80 ;
             sh:name "omschrijving"@nl ;
             sh:path <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaak-origineel/omschrijving> ],
         [ sh:datatype xsd:date ;
-            sh:description "<font color=\"#610e6a\">De laatste datum waarop volgens wet- en regelgeving de zaak afgerond dient te zijn.</font>"@nl ;
+            sh:description "De laatste datum waarop volgens wet- en regelgeving de zaak afgerond dient te zijn."@nl ;
             sh:maxCount 1 ;
             sh:name "datumEindeUiterlijkeAfdoening"@nl ;
             sh:path <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaak-origineel/datumeindeuiterlijkeafdoening> ],
@@ -9241,17 +9228,17 @@ Bij digitaal klantcontact (het indienen van een webformulier) zijn start- en ein
             sh:nodeKind sh:BlankNodeOrIRI ;
             sh:path <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaak-origineel/anderzaakobject> ],
         [ sh:datatype xsd:boolean ;
-            sh:description "<font color=\"#610e6a\">De aanduiding of een ZAAK behandeld wordt in deelzaken.</font>"@nl ;
+            sh:description "De aanduiding of een ZAAK behandeld wordt in deelzaken."@nl ;
             sh:maxCount 1 ;
             sh:name "indicatieDeelzaken"@nl ;
             sh:path <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaak-origineel/indicatiedeelzaken> ],
         [ sh:datatype xsd:date ;
-            sh:description "<font color=\"#610e6a\">De datum waarop volgens de planning verwacht wordt dat de zaak afgerond wordt.</font>"@nl ;
+            sh:description "De datum waarop volgens de planning verwacht wordt dat de zaak afgerond wordt."@nl ;
             sh:maxCount 1 ;
             sh:name "datumEindeGepland"@nl ;
             sh:path <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaak-origineel/datumeindegepland> ],
         [ sh:datatype xsd:date ;
-            sh:description "<font color=\"#610e6a\">De datum waarop de zaakbehandelende organisatie de ZAAK heeft geregistreerd</font>"@nl ;
+            sh:description "De datum waarop de zaakbehandelende organisatie de ZAAK heeft geregistreerd"@nl ;
             sh:maxCount 1 ;
             sh:name "datumRegistratie"@nl ;
             sh:path <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaak-origineel/datumregistratie> ] ;
@@ -9261,33 +9248,33 @@ Bij digitaal klantcontact (het indienen van een webformulier) zijn start- en ein
     rdfs:label "Zaaktype"@nl ;
     dcterms:identifier "EAID_7210A379_17EE_4143_A106_ECD9414B2A0D" ;
     sh:property [ sh:datatype xsd:string ;
-            sh:description "<font color=\"#610e6a\">De datum waarop het ZAAKTYPE is ontstaan.</font>"@nl ;
+            sh:description "De datum waarop het ZAAKTYPE is ontstaan."@nl ;
             sh:maxCount 1 ;
             sh:name "datumBeginGeldigheidZaaktype"@nl ;
             sh:path <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaaktype/datumbegingeldigheidzaaktype> ],
         [ sh:datatype xsd:string ;
-            sh:description "<font color=\"#610e6a\">Algemeen gehanteerde omschrijving van de aard van ZAAKen van het ZAAKTYPE</font>"@nl ;
+            sh:description "Algemeen gehanteerde omschrijving van de aard van ZAAKen van het ZAAKTYPE"@nl ;
             sh:maxCount 1 ;
             sh:maxLength 80 ;
             sh:name "zaaktypeOmschrijvingGeneriek"@nl ;
             sh:path <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaaktype/zaaktypeomschrijvinggeneriek> ],
         [ sh:class <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/statustype> ;
-            sh:description "<font color=\"#610e6a\">De STATUSTYPEn die bereikt kunnen worden bij behandeling van ZAAKen van het ZAAKTYPE.</font>"@nl ;
+            sh:description "De STATUSTYPEn die bereikt kunnen worden bij behandeling van ZAAKen van het ZAAKTYPE."@nl ;
             sh:name "heeft"@nl ;
             sh:nodeKind sh:IRI ;
             sh:path <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaaktype/heeft-statustype> ],
         [ sh:datatype xsd:integer ;
-            sh:description "<font color=\"#610e6a\">De periode waarbinnen volgens wet- en regelgeving een ZAAk van het ZAAKTYPE afgerond dient te zijn.</font>"@nl ;
+            sh:description "De periode waarbinnen volgens wet- en regelgeving een ZAAk van het ZAAKTYPE afgerond dient te zijn."@nl ;
             sh:maxCount 1 ;
             sh:name "doorlooptijdBehandeling"@nl ;
             sh:path <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaaktype/doorlooptijdbehandeling> ],
         [ sh:datatype xsd:integer ;
-            sh:description "<font color=\"#610e6a\">De periode waarbinnen verwacht wordt dat een ZAAk van het ZAAKTYPE afgerond wordt coform de geldende servicenormen van de zaakbehandelende organisatie(s).</font>"@nl ;
+            sh:description "De periode waarbinnen verwacht wordt dat een ZAAk van het ZAAKTYPE afgerond wordt coform de geldende servicenormen van de zaakbehandelende organisatie(s)."@nl ;
             sh:maxCount 1 ;
             sh:name "servicenormBehandeling"@nl ;
             sh:path <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaaktype/servicenormbehandeling> ],
         [ sh:datatype xsd:string ;
-            sh:description "<font color=\"#610e6a\">Aanduiding of (het starten van) een ZAAK van dit ZAAKTYPE gepubliceerd moet worden.</font>"@nl ;
+            sh:description "Aanduiding of (het starten van) een ZAAK van dit ZAAKTYPE gepubliceerd moet worden."@nl ;
             sh:maxCount 1 ;
             sh:maxLength 1 ;
             sh:name "indicatiePublicatie"@nl ;
@@ -9298,31 +9285,31 @@ Bij digitaal klantcontact (het indienen van een webformulier) zijn start- en ein
             sh:nodeKind sh:IRI ;
             sh:path <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaaktype/heeft-producttype> ],
         [ sh:datatype xsd:string ;
-            sh:description "<font color=\"#610e6a\">Aanduiding van de mate waarin zaakdossiers van ZAAKen van dit ZAAKTYPE voor de openbaarheid bestemd zijn.</font>"@nl ;
+            sh:description "Aanduiding van de mate waarin zaakdossiers van ZAAKen van dit ZAAKTYPE voor de openbaarheid bestemd zijn."@nl ;
             sh:maxCount 1 ;
             sh:maxLength 20 ;
             sh:name "vertrouwelijkAanduiding"@nl ;
             sh:path <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaaktype/vertrouwelijkaanduiding> ],
         [ sh:datatype xsd:string ;
-            sh:description "<font color=\"#610e6a\">De systematische identificatie van zaakdossiers van dit ZAAKTYPE overeenkomstig logisch gestructureerde conventies, methoden en procedureregels.</font>"@nl ;
+            sh:description "De systematische identificatie van zaakdossiers van dit ZAAKTYPE overeenkomstig logisch gestructureerde conventies, methoden en procedureregels."@nl ;
             sh:maxCount 1 ;
             sh:maxLength 20 ;
             sh:name "archiefcode"@nl ;
             sh:path <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaaktype/archiefcode> ],
         [ sh:datatype xsd:string ;
-            sh:description "<font color=\"#610e6a\">De generieke tekst van de publicatie van ZAAKen van dit ZAAKTYPE</font>"@nl ;
+            sh:description "De generieke tekst van de publicatie van ZAAKen van dit ZAAKTYPE"@nl ;
             sh:maxCount 1 ;
             sh:maxLength 1000 ;
             sh:name "publicatietekst"@nl ;
             sh:path <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaaktype/publicatietekst> ],
         [ sh:datatype xsd:string ;
-            sh:description "<font color=\"#610e6a\">Typering van de aard van ZAAKen van het ZAAKTYPE.</font>"@nl ;
+            sh:description "Typering van de aard van ZAAKen van het ZAAKTYPE."@nl ;
             sh:maxCount 1 ;
             sh:maxLength 40 ;
             sh:name "zaakcategorie"@nl ;
             sh:path <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaaktype/zaakcategorie> ],
         [ sh:datatype xsd:string ;
-            sh:description "<font color=\"#610e6a\">Een trefwoord waarmee ZAAKen van het ZAAKTYPE kunnen worden gekarakteriseerd.</font>"@nl ;
+            sh:description "Een trefwoord waarmee ZAAKen van het ZAAKTYPE kunnen worden gekarakteriseerd."@nl ;
             sh:maxLength 30 ;
             sh:name "trefwoord"@nl ;
             sh:path <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaaktype/trefwoord> ],
@@ -9331,12 +9318,12 @@ Bij digitaal klantcontact (het indienen van een webformulier) zijn start- en ein
             sh:nodeKind sh:IRI ;
             sh:path <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaaktype/heeft-heffinggrondslag> ],
         [ sh:datatype xsd:string ;
-            sh:description "<font color=\"#610e6a\">De datum waarop het ZAAKTYPE is opgeheven.</font>"@nl ;
+            sh:description "De datum waarop het ZAAKTYPE is opgeheven."@nl ;
             sh:maxCount 1 ;
             sh:name "datumEindeGeldigheidZaaktype"@nl ;
             sh:path <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaaktype/datumeindegeldigheidzaaktype> ],
         [ sh:datatype xsd:string ;
-            sh:description "<font color=\"#610e6a\">Omschrijving van de aard van ZAAKen van het ZAAKTYPE.</font>"@nl ;
+            sh:description "Omschrijving van de aard van ZAAKen van het ZAAKTYPE."@nl ;
             sh:maxCount 1 ;
             sh:maxLength 80 ;
             sh:name "zaaktypeOmschrijving"@nl ;
@@ -9535,7 +9522,7 @@ Bij digitaal klantcontact (het indienen van een webformulier) zijn start- en ein
             sh:nodeKind sh:IRI ;
             sh:path <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/archief/kern-rsgb/gebouwdobject/heeft-gebruiksdoel> ],
         [ sh:datatype xsd:integer ;
-            sh:description "<font color=\"#0f0f0f\">De gebruiksoppervlakte van een VERBLIJFSOBJECT of het OVERIG BOUWWERK</font>"@nl ;
+            sh:description "De gebruiksoppervlakte van een VERBLIJFSOBJECT of het OVERIG BOUWWERK"@nl ;
             sh:maxCount 1 ;
             sh:name "oppervlakteObject"@nl ;
             sh:path <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/archief/kern-rsgb/gebouwdobject/oppervlakteobject> ],
@@ -9809,7 +9796,7 @@ RUIMTE."""@nl ;
             sh:nodeKind sh:IRI ;
             sh:path <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/archief/kern-rsgb/openbareruimte/typeopenbareruimte> ],
         [ sh:datatype xsd:string ;
-            sh:description "<font color=\"#0f0f0f\">Een door het bevoegde gemeentelijke orgaan aan een OPENBARE RUIMTE toegekende benaming</font>"@nl ;
+            sh:description "Een door het bevoegde gemeentelijke orgaan aan een OPENBARE RUIMTE toegekende benaming"@nl ;
             sh:maxCount 1 ;
             sh:maxLength 80 ;
             sh:minCount 1 ;
@@ -9858,7 +9845,7 @@ RUIMTE."""@nl ;
             sh:description "De geometrische representatie van de openbare ruimte als een lijn."@nl ;
             sh:name "wegsegment"@nl ;
             sh:path <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/archief/kern-rsgb/openbareruimte/wegsegment> ],
-        [ sh:description "<font color=\"#0f0f0f\">Bevat de naam van de openbare ruimte ten behoeve van visualisatie.</font>"@nl ;
+        [ sh:description "Bevat de naam van de openbare ruimte ten behoeve van visualisatie."@nl ;
             sh:name "labelNaamOpenbareRuimte"@nl ;
             sh:node <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/complex-datatype/typelabel> ;
             sh:nodeKind sh:BlankNodeOrIRI ;
@@ -9885,7 +9872,7 @@ RUIMTE."""@nl ;
             sh:nodeKind sh:IRI ;
             sh:path <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/archief/kern-rsgb/pand/lod2geometriepand> ],
         [ sh:datatype xsd:integer ;
-            sh:description "<font color=\"#0f0f0f\">De aanduiding van het jaar waarin een PAND oorspronkelijk als bouwkundig gereed is of wordt opgeleverd.</font>"@nl ;
+            sh:description "De aanduiding van het jaar waarin een PAND oorspronkelijk als bouwkundig gereed is of wordt opgeleverd."@nl ;
             sh:maxCount 1 ;
             sh:minCount 1 ;
             sh:name "oorspronkelijkBouwjaarPand"@nl ;
@@ -9895,7 +9882,7 @@ RUIMTE."""@nl ;
             sh:maxCount 1 ;
             sh:name "brutoInhoudPand"@nl ;
             sh:path <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/archief/kern-rsgb/pand/brutoinhoudpand> ],
-        [ sh:description "<font color=\"#0f0f0f\">Bevat de reeks nummeraanduidingen behorend bij het pand ten behoeve van visualisatie. </font><font color=\"#ff0000\"><u> </u></font>"@nl ;
+        [ sh:description "Bevat de reeks nummeraanduidingen behorend bij het pand ten behoeve van visualisatie."@nl ;
             sh:name "labelNummeraanduidingreeks"@nl ;
             sh:node <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/complex-datatype/typelabel> ;
             sh:nodeKind sh:BlankNodeOrIRI ;
@@ -9905,7 +9892,7 @@ RUIMTE."""@nl ;
             sh:name "geometriePunt"@nl ;
             sh:path <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/archief/kern-rsgb/pand/geometriepunt> ],
         [ sh:datatype geo:wktLiteral ;
-            sh:description "<font color=\"#0f0f0f\">De minimaal tweedimensionale geometrische representatie van het bovenaanzicht van de omtrekken van een PAND</font>"@nl ;
+            sh:description "De minimaal tweedimensionale geometrische representatie van het bovenaanzicht van de omtrekken van een PAND"@nl ;
             sh:maxCount 1 ;
             sh:minCount 1 ;
             sh:name "pandgeometrieBovenaanzicht"@nl ;
@@ -11848,7 +11835,7 @@ geslachtsnaam voorafgaat.."""@nl ;
     rdfs:label "SplitsingstekeningReferentie"@nl ;
     dcterms:identifier "EAID_C97E674B_BCBC_45e8_B60C_1E0C7954D751" ;
     sh:property [ sh:datatype xsd:string ;
-            sh:description "<font color=\"#0f0f0f\">De naam waaronder de tekening formeel bekend is</font>"@nl ;
+            sh:description "De naam waaronder de tekening formeel bekend is"@nl ;
             sh:maxCount 1 ;
             sh:maxLength 200 ;
             sh:minCount 1 ;
@@ -11861,7 +11848,7 @@ geslachtsnaam voorafgaat.."""@nl ;
             sh:name "datumCreatie"@nl ;
             sh:path <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/groepattribuutsoort/splitsingstekeningreferentie/datumcreatie> ],
         [ sh:datatype xsd:string ;
-            sh:description "<font color=\"#0f0f0f\">Een ondubbelzinnige referentie naar de tekening.</font>"@nl ;
+            sh:description "Een ondubbelzinnige referentie naar de tekening."@nl ;
             sh:maxCount 1 ;
             sh:maxLength 40 ;
             sh:minCount 1 ;
@@ -12761,7 +12748,7 @@ geslachtsnaam voorafgaat.."""@nl ;
             sh:name "datumBeginGeldigheidInrichtingselement"@nl ;
             sh:path <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/inrichtingselement/datumbegingeldigheidinrichtingselement> ],
         [ sh:class <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/typeringinrichtingselement> ;
-            sh:description "<font color=\"#610e6a\">Specificatie van de aard van het inrichtingselement.</font>"@nl ;
+            sh:description "Specificatie van de aard van het inrichtingselement."@nl ;
             sh:in ( <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/typeringinrichtingselement/bak> <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/typeringinrichtingselement/bord> <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/typeringinrichtingselement/installatie> <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/typeringinrichtingselement/kast> <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/typeringinrichtingselement/mast> <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/typeringinrichtingselement/paal> <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/typeringinrichtingselement/put> <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/typeringinrichtingselement/sensor> <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/typeringinrichtingselement/straatmeubilair> <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/typeringinrichtingselement/waterinrichtingselement> <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/typeringinrichtingselement/weginrichtingselement> ) ;
             sh:maxCount 1 ;
             sh:minCount 1 ;
@@ -13388,7 +13375,7 @@ Deze indicatie is enkel van belang als de gegevens uit de BRP niet beschikbaar z
             sh:name "inOprichting"@nl ;
             sh:path <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/nietnatuurlijkpersoon/inoprichting> ],
         [ sh:datatype xsd:integer ;
-            sh:description "Een in het handelsregister over een NIET-NATUURLIJK PERSOON opgenomen, door de Kamer van Koophandel toegekend, uniek nummer. De attribuutsoort kent onder meer historie omdat het mogelijk is dat de NNP-ID van een ingeschreven niet-natuurlijk persoon wijzigt, met name vanwege &lsquo;ambtelijke&rsquo; correcties."@nl ;
+            sh:description "Een in het handelsregister over een NIET-NATUURLIJK PERSOON opgenomen, door de Kamer van Koophandel toegekend, uniek nummer. De attribuutsoort kent onder meer historie omdat het mogelijk is dat de NNP-ID van een ingeschreven niet-natuurlijk persoon wijzigt, met name vanwege ‘ambtelijke’ correcties."@nl ;
             sh:maxCount 1 ;
             sh:name "NNPID"@nl ;
             sh:path <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/nietnatuurlijkpersoon/nnpid> ],
@@ -14305,7 +14292,7 @@ verschijningsvorm."""@nl ;
             sh:nodeKind sh:IRI ;
             sh:path <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/tenaamstelling/burgerlijkestaattentijdevanverkrijging> ],
         [ sh:class <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/codeexploitant> ;
-            sh:description "<font color=\"#000080\">Het recht wat de exploitant van de eigenaar te weten de gemeente heeft gekregen.</font>"@nl ;
+            sh:description "Het recht wat de exploitant van de eigenaar te weten de gemeente heeft gekregen."@nl ;
             sh:in ( <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/codeexploitant/vol-eigendom> <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/codeexploitant/gedeeltelijk-eigendom> <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/codeexploitant/erfpacht-uitgegeven> <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/codeexploitant/erfpacht-verkregen> <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/codeexploitant/recht-van-opstal-verleend> <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/codeexploitant/recht-van-opstal-verkregen> <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/codeexploitant/overige-zakelijk-rechten-verleend> <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/codeexploitant/overige-zakelijk-rechten-verkregen> <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/codeexploitant/derden-niet-zijnde-gemeente> <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/codeexploitant/onbekend-handmatig-oplossen> ) ;
             sh:maxCount 1 ;
             sh:name "exploitantcode"@nl ;
@@ -14492,7 +14479,7 @@ verschijningsvorm."""@nl ;
             sh:name "fulltimeWerkzameVrouwen"@nl ;
             sh:path <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/vestiging/fulltimewerkzamevrouwen> ],
         [ sh:datatype xsd:date ;
-            sh:description "De datum  van<b> </b>beëindiging van de vestiging"@nl ;
+            sh:description "De datum van beëindiging van de vestiging"@nl ;
             sh:maxCount 1 ;
             sh:name "datumEinde"@nl ;
             sh:path <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/vestiging/datumeinde> ],
@@ -18099,7 +18086,7 @@ Z1"""@nl ;
             sh:name "IndicatorMagOpleidingAfmaken"@nl ;
             sh:path <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/leerroute/indicatormagopleidingafmaken> ],
         [ sh:datatype xsd:boolean ;
-            sh:description "<font color=\"#0e0e0e\"><i>Indicator die aangeeft of de leerbaarheidstoets niet is afgenomen vanwege een zintuigelijke beperking van de inburgeraar.</i></font>"@nl ;
+            sh:description "Indicator die aangeeft of de leerbaarheidstoets niet is afgenomen vanwege een zintuigelijke beperking van de inburgeraar."@nl ;
             sh:maxCount 1 ;
             sh:name "geenLeerbaarheidstoetsZB"@nl ;
             sh:path <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/leerroute/geenleerbaarheidstoetszb> ],
@@ -21991,10 +21978,10 @@ Z1"""@nl ;
             sh:nodeKind sh:IRI ;
             sh:path <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/schuldhulpverlening/aanmelding/resulteert-in> ],
         [ sh:datatype xsd:boolean ;
-            sh:description """Is er sprake van een crisisinterventie? Indicator crisisinterventie. "Het afwenden van een crisis- of dreigende situatie om zo de mogelijkheid te cre&#235;ren om de klant te helpen via de reguliere schuldhulpverlening.
+            sh:description """Is er sprake van een crisisinterventie? Indicator crisisinterventie. "Het afwenden van een crisis- of dreigende situatie om zo de mogelijkheid te creëren om de klant te helpen via de reguliere schuldhulpverlening.
 Volgens de Wgs gaat het in elk geval om de volgende situaties:
 ■ gedwongen woningontruiming;
-■ be&#235;indiging van de levering van gas, water, elektriciteit of stadsverwarming;
+■ beëindiging van de levering van gas, water, elektriciteit of stadsverwarming;
 ■ opzegging of ontbinding van de zorgverzekering.
 Gemeenten kunnen extra situaties toevoegen aan hun crisisprotocol, zoals:
 ■ aangekondigde boedelverkoop of verkoop van de eigen woning;
@@ -22644,7 +22631,7 @@ En voor ondernemers:
     rdfs:label "Uitstroom"@nl ;
     dcterms:identifier "EAID_42D33289_422A_4d94_BE6B_44B34CC230B5" ;
     sh:property [ sh:datatype xsd:date ;
-            sh:description "Datum dat de Be&#235;indigingsbeschikking is afgegeven."@nl ;
+            sh:description "Datum dat de Beëindigingsbeschikking is afgegeven."@nl ;
             sh:maxCount 1 ;
             sh:name "datumBeeindigingsbeschikking"@nl ;
             sh:path <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/schuldhulpverlening/uitstroom/datumbeeindigingsbeschikking> ],
@@ -22656,7 +22643,7 @@ En voor ondernemers:
             sh:nodeKind sh:IRI ;
             sh:path <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/schuldhulpverlening/uitstroom/reden> ],
         [ sh:datatype xsd:date ;
-            sh:description "Datum dat clienten uit het schuldhulptraject zijn uitgestroomd. Deze datum is gelijk aan de datum be&#235;indigingsbeschikking."@nl ;
+            sh:description "Datum dat clienten uit het schuldhulptraject zijn uitgestroomd. Deze datum is gelijk aan de datum beëindigingsbeschikking."@nl ;
             sh:maxCount 1 ;
             sh:name "datum"@nl ;
             sh:path <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/schuldhulpverlening/uitstroom/datum> ],
@@ -36757,7 +36744,7 @@ Toelichting: Conserveren valt onder het â€˜klein onderhoudâ€™. Door de 
             sh:nodeKind sh:IRI ;
             sh:path <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/omgevingswet/instructieregel/beschrijft-gebiedsaanwijzing> ],
         [ sh:datatype xsd:string ;
-            sh:description """<font color="#032547"><b>Attribuutsoort instructieregel instrument</b></font>
+            sh:description """Attribuutsoort instructieregel instrument
 Naam Definitie Formaat Toelichting
 Instructieregel instrument
 De naam van het instrument waartoe de instructieregel zich richt.
@@ -36972,7 +36959,7 @@ Dit kenmerk geeft nadere informatie in aanvulling op het type instructieregel, i
             sh:nodeKind sh:IRI ;
             sh:path <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/omgevingswet/regel-voor-iedereen/beschrijft-norm> ],
         [ sh:datatype xsd:string ;
-            sh:description """<font color="#032547"><b>Attribuutsoort activiteitregelkwalificatie</b></font>
+            sh:description """Attribuutsoort activiteitregelkwalificatie
 Naam Definitie Formaat Toelichting
 Constraint(s)
 
@@ -37215,7 +37202,7 @@ van de normale tekstrichting."""@nl ;
             sh:path <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/complex-datatype/typebreuk/noemer> ] .
 
 <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/complex-datatype/typelabel> a sh:NodeShape ;
-    sh:property [ sh:description "<font color=\"#0f0f0f\">De locatie op de kaart waar het label moet worden getoond, samengesteld uit plaatsingspunt en rotatiehoek</font>"@nl ;
+    sh:property [ sh:description "De locatie op de kaart waar het label moet worden getoond, samengesteld uit plaatsingspunt en rotatiehoek"@nl ;
             sh:maxCount 1 ;
             sh:minCount 1 ;
             sh:name "labelPositie"@nl ;

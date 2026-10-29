@@ -1295,7 +1295,7 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
 <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/document/cocumentbeschrijving> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "cocumentBeschrijving"@nl ;
-    mim:definitie "<font color=\"#610e6a\">Een generieke beschrijving van de inhoud van het document.</font>"@nl ;
+    mim:definitie "Een generieke beschrijving van de inhoud van het document."@nl ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/document/cocumentbeschrijving"^^xsd:anyURI ;
@@ -1308,7 +1308,7 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
     mim:naam "cocumentBeschrijving"@nl ;
     mim:type mim:CharacterString ;
     dcterms:identifier "EAID_1DB068B6_3EAE_4d79_B1EC_73905A5994FC" ;
-    rdfs:comment "<font color=\"#610e6a\">Een generieke beschrijving van de inhoud van het document.</font>"@nl ;
+    rdfs:comment "Een generieke beschrijving van de inhoud van het document."@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/document> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> ;
     rdfs:range xsd:string .
@@ -1316,7 +1316,7 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
 <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/document/datumcreatiedocument> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "datumCreatieDocument"@nl ;
-    mim:definitie "<font color=\"#610e6a\">Een datum of een gebeurtenis in de levenscyclus van het document.</font>"@nl ;
+    mim:definitie "Een datum of een gebeurtenis in de levenscyclus van het document."@nl ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/document/datumcreatiedocument"^^xsd:anyURI ;
@@ -1329,7 +1329,7 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
     mim:naam "datumCreatieDocument"@nl ;
     mim:type mim:Date ;
     dcterms:identifier "EAID_61F9ED59_4DA5_4099_ADAC_8D7FEFDD0F37" ;
-    rdfs:comment "<font color=\"#610e6a\">Een datum of een gebeurtenis in de levenscyclus van het document.</font>"@nl ;
+    rdfs:comment "Een datum of een gebeurtenis in de levenscyclus van het document."@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/document> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> ;
     rdfs:range xsd:date .
@@ -1337,7 +1337,7 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
 <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/document/datumontvangstdocument> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "datumOntvangstdocument"@nl ;
-    mim:definitie "<font color=\"#610e6a\">De datum waarop het DOCUMENT ontvangen is.</font>"@nl ;
+    mim:definitie "De datum waarop het DOCUMENT ontvangen is."@nl ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/document/datumontvangstdocument"^^xsd:anyURI ;
@@ -1350,7 +1350,7 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
     mim:naam "datumOntvangstdocument"@nl ;
     mim:type mim:Date ;
     dcterms:identifier "EAID_FFEE3095_1146_4106_A1ED_70A253812FA6" ;
-    rdfs:comment "<font color=\"#610e6a\">De datum waarop het DOCUMENT ontvangen is.</font>"@nl ;
+    rdfs:comment "De datum waarop het DOCUMENT ontvangen is."@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/document> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> ;
     rdfs:range xsd:date .
@@ -1358,7 +1358,7 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
 <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/document/datumverzendingdocument> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "datumVerzendingDocument"@nl ;
-    mim:definitie "<font color=\"#610e6a\">De datum waarop het DOCUMENT verzonden is.</font>"@nl ;
+    mim:definitie "De datum waarop het DOCUMENT verzonden is."@nl ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/document/datumverzendingdocument"^^xsd:anyURI ;
@@ -1371,7 +1371,7 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
     mim:naam "datumVerzendingDocument"@nl ;
     mim:type mim:Date ;
     dcterms:identifier "EAID_C06162CD_CFEA_4c04_BE26_76BC4DF42A16" ;
-    rdfs:comment "<font color=\"#610e6a\">De datum waarop het DOCUMENT verzonden is.</font>"@nl ;
+    rdfs:comment "De datum waarop het DOCUMENT verzonden is."@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/document> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> ;
     rdfs:range xsd:date .
@@ -1379,7 +1379,7 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
 <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/document/documentauteur> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "documentAuteur"@nl ;
-    mim:definitie "<font color=\"#610e6a\">De persoon of organisatie die in de eerste plaats verantwoordelijk is voor het creëren van de inhoud van het document.</font>"@nl ;
+    mim:definitie "De persoon of organisatie die in de eerste plaats verantwoordelijk is voor het creëren van de inhoud van het document."@nl ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/document/documentauteur"^^xsd:anyURI ;
@@ -1392,7 +1392,7 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
     mim:naam "documentAuteur"@nl ;
     mim:type mim:CharacterString ;
     dcterms:identifier "EAID_24277038_EF81_4e10_92BC_68AB8969FE4D" ;
-    rdfs:comment "<font color=\"#610e6a\">De persoon of organisatie die in de eerste plaats verantwoordelijk is voor het creëren van de inhoud van het document.</font>"@nl ;
+    rdfs:comment "De persoon of organisatie die in de eerste plaats verantwoordelijk is voor het creëren van de inhoud van het document."@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/document> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> ;
     rdfs:range xsd:string .
@@ -1400,8 +1400,8 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
 <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/document/documentidentificatie> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "documentIdentificatie"@nl ;
-    mim:definitie """<font color="#610e6a">Een binnen een gegeven context ondubbelzinnige referentie naar het document.</font>
-<font color="#610e6a">Bijvoorbeeld potsregistratienummer</font>"""@nl ;
+    mim:definitie """Een binnen een gegeven context ondubbelzinnige referentie naar het document.
+Bijvoorbeeld potsregistratienummer"""@nl ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/document/documentidentificatie"^^xsd:anyURI ;
@@ -1414,8 +1414,8 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
     mim:naam "documentIdentificatie"@nl ;
     mim:type mim:CharacterString ;
     dcterms:identifier "EAID_CB08FF35_EE64_4504_90CF_835DA32E636C" ;
-    rdfs:comment """<font color="#610e6a">Een binnen een gegeven context ondubbelzinnige referentie naar het document.</font>
-<font color="#610e6a">Bijvoorbeeld potsregistratienummer</font>"""@nl ;
+    rdfs:comment """Een binnen een gegeven context ondubbelzinnige referentie naar het document.
+Bijvoorbeeld potsregistratienummer"""@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/document> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> ;
     rdfs:range xsd:string .
@@ -1423,7 +1423,7 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
 <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/document/documenttitel> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "documentTitel"@nl ;
-    mim:definitie "<font color=\"#610e6a\">De naam waaronder het document formeel bekend is.</font>"@nl ;
+    mim:definitie "De naam waaronder het document formeel bekend is."@nl ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/document/documenttitel"^^xsd:anyURI ;
@@ -1436,7 +1436,7 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
     mim:naam "documentTitel"@nl ;
     mim:type mim:CharacterString ;
     dcterms:identifier "EAID_21E0EC21_5217_4582_A8B8_CA0EE3EFDFAD" ;
-    rdfs:comment "<font color=\"#610e6a\">De naam waaronder het document formeel bekend is.</font>"@nl ;
+    rdfs:comment "De naam waaronder het document formeel bekend is."@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/document> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> ;
     rdfs:range xsd:string .
@@ -1444,7 +1444,7 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
 <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/document/vertrouwelijkaanduiding> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "vertrouwelijkAanduiding"@nl ;
-    mim:definitie "<font color=\"#610e6a\">Aanduiding van de mate waarin het DOCUMENT voor de openbaarheid bestemd is.</font>"@nl ;
+    mim:definitie "Aanduiding van de mate waarin het DOCUMENT voor de openbaarheid bestemd is."@nl ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/document/vertrouwelijkaanduiding"^^xsd:anyURI ;
@@ -1457,7 +1457,7 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
     mim:naam "vertrouwelijkAanduiding"@nl ;
     mim:type mim:CharacterString ;
     dcterms:identifier "EAID_A7A897CF_ECB5_45c1_A0CD_698E1D66F2CF" ;
-    rdfs:comment "<font color=\"#610e6a\">Aanduiding van de mate waarin het DOCUMENT voor de openbaarheid bestemd is.</font>"@nl ;
+    rdfs:comment "Aanduiding van de mate waarin het DOCUMENT voor de openbaarheid bestemd is."@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/document> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> ;
     rdfs:range xsd:string .
@@ -1976,7 +1976,7 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/document"^^xsd:anyURI ;
     mim:indicatieAbstractObject false ;
     mim:naam "Document"@nl ;
-    mim:populatie "Voor objecttypen die deel uitmaken van een (basis)registratie betreft dit de beschrijving van de exemplaren van het gedefinieerde objecttype die in de desbetreffende (basis)-registratie voorhanden zijn.#NOTES#Voor objecttypen die deel uitmaken van een (basis)registratie betreft dit de beschrijving van de exemplaren van het gedefinieerde objecttype die in de desbetreffende (basis)-registratie voorhanden zijn.#NOTES#Voor objecttypen die deel uitmaken van een (basis)registratie betreft dit de beschrijving van de exemplaren van het gedefinieerde objecttype die in de desbetreffende (basis)-registratie voorhanden zijn.#NOTES#Voor objecttypen die deel uitmaken van een (basis)registratie betreft dit de beschrijving van de exemplaren van het gedefinieerde objecttype die in de desbetreffende (basis)-registratie voorhanden zijn.#NOTES#Voor objecttypen die deel uitmaken van een (basis)registratie betreft dit de beschrijving van de exemplaren van het gedefinieerde objecttype die in de desbetreffende (basis)-registratie voorhanden zijn.#NOTES#Voor objecttypen die deel uitmaken van een (basis)registratie betreft dit de beschrijving van de exemplaren van het gedefinieerde objecttype die in de desbetreffende (basis)-registratie voorhanden zijn.#NOTES#Voor objecttypen die deel uitmaken van een (basis)registratie betreft dit de beschrijving van de exemplaren van het gedefinieerde objecttype die in de desbetreffende (basis)-registratie voorhanden zijn.#NOTES#Voor objecttypen die deel uitmaken van een (basis)registratie betreft dit de beschrijving van de exemplaren van het gedefinieerde objecttype die in de desbetreffende (basis)-registratie voorhanden zijn.#NOTES#Voor objecttypen die deel uitmaken van een (basis)registratie betreft dit de beschrijving van de exemplaren van het gedefinieerde objecttype die in de desbetreffende (basis)-registratie voorhanden zijn.#NOTES#Voor objecttypen die deel uitmaken van een (basis)registratie betreft dit de beschrijving van de exemplaren van het gedefinieerde objecttype die in de desbetreffende (basis)-registratie voorhanden zijn.#NOTES#Voor objecttypen die deel uitmaken van een (basis)registratie betreft dit de beschrijving van de exemplaren van het gedefinieerde objecttype die in de desbetreffende (basis)-registratie voorhanden zijn.#NOTES#Voor objecttypen die deel uitmaken van een (basis)registratie betreft dit de beschrijving van de exemplaren van het gedefinieerde objecttype die in de desbetreffende (basis)-registratie voorhanden zijn.#NOTES#Voor objecttypen die deel uitmaken van een (basis)registratie betreft dit de beschrijving van de exemplaren van het gedefinieerde objecttype die in de desbetreffende (basis)-registratie voorhanden zijn." ;
+    mim:populatie "Voor objecttypen die deel uitmaken van een (basis)registratie betreft dit de beschrijving van de exemplaren van het gedefinieerde objecttype die in de desbetreffende (basis)-registratie voorhanden zijn." ;
     dcterms:identifier "EAID_5641C50A_C0FA_4e71_B07B_26C7B1CE94ED" ;
     rdfs:comment "Geheel van gegevens met een eigen identiteit ongeacht zijn vorm, met de bijbehorende metadata ontvangen of opgemaakt door een natuurlijke en/of rechtspersoon bij de uitvoering van taken, zijnde een ENKELVOUDIG DOCUMENT of een SAMENGESTELD DOCUMENT."@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> .
@@ -2000,7 +2000,7 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/bag/wijk"^^xsd:anyURI ;
     mim:indicatieAbstractObject false ;
     mim:naam "Wijk"@nl ;
-    mim:populatie "Alleen bestaande wijken maken deel uit van de populatie WIJK. Plantopografie maakt geen onderdeel uit van de populatie.#NOTES#Alleen bestaande wijken maken deel uit van de populatie WIJK. Plantopografie maakt geen onderdeel uit van de populatie.#NOTES#Alleen bestaande wijken maken deel uit van de populatie WIJK. Plantopografie maakt geen onderdeel uit van de populatie.#NOTES#Alleen bestaande wijken maken deel uit van de populatie WIJK. Plantopografie maakt geen onderdeel uit van de populatie.#NOTES#Alleen bestaande wijken maken deel uit van de populatie WIJK. Plantopografie maakt geen onderdeel uit van de populatie.#NOTES#Alleen bestaande wijken maken deel uit van de populatie WIJK. Plantopografie maakt geen onderdeel uit van de populatie.#NOTES#Alleen bestaande wijken maken deel uit van de populatie WIJK. Plantopografie maakt geen onderdeel uit van de populatie.#NOTES#Alleen bestaande wijken maken deel uit van de populatie WIJK. Plantopografie maakt geen onderdeel uit van de populatie.#NOTES#Alleen bestaande wijken maken deel uit van de populatie WIJK. Plantopografie maakt geen onderdeel uit van de populatie.#NOTES#Alleen bestaande wijken maken deel uit van de populatie WIJK. Plantopografie maakt geen onderdeel uit van de populatie.#NOTES#Alleen bestaande wijken maken deel uit van de populatie WIJK. Plantopografie maakt geen onderdeel uit van de populatie.#NOTES#Alleen bestaande wijken maken deel uit van de populatie WIJK. Plantopografie maakt geen onderdeel uit van de populatie.#NOTES#Alleen bestaande wijken maken deel uit van de populatie WIJK. Plantopografie maakt geen onderdeel uit van de populatie." ;
+    mim:populatie "Alleen bestaande wijken maken deel uit van de populatie WIJK. Plantopografie maakt geen onderdeel uit van de populatie." ;
     mim:toelichting "Het betreft hier de in overleg met het CBS bepaalde indeling van de gemeente in wijken."@nl ;
     dcterms:identifier "EAID_120EA50B_B9A2_4869_A3BE_46931F631D33" ;
     rdfs:comment "Een aaneengesloten gedeelte van het grondgebied van een gemeente, waarvan de grenzen zo veel mogelijk zijn gebaseerd op sociaal-geografische kenmerken."@nl ;
@@ -2080,12 +2080,12 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
         <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/verblijfsobject/status>,
         <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/verblijfsobject/toegangbouwlaag>,
         <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/verblijfsobject/versie> ;
-    mim:definitie "Een verblijfsobject is een kleinste binnen &#233;&#233;n of meer panden gelegen en voor woon-, bedrijfsmatige, of recreatieve doeleinden geschikte eenheid van gebruik die ontsloten wordt via een eigen afsluitbare toegang vanaf de openbare weg, een erf of een gedeelde verkeersruimte, onderwerp kan zijn van goederenrechtelijke rechtshandelingen en in functioneel opzicht zelfstandig is. Beschrijving: Een verblijfsobject is een ruimte in 1 of meer panden en voldoet aan de volgende eisen: kan worden gebruikt om in te wonen, een bedrijf in te hebben of om voor plezier in te verblijven, is bereikbaar via een eigen afsluitbare toegang vanaf de openbare weg, een erf of een gedeelde verkeersruimte, kan worden gekocht en verkocht, kan helemaal zelf worden gebruikt voor het doel dat ervoor is gegeven. Deze eisen voor verblijfsobjecten worden toegelicht in de Catalogus BAG 2018. Een verblijfsobject krijgt een adres."@nl ;
+    mim:definitie "Een verblijfsobject is een kleinste binnen één of meer panden gelegen en voor woon-, bedrijfsmatige, of recreatieve doeleinden geschikte eenheid van gebruik die ontsloten wordt via een eigen afsluitbare toegang vanaf de openbare weg, een erf of een gedeelde verkeersruimte, onderwerp kan zijn van goederenrechtelijke rechtshandelingen en in functioneel opzicht zelfstandig is. Beschrijving: Een verblijfsobject is een ruimte in 1 of meer panden en voldoet aan de volgende eisen: kan worden gebruikt om in te wonen, een bedrijf in te hebben of om voor plezier in te verblijven, is bereikbaar via een eigen afsluitbare toegang vanaf de openbare weg, een erf of een gedeelde verkeersruimte, kan worden gekocht en verkocht, kan helemaal zelf worden gebruikt voor het doel dat ervoor is gegeven. Deze eisen voor verblijfsobjecten worden toegelicht in de Catalogus BAG 2018. Een verblijfsobject krijgt een adres."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/bag/verblijfsobject"^^xsd:anyURI ;
     mim:indicatieAbstractObject false ;
     mim:naam "Verblijfsobject"@nl ;
     dcterms:identifier "EAID_461EFCF0_E65E_4c7c_B44D_8F36C36FDCE4" ;
-    rdfs:comment "Een verblijfsobject is een kleinste binnen &#233;&#233;n of meer panden gelegen en voor woon-, bedrijfsmatige, of recreatieve doeleinden geschikte eenheid van gebruik die ontsloten wordt via een eigen afsluitbare toegang vanaf de openbare weg, een erf of een gedeelde verkeersruimte, onderwerp kan zijn van goederenrechtelijke rechtshandelingen en in functioneel opzicht zelfstandig is. Beschrijving: Een verblijfsobject is een ruimte in 1 of meer panden en voldoet aan de volgende eisen: kan worden gebruikt om in te wonen, een bedrijf in te hebben of om voor plezier in te verblijven, is bereikbaar via een eigen afsluitbare toegang vanaf de openbare weg, een erf of een gedeelde verkeersruimte, kan worden gekocht en verkocht, kan helemaal zelf worden gebruikt voor het doel dat ervoor is gegeven. Deze eisen voor verblijfsobjecten worden toegelicht in de Catalogus BAG 2018. Een verblijfsobject krijgt een adres."@nl ;
+    rdfs:comment "Een verblijfsobject is een kleinste binnen één of meer panden gelegen en voor woon-, bedrijfsmatige, of recreatieve doeleinden geschikte eenheid van gebruik die ontsloten wordt via een eigen afsluitbare toegang vanaf de openbare weg, een erf of een gedeelde verkeersruimte, onderwerp kan zijn van goederenrechtelijke rechtshandelingen en in functioneel opzicht zelfstandig is. Beschrijving: Een verblijfsobject is een ruimte in 1 of meer panden en voldoet aan de volgende eisen: kan worden gebruikt om in te wonen, een bedrijf in te hebben of om voor plezier in te verblijven, is bereikbaar via een eigen afsluitbare toegang vanaf de openbare weg, een erf of een gedeelde verkeersruimte, kan worden gekocht en verkocht, kan helemaal zelf worden gebruikt voor het doel dat ervoor is gegeven. Deze eisen voor verblijfsobjecten worden toegelicht in de Catalogus BAG 2018. Een verblijfsobject krijgt een adres."@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/soortwoonobject> a mim:Enumeratie,

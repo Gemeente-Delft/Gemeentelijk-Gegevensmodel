@@ -113,7 +113,7 @@ Attributen van objecttype Adresaanduiding
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | CorrespondentieadresBuitenland |
-    | toelichting | #NOTES# Een correspondentie adres kan een lokatie adres zijn (oftewel een adres van een fysiek als zondanig aangeduide lokatie) of een postadres in het buitenland.#NOTES# Een correspondentie adres kan een lokatie adres zijn (oftewel een adres van een fysiek als zondanig aangeduide lokatie) of een postadres in het buitenland. |
+    | toelichting |  |
     | synoniemen |  |
     | uri |  |
     | bron |  |
@@ -155,7 +155,7 @@ Attributen van objecttype CorrespondentieadresBuitenland
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | GeboorteIngeschrevenNatuurlijkPersoon |
-    | toelichting | #NOTES#.Zie verder de toelichting in de BRP.#NOTES#.Zie verder de toelichting in de BRP. |
+    | toelichting |  |
     | synoniemen |  |
     | uri |  |
     | bron |  |
@@ -347,7 +347,7 @@ Attributen van objecttype KoopsomKadastraleOnroerendeZaak
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | LocatieKadastraleOnroerendeZaak |
-    | toelichting | #NOTES#Het betreft een gegevensgroeptype dat bestaat uit de volgende attribuutsoorten:<br>Locatie-omschrijving<br>Cultuur bebouwd<br>De Locatie onroerende zaak is in het RSGB opgenomen als een ruimtelijke relatie naar BENOEMD OBJECT (GEBOUWD OBJECT of BENOEMD TERREIN) dan wel een omschrijving van de locatie door middel van woonplaats- en straatnaam of door middel van adres i.c.m. een bij- of tegenover-aanduiding. Zie ook de toelichting bij KADASTRALE ONROERENDE ZAAK.#NOTES#Het betreft een gegevensgroeptype dat bestaat uit de volgende attribuutsoorten:<br>Locatie-omschrijving<br>Cultuur bebouwd<br>De Locatie onroerende zaak is in het RSGB opgenomen als een ruimtelijke relatie naar BENOEMD OBJECT (GEBOUWD OBJECT of BENOEMD TERREIN) dan wel een omschrijving van de locatie door middel van woonplaats- en straatnaam of door middel van adres i.c.m. een bij- of tegenover-aanduiding. Zie ook de toelichting bij KADASTRALE ONROERENDE ZAAK. |
+    | toelichting |  |
     | synoniemen |  |
     | uri |  |
     | bron |  |
@@ -384,7 +384,7 @@ Attributen van objecttype LocatieKadastraleOnroerendeZaak
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | MigratieIngeschrevenNatuurlijkPersoon |
-    | toelichting | #NOTES# #NOTES# |
+    | toelichting |  |
     | synoniemen |  |
     | uri |  |
     | bron |  |
@@ -461,7 +461,7 @@ Attributen van objecttype NaamAanschrijvingNatuurlijkPersoon
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | NaamgebruikNatuurlijkPersoon |
-    | toelichting | #NOTES# #NOTES# |
+    | toelichting |  |
     | synoniemen |  |
     | uri |  |
     | bron |  |
@@ -538,7 +538,7 @@ Attributen van objecttype NaamNatuurlijkPersoon
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | NationaliteitIngeschrevenNatuurlijkPersoon |
-    | toelichting | #NOTES#Zie verder de toelichting in de BRP.#NOTES#Zie verder de toelichting in de BRP.#NOTES#Zie verder de toelichting in de BRP.#NOTES#Zie verder de toelichting in de BRP.#NOTES#Zie verder de toelichting in de BRP.#NOTES#Zie verder de toelichting in de BRP.#NOTES#Zie verder de toelichting in de BRP.#NOTES#Zie verder de toelichting in de BRP.#NOTES#Zie verder de toelichting in de BRP.#NOTES#Zie verder de toelichting in de BRP.#NOTES#Zie verder de toelichting in de BRP.#NOTES#Zie verder de toelichting in de BRP.#NOTES#Zie verder de toelichting in de BRP. |
+    | toelichting | Zie verder de toelichting in de BRP. |
     | synoniemen |  |
     | uri |  |
     | bron |  |
@@ -616,7 +616,7 @@ Attributen van objecttype NederlandseNationaliteitIngeschrevenPersoon
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | OntbindingHuwelijk/geregistreerdPartnerschap |
-    | toelichting | #NOTES# #NOTES# |
+    | toelichting |  |
     | synoniemen |  |
     | uri |  |
     | bron |  |
@@ -658,7 +658,7 @@ Attributen van objecttype OntbindingHuwelijk/geregistreerdPartnerschap
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | OverlijdenIngeschrevenNatuurlijkPersoon |
-    | toelichting | #NOTES#Zie verder de toelichting in de BRP.#NOTES#Zie verder de toelichting in de BRP.#NOTES#Zie verder de toelichting in de BRP.#NOTES#Zie verder de toelichting in de BRP.#NOTES#Zie verder de toelichting in de BRP.#NOTES#Zie verder de toelichting in de BRP.#NOTES#Zie verder de toelichting in de BRP.#NOTES#Zie verder de toelichting in de BRP.#NOTES#Zie verder de toelichting in de BRP.#NOTES#Zie verder de toelichting in de BRP.#NOTES#Zie verder de toelichting in de BRP.#NOTES#Zie verder de toelichting in de BRP.#NOTES#Zie verder de toelichting in de BRP. |
+    | toelichting | Zie verder de toelichting in de BRP. |
     | synoniemen |  |
     | uri |  |
     | bron |  |
@@ -737,7 +737,7 @@ Attributen van objecttype OverlijdenIngeschrevenPersoon
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Postadres |
-    | toelichting | #NOTES#Het betreft een gegevensgroeptype dat bestaat uit de volgende attribuutsoorten:<br>Postadrestype,<br>Postbus- of antwoordnummer,<br>Postadres postcode,<br>en het volgende relatiesoort:<br>SUBJECT heeft postadres dat zich bevindt in WOONPLAATS.#NOTES#Het betreft een gegevensgroeptype dat bestaat uit de volgende attribuutsoorten:<br>Postadrestype,<br>Postbus- of antwoordnummer,<br>Postadres postcode,<br>en het volgende relatiesoort:<br>SUBJECT heeft postadres dat zich bevindt in WOONPLAATS. |
+    | toelichting |  |
     | synoniemen |  |
     | uri |  |
     | bron |  |
@@ -775,7 +775,7 @@ Attributen van objecttype Postadres
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Rekeningnummer |
-    | toelichting | #NOTES#In tegenstelling tot het GFO BG is hier alleen sprake van één rekeningnummer dat het subject beschouwt als zijn ‘primaire’ rekeningnummer.<br>#NOTES#In tegenstelling tot het GFO BG is hier alleen sprake van één rekeningnummer dat het subject beschouwt als zijn ‘primaire’ rekeningnummer. |
+    | toelichting |  |
     | synoniemen |  |
     | uri |  |
     | bron |  |
@@ -812,7 +812,7 @@ Attributen van objecttype Rekeningnummer
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | SamengesteldeNaamNatuurlijkPersoon |
-    | toelichting | #NOTES#Zie de BRP voor verdere toelichting#NOTES#Zie de BRP voor verdere toelichting#NOTES#Zie de BRP voor verdere toelichting#NOTES#Zie de BRP voor verdere toelichting#NOTES#Zie de BRP voor verdere toelichting#NOTES#Zie de BRP voor verdere toelichting#NOTES#Zie de BRP voor verdere toelichting#NOTES#Zie de BRP voor verdere toelichting#NOTES#Zie de BRP voor verdere toelichting#NOTES#Zie de BRP voor verdere toelichting#NOTES#Zie de BRP voor verdere toelichting#NOTES#Zie de BRP voor verdere toelichting#NOTES#Zie de BRP voor verdere toelichting |
+    | toelichting | Zie de BRP voor verdere toelichting |
     | synoniemen |  |
     | uri |  |
     | bron |  |
@@ -891,7 +891,7 @@ Attributen van objecttype SBIActiviteitVestiging
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | SluitingOfAangaanHuwelijkOfGeregistreerdPartnerschap |
-    | toelichting | #NOTES# #NOTES# |
+    | toelichting |  |
     | synoniemen |  |
     | uri |  |
     | bron |  |
@@ -1117,7 +1117,7 @@ Attributen van objecttype SoortSpoor
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | SplitsingstekeningReferentie |
-    | toelichting | #NOTES#Binnengemeentelijk wordt vaak gebruik gemaakt van de splitsingstekening van een APPARTEMENSRECHTSPLITSING. Voldoende is het een aantal (identificerende) gegevens van de tekening vast te leggen zodat de tekening opgevraagd kan worden.#NOTES#Binnengemeentelijk wordt vaak gebruik gemaakt van de splitsingstekening van een APPARTEMENSRECHTSPLITSING. Voldoende is het een aantal (identificerende) gegevens van de tekening vast te leggen zodat de tekening opgevraagd kan worden. |
+    | toelichting |  |
     | synoniemen |  |
     | uri |  |
     | bron |  |
@@ -1156,7 +1156,7 @@ Attributen van objecttype SplitsingstekeningReferentie
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | VerblijfadresIngeschrevenNatuurlijkPersoon |
-    | toelichting | #NOTES#Het betreft een gegevensgroeptype dat bestaat uit de volgende (groep)attribuutsoorten:<br>Adresherkomst<br>Locatie beschrijving<br>en de volgende relatiesoorten:<br>is ingeschreven op NUMMERAANDUIDING<br>verblijft op LIGPLAATS<br>verblijft op STANDPLAATS.<br>verblijft in VERBLIJFSOBJECT<br>verblijft op locatie in WOONPLAATS<br>Het gegevensgroeptype is ontleend aan de groep Adres (A.1.13) in de BRP (versie 1.0, oktober 2014). Daarin betreft een verblijfadres van een persoon telkens een woon- of een briefadres. Met het gegevensgroeptype Verblijfsadres modelleren we v.w.b. de BRP alleen verblijfadressen zijnde woonadressen. BRP-verblijfplaatsen zijnde briefadressen modelleren we als correspondentieadres bij SUBJECT. Indien in de BRP bij een persoon alleen een briefadres is opgenomen, kan een andere bron toch beschikken over een woonadres. Vandaar dat met de attribuutsoort Adresherkomst wordt aangegeven of het verblijfadres al dan niet als authentieke bron de BRP heeft. Zie ook de toelichting bij laatstgenoemd attribuutsoort.#NOTES#Het betreft een gegevensgroeptype dat bestaat uit de volgende (groep)attribuutsoorten:<br>Adresherkomst<br>Locatie beschrijving<br>en de volgende relatiesoorten:<br>is ingeschreven op NUMMERAANDUIDING<br>verblijft op LIGPLAATS<br>verblijft op STANDPLAATS.<br>verblijft in VERBLIJFSOBJECT<br>verblijft op locatie in WOONPLAATS<br>Het gegevensgroeptype is ontleend aan de groep Adres (A.1.13) in de BRP (versie 1.0, oktober 2014). Daarin betreft een verblijfadres van een persoon telkens een woon- of een briefadres. Met het gegevensgroeptype Verblijfsadres modelleren we v.w.b. de BRP alleen verblijfadressen zijnde woonadressen. BRP-verblijfplaatsen zijnde briefadressen modelleren we als correspondentieadres bij SUBJECT. Indien in de BRP bij een persoon alleen een briefadres is opgenomen, kan een andere bron toch beschikken over een woonadres. Vandaar dat met de attribuutsoort Adresherkomst wordt aangegeven of het verblijfadres al dan niet als authentieke bron de BRP heeft. Zie ook de toelichting bij laatstgenoemd attribuutsoort. |
+    | toelichting |  |
     | synoniemen |  |
     | uri |  |
     | bron |  |
@@ -1230,7 +1230,7 @@ Attributen van objecttype VerblijfadresIngeschrevenPersoon
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | VerblijfBuitenland |
-    | toelichting | #NOTES# Voor een ingezetene (die emigreert) kan dit het buitenlandse adres zijn dat vastgesteld is door een aangewezen bestuursorgaan of het voorlopige adres vastgesteld door een college. Zie ook attribuutsoort Bron adres buitenland van INGESCHREVEN NATUURLIJK PERSOON.#NOTES# Voor een ingezetene (die emigreert) kan dit het buitenlandse adres zijn dat vastgesteld is door een aangewezen bestuursorgaan of het voorlopige adres vastgesteld door een college. Zie ook attribuutsoort Bron adres buitenland van INGESCHREVEN NATUURLIJK PERSOON. |
+    | toelichting |  |
     | synoniemen |  |
     | uri |  |
     | bron |  |
@@ -1311,7 +1311,7 @@ Attributen van objecttype VerblijfBuitenlandSubject
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | VerblijfsrechtIngeschrevenNatuurlijkPersoon |
-    | toelichting | #NOTES# #NOTES# |
+    | toelichting |  |
     | synoniemen |  |
     | uri |  |
     | bron |  |
@@ -1350,7 +1350,7 @@ Attributen van objecttype VerblijfsrechtIngeschrevenNatuurlijkPersoon
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | VerstrekkingsbeperkingPartieelIngeschrevenNatuurlijkPersoon |
-    | toelichting | #NOTES#Een INGESCHREVEN NATUURLIJK PERSOON kan ook kiezen om volledige verstrekkingsbeperking te hebben. Zie het betreffende attribuut.#NOTES#Een INGESCHREVEN NATUURLIJK PERSOON kan ook kiezen om volledige verstrekkingsbeperking te hebben. Zie het betreffende attribuut. |
+    | toelichting |  |
     | synoniemen |  |
     | uri |  |
     | bron |  |

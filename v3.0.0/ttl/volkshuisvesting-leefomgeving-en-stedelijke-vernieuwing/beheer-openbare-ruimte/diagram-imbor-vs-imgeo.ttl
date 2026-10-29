@@ -1681,7 +1681,7 @@ chevrons, die het verkeer attendeert op een gevarenpunt."""@nl ;
         owl:ObjectProperty ;
     rdfs:label "typeInrichtingselement"@nl ;
     mim:datumOpname "2016-05-01"^^xsd:date ;
-    mim:definitie "<font color=\"#610e6a\">Specificatie van de aard van het inrichtingselement.</font>"@nl ;
+    mim:definitie "Specificatie van de aard van het inrichtingselement."@nl ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:herkomst "KING" ;
@@ -1696,7 +1696,7 @@ chevrons, die het verkeer attendeert op een gevarenpunt."""@nl ;
     mim:naam "typeInrichtingselement"@nl ;
     mim:type <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/typeringinrichtingselement> ;
     dcterms:identifier "EAID_72FF19B2_0473_418e_A582_EFEAED4410F0" ;
-    rdfs:comment "<font color=\"#610e6a\">Specificatie van de aard van het inrichtingselement.</font>"@nl ;
+    rdfs:comment "Specificatie van de aard van het inrichtingselement."@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/inrichtingselement> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
     rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/typeringinrichtingselement> .
@@ -2676,19 +2676,7 @@ overige benoemde ruimtelijke objecten of een ander inrichtingselement."""@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/inrichtingselement"^^xsd:anyURI ;
     mim:indicatieAbstractObject false ;
     mim:naam "Inrichtingselement"@nl ;
-    mim:populatie """Inrichtingselement objecten met status plan en een einddatum maken geen deel uit van de verzameling inrichtingselementen.
-#NOTES#Inrichtingselement objecten met status plan en een einddatum maken geen deel uit van de verzameling inrichtingselementen.
-#NOTES#Inrichtingselement objecten met status plan en een einddatum maken geen deel uit van de verzameling inrichtingselementen.
-#NOTES#Inrichtingselement objecten met status plan en een einddatum maken geen deel uit van de verzameling inrichtingselementen.
-#NOTES#Inrichtingselement objecten met status plan en een einddatum maken geen deel uit van de verzameling inrichtingselementen.
-#NOTES#Inrichtingselement objecten met status plan en een einddatum maken geen deel uit van de verzameling inrichtingselementen.
-#NOTES#Inrichtingselement objecten met status plan en een einddatum maken geen deel uit van de verzameling inrichtingselementen.
-#NOTES#Inrichtingselement objecten met status plan en een einddatum maken geen deel uit van de verzameling inrichtingselementen.
-#NOTES#Inrichtingselement objecten met status plan en een einddatum maken geen deel uit van de verzameling inrichtingselementen.
-#NOTES#Inrichtingselement objecten met status plan en een einddatum maken geen deel uit van de verzameling inrichtingselementen.
-#NOTES#Inrichtingselement objecten met status plan en een einddatum maken geen deel uit van de verzameling inrichtingselementen.
-#NOTES#Inrichtingselement objecten met status plan en een einddatum maken geen deel uit van de verzameling inrichtingselementen.
-#NOTES#Inrichtingselement objecten met status plan en een einddatum maken geen deel uit van de verzameling inrichtingselementen.""" ;
+    mim:populatie "Inrichtingselement objecten met status plan en een einddatum maken geen deel uit van de verzameling inrichtingselementen." ;
     dcterms:identifier "EAID_4DA0EB59_963C_4558_B763_44F542BC8D89" ;
     rdfs:comment """Ruimtelijk object al dan niet ter detaillering dan wel ter inrichting van de
 overige benoemde ruimtelijke objecten of een ander inrichtingselement."""@nl ;

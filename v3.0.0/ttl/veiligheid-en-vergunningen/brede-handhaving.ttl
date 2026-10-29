@@ -13,7 +13,7 @@
     rdfs:label "adresBinnenland"@nl ;
     mim:aggregatietype mim:Geen ;
     mim:bron <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/object> ;
-    mim:definitie "<font color=\"#610e6a\">De aanduiding van het adres van het OBJECT indien dit adres in Nederland gelegen is.</font>"@nl ;
+    mim:definitie "De aanduiding van het adres van het OBJECT indien dit adres in Nederland gelegen is."@nl ;
     mim:doel <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/binnenlandsadres> ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
@@ -26,7 +26,7 @@
     mim:naam "adresBinnenland"@nl ;
     mim:unidirectioneel true ;
     dcterms:identifier "EAID_6EDA0027_C339_409b_8074_868049945E06" ;
-    rdfs:comment "<font color=\"#610e6a\">De aanduiding van het adres van het OBJECT indien dit adres in Nederland gelegen is.</font>"@nl ;
+    rdfs:comment "De aanduiding van het adres van het OBJECT indien dit adres in Nederland gelegen is."@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/object> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> ;
     rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/binnenlandsadres> .
@@ -616,7 +616,7 @@
 <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/object/adresbuitenland> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "adresBuitenland"@nl ;
-    mim:definitie "<font color=\"#610e6a\">De aanduiding van het adres waar specialisaties van het OBJECT zijnde een SUBJECT dan wel een specialisatie daarvan, verblijft dan wel bereikbaar is in het buitenland.</font>"@nl ;
+    mim:definitie "De aanduiding van het adres waar specialisaties van het OBJECT zijnde een SUBJECT dan wel een specialisatie daarvan, verblijft dan wel bereikbaar is in het buitenland."@nl ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/object/adresbuitenland"^^xsd:anyURI ;
@@ -629,7 +629,7 @@
     mim:naam "adresBuitenland"@nl ;
     mim:type mim:CharacterString ;
     dcterms:identifier "EAID_ACCB6EC2_C40B_471f_BE6E_2FA826B0B977" ;
-    rdfs:comment "<font color=\"#610e6a\">De aanduiding van het adres waar specialisaties van het OBJECT zijnde een SUBJECT dan wel een specialisatie daarvan, verblijft dan wel bereikbaar is in het buitenland.</font>"@nl ;
+    rdfs:comment "De aanduiding van het adres waar specialisaties van het OBJECT zijnde een SUBJECT dan wel een specialisatie daarvan, verblijft dan wel bereikbaar is in het buitenland."@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/object> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> ;
     rdfs:range xsd:string .
@@ -658,7 +658,7 @@
 <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/object/geometrie> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "geometrie"@nl ;
-    mim:definitie "<font color=\"#610e6a\">De minimaal tweedimensionale geometrische representatie van het OBJECT.</font>"@nl ;
+    mim:definitie "De minimaal tweedimensionale geometrische representatie van het OBJECT."@nl ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/object/geometrie"^^xsd:anyURI ;
@@ -671,7 +671,7 @@
     mim:naam "geometrie"@nl ;
     mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/point> ;
     dcterms:identifier "EAID_304BC3DE_C85F_4ba0_9DD4_9B728BFEC683" ;
-    rdfs:comment "<font color=\"#610e6a\">De minimaal tweedimensionale geometrische representatie van het OBJECT.</font>"@nl ;
+    rdfs:comment "De minimaal tweedimensionale geometrische representatie van het OBJECT."@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/object> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> ;
     rdfs:range geo:wktLiteral .
@@ -679,7 +679,7 @@
 <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/object/identificatie> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "identificatie"@nl ;
-    mim:definitie "<font color=\"#610e6a\">De unieke identificatie van het OBJECT</font>"@nl ;
+    mim:definitie "De unieke identificatie van het OBJECT"@nl ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/object/identificatie"^^xsd:anyURI ;
@@ -692,7 +692,7 @@
     mim:naam "identificatie"@nl ;
     mim:type mim:CharacterString ;
     dcterms:identifier "EAID_5DEDC77B_B226_4066_8F66_F3AF4C7DF322" ;
-    rdfs:comment "<font color=\"#610e6a\">De unieke identificatie van het OBJECT</font>"@nl ;
+    rdfs:comment "De unieke identificatie van het OBJECT"@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/object> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> ;
     rdfs:range xsd:string .
@@ -721,7 +721,7 @@
 <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/object/kadastraleaanduiding> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "kadastraleAanduiding"@nl ;
-    mim:definitie "<font color=\"#610e6a\">De kadastrale aanduiding van het OBJECT</font>"@nl ;
+    mim:definitie "De kadastrale aanduiding van het OBJECT"@nl ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/object/kadastraleaanduiding"^^xsd:anyURI ;
@@ -734,7 +734,7 @@
     mim:naam "kadastraleAanduiding"@nl ;
     mim:type mim:CharacterString ;
     dcterms:identifier "EAID_CA61EE89_9AC3_469b_B10E_3655E4B9F73E" ;
-    rdfs:comment "<font color=\"#610e6a\">De kadastrale aanduiding van het OBJECT</font>"@nl ;
+    rdfs:comment "De kadastrale aanduiding van het OBJECT"@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/object> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> ;
     rdfs:range xsd:string .
@@ -742,7 +742,7 @@
 <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/object/naam> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "naam"@nl ;
-    mim:definitie "<font color=\"#610e6a\">De benaming van het OBJECT indien dit een SUBJECT of specialisatie daarvan is.</font>"@nl ;
+    mim:definitie "De benaming van het OBJECT indien dit een SUBJECT of specialisatie daarvan is."@nl ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/object/naam"^^xsd:anyURI ;
@@ -755,7 +755,7 @@
     mim:naam "naam"@nl ;
     mim:type mim:CharacterString ;
     dcterms:identifier "EAID_3A5FE771_F110_440c_B469_47D993BB6C85" ;
-    rdfs:comment "<font color=\"#610e6a\">De benaming van het OBJECT indien dit een SUBJECT of specialisatie daarvan is.</font>"@nl ;
+    rdfs:comment "De benaming van het OBJECT indien dit een SUBJECT of specialisatie daarvan is."@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/object> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> ;
     rdfs:range xsd:string .
@@ -763,10 +763,10 @@
 <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/object/objecttype> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "objecttype"@nl ;
-    mim:definitie """<font color="#610e6a">Het onderscheid van een OBJECT naar haar specialisatiies.</font>
-<font color="#610e6a">De code voor de Objecttypering gevolgd door de unieke aanduiding van de specialisatie (van OBJECT):</font>
-<font color="#610e6a">ADRESSEERBAAR OBJECT AANDUIDING, BENOEMD OBJECT, BESLUIT, BUURT, ENKELVOUDIG INFORMATIEOBJECT, GEMEENTE, GEMEENTELIJKE OPENBARE RUIMTE, HUISHOUDEN, INRICHTINGSELEMENT, KADASTRALE ONROERENDE ZAAK, KUNSTWERKDEEL, MAATSSCHAPPELIJKE ACTIVITEIT, MEDEWERKER, OPENBARE RUIMTE, SAMENGESTELD INFORMATIEOBJECT, ORGANISATORISCHE EENHEID, PAND, SPOORBAANDEEL, STATUS, SUBJECT, TERREINDEEL, WATERDEEL, WEGDEEL, WIJK, WOONPLAATS, WOZ- DEELOBJECT, WOZ-OBJECT, WOZ-WAARDE of</font>
-<font color="#610e6a">ZAKELIJK RECHT (of afleidbare identificatie).</font>"""@nl ;
+    mim:definitie """Het onderscheid van een OBJECT naar haar specialisatiies.
+De code voor de Objecttypering gevolgd door de unieke aanduiding van de specialisatie (van OBJECT):
+ADRESSEERBAAR OBJECT AANDUIDING, BENOEMD OBJECT, BESLUIT, BUURT, ENKELVOUDIG INFORMATIEOBJECT, GEMEENTE, GEMEENTELIJKE OPENBARE RUIMTE, HUISHOUDEN, INRICHTINGSELEMENT, KADASTRALE ONROERENDE ZAAK, KUNSTWERKDEEL, MAATSSCHAPPELIJKE ACTIVITEIT, MEDEWERKER, OPENBARE RUIMTE, SAMENGESTELD INFORMATIEOBJECT, ORGANISATORISCHE EENHEID, PAND, SPOORBAANDEEL, STATUS, SUBJECT, TERREINDEEL, WATERDEEL, WEGDEEL, WIJK, WOONPLAATS, WOZ- DEELOBJECT, WOZ-OBJECT, WOZ-WAARDE of
+ZAKELIJK RECHT (of afleidbare identificatie)."""@nl ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/object/objecttype"^^xsd:anyURI ;
@@ -779,10 +779,10 @@
     mim:naam "objecttype"@nl ;
     mim:type mim:CharacterString ;
     dcterms:identifier "EAID_3E9763FA_E158_4e08_99A6_735E61E2247A" ;
-    rdfs:comment """<font color="#610e6a">Het onderscheid van een OBJECT naar haar specialisatiies.</font>
-<font color="#610e6a">De code voor de Objecttypering gevolgd door de unieke aanduiding van de specialisatie (van OBJECT):</font>
-<font color="#610e6a">ADRESSEERBAAR OBJECT AANDUIDING, BENOEMD OBJECT, BESLUIT, BUURT, ENKELVOUDIG INFORMATIEOBJECT, GEMEENTE, GEMEENTELIJKE OPENBARE RUIMTE, HUISHOUDEN, INRICHTINGSELEMENT, KADASTRALE ONROERENDE ZAAK, KUNSTWERKDEEL, MAATSSCHAPPELIJKE ACTIVITEIT, MEDEWERKER, OPENBARE RUIMTE, SAMENGESTELD INFORMATIEOBJECT, ORGANISATORISCHE EENHEID, PAND, SPOORBAANDEEL, STATUS, SUBJECT, TERREINDEEL, WATERDEEL, WEGDEEL, WIJK, WOONPLAATS, WOZ- DEELOBJECT, WOZ-OBJECT, WOZ-WAARDE of</font>
-<font color="#610e6a">ZAKELIJK RECHT (of afleidbare identificatie).</font>"""@nl ;
+    rdfs:comment """Het onderscheid van een OBJECT naar haar specialisatiies.
+De code voor de Objecttypering gevolgd door de unieke aanduiding van de specialisatie (van OBJECT):
+ADRESSEERBAAR OBJECT AANDUIDING, BENOEMD OBJECT, BESLUIT, BUURT, ENKELVOUDIG INFORMATIEOBJECT, GEMEENTE, GEMEENTELIJKE OPENBARE RUIMTE, HUISHOUDEN, INRICHTINGSELEMENT, KADASTRALE ONROERENDE ZAAK, KUNSTWERKDEEL, MAATSSCHAPPELIJKE ACTIVITEIT, MEDEWERKER, OPENBARE RUIMTE, SAMENGESTELD INFORMATIEOBJECT, ORGANISATORISCHE EENHEID, PAND, SPOORBAANDEEL, STATUS, SUBJECT, TERREINDEEL, WATERDEEL, WEGDEEL, WIJK, WOONPLAATS, WOZ- DEELOBJECT, WOZ-OBJECT, WOZ-WAARDE of
+ZAKELIJK RECHT (of afleidbare identificatie)."""@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/object> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> ;
     rdfs:range xsd:string .

@@ -179,7 +179,7 @@ Attributen van objecttype Verblijfstitel
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | AardAantekening |
-    | toelichting | #NOTES#zie http://www.kadaster.nl/schemas/waardelijsten/AardAantekening#NOTES#zie http://www.kadaster.nl/schemas/waardelijsten/AardAantekening#NOTES#zie http://www.kadaster.nl/schemas/waardelijsten/AardAantekening#NOTES#zie http://www.kadaster.nl/schemas/waardelijsten/AardAantekening#NOTES#zie http://www.kadaster.nl/schemas/waardelijsten/AardAantekening#NOTES#zie http://www.kadaster.nl/schemas/waardelijsten/AardAantekening#NOTES#zie http://www.kadaster.nl/schemas/waardelijsten/AardAantekening#NOTES#zie http://www.kadaster.nl/schemas/waardelijsten/AardAantekening#NOTES#zie http://www.kadaster.nl/schemas/waardelijsten/AardAantekening#NOTES#zie http://www.kadaster.nl/schemas/waardelijsten/AardAantekening#NOTES#zie http://www.kadaster.nl/schemas/waardelijsten/AardAantekening#NOTES#zie http://www.kadaster.nl/schemas/waardelijsten/AardAantekening#NOTES#zie http://www.kadaster.nl/schemas/waardelijsten/AardAantekening |
+    | toelichting | zie http://www.kadaster.nl/schemas/waardelijsten/AardAantekening |
     | synoniemen |  |
     | uri |  |
     | bron |  |
@@ -613,7 +613,7 @@ Attributen van objecttype Provincie
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Partij |
-    | toelichting | Het gaat hier om partijen die onder andere verantwoordelijk zijn van de bijhouding van gegevens en gekozen kunnen zijn i.v.m. verstrekkingsbeperkingen.<br>#NOTES#Het gaat hier om partijen die onder andere verantwoordelijk zijn van de bijhouding van gegevens en gekozen kunnen zijn i.v.m. verstrekkingsbeperkingen.<br>#NOTES#Het gaat hier om partijen die onder andere verantwoordelijk zijn van de bijhouding van gegevens en gekozen kunnen zijn i.v.m. verstrekkingsbeperkingen.<br>#NOTES#Het gaat hier om partijen die onder andere verantwoordelijk zijn van de bijhouding van gegevens en gekozen kunnen zijn i.v.m. verstrekkingsbeperkingen.<br>#NOTES#Het gaat hier om partijen die onder andere verantwoordelijk zijn van de bijhouding van gegevens en gekozen kunnen zijn i.v.m. verstrekkingsbeperkingen.<br>#NOTES#Het gaat hier om partijen die onder andere verantwoordelijk zijn van de bijhouding van gegevens en gekozen kunnen zijn i.v.m. verstrekkingsbeperkingen.<br>#NOTES#Het gaat hier om partijen die onder andere verantwoordelijk zijn van de bijhouding van gegevens en gekozen kunnen zijn i.v.m. verstrekkingsbeperkingen.<br>#NOTES#Het gaat hier om partijen die onder andere verantwoordelijk zijn van de bijhouding van gegevens en gekozen kunnen zijn i.v.m. verstrekkingsbeperkingen. |
+    | toelichting | Het gaat hier om partijen die onder andere verantwoordelijk zijn van de bijhouding van gegevens en gekozen kunnen zijn i.v.m. verstrekkingsbeperkingen. |
     | synoniemen |  |
     | uri |  |
     | bron |  |
@@ -771,7 +771,7 @@ Attributen van objecttype Reisdocumentsoort
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | SBIActiviteit |
-    | toelichting | #NOTES#Maximaal een keer per jaar kan er een nieuwe versie van SBI 2008 uitgebracht worden, Het betreft dan veelal een verdere onderverdeling van activiteiten#NOTES#Maximaal een keer per jaar kan er een nieuwe versie van SBI 2008 uitgebracht worden, Het betreft dan veelal een verdere onderverdeling van activiteiten |
+    | toelichting |  |
     | synoniemen |  |
     | uri |  |
     | bron |  |
