@@ -12,6 +12,72 @@
     dcterms:isPartOf <https://lod.gemeentelijkgegevensmodel.nl/> ;
     owl:versionInfo "v3.0.0" .
 
+<https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/mobiliteit/vloginfo/gegenereerd-door-kast> a mim:Relatiesoort,
+        owl:ObjectProperty ;
+    rdfs:label "gegenereerd door"@nl ;
+    mim:aggregatietype mim:Geen ;
+    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/mobiliteit/vloginfo> ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/imbor/kast> ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/mobiliteit/vloginfo/gegenereerd-door-kast"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "0..1" ;
+    mim:kardinaliteitRelatieBron "0..*" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "gegenereerd door"@nl ;
+    mim:unidirectioneel true ;
+    dcterms:identifier "EAID_EF57AC68_D09C_4941_A675_6A6B3FF10C6C" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/mobiliteit/vloginfo> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/mobiliteit/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/imbor/kast> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/mobiliteit/vloginfo/gegenereerd-door-paal> a mim:Relatiesoort,
+        owl:ObjectProperty ;
+    rdfs:label "gegenereerd door"@nl ;
+    mim:aggregatietype mim:Geen ;
+    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/mobiliteit/vloginfo> ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/imbor/paal> ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/mobiliteit/vloginfo/gegenereerd-door-paal"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "0..1" ;
+    mim:kardinaliteitRelatieBron "0..*" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "gegenereerd door"@nl ;
+    mim:unidirectioneel true ;
+    dcterms:identifier "EAID_AAF78D58_50E2_4312_84C4_882D2B56C890" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/mobiliteit/vloginfo> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/mobiliteit/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/imbor/paal> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/mobiliteit/vloginfo/gegenereerd-door-sensor> a mim:Relatiesoort,
+        owl:ObjectProperty ;
+    rdfs:label "gegenereerd door"@nl ;
+    mim:aggregatietype mim:Geen ;
+    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/mobiliteit/vloginfo> ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/imbor/sensor> ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/mobiliteit/vloginfo/gegenereerd-door-sensor"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "0..1" ;
+    mim:kardinaliteitRelatieBron "0..*" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "gegenereerd door"@nl ;
+    mim:unidirectioneel true ;
+    dcterms:identifier "EAID_0FDD5ACC_8DFF_4160_B713_ADBE554DAD6B" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/mobiliteit/vloginfo> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/mobiliteit/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/imbor/sensor> .
+
 <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/imbor/kast/leverancier> a mim:Relatiesoort,
         owl:ObjectProperty ;
     rdfs:label "leverancier"@nl ;
@@ -57,6 +123,28 @@
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/imbor/paal> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/imbor/> ;
     rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/leverancier> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/imbor/sensor/gegenereerd-door> a mim:Relatiesoort,
+        owl:ObjectProperty ;
+    rdfs:label "gegenereerd door"@nl ;
+    mim:aggregatietype mim:Geen ;
+    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/imbor/sensor> ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/mobiliteit/verkeerstelling> ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/imbor/sensor/gegenereerd-door"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "0..*" ;
+    mim:kardinaliteitRelatieBron "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "gegenereerd door"@nl ;
+    mim:unidirectioneel true ;
+    dcterms:identifier "EAID_6FA08DA1_3608_413b_BB96_7C6E57D04D0C" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/imbor/sensor> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/imbor/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/mobiliteit/verkeerstelling> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/imbor/sensor/leverancier> a mim:Relatiesoort,
         owl:ObjectProperty ;
@@ -1005,24 +1093,6 @@ Eenheid: Jaartal"""@nl ;
     rdfs:comment "V-log is een open standaard voor datalogging van een verkeersregelinstallatie."@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/mobiliteit/> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/imbor/sensor> a mim:Objecttype,
-        owl:Class ;
-    rdfs:label "Sensor"@nl ;
-    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/imbor/sensor/aanleghoogte>,
-        <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/imbor/sensor/elektrakast>,
-        <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/imbor/sensor/frequentieomvormer>,
-        <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/imbor/sensor/hoogte>,
-        <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/imbor/sensor/jaaronderhouduitgevoerd>,
-        <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/imbor/sensor/meetpunt>,
-        <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/imbor/sensor/plc> ;
-    mim:definitie "Apparaat voor de meting van een fysieke grootheid (bijv. temperatuur, licht, druk, elektriciteit)."@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/imbor/sensor"^^xsd:anyURI ;
-    mim:indicatieAbstractObject false ;
-    mim:naam "Sensor"@nl ;
-    dcterms:identifier "EAID_4B32C511_77E9_4ABD_8C02_6F9F336A7A9" ;
-    rdfs:comment "Apparaat voor de meting van een fysieke grootheid (bijv. temperatuur, licht, druk, elektriciteit)."@nl ;
-    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/imbor/> .
-
 <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/imbor/paal> a mim:Objecttype,
         owl:Class ;
     rdfs:label "Paal"@nl ;
@@ -1041,6 +1111,24 @@ Eenheid: Jaartal"""@nl ;
     mim:naam "Paal"@nl ;
     dcterms:identifier "EAID_6B8DBBFB_03D7_4FD7_BBAB_3E7FBE60D97" ;
     rdfs:comment "Langwerpig stuk hout, ijzer, steen enz., dat in de grond staat."@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/imbor/> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/imbor/sensor> a mim:Objecttype,
+        owl:Class ;
+    rdfs:label "Sensor"@nl ;
+    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/imbor/sensor/aanleghoogte>,
+        <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/imbor/sensor/elektrakast>,
+        <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/imbor/sensor/frequentieomvormer>,
+        <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/imbor/sensor/hoogte>,
+        <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/imbor/sensor/jaaronderhouduitgevoerd>,
+        <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/imbor/sensor/meetpunt>,
+        <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/imbor/sensor/plc> ;
+    mim:definitie "Apparaat voor de meting van een fysieke grootheid (bijv. temperatuur, licht, druk, elektriciteit)."@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/imbor/sensor"^^xsd:anyURI ;
+    mim:indicatieAbstractObject false ;
+    mim:naam "Sensor"@nl ;
+    dcterms:identifier "EAID_4B32C511_77E9_4ABD_8C02_6F9F336A7A9" ;
+    rdfs:comment "Apparaat voor de meting van een fysieke grootheid (bijv. temperatuur, licht, druk, elektriciteit)."@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/imbor/> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/imbor/kast> a mim:Objecttype,

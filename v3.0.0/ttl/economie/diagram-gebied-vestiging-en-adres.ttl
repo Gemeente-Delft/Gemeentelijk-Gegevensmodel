@@ -1616,6 +1616,7 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
     mim:definitie "<font color=\"#0f0f0f\">Bevat de naam van de openbare ruimte ten behoeve van visualisatie.</font>"@nl ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
+    mim:herkomst "BGT" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/bag/openbareruimte/labelnaam"^^xsd:anyURI ;
     mim:indicatieAfleidbaar false ;
     mim:indicatieClassificerend false ;
@@ -2945,10 +2946,10 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
     mim:code "1" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/boolean/ja"^^xsd:anyURI ;
     mim:naam "Ja"@nl ;
-    dcterms:identifier "EAID_24a4dc7f_97c2_4a44_a534_b0c9540faa60",
-        "EAID_5a1b8ce8_0840_482d_b3a9_d3c04a9e49fe",
-        "EAID_5b25c120_e637_4654_a671_48f6422f7fee",
-        "EAID_b4607180_c778_479b_baf5_4b65a3d0b374" ;
+    dcterms:identifier "EAID_23b84b34_c964_42d5_99ca_e517c03dee14",
+        "EAID_42763ecf_bc1a_468f_b186_ff9fc1041405",
+        "EAID_e59e0448_3a52_4592_9c12_6693f9a54cbf",
+        "EAID_ee19c0f5_1aab_44d7_a69a_750913a29b6d" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/boolean> ;
     skos:notation "1" ;
     skos:prefLabel "Ja"@nl ;
@@ -2961,10 +2962,10 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
     mim:code "-2" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/boolean/leeg"^^xsd:anyURI ;
     mim:naam "Leeg"@nl ;
-    dcterms:identifier "EAID_46da2abf_5984_4e1e_a83f_3af049d2b6c4",
-        "EAID_5cb252bd_d151_4b67_865b_e837449d6025",
-        "EAID_6354b0d3_19a8_4189_a955_823b472058fb",
-        "EAID_c928324c_76b9_4828_8fd4_f0cdecc57049" ;
+    dcterms:identifier "EAID_62ad5223_ed08_4d76_9b8c_f5ade26388ad",
+        "EAID_8cf26cf3_cb39_4751_92c9_c949acb22f31",
+        "EAID_e03ba393_a9f3_4c4d_a9aa_6679520c5fc2",
+        "EAID_ece78a5e_8627_4d94_a996_ce719a7c0b64" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/boolean> ;
     skos:notation "-2" ;
     skos:prefLabel "Leeg"@nl ;
@@ -2977,10 +2978,10 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
     mim:code "0" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/boolean/nee"^^xsd:anyURI ;
     mim:naam "Nee"@nl ;
-    dcterms:identifier "EAID_11e6535c_cc5d_4e82_ad73_7fd70ad69e5e",
-        "EAID_5d958171_bb48_4618_be9d_52df38243007",
-        "EAID_c48939f9_0cda_4bc9_aa7c_ed695378dfd5",
-        "EAID_f582ebdf_e162_467b_9044_e4c4449921b4" ;
+    dcterms:identifier "EAID_112104d2_f39b_41f3_9ede_0d0731a76f0e",
+        "EAID_3de7838b_fa8f_4034_bb7e_3513d95de17f",
+        "EAID_ae74dbbc_887c_4c27_accc_4c0945ad8f4e",
+        "EAID_fce467f3_6ff1_4cde_9577_fb6b0a8cc7fa" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/boolean> ;
     skos:notation "0" ;
     skos:prefLabel "Nee"@nl ;
@@ -2993,10 +2994,10 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
     mim:code "-1" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/boolean/onbekend"^^xsd:anyURI ;
     mim:naam "Onbekend"@nl ;
-    dcterms:identifier "EAID_28a21d06_b807_4857_8083_e4b3d6abb3df",
-        "EAID_3ebc077d_5589_4380_af54_32eea7e3a0d9",
-        "EAID_5dd6c9c0_045e_4163_bfe0_53698a19a9ca",
-        "EAID_69946d30_43ff_4b06_b2c0_4fece102c49e" ;
+    dcterms:identifier "EAID_36ba00b0_5a5d_4543_aa1c_67459382106d",
+        "EAID_6d42f95d_b037_4c61_8fc9_70fd8b86f757",
+        "EAID_a570c800_d0b0_411e_8000_67babd1bbbc6",
+        "EAID_f1dd929e_dbde_4474_a9a6_d6fb4a5b7b20" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/boolean> ;
     skos:notation "-1" ;
     skos:prefLabel "Onbekend"@nl ;
@@ -3617,10 +3618,10 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
         <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/boolean/leeg>,
         <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/boolean/nee>,
         <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/boolean/onbekend> ;
-    dcterms:identifier "EAID_2179c80b_2ceb_42db_a05b_7ded365b6149",
-        "EAID_29f28a9a_735f_4774_a689_0a0c7a3f0af3",
-        "EAID_2a22382b_06fe_4fdb_9652_b371b79a7109",
-        "EAID_e4981a53_8fa6_4a4f_84f0_a3a38f2ffb3a" ;
+    dcterms:identifier "EAID_51632801_14cc_4dfa_9085_b6a879d47962",
+        "EAID_73bc9170_297b_4039_a1d4_ce6750170962",
+        "EAID_8879117a_3fd2_44bd_8ca8_4649541fa84a",
+        "EAID_d667a72e_1d47_42f2_9d71_603f93c8c36e" ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
     rdfs:subClassOf skos:Concept .
 

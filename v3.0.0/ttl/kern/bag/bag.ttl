@@ -106,27 +106,6 @@
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/> ;
     rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gemeente> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gemeente/nieuwe-gemeente> a mim:Relatiesoort,
-        owl:ObjectProperty ;
-    rdfs:label "nieuwe gemeente"@nl ;
-    mim:aggregatietype mim:Geen ;
-    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gemeente> ;
-    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gemeente> ;
-    mim:heeftTijdlijnGeldigheid false ;
-    mim:heeftTijdlijnRegistratie false ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gemeente/nieuwe-gemeente"^^xsd:anyURI ;
-    mim:indicatieAfleidbaar false ;
-    mim:indicatieFormeleHistorie false ;
-    mim:indicatieMaterieleHistorie false ;
-    mim:kardinaliteit "0..*" ;
-    mim:mogelijkGeenWaarde true ;
-    mim:naam "nieuwe gemeente"@nl ;
-    mim:unidirectioneel true ;
-    dcterms:identifier "EAID_dst776B18_BA57_4a96_94B7_564C96D364E5" ;
-    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gemeente> ;
-    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/> ;
-    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gemeente> .
-
 <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/nummeraanduiding/ligt-aan> a mim:Relatiesoort,
         owl:ObjectProperty ;
     rdfs:label "Ligt aan"@nl ;
@@ -2078,6 +2057,7 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
     mim:definitie "<font color=\"#0f0f0f\">Bevat de naam van de openbare ruimte ten behoeve van visualisatie.</font>"@nl ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
+    mim:herkomst "BGT" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/bag/openbareruimte/labelnaam"^^xsd:anyURI ;
     mim:indicatieAfleidbaar false ;
     mim:indicatieClassificerend false ;
@@ -5152,6 +5132,30 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
     rdfs:comment "Een aaneengesloten gedeelte van het grondgebied van een gemeente, waarvan de grenzen zo veel mogelijk zijn gebaseerd op sociaal-geografische kenmerken."@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/> .
 
+<https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gemeente> a mim:Objecttype,
+        owl:Class ;
+    rdfs:label "Gemeente"@nl ;
+    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gemeente/begingeldigheid>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gemeente/datumeinde>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gemeente/datumingang>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gemeente/eindgeldigheid>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gemeente/geconstateerd>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gemeente/gemeentecode>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gemeente/gemeentenaam>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gemeente/gemeentenaam-nen>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gemeente/geometrie>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gemeente/identificatie>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gemeente/versie> ;
+    mim:datumOpname "2007-04-09"^^xsd:date ;
+    mim:definitie "Een gedeelte van het grondgebied van Nederland, ingesteld op basis van artikel 123 van de Grondwet."@nl ;
+    mim:herkomst "Door KING toegevoegd objecttype,ontleend aan het GFO BG (maakt geen deel uit van enige basisregistratie)." ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gemeente"^^xsd:anyURI ;
+    mim:indicatieAbstractObject false ;
+    mim:naam "Gemeente"@nl ;
+    dcterms:identifier "EAID_EA6F820F_C458_4b24_8055_5C2CC76F5904" ;
+    rdfs:comment "Een gedeelte van het grondgebied van Nederland, ingesteld op basis van artikel 123 van de Grondwet."@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/> .
+
 <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/ontsluitingswijzeverdieping> a mim:Enumeratie,
         owl:Class,
         skos:ConceptScheme ;
@@ -5242,30 +5246,6 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
     mim:toelichting "Het betreft hier de in overleg met het CBS bepaalde indeling van wijken in buurten."@nl ;
     dcterms:identifier "EAID_38649FF6_88C6_437d_AF8E_A9023D55E16C" ;
     rdfs:comment "Een aaneengesloten gedeelte van een wijk, waarvan de grenzen zo veel mogelijk gebaseerd zijn op topografische elementen."@nl ;
-    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/> .
-
-<https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gemeente> a mim:Objecttype,
-        owl:Class ;
-    rdfs:label "Gemeente"@nl ;
-    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gemeente/begingeldigheid>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gemeente/datumeinde>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gemeente/datumingang>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gemeente/eindgeldigheid>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gemeente/geconstateerd>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gemeente/gemeentecode>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gemeente/gemeentenaam>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gemeente/gemeentenaam-nen>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gemeente/geometrie>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gemeente/identificatie>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gemeente/versie> ;
-    mim:datumOpname "2007-04-09"^^xsd:date ;
-    mim:definitie "Een gedeelte van het grondgebied van Nederland, ingesteld op basis van artikel 123 van de Grondwet."@nl ;
-    mim:herkomst "Door KING toegevoegd objecttype,ontleend aan het GFO BG (maakt geen deel uit van enige basisregistratie)." ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gemeente"^^xsd:anyURI ;
-    mim:indicatieAbstractObject false ;
-    mim:naam "Gemeente"@nl ;
-    dcterms:identifier "EAID_EA6F820F_C458_4b24_8055_5C2CC76F5904" ;
-    rdfs:comment "Een gedeelte van het grondgebied van Nederland, ingesteld op basis van artikel 123 van de Grondwet."@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/verblijfsobject> a mim:Objecttype,

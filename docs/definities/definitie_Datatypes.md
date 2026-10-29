@@ -16,7 +16,7 @@
     | author | janbr |
     | version | 1.0 |
     | created | 2024-06-27 21:51:28 |
-    | modified | 2024-06-27 21:51:42 |
+    | modified | 2025-12-22 15:26:49 |
     | id | EAPK\_1E980CB5\_0396\_D2CF\_E082\_2632E26BC583 |
     
 
@@ -45,7 +45,7 @@ Het model 'Datatypes' kent de volgende objecttypen:
     | author | janbr |
     | version | 1.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-12-20 18:35:22 |
+    | modified | 2025-12-22 15:26:49 |
     | id | EAID\_1F00763C\_FD4B\_4229\_2CAA\_267F962CB1D1 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -99,7 +99,7 @@ De enumeratie CodeRedenMaatregel heeft de volgende kenmerken:
     | author | janbr |
     | version | 1.1.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-08-06 14:19:41 |
+    | modified | 2025-12-22 15:26:49 |
     | id | EAID\_1D94B6F9\_A6B8\_61DD\_699A\_26EBD16356DE |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -134,7 +134,7 @@ De enumeratie Predicaat heeft de volgende kenmerken:
     | author | janbr |
     | version | 1.1.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-08-06 14:19:41 |
+    | modified | 2025-12-22 15:26:49 |
     | id | EAID\_231CC1D3\_9912\_6C4E\_A5C8\_26EBD1638FD6 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -169,7 +169,7 @@ De enumeratie StdIndJN heeft de volgende kenmerken:
     | author | janbr |
     | version | 1.1.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-08-06 14:19:41 |
+    | modified | 2025-12-22 15:26:49 |
     | id | EAID\_209C648E\_45E7\_A357\_6812\_273ED24FB2BD |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -205,7 +205,7 @@ De enumeratie TypeMaatregel heeft de volgende kenmerken:
     | author | janbr |
     | version | 1.1.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-08-06 14:19:41 |
+    | modified | 2025-12-22 15:26:49 |
     | id | EAID\_24C282CF\_327C\_224C\_ED18\_26EBD163ADFF |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -240,7 +240,7 @@ De enumeratie TypeNormafwijking heeft de volgende kenmerken:
     | author | janbr |
     | version | 1.1.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-08-06 14:19:41 |
+    | modified | 2025-12-22 15:26:49 |
     | id | EAID\_0A07D319\_79DD\_744C\_0EAB\_26EBD163528A |
     | domein_iv3 |  |
     | domein_dcat |  |

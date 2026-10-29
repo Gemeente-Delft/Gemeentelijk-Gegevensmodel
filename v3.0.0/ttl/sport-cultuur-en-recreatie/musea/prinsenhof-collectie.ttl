@@ -6,48 +6,6 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/organisatorische-eenheid-organisatorischeeenheid> a mim:Relatiesoort,
-        owl:ObjectProperty ;
-    rdfs:label "organisatorische eenheid"@nl ;
-    mim:aggregatietype mim:Geen ;
-    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker> ;
-    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/organisatorischeeenheid> ;
-    mim:heeftTijdlijnGeldigheid false ;
-    mim:heeftTijdlijnRegistratie false ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/organisatorische-eenheid-organisatorischeeenheid"^^xsd:anyURI ;
-    mim:indicatieAfleidbaar false ;
-    mim:indicatieFormeleHistorie false ;
-    mim:indicatieMaterieleHistorie false ;
-    mim:kardinaliteit "0..*" ;
-    mim:mogelijkGeenWaarde true ;
-    mim:naam "organisatorische eenheid"@nl ;
-    mim:unidirectioneel true ;
-    dcterms:identifier "EAID_dst008EC2_F42E_4e6b_8000_E9A81F3A2ECA" ;
-    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker> ;
-    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> ;
-    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/organisatorischeeenheid> .
-
-<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/organisatorische-eenheid-organisatorischeeenheid-2> a mim:Relatiesoort,
-        owl:ObjectProperty ;
-    rdfs:label "organisatorische eenheid"@nl ;
-    mim:aggregatietype mim:Geen ;
-    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker> ;
-    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/organisatorischeeenheid> ;
-    mim:heeftTijdlijnGeldigheid false ;
-    mim:heeftTijdlijnRegistratie false ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/organisatorische-eenheid-organisatorischeeenheid-2"^^xsd:anyURI ;
-    mim:indicatieAfleidbaar false ;
-    mim:indicatieFormeleHistorie false ;
-    mim:indicatieMaterieleHistorie false ;
-    mim:kardinaliteit "0..1" ;
-    mim:mogelijkGeenWaarde true ;
-    mim:naam "organisatorische eenheid"@nl ;
-    mim:unidirectioneel true ;
-    dcterms:identifier "EAID_dstBB7F66_64B4_40dd_9628_02202FF00FB1" ;
-    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker> ;
-    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> ;
-    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/organisatorischeeenheid> .
-
 <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/rechtspersoon/adresbinnenland> a mim:Relatiesoort,
         owl:ObjectProperty ;
     rdfs:label "adresBinnenland"@nl ;
@@ -182,6 +140,50 @@
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/musea/museumobject> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/musea/> ;
     rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/musea/bruikleen> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/musea/museumobject/heeft> a mim:Relatiesoort,
+        owl:ObjectProperty ;
+    rdfs:label "heeft"@nl ;
+    mim:aggregatietype mim:Geen ;
+    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/musea/museumobject> ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/musea/belanghebbende> ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/musea/museumobject/heeft"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "0..*" ;
+    mim:kardinaliteitRelatieBron "0..*" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "heeft"@nl ;
+    mim:unidirectioneel true ;
+    dcterms:identifier "EAID_C1681AE0_B792_4bdb_B52E_16F7E28788E5" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/musea/museumobject> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/musea/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/musea/belanghebbende> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/musea/museumobject/heeft-verbinding> a mim:Relatiesoort,
+        owl:ObjectProperty ;
+    rdfs:label "heeft verbinding"@nl ;
+    mim:aggregatietype mim:Geen ;
+    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/musea/museumobject> ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/generieke-entiteiten-erfgoed/erfgoed-generiek/historisch-persoon> ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/musea/museumobject/heeft-verbinding"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "0..*" ;
+    mim:kardinaliteitRelatieBron "0..*" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "heeft verbinding"@nl ;
+    mim:unidirectioneel true ;
+    dcterms:identifier "EAID_3E839A6C_553C_4d8f_9E43_AEFAB5959C2C" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/musea/museumobject> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/musea/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/generieke-entiteiten-erfgoed/erfgoed-generiek/historisch-persoon> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/musea/museumobject/locatie> a mim:Relatiesoort,
         owl:ObjectProperty ;
@@ -377,6 +379,27 @@
     mim:type mim:CharacterString ;
     dcterms:identifier "EAID_2EEFDDE3_164E_4dc6_8573_205834C1AF47" ;
     rdfs:comment "<font color=\"#610e6a\">Elektronisch postadres waaronder de medewerker in de regel bereikbaar is.</font>"@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/extern> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "extern"@nl ;
+    mim:definitie "Medewerker is een externe?"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/extern"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "extern"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_8DDB6FA2_A79D_4423_9969_7AF045B86351" ;
+    rdfs:comment "Medewerker is een externe?"@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> ;
     rdfs:range xsd:string .
@@ -930,6 +953,44 @@
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/musea/> ;
     rdfs:range xsd:date .
 
+<https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/musea/belangtype/naam> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "naam"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/musea/belangtype/naam"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "naam"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_BF042BBA_42CA_4561_B86F_45847FAC3B5D" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/musea/belangtype> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/musea/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/musea/belangtype/omschrijving> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "omschrijving"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/musea/belangtype/omschrijving"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "omschrijving"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_5E326AF9_17EB_4334_806A_BD873E1DB33F" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/musea/belangtype> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/musea/> ;
+    rdfs:range xsd:string .
+
 <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/musea/bruikleen/aanvraagdoor> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "aanvraagDoor"@nl ;
@@ -1259,6 +1320,44 @@
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/musea/> ;
     rdfs:range xsd:string .
 
+<https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/musea/rol/naam> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "naam"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/musea/rol/naam"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "naam"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_018F02BF_BC86_45fd_B268_031F76A08E55" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/musea/rol> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/musea/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/musea/rol/omschrijving> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "omschrijving"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/musea/rol/omschrijving"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "omschrijving"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_F5A2072A_AC7F_4354_B983_7251ABC6FBAE" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/musea/rol> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/musea/> ;
+    rdfs:range xsd:string .
+
 <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/musea/samensteller/rol> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "rol"@nl ;
@@ -1506,19 +1605,31 @@
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/musea/> ;
     rdfs:range xsd:string .
 
-<https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/musea/belanghebbende> a mim:Objecttype,
+<https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/musea/belangtype> a mim:Objecttype,
         owl:Class ;
-    rdfs:label "Belanghebbende"@nl ;
-    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/musea/belanghebbende/datumstart>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/musea/belanghebbende/datumtot> ;
-    mim:definitie "Een persoon wiens belang rechtstreeks bij een besluit is betrokken."@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/musea/belanghebbende"^^xsd:anyURI ;
+    rdfs:label "Belangtype"@nl ;
+    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/musea/belangtype/naam>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/musea/belangtype/omschrijving> ;
+    mim:definitie "Sort van belang"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/musea/belangtype"^^xsd:anyURI ;
     mim:indicatieAbstractObject false ;
-    mim:naam "Belanghebbende"@nl ;
-    dcterms:identifier "EAID_576642BA_9AF9_42fc_831A_F9D3138F20FC" ;
-    rdfs:comment "Een persoon wiens belang rechtstreeks bij een besluit is betrokken."@nl ;
-    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/musea/> ;
-    rdfs:subClassOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/rechtspersoon> .
+    mim:naam "Belangtype"@nl ;
+    dcterms:identifier "EAID_3F7BCCE5_7292_40d6_A4EB_21F7B9F25236" ;
+    rdfs:comment "Sort van belang"@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/musea/> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/musea/rol> a mim:Objecttype,
+        owl:Class ;
+    rdfs:label "Rol"@nl ;
+    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/musea/rol/naam>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/musea/rol/omschrijving> ;
+    mim:definitie "Een samenhangende set van taken, bevoegdheden en verantwoordelijkheden van een gebruiker."@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/musea/rol"^^xsd:anyURI ;
+    mim:indicatieAbstractObject false ;
+    mim:naam "Rol"@nl ;
+    dcterms:identifier "EAID_78C6EB53_77EB_4e9a_B012_E9CD989BDD06" ;
+    rdfs:comment "Een samenhangende set van taken, bevoegdheden en verantwoordelijkheden van een gebruiker."@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/musea/> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/musea/lener> a mim:Objecttype,
         owl:Class ;
@@ -1545,6 +1656,20 @@
     rdfs:comment "Iemand die stukken informatie samenbrengt in tentoonstelingen, presentaties en naslagwerken."@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/musea/> ;
     rdfs:subClassOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/musea/belanghebbende> a mim:Objecttype,
+        owl:Class ;
+    rdfs:label "Belanghebbende"@nl ;
+    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/musea/belanghebbende/datumstart>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/musea/belanghebbende/datumtot> ;
+    mim:definitie "Een persoon wiens belang rechtstreeks bij een besluit is betrokken."@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/musea/belanghebbende"^^xsd:anyURI ;
+    mim:indicatieAbstractObject false ;
+    mim:naam "Belanghebbende"@nl ;
+    dcterms:identifier "EAID_576642BA_9AF9_42fc_831A_F9D3138F20FC" ;
+    rdfs:comment "Een persoon wiens belang rechtstreeks bij een besluit is betrokken."@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/musea/> ;
+    rdfs:subClassOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/rechtspersoon> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/musea/collectie> a mim:Objecttype,
         owl:Class ;
@@ -1637,6 +1762,30 @@
     rdfs:comment "Lening voor tijdelijk gebruik"@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/musea/> .
 
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker> a mim:Objecttype,
+        owl:Class ;
+    rdfs:label "Medewerker"@nl ;
+    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/achternaam>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/datumindienst>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/datumuitdienst>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/emailadres>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/extern>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/functie>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/geslachtsaanduiding>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/medewerkeridentificatie>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/medewerkertoelichting>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/roepnaam>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/telefoonnummer>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/voorletters>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/voorvoegselachternaam> ;
+    mim:definitie "Een medewerker van de organisatie die zaken behandelt uit hoofde van zijn of haar functie binnen een ORGANISATORISCHE EENHEID."@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker"^^xsd:anyURI ;
+    mim:indicatieAbstractObject false ;
+    mim:naam "Medewerker"@nl ;
+    dcterms:identifier "EAID_16EB3936_03CB_4854_9CD8_9F0911EEA51B" ;
+    rdfs:comment "Een medewerker van de organisatie die zaken behandelt uit hoofde van zijn of haar functie binnen een ORGANISATORISCHE EENHEID."@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> .
+
 <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/rechtspersoon> a mim:Objecttype,
         owl:Class ;
     rdfs:label "Rechtspersoon"@nl ;
@@ -1658,22 +1807,6 @@
     rdfs:comment "Een NATUURLIJK PERSOON of een NIET-NATUURLIJK PERSOON"@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/musea/museumobject> a mim:Objecttype,
-        owl:Class ;
-    rdfs:label "Museumobject"@nl ;
-    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/musea/museumobject/afmeting>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/musea/museumobject/bezittot>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/musea/museumobject/bezitvanaf>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/musea/museumobject/medium>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/musea/museumobject/verkrijging> ;
-    mim:definitie "Beschrijving van een fenomeen in de werkelijkheid met een zekere cultuurhistorische waarde die deel uitmaakt van de culthuurhistorisch object index. Een museum object kan gedifiniëerd worden als een object met betrekking tot gebouwd, archeologisch, roerend of cultuurlandschappelijk erfgoed. Denk hierbij bijvoorbeeld aan een gebouwd of archeologisch rijksmonument, een schilderij of een beschermd stads- of dorpsgezicht."@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/musea/museumobject"^^xsd:anyURI ;
-    mim:indicatieAbstractObject false ;
-    mim:naam "Museumobject"@nl ;
-    dcterms:identifier "EAID_BBCF9DBE_70AD_431c_B698_7F0D69D07050" ;
-    rdfs:comment "Beschrijving van een fenomeen in de werkelijkheid met een zekere cultuurhistorische waarde die deel uitmaakt van de culthuurhistorisch object index. Een museum object kan gedifiniëerd worden als een object met betrekking tot gebouwd, archeologisch, roerend of cultuurlandschappelijk erfgoed. Denk hierbij bijvoorbeeld aan een gebouwd of archeologisch rijksmonument, een schilderij of een beschermd stads- of dorpsgezicht."@nl ;
-    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/musea/> .
-
 <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/musea/tentoonstelling> a mim:Objecttype,
         owl:Class ;
     rdfs:label "Tentoonstelling"@nl ;
@@ -1690,26 +1823,19 @@
     rdfs:comment "Een uitstalling van voorwerpen om door het grote publiek bekeken te worden."@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/musea/> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker> a mim:Objecttype,
+<https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/musea/museumobject> a mim:Objecttype,
         owl:Class ;
-    rdfs:label "Medewerker"@nl ;
-    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/achternaam>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/datumindienst>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/datumuitdienst>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/emailadres>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/functie>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/geslachtsaanduiding>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/medewerkeridentificatie>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/medewerkertoelichting>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/roepnaam>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/telefoonnummer>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/voorletters>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/voorvoegselachternaam> ;
-    mim:definitie "Een medewerker van de organisatie die zaken behandelt uit hoofde van zijn of haar functie binnen een ORGANISATORISCHE EENHEID."@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker"^^xsd:anyURI ;
+    rdfs:label "Museumobject"@nl ;
+    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/musea/museumobject/afmeting>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/musea/museumobject/bezittot>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/musea/museumobject/bezitvanaf>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/musea/museumobject/medium>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/musea/museumobject/verkrijging> ;
+    mim:definitie "Beschrijving van een fenomeen in de werkelijkheid met een zekere cultuurhistorische waarde die deel uitmaakt van de culthuurhistorisch object index. Een museum object kan gedifiniëerd worden als een object met betrekking tot gebouwd, archeologisch, roerend of cultuurlandschappelijk erfgoed. Denk hierbij bijvoorbeeld aan een gebouwd of archeologisch rijksmonument, een schilderij of een beschermd stads- of dorpsgezicht."@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/musea/museumobject"^^xsd:anyURI ;
     mim:indicatieAbstractObject false ;
-    mim:naam "Medewerker"@nl ;
-    dcterms:identifier "EAID_16EB3936_03CB_4854_9CD8_9F0911EEA51B" ;
-    rdfs:comment "Een medewerker van de organisatie die zaken behandelt uit hoofde van zijn of haar functie binnen een ORGANISATORISCHE EENHEID."@nl ;
-    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> .
+    mim:naam "Museumobject"@nl ;
+    dcterms:identifier "EAID_BBCF9DBE_70AD_431c_B698_7F0D69D07050" ;
+    rdfs:comment "Beschrijving van een fenomeen in de werkelijkheid met een zekere cultuurhistorische waarde die deel uitmaakt van de culthuurhistorisch object index. Een museum object kan gedifiniëerd worden als een object met betrekking tot gebouwd, archeologisch, roerend of cultuurlandschappelijk erfgoed. Denk hierbij bijvoorbeeld aan een gebouwd of archeologisch rijksmonument, een schilderij of een beschermd stads- of dorpsgezicht."@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/musea/> .
 

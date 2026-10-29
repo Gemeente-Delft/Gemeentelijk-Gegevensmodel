@@ -16,7 +16,7 @@
     | author | janbr |
     | version | 1.0 |
     | created | 2024-06-27 21:51:28 |
-    | modified | 2024-06-27 21:51:42 |
+    | modified | 2025-12-22 15:26:49 |
     | id | EAPK\_2EA8EC3D\_1407\_C3BE\_D193\_3802BFAEB694 |
     
 
@@ -66,9 +66,9 @@ Het model 'Reden aanvraag' kent de volgende objecttypen:
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.2.0 |
+    | version | 1.4.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-12-18 15:38:52 |
+    | modified | 2025-12-22 15:44:35 |
     | id | EAID\_237c7e1c\_5893\_475f\_be3f\_49b629316e1e |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -102,9 +102,9 @@ Attributen van objecttype Andere reden afwijkende startdatum
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.2.0 |
+    | version | 1.4.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-12-18 15:38:52 |
+    | modified | 2025-12-22 15:44:35 |
     | id | EAID\_1E8815BF\_5BAC\_6978\_BF60\_2791C1C96FC3 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -139,9 +139,9 @@ Attributen van objecttype Andere reden verzoek
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.10.0 |
+    | version | 1.12.0 |
     | created | 2024-12-13 12:29:32 |
-    | modified | 2025-12-18 15:38:52 |
+    | modified | 2025-12-22 15:44:35 |
     | id | EAID\_2D94CF02\_97C5\_4621\_B225\_EA742445A235 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -174,9 +174,9 @@ Attributen van objecttype Diensten::Aanvraag
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.10.0 |
+    | version | 1.12.0 |
     | created | 2025-03-17 10:52:35 |
-    | modified | 2025-12-18 15:38:52 |
+    | modified | 2025-12-22 15:44:35 |
     | id | EAID\_1F9DBD7C\_EBF3\_41c8\_8F00\_2F6169FE107C |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -209,9 +209,9 @@ Attributen van objecttype Diensten::Aanvraag levensonderhoud
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.2.0 |
+    | version | 1.4.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-12-18 15:38:52 |
+    | modified | 2025-12-22 15:44:35 |
     | id | EAID\_16333246\_B1C9\_E9E9\_D5B6\_2791C02E05CB |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -258,9 +258,9 @@ Attributen van objecttype Gestopt betaald werk
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.2.0 |
+    | version | 1.4.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-12-18 15:38:52 |
+    | modified | 2025-12-22 15:44:35 |
     | id | EAID\_0B7F7AD1\_661C\_8F1C\_4F9A\_2791C1C74BAB |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -298,9 +298,9 @@ Attributen van objecttype Gestopt of verkocht eigen bedrijf
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.2.0 |
+    | version | 1.4.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-12-18 15:38:52 |
+    | modified | 2025-12-22 15:44:35 |
     | id | EAID\_15ABBF00\_EC46\_89CA\_680B\_2791C070D8E5 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -337,9 +337,9 @@ Attributen van objecttype Gestopte bijstanduitkering
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.2.0 |
+    | version | 1.4.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-12-18 15:38:52 |
+    | modified | 2025-12-22 15:44:35 |
     | id | EAID\_16F72E30\_A6E2\_CEC4\_6AB8\_2791C1C8CC09 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -377,9 +377,9 @@ Attributen van objecttype Gestopte detentie
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.2.0 |
+    | version | 1.4.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-12-18 15:38:52 |
+    | modified | 2025-12-22 15:44:35 |
     | id | EAID\_1632E282\_377B\_77CF\_BF11\_2791C070C097 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -417,9 +417,9 @@ Attributen van objecttype Gestopte of verlaagde alimentatie
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.2.0 |
+    | version | 1.4.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-12-18 15:38:52 |
+    | modified | 2025-12-22 15:44:35 |
     | id | EAID\_1F0AACC8\_0CDE\_849C\_C1CC\_2791C070CCF8 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -454,9 +454,9 @@ Attributen van objecttype Gestopte studiefinanciering
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.2.0 |
+    | version | 1.4.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-12-18 15:38:52 |
+    | modified | 2025-12-22 15:44:35 |
     | id | EAID\_1BDF5AAF\_EDC4\_87BC\_16F2\_2791C06DC1FA |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -503,9 +503,9 @@ Attributen van objecttype Gestopte uitkering
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.7.0 |
+    | version | 1.9.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-12-16 10:28:34 |
+    | modified | 2025-12-22 15:44:35 |
     | id | EAID\_0572BF37\_A778\_273A\_32B0\_2791C2CC601A |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -542,9 +542,9 @@ Attributen van objecttype Ingang bijstandsuitkering
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.10.0 |
+    | version | 1.12.0 |
     | created | 2025-03-17 10:40:14 |
-    | modified | 2025-12-18 15:38:52 |
+    | modified | 2025-12-22 15:44:35 |
     | id | EAID\_4B7F5B5B\_CCC7\_465e\_9908\_E83620EEAE89 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -577,9 +577,9 @@ Attributen van objecttype Levenssituatie::Levenssituatie
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.2.0 |
+    | version | 1.4.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-12-18 15:38:52 |
+    | modified | 2025-12-22 15:44:35 |
     | id | EAID\_1ac5aa8f\_eb60\_4683\_acb8\_ca3308da1c3d |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -614,9 +614,9 @@ Attributen van objecttype Opname instelling
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.2.0 |
+    | version | 1.4.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-12-18 15:38:52 |
+    | modified | 2025-12-22 15:44:35 |
     | id | EAID\_201D0432\_BDE5\_700A\_13F6\_2791C071691F |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -654,7 +654,7 @@ Attributen van objecttype Overleden partner
     | author | janbr |
     | version | 1.1.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-08-06 14:19:42 |
+    | modified | 2025-12-22 15:26:49 |
     | id | EAID\_cac6d8c1\_42e6\_41cb\_9907\_3c65c081afba |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -689,9 +689,9 @@ Attributen van objecttype Reden aanvraag
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.2.0 |
+    | version | 1.4.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-12-18 15:38:52 |
+    | modified | 2025-12-22 15:44:35 |
     | id | EAID\_0BCC5755\_9F69\_A5D7\_4387\_2791BFCD4782 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -729,9 +729,9 @@ Attributen van objecttype Reden aanvraag Levensonderhoud
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.2.0 |
+    | version | 1.4.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-12-18 15:38:52 |
+    | modified | 2025-12-22 15:44:35 |
     | id | EAID\_ed8f8dba\_b936\_40ad\_b443\_1ee91b8fe046 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -767,9 +767,9 @@ Attributen van objecttype Reden afwijkende startdatum
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.2.0 |
+    | version | 1.4.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-12-18 15:38:52 |
+    | modified | 2025-12-22 15:44:35 |
     | id | EAID\_273AA921\_78AD\_0107\_6D04\_2791C07149E9 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -806,9 +806,9 @@ Attributen van objecttype Verbroken relatie
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.2.0 |
+    | version | 1.4.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-12-18 15:38:52 |
+    | modified | 2025-12-22 15:44:35 |
     | id | EAID\_109FA03E\_8C65\_8EF6\_C7F0\_2791C1C80AFE |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -846,9 +846,9 @@ Attributen van objecttype Vertrek uit asielzoekerscentrum
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.2.0 |
+    | version | 1.4.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-12-18 15:38:52 |
+    | modified | 2025-12-22 15:44:35 |
     | id | EAID\_008977a4\_1342\_42b2\_be93\_bda49931fa51 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -882,9 +882,9 @@ Attributen van objecttype Wachten beslissing instantie
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.2.0 |
+    | version | 1.4.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-12-18 15:38:52 |
+    | modified | 2025-12-22 15:44:35 |
     | id | EAID\_32633236\_e5f5\_40eb\_a083\_fc12c3e8a7f8 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -932,10 +932,10 @@ De enumeratie CdRedenAanvraagWwafgewezen heeft de volgende kenmerken:
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.0 |
+    | version | 1.2.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-12-20 18:34:29 |
-    | id | EAID\_3adc114a\_22a1\_459c\_a631\_4cccb5a59800 |
+    | modified | 2025-12-22 15:44:49 |
+    | id | EAID\_910ac2e0\_1833\_4014\_abc0\_8f05d2e4ff14 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -967,10 +967,10 @@ De enumeratie CdRedenAanvraagContractperiode heeft de volgende kenmerken:
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.0 |
+    | version | 1.2.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-12-20 18:33:35 |
-    | id | EAID\_42f1691e\_d234\_40eb\_bfda\_0410a9087cbe |
+    | modified | 2025-12-22 15:44:49 |
+    | id | EAID\_be36ea2c\_8883\_4b85\_8ce5\_62df09088b29 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1004,8 +1004,8 @@ De enumeratie StdIndJN heeft de volgende kenmerken:
     | author | janbr |
     | version | 1.1.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-08-06 14:19:41 |
-    | id | EAID\_08cefa01\_c5f5\_4056\_9cee\_52b39a9f9256 |
+    | modified | 2025-12-22 15:26:49 |
+    | id | EAID\_00118267\_a8f3\_4b69\_8735\_6eeacc5070bf |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1039,8 +1039,8 @@ De enumeratie StdIndJN heeft de volgende kenmerken:
     | author | janbr |
     | version | 1.1.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-08-06 14:19:41 |
-    | id | EAID\_c98f05d6\_e788\_45d6\_8b5b\_1402cf8ac04f |
+    | modified | 2025-12-22 15:26:49 |
+    | id | EAID\_af802cbc\_fd1f\_4a3c\_8890\_214da8a8346e |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1074,8 +1074,8 @@ De enumeratie StdIndJN heeft de volgende kenmerken:
     | author | janbr |
     | version | 1.1.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-08-06 14:19:41 |
-    | id | EAID\_0afbbd2c\_2bbf\_49ea\_9137\_dfcddd2eaa1c |
+    | modified | 2025-12-22 15:26:49 |
+    | id | EAID\_f1c4caab\_ad32\_4e71\_bd3c\_345edeb328db |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1112,10 +1112,10 @@ De enumeratie CdRedenAanvraagEindeWerk heeft de volgende kenmerken:
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.0 |
+    | version | 1.2.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-12-20 18:34:07 |
-    | id | EAID\_c7c644dd\_6ccc\_4848\_9258\_b98796d29614 |
+    | modified | 2025-12-22 15:44:49 |
+    | id | EAID\_4d4716ab\_5308\_43c5\_bcdd\_96fbaa6afc39 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1149,8 +1149,8 @@ De enumeratie StdIndJN heeft de volgende kenmerken:
     | author | janbr |
     | version | 1.1.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-08-06 14:19:41 |
-    | id | EAID\_3421e120\_8591\_40f5\_b748\_814e0af360d6 |
+    | modified | 2025-12-22 15:26:49 |
+    | id | EAID\_a17e9486\_bcb7\_428c\_87a3\_98960ba5c4b2 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1184,10 +1184,10 @@ De enumeratie CdRedenAanvraagWWgevraagd heeft de volgende kenmerken:
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.0 |
+    | version | 1.2.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-12-20 18:34:36 |
-    | id | EAID\_0696d4a9\_ce36\_4761\_a83c\_a490bce61e63 |
+    | modified | 2025-12-22 15:44:49 |
+    | id | EAID\_6af8c059\_3ec1\_44a6\_9269\_b2b5d5cf7118 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1221,8 +1221,8 @@ De enumeratie StdIndJN heeft de volgende kenmerken:
     | author | janbr |
     | version | 1.1.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-08-06 14:19:41 |
-    | id | EAID\_7d4f0688\_e444\_4c68\_acc6\_32bc007e47f1 |
+    | modified | 2025-12-22 15:26:49 |
+    | id | EAID\_a4826cd2\_4b8f\_49e4\_9b9e\_67cc89e21e8a |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1258,10 +1258,10 @@ De enumeratie CdRedenAanvraagEindeEigenBedrijf heeft de volgende kenmerken:
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.0 |
+    | version | 1.2.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-12-20 18:33:48 |
-    | id | EAID\_92d7153a\_b36e\_4fd0\_9c37\_0b3c06587fc7 |
+    | modified | 2025-12-22 15:44:49 |
+    | id | EAID\_2fc05f7e\_78a5\_4835\_9ccd\_09e70bba303d |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1295,8 +1295,8 @@ De enumeratie StdIndJN heeft de volgende kenmerken:
     | author | janbr |
     | version | 1.1.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-08-06 14:19:41 |
-    | id | EAID\_4871c7ab\_2506\_4fcf\_8191\_db4fab707e58 |
+    | modified | 2025-12-22 15:26:49 |
+    | id | EAID\_18c1b395\_181f\_4752\_be62\_2bd706e622e9 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1329,10 +1329,10 @@ De enumeratie CdRedenAanvraagEindeBijstand heeft de volgende kenmerken:
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.0 |
+    | version | 1.2.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-12-20 18:33:41 |
-    | id | EAID\_254c55be\_3233\_4682\_9a5a\_8c7fac62437c |
+    | modified | 2025-12-22 15:44:49 |
+    | id | EAID\_10e5960c\_f9ab\_4fce\_81b6\_b28ac8aea3e5 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1366,8 +1366,8 @@ De enumeratie StdIndJN heeft de volgende kenmerken:
     | author | janbr |
     | version | 1.1.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-08-06 14:19:41 |
-    | id | EAID\_be6822af\_12f5\_42a1\_a7ea\_636b3d4250f8 |
+    | modified | 2025-12-22 15:26:49 |
+    | id | EAID\_2a47ce9f\_0959\_4c2b\_a902\_5dbbf62ebbf5 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1401,8 +1401,8 @@ De enumeratie StdIndJN heeft de volgende kenmerken:
     | author | janbr |
     | version | 1.1.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-08-06 14:19:41 |
-    | id | EAID\_350af1d8\_1728\_409d\_9236\_d36cf1f06fdc |
+    | modified | 2025-12-22 15:26:49 |
+    | id | EAID\_94e94e71\_1b0c\_43f0\_a922\_c2480689ab27 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1436,8 +1436,8 @@ De enumeratie StdIndJN heeft de volgende kenmerken:
     | author | janbr |
     | version | 1.1.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-08-06 14:19:41 |
-    | id | EAID\_2dd4bf69\_7379\_411e\_b1a0\_19f7a090bfbd |
+    | modified | 2025-12-22 15:26:49 |
+    | id | EAID\_60f19906\_2a6b\_40d6\_8c7a\_81b7ce1b4d3c |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1471,8 +1471,8 @@ De enumeratie StdIndJN heeft de volgende kenmerken:
     | author | janbr |
     | version | 1.1.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-08-06 14:19:41 |
-    | id | EAID\_bc9ba4df\_d855\_47da\_85ef\_eb8d21b8ad50 |
+    | modified | 2025-12-22 15:26:49 |
+    | id | EAID\_b7404212\_2182\_417c\_8267\_69cf8de42154 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1506,10 +1506,10 @@ De enumeratie CdRedenAanvraagANWaangevraagd heeft de volgende kenmerken:
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.0 |
+    | version | 1.2.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-12-20 18:33:23 |
-    | id | EAID\_1409c3b7\_d4fd\_4ade\_a1d5\_f37237a8019a |
+    | modified | 2025-12-22 15:44:49 |
+    | id | EAID\_90322551\_38db\_47cc\_9143\_9ec3d9f91c7b |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1543,8 +1543,8 @@ De enumeratie StdIndJN heeft de volgende kenmerken:
     | author | janbr |
     | version | 1.1.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-08-06 14:19:41 |
-    | id | EAID\_737f9815\_5636\_4c2c\_aa59\_9973a9fde069 |
+    | modified | 2025-12-22 15:26:49 |
+    | id | EAID\_1e33d6b7\_ed2e\_4a67\_9685\_aaadc42fd6c2 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1578,8 +1578,8 @@ De enumeratie StdIndJN heeft de volgende kenmerken:
     | author | janbr |
     | version | 1.1.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-08-06 14:19:41 |
-    | id | EAID\_1b2d30ec\_6127\_4bab\_8627\_e4314bf371e5 |
+    | modified | 2025-12-22 15:26:49 |
+    | id | EAID\_52f43a55\_f259\_432f\_a2a5\_f3fb22753e81 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1613,8 +1613,8 @@ De enumeratie StdIndJN heeft de volgende kenmerken:
     | author | janbr |
     | version | 1.1.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-08-06 14:19:41 |
-    | id | EAID\_9e6e49f1\_1b5b\_4fee\_b4c4\_296ce162db73 |
+    | modified | 2025-12-22 15:26:49 |
+    | id | EAID\_835c9443\_fd49\_44e0\_9191\_ae1a0de4b126 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1648,8 +1648,8 @@ De enumeratie StdIndJN heeft de volgende kenmerken:
     | author | janbr |
     | version | 1.1.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-08-06 14:19:41 |
-    | id | EAID\_eae3c722\_0ac2\_4dd5\_a385\_b02ca55757f3 |
+    | modified | 2025-12-22 15:26:49 |
+    | id | EAID\_bee62940\_585f\_4766\_8643\_eac705f40129 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1683,8 +1683,8 @@ De enumeratie StdIndJN heeft de volgende kenmerken:
     | author | janbr |
     | version | 1.1.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-08-06 14:19:41 |
-    | id | EAID\_770c34b6\_cd72\_4f95\_8230\_12203b7a5d46 |
+    | modified | 2025-12-22 15:26:49 |
+    | id | EAID\_67a7ff03\_b1c0\_4d1c\_8c19\_f4ebe42e30ff |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1719,10 +1719,10 @@ De enumeratie CdRedenAanvraagEindeUitkeringReden heeft de volgende kenmerken:
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.0 |
+    | version | 1.2.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-12-20 18:34:02 |
-    | id | EAID\_5cf8930d\_a572\_4d33\_9375\_f0c9344df557 |
+    | modified | 2025-12-22 15:44:49 |
+    | id | EAID\_0d215810\_72c3\_4c5c\_b800\_301da4771994 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1757,10 +1757,10 @@ De enumeratie CdRedenAanvraagEindeUitkering heeft de volgende kenmerken:
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.0 |
+    | version | 1.2.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-12-20 18:33:56 |
-    | id | EAID\_c4de60f5\_c25a\_4193\_bf3b\_4520ebfa04ea |
+    | modified | 2025-12-22 15:44:49 |
+    | id | EAID\_15ab232e\_5f27\_439a\_a417\_d73be1f3fe65 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1794,8 +1794,8 @@ De enumeratie StdIndJN heeft de volgende kenmerken:
     | author | janbr |
     | version | 1.1.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-08-06 14:19:41 |
-    | id | EAID\_4ff87dc5\_c2df\_4c48\_ad07\_3a30263fe773 |
+    | modified | 2025-12-22 15:26:49 |
+    | id | EAID\_4d075161\_7ead\_44f0\_b344\_af49a25190a1 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1829,8 +1829,8 @@ De enumeratie StdIndJN heeft de volgende kenmerken:
     | author | janbr |
     | version | 1.1.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-08-06 14:19:41 |
-    | id | EAID\_d2a7df03\_c361\_40cd\_bed7\_4aceb453733c |
+    | modified | 2025-12-22 15:26:49 |
+    | id | EAID\_9de4b317\_022b\_440b\_bc82\_d57e211226a9 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1864,8 +1864,8 @@ De enumeratie StdIndJN heeft de volgende kenmerken:
     | author | janbr |
     | version | 1.1.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-08-06 14:19:41 |
-    | id | EAID\_fb65f0f2\_b4c0\_4f86\_9730\_70fb0369525b |
+    | modified | 2025-12-22 15:26:49 |
+    | id | EAID\_d61ae60c\_a4e5\_4dc9\_88d7\_376749c2c8cf |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1899,8 +1899,8 @@ De enumeratie StdIndJN heeft de volgende kenmerken:
     | author | janbr |
     | version | 1.1.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-08-06 14:19:41 |
-    | id | EAID\_987f2f3a\_8c4e\_4ea3\_af44\_50e3d4a9fe34 |
+    | modified | 2025-12-22 15:26:49 |
+    | id | EAID\_dc93a66a\_e3c5\_4188\_8bf9\_0c0541f2729b |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1934,8 +1934,8 @@ De enumeratie StdIndJN heeft de volgende kenmerken:
     | author | janbr |
     | version | 1.1.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-08-06 14:19:41 |
-    | id | EAID\_53310184\_0521\_4232\_8596\_ea153e7d00b7 |
+    | modified | 2025-12-22 15:26:49 |
+    | id | EAID\_9a07df04\_aa41\_47e8\_bd78\_194f5620eb48 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1967,10 +1967,10 @@ De enumeratie CdRedenAanvraagANWafgewezenReden heeft de volgende kenmerken:
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.0 |
+    | version | 1.2.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-12-20 18:33:30 |
-    | id | EAID\_6c66c6fc\_9078\_43b6\_b641\_e908832bdd0d |
+    | modified | 2025-12-22 15:44:49 |
+    | id | EAID\_7c33a309\_e214\_4050\_804f\_4a4ae6926942 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -2009,10 +2009,10 @@ De enumeratie CdRedenAanvraagOnvoldoendeInkomen heeft de volgende kenmerken:
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.0 |
+    | version | 1.2.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-12-20 18:34:12 |
-    | id | EAID\_69efe854\_3bb0\_45c1\_9e76\_eb552d1ff600 |
+    | modified | 2025-12-22 15:44:49 |
+    | id | EAID\_d8aec9b6\_05c0\_47fc\_a6d8\_311963fd001e |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -2046,10 +2046,10 @@ De enumeratie RedenKwijtscheldingVordering heeft de volgende kenmerken:
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.0 |
+    | version | 1.2.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-12-20 18:34:52 |
-    | id | EAID\_2ddf2320\_ed54\_4a71\_84ee\_8d2d739e7afc |
+    | modified | 2025-12-22 15:44:49 |
+    | id | EAID\_052b9d10\_db3c\_497d\_a9bf\_094a8e313866 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -2081,10 +2081,10 @@ De enumeratie CdRedenAanvraagVerblijfstatus heeft de volgende kenmerken:
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.0 |
+    | version | 1.2.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-12-20 18:34:19 |
-    | id | EAID\_c6fef965\_9ca1\_44a3\_97ee\_6be645c5ea63 |
+    | modified | 2025-12-22 15:44:49 |
+    | id | EAID\_100fde55\_6e61\_4024\_913c\_190079640b8c |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -2117,10 +2117,10 @@ De enumeratie CdRedenAanvraagWijzigingGezin heeft de volgende kenmerken:
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.0 |
+    | version | 1.2.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-12-20 18:34:24 |
-    | id | EAID\_8de97389\_6b8c\_4e7b\_be9a\_7bcfb59ce4d7 |
+    | modified | 2025-12-22 15:44:49 |
+    | id | EAID\_c9078e8d\_9174\_476c\_a483\_b52e7ae0bf7b |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -2152,10 +2152,10 @@ De enumeratie CdRedenAanvraagZelfstandige heeft de volgende kenmerken:
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.0 |
+    | version | 1.2.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-12-20 18:34:41 |
-    | id | EAID\_715cb53b\_1097\_49c6\_9f3f\_7fb4c00b6561 |
+    | modified | 2025-12-22 15:44:49 |
+    | id | EAID\_58c48542\_8a84\_457c\_91b6\_36317d458ce5 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -2189,8 +2189,8 @@ De enumeratie StdIndJN heeft de volgende kenmerken:
     | author | janbr |
     | version | 1.1.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-08-06 14:19:41 |
-    | id | EAID\_57bfdd75\_74e2\_451d\_b710\_a917be89f577 |
+    | modified | 2025-12-22 15:26:49 |
+    | id | EAID\_fb002c0c\_b3d0\_4213\_a7e7\_c9594ee24396 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -2224,10 +2224,10 @@ De enumeratie CodeRedenAfwijkendeStartdatum heeft de volgende kenmerken:
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.0 |
+    | version | 1.2.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-12-20 18:34:47 |
-    | id | EAID\_b6706174\_6477\_4978\_b997\_8e1fea933f2b |
+    | modified | 2025-12-22 15:44:49 |
+    | id | EAID\_a36c28a6\_ad43\_4c72\_8f0e\_629a7c41af3c |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -2261,8 +2261,8 @@ De enumeratie StdIndJN heeft de volgende kenmerken:
     | author | janbr |
     | version | 1.1.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-08-06 14:19:41 |
-    | id | EAID\_21e370b3\_aed5\_436c\_ba6a\_1ff932250886 |
+    | modified | 2025-12-22 15:26:49 |
+    | id | EAID\_38f608fe\_b46d\_48db\_be03\_e83c10a0a0b5 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -2296,8 +2296,8 @@ De enumeratie StdIndJN heeft de volgende kenmerken:
     | author | janbr |
     | version | 1.1.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-08-06 14:19:41 |
-    | id | EAID\_de3e405f\_80ec\_40ae\_8a01\_f4ca066bde9e |
+    | modified | 2025-12-22 15:26:49 |
+    | id | EAID\_bda23d40\_bb08\_4857\_852f\_696d35d3243d |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -2331,8 +2331,8 @@ De enumeratie StdIndJN heeft de volgende kenmerken:
     | author | janbr |
     | version | 1.1.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-08-06 14:19:41 |
-    | id | EAID\_07a9e625\_edb5\_45db\_ab72\_b2805244b4cc |
+    | modified | 2025-12-22 15:26:49 |
+    | id | EAID\_7338b2b2\_8661\_472b\_9941\_1f420cd2810c |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -2366,8 +2366,8 @@ De enumeratie StdIndJN heeft de volgende kenmerken:
     | author | janbr |
     | version | 1.1.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-08-06 14:19:41 |
-    | id | EAID\_d66a956c\_937d\_494d\_9c14\_de4780200a1c |
+    | modified | 2025-12-22 15:26:49 |
+    | id | EAID\_75977223\_46bb\_4601\_b35d\_804dc8a0106d |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |

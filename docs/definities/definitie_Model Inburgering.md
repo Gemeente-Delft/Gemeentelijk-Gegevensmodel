@@ -16,13 +16,13 @@
     | author | mkampen |
     | version | 1.1 |
     | created | 2022-11-22 11:46:08 |
-    | modified | 2025-03-27 15:28:35 |
+    | modified | 2025-12-22 15:26:49 |
     | id | EAPK\_1A306FCA\_5794\_4a29\_A5FA\_EAE2DBD07DA6 |
     
 
 Het model 'Model Inburgering' kent de volgende objecttypen:
 
-* **Aandachtspunt **: Een Aandachtspunt is een bijzonder aspect of omstandigheid in de persoonlijke situatie van de inburgeraar, dat extra aandacht vereist bij de begeleiding of dienstverlening in het kader van inburgering.
+* **Aandachtspunt**: Een Aandachtspunt is een bijzonder aspect of omstandigheid in de persoonlijke situatie van de inburgeraar, dat extra aandacht vereist bij de begeleiding of dienstverlening in het kader van inburgering.
 * **Aanvraag verlenging Inburgeringstermijn**: Een Aanvraag verlenging inburgeringstermijn is een verzoek van een inburgeringsplichtige aan het college van burgemeester en wethouders tot verlenging van de inburgeringstermijn op grond van persoonlijke omstandigheden als bedoeld in artikel 7.3, tweede lid, van de Wet inburgering 2021.
 * **Asielstatushouder**: De Inburgeringsplichtige die rechtmatig verblijf heeft
 * **B1-route**: De B1-route is één van de drie leerroutes in het inburgeringsstelsel, waarbij de inburgeringsplichtige zich voorbereidt op het afleggen van het inburgeringsexamen op taalniveau B1, gericht op brede participatie in de Nederlandse samenleving en toeleiding naar arbeid.
@@ -31,8 +31,7 @@ Het model 'Model Inburgering' kent de volgende objecttypen:
 * **Educatie**: Educatie betreft het formele en non-formele onderwijsaanbod dat gericht is op het vergroten van basisvaardigheden, zoals taalvaardigheid, rekenen en digitale vaardigheden, ter ondersteuning van participatie en zelfredzaamheid van (laagopgeleide) volwassenen, waaronder inburgeringsplichtigen.
 * **Examen**: Een Examen in de context van onderwijs is een formele toetsingsactiviteit waarmee de kennis, vaardigheden en competenties van een leerling of student worden beoordeeld ten opzichte van vooraf vastgestelde leerdoelen of eindtermen. Het examen kan schriftelijk, mondeling, digitaal of praktijkgericht zijn en vormt doorgaans een afsluiting van een cursus, module of opleiding. Het behalen van een examen kan leiden tot het verkrijgen van een diploma, certificaat of overgangsbewijs en is bedoeld om de voortgang en geschiktheid voor verdere studie of beroep te waarborgen.
 * **Examenonderdeel**: Een Examenonderdeel in de context van onderwijs is een specifieke, afgebakende component van een examen waarin een deelaspect van de leerdoelen of eindtermen wordt getoetst. Het kan betrekking hebben op een specifiek vak, thema of vaardigheid en kan bestaan uit verschillende toetsvormen, zoals meerkeuzevragen, essays, praktijkopdrachten of mondelinge presentaties. Het examenonderdeel draagt bij aan de totaalscore of het eindresultaat van het examen en kan afzonderlijk beoordeeld en gewaardeerd worden.
-* **Gezinsmigrant en Overige migrant
-**: 
+* **Gezinsmigrant en Overige migrant**: 
 > Object Inburgeraar is gespecialiseerd in Asielstatushouder en Gezinsmigrant en Overige Migrant.
 > Gezinsmigrant en Overige Migrant heeft geen kenmerken en is bedoeld om relaties te leggen met objecten die alleen van toepassing zijn voor Gezinsmigrant en Overige Migrant zoals bijvoorbeeld: object Aanvraag Sociale Lening. Hetzelfde geldt ook voor object Asielstatushouder, deze heeft overigens wel kenmerken.
 * **Hoofddoel**: Het Hoofddoel is de door de gemeente vastgestelde eindbestemming van het inburgeringstraject, waarin wordt vastgelegd of de inburgeringsplichtige wordt begeleid richting werk, onderwijs of (maatschappelijke) participatie, op basis van de brede intake en het leerrouteadvies.
@@ -46,7 +45,7 @@ Het model 'Model Inburgering' kent de volgende objecttypen:
 * **Leerroute**: Een Leerroute is het door de gemeente vastgestelde traject dat een inburgeringsplichtige volgt om te voldoen aan de inburgeringsplicht, bestaande uit taallessen, participatieactiviteiten en aanvullende modules, afgestemd op het leervermogen en het hoofddoel van de inburgeraar.
 * **MAP**: De Module Arbeidsmarkt en Participatie (MAP) is een verplicht onderdeel van het inburgeringstraject waarin de inburgeringsplichtige wordt voorbereid op deelname aan de Nederlandse arbeidsmarkt, door middel van voorlichting, oriëntatie en arbeidsmarktgerichte activiteiten.
 * **Ontheffing**: Een Ontheffing is een formeel besluit van de gemeente of van DUO waarbij een inburgeringsplichtige geheel of gedeeltelijk wordt vrijgesteld van onderdelen van de inburgeringsplicht, op grond van persoonlijke omstandigheden zoals medische beperkingen, psychische problematiek of aantoonbare inspanning.
-* **Ontwikkelwens **: Een Ontwikkelwens is een door de inburgeringsplichtige geuite persoonlijke ambitie of leerdoel die richting kan geven aan het inburgeringstraject, en wordt meegenomen bij het opstellen van het Persoonlijk Plan Inburgering en Participatie (PIP).
+* **Ontwikkelwens**: Een Ontwikkelwens is een door de inburgeringsplichtige geuite persoonlijke ambitie of leerdoel die richting kan geven aan het inburgeringstraject, en wordt meegenomen bij het opstellen van het Persoonlijk Plan Inburgering en Participatie (PIP).
 * **PIP**: Het Persoonlijk Plan Inburgering en Participatie (PIP) is een individueel plan dat door de gemeente wordt vastgesteld in overleg met de inburgeringsplichtige, waarin het leerrouteadvies, het inburgeringsaanbod, het hoofddoel en de begeleidingsafspraken zijn vastgelegd, met als doel het succesvol afronden van de inburgering binnen de gestelde termijn.
 * **PVT**: Het Participatieverklaringstraject (PVT) is een verplicht onderdeel van het inburgeringstraject waarin de inburgeringsplichtige kennismaakt met de basiswaarden van de Nederlandse samenleving, en deze onderschrijft door het ondertekenen van de participatieverklaring.
 * **Subdoel Aandachtspunt**: Een Subdoel aandachtspunt is een concreet, afgebakend leer- of begeleidingsdoel dat voortvloeit uit een gesignaleerd aandachtspunt in de persoonlijke situatie van de inburgeringsplichtige, en dat bijdraagt aan het wegnemen van belemmeringen voor het volgen van de leerroute of het behalen van het PIP-doel.
@@ -65,12 +64,12 @@ Het model 'Model Inburgering' kent de volgende objecttypen:
 ## Objecttypen Model Inburgering
 
 
-### Aandachtspunt 
-> **Definitie Aandachtspunt :** 
+### Aandachtspunt
+> **Definitie Aandachtspunt:** 
 >
 > Een Aandachtspunt is een bijzonder aspect of omstandigheid in de persoonlijke situatie van de inburgeraar, dat extra aandacht vereist bij de begeleiding of dienstverlening in het kader van inburgering.
 
-??? info "Kenmerken Model Aandachtspunt "
+??? info "Kenmerken Model Aandachtspunt"
 
     | Eigenschap | Waarde |
     | :--- | :------ |
@@ -80,9 +79,9 @@ Het model 'Model Inburgering' kent de volgende objecttypen:
     | uri |  |
     | bron |  |
     | author | Eigenaar |
-    | version | 1.9.0 |
+    | version | 1.11.0 |
     | created | 2025-02-26 16:13:54 |
-    | modified | 2025-12-18 15:38:52 |
+    | modified | 2026-10-28 19:09:51 |
     | id | EAID\_F188F63C\_0033\_4164\_9F73\_413AE6943497 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -93,11 +92,11 @@ Het model 'Model Inburgering' kent de volgende objecttypen:
     | gemma_toelichting |  |
     
 
-Attributen van objecttype Aandachtspunt 
+Attributen van objecttype Aandachtspunt
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| aandachtspuntOmschrijving | Aandachtspunt |  |
+| aandachtspuntOmschrijving | EnumAandachtspunt |  |
 | StartDatum | date |  |
 | EindDatum | date |  |
 
@@ -118,9 +117,9 @@ Attributen van objecttype Aandachtspunt
     | uri |  |
     | bron |  |
     | author | Eigenaar |
-    | version | 1.9.0 |
+    | version | 1.11.0 |
     | created | 2024-09-16 13:06:14 |
-    | modified | 2025-12-18 15:38:52 |
+    | modified | 2025-12-22 15:44:35 |
     | id | EAID\_63D30089\_AD78\_4c29\_9D17\_160FE4A242E8 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -157,7 +156,7 @@ Attributen van objecttype Aanvraag verlenging Inburgeringstermijn
     | author | Ashkan Ashkpour |
     | version | 1.11.0 |
     | created | 2022-11-21 13:47:46 |
-    | modified | 2025-12-18 15:38:52 |
+    | modified | 2025-12-22 15:26:48 |
     | id | EAID\_598F7015\_C6B5\_4eed\_80A6\_139B62324678 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -196,9 +195,9 @@ Attributen van objecttype Asielstatushouder
     | uri |  |
     | bron |  |
     | author | Eigenaar |
-    | version | 1.9.0 |
+    | version | 1.11.0 |
     | created | 2025-03-25 14:30:41 |
-    | modified | 2025-12-18 15:38:52 |
+    | modified | 2025-12-22 15:44:35 |
     | id | EAID\_09D462A9\_94C8\_4803\_A0A0\_B7DB4363B45D |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -236,9 +235,9 @@ Attributen van objecttype B1-route
     | uri |  |
     | bron |  |
     | author | mkampen |
-    | version | 1.3.0 |
+    | version | 1.5.0 |
     | created | 2022-11-28 16:48:20 |
-    | modified | 2025-12-18 15:38:52 |
+    | modified | 2025-12-22 15:44:35 |
     | id | EAID\_8B394DCE\_C3C4\_4262\_9460\_8EF130E90D83 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -278,9 +277,9 @@ Attributen van objecttype Brede Intake
     | uri |  |
     | bron |  |
     | author | Eigenaar |
-    | version | 1.9.0 |
+    | version | 1.11.0 |
     | created | 2024-09-16 11:55:15 |
-    | modified | 2025-12-18 15:38:52 |
+    | modified | 2025-12-22 15:44:35 |
     | id | EAID\_950DD620\_01C0\_4594\_875F\_AE23C9154826 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -318,9 +317,9 @@ Attributen van objecttype Diplomawaardering
     | uri |  |
     | bron |  |
     | author | Eigenaar |
-    | version | 1.9.0 |
+    | version | 1.11.0 |
     | created | 2024-09-16 11:59:33 |
-    | modified | 2025-12-18 15:38:52 |
+    | modified | 2025-12-22 15:44:35 |
     | id | EAID\_8C5FEEDF\_1AE5\_44a6\_8A13\_53A70F06DBBC |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -359,9 +358,9 @@ Attributen van objecttype Educatie
     | uri |  |
     | bron |  |
     | author | mkampen |
-    | version | 1.3.0 |
+    | version | 1.5.0 |
     | created | 2022-11-28 16:59:53 |
-    | modified | 2025-12-18 15:38:52 |
+    | modified | 2025-12-22 15:44:35 |
     | id | EAID\_DCE46ABA\_613D\_4204\_86F4\_35F517FF680F |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -395,9 +394,9 @@ Attributen van objecttype Examen
     | uri |  |
     | bron |  |
     | author | mkampen |
-    | version | 1.3.0 |
+    | version | 1.5.0 |
     | created | 2022-11-28 17:00:52 |
-    | modified | 2025-12-18 15:38:52 |
+    | modified | 2025-12-22 15:44:35 |
     | id | EAID\_D41DCE2D\_4AD5\_45b8\_9527\_EC416F4A4CC7 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -422,16 +421,13 @@ Attributen van objecttype Examenonderdeel
 
 
 ### Gezinsmigrant en Overige migrant
-
-> **Definitie Gezinsmigrant en Overige migrant
-:** 
+> **Definitie Gezinsmigrant en Overige migrant:** 
 >
 > 
 > Object Inburgeraar is gespecialiseerd in Asielstatushouder en Gezinsmigrant en Overige Migrant.
 > Gezinsmigrant en Overige Migrant heeft geen kenmerken en is bedoeld om relaties te leggen met objecten die alleen van toepassing zijn voor Gezinsmigrant en Overige Migrant zoals bijvoorbeeld: object Aanvraag Sociale Lening. Hetzelfde geldt ook voor object Asielstatushouder, deze heeft overigens wel kenmerken.
 
-??? info "Kenmerken Model Gezinsmigrant en Overige migrant
-"
+??? info "Kenmerken Model Gezinsmigrant en Overige migrant"
 
     | Eigenschap | Waarde |
     | :--- | :------ |
@@ -441,9 +437,9 @@ Attributen van objecttype Examenonderdeel
     | uri |  |
     | bron |  |
     | author | Ashkan Ashkpour |
-    | version | 1.3.0 |
+    | version | 1.5.0 |
     | created | 2022-11-21 13:45:07 |
-    | modified | 2025-12-18 15:38:52 |
+    | modified | 2026-10-28 19:09:51 |
     | id | EAID\_526489DC\_4D57\_4e6d\_8338\_5F7C898162F6 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -455,7 +451,6 @@ Attributen van objecttype Examenonderdeel
     
 
 Attributen van objecttype Gezinsmigrant en Overige migrant
-
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
@@ -477,9 +472,9 @@ Attributen van objecttype Gezinsmigrant en Overige migrant
     | uri |  |
     | bron |  |
     | author | Eigenaar |
-    | version | 1.9.0 |
+    | version | 1.11.0 |
     | created | 2025-02-26 16:12:34 |
-    | modified | 2025-12-18 15:38:52 |
+    | modified | 2025-12-22 15:44:35 |
     | id | EAID\_CEAAEBFB\_9CB8\_4c5e\_98F7\_11791C0A21D2 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -515,9 +510,9 @@ Attributen van objecttype Hoofddoel
     | uri |  |
     | bron |  |
     | author | Eigenaar |
-    | version | 1.9.0 |
+    | version | 1.11.0 |
     | created | 2024-09-16 12:47:24 |
-    | modified | 2025-12-18 15:38:52 |
+    | modified | 2025-12-22 15:44:35 |
     | id | EAID\_1095BF0E\_087F\_4341\_8B3C\_E0DD4C9AF269 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -552,9 +547,9 @@ Attributen van objecttype ICT-Vaardigheid
     | uri |  |
     | bron |  |
     | author | Ashkan Ashkpour |
-    | version | 1.12.0 |
+    | version | 1.14.0 |
     | created | 2022-11-21 13:35:31 |
-    | modified | 2025-12-18 15:38:52 |
+    | modified | 2025-12-22 15:44:35 |
     | id | EAID\_EE5472C2\_193E\_4432\_B175\_78D6DF1D357B |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -589,9 +584,9 @@ Attributen van objecttype Inburgeraar
     | uri |  |
     | bron |  |
     | author | Eigenaar |
-    | version | 1.9.0 |
+    | version | 1.11.0 |
     | created | 2024-09-16 14:40:19 |
-    | modified | 2025-12-18 15:38:52 |
+    | modified | 2025-12-22 15:44:35 |
     | id | EAID\_D9FAEFEC\_2B8E\_48dc\_A1E8\_E134754E9943 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -610,10 +605,10 @@ Attributen van objecttype InburgeringsAanbod
 | DatumAanvangTaalschakelTraject | date |  |
 | DatumEindeCursus | date |  |
 | CursusInstelling | AN200 |  |
-| IndicatorAlfabetisering | ClassificatieVoldoendeOnvoldoende  |  |
+| IndicatorAlfabetisering | ClassificatieVoldoendeOnvoldoende |  |
 | TaalschakelTraject | boolean |  |
 | DatumTaalschakelDiploma | date |  |
-| ParticipatieDeelname | ClassificatieVoldoendeOnvoldoende  |  |
+| ParticipatieDeelname | ClassificatieVoldoendeOnvoldoende |  |
 | ContractId | int |  |
 
 
@@ -633,9 +628,9 @@ Attributen van objecttype InburgeringsAanbod
     | uri |  |
     | bron |  |
     | author | Eigenaar |
-    | version | 1.9.0 |
+    | version | 1.11.0 |
     | created | 2024-09-16 13:07:51 |
-    | modified | 2025-12-18 15:38:52 |
+    | modified | 2025-12-22 15:44:35 |
     | id | EAID\_E2C66E88\_930E\_460f\_93F8\_8CD160DCEE15 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -679,9 +674,9 @@ Attributen van objecttype Inburgeringsplicht
     | uri |  |
     | bron |  |
     | author | Eigenaar |
-    | version | 1.9.0 |
+    | version | 1.11.0 |
     | created | 2024-09-16 13:10:15 |
-    | modified | 2025-12-18 15:38:52 |
+    | modified | 2025-12-22 15:44:35 |
     | id | EAID\_E07490AD\_C5DE\_4665\_8540\_92B19656A027 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -719,9 +714,9 @@ Attributen van objecttype Inburgeringstermijn
     | uri |  |
     | bron |  |
     | author | mkampen |
-    | version | 1.3.0 |
+    | version | 1.5.0 |
     | created | 2022-11-22 11:48:25 |
-    | modified | 2025-12-18 15:38:52 |
+    | modified | 2025-12-22 15:44:35 |
     | id | EAID\_F9B2A863\_63C8\_4229\_906A\_D0891BB4F021 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -755,9 +750,9 @@ Attributen van objecttype Inburgeringstraject
     | uri |  |
     | bron |  |
     | author | Eigenaar |
-    | version | 1.9.0 |
+    | version | 1.11.0 |
     | created | 2024-09-16 11:52:41 |
-    | modified | 2025-12-18 15:38:52 |
+    | modified | 2025-12-22 15:44:35 |
     | id | EAID\_7328FC95\_FA03\_405d\_8EC4\_5C4B3D5CF042 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -792,9 +787,9 @@ Attributen van objecttype Introductiemodule
     | uri |  |
     | bron |  |
     | author | mkampen |
-    | version | 1.9.0 |
+    | version | 1.11.0 |
     | created | 2022-11-28 16:50:29 |
-    | modified | 2025-12-18 15:38:52 |
+    | modified | 2025-12-22 15:44:35 |
     | id | EAID\_51285531\_9529\_4b2d\_9EC6\_B6BAEA729D9A |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -835,9 +830,9 @@ Attributen van objecttype Leerroute
     | uri |  |
     | bron |  |
     | author | mkampen |
-    | version | 1.3.0 |
+    | version | 1.5.0 |
     | created | 2022-11-28 16:53:41 |
-    | modified | 2025-12-18 15:38:52 |
+    | modified | 2025-12-22 15:44:35 |
     | id | EAID\_2177E7F0\_0F76\_41b7\_B5CA\_5FE182355E94 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -874,9 +869,9 @@ Attributen van objecttype MAP
     | uri |  |
     | bron |  |
     | author | Eigenaar |
-    | version | 1.9.0 |
+    | version | 1.11.0 |
     | created | 2024-09-16 13:10:40 |
-    | modified | 2025-12-18 15:38:52 |
+    | modified | 2025-12-22 15:44:35 |
     | id | EAID\_3F5932BD\_C721\_402d\_8154\_74A1CE097825 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -896,12 +891,12 @@ Attributen van objecttype Ontheffing
 
 
 
-### Ontwikkelwens 
-> **Definitie Ontwikkelwens :** 
+### Ontwikkelwens
+> **Definitie Ontwikkelwens:** 
 >
 > Een Ontwikkelwens is een door de inburgeringsplichtige geuite persoonlijke ambitie of leerdoel die richting kan geven aan het inburgeringstraject, en wordt meegenomen bij het opstellen van het Persoonlijk Plan Inburgering en Participatie (PIP).
 
-??? info "Kenmerken Model Ontwikkelwens "
+??? info "Kenmerken Model Ontwikkelwens"
 
     | Eigenschap | Waarde |
     | :--- | :------ |
@@ -911,9 +906,9 @@ Attributen van objecttype Ontheffing
     | uri |  |
     | bron |  |
     | author | Eigenaar |
-    | version | 1.9.0 |
+    | version | 1.11.0 |
     | created | 2025-02-26 16:13:24 |
-    | modified | 2025-12-18 15:38:52 |
+    | modified | 2026-10-28 19:09:51 |
     | id | EAID\_AE33D54A\_A105\_4fac\_B378\_D5651B66F0F0 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -924,11 +919,11 @@ Attributen van objecttype Ontheffing
     | gemma_toelichting |  |
     
 
-Attributen van objecttype Ontwikkelwens 
+Attributen van objecttype Ontwikkelwens
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| ontwikkelwensOmschrijving | Ontwikkelwens |  |
+| ontwikkelwensOmschrijving | EnumOntwikkelwens |  |
 | StartDatum | date |  |
 | EindDatum | date |  |
 
@@ -949,9 +944,9 @@ Attributen van objecttype Ontwikkelwens
     | uri |  |
     | bron |  |
     | author | mkampen |
-    | version | 1.3.0 |
+    | version | 1.5.0 |
     | created | 2022-11-28 16:49:50 |
-    | modified | 2025-12-18 15:38:52 |
+    | modified | 2025-12-22 15:44:35 |
     | id | EAID\_94EB7844\_F863\_4330\_A15A\_06ED4D1401E0 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -989,9 +984,9 @@ Attributen van objecttype PIP
     | uri |  |
     | bron |  |
     | author | mkampen |
-    | version | 1.3.0 |
+    | version | 1.5.0 |
     | created | 2022-11-28 16:53:50 |
-    | modified | 2025-12-18 15:38:52 |
+    | modified | 2025-12-22 15:44:35 |
     | id | EAID\_783B026E\_E993\_467c\_85E0\_E90E9E01BAA0 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -1028,9 +1023,9 @@ Attributen van objecttype PVT
     | uri |  |
     | bron |  |
     | author | zoutwater |
-    | version | 1.9.0 |
+    | version | 1.11.0 |
     | created | 2025-07-27 14:25:29 |
-    | modified | 2025-12-18 15:38:52 |
+    | modified | 2025-12-22 15:44:35 |
     | id | EAID\_0279048D\_E742\_400c\_9D86\_03085E5EF917 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -1066,9 +1061,9 @@ Attributen van objecttype Subdoel Aandachtspunt
     | uri |  |
     | bron |  |
     | author | Eigenaar |
-    | version | 1.9.0 |
+    | version | 1.11.0 |
     | created | 2025-02-26 16:12:58 |
-    | modified | 2025-12-18 15:38:52 |
+    | modified | 2025-12-22 15:44:35 |
     | id | EAID\_564CEF80\_C5BE\_4d74\_8BC7\_B48BEFDEE655 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -1104,9 +1099,9 @@ Attributen van objecttype Subdoel Ontwikkelwens
     | uri |  |
     | bron |  |
     | author | Eigenaar |
-    | version | 1.9.0 |
+    | version | 1.11.0 |
     | created | 2025-03-26 12:23:53 |
-    | modified | 2025-12-18 15:38:52 |
+    | modified | 2025-12-22 15:44:35 |
     | id | EAID\_0C74C068\_BA3A\_4394\_AA76\_16B47FEFC88C |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -1153,9 +1148,9 @@ Attributen van objecttype Taalvaardigheid
     | uri |  |
     | bron |  |
     | author | Eigenaar |
-    | version | 1.9.0 |
+    | version | 1.11.0 |
     | created | 2024-09-16 12:42:47 |
-    | modified | 2025-12-18 15:38:52 |
+    | modified | 2025-12-22 15:44:35 |
     | id | EAID\_88DF555F\_9F2F\_4274\_A1ED\_B201EEE0E62E |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -1191,9 +1186,9 @@ Attributen van objecttype Training
     | uri |  |
     | bron |  |
     | author | Ashkan Ashkpour |
-    | version | 1.3.0 |
+    | version | 1.5.0 |
     | created | 2022-11-28 12:03:41 |
-    | modified | 2025-12-18 15:38:52 |
+    | modified | 2025-12-22 15:44:35 |
     | id | EAID\_40C9655E\_15CF\_4b46\_8B59\_FD8D4CBC57B5 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -1229,9 +1224,9 @@ Attributen van objecttype Verblijfplaats AZC
     | uri |  |
     | bron |  |
     | author | Eigenaar |
-    | version | 1.9.0 |
+    | version | 1.11.0 |
     | created | 2024-09-16 13:10:32 |
-    | modified | 2025-12-18 15:38:52 |
+    | modified | 2025-12-22 15:44:35 |
     | id | EAID\_951AC549\_985D\_4bdb\_BEE0\_65AD3C1ED9E2 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -1270,9 +1265,9 @@ Attributen van objecttype Verlengingsgrond
     | uri |  |
     | bron |  |
     | author | Eigenaar |
-    | version | 1.9.0 |
+    | version | 1.11.0 |
     | created | 2024-09-16 11:41:43 |
-    | modified | 2025-12-18 15:38:52 |
+    | modified | 2025-12-22 15:44:35 |
     | id | EAID\_6AEA0314\_895B\_46be\_B525\_96F4657E7F0D |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -1308,9 +1303,9 @@ Attributen van objecttype Voorbereiding op Inburgering
     | uri |  |
     | bron |  |
     | author | Ashkan Ashkpour |
-    | version | 1.11.0 |
+    | version | 1.13.0 |
     | created | 2022-11-21 13:24:45 |
-    | modified | 2025-12-18 15:38:52 |
+    | modified | 2025-12-22 15:44:35 |
     | id | EAID\_3BBDD95F\_6586\_4591\_BBD0\_D04D1CF2801E |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -1345,9 +1340,9 @@ Attributen van objecttype Vreemdeling
     | uri |  |
     | bron |  |
     | author | Eigenaar |
-    | version | 1.9.0 |
+    | version | 1.11.0 |
     | created | 2024-09-16 13:10:49 |
-    | modified | 2025-12-18 15:38:52 |
+    | modified | 2025-12-22 15:44:35 |
     | id | EAID\_C31D4A7E\_1F25\_4b85\_B49C\_AEC45EB3DB54 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -1382,9 +1377,9 @@ Attributen van objecttype Vrijstelling
     | uri |  |
     | bron |  |
     | author | Eigenaar |
-    | version | 1.9.0 |
+    | version | 1.11.0 |
     | created | 2024-09-16 12:05:16 |
-    | modified | 2025-12-18 15:38:52 |
+    | modified | 2025-12-22 15:44:35 |
     | id | EAID\_45BB12F8\_C796\_43aa\_A4D0\_FDC724601EB9 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -1428,9 +1423,9 @@ Attributen van objecttype Werk
     | uri |  |
     | bron |  |
     | author | Eigenaar |
-    | version | 1.2.0 |
+    | version | 1.4.0 |
     | created | 2024-09-16 14:29:20 |
-    | modified | 2025-12-18 15:38:52 |
+    | modified | 2025-12-22 15:44:35 |
     | id | EAID\_42CA98D5\_0E2F\_4110\_AED0\_6B8ADB955BBF |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -1486,8 +1481,8 @@ De enumeratie Boolean heeft de volgende kenmerken:
     | author |  |
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:35 |
-    | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_072aa20b\_e099\_43ad\_8a8b\_fac1dde6026a |
+    | modified | 2025-12-22 15:27:04 |
+    | id | EAID\_f4c478da\_58bd\_471e\_9987\_2298da4744b8 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1523,8 +1518,8 @@ De enumeratie Boolean heeft de volgende kenmerken:
     | author |  |
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:35 |
-    | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_f1e51012\_b977\_42df\_bcc3\_d7cb31ae824f |
+    | modified | 2025-12-22 15:27:04 |
+    | id | EAID\_91415f34\_880e\_4099\_95d6\_bd39715ecf26 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1560,10 +1555,10 @@ De enumeratie CodeNiveauOpleiding heeft de volgende kenmerken:
     | uri |  |
     | bron |  |
     | author | Eigenaar |
-    | version | 1.9.0 |
+    | version | 1.11.0 |
     | created | 2025-06-17 16:01:14 |
-    | modified | 2025-12-18 15:38:53 |
-    | id | EAID\_fa31fb6b\_fad6\_4354\_ade8\_051dd2c53ab5 |
+    | modified | 2025-12-22 15:44:49 |
+    | id | EAID\_83dc4498\_871f\_4f64\_a621\_83fe0e1b587a |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1574,10 +1569,10 @@ De enumeratie CodeNiveauOpleiding heeft de volgende kenmerken:
     
 
 
-### Aandachtspunt
+### EnumAandachtspunt
 Geen Definitie
 
-Het enumeratie Aandachtspunt kent de volgende waarden:
+Het enumeratie EnumAandachtspunt kent de volgende waarden:
 
 * **Financien**: 
 * **Verslaving**: 
@@ -1590,21 +1585,21 @@ Het enumeratie Aandachtspunt kent de volgende waarden:
 * **Woonsituatie**: 
 
 
-De enumeratie Aandachtspunt heeft de volgende kenmerken:
+De enumeratie EnumAandachtspunt heeft de volgende kenmerken:
 
-??? info "Kenmerken Model Aandachtspunt"
+??? info "Kenmerken Model EnumAandachtspunt"
 
     | Kenmerk | Waarde |
     | :--- | :------ |
-    | name | Aandachtspunt |
+    | name | EnumAandachtspunt |
     | toelichting |  |
     | synoniemen |  |
     | uri |  |
     | bron |  |
     | author | zoutwater |
-    | version | 1.9.0 |
+    | version | 1.11.0 |
     | created | 2025-07-27 07:29:22 |
-    | modified | 2025-12-18 15:38:53 |
+    | modified | 2026-10-28 19:09:51 |
     | id | EAID\_B16DEA22\_40DB\_45a9\_ADD9\_5C1410F499B8 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -1637,9 +1632,9 @@ De enumeratie BeoordelingAanvraagVerlenging heeft de volgende kenmerken:
     | uri |  |
     | bron |  |
     | author | zoutwater |
-    | version | 1.9.0 |
+    | version | 1.11.0 |
     | created | 2025-07-26 15:56:07 |
-    | modified | 2025-12-18 15:38:53 |
+    | modified | 2025-12-22 15:44:49 |
     | id | EAID\_ACBF6B07\_C3E2\_466f\_B2B4\_A65657A365BE |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -1675,9 +1670,9 @@ De enumeratie ClassificatieArmTotUitstekend heeft de volgende kenmerken:
     | uri |  |
     | bron |  |
     | author | zoutwater |
-    | version | 1.9.0 |
+    | version | 1.11.0 |
     | created | 2025-07-28 11:24:00 |
-    | modified | 2025-12-18 15:38:53 |
+    | modified | 2025-12-22 15:44:49 |
     | id | EAID\_AC2F4B40\_AD01\_0B7D\_B713\_7CBB564649D0 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -1689,18 +1684,18 @@ De enumeratie ClassificatieArmTotUitstekend heeft de volgende kenmerken:
     
 
 
-### ClassificatieVoldoendeOnvoldoende 
+### ClassificatieVoldoendeOnvoldoende
 Geen Definitie
 
-Het enumeratie ClassificatieVoldoendeOnvoldoende  kent de volgende waarden:
+Het enumeratie ClassificatieVoldoendeOnvoldoende kent de volgende waarden:
 
 * **Voldoende**: 
 * **Onvoldoende**: 
 
 
-De enumeratie ClassificatieVoldoendeOnvoldoende  heeft de volgende kenmerken:
+De enumeratie ClassificatieVoldoendeOnvoldoende heeft de volgende kenmerken:
 
-??? info "Kenmerken Model ClassificatieVoldoendeOnvoldoende "
+??? info "Kenmerken Model ClassificatieVoldoendeOnvoldoende"
 
     | Kenmerk | Waarde |
     | :--- | :------ |
@@ -1710,9 +1705,9 @@ De enumeratie ClassificatieVoldoendeOnvoldoende  heeft de volgende kenmerken:
     | uri |  |
     | bron |  |
     | author | zoutwater |
-    | version | 1.9.0 |
+    | version | 1.11.0 |
     | created | 2025-07-26 16:39:49 |
-    | modified | 2025-12-18 15:38:53 |
+    | modified | 2026-10-28 19:09:51 |
     | id | EAID\_6C8100BB\_7885\_4267\_BF88\_B9BC76D10892 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -1749,9 +1744,9 @@ De enumeratie Doel heeft de volgende kenmerken:
     | uri |  |
     | bron |  |
     | author | zoutwater |
-    | version | 1.9.0 |
+    | version | 1.11.0 |
     | created | 2025-07-27 06:29:40 |
-    | modified | 2025-12-18 15:38:53 |
+    | modified | 2025-12-22 15:44:49 |
     | id | EAID\_C83708A0\_F5E8\_4016\_BC90\_916160CDC918 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -1835,9 +1830,9 @@ De enumeratie Doelgroep heeft de volgende kenmerken:
     | uri |  |
     | bron |  |
     | author | arjen |
-    | version | 1.2.0 |
+    | version | 1.4.0 |
     | created | 2025-12-16 11:41:02 |
-    | modified | 2025-12-18 15:38:53 |
+    | modified | 2025-12-22 15:44:49 |
     | id | EAID\_2D012E2E\_4BD5\_4465\_B7E4\_3E4268E43B13 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -1872,9 +1867,9 @@ De enumeratie EindoordeelVrijstelling heeft de volgende kenmerken:
     | uri |  |
     | bron |  |
     | author | zoutwater |
-    | version | 1.9.0 |
+    | version | 1.11.0 |
     | created | 2025-07-26 15:42:07 |
-    | modified | 2025-12-18 15:38:53 |
+    | modified | 2025-12-22 15:44:49 |
     | id | EAID\_2A5627B6\_B527\_45ed\_9B6D\_BEF9C7309E32 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -1886,10 +1881,10 @@ De enumeratie EindoordeelVrijstelling heeft de volgende kenmerken:
     
 
 
-### Ontwikkelwens
+### EnumOntwikkelwens
 Geen Definitie
 
-Het enumeratie Ontwikkelwens kent de volgende waarden:
+Het enumeratie EnumOntwikkelwens kent de volgende waarden:
 
 * **Betaald werken**: 
 * **Betaald werken naar vermogen**: 
@@ -1903,21 +1898,21 @@ Het enumeratie Ontwikkelwens kent de volgende waarden:
 * **Passende dagbesteding hebben**: 
 
 
-De enumeratie Ontwikkelwens heeft de volgende kenmerken:
+De enumeratie EnumOntwikkelwens heeft de volgende kenmerken:
 
-??? info "Kenmerken Model Ontwikkelwens"
+??? info "Kenmerken Model EnumOntwikkelwens"
 
     | Kenmerk | Waarde |
     | :--- | :------ |
-    | name | Ontwikkelwens |
+    | name | EnumOntwikkelwens |
     | toelichting |  |
     | synoniemen |  |
     | uri |  |
     | bron |  |
     | author | zoutwater |
-    | version | 1.9.0 |
+    | version | 1.11.0 |
     | created | 2025-07-27 06:49:08 |
-    | modified | 2025-12-18 15:38:53 |
+    | modified | 2026-10-28 19:09:51 |
     | id | EAID\_2FCD9A74\_460D\_4042\_A207\_FF78590CEBE6 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -1955,9 +1950,9 @@ De enumeratie Opleidingsniveau heeft de volgende kenmerken:
     | uri |  |
     | bron |  |
     | author | zoutwater |
-    | version | 1.9.0 |
+    | version | 1.11.0 |
     | created | 2025-07-26 18:00:44 |
-    | modified | 2025-12-18 15:38:53 |
+    | modified | 2025-12-22 15:44:49 |
     | id | EAID\_6828324F\_D2D9\_4d4b\_8337\_606BF522C8CC |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -1990,9 +1985,9 @@ De enumeratie ParticipatieDeelname heeft de volgende kenmerken:
     | uri |  |
     | bron |  |
     | author | zoutwater |
-    | version | 1.9.0 |
+    | version | 1.11.0 |
     | created | 2025-07-26 16:41:13 |
-    | modified | 2025-12-18 15:38:53 |
+    | modified | 2025-12-22 15:44:49 |
     | id | EAID\_34632CBF\_89DE\_496f\_9679\_6EE3D724EC7F |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -2026,9 +2021,9 @@ De enumeratie PresentieTaalles heeft de volgende kenmerken:
     | uri |  |
     | bron |  |
     | author | zoutwater |
-    | version | 1.9.0 |
+    | version | 1.11.0 |
     | created | 2025-07-26 17:58:35 |
-    | modified | 2025-12-18 15:38:53 |
+    | modified | 2025-12-22 15:44:49 |
     | id | EAID\_E6674A80\_A87E\_4b1e\_B223\_707C45E091A0 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -2085,9 +2080,9 @@ De enumeratie SETU job category heeft de volgende kenmerken:
     | uri |  |
     | bron |  |
     | author | Eigenaar |
-    | version | 1.9.0 |
+    | version | 1.11.0 |
     | created | 2025-07-29 11:18:16 |
-    | modified | 2025-12-18 15:38:53 |
+    | modified | 2025-12-22 15:44:49 |
     | id | EAID\_B085E84B\_BC20\_5199\_A56E\_86CD393F1542 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -2123,9 +2118,9 @@ De enumeratie SoortWerk heeft de volgende kenmerken:
     | uri |  |
     | bron |  |
     | author | Eigenaar |
-    | version | 1.9.0 |
+    | version | 1.11.0 |
     | created | 2025-07-29 11:18:51 |
-    | modified | 2025-12-18 15:38:53 |
+    | modified | 2025-12-22 15:44:49 |
     | id | EAID\_92859227\_EB07\_3E39\_8641\_39C5765453D0 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -2162,9 +2157,9 @@ De enumeratie Subdoel betaald werken heeft de volgende kenmerken:
     | uri |  |
     | bron |  |
     | author | zoutwater |
-    | version | 1.9.0 |
+    | version | 1.11.0 |
     | created | 2025-07-27 17:04:35 |
-    | modified | 2025-12-18 15:38:53 |
+    | modified | 2025-12-22 15:44:49 |
     | id | EAID\_D33B52FA\_CEC1\_490f\_BE5E\_ECFA05F544E2 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -2198,9 +2193,9 @@ De enumeratie Subdoel betaald werken met een opleiding heeft de volgende kenmerk
     | uri |  |
     | bron |  |
     | author | zoutwater |
-    | version | 1.9.0 |
+    | version | 1.11.0 |
     | created | 2025-07-27 17:19:32 |
-    | modified | 2025-12-18 15:38:53 |
+    | modified | 2025-12-22 15:44:49 |
     | id | EAID\_BA9C46B9\_483E\_4ba5\_9073\_07B354392B84 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -2237,9 +2232,9 @@ De enumeratie Subdoel betaald werken naar vermogen heeft de volgende kenmerken:
     | uri |  |
     | bron |  |
     | author | zoutwater |
-    | version | 1.9.0 |
+    | version | 1.11.0 |
     | created | 2025-07-27 17:15:39 |
-    | modified | 2025-12-18 15:38:53 |
+    | modified | 2025-12-22 15:44:49 |
     | id | EAID\_FAAA0B16\_6595\_49ee\_9A77\_53A88DFBBC6D |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -2272,9 +2267,9 @@ De enumeratie Subdoel digitale vaardigheden heeft de volgende kenmerken:
     | uri |  |
     | bron |  |
     | author | zoutwater |
-    | version | 1.9.0 |
+    | version | 1.11.0 |
     | created | 2025-07-27 18:02:48 |
-    | modified | 2025-12-18 15:38:53 |
+    | modified | 2025-12-22 15:44:49 |
     | id | EAID\_0AD20B37\_952E\_49c4\_B400\_16010211AD9D |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -2307,9 +2302,9 @@ De enumeratie Subdoel eenzaamheid heeft de volgende kenmerken:
     | uri |  |
     | bron |  |
     | author | zoutwater |
-    | version | 1.9.0 |
+    | version | 1.11.0 |
     | created | 2025-07-27 17:56:32 |
-    | modified | 2025-12-18 15:38:53 |
+    | modified | 2025-12-22 15:44:49 |
     | id | EAID\_66FD4C23\_5CC0\_4cc1\_AF24\_3DFA6C1F9D3A |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -2344,9 +2339,9 @@ De enumeratie Subdoel Financien heeft de volgende kenmerken:
     | uri |  |
     | bron |  |
     | author | zoutwater |
-    | version | 1.9.0 |
+    | version | 1.11.0 |
     | created | 2025-07-27 17:44:34 |
-    | modified | 2025-12-18 15:38:53 |
+    | modified | 2025-12-22 15:44:49 |
     | id | EAID\_3D53D7B8\_F991\_419d\_9970\_7CE4C137C695 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -2379,9 +2374,9 @@ De enumeratie Subdoel Justitie heeft de volgende kenmerken:
     | uri |  |
     | bron |  |
     | author | zoutwater |
-    | version | 1.9.0 |
+    | version | 1.11.0 |
     | created | 2025-07-27 17:53:48 |
-    | modified | 2025-12-18 15:38:53 |
+    | modified | 2025-12-22 15:44:49 |
     | id | EAID\_A5E09CFE\_E708\_40ce\_BC9F\_20376978B3B9 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -2417,9 +2412,9 @@ De enumeratie Subdoel lichamelijke gezondheid heeft de volgende kenmerken:
     | uri |  |
     | bron |  |
     | author | zoutwater |
-    | version | 1.9.0 |
+    | version | 1.11.0 |
     | created | 2025-07-27 18:04:33 |
-    | modified | 2025-12-18 15:38:53 |
+    | modified | 2025-12-22 15:44:49 |
     | id | EAID\_012213A5\_85A0\_4f66\_BD45\_E62CEBA2F418 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -2454,9 +2449,9 @@ De enumeratie Subdoel ondernemen heeft de volgende kenmerken:
     | uri |  |
     | bron |  |
     | author | zoutwater |
-    | version | 1.9.0 |
+    | version | 1.11.0 |
     | created | 2025-07-27 17:38:21 |
-    | modified | 2025-12-18 15:38:53 |
+    | modified | 2025-12-22 15:44:49 |
     | id | EAID\_E206FD3D\_D9C6\_4c07\_AEA5\_44BA9925FC89 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -2489,9 +2484,9 @@ De enumeratie Subdoel opleiding volgen heeft de volgende kenmerken:
     | uri |  |
     | bron |  |
     | author | zoutwater |
-    | version | 1.9.0 |
+    | version | 1.11.0 |
     | created | 2025-07-27 17:39:56 |
-    | modified | 2025-12-18 15:38:53 |
+    | modified | 2025-12-22 15:44:49 |
     | id | EAID\_9DC1A38B\_104E\_4219\_9259\_F1724F729077 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -2523,9 +2518,9 @@ De enumeratie Subdoel passende dagbesteding hebben (maatschappelijk fit worden) 
     | uri |  |
     | bron |  |
     | author | zoutwater |
-    | version | 1.9.0 |
+    | version | 1.11.0 |
     | created | 2025-07-27 17:42:12 |
-    | modified | 2025-12-18 15:38:53 |
+    | modified | 2025-12-22 15:44:49 |
     | id | EAID\_0A4EE232\_E486\_4535\_94EC\_AC5C81286629 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -2561,9 +2556,9 @@ De enumeratie Subdoel psychische gezondheid heeft de volgende kenmerken:
     | uri |  |
     | bron |  |
     | author | zoutwater |
-    | version | 1.9.0 |
+    | version | 1.11.0 |
     | created | 2025-07-27 18:07:33 |
-    | modified | 2025-12-18 15:38:53 |
+    | modified | 2025-12-22 15:44:49 |
     | id | EAID\_DB49A2E8\_2201\_47aa\_94F6\_5E3E7554D505 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -2597,9 +2592,9 @@ De enumeratie Subdoel Taal heeft de volgende kenmerken:
     | uri |  |
     | bron |  |
     | author | zoutwater |
-    | version | 1.9.0 |
+    | version | 1.11.0 |
     | created | 2025-07-27 17:57:39 |
-    | modified | 2025-12-18 15:38:53 |
+    | modified | 2025-12-22 15:44:49 |
     | id | EAID\_A4EA988A\_3DC7\_4b76\_9363\_7692B4A338F1 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -2631,9 +2626,9 @@ De enumeratie Subdoel taalvaardigheden opdoen heeft de volgende kenmerken:
     | uri |  |
     | bron |  |
     | author | zoutwater |
-    | version | 1.9.0 |
+    | version | 1.11.0 |
     | created | 2025-07-27 17:36:29 |
-    | modified | 2025-12-18 15:38:53 |
+    | modified | 2025-12-22 15:44:49 |
     | id | EAID\_AB7EA982\_1495\_4875\_9660\_E9485AD3C7C6 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -2668,9 +2663,9 @@ De enumeratie Subdoel verslaving heeft de volgende kenmerken:
     | uri |  |
     | bron |  |
     | author | zoutwater |
-    | version | 1.9.0 |
+    | version | 1.11.0 |
     | created | 2025-07-27 17:46:28 |
-    | modified | 2025-12-18 15:38:53 |
+    | modified | 2025-12-22 15:44:49 |
     | id | EAID\_1795C338\_A4B1\_495f\_A091\_51AE710B8AA6 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -2702,9 +2697,9 @@ De enumeratie Subdoel vrijwilligerswerk doen (maatschappelijk fit worden) heeft 
     | uri |  |
     | bron |  |
     | author | zoutwater |
-    | version | 1.9.0 |
+    | version | 1.11.0 |
     | created | 2025-07-27 17:41:08 |
-    | modified | 2025-12-18 15:38:53 |
+    | modified | 2025-12-22 15:44:49 |
     | id | EAID\_5C24829E\_282B\_4e61\_8A99\_C74033C05221 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -2739,9 +2734,9 @@ De enumeratie Subdoel Werkervaring opdoen (werkfit worden) heeft de volgende ken
     | uri |  |
     | bron |  |
     | author | zoutwater |
-    | version | 1.9.0 |
+    | version | 1.11.0 |
     | created | 2025-07-27 17:34:26 |
-    | modified | 2025-12-18 15:38:53 |
+    | modified | 2025-12-22 15:44:49 |
     | id | EAID\_F45C2D7F\_F892\_4b00\_AA35\_478EFB05129D |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -2777,9 +2772,9 @@ De enumeratie Subdoel Werknemersvaardigheden ontwikkelen (werkfit worden) heeft 
     | uri |  |
     | bron |  |
     | author | zoutwater |
-    | version | 1.9.0 |
+    | version | 1.11.0 |
     | created | 2025-07-27 17:32:16 |
-    | modified | 2025-12-18 15:38:53 |
+    | modified | 2025-12-22 15:44:49 |
     | id | EAID\_1EFAE495\_D46C\_459a\_ADA6\_0215066F7FC7 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -2812,9 +2807,9 @@ De enumeratie Subdoel woonsituatie heeft de volgende kenmerken:
     | uri |  |
     | bron |  |
     | author | zoutwater |
-    | version | 1.9.0 |
+    | version | 1.11.0 |
     | created | 2025-07-27 18:09:36 |
-    | modified | 2025-12-18 15:38:53 |
+    | modified | 2025-12-22 15:44:49 |
     | id | EAID\_CD72AB31\_CB45\_4a79\_9464\_373847342C1D |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -2850,9 +2845,9 @@ De enumeratie Subdoel zorgtaken heeft de volgende kenmerken:
     | uri |  |
     | bron |  |
     | author | zoutwater |
-    | version | 1.9.0 |
+    | version | 1.11.0 |
     | created | 2025-07-27 17:48:28 |
-    | modified | 2025-12-18 15:38:53 |
+    | modified | 2025-12-22 15:44:49 |
     | id | EAID\_32AC2751\_F23B\_4495\_92A2\_BD6A49666A26 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -2886,9 +2881,9 @@ De enumeratie UitkomstLeerbaarheidstoets heeft de volgende kenmerken:
     | uri |  |
     | bron |  |
     | author | zoutwater |
-    | version | 1.9.0 |
+    | version | 1.11.0 |
     | created | 2025-07-26 15:29:40 |
-    | modified | 2025-12-18 15:38:53 |
+    | modified | 2025-12-22 15:44:49 |
     | id | EAID\_D736A972\_6151\_47ed\_86CD\_FBA92F15189A |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -2922,9 +2917,9 @@ De enumeratie WordtBehandeldAls heeft de volgende kenmerken:
     | uri |  |
     | bron |  |
     | author | zoutwater |
-    | version | 1.9.0 |
+    | version | 1.11.0 |
     | created | 2025-07-26 15:34:29 |
-    | modified | 2025-12-18 15:38:53 |
+    | modified | 2025-12-22 15:44:49 |
     | id | EAID\_39F3CA70\_4E74\_407b\_B1AC\_A70F64F1A657 |
     | domein_iv3 |  |
     | domein_dcat |  |

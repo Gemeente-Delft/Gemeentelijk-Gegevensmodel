@@ -118,27 +118,6 @@
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
     rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/huishouden> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/client/client> a mim:Relatiesoort,
-        owl:ObjectProperty ;
-    rdfs:label "client"@nl ;
-    mim:aggregatietype mim:Geen ;
-    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/client> ;
-    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/schuldhulpverlening/schuldhulptraject> ;
-    mim:heeftTijdlijnGeldigheid false ;
-    mim:heeftTijdlijnRegistratie false ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/client/client"^^xsd:anyURI ;
-    mim:indicatieAfleidbaar false ;
-    mim:indicatieFormeleHistorie false ;
-    mim:indicatieMaterieleHistorie false ;
-    mim:kardinaliteit "0..*" ;
-    mim:mogelijkGeenWaarde true ;
-    mim:naam "client"@nl ;
-    mim:unidirectioneel true ;
-    dcterms:identifier "EAID_src2A7C80_3621_40aa_B091_E30616E65F1D" ;
-    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/client> ;
-    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/> ;
-    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/schuldhulpverlening/schuldhulptraject> .
-
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/client/maakt-onderdeel-uit-van> a mim:Relatiesoort,
         owl:ObjectProperty ;
     rdfs:label "maakt onderdeel uit van"@nl ;
@@ -829,6 +808,7 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
     mim:definitie "<font color=\"#0f0f0f\">Bevat de naam van de openbare ruimte ten behoeve van visualisatie.</font>"@nl ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
+    mim:herkomst "BGT" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/bag/openbareruimte/labelnaam"^^xsd:anyURI ;
     mim:indicatieAfleidbaar false ;
     mim:indicatieClassificerend false ;
@@ -1465,7 +1445,7 @@ Terrein wordt gebruikt om een zichtbaar (tastbaar) begrensd stuk grond aan te ge
     mim:code "S" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/groepattribuutsoort/redeneinderelatie/echtscheiding-ontbinding-of-eindigen-conform-nederlands-recht"^^xsd:anyURI ;
     mim:naam "Echtscheiding, ontbinding of eindigen conform Nederlands recht"@nl ;
-    dcterms:identifier "EAID_da69ce93_06bc_4c5f_80b9_18d3a8eff45c" ;
+    dcterms:identifier "EAID_b5bee8bf_e608_4672_9c12_37564c7dc0ed" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/groepattribuutsoort/redeneinderelatie> ;
     skos:notation "S" ;
     skos:prefLabel "Echtscheiding, ontbinding of eindigen conform Nederlands recht"@nl ;
@@ -1478,7 +1458,7 @@ Terrein wordt gebruikt om een zichtbaar (tastbaar) begrensd stuk grond aan te ge
     mim:code "V" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/groepattribuutsoort/redeneinderelatie/naar-vreemd-recht-anders-be-indigd"^^xsd:anyURI ;
     mim:naam "Naar vreemd recht anders beëindigd"@nl ;
-    dcterms:identifier "EAID_9e67559d_5c0c_484b_9300_546c64e71123" ;
+    dcterms:identifier "EAID_178f0c7f_3eff_4376_99c1_de60b086f122" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/groepattribuutsoort/redeneinderelatie> ;
     skos:notation "V" ;
     skos:prefLabel "Naar vreemd recht anders beëindigd"@nl ;
@@ -1491,7 +1471,7 @@ Terrein wordt gebruikt om een zichtbaar (tastbaar) begrensd stuk grond aan te ge
     mim:code "N" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/groepattribuutsoort/redeneinderelatie/nietigverklaring"^^xsd:anyURI ;
     mim:naam "Nietigverklaring"@nl ;
-    dcterms:identifier "EAID_e8bb6ca0_e60e_48e0_88ec_0f29b2e00239" ;
+    dcterms:identifier "EAID_aa5df1ea_efe1_43c7_b258_0d6e52fbc14d" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/groepattribuutsoort/redeneinderelatie> ;
     skos:notation "N" ;
     skos:prefLabel "Nietigverklaring"@nl ;
@@ -1504,7 +1484,7 @@ Terrein wordt gebruikt om een zichtbaar (tastbaar) begrensd stuk grond aan te ge
     mim:code "Z" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/groepattribuutsoort/redeneinderelatie/omzetting-van-soort-verbintenis"^^xsd:anyURI ;
     mim:naam "Omzetting van soort verbintenis"@nl ;
-    dcterms:identifier "EAID_843e9d5f_fe02_40b9_bd2b_0f688d79f744" ;
+    dcterms:identifier "EAID_04c0d941_2dc2_4988_852a_217a4579709a" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/groepattribuutsoort/redeneinderelatie> ;
     skos:notation "Z" ;
     skos:prefLabel "Omzetting van soort verbintenis"@nl ;
@@ -1517,7 +1497,7 @@ Terrein wordt gebruikt om een zichtbaar (tastbaar) begrensd stuk grond aan te ge
     mim:code "?" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/groepattribuutsoort/redeneinderelatie/onbekend"^^xsd:anyURI ;
     mim:naam "Onbekend"@nl ;
-    dcterms:identifier "EAID_de5da63b_c959_40e5_bcc0_d09bb005a657" ;
+    dcterms:identifier "EAID_02d5c451_3432_4b5c_ae5b_64ff686d458c" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/groepattribuutsoort/redeneinderelatie> ;
     skos:notation "?" ;
     skos:prefLabel "Onbekend"@nl ;
@@ -1530,7 +1510,7 @@ Terrein wordt gebruikt om een zichtbaar (tastbaar) begrensd stuk grond aan te ge
     mim:code "O" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/groepattribuutsoort/redeneinderelatie/overlijden-partner"^^xsd:anyURI ;
     mim:naam "Overlijden partner"@nl ;
-    dcterms:identifier "EAID_1d8bc2c8_0697_49bc_8ac8_88824d850711" ;
+    dcterms:identifier "EAID_f08706fb_4d4d_4158_af42_4e211cc9d01a" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/groepattribuutsoort/redeneinderelatie> ;
     skos:notation "O" ;
     skos:prefLabel "Overlijden partner"@nl ;
@@ -1543,7 +1523,7 @@ Terrein wordt gebruikt om een zichtbaar (tastbaar) begrensd stuk grond aan te ge
     mim:code "R" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/groepattribuutsoort/redeneinderelatie/rechtsvermoeden-van-overlijden-partner"^^xsd:anyURI ;
     mim:naam "Rechtsvermoeden van overlijden partner"@nl ;
-    dcterms:identifier "EAID_df03e38a_c813_46cc_b1a4_ef6b1ff27c39" ;
+    dcterms:identifier "EAID_e9de855c_3fd4_4f48_b490_be75cce9ab71" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/groepattribuutsoort/redeneinderelatie> ;
     skos:notation "R" ;
     skos:prefLabel "Rechtsvermoeden van overlijden partner"@nl ;
@@ -1556,7 +1536,7 @@ Terrein wordt gebruikt om een zichtbaar (tastbaar) begrensd stuk grond aan te ge
     mim:code "A" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/groepattribuutsoort/redeneinderelatie/vermissing-van-een-persoon-gevolgd-door-andere-verbintenis"^^xsd:anyURI ;
     mim:naam "Vermissing van een persoon gevolgd door andere verbintenis"@nl ;
-    dcterms:identifier "EAID_792ae613_b9ef_465e_8d04_39ec83326092" ;
+    dcterms:identifier "EAID_d5141cd9_c409_47db_b306_af1be34091b7" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/groepattribuutsoort/redeneinderelatie> ;
     skos:notation "A" ;
     skos:prefLabel "Vermissing van een persoon gevolgd door andere verbintenis"@nl ;
@@ -1713,7 +1693,7 @@ Terrein wordt gebruikt om een zichtbaar (tastbaar) begrensd stuk grond aan te ge
     mim:code "1" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel/baron"^^xsd:anyURI ;
     mim:naam "baron"@nl ;
-    dcterms:identifier "EAID_1ee1a35d_2ae1_4e16_80c7_f7c89cd357aa" ;
+    dcterms:identifier "EAID_b6830d32_939d_455f_a798_94d213564a87" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel> ;
     skos:notation "1" ;
     skos:prefLabel "baron"@nl ;
@@ -1726,7 +1706,7 @@ Terrein wordt gebruikt om een zichtbaar (tastbaar) begrensd stuk grond aan te ge
     mim:code "2" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel/barones"^^xsd:anyURI ;
     mim:naam "barones"@nl ;
-    dcterms:identifier "EAID_909a266a_2006_45c4_9a2e_b7b616eda8f3" ;
+    dcterms:identifier "EAID_ad48bd50_9d5a_4032_9aaa_580f18945fe6" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel> ;
     skos:notation "2" ;
     skos:prefLabel "barones"@nl ;
@@ -1739,7 +1719,7 @@ Terrein wordt gebruikt om een zichtbaar (tastbaar) begrensd stuk grond aan te ge
     mim:code "3" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel/graaf"^^xsd:anyURI ;
     mim:naam "graaf"@nl ;
-    dcterms:identifier "EAID_d76847af_bdf7_4019_a049_76160afa923c" ;
+    dcterms:identifier "EAID_03085a22_fd59_4f41_a0e2_2e05c6a11f9c" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel> ;
     skos:notation "3" ;
     skos:prefLabel "graaf"@nl ;
@@ -1752,7 +1732,7 @@ Terrein wordt gebruikt om een zichtbaar (tastbaar) begrensd stuk grond aan te ge
     mim:code "4" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel/gravin"^^xsd:anyURI ;
     mim:naam "gravin"@nl ;
-    dcterms:identifier "EAID_fb4f835d_c607_4c78_8ccb_ec106f8684dc" ;
+    dcterms:identifier "EAID_2f17e375_ee88_4fa9_8373_1ed1b02e4613" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel> ;
     skos:notation "4" ;
     skos:prefLabel "gravin"@nl ;
@@ -1765,7 +1745,7 @@ Terrein wordt gebruikt om een zichtbaar (tastbaar) begrensd stuk grond aan te ge
     mim:code "5" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel/hertog"^^xsd:anyURI ;
     mim:naam "hertog"@nl ;
-    dcterms:identifier "EAID_63667b0c_7b35_4f53_b842_6287df3ee7ff" ;
+    dcterms:identifier "EAID_0d7ca703_8c37_42b1_ad48_7d6f64fd4201" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel> ;
     skos:notation "5" ;
     skos:prefLabel "hertog"@nl ;
@@ -1778,7 +1758,7 @@ Terrein wordt gebruikt om een zichtbaar (tastbaar) begrensd stuk grond aan te ge
     mim:code "6" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel/hertogin"^^xsd:anyURI ;
     mim:naam "hertogin"@nl ;
-    dcterms:identifier "EAID_c80c5b19_3409_469b_90c5_b2554cdc2ada" ;
+    dcterms:identifier "EAID_694bd825_8787_40d2_8d5e_ae0f0b81f852" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel> ;
     skos:notation "6" ;
     skos:prefLabel "hertogin"@nl ;
@@ -1791,7 +1771,7 @@ Terrein wordt gebruikt om een zichtbaar (tastbaar) begrensd stuk grond aan te ge
     mim:code "-2" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel/leeg"^^xsd:anyURI ;
     mim:naam "Leeg"@nl ;
-    dcterms:identifier "EAID_ac223a5f_c31a_4f25_b6ee_c22042cc920f" ;
+    dcterms:identifier "EAID_8ab4e68b_cac6_46cd_ab55_16d7c150009a" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel> ;
     skos:notation "-2" ;
     skos:prefLabel "Leeg"@nl ;
@@ -1804,7 +1784,7 @@ Terrein wordt gebruikt om een zichtbaar (tastbaar) begrensd stuk grond aan te ge
     mim:code "7" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel/markies"^^xsd:anyURI ;
     mim:naam "markies"@nl ;
-    dcterms:identifier "EAID_74478cdf_6f28_4a26_85a8_586e66bcb673" ;
+    dcterms:identifier "EAID_927728a5_b77a_4113_8753_eadf8642ce2c" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel> ;
     skos:notation "7" ;
     skos:prefLabel "markies"@nl ;
@@ -1817,7 +1797,7 @@ Terrein wordt gebruikt om een zichtbaar (tastbaar) begrensd stuk grond aan te ge
     mim:code "8" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel/markiezin"^^xsd:anyURI ;
     mim:naam "markiezin"@nl ;
-    dcterms:identifier "EAID_53ab6f22_c437_43e7_9117_4a5c40bbe644" ;
+    dcterms:identifier "EAID_3c9038b1_2629_49e8_8afb_522b3f3a202c" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel> ;
     skos:notation "8" ;
     skos:prefLabel "markiezin"@nl ;
@@ -1830,7 +1810,7 @@ Terrein wordt gebruikt om een zichtbaar (tastbaar) begrensd stuk grond aan te ge
     mim:code "-1" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel/onbekend"^^xsd:anyURI ;
     mim:naam "Onbekend"@nl ;
-    dcterms:identifier "EAID_98578285_3283_4b1b_ab55_6bed62cb5055" ;
+    dcterms:identifier "EAID_5a111398_43a3_4520_a048_8a47cc92465c" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel> ;
     skos:notation "-1" ;
     skos:prefLabel "Onbekend"@nl ;
@@ -1843,7 +1823,7 @@ Terrein wordt gebruikt om een zichtbaar (tastbaar) begrensd stuk grond aan te ge
     mim:code "9" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel/prins"^^xsd:anyURI ;
     mim:naam "prins"@nl ;
-    dcterms:identifier "EAID_5f30d1ce_fa65_4197_ae86_0ff05a705e50" ;
+    dcterms:identifier "EAID_ae40fbea_b98d_437d_b85e_dea41c8b2bea" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel> ;
     skos:notation "9" ;
     skos:prefLabel "prins"@nl ;
@@ -1856,7 +1836,7 @@ Terrein wordt gebruikt om een zichtbaar (tastbaar) begrensd stuk grond aan te ge
     mim:code "10" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel/prinses"^^xsd:anyURI ;
     mim:naam "prinses"@nl ;
-    dcterms:identifier "EAID_01c43022_8f24_4dfb_a3b8_4a3fdd5d185f" ;
+    dcterms:identifier "EAID_540c4e13_7a0c_4d25_8e3f_f4c21bb753f7" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel> ;
     skos:notation "10" ;
     skos:prefLabel "prinses"@nl ;
@@ -1869,7 +1849,7 @@ Terrein wordt gebruikt om een zichtbaar (tastbaar) begrensd stuk grond aan te ge
     mim:code "11" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel/ridder"^^xsd:anyURI ;
     mim:naam "ridder"@nl ;
-    dcterms:identifier "EAID_58efec5e_328c_467f_8249_3614e966585c" ;
+    dcterms:identifier "EAID_a6439cd8_a898_4981_afd1_262241be2ea6" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel> ;
     skos:notation "11" ;
     skos:prefLabel "ridder"@nl ;
@@ -1882,10 +1862,10 @@ Terrein wordt gebruikt om een zichtbaar (tastbaar) begrensd stuk grond aan te ge
     mim:code "1" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/boolean/ja"^^xsd:anyURI ;
     mim:naam "Ja"@nl ;
-    dcterms:identifier "EAID_24a4dc7f_97c2_4a44_a534_b0c9540faa60",
-        "EAID_5a1b8ce8_0840_482d_b3a9_d3c04a9e49fe",
-        "EAID_5b25c120_e637_4654_a671_48f6422f7fee",
-        "EAID_b4607180_c778_479b_baf5_4b65a3d0b374" ;
+    dcterms:identifier "EAID_23b84b34_c964_42d5_99ca_e517c03dee14",
+        "EAID_42763ecf_bc1a_468f_b186_ff9fc1041405",
+        "EAID_e59e0448_3a52_4592_9c12_6693f9a54cbf",
+        "EAID_ee19c0f5_1aab_44d7_a69a_750913a29b6d" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/boolean> ;
     skos:notation "1" ;
     skos:prefLabel "Ja"@nl ;
@@ -1898,10 +1878,10 @@ Terrein wordt gebruikt om een zichtbaar (tastbaar) begrensd stuk grond aan te ge
     mim:code "-2" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/boolean/leeg"^^xsd:anyURI ;
     mim:naam "Leeg"@nl ;
-    dcterms:identifier "EAID_46da2abf_5984_4e1e_a83f_3af049d2b6c4",
-        "EAID_5cb252bd_d151_4b67_865b_e837449d6025",
-        "EAID_6354b0d3_19a8_4189_a955_823b472058fb",
-        "EAID_c928324c_76b9_4828_8fd4_f0cdecc57049" ;
+    dcterms:identifier "EAID_62ad5223_ed08_4d76_9b8c_f5ade26388ad",
+        "EAID_8cf26cf3_cb39_4751_92c9_c949acb22f31",
+        "EAID_e03ba393_a9f3_4c4d_a9aa_6679520c5fc2",
+        "EAID_ece78a5e_8627_4d94_a996_ce719a7c0b64" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/boolean> ;
     skos:notation "-2" ;
     skos:prefLabel "Leeg"@nl ;
@@ -1914,10 +1894,10 @@ Terrein wordt gebruikt om een zichtbaar (tastbaar) begrensd stuk grond aan te ge
     mim:code "0" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/boolean/nee"^^xsd:anyURI ;
     mim:naam "Nee"@nl ;
-    dcterms:identifier "EAID_11e6535c_cc5d_4e82_ad73_7fd70ad69e5e",
-        "EAID_5d958171_bb48_4618_be9d_52df38243007",
-        "EAID_c48939f9_0cda_4bc9_aa7c_ed695378dfd5",
-        "EAID_f582ebdf_e162_467b_9044_e4c4449921b4" ;
+    dcterms:identifier "EAID_112104d2_f39b_41f3_9ede_0d0731a76f0e",
+        "EAID_3de7838b_fa8f_4034_bb7e_3513d95de17f",
+        "EAID_ae74dbbc_887c_4c27_accc_4c0945ad8f4e",
+        "EAID_fce467f3_6ff1_4cde_9577_fb6b0a8cc7fa" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/boolean> ;
     skos:notation "0" ;
     skos:prefLabel "Nee"@nl ;
@@ -1930,10 +1910,10 @@ Terrein wordt gebruikt om een zichtbaar (tastbaar) begrensd stuk grond aan te ge
     mim:code "-1" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/boolean/onbekend"^^xsd:anyURI ;
     mim:naam "Onbekend"@nl ;
-    dcterms:identifier "EAID_28a21d06_b807_4857_8083_e4b3d6abb3df",
-        "EAID_3ebc077d_5589_4380_af54_32eea7e3a0d9",
-        "EAID_5dd6c9c0_045e_4163_bfe0_53698a19a9ca",
-        "EAID_69946d30_43ff_4b06_b2c0_4fece102c49e" ;
+    dcterms:identifier "EAID_36ba00b0_5a5d_4543_aa1c_67459382106d",
+        "EAID_6d42f95d_b037_4c61_8fc9_70fd8b86f757",
+        "EAID_a570c800_d0b0_411e_8000_67babd1bbbc6",
+        "EAID_f1dd929e_dbde_4474_a9a6_d6fb4a5b7b20" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/boolean> ;
     skos:notation "-1" ;
     skos:prefLabel "Onbekend"@nl ;
@@ -1946,7 +1926,7 @@ Terrein wordt gebruikt om een zichtbaar (tastbaar) begrensd stuk grond aan te ge
     mim:code "6" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gezinsrelatie/alleenstaand-samenwonend"^^xsd:anyURI ;
     mim:naam "Alleenstaand/Samenwonend"@nl ;
-    dcterms:identifier "EAID_5d2efc0a_4b4a_4912_a3aa_ba74de9255c9" ;
+    dcterms:identifier "EAID_0ef0132f_2424_4879_98e4_26f5681bd25e" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gezinsrelatie> ;
     skos:notation "6" ;
     skos:prefLabel "Alleenstaand/Samenwonend"@nl ;
@@ -1959,7 +1939,7 @@ Terrein wordt gebruikt om een zichtbaar (tastbaar) begrensd stuk grond aan te ge
     mim:code "4" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gezinsrelatie/echtgenote-binnen-gezin"^^xsd:anyURI ;
     mim:naam "Echtgenote binnen gezin"@nl ;
-    dcterms:identifier "EAID_5f7a1ef9_7b76_4f0b_8ace_2eafe134870e" ;
+    dcterms:identifier "EAID_50919298_61e5_40bc_8f6e_3ccb713b1b0f" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gezinsrelatie> ;
     skos:notation "4" ;
     skos:prefLabel "Echtgenote binnen gezin"@nl ;
@@ -1972,7 +1952,7 @@ Terrein wordt gebruikt om een zichtbaar (tastbaar) begrensd stuk grond aan te ge
     mim:code "2" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gezinsrelatie/hoofd-gezin-met-kind-eren"^^xsd:anyURI ;
     mim:naam "Hoofd gezin met kind(eren)"@nl ;
-    dcterms:identifier "EAID_0dd23d4e_afee_467f_bcc2_7322133ed315" ;
+    dcterms:identifier "EAID_3cf3ee66_44bf_45b4_aeea_2a9adb2906c3" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gezinsrelatie> ;
     skos:notation "2" ;
     skos:prefLabel "Hoofd gezin met kind(eren)"@nl ;
@@ -1985,7 +1965,7 @@ Terrein wordt gebruikt om een zichtbaar (tastbaar) begrensd stuk grond aan te ge
     mim:code "1" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gezinsrelatie/hoofd-gezin-zonder-kind-eren"^^xsd:anyURI ;
     mim:naam "Hoofd gezin zonder kind(eren)"@nl ;
-    dcterms:identifier "EAID_aa1fbece_fd0f_41ba_9dc9_09239caa2e03" ;
+    dcterms:identifier "EAID_e153d539_ad9d_416d_8159_df9d3b452b9a" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gezinsrelatie> ;
     skos:notation "1" ;
     skos:prefLabel "Hoofd gezin zonder kind(eren)"@nl ;
@@ -1998,7 +1978,7 @@ Terrein wordt gebruikt om een zichtbaar (tastbaar) begrensd stuk grond aan te ge
     mim:code "8" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gezinsrelatie/hoofd-huwelijk-gelijk-geslacht"^^xsd:anyURI ;
     mim:naam "Hoofd huwelijk gelijk geslacht"@nl ;
-    dcterms:identifier "EAID_126f2894_65a3_47b9_8311_e0ab368f68e3" ;
+    dcterms:identifier "EAID_61f2a0c8_5ce3_4b45_9fd6_9ce6b18dbe50" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gezinsrelatie> ;
     skos:notation "8" ;
     skos:prefLabel "Hoofd huwelijk gelijk geslacht"@nl ;
@@ -2011,7 +1991,7 @@ Terrein wordt gebruikt om een zichtbaar (tastbaar) begrensd stuk grond aan te ge
     mim:code "7" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gezinsrelatie/hoofd-partnerrelatie"^^xsd:anyURI ;
     mim:naam "Hoofd partnerrelatie"@nl ;
-    dcterms:identifier "EAID_3e309fcf_2cec_4620_9ff4_b7b941a2c365" ;
+    dcterms:identifier "EAID_b7ac0dce_cbc6_42b8_9c87_78611fb95756" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gezinsrelatie> ;
     skos:notation "7" ;
     skos:prefLabel "Hoofd partnerrelatie"@nl ;
@@ -2024,7 +2004,7 @@ Terrein wordt gebruikt om een zichtbaar (tastbaar) begrensd stuk grond aan te ge
     mim:code "5" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gezinsrelatie/kind"^^xsd:anyURI ;
     mim:naam "Kind"@nl ;
-    dcterms:identifier "EAID_07ef3742_0730_4490_a64a_7acfdb998d8f" ;
+    dcterms:identifier "EAID_711890ac_7df7_43c1_b57a_7dc7b1e0822f" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gezinsrelatie> ;
     skos:notation "5" ;
     skos:prefLabel "Kind"@nl ;
@@ -2037,7 +2017,7 @@ Terrein wordt gebruikt om een zichtbaar (tastbaar) begrensd stuk grond aan te ge
     mim:code "-2" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gezinsrelatie/leeg"^^xsd:anyURI ;
     mim:naam "Leeg"@nl ;
-    dcterms:identifier "EAID_2953695c_b25e_4d2b_abcc_4e450868d9cb" ;
+    dcterms:identifier "EAID_37f42bbc_b7b1_420c_8dca_1878f6f216b5" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gezinsrelatie> ;
     skos:notation "-2" ;
     skos:prefLabel "Leeg"@nl ;
@@ -2050,7 +2030,7 @@ Terrein wordt gebruikt om een zichtbaar (tastbaar) begrensd stuk grond aan te ge
     mim:code "-1" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gezinsrelatie/onbekend"^^xsd:anyURI ;
     mim:naam "Onbekend"@nl ;
-    dcterms:identifier "EAID_e5765891_229a_491b_9ce3_424bc7e004a8" ;
+    dcterms:identifier "EAID_814ee34e_9ab6_447d_bb44_b4803c49b8f4" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gezinsrelatie> ;
     skos:notation "-1" ;
     skos:prefLabel "Onbekend"@nl ;
@@ -2063,7 +2043,7 @@ Terrein wordt gebruikt om een zichtbaar (tastbaar) begrensd stuk grond aan te ge
     mim:code "3" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gezinsrelatie/ouder-met-kind-eren"^^xsd:anyURI ;
     mim:naam "Ouder met kind(eren)"@nl ;
-    dcterms:identifier "EAID_9de8a522_6180_41de_9d3d_712433e2827f" ;
+    dcterms:identifier "EAID_cdd05858_981f_40da_a5c6_187144724221" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gezinsrelatie> ;
     skos:notation "3" ;
     skos:prefLabel "Ouder met kind(eren)"@nl ;
@@ -3080,15 +3060,15 @@ geslachtsnaam voorafgaat.."""@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
     rdfs:range xsd:string .
 
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/schuldhulpverlening/enumhuishoudenssoort/instituuttioneel-huishouden> a mim:Enumeratiewaarde,
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/schuldhulpverlening/enumhuishoudenssoort/institutioneel-huishouden> a mim:Enumeratiewaarde,
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/schuldhulpverlening/enumhuishoudenssoort> ;
-    rdfs:label "Instituuttioneel Huishouden"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/schuldhulpverlening/enumhuishoudenssoort/instituuttioneel-huishouden"^^xsd:anyURI ;
-    mim:naam "Instituuttioneel Huishouden"@nl ;
+    rdfs:label "Institutioneel Huishouden"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/schuldhulpverlening/enumhuishoudenssoort/institutioneel-huishouden"^^xsd:anyURI ;
+    mim:naam "Institutioneel Huishouden"@nl ;
     dcterms:identifier "EAID_C82C554A_BC88_4bb6_9A50_F9CFAE5D7A33" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/schuldhulpverlening/enumhuishoudenssoort> ;
-    skos:prefLabel "Instituuttioneel Huishouden"@nl ;
+    skos:prefLabel "Institutioneel Huishouden"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/schuldhulpverlening/enumhuishoudenssoort> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/schuldhulpverlening/enumhuishoudenssoort/particulier-huishouden> a mim:Enumeratiewaarde,
@@ -3214,6 +3194,22 @@ geslachtsnaam voorafgaat.."""@nl ;
     rdfs:comment "Gegevens over het gesloten huwelijk of het aangegane geregistreerd partnerschap."@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/groepattribuutsoort/> .
 
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/client> a mim:Objecttype,
+        owl:Class ;
+    rdfs:label "Client"@nl ;
+    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/client/code>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/client/gezagsdragergekend>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/client/juridischestatus>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/client/wettelijkevertegenwoordiging> ;
+    mim:definitie "Een ingeschreven persoon die gebruik maakt van producten en diensten van de gemeente."@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/client"^^xsd:anyURI ;
+    mim:indicatieAbstractObject false ;
+    mim:naam "Client"@nl ;
+    dcterms:identifier "EAID_DAF09055_A5A6_4ff4_A158_21B20567B296" ;
+    rdfs:comment "Een ingeschreven persoon die gebruik maakt van producten en diensten van de gemeente."@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/> ;
+    rdfs:subClassOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/ingeschrevenpersoon> .
+
 <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/groepattribuutsoort/ontbindinghuwelijk-geregistreerdpartnerschap> a mim:Gegevensgroeptype,
         owl:Class ;
     rdfs:label "OntbindingHuwelijk/geregistreerdPartnerschap"@nl ;
@@ -3251,28 +3247,12 @@ geslachtsnaam voorafgaat.."""@nl ;
     mim:definitie "Lijst met alle soorten huishoudens die worden onderkend."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/schuldhulpverlening/enumhuishoudenssoort"^^xsd:anyURI ;
     mim:naam "EnumHuishoudenssoort"@nl ;
-    mim:waarde <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/schuldhulpverlening/enumhuishoudenssoort/instituuttioneel-huishouden>,
+    mim:waarde <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/schuldhulpverlening/enumhuishoudenssoort/institutioneel-huishouden>,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/schuldhulpverlening/enumhuishoudenssoort/particulier-huishouden> ;
     dcterms:identifier "EAID_76676076_DDDA_4427_8ECB_46565F915F49" ;
     rdfs:comment "Lijst met alle soorten huishoudens die worden onderkend."@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/schuldhulpverlening/> ;
     rdfs:subClassOf skos:Concept .
-
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/client> a mim:Objecttype,
-        owl:Class ;
-    rdfs:label "Client"@nl ;
-    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/client/code>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/client/gezagsdragergekend>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/client/juridischestatus>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/client/wettelijkevertegenwoordiging> ;
-    mim:definitie "Een ingeschreven persoon die gebruik maakt van producten en diensten van de gemeente."@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/client"^^xsd:anyURI ;
-    mim:indicatieAbstractObject false ;
-    mim:naam "Client"@nl ;
-    dcterms:identifier "EAID_DAF09055_A5A6_4ff4_A158_21B20567B296" ;
-    rdfs:comment "Een ingeschreven persoon die gebruik maakt van producten en diensten van de gemeente."@nl ;
-    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/> ;
-    rdfs:subClassOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/ingeschrevenpersoon> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/typeadresseerbaarobject> a mim:Enumeratie,
         owl:Class,
@@ -3325,10 +3305,10 @@ geslachtsnaam voorafgaat.."""@nl ;
         <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/boolean/leeg>,
         <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/boolean/nee>,
         <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/boolean/onbekend> ;
-    dcterms:identifier "EAID_2179c80b_2ceb_42db_a05b_7ded365b6149",
-        "EAID_29f28a9a_735f_4774_a689_0a0c7a3f0af3",
-        "EAID_2a22382b_06fe_4fdb_9652_b371b79a7109",
-        "EAID_e4981a53_8fa6_4a4f_84f0_a3a38f2ffb3a" ;
+    dcterms:identifier "EAID_51632801_14cc_4dfa_9085_b6a879d47962",
+        "EAID_73bc9170_297b_4039_a1d4_ce6750170962",
+        "EAID_8879117a_3fd2_44bd_8ca8_4649541fa84a",
+        "EAID_d667a72e_1d47_42f2_9d71_603f93c8c36e" ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
     rdfs:subClassOf skos:Concept .
 
@@ -3404,7 +3384,7 @@ geslachtsnaam voorafgaat.."""@nl ;
         <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/groepattribuutsoort/redeneinderelatie/overlijden-partner>,
         <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/groepattribuutsoort/redeneinderelatie/rechtsvermoeden-van-overlijden-partner>,
         <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/groepattribuutsoort/redeneinderelatie/vermissing-van-een-persoon-gevolgd-door-andere-verbintenis> ;
-    dcterms:identifier "EAID_716d8f18_a4f8_4ea1_babf_5c6f62c93bff" ;
+    dcterms:identifier "EAID_01c506a4_b65c_4e49_a9d5_615373053c54" ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/groepattribuutsoort/> ;
     rdfs:subClassOf skos:Concept .
 
@@ -3480,7 +3460,7 @@ geslachtsnaam voorafgaat.."""@nl ;
         <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gezinsrelatie/leeg>,
         <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gezinsrelatie/onbekend>,
         <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gezinsrelatie/ouder-met-kind-eren> ;
-    dcterms:identifier "EAID_eef8d985_cff5_4ca2_b018_be146aea1216" ;
+    dcterms:identifier "EAID_ad132f80_0c5a_45bc_861e_d57e1a2c92b9" ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
     rdfs:subClassOf skos:Concept .
 
@@ -3539,7 +3519,7 @@ geslachtsnaam voorafgaat.."""@nl ;
         <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel/prins>,
         <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel/prinses>,
         <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel/ridder> ;
-    dcterms:identifier "EAID_8cfb5be5_72e1_4363_87ab_205d3595a633" ;
+    dcterms:identifier "EAID_4ff1ddc0_5489_4582_86ea_7211b2716854" ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
     rdfs:subClassOf skos:Concept .
 

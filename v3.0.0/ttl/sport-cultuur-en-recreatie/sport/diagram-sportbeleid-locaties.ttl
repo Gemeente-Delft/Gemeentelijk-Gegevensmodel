@@ -8,27 +8,6 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/document/type> a mim:Relatiesoort,
-        owl:ObjectProperty ;
-    rdfs:label "type"@nl ;
-    mim:aggregatietype mim:Geen ;
-    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/document> ;
-    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/documenttype> ;
-    mim:heeftTijdlijnGeldigheid false ;
-    mim:heeftTijdlijnRegistratie false ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/document/type"^^xsd:anyURI ;
-    mim:indicatieAfleidbaar false ;
-    mim:indicatieFormeleHistorie false ;
-    mim:indicatieMaterieleHistorie false ;
-    mim:kardinaliteit "1..1" ;
-    mim:mogelijkGeenWaarde true ;
-    mim:naam "type"@nl ;
-    mim:unidirectioneel true ;
-    dcterms:identifier "EAID_dstC59C3B_CE93_4428_B10D_BE49A6FCD782" ;
-    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/document> ;
-    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> ;
-    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/documenttype> .
-
 <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/sport/binnenlocatie/adres> a mim:Relatiesoort,
         owl:ObjectProperty ;
     rdfs:label "adres"@nl ;
@@ -1490,7 +1469,7 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
     mim:code "2" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gebruiksdoel/bijeenkomstfunctie"^^xsd:anyURI ;
     mim:naam "bijeenkomstfunctie"@nl ;
-    dcterms:identifier "EAID_3fde5a27_a224_4ae2_aa93_924473959b3a" ;
+    dcterms:identifier "EAID_cc11eea9_fc5e_43d5_b982_df9bb833a6ef" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gebruiksdoel> ;
     skos:notation "2" ;
     skos:prefLabel "bijeenkomstfunctie"@nl ;
@@ -1503,7 +1482,7 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
     mim:code "3" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gebruiksdoel/celfunctie"^^xsd:anyURI ;
     mim:naam "celfunctie"@nl ;
-    dcterms:identifier "EAID_7d341d3e_67a1_4158_92a2_06132b974a15" ;
+    dcterms:identifier "EAID_2cf8693c_18c4_4daa_ad1d_505e31a73127" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gebruiksdoel> ;
     skos:notation "3" ;
     skos:prefLabel "celfunctie"@nl ;
@@ -1516,7 +1495,7 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
     mim:code "4" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gebruiksdoel/gezondheidszorgfunctie"^^xsd:anyURI ;
     mim:naam "gezondheidszorgfunctie"@nl ;
-    dcterms:identifier "EAID_4e94d9f0_b6f4_46b8_9799_2d3ef341b47b" ;
+    dcterms:identifier "EAID_80538772_b3e2_4c74_bcea_b8e0cf6d496b" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gebruiksdoel> ;
     skos:notation "4" ;
     skos:prefLabel "gezondheidszorgfunctie"@nl ;
@@ -1529,7 +1508,7 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
     mim:code "5" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gebruiksdoel/industriefunctie"^^xsd:anyURI ;
     mim:naam "industriefunctie"@nl ;
-    dcterms:identifier "EAID_8d82ffc7_30f8_4b86_aa59_77d7b0bfaf97" ;
+    dcterms:identifier "EAID_bb5ac1b0_08fd_42a1_a812_a0e8293645b8" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gebruiksdoel> ;
     skos:notation "5" ;
     skos:prefLabel "industriefunctie"@nl ;
@@ -1542,7 +1521,7 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
     mim:code "6" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gebruiksdoel/kantoorfunctie"^^xsd:anyURI ;
     mim:naam "kantoorfunctie"@nl ;
-    dcterms:identifier "EAID_dc9e7442_c401_4b46_adae_cb42518ddcd0" ;
+    dcterms:identifier "EAID_88e80874_eb28_4447_a48e_0b251d00ffe5" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gebruiksdoel> ;
     skos:notation "6" ;
     skos:prefLabel "kantoorfunctie"@nl ;
@@ -1555,7 +1534,7 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
     mim:code "-2" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gebruiksdoel/leeg"^^xsd:anyURI ;
     mim:naam "Leeg"@nl ;
-    dcterms:identifier "EAID_71a3b183_1314_45aa_8677_b6ea8f0236c9" ;
+    dcterms:identifier "EAID_f2ed8c2e_c25a_437b_a9ca_cb4c053dda15" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gebruiksdoel> ;
     skos:notation "-2" ;
     skos:prefLabel "Leeg"@nl ;
@@ -1568,7 +1547,7 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
     mim:code "7" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gebruiksdoel/logiesfunctie"^^xsd:anyURI ;
     mim:naam "logiesfunctie"@nl ;
-    dcterms:identifier "EAID_fd0a033a_647d_4dd3_9403_20e12be9c849" ;
+    dcterms:identifier "EAID_c34542d0_fb07_4f95_84aa_b810668374f0" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gebruiksdoel> ;
     skos:notation "7" ;
     skos:prefLabel "logiesfunctie"@nl ;
@@ -1581,7 +1560,7 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
     mim:code "-1" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gebruiksdoel/onbekend"^^xsd:anyURI ;
     mim:naam "Onbekend"@nl ;
-    dcterms:identifier "EAID_fe55a508_31d5_45ff_8840_d1a297a37215" ;
+    dcterms:identifier "EAID_9def15b5_7b90_4783_9db8_175745aeb7a0" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gebruiksdoel> ;
     skos:notation "-1" ;
     skos:prefLabel "Onbekend"@nl ;
@@ -1594,7 +1573,7 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
     mim:code "8" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gebruiksdoel/onderwijsfunctie"^^xsd:anyURI ;
     mim:naam "onderwijsfunctie"@nl ;
-    dcterms:identifier "EAID_abd49265_793b_413d_8ec5_3d72c2d8c8ea" ;
+    dcterms:identifier "EAID_26f5a593_2a45_4ef5_93de_3fa35a068ad6" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gebruiksdoel> ;
     skos:notation "8" ;
     skos:prefLabel "onderwijsfunctie"@nl ;
@@ -1607,7 +1586,7 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
     mim:code "11" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gebruiksdoel/overige-gebruiksfunctie"^^xsd:anyURI ;
     mim:naam "overige gebruiksfunctie"@nl ;
-    dcterms:identifier "EAID_423f60db_6991_4391_931f_827ebebbea32" ;
+    dcterms:identifier "EAID_55116d45_91e1_4953_b298_c5ed19168c3c" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gebruiksdoel> ;
     skos:notation "11" ;
     skos:prefLabel "overige gebruiksfunctie"@nl ;
@@ -1620,7 +1599,7 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
     mim:code "9" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gebruiksdoel/sportfunctie"^^xsd:anyURI ;
     mim:naam "sportfunctie"@nl ;
-    dcterms:identifier "EAID_b1a092c5_a836_4762_b95b_e45954e6ef75" ;
+    dcterms:identifier "EAID_71451b41_3997_4ff8_b6dd_71ba3b592cd5" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gebruiksdoel> ;
     skos:notation "9" ;
     skos:prefLabel "sportfunctie"@nl ;
@@ -1633,7 +1612,7 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
     mim:code "10" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gebruiksdoel/winkelfunctie"^^xsd:anyURI ;
     mim:naam "winkelfunctie"@nl ;
-    dcterms:identifier "EAID_57d42d34_b201_4f38_a650_3c4d08ef45b8" ;
+    dcterms:identifier "EAID_588ad74c_b9dc_4057_980e_452fce1dd69b" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gebruiksdoel> ;
     skos:notation "10" ;
     skos:prefLabel "winkelfunctie"@nl ;
@@ -1646,7 +1625,7 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
     mim:code "1" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gebruiksdoel/woonfunctie"^^xsd:anyURI ;
     mim:naam "woonfunctie"@nl ;
-    dcterms:identifier "EAID_e850ee6f_b9ee_4adb_a75e_63e60363c99b" ;
+    dcterms:identifier "EAID_059a93df_c4a2_4002_bcd5_a7d476bf5ab5" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gebruiksdoel> ;
     skos:notation "1" ;
     skos:prefLabel "woonfunctie"@nl ;
@@ -2186,7 +2165,7 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
         <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gebruiksdoel/sportfunctie>,
         <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gebruiksdoel/winkelfunctie>,
         <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gebruiksdoel/woonfunctie> ;
-    dcterms:identifier "EAID_7d0b64b8_18c9_4038_813f_8edbfee8d0e7" ;
+    dcterms:identifier "EAID_50d0583e_bdaa_49b2_8c8f_79c05ac975d9" ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
     rdfs:subClassOf skos:Concept .
 

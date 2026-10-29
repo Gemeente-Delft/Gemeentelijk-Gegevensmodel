@@ -52,27 +52,6 @@
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> ;
     rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/binnenlandsadres> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/betrokkene/betrokkene> a mim:Relatiesoort,
-        owl:ObjectProperty ;
-    rdfs:label "betrokkene"@nl ;
-    mim:aggregatietype mim:Geen ;
-    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/betrokkene> ;
-    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/natuurlijkpersoon> ;
-    mim:heeftTijdlijnGeldigheid false ;
-    mim:heeftTijdlijnRegistratie false ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/betrokkene/betrokkene"^^xsd:anyURI ;
-    mim:indicatieAfleidbaar false ;
-    mim:indicatieFormeleHistorie false ;
-    mim:indicatieMaterieleHistorie false ;
-    mim:kardinaliteit "1..1" ;
-    mim:mogelijkGeenWaarde true ;
-    mim:naam "betrokkene"@nl ;
-    mim:unidirectioneel true ;
-    dcterms:identifier "EAID_dst608E86_9614_4a15_A3CE_8FC5D0508750" ;
-    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/betrokkene> ;
-    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> ;
-    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/natuurlijkpersoon> .
-
 <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/betrokkene/is-natuurlijkpersoon> a mim:Relatiesoort,
         owl:ObjectProperty ;
     rdfs:label "is"@nl ;
@@ -121,27 +100,6 @@
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> ;
     rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/nietnatuurlijkpersoon> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/betrokkene/medewerker> a mim:Relatiesoort,
-        owl:ObjectProperty ;
-    rdfs:label "medewerker"@nl ;
-    mim:aggregatietype mim:Geen ;
-    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/betrokkene> ;
-    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker> ;
-    mim:heeftTijdlijnGeldigheid false ;
-    mim:heeftTijdlijnRegistratie false ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/betrokkene/medewerker"^^xsd:anyURI ;
-    mim:indicatieAfleidbaar false ;
-    mim:indicatieFormeleHistorie false ;
-    mim:indicatieMaterieleHistorie false ;
-    mim:kardinaliteit "1..1" ;
-    mim:mogelijkGeenWaarde true ;
-    mim:naam "medewerker"@nl ;
-    mim:unidirectioneel true ;
-    dcterms:identifier "EAID_dst96C1D1_2139_414d_AF41_CDC5AB0453EE" ;
-    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/betrokkene> ;
-    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> ;
-    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker> .
-
 <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/betrokkene/oefent-uit> a mim:Relatiesoort,
         owl:ObjectProperty ;
     rdfs:label "oefent uit"@nl ;
@@ -165,69 +123,6 @@
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/betrokkene> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> ;
     rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaak> .
-
-<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/betrokkene/organisatorische-eenheid> a mim:Relatiesoort,
-        owl:ObjectProperty ;
-    rdfs:label "organisatorische eenheid"@nl ;
-    mim:aggregatietype mim:Geen ;
-    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/betrokkene> ;
-    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/organisatorischeeenheid> ;
-    mim:heeftTijdlijnGeldigheid false ;
-    mim:heeftTijdlijnRegistratie false ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/betrokkene/organisatorische-eenheid"^^xsd:anyURI ;
-    mim:indicatieAfleidbaar false ;
-    mim:indicatieFormeleHistorie false ;
-    mim:indicatieMaterieleHistorie false ;
-    mim:kardinaliteit "1..1" ;
-    mim:mogelijkGeenWaarde true ;
-    mim:naam "organisatorische eenheid"@nl ;
-    mim:unidirectioneel true ;
-    dcterms:identifier "EAID_dst62BEFD_0485_4a41_9C55_A1480F0DF153" ;
-    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/betrokkene> ;
-    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> ;
-    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/organisatorischeeenheid> .
-
-<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/betrokkene/rol> a mim:Relatiesoort,
-        owl:ObjectProperty ;
-    rdfs:label "rol"@nl ;
-    mim:aggregatietype mim:Geen ;
-    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/betrokkene> ;
-    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaak> ;
-    mim:heeftTijdlijnGeldigheid false ;
-    mim:heeftTijdlijnRegistratie false ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/betrokkene/rol"^^xsd:anyURI ;
-    mim:indicatieAfleidbaar false ;
-    mim:indicatieFormeleHistorie false ;
-    mim:indicatieMaterieleHistorie false ;
-    mim:kardinaliteit "1..*" ;
-    mim:mogelijkGeenWaarde true ;
-    mim:naam "rol"@nl ;
-    mim:unidirectioneel true ;
-    dcterms:identifier "EAID_dst6348C0_B9D0_49ba_A200_75D0213B2FB4" ;
-    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/betrokkene> ;
-    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> ;
-    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaak> .
-
-<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/betrokkene/vestiging> a mim:Relatiesoort,
-        owl:ObjectProperty ;
-    rdfs:label "vestiging"@nl ;
-    mim:aggregatietype mim:Geen ;
-    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/betrokkene> ;
-    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/nietnatuurlijkpersoon> ;
-    mim:heeftTijdlijnGeldigheid false ;
-    mim:heeftTijdlijnRegistratie false ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/betrokkene/vestiging"^^xsd:anyURI ;
-    mim:indicatieAfleidbaar false ;
-    mim:indicatieFormeleHistorie false ;
-    mim:indicatieMaterieleHistorie false ;
-    mim:kardinaliteit "1..1" ;
-    mim:mogelijkGeenWaarde true ;
-    mim:naam "vestiging"@nl ;
-    mim:unidirectioneel true ;
-    dcterms:identifier "EAID_dstA5DA8A_9CBA_444a_93C8_9665C5DF1A99" ;
-    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/betrokkene> ;
-    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> ;
-    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/nietnatuurlijkpersoon> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/klantcontact/heeft-betrekking-op> a mim:Relatiesoort,
         owl:ObjectProperty ;
@@ -295,27 +190,6 @@
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> ;
     rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaak/document> a mim:Relatiesoort,
-        owl:ObjectProperty ;
-    rdfs:label "document"@nl ;
-    mim:aggregatietype mim:Geen ;
-    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaak> ;
-    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/document> ;
-    mim:heeftTijdlijnGeldigheid false ;
-    mim:heeftTijdlijnRegistratie false ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaak/document"^^xsd:anyURI ;
-    mim:indicatieAfleidbaar false ;
-    mim:indicatieFormeleHistorie false ;
-    mim:indicatieMaterieleHistorie false ;
-    mim:kardinaliteit "1..*" ;
-    mim:mogelijkGeenWaarde true ;
-    mim:naam "document"@nl ;
-    mim:unidirectioneel true ;
-    dcterms:identifier "EAID_dst9D9C03_1963_4320_9F82_3ED1E30C2895" ;
-    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaak> ;
-    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> ;
-    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/document> .
-
 <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaak/heeft-betrekking-op-andere> a mim:Relatiesoort,
         owl:ObjectProperty ;
     rdfs:label "heeft betrekking op andere"@nl ;
@@ -363,48 +237,6 @@
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaak> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> ;
     rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaak> .
-
-<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaak/status> a mim:Relatiesoort,
-        owl:ObjectProperty ;
-    rdfs:label "status"@nl ;
-    mim:aggregatietype mim:Geen ;
-    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaak> ;
-    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/status> ;
-    mim:heeftTijdlijnGeldigheid false ;
-    mim:heeftTijdlijnRegistratie false ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaak/status"^^xsd:anyURI ;
-    mim:indicatieAfleidbaar false ;
-    mim:indicatieFormeleHistorie false ;
-    mim:indicatieMaterieleHistorie false ;
-    mim:kardinaliteit "0..*" ;
-    mim:mogelijkGeenWaarde true ;
-    mim:naam "status"@nl ;
-    mim:unidirectioneel true ;
-    dcterms:identifier "EAID_dst90DE4F_C686_4701_A3A0_5A67856C004D" ;
-    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaak> ;
-    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> ;
-    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/status> .
-
-<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaak/type> a mim:Relatiesoort,
-        owl:ObjectProperty ;
-    rdfs:label "type"@nl ;
-    mim:aggregatietype mim:Geen ;
-    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaak> ;
-    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaaktype> ;
-    mim:heeftTijdlijnGeldigheid false ;
-    mim:heeftTijdlijnRegistratie false ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaak/type"^^xsd:anyURI ;
-    mim:indicatieAfleidbaar false ;
-    mim:indicatieFormeleHistorie false ;
-    mim:indicatieMaterieleHistorie false ;
-    mim:kardinaliteit "1..1" ;
-    mim:mogelijkGeenWaarde true ;
-    mim:naam "type"@nl ;
-    mim:unidirectioneel true ;
-    dcterms:identifier "EAID_dst3C1581_1B5D_467e_B825_25738FF800C9" ;
-    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaak> ;
-    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> ;
-    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaaktype> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/nietnatuurlijkpersoon/contactpersoon> a mim:Relatiesoort,
         owl:ObjectProperty ;
@@ -804,7 +636,7 @@
     mim:code "1" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/boolean/ja"^^xsd:anyURI ;
     mim:naam "Ja"@nl ;
-    dcterms:identifier "EAID_6a702d51_e8a6_4ba1_8797_34112d24ca24" ;
+    dcterms:identifier "EAID_ca40f93b_2861_4a8f_a687_76b1386a7f66" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/boolean> ;
     skos:notation "1" ;
     skos:prefLabel "Ja"@nl ;
@@ -817,7 +649,7 @@
     mim:code "-2" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/boolean/leeg"^^xsd:anyURI ;
     mim:naam "Leeg"@nl ;
-    dcterms:identifier "EAID_8a486db5_332d_4eae_ad27_23d02b392dcd" ;
+    dcterms:identifier "EAID_489bd83b_4fc2_4daf_a493_349e226636cf" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/boolean> ;
     skos:notation "-2" ;
     skos:prefLabel "Leeg"@nl ;
@@ -830,7 +662,7 @@
     mim:code "0" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/boolean/nee"^^xsd:anyURI ;
     mim:naam "Nee"@nl ;
-    dcterms:identifier "EAID_96c01eb4_11b5_40e2_9157_0104c43118a2" ;
+    dcterms:identifier "EAID_b1f1edf3_d1ba_43f9_a24e_1d097edfe480" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/boolean> ;
     skos:notation "0" ;
     skos:prefLabel "Nee"@nl ;
@@ -843,7 +675,7 @@
     mim:code "-1" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/boolean/onbekend"^^xsd:anyURI ;
     mim:naam "Onbekend"@nl ;
-    dcterms:identifier "EAID_9f4e3169_b730_47f2_b621_7d438902918c" ;
+    dcterms:identifier "EAID_787837a7_80b1_4bb8_8db3_865559b6c439" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/boolean> ;
     skos:notation "-1" ;
     skos:prefLabel "Onbekend"@nl ;
@@ -1288,6 +1120,27 @@ Bij digitaal klantcontact (het indienen van een webformulier) zijn start- en ein
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> ;
     rdfs:range xsd:string .
 
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaak/indicatiedeelzaken> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "indicatieDeelzaken"@nl ;
+    mim:definitie "<font color=\"#610e6a\">De aanduiding of een ZAAK behandeld wordt in deelzaken.</font>"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaak/indicatiedeelzaken"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "indicatieDeelzaken"@nl ;
+    mim:type mim:Boolean ;
+    dcterms:identifier "EAID_2CE7ABD9_EEC4_4346_908D_098C68A2CE12" ;
+    rdfs:comment "<font color=\"#610e6a\">De aanduiding of een ZAAK behandeld wordt in deelzaken.</font>"@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaak> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> ;
+    rdfs:range xsd:boolean .
+
 <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaak/indicatieopschorting> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "indicatieOpschorting"@nl ;
@@ -1516,7 +1369,7 @@ Bij digitaal klantcontact (het indienen van een webformulier) zijn start- en ein
     mim:code "1" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel/baron"^^xsd:anyURI ;
     mim:naam "baron"@nl ;
-    dcterms:identifier "EAID_1ee1a35d_2ae1_4e16_80c7_f7c89cd357aa" ;
+    dcterms:identifier "EAID_b6830d32_939d_455f_a798_94d213564a87" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel> ;
     skos:notation "1" ;
     skos:prefLabel "baron"@nl ;
@@ -1529,7 +1382,7 @@ Bij digitaal klantcontact (het indienen van een webformulier) zijn start- en ein
     mim:code "2" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel/barones"^^xsd:anyURI ;
     mim:naam "barones"@nl ;
-    dcterms:identifier "EAID_909a266a_2006_45c4_9a2e_b7b616eda8f3" ;
+    dcterms:identifier "EAID_ad48bd50_9d5a_4032_9aaa_580f18945fe6" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel> ;
     skos:notation "2" ;
     skos:prefLabel "barones"@nl ;
@@ -1542,7 +1395,7 @@ Bij digitaal klantcontact (het indienen van een webformulier) zijn start- en ein
     mim:code "3" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel/graaf"^^xsd:anyURI ;
     mim:naam "graaf"@nl ;
-    dcterms:identifier "EAID_d76847af_bdf7_4019_a049_76160afa923c" ;
+    dcterms:identifier "EAID_03085a22_fd59_4f41_a0e2_2e05c6a11f9c" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel> ;
     skos:notation "3" ;
     skos:prefLabel "graaf"@nl ;
@@ -1555,7 +1408,7 @@ Bij digitaal klantcontact (het indienen van een webformulier) zijn start- en ein
     mim:code "4" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel/gravin"^^xsd:anyURI ;
     mim:naam "gravin"@nl ;
-    dcterms:identifier "EAID_fb4f835d_c607_4c78_8ccb_ec106f8684dc" ;
+    dcterms:identifier "EAID_2f17e375_ee88_4fa9_8373_1ed1b02e4613" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel> ;
     skos:notation "4" ;
     skos:prefLabel "gravin"@nl ;
@@ -1568,7 +1421,7 @@ Bij digitaal klantcontact (het indienen van een webformulier) zijn start- en ein
     mim:code "5" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel/hertog"^^xsd:anyURI ;
     mim:naam "hertog"@nl ;
-    dcterms:identifier "EAID_63667b0c_7b35_4f53_b842_6287df3ee7ff" ;
+    dcterms:identifier "EAID_0d7ca703_8c37_42b1_ad48_7d6f64fd4201" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel> ;
     skos:notation "5" ;
     skos:prefLabel "hertog"@nl ;
@@ -1581,7 +1434,7 @@ Bij digitaal klantcontact (het indienen van een webformulier) zijn start- en ein
     mim:code "6" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel/hertogin"^^xsd:anyURI ;
     mim:naam "hertogin"@nl ;
-    dcterms:identifier "EAID_c80c5b19_3409_469b_90c5_b2554cdc2ada" ;
+    dcterms:identifier "EAID_694bd825_8787_40d2_8d5e_ae0f0b81f852" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel> ;
     skos:notation "6" ;
     skos:prefLabel "hertogin"@nl ;
@@ -1594,7 +1447,7 @@ Bij digitaal klantcontact (het indienen van een webformulier) zijn start- en ein
     mim:code "-2" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel/leeg"^^xsd:anyURI ;
     mim:naam "Leeg"@nl ;
-    dcterms:identifier "EAID_ac223a5f_c31a_4f25_b6ee_c22042cc920f" ;
+    dcterms:identifier "EAID_8ab4e68b_cac6_46cd_ab55_16d7c150009a" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel> ;
     skos:notation "-2" ;
     skos:prefLabel "Leeg"@nl ;
@@ -1607,7 +1460,7 @@ Bij digitaal klantcontact (het indienen van een webformulier) zijn start- en ein
     mim:code "7" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel/markies"^^xsd:anyURI ;
     mim:naam "markies"@nl ;
-    dcterms:identifier "EAID_74478cdf_6f28_4a26_85a8_586e66bcb673" ;
+    dcterms:identifier "EAID_927728a5_b77a_4113_8753_eadf8642ce2c" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel> ;
     skos:notation "7" ;
     skos:prefLabel "markies"@nl ;
@@ -1620,7 +1473,7 @@ Bij digitaal klantcontact (het indienen van een webformulier) zijn start- en ein
     mim:code "8" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel/markiezin"^^xsd:anyURI ;
     mim:naam "markiezin"@nl ;
-    dcterms:identifier "EAID_53ab6f22_c437_43e7_9117_4a5c40bbe644" ;
+    dcterms:identifier "EAID_3c9038b1_2629_49e8_8afb_522b3f3a202c" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel> ;
     skos:notation "8" ;
     skos:prefLabel "markiezin"@nl ;
@@ -1633,7 +1486,7 @@ Bij digitaal klantcontact (het indienen van een webformulier) zijn start- en ein
     mim:code "-1" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel/onbekend"^^xsd:anyURI ;
     mim:naam "Onbekend"@nl ;
-    dcterms:identifier "EAID_98578285_3283_4b1b_ab55_6bed62cb5055" ;
+    dcterms:identifier "EAID_5a111398_43a3_4520_a048_8a47cc92465c" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel> ;
     skos:notation "-1" ;
     skos:prefLabel "Onbekend"@nl ;
@@ -1646,7 +1499,7 @@ Bij digitaal klantcontact (het indienen van een webformulier) zijn start- en ein
     mim:code "9" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel/prins"^^xsd:anyURI ;
     mim:naam "prins"@nl ;
-    dcterms:identifier "EAID_5f30d1ce_fa65_4197_ae86_0ff05a705e50" ;
+    dcterms:identifier "EAID_ae40fbea_b98d_437d_b85e_dea41c8b2bea" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel> ;
     skos:notation "9" ;
     skos:prefLabel "prins"@nl ;
@@ -1659,7 +1512,7 @@ Bij digitaal klantcontact (het indienen van een webformulier) zijn start- en ein
     mim:code "10" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel/prinses"^^xsd:anyURI ;
     mim:naam "prinses"@nl ;
-    dcterms:identifier "EAID_01c43022_8f24_4dfb_a3b8_4a3fdd5d185f" ;
+    dcterms:identifier "EAID_540c4e13_7a0c_4d25_8e3f_f4c21bb753f7" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel> ;
     skos:notation "10" ;
     skos:prefLabel "prinses"@nl ;
@@ -1672,7 +1525,7 @@ Bij digitaal klantcontact (het indienen van een webformulier) zijn start- en ein
     mim:code "11" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel/ridder"^^xsd:anyURI ;
     mim:naam "ridder"@nl ;
-    dcterms:identifier "EAID_58efec5e_328c_467f_8249_3614e966585c" ;
+    dcterms:identifier "EAID_a6439cd8_a898_4981_afd1_262241be2ea6" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel> ;
     skos:notation "11" ;
     skos:prefLabel "ridder"@nl ;
@@ -2496,8 +2349,8 @@ geslachtsnaam voorafgaat.."""@nl ;
     mim:code "1" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortrechtsvorm/besloten-vennootschap"^^xsd:anyURI ;
     mim:naam "Besloten vennootschap"@nl ;
-    dcterms:identifier "EAID_430ac886_d7c6_43f2_b9bf_acf02f2d27af",
-        "EAID_f6ff4b46_a30d_47e0_b6c9_55c553492edf" ;
+    dcterms:identifier "EAID_38bf7ec6_bc1a_46c5_a2f2_b195d828e7be",
+        "EAID_96b168b1_d1b6_4a8a_8dc9_e40316d929d4" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortrechtsvorm> ;
     skos:notation "1" ;
     skos:prefLabel "Besloten vennootschap"@nl ;
@@ -2510,8 +2363,8 @@ geslachtsnaam voorafgaat.."""@nl ;
     mim:code "2" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortrechtsvorm/commanditaire-vennootschap"^^xsd:anyURI ;
     mim:naam "commanditaire vennootschap"@nl ;
-    dcterms:identifier "EAID_0230d0b2_6c48_44c2_ad73_3def93b43b42",
-        "EAID_37bc54e0_1967_4800_870d_441dfb19d2c9" ;
+    dcterms:identifier "EAID_c16d57c2_a27b_40da_ba73_b229fcc3f085",
+        "EAID_e62379b5_ad68_4d65_bad6_086a338d45cd" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortrechtsvorm> ;
     skos:notation "2" ;
     skos:prefLabel "commanditaire vennootschap"@nl ;
@@ -2524,8 +2377,8 @@ geslachtsnaam voorafgaat.."""@nl ;
     mim:code "3" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortrechtsvorm/cooperatie-europees-economische-samenwerking"^^xsd:anyURI ;
     mim:naam "cooperatie, Europees Economische Samenwerking"@nl ;
-    dcterms:identifier "EAID_ac421bb2_ffbb_44ac_9d4d_333d69470a48",
-        "EAID_b226f730_d0fa_4e74_bf2b_c6a6a1a010af" ;
+    dcterms:identifier "EAID_d672a858_fbe8_40a3_b2dc_fe45a4c26ee6",
+        "EAID_fac31cc1_235c_4c50_9996_e3d4b4811c68" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortrechtsvorm> ;
     skos:notation "3" ;
     skos:prefLabel "cooperatie, Europees Economische Samenwerking"@nl ;
@@ -2538,8 +2391,8 @@ geslachtsnaam voorafgaat.."""@nl ;
     mim:code "4" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortrechtsvorm/europese-cooperatieve-vennootschap"^^xsd:anyURI ;
     mim:naam "Europese Cooperatieve Vennootschap"@nl ;
-    dcterms:identifier "EAID_2a8a198b_346c_4045_932d_d469c4bc8792",
-        "EAID_36a59a1a_0a2a_4b93_9990_3a2c9309b5c9" ;
+    dcterms:identifier "EAID_55352538_dac2_48c7_aecd_392b1a70eeab",
+        "EAID_ee3d2a78_69c3_43c0_90e3_01ce0e0d2490" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortrechtsvorm> ;
     skos:notation "4" ;
     skos:prefLabel "Europese Cooperatieve Vennootschap"@nl ;
@@ -2552,8 +2405,8 @@ geslachtsnaam voorafgaat.."""@nl ;
     mim:code "5" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortrechtsvorm/europese-naamloze-vennootschap"^^xsd:anyURI ;
     mim:naam "Europese Naamloze Vennootschap"@nl ;
-    dcterms:identifier "EAID_898dc1b1_e324_4ab9_be13_37682ac9037c",
-        "EAID_c94859e7_76c1_4d68_b5cc_2bb79ee55e16" ;
+    dcterms:identifier "EAID_78a142b1_fd76_498c_a79e_765f0c63c255",
+        "EAID_a968c4d3_b2f5_4215_9eac_574376085e1d" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortrechtsvorm> ;
     skos:notation "5" ;
     skos:prefLabel "Europese Naamloze Vennootschap"@nl ;
@@ -2569,8 +2422,8 @@ de landen van de Europese Economische Ruimte (Europese Unie +
 IJsland, Noorwegen en Liechtenstein)."""@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortrechtsvorm/kapitaalvennootschap-binnen-eer"^^xsd:anyURI ;
     mim:naam "kapitaalvennootschap binnen EER"@nl ;
-    dcterms:identifier "EAID_7307f386_d68b_40e7_ad32_1340c9d4c471",
-        "EAID_df081653_a797_4615_bb4c_28852a3a0692" ;
+    dcterms:identifier "EAID_25382da3_edff_4609_b425_416a93afed77",
+        "EAID_f5589c7f_c391_4449_9fe9_71f1f977ea3c" ;
     skos:definition """Een kapitaalvennootschap die is opgericht buiten Nederland in een van 
 de landen van de Europese Economische Ruimte (Europese Unie + 
 IJsland, Noorwegen en Liechtenstein)."""@nl ;
@@ -2589,8 +2442,8 @@ Europese Economische Ruimte (Europese Unie + IJsland, Noorwegen
 en Liechtenstein)."""@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortrechtsvorm/kapitaalvennootschap-buiten-eer"^^xsd:anyURI ;
     mim:naam "kapitaalvennootschap buiten EER"@nl ;
-    dcterms:identifier "EAID_2157933f_4157_4698_a67e_b0bee1e52a33",
-        "EAID_40c82761_3e42_438f_8111_d9fe67fc0a3e" ;
+    dcterms:identifier "EAID_209ae33b_3371_4ad2_8b4d_7f73d266d7ea",
+        "EAID_70c73ebc_6ad8_4d79_ba5b_8632744f8b4e" ;
     skos:definition """Een kapitaalvennootschap die is opgericht buiten de landen van de 
 Europese Economische Ruimte (Europese Unie + IJsland, Noorwegen 
 en Liechtenstein)."""@nl ;
@@ -2606,8 +2459,8 @@ en Liechtenstein)."""@nl ;
     mim:code "8" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortrechtsvorm/kerkelijke-organisatie"^^xsd:anyURI ;
     mim:naam "kerkelijke Organisatie"@nl ;
-    dcterms:identifier "EAID_2077ab2e_bacd_4819_94e0_a802349460cb",
-        "EAID_99ee4a52_b4bb_4c46_9391_07599f04b500" ;
+    dcterms:identifier "EAID_04352546_6995_4a2e_a761_c689ac0ef824",
+        "EAID_4c7074dc_b5b1_4e9a_86a7_853d3d746abd" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortrechtsvorm> ;
     skos:notation "8" ;
     skos:prefLabel "kerkelijke Organisatie"@nl ;
@@ -2620,8 +2473,8 @@ en Liechtenstein)."""@nl ;
     mim:code "-2" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortrechtsvorm/leeg"^^xsd:anyURI ;
     mim:naam "Leeg"@nl ;
-    dcterms:identifier "EAID_28efb04c_28c0_48c6_b34b_1360ce04f16f",
-        "EAID_b9322268_eb98_431b_b1f8_cd299f0fbc7b" ;
+    dcterms:identifier "EAID_3524a7a8_9e50_4c79_83cc_7d070d20ddd4",
+        "EAID_809c7b27_24d2_4015_bd93_cf328406dcda" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortrechtsvorm> ;
     skos:notation "-2" ;
     skos:prefLabel "Leeg"@nl ;
@@ -2634,8 +2487,8 @@ en Liechtenstein)."""@nl ;
     mim:code "9" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortrechtsvorm/maatschap"^^xsd:anyURI ;
     mim:naam "maatschap"@nl ;
-    dcterms:identifier "EAID_06bc1f36_9842_409d_bb0c_b7429c0ed56c",
-        "EAID_3a0a57f4_18eb_4f23_9815_536fcae7e834" ;
+    dcterms:identifier "EAID_9daada1e_dbf2_478f_8789_28fbe8a829f3",
+        "EAID_d96bbba9_b268_4432_adf0_904fa7bff7d7" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortrechtsvorm> ;
     skos:notation "9" ;
     skos:prefLabel "maatschap"@nl ;
@@ -2648,8 +2501,8 @@ en Liechtenstein)."""@nl ;
     mim:code "10" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortrechtsvorm/naamloze-vennootschap"^^xsd:anyURI ;
     mim:naam "naamloze Vennootschap"@nl ;
-    dcterms:identifier "EAID_37060d9c_decc_43e8_8abe_a7620de4c616",
-        "EAID_f9ed0a37_db91_4859_a6e6_3958d36a876c" ;
+    dcterms:identifier "EAID_2f839162_b4d8_4e7b_9b84_5d3cc6d66b2a",
+        "EAID_bc99a161_54f6_4eb6_8c25_472934f8ad0b" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortrechtsvorm> ;
     skos:notation "10" ;
     skos:prefLabel "naamloze Vennootschap"@nl ;
@@ -2662,8 +2515,8 @@ en Liechtenstein)."""@nl ;
     mim:code "-1" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortrechtsvorm/onbekend"^^xsd:anyURI ;
     mim:naam "Onbekend"@nl ;
-    dcterms:identifier "EAID_7de7026e_c5f9_4d83_ab81_378b05664170",
-        "EAID_f08cd3fb_ebb3_4663_82f2_858aad25ae97" ;
+    dcterms:identifier "EAID_1da0b2dd_bb0a_4b3b_a988_f6b56a37e640",
+        "EAID_c615d496_0379_4726_95c4_03b4d10344ae" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortrechtsvorm> ;
     skos:notation "-1" ;
     skos:prefLabel "Onbekend"@nl ;
@@ -2676,8 +2529,8 @@ en Liechtenstein)."""@nl ;
     mim:code "11" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortrechtsvorm/onderlinge-waarborg-maatschappij"^^xsd:anyURI ;
     mim:naam "onderlinge Waarborg Maatschappij"@nl ;
-    dcterms:identifier "EAID_55efc8fe_9721_45b2_bbd6_472b19c90e3c",
-        "EAID_ce2eed55_b0bd_421a_8a14_267eea1e9ebf" ;
+    dcterms:identifier "EAID_1648b35d_c9c5_46a3_b728_90bd24168fdd",
+        "EAID_dd7e837d_aae0_4aab_84fc_0dc0fe16a731" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortrechtsvorm> ;
     skos:notation "11" ;
     skos:prefLabel "onderlinge Waarborg Maatschappij"@nl ;
@@ -2690,8 +2543,8 @@ en Liechtenstein)."""@nl ;
     mim:code "12" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortrechtsvorm/overig-privaatrechtelijke-rechtspersoon"^^xsd:anyURI ;
     mim:naam "overig privaatrechtelijke rechtspersoon"@nl ;
-    dcterms:identifier "EAID_8ebd5f65_a80c_4540_9c29_848b408eed6c",
-        "EAID_b287b88e_1021_405d_bf49_0e2d4e25abe4" ;
+    dcterms:identifier "EAID_2c379469_beb7_4a40_89e7_26fe1a72ab4f",
+        "EAID_f29ac262_0c37_4dd9_82fa_b1b626ca3cdc" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortrechtsvorm> ;
     skos:notation "12" ;
     skos:prefLabel "overig privaatrechtelijke rechtspersoon"@nl ;
@@ -2706,8 +2559,8 @@ en Liechtenstein)."""@nl ;
 kapitaalvennootschap zijn binnen of buiten de E.E.R."""@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortrechtsvorm/overige-buitenlandse-rechtspersoon-vennootschap"^^xsd:anyURI ;
     mim:naam "overige buitenlandse rechtspersoon vennootschap"@nl ;
-    dcterms:identifier "EAID_52bdc1b5_0e33_4a83_9f20_fa035e96e598",
-        "EAID_e926cbae_ba94_497c_8db3_b43e37d00dba" ;
+    dcterms:identifier "EAID_0ea6e12c_dba6_4152_826f_6c658e40df36",
+        "EAID_65ce4f8d_f159_43da_aecf_64d83c4bda31" ;
     skos:definition """Overige buitenlandse rechtspersonen of vennootschappen die geen 
 kapitaalvennootschap zijn binnen of buiten de E.E.R."""@nl ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortrechtsvorm> ;
@@ -2722,8 +2575,8 @@ kapitaalvennootschap zijn binnen of buiten de E.E.R."""@nl ;
     mim:code "14" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortrechtsvorm/publiekrechtelijke-rechtspersoon"^^xsd:anyURI ;
     mim:naam "publiekrechtelijke Rechtspersoon"@nl ;
-    dcterms:identifier "EAID_b075a6e9_4972_468b_a1a5_18a00aa90d81",
-        "EAID_f88a0ece_526b_46bc_8564_086f2deda051" ;
+    dcterms:identifier "EAID_2afbdab1_ffce_47ba_899d_d8d34aa01fb8",
+        "EAID_7fdbd63a_8c0b_47c6_b9b7_abd015b4f460" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortrechtsvorm> ;
     skos:notation "14" ;
     skos:prefLabel "publiekrechtelijke Rechtspersoon"@nl ;
@@ -2736,8 +2589,8 @@ kapitaalvennootschap zijn binnen of buiten de E.E.R."""@nl ;
     mim:code "15" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortrechtsvorm/rederij"^^xsd:anyURI ;
     mim:naam "rederij"@nl ;
-    dcterms:identifier "EAID_bf49a938_7c2e_4d98_b12f_0254f62af0e3",
-        "EAID_e767e6e5_bb11_47b3_9aee_b3d7424d0c3a" ;
+    dcterms:identifier "EAID_20388cfe_65cc_49d8_8a12_1b1f5e6704dd",
+        "EAID_fb352f71_fc90_42d2_8648_346d16ee86f0" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortrechtsvorm> ;
     skos:notation "15" ;
     skos:prefLabel "rederij"@nl ;
@@ -2750,8 +2603,8 @@ kapitaalvennootschap zijn binnen of buiten de E.E.R."""@nl ;
     mim:code "16" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortrechtsvorm/stichting"^^xsd:anyURI ;
     mim:naam "stichting"@nl ;
-    dcterms:identifier "EAID_77534283_0aa0_472e_8573_82a401a42bbb",
-        "EAID_c13033f5_4f84_41a0_b9f5_b41e8fe8f989" ;
+    dcterms:identifier "EAID_19a71b1a_ec8e_4a4f_9cbe_c4d615ca768c",
+        "EAID_50401d65_743c_457a_874f_5e809144c262" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortrechtsvorm> ;
     skos:notation "16" ;
     skos:prefLabel "stichting"@nl ;
@@ -2764,8 +2617,8 @@ kapitaalvennootschap zijn binnen of buiten de E.E.R."""@nl ;
     mim:code "17" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortrechtsvorm/vennootschap-onder-firma"^^xsd:anyURI ;
     mim:naam "vennootschap onder Firma"@nl ;
-    dcterms:identifier "EAID_031bf5a3_6ffc_4267_a236_78199f3e362a",
-        "EAID_8d821b83_54cd_4ca0_8ccd_c8ae7a34b9e8" ;
+    dcterms:identifier "EAID_9b442fe9_9146_4060_a783_6231be81f3c3",
+        "EAID_bbf83923_e22f_43d6_888d_8050e93ac0f5" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortrechtsvorm> ;
     skos:notation "17" ;
     skos:prefLabel "vennootschap onder Firma"@nl ;
@@ -2778,8 +2631,8 @@ kapitaalvennootschap zijn binnen of buiten de E.E.R."""@nl ;
     mim:code "18" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortrechtsvorm/vereniging"^^xsd:anyURI ;
     mim:naam "vereniging"@nl ;
-    dcterms:identifier "EAID_c743fd39_573e_4674_aec1_9016f6e45c91",
-        "EAID_cf781494_d205_499a_9b4a_07b80e3f938a" ;
+    dcterms:identifier "EAID_2e0cb2df_37d3_46b9_b983_d073470a3c1f",
+        "EAID_d6a6ed8d_14de_4b0b_91ee_8b19a160d0d5" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortrechtsvorm> ;
     skos:notation "18" ;
     skos:prefLabel "vereniging"@nl ;
@@ -2792,12 +2645,26 @@ kapitaalvennootschap zijn binnen of buiten de E.E.R."""@nl ;
     mim:code "19" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortrechtsvorm/vereniging-van-eigenaars"^^xsd:anyURI ;
     mim:naam "vereniging van Eigenaars"@nl ;
-    dcterms:identifier "EAID_d2638a1f_58d8_4923_8e47_7fb3a28172d9",
-        "EAID_d2b9f4f8_107c_4925_89d2_c830a5e9502a" ;
+    dcterms:identifier "EAID_41b60ebe_58d8_4489_9728_c27c69c7c82e",
+        "EAID_9d388b55_fb85_40f9_befe_f290d620f3bb" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortrechtsvorm> ;
     skos:notation "19" ;
     skos:prefLabel "vereniging van Eigenaars"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortrechtsvorm> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/betrokkene> a mim:Objecttype,
+        owl:Class ;
+    rdfs:label "Betrokkene"@nl ;
+    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/betrokkene/adresbuitenland>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/betrokkene/identificatie>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/betrokkene/naam> ;
+    mim:definitie "Een SUBJECT, zijnde een NATUURLIJK PERSOON, NIET-NATUURLIJK PERSOON of VESTIGING, ORGANISATORISCHE EENHEID (binnen een vestiging van de zaak-behandelende niet-natuurlijk persoon), of MEDEWERKER (van die organisatorische eenheid) die een rol kan spelen bij een ZAAK."@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/betrokkene"^^xsd:anyURI ;
+    mim:indicatieAbstractObject false ;
+    mim:naam "Betrokkene"@nl ;
+    dcterms:identifier "EAID_16FB8171_A9ED_4027_A663_C035509501C8" ;
+    rdfs:comment "Een SUBJECT, zijnde een NATUURLIJK PERSOON, NIET-NATUURLIJK PERSOON of VESTIGING, ORGANISATORISCHE EENHEID (binnen een vestiging van de zaak-behandelende niet-natuurlijk persoon), of MEDEWERKER (van die organisatorische eenheid) die een rol kan spelen bij een ZAAK."@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/klantcontact> a mim:Objecttype,
         owl:Class ;
@@ -2831,7 +2698,7 @@ Hetzelfde geldt voor de telefoontjes, de klantcontacten komen uit levelOneData, 
         <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/boolean/leeg>,
         <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/boolean/nee>,
         <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/boolean/onbekend> ;
-    dcterms:identifier "EAID_fcc997d9_711a_43df_b1fa_30158b0b0429" ;
+    dcterms:identifier "EAID_7d23b462_98d0_445e_b774_7b90da056566" ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/> ;
     rdfs:subClassOf skos:Concept .
 
@@ -2896,20 +2763,6 @@ Bron: GEM_VJV (Distinct op REQ_ID)
 ID: REQ_ID"""@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/betrokkene> a mim:Objecttype,
-        owl:Class ;
-    rdfs:label "Betrokkene"@nl ;
-    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/betrokkene/adresbuitenland>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/betrokkene/identificatie>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/betrokkene/naam> ;
-    mim:definitie "Een SUBJECT, zijnde een NATUURLIJK PERSOON, NIET-NATUURLIJK PERSOON of VESTIGING, ORGANISATORISCHE EENHEID (binnen een vestiging van de zaak-behandelende niet-natuurlijk persoon), of MEDEWERKER (van die organisatorische eenheid) die een rol kan spelen bij een ZAAK."@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/betrokkene"^^xsd:anyURI ;
-    mim:indicatieAbstractObject false ;
-    mim:naam "Betrokkene"@nl ;
-    dcterms:identifier "EAID_16FB8171_A9ED_4027_A663_C035509501C8" ;
-    rdfs:comment "Een SUBJECT, zijnde een NATUURLIJK PERSOON, NIET-NATUURLIJK PERSOON of VESTIGING, ORGANISATORISCHE EENHEID (binnen een vestiging van de zaak-behandelende niet-natuurlijk persoon), of MEDEWERKER (van die organisatorische eenheid) die een rol kan spelen bij een ZAAK."@nl ;
-    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> .
-
 <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/natuurlijkpersoon> a mim:Objecttype,
         owl:Class ;
     rdfs:label "NatuurlijkPersoon"@nl ;
@@ -2946,6 +2799,40 @@ ID: REQ_ID"""@nl ;
     rdfs:comment "Een INGESCHREVEN PERSOON of ANDER NATUURLIJK PERSOON"@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> .
 
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaak> a mim:Objecttype,
+        owl:Class ;
+    rdfs:label "Zaak"@nl ;
+    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaak/archiefnominatie>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaak/datumeinde>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaak/datumeindegepland>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaak/datumeindeuiterlijkeafdoening>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaak/datumlaatstebetaling>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaak/datumpublicatie>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaak/datumregistratie>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaak/datumstart>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaak/datumvernietigingdossier>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaak/duurverlenging>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaak/indicatiebetaling>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaak/indicatiedeelzaken>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaak/indicatieopschorting>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaak/leges>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaak/omschrijving>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaak/omschrijvingresultaat>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaak/redenopschorting>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaak/redenverlenging>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaak/toelichting>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaak/toelichtingresultaat>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaak/vertrouwelijkheid>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaak/zaakidentificatie>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaak/zaakniveau> ;
+    mim:definitie "Een samenhangende hoeveelheid werk met een welgedefinieerde aanleiding en een welgedefinieerd eindresultaat, waarvan kwaliteit en doorlooptijd bewaakt moeten worden."@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaak"^^xsd:anyURI ;
+    mim:indicatieAbstractObject false ;
+    mim:naam "Zaak"@nl ;
+    dcterms:identifier "EAID_649EFD86_ED52_4293_8577_DBE5445845BF" ;
+    rdfs:comment "Een samenhangende hoeveelheid werk met een welgedefinieerde aanleiding en een welgedefinieerd eindresultaat, waarvan kwaliteit en doorlooptijd bewaakt moeten worden."@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> .
+
 <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel> a mim:Enumeratie,
         owl:Class,
         skos:ConceptScheme ;
@@ -2965,42 +2852,9 @@ ID: REQ_ID"""@nl ;
         <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel/prins>,
         <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel/prinses>,
         <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel/ridder> ;
-    dcterms:identifier "EAID_8cfb5be5_72e1_4363_87ab_205d3595a633" ;
+    dcterms:identifier "EAID_4ff1ddc0_5489_4582_86ea_7211b2716854" ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
     rdfs:subClassOf skos:Concept .
-
-<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaak> a mim:Objecttype,
-        owl:Class ;
-    rdfs:label "Zaak"@nl ;
-    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaak/archiefnominatie>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaak/datumeinde>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaak/datumeindegepland>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaak/datumeindeuiterlijkeafdoening>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaak/datumlaatstebetaling>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaak/datumpublicatie>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaak/datumregistratie>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaak/datumstart>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaak/datumvernietigingdossier>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaak/duurverlenging>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaak/indicatiebetaling>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaak/indicatieopschorting>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaak/leges>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaak/omschrijving>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaak/omschrijvingresultaat>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaak/redenopschorting>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaak/redenverlenging>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaak/toelichting>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaak/toelichtingresultaat>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaak/vertrouwelijkheid>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaak/zaakidentificatie>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaak/zaakniveau> ;
-    mim:definitie "Een samenhangende hoeveelheid werk met een welgedefinieerde aanleiding en een welgedefinieerd eindresultaat, waarvan kwaliteit en doorlooptijd bewaakt moeten worden."@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaak"^^xsd:anyURI ;
-    mim:indicatieAbstractObject false ;
-    mim:naam "Zaak"@nl ;
-    dcterms:identifier "EAID_649EFD86_ED52_4293_8577_DBE5445845BF" ;
-    rdfs:comment "Een samenhangende hoeveelheid werk met een welgedefinieerde aanleiding en een welgedefinieerd eindresultaat, waarvan kwaliteit en doorlooptijd bewaakt moeten worden."@nl ;
-    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortrechtsvorm> a mim:Enumeratie,
         owl:Class,
@@ -3029,8 +2883,8 @@ ID: REQ_ID"""@nl ;
         <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortrechtsvorm/vennootschap-onder-firma>,
         <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortrechtsvorm/vereniging>,
         <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortrechtsvorm/vereniging-van-eigenaars> ;
-    dcterms:identifier "EAID_ee43fb26_a483_4458_a147_4441c8ea378f",
-        "EAID_f924d91b_db79_4ccc_9879_659776d1a3e2" ;
+    dcterms:identifier "EAID_1d9544d0_d0d2_4b79_a7fa_204b0ed97e30",
+        "EAID_52901741_483e_4ac6_9ee4_405813ebb9f6" ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
     rdfs:subClassOf skos:Concept .
 

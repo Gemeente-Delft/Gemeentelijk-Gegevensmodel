@@ -16,7 +16,7 @@
     | author | Arjen Brienen |
     | version | 1.1.0 |
     | created | 2025-07-22 09:42:58 |
-    | modified | 2025-12-18 15:38:53 |
+    | modified | 2025-12-22 15:26:52 |
     | id | EAPK\_A7E08871\_8DE8\_4fe4\_96AE\_2AB3EE67E0CF |
     
 
@@ -34,7 +34,7 @@ Het model 'Model Werk' kent de volgende objecttypen:
 * **Doelgroep**: Een specifieke groep personen met gedeelde kenmerken (zoals afstand tot de arbeidsmarkt) die in aanmerking komt voor bepaalde voorzieningen of aangepaste begeleiding.
 * **Doelgroepenregister**: Een landelijk register waarin mensen met een afstand tot de arbeidsmarkt worden opgenomen, vaak ten behoeve van loonkostensubsidie of andere voorzieningen.
 * **DoelReintegratievoorziening**: Het beoogde effect van een ingezette voorziening, bijvoorbeeld toeleiding naar werk, dagbesteding of maatschappelijke participatie.
-* **Flexibliteit**: De mate waarin een persoon flexibel inzetbaar is qua werktijden, werkplek of werkzaamheden.
+* **Flexibiliteit**: De mate waarin een persoon flexibel inzetbaar is qua werktijden, werkplek of werkzaamheden.
 * **Loonkostensubsidie**: Een tegemoetkoming aan een werkgever voor het in dienst nemen van een werknemer met verminderde loonwaarde.
 * **Mobiliteit**: De bereikbaarheid van werkplekken voor een persoon, afhankelijk van vervoermiddel, rijbewijs en fysieke mogelijkheden.
 * **Ontheffing**: Een formele vrijstelling van verplichtingen rond arbeidsparticipatie, zoals beschikbaarheid of tegenprestatie, op basis van persoonlijke of juridische gronden.
@@ -75,9 +75,9 @@ Het model 'Model Werk' kent de volgende objecttypen:
     | uri |  |
     | bron |  |
     | author | Eigenaar |
-    | version | 1.9.0 |
+    | version | 1.11.0 |
     | created | 2025-03-10 17:37:58 |
-    | modified | 2025-12-18 15:38:52 |
+    | modified | 2025-12-22 15:44:35 |
     | id | EAID\_E771BA5B\_93D4\_48a0\_A6FC\_BEBDD18C8975 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -115,9 +115,9 @@ Attributen van objecttype Arbeidsmarktkwalificaties
     | uri |  |
     | bron |  |
     | author | Eigenaar |
-    | version | 1.9.0 |
+    | version | 1.11.0 |
     | created | 2025-06-03 13:32:55 |
-    | modified | 2025-12-18 15:38:52 |
+    | modified | 2025-12-22 15:44:35 |
     | id | EAID\_E2F30023\_4E8C\_44fc\_8989\_1E467EA8618F |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -158,9 +158,9 @@ Attributen van objecttype Arbeidsperiode
     | uri |  |
     | bron |  |
     | author | Eigenaar |
-    | version | 1.9.0 |
+    | version | 1.11.0 |
     | created | 2025-06-03 13:31:24 |
-    | modified | 2025-12-18 15:38:52 |
+    | modified | 2025-12-22 15:44:35 |
     | id | EAID\_BDC8C949\_2563\_45eb\_9E85\_866ED51B3AC4 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -195,9 +195,9 @@ Attributen van objecttype Arbeidsverhouding
     | uri |  |
     | bron |  |
     | author | Eigenaar |
-    | version | 1.9.0 |
+    | version | 1.11.0 |
     | created | 2025-06-02 12:51:30 |
-    | modified | 2025-12-18 15:38:52 |
+    | modified | 2025-12-22 15:44:35 |
     | id | EAID\_F657BA3E\_8B66\_4b84\_8036\_0FA4CCC2D3CE |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -231,9 +231,9 @@ Attributen van objecttype Arbeidsvermogen
     | uri |  |
     | bron |  |
     | author | Eigenaar |
-    | version | 1.9.0 |
+    | version | 1.11.0 |
     | created | 2025-06-03 12:47:31 |
-    | modified | 2025-12-18 15:38:52 |
+    | modified | 2025-12-22 15:44:35 |
     | id | EAID\_7F16F190\_CC44\_4550\_A677\_7BFEC6D34E64 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -272,9 +272,9 @@ Attributen van objecttype Bemiddelingsactiviteit
     | uri |  |
     | bron |  |
     | author | Eigenaar |
-    | version | 1.9.0 |
+    | version | 1.11.0 |
     | created | 2025-06-03 13:15:45 |
-    | modified | 2025-12-18 15:38:52 |
+    | modified | 2025-12-22 15:44:35 |
     | id | EAID\_E2147AA5\_89F8\_4a59\_A8F2\_558AA872037F |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -308,9 +308,9 @@ Attributen van objecttype Bemiddelingsberoep
     | uri |  |
     | bron |  |
     | author | Eigenaar |
-    | version | 1.9.0 |
+    | version | 1.11.0 |
     | created | 2025-06-03 13:22:23 |
-    | modified | 2025-12-18 15:38:52 |
+    | modified | 2025-12-22 15:44:35 |
     | id | EAID\_1C180C62\_5B5E\_45b4\_BB94\_F44454D11BDE |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -349,9 +349,9 @@ Attributen van objecttype Bemiddelingstraject
     | uri |  |
     | bron |  |
     | author | Eigenaar |
-    | version | 1.9.0 |
+    | version | 1.11.0 |
     | created | 2025-06-03 13:57:11 |
-    | modified | 2025-12-18 15:38:52 |
+    | modified | 2025-12-22 15:44:35 |
     | id | EAID\_A0F5CBE4\_67D2\_47bb\_9CE9\_B104E7093D12 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -369,8 +369,7 @@ Attributen van objecttype BeschikbaarVoorArbeid
 | StartdatumBeschikbaarheid | date |  |
 | DagBeschikbaarheid | Dag beschikbaarheid |  |
 | AantalUrenpwBeschikbaar | int |  |
-| Interval opzegtermijn | Interval opzegtermijn
- |  |
+| Interval opzegtermijn | Interval opzegtermijn |  |
 | WaardeOpzegtermijn | int |  |
 | StartdagBeschikbaarheid | date |  |
 | EinddatumBeschikbaarheid | date |  |
@@ -395,9 +394,9 @@ Attributen van objecttype BeschikbaarVoorArbeid
     | uri |  |
     | bron |  |
     | author | Eigenaar |
-    | version | 1.9.0 |
+    | version | 1.11.0 |
     | created | 2025-06-03 12:51:09 |
-    | modified | 2025-12-18 15:38:52 |
+    | modified | 2025-12-22 15:44:35 |
     | id | EAID\_1F4F46AC\_825C\_46c7\_A417\_BFA6775FF3D9 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -432,9 +431,9 @@ Attributen van objecttype BeschikbaarVoorBemiddeling
     | uri |  |
     | bron |  |
     | author | Eigenaar |
-    | version | 1.9.0 |
+    | version | 1.11.0 |
     | created | 2024-10-03 13:39:44 |
-    | modified | 2025-12-18 15:38:52 |
+    | modified | 2025-12-22 15:44:35 |
     | id | EAID\_FF5A6019\_C72C\_4bcc\_ADDF\_84811CBDA79B |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -469,9 +468,9 @@ Attributen van objecttype Doelgroep
     | uri |  |
     | bron |  |
     | author | Eigenaar |
-    | version | 1.9.0 |
+    | version | 1.11.0 |
     | created | 2025-06-02 12:54:14 |
-    | modified | 2025-12-18 15:38:52 |
+    | modified | 2025-12-22 15:44:35 |
     | id | EAID\_B1CD002A\_85A3\_41db\_A905\_D9A7512A7307 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -486,8 +485,7 @@ Attributen van objecttype Doelgroepenregister
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| IndicatieDoelgroepenRegister | Indicatie doelgroepenregister
- |  |
+| IndicatieDoelgroepenRegister | Indicatie doelgroepenregister |  |
 | AdviesUWV | Document |  |
 | Baanafspraak | SoortWerk |  |
 
@@ -508,9 +506,9 @@ Attributen van objecttype Doelgroepenregister
     | uri |  |
     | bron |  |
     | author | Eigenaar |
-    | version | 1.9.0 |
+    | version | 1.11.0 |
     | created | 2025-06-03 14:08:41 |
-    | modified | 2025-12-18 15:38:52 |
+    | modified | 2025-12-22 15:44:35 |
     | id | EAID\_2F1FD6B9\_AF03\_4864\_B40C\_027155621707 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -529,24 +527,24 @@ Attributen van objecttype DoelReintegratievoorziening
 
 
 
-### Flexibliteit
-> **Definitie Flexibliteit:** 
+### Flexibiliteit
+> **Definitie Flexibiliteit:** 
 >
 > De mate waarin een persoon flexibel inzetbaar is qua werktijden, werkplek of werkzaamheden.
 
-??? info "Kenmerken Model Flexibliteit"
+??? info "Kenmerken Model Flexibiliteit"
 
     | Eigenschap | Waarde |
     | :--- | :------ |
-    | name | Flexibliteit |
+    | name | Flexibiliteit |
     | toelichting | #NOTES#Description: MIM 1.1: Een inhoudelijke toelichting op de definitie, ter verheldering of nadere duiding. |
     | synoniemen |  |
     | uri |  |
     | bron |  |
     | author | Eigenaar |
-    | version | 1.9.0 |
+    | version | 1.11.0 |
     | created | 2025-06-03 13:52:38 |
-    | modified | 2025-12-18 15:38:52 |
+    | modified | 2026-10-28 19:09:51 |
     | id | EAID\_E7BC941E\_A54D\_49e1\_8F77\_1D8D7CE8EBD7 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -557,7 +555,7 @@ Attributen van objecttype DoelReintegratievoorziening
     | gemma_toelichting |  |
     
 
-Attributen van objecttype Flexibliteit
+Attributen van objecttype Flexibiliteit
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
@@ -584,9 +582,9 @@ Attributen van objecttype Flexibliteit
     | uri |  |
     | bron |  |
     | author | Eigenaar |
-    | version | 1.9.0 |
+    | version | 1.11.0 |
     | created | 2025-06-03 14:23:22 |
-    | modified | 2025-12-18 15:38:52 |
+    | modified | 2025-12-22 15:44:35 |
     | id | EAID\_F600A89B\_EE8E\_4b86\_949E\_F15E9328EB83 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -620,9 +618,9 @@ Attributen van objecttype Loonkostensubsidie
     | uri |  |
     | bron |  |
     | author | Eigenaar |
-    | version | 1.9.0 |
+    | version | 1.11.0 |
     | created | 2025-06-03 14:00:51 |
-    | modified | 2025-12-18 15:38:52 |
+    | modified | 2025-12-22 15:44:35 |
     | id | EAID\_8C8FAE2D\_5F4D\_4e3b\_8EA3\_43FF544775F2 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -660,9 +658,9 @@ Attributen van objecttype Mobiliteit
     | uri |  |
     | bron |  |
     | author | Eigenaar |
-    | version | 1.9.0 |
+    | version | 1.11.0 |
     | created | 2025-06-02 16:58:35 |
-    | modified | 2025-12-18 15:38:52 |
+    | modified | 2025-12-22 15:44:35 |
     | id | EAID\_8EE515EA\_11F9\_4f56\_B9AA\_F7B0904B39E7 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -685,8 +683,7 @@ Attributen van objecttype Ontheffing
 | IngangsdatumOntheffing | Date |  |
 | EinddatumOntheffing | Date |  |
 | ResultaatInstrumentbeoordeling | document |  |
-| OntheffenVerplichtingen | Ontheffingsverplichting
- |  |
+| OntheffenVerplichtingen | Ontheffingsverplichting |  |
 | VersieNummerAanvraag | int |  |
 | BijlagenBijAanvraag | Document |  |
 | BijlagenBijOntheffingsbesluit | Document |  |
@@ -711,9 +708,9 @@ Attributen van objecttype Ontheffing
     | uri |  |
     | bron |  |
     | author | Eigenaar |
-    | version | 1.9.0 |
+    | version | 1.11.0 |
     | created | 2025-06-03 11:10:32 |
-    | modified | 2025-12-18 15:38:52 |
+    | modified | 2025-12-22 15:44:35 |
     | id | EAID\_E250F980\_18C3\_4666\_8022\_302ACDC18A56 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -739,8 +736,7 @@ Attributen van objecttype Opleiding
 | Opleidingsrichting | Opleidingsrichting |  |
 | CodeLeerwegMBO | CodeLeerwegMBO |  |
 | AantalJarenOpleiding | int |  |
-| CodeTijdsBeslagOpleiding | Code tijdsbeslag opleiding
- |  |
+| CodeTijdsBeslagOpleiding | Code tijdsbeslag opleiding |  |
 | IndicatieDeeltijdopleiding | Bool |  |
 | ToelichtingBeeindigenOpleiding | string |  |
 | Indicatiebuitenlandseopleiding | bool |  |
@@ -763,9 +759,9 @@ Attributen van objecttype Opleiding
     | uri |  |
     | bron |  |
     | author | Eigenaar |
-    | version | 1.9.0 |
+    | version | 1.11.0 |
     | created | 2025-06-03 11:33:56 |
-    | modified | 2025-12-18 15:38:52 |
+    | modified | 2025-12-22 15:44:35 |
     | id | EAID\_DD9C65D4\_0B47\_4623\_9BE4\_6CE711DB846E |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -799,9 +795,9 @@ Attributen van objecttype Opleidingsnaam
     | uri |  |
     | bron |  |
     | author | Eigenaar |
-    | version | 1.9.0 |
+    | version | 1.11.0 |
     | created | 2025-06-17 17:19:33 |
-    | modified | 2025-12-18 15:38:52 |
+    | modified | 2025-12-22 15:44:35 |
     | id | EAID\_E194EC08\_CD47\_4429\_9598\_FDA0AF9E3C2A |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -838,9 +834,9 @@ Attributen van objecttype OpleidingsnaamGecodeerd
     | uri |  |
     | bron |  |
     | author | Eigenaar |
-    | version | 1.9.0 |
+    | version | 1.11.0 |
     | created | 2025-06-17 17:17:57 |
-    | modified | 2025-12-18 15:38:52 |
+    | modified | 2025-12-22 15:44:35 |
     | id | EAID\_5CA681BF\_8AC1\_4161\_921F\_F5F78C9DB65F |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -874,9 +870,9 @@ Attributen van objecttype OpleidingsnaamOngecodeerd
     | uri |  |
     | bron |  |
     | author | Eigenaar |
-    | version | 1.9.0 |
+    | version | 1.11.0 |
     | created | 2025-06-03 10:44:54 |
-    | modified | 2025-12-18 15:38:52 |
+    | modified | 2025-12-22 15:44:35 |
     | id | EAID\_FBDF2AE8\_AC88\_4288\_9B40\_5B26C450FC20 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -891,8 +887,7 @@ Attributen van objecttype Opleidingsniveau
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| CodeOpleidingsniveauClient | Code opleidingsniveau cliënt
- |  |
+| CodeOpleidingsniveauClient | Code opleidingsniveau cliënt |  |
 
 
 
@@ -911,9 +906,9 @@ Attributen van objecttype Opleidingsniveau
     | uri |  |
     | bron |  |
     | author | Eigenaar |
-    | version | 1.9.0 |
+    | version | 1.11.0 |
     | created | 2025-06-03 14:15:34 |
-    | modified | 2025-12-18 15:38:52 |
+    | modified | 2025-12-22 15:44:35 |
     | id | EAID\_6B1C7773\_77F8\_47a5\_8C4E\_E7E129148ADB |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -958,9 +953,9 @@ Attributen van objecttype Reintegratievoorziening
     | uri |  |
     | bron |  |
     | author | Eigenaar |
-    | version | 1.9.0 |
+    | version | 1.11.0 |
     | created | 2025-06-03 10:48:11 |
-    | modified | 2025-12-18 15:38:52 |
+    | modified | 2025-12-22 15:44:35 |
     | id | EAID\_40C7DD8D\_7F0A\_4019\_860A\_EB59841D1DAF |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -1001,9 +996,9 @@ Attributen van objecttype Rijbewijs /Certificaat
     | uri |  |
     | bron |  |
     | author | Eigenaar |
-    | version | 1.9.0 |
+    | version | 1.11.0 |
     | created | 2025-06-03 12:40:13 |
-    | modified | 2025-12-18 15:38:52 |
+    | modified | 2025-12-22 15:44:35 |
     | id | EAID\_AFB7351F\_6761\_4db2\_ACC4\_537A1B7C0CAA |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -1021,12 +1016,9 @@ Attributen van objecttype Taalbeheersing
 | Taalcode | varchar |  |
 | Taalnaam | string |  |
 | Moedertaal | Bool |  |
-| Leesvaardigheid | Taalvaardigheid
- |  |
-| Schrijfvaardigheid | Taalvaardigheid
- |  |
-| Spreekvaardigheid | Taalvaardigheid
- |  |
+| Leesvaardigheid | Taalvaardigheid |  |
+| Schrijfvaardigheid | Taalvaardigheid |  |
+| Spreekvaardigheid | Taalvaardigheid |  |
 
 
 
@@ -1045,9 +1037,9 @@ Attributen van objecttype Taalbeheersing
     | uri |  |
     | bron |  |
     | author | Eigenaar |
-    | version | 1.9.0 |
+    | version | 1.11.0 |
     | created | 2025-06-03 12:26:59 |
-    | modified | 2025-12-18 15:38:52 |
+    | modified | 2025-12-22 15:44:35 |
     | id | EAID\_14E98618\_2093\_4442\_9593\_1B15890260A8 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -1086,9 +1078,9 @@ Attributen van objecttype TaalbeheersingNederlands
     | uri |  |
     | bron |  |
     | author | Eigenaar |
-    | version | 1.9.0 |
+    | version | 1.11.0 |
     | created | 2025-06-18 18:01:52 |
-    | modified | 2025-12-18 15:38:52 |
+    | modified | 2025-12-22 15:44:35 |
     | id | EAID\_A1912CA8\_11EA\_4d8a\_A5FB\_C5F98F521367 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -1104,8 +1096,7 @@ Attributen van objecttype Vaardigheidsvaststelling
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | datumLaatsteVaststelling | date |  |
-| Indicatie mate van vaardigheid | Taalvaardigheid
- |  |
+| Indicatie mate van vaardigheid | Taalvaardigheid |  |
 
 
 
@@ -1124,9 +1115,9 @@ Attributen van objecttype Vaardigheidsvaststelling
     | uri |  |
     | bron |  |
     | author | Eigenaar |
-    | version | 1.9.0 |
+    | version | 1.11.0 |
     | created | 2025-06-03 13:17:36 |
-    | modified | 2025-12-18 15:38:52 |
+    | modified | 2025-12-22 15:44:35 |
     | id | EAID\_A514BC85\_0096\_4bbc\_B393\_DE1784056420 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -1169,9 +1160,9 @@ Attributen van objecttype Voorkeur
     | uri |  |
     | bron |  |
     | author | Eigenaar |
-    | version | 1.9.0 |
+    | version | 1.11.0 |
     | created | 2025-06-03 13:37:57 |
-    | modified | 2025-12-18 15:38:52 |
+    | modified | 2025-12-22 15:44:35 |
     | id | EAID\_5E0C3ED7\_DCB9\_4fc0\_A11C\_50F079D74EFD |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -1209,9 +1200,9 @@ Attributen van objecttype VrijstellingArbeidsplicht
     | uri |  |
     | bron |  |
     | author | Eigenaar |
-    | version | 1.9.0 |
+    | version | 1.11.0 |
     | created | 2025-06-03 13:29:59 |
-    | modified | 2025-12-18 15:38:52 |
+    | modified | 2025-12-22 15:44:35 |
     | id | EAID\_48CCBBD0\_2327\_4620\_881C\_A39F151BABD6 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -1246,9 +1237,9 @@ Attributen van objecttype Werkervaring
     | uri |  |
     | bron |  |
     | author | Eigenaar |
-    | version | 1.9.0 |
+    | version | 1.11.0 |
     | created | 2025-06-20 10:48:12 |
-    | modified | 2025-12-18 15:38:52 |
+    | modified | 2025-12-22 15:44:35 |
     | id | EAID\_D985F79E\_8616\_4144\_9071\_238FB9240B85 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -1290,9 +1281,9 @@ Attributen van objecttype Werkzaamheden als mantelzorger
     | uri |  |
     | bron |  |
     | author | Eigenaar |
-    | version | 1.9.0 |
+    | version | 1.11.0 |
     | created | 2025-06-20 10:42:35 |
-    | modified | 2025-12-18 15:38:52 |
+    | modified | 2025-12-22 15:44:35 |
     | id | EAID\_F0C047DA\_725B\_486b\_9FF3\_EB60662C1895 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -1307,8 +1298,7 @@ Attributen van objecttype Werkzaamheden anders dan in arbeidsverhouding
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| Code maatschappelijke context | Code maatschappelijke context werkzaamheden anders dan in arbeidsverhouding
- |  |
+| Code maatschappelijke context | Code maatschappelijke context werkzaamheden anders dan in arbeidsverhouding |  |
 | Omschrijving werkzaamheden | string |  |
 | Datum aanvang werkzaamheden | date |  |
 | Datum einde werkzaamheden | date |  |
@@ -1335,9 +1325,9 @@ Attributen van objecttype Werkzaamheden anders dan in arbeidsverhouding
     | uri |  |
     | bron |  |
     | author | Bert van Ark |
-    | version | 1.9.0 |
+    | version | 1.11.0 |
     | created | 2025-03-10 17:45:40 |
-    | modified | 2025-12-18 15:38:52 |
+    | modified | 2025-12-22 15:44:35 |
     | id | EAID\_24A45AF2\_13FF\_491d\_9E3D\_F8D8113F28E1 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -1372,9 +1362,9 @@ Attributen van objecttype Werkzoekende
     | uri |  |
     | bron |  |
     | author | Eigenaar |
-    | version | 1.9.0 |
+    | version | 1.11.0 |
     | created | 2025-06-02 16:50:09 |
-    | modified | 2025-12-18 15:38:52 |
+    | modified | 2025-12-22 15:44:35 |
     | id | EAID\_609AECDB\_CFEA\_4316\_9541\_5239A26CC069 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -1389,8 +1379,7 @@ Attributen van objecttype ZelfredzaamheidScore
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| Domein van Zelfredzaamheid | Domein van zelfredzaamheid
- |  |
+| Domein van Zelfredzaamheid | Domein van zelfredzaamheid |  |
 | ZRM score | score |  |
 | DatumBeoordeling | Date |  |
 | KenmerkBeoordelaar | AN200 |  |
@@ -1406,11 +1395,9 @@ Attributen van objecttype ZelfredzaamheidScore
 
 
 ### Code arbeidsvermogen
-
 Indeling van het arbeidsvermogen van een persoon in functionele categorieën zoals “kan werken”, “kan beperkt werken”, of “is (tijdelijk) niet inzetbaar voor arbeid”.
 
-Het enumeratie Code arbeidsvermogen
- kent de volgende waarden:
+Het enumeratie Code arbeidsvermogen kent de volgende waarden:
 
 * **onder WML**: 
 * **met hulp WML of hoger**: 
@@ -1419,11 +1406,9 @@ Het enumeratie Code arbeidsvermogen
 * **nog niet bekend**: 
 
 
-De enumeratie Code arbeidsvermogen
- heeft de volgende kenmerken:
+De enumeratie Code arbeidsvermogen heeft de volgende kenmerken:
 
-??? info "Kenmerken Model Code arbeidsvermogen
-"
+??? info "Kenmerken Model Code arbeidsvermogen"
 
     | Kenmerk | Waarde |
     | :--- | :------ |
@@ -1433,9 +1418,9 @@ De enumeratie Code arbeidsvermogen
     | uri |  |
     | bron |  |
     | author | Eigenaar |
-    | version | 1.9.0 |
+    | version | 1.11.0 |
     | created | 2025-06-18 11:00:29 |
-    | modified | 2025-12-18 15:38:53 |
+    | modified | 2026-10-28 19:09:51 |
     | id | EAID\_4A764F24\_4D95\_4f8a\_8B94\_D83AD82D8021 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -1448,11 +1433,9 @@ De enumeratie Code arbeidsvermogen
 
 
 ### Code maatschappelijke context werkzaamheden anders dan in arbeidsverhouding
-
 Typologie van werkzaamheden buiten formeel dienstverband, zoals mantelzorg, vrijwilligerswerk of informele zorg.
 
-Het enumeratie Code maatschappelijke context werkzaamheden anders dan in arbeidsverhouding
- kent de volgende waarden:
+Het enumeratie Code maatschappelijke context werkzaamheden anders dan in arbeidsverhouding kent de volgende waarden:
 
 * **Werkzaamheden als zelfstandige**: 
 * **Werkzaamheden als vrijwilliger**: 
@@ -1462,11 +1445,9 @@ Het enumeratie Code maatschappelijke context werkzaamheden anders dan in arbeids
 * **Werkzaamheden in een niet nader gespecificeerde context, niet zijnde een arbeidsverhouding**: 
 
 
-De enumeratie Code maatschappelijke context werkzaamheden anders dan in arbeidsverhouding
- heeft de volgende kenmerken:
+De enumeratie Code maatschappelijke context werkzaamheden anders dan in arbeidsverhouding heeft de volgende kenmerken:
 
-??? info "Kenmerken Model Code maatschappelijke context werkzaamheden anders dan in arbeidsverhouding
-"
+??? info "Kenmerken Model Code maatschappelijke context werkzaamheden anders dan in arbeidsverhouding"
 
     | Kenmerk | Waarde |
     | :--- | :------ |
@@ -1476,9 +1457,9 @@ De enumeratie Code maatschappelijke context werkzaamheden anders dan in arbeidsv
     | uri |  |
     | bron |  |
     | author | Eigenaar |
-    | version | 1.9.0 |
+    | version | 1.11.0 |
     | created | 2025-06-20 10:48:20 |
-    | modified | 2025-12-18 15:38:53 |
+    | modified | 2026-10-28 19:09:51 |
     | id | EAID\_465F4C44\_6311\_45a1\_89ED\_A4BD135DEDEF |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -1491,11 +1472,9 @@ De enumeratie Code maatschappelijke context werkzaamheden anders dan in arbeidsv
 
 
 ### Code opleidingsniveau cliënt
-
 Schatting van het opleidingsniveau van de cliënt, vaak gebaseerd op zelfrapportage. Voorbeelden: vmbo / praktijkonderwijs , mbo-2 , hbo .
 
-Het enumeratie Code opleidingsniveau cliënt
- kent de volgende waarden:
+Het enumeratie Code opleidingsniveau cliënt kent de volgende waarden:
 
 * **Niet van toepassing**: 
 * **Geen basisopleiding**: 
@@ -1507,11 +1486,9 @@ Het enumeratie Code opleidingsniveau cliënt
 * **(Nog) niet bekend**: 
 
 
-De enumeratie Code opleidingsniveau cliënt
- heeft de volgende kenmerken:
+De enumeratie Code opleidingsniveau cliënt heeft de volgende kenmerken:
 
-??? info "Kenmerken Model Code opleidingsniveau cliënt
-"
+??? info "Kenmerken Model Code opleidingsniveau cliënt"
 
     | Kenmerk | Waarde |
     | :--- | :------ |
@@ -1521,9 +1498,9 @@ De enumeratie Code opleidingsniveau cliënt
     | uri |  |
     | bron |  |
     | author | Eigenaar |
-    | version | 1.9.0 |
+    | version | 1.11.0 |
     | created | 2025-06-18 10:09:12 |
-    | modified | 2025-12-18 15:38:53 |
+    | modified | 2026-10-28 19:09:51 |
     | id | EAID\_67EF841C\_7814\_49bc\_84AC\_39EB57C936B3 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -1536,11 +1513,9 @@ De enumeratie Code opleidingsniveau cliënt
 
 
 ### Code tijdsbeslag opleiding
-
 Geeft aan hoeveel tijd een opleiding per week vraagt, zoals voltijd, deeltijd of duaal.
 
-Het enumeratie Code tijdsbeslag opleiding
- kent de volgende waarden:
+Het enumeratie Code tijdsbeslag opleiding kent de volgende waarden:
 
 * **Onbekend**: 
 * **Dagopleiding**: 
@@ -1550,11 +1525,9 @@ Het enumeratie Code tijdsbeslag opleiding
 * **Anders**: 
 
 
-De enumeratie Code tijdsbeslag opleiding
- heeft de volgende kenmerken:
+De enumeratie Code tijdsbeslag opleiding heeft de volgende kenmerken:
 
-??? info "Kenmerken Model Code tijdsbeslag opleiding
-"
+??? info "Kenmerken Model Code tijdsbeslag opleiding"
 
     | Kenmerk | Waarde |
     | :--- | :------ |
@@ -1564,9 +1537,9 @@ De enumeratie Code tijdsbeslag opleiding
     | uri |  |
     | bron |  |
     | author | Eigenaar |
-    | version | 1.9.0 |
+    | version | 1.11.0 |
     | created | 2025-06-17 16:33:16 |
-    | modified | 2025-12-18 15:38:53 |
+    | modified | 2026-10-28 19:09:51 |
     | id | EAID\_5B31FFA6\_B0C4\_4d12\_8753\_6E4028F1FD81 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -1602,9 +1575,9 @@ De enumeratie CodeLeerwegMBO heeft de volgende kenmerken:
     | uri |  |
     | bron |  |
     | author | Eigenaar |
-    | version | 1.9.0 |
+    | version | 1.11.0 |
     | created | 2025-06-17 16:22:50 |
-    | modified | 2025-12-18 15:38:53 |
+    | modified | 2025-12-22 15:44:49 |
     | id | EAID\_8342F88A\_D42A\_4820\_B65E\_181F1466CE2F |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -1641,9 +1614,9 @@ De enumeratie CodeNiveauOpleiding heeft de volgende kenmerken:
     | uri |  |
     | bron |  |
     | author | Eigenaar |
-    | version | 1.9.0 |
+    | version | 1.11.0 |
     | created | 2025-06-17 16:01:14 |
-    | modified | 2025-12-18 15:38:53 |
+    | modified | 2025-12-22 15:44:49 |
     | id | EAID\_EF820B1A\_DCDA\_4a11\_9953\_2BF164FFFF8B |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -1676,9 +1649,9 @@ De enumeratie CodeOpleidingsnaam heeft de volgende kenmerken:
     | uri |  |
     | bron |  |
     | author | Eigenaar |
-    | version | 1.9.0 |
+    | version | 1.11.0 |
     | created | 2025-06-17 17:24:43 |
-    | modified | 2025-12-18 15:38:53 |
+    | modified | 2025-12-22 15:44:49 |
     | id | EAID\_8BC797B1\_8F85\_4da4\_866C\_AAAD4C469D02 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -1709,9 +1682,9 @@ De enumeratie CodeSoortOpleidingsnaam heeft de volgende kenmerken:
     | uri |  |
     | bron |  |
     | author | Eigenaar |
-    | version | 1.9.0 |
+    | version | 1.11.0 |
     | created | 2025-06-17 17:27:33 |
-    | modified | 2025-12-18 15:38:53 |
+    | modified | 2025-12-22 15:44:49 |
     | id | EAID\_67A98336\_8C7B\_48b1\_B75B\_B37EE52CA8C9 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -1746,9 +1719,9 @@ De enumeratie CodeStatusOpleiding heeft de volgende kenmerken:
     | uri |  |
     | bron |  |
     | author | Eigenaar |
-    | version | 1.9.0 |
+    | version | 1.11.0 |
     | created | 2025-06-17 15:56:22 |
-    | modified | 2025-12-18 15:38:53 |
+    | modified | 2025-12-22 15:44:49 |
     | id | EAID\_4278AD00\_AF48\_4af8\_B06E\_E63021FAA8CB |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -1786,9 +1759,9 @@ De enumeratie Dag beschikbaarheid heeft de volgende kenmerken:
     | uri |  |
     | bron |  |
     | author | Eigenaar |
-    | version | 1.9.0 |
+    | version | 1.11.0 |
     | created | 2025-06-20 10:07:50 |
-    | modified | 2025-12-18 15:38:53 |
+    | modified | 2025-12-22 15:44:49 |
     | id | EAID\_A091CC76\_7576\_45ac\_B5D7\_4D5C2D40BFD6 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -1801,11 +1774,9 @@ De enumeratie Dag beschikbaarheid heeft de volgende kenmerken:
 
 
 ### Domein van zelfredzaamheid
-
 Levensgebied waarop zelfredzaamheid wordt beoordeeld. Voorbeelden: Financiën , Psychische gezondheid , Dagbesteding .
 
-Het enumeratie Domein van zelfredzaamheid
- kent de volgende waarden:
+Het enumeratie Domein van zelfredzaamheid kent de volgende waarden:
 
 * **Basale ADL (Activiteiten Dagelijks Leven)**: 
 * **Financiën**: 
@@ -1822,11 +1793,9 @@ Het enumeratie Domein van zelfredzaamheid
 * **Werk & Opleiding**: 
 
 
-De enumeratie Domein van zelfredzaamheid
- heeft de volgende kenmerken:
+De enumeratie Domein van zelfredzaamheid heeft de volgende kenmerken:
 
-??? info "Kenmerken Model Domein van zelfredzaamheid
-"
+??? info "Kenmerken Model Domein van zelfredzaamheid"
 
     | Kenmerk | Waarde |
     | :--- | :------ |
@@ -1836,9 +1805,9 @@ De enumeratie Domein van zelfredzaamheid
     | uri |  |
     | bron |  |
     | author | Eigenaar |
-    | version | 1.9.0 |
+    | version | 1.11.0 |
     | created | 2025-06-18 12:00:34 |
-    | modified | 2025-12-18 15:38:53 |
+    | modified | 2026-10-28 19:09:51 |
     | id | EAID\_6BACDBD1\_1236\_4f4b\_B5F6\_B6DA30B79D10 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -1872,9 +1841,9 @@ De enumeratie Hulp aanwezig heeft de volgende kenmerken:
     | uri |  |
     | bron |  |
     | author | Eigenaar |
-    | version | 1.9.0 |
+    | version | 1.11.0 |
     | created | 2025-06-18 12:14:47 |
-    | modified | 2025-12-18 15:38:53 |
+    | modified | 2025-12-22 15:44:49 |
     | id | EAID\_00A0566C\_D23C\_4139\_9CA7\_73ACFC055821 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -1887,22 +1856,18 @@ De enumeratie Hulp aanwezig heeft de volgende kenmerken:
 
 
 ### Indicatie doelgroepenregister
-
 Geeft aan of iemand valt onder het doelgroepregister voor de banenafspraak. Voorbeelden: Wajong , Participatiewet .
 
-Het enumeratie Indicatie doelgroepenregister
- kent de volgende waarden:
+Het enumeratie Indicatie doelgroepenregister kent de volgende waarden:
 
 * **Ja**: 
 * **Nee**: 
 * **Vermoedelijk**: 
 
 
-De enumeratie Indicatie doelgroepenregister
- heeft de volgende kenmerken:
+De enumeratie Indicatie doelgroepenregister heeft de volgende kenmerken:
 
-??? info "Kenmerken Model Indicatie doelgroepenregister
-"
+??? info "Kenmerken Model Indicatie doelgroepenregister"
 
     | Kenmerk | Waarde |
     | :--- | :------ |
@@ -1912,9 +1877,9 @@ De enumeratie Indicatie doelgroepenregister
     | uri |  |
     | bron |  |
     | author | Eigenaar |
-    | version | 1.9.0 |
+    | version | 1.11.0 |
     | created | 2025-06-18 11:45:16 |
-    | modified | 2025-12-18 15:38:53 |
+    | modified | 2026-10-28 19:09:51 |
     | id | EAID\_9356C95E\_1B27\_42c8\_8CC5\_6CD45E070CF5 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -1927,11 +1892,9 @@ De enumeratie Indicatie doelgroepenregister
 
 
 ### Indicatie mate van vaardigheid
-
 Schatting van het vaardigheidsniveau op een bepaald gebied. Voorbeelden: voldoende , goed .
 
-Het enumeratie Indicatie mate van vaardigheid
- kent de volgende waarden:
+Het enumeratie Indicatie mate van vaardigheid kent de volgende waarden:
 
 * **Goed**: 
 * **Voldoende**: 
@@ -1941,11 +1904,9 @@ Het enumeratie Indicatie mate van vaardigheid
 * **Niet van toepassing**: 
 
 
-De enumeratie Indicatie mate van vaardigheid
- heeft de volgende kenmerken:
+De enumeratie Indicatie mate van vaardigheid heeft de volgende kenmerken:
 
-??? info "Kenmerken Model Indicatie mate van vaardigheid
-"
+??? info "Kenmerken Model Indicatie mate van vaardigheid"
 
     | Kenmerk | Waarde |
     | :--- | :------ |
@@ -1955,9 +1916,9 @@ De enumeratie Indicatie mate van vaardigheid
     | uri |  |
     | bron |  |
     | author | Eigenaar |
-    | version | 1.9.0 |
+    | version | 1.11.0 |
     | created | 2025-06-18 18:04:09 |
-    | modified | 2025-12-18 15:38:53 |
+    | modified | 2026-10-28 19:09:51 |
     | id | EAID\_EF6B492C\_3C43\_4558\_BEFC\_30685FEBCDE3 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -1970,11 +1931,9 @@ De enumeratie Indicatie mate van vaardigheid
 
 
 ### Interval opzegtermijn
-
 De geldende opzegtermijn bij een arbeidsverhouding. Voorbeelden: 1 maand , 2 weken .
 
-Het enumeratie Interval opzegtermijn
- kent de volgende waarden:
+Het enumeratie Interval opzegtermijn kent de volgende waarden:
 
 * **Dag**: 
 * **Maand**: 
@@ -1982,11 +1941,9 @@ Het enumeratie Interval opzegtermijn
 * **Week**: 
 
 
-De enumeratie Interval opzegtermijn
- heeft de volgende kenmerken:
+De enumeratie Interval opzegtermijn heeft de volgende kenmerken:
 
-??? info "Kenmerken Model Interval opzegtermijn
-"
+??? info "Kenmerken Model Interval opzegtermijn"
 
     | Kenmerk | Waarde |
     | :--- | :------ |
@@ -1996,9 +1953,9 @@ De enumeratie Interval opzegtermijn
     | uri |  |
     | bron |  |
     | author | Eigenaar |
-    | version | 1.9.0 |
+    | version | 1.11.0 |
     | created | 2025-06-20 10:17:40 |
-    | modified | 2025-12-18 15:38:53 |
+    | modified | 2026-10-28 19:09:51 |
     | id | EAID\_8E6192D2\_DD00\_4322\_9970\_FB81F3177B43 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -2011,11 +1968,9 @@ De enumeratie Interval opzegtermijn
 
 
 ### Kanaal contactmoment
-
 Het gebruikte communicatiekanaal bij een contactmoment. Voorbeelden: telefoon , email , huisbezoek .
 
-Het enumeratie Kanaal contactmoment
- kent de volgende waarden:
+Het enumeratie Kanaal contactmoment kent de volgende waarden:
 
 * **Berichten via THOMAS**: 
 * **Fysiek gesprek**: 
@@ -2024,11 +1979,9 @@ Het enumeratie Kanaal contactmoment
 * **Telefonisch gesprek**: 
 
 
-De enumeratie Kanaal contactmoment
- heeft de volgende kenmerken:
+De enumeratie Kanaal contactmoment heeft de volgende kenmerken:
 
-??? info "Kenmerken Model Kanaal contactmoment
-"
+??? info "Kenmerken Model Kanaal contactmoment"
 
     | Kenmerk | Waarde |
     | :--- | :------ |
@@ -2038,9 +1991,9 @@ De enumeratie Kanaal contactmoment
     | uri |  |
     | bron |  |
     | author | Eigenaar |
-    | version | 1.9.0 |
+    | version | 1.11.0 |
     | created | 2025-06-18 18:29:12 |
-    | modified | 2025-12-18 15:38:53 |
+    | modified | 2026-10-28 19:09:51 |
     | id | EAID\_362B3FC2\_A412\_450f\_AF4D\_CF3A4B149060 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -2053,22 +2006,18 @@ De enumeratie Kanaal contactmoment
 
 
 ### Ontheffingsverplichting
-
 Geeft aan of een persoon verplicht is tot arbeidsparticipatie. Voorbeelden: geen ontheffing , medische gronden .
 
-Het enumeratie Ontheffingsverplichting
- kent de volgende waarden:
+Het enumeratie Ontheffingsverplichting kent de volgende waarden:
 
 * **A,**: 
 * **A,C,**: 
 * **A,B,C**: 
 
 
-De enumeratie Ontheffingsverplichting
- heeft de volgende kenmerken:
+De enumeratie Ontheffingsverplichting heeft de volgende kenmerken:
 
-??? info "Kenmerken Model Ontheffingsverplichting
-"
+??? info "Kenmerken Model Ontheffingsverplichting"
 
     | Kenmerk | Waarde |
     | :--- | :------ |
@@ -2078,9 +2027,9 @@ De enumeratie Ontheffingsverplichting
     | uri |  |
     | bron |  |
     | author | Eigenaar |
-    | version | 1.9.0 |
+    | version | 1.11.0 |
     | created | 2025-06-18 15:37:32 |
-    | modified | 2025-12-18 15:38:53 |
+    | modified | 2026-10-28 19:09:51 |
     | id | EAID\_4198974E\_B813\_4707\_9C29\_2AAAAF86F9DA |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -2118,9 +2067,9 @@ De enumeratie Opleidingsrichting heeft de volgende kenmerken:
     | uri |  |
     | bron |  |
     | author | Eigenaar |
-    | version | 1.9.0 |
+    | version | 1.11.0 |
     | created | 2025-06-17 16:14:18 |
-    | modified | 2025-12-18 15:38:53 |
+    | modified | 2025-12-22 15:44:49 |
     | id | EAID\_39A87FE7\_2240\_4193\_A5CC\_3A23AA13357B |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -2177,9 +2126,9 @@ De enumeratie SETU job category heeft de volgende kenmerken:
     | uri |  |
     | bron |  |
     | author | Eigenaar |
-    | version | 1.9.0 |
+    | version | 1.11.0 |
     | created | 2025-06-17 10:38:06 |
-    | modified | 2025-12-18 15:38:53 |
+    | modified | 2025-12-22 15:44:49 |
     | id | EAID\_065C201E\_2825\_4f32\_B085\_E84BBC205199 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -2192,22 +2141,18 @@ De enumeratie SETU job category heeft de volgende kenmerken:
 
 
 ### Soort ontheffing
-
 Het type ontheffing van arbeidsplicht. Voorbeelden: structureel , tijdelijk .
 
-Het enumeratie Soort ontheffing
- kent de volgende waarden:
+Het enumeratie Soort ontheffing kent de volgende waarden:
 
 * **Ouder met kind<5**: 
 * **Sociaal/medisch permanent,**: 
 * **Sociaal/medisch tijdelijk,**: 
 
 
-De enumeratie Soort ontheffing
- heeft de volgende kenmerken:
+De enumeratie Soort ontheffing heeft de volgende kenmerken:
 
-??? info "Kenmerken Model Soort ontheffing
-"
+??? info "Kenmerken Model Soort ontheffing"
 
     | Kenmerk | Waarde |
     | :--- | :------ |
@@ -2217,9 +2162,9 @@ De enumeratie Soort ontheffing
     | uri |  |
     | bron |  |
     | author | Eigenaar |
-    | version | 1.9.0 |
+    | version | 1.11.0 |
     | created | 2025-06-18 15:30:49 |
-    | modified | 2025-12-18 15:38:53 |
+    | modified | 2026-10-28 19:09:51 |
     | id | EAID\_EEB18D04\_9D40\_4b51\_8AF9\_F1B1E104F649 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -2255,9 +2200,9 @@ De enumeratie SoortWerk heeft de volgende kenmerken:
     | uri |  |
     | bron |  |
     | author | Eigenaar |
-    | version | 1.9.0 |
+    | version | 1.11.0 |
     | created | 2025-06-17 14:26:12 |
-    | modified | 2025-12-18 15:38:53 |
+    | modified | 2025-12-22 15:44:49 |
     | id | EAID\_C04B989A\_CDB8\_48e0\_9285\_9227EB073E39 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -2270,11 +2215,9 @@ De enumeratie SoortWerk heeft de volgende kenmerken:
 
 
 ### Taalvaardigheid
-
 Beheersingsniveau van de Nederlandse taal.
 
-Het enumeratie Taalvaardigheid
- kent de volgende waarden:
+Het enumeratie Taalvaardigheid kent de volgende waarden:
 
 * **arm**: 
 * **middelmatig**: 
@@ -2283,11 +2226,9 @@ Het enumeratie Taalvaardigheid
 * **uitstekend**: 
 
 
-De enumeratie Taalvaardigheid
- heeft de volgende kenmerken:
+De enumeratie Taalvaardigheid heeft de volgende kenmerken:
 
-??? info "Kenmerken Model Taalvaardigheid
-"
+??? info "Kenmerken Model Taalvaardigheid"
 
     | Kenmerk | Waarde |
     | :--- | :------ |
@@ -2297,9 +2238,9 @@ De enumeratie Taalvaardigheid
     | uri |  |
     | bron |  |
     | author | Eigenaar |
-    | version | 1.9.0 |
+    | version | 1.11.0 |
     | created | 2025-06-18 10:25:07 |
-    | modified | 2025-12-18 15:38:53 |
+    | modified | 2026-10-28 19:09:51 |
     | id | EAID\_1667C22C\_75BD\_4181\_9BA0\_27D5A8EDE1B5 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -2340,9 +2281,9 @@ De enumeratie Vervoermiddel heeft de volgende kenmerken:
     | uri |  |
     | bron |  |
     | author | Eigenaar |
-    | version | 1.9.0 |
+    | version | 1.11.0 |
     | created | 2025-06-17 14:31:17 |
-    | modified | 2025-12-18 15:38:53 |
+    | modified | 2025-12-22 15:44:49 |
     | id | EAID\_CA2AC9CB\_D807\_42a5\_AAEC\_FB096C23392B |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -2355,11 +2296,9 @@ De enumeratie Vervoermiddel heeft de volgende kenmerken:
 
 
 ### Vervoersmogelijkheden
-
 Mate waarin iemand zich kan verplaatsen naar werk of activiteiten.
 
-Het enumeratie Vervoersmogelijkheden
- kent de volgende waarden:
+Het enumeratie Vervoersmogelijkheden kent de volgende waarden:
 
 * **Openbaar vervoer**: 
 * **Openbaar vervoer (week-ov)**: 
@@ -2373,11 +2312,9 @@ Het enumeratie Vervoersmogelijkheden
 * **Anders**: 
 
 
-De enumeratie Vervoersmogelijkheden
- heeft de volgende kenmerken:
+De enumeratie Vervoersmogelijkheden heeft de volgende kenmerken:
 
-??? info "Kenmerken Model Vervoersmogelijkheden
-"
+??? info "Kenmerken Model Vervoersmogelijkheden"
 
     | Kenmerk | Waarde |
     | :--- | :------ |
@@ -2387,9 +2324,9 @@ De enumeratie Vervoersmogelijkheden
     | uri |  |
     | bron |  |
     | author | Eigenaar |
-    | version | 1.9.0 |
+    | version | 1.11.0 |
     | created | 2025-06-20 10:25:00 |
-    | modified | 2025-12-18 15:38:53 |
+    | modified | 2026-10-28 19:09:51 |
     | id | EAID\_4E17ABC6\_7138\_4f97\_B2F0\_22095642A089 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -2402,11 +2339,9 @@ De enumeratie Vervoersmogelijkheden
 
 
 ### ZRM-score
-
 Zelfredzaamheidsscore op een domein volgens de ZRM. Voorbeelden: onvoldoende , voldoende , volledig zelfredzaam .
 
-Het enumeratie ZRM-score
- kent de volgende waarden:
+Het enumeratie ZRM-score kent de volgende waarden:
 
 * **Acute problematiek**: 
 * **Niet zelfredzaam**: 
@@ -2415,11 +2350,9 @@ Het enumeratie ZRM-score
 * **Volledig zelfredzaam**: 
 
 
-De enumeratie ZRM-score
- heeft de volgende kenmerken:
+De enumeratie ZRM-score heeft de volgende kenmerken:
 
-??? info "Kenmerken Model ZRM-score
-"
+??? info "Kenmerken Model ZRM-score"
 
     | Kenmerk | Waarde |
     | :--- | :------ |
@@ -2429,9 +2362,9 @@ De enumeratie ZRM-score
     | uri |  |
     | bron |  |
     | author | Eigenaar |
-    | version | 1.9.0 |
+    | version | 1.11.0 |
     | created | 2025-06-18 11:54:02 |
-    | modified | 2025-12-18 15:38:53 |
+    | modified | 2026-10-28 19:09:51 |
     | id | EAID\_DA737608\_8BA7\_40db\_ACD0\_00F90B8084C0 |
     | domein_iv3 |  |
     | domein_dcat |  |

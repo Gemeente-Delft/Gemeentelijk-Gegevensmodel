@@ -16,7 +16,7 @@
     | author | Arjen Brienen |
     | version | 1.0 |
     | created | 2018-05-15 10:31:22 |
-    | modified | 2018-05-15 10:31:22 |
+    | modified | 2025-12-22 15:27:00 |
     | id | EAPK\_6E9CB375\_FA92\_4e08\_A811\_527A3AAAA7D0 |
     
 
@@ -45,7 +45,7 @@ Het model 'Model' kent de volgende objecttypen:
     | author | Arjen Brienen |
     | version | 1.12.0 |
     | created | 2018-05-15 10:31:56 |
-    | modified | 2025-12-18 15:38:51 |
+    | modified | 2025-12-22 15:27:00 |
     | id | EAID\_137DECB4\_F249\_4039\_B4F3\_787852C4CB11 |
     | domein_iv3 |  |
     | domein_dcat |  |

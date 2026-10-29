@@ -62,27 +62,6 @@
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/> ;
     rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gemeente> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gemeente/nieuwe-gemeente> a mim:Relatiesoort,
-        owl:ObjectProperty ;
-    rdfs:label "nieuwe gemeente"@nl ;
-    mim:aggregatietype mim:Geen ;
-    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gemeente> ;
-    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gemeente> ;
-    mim:heeftTijdlijnGeldigheid false ;
-    mim:heeftTijdlijnRegistratie false ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gemeente/nieuwe-gemeente"^^xsd:anyURI ;
-    mim:indicatieAfleidbaar false ;
-    mim:indicatieFormeleHistorie false ;
-    mim:indicatieMaterieleHistorie false ;
-    mim:kardinaliteit "0..*" ;
-    mim:mogelijkGeenWaarde true ;
-    mim:naam "nieuwe gemeente"@nl ;
-    mim:unidirectioneel true ;
-    dcterms:identifier "EAID_dst776B18_BA57_4a96_94B7_564C96D364E5" ;
-    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gemeente> ;
-    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/> ;
-    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gemeente> .
-
 <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/wijk/ligt-in> a mim:Relatiesoort,
         owl:ObjectProperty ;
     rdfs:label "Ligt in"@nl ;

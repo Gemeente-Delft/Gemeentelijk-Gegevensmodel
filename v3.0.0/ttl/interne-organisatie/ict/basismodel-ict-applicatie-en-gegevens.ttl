@@ -183,27 +183,6 @@
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/> ;
     rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/generalisatie> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/objecttype/supertype> a mim:Relatiesoort,
-        owl:ObjectProperty ;
-    rdfs:label "supertype"@nl ;
-    mim:aggregatietype mim:Geen ;
-    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/objecttype> ;
-    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/generalisatie> ;
-    mim:heeftTijdlijnGeldigheid false ;
-    mim:heeftTijdlijnRegistratie false ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/objecttype/supertype"^^xsd:anyURI ;
-    mim:indicatieAfleidbaar false ;
-    mim:indicatieFormeleHistorie false ;
-    mim:indicatieMaterieleHistorie false ;
-    mim:kardinaliteit "0..1" ;
-    mim:mogelijkGeenWaarde true ;
-    mim:naam "supertype"@nl ;
-    mim:unidirectioneel true ;
-    dcterms:identifier "EAID_dstFC4F07_C62A_411b_9887_DFC4A31ABF95" ;
-    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/objecttype> ;
-    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/> ;
-    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/generalisatie> .
-
 <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/relatiesoort/gerelateerdobjecttype> a mim:Relatiesoort,
         owl:ObjectProperty ;
     rdfs:label "gerelateerdObjecttype"@nl ;
@@ -2067,32 +2046,6 @@ Alle relaties zijn altijd gericht van het objecttype (source) naar het gerelatee
     rdfs:comment "Een applicatiecomponent die gericht is op het ondersteunen van eindgebruikers."@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/datatype> a mim:Objecttype,
-        owl:Class ;
-    rdfs:label "Datatype"@nl ;
-    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/datatype/datumopname>,
-        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/datatype/definitie>,
-        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/datatype/domein>,
-        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/datatype/ea-guid>,
-        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/datatype/herkomst>,
-        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/datatype/id>,
-        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/datatype/kardinaliteit>,
-        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/datatype/lengte>,
-        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/datatype/naam>,
-        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/datatype/patroon>,
-        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/datatype/toelichting> ;
-    mim:definitie """Attribuutsoort – Stereotype «Attribuutsoort»: De UML-representatie van een attribuutsoort, uitgedrukt in een stereotype van UML-Property3 (metaclass).
-Er zijn verschillende modelelementen die gebaseerd zijn op UML-property, zoals aangegeven in §2.1.2. Wanneer een UML-property in het informatiemodel de betekenis heeft van een attribuut van een objecttype, dan heeft deze het stereotype «Attribuutsoort».
-Een attribuutsoort is een type van gelijksoortige attributen of gegevens. Daartoe kijken we eerst naar het begrip ‘gegeven’."""@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/datatype"^^xsd:anyURI ;
-    mim:indicatieAbstractObject false ;
-    mim:naam "Datatype"@nl ;
-    dcterms:identifier "EAID_7EFBF1CA_EC6E_4b8a_B97F_453CA32AB9A5" ;
-    rdfs:comment """Attribuutsoort – Stereotype «Attribuutsoort»: De UML-representatie van een attribuutsoort, uitgedrukt in een stereotype van UML-Property3 (metaclass).
-Er zijn verschillende modelelementen die gebaseerd zijn op UML-property, zoals aangegeven in §2.1.2. Wanneer een UML-property in het informatiemodel de betekenis heeft van een attribuut van een objecttype, dan heeft deze het stereotype «Attribuutsoort».
-Een attribuutsoort is een type van gelijksoortige attributen of gegevens. Daartoe kijken we eerst naar het begrip ‘gegeven’."""@nl ;
-    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/> .
-
 <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/generalisatie> a mim:Objecttype,
         owl:Class ;
     rdfs:label "Generalisatie"@nl ;
@@ -2118,6 +2071,32 @@ Voorbeeld: PERCEEL is specialisatie van KADASTRAAL ONROERENDE ZAAK, APPARTEMENTS
 Toelichting
 Een generalisatierelatie geeft aan dat bepaalde eigenschappen van een objecttype (vaak attribuutsoorten en/of relatiesoorten) ook gelden voor de gerelateerde objecttypen, én dat deze qua semantiek, structuur en syntax gelijk zijn. We spreken dan van een supertype met subtypen. De modelelementen die generiek gelden worden in een generiek objecttype, het supertype, gemodelleerd en deze worden overerft door elk subtype (minimaal twee) die de generalisatie relatie legt naar dit generieke objecttype.
 Voorbeeld: PERCEEL is specialisatie van KADASTRAAL ONROERENDE ZAAK, APPARTEMENTSRECHT is specialisatie van KADASTRAAL ONROERENDE ZAAK. PERCEEL en APPARTEMENTSRECHT hebben beide ‘Kadastrale aanduiding’ en een ‘relatie met ONROERENDE ZAAK FILIATIE’."""@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/datatype> a mim:Objecttype,
+        owl:Class ;
+    rdfs:label "Datatype"@nl ;
+    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/datatype/datumopname>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/datatype/definitie>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/datatype/domein>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/datatype/ea-guid>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/datatype/herkomst>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/datatype/id>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/datatype/kardinaliteit>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/datatype/lengte>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/datatype/naam>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/datatype/patroon>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/datatype/toelichting> ;
+    mim:definitie """Attribuutsoort – Stereotype «Attribuutsoort»: De UML-representatie van een attribuutsoort, uitgedrukt in een stereotype van UML-Property3 (metaclass).
+Er zijn verschillende modelelementen die gebaseerd zijn op UML-property, zoals aangegeven in §2.1.2. Wanneer een UML-property in het informatiemodel de betekenis heeft van een attribuut van een objecttype, dan heeft deze het stereotype «Attribuutsoort».
+Een attribuutsoort is een type van gelijksoortige attributen of gegevens. Daartoe kijken we eerst naar het begrip ‘gegeven’."""@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/datatype"^^xsd:anyURI ;
+    mim:indicatieAbstractObject false ;
+    mim:naam "Datatype"@nl ;
+    dcterms:identifier "EAID_7EFBF1CA_EC6E_4b8a_B97F_453CA32AB9A5" ;
+    rdfs:comment """Attribuutsoort – Stereotype «Attribuutsoort»: De UML-representatie van een attribuutsoort, uitgedrukt in een stereotype van UML-Property3 (metaclass).
+Er zijn verschillende modelelementen die gebaseerd zijn op UML-property, zoals aangegeven in §2.1.2. Wanneer een UML-property in het informatiemodel de betekenis heeft van een attribuut van een objecttype, dan heeft deze het stereotype «Attribuutsoort».
+Een attribuutsoort is een type van gelijksoortige attributen of gegevens. Daartoe kijken we eerst naar het begrip ‘gegeven’."""@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/gegeven> a mim:Objecttype,

@@ -16,7 +16,7 @@
     | author | mante\_h |
     | version | 1.4.0 |
     | created | 2010-10-19 17:21:37 |
-    | modified | 2025-12-18 15:38:53 |
+    | modified | 2025-12-22 15:27:01 |
     | id | EAPK\_2EDFFA95\_0A05\_4292\_84C5\_2A912A6B6718 |
     
 
@@ -71,7 +71,7 @@ Het model 'Model Kern RGBZ' kent de volgende objecttypen:
     | author | Ashkan Ashkpour |
     | version | 1.14.0 |
     | created | 2023-05-15 13:27:23 |
-    | modified | 2025-12-18 15:38:51 |
+    | modified | 2025-12-22 15:27:00 |
     | id | EAID\_EDB5D3CD\_CE4D\_4317\_81C6\_C01CC7325148 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -111,7 +111,7 @@ Attributen van objecttype Bedrijfsproces
     | author | Ashkan Ashkpour |
     | version | 1.12.0 |
     | created | 2023-05-15 13:29:43 |
-    | modified | 2025-12-18 15:38:51 |
+    | modified | 2025-12-22 15:27:00 |
     | id | EAID\_14E4AF23\_21E9\_412a\_B78D\_C208EE9F419D |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -147,7 +147,7 @@ Attributen van objecttype Bedrijfsprocestype
     | author | mante\_h |
     | version | 1.12.0 |
     | created | 2010-08-19 09:41:46 |
-    | modified | 2025-12-18 15:38:50 |
+    | modified | 2025-12-22 15:27:00 |
     | id | EAID\_AFB100D2\_8C68\_4488\_8949\_13E945D15920 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -172,9 +172,6 @@ Attributen van objecttype Besluit
 | datumVerzending | Datum | Datum waarop het besluit verzonden is. |
 | datumUiterlijkeReactie | Datum | De datum tot wanneer verweer tegen het besluit mogelijk is. |
 | omschrijving | AN200 |  |
-| document | Document |  |
-| zaak | Zaak |  |
-| type | Besluittype |  |
 
 
 
@@ -195,7 +192,7 @@ Attributen van objecttype Besluit
     | author | mante\_h |
     | version | 1.12.0 |
     | created | 2010-08-19 10:01:32 |
-    | modified | 2025-12-18 15:38:51 |
+    | modified | 2025-12-22 15:27:00 |
     | id | EAID\_922D3938\_A0EA\_42bf\_9EFC\_23A6A236AF9B |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -239,7 +236,7 @@ Attributen van objecttype Besluittype
     | author | Arjen Brienen |
     | version | 1.14.0 |
     | created | 2018-04-23 11:51:28 |
-    | modified | 2025-12-18 15:38:51 |
+    | modified | 2025-12-22 15:27:00 |
     | id | EAID\_FC488929\_8721\_402f\_A073\_1DFDB76A816E |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -278,7 +275,7 @@ Attributen van objecttype Betaling
     | author | mante\_h |
     | version | 1.12.0 |
     | created | 2010-08-19 10:58:19 |
-    | modified | 2025-12-18 15:38:51 |
+    | modified | 2025-12-22 15:27:00 |
     | id | EAID\_16FB8171\_A9ED\_4027\_A663\_C035509501C8 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -297,11 +294,6 @@ Attributen van objecttype Betrokkene
 | identificatie | AN50 | De unieke identificatie van de BETROKKENE |
 | adresBinnenland | BinnenlandsAdres | De aanduiding van het adres van de BETROKKENE indien dit adres in Nederland gelegen is. |
 | adresBuitenland | AN200 | De aanduiding van het adres waar specialisaties van de BETROKKENE zijnde een (NIET) NATUURLIJK PERSOON of VESTIGING dan wel een specialisatie daarvan, verblijft dan wel bereikbaar is in het buitenland. |
-| rol | Zaak |  |
-| betrokkene | NatuurlijkPersoon |  |
-| organisatorische eenheid | OrganisatorischeEenheid |  |
-| vestiging | NietNatuurlijkPersoon |  |
-| medewerker | Medewerker |  |
 
 
 
@@ -322,7 +314,7 @@ Attributen van objecttype Betrokkene
     | author | Ashkan Ashkpour |
     | version | 1.12.0 |
     | created | 2023-05-15 13:30:05 |
-    | modified | 2025-12-18 15:38:50 |
+    | modified | 2025-12-22 15:27:00 |
     | id | EAID\_1B65D674\_DC17\_40e8\_B663\_85DA82FD7E94 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -359,7 +351,7 @@ Attributen van objecttype Deelproces
     | author | Ashkan Ashkpour |
     | version | 1.12.0 |
     | created | 2023-05-15 13:30:19 |
-    | modified | 2025-12-18 15:38:51 |
+    | modified | 2025-12-22 15:27:00 |
     | id | EAID\_710A1D2B\_3C7B\_41cf\_A947\_727186C40A98 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -393,9 +385,9 @@ Attributen van objecttype Deelprocestype
     | uri |  |
     | bron |  |
     | author | mante\_h |
-    | version | 1.11.0 |
+    | version | 1.13.0 |
     | created | 2010-08-19 12:15:35 |
-    | modified | 2025-12-18 15:38:51 |
+    | modified | 2025-12-22 15:44:36 |
     | id | EAID\_5641C50A\_C0FA\_4e71\_B07B\_26C7B1CE94ED |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -418,7 +410,6 @@ Attributen van objecttype Document
 | datumVerzendingDocument | Datum | De datum waarop het DOCUMENT verzonden is. |
 | vertrouwelijkAanduiding | AN20 | Aanduiding van de mate waarin het DOCUMENT voor de openbaarheid bestemd is. |
 | documentAuteur | AN200 | De persoon of organisatie die in de eerste plaats verantwoordelijk is voor het creëren van de inhoud van het document. |
-| type | Documenttype |  |
 
 
 
@@ -439,7 +430,7 @@ Attributen van objecttype Document
     | author | mante\_h |
     | version | 1.12.0 |
     | created | 2010-08-19 11:30:39 |
-    | modified | 2025-12-18 15:38:50 |
+    | modified | 2025-12-22 15:27:00 |
     | id | EAID\_77C7D6B6\_44DE\_44c0\_A662\_8E1A0A226EA8 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -480,7 +471,7 @@ Attributen van objecttype Documenttype
     | author | mante\_h |
     | version | 1.12.0 |
     | created | 2010-08-19 11:32:47 |
-    | modified | 2025-12-18 15:38:50 |
+    | modified | 2025-12-22 15:27:00 |
     | id | EAID\_547FD48D\_F885\_4816\_BCFA\_4048995C8D83 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -522,7 +513,7 @@ Attributen van objecttype EnkelvoudigDocument
     | author | Arjen Brienen |
     | version | 1.14.0 |
     | created | 2019-04-17 13:44:30 |
-    | modified | 2025-12-18 15:38:50 |
+    | modified | 2025-12-22 15:27:00 |
     | id | EAID\_B3371695\_97AD\_49d2\_9AF1\_15591B422007 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -564,7 +555,7 @@ Attributen van objecttype Heffing
     | author | Arjen Brienen |
     | version | 1.12.0 |
     | created | 2018-07-02 10:30:07 |
-    | modified | 2025-12-18 15:38:51 |
+    | modified | 2025-12-22 15:27:01 |
     | id | EAID\_D73AFAEC\_3BF1\_4309\_93FE\_5354EF26DA51 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -600,9 +591,9 @@ Attributen van objecttype Identificatiekenmerk
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.12.0 |
+    | version | 1.14.0 |
     | created | 2018-04-25 14:49:05 |
-    | modified | 2025-12-18 15:38:51 |
+    | modified | 2025-12-22 15:44:36 |
     | id | EAID\_A3DAD553\_0E55\_4256\_824B\_CDB5E12CB545 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -644,7 +635,7 @@ Attributen van objecttype Klantcontact
     | author | mante\_h |
     | version | 1.12.0 |
     | created | 2010-08-19 11:35:05 |
-    | modified | 2025-12-18 15:38:50 |
+    | modified | 2025-12-22 15:27:01 |
     | id | EAID\_16EB3936\_03CB\_4854\_9CD8\_9F0911EEA51B |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -670,10 +661,8 @@ Attributen van objecttype Medewerker
 | telefoonnummer | AN20 | Telefoonnummer waaronder de medewerker in de regel bereikbaar is. |
 | voorletters | AN20 | De verzameling letters die gevormd wordt door de eerste letter van alle in volgorde voorkomende voornamen. |
 | voorvoegselAchternaam | AN10 | Dat deel van de geslachtsnaam dat voorkomt in Tabel 36 (GBA), voorvoegseltabel, en door een spatie van de geslachtsnaam is<br>gescheiden. |
-| extern |  | Medewerker is een externe? |
+| extern | CharacterString | Medewerker is een externe? |
 | datumInDienst | Date |  |
-| organisatorische eenheid | OrganisatorischeEenheid |  |
-| organisatorische eenheid | OrganisatorischeEenheid |  |
 
 
 
@@ -694,7 +683,7 @@ Attributen van objecttype Medewerker
     | author | mante\_h |
     | version | 1.12.0 |
     | created | 2010-08-19 11:37:35 |
-    | modified | 2025-12-18 15:38:51 |
+    | modified | 2025-12-22 15:27:01 |
     | id | EAID\_91F9D39E\_0322\_42c6\_AE7F\_5027B36F3EC3 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -718,9 +707,7 @@ Attributen van objecttype Object
 | geometrie | Point | De minimaal tweedimensionale geometrische representatie van het OBJECT. |
 | toelichting | Tekst |  |
 | domein | AN200 | Het toepassingsgebied of de sector DOMEIN waarbinnen handhaving op het object plaatsvindt |
-| indicatieRisico |  | Indicatie van de risico's van (de uitvoering van activiteiten in) het handhavingsobject op gevolgen voor het handhavingsobject zelf, de daarin aanwezige personen, de omgeving van het handhavingsobject en/of de samenleving. |
-| huishouden | Huishouden |  |
-| besluit | Besluit |  |
+| indicatieRisico | Boolean | Indicatie van de risico's van (de uitvoering van activiteiten in) het handhavingsobject op gevolgen voor het handhavingsobject zelf, de daarin aanwezige personen, de omgeving van het handhavingsobject en/of de samenleving. |
 
 
 
@@ -741,7 +728,7 @@ Attributen van objecttype Object
     | author | Arjen Brienen |
     | version | 1.12.0 |
     | created | 2019-11-26 15:21:20 |
-    | modified | 2025-12-18 15:38:50 |
+    | modified | 2025-12-22 15:27:01 |
     | id | EAID\_B259BE5F\_AC3A\_4e0f\_A149\_D1F165277CC2 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -776,7 +763,7 @@ Attributen van objecttype Offerte
     | author | mante\_h |
     | version | 1.12.0 |
     | created | 2010-08-19 13:30:16 |
-    | modified | 2025-12-18 15:38:51 |
+    | modified | 2025-12-22 15:27:01 |
     | id | EAID\_936A4E8B\_3E5A\_44b6\_8A5D\_EFB39F83FB6D |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -802,8 +789,6 @@ Attributen van objecttype OrganisatorischeEenheid
 | telefoonnummer | AN20 | Telefoonnummer waaronder de organisatorische eenheid in de regel bereikbaar is. |
 | toelichting | AN1000 | Toelichting bij de organisatorische eenheid. |
 | Formatie | AN255 |  |
-| vestiging | VestigingVanZaakbehandelendeOrganisatie |  |
-| zaaktype | Zaaktype |  |
 
 
 
@@ -824,7 +809,7 @@ Attributen van objecttype OrganisatorischeEenheid
     | author | mante\_h |
     | version | 1.12.0 |
     | created | 2010-08-19 13:42:59 |
-    | modified | 2025-12-18 15:38:50 |
+    | modified | 2025-12-22 15:27:01 |
     | id | EAID\_47DA1FC8\_F181\_41bc\_B16A\_CE80D2CA13B1 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -839,7 +824,6 @@ Attributen van objecttype SamengesteldDocument
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
-| document | EnkelvoudigDocument |  |
 
 
 
@@ -860,7 +844,7 @@ Attributen van objecttype SamengesteldDocument
     | author | mante\_h |
     | version | 1.12.0 |
     | created | 2010-08-19 13:44:49 |
-    | modified | 2025-12-18 15:38:50 |
+    | modified | 2025-12-22 15:27:01 |
     | id | EAID\_7C975D37\_670B\_405e\_B825\_924BCAFA74C7 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -878,7 +862,6 @@ Attributen van objecttype Status
 | datumStatusGezet | Datum | De datum waarop de zaak de status heeft verkregen. |
 | statustoelichting | AN1000 | Een, voor de initiator van de zaak relevante, toelichting op de status van een zaak. |
 | indicatieIaatstGezetteStatus | AN1 | Aanduding of het de laatst bekende bereikte status betreft. |
-| type | Statustype |  |
 
 
 
@@ -899,7 +882,7 @@ Attributen van objecttype Status
     | author | mante\_h |
     | version | 1.12.0 |
     | created | 2010-08-19 13:47:35 |
-    | modified | 2025-12-18 15:38:51 |
+    | modified | 2025-12-22 15:27:01 |
     | id | EAID\_AA496B7B\_913C\_40fd\_943E\_52F1A6E89440 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -940,7 +923,7 @@ Attributen van objecttype Statustype
     | author | mante\_h |
     | version | 1.12.0 |
     | created | 2010-08-19 11:03:44 |
-    | modified | 2025-12-18 15:38:51 |
+    | modified | 2025-12-22 15:27:01 |
     | id | EAID\_D8142B98\_64CB\_408e\_9941\_92423543F08A |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -975,7 +958,7 @@ Attributen van objecttype VestigingVanZaakbehandelendeOrganisatie
     | author | mante\_h |
     | version | 1.12.0 |
     | created | 2010-08-19 13:48:52 |
-    | modified | 2025-12-18 15:38:50 |
+    | modified | 2025-12-22 15:27:01 |
     | id | EAID\_649EFD86\_ED52\_4293\_8577\_DBE5445845BF |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -1000,7 +983,7 @@ Attributen van objecttype Zaak
 | toelichting | AN1000 | Een toelichting op de zaak. |
 | datumEindeUiterlijkeAfdoening | Datum | De laatste datum waarop volgens wet- en regelgeving de zaak afgerond dient te zijn. |
 | zaakniveau | N1 | Het niveau van een ZAAK in de hierarchie van hoofdzaak met deelzaken. |
-| indicatieDeelzaken |  | De aanduiding of een ZAAK behandeld wordt in deelzaken. |
+| indicatieDeelzaken | Boolean | De aanduiding of een ZAAK behandeld wordt in deelzaken. |
 | datumRegistratie | Datum | De datum waarop de zaakbehandelende organisatie de ZAAK heeft geregistreerd |
 | datumPublicatie | datum | Datum waarop (het starten van) de zaak gepubliceerd is of wordt. |
 | archiefnominatie | AN1 | Indicatie of het zaakdossier (de ZAAK met alle bijbehorende DOCUMENTen) gearchiveerd dient te worden |
@@ -1013,9 +996,6 @@ Attributen van objecttype Zaak
 | redenVerlenging | AN200 |  |
 | vertrouwelijkheid | AN40 |  |
 | leges | AN100 |  |
-| type | Zaaktype |  |
-| document | Document |  |
-| status | Status |  |
 
 
 
@@ -1036,7 +1016,7 @@ Attributen van objecttype Zaak
     | author | mante\_h |
     | version | 1.12.0 |
     | created | 2018-05-28 13:18:59 |
-    | modified | 2025-12-18 15:38:50 |
+    | modified | 2025-12-22 15:27:01 |
     | id | EAID\_766265DF\_56DD\_4560\_A55C\_FF82E3B9751A |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -1062,7 +1042,7 @@ Attributen van objecttype ZAAK - Origineel
 | toelichting | AN1000 | Een toelichting op de zaak. |
 | datumEindeUiterlijkeAfdoening | Datum | De laatste datum waarop volgens wet- en regelgeving de zaak afgerond dient te zijn. |
 | zaakniveau | N1 | Het niveau van een ZAAK in de hierarchie van hoofdzaak met deelzaken. |
-| indicatieDeelzaken |  | De aanduiding of een ZAAK behandeld wordt in deelzaken. |
+| indicatieDeelzaken | Boolean | De aanduiding of een ZAAK behandeld wordt in deelzaken. |
 | datumRegistratie | Datum | De datum waarop de zaakbehandelende organisatie de ZAAK heeft geregistreerd |
 | datumPublicatie | datum | Datum waarop (het starten van) de zaak gepubliceerd is of wordt. |
 | archiefnominatie | AN1 | Indicatie of het zaakdossier (de ZAAK met alle bijbehorende DOCUMENTen) gearchiveerd dient te worden |
@@ -1092,7 +1072,7 @@ Attributen van objecttype ZAAK - Origineel
     | author | mante\_h |
     | version | 1.12.0 |
     | created | 2010-08-19 13:54:55 |
-    | modified | 2025-12-18 15:38:51 |
+    | modified | 2025-12-22 15:27:01 |
     | id | EAID\_7210A379\_17EE\_4143\_A106\_ECD9414B2A0D |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -1119,7 +1099,6 @@ Attributen van objecttype Zaaktype
 | publicatietekst | AN1000 | De generieke tekst van de publicatie van ZAAKen van dit ZAAKTYPE |
 | datumBeginGeldigheidZaaktype | OnvolledigeDatum | De datum waarop het ZAAKTYPE is ontstaan. |
 | datumEindeGeldigheidZaaktype | OnvolledigeDatum | De datum waarop het ZAAKTYPE is opgeheven. |
-| statustype | Statustype |  |
 
 
 
@@ -1154,81 +1133,8 @@ De enumeratie Boolean heeft de volgende kenmerken:
     | author |  |
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:35 |
-    | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_3d4b89b1\_e558\_42ef\_b68e\_42feac68a4a5 |
-    | domein_iv3 |  |
-    | domein_dcat |  |
-    | gemma_naam |  |
-    | gemma_type |  |
-    | gemma_url |  |
-    | gemma_definitie |  |
-    | gemma_toelichting |  |
-    
-
-
-### Heffingsoort
-Geen Definitie
-
-Het enumeratie Heffingsoort kent de volgende waarden:
-
-* **leges**: 
-* **precario**: 
-
-
-De enumeratie Heffingsoort heeft de volgende kenmerken:
-
-??? info "Kenmerken Model Heffingsoort"
-
-    | Kenmerk | Waarde |
-    | :--- | :------ |
-    | name | Heffingsoort |
-    | toelichting |  |
-    | synoniemen |  |
-    | uri |  |
-    | bron |  |
-    | author | Arjen Brienen |
-    | version | 1.9.0 |
-    | created | 2019-05-08 13:48:43 |
-    | modified | 2025-12-18 15:38:52 |
-    | id | EAID\_ed8ed255\_a090\_4b9a\_8037\_6b1ca6608cac |
-    | domein_iv3 |  |
-    | domein_dcat |  |
-    | gemma_naam |  |
-    | gemma_type |  |
-    | gemma_url |  |
-    | gemma_definitie |  |
-    | gemma_toelichting |  |
-    
-
-
-### Soorten Klantcontact
-Geen Definitie
-
-Het enumeratie Soorten Klantcontact kent de volgende waarden:
-
-* **internet**: 
-* **balie**: 
-* **selfserviceloket**: 
-* **telefonisch**: 
-* **brief**: 
-
-
-De enumeratie Soorten Klantcontact heeft de volgende kenmerken:
-
-??? info "Kenmerken Model Soorten Klantcontact"
-
-    | Kenmerk | Waarde |
-    | :--- | :------ |
-    | name | Soorten Klantcontact |
-    | toelichting |  |
-    | synoniemen |  |
-    | uri |  |
-    | bron |  |
-    | author |  |
-    | version | 1.11.0 |
-    | created | 2025-03-26 11:13:26 |
-    | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_68b7009b\_57fa\_4324\_a57e\_56e0cc5328bb |
+    | modified | 2025-12-22 15:27:04 |
+    | id | EAID\_dfe96699\_ed22\_48ee\_b348\_9bb829d06a19 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |

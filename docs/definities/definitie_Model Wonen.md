@@ -16,7 +16,7 @@
     | author | Ashkan Ashkpour |
     | version | 1.1.0 |
     | created | 2023-10-12 14:56:19 |
-    | modified | 2025-12-18 15:38:53 |
+    | modified | 2025-12-22 15:26:57 |
     | id | EAPK\_9E5E0DB8\_40DE\_4857\_9EE5\_E0E43999EECE |
     
 
@@ -51,7 +51,7 @@ Het model 'Model Wonen' kent de volgende objecttypen:
     | author | Arjen Brienen |
     | version | 1.12.0 |
     | created | 2018-11-13 15:42:45 |
-    | modified | 2025-12-18 15:38:51 |
+    | modified | 2025-12-22 15:26:56 |
     | id | EAID\_681DB26F\_D779\_4796\_B467\_576E5A25F581 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -95,7 +95,7 @@ Attributen van objecttype Gebouw
     | author | Arjen Brienen |
     | version | 1.12.0 |
     | created | 2018-11-13 15:38:20 |
-    | modified | 2025-12-18 15:38:51 |
+    | modified | 2025-12-22 15:26:56 |
     | id | EAID\_E0F7D3A0\_46C8\_4e70\_AA10\_3888B60D14C0 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -131,7 +131,7 @@ Attributen van objecttype Huurwoningen
     | author | Arjen Brienen |
     | version | 1.12.0 |
     | created | 2018-11-13 15:38:08 |
-    | modified | 2025-12-18 15:38:51 |
+    | modified | 2025-12-22 15:26:56 |
     | id | EAID\_7FECB5B2\_E6CB\_4637\_9FD4\_6EBA2CA96BBA |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -167,7 +167,7 @@ Attributen van objecttype Koopwoningen
     | author | Arjen Brienen |
     | version | 1.12.0 |
     | created | 2018-11-13 15:37:15 |
-    | modified | 2025-12-18 15:38:51 |
+    | modified | 2025-12-22 15:26:56 |
     | id | EAID\_D857E285\_1EA3\_4ba3\_9614\_5FACAC8BA133 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -216,7 +216,7 @@ Attributen van objecttype Plan
     | author | Arjen Brienen |
     | version | 1.12.0 |
     | created | 2018-11-13 16:05:41 |
-    | modified | 2025-12-18 15:38:51 |
+    | modified | 2025-12-22 15:26:57 |
     | id | EAID\_888BBB4F\_BEBA\_4b9a\_BB2E\_0E1F2A3606DF |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -252,7 +252,7 @@ Attributen van objecttype Projectleider
     | author | Arjen Brienen |
     | version | 1.12.0 |
     | created | 2018-11-13 15:37:40 |
-    | modified | 2025-12-18 15:38:51 |
+    | modified | 2025-12-22 15:26:57 |
     | id | EAID\_6BBB2AE0\_6F42\_4676\_8C6C\_E727032F5F47 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -289,7 +289,7 @@ Attributen van objecttype Projectontwikkelaar
     | author | Arjen Brienen |
     | version | 1.11.0 |
     | created | 2018-11-13 15:38:41 |
-    | modified | 2025-12-18 15:38:51 |
+    | modified | 2025-12-22 15:26:57 |
     | id | EAID\_98C74EAB\_3411\_4d1a\_8321\_FF30567B6877 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -342,8 +342,8 @@ De enumeratie Energielabel heeft de volgende kenmerken:
     | author |  |
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:10 |
-    | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_bc5e6581\_80da\_43b4\_a9eb\_99bf30ad57c3 |
+    | modified | 2025-12-22 15:26:56 |
+    | id | EAID\_41d2c1c9\_04d2\_4d14\_b572\_6c65ed6934e0 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -382,8 +382,8 @@ De enumeratie Oppervlakte Woning heeft de volgende kenmerken:
     | author |  |
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:10 |
-    | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_254fd6d5\_37aa\_4e61\_9055\_413a3f38af04 |
+    | modified | 2025-12-22 15:26:56 |
+    | id | EAID\_ee6dc8c1\_00c1\_4b26\_a4f0\_a5d4b75b9289 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |

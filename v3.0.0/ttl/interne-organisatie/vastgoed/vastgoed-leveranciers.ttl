@@ -548,10 +548,10 @@
     mim:code "1" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/boolean/ja"^^xsd:anyURI ;
     mim:naam "Ja"@nl ;
-    dcterms:identifier "EAID_1e2533ea_5cdc_4378_99ae_9b676fcb68f0",
-        "EAID_3812e7b4_0b8e_46e0_a1f5_1d07729244a8",
-        "EAID_605acd50_f645_4951_8f20_97d561cc4301",
-        "EAID_f2e9e12e_fdcd_4368_9ed5_5f633bcd5838" ;
+    dcterms:identifier "EAID_2edf67f1_a9f7_4fa9_ba32_9f22b9b22c33",
+        "EAID_c440a797_38cd_4d40_b5a8_9d6eefff07d8",
+        "EAID_da619701_ea24_49b6_bf94_30330dbb4c4a",
+        "EAID_e6d0927f_4400_4262_abfc_4dfe8745d85e" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/boolean> ;
     skos:notation "1" ;
     skos:prefLabel "Ja"@nl ;
@@ -564,10 +564,10 @@
     mim:code "-2" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/boolean/leeg"^^xsd:anyURI ;
     mim:naam "Leeg"@nl ;
-    dcterms:identifier "EAID_06198395_f764_40ac_97fe_221e9fcfe93f",
-        "EAID_09290977_09fa_4c49_ad03_7c2ff6f52b8c",
-        "EAID_70aaba0f_6cb2_41fb_83d8_562ec1081b7e",
-        "EAID_cf99590a_d95a_48d2_a723_aa1d3f8d9564" ;
+    dcterms:identifier "EAID_3ec951e6_03b5_4ed2_8dbb_7d097ad15765",
+        "EAID_81f2c578_d84c_48dc_be1f_473d1cea4a98",
+        "EAID_95be1101_f96c_4821_b421_b234919b5712",
+        "EAID_a47673b1_4111_49b1_8620_825829bedab7" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/boolean> ;
     skos:notation "-2" ;
     skos:prefLabel "Leeg"@nl ;
@@ -580,10 +580,10 @@
     mim:code "0" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/boolean/nee"^^xsd:anyURI ;
     mim:naam "Nee"@nl ;
-    dcterms:identifier "EAID_021f3d67_7e6e_419c_8029_ab396b6dc30d",
-        "EAID_42fc6ff9_5801_4338_bb63_023a8b6ffd9b",
-        "EAID_6f1b3d89_2ce2_4890_bc67_5e14b8d355fe",
-        "EAID_fb49fc2d_6c7e_4aa9_943f_20f267544ce1" ;
+    dcterms:identifier "EAID_06377fac_8f35_4961_a06a_fc4c11d4029e",
+        "EAID_32492623_78bb_429a_bda9_89ffe8bf6b13",
+        "EAID_d532a054_3984_4266_ab06_e046df4ba4da",
+        "EAID_e3afb2aa_eee8_426e_99ed_2d78bfb423e9" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/boolean> ;
     skos:notation "0" ;
     skos:prefLabel "Nee"@nl ;
@@ -596,10 +596,10 @@
     mim:code "-1" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/boolean/onbekend"^^xsd:anyURI ;
     mim:naam "Onbekend"@nl ;
-    dcterms:identifier "EAID_09aab797_27be_4fe1_b403_e90217293efd",
-        "EAID_3190ca13_f9ac_46a3_ae80_bb9fc38d4c28",
-        "EAID_851ed503_54f8_458a_94fd_1d462671939e",
-        "EAID_bfe0145b_d9b7_47fa_a759_c8a0d2988a95" ;
+    dcterms:identifier "EAID_02161544_4175_45db_964c_f79a945a73df",
+        "EAID_55128365_5a6f_4615_96c6_74fec5fd2c0f",
+        "EAID_7cdad51c_9604_4a2b_9fa1_6d79408cf5d8",
+        "EAID_862e37be_66d3_4e2d_8353_9b8973873def" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/boolean> ;
     skos:notation "-1" ;
     skos:prefLabel "Onbekend"@nl ;
@@ -2485,10 +2485,10 @@
         <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/boolean/leeg>,
         <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/boolean/nee>,
         <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/boolean/onbekend> ;
-    dcterms:identifier "EAID_1f9f1e5f_f5c5_45d6_babc_6c058bd7704b",
-        "EAID_3a3b3230_9bb2_4646_9170_143960b68821",
-        "EAID_496c5444_b415_4d8e_97e4_fda92e669450",
-        "EAID_d1992801_6cff_4c1e_b017_83f21b76c0ef" ;
+    dcterms:identifier "EAID_21e81a4e_3dbf_4f5a_a1a3_99dc82557c72",
+        "EAID_49ac016a_d51a_4b87_836e_c7f60406d1ca",
+        "EAID_a7573847_0f13_4131_b1ee_36c5c061d701",
+        "EAID_d7bf9e07_3a16_4752_a2d9_cbccaa5627be" ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/> ;
     rdfs:subClassOf skos:Concept .
 

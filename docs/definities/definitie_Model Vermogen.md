@@ -16,7 +16,7 @@
     | author | janbr |
     | version | 1.2.0 |
     | created | 2024-06-27 21:51:28 |
-    | modified | 2025-12-18 15:38:53 |
+    | modified | 2025-12-22 15:26:51 |
     | id | EAPK\_267CE4D0\_488B\_88CF\_BF22\_3741D472C108 |
     
 
@@ -50,7 +50,7 @@ Het model 'Model Vermogen' kent de volgende objecttypen:
     | author | janbr |
     | version | 1.11.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-12-16 10:28:34 |
+    | modified | 2025-12-22 15:26:51 |
     | id | EAID\_03EFE25A\_4FE5\_1447\_088D\_262C4A161776 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -93,7 +93,7 @@ Attributen van objecttype Bankrekening
     | author | janbr |
     | version | 1.11.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-12-16 10:28:34 |
+    | modified | 2025-12-22 15:26:51 |
     | id | EAID\_ea276d3a\_268a\_4fd6\_b14e\_65ebe5b00fd1 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -129,7 +129,7 @@ Attributen van objecttype Hypotheek
     | author | janbr |
     | version | 1.11.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-12-16 10:28:34 |
+    | modified | 2025-12-22 15:26:51 |
     | id | EAID\_22B75B20\_9449\_DC93\_CF41\_2775EC76C492 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -166,7 +166,7 @@ Attributen van objecttype Motorvoertuig
     | author | janbr |
     | version | 1.11.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-12-16 10:28:34 |
+    | modified | 2025-12-22 15:26:51 |
     | id | EAID\_bed1faca\_3a71\_4ca5\_b9f7\_85f766a1c118 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -200,9 +200,9 @@ Attributen van objecttype Onroerend goed
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.10.0 |
+    | version | 1.12.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-12-18 15:38:52 |
+    | modified | 2025-12-22 15:44:35 |
     | id | EAID\_08000E15\_8AA2\_AE9A\_89F0\_262C7C061238 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -240,9 +240,9 @@ Attributen van objecttype Vermogenscomponent
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.10.0 |
+    | version | 1.12.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-12-18 15:38:52 |
+    | modified | 2025-12-22 15:44:35 |
     | id | EAID\_1C1EF3EA\_888E\_945B\_4A20\_27DB5B434D4C |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -299,10 +299,10 @@ De enumeratie CdSrtVoertuig heeft de volgende kenmerken:
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.0 |
+    | version | 1.2.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-12-20 18:36:00 |
-    | id | EAID\_35ae6700\_532a\_4fa9\_896c\_7d6e32887ae6 |
+    | modified | 2025-12-22 15:44:49 |
+    | id | EAID\_a112b84f\_1845\_4983\_9ad4\_09f44847018f |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -353,10 +353,10 @@ De enumeratie CdSrtVermogenscomponent heeft de volgende kenmerken:
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.0 |
+    | version | 1.2.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-12-20 18:35:54 |
-    | id | EAID\_f8017fe1\_9da8\_4a35\_9f88\_b964780040dc |
+    | modified | 2025-12-22 15:44:49 |
+    | id | EAID\_12f80591\_0066\_44b0\_9c71\_c7e2e1310810 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -392,10 +392,10 @@ De enumeratie CdSrtWaardeVermogenscomponent heeft de volgende kenmerken:
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.0 |
+    | version | 1.2.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-12-20 18:36:06 |
-    | id | EAID\_d20b7c72\_2132\_4e4d\_b905\_2f5eafbcf339 |
+    | modified | 2025-12-22 15:44:49 |
+    | id | EAID\_d7ef464f\_f615\_49eb\_91b7\_be62c33736cd |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |

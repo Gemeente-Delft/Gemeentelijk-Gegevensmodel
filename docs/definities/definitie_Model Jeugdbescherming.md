@@ -16,7 +16,7 @@
     | author | Arjen Brienen |
     | version | 1.2 |
     | created | 2024-04-22 15:35:55 |
-    | modified | 2025-03-27 15:28:35 |
+    | modified | 2025-12-22 15:26:50 |
     | id | EAPK\_A5CFE1A5\_DE7F\_431a\_B809\_749E6D268B1F |
     
 
@@ -48,7 +48,7 @@ Het model 'Model Jeugdbescherming' kent de volgende objecttypen:
     | author | Arjen Brienen |
     | version | 1.8.0 |
     | created | 2024-04-22 14:43:24 |
-    | modified | 2025-12-16 10:28:34 |
+    | modified | 2025-12-22 15:26:50 |
     | id | EAID\_ACC7A392\_9A16\_42a8\_A58E\_1E8E6826B2D0 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -87,7 +87,7 @@ Attributen van objecttype Informering
     | author | Arjen Brienen |
     | version | 1.10.0 |
     | created | 2024-04-22 14:32:30 |
-    | modified | 2025-12-16 10:28:34 |
+    | modified | 2025-12-22 15:26:50 |
     | id | EAID\_B061E420\_187A\_49dd\_B8DA\_2AF3FC5D860F |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -103,7 +103,7 @@ Attributen van objecttype Leefgebied
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | toelichting | Text |  |
-| leefgebiedOmschrijving | enum_Leefgebied |  |
+| leefgebiedOmschrijving | EnumLeefgebied |  |
 
 
 
@@ -124,7 +124,7 @@ Attributen van objecttype Leefgebied
     | author | Arjen Brienen |
     | version | 1.10.0 |
     | created | 2024-04-11 14:09:56 |
-    | modified | 2025-12-16 10:28:34 |
+    | modified | 2025-12-22 15:26:50 |
     | id | EAID\_AEF1825F\_C554\_4490\_975D\_93AEA24991A9 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -161,7 +161,7 @@ Attributen van objecttype Zorgelijke Situatie
     | author | Arjen Brienen |
     | version | 1.10.0 |
     | created | 2024-04-11 13:48:55 |
-    | modified | 2025-12-16 10:28:34 |
+    | modified | 2025-12-22 15:26:50 |
     | id | EAID\_B852AF03\_A5E0\_4148\_AFC1\_108509FF8BBD |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -178,7 +178,7 @@ Attributen van objecttype Zorgmelding
 | :--- | :--- | :--- |
 | zorgmeldingsoort | int |  |
 | terugkoppelingGewenst | boolean |  |
-| verzoek | enum_Verzoeksoort |  |
+| verzoek | EnumVerzoeksoort |  |
 | omschrijving | Text |  |
 | nadereOmschrijving | Text |  |
 
@@ -211,7 +211,7 @@ De enumeratie Enum Sociale Groep heeft de volgende kenmerken:
     | author |  |
     | version | 1.10.0 |
     | created | 2025-03-26 11:12:50 |
-    | modified | 2025-12-16 10:28:45 |
+    | modified | 2025-12-22 15:26:50 |
     | id | EAID\_B0D22469\_0013\_4e43\_BACF\_4A55A35A8696 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -244,7 +244,7 @@ De enumeratie Enum Sociale Relatie heeft de volgende kenmerken:
     | author |  |
     | version | 1.10.0 |
     | created | 2025-03-26 11:12:50 |
-    | modified | 2025-12-16 10:28:45 |
+    | modified | 2025-12-22 15:26:50 |
     | id | EAID\_7BFE745C\_388E\_4b4f\_A420\_1F59372F8CD6 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -256,20 +256,20 @@ De enumeratie Enum Sociale Relatie heeft de volgende kenmerken:
     
 
 
-### enum_Incidenttype
+### EnumIncidenttype
 Geen Definitie
 
-Het enumeratie enum_Incidenttype kent de volgende waarden:
+Het enumeratie EnumIncidenttype kent de volgende waarden:
 
 
 
-De enumeratie enum_Incidenttype heeft de volgende kenmerken:
+De enumeratie EnumIncidenttype heeft de volgende kenmerken:
 
-??? info "Kenmerken Model enum_Incidenttype"
+??? info "Kenmerken Model EnumIncidenttype"
 
     | Kenmerk | Waarde |
     | :--- | :------ |
-    | name | enum\_Incidenttype |
+    | name | EnumIncidenttype |
     | toelichting |  |
     | synoniemen |  |
     | uri |  |
@@ -277,7 +277,7 @@ De enumeratie enum_Incidenttype heeft de volgende kenmerken:
     | author |  |
     | version | 1.10.0 |
     | created | 2025-03-26 11:12:50 |
-    | modified | 2025-12-16 10:28:45 |
+    | modified | 2026-10-28 19:09:51 |
     | id | EAID\_2296EC14\_B00D\_4836\_B553\_1CB1F48CFDB2 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -289,20 +289,20 @@ De enumeratie enum_Incidenttype heeft de volgende kenmerken:
     
 
 
-### enum_Leefgebied
+### EnumLeefgebied
 Geen Definitie
 
-Het enumeratie enum_Leefgebied kent de volgende waarden:
+Het enumeratie EnumLeefgebied kent de volgende waarden:
 
 
 
-De enumeratie enum_Leefgebied heeft de volgende kenmerken:
+De enumeratie EnumLeefgebied heeft de volgende kenmerken:
 
-??? info "Kenmerken Model enum_Leefgebied"
+??? info "Kenmerken Model EnumLeefgebied"
 
     | Kenmerk | Waarde |
     | :--- | :------ |
-    | name | enum\_Leefgebied |
+    | name | EnumLeefgebied |
     | toelichting |  |
     | synoniemen |  |
     | uri |  |
@@ -310,7 +310,7 @@ De enumeratie enum_Leefgebied heeft de volgende kenmerken:
     | author |  |
     | version | 1.10.0 |
     | created | 2025-03-26 11:12:50 |
-    | modified | 2025-12-16 10:28:45 |
+    | modified | 2026-10-28 19:09:51 |
     | id | EAID\_78D6A864\_04BD\_4d3f\_BB6A\_CC9840566D19 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -322,20 +322,20 @@ De enumeratie enum_Leefgebied heeft de volgende kenmerken:
     
 
 
-### enum_Verzoeksoort
+### EnumVerzoeksoort
 Geen Definitie
 
-Het enumeratie enum_Verzoeksoort kent de volgende waarden:
+Het enumeratie EnumVerzoeksoort kent de volgende waarden:
 
 
 
-De enumeratie enum_Verzoeksoort heeft de volgende kenmerken:
+De enumeratie EnumVerzoeksoort heeft de volgende kenmerken:
 
-??? info "Kenmerken Model enum_Verzoeksoort"
+??? info "Kenmerken Model EnumVerzoeksoort"
 
     | Kenmerk | Waarde |
     | :--- | :------ |
-    | name | enum\_Verzoeksoort |
+    | name | EnumVerzoeksoort |
     | toelichting |  |
     | synoniemen |  |
     | uri |  |
@@ -343,7 +343,7 @@ De enumeratie enum_Verzoeksoort heeft de volgende kenmerken:
     | author |  |
     | version | 1.10.0 |
     | created | 2025-03-26 11:12:50 |
-    | modified | 2025-12-16 10:28:45 |
+    | modified | 2026-10-28 19:09:51 |
     | id | EAID\_3D8D8ED8\_A382\_4ffb\_8608\_4846CFF95E28 |
     | domein_iv3 |  |
     | domein_dcat |  |

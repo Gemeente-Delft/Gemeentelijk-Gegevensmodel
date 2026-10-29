@@ -16,20 +16,20 @@
     | author | Arjen Brienen |
     | version | 1.8.0 |
     | created | 2025-03-27 11:31:16 |
-    | modified | 2025-12-18 15:38:53 |
+    | modified | 2025-12-22 15:26:49 |
     | id | EAPK\_7A13550B\_AC75\_4783\_BD16\_A9ED6E86172A |
     
 
 Het model 'Model Inkomen' kent de volgende objecttypen:
 
-* **Component**: Een *inkomenscomponent* is een afzonderlijk onderdeel of bron van inkomen, zoals loon, winst uit onderneming, uitkeringen of andere inkomensbronnen, die samen het totale inkomen van een persoon of huishouden vormen.
+* **Component**: Een Component is een afzonderlijk onderdeel waaruit een uitkering is opgebouwd. Dit omvat zowel de posten die de samenstelling van de uitkering bepalen (zoals basisnorm, toeslagen en inhoudingen) als de automatisch berekende tussen- en eindresultaten die voortkomen uit een uitkeringsrun.
 * **ComponentSoort**: *ComponentSoort* is de classificatie of het type van een inkomenscomponent binnen een inkomen- of financiële administratie, waarmee wordt bepaald welke categorie of soort een specifieke component behoort.
-* **Huisvestingsoort**: Als de dienst een uitkering betreft die periodiek wordt uitgekeerd, kan om redenen de betaling worden geblokkeerd. Reden toevoeging: Geeft de reden van blokkering van de uitkering aan. Als de dienst een uitkering betreft, die periodiek wordt uitgekeerd, kan om redenen de betaling worden geblokkeerd. De betalingsblokkade wordt opgenomen bij de dienst, die wordt genoten door de client en partner van de client. Nodig voor diepere analyse van stand van uitkeringen. Hoeveel uitkleringen hebben we geblokkeerd op dit moment omdat we de uitkering gaan beindigen.
-* **Inkomensvoorziening**: Een regeling die zorg draag voor een inkomen confom de landelijke wetgeving
+* **Huisvestingsoort**: De typering van de huisvestingssituatie van een cliënt, zoals zelfstandig wonend, inwonend of verblijvend in een instelling. De huisvestingssituatie kan van invloed zijn op de hoogte en samenstelling van de inkomensvoorziening.
+* **Inkomensvoorziening**: Een voorziening die voorziet in inkomen conform landelijke wetgeving, zoals bijstand, bijzondere bijstand, IOAW of IOAZ. Een inkomensvoorziening is opgebouwd uit componenten en gekoppeld aan een cliënt via een regeling.
 * **Inkomensvoorzieningsoort**: Typering van een inkomensvoorziening
-* **RedenBlokkering**: Als de dienst een uitkering betreft die periodiek wordt uitgekeerd, kan om redenen de betaling worden geblokkeerd. Reden toevoeging: Geeft de reden van blokkering van de uitkering aan. Als de dienst een uitkering betreft, die periodiek wordt uitgekeerd, kan om redenen de betaling worden geblokkeerd. De betalingsblokkade wordt opgenomen bij de dienst, die wordt genoten door de client en partner van de client. Nodig voor diepere analyse van stand van uitkeringen. Hoeveel uitkleringen hebben we geblokkeerd op dit moment omdat we de uitkering gaan beindigen.
-* **RedenInstroom**: De reden waarom de persoon de uitkering heeft gekregen. Geeft de reden van aanvraag van uitkering weer. Nodig voor diepere analyse van stand van uitkeringen. Omdat we willen weten waarom mensen nstromen. Bv geen werk meer og geen andere uitkering, verhuizing.
-* **RedenUitstroom**: De reden waarom de uitkering aan een persoon is beeindgd. Reden toevoeging: Geeft de reden van uitstroom aan. Waarom is de uitkering beëindigd. Nodig voor diepere analyse van stand. Meet of je beleid of het lukt om mensen naar werk te laten stromen. van uitkeringen.
+* **RedenBlokkering**: De reden waarom de periodieke betaling van een uitkering is geblokkeerd. Een betalingsblokkade wordt geregistreerd bij de inkomensvoorziening van de cliënt en diens eventuele partner. Voorbeelden zijn blokkering in afwachting van beëindiging of hangende een onderzoek naar rechtmatigheid.
+* **RedenInstroom**: De reden waarom een cliënt is ingestroomd in een inkomensvoorziening. Voorbeelden zijn verlies van werk, beëindiging van een andere uitkering of verhuizing. Dit objecttype ondersteunt analyse van de instroom in het uitkeringenbestand.
+* **RedenUitstroom**: De reden waarom de inkomensvoorziening van een cliënt is beëindigd. Voorbeelden zijn uitstroom naar werk, verhuizing naar een andere gemeente of overlijden. Dit objecttype ondersteunt beleidsanalyse over de effectiviteit van re-integratie en de ontwikkeling van het uitkeringenbestand.
 * **Regeling**: Een Regeling is gekoppeld aan een ingeschreven persoon (client) en beschrijft de specifieke afspraken of voorwaarden waaronder inkomensondersteuning wordt verleend. Een regeling heeft altijd een relatie met een RegelingSoort, die het type regeling specificeert.
 * **Regelingsoort**: Typologie van een regeling
 * **UitkeringsRun**: Een *UitkeringsRun* is een geautomatiseerde verwerking in een financieel of administratief systeem waarbij **een groep uitkeringen of betalingen tegelijk wordt berekend en uitgevoerd** als onderdeel van een periodieke batch-verwerking.
@@ -41,7 +41,7 @@ Het model 'Model Inkomen' kent de volgende objecttypen:
 ### Component
 > **Definitie Component:** 
 >
-> Een *inkomenscomponent* is een afzonderlijk onderdeel of bron van inkomen, zoals loon, winst uit onderneming, uitkeringen of andere inkomensbronnen, die samen het totale inkomen van een persoon of huishouden vormen.
+> Een Component is een afzonderlijk onderdeel waaruit een uitkering is opgebouwd. Dit omvat zowel de posten die de samenstelling van de uitkering bepalen (zoals basisnorm, toeslagen en inhoudingen) als de automatisch berekende tussen- en eindresultaten die voortkomen uit een uitkeringsrun.
 
 ??? info "Kenmerken Model Component"
 
@@ -53,9 +53,9 @@ Het model 'Model Inkomen' kent de volgende objecttypen:
     | uri |  |
     | bron |  |
     | author | Ashkan Ashkpour |
-    | version | 1.10.0 |
+    | version | 1.12.0 |
     | created | 2022-06-08 14:19:54 |
-    | modified | 2025-12-18 15:38:52 |
+    | modified | 2026-03-12 14:56:58 |
     | id | EAID\_F4FD02F2\_9FFA\_4a35\_BA32\_B4CDE4002E7A |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -100,9 +100,9 @@ Attributen van objecttype Component
     | uri |  |
     | bron |  |
     | author | Ashkan Ashkpour |
-    | version | 1.10.0 |
+    | version | 1.12.0 |
     | created | 2022-06-08 14:20:08 |
-    | modified | 2025-12-18 15:38:52 |
+    | modified | 2025-12-22 15:44:35 |
     | id | EAID\_3372192D\_4773\_46b2\_BDA5\_C98B220F8954 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -129,7 +129,7 @@ Attributen van objecttype ComponentSoort
 ### Huisvestingsoort
 > **Definitie Huisvestingsoort:** 
 >
-> Als de dienst een uitkering betreft die periodiek wordt uitgekeerd, kan om redenen de betaling worden geblokkeerd. Reden toevoeging: Geeft de reden van blokkering van de uitkering aan. Als de dienst een uitkering betreft, die periodiek wordt uitgekeerd, kan om redenen de betaling worden geblokkeerd. De betalingsblokkade wordt opgenomen bij de dienst, die wordt genoten door de client en partner van de client. Nodig voor diepere analyse van stand van uitkeringen. Hoeveel uitkleringen hebben we geblokkeerd op dit moment omdat we de uitkering gaan beindigen.
+> De typering van de huisvestingssituatie van een cliënt, zoals zelfstandig wonend, inwonend of verblijvend in een instelling. De huisvestingssituatie kan van invloed zijn op de hoogte en samenstelling van de inkomensvoorziening.
 
 ??? info "Kenmerken Model Huisvestingsoort"
 
@@ -141,9 +141,9 @@ Attributen van objecttype ComponentSoort
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.10.0 |
+    | version | 1.12.0 |
     | created | 2025-04-23 16:21:20 |
-    | modified | 2025-12-18 15:38:52 |
+    | modified | 2026-03-12 14:57:13 |
     | id | EAID\_8D999BE8\_96AB\_8418\_B94F\_289754CE1336 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -168,7 +168,7 @@ Attributen van objecttype Huisvestingsoort
 ### Inkomensvoorziening
 > **Definitie Inkomensvoorziening:** 
 >
-> Een regeling die zorg draag voor een inkomen confom de landelijke wetgeving
+> Een voorziening die voorziet in inkomen conform landelijke wetgeving, zoals bijstand, bijzondere bijstand, IOAW of IOAZ. Een inkomensvoorziening is opgebouwd uit componenten en gekoppeld aan een cliënt via een regeling.
 
 ??? info "Kenmerken Model Inkomensvoorziening"
 
@@ -180,9 +180,9 @@ Attributen van objecttype Huisvestingsoort
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.10.0 |
+    | version | 1.12.0 |
     | created | 2018-04-23 11:53:14 |
-    | modified | 2025-12-18 15:38:52 |
+    | modified | 2026-03-12 14:57:29 |
     | id | EAID\_07784236\_3AA6\_45e5\_8253\_7D088C4020B0 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -232,9 +232,9 @@ Attributen van objecttype Inkomensvoorziening
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.10.0 |
+    | version | 1.12.0 |
     | created | 2018-04-23 11:53:23 |
-    | modified | 2025-12-18 15:38:52 |
+    | modified | 2025-12-22 15:44:35 |
     | id | EAID\_AF18E7D3\_279D\_4323\_B785\_6C75B4701430 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -263,7 +263,7 @@ Attributen van objecttype Inkomensvoorzieningsoort
 ### RedenBlokkering
 > **Definitie RedenBlokkering:** 
 >
-> Als de dienst een uitkering betreft die periodiek wordt uitgekeerd, kan om redenen de betaling worden geblokkeerd. Reden toevoeging: Geeft de reden van blokkering van de uitkering aan. Als de dienst een uitkering betreft, die periodiek wordt uitgekeerd, kan om redenen de betaling worden geblokkeerd. De betalingsblokkade wordt opgenomen bij de dienst, die wordt genoten door de client en partner van de client. Nodig voor diepere analyse van stand van uitkeringen. Hoeveel uitkleringen hebben we geblokkeerd op dit moment omdat we de uitkering gaan beindigen.
+> De reden waarom de periodieke betaling van een uitkering is geblokkeerd. Een betalingsblokkade wordt geregistreerd bij de inkomensvoorziening van de cliënt en diens eventuele partner. Voorbeelden zijn blokkering in afwachting van beëindiging of hangende een onderzoek naar rechtmatigheid.
 
 ??? info "Kenmerken Model RedenBlokkering"
 
@@ -275,9 +275,9 @@ Attributen van objecttype Inkomensvoorzieningsoort
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.10.0 |
+    | version | 1.12.0 |
     | created | 2025-04-23 16:14:37 |
-    | modified | 2025-12-18 15:38:52 |
+    | modified | 2026-03-12 14:57:57 |
     | id | EAID\_88B0A7AB\_53E6\_4bc1\_8D99\_9BE896AB8418 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -302,7 +302,7 @@ Attributen van objecttype RedenBlokkering
 ### RedenInstroom
 > **Definitie RedenInstroom:** 
 >
-> De reden waarom de persoon de uitkering heeft gekregen. Geeft de reden van aanvraag van uitkering weer. Nodig voor diepere analyse van stand van uitkeringen. Omdat we willen weten waarom mensen nstromen. Bv geen werk meer og geen andere uitkering, verhuizing.
+> De reden waarom een cliënt is ingestroomd in een inkomensvoorziening. Voorbeelden zijn verlies van werk, beëindiging van een andere uitkering of verhuizing. Dit objecttype ondersteunt analyse van de instroom in het uitkeringenbestand.
 
 ??? info "Kenmerken Model RedenInstroom"
 
@@ -314,9 +314,9 @@ Attributen van objecttype RedenBlokkering
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.10.0 |
+    | version | 1.12.0 |
     | created | 2025-04-23 16:16:48 |
-    | modified | 2025-12-18 15:38:52 |
+    | modified | 2026-03-12 14:58:14 |
     | id | EAID\_8D999BE8\_96AB\_8418\_99A2\_CB86335AFB97 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -343,7 +343,7 @@ Attributen van objecttype RedenInstroom
 ### RedenUitstroom
 > **Definitie RedenUitstroom:** 
 >
-> De reden waarom de uitkering aan een persoon is beeindgd. Reden toevoeging: Geeft de reden van uitstroom aan. Waarom is de uitkering beëindigd. Nodig voor diepere analyse van stand. Meet of je beleid of het lukt om mensen naar werk te laten stromen. van uitkeringen.
+> De reden waarom de inkomensvoorziening van een cliënt is beëindigd. Voorbeelden zijn uitstroom naar werk, verhuizing naar een andere gemeente of overlijden. Dit objecttype ondersteunt beleidsanalyse over de effectiviteit van re-integratie en de ontwikkeling van het uitkeringenbestand.
 
 ??? info "Kenmerken Model RedenUitstroom"
 
@@ -355,9 +355,9 @@ Attributen van objecttype RedenInstroom
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.10.0 |
+    | version | 1.12.0 |
     | created | 2025-04-23 16:18:22 |
-    | modified | 2025-12-18 15:38:52 |
+    | modified | 2026-03-12 14:58:21 |
     | id | EAID\_99A2CB86\_335A\_FB97\_9C8F\_47170B1699EC |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -396,9 +396,9 @@ Attributen van objecttype RedenUitstroom
     | uri |  |
     | bron | [https://www.begrippenxl.nl/dso/nl/page/Regeling](https://www.begrippenxl.nl/dso/nl/page/Regeling) |
     | author | Arjen Brienen |
-    | version | 1.10.0 |
+    | version | 1.12.0 |
     | created | 2018-04-23 11:56:16 |
-    | modified | 2025-12-18 15:38:52 |
+    | modified | 2025-12-22 15:44:35 |
     | id | EAID\_C25455F3\_FEB0\_4c6d\_9AA4\_3B027718BEE3 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -435,9 +435,9 @@ Attributen van objecttype Regeling
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.10.0 |
+    | version | 1.12.0 |
     | created | 2018-04-23 11:56:27 |
-    | modified | 2025-12-18 15:38:52 |
+    | modified | 2025-12-22 15:44:35 |
     | id | EAID\_14D3C960\_5EF2\_433c\_8E1C\_B493974280E2 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -472,9 +472,9 @@ Attributen van objecttype Regelingsoort
     | uri |  |
     | bron |  |
     | author | Ashkan Ashkpour |
-    | version | 1.10.0 |
+    | version | 1.12.0 |
     | created | 2022-06-08 14:20:23 |
-    | modified | 2025-12-18 15:38:52 |
+    | modified | 2025-12-22 15:44:35 |
     | id | EAID\_F787184D\_3AA8\_4132\_96C4\_23A363C3C1B7 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -532,8 +532,8 @@ De enumeratie Wet heeft de volgende kenmerken:
     | author |  |
     | version | 1.10.0 |
     | created | 2025-03-26 11:12:49 |
-    | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_5b19ac45\_5c81\_48bb\_a9ea\_f258873d4b47 |
+    | modified | 2025-12-22 15:26:48 |
+    | id | EAID\_0af44a30\_18ca\_4d66\_9689\_df9b89d7d264 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |

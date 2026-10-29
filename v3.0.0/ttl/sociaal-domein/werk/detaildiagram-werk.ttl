@@ -735,27 +735,27 @@
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/> ;
     rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/doelreintegratievoorziening> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/werkzoekende/relatie-flexibliteit> a mim:Relatiesoort,
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/werkzoekende/relatie-flexibiliteit> a mim:Relatiesoort,
         owl:ObjectProperty ;
-    rdfs:label "relatie naar Flexibliteit"@nl ;
+    rdfs:label "relatie naar Flexibiliteit"@nl ;
     mim:aggregatietype mim:Geen ;
     mim:bron <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/werkzoekende> ;
-    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/flexibliteit> ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/flexibiliteit> ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/werkzoekende/relatie-flexibliteit"^^xsd:anyURI ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/werkzoekende/relatie-flexibiliteit"^^xsd:anyURI ;
     mim:indicatieAfleidbaar false ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "0..1" ;
     mim:kardinaliteitRelatieBron "1..1" ;
     mim:mogelijkGeenWaarde true ;
-    mim:naam "relatie naar Flexibliteit"@nl ;
+    mim:naam "relatie naar Flexibiliteit"@nl ;
     mim:unidirectioneel true ;
     dcterms:identifier "EAID_2D3D13CF_83DE_4d64_8792_11D476954F4D" ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/werkzoekende> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/> ;
-    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/flexibliteit> .
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/flexibiliteit> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/werkzoekende/relatie-mobiliteit> a mim:Relatiesoort,
         owl:ObjectProperty ;
@@ -1074,7 +1074,7 @@
     mim:code "1" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/codeniveauopleiding/basisonderwijs"^^xsd:anyURI ;
     mim:naam "Basisonderwijs"@nl ;
-    dcterms:identifier "EAID_8545bedd_c88c_4c02_83bf_4b529278a5a3" ;
+    dcterms:identifier "EAID_de1ca9f2_2882_4ecc_98a0_f2ce91f4fecd" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/codeniveauopleiding> ;
     skos:notation "1" ;
     skos:prefLabel "Basisonderwijs"@nl ;
@@ -1087,7 +1087,7 @@
     mim:code "4" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/codeniveauopleiding/havo-vwo"^^xsd:anyURI ;
     mim:naam "HAVO / VWO"@nl ;
-    dcterms:identifier "EAID_df2ae830_6a39_4ac0_a833_9dbe38fea3f8" ;
+    dcterms:identifier "EAID_fe9fd5b1_3c98_42f0_af56_53e7100881e2" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/codeniveauopleiding> ;
     skos:notation "4" ;
     skos:prefLabel "HAVO / VWO"@nl ;
@@ -1100,7 +1100,7 @@
     mim:code "5" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/codeniveauopleiding/hbo-bachelor"^^xsd:anyURI ;
     mim:naam "HBO / Bachelor"@nl ;
-    dcterms:identifier "EAID_b81bfe03_b708_4799_81f9_7bf7c068f5b9" ;
+    dcterms:identifier "EAID_31d3800a_f725_495e_a530_060949e2ca8b" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/codeniveauopleiding> ;
     skos:notation "5" ;
     skos:prefLabel "HBO / Bachelor"@nl ;
@@ -1113,7 +1113,7 @@
     mim:code "3" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/codeniveauopleiding/mbo"^^xsd:anyURI ;
     mim:naam "MBO"@nl ;
-    dcterms:identifier "EAID_7414b5b0_f75c_4fd2_acc6_acc2361d179e" ;
+    dcterms:identifier "EAID_ecb6cb13_2408_4a51_a385_9952f64ae314" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/codeniveauopleiding> ;
     skos:notation "3" ;
     skos:prefLabel "MBO"@nl ;
@@ -1126,7 +1126,7 @@
     mim:code "2" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/codeniveauopleiding/vmbo-mbo-1"^^xsd:anyURI ;
     mim:naam "VMBO / MBO-1"@nl ;
-    dcterms:identifier "EAID_df610b01_9785_4fed_9207_7ba50ca61356" ;
+    dcterms:identifier "EAID_11172e39_3759_43c8_9fa8_7541cc956099" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/codeniveauopleiding> ;
     skos:notation "2" ;
     skos:prefLabel "VMBO / MBO-1"@nl ;
@@ -1139,7 +1139,7 @@
     mim:code "6" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/codeniveauopleiding/wo-master"^^xsd:anyURI ;
     mim:naam "WO / Master"@nl ;
-    dcterms:identifier "EAID_7abc1ed8_b79d_4645_8733_4a3363b23ede" ;
+    dcterms:identifier "EAID_5e857c2d_f15b_43dd_b625_ebc8286458c9" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/codeniveauopleiding> ;
     skos:notation "6" ;
     skos:prefLabel "WO / Master"@nl ;
@@ -2542,12 +2542,12 @@
     skos:prefLabel "Werk & Opleiding"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/domein-van-zelfredzaamheid> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/flexibliteit/indicatiebereidbuitenberoepswens> a mim:Attribuutsoort,
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/flexibiliteit/indicatiebereidbuitenberoepswens> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "IndicatieBereidBuitenBeroepswens"@nl ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/flexibliteit/indicatiebereidbuitenberoepswens"^^xsd:anyURI ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/flexibiliteit/indicatiebereidbuitenberoepswens"^^xsd:anyURI ;
     mim:indicatieAfleidbaar false ;
     mim:indicatieClassificerend false ;
     mim:indicatieFormeleHistorie false ;
@@ -2557,16 +2557,16 @@
     mim:naam "IndicatieBereidBuitenBeroepswens"@nl ;
     mim:type mim:Boolean ;
     dcterms:identifier "EAID_E5540357_1431_4cfe_B155_ABE51AAE4050" ;
-    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/flexibliteit> ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/flexibiliteit> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/> ;
     rdfs:range xsd:boolean .
 
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/flexibliteit/indicatiebereidheidonregelmatigwerk> a mim:Attribuutsoort,
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/flexibiliteit/indicatiebereidheidonregelmatigwerk> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "IndicatieBereidheidOnregelmatigWerk"@nl ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/flexibliteit/indicatiebereidheidonregelmatigwerk"^^xsd:anyURI ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/flexibiliteit/indicatiebereidheidonregelmatigwerk"^^xsd:anyURI ;
     mim:indicatieAfleidbaar false ;
     mim:indicatieClassificerend false ;
     mim:indicatieFormeleHistorie false ;
@@ -2576,16 +2576,16 @@
     mim:naam "IndicatieBereidheidOnregelmatigWerk"@nl ;
     mim:type mim:Boolean ;
     dcterms:identifier "EAID_1B48CBA3_1323_447e_8410_5B1EE470CFE4" ;
-    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/flexibliteit> ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/flexibiliteit> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/> ;
     rdfs:range xsd:boolean .
 
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/flexibliteit/indicatiebereidheidzoekenonderniveau> a mim:Attribuutsoort,
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/flexibiliteit/indicatiebereidheidzoekenonderniveau> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "IndicatieBereidheidZoekenOnderNiveau"@nl ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/flexibliteit/indicatiebereidheidzoekenonderniveau"^^xsd:anyURI ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/flexibiliteit/indicatiebereidheidzoekenonderniveau"^^xsd:anyURI ;
     mim:indicatieAfleidbaar false ;
     mim:indicatieClassificerend false ;
     mim:indicatieFormeleHistorie false ;
@@ -2595,16 +2595,16 @@
     mim:naam "IndicatieBereidheidZoekenOnderNiveau"@nl ;
     mim:type mim:Boolean ;
     dcterms:identifier "EAID_F4F19A4C_EDEB_45bc_9A4A_F0C068A9FA9B" ;
-    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/flexibliteit> ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/flexibiliteit> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/> ;
     rdfs:range xsd:boolean .
 
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/flexibliteit/indicatiebereidheidzwaarwerk> a mim:Attribuutsoort,
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/flexibiliteit/indicatiebereidheidzwaarwerk> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "IndicatieBereidheidZwaarWerk"@nl ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/flexibliteit/indicatiebereidheidzwaarwerk"^^xsd:anyURI ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/flexibiliteit/indicatiebereidheidzwaarwerk"^^xsd:anyURI ;
     mim:indicatieAfleidbaar false ;
     mim:indicatieClassificerend false ;
     mim:indicatieFormeleHistorie false ;
@@ -2614,16 +2614,16 @@
     mim:naam "IndicatieBereidheidZwaarWerk"@nl ;
     mim:type mim:Boolean ;
     dcterms:identifier "EAID_186D8C6D_5A6B_43bd_947F_B203E3C24A63" ;
-    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/flexibliteit> ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/flexibiliteit> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/> ;
     rdfs:range xsd:boolean .
 
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/flexibliteit/ingeschrevenbijuitzendbureau> a mim:Attribuutsoort,
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/flexibiliteit/ingeschrevenbijuitzendbureau> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "IngeschrevenbijUitzendbureau"@nl ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/flexibliteit/ingeschrevenbijuitzendbureau"^^xsd:anyURI ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/flexibiliteit/ingeschrevenbijuitzendbureau"^^xsd:anyURI ;
     mim:indicatieAfleidbaar false ;
     mim:indicatieClassificerend false ;
     mim:indicatieFormeleHistorie false ;
@@ -2633,7 +2633,7 @@
     mim:naam "IngeschrevenbijUitzendbureau"@nl ;
     mim:type mim:Boolean ;
     dcterms:identifier "EAID_D948C4B8_E632_4218_8C96_8AC381B8F339" ;
-    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/flexibliteit> ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/flexibiliteit> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/> ;
     rdfs:range xsd:boolean .
 
@@ -5986,18 +5986,18 @@
     rdfs:comment "<font color=\"#0e0e0e\">Een landelijk register waarin mensen met een afstand tot de arbeidsmarkt worden opgenomen, vaak ten behoeve van loonkostensubsidie of andere voorzieningen.</font>"@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/flexibliteit> a mim:Objecttype,
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/flexibiliteit> a mim:Objecttype,
         owl:Class ;
-    rdfs:label "Flexibliteit"@nl ;
-    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/flexibliteit/indicatiebereidbuitenberoepswens>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/flexibliteit/indicatiebereidheidonregelmatigwerk>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/flexibliteit/indicatiebereidheidzoekenonderniveau>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/flexibliteit/indicatiebereidheidzwaarwerk>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/flexibliteit/ingeschrevenbijuitzendbureau> ;
+    rdfs:label "Flexibiliteit"@nl ;
+    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/flexibiliteit/indicatiebereidbuitenberoepswens>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/flexibiliteit/indicatiebereidheidonregelmatigwerk>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/flexibiliteit/indicatiebereidheidzoekenonderniveau>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/flexibiliteit/indicatiebereidheidzwaarwerk>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/flexibiliteit/ingeschrevenbijuitzendbureau> ;
     mim:definitie "<font color=\"#0e0e0e\">De mate waarin een persoon flexibel inzetbaar is qua werktijden, werkplek of werkzaamheden.</font>"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/flexibliteit"^^xsd:anyURI ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/flexibiliteit"^^xsd:anyURI ;
     mim:indicatieAbstractObject false ;
-    mim:naam "Flexibliteit"@nl ;
+    mim:naam "Flexibiliteit"@nl ;
     dcterms:identifier "EAID_E7BC941E_A54D_49e1_8F77_1D8D7CE8EBD7" ;
     rdfs:comment "<font color=\"#0e0e0e\">De mate waarin een persoon flexibel inzetbaar is qua werktijden, werkplek of werkzaamheden.</font>"@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/> .
@@ -6512,7 +6512,7 @@
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/codeniveauopleiding/mbo>,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/codeniveauopleiding/vmbo-mbo-1>,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/codeniveauopleiding/wo-master> ;
-    dcterms:identifier "EAID_fa31fb6b_fad6_4354_ade8_051dd2c53ab5" ;
+    dcterms:identifier "EAID_83dc4498_871f_4f64_a621_83fe0e1b587a" ;
     rdfs:comment "<font color=\"#0e0e0e\">Opleidingsniveau volgens NLQF/ISCED-systematiek. Voorbeelden: <i>mbo-3</i>, <i>hbo</i>, <i>wo-bachelor</i>.</font>"@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/> ;
     rdfs:subClassOf skos:Concept .

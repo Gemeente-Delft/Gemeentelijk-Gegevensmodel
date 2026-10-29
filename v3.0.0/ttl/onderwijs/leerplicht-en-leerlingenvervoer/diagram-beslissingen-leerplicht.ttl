@@ -779,7 +779,7 @@
     mim:code "1" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/boolean/ja"^^xsd:anyURI ;
     mim:naam "Ja"@nl ;
-    dcterms:identifier "EAID_6a702d51_e8a6_4ba1_8797_34112d24ca24" ;
+    dcterms:identifier "EAID_ca40f93b_2861_4a8f_a687_76b1386a7f66" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/boolean> ;
     skos:notation "1" ;
     skos:prefLabel "Ja"@nl ;
@@ -792,7 +792,7 @@
     mim:code "-2" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/boolean/leeg"^^xsd:anyURI ;
     mim:naam "Leeg"@nl ;
-    dcterms:identifier "EAID_8a486db5_332d_4eae_ad27_23d02b392dcd" ;
+    dcterms:identifier "EAID_489bd83b_4fc2_4daf_a493_349e226636cf" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/boolean> ;
     skos:notation "-2" ;
     skos:prefLabel "Leeg"@nl ;
@@ -805,7 +805,7 @@
     mim:code "0" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/boolean/nee"^^xsd:anyURI ;
     mim:naam "Nee"@nl ;
-    dcterms:identifier "EAID_96c01eb4_11b5_40e2_9157_0104c43118a2" ;
+    dcterms:identifier "EAID_b1f1edf3_d1ba_43f9_a24e_1d097edfe480" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/boolean> ;
     skos:notation "0" ;
     skos:prefLabel "Nee"@nl ;
@@ -818,7 +818,7 @@
     mim:code "-1" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/boolean/onbekend"^^xsd:anyURI ;
     mim:naam "Onbekend"@nl ;
-    dcterms:identifier "EAID_9f4e3169_b730_47f2_b621_7d438902918c" ;
+    dcterms:identifier "EAID_787837a7_80b1_4bb8_8db3_865559b6c439" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/boolean> ;
     skos:notation "-1" ;
     skos:prefLabel "Onbekend"@nl ;
@@ -869,8 +869,8 @@
     mim:code "1" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/onderwijs/boolean/ja"^^xsd:anyURI ;
     mim:naam "Ja"@nl ;
-    dcterms:identifier "EAID_4b172e2c_cf6f_4624_bcec_b1cbbe0fe665",
-        "EAID_4bfa392c_eee3_4ace_8e2e_a4e187f5c257" ;
+    dcterms:identifier "EAID_0dd897c0_e521_4b82_bcd5_be4fdc7abd13",
+        "EAID_0f655d14_b452_4191_9299_191448b86691" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/boolean> ;
     skos:notation "1" ;
     skos:prefLabel "Ja"@nl ;
@@ -883,8 +883,8 @@
     mim:code "-2" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/onderwijs/boolean/leeg"^^xsd:anyURI ;
     mim:naam "Leeg"@nl ;
-    dcterms:identifier "EAID_2575ffcb_2230_4dba_8ec2_a3f4070eb053",
-        "EAID_4dfd05bf_97ea_4acf_a4e2_c73b9629df0d" ;
+    dcterms:identifier "EAID_a66ecb11_4fbb_4298_87b2_d0edef8785d4",
+        "EAID_e2dbc044_59de_452d_8d89_620f63744d21" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/boolean> ;
     skos:notation "-2" ;
     skos:prefLabel "Leeg"@nl ;
@@ -897,8 +897,8 @@
     mim:code "0" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/onderwijs/boolean/nee"^^xsd:anyURI ;
     mim:naam "Nee"@nl ;
-    dcterms:identifier "EAID_eac93977_d925_42bb_b490_d5d7ff7d4827",
-        "EAID_f268089d_e60a_416d_9b4e_2dc357408033" ;
+    dcterms:identifier "EAID_4473963d_cb7d_44b6_bd47_d380b94ba32a",
+        "EAID_83c0aeb6_5a65_4ebd_b169_a3cc0f7740fd" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/boolean> ;
     skos:notation "0" ;
     skos:prefLabel "Nee"@nl ;
@@ -911,8 +911,8 @@
     mim:code "-1" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/onderwijs/boolean/onbekend"^^xsd:anyURI ;
     mim:naam "Onbekend"@nl ;
-    dcterms:identifier "EAID_7e6c7cb5_f072_44aa_92f1_7e85aaaea5a6",
-        "EAID_b5cf3aa6_f74e_4cd2_9500_01a473246416" ;
+    dcterms:identifier "EAID_452967dd_ad5b_45fa_8527_869bfbab7e27",
+        "EAID_7a4ae71f_9d40_4c40_a832_dbc5f619d875" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/boolean> ;
     skos:notation "-1" ;
     skos:prefLabel "Onbekend"@nl ;
@@ -1115,8 +1115,8 @@
     mim:code "1" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/boolean/ja"^^xsd:anyURI ;
     mim:naam "Ja"@nl ;
-    dcterms:identifier "EAID_c7452486_02a1_4de7_a7a2_bd1af8bbf3cf",
-        "EAID_f9339fae_206d_4294_aa6f_5eb7d6782a09" ;
+    dcterms:identifier "EAID_a4a5e0a1_908e_49a3_9cd0_81cb43fafacb",
+        "EAID_f0723be5_5163_4146_9e89_2a056061963e" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/boolean> ;
     skos:notation "1" ;
     skos:prefLabel "Ja"@nl ;
@@ -1129,8 +1129,8 @@
     mim:code "-2" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/boolean/leeg"^^xsd:anyURI ;
     mim:naam "Leeg"@nl ;
-    dcterms:identifier "EAID_a335c51e_894e_489d_b118_df3d89138cf4",
-        "EAID_b4f7e9a1_71b3_4206_a52b_88870717ffbb" ;
+    dcterms:identifier "EAID_74b06167_e73f_452f_9f40_ecbccdecaa32",
+        "EAID_b75248db_594b_44a5_8e87_a1a0744fdf8f" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/boolean> ;
     skos:notation "-2" ;
     skos:prefLabel "Leeg"@nl ;
@@ -1143,8 +1143,8 @@
     mim:code "0" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/boolean/nee"^^xsd:anyURI ;
     mim:naam "Nee"@nl ;
-    dcterms:identifier "EAID_8c01724f_2144_4ae7_9764_40060683ac28",
-        "EAID_de6a77ef_be9c_4729_a439_7479ce76c098" ;
+    dcterms:identifier "EAID_31fd0de1_76da_4795_ae3a_07559020b2f8",
+        "EAID_4fe13b40_d84c_4496_b0d8_f047b62f6589" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/boolean> ;
     skos:notation "0" ;
     skos:prefLabel "Nee"@nl ;
@@ -1157,8 +1157,8 @@
     mim:code "-1" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/boolean/onbekend"^^xsd:anyURI ;
     mim:naam "Onbekend"@nl ;
-    dcterms:identifier "EAID_7bfdd91e_dadc_49c2_ac92_44df07bdcb44",
-        "EAID_fa88a9f5_d1e8_4a69_8e2c_33a4bb86cb9e" ;
+    dcterms:identifier "EAID_166c37a7_8614_42a4_b250_e70803a59866",
+        "EAID_2d3608a8_6917_4722_b67f_76c9b0d89fb2" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/boolean> ;
     skos:notation "-1" ;
     skos:prefLabel "Onbekend"@nl ;
@@ -1981,7 +1981,7 @@
         <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/boolean/leeg>,
         <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/boolean/nee>,
         <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/boolean/onbekend> ;
-    dcterms:identifier "EAID_fcc997d9_711a_43df_b1fa_30158b0b0429" ;
+    dcterms:identifier "EAID_7d23b462_98d0_445e_b774_7b90da056566" ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/> ;
     rdfs:subClassOf skos:Concept .
 
@@ -1995,8 +1995,8 @@
         <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/boolean/leeg>,
         <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/boolean/nee>,
         <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/boolean/onbekend> ;
-    dcterms:identifier "EAID_195bc5bd_9054_41bb_8088_d6e3d5e4a0cd",
-        "EAID_9c95faf0_7738_46cf_b1cb_cde23c8fe0e6" ;
+    dcterms:identifier "EAID_35f3f87f_48d2_4073_8e6a_6a528363a797",
+        "EAID_d152903d_668a_4fc1_9324_430353f5185c" ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/> ;
     rdfs:subClassOf skos:Concept .
 
@@ -2036,8 +2036,8 @@
         <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/boolean/leeg>,
         <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/boolean/nee>,
         <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/boolean/onbekend> ;
-    dcterms:identifier "EAID_b6565441_cac1_4cab_9e54_cc22d69fa08a",
-        "EAID_b7d9a55f_4816_4474_9236_06a89dab467b" ;
+    dcterms:identifier "EAID_4daa0652_5b5a_4940_8b31_14822486e917",
+        "EAID_68ac6087_7c90_4135_8aaf_75d80f721b07" ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/> ;
     rdfs:subClassOf skos:Concept .
 

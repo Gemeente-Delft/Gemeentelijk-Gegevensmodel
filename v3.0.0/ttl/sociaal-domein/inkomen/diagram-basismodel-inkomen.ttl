@@ -119,27 +119,6 @@
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/> ;
     rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/regelingsoort> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/client/client> a mim:Relatiesoort,
-        owl:ObjectProperty ;
-    rdfs:label "client"@nl ;
-    mim:aggregatietype mim:Geen ;
-    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/client> ;
-    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/schuldhulpverlening/schuldhulptraject> ;
-    mim:heeftTijdlijnGeldigheid false ;
-    mim:heeftTijdlijnRegistratie false ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/client/client"^^xsd:anyURI ;
-    mim:indicatieAfleidbaar false ;
-    mim:indicatieFormeleHistorie false ;
-    mim:indicatieMaterieleHistorie false ;
-    mim:kardinaliteit "0..*" ;
-    mim:mogelijkGeenWaarde true ;
-    mim:naam "client"@nl ;
-    mim:unidirectioneel true ;
-    dcterms:identifier "EAID_src2A7C80_3621_40aa_B091_E30616E65F1D" ;
-    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/client> ;
-    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/> ;
-    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/schuldhulpverlening/schuldhulptraject> .
-
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/client/heeft-regeling> a mim:Relatiesoort,
         owl:ObjectProperty ;
     rdfs:label "heeft regeling"@nl ;
@@ -1280,7 +1259,7 @@
     mim:code "3" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/wet/andere-wet"^^xsd:anyURI ;
     mim:naam "Andere wet"@nl ;
-    dcterms:identifier "EAID_9a330fa6_d54d_4c0f_9336_56adcf0a40d1" ;
+    dcterms:identifier "EAID_0b1d6aaf_16c2_40bb_ac43_930ac6bcfc78" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/wet> ;
     skos:notation "3" ;
     skos:prefLabel "Andere wet"@nl ;
@@ -1293,7 +1272,7 @@
     mim:code "6" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/wet/bijzondere-bijstand"^^xsd:anyURI ;
     mim:naam "Bijzondere Bijstand"@nl ;
-    dcterms:identifier "EAID_5b675cde_db20_4609_a66e_bb486f127d79" ;
+    dcterms:identifier "EAID_f31e33a3_12eb_4aa5_9b66_2995585ca1c7" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/wet> ;
     skos:notation "6" ;
     skos:prefLabel "Bijzondere Bijstand"@nl ;
@@ -1306,7 +1285,7 @@
     mim:code "5" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/wet/i-o-a-w-i-o-a-z"^^xsd:anyURI ;
     mim:naam "I.O.A.W./I.O.A.Z."@nl ;
-    dcterms:identifier "EAID_c656567d_65b0_4b97_a77c_bb806ff3ac51" ;
+    dcterms:identifier "EAID_124f3b2f_5d67_4670_b0b3_e2623dd35abb" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/wet> ;
     skos:notation "5" ;
     skos:prefLabel "I.O.A.W./I.O.A.Z."@nl ;
@@ -1320,7 +1299,7 @@
     mim:definitie "dere"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/wet/jeugdwet"^^xsd:anyURI ;
     mim:naam "Jeugdwet"@nl ;
-    dcterms:identifier "EAID_a5ca6752_a5e2_437a_9bfc_4cd82361aac1" ;
+    dcterms:identifier "EAID_2b7ec78b_5993_4ae6_ab8e_1105f40760f8" ;
     skos:definition "dere"@nl ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/wet> ;
     skos:notation "2" ;
@@ -1334,7 +1313,7 @@
     mim:code "-2" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/wet/leeg"^^xsd:anyURI ;
     mim:naam "Leeg"@nl ;
-    dcterms:identifier "EAID_bcdd2a7c_c9e6_4a47_a42d_6bc558ad68e7" ;
+    dcterms:identifier "EAID_33fe0131_ace1_4b54_8dc4_ac85e4bec74a" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/wet> ;
     skos:notation "-2" ;
     skos:prefLabel "Leeg"@nl ;
@@ -1347,7 +1326,7 @@
     mim:code "0" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/wet/niet-van-toepassing"^^xsd:anyURI ;
     mim:naam "Niet van toepassing"@nl ;
-    dcterms:identifier "EAID_7befe020_75ae_4566_96d8_0f9e718a4d0d" ;
+    dcterms:identifier "EAID_7c2cb752_6ce5_4d29_a8ba_f155ba4b226a" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/wet> ;
     skos:notation "0" ;
     skos:prefLabel "Niet van toepassing"@nl ;
@@ -1360,7 +1339,7 @@
     mim:code "-1" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/wet/onbekend"^^xsd:anyURI ;
     mim:naam "Onbekend"@nl ;
-    dcterms:identifier "EAID_1e2c3859_b0e0_4e37_ab51_a732f7937a5d" ;
+    dcterms:identifier "EAID_be9ff668_57aa_4e5d_ae60_443a6b90db2b" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/wet> ;
     skos:notation "-1" ;
     skos:prefLabel "Onbekend"@nl ;
@@ -1373,7 +1352,7 @@
     mim:code "4" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/wet/participatiewet-pw-i"^^xsd:anyURI ;
     mim:naam "Participatiewet PW-I"@nl ;
-    dcterms:identifier "EAID_2a4e60bd_5794_4e3d_afb7_5693c9dcb9a0" ;
+    dcterms:identifier "EAID_61272644_15a5_4ed1_94c3_47aaafbba71d" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/wet> ;
     skos:notation "4" ;
     skos:prefLabel "Participatiewet PW-I"@nl ;
@@ -1386,7 +1365,7 @@
     mim:code "1" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/wet/wmo"^^xsd:anyURI ;
     mim:naam "Wmo"@nl ;
-    dcterms:identifier "EAID_6643263e_8bad_47e8_b295_809729e58690" ;
+    dcterms:identifier "EAID_fb64c363_3820_4a3e_b287_0f149ab8aa12" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/wet> ;
     skos:notation "1" ;
     skos:prefLabel "Wmo"@nl ;
@@ -1585,14 +1564,14 @@ Dit is vergelijkbaar met **betaling- of payroll runs** in financiële systemen w
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/component/omschrijving>,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/component/rekeningnummer>,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/component/toelichting> ;
-    mim:definitie "Een *inkomenscomponent* is een afzonderlijk onderdeel of bron van inkomen, zoals loon, winst uit onderneming, uitkeringen of andere inkomensbronnen, die samen het totale inkomen van een persoon of huishouden vormen."@nl ;
+    mim:definitie "Een Component is een afzonderlijk onderdeel waaruit een uitkering is opgebouwd. Dit omvat zowel de posten die de samenstelling van de uitkering bepalen (zoals basisnorm, toeslagen en inhoudingen) als de automatisch berekende tussen- en eindresultaten die voortkomen uit een uitkeringsrun."@nl ;
     mim:herkomstDefinitie "https://ec.europa.eu/eurostat/cache/metadata/EN/ilc_simsilc_fr.htm (Eurostat – *income components* in de context van inkomensstatistiek)" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/component"^^xsd:anyURI ;
     mim:indicatieAbstractObject false ;
     mim:naam "Component"@nl ;
     mim:toelichting "In inkomensstatistiek wordt inkomen vaak opgebouwd uit verschillende componenten (zoals arbeid, uitkeringen, kapitaalinkomen, etc.), waarbij elke component een **bron of type inkomen** vertegenwoordigt. Door inkomens te decomponeren in componenten kan worden geanalyseerd welke bronnen bijdragen aan het totaalinkomen en hoe deze bijdragen variëren tussen personen of groepen. Dit wordt bijvoorbeeld gebruikt bij de berekening van inkomensdistributies en armoedestatistieken."@nl ;
     dcterms:identifier "EAID_F4FD02F2_9FFA_4a35_BA32_B4CDE4002E7A" ;
-    rdfs:comment "Een *inkomenscomponent* is een afzonderlijk onderdeel of bron van inkomen, zoals loon, winst uit onderneming, uitkeringen of andere inkomensbronnen, die samen het totale inkomen van een persoon of huishouden vormen."@nl ;
+    rdfs:comment "Een Component is een afzonderlijk onderdeel waaruit een uitkering is opgebouwd. Dit omvat zowel de posten die de samenstelling van de uitkering bepalen (zoals basisnorm, toeslagen en inhoudingen) als de automatisch berekende tussen- en eindresultaten die voortkomen uit een uitkeringsrun."@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/inkomensvoorziening> a mim:Objecttype,
@@ -1615,12 +1594,12 @@ Dit is vergelijkbaar met **betaling- of payroll runs** in financiële systemen w
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/inkomensvoorziening/toekenningsdatum>,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/inkomensvoorziening/versterkkingsvorm>,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/inkomensvoorziening/verwerkttotenmetdatum> ;
-    mim:definitie "Een regeling die zorg draag voor een inkomen confom de landelijke wetgeving"@nl ;
+    mim:definitie "Een voorziening die voorziet in inkomen conform landelijke wetgeving, zoals bijstand, bijzondere bijstand, IOAW of IOAZ. Een inkomensvoorziening is opgebouwd uit componenten en gekoppeld aan een cli&#235;nt via een regeling."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/inkomensvoorziening"^^xsd:anyURI ;
     mim:indicatieAbstractObject false ;
     mim:naam "Inkomensvoorziening"@nl ;
     dcterms:identifier "EAID_07784236_3AA6_45e5_8253_7D088C4020B0" ;
-    rdfs:comment "Een regeling die zorg draag voor een inkomen confom de landelijke wetgeving"@nl ;
+    rdfs:comment "Een voorziening die voorziet in inkomen conform landelijke wetgeving, zoals bijstand, bijzondere bijstand, IOAW of IOAZ. Een inkomensvoorziening is opgebouwd uit componenten en gekoppeld aan een cli&#235;nt via een regeling."@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/wet> a mim:Enumeratie,
@@ -1638,7 +1617,7 @@ Dit is vergelijkbaar met **betaling- of payroll runs** in financiële systemen w
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/wet/onbekend>,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/wet/participatiewet-pw-i>,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/wet/wmo> ;
-    dcterms:identifier "EAID_5b19ac45_5c81_48bb_a9ea_f258873d4b47" ;
+    dcterms:identifier "EAID_0af44a30_18ca_4d66_9689_df9b89d7d264" ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/> ;
     rdfs:subClassOf skos:Concept .
 

@@ -16,7 +16,7 @@
     | author | Arjen Brienen |
     | version | 1.6.0 |
     | created | 2019-05-13 16:48:32 |
-    | modified | 2025-12-16 10:28:45 |
+    | modified | 2025-12-22 15:26:46 |
     | id | EAPK\_9EBFD9E7\_BB04\_45c9\_97BB\_426207B40292 |
     
 
@@ -57,11 +57,11 @@ Het model 'Model Griffie' kent de volgende objecttypen:
     | author | Arjen Brienen |
     | version | 1.12.0 |
     | created | 2019-05-16 15:22:56 |
-    | modified | 2025-12-18 15:38:50 |
+    | modified | 2026-10-28 19:09:51 |
     | id | EAID\_F1E55DC7\_0F33\_40ea\_8713\_2E1AC3D7EE8D |
     | domein_iv3 |  |
     | domein_dcat |  |
-    | gemma_naam | MaatschappelijkeActiviteit |
+    | gemma_naam | Aanwezige Deelnemer |
     | gemma_type | business-object |
     | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-ccf78bc5-8d4a-440f-a642-abcf60149628](https://gemmaonline.nl/index.php/GEMMA/id-ccf78bc5-8d4a-440f-a642-abcf60149628) |
     | gemma_definitie | iemand die meedoet aan eencollege- of raadsvergadering |
@@ -97,7 +97,7 @@ Attributen van objecttype Aanwezige Deelnemer
     | author | Arjen Brienen |
     | version | 1.12.0 |
     | created | 2019-05-16 11:55:17 |
-    | modified | 2025-12-18 15:38:50 |
+    | modified | 2025-12-22 15:26:46 |
     | id | EAID\_73FB5212\_40ED\_40dc\_B837\_36588840445A |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -135,7 +135,7 @@ Attributen van objecttype Agendapunt
     | author | Arjen Brienen |
     | version | 1.12.0 |
     | created | 2019-05-16 11:44:01 |
-    | modified | 2025-12-18 15:38:50 |
+    | modified | 2025-12-22 15:26:46 |
     | id | EAID\_B9B82B25\_5D7F\_4d2b\_84F9\_4DF74525EEAD |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -171,7 +171,7 @@ Attributen van objecttype Categorie
     | author | Arjen Brienen |
     | version | 1.12.0 |
     | created | 2019-05-16 11:26:04 |
-    | modified | 2025-12-18 15:38:50 |
+    | modified | 2025-12-22 15:26:46 |
     | id | EAID\_7B9EDDFD\_57F7\_4ff2\_938F\_FDFA3B503DA8 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -213,7 +213,7 @@ Attributen van objecttype Collegelid
     | author | Arjen Brienen |
     | version | 1.12.0 |
     | created | 2019-05-16 11:44:26 |
-    | modified | 2025-12-18 15:38:50 |
+    | modified | 2025-12-22 15:26:46 |
     | id | EAID\_475E24C9\_CC9A\_49cc\_AB80\_8CA0221441E5 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -249,7 +249,7 @@ Attributen van objecttype Dossier
     | author | Arjen Brienen |
     | version | 1.12.0 |
     | created | 2019-05-16 11:10:22 |
-    | modified | 2025-12-18 15:38:50 |
+    | modified | 2025-12-22 15:26:46 |
     | id | EAID\_98CB3C6F\_588B\_479f\_9A2B\_F5D5362DD17C |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -286,7 +286,7 @@ Attributen van objecttype Indiener
     | author | Arjen Brienen |
     | version | 1.12.0 |
     | created | 2019-05-16 11:44:13 |
-    | modified | 2025-12-18 15:38:50 |
+    | modified | 2025-12-22 15:26:46 |
     | id | EAID\_CA56A59A\_F855\_4c19\_89BE\_578B12481EA0 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -322,7 +322,7 @@ Attributen van objecttype Programma
     | author | Arjen Brienen |
     | version | 1.11.0 |
     | created | 2019-05-16 11:10:04 |
-    | modified | 2025-12-18 15:38:50 |
+    | modified | 2025-12-22 15:26:46 |
     | id | EAID\_CB27D699\_F82B\_45ad\_823A\_B2B51BCAECBA |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -358,7 +358,7 @@ Attributen van objecttype Raadscommissie
     | author | Arjen Brienen |
     | version | 1.11.0 |
     | created | 2019-05-16 11:09:46 |
-    | modified | 2025-12-18 15:38:50 |
+    | modified | 2025-12-22 15:26:46 |
     | id | EAID\_5772BEBB\_97FA\_42a9\_B70D\_DB55EAD6D1EE |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -397,9 +397,9 @@ Attributen van objecttype Raadslid
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.13.0 |
+    | version | 1.15.0 |
     | created | 2019-05-16 11:06:43 |
-    | modified | 2025-12-18 15:38:50 |
+    | modified | 2025-12-22 15:44:34 |
     | id | EAID\_440219A4\_C64B\_4eac\_ADE5\_E79ED6AA9BFE |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -439,7 +439,7 @@ Attributen van objecttype Raadsstuk
     | author | Arjen Brienen |
     | version | 1.12.0 |
     | created | 2019-05-16 15:41:33 |
-    | modified | 2025-12-18 15:38:50 |
+    | modified | 2025-12-22 15:26:46 |
     | id | EAID\_331C4A0B\_1505\_4945\_A0B0\_DCD8703AB50F |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -476,7 +476,7 @@ Attributen van objecttype Stemming
     | author | Arjen Brienen |
     | version | 1.12.0 |
     | created | 2019-05-16 11:44:21 |
-    | modified | 2025-12-18 15:38:50 |
+    | modified | 2025-12-22 15:26:46 |
     | id | EAID\_01E83CEC\_D69D\_47eb\_9BAB\_252AABADDD18 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -510,9 +510,9 @@ Attributen van objecttype Taakveld
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.14.0 |
+    | version | 1.16.0 |
     | created | 2019-05-16 11:09:27 |
-    | modified | 2025-12-18 15:38:50 |
+    | modified | 2025-12-22 15:44:34 |
     | id | EAID\_257F4ABF\_7CCD\_453f\_B2E8\_5A6434383A9B |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -568,7 +568,7 @@ De enumeratie Deelnemersrol heeft de volgende kenmerken:
     | author |  |
     | version | 1.10.0 |
     | created | 2025-03-26 11:12:41 |
-    | modified | 2025-12-16 10:28:45 |
+    | modified | 2025-12-22 15:26:46 |
     | id | EAID\_E2EDC770\_08EB\_4298\_A2BA\_F7943ACD695F |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -604,7 +604,7 @@ De enumeratie Stemmingsresultaattype heeft de volgende kenmerken:
     | author |  |
     | version | 1.10.0 |
     | created | 2025-03-26 11:12:41 |
-    | modified | 2025-12-16 10:28:45 |
+    | modified | 2025-12-22 15:26:46 |
     | id | EAID\_0A3A2E20\_2A67\_4e16\_B11E\_36C09F94331D |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -640,7 +640,7 @@ De enumeratie Stemmingstype heeft de volgende kenmerken:
     | author |  |
     | version | 1.10.0 |
     | created | 2025-03-26 11:12:41 |
-    | modified | 2025-12-16 10:28:45 |
+    | modified | 2025-12-22 15:26:46 |
     | id | EAID\_368EB061\_7CF3\_4115\_BB21\_3C618782F205 |
     | domein_iv3 |  |
     | domein_dcat |  |

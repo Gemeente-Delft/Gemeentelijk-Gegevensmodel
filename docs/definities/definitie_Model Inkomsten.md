@@ -16,7 +16,7 @@
     | author | janbr |
     | version | 1.2.0 |
     | created | 2024-06-27 21:51:28 |
-    | modified | 2025-12-18 15:38:53 |
+    | modified | 2025-12-22 15:26:51 |
     | id | EAPK\_2FF1DB74\_1407\_C3BE\_D193\_304A6309B694 |
     
 
@@ -44,7 +44,7 @@ Het model 'Model Inkomsten' kent de volgende objecttypen:
 * **Onkostenvergoeding**: Een persoon kan inkomsten hebben uit onkostenvergoeding.
 * **Pensioen**: Een persoon kan inkomsten hebben uit pensioen.
 * **Primair inkomstencomponent**: Een persoon kan vanuit diverse bronnen inkomsten krijgen. Denk bijvoorbeeld aan alimentatie, loon, uitkering of zelfs vergoedingen voor maaltijden, onkosten, vervoer e.d. De inkomstencomponent vormt een deel van de totale inkomsten van een persoon. Hiermee leggen we vast het type inkomste, het bedrag en de periode waarover dat bedrag is ontvangen en de boekingsdatum waarop het bedrag is ontvangen.Dat laatste is belangrijk voor de verschillende perspectieven op inkomsten te onderscheiden naar loon-in en loon-over.Achtergrond hierbij zijn twee regelingenLoon wordt als regel toegerekend aan het tijdvak waarin het aan de werknemer is betaald (loon-in). Onder bepaalde voorwaarden mogen werkgevers het uitbetaalde loon toerekenen aan een verstreken loontijdvak. Dit wordt de 'loon-over-regeling' genoemd. Waarom populair: voor een werknemer kan het verstrekken van een uitkering e.d. niet in het kalenderjaar maar bijvoorbeeld in het jaar daarop, hem fiscaal gezien voordelen geven.Bij loon-over gaat het om twee regelingen:De eerste regeling houdt in dat een werkgever een in de maand januari van het nieuwe jaar gedane inhouding op loon dat de werknemer voor het voorgaande jaar nog toekomt, mag opnemen in de laatste aangifte over het oude jaar. Daarbij wordt de inhouding volgens de tarieven van het voorgaande jaar berekend. Deze regeling is structureel in de wet opgenomen.De tweede regeling houdt in dat de werkgever binnen het kalenderjaar loonbetalingen mag toerekenen aan de verstreken loontijdvakken waarop zij betrekking hebben, zo nodig door het indienen van correctieberichten.
-* **Reiskosten naar het werk **: Reiskosten naar het werk
+* **Reiskosten naar het werk**: Reiskosten naar het werk
 * **Reiskostenvergoeding**: Een persoon kan inkomsten hebben uit reisvergoeding.
 * **Secundair inkomstencomponent**: Een persoon kan vanuit diverse bronnen inkomsten krijgen. Denk bijvoorbeeld aan alimentatie, loon, uitkering of zelfs vergoedingen voor maaltijden, onkosten, vervoer e.d. De inkomstencomponent vormt een deel van de totale inkomsten van een persoon. Hiermee leggen we vast het type inkomste, het bedrag en de periode waarover dat bedrag is ontvangen en de boekingsdatum waarop het bedrag is ontvangen.Dat laatste is belangrijk voor de verschillende perspectieven op inkomsten te onderscheiden naar loon-in en loon-over.Achtergrond hierbij zijn twee regelingenLoon wordt als regel toegerekend aan het tijdvak waarin het aan de werknemer is betaald (loon-in). Onder bepaalde voorwaarden mogen werkgevers het uitbetaalde loon toerekenen aan een verstreken loontijdvak. Dit wordt de 'loon-over-regeling' genoemd. Waarom populair: voor een werknemer kan het verstrekken van een uitkering e.d. niet in het kalenderjaar maar bijvoorbeeld in het jaar daarop, hem fiscaal gezien voordelen geven.Bij loon-over gaat het om twee regelingen:De eerste regeling houdt in dat een werkgever een in de maand januari van het nieuwe jaar gedane inhouding op loon dat de werknemer voor het voorgaande jaar nog toekomt, mag opnemen in de laatste aangifte over het oude jaar. Daarbij wordt de inhouding volgens de tarieven van het voorgaande jaar berekend. Deze regeling is structureel in de wet opgenomen.De tweede regeling houdt in dat de werkgever binnen het kalenderjaar loonbetalingen mag toerekenen aan de verstreken loontijdvakken waarop zij betrekking hebben, zo nodig door het indienen van correctieberichten.
 * **Stage**: Een persoon kan inkomsten hebben uit stage.
@@ -79,7 +79,7 @@ Het model 'Model Inkomsten' kent de volgende objecttypen:
     | author | janbr |
     | version | 1.11.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-12-16 10:28:34 |
+    | modified | 2025-12-22 15:26:51 |
     | id | EAID\_0CAB2134\_E295\_ADCD\_A732\_293A6ED5D9E0 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -120,7 +120,7 @@ Attributen van objecttype Alimentatie
     | author | janbr |
     | version | 1.11.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-12-16 10:28:34 |
+    | modified | 2025-12-22 15:26:51 |
     | id | EAID\_1A880B88\_29D8\_FB84\_538B\_293A707D1452 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -157,7 +157,7 @@ Attributen van objecttype Ander inkomen
     | author | janbr |
     | version | 1.11.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-12-16 10:28:34 |
+    | modified | 2025-12-22 15:26:51 |
     | id | EAID\_95cf7a63\_ea13\_4ab8\_965b\_51cdbb68fc29 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -193,7 +193,7 @@ Attributen van objecttype Beslag op inkomen
     | author | janbr |
     | version | 1.11.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-12-16 10:28:34 |
+    | modified | 2025-12-22 15:26:51 |
     | id | EAID\_0624AE2E\_52A2\_7A26\_ECA8\_293A6E0F09FE |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -238,7 +238,7 @@ Attributen van objecttype Betaald werk
     | author | janbr |
     | version | 1.11.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-12-16 10:28:34 |
+    | modified | 2025-12-22 15:26:51 |
     | id | EAID\_2771AFDF\_11F9\_592A\_1883\_293A9241CBB3 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -273,7 +273,7 @@ Attributen van objecttype Dertiende maand - eindejaarsuitkering
     | author | janbr |
     | version | 1.11.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-12-16 10:28:34 |
+    | modified | 2025-12-22 15:26:51 |
     | id | EAID\_9e03b696\_a4f8\_4486\_a5d3\_52483f259ed2 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -310,7 +310,7 @@ Attributen van objecttype Draagkracht
     | author | janbr |
     | version | 1.11.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-12-16 10:28:34 |
+    | modified | 2025-12-22 15:26:51 |
     | id | EAID\_0de9912b\_3c6f\_4d8a\_b2b1\_67de0c81ae16 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -349,7 +349,7 @@ Attributen van objecttype Draagkrachtregime
     | author | janbr |
     | version | 1.11.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-12-16 10:28:34 |
+    | modified | 2025-12-22 15:26:51 |
     | id | EAID\_1FB8E23E\_DC06\_2C59\_6AED\_293A6F67508F |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -389,7 +389,7 @@ Attributen van objecttype Eigen bedrijf
     | author | janbr |
     | version | 1.11.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-12-16 10:28:34 |
+    | modified | 2025-12-22 15:26:51 |
     | id | EAID\_87acd5ea\_3ed9\_40d8\_96b0\_8c29ce9296da |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -425,7 +425,7 @@ Attributen van objecttype Eigen bijdrage
     | author | janbr |
     | version | 1.11.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-12-16 10:28:34 |
+    | modified | 2025-12-22 15:26:51 |
     | id | EAID\_1075821F\_E399\_53E2\_3994\_293A6EAD14DA |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -462,7 +462,7 @@ Attributen van objecttype Heffingskorting
     | author | janbr |
     | version | 1.11.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-12-16 10:28:34 |
+    | modified | 2025-12-22 15:26:51 |
     | id | EAID\_1D176A0D\_B1C8\_BCD5\_8439\_293A705AA468 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -499,7 +499,7 @@ Attributen van objecttype Hobby
     | author | janbr |
     | version | 1.11.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-12-16 10:28:34 |
+    | modified | 2025-12-22 15:26:51 |
     | id | EAID\_2235FE95\_D319\_96D3\_FC70\_293A52BBE934 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -543,7 +543,7 @@ Attributen van objecttype Inkomstencomponent
     | author | janbr |
     | version | 1.11.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-12-16 10:28:34 |
+    | modified | 2025-12-22 15:26:51 |
     | id | EAID\_0463EA7D\_FFD9\_AD19\_0405\_294621AE933F |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -581,7 +581,7 @@ Attributen van objecttype Inkomstenverhouding
     | author | janbr |
     | version | 1.11.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-12-16 10:28:34 |
+    | modified | 2025-12-22 15:26:51 |
     | id | EAID\_0B6D4C44\_7D22\_03E3\_23BC\_293A778017DC |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -616,7 +616,7 @@ Attributen van objecttype Inkomstenvermindering
     | author | janbr |
     | version | 1.11.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-12-16 10:28:34 |
+    | modified | 2025-12-22 15:26:51 |
     | id | EAID\_98746714\_07f9\_4942\_b7d1\_096f9631f90f |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -652,7 +652,7 @@ Attributen van objecttype Kostencomponent
     | author | janbr |
     | version | 1.11.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-12-16 10:28:34 |
+    | modified | 2025-12-22 15:26:51 |
     | id | EAID\_08266C73\_A8CD\_3503\_F3FB\_293A7989FC40 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -687,7 +687,7 @@ Attributen van objecttype Loonbeslag
     | author | janbr |
     | version | 1.11.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-12-16 10:28:34 |
+    | modified | 2025-12-22 15:26:51 |
     | id | EAID\_02F81CCD\_E82B\_4A54\_E9C5\_293A778069AE |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -722,7 +722,7 @@ Attributen van objecttype Maaltijdvergoeding
     | author | janbr |
     | version | 1.11.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-12-16 10:28:34 |
+    | modified | 2025-12-22 15:26:51 |
     | id | EAID\_1DB40092\_C231\_63A1\_27BE\_2685FBFA9223 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -763,7 +763,7 @@ Attributen van objecttype Onderhoudsplicht
     | author | janbr |
     | version | 1.11.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-12-16 10:28:34 |
+    | modified | 2025-12-22 15:26:51 |
     | id | EAID\_01CD1BE5\_E952\_7DA0\_ABA1\_2685FBDC10DA |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -801,7 +801,7 @@ Attributen van objecttype Onderhoudsverhouding
     | author | janbr |
     | version | 1.11.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-12-16 10:28:34 |
+    | modified | 2025-12-22 15:26:51 |
     | id | EAID\_21A42BF6\_C12B\_F23F\_093F\_293A7780B58A |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -836,7 +836,7 @@ Attributen van objecttype Onkostenvergoeding
     | author | janbr |
     | version | 1.11.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-12-16 10:28:34 |
+    | modified | 2025-12-22 15:26:51 |
     | id | EAID\_28CBC627\_9980\_C06E\_492F\_293A6E4EE649 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -876,7 +876,7 @@ Attributen van objecttype Pensioen
     | author | janbr |
     | version | 1.11.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-12-16 10:28:34 |
+    | modified | 2025-12-22 15:26:51 |
     | id | EAID\_e0a328b0\_21ff\_469d\_912e\_63465279b5a1 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -894,12 +894,12 @@ Attributen van objecttype Primair inkomstencomponent
 
 
 
-### Reiskosten naar het werk 
-> **Definitie Reiskosten naar het werk :** 
+### Reiskosten naar het werk
+> **Definitie Reiskosten naar het werk:** 
 >
 > Reiskosten naar het werk
 
-??? info "Kenmerken Model Reiskosten naar het werk "
+??? info "Kenmerken Model Reiskosten naar het werk"
 
     | Eigenschap | Waarde |
     | :--- | :------ |
@@ -911,7 +911,7 @@ Attributen van objecttype Primair inkomstencomponent
     | author | janbr |
     | version | 1.11.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-12-16 10:28:34 |
+    | modified | 2026-10-28 19:09:51 |
     | id | EAID\_4c49fb46\_4d05\_49d0\_8e99\_f5d25c625d91 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -922,7 +922,7 @@ Attributen van objecttype Primair inkomstencomponent
     | gemma_toelichting |  |
     
 
-Attributen van objecttype Reiskosten naar het werk 
+Attributen van objecttype Reiskosten naar het werk
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
@@ -947,7 +947,7 @@ Attributen van objecttype Reiskosten naar het werk
     | author | janbr |
     | version | 1.11.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-12-16 10:28:34 |
+    | modified | 2025-12-22 15:26:51 |
     | id | EAID\_029BA63B\_D3DD\_B855\_6C7A\_293A77805B65 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -982,7 +982,7 @@ Attributen van objecttype Reiskostenvergoeding
     | author | janbr |
     | version | 1.11.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-12-16 10:28:34 |
+    | modified | 2025-12-22 15:26:51 |
     | id | EAID\_4ead37c5\_f83b\_423d\_b51e\_92a60e7fa2d9 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -1017,7 +1017,7 @@ Attributen van objecttype Secundair inkomstencomponent
     | author | janbr |
     | version | 1.11.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-12-16 10:28:34 |
+    | modified | 2025-12-22 15:26:51 |
     | id | EAID\_28FCE4B4\_AFCD\_AFE7\_63A5\_293A6F895C47 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -1057,7 +1057,7 @@ Attributen van objecttype Stage
     | author | janbr |
     | version | 1.11.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-12-16 10:28:34 |
+    | modified | 2025-12-22 15:26:51 |
     | id | EAID\_23245F44\_F332\_6237\_D733\_293A6E6E621D |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -1094,7 +1094,7 @@ Attributen van objecttype Studiefinanciering
     | author | janbr |
     | version | 1.11.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-12-16 10:28:34 |
+    | modified | 2025-12-22 15:26:51 |
     | id | EAID\_86ad0007\_f0b8\_4cc2\_8bec\_acc4c9f12dec |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -1130,7 +1130,7 @@ Attributen van objecttype Te betalen alimentatie
     | author | janbr |
     | version | 1.11.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-12-16 10:28:34 |
+    | modified | 2025-12-22 15:26:51 |
     | id | EAID\_079F0BBE\_0EBA\_3EFE\_32BE\_293A6C49F9DC |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -1173,7 +1173,7 @@ Attributen van objecttype Uitkering
     | author | janbr |
     | version | 1.11.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-12-16 10:28:34 |
+    | modified | 2025-12-22 15:26:51 |
     | id | EAID\_24B39342\_7142\_86B3\_3DBD\_293A7780A28B |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -1208,7 +1208,7 @@ Attributen van objecttype Vakantiegeld
     | author | janbr |
     | version | 1.11.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-12-16 10:28:34 |
+    | modified | 2025-12-22 15:26:51 |
     | id | EAID\_1FCFBA02\_5BAC\_6978\_BF60\_293A629C6FC3 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -1243,7 +1243,7 @@ Attributen van objecttype Vergoeding
     | author | janbr |
     | version | 1.11.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-12-16 10:28:34 |
+    | modified | 2025-12-22 15:26:51 |
     | id | EAID\_247066AC\_FBF9\_A511\_B717\_293A77808921 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -1278,7 +1278,7 @@ Attributen van objecttype Vergoeding in natura
     | author | janbr |
     | version | 1.11.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-12-16 10:28:34 |
+    | modified | 2025-12-22 15:26:51 |
     | id | EAID\_21BB5EF1\_DBEF\_1C98\_AA4A\_293A7780C22E |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -1313,7 +1313,7 @@ Attributen van objecttype Verlaging door boete
     | author | janbr |
     | version | 1.11.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-12-16 10:28:34 |
+    | modified | 2025-12-22 15:26:51 |
     | id | EAID\_147DA394\_B3B3\_61F8\_2424\_293A778066AE |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -1348,7 +1348,7 @@ Attributen van objecttype Verlaging door maatregel
     | author | janbr |
     | version | 1.11.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-12-16 10:28:34 |
+    | modified | 2025-12-22 15:26:51 |
     | id | EAID\_1DC195DD\_888E\_945B\_4A20\_2A2CB3694D4C |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -1401,10 +1401,10 @@ De enumeratie InkomstensoortAlimentatie heeft de volgende kenmerken:
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.0 |
+    | version | 1.2.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-12-20 18:36:49 |
-    | id | EAID\_432ecd34\_d4d5\_4c3b\_80a4\_91dad4f391d3 |
+    | modified | 2025-12-22 15:44:49 |
+    | id | EAID\_046652e1\_4c7b\_4601\_a439\_9abe4ab9fc6e |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1436,10 +1436,10 @@ De enumeratie InkomstensoortBetaaldWerk heeft de volgende kenmerken:
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.0 |
+    | version | 1.2.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-12-20 18:36:53 |
-    | id | EAID\_e9691822\_c6b1\_43cb\_922e\_7252aee667cb |
+    | modified | 2025-12-22 15:44:49 |
+    | id | EAID\_42ce386a\_df56\_45fa\_8d91\_5499f683d6de |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1479,10 +1479,10 @@ De enumeratie CdUitkeringsperiode heeft de volgende kenmerken:
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.0 |
+    | version | 1.2.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-12-20 18:36:30 |
-    | id | EAID\_202b3e26\_f5ce\_4375\_a7e6\_ba1fc68d9a75 |
+    | modified | 2025-12-22 15:44:49 |
+    | id | EAID\_88b0e059\_797a\_4c6e\_8164\_5a71b3078c73 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1517,10 +1517,10 @@ De enumeratie SoortContract heeft de volgende kenmerken:
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.0 |
+    | version | 1.2.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-12-20 18:37:29 |
-    | id | EAID\_cbdeb47e\_831e\_4b90\_8a47\_e1fe87da675f |
+    | modified | 2025-12-22 15:44:49 |
+    | id | EAID\_95ec4c58\_2509\_4cae\_aa24\_1e77c2c85bcb |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1552,10 +1552,10 @@ De enumeratie BrutoNettoInkomsten heeft de volgende kenmerken:
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.0 |
+    | version | 1.2.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-12-20 18:36:15 |
-    | id | EAID\_afeab853\_61f5\_461d\_b094\_8dc32a2fe22e |
+    | modified | 2025-12-22 15:44:49 |
+    | id | EAID\_79cf4908\_885e\_4b36\_974a\_cc3dcb97aaca |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1597,10 +1597,10 @@ De enumeratie Inkomstencomponenttype heeft de volgende kenmerken:
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.0 |
+    | version | 1.2.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-12-20 18:36:42 |
-    | id | EAID\_0dac67f1\_c3fb\_4afa\_8ed0\_830851cb199e |
+    | modified | 2025-12-22 15:44:49 |
+    | id | EAID\_8f0d9a9c\_45b9\_40c8\_8bdf\_0fda82b3eb13 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1678,10 +1678,10 @@ De enumeratie CdSrtInkomstenverhouding heeft de volgende kenmerken:
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.0 |
+    | version | 1.2.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-12-20 18:36:20 |
-    | id | EAID\_df0961dd\_77e2\_4b17\_b6bf\_413143db9fd9 |
+    | modified | 2025-12-22 15:44:49 |
+    | id | EAID\_8f2d5916\_3ea9\_446d\_a346\_fb95464659e2 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1713,10 +1713,10 @@ De enumeratie Onderhoudsplichttype heeft de volgende kenmerken:
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.0 |
+    | version | 1.2.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-12-20 18:37:20 |
-    | id | EAID\_30fb7747\_0db4\_4a9d\_9dfd\_fd22a06e5bcc |
+    | modified | 2025-12-22 15:44:49 |
+    | id | EAID\_dac40b28\_7015\_452f\_9f15\_3dcf8b990bc2 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1752,10 +1752,10 @@ De enumeratie InkomstensoortPensioen heeft de volgende kenmerken:
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.0 |
+    | version | 1.2.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-12-20 18:36:59 |
-    | id | EAID\_dcde1ee5\_234a\_4396\_afaf\_9c8b16e37d76 |
+    | modified | 2025-12-22 15:44:49 |
+    | id | EAID\_10bd897f\_5d5d\_4204\_812b\_bcd756241cff |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1795,10 +1795,10 @@ De enumeratie CdUitkeringsperiode heeft de volgende kenmerken:
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.0 |
+    | version | 1.2.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-12-20 18:36:30 |
-    | id | EAID\_0ec0cc90\_9060\_4aab\_80d8\_9aface58f60f |
+    | modified | 2025-12-22 15:44:49 |
+    | id | EAID\_2b55122c\_47c5\_4092\_9977\_e36d9d519538 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1838,10 +1838,10 @@ De enumeratie CdUitkeringsperiode heeft de volgende kenmerken:
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.0 |
+    | version | 1.2.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-12-20 18:36:30 |
-    | id | EAID\_d3df01ce\_0a17\_4cdb\_a527\_9384e535a090 |
+    | modified | 2025-12-22 15:44:49 |
+    | id | EAID\_4d52fbcd\_259d\_49f0\_8721\_265277c3b66a |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1873,10 +1873,10 @@ De enumeratie InkomstensoortStudiefinanciering heeft de volgende kenmerken:
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.0 |
+    | version | 1.2.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-12-20 18:37:04 |
-    | id | EAID\_30830314\_5b3d\_45c8\_affb\_a31feb854f58 |
+    | modified | 2025-12-22 15:44:49 |
+    | id | EAID\_fb98523e\_fd1f\_4af7\_afe8\_91f3e0ef0bf8 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1960,10 +1960,10 @@ De enumeratie CdSzWet heeft de volgende kenmerken:
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.0 |
+    | version | 1.2.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-12-20 18:36:25 |
-    | id | EAID\_64124d38\_b59b\_431c\_97a3\_083c84d387f1 |
+    | modified | 2025-12-22 15:44:49 |
+    | id | EAID\_ed923487\_0562\_4e52\_b435\_c47123e34cc2 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -2003,10 +2003,10 @@ De enumeratie CdUitkeringsperiode heeft de volgende kenmerken:
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.0 |
+    | version | 1.2.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-12-20 18:36:30 |
-    | id | EAID\_504520e3\_c0a8\_47c3\_8d33\_fb9d6c3e651d |
+    | modified | 2025-12-22 15:44:49 |
+    | id | EAID\_0b133395\_b37b\_433f\_a5ae\_a2f4e0c0b032 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -2039,10 +2039,10 @@ De enumeratie JsonRuledGroupType heeft de volgende kenmerken:
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.0 |
+    | version | 1.2.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-12-20 18:37:15 |
-    | id | EAID\_f6608585\_3503\_489a\_9470\_c786a27d0ee0 |
+    | modified | 2025-12-22 15:44:49 |
+    | id | EAID\_5d220002\_e9fa\_450a\_95c8\_cbf46bf12a23 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -2075,10 +2075,10 @@ De enumeratie CodeSoortVrijlating heeft de volgende kenmerken:
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.0 |
+    | version | 1.2.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-12-20 18:36:35 |
-    | id | EAID\_1ff3978d\_8703\_44e0\_b147\_05c8c0888a04 |
+    | modified | 2025-12-22 15:44:49 |
+    | id | EAID\_6d644279\_cc4d\_4525\_bfaf\_06a0bd629e1f |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |

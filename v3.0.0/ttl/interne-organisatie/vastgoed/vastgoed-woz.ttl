@@ -167,27 +167,6 @@
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
     rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/kadastraleonroerendezaak> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/kadastraleonroerendezaak/oud> a mim:Relatiesoort,
-        owl:ObjectProperty ;
-    rdfs:label "oud"@nl ;
-    mim:aggregatietype mim:Geen ;
-    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/kadastraleonroerendezaak> ;
-    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/kadastraleonroerendezaak> ;
-    mim:heeftTijdlijnGeldigheid false ;
-    mim:heeftTijdlijnRegistratie false ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/kadastraleonroerendezaak/oud"^^xsd:anyURI ;
-    mim:indicatieAfleidbaar false ;
-    mim:indicatieFormeleHistorie false ;
-    mim:indicatieMaterieleHistorie false ;
-    mim:kardinaliteit "0..*" ;
-    mim:mogelijkGeenWaarde true ;
-    mim:naam "oud"@nl ;
-    mim:unidirectioneel true ;
-    dcterms:identifier "EAID_dstEE5BED_D39A_4e50_ACD7_4924DF1DF463" ;
-    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/kadastraleonroerendezaak> ;
-    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
-    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/kadastraleonroerendezaak> .
-
 <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/rechtspersoon/adresbinnenland> a mim:Relatiesoort,
         owl:ObjectProperty ;
     rdfs:label "adresBinnenland"@nl ;
@@ -387,6 +366,33 @@ gedeeltelijk deel uitmaakt van het WOZ-DEELOBJECT."""@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
     rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/woz-belang> .
 
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/woz-object/ligt-aan> a mim:Relatiesoort,
+        owl:ObjectProperty ;
+    rdfs:label "ligt aan"@nl ;
+    mim:aggregatietype mim:Geen ;
+    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/woz-object> ;
+    mim:datumOpname "2007-11-30"^^xsd:date ;
+    mim:definitie "De unieke aanduiding van de OPENBARE RUIMTE waarvan de aanduiding van het WOZ-object wordt afgeleid met behulp van de locatieomschrijving."@nl ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/openbareruimte> ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:herkomst "BRWOZ/KING" ;
+    mim:herkomstDefinitie "KING op basis van de catalogus BRWOZ" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/woz-object/ligt-aan"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "0..1" ;
+    mim:kardinaliteitRelatieBron "0..*" ;
+    mim:mogelijkGeenWaarde false ;
+    mim:naam "ligt aan"@nl ;
+    mim:unidirectioneel true ;
+    dcterms:identifier "EAID_0A2FDD46_9A5F_44dc_9399_32C1F10D382D" ;
+    rdfs:comment "De unieke aanduiding van de OPENBARE RUIMTE waarvan de aanduiding van het WOZ-object wordt afgeleid met behulp van de locatieomschrijving."@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/woz-object> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/openbareruimte> .
+
 <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/woz-waarde/is-voor> a mim:Relatiesoort,
         owl:ObjectProperty ;
     rdfs:label "is voor"@nl ;
@@ -427,7 +433,7 @@ gedeeltelijk deel uitmaakt van het WOZ-DEELOBJECT."""@nl ;
     mim:code "E" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/aanduidingeigenaargebruiker/eigenaar"^^xsd:anyURI ;
     mim:naam "eigenaar"@nl ;
-    dcterms:identifier "EAID_235a77b7_7690_4fd0_a21f_019cba8ac30e" ;
+    dcterms:identifier "EAID_12369c65_9134_4390_9069_b47bbb8181c0" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/aanduidingeigenaargebruiker> ;
     skos:notation "E" ;
     skos:prefLabel "eigenaar"@nl ;
@@ -440,7 +446,7 @@ gedeeltelijk deel uitmaakt van het WOZ-DEELOBJECT."""@nl ;
     mim:code "B" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/aanduidingeigenaargebruiker/eigenaar-gebruiker"^^xsd:anyURI ;
     mim:naam "eigenaar-gebruiker"@nl ;
-    dcterms:identifier "EAID_2d9900bc_ab23_4141_9730_2eec202db313" ;
+    dcterms:identifier "EAID_982bb62f_61f1_4728_8467_455ddcb98e61" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/aanduidingeigenaargebruiker> ;
     skos:notation "B" ;
     skos:prefLabel "eigenaar-gebruiker"@nl ;
@@ -453,7 +459,7 @@ gedeeltelijk deel uitmaakt van het WOZ-DEELOBJECT."""@nl ;
     mim:code "G" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/aanduidingeigenaargebruiker/gebruiker"^^xsd:anyURI ;
     mim:naam "gebruiker"@nl ;
-    dcterms:identifier "EAID_3af3ff9e_c7af_4e5f_88da_c3a5cd64b637" ;
+    dcterms:identifier "EAID_3cf77567_4a9c_4c4e_bfc8_1a2eba6a6579" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/aanduidingeigenaargebruiker> ;
     skos:notation "G" ;
     skos:prefLabel "gebruiker"@nl ;
@@ -466,7 +472,7 @@ gedeeltelijk deel uitmaakt van het WOZ-DEELOBJECT."""@nl ;
     mim:code "-2" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/aanduidingeigenaargebruiker/leeg"^^xsd:anyURI ;
     mim:naam "Leeg"@nl ;
-    dcterms:identifier "EAID_9045744f_4005_4a31_a7ed_bbb1490b002d" ;
+    dcterms:identifier "EAID_bc9aa052_4656_46b0_97e2_2e4fcfb9ebed" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/aanduidingeigenaargebruiker> ;
     skos:notation "-2" ;
     skos:prefLabel "Leeg"@nl ;
@@ -479,7 +485,7 @@ gedeeltelijk deel uitmaakt van het WOZ-DEELOBJECT."""@nl ;
     mim:code "M" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/aanduidingeigenaargebruiker/medebelanghebbende"^^xsd:anyURI ;
     mim:naam "medebelanghebbende"@nl ;
-    dcterms:identifier "EAID_c86e4a62_a1a8_402b_a4f1_2fd9da8ccb53" ;
+    dcterms:identifier "EAID_d786389e_5b71_4536_8056_1184f138f176" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/aanduidingeigenaargebruiker> ;
     skos:notation "M" ;
     skos:prefLabel "medebelanghebbende"@nl ;
@@ -492,7 +498,7 @@ gedeeltelijk deel uitmaakt van het WOZ-DEELOBJECT."""@nl ;
     mim:code "-1" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/aanduidingeigenaargebruiker/onbekend"^^xsd:anyURI ;
     mim:naam "Onbekend"@nl ;
-    dcterms:identifier "EAID_0db54c7d_cade_4511_8585_dc46274524d4" ;
+    dcterms:identifier "EAID_3bc2ac7b_64b7_4bb9_85df_85d3632c60ff" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/aanduidingeigenaargebruiker> ;
     skos:notation "-1" ;
     skos:prefLabel "Onbekend"@nl ;
@@ -505,10 +511,10 @@ gedeeltelijk deel uitmaakt van het WOZ-DEELOBJECT."""@nl ;
     mim:code "1" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/boolean/ja"^^xsd:anyURI ;
     mim:naam "Ja"@nl ;
-    dcterms:identifier "EAID_1e2533ea_5cdc_4378_99ae_9b676fcb68f0",
-        "EAID_3812e7b4_0b8e_46e0_a1f5_1d07729244a8",
-        "EAID_605acd50_f645_4951_8f20_97d561cc4301",
-        "EAID_f2e9e12e_fdcd_4368_9ed5_5f633bcd5838" ;
+    dcterms:identifier "EAID_2edf67f1_a9f7_4fa9_ba32_9f22b9b22c33",
+        "EAID_c440a797_38cd_4d40_b5a8_9d6eefff07d8",
+        "EAID_da619701_ea24_49b6_bf94_30330dbb4c4a",
+        "EAID_e6d0927f_4400_4262_abfc_4dfe8745d85e" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/boolean> ;
     skos:notation "1" ;
     skos:prefLabel "Ja"@nl ;
@@ -521,10 +527,10 @@ gedeeltelijk deel uitmaakt van het WOZ-DEELOBJECT."""@nl ;
     mim:code "-2" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/boolean/leeg"^^xsd:anyURI ;
     mim:naam "Leeg"@nl ;
-    dcterms:identifier "EAID_06198395_f764_40ac_97fe_221e9fcfe93f",
-        "EAID_09290977_09fa_4c49_ad03_7c2ff6f52b8c",
-        "EAID_70aaba0f_6cb2_41fb_83d8_562ec1081b7e",
-        "EAID_cf99590a_d95a_48d2_a723_aa1d3f8d9564" ;
+    dcterms:identifier "EAID_3ec951e6_03b5_4ed2_8dbb_7d097ad15765",
+        "EAID_81f2c578_d84c_48dc_be1f_473d1cea4a98",
+        "EAID_95be1101_f96c_4821_b421_b234919b5712",
+        "EAID_a47673b1_4111_49b1_8620_825829bedab7" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/boolean> ;
     skos:notation "-2" ;
     skos:prefLabel "Leeg"@nl ;
@@ -537,10 +543,10 @@ gedeeltelijk deel uitmaakt van het WOZ-DEELOBJECT."""@nl ;
     mim:code "0" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/boolean/nee"^^xsd:anyURI ;
     mim:naam "Nee"@nl ;
-    dcterms:identifier "EAID_021f3d67_7e6e_419c_8029_ab396b6dc30d",
-        "EAID_42fc6ff9_5801_4338_bb63_023a8b6ffd9b",
-        "EAID_6f1b3d89_2ce2_4890_bc67_5e14b8d355fe",
-        "EAID_fb49fc2d_6c7e_4aa9_943f_20f267544ce1" ;
+    dcterms:identifier "EAID_06377fac_8f35_4961_a06a_fc4c11d4029e",
+        "EAID_32492623_78bb_429a_bda9_89ffe8bf6b13",
+        "EAID_d532a054_3984_4266_ab06_e046df4ba4da",
+        "EAID_e3afb2aa_eee8_426e_99ed_2d78bfb423e9" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/boolean> ;
     skos:notation "0" ;
     skos:prefLabel "Nee"@nl ;
@@ -553,10 +559,10 @@ gedeeltelijk deel uitmaakt van het WOZ-DEELOBJECT."""@nl ;
     mim:code "-1" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/boolean/onbekend"^^xsd:anyURI ;
     mim:naam "Onbekend"@nl ;
-    dcterms:identifier "EAID_09aab797_27be_4fe1_b403_e90217293efd",
-        "EAID_3190ca13_f9ac_46a3_ae80_bb9fc38d4c28",
-        "EAID_851ed503_54f8_458a_94fd_1d462671939e",
-        "EAID_bfe0145b_d9b7_47fa_a759_c8a0d2988a95" ;
+    dcterms:identifier "EAID_02161544_4175_45db_964c_f79a945a73df",
+        "EAID_55128365_5a6f_4615_96c6_74fec5fd2c0f",
+        "EAID_7cdad51c_9604_4a2b_9fa1_6d79408cf5d8",
+        "EAID_862e37be_66d3_4e2d_8353_9b8973873def" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/boolean> ;
     skos:notation "-1" ;
     skos:prefLabel "Onbekend"@nl ;
@@ -1394,6 +1400,7 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
     mim:definitie "<font color=\"#0f0f0f\">Bevat de naam van de openbare ruimte ten behoeve van visualisatie.</font>"@nl ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
+    mim:herkomst "BGT" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/bag/openbareruimte/labelnaam"^^xsd:anyURI ;
     mim:indicatieAfleidbaar false ;
     mim:indicatieClassificerend false ;
@@ -3290,7 +3297,7 @@ ONROERENDE ZAAK gelegen is."""@nl ;
     mim:code "20" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortgebruik/boerderij"^^xsd:anyURI ;
     mim:naam "boerderij"@nl ;
-    dcterms:identifier "EAID_781ab57c_75ee_4123_86b9_9a6f06ce0220" ;
+    dcterms:identifier "EAID_cd113fd9_c3bc_43b0_b7f8_bd1cf329c065" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortgebruik> ;
     skos:notation "20" ;
     skos:prefLabel "boerderij"@nl ;
@@ -3303,7 +3310,7 @@ ONROERENDE ZAAK gelegen is."""@nl ;
     mim:code "30" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortgebruik/niet-woning"^^xsd:anyURI ;
     mim:naam "niet-woning"@nl ;
-    dcterms:identifier "EAID_3c16c908_b5ad_47e9_9eeb_5af7952b4381" ;
+    dcterms:identifier "EAID_3a7f8f19_d3ed_4e68_bd8d_174c7d14317e" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortgebruik> ;
     skos:notation "30" ;
     skos:prefLabel "niet-woning"@nl ;
@@ -3316,7 +3323,7 @@ ONROERENDE ZAAK gelegen is."""@nl ;
     mim:code "21" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortgebruik/niet-woning-deels-in-gebruik-als-woning"^^xsd:anyURI ;
     mim:naam "niet-woning deels in gebruik als woning"@nl ;
-    dcterms:identifier "EAID_5f7416e1_2c5a_43af_a4c0_c4aca2a9cf21" ;
+    dcterms:identifier "EAID_109a7958_b2af_4dc0_af8d_f70945135f24" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortgebruik> ;
     skos:notation "21" ;
     skos:prefLabel "niet-woning deels in gebruik als woning"@nl ;
@@ -3329,7 +3336,7 @@ ONROERENDE ZAAK gelegen is."""@nl ;
     mim:code "12" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortgebruik/recreatiewoning-en-overige-woningen"^^xsd:anyURI ;
     mim:naam "recreatiewoning en overige woningen"@nl ;
-    dcterms:identifier "EAID_bc0b13a5_6247_4d10_b742_2f5f973fd7ac" ;
+    dcterms:identifier "EAID_fa72dd4c_fdba_45cf_8d6b_f7ed69110843" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortgebruik> ;
     skos:notation "12" ;
     skos:prefLabel "recreatiewoning en overige woningen"@nl ;
@@ -3342,7 +3349,7 @@ ONROERENDE ZAAK gelegen is."""@nl ;
     mim:code "90" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortgebruik/sluimerend-woz-object"^^xsd:anyURI ;
     mim:naam "sluimerend WOZ-object"@nl ;
-    dcterms:identifier "EAID_2b2c8e4a_a4e4_42ab_8aaf_a1a6136d39f6" ;
+    dcterms:identifier "EAID_d84c183c_99c9_4240_9501_dda528189585" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortgebruik> ;
     skos:notation "90" ;
     skos:prefLabel "sluimerend WOZ-object"@nl ;
@@ -3355,7 +3362,7 @@ ONROERENDE ZAAK gelegen is."""@nl ;
     mim:code "40" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortgebruik/terrein"^^xsd:anyURI ;
     mim:naam "terrein"@nl ;
-    dcterms:identifier "EAID_2d2511be_ecc0_41e0_afbe_3370f55bf4ee" ;
+    dcterms:identifier "EAID_4b4d5752_a13b_495f_b778_23b18d41ba4b" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortgebruik> ;
     skos:notation "40" ;
     skos:prefLabel "terrein"@nl ;
@@ -3368,7 +3375,7 @@ ONROERENDE ZAAK gelegen is."""@nl ;
     mim:code "31" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortgebruik/uitgezonderd-gebouwd-object"^^xsd:anyURI ;
     mim:naam "uitgezonderd gebouwd object"@nl ;
-    dcterms:identifier "EAID_f3125ae0_64c3_4001_9db2_9c9fbc68ada0" ;
+    dcterms:identifier "EAID_df0d4a7d_2118_4c4c_bdda_a59ad922f7af" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortgebruik> ;
     skos:notation "31" ;
     skos:prefLabel "uitgezonderd gebouwd object"@nl ;
@@ -3381,7 +3388,7 @@ ONROERENDE ZAAK gelegen is."""@nl ;
     mim:code "80" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortgebruik/uitgezonderd-ongebouwd-object"^^xsd:anyURI ;
     mim:naam "uitgezonderd ongebouwd object"@nl ;
-    dcterms:identifier "EAID_f3b93ab4_ebc3_4c09_b198_1fb1ae8d1cb4" ;
+    dcterms:identifier "EAID_021af22b_1a10_4a22_a7f8_b91d83c9e3d2" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortgebruik> ;
     skos:notation "80" ;
     skos:prefLabel "uitgezonderd ongebouwd object"@nl ;
@@ -3394,7 +3401,7 @@ ONROERENDE ZAAK gelegen is."""@nl ;
     mim:code "10" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortgebruik/woning-dienend-tot-hoofdverblijf"^^xsd:anyURI ;
     mim:naam "woning dienend tot hoofdverblijf"@nl ;
-    dcterms:identifier "EAID_34bde34d_797a_4e88_adbb_ce62e87e29c8" ;
+    dcterms:identifier "EAID_721c8452_24ba_42c8_a24f_076c6211f823" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortgebruik> ;
     skos:notation "10" ;
     skos:prefLabel "woning dienend tot hoofdverblijf"@nl ;
@@ -3407,7 +3414,7 @@ ONROERENDE ZAAK gelegen is."""@nl ;
     mim:code "11" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortgebruik/woning-met-praktijkruimte"^^xsd:anyURI ;
     mim:naam "woning met praktijkruimte"@nl ;
-    dcterms:identifier "EAID_f73e078c_0756_452d_9662_2af9990fe056" ;
+    dcterms:identifier "EAID_68e79cbb_bd32_40e0_b784_2f875c755ac7" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortgebruik> ;
     skos:notation "11" ;
     skos:prefLabel "woning met praktijkruimte"@nl ;
@@ -3420,7 +3427,7 @@ ONROERENDE ZAAK gelegen is."""@nl ;
     mim:code "31" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/statuswoz-beschikking/arrest-hoge-raad-beschikking-gehandhaafd"^^xsd:anyURI ;
     mim:naam "arrest Hoge Raad, beschikking gehandhaafd"@nl ;
-    dcterms:identifier "EAID_5eb0a1e5_534e_48e0_ae14_7c9b874211db" ;
+    dcterms:identifier "EAID_b71fe613_5282_4122_9a4a_c2f5bffb91c5" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/statuswoz-beschikking> ;
     skos:notation "31" ;
     skos:prefLabel "arrest Hoge Raad, beschikking gehandhaafd"@nl ;
@@ -3433,7 +3440,7 @@ ONROERENDE ZAAK gelegen is."""@nl ;
     mim:code "33" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/statuswoz-beschikking/arrest-hoge-raad-geding-verwezen"^^xsd:anyURI ;
     mim:naam "arrest Hoge Raad, geding verwezen"@nl ;
-    dcterms:identifier "EAID_2dcd7445_81bd_473d_a6c9_0bac43d58e51" ;
+    dcterms:identifier "EAID_3d97111e_f4b6_48da_84de_75f6cc454929" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/statuswoz-beschikking> ;
     skos:notation "33" ;
     skos:prefLabel "arrest Hoge Raad, geding verwezen"@nl ;
@@ -3446,7 +3453,7 @@ ONROERENDE ZAAK gelegen is."""@nl ;
     mim:code "32" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/statuswoz-beschikking/arrest-hoge-raad-vastgestelde-waarde-veranderd"^^xsd:anyURI ;
     mim:naam "arrest Hoge Raad, vastgestelde waarde veranderd"@nl ;
-    dcterms:identifier "EAID_ce4cb1d1_c896_47d9_8b68_9a527ba99e1a" ;
+    dcterms:identifier "EAID_48519410_985c_44c0_a6f6_fb78655d8d9d" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/statuswoz-beschikking> ;
     skos:notation "32" ;
     skos:prefLabel "arrest Hoge Raad, vastgestelde waarde veranderd"@nl ;
@@ -3459,7 +3466,7 @@ ONROERENDE ZAAK gelegen is."""@nl ;
     mim:code "20" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/statuswoz-beschikking/beroep-aangetekend"^^xsd:anyURI ;
     mim:naam "beroep aangetekend"@nl ;
-    dcterms:identifier "EAID_a4ddbda3_f4db_45a2_ab35_7cc4bd47e3e0" ;
+    dcterms:identifier "EAID_fd67aac7_4b2c_49f9_a1d2_a44741297cc0" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/statuswoz-beschikking> ;
     skos:notation "20" ;
     skos:prefLabel "beroep aangetekend"@nl ;
@@ -3472,7 +3479,7 @@ ONROERENDE ZAAK gelegen is."""@nl ;
     mim:code "01" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/statuswoz-beschikking/beschikking-genomen"^^xsd:anyURI ;
     mim:naam "beschikking genomen"@nl ;
-    dcterms:identifier "EAID_040ab659_7fa4_4f47_9fd7_ae71633ff9cf" ;
+    dcterms:identifier "EAID_af1972b3_f4a8_4a13_a7ee_2445ee66aec1" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/statuswoz-beschikking> ;
     skos:notation "01" ;
     skos:prefLabel "beschikking genomen"@nl ;
@@ -3485,7 +3492,7 @@ ONROERENDE ZAAK gelegen is."""@nl ;
     mim:code "11" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/statuswoz-beschikking/bezwaar-afgehandeld-beschikking-gehandhaafd"^^xsd:anyURI ;
     mim:naam "bezwaar afgehandeld, beschikking gehandhaafd"@nl ;
-    dcterms:identifier "EAID_a6a44e0b_55d8_4f1f_9e2e_c6f95458018d" ;
+    dcterms:identifier "EAID_e8dd8e15_1ad7_476b_94eb_f49aee8d5664" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/statuswoz-beschikking> ;
     skos:notation "11" ;
     skos:prefLabel "bezwaar afgehandeld, beschikking gehandhaafd"@nl ;
@@ -3498,7 +3505,7 @@ ONROERENDE ZAAK gelegen is."""@nl ;
     mim:code "12" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/statuswoz-beschikking/bezwaar-afgehandeld-vastgestelde-waarde-veranderd"^^xsd:anyURI ;
     mim:naam "bezwaar afgehandeld, vastgestelde waarde veranderd"@nl ;
-    dcterms:identifier "EAID_337bf3b7_9344_4dde_a34b_f049b9950a49" ;
+    dcterms:identifier "EAID_bd0c11f3_f47a_4b05_8485_c3c99345f905" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/statuswoz-beschikking> ;
     skos:notation "12" ;
     skos:prefLabel "bezwaar afgehandeld, vastgestelde waarde veranderd"@nl ;
@@ -3511,7 +3518,7 @@ ONROERENDE ZAAK gelegen is."""@nl ;
     mim:code "10" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/statuswoz-beschikking/bezwaar-ingediend"^^xsd:anyURI ;
     mim:naam "bezwaar ingediend"@nl ;
-    dcterms:identifier "EAID_91112874_c6c7_4fc1_8d12_fc1d9da5c054" ;
+    dcterms:identifier "EAID_9283e59a_3ac7_4cdb_9e34_0050dd1b9b0d" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/statuswoz-beschikking> ;
     skos:notation "10" ;
     skos:prefLabel "bezwaar ingediend"@nl ;
@@ -3524,7 +3531,7 @@ ONROERENDE ZAAK gelegen is."""@nl ;
     mim:code "30" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/statuswoz-beschikking/cassatie-ingesteld"^^xsd:anyURI ;
     mim:naam "cassatie ingesteld"@nl ;
-    dcterms:identifier "EAID_7fb9fc3a_7a61_4b65_b89a_fa32d6a81ade" ;
+    dcterms:identifier "EAID_ef08787f_3720_475e_ae96_31080544da20" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/statuswoz-beschikking> ;
     skos:notation "30" ;
     skos:prefLabel "cassatie ingesteld"@nl ;
@@ -3537,7 +3544,7 @@ ONROERENDE ZAAK gelegen is."""@nl ;
     mim:code "03" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/statuswoz-beschikking/herzieningsbeschikking"^^xsd:anyURI ;
     mim:naam "herzieningsbeschikking"@nl ;
-    dcterms:identifier "EAID_dac7dac4_8ece_42be_a0a7_a7da3f97da94" ;
+    dcterms:identifier "EAID_53a45e59_67ad_4400_ae13_7f72010614b1" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/statuswoz-beschikking> ;
     skos:notation "03" ;
     skos:prefLabel "herzieningsbeschikking"@nl ;
@@ -3550,7 +3557,7 @@ ONROERENDE ZAAK gelegen is."""@nl ;
     mim:code "23" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/statuswoz-beschikking/hoger-beroep-aangetekend"^^xsd:anyURI ;
     mim:naam "hoger beroep aangetekend"@nl ;
-    dcterms:identifier "EAID_0d87d233_4985_4824_a207_16e88b4f2238" ;
+    dcterms:identifier "EAID_88748254_8639_4a8c_88ab_83bb1ccc16fd" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/statuswoz-beschikking> ;
     skos:notation "23" ;
     skos:prefLabel "hoger beroep aangetekend"@nl ;
@@ -3563,7 +3570,7 @@ ONROERENDE ZAAK gelegen is."""@nl ;
     mim:code "21" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/statuswoz-beschikking/uitspraak-beroep-beschikking-gehandhaafd"^^xsd:anyURI ;
     mim:naam "uitspraak beroep, beschikking gehandhaafd"@nl ;
-    dcterms:identifier "EAID_1d5db598_8fa1_4766_8707_9cb3d39630b0" ;
+    dcterms:identifier "EAID_438e92cb_474f_4df0_b503_f1e62b4c138e" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/statuswoz-beschikking> ;
     skos:notation "21" ;
     skos:prefLabel "uitspraak beroep, beschikking gehandhaafd"@nl ;
@@ -3576,7 +3583,7 @@ ONROERENDE ZAAK gelegen is."""@nl ;
     mim:code "22" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/statuswoz-beschikking/uitspraak-beroep-vastgestelde-waarde-veranderd"^^xsd:anyURI ;
     mim:naam "uitspraak beroep, vastgestelde waarde veranderd"@nl ;
-    dcterms:identifier "EAID_b4575056_c651_4ae6_8ce3_a6ca70fbe4a4" ;
+    dcterms:identifier "EAID_75457ab5_8431_4f27_aaf9_82690ab19a19" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/statuswoz-beschikking> ;
     skos:notation "22" ;
     skos:prefLabel "uitspraak beroep, vastgestelde waarde veranderd"@nl ;
@@ -3589,7 +3596,7 @@ ONROERENDE ZAAK gelegen is."""@nl ;
     mim:code "24" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/statuswoz-beschikking/uitspraak-hoger-beroep-beschikking-gehandhaafd"^^xsd:anyURI ;
     mim:naam "uitspraak hoger beroep, beschikking gehandhaafd"@nl ;
-    dcterms:identifier "EAID_5aa7cb6f_5670_4732_b4b6_d0c702a0a8b3" ;
+    dcterms:identifier "EAID_96fcac98_79c1_446d_a79c_90f444fbcea6" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/statuswoz-beschikking> ;
     skos:notation "24" ;
     skos:prefLabel "uitspraak hoger beroep, beschikking gehandhaafd"@nl ;
@@ -3602,7 +3609,7 @@ ONROERENDE ZAAK gelegen is."""@nl ;
     mim:code "25" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/statuswoz-beschikking/uitspraak-hoger-beroep-vastgestelde-waarde-veranderd"^^xsd:anyURI ;
     mim:naam "uitspraak hoger beroep, vastgestelde waarde veranderd"@nl ;
-    dcterms:identifier "EAID_0b6d6c15_4672_4448_a475_4807c1139931" ;
+    dcterms:identifier "EAID_e30f3aa4_03a5_418e_9e2d_a10608b2d0ec" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/statuswoz-beschikking> ;
     skos:notation "25" ;
     skos:prefLabel "uitspraak hoger beroep, vastgestelde waarde veranderd"@nl ;
@@ -3615,7 +3622,7 @@ ONROERENDE ZAAK gelegen is."""@nl ;
     mim:code "02" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/statuswoz-beschikking/vernietiging-beschikking"^^xsd:anyURI ;
     mim:naam "vernietiging beschikking"@nl ;
-    dcterms:identifier "EAID_33ce38dc_4e94_425b_addb_93c4413cee16" ;
+    dcterms:identifier "EAID_bb150abf_e07a_429d_b59c_14ea7787c5c1" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/statuswoz-beschikking> ;
     skos:notation "02" ;
     skos:prefLabel "vernietiging beschikking"@nl ;
@@ -3628,7 +3635,7 @@ ONROERENDE ZAAK gelegen is."""@nl ;
     mim:code "13" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/statuswoz-beschikking/waarde-ambtshalve-verminderd"^^xsd:anyURI ;
     mim:naam "waarde ambtshalve verminderd"@nl ;
-    dcterms:identifier "EAID_11f2a08a_48bc_49a0_804d_7888c08cb300" ;
+    dcterms:identifier "EAID_1a5ab540_9d9e_44b5_bcb6_afd3a0b5aada" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/statuswoz-beschikking> ;
     skos:notation "13" ;
     skos:prefLabel "waarde ambtshalve verminderd"@nl ;
@@ -3641,7 +3648,7 @@ ONROERENDE ZAAK gelegen is."""@nl ;
     mim:code "99" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/statuswoz-beschikking/waarde-te-gebruiken-voor-voorlopige-aanslag"^^xsd:anyURI ;
     mim:naam "waarde te gebruiken voor voorlopige aanslag"@nl ;
-    dcterms:identifier "EAID_829e5845_7f78_4c4c_83ee_27d530348014" ;
+    dcterms:identifier "EAID_00991e5d_f7b9_418b_976c_63d35adcf100" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/statuswoz-beschikking> ;
     skos:notation "99" ;
     skos:prefLabel "waarde te gebruiken voor voorlopige aanslag"@nl ;
@@ -3654,8 +3661,8 @@ ONROERENDE ZAAK gelegen is."""@nl ;
     mim:code "1" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/statuswoz-deel-object/actief"^^xsd:anyURI ;
     mim:naam "actief"@nl ;
-    dcterms:identifier "EAID_178a8811_2d59_4f9e_bfc4_562d8c32bff9",
-        "EAID_54a8c013_ed45_4b7e_9941_cd426073e35d" ;
+    dcterms:identifier "EAID_5468362a_5999_44f6_a825_5d5bfb059bee",
+        "EAID_bd4f9485_dae1_4f5f_b33d_9c0ef707deb9" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/statuswoz-deel-object> ;
     skos:notation "1" ;
     skos:prefLabel "actief"@nl ;
@@ -3668,8 +3675,8 @@ ONROERENDE ZAAK gelegen is."""@nl ;
     mim:code "8" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/statuswoz-deel-object/be-indigd"^^xsd:anyURI ;
     mim:naam "beëindigd"@nl ;
-    dcterms:identifier "EAID_0935f9e7_14ce_4bbc_a0f8_5f31a95e285e",
-        "EAID_a4c26bcc_8298_4ed9_a5f7_ed0e0557f147" ;
+    dcterms:identifier "EAID_1685b780_a6f3_409f_ba28_dd1a1bae567e",
+        "EAID_3d3b417c_2ee1_43bb_8259_5a5636db9455" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/statuswoz-deel-object> ;
     skos:notation "8" ;
     skos:prefLabel "beëindigd"@nl ;
@@ -3682,8 +3689,8 @@ ONROERENDE ZAAK gelegen is."""@nl ;
     mim:code "0" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/statuswoz-deel-object/gevormd-niet-actief"^^xsd:anyURI ;
     mim:naam "gevormd, niet actief"@nl ;
-    dcterms:identifier "EAID_0dcb3127_44d4_49d5_a210_e674680e85c1",
-        "EAID_c8b447ee_81f3_4f9a_96fe_e1f71b3b332a" ;
+    dcterms:identifier "EAID_145ee439_6aae_4267_b6a7_f998a269c383",
+        "EAID_c6e2a020_8dc0_4d83_8673_98933955e0e5" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/statuswoz-deel-object> ;
     skos:notation "0" ;
     skos:prefLabel "gevormd, niet actief"@nl ;
@@ -3696,8 +3703,8 @@ ONROERENDE ZAAK gelegen is."""@nl ;
     mim:code "9" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/statuswoz-deel-object/ten-onrechte-opgevoerd"^^xsd:anyURI ;
     mim:naam "ten onrechte opgevoerd"@nl ;
-    dcterms:identifier "EAID_c5cbef93_6321_48ac_97b3_aee92b1fb24d",
-        "EAID_eada1cf1_0612_4ec5_bb1a_453d123adb59" ;
+    dcterms:identifier "EAID_d2112dbd_6a8c_45eb_97aa_bcf60acc9703",
+        "EAID_d68559f4_a1ea_4204_a38f_f1afc27e249c" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/statuswoz-deel-object> ;
     skos:notation "9" ;
     skos:prefLabel "ten onrechte opgevoerd"@nl ;
@@ -4366,10 +4373,10 @@ Het is vooral bedoeld om de doorsnede van WOZ-OBJECTen met VERBLIJFSOBJECTen en 
         <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/boolean/leeg>,
         <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/boolean/nee>,
         <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/boolean/onbekend> ;
-    dcterms:identifier "EAID_1f9f1e5f_f5c5_45d6_babc_6c058bd7704b",
-        "EAID_3a3b3230_9bb2_4646_9170_143960b68821",
-        "EAID_496c5444_b415_4d8e_97e4_fda92e669450",
-        "EAID_d1992801_6cff_4c1e_b017_83f21b76c0ef" ;
+    dcterms:identifier "EAID_21e81a4e_3dbf_4f5a_a1a3_99dc82557c72",
+        "EAID_49ac016a_d51a_4b87_836e_c7f60406d1ca",
+        "EAID_a7573847_0f13_4131_b1ee_36c5c061d701",
+        "EAID_d7bf9e07_3a16_4752_a2d9_cbccaa5627be" ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/> ;
     rdfs:subClassOf skos:Concept .
 
@@ -4432,8 +4439,8 @@ Het is vooral bedoeld om de doorsnede van WOZ-OBJECTen met VERBLIJFSOBJECTen en 
         <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/statuswoz-deel-object/be-indigd>,
         <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/statuswoz-deel-object/gevormd-niet-actief>,
         <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/statuswoz-deel-object/ten-onrechte-opgevoerd> ;
-    dcterms:identifier "EAID_39a03050_58a6_4b76_ad4b_1509d5cef345",
-        "EAID_b6d69d64_b176_4033_9b2d_b558b75aaf07" ;
+    dcterms:identifier "EAID_13bb23bb_203e_4eb8_b319_3f43e092a97e",
+        "EAID_cfb1aec1_8d77_4bb0_b279_7b2217d2d990" ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
     rdfs:subClassOf skos:Concept .
 
@@ -4449,40 +4456,9 @@ Het is vooral bedoeld om de doorsnede van WOZ-OBJECTen met VERBLIJFSOBJECTen en 
         <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/aanduidingeigenaargebruiker/leeg>,
         <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/aanduidingeigenaargebruiker/medebelanghebbende>,
         <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/aanduidingeigenaargebruiker/onbekend> ;
-    dcterms:identifier "EAID_44cdfa85_dd77_4edb_a889_1ef4aaed022f" ;
+    dcterms:identifier "EAID_4f063401_4b19_4d64_a5bd_16120aac06dd" ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/> ;
     rdfs:subClassOf skos:Concept .
-
-<https://lod.gemeentelijkgegevensmodel.nl/kern/bag/openbareruimte> a mim:Objecttype,
-        owl:Class ;
-    rdfs:label "OpenbareRuimte"@nl ;
-    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/openbareruimte/begingeldigheid>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/openbareruimte/datumeinde>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/openbareruimte/datumingang>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/openbareruimte/documentdatum>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/openbareruimte/documentnummer>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/openbareruimte/eindgeldigheid>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/openbareruimte/geconstateerd>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/openbareruimte/geometrie>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/openbareruimte/huisnummerrange-even-en-oneven-nummers>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/openbareruimte/huisnummerrange-even-nummers>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/openbareruimte/huisnummerrange-oneven-nummers>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/openbareruimte/identificatie>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/openbareruimte/labelnaam>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/openbareruimte/naamopenbareruimte>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/openbareruimte/status>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/openbareruimte/straatcode>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/openbareruimte/straatnaam>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/openbareruimte/typeopenbareruimte>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/openbareruimte/versie>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/openbareruimte/wegsegment> ;
-    mim:definitie "Een openbare ruimte is een door het bevoegde gemeentelijke orgaan als zodanig aangewezen en van een naam voorziene buitenruimte die binnen &#233;&#233;n woonplaats is gelegen. Beschrijving: Een buitenruimte die door de gemeente als openbare ruimte is aangewezen en waaraan de gemeente een naam heeft gegeven. Een openbare ruimte ligt binnen 1 woonplaats. De BAG kent 7 soorten openbare ruimten: weg, water, spoorbaan, terrein, kunstwerk, landschappelijk gebied en administratief gebied. Een openbare ruimte is meestal een straat(naam)."@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/bag/openbareruimte"^^xsd:anyURI ;
-    mim:indicatieAbstractObject false ;
-    mim:naam "OpenbareRuimte"@nl ;
-    dcterms:identifier "EAID_BFE30E32_8CB9_4272_A559_9FB3FD74DACC" ;
-    rdfs:comment "Een openbare ruimte is een door het bevoegde gemeentelijke orgaan als zodanig aangewezen en van een naam voorziene buitenruimte die binnen &#233;&#233;n woonplaats is gelegen. Beschrijving: Een buitenruimte die door de gemeente als openbare ruimte is aangewezen en waaraan de gemeente een naam heeft gegeven. Een openbare ruimte ligt binnen 1 woonplaats. De BAG kent 7 soorten openbare ruimten: weg, water, spoorbaan, terrein, kunstwerk, landschappelijk gebied en administratief gebied. Een openbare ruimte is meestal een straat(naam)."@nl ;
-    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/pand> a mim:Objecttype,
         owl:Class ;
@@ -4515,31 +4491,6 @@ Het is vooral bedoeld om de doorsnede van WOZ-OBJECTen met VERBLIJFSOBJECTen en 
     rdfs:comment "Een pand is een kleinste bij de totstandkoming functioneel en bouwkundig-constructief zelfstandige eenheid die direct en duurzaam met de aarde is verbonden en betreedbaar en afsluitbaar is. Beschrijving: Een zelfstandig bouwwerk, zowel zelfstandig in de manier hoe het is gebouwd als waarvoor het is bedoeld om te gebruiken. Een pand voldoet ook aan de volgende eisen: een pand is direct en voor lange tijd met de aarde verbonden (een pand is niet makkelijk te verplaatsen) en een pand kun je binnengaan en afsluiten. Een eenheid kan alleen een pand zijn als het voldoet aan alle eisen uit de Catalogus BAG 2018."@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/woz-object> a mim:Objecttype,
-        owl:Class ;
-    rdfs:label "WOZ-object"@nl ;
-    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/woz-object/datumbegingeldigheidwozobject>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/woz-object/datumeindegeldigheidwozobject>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/woz-object/datumwaardepeiling>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/woz-object/gebruikscode>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/woz-object/geometriewozobject>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/woz-object/grondoppervlakte>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/woz-object/soortobjectcode>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/woz-object/statuswozobject>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/woz-object/vastgesteldewaarde>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/woz-object/wozobjectnummer> ;
-    mim:datumOpname "2009-02-02"^^xsd:date ;
-    mim:definitie "De onroerende zaak waarvan op grond van de Wet WOZ de waarde moet worden bepaald en vastgesteld."@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/woz-object"^^xsd:anyURI ;
-    mim:indicatieAbstractObject false ;
-    mim:naam "WOZ-object"@nl ;
-    mim:populatie "De BR WOZ bevat die onroerende zaken als bedoeld in artikel 16 van de wet WOZ waarvoor op grond van artikel 7  Uitvoeringsbesluit kostenverrekening en gegevensuitwisseling Wet waardering onroerende zaken gegevens worden geregistreerd, #NOTES#De BR WOZ bevat die onroerende zaken als bedoeld in artikel 16 van de wet WOZ waarvoor op grond van artikel 7  Uitvoeringsbesluit kostenverrekening en gegevensuitwisseling Wet waardering onroerende zaken gegevens worden geregistreerd, #NOTES#De BR WOZ bevat die onroerende zaken als bedoeld in artikel 16 van de wet WOZ waarvoor op grond van artikel 7  Uitvoeringsbesluit kostenverrekening en gegevensuitwisseling Wet waardering onroerende zaken gegevens worden geregistreerd, #NOTES#De BR WOZ bevat die onroerende zaken als bedoeld in artikel 16 van de wet WOZ waarvoor op grond van artikel 7  Uitvoeringsbesluit kostenverrekening en gegevensuitwisseling Wet waardering onroerende zaken gegevens worden geregistreerd, #NOTES#De BR WOZ bevat die onroerende zaken als bedoeld in artikel 16 van de wet WOZ waarvoor op grond van artikel 7  Uitvoeringsbesluit kostenverrekening en gegevensuitwisseling Wet waardering onroerende zaken gegevens worden geregistreerd, #NOTES#De BR WOZ bevat die onroerende zaken als bedoeld in artikel 16 van de wet WOZ waarvoor op grond van artikel 7  Uitvoeringsbesluit kostenverrekening en gegevensuitwisseling Wet waardering onroerende zaken gegevens worden geregistreerd, #NOTES#De BR WOZ bevat die onroerende zaken als bedoeld in artikel 16 van de wet WOZ waarvoor op grond van artikel 7  Uitvoeringsbesluit kostenverrekening en gegevensuitwisseling Wet waardering onroerende zaken gegevens worden geregistreerd, #NOTES#De BR WOZ bevat die onroerende zaken als bedoeld in artikel 16 van de wet WOZ waarvoor op grond van artikel 7  Uitvoeringsbesluit kostenverrekening en gegevensuitwisseling Wet waardering onroerende zaken gegevens worden geregistreerd, #NOTES#De BR WOZ bevat die onroerende zaken als bedoeld in artikel 16 van de wet WOZ waarvoor op grond van artikel 7  Uitvoeringsbesluit kostenverrekening en gegevensuitwisseling Wet waardering onroerende zaken gegevens worden geregistreerd, #NOTES#De BR WOZ bevat die onroerende zaken als bedoeld in artikel 16 van de wet WOZ waarvoor op grond van artikel 7  Uitvoeringsbesluit kostenverrekening en gegevensuitwisseling Wet waardering onroerende zaken gegevens worden geregistreerd, #NOTES#De BR WOZ bevat die onroerende zaken als bedoeld in artikel 16 van de wet WOZ waarvoor op grond van artikel 7  Uitvoeringsbesluit kostenverrekening en gegevensuitwisseling Wet waardering onroerende zaken gegevens worden geregistreerd, #NOTES#De BR WOZ bevat die onroerende zaken als bedoeld in artikel 16 van de wet WOZ waarvoor op grond van artikel 7  Uitvoeringsbesluit kostenverrekening en gegevensuitwisseling Wet waardering onroerende zaken gegevens worden geregistreerd, #NOTES#De BR WOZ bevat die onroerende zaken als bedoeld in artikel 16 van de wet WOZ waarvoor op grond van artikel 7  Uitvoeringsbesluit kostenverrekening en gegevensuitwisseling Wet waardering onroerende zaken gegevens worden geregistreerd," ;
-    mim:toelichting """Dit objecttype komt voort uit de objectafbakeningsvoorschriften van artikel 16 van de Wet WOZ.
-De unieke identificatie van het WOZ-object is het WOZ-objectnummer. De WOZ-object-aanduiding, een secundaire identificatie, wordt samengesteld uit de adresgegevens van één van de, aan het WOZ-object via het WOZdeelobject, gerelateerde gebouwde objecten en/of benoemde terreinen dan wel van een nabij gelegen gebouwd object of benoemd terrein, in beide gevallen (eventueel) aangevuld met de locatie-omschrijving."""@nl ;
-    dcterms:identifier "EAID_CB7BA76D_0793_4d5a_9596_533C5BC56BBF" ;
-    rdfs:comment "De onroerende zaak waarvan op grond van de Wet WOZ de waarde moet worden bepaald en vastgesteld."@nl ;
-    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> .
-
 <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/nummeraanduiding> a mim:Objecttype,
         owl:Class ;
     rdfs:label "Nummeraanduiding"@nl ;
@@ -4566,6 +4517,97 @@ De unieke identificatie van het WOZ-object is het WOZ-objectnummer. De WOZ-objec
     dcterms:identifier "EAID_32A22BC6_89EC_44af_8D7D_79B12311AE2D" ;
     rdfs:comment "Een nummeraanduiding is een door het bevoegde gemeentelijke orgaan als zodanig toegekende aanduiding van een verblijfsobject, een standplaats of een ligplaats."@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/bag/openbareruimte> a mim:Objecttype,
+        owl:Class ;
+    rdfs:label "OpenbareRuimte"@nl ;
+    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/openbareruimte/begingeldigheid>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/openbareruimte/datumeinde>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/openbareruimte/datumingang>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/openbareruimte/documentdatum>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/openbareruimte/documentnummer>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/openbareruimte/eindgeldigheid>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/openbareruimte/geconstateerd>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/openbareruimte/geometrie>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/openbareruimte/huisnummerrange-even-en-oneven-nummers>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/openbareruimte/huisnummerrange-even-nummers>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/openbareruimte/huisnummerrange-oneven-nummers>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/openbareruimte/identificatie>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/openbareruimte/labelnaam>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/openbareruimte/naamopenbareruimte>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/openbareruimte/status>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/openbareruimte/straatcode>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/openbareruimte/straatnaam>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/openbareruimte/typeopenbareruimte>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/openbareruimte/versie>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/openbareruimte/wegsegment> ;
+    mim:definitie "Een openbare ruimte is een door het bevoegde gemeentelijke orgaan als zodanig aangewezen en van een naam voorziene buitenruimte die binnen &#233;&#233;n woonplaats is gelegen. Beschrijving: Een buitenruimte die door de gemeente als openbare ruimte is aangewezen en waaraan de gemeente een naam heeft gegeven. Een openbare ruimte ligt binnen 1 woonplaats. De BAG kent 7 soorten openbare ruimten: weg, water, spoorbaan, terrein, kunstwerk, landschappelijk gebied en administratief gebied. Een openbare ruimte is meestal een straat(naam)."@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/bag/openbareruimte"^^xsd:anyURI ;
+    mim:indicatieAbstractObject false ;
+    mim:naam "OpenbareRuimte"@nl ;
+    dcterms:identifier "EAID_BFE30E32_8CB9_4272_A559_9FB3FD74DACC" ;
+    rdfs:comment "Een openbare ruimte is een door het bevoegde gemeentelijke orgaan als zodanig aangewezen en van een naam voorziene buitenruimte die binnen &#233;&#233;n woonplaats is gelegen. Beschrijving: Een buitenruimte die door de gemeente als openbare ruimte is aangewezen en waaraan de gemeente een naam heeft gegeven. Een openbare ruimte ligt binnen 1 woonplaats. De BAG kent 7 soorten openbare ruimten: weg, water, spoorbaan, terrein, kunstwerk, landschappelijk gebied en administratief gebied. Een openbare ruimte is meestal een straat(naam)."@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/woz-object> a mim:Objecttype,
+        owl:Class ;
+    rdfs:label "WOZ-object"@nl ;
+    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/woz-object/datumbegingeldigheidwozobject>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/woz-object/datumeindegeldigheidwozobject>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/woz-object/datumwaardepeiling>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/woz-object/gebruikscode>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/woz-object/geometriewozobject>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/woz-object/grondoppervlakte>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/woz-object/soortobjectcode>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/woz-object/statuswozobject>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/woz-object/vastgesteldewaarde>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/woz-object/wozobjectnummer> ;
+    mim:datumOpname "2009-02-02"^^xsd:date ;
+    mim:definitie "De onroerende zaak waarvan op grond van de Wet WOZ de waarde moet worden bepaald en vastgesteld."@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/woz-object"^^xsd:anyURI ;
+    mim:indicatieAbstractObject false ;
+    mim:naam "WOZ-object"@nl ;
+    mim:populatie "De BR WOZ bevat die onroerende zaken als bedoeld in artikel 16 van de wet WOZ waarvoor op grond van artikel 7  Uitvoeringsbesluit kostenverrekening en gegevensuitwisseling Wet waardering onroerende zaken gegevens worden geregistreerd, #NOTES#De BR WOZ bevat die onroerende zaken als bedoeld in artikel 16 van de wet WOZ waarvoor op grond van artikel 7  Uitvoeringsbesluit kostenverrekening en gegevensuitwisseling Wet waardering onroerende zaken gegevens worden geregistreerd, #NOTES#De BR WOZ bevat die onroerende zaken als bedoeld in artikel 16 van de wet WOZ waarvoor op grond van artikel 7  Uitvoeringsbesluit kostenverrekening en gegevensuitwisseling Wet waardering onroerende zaken gegevens worden geregistreerd, #NOTES#De BR WOZ bevat die onroerende zaken als bedoeld in artikel 16 van de wet WOZ waarvoor op grond van artikel 7  Uitvoeringsbesluit kostenverrekening en gegevensuitwisseling Wet waardering onroerende zaken gegevens worden geregistreerd, #NOTES#De BR WOZ bevat die onroerende zaken als bedoeld in artikel 16 van de wet WOZ waarvoor op grond van artikel 7  Uitvoeringsbesluit kostenverrekening en gegevensuitwisseling Wet waardering onroerende zaken gegevens worden geregistreerd, #NOTES#De BR WOZ bevat die onroerende zaken als bedoeld in artikel 16 van de wet WOZ waarvoor op grond van artikel 7  Uitvoeringsbesluit kostenverrekening en gegevensuitwisseling Wet waardering onroerende zaken gegevens worden geregistreerd, #NOTES#De BR WOZ bevat die onroerende zaken als bedoeld in artikel 16 van de wet WOZ waarvoor op grond van artikel 7  Uitvoeringsbesluit kostenverrekening en gegevensuitwisseling Wet waardering onroerende zaken gegevens worden geregistreerd, #NOTES#De BR WOZ bevat die onroerende zaken als bedoeld in artikel 16 van de wet WOZ waarvoor op grond van artikel 7  Uitvoeringsbesluit kostenverrekening en gegevensuitwisseling Wet waardering onroerende zaken gegevens worden geregistreerd, #NOTES#De BR WOZ bevat die onroerende zaken als bedoeld in artikel 16 van de wet WOZ waarvoor op grond van artikel 7  Uitvoeringsbesluit kostenverrekening en gegevensuitwisseling Wet waardering onroerende zaken gegevens worden geregistreerd, #NOTES#De BR WOZ bevat die onroerende zaken als bedoeld in artikel 16 van de wet WOZ waarvoor op grond van artikel 7  Uitvoeringsbesluit kostenverrekening en gegevensuitwisseling Wet waardering onroerende zaken gegevens worden geregistreerd, #NOTES#De BR WOZ bevat die onroerende zaken als bedoeld in artikel 16 van de wet WOZ waarvoor op grond van artikel 7  Uitvoeringsbesluit kostenverrekening en gegevensuitwisseling Wet waardering onroerende zaken gegevens worden geregistreerd, #NOTES#De BR WOZ bevat die onroerende zaken als bedoeld in artikel 16 van de wet WOZ waarvoor op grond van artikel 7  Uitvoeringsbesluit kostenverrekening en gegevensuitwisseling Wet waardering onroerende zaken gegevens worden geregistreerd, #NOTES#De BR WOZ bevat die onroerende zaken als bedoeld in artikel 16 van de wet WOZ waarvoor op grond van artikel 7  Uitvoeringsbesluit kostenverrekening en gegevensuitwisseling Wet waardering onroerende zaken gegevens worden geregistreerd," ;
+    mim:toelichting """Dit objecttype komt voort uit de objectafbakeningsvoorschriften van artikel 16 van de Wet WOZ.
+De unieke identificatie van het WOZ-object is het WOZ-objectnummer. De WOZ-object-aanduiding, een secundaire identificatie, wordt samengesteld uit de adresgegevens van één van de, aan het WOZ-object via het WOZdeelobject, gerelateerde gebouwde objecten en/of benoemde terreinen dan wel van een nabij gelegen gebouwd object of benoemd terrein, in beide gevallen (eventueel) aangevuld met de locatie-omschrijving."""@nl ;
+    dcterms:identifier "EAID_CB7BA76D_0793_4d5a_9596_533C5BC56BBF" ;
+    rdfs:comment "De onroerende zaak waarvan op grond van de Wet WOZ de waarde moet worden bepaald en vastgesteld."@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/kadastraleonroerendezaak> a mim:Objecttype,
+        owl:Class ;
+    rdfs:label "KadastraleOnroerendeZaak"@nl ;
+    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/kadastraleonroerendezaak/appartementsrechtvolgnummer>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/kadastraleonroerendezaak/begrenzing>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/kadastraleonroerendezaak/cultuurcodeonbebouwd>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/kadastraleonroerendezaak/datumbegingeldigheid>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/kadastraleonroerendezaak/datumeindegeldigheid>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/kadastraleonroerendezaak/identificatie>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/kadastraleonroerendezaak/kadastralegemeente>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/kadastraleonroerendezaak/kadastralegemeentecode>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/kadastraleonroerendezaak/koopjaar>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/kadastraleonroerendezaak/koopsom>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/kadastraleonroerendezaak/landinrichtingrentebedrag>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/kadastraleonroerendezaak/landinrichtingrenteeindejaar>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/kadastraleonroerendezaak/ligging>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/kadastraleonroerendezaak/locatieomschrijving>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/kadastraleonroerendezaak/oppervlakte>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/kadastraleonroerendezaak/perceelnummer>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/kadastraleonroerendezaak/sectie>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/kadastraleonroerendezaak/valutacode> ;
+    mim:datumOpname "2007-04-09"^^xsd:date ;
+    mim:definitie "Een geregistreerd goed waarvoor bij overdracht of vestiging van rechten inschrijving in de openbare registers van het Kadaster is vereist zijnde een KADASTRAAL PERCEEL of een APPARTEMENTSRECHT."@nl ;
+    mim:herkomstDefinitie "KING O.B.V. BRK" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/kadastraleonroerendezaak"^^xsd:anyURI ;
+    mim:indicatieAbstractObject false ;
+    mim:naam "KadastraleOnroerendeZaak"@nl ;
+    mim:toelichting """Zie de catalogus BRK. Daarin is sprake van een ‘onroerende zaak’ zijnde een ‘perceel’, ‘appartementsrecht’ of ‘leidingnetwerk’. Geoordeeld is dat alleen de eerste twee objecttypen zodanig van belang zijn voor de gemeentelijke taakuitoefening dat zij deel moeten uit maken van het voorliggende referentiemodel. Zij zijn hierin gezamenlijk gemodelleerd als KADASTRALE ONROERENDE ZAAK.
+In de BRK wordt de Kadaster identificatie onroerende zaak (hier: Kadastrale identificatie) als unieke aanduiding beschouwd Aangezien de gegevenslevering door het Kadaster hier nog niet op aangepast is hanteren we vooralsnog de Kadastrale aanduiding als unieke identificatie. 
+In de BRK wordt een relatie naar het adresseerbaar object (verblijfsobject, standplaats of ligplaats) onderkend teneinde via een adres (nummeraanduiding) een kadastraal object te kunnen lokaliseren. Vanwege de uitbreiding in dit model naar gebouwde objecten en benoemde terreinen is deze relatie naar deze beide laatstgenoemde objecttypen gelegd.
+Niet alle kadastrale objecten komen qua ligging overeen met een gebouwd object of benoemd terrein. In die gevallen opteert de BRK om voor het aanduiden van de globale ligging gebruik te maken van een dichtbijgelegen adres i.c.m. de aanduiding ‘Bij’ of ‘Tegenover’ dan wel een locatieomschrijving met daarin de beschrijving van de locatie, veelal door middel van een woonplaatsnaam en een straatnaam. Beide wijzen van aanduiden van de locatie zijn hier opgenomen in Locatie-omschrijving zodat de relaties naar gebouwde objecten en benoemde terreinen alleen ruimtelijke relaties tussen de objecten betreffen."""@nl ;
+    dcterms:identifier "EAID_9775E778_DBF8_4122_94CE_551466B62F46" ;
+    rdfs:comment "Een geregistreerd goed waarvoor bij overdracht of vestiging van rechten inschrijving in de openbare registers van het Kadaster is vereist zijnde een KADASTRAAL PERCEEL of een APPARTEMENTSRECHT."@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/typeringopenbareruimte> a mim:Enumeratie,
         owl:Class,
@@ -4603,44 +4645,9 @@ De unieke identificatie van het WOZ-object is het WOZ-objectnummer. De WOZ-objec
         <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortgebruik/uitgezonderd-ongebouwd-object>,
         <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortgebruik/woning-dienend-tot-hoofdverblijf>,
         <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortgebruik/woning-met-praktijkruimte> ;
-    dcterms:identifier "EAID_cc246781_014d_438f_bb7a_00836c579690" ;
+    dcterms:identifier "EAID_839e6a6a_b113_4976_b1fe_507c5970f826" ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
     rdfs:subClassOf skos:Concept .
-
-<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/kadastraleonroerendezaak> a mim:Objecttype,
-        owl:Class ;
-    rdfs:label "KadastraleOnroerendeZaak"@nl ;
-    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/kadastraleonroerendezaak/appartementsrechtvolgnummer>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/kadastraleonroerendezaak/begrenzing>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/kadastraleonroerendezaak/cultuurcodeonbebouwd>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/kadastraleonroerendezaak/datumbegingeldigheid>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/kadastraleonroerendezaak/datumeindegeldigheid>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/kadastraleonroerendezaak/identificatie>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/kadastraleonroerendezaak/kadastralegemeente>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/kadastraleonroerendezaak/kadastralegemeentecode>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/kadastraleonroerendezaak/koopjaar>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/kadastraleonroerendezaak/koopsom>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/kadastraleonroerendezaak/landinrichtingrentebedrag>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/kadastraleonroerendezaak/landinrichtingrenteeindejaar>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/kadastraleonroerendezaak/ligging>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/kadastraleonroerendezaak/locatieomschrijving>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/kadastraleonroerendezaak/oppervlakte>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/kadastraleonroerendezaak/perceelnummer>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/kadastraleonroerendezaak/sectie>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/kadastraleonroerendezaak/valutacode> ;
-    mim:datumOpname "2007-04-09"^^xsd:date ;
-    mim:definitie "Een geregistreerd goed waarvoor bij overdracht of vestiging van rechten inschrijving in de openbare registers van het Kadaster is vereist zijnde een KADASTRAAL PERCEEL of een APPARTEMENTSRECHT."@nl ;
-    mim:herkomstDefinitie "KING O.B.V. BRK" ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/kadastraleonroerendezaak"^^xsd:anyURI ;
-    mim:indicatieAbstractObject false ;
-    mim:naam "KadastraleOnroerendeZaak"@nl ;
-    mim:toelichting """Zie de catalogus BRK. Daarin is sprake van een ‘onroerende zaak’ zijnde een ‘perceel’, ‘appartementsrecht’ of ‘leidingnetwerk’. Geoordeeld is dat alleen de eerste twee objecttypen zodanig van belang zijn voor de gemeentelijke taakuitoefening dat zij deel moeten uit maken van het voorliggende referentiemodel. Zij zijn hierin gezamenlijk gemodelleerd als KADASTRALE ONROERENDE ZAAK.
-In de BRK wordt de Kadaster identificatie onroerende zaak (hier: Kadastrale identificatie) als unieke aanduiding beschouwd Aangezien de gegevenslevering door het Kadaster hier nog niet op aangepast is hanteren we vooralsnog de Kadastrale aanduiding als unieke identificatie. 
-In de BRK wordt een relatie naar het adresseerbaar object (verblijfsobject, standplaats of ligplaats) onderkend teneinde via een adres (nummeraanduiding) een kadastraal object te kunnen lokaliseren. Vanwege de uitbreiding in dit model naar gebouwde objecten en benoemde terreinen is deze relatie naar deze beide laatstgenoemde objecttypen gelegd.
-Niet alle kadastrale objecten komen qua ligging overeen met een gebouwd object of benoemd terrein. In die gevallen opteert de BRK om voor het aanduiden van de globale ligging gebruik te maken van een dichtbijgelegen adres i.c.m. de aanduiding ‘Bij’ of ‘Tegenover’ dan wel een locatieomschrijving met daarin de beschrijving van de locatie, veelal door middel van een woonplaatsnaam en een straatnaam. Beide wijzen van aanduiden van de locatie zijn hier opgenomen in Locatie-omschrijving zodat de relaties naar gebouwde objecten en benoemde terreinen alleen ruimtelijke relaties tussen de objecten betreffen."""@nl ;
-    dcterms:identifier "EAID_9775E778_DBF8_4122_94CE_551466B62F46" ;
-    rdfs:comment "Een geregistreerd goed waarvoor bij overdracht of vestiging van rechten inschrijving in de openbare registers van het Kadaster is vereist zijnde een KADASTRAAL PERCEEL of een APPARTEMENTSRECHT."@nl ;
-    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statuspand> a mim:Enumeratie,
         owl:Class,
@@ -4713,7 +4720,7 @@ Niet alle kadastrale objecten komen qua ligging overeen met een gebouwd object o
         <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/statuswoz-beschikking/vernietiging-beschikking>,
         <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/statuswoz-beschikking/waarde-ambtshalve-verminderd>,
         <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/statuswoz-beschikking/waarde-te-gebruiken-voor-voorlopige-aanslag> ;
-    dcterms:identifier "EAID_160ac443_d44c_44e5_b6d3_fee34de5be81" ;
+    dcterms:identifier "EAID_c72a1131_7854_409d_971d_8684f8215749" ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
     rdfs:subClassOf skos:Concept .
 

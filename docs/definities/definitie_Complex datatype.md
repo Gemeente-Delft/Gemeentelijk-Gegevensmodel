@@ -16,7 +16,7 @@
     | author | debat\_e |
     | version | 1.0 |
     | created | 2015-12-01 07:52:09 |
-    | modified | 2018-09-10 15:42:51 |
+    | modified | 2025-12-22 15:27:04 |
     | id | EAPK\_EF3887BA\_3215\_4cd3\_A6E0\_18B0C850D4BE |
     
 
@@ -57,7 +57,7 @@ Het model 'Complex datatype' kent de volgende objecttypen:
     | author | Debat\_E |
     | version | 1.0 |
     | created | 2015-11-26 11:06:00 |
-    | modified | 2025-03-26 16:14:54 |
+    | modified | 2025-12-22 15:27:04 |
     | id | EAID\_AB8B30D0\_FD1F\_4c44\_9396\_BB05389EA20B |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -97,7 +97,7 @@ Attributen van objecttype BAGObjectnummering
     | author | debat\_e |
     | version | 1.0 |
     | created | 2015-11-30 09:17:09 |
-    | modified | 2025-03-26 16:14:54 |
+    | modified | 2025-12-22 15:27:04 |
     | id | EAID\_D0110970\_3A90\_451c\_9EF3\_ABD4AD5AA82A |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -135,7 +135,7 @@ Attributen van objecttype CompositeID
     | author | debat\_e |
     | version | 1.0 |
     | created | 2015-11-02 10:32:09 |
-    | modified | 2025-03-26 16:14:54 |
+    | modified | 2025-12-22 15:27:04 |
     | id | EAID\_510A0B01\_75F9\_430e\_9FF1\_99911FAA614E |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -172,7 +172,7 @@ Attributen van objecttype TypeBedrag
     | author | debat\_e |
     | version | 1.0 |
     | created | 2015-11-02 08:29:23 |
-    | modified | 2025-03-26 16:14:54 |
+    | modified | 2025-12-22 15:27:04 |
     | id | EAID\_02C9FDB1\_0F08\_4cd9\_80FE\_319F83C26757 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -209,7 +209,7 @@ Attributen van objecttype TypeBreuk
     | author | debat\_e |
     | version | 1.0 |
     | created | 2015-11-02 09:50:52 |
-    | modified | 2025-03-26 16:14:54 |
+    | modified | 2025-12-22 15:27:04 |
     | id | EAID\_DB619B91\_E690\_49c0\_88C0\_733F37C0357B |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -248,7 +248,7 @@ Attributen van objecttype TypeKadastraleAanduiding
     | author | debat\_e |
     | version | 1.0 |
     | created | 2015-11-02 10:21:00 |
-    | modified | 2025-03-26 16:14:54 |
+    | modified | 2025-12-22 15:27:04 |
     | id | EAID\_72D99BCE\_F52F\_4a19\_90A6\_5813DB40066B |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -286,7 +286,7 @@ Attributen van objecttype TypeKoopsom
     | author | debat\_e |
     | version | 1.0 |
     | created | 2015-11-02 14:28:43 |
-    | modified | 2025-03-26 16:14:54 |
+    | modified | 2025-12-22 15:27:04 |
     | id | EAID\_C74E1553\_32AE\_4fd8\_9796\_00C6E1C51A11 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -323,7 +323,7 @@ Attributen van objecttype TypeLabel
     | author | debat\_e |
     | version | 1.0 |
     | created | 2015-11-02 14:03:12 |
-    | modified | 2025-03-26 16:14:54 |
+    | modified | 2025-12-22 15:27:04 |
     | id | EAID\_5EEC2C27\_B576\_4f86\_9768\_5E785592FA4F |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -362,7 +362,7 @@ Attributen van objecttype TypeLabelpositie
     | author | debat\_e |
     | version | 1.0 |
     | created | 2015-11-02 11:08:40 |
-    | modified | 2025-03-26 16:14:54 |
+    | modified | 2025-12-22 15:27:04 |
     | id | EAID\_46A510E7\_E757\_4ad6\_B697\_DF79FE87F4F2 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -418,8 +418,8 @@ De enumeratie typeObjectcode heeft de volgende kenmerken:
     | author |  |
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:41 |
-    | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_0ded0498\_6504\_4028\_a298\_8619de684afd |
+    | modified | 2025-12-22 15:27:05 |
+    | id | EAID\_1b2cd23a\_9f7e\_43a7\_aa0d\_d2d8498fd555 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |

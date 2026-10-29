@@ -16,7 +16,7 @@
     | author | Arjen Brienen |
     | version | 1.3.0 |
     | created | 2024-02-08 18:20:46 |
-    | modified | 2025-12-18 15:38:53 |
+    | modified | 2025-12-22 15:26:51 |
     | id | EAPK\_976B3937\_0D19\_4599\_A6D4\_E2BD0E0AB9EB |
     
 
@@ -58,7 +58,7 @@ Het model 'Model Sociaal Domein Generiek' kent de volgende objecttypen:
     | author | Arjen Brienen |
     | version | 1.11.0 |
     | created | 2018-05-07 11:54:57 |
-    | modified | 2025-12-18 15:38:52 |
+    | modified | 2025-12-22 15:26:51 |
     | id | EAID\_16F94A03\_C376\_4314\_94AA\_4DB14AD00EB9 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -93,7 +93,7 @@ Attributen van objecttype AanvraagStadspas
     | author | Ashkan Ashkpour |
     | version | 1.12.0 |
     | created | 2018-03-21 15:22:41 |
-    | modified | 2025-12-18 15:38:52 |
+    | modified | 2025-12-22 15:26:51 |
     | id | EAID\_DAF09055\_A5A6\_4ff4\_A158\_21B20567B296 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -112,7 +112,6 @@ Attributen van objecttype Client
 | gezagsdragerGekend | boolean |  |
 | juridischeStatus | AN80 |  |
 | wettelijkeVertegenwoordiging | AN80 |  |
-| client | Schuldhulptraject |  |
 
 
 
@@ -133,7 +132,7 @@ Attributen van objecttype Client
     | author | Arjen Brienen |
     | version | 1.12.0 |
     | created | 2018-06-12 16:00:19 |
-    | modified | 2025-12-18 15:38:52 |
+    | modified | 2025-12-22 15:26:51 |
     | id | EAID\_276E1BF9\_E902\_4303\_A9E7\_048627E0DC84 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -169,7 +168,7 @@ Attributen van objecttype Clientbegeleider
     | author | Arjen Brienen |
     | version | 1.10.0 |
     | created | 2024-03-07 10:23:20 |
-    | modified | 2025-12-16 10:28:34 |
+    | modified | 2025-12-22 15:26:51 |
     | id | EAID\_28BCD751\_DDE7\_42b6\_9E6B\_579B382BC84A |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -204,7 +203,7 @@ Attributen van objecttype Gerechtelijke uitspraak
     | author | Arjen Brienen |
     | version | 1.10.0 |
     | created | 2024-03-07 10:09:21 |
-    | modified | 2025-12-16 10:28:34 |
+    | modified | 2025-12-22 15:26:51 |
     | id | EAID\_C18BB25F\_536F\_4b80\_BC7C\_7855DF2D7389 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -243,7 +242,7 @@ Attributen van objecttype Gezagsverhouding
     | author | Arjen Brienen |
     | version | 1.11.0 |
     | created | 2018-04-25 10:24:00 |
-    | modified | 2025-12-18 15:38:52 |
+    | modified | 2025-12-22 15:26:51 |
     | id | EAID\_F0467610\_553B\_47cd\_A9F7\_3B1D20CC425E |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -277,9 +276,9 @@ Attributen van objecttype Huishouden
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.9.0 |
+    | version | 1.11.0 |
     | created | 2024-04-11 14:11:36 |
-    | modified | 2025-12-18 15:38:52 |
+    | modified | 2025-12-22 15:44:35 |
     | id | EAID\_418C04F0\_F173\_4775\_9814\_D50F5EE79A38 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -298,7 +297,7 @@ Attributen van objecttype Incident
 | datumTijdTot | DateTime |  |
 | omschrijving | Text |  |
 | toelichting | Text |  |
-| soort | enum_Incidenttype |  |
+| soort | EnumIncidenttype |  |
 | locatie | Point |  |
 
 
@@ -320,7 +319,7 @@ Attributen van objecttype Incident
     | author | Arjen Brienen |
     | version | 1.12.0 |
     | created | 2018-04-23 14:46:34 |
-    | modified | 2025-12-18 15:38:52 |
+    | modified | 2025-12-22 15:26:51 |
     | id | EAID\_51A266C7\_3BDA\_457c\_9A32\_CD1B166CA5BF |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -360,7 +359,7 @@ Attributen van objecttype Leverancier
     | author | Arjen Brienen |
     | version | 1.8.0 |
     | created | 2024-08-20 15:28:07 |
-    | modified | 2025-12-16 10:28:34 |
+    | modified | 2025-12-22 15:26:51 |
     | id | EAID\_D8F2EAAD\_7C80\_4164\_8171\_C632F18A6742 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -399,7 +398,7 @@ Attributen van objecttype Profiel
     | author | Arjen Brienen |
     | version | 1.11.0 |
     | created | 2018-05-23 15:53:42 |
-    | modified | 2025-12-18 15:38:52 |
+    | modified | 2025-12-22 15:26:51 |
     | id | EAID\_3DF01B79\_6712\_473e\_9878\_594CB5AE95A7 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -435,7 +434,7 @@ Attributen van objecttype Relatie
     | author | Arjen Brienen |
     | version | 1.11.0 |
     | created | 2018-05-23 16:01:41 |
-    | modified | 2025-12-18 15:38:52 |
+    | modified | 2025-12-22 15:26:51 |
     | id | EAID\_F5FAF498\_F536\_4fb3\_9948\_73EBCDF61AD5 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -471,7 +470,7 @@ Attributen van objecttype Relatiesoort
     | author | Arjen Brienen |
     | version | 1.10.0 |
     | created | 2024-03-07 13:03:48 |
-    | modified | 2025-12-16 10:28:34 |
+    | modified | 2025-12-22 15:26:51 |
     | id | EAID\_A0D437D2\_BE13\_45a2\_8C8D\_1AE953B9404C |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -511,7 +510,7 @@ Attributen van objecttype Sociale Groep
     | author | Arjen Brienen |
     | version | 1.10.0 |
     | created | 2024-03-07 12:54:30 |
-    | modified | 2025-12-16 10:28:34 |
+    | modified | 2025-12-22 15:26:51 |
     | id | EAID\_CD519902\_210F\_4355\_8B24\_EAD513F61966 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -549,7 +548,7 @@ Attributen van objecttype Sociale Relatie
     | author | Arjen Brienen |
     | version | 1.11.0 |
     | created | 2018-05-07 11:53:42 |
-    | modified | 2025-12-18 15:38:52 |
+    | modified | 2025-12-22 15:26:51 |
     | id | EAID\_810C273F\_0A2B\_4e68\_A94B\_46722FF9E19D |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -575,20 +574,20 @@ Attributen van objecttype Stadspas
 ## Enumeraties Model Sociaal Domein Generiek
 
 
-### enum_Incidenttype
+### EnumIncidenttype
 Geen Definitie
 
-Het enumeratie enum_Incidenttype kent de volgende waarden:
+Het enumeratie EnumIncidenttype kent de volgende waarden:
 
 
 
-De enumeratie enum_Incidenttype heeft de volgende kenmerken:
+De enumeratie EnumIncidenttype heeft de volgende kenmerken:
 
-??? info "Kenmerken Model enum_Incidenttype"
+??? info "Kenmerken Model EnumIncidenttype"
 
     | Kenmerk | Waarde |
     | :--- | :------ |
-    | name | enum\_Incidenttype |
+    | name | EnumIncidenttype |
     | toelichting |  |
     | synoniemen |  |
     | uri |  |
@@ -596,8 +595,8 @@ De enumeratie enum_Incidenttype heeft de volgende kenmerken:
     | author |  |
     | version | 1.10.0 |
     | created | 2025-03-26 11:12:50 |
-    | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_27d37248\_8797\_464c\_a6c4\_b2121db70f40 |
+    | modified | 2026-10-28 19:09:51 |
+    | id | EAID\_106b8359\_f9da\_48fe\_bfa7\_a8e767018b75 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |

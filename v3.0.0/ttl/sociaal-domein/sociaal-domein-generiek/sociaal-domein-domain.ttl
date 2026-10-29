@@ -7,27 +7,6 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/client/client> a mim:Relatiesoort,
-        owl:ObjectProperty ;
-    rdfs:label "client"@nl ;
-    mim:aggregatietype mim:Geen ;
-    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/client> ;
-    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/schuldhulpverlening/schuldhulptraject> ;
-    mim:heeftTijdlijnGeldigheid false ;
-    mim:heeftTijdlijnRegistratie false ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/client/client"^^xsd:anyURI ;
-    mim:indicatieAfleidbaar false ;
-    mim:indicatieFormeleHistorie false ;
-    mim:indicatieMaterieleHistorie false ;
-    mim:kardinaliteit "0..*" ;
-    mim:mogelijkGeenWaarde true ;
-    mim:naam "client"@nl ;
-    mim:unidirectioneel true ;
-    dcterms:identifier "EAID_src2A7C80_3621_40aa_B091_E30616E65F1D" ;
-    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/client> ;
-    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/> ;
-    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/schuldhulpverlening/schuldhulptraject> .
-
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/client/heeft-relatie> a mim:Relatiesoort,
         owl:ObjectProperty ;
     rdfs:label "heeft relatie"@nl ;
@@ -122,15 +101,15 @@
     dcterms:isPartOf <https://lod.gemeentelijkgegevensmodel.nl/> ;
     owl:versionInfo "v3.0.0" .
 
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/schuldhulpverlening/enumhuishoudenssoort/instituuttioneel-huishouden> a mim:Enumeratiewaarde,
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/schuldhulpverlening/enumhuishoudenssoort/institutioneel-huishouden> a mim:Enumeratiewaarde,
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/schuldhulpverlening/enumhuishoudenssoort> ;
-    rdfs:label "Instituuttioneel Huishouden"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/schuldhulpverlening/enumhuishoudenssoort/instituuttioneel-huishouden"^^xsd:anyURI ;
-    mim:naam "Instituuttioneel Huishouden"@nl ;
+    rdfs:label "Institutioneel Huishouden"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/schuldhulpverlening/enumhuishoudenssoort/institutioneel-huishouden"^^xsd:anyURI ;
+    mim:naam "Institutioneel Huishouden"@nl ;
     dcterms:identifier "EAID_C82C554A_BC88_4bb6_9A50_F9CFAE5D7A33" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/schuldhulpverlening/enumhuishoudenssoort> ;
-    skos:prefLabel "Instituuttioneel Huishouden"@nl ;
+    skos:prefLabel "Institutioneel Huishouden"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/schuldhulpverlening/enumhuishoudenssoort> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/schuldhulpverlening/enumhuishoudenssoort/particulier-huishouden> a mim:Enumeratiewaarde,
@@ -320,7 +299,7 @@
     mim:definitie "Lijst met alle soorten huishoudens die worden onderkend."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/schuldhulpverlening/enumhuishoudenssoort"^^xsd:anyURI ;
     mim:naam "EnumHuishoudenssoort"@nl ;
-    mim:waarde <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/schuldhulpverlening/enumhuishoudenssoort/instituuttioneel-huishouden>,
+    mim:waarde <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/schuldhulpverlening/enumhuishoudenssoort/institutioneel-huishouden>,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/schuldhulpverlening/enumhuishoudenssoort/particulier-huishouden> ;
     dcterms:identifier "EAID_76676076_DDDA_4427_8ECB_46565F915F49" ;
     rdfs:comment "Lijst met alle soorten huishoudens die worden onderkend."@nl ;

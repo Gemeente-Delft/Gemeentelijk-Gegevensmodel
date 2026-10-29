@@ -16,7 +16,7 @@
     | author | janbr |
     | version | 1.1 |
     | created | 2024-06-27 21:51:28 |
-    | modified | 2025-03-27 15:33:40 |
+    | modified | 2025-12-22 15:26:49 |
     | id | EAPK\_2D091BA6\_1407\_C3BE\_D193\_3743D37AB694 |
     
 
@@ -47,9 +47,9 @@ Het model 'Model Normafwijking' kent de volgende objecttypen:
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.10.0 |
+    | version | 1.12.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-12-18 15:38:52 |
+    | modified | 2025-12-22 15:44:35 |
     | id | EAID\_1BD0DD3A\_888E\_945B\_4A20\_276CADAE4D4C |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -86,9 +86,9 @@ Attributen van objecttype Afwijkende maatregel
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.10.0 |
+    | version | 1.12.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-12-18 15:38:52 |
+    | modified | 2025-12-22 15:44:35 |
     | id | EAID\_05E49616\_803F\_4C1B\_9663\_262C4A191DF9 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -125,9 +125,9 @@ Attributen van objecttype Boete
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.10.0 |
+    | version | 1.12.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-12-18 15:38:52 |
+    | modified | 2025-12-22 15:44:35 |
     | id | EAID\_0B63B508\_9F69\_A5D7\_4387\_2632D2C24782 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -165,9 +165,9 @@ Attributen van objecttype Maatregel
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.10.0 |
+    | version | 1.12.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-12-18 15:38:52 |
+    | modified | 2025-12-22 15:44:35 |
     | id | EAID\_032C6459\_3922\_4AEF\_0D73\_262C4A138E25 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -203,9 +203,9 @@ Attributen van objecttype Maatregel op uitkering
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.10.0 |
+    | version | 1.12.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-12-18 15:38:52 |
+    | modified | 2025-12-22 15:44:35 |
     | id | EAID\_167FF4C9\_6B66\_EEDA\_5189\_262C4A139258 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -260,8 +260,8 @@ De enumeratie TypeMaatregel heeft de volgende kenmerken:
     | author | janbr |
     | version | 1.1.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-08-06 14:19:41 |
-    | id | EAID\_387f6a1c\_ec0f\_4ed7\_a921\_974ecd3c1336 |
+    | modified | 2025-12-22 15:26:49 |
+    | id | EAID\_7e6eca9b\_dea2\_4bfe\_a121\_f301b9f7ffca |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -302,8 +302,8 @@ De enumeratie CodeRedenMaatregel heeft de volgende kenmerken:
     | author | janbr |
     | version | 1.1.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-08-06 14:19:41 |
-    | id | EAID\_548e09e1\_f8a1\_472c\_ac89\_611142401e08 |
+    | modified | 2025-12-22 15:26:49 |
+    | id | EAID\_3cf335b7\_170b\_4d29\_bbfb\_87b35404a14b |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -337,8 +337,8 @@ De enumeratie StdIndJN heeft de volgende kenmerken:
     | author | janbr |
     | version | 1.1.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-08-06 14:19:41 |
-    | id | EAID\_e16bd260\_54b3\_454d\_9e3b\_1aabfca0ba96 |
+    | modified | 2025-12-22 15:26:49 |
+    | id | EAID\_209fa1a3\_23a9\_427d\_992a\_001a71c0c3ee |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -372,8 +372,8 @@ De enumeratie TypeNormafwijking heeft de volgende kenmerken:
     | author | janbr |
     | version | 1.1.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-08-06 14:19:41 |
-    | id | EAID\_8a98c298\_403a\_4526\_8650\_606f96f090e5 |
+    | modified | 2025-12-22 15:26:49 |
+    | id | EAID\_84d039ef\_3932\_4923\_af34\_8b2bc3c003e0 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -407,8 +407,8 @@ De enumeratie StdIndJN heeft de volgende kenmerken:
     | author | janbr |
     | version | 1.1.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-08-06 14:19:41 |
-    | id | EAID\_3425a120\_4aa8\_4e41\_9325\_32eb15a95780 |
+    | modified | 2025-12-22 15:26:49 |
+    | id | EAID\_0c7f572f\_35ff\_4b6e\_ba25\_a8b12af5a92c |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |

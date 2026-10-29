@@ -160,6 +160,28 @@
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/sport/> ;
     rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/sport/sportlocatie> .
 
+<https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/sport/sportvereniging/oefent-uit> a mim:Relatiesoort,
+        owl:ObjectProperty ;
+    rdfs:label "oefent uit"@nl ;
+    mim:aggregatietype mim:Geen ;
+    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/sport/sportvereniging> ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/sport/sport> ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/sport/sportvereniging/oefent-uit"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..*" ;
+    mim:kardinaliteitRelatieBron "0..*" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "oefent uit"@nl ;
+    mim:unidirectioneel true ;
+    dcterms:identifier "EAID_3BD57709_AE22_40c0_A501_1DB1435C1488" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/sport/sportvereniging> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/sport/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/sport/sport> .
+
 <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/sport/veld/heeft> a mim:Relatiesoort,
         owl:ObjectProperty ;
     rdfs:label "heeft"@nl ;
@@ -483,8 +505,8 @@
     mim:code "1" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortrechtsvorm/besloten-vennootschap"^^xsd:anyURI ;
     mim:naam "Besloten vennootschap"@nl ;
-    dcterms:identifier "EAID_430ac886_d7c6_43f2_b9bf_acf02f2d27af",
-        "EAID_f6ff4b46_a30d_47e0_b6c9_55c553492edf" ;
+    dcterms:identifier "EAID_38bf7ec6_bc1a_46c5_a2f2_b195d828e7be",
+        "EAID_96b168b1_d1b6_4a8a_8dc9_e40316d929d4" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortrechtsvorm> ;
     skos:notation "1" ;
     skos:prefLabel "Besloten vennootschap"@nl ;
@@ -497,8 +519,8 @@
     mim:code "2" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortrechtsvorm/commanditaire-vennootschap"^^xsd:anyURI ;
     mim:naam "commanditaire vennootschap"@nl ;
-    dcterms:identifier "EAID_0230d0b2_6c48_44c2_ad73_3def93b43b42",
-        "EAID_37bc54e0_1967_4800_870d_441dfb19d2c9" ;
+    dcterms:identifier "EAID_c16d57c2_a27b_40da_ba73_b229fcc3f085",
+        "EAID_e62379b5_ad68_4d65_bad6_086a338d45cd" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortrechtsvorm> ;
     skos:notation "2" ;
     skos:prefLabel "commanditaire vennootschap"@nl ;
@@ -511,8 +533,8 @@
     mim:code "3" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortrechtsvorm/cooperatie-europees-economische-samenwerking"^^xsd:anyURI ;
     mim:naam "cooperatie, Europees Economische Samenwerking"@nl ;
-    dcterms:identifier "EAID_ac421bb2_ffbb_44ac_9d4d_333d69470a48",
-        "EAID_b226f730_d0fa_4e74_bf2b_c6a6a1a010af" ;
+    dcterms:identifier "EAID_d672a858_fbe8_40a3_b2dc_fe45a4c26ee6",
+        "EAID_fac31cc1_235c_4c50_9996_e3d4b4811c68" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortrechtsvorm> ;
     skos:notation "3" ;
     skos:prefLabel "cooperatie, Europees Economische Samenwerking"@nl ;
@@ -525,8 +547,8 @@
     mim:code "4" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortrechtsvorm/europese-cooperatieve-vennootschap"^^xsd:anyURI ;
     mim:naam "Europese Cooperatieve Vennootschap"@nl ;
-    dcterms:identifier "EAID_2a8a198b_346c_4045_932d_d469c4bc8792",
-        "EAID_36a59a1a_0a2a_4b93_9990_3a2c9309b5c9" ;
+    dcterms:identifier "EAID_55352538_dac2_48c7_aecd_392b1a70eeab",
+        "EAID_ee3d2a78_69c3_43c0_90e3_01ce0e0d2490" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortrechtsvorm> ;
     skos:notation "4" ;
     skos:prefLabel "Europese Cooperatieve Vennootschap"@nl ;
@@ -539,8 +561,8 @@
     mim:code "5" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortrechtsvorm/europese-naamloze-vennootschap"^^xsd:anyURI ;
     mim:naam "Europese Naamloze Vennootschap"@nl ;
-    dcterms:identifier "EAID_898dc1b1_e324_4ab9_be13_37682ac9037c",
-        "EAID_c94859e7_76c1_4d68_b5cc_2bb79ee55e16" ;
+    dcterms:identifier "EAID_78a142b1_fd76_498c_a79e_765f0c63c255",
+        "EAID_a968c4d3_b2f5_4215_9eac_574376085e1d" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortrechtsvorm> ;
     skos:notation "5" ;
     skos:prefLabel "Europese Naamloze Vennootschap"@nl ;
@@ -556,8 +578,8 @@ de landen van de Europese Economische Ruimte (Europese Unie +
 IJsland, Noorwegen en Liechtenstein)."""@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortrechtsvorm/kapitaalvennootschap-binnen-eer"^^xsd:anyURI ;
     mim:naam "kapitaalvennootschap binnen EER"@nl ;
-    dcterms:identifier "EAID_7307f386_d68b_40e7_ad32_1340c9d4c471",
-        "EAID_df081653_a797_4615_bb4c_28852a3a0692" ;
+    dcterms:identifier "EAID_25382da3_edff_4609_b425_416a93afed77",
+        "EAID_f5589c7f_c391_4449_9fe9_71f1f977ea3c" ;
     skos:definition """Een kapitaalvennootschap die is opgericht buiten Nederland in een van 
 de landen van de Europese Economische Ruimte (Europese Unie + 
 IJsland, Noorwegen en Liechtenstein)."""@nl ;
@@ -576,8 +598,8 @@ Europese Economische Ruimte (Europese Unie + IJsland, Noorwegen
 en Liechtenstein)."""@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortrechtsvorm/kapitaalvennootschap-buiten-eer"^^xsd:anyURI ;
     mim:naam "kapitaalvennootschap buiten EER"@nl ;
-    dcterms:identifier "EAID_2157933f_4157_4698_a67e_b0bee1e52a33",
-        "EAID_40c82761_3e42_438f_8111_d9fe67fc0a3e" ;
+    dcterms:identifier "EAID_209ae33b_3371_4ad2_8b4d_7f73d266d7ea",
+        "EAID_70c73ebc_6ad8_4d79_ba5b_8632744f8b4e" ;
     skos:definition """Een kapitaalvennootschap die is opgericht buiten de landen van de 
 Europese Economische Ruimte (Europese Unie + IJsland, Noorwegen 
 en Liechtenstein)."""@nl ;
@@ -593,8 +615,8 @@ en Liechtenstein)."""@nl ;
     mim:code "8" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortrechtsvorm/kerkelijke-organisatie"^^xsd:anyURI ;
     mim:naam "kerkelijke Organisatie"@nl ;
-    dcterms:identifier "EAID_2077ab2e_bacd_4819_94e0_a802349460cb",
-        "EAID_99ee4a52_b4bb_4c46_9391_07599f04b500" ;
+    dcterms:identifier "EAID_04352546_6995_4a2e_a761_c689ac0ef824",
+        "EAID_4c7074dc_b5b1_4e9a_86a7_853d3d746abd" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortrechtsvorm> ;
     skos:notation "8" ;
     skos:prefLabel "kerkelijke Organisatie"@nl ;
@@ -607,8 +629,8 @@ en Liechtenstein)."""@nl ;
     mim:code "-2" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortrechtsvorm/leeg"^^xsd:anyURI ;
     mim:naam "Leeg"@nl ;
-    dcterms:identifier "EAID_28efb04c_28c0_48c6_b34b_1360ce04f16f",
-        "EAID_b9322268_eb98_431b_b1f8_cd299f0fbc7b" ;
+    dcterms:identifier "EAID_3524a7a8_9e50_4c79_83cc_7d070d20ddd4",
+        "EAID_809c7b27_24d2_4015_bd93_cf328406dcda" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortrechtsvorm> ;
     skos:notation "-2" ;
     skos:prefLabel "Leeg"@nl ;
@@ -621,8 +643,8 @@ en Liechtenstein)."""@nl ;
     mim:code "9" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortrechtsvorm/maatschap"^^xsd:anyURI ;
     mim:naam "maatschap"@nl ;
-    dcterms:identifier "EAID_06bc1f36_9842_409d_bb0c_b7429c0ed56c",
-        "EAID_3a0a57f4_18eb_4f23_9815_536fcae7e834" ;
+    dcterms:identifier "EAID_9daada1e_dbf2_478f_8789_28fbe8a829f3",
+        "EAID_d96bbba9_b268_4432_adf0_904fa7bff7d7" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortrechtsvorm> ;
     skos:notation "9" ;
     skos:prefLabel "maatschap"@nl ;
@@ -635,8 +657,8 @@ en Liechtenstein)."""@nl ;
     mim:code "10" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortrechtsvorm/naamloze-vennootschap"^^xsd:anyURI ;
     mim:naam "naamloze Vennootschap"@nl ;
-    dcterms:identifier "EAID_37060d9c_decc_43e8_8abe_a7620de4c616",
-        "EAID_f9ed0a37_db91_4859_a6e6_3958d36a876c" ;
+    dcterms:identifier "EAID_2f839162_b4d8_4e7b_9b84_5d3cc6d66b2a",
+        "EAID_bc99a161_54f6_4eb6_8c25_472934f8ad0b" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortrechtsvorm> ;
     skos:notation "10" ;
     skos:prefLabel "naamloze Vennootschap"@nl ;
@@ -649,8 +671,8 @@ en Liechtenstein)."""@nl ;
     mim:code "-1" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortrechtsvorm/onbekend"^^xsd:anyURI ;
     mim:naam "Onbekend"@nl ;
-    dcterms:identifier "EAID_7de7026e_c5f9_4d83_ab81_378b05664170",
-        "EAID_f08cd3fb_ebb3_4663_82f2_858aad25ae97" ;
+    dcterms:identifier "EAID_1da0b2dd_bb0a_4b3b_a988_f6b56a37e640",
+        "EAID_c615d496_0379_4726_95c4_03b4d10344ae" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortrechtsvorm> ;
     skos:notation "-1" ;
     skos:prefLabel "Onbekend"@nl ;
@@ -663,8 +685,8 @@ en Liechtenstein)."""@nl ;
     mim:code "11" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortrechtsvorm/onderlinge-waarborg-maatschappij"^^xsd:anyURI ;
     mim:naam "onderlinge Waarborg Maatschappij"@nl ;
-    dcterms:identifier "EAID_55efc8fe_9721_45b2_bbd6_472b19c90e3c",
-        "EAID_ce2eed55_b0bd_421a_8a14_267eea1e9ebf" ;
+    dcterms:identifier "EAID_1648b35d_c9c5_46a3_b728_90bd24168fdd",
+        "EAID_dd7e837d_aae0_4aab_84fc_0dc0fe16a731" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortrechtsvorm> ;
     skos:notation "11" ;
     skos:prefLabel "onderlinge Waarborg Maatschappij"@nl ;
@@ -677,8 +699,8 @@ en Liechtenstein)."""@nl ;
     mim:code "12" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortrechtsvorm/overig-privaatrechtelijke-rechtspersoon"^^xsd:anyURI ;
     mim:naam "overig privaatrechtelijke rechtspersoon"@nl ;
-    dcterms:identifier "EAID_8ebd5f65_a80c_4540_9c29_848b408eed6c",
-        "EAID_b287b88e_1021_405d_bf49_0e2d4e25abe4" ;
+    dcterms:identifier "EAID_2c379469_beb7_4a40_89e7_26fe1a72ab4f",
+        "EAID_f29ac262_0c37_4dd9_82fa_b1b626ca3cdc" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortrechtsvorm> ;
     skos:notation "12" ;
     skos:prefLabel "overig privaatrechtelijke rechtspersoon"@nl ;
@@ -693,8 +715,8 @@ en Liechtenstein)."""@nl ;
 kapitaalvennootschap zijn binnen of buiten de E.E.R."""@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortrechtsvorm/overige-buitenlandse-rechtspersoon-vennootschap"^^xsd:anyURI ;
     mim:naam "overige buitenlandse rechtspersoon vennootschap"@nl ;
-    dcterms:identifier "EAID_52bdc1b5_0e33_4a83_9f20_fa035e96e598",
-        "EAID_e926cbae_ba94_497c_8db3_b43e37d00dba" ;
+    dcterms:identifier "EAID_0ea6e12c_dba6_4152_826f_6c658e40df36",
+        "EAID_65ce4f8d_f159_43da_aecf_64d83c4bda31" ;
     skos:definition """Overige buitenlandse rechtspersonen of vennootschappen die geen 
 kapitaalvennootschap zijn binnen of buiten de E.E.R."""@nl ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortrechtsvorm> ;
@@ -709,8 +731,8 @@ kapitaalvennootschap zijn binnen of buiten de E.E.R."""@nl ;
     mim:code "14" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortrechtsvorm/publiekrechtelijke-rechtspersoon"^^xsd:anyURI ;
     mim:naam "publiekrechtelijke Rechtspersoon"@nl ;
-    dcterms:identifier "EAID_b075a6e9_4972_468b_a1a5_18a00aa90d81",
-        "EAID_f88a0ece_526b_46bc_8564_086f2deda051" ;
+    dcterms:identifier "EAID_2afbdab1_ffce_47ba_899d_d8d34aa01fb8",
+        "EAID_7fdbd63a_8c0b_47c6_b9b7_abd015b4f460" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortrechtsvorm> ;
     skos:notation "14" ;
     skos:prefLabel "publiekrechtelijke Rechtspersoon"@nl ;
@@ -723,8 +745,8 @@ kapitaalvennootschap zijn binnen of buiten de E.E.R."""@nl ;
     mim:code "15" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortrechtsvorm/rederij"^^xsd:anyURI ;
     mim:naam "rederij"@nl ;
-    dcterms:identifier "EAID_bf49a938_7c2e_4d98_b12f_0254f62af0e3",
-        "EAID_e767e6e5_bb11_47b3_9aee_b3d7424d0c3a" ;
+    dcterms:identifier "EAID_20388cfe_65cc_49d8_8a12_1b1f5e6704dd",
+        "EAID_fb352f71_fc90_42d2_8648_346d16ee86f0" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortrechtsvorm> ;
     skos:notation "15" ;
     skos:prefLabel "rederij"@nl ;
@@ -737,8 +759,8 @@ kapitaalvennootschap zijn binnen of buiten de E.E.R."""@nl ;
     mim:code "16" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortrechtsvorm/stichting"^^xsd:anyURI ;
     mim:naam "stichting"@nl ;
-    dcterms:identifier "EAID_77534283_0aa0_472e_8573_82a401a42bbb",
-        "EAID_c13033f5_4f84_41a0_b9f5_b41e8fe8f989" ;
+    dcterms:identifier "EAID_19a71b1a_ec8e_4a4f_9cbe_c4d615ca768c",
+        "EAID_50401d65_743c_457a_874f_5e809144c262" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortrechtsvorm> ;
     skos:notation "16" ;
     skos:prefLabel "stichting"@nl ;
@@ -751,8 +773,8 @@ kapitaalvennootschap zijn binnen of buiten de E.E.R."""@nl ;
     mim:code "17" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortrechtsvorm/vennootschap-onder-firma"^^xsd:anyURI ;
     mim:naam "vennootschap onder Firma"@nl ;
-    dcterms:identifier "EAID_031bf5a3_6ffc_4267_a236_78199f3e362a",
-        "EAID_8d821b83_54cd_4ca0_8ccd_c8ae7a34b9e8" ;
+    dcterms:identifier "EAID_9b442fe9_9146_4060_a783_6231be81f3c3",
+        "EAID_bbf83923_e22f_43d6_888d_8050e93ac0f5" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortrechtsvorm> ;
     skos:notation "17" ;
     skos:prefLabel "vennootschap onder Firma"@nl ;
@@ -765,8 +787,8 @@ kapitaalvennootschap zijn binnen of buiten de E.E.R."""@nl ;
     mim:code "18" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortrechtsvorm/vereniging"^^xsd:anyURI ;
     mim:naam "vereniging"@nl ;
-    dcterms:identifier "EAID_c743fd39_573e_4674_aec1_9016f6e45c91",
-        "EAID_cf781494_d205_499a_9b4a_07b80e3f938a" ;
+    dcterms:identifier "EAID_2e0cb2df_37d3_46b9_b983_d073470a3c1f",
+        "EAID_d6a6ed8d_14de_4b0b_91ee_8b19a160d0d5" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortrechtsvorm> ;
     skos:notation "18" ;
     skos:prefLabel "vereniging"@nl ;
@@ -779,8 +801,8 @@ kapitaalvennootschap zijn binnen of buiten de E.E.R."""@nl ;
     mim:code "19" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortrechtsvorm/vereniging-van-eigenaars"^^xsd:anyURI ;
     mim:naam "vereniging van Eigenaars"@nl ;
-    dcterms:identifier "EAID_d2638a1f_58d8_4923_8e47_7fb3a28172d9",
-        "EAID_d2b9f4f8_107c_4925_89d2_c830a5e9502a" ;
+    dcterms:identifier "EAID_41b60ebe_58d8_4489_9728_c27c69c7c82e",
+        "EAID_9d388b55_fb85_40f9_befe_f290d620f3bb" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortrechtsvorm> ;
     skos:notation "19" ;
     skos:prefLabel "vereniging van Eigenaars"@nl ;
@@ -804,6 +826,37 @@ kapitaalvennootschap zijn binnen of buiten de E.E.R."""@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/school> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/> ;
     rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/sport/aantal> a mim:Objecttype,
+        owl:Class ;
+    rdfs:label "Aantal"@nl ;
+    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/sport/aantal/aantalmateriaal> ;
+    mim:definitie "Een onbepaalde maar telbare hoeveelheid"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/sport/aantal"^^xsd:anyURI ;
+    mim:indicatieAbstractObject false ;
+    mim:naam "Aantal"@nl ;
+    dcterms:identifier "EAID_E8BAADC6_ABB5_4586_8E4B_F1689CAEA1A1" ;
+    rdfs:comment "Een onbepaalde maar telbare hoeveelheid"@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/sport/> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/sport/aantal/aantalmateriaal> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "aantalMateriaal"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/sport/aantal/aantalmateriaal"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "aantalMateriaal"@nl ;
+    mim:type mim:Integer ;
+    dcterms:identifier "EAID_3E644C86_8729_4dd3_AC81_25A7B5320E91" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/sport/aantal> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/sport/> ;
+    rdfs:range xsd:integer .
 
 <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/sport/belijning/naam> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
@@ -1037,6 +1090,25 @@ kapitaalvennootschap zijn binnen of buiten de E.E.R."""@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/sport/> ;
     rdfs:range xsd:integer .
 
+<https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/sport/sport/naam> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "naam"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/sport/sport/naam"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "naam"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_8F1D8D90_5496_4d7c_AFC9_05E2BF648150" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/sport/sport> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/sport/> ;
+    rdfs:range xsd:string .
+
 <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/sport/sportlocatie/naam> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "naam"@nl ;
@@ -1233,6 +1305,18 @@ kapitaalvennootschap zijn binnen of buiten de E.E.R."""@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/> ;
     rdfs:subClassOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/nietnatuurlijkpersoon> .
 
+<https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/sport/sport> a mim:Objecttype,
+        owl:Class ;
+    rdfs:label "Sport"@nl ;
+    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/sport/sport/naam> ;
+    mim:definitie "Een fysieke bezigheid met vaste regels en waarbij vaak sprake is van competitieverband. Sporten kunnen ook recreatief beoefend worden."@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/sport/sport"^^xsd:anyURI ;
+    mim:indicatieAbstractObject false ;
+    mim:naam "Sport"@nl ;
+    dcterms:identifier "EAID_567576EB_3CE1_43dd_8BD4_58310C3DA04B" ;
+    rdfs:comment "Een fysieke bezigheid met vaste regels en waarbij vaak sprake is van competitieverband. Sporten kunnen ook recreatief beoefend worden."@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/sport/> .
+
 <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/sport/sportmateriaal> a mim:Objecttype,
         owl:Class ;
     rdfs:label "Sportmateriaal"@nl ;
@@ -1374,8 +1458,8 @@ kapitaalvennootschap zijn binnen of buiten de E.E.R."""@nl ;
         <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortrechtsvorm/vennootschap-onder-firma>,
         <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortrechtsvorm/vereniging>,
         <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/soortrechtsvorm/vereniging-van-eigenaars> ;
-    dcterms:identifier "EAID_ee43fb26_a483_4458_a147_4441c8ea378f",
-        "EAID_f924d91b_db79_4ccc_9879_659776d1a3e2" ;
+    dcterms:identifier "EAID_1d9544d0_d0d2_4b79_a7fa_204b0ed97e30",
+        "EAID_52901741_483e_4ac6_9ee4_405813ebb9f6" ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
     rdfs:subClassOf skos:Concept .
 

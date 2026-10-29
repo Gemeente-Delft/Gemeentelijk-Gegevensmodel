@@ -16,7 +16,7 @@
     | author | Arjen Brienen |
     | version | 1.1 |
     | created | 2019-09-17 15:55:09 |
-    | modified | 2025-03-27 15:28:35 |
+    | modified | 2025-12-22 15:26:48 |
     | id | EAPK\_C1AFCF43\_8159\_462b\_9552\_03F2EF070141 |
     
 
@@ -45,7 +45,7 @@ Het model 'Model Gemeentebegrafenissen' kent de volgende objecttypen:
     | author | Arjen Brienen |
     | version | 1.12.0 |
     | created | 2019-09-17 16:00:33 |
-    | modified | 2025-12-18 15:38:52 |
+    | modified | 2025-12-22 15:26:48 |
     | id | EAID\_F2DBE01F\_7535\_4f26\_9DF2\_081EF8632F36 |
     | domein_iv3 |  |
     | domein_dcat |  |

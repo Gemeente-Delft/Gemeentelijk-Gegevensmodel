@@ -42,14 +42,14 @@
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/> ;
     rdfs:subClassOf <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/cmdb-item> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/nertwerkcomponent> a mim:Objecttype,
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/netwerkcomponent> a mim:Objecttype,
         owl:Class ;
-    rdfs:label "Nertwerkcomponent"@nl ;
+    rdfs:label "Netwerkcomponent"@nl ;
     mim:definitie "Een *netwerkcomponent* is een hardware- of softwareonderdeel dat een **specifieke functie vervult binnen een netwerk** om communicatie, gegevensuitwisseling of het beheer van netwerkverkeer mogelijk te maken."@nl ;
     mim:herkomstDefinitie "https://www.shiksha.com/online-courses/articles/network-component/" ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/nertwerkcomponent"^^xsd:anyURI ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/netwerkcomponent"^^xsd:anyURI ;
     mim:indicatieAbstractObject false ;
-    mim:naam "Nertwerkcomponent"@nl ;
+    mim:naam "Netwerkcomponent"@nl ;
     mim:toelichting "Een netwerk bestaat uit meerdere onderdelen die samenwerken om **gegevens tussen apparaten te versturen, te ontvangen en te beheren**. Dit kunnen fysieke apparaten zijn zoals routers, switches, netwerkkaarten en access points, maar ook software- of protocolonderdelen die nodig zijn voor de werking van het netwerk zelf. Deze componenten dragen bij aan het opzetten, **onderhouden, sturen of beveiligen van de communicatie** tussen verschillende netwerkdeelnemers."@nl ;
     dcterms:identifier "EAID_DD277E82_0CA5_4460_918F_9178B5F01886" ;
     rdfs:comment "Een *netwerkcomponent* is een hardware- of softwareonderdeel dat een **specifieke functie vervult binnen een netwerk** om communicatie, gegevensuitwisseling of het beheer van netwerkverkeer mogelijk te maken."@nl ;

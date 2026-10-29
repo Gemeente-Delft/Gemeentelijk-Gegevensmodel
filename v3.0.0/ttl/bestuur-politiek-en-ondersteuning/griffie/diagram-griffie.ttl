@@ -403,48 +403,6 @@
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/generiek/> ;
     rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/agendapunt> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/document/type> a mim:Relatiesoort,
-        owl:ObjectProperty ;
-    rdfs:label "type"@nl ;
-    mim:aggregatietype mim:Geen ;
-    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/document> ;
-    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/documenttype> ;
-    mim:heeftTijdlijnGeldigheid false ;
-    mim:heeftTijdlijnRegistratie false ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/document/type"^^xsd:anyURI ;
-    mim:indicatieAfleidbaar false ;
-    mim:indicatieFormeleHistorie false ;
-    mim:indicatieMaterieleHistorie false ;
-    mim:kardinaliteit "1..1" ;
-    mim:mogelijkGeenWaarde true ;
-    mim:naam "type"@nl ;
-    mim:unidirectioneel true ;
-    dcterms:identifier "EAID_dstC59C3B_CE93_4428_B10D_BE49A6FCD782" ;
-    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/document> ;
-    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> ;
-    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/documenttype> .
-
-<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/ingezetene/verblijfstitel> a mim:Relatiesoort,
-        owl:ObjectProperty ;
-    rdfs:label "verblijfstitel"@nl ;
-    mim:aggregatietype mim:Geen ;
-    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/ingezetene> ;
-    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/verblijfstitel> ;
-    mim:heeftTijdlijnGeldigheid false ;
-    mim:heeftTijdlijnRegistratie false ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/ingezetene/verblijfstitel"^^xsd:anyURI ;
-    mim:indicatieAfleidbaar false ;
-    mim:indicatieFormeleHistorie false ;
-    mim:indicatieMaterieleHistorie false ;
-    mim:kardinaliteit "0..1" ;
-    mim:mogelijkGeenWaarde true ;
-    mim:naam "verblijfstitel"@nl ;
-    mim:unidirectioneel true ;
-    dcterms:identifier "EAID_dst758CBA_3CE6_4bcc_BD0E_05CE964EE458" ;
-    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/ingezetene> ;
-    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
-    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/verblijfstitel> .
-
 <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/rechtspersoon/adresbinnenland> a mim:Relatiesoort,
         owl:ObjectProperty ;
     rdfs:label "adresBinnenland"@nl ;
@@ -1535,7 +1493,7 @@
     mim:code "1" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel/baron"^^xsd:anyURI ;
     mim:naam "baron"@nl ;
-    dcterms:identifier "EAID_1ee1a35d_2ae1_4e16_80c7_f7c89cd357aa" ;
+    dcterms:identifier "EAID_b6830d32_939d_455f_a798_94d213564a87" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel> ;
     skos:notation "1" ;
     skos:prefLabel "baron"@nl ;
@@ -1548,7 +1506,7 @@
     mim:code "2" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel/barones"^^xsd:anyURI ;
     mim:naam "barones"@nl ;
-    dcterms:identifier "EAID_909a266a_2006_45c4_9a2e_b7b616eda8f3" ;
+    dcterms:identifier "EAID_ad48bd50_9d5a_4032_9aaa_580f18945fe6" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel> ;
     skos:notation "2" ;
     skos:prefLabel "barones"@nl ;
@@ -1561,7 +1519,7 @@
     mim:code "3" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel/graaf"^^xsd:anyURI ;
     mim:naam "graaf"@nl ;
-    dcterms:identifier "EAID_d76847af_bdf7_4019_a049_76160afa923c" ;
+    dcterms:identifier "EAID_03085a22_fd59_4f41_a0e2_2e05c6a11f9c" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel> ;
     skos:notation "3" ;
     skos:prefLabel "graaf"@nl ;
@@ -1574,7 +1532,7 @@
     mim:code "4" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel/gravin"^^xsd:anyURI ;
     mim:naam "gravin"@nl ;
-    dcterms:identifier "EAID_fb4f835d_c607_4c78_8ccb_ec106f8684dc" ;
+    dcterms:identifier "EAID_2f17e375_ee88_4fa9_8373_1ed1b02e4613" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel> ;
     skos:notation "4" ;
     skos:prefLabel "gravin"@nl ;
@@ -1587,7 +1545,7 @@
     mim:code "5" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel/hertog"^^xsd:anyURI ;
     mim:naam "hertog"@nl ;
-    dcterms:identifier "EAID_63667b0c_7b35_4f53_b842_6287df3ee7ff" ;
+    dcterms:identifier "EAID_0d7ca703_8c37_42b1_ad48_7d6f64fd4201" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel> ;
     skos:notation "5" ;
     skos:prefLabel "hertog"@nl ;
@@ -1600,7 +1558,7 @@
     mim:code "6" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel/hertogin"^^xsd:anyURI ;
     mim:naam "hertogin"@nl ;
-    dcterms:identifier "EAID_c80c5b19_3409_469b_90c5_b2554cdc2ada" ;
+    dcterms:identifier "EAID_694bd825_8787_40d2_8d5e_ae0f0b81f852" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel> ;
     skos:notation "6" ;
     skos:prefLabel "hertogin"@nl ;
@@ -1613,7 +1571,7 @@
     mim:code "-2" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel/leeg"^^xsd:anyURI ;
     mim:naam "Leeg"@nl ;
-    dcterms:identifier "EAID_ac223a5f_c31a_4f25_b6ee_c22042cc920f" ;
+    dcterms:identifier "EAID_8ab4e68b_cac6_46cd_ab55_16d7c150009a" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel> ;
     skos:notation "-2" ;
     skos:prefLabel "Leeg"@nl ;
@@ -1626,7 +1584,7 @@
     mim:code "7" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel/markies"^^xsd:anyURI ;
     mim:naam "markies"@nl ;
-    dcterms:identifier "EAID_74478cdf_6f28_4a26_85a8_586e66bcb673" ;
+    dcterms:identifier "EAID_927728a5_b77a_4113_8753_eadf8642ce2c" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel> ;
     skos:notation "7" ;
     skos:prefLabel "markies"@nl ;
@@ -1639,7 +1597,7 @@
     mim:code "8" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel/markiezin"^^xsd:anyURI ;
     mim:naam "markiezin"@nl ;
-    dcterms:identifier "EAID_53ab6f22_c437_43e7_9117_4a5c40bbe644" ;
+    dcterms:identifier "EAID_3c9038b1_2629_49e8_8afb_522b3f3a202c" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel> ;
     skos:notation "8" ;
     skos:prefLabel "markiezin"@nl ;
@@ -1652,7 +1610,7 @@
     mim:code "-1" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel/onbekend"^^xsd:anyURI ;
     mim:naam "Onbekend"@nl ;
-    dcterms:identifier "EAID_98578285_3283_4b1b_ab55_6bed62cb5055" ;
+    dcterms:identifier "EAID_5a111398_43a3_4520_a048_8a47cc92465c" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel> ;
     skos:notation "-1" ;
     skos:prefLabel "Onbekend"@nl ;
@@ -1665,7 +1623,7 @@
     mim:code "9" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel/prins"^^xsd:anyURI ;
     mim:naam "prins"@nl ;
-    dcterms:identifier "EAID_5f30d1ce_fa65_4197_ae86_0ff05a705e50" ;
+    dcterms:identifier "EAID_ae40fbea_b98d_437d_b85e_dea41c8b2bea" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel> ;
     skos:notation "9" ;
     skos:prefLabel "prins"@nl ;
@@ -1678,7 +1636,7 @@
     mim:code "10" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel/prinses"^^xsd:anyURI ;
     mim:naam "prinses"@nl ;
-    dcterms:identifier "EAID_01c43022_8f24_4dfb_a3b8_4a3fdd5d185f" ;
+    dcterms:identifier "EAID_540c4e13_7a0c_4d25_8e3f_f4c21bb753f7" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel> ;
     skos:notation "10" ;
     skos:prefLabel "prinses"@nl ;
@@ -1691,7 +1649,7 @@
     mim:code "11" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel/ridder"^^xsd:anyURI ;
     mim:naam "ridder"@nl ;
-    dcterms:identifier "EAID_58efec5e_328c_467f_8249_3614e966585c" ;
+    dcterms:identifier "EAID_a6439cd8_a898_4981_afd1_262241be2ea6" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel> ;
     skos:notation "11" ;
     skos:prefLabel "ridder"@nl ;
@@ -2615,19 +2573,6 @@ geslachtsnaam voorafgaat.."""@nl ;
     rdfs:comment "Opnametechniek om bewegende beelden als een elektronisch signaal te registreren en weer te geven."@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/generiek/> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/indiener> a mim:Objecttype,
-        owl:Class ;
-    rdfs:label "Indiener"@nl ;
-    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/indiener/naam>,
-        <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/indiener/omschrijving> ;
-    mim:definitie "Persoon die meldiing of aanvraag doet"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/indiener"^^xsd:anyURI ;
-    mim:indicatieAbstractObject false ;
-    mim:naam "Indiener"@nl ;
-    dcterms:identifier "EAID_98CB3C6F_588B_479f_9A2B_F5D5362DD17C" ;
-    rdfs:comment "Persoon die meldiing of aanvraag doet"@nl ;
-    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/> .
-
 <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/document> a mim:Objecttype,
         owl:Class ;
     rdfs:label "Document"@nl ;
@@ -2647,6 +2592,37 @@ geslachtsnaam voorafgaat.."""@nl ;
     dcterms:identifier "EAID_5641C50A_C0FA_4e71_B07B_26C7B1CE94ED" ;
     rdfs:comment "Geheel van gegevens met een eigen identiteit ongeacht zijn vorm, met de bijbehorende metadata ontvangen of opgemaakt door een natuurlijke en/of rechtspersoon bij de uitvoering van taken, zijnde een ENKELVOUDIG DOCUMENT of een SAMENGESTELD DOCUMENT."@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/ingezetene> a mim:Objecttype,
+        owl:Class ;
+    rdfs:label "Ingezetene"@nl ;
+    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/ingezetene/aanduidingeuropeeskiesrecht>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/ingezetene/aanduidinguitgeslotenkiesrecht>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/ingezetene/datumverkrijgingverblijfstitel>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/ingezetene/datumverliesverblijfstitel>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/ingezetene/indicatieblokkering>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/ingezetene/indicatiecurateleregister>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/ingezetene/indicatiegezagminderjarige> ;
+    mim:definitie "Een individueel menselijk wezen, ingeschreven in het Nederlands Bevolkingsregister."@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/ingezetene"^^xsd:anyURI ;
+    mim:indicatieAbstractObject false ;
+    mim:naam "Ingezetene"@nl ;
+    dcterms:identifier "EAID_CA19D17F_3EB7_459d_9883_16F0C0B5D35E" ;
+    rdfs:comment "Een individueel menselijk wezen, ingeschreven in het Nederlands Bevolkingsregister."@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/indiener> a mim:Objecttype,
+        owl:Class ;
+    rdfs:label "Indiener"@nl ;
+    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/indiener/naam>,
+        <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/indiener/omschrijving> ;
+    mim:definitie "Persoon die meldiing of aanvraag doet"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/indiener"^^xsd:anyURI ;
+    mim:indicatieAbstractObject false ;
+    mim:naam "Indiener"@nl ;
+    dcterms:identifier "EAID_98CB3C6F_588B_479f_9A2B_F5D5362DD17C" ;
+    rdfs:comment "Persoon die meldiing of aanvraag doet"@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/agendapunt> a mim:Objecttype,
         owl:Class ;
@@ -2706,24 +2682,6 @@ geslachtsnaam voorafgaat.."""@nl ;
     dcterms:identifier "EAID_368EB061_7CF3_4115_BB21_3C618782F205" ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/> ;
     rdfs:subClassOf skos:Concept .
-
-<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/ingezetene> a mim:Objecttype,
-        owl:Class ;
-    rdfs:label "Ingezetene"@nl ;
-    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/ingezetene/aanduidingeuropeeskiesrecht>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/ingezetene/aanduidinguitgeslotenkiesrecht>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/ingezetene/datumverkrijgingverblijfstitel>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/ingezetene/datumverliesverblijfstitel>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/ingezetene/indicatieblokkering>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/ingezetene/indicatiecurateleregister>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/ingezetene/indicatiegezagminderjarige> ;
-    mim:definitie "Een individueel menselijk wezen, ingeschreven in het Nederlands Bevolkingsregister."@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/ingezetene"^^xsd:anyURI ;
-    mim:indicatieAbstractObject false ;
-    mim:naam "Ingezetene"@nl ;
-    dcterms:identifier "EAID_CA19D17F_3EB7_459d_9883_16F0C0B5D35E" ;
-    rdfs:comment "Een individueel menselijk wezen, ingeschreven in het Nederlands Bevolkingsregister."@nl ;
-    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/raadslid> a mim:Objecttype,
         owl:Class ;
@@ -2886,7 +2844,7 @@ geslachtsnaam voorafgaat.."""@nl ;
         <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel/prins>,
         <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel/prinses>,
         <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel/ridder> ;
-    dcterms:identifier "EAID_8cfb5be5_72e1_4363_87ab_205d3595a633" ;
+    dcterms:identifier "EAID_4ff1ddc0_5489_4582_86ea_7211b2716854" ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
     rdfs:subClassOf skos:Concept .
 

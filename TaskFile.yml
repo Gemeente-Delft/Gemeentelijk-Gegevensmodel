@@ -2,7 +2,7 @@
 #
 # This Taskfile defines tasks for:
 # - Validating tools and variables
-# - Importing the XMI file into Crunch UML
+# - Importing the Enterprise Architect model (.qea) into Crunch UML; the XMI export is kept as a download only
 # - Generating Excel specifications, Markdown documentation, and translations
 # - Deploying documentation to GitHub Pages
 #
@@ -35,9 +35,11 @@ dotenv: ['.env']
 vars:
   VERSION_DIR: "./{{.VERSION}}"
   PREVIOUS_VERSION_DIR: "./{{.PREVIOUS_VERSION}}"
+  # Het model wordt rechtstreeks uit het EA-bestand (.qea) gelezen; de XMI-export in de release-map
+  # is alleen nog een download en speelt in de taken geen rol meer (sinds 29 oktober 2026).
   XMI: "{{.VERSION_DIR}}/{{.XMI_FILE}}"
-  PREVIOUS_XMI: "{{.PREVIOUS_VERSION_DIR}}/{{.XMI_FILE}}"
   GGM: "{{.VERSION_DIR}}/{{.GGM_FILE}}"
+  PREVIOUS_GGM: "{{.PREVIOUS_VERSION_DIR}}/{{.GGM_FILE}}"
   EXCEL: "{{.VERSION_DIR}}/{{.EXCEL_FILE}}"
   LOD: "{{.VERSION_DIR}}/{{.LOD_FILE}}"
   MIM: "{{.VERSION_DIR}}/{{.GGM_MIM_FILE}}"
@@ -174,44 +176,49 @@ tasks:
   # Import — Model(len) inladen in Crunch UML
   # ==========================================================================
   import:model:
-    desc: "Import the XMI file into Crunch UML Database."
+    desc: "Import the Enterprise Architect model '{{.GGM}}' (.qea) into the Crunch UML database."
     deps: [prepare:check-tools, prepare:check-vars, prepare:venv-crunch]
     cmds:
       - |
-        if [ ! -f "{{.XMI}}" ]; then
-          echo "Error: XMI file '{{.XMI}}' does not exist."
+        if [ ! -f "{{.GGM}}" ]; then
+          echo "Error: model file '{{.GGM}}' does not exist."
           exit 1
         fi
-      - echo "Importing XMI file '{{.XMI}}' into Crunch UML..."
-      - '{{.CRUNCH}} import -f "{{.XMI}}" -t eaxmi -db_create'
+      # Rechtstreeks uit het EA-bestand: de qea-parser leest ook de MIM-tags, diagrammen met layout,
+      # typenamen, codes van enumeratiewaarden en rolnamen (crunch_uml >= 0.8.2). Het bestand wordt
+      # alleen gelezen (read-only, immutable), EA mag open staan.
+      - echo "Importing model '{{.GGM}}' into Crunch UML..."
+      - '{{.CRUNCH}} import -f "{{.GGM}}" -t qea -db_create'
       - echo "Copying Core GGM Model to {{.GGM_ROOT_SCHEMA}}..."
       - '{{.CRUNCH}} transform -ttp copy -sch_to "{{.GGM_ROOT_SCHEMA}}" -rt_pkg "{{.ROOT_GGM}}"'
       - echo "Crunch database successfully created and setup..."
     shell: bash
     sources:
-      - "{{.XMI}}"
+      - "{{.GGM}}"
     generates:
       - "{{.CRUNCH_UML_DB}}"
     run: when_changed
 
   import:previous:
-    desc: "Import the XMI file of previous version {{.PREVIOUS_VERSION}} into Crunch UML Database."
+    desc: "Import the model of previous version {{.PREVIOUS_VERSION}} ('{{.PREVIOUS_GGM}}') into the Crunch UML database."
     deps: [import:model]
     cmds:
       - |
-        if [ ! -f "{{.PREVIOUS_XMI}}" ]; then
-          echo "Error: XMI file '{{.PREVIOUS_XMI}}' does not exist."
+        if [ ! -f "{{.PREVIOUS_GGM}}" ]; then
+          echo "Error: model file '{{.PREVIOUS_GGM}}' does not exist."
           exit 1
         fi
-      - echo "Importing XMI file '{{.PREVIOUS_XMI}}' into Crunch UML schema {{.GGM_PREVIOUS_SCHEMA_RAW}}..."
-      - '{{.CRUNCH}} -sch {{.GGM_PREVIOUS_SCHEMA_RAW}} import -f "{{.PREVIOUS_XMI}}" -t eaxmi'
+      # Dezelfde parser als voor de huidige versie, zodat generate:diff geen schijnverschillen ziet
+      # tussen de twee formaten (associatie-einden, technische elementen, lege typenamen).
+      - echo "Importing model '{{.PREVIOUS_GGM}}' into Crunch UML schema {{.GGM_PREVIOUS_SCHEMA_RAW}}..."
+      - '{{.CRUNCH}} -sch {{.GGM_PREVIOUS_SCHEMA_RAW}} import -f "{{.PREVIOUS_GGM}}" -t qea'
       - echo "Copying {{.GGM_PREVIOUS_SCHEMA_RAW}} GGM Model to {{.GGM_PREVIOUS_SCHEMA}}..."
       - '{{.CRUNCH}} transform -ttp copy -sch_from "{{.GGM_PREVIOUS_SCHEMA_RAW}}" -sch_to "{{.GGM_PREVIOUS_SCHEMA}}" -rt_pkg "{{.ROOT_GGM}}"'
-      - echo "Successfully added previous schema to Crunch database successfully created and setup..."
+      - echo "Successfully added previous schema to Crunch database..."
     shell: bash
     sources:
-      - "{{.PREVIOUS_XMI}}"
-      - "{{.XMI}}"
+      - "{{.PREVIOUS_GGM}}"
+      - "{{.GGM}}"
     generates:
       - "{{.CRUNCH_UML_DB}}"
     run: when_changed
@@ -343,7 +350,9 @@ tasks:
     deps: [import:model, import:previous]
     cmds:
       - echo "Generating changes between version {{.PREVIOUS_VERSION}} and {{.VERSION}} in file {{.CHANGES_MD}}..."
-      - '{{.CRUNCH}} -sch "{{.GGM_PREVIOUS_SCHEMA}}" export -t diff_md -f "{{.CHANGES_MD}}" --compare_schema_name "{{.GGM_ROOT_SCHEMA}}" --compare_title "Changes from {{.PREVIOUS_VERSION}} to {{.VERSION}}"'
+      # -sch is de huidige versie, --compare_schema_name de vorige (zo leest de diff oud -> nieuw);
+      # andersom stonden alle pijlen verkeerd om.
+      - '{{.CRUNCH}} -sch "{{.GGM_ROOT_SCHEMA}}" export -t diff_md -f "{{.CHANGES_MD}}" --compare_schema_name "{{.GGM_PREVIOUS_SCHEMA}}" --compare_title "Changes from {{.PREVIOUS_VERSION}} to {{.VERSION}}"'
     shell: bash
 
   generate:gemma:
@@ -548,7 +557,7 @@ tasks:
     env:
       LANGUAGES: "{{.LANGUAGES}}"
     sources:
-      - "{{.XMI}}"
+      - "{{.GGM}}"
     generates:
       - "{{.i18N_FILE}}"
     shell: bash  # <-- essentieel!

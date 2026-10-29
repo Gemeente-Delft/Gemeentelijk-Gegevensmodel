@@ -35,27 +35,6 @@
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/archief/kern-rsgb/> ;
     rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/archief/kern-rsgb/gemeente> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/archief/kern-rsgb/gemeente/nieuwe-gemeente> a mim:Relatiesoort,
-        owl:ObjectProperty ;
-    rdfs:label "nieuwe gemeente"@nl ;
-    mim:aggregatietype mim:Geen ;
-    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/archief/kern-rsgb/gemeente> ;
-    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/archief/kern-rsgb/gemeente> ;
-    mim:heeftTijdlijnGeldigheid false ;
-    mim:heeftTijdlijnRegistratie false ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/archief/kern-rsgb/gemeente/nieuwe-gemeente"^^xsd:anyURI ;
-    mim:indicatieAfleidbaar false ;
-    mim:indicatieFormeleHistorie false ;
-    mim:indicatieMaterieleHistorie false ;
-    mim:kardinaliteit "0..*" ;
-    mim:mogelijkGeenWaarde true ;
-    mim:naam "nieuwe gemeente"@nl ;
-    mim:unidirectioneel true ;
-    dcterms:identifier "EAID_dstF200B1_6FE0_4e06_BD2C_633C7FD25541" ;
-    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/archief/kern-rsgb/gemeente> ;
-    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/archief/kern-rsgb/> ;
-    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/archief/kern-rsgb/gemeente> .
-
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/aandachtspunt/relatie-subdoel-aandachtspunt> a mim:Relatiesoort,
         owl:ObjectProperty ;
     rdfs:label "relatie naar Subdoel Aandachtspunt"@nl ;
@@ -1104,7 +1083,7 @@ Gezinsmigrant en Overige Migrant heeft geen kenmerken en is bedoeld om relaties 
     mim:code "1" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel/baron"^^xsd:anyURI ;
     mim:naam "baron"@nl ;
-    dcterms:identifier "EAID_1ee1a35d_2ae1_4e16_80c7_f7c89cd357aa" ;
+    dcterms:identifier "EAID_b6830d32_939d_455f_a798_94d213564a87" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel> ;
     skos:notation "1" ;
     skos:prefLabel "baron"@nl ;
@@ -1117,7 +1096,7 @@ Gezinsmigrant en Overige Migrant heeft geen kenmerken en is bedoeld om relaties 
     mim:code "2" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel/barones"^^xsd:anyURI ;
     mim:naam "barones"@nl ;
-    dcterms:identifier "EAID_909a266a_2006_45c4_9a2e_b7b616eda8f3" ;
+    dcterms:identifier "EAID_ad48bd50_9d5a_4032_9aaa_580f18945fe6" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel> ;
     skos:notation "2" ;
     skos:prefLabel "barones"@nl ;
@@ -1130,7 +1109,7 @@ Gezinsmigrant en Overige Migrant heeft geen kenmerken en is bedoeld om relaties 
     mim:code "3" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel/graaf"^^xsd:anyURI ;
     mim:naam "graaf"@nl ;
-    dcterms:identifier "EAID_d76847af_bdf7_4019_a049_76160afa923c" ;
+    dcterms:identifier "EAID_03085a22_fd59_4f41_a0e2_2e05c6a11f9c" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel> ;
     skos:notation "3" ;
     skos:prefLabel "graaf"@nl ;
@@ -1143,7 +1122,7 @@ Gezinsmigrant en Overige Migrant heeft geen kenmerken en is bedoeld om relaties 
     mim:code "4" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel/gravin"^^xsd:anyURI ;
     mim:naam "gravin"@nl ;
-    dcterms:identifier "EAID_fb4f835d_c607_4c78_8ccb_ec106f8684dc" ;
+    dcterms:identifier "EAID_2f17e375_ee88_4fa9_8373_1ed1b02e4613" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel> ;
     skos:notation "4" ;
     skos:prefLabel "gravin"@nl ;
@@ -1156,7 +1135,7 @@ Gezinsmigrant en Overige Migrant heeft geen kenmerken en is bedoeld om relaties 
     mim:code "5" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel/hertog"^^xsd:anyURI ;
     mim:naam "hertog"@nl ;
-    dcterms:identifier "EAID_63667b0c_7b35_4f53_b842_6287df3ee7ff" ;
+    dcterms:identifier "EAID_0d7ca703_8c37_42b1_ad48_7d6f64fd4201" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel> ;
     skos:notation "5" ;
     skos:prefLabel "hertog"@nl ;
@@ -1169,7 +1148,7 @@ Gezinsmigrant en Overige Migrant heeft geen kenmerken en is bedoeld om relaties 
     mim:code "6" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel/hertogin"^^xsd:anyURI ;
     mim:naam "hertogin"@nl ;
-    dcterms:identifier "EAID_c80c5b19_3409_469b_90c5_b2554cdc2ada" ;
+    dcterms:identifier "EAID_694bd825_8787_40d2_8d5e_ae0f0b81f852" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel> ;
     skos:notation "6" ;
     skos:prefLabel "hertogin"@nl ;
@@ -1182,7 +1161,7 @@ Gezinsmigrant en Overige Migrant heeft geen kenmerken en is bedoeld om relaties 
     mim:code "-2" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel/leeg"^^xsd:anyURI ;
     mim:naam "Leeg"@nl ;
-    dcterms:identifier "EAID_ac223a5f_c31a_4f25_b6ee_c22042cc920f" ;
+    dcterms:identifier "EAID_8ab4e68b_cac6_46cd_ab55_16d7c150009a" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel> ;
     skos:notation "-2" ;
     skos:prefLabel "Leeg"@nl ;
@@ -1195,7 +1174,7 @@ Gezinsmigrant en Overige Migrant heeft geen kenmerken en is bedoeld om relaties 
     mim:code "7" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel/markies"^^xsd:anyURI ;
     mim:naam "markies"@nl ;
-    dcterms:identifier "EAID_74478cdf_6f28_4a26_85a8_586e66bcb673" ;
+    dcterms:identifier "EAID_927728a5_b77a_4113_8753_eadf8642ce2c" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel> ;
     skos:notation "7" ;
     skos:prefLabel "markies"@nl ;
@@ -1208,7 +1187,7 @@ Gezinsmigrant en Overige Migrant heeft geen kenmerken en is bedoeld om relaties 
     mim:code "8" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel/markiezin"^^xsd:anyURI ;
     mim:naam "markiezin"@nl ;
-    dcterms:identifier "EAID_53ab6f22_c437_43e7_9117_4a5c40bbe644" ;
+    dcterms:identifier "EAID_3c9038b1_2629_49e8_8afb_522b3f3a202c" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel> ;
     skos:notation "8" ;
     skos:prefLabel "markiezin"@nl ;
@@ -1221,7 +1200,7 @@ Gezinsmigrant en Overige Migrant heeft geen kenmerken en is bedoeld om relaties 
     mim:code "-1" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel/onbekend"^^xsd:anyURI ;
     mim:naam "Onbekend"@nl ;
-    dcterms:identifier "EAID_98578285_3283_4b1b_ab55_6bed62cb5055" ;
+    dcterms:identifier "EAID_5a111398_43a3_4520_a048_8a47cc92465c" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel> ;
     skos:notation "-1" ;
     skos:prefLabel "Onbekend"@nl ;
@@ -1234,7 +1213,7 @@ Gezinsmigrant en Overige Migrant heeft geen kenmerken en is bedoeld om relaties 
     mim:code "9" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel/prins"^^xsd:anyURI ;
     mim:naam "prins"@nl ;
-    dcterms:identifier "EAID_5f30d1ce_fa65_4197_ae86_0ff05a705e50" ;
+    dcterms:identifier "EAID_ae40fbea_b98d_437d_b85e_dea41c8b2bea" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel> ;
     skos:notation "9" ;
     skos:prefLabel "prins"@nl ;
@@ -1247,7 +1226,7 @@ Gezinsmigrant en Overige Migrant heeft geen kenmerken en is bedoeld om relaties 
     mim:code "10" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel/prinses"^^xsd:anyURI ;
     mim:naam "prinses"@nl ;
-    dcterms:identifier "EAID_01c43022_8f24_4dfb_a3b8_4a3fdd5d185f" ;
+    dcterms:identifier "EAID_540c4e13_7a0c_4d25_8e3f_f4c21bb753f7" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel> ;
     skos:notation "10" ;
     skos:prefLabel "prinses"@nl ;
@@ -1260,7 +1239,7 @@ Gezinsmigrant en Overige Migrant heeft geen kenmerken en is bedoeld om relaties 
     mim:code "11" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel/ridder"^^xsd:anyURI ;
     mim:naam "ridder"@nl ;
-    dcterms:identifier "EAID_58efec5e_328c_467f_8249_3614e966585c" ;
+    dcterms:identifier "EAID_a6439cd8_a898_4981_afd1_262241be2ea6" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel> ;
     skos:notation "11" ;
     skos:prefLabel "ridder"@nl ;
@@ -1802,24 +1781,11 @@ geslachtsnaam voorafgaat.."""@nl ;
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "aandachtspuntOmschrijving"@nl ;
-    mim:type <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/aandachtspunt> ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/enumaandachtspunt> ;
     dcterms:identifier "EAID_7A3EB062_E899_421e_9FCF_20F6169C31AC" ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/aandachtspunt> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/> ;
-    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/aandachtspunt> .
-
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/aandachtspunt/digitale-vaardigheden> a mim:Enumeratiewaarde,
-        skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/aandachtspunt> ;
-    rdfs:label "Digitale vaardigheden"@nl ;
-    mim:code "6" ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/aandachtspunt/digitale-vaardigheden"^^xsd:anyURI ;
-    mim:naam "Digitale vaardigheden"@nl ;
-    dcterms:identifier "EAID_0B246365_54B9_496d_BD70_915A7D3E9BF1" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/aandachtspunt> ;
-    skos:notation "6" ;
-    skos:prefLabel "Digitale vaardigheden"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/aandachtspunt> .
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/enumaandachtspunt> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/aandachtspunt/einddatum> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
@@ -1840,58 +1806,6 @@ geslachtsnaam voorafgaat.."""@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/> ;
     rdfs:range xsd:date .
 
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/aandachtspunt/financien> a mim:Enumeratiewaarde,
-        skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/aandachtspunt> ;
-    rdfs:label "Financien"@nl ;
-    mim:code "1" ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/aandachtspunt/financien"^^xsd:anyURI ;
-    mim:naam "Financien"@nl ;
-    dcterms:identifier "EAID_6A9D7474_39BB_48fd_B2D0_0B922A44473B" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/aandachtspunt> ;
-    skos:notation "1" ;
-    skos:prefLabel "Financien"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/aandachtspunt> .
-
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/aandachtspunt/justitie> a mim:Enumeratiewaarde,
-        skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/aandachtspunt> ;
-    rdfs:label "Justitie"@nl ;
-    mim:code "4" ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/aandachtspunt/justitie"^^xsd:anyURI ;
-    mim:naam "Justitie"@nl ;
-    dcterms:identifier "EAID_D60628F0_1827_489f_831A_0A55934A6920" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/aandachtspunt> ;
-    skos:notation "4" ;
-    skos:prefLabel "Justitie"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/aandachtspunt> .
-
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/aandachtspunt/lichaamelijke-gezondheid> a mim:Enumeratiewaarde,
-        skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/aandachtspunt> ;
-    rdfs:label "Lichaamelijke gezondheid"@nl ;
-    mim:code "7" ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/aandachtspunt/lichaamelijke-gezondheid"^^xsd:anyURI ;
-    mim:naam "Lichaamelijke gezondheid"@nl ;
-    dcterms:identifier "EAID_2641E10E_32FB_46a6_8AB0_10C7E357D5A2" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/aandachtspunt> ;
-    skos:notation "7" ;
-    skos:prefLabel "Lichaamelijke gezondheid"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/aandachtspunt> .
-
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/aandachtspunt/psychische-gezondheid> a mim:Enumeratiewaarde,
-        skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/aandachtspunt> ;
-    rdfs:label "Psychische gezondheid"@nl ;
-    mim:code "8" ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/aandachtspunt/psychische-gezondheid"^^xsd:anyURI ;
-    mim:naam "Psychische gezondheid"@nl ;
-    dcterms:identifier "EAID_3B8F5B70_DDA5_4c6f_A924_365C72F264E2" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/aandachtspunt> ;
-    skos:notation "8" ;
-    skos:prefLabel "Psychische gezondheid"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/aandachtspunt> .
-
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/aandachtspunt/startdatum> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "StartDatum"@nl ;
@@ -1910,58 +1824,6 @@ geslachtsnaam voorafgaat.."""@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/aandachtspunt> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/> ;
     rdfs:range xsd:date .
-
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/aandachtspunt/taal> a mim:Enumeratiewaarde,
-        skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/aandachtspunt> ;
-    rdfs:label "Taal"@nl ;
-    mim:code "5" ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/aandachtspunt/taal"^^xsd:anyURI ;
-    mim:naam "Taal"@nl ;
-    dcterms:identifier "EAID_DEA54ACD_C3DF_4ee0_8971_F78EE65BE589" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/aandachtspunt> ;
-    skos:notation "5" ;
-    skos:prefLabel "Taal"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/aandachtspunt> .
-
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/aandachtspunt/verslaving> a mim:Enumeratiewaarde,
-        skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/aandachtspunt> ;
-    rdfs:label "Verslaving"@nl ;
-    mim:code "2" ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/aandachtspunt/verslaving"^^xsd:anyURI ;
-    mim:naam "Verslaving"@nl ;
-    dcterms:identifier "EAID_A3649651_3069_416a_9291_1D9C97392C3E" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/aandachtspunt> ;
-    skos:notation "2" ;
-    skos:prefLabel "Verslaving"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/aandachtspunt> .
-
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/aandachtspunt/woonsituatie> a mim:Enumeratiewaarde,
-        skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/aandachtspunt> ;
-    rdfs:label "Woonsituatie"@nl ;
-    mim:code "9" ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/aandachtspunt/woonsituatie"^^xsd:anyURI ;
-    mim:naam "Woonsituatie"@nl ;
-    dcterms:identifier "EAID_BB31DFF3_12CE_44f2_9DBD_0C0195AE9858" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/aandachtspunt> ;
-    skos:notation "9" ;
-    skos:prefLabel "Woonsituatie"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/aandachtspunt> .
-
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/aandachtspunt/zorgtaken> a mim:Enumeratiewaarde,
-        skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/aandachtspunt> ;
-    rdfs:label "Zorgtaken"@nl ;
-    mim:code "3" ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/aandachtspunt/zorgtaken"^^xsd:anyURI ;
-    mim:naam "Zorgtaken"@nl ;
-    dcterms:identifier "EAID_8C200BC6_6AEC_4bf0_8F9E_70E896247AF6" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/aandachtspunt> ;
-    skos:notation "3" ;
-    skos:prefLabel "Zorgtaken"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/aandachtspunt> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/aanvraag-verlenging-inburgeringstermijn/beoordelingaanvraagverlenging> a mim:Attribuutsoort,
         owl:ObjectProperty ;
@@ -2267,8 +2129,8 @@ Dit gegeven wordt door COA bijgewerkt totdat Asielstatushouder  het AZV verlaat.
     mim:code "1" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/boolean/ja"^^xsd:anyURI ;
     mim:naam "Ja"@nl ;
-    dcterms:identifier "EAID_185a725e_4f03_4d0d_94ec_3307e766ac47",
-        "EAID_d1b245e0_4e9a_4bfd_a6ce_78d73b2409d4" ;
+    dcterms:identifier "EAID_52988fcd_8ee6_4b91_9d84_63dcf68daf67",
+        "EAID_d2fa06b7_97ca_4c5e_bdbf_de7883572b2b" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/boolean> ;
     skos:notation "1" ;
     skos:prefLabel "Ja"@nl ;
@@ -2281,8 +2143,8 @@ Dit gegeven wordt door COA bijgewerkt totdat Asielstatushouder  het AZV verlaat.
     mim:code "-2" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/boolean/leeg"^^xsd:anyURI ;
     mim:naam "Leeg"@nl ;
-    dcterms:identifier "EAID_6b15517d_7b88_4cf6_aa3b_c58aa85228c8",
-        "EAID_ee9216f1_c293_47bb_b8af_06e45f5bb19b" ;
+    dcterms:identifier "EAID_34b35e39_5897_4ae3_9495_9d4ebe1a5b36",
+        "EAID_b7a20e31_2a78_40e2_9d4c_ef141424f84c" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/boolean> ;
     skos:notation "-2" ;
     skos:prefLabel "Leeg"@nl ;
@@ -2295,8 +2157,8 @@ Dit gegeven wordt door COA bijgewerkt totdat Asielstatushouder  het AZV verlaat.
     mim:code "0" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/boolean/nee"^^xsd:anyURI ;
     mim:naam "Nee"@nl ;
-    dcterms:identifier "EAID_19b056f4_7e99_4abe_b8bd_50ebd83f594b",
-        "EAID_9f13868a_b427_4828_9ae8_817b2cda23bb" ;
+    dcterms:identifier "EAID_024682ad_b8d0_46ad_9375_7094078976c7",
+        "EAID_4300c289_a9a6_454d_9e89_0fc9dc313b94" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/boolean> ;
     skos:notation "0" ;
     skos:prefLabel "Nee"@nl ;
@@ -2309,8 +2171,8 @@ Dit gegeven wordt door COA bijgewerkt totdat Asielstatushouder  het AZV verlaat.
     mim:code "-1" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/boolean/onbekend"^^xsd:anyURI ;
     mim:naam "Onbekend"@nl ;
-    dcterms:identifier "EAID_56f969f2_869d_43c4_a589_37540a359216",
-        "EAID_f6d630c4_566d_4d2a_b987_4891bd507c3c" ;
+    dcterms:identifier "EAID_197895f7_f408_47e8_850f_b3d57b58277a",
+        "EAID_2b6d00af_488f_49aa_b6f5_4f8ac3e6c14a" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/boolean> ;
     skos:notation "-1" ;
     skos:prefLabel "Onbekend"@nl ;
@@ -2547,7 +2409,7 @@ Dit gegeven wordt door COA bijgewerkt totdat Asielstatushouder  het AZV verlaat.
     mim:code "1" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/codeniveauopleiding/basisonderwijs"^^xsd:anyURI ;
     mim:naam "Basisonderwijs"@nl ;
-    dcterms:identifier "EAID_8545bedd_c88c_4c02_83bf_4b529278a5a3" ;
+    dcterms:identifier "EAID_de1ca9f2_2882_4ecc_98a0_f2ce91f4fecd" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/codeniveauopleiding> ;
     skos:notation "1" ;
     skos:prefLabel "Basisonderwijs"@nl ;
@@ -2560,7 +2422,7 @@ Dit gegeven wordt door COA bijgewerkt totdat Asielstatushouder  het AZV verlaat.
     mim:code "4" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/codeniveauopleiding/havo-vwo"^^xsd:anyURI ;
     mim:naam "HAVO / VWO"@nl ;
-    dcterms:identifier "EAID_df2ae830_6a39_4ac0_a833_9dbe38fea3f8" ;
+    dcterms:identifier "EAID_fe9fd5b1_3c98_42f0_af56_53e7100881e2" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/codeniveauopleiding> ;
     skos:notation "4" ;
     skos:prefLabel "HAVO / VWO"@nl ;
@@ -2573,7 +2435,7 @@ Dit gegeven wordt door COA bijgewerkt totdat Asielstatushouder  het AZV verlaat.
     mim:code "5" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/codeniveauopleiding/hbo-bachelor"^^xsd:anyURI ;
     mim:naam "HBO / Bachelor"@nl ;
-    dcterms:identifier "EAID_b81bfe03_b708_4799_81f9_7bf7c068f5b9" ;
+    dcterms:identifier "EAID_31d3800a_f725_495e_a530_060949e2ca8b" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/codeniveauopleiding> ;
     skos:notation "5" ;
     skos:prefLabel "HBO / Bachelor"@nl ;
@@ -2586,7 +2448,7 @@ Dit gegeven wordt door COA bijgewerkt totdat Asielstatushouder  het AZV verlaat.
     mim:code "3" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/codeniveauopleiding/mbo"^^xsd:anyURI ;
     mim:naam "MBO"@nl ;
-    dcterms:identifier "EAID_7414b5b0_f75c_4fd2_acc6_acc2361d179e" ;
+    dcterms:identifier "EAID_ecb6cb13_2408_4a51_a385_9952f64ae314" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/codeniveauopleiding> ;
     skos:notation "3" ;
     skos:prefLabel "MBO"@nl ;
@@ -2599,7 +2461,7 @@ Dit gegeven wordt door COA bijgewerkt totdat Asielstatushouder  het AZV verlaat.
     mim:code "2" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/codeniveauopleiding/vmbo-mbo-1"^^xsd:anyURI ;
     mim:naam "VMBO / MBO-1"@nl ;
-    dcterms:identifier "EAID_df610b01_9785_4fed_9207_7ba50ca61356" ;
+    dcterms:identifier "EAID_11172e39_3759_43c8_9fa8_7541cc956099" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/codeniveauopleiding> ;
     skos:notation "2" ;
     skos:prefLabel "VMBO / MBO-1"@nl ;
@@ -2612,7 +2474,7 @@ Dit gegeven wordt door COA bijgewerkt totdat Asielstatushouder  het AZV verlaat.
     mim:code "6" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/codeniveauopleiding/wo-master"^^xsd:anyURI ;
     mim:naam "WO / Master"@nl ;
-    dcterms:identifier "EAID_7abc1ed8_b79d_4645_8733_4a3363b23ede" ;
+    dcterms:identifier "EAID_5e857c2d_f15b_43dd_b625_ebc8286458c9" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/codeniveauopleiding> ;
     skos:notation "6" ;
     skos:prefLabel "WO / Master"@nl ;
@@ -3077,6 +2939,253 @@ Dit gegeven wordt door COA bijgewerkt totdat Asielstatushouder  het AZV verlaat.
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/educatie> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/> ;
     rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/codeniveauopleiding> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/enumaandachtspunt/digitale-vaardigheden> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/enumaandachtspunt> ;
+    rdfs:label "Digitale vaardigheden"@nl ;
+    mim:code "6" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/enumaandachtspunt/digitale-vaardigheden"^^xsd:anyURI ;
+    mim:naam "Digitale vaardigheden"@nl ;
+    dcterms:identifier "EAID_0B246365_54B9_496d_BD70_915A7D3E9BF1" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/enumaandachtspunt> ;
+    skos:notation "6" ;
+    skos:prefLabel "Digitale vaardigheden"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/enumaandachtspunt> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/enumaandachtspunt/financien> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/enumaandachtspunt> ;
+    rdfs:label "Financien"@nl ;
+    mim:code "1" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/enumaandachtspunt/financien"^^xsd:anyURI ;
+    mim:naam "Financien"@nl ;
+    dcterms:identifier "EAID_6A9D7474_39BB_48fd_B2D0_0B922A44473B" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/enumaandachtspunt> ;
+    skos:notation "1" ;
+    skos:prefLabel "Financien"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/enumaandachtspunt> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/enumaandachtspunt/justitie> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/enumaandachtspunt> ;
+    rdfs:label "Justitie"@nl ;
+    mim:code "4" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/enumaandachtspunt/justitie"^^xsd:anyURI ;
+    mim:naam "Justitie"@nl ;
+    dcterms:identifier "EAID_D60628F0_1827_489f_831A_0A55934A6920" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/enumaandachtspunt> ;
+    skos:notation "4" ;
+    skos:prefLabel "Justitie"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/enumaandachtspunt> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/enumaandachtspunt/lichaamelijke-gezondheid> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/enumaandachtspunt> ;
+    rdfs:label "Lichaamelijke gezondheid"@nl ;
+    mim:code "7" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/enumaandachtspunt/lichaamelijke-gezondheid"^^xsd:anyURI ;
+    mim:naam "Lichaamelijke gezondheid"@nl ;
+    dcterms:identifier "EAID_2641E10E_32FB_46a6_8AB0_10C7E357D5A2" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/enumaandachtspunt> ;
+    skos:notation "7" ;
+    skos:prefLabel "Lichaamelijke gezondheid"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/enumaandachtspunt> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/enumaandachtspunt/psychische-gezondheid> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/enumaandachtspunt> ;
+    rdfs:label "Psychische gezondheid"@nl ;
+    mim:code "8" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/enumaandachtspunt/psychische-gezondheid"^^xsd:anyURI ;
+    mim:naam "Psychische gezondheid"@nl ;
+    dcterms:identifier "EAID_3B8F5B70_DDA5_4c6f_A924_365C72F264E2" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/enumaandachtspunt> ;
+    skos:notation "8" ;
+    skos:prefLabel "Psychische gezondheid"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/enumaandachtspunt> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/enumaandachtspunt/taal> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/enumaandachtspunt> ;
+    rdfs:label "Taal"@nl ;
+    mim:code "5" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/enumaandachtspunt/taal"^^xsd:anyURI ;
+    mim:naam "Taal"@nl ;
+    dcterms:identifier "EAID_DEA54ACD_C3DF_4ee0_8971_F78EE65BE589" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/enumaandachtspunt> ;
+    skos:notation "5" ;
+    skos:prefLabel "Taal"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/enumaandachtspunt> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/enumaandachtspunt/verslaving> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/enumaandachtspunt> ;
+    rdfs:label "Verslaving"@nl ;
+    mim:code "2" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/enumaandachtspunt/verslaving"^^xsd:anyURI ;
+    mim:naam "Verslaving"@nl ;
+    dcterms:identifier "EAID_A3649651_3069_416a_9291_1D9C97392C3E" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/enumaandachtspunt> ;
+    skos:notation "2" ;
+    skos:prefLabel "Verslaving"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/enumaandachtspunt> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/enumaandachtspunt/woonsituatie> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/enumaandachtspunt> ;
+    rdfs:label "Woonsituatie"@nl ;
+    mim:code "9" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/enumaandachtspunt/woonsituatie"^^xsd:anyURI ;
+    mim:naam "Woonsituatie"@nl ;
+    dcterms:identifier "EAID_BB31DFF3_12CE_44f2_9DBD_0C0195AE9858" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/enumaandachtspunt> ;
+    skos:notation "9" ;
+    skos:prefLabel "Woonsituatie"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/enumaandachtspunt> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/enumaandachtspunt/zorgtaken> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/enumaandachtspunt> ;
+    rdfs:label "Zorgtaken"@nl ;
+    mim:code "3" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/enumaandachtspunt/zorgtaken"^^xsd:anyURI ;
+    mim:naam "Zorgtaken"@nl ;
+    dcterms:identifier "EAID_8C200BC6_6AEC_4bf0_8F9E_70E896247AF6" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/enumaandachtspunt> ;
+    skos:notation "3" ;
+    skos:prefLabel "Zorgtaken"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/enumaandachtspunt> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/enumontwikkelwens/betaald-werken> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/enumontwikkelwens> ;
+    rdfs:label "Betaald werken"@nl ;
+    mim:code "1" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/enumontwikkelwens/betaald-werken"^^xsd:anyURI ;
+    mim:naam "Betaald werken"@nl ;
+    dcterms:identifier "EAID_A55BBBDF_EC0C_4fcb_8C71_01FEAA33E2C1" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/enumontwikkelwens> ;
+    skos:notation "1" ;
+    skos:prefLabel "Betaald werken"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/enumontwikkelwens> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/enumontwikkelwens/betaald-werken-met-een-opleiding> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/enumontwikkelwens> ;
+    rdfs:label "Betaald werken met een opleiding"@nl ;
+    mim:code "3" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/enumontwikkelwens/betaald-werken-met-een-opleiding"^^xsd:anyURI ;
+    mim:naam "Betaald werken met een opleiding"@nl ;
+    dcterms:identifier "EAID_A2DD2F10_6C5B_4535_BEAD_36AC2C09CA16" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/enumontwikkelwens> ;
+    skos:notation "3" ;
+    skos:prefLabel "Betaald werken met een opleiding"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/enumontwikkelwens> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/enumontwikkelwens/betaald-werken-naar-vermogen> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/enumontwikkelwens> ;
+    rdfs:label "Betaald werken naar vermogen"@nl ;
+    mim:code "2" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/enumontwikkelwens/betaald-werken-naar-vermogen"^^xsd:anyURI ;
+    mim:naam "Betaald werken naar vermogen"@nl ;
+    dcterms:identifier "EAID_2BDBEBC9_05F8_4a77_AA5D_4075290524D0" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/enumontwikkelwens> ;
+    skos:notation "2" ;
+    skos:prefLabel "Betaald werken naar vermogen"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/enumontwikkelwens> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/enumontwikkelwens/ondernemen> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/enumontwikkelwens> ;
+    rdfs:label "Ondernemen"@nl ;
+    mim:code "7" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/enumontwikkelwens/ondernemen"^^xsd:anyURI ;
+    mim:naam "Ondernemen"@nl ;
+    dcterms:identifier "EAID_920DBBFA_6FA7_467e_827A_5FA16F2DE590" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/enumontwikkelwens> ;
+    skos:notation "7" ;
+    skos:prefLabel "Ondernemen"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/enumontwikkelwens> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/enumontwikkelwens/opleiding-volgen> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/enumontwikkelwens> ;
+    rdfs:label "Opleiding volgen"@nl ;
+    mim:code "8" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/enumontwikkelwens/opleiding-volgen"^^xsd:anyURI ;
+    mim:naam "Opleiding volgen"@nl ;
+    dcterms:identifier "EAID_B7C86C17_16B5_4ec1_91A6_EDC22CF1BED3" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/enumontwikkelwens> ;
+    skos:notation "8" ;
+    skos:prefLabel "Opleiding volgen"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/enumontwikkelwens> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/enumontwikkelwens/passende-dagbesteding-hebben> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/enumontwikkelwens> ;
+    rdfs:label "Passende dagbesteding hebben"@nl ;
+    mim:code "10" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/enumontwikkelwens/passende-dagbesteding-hebben"^^xsd:anyURI ;
+    mim:naam "Passende dagbesteding hebben"@nl ;
+    dcterms:identifier "EAID_0E1213BF_86B6_41b3_AB8B_37D7B92B7CAF" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/enumontwikkelwens> ;
+    skos:notation "10" ;
+    skos:prefLabel "Passende dagbesteding hebben"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/enumontwikkelwens> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/enumontwikkelwens/taalvaardigheden-opdoen> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/enumontwikkelwens> ;
+    rdfs:label "Taalvaardigheden opdoen"@nl ;
+    mim:code "6" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/enumontwikkelwens/taalvaardigheden-opdoen"^^xsd:anyURI ;
+    mim:naam "Taalvaardigheden opdoen"@nl ;
+    dcterms:identifier "EAID_F6A65EFA_6032_4e86_A889_D9B7124449EA" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/enumontwikkelwens> ;
+    skos:notation "6" ;
+    skos:prefLabel "Taalvaardigheden opdoen"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/enumontwikkelwens> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/enumontwikkelwens/vrijwilligerswerk> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/enumontwikkelwens> ;
+    rdfs:label "Vrijwilligerswerk"@nl ;
+    mim:code "9" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/enumontwikkelwens/vrijwilligerswerk"^^xsd:anyURI ;
+    mim:naam "Vrijwilligerswerk"@nl ;
+    dcterms:identifier "EAID_C5E190C0_ED02_431d_9E70_850B9E0FAE59" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/enumontwikkelwens> ;
+    skos:notation "9" ;
+    skos:prefLabel "Vrijwilligerswerk"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/enumontwikkelwens> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/enumontwikkelwens/werkervaring-opdoen> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/enumontwikkelwens> ;
+    rdfs:label "Werkervaring opdoen"@nl ;
+    mim:code "5" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/enumontwikkelwens/werkervaring-opdoen"^^xsd:anyURI ;
+    mim:naam "Werkervaring opdoen"@nl ;
+    dcterms:identifier "EAID_35C64112_4DB7_42e2_B440_EE1FA6A407CA" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/enumontwikkelwens> ;
+    skos:notation "5" ;
+    skos:prefLabel "Werkervaring opdoen"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/enumontwikkelwens> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/enumontwikkelwens/werknemersvaardigheden-ontwikkelen> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/enumontwikkelwens> ;
+    rdfs:label "Werknemersvaardigheden ontwikkelen"@nl ;
+    mim:code "4" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/enumontwikkelwens/werknemersvaardigheden-ontwikkelen"^^xsd:anyURI ;
+    mim:naam "Werknemersvaardigheden ontwikkelen"@nl ;
+    dcterms:identifier "EAID_7A6ABBB2_DDB4_48b3_AFC6_41FF34007B12" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/enumontwikkelwens> ;
+    skos:notation "4" ;
+    skos:prefLabel "Werknemersvaardigheden ontwikkelen"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/enumontwikkelwens> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/examen/examenresultaat> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
@@ -4133,45 +4242,6 @@ Z1"""@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/> ;
     rdfs:range xsd:date .
 
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/ontwikkelwens/betaald-werken> a mim:Enumeratiewaarde,
-        skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/ontwikkelwens> ;
-    rdfs:label "Betaald werken"@nl ;
-    mim:code "1" ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/ontwikkelwens/betaald-werken"^^xsd:anyURI ;
-    mim:naam "Betaald werken"@nl ;
-    dcterms:identifier "EAID_A55BBBDF_EC0C_4fcb_8C71_01FEAA33E2C1" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/ontwikkelwens> ;
-    skos:notation "1" ;
-    skos:prefLabel "Betaald werken"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/ontwikkelwens> .
-
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/ontwikkelwens/betaald-werken-met-een-opleiding> a mim:Enumeratiewaarde,
-        skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/ontwikkelwens> ;
-    rdfs:label "Betaald werken met een opleiding"@nl ;
-    mim:code "3" ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/ontwikkelwens/betaald-werken-met-een-opleiding"^^xsd:anyURI ;
-    mim:naam "Betaald werken met een opleiding"@nl ;
-    dcterms:identifier "EAID_A2DD2F10_6C5B_4535_BEAD_36AC2C09CA16" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/ontwikkelwens> ;
-    skos:notation "3" ;
-    skos:prefLabel "Betaald werken met een opleiding"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/ontwikkelwens> .
-
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/ontwikkelwens/betaald-werken-naar-vermogen> a mim:Enumeratiewaarde,
-        skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/ontwikkelwens> ;
-    rdfs:label "Betaald werken naar vermogen"@nl ;
-    mim:code "2" ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/ontwikkelwens/betaald-werken-naar-vermogen"^^xsd:anyURI ;
-    mim:naam "Betaald werken naar vermogen"@nl ;
-    dcterms:identifier "EAID_2BDBEBC9_05F8_4a77_AA5D_4075290524D0" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/ontwikkelwens> ;
-    skos:notation "2" ;
-    skos:prefLabel "Betaald werken naar vermogen"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/ontwikkelwens> .
-
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/ontwikkelwens/einddatum> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "EindDatum"@nl ;
@@ -4191,19 +4261,6 @@ Z1"""@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/> ;
     rdfs:range xsd:date .
 
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/ontwikkelwens/ondernemen> a mim:Enumeratiewaarde,
-        skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/ontwikkelwens> ;
-    rdfs:label "Ondernemen"@nl ;
-    mim:code "7" ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/ontwikkelwens/ondernemen"^^xsd:anyURI ;
-    mim:naam "Ondernemen"@nl ;
-    dcterms:identifier "EAID_920DBBFA_6FA7_467e_827A_5FA16F2DE590" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/ontwikkelwens> ;
-    skos:notation "7" ;
-    skos:prefLabel "Ondernemen"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/ontwikkelwens> .
-
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/ontwikkelwens/ontwikkelwensomschrijving> a mim:Attribuutsoort,
         owl:ObjectProperty ;
     rdfs:label "ontwikkelwensOmschrijving"@nl ;
@@ -4217,37 +4274,11 @@ Z1"""@nl ;
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "ontwikkelwensOmschrijving"@nl ;
-    mim:type <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/ontwikkelwens> ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/enumontwikkelwens> ;
     dcterms:identifier "EAID_13A1B438_EEC9_47fa_9486_E63599B73316" ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/ontwikkelwens> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/> ;
-    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/ontwikkelwens> .
-
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/ontwikkelwens/opleiding-volgen> a mim:Enumeratiewaarde,
-        skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/ontwikkelwens> ;
-    rdfs:label "Opleiding volgen"@nl ;
-    mim:code "8" ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/ontwikkelwens/opleiding-volgen"^^xsd:anyURI ;
-    mim:naam "Opleiding volgen"@nl ;
-    dcterms:identifier "EAID_B7C86C17_16B5_4ec1_91A6_EDC22CF1BED3" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/ontwikkelwens> ;
-    skos:notation "8" ;
-    skos:prefLabel "Opleiding volgen"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/ontwikkelwens> .
-
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/ontwikkelwens/passende-dagbesteding-hebben> a mim:Enumeratiewaarde,
-        skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/ontwikkelwens> ;
-    rdfs:label "Passende dagbesteding hebben"@nl ;
-    mim:code "10" ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/ontwikkelwens/passende-dagbesteding-hebben"^^xsd:anyURI ;
-    mim:naam "Passende dagbesteding hebben"@nl ;
-    dcterms:identifier "EAID_0E1213BF_86B6_41b3_AB8B_37D7B92B7CAF" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/ontwikkelwens> ;
-    skos:notation "10" ;
-    skos:prefLabel "Passende dagbesteding hebben"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/ontwikkelwens> .
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/enumontwikkelwens> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/ontwikkelwens/startdatum> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
@@ -4267,58 +4298,6 @@ Z1"""@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/ontwikkelwens> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/> ;
     rdfs:range xsd:date .
-
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/ontwikkelwens/taalvaardigheden-opdoen> a mim:Enumeratiewaarde,
-        skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/ontwikkelwens> ;
-    rdfs:label "Taalvaardigheden opdoen"@nl ;
-    mim:code "6" ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/ontwikkelwens/taalvaardigheden-opdoen"^^xsd:anyURI ;
-    mim:naam "Taalvaardigheden opdoen"@nl ;
-    dcterms:identifier "EAID_F6A65EFA_6032_4e86_A889_D9B7124449EA" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/ontwikkelwens> ;
-    skos:notation "6" ;
-    skos:prefLabel "Taalvaardigheden opdoen"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/ontwikkelwens> .
-
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/ontwikkelwens/vrijwilligerswerk> a mim:Enumeratiewaarde,
-        skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/ontwikkelwens> ;
-    rdfs:label "Vrijwilligerswerk"@nl ;
-    mim:code "9" ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/ontwikkelwens/vrijwilligerswerk"^^xsd:anyURI ;
-    mim:naam "Vrijwilligerswerk"@nl ;
-    dcterms:identifier "EAID_C5E190C0_ED02_431d_9E70_850B9E0FAE59" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/ontwikkelwens> ;
-    skos:notation "9" ;
-    skos:prefLabel "Vrijwilligerswerk"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/ontwikkelwens> .
-
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/ontwikkelwens/werkervaring-opdoen> a mim:Enumeratiewaarde,
-        skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/ontwikkelwens> ;
-    rdfs:label "Werkervaring opdoen"@nl ;
-    mim:code "5" ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/ontwikkelwens/werkervaring-opdoen"^^xsd:anyURI ;
-    mim:naam "Werkervaring opdoen"@nl ;
-    dcterms:identifier "EAID_35C64112_4DB7_42e2_B440_EE1FA6A407CA" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/ontwikkelwens> ;
-    skos:notation "5" ;
-    skos:prefLabel "Werkervaring opdoen"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/ontwikkelwens> .
-
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/ontwikkelwens/werknemersvaardigheden-ontwikkelen> a mim:Enumeratiewaarde,
-        skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/ontwikkelwens> ;
-    rdfs:label "Werknemersvaardigheden ontwikkelen"@nl ;
-    mim:code "4" ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/ontwikkelwens/werknemersvaardigheden-ontwikkelen"^^xsd:anyURI ;
-    mim:naam "Werknemersvaardigheden ontwikkelen"@nl ;
-    dcterms:identifier "EAID_7A6ABBB2_DDB4_48b3_AFC6_41FF34007B12" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/ontwikkelwens> ;
-    skos:notation "4" ;
-    skos:prefLabel "Werknemersvaardigheden ontwikkelen"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/ontwikkelwens> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/opleidingsniveau/basisniveau> a mim:Enumeratiewaarde,
         skos:Concept,
@@ -7081,6 +7060,23 @@ Z1"""@nl ;
     rdfs:comment "<font color=\"#0e0e0e\">Een </font><font color=\"#0e0e0e\"><b>Vrijstelling</b></font><font color=\"#0e0e0e\"> is een formeel besluit waarbij een inburgeringsplichtige geheel of gedeeltelijk wordt ontheven van specifieke onderdelen van de inburgeringsplicht, omdat deze reeds op andere wijze zijn behaald of niet van toepassing zijn, zoals bedoeld in artikel 7.2 van de Wet inburgering 2021.</font>"@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/> .
 
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/aandachtspunt> a mim:Objecttype,
+        owl:Class ;
+    rdfs:label "Aandachtspunt"@nl ;
+    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/aandachtspunt/aandachtspuntomschrijving>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/aandachtspunt/einddatum>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/aandachtspunt/startdatum> ;
+    mim:definitie "<font color=\"#0e0e0e\">Een </font><font color=\"#0e0e0e\"><b>Aandachtspunt</b></font><font color=\"#0e0e0e\"> is een bijzonder aspect of omstandigheid in de persoonlijke situatie van de inburgeraar, dat extra aandacht vereist bij de begeleiding of dienstverlening in het kader van inburgering.</font>"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/aandachtspunt"^^xsd:anyURI ;
+    mim:indicatieAbstractObject false ;
+    mim:naam "Aandachtspunt"@nl ;
+    mim:toelichting """•	Het betreft hier signalen of omstandigheden die invloed kunnen hebben op de voortgang, begeleiding of ondersteuning.
+	•	In het model wordt Aandachtspunt gekoppeld aan onder meer de objecttypen Traject en Ondersteuningsactiviteit.
+	•	Mogelijke voorbeelden (zie onderliggende attributen of enumeraties in het model) zijn: psychische kwetsbaarheid, verslaving, schulden, of laaggeletterdheid."""@nl ;
+    dcterms:identifier "EAID_F188F63C_0033_4164_9F73_413AE6943497" ;
+    rdfs:comment "<font color=\"#0e0e0e\">Een </font><font color=\"#0e0e0e\"><b>Aandachtspunt</b></font><font color=\"#0e0e0e\"> is een bijzonder aspect of omstandigheid in de persoonlijke situatie van de inburgeraar, dat extra aandacht vereist bij de begeleiding of dienstverlening in het kader van inburgering.</font>"@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/> .
+
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/b1-route> a mim:Objecttype,
         owl:Class ;
     rdfs:label "B1-route"@nl ;
@@ -7127,6 +7123,20 @@ Z1"""@nl ;
     mim:naam "Inburgeringstraject"@nl ;
     dcterms:identifier "EAID_F9B2A863_63C8_4229_906A_D0891BB4F021" ;
     rdfs:comment "Een Inburgeringstraject in de context van inburgering bij gemeenten is een persoonlijk begeleidingstraject dat nieuwkomers ondersteunt bij het leren van de Nederlandse taal, het begrijpen van de samenleving, en het ontwikkelen van vaardigheden om zelfstandig te participeren in de Nederlandse maatschappij. Het traject omvat doorgaans onderdelen zoals taallessen (NT2), kennis van de Nederlandse maatschappij (KNM), en participatieactiviteiten, zoals vrijwilligerswerk of een werkstage. Het inburgeringstraject wordt afgestemd op de behoeften, achtergrond en mogelijkheden van de nieuwkomer en heeft als doel hen te begeleiden naar maatschappelijke zelfredzaamheid en een actieve rol in de samenleving."@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/ontwikkelwens> a mim:Objecttype,
+        owl:Class ;
+    rdfs:label "Ontwikkelwens"@nl ;
+    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/ontwikkelwens/einddatum>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/ontwikkelwens/ontwikkelwensomschrijving>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/ontwikkelwens/startdatum> ;
+    mim:definitie "<font color=\"#0e0e0e\">Een </font><font color=\"#0e0e0e\"><b>Ontwikkelwens</b></font><font color=\"#0e0e0e\"> is een door de inburgeringsplichtige geuite persoonlijke ambitie of leerdoel die richting kan geven aan het inburgeringstraject, en wordt meegenomen bij het opstellen van het Persoonlijk Plan Inburgering en Participatie (PIP).</font>"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/ontwikkelwens"^^xsd:anyURI ;
+    mim:indicatieAbstractObject false ;
+    mim:naam "Ontwikkelwens"@nl ;
+    dcterms:identifier "EAID_AE33D54A_A105_4fac_B378_D5651B66F0F0" ;
+    rdfs:comment "<font color=\"#0e0e0e\">Een </font><font color=\"#0e0e0e\"><b>Ontwikkelwens</b></font><font color=\"#0e0e0e\"> is een door de inburgeringsplichtige geuite persoonlijke ambitie of leerdoel die richting kan geven aan het inburgeringstraject, en wordt meegenomen bij het opstellen van het Persoonlijk Plan Inburgering en Participatie (PIP).</font>"@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/voorbereiding-op-inburgering> a mim:Objecttype,
@@ -7420,6 +7430,26 @@ Z1"""@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/> ;
     rdfs:subClassOf skos:Concept .
 
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/archief/kern-rsgb/gemeente> a mim:Objecttype,
+        owl:Class ;
+    rdfs:label "Gemeente"@nl ;
+    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/archief/kern-rsgb/gemeente/datumbegingeldigheidgemeente>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/archief/kern-rsgb/gemeente/datumeindegeldigheidgemeente>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/archief/kern-rsgb/gemeente/gemeentecode>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/archief/kern-rsgb/gemeente/gemeentegeometrie>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/archief/kern-rsgb/gemeente/gemeentenaam>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/archief/kern-rsgb/gemeente/gemeentenaamnen>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/archief/kern-rsgb/gemeente/identificatie> ;
+    mim:datumOpname "2007-04-09"^^xsd:date ;
+    mim:definitie "Een gedeelte van het grondgebied van Nederland, ingesteld op basis van artikel 123 van de Grondwet."@nl ;
+    mim:herkomst "Door KING toegevoegd objecttype, ontleend aan het GFO BG (maakt geen deel uit van enige basisregistratie)." ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/archief/kern-rsgb/gemeente"^^xsd:anyURI ;
+    mim:indicatieAbstractObject false ;
+    mim:naam "Gemeente"@nl ;
+    dcterms:identifier "EAID_B0D9792B_46E7_4b88_B267_C72691616733" ;
+    rdfs:comment "Een gedeelte van het grondgebied van Nederland, ingesteld op basis van artikel 123 van de Grondwet."@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/archief/kern-rsgb/> .
+
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/inburgeringsaanbod> a mim:Objecttype,
         owl:Class ;
     rdfs:label "InburgeringsAanbod"@nl ;
@@ -7532,8 +7562,8 @@ Z1"""@nl ;
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/boolean/leeg>,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/boolean/nee>,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/boolean/onbekend> ;
-    dcterms:identifier "EAID_072aa20b_e099_43ad_8a8b_fac1dde6026a",
-        "EAID_f1e51012_b977_42df_bcc3_d7cb31ae824f" ;
+    dcterms:identifier "EAID_91415f34_880e_4099_95d6_bd39715ecf26",
+        "EAID_f4c478da_58bd_471e_9987_2298da4744b8" ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/> ;
     rdfs:subClassOf skos:Concept .
 
@@ -7579,26 +7609,6 @@ Z1"""@nl ;
     dcterms:identifier "EAID_0C74C068_BA3A_4394_AA76_16B47FEFC88C" ;
     rdfs:comment "<font color=\"#0e0e0e\"><b>Taalvaardigheid</b></font><font color=\"#0e0e0e\"> is het niveau van beheersing van de Nederlandse taal door de inburgeringsplichtige, gemeten op onderdelen zoals luisteren, spreken, lezen en schrijven, overeenkomstig het Europees Referentiekader voor Talen (ERK).</font>"@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/> .
-
-<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/archief/kern-rsgb/gemeente> a mim:Objecttype,
-        owl:Class ;
-    rdfs:label "Gemeente"@nl ;
-    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/archief/kern-rsgb/gemeente/datumbegingeldigheidgemeente>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/archief/kern-rsgb/gemeente/datumeindegeldigheidgemeente>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/archief/kern-rsgb/gemeente/gemeentecode>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/archief/kern-rsgb/gemeente/gemeentegeometrie>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/archief/kern-rsgb/gemeente/gemeentenaam>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/archief/kern-rsgb/gemeente/gemeentenaamnen>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/archief/kern-rsgb/gemeente/identificatie> ;
-    mim:datumOpname "2007-04-09"^^xsd:date ;
-    mim:definitie "Een gedeelte van het grondgebied van Nederland, ingesteld op basis van artikel 123 van de Grondwet."@nl ;
-    mim:herkomst "Door KING toegevoegd objecttype, ontleend aan het GFO BG (maakt geen deel uit van enige basisregistratie)." ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/archief/kern-rsgb/gemeente"^^xsd:anyURI ;
-    mim:indicatieAbstractObject false ;
-    mim:naam "Gemeente"@nl ;
-    dcterms:identifier "EAID_B0D9792B_46E7_4b88_B267_C72691616733" ;
-    rdfs:comment "Een gedeelte van het grondgebied van Nederland, ingesteld op basis van artikel 123 van de Grondwet."@nl ;
-    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/archief/kern-rsgb/> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/soortwerk> a mim:Enumeratie,
         owl:Class,
@@ -7662,7 +7672,7 @@ Z1"""@nl ;
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/codeniveauopleiding/mbo>,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/codeniveauopleiding/vmbo-mbo-1>,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/codeniveauopleiding/wo-master> ;
-    dcterms:identifier "EAID_fa31fb6b_fad6_4354_ade8_051dd2c53ab5" ;
+    dcterms:identifier "EAID_83dc4498_871f_4f64_a621_83fe0e1b587a" ;
     rdfs:comment "<font color=\"#0e0e0e\">Opleidingsniveau volgens NLQF/ISCED-systematiek. Voorbeelden: <i>mbo-3</i>, <i>hbo</i>, <i>wo-bachelor</i>.</font>"@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/> ;
     rdfs:subClassOf skos:Concept .
@@ -7814,6 +7824,45 @@ Z1"""@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/> ;
     rdfs:subClassOf skos:Concept .
 
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/enumaandachtspunt> a mim:Enumeratie,
+        owl:Class,
+        skos:ConceptScheme ;
+    rdfs:label "EnumAandachtspunt"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/enumaandachtspunt"^^xsd:anyURI ;
+    mim:naam "EnumAandachtspunt"@nl ;
+    mim:waarde <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/enumaandachtspunt/digitale-vaardigheden>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/enumaandachtspunt/financien>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/enumaandachtspunt/justitie>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/enumaandachtspunt/lichaamelijke-gezondheid>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/enumaandachtspunt/psychische-gezondheid>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/enumaandachtspunt/taal>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/enumaandachtspunt/verslaving>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/enumaandachtspunt/woonsituatie>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/enumaandachtspunt/zorgtaken> ;
+    dcterms:identifier "EAID_B16DEA22_40DB_45a9_ADD9_5C1410F499B8" ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/> ;
+    rdfs:subClassOf skos:Concept .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/enumontwikkelwens> a mim:Enumeratie,
+        owl:Class,
+        skos:ConceptScheme ;
+    rdfs:label "EnumOntwikkelwens"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/enumontwikkelwens"^^xsd:anyURI ;
+    mim:naam "EnumOntwikkelwens"@nl ;
+    mim:waarde <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/enumontwikkelwens/betaald-werken>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/enumontwikkelwens/betaald-werken-met-een-opleiding>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/enumontwikkelwens/betaald-werken-naar-vermogen>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/enumontwikkelwens/ondernemen>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/enumontwikkelwens/opleiding-volgen>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/enumontwikkelwens/passende-dagbesteding-hebben>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/enumontwikkelwens/taalvaardigheden-opdoen>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/enumontwikkelwens/vrijwilligerswerk>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/enumontwikkelwens/werkervaring-opdoen>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/enumontwikkelwens/werknemersvaardigheden-ontwikkelen> ;
+    dcterms:identifier "EAID_2FCD9A74_460D_4042_A207_FF78590CEBE6" ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/> ;
+    rdfs:subClassOf skos:Concept .
+
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/classificatiearmtotuitstekend> a mim:Enumeratie,
         owl:Class,
         skos:ConceptScheme ;
@@ -7826,64 +7875,6 @@ Z1"""@nl ;
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/classificatiearmtotuitstekend/uitstekend>,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/classificatiearmtotuitstekend/voldoende> ;
     dcterms:identifier "EAID_AC2F4B40_AD01_0B7D_B713_7CBB564649D0" ;
-    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/> ;
-    rdfs:subClassOf skos:Concept .
-
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/aandachtspunt> a mim:Enumeratie,
-        mim:Objecttype,
-        owl:Class,
-        skos:ConceptScheme ;
-    rdfs:label "Aandachtspunt"@nl ;
-    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/aandachtspunt/aandachtspuntomschrijving>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/aandachtspunt/einddatum>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/aandachtspunt/startdatum> ;
-    mim:definitie "<font color=\"#0e0e0e\">Een </font><font color=\"#0e0e0e\"><b>Aandachtspunt</b></font><font color=\"#0e0e0e\"> is een bijzonder aspect of omstandigheid in de persoonlijke situatie van de inburgeraar, dat extra aandacht vereist bij de begeleiding of dienstverlening in het kader van inburgering.</font>"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/aandachtspunt"^^xsd:anyURI ;
-    mim:indicatieAbstractObject false ;
-    mim:naam "Aandachtspunt"@nl ;
-    mim:toelichting """•	Het betreft hier signalen of omstandigheden die invloed kunnen hebben op de voortgang, begeleiding of ondersteuning.
-	•	In het model wordt Aandachtspunt gekoppeld aan onder meer de objecttypen Traject en Ondersteuningsactiviteit.
-	•	Mogelijke voorbeelden (zie onderliggende attributen of enumeraties in het model) zijn: psychische kwetsbaarheid, verslaving, schulden, of laaggeletterdheid."""@nl ;
-    mim:waarde <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/aandachtspunt/digitale-vaardigheden>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/aandachtspunt/financien>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/aandachtspunt/justitie>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/aandachtspunt/lichaamelijke-gezondheid>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/aandachtspunt/psychische-gezondheid>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/aandachtspunt/taal>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/aandachtspunt/verslaving>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/aandachtspunt/woonsituatie>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/aandachtspunt/zorgtaken> ;
-    dcterms:identifier "EAID_B16DEA22_40DB_45a9_ADD9_5C1410F499B8",
-        "EAID_F188F63C_0033_4164_9F73_413AE6943497" ;
-    rdfs:comment "<font color=\"#0e0e0e\">Een </font><font color=\"#0e0e0e\"><b>Aandachtspunt</b></font><font color=\"#0e0e0e\"> is een bijzonder aspect of omstandigheid in de persoonlijke situatie van de inburgeraar, dat extra aandacht vereist bij de begeleiding of dienstverlening in het kader van inburgering.</font>"@nl ;
-    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/> ;
-    rdfs:subClassOf skos:Concept .
-
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/ontwikkelwens> a mim:Enumeratie,
-        mim:Objecttype,
-        owl:Class,
-        skos:ConceptScheme ;
-    rdfs:label "Ontwikkelwens"@nl ;
-    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/ontwikkelwens/einddatum>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/ontwikkelwens/ontwikkelwensomschrijving>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/ontwikkelwens/startdatum> ;
-    mim:definitie "<font color=\"#0e0e0e\">Een </font><font color=\"#0e0e0e\"><b>Ontwikkelwens</b></font><font color=\"#0e0e0e\"> is een door de inburgeringsplichtige geuite persoonlijke ambitie of leerdoel die richting kan geven aan het inburgeringstraject, en wordt meegenomen bij het opstellen van het Persoonlijk Plan Inburgering en Participatie (PIP).</font>"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/ontwikkelwens"^^xsd:anyURI ;
-    mim:indicatieAbstractObject false ;
-    mim:naam "Ontwikkelwens"@nl ;
-    mim:waarde <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/ontwikkelwens/betaald-werken>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/ontwikkelwens/betaald-werken-met-een-opleiding>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/ontwikkelwens/betaald-werken-naar-vermogen>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/ontwikkelwens/ondernemen>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/ontwikkelwens/opleiding-volgen>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/ontwikkelwens/passende-dagbesteding-hebben>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/ontwikkelwens/taalvaardigheden-opdoen>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/ontwikkelwens/vrijwilligerswerk>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/ontwikkelwens/werkervaring-opdoen>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/ontwikkelwens/werknemersvaardigheden-ontwikkelen> ;
-    dcterms:identifier "EAID_2FCD9A74_460D_4042_A207_FF78590CEBE6",
-        "EAID_AE33D54A_A105_4fac_B378_D5651B66F0F0" ;
-    rdfs:comment "<font color=\"#0e0e0e\">Een </font><font color=\"#0e0e0e\"><b>Ontwikkelwens</b></font><font color=\"#0e0e0e\"> is een door de inburgeringsplichtige geuite persoonlijke ambitie of leerdoel die richting kan geven aan het inburgeringstraject, en wordt meegenomen bij het opstellen van het Persoonlijk Plan Inburgering en Participatie (PIP).</font>"@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/> ;
     rdfs:subClassOf skos:Concept .
 
@@ -7906,7 +7897,7 @@ Z1"""@nl ;
         <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel/prins>,
         <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel/prinses>,
         <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel/ridder> ;
-    dcterms:identifier "EAID_8cfb5be5_72e1_4363_87ab_205d3595a633" ;
+    dcterms:identifier "EAID_4ff1ddc0_5489_4582_86ea_7211b2716854" ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
     rdfs:subClassOf skos:Concept .
 

@@ -16,7 +16,7 @@
     | author | janbr |
     | version | 1.1 |
     | created | 2024-06-27 21:51:28 |
-    | modified | 2025-03-27 15:33:15 |
+    | modified | 2025-12-22 15:26:49 |
     | id | EAPK\_1020926F\_B2F4\_FAE2\_4E83\_392C441499AB |
     
 
@@ -64,9 +64,9 @@ Het model 'Model Diensten' kent de volgende objecttypen:
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.10.0 |
+    | version | 1.12.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-12-18 15:38:52 |
+    | modified | 2025-12-22 15:44:35 |
     | id | EAID\_208D605F\_BDE5\_700A\_13F6\_281C3303691F |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -102,9 +102,9 @@ Attributen van objecttype Aanvraag
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.10.0 |
+    | version | 1.12.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-12-18 15:38:52 |
+    | modified | 2025-12-22 15:44:35 |
     | id | EAID\_04035B37\_1A5F\_CC83\_48D3\_281C33030BAF |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -142,9 +142,9 @@ Attributen van objecttype Aanvraagtype
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.10.0 |
+    | version | 1.12.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-12-18 15:38:52 |
+    | modified | 2025-12-22 15:44:35 |
     | id | EAID\_16ABCFF8\_4817\_6A73\_59BA\_281C3303F8D2 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -178,9 +178,9 @@ Attributen van objecttype Beschikking
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.10.0 |
+    | version | 1.12.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-12-18 15:38:52 |
+    | modified | 2025-12-22 15:44:35 |
     | id | EAID\_0CA08ED2\_6990\_8292\_BBC7\_281C33037374 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -214,9 +214,9 @@ Attributen van objecttype Besluit
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.10.0 |
+    | version | 1.12.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-12-18 15:38:52 |
+    | modified | 2025-12-22 15:44:35 |
     | id | EAID\_24BA1E4E\_CF1D\_B8E9\_E3C3\_281C33039A81 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -253,9 +253,9 @@ Attributen van objecttype Betalingsblokkade
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.10.0 |
+    | version | 1.12.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-12-18 15:38:52 |
+    | modified | 2025-12-22 15:44:35 |
     | id | EAID\_022154F4\_817D\_0DFB\_5FFC\_281C33037384 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -294,9 +294,9 @@ Attributen van objecttype Dienst
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.10.0 |
+    | version | 1.12.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-12-18 15:38:52 |
+    | modified | 2025-12-22 15:44:35 |
     | id | EAID\_07F494EF\_DD9B\_36A7\_4EE0\_281C33030C21 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -337,9 +337,9 @@ Attributen van objecttype Diensttype
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.10.0 |
+    | version | 1.12.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-12-18 15:38:52 |
+    | modified | 2025-12-22 15:44:35 |
     | id | EAID\_1DF6D7C4\_6EAB\_C011\_5CD9\_281C3303C38C |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -372,9 +372,9 @@ Attributen van objecttype Individuele plicht
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.10.0 |
+    | version | 1.12.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-12-18 15:38:52 |
+    | modified | 2025-12-22 15:44:35 |
     | id | EAID\_117A52E7\_D317\_92C3\_C4DB\_281C33034B40 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -414,9 +414,9 @@ Attributen van objecttype Leveringscomponent
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.10.0 |
+    | version | 1.12.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-12-18 15:38:52 |
+    | modified | 2025-12-22 15:44:35 |
     | id | EAID\_23F6E69F\_CA5F\_A12B\_BCE4\_281C3303F966 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -458,9 +458,9 @@ Attributen van objecttype Leveringscomponenttype
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.10.0 |
+    | version | 1.12.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-12-18 15:38:52 |
+    | modified | 2025-12-22 15:44:35 |
     | id | EAID\_1CDDED16\_888E\_945B\_4A20\_28EA07CB4D4C |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -494,9 +494,9 @@ Attributen van objecttype Leveringsopdracht
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.10.0 |
+    | version | 1.12.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-12-18 15:38:52 |
+    | modified | 2025-12-22 15:44:35 |
     | id | EAID\_0EFDD70A\_7D69\_27D9\_7976\_2912C31741DC |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -532,9 +532,9 @@ Attributen van objecttype Leveringsspecificatie
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.10.0 |
+    | version | 1.12.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-12-18 15:38:52 |
+    | modified | 2025-12-22 15:44:35 |
     | id | EAID\_0962936F\_7373\_4176\_296A\_281C33036B9B |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -569,9 +569,9 @@ Attributen van objecttype Onderdeel beschikking
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.10.0 |
+    | version | 1.12.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-12-18 15:38:52 |
+    | modified | 2025-12-22 15:44:35 |
     | id | EAID\_1CE59AFB\_AA35\_C5DB\_C243\_2871BD384EF7 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -610,9 +610,9 @@ Attributen van objecttype Periodiek dienst Bijz. bijstand
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.10.0 |
+    | version | 1.12.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-12-18 15:38:52 |
+    | modified | 2025-12-22 15:44:35 |
     | id | EAID\_1CC0F6E1\_888E\_945B\_4A20\_28C0FB594D4C |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -650,9 +650,9 @@ Attributen van objecttype Recht
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.10.0 |
+    | version | 1.12.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-12-18 15:38:52 |
+    | modified | 2025-12-22 15:44:35 |
     | id | EAID\_1D0EFA3D\_888E\_945B\_4A20\_292F8D894D4C |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -687,9 +687,9 @@ Attributen van objecttype Referteperiode
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.10.0 |
+    | version | 1.12.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-12-18 15:38:52 |
+    | modified | 2025-12-22 15:44:35 |
     | id | EAID\_1E5BDB79\_81B9\_2C6D\_472E\_2A2CBF9C1656 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -726,9 +726,9 @@ Attributen van objecttype Regeling
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.10.0 |
+    | version | 1.12.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-12-18 15:38:52 |
+    | modified | 2025-12-22 15:44:35 |
     | id | EAID\_15A983E0\_2529\_75FE\_4ED9\_281C3303D234 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -763,9 +763,9 @@ Attributen van objecttype Uitsluitingsgrond
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.10.0 |
+    | version | 1.12.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-12-18 15:38:52 |
+    | modified | 2025-12-22 15:44:35 |
     | id | EAID\_1081AC17\_59B0\_A2F8\_A83C\_281C3303651D |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -800,9 +800,9 @@ Attributen van objecttype Verstrekkingsvorm
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.10.0 |
+    | version | 1.12.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-12-18 15:38:52 |
+    | modified | 2025-12-22 15:44:35 |
     | id | EAID\_1361003F\_38E9\_A2A7\_3128\_281C33031270 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -837,9 +837,9 @@ Attributen van objecttype Voorliggende voorziening
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.10.0 |
+    | version | 1.12.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-12-18 15:38:52 |
+    | modified | 2025-12-22 15:44:35 |
     | id | EAID\_1CC0F3FE\_888E\_945B\_4A20\_28C0F7424D4C |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -876,9 +876,9 @@ Attributen van objecttype Voorwaarde
     | uri |  |
     | bron |  |
     | author | janbr |
-    | version | 1.10.0 |
+    | version | 1.12.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-12-18 15:38:52 |
+    | modified | 2025-12-22 15:44:35 |
     | id | EAID\_20BA95B7\_C12B\_F23F\_093F\_281C3303B58A |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -927,8 +927,8 @@ De enumeratie SoortAanvraag heeft de volgende kenmerken:
     | author | janbr |
     | version | 1.1.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-08-06 14:19:41 |
-    | id | EAID\_b8f8c1e3\_62a1\_4e9d\_abad\_a03b0ac5c677 |
+    | modified | 2025-12-22 15:26:49 |
+    | id | EAID\_98e4a635\_9c51\_4c15\_976d\_655684946d74 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -962,8 +962,8 @@ De enumeratie StdIndJN heeft de volgende kenmerken:
     | author | janbr |
     | version | 1.1.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-08-06 14:19:41 |
-    | id | EAID\_9b62caa7\_d670\_4df5\_983f\_22d11a2f6706 |
+    | modified | 2025-12-22 15:26:49 |
+    | id | EAID\_1c59bde8\_2773\_4160\_abeb\_ed8b76d857a6 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1006,8 +1006,8 @@ De enumeratie CdPeriodiciteitStatusformulier heeft de volgende kenmerken:
     | author | janbr |
     | version | 1.1.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-08-06 14:19:42 |
-    | id | EAID\_fcb1b0cf\_0d60\_40fd\_86be\_6956a96e5e80 |
+    | modified | 2025-12-22 15:26:50 |
+    | id | EAID\_7f97a41f\_a357\_4640\_8b22\_74e07ca07206 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1043,8 +1043,8 @@ De enumeratie CodeSTORKbetrouwbaarheid heeft de volgende kenmerken:
     | author | janbr |
     | version | 1.1.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-08-06 14:19:41 |
-    | id | EAID\_d1051a2e\_55f7\_4d1b\_9ca3\_b6ad80ceb493 |
+    | modified | 2025-12-22 15:26:49 |
+    | id | EAID\_e944f7ad\_5b34\_4587\_b495\_3e261550afc5 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1094,8 +1094,8 @@ De enumeratie CdPeriode heeft de volgende kenmerken:
     | author | janbr |
     | version | 1.1.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-08-06 14:19:42 |
-    | id | EAID\_fed3b618\_63d8\_4c93\_8153\_65b853e2f931 |
+    | modified | 2025-12-22 15:26:50 |
+    | id | EAID\_00bad4ff\_56b0\_4d49\_90b2\_2575fe79f106 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1145,8 +1145,8 @@ De enumeratie CdPeriode heeft de volgende kenmerken:
     | author | janbr |
     | version | 1.1.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-08-06 14:19:42 |
-    | id | EAID\_b53ce1bd\_ba8a\_4990\_9b65\_f59deabc3375 |
+    | modified | 2025-12-22 15:26:50 |
+    | id | EAID\_a530cf04\_dcbd\_462e\_9555\_b0dd9a662da0 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1182,8 +1182,8 @@ De enumeratie Referteperiodebepalingtype heeft de volgende kenmerken:
     | author | janbr |
     | version | 1.1.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-08-06 14:19:41 |
-    | id | EAID\_5b39f2d4\_37fb\_4684\_b0fe\_8d69431a36a4 |
+    | modified | 2025-12-22 15:26:49 |
+    | id | EAID\_7b4f966b\_17d7\_4ef2\_b8e4\_51bdcdc34bee |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1217,8 +1217,8 @@ De enumeratie OnderdeelDienstGevalsrubriek heeft de volgende kenmerken:
     | author | janbr |
     | version | 1.1.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-08-06 14:19:42 |
-    | id | EAID\_d3bb152f\_d47b\_4a30\_a5a6\_ac351a22f1bb |
+    | modified | 2025-12-22 15:26:50 |
+    | id | EAID\_91e72675\_1a46\_4024\_a2cc\_d6c7e669f2de |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1252,8 +1252,8 @@ De enumeratie StdIndJN heeft de volgende kenmerken:
     | author | janbr |
     | version | 1.1.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-08-06 14:19:41 |
-    | id | EAID\_505f7326\_66f3\_4eb6\_9726\_28fc9afd21e5 |
+    | modified | 2025-12-22 15:26:49 |
+    | id | EAID\_b4ab1735\_224c\_4f33\_9708\_84ff7e06dfb5 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1350,8 +1350,8 @@ De enumeratie CdSrtKostenBijzBijstand heeft de volgende kenmerken:
     | author | janbr |
     | version | 1.1.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-08-06 14:19:41 |
-    | id | EAID\_7c8f46ca\_247c\_4221\_a09a\_26ab502978ad |
+    | modified | 2025-12-22 15:26:49 |
+    | id | EAID\_03d29e7c\_844b\_4280\_8998\_7c02fed7bbda |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1587,8 +1587,8 @@ De enumeratie OnderdeelDienstTypeRubriek heeft de volgende kenmerken:
     | author | janbr |
     | version | 1.1.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-08-06 14:19:41 |
-    | id | EAID\_10e4d471\_3daa\_4ca8\_8213\_0c283953bf75 |
+    | modified | 2025-12-22 15:26:49 |
+    | id | EAID\_7e85b809\_87ad\_4d8e\_9ccd\_8d6f078b8b10 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1638,8 +1638,8 @@ De enumeratie CdPeriode heeft de volgende kenmerken:
     | author | janbr |
     | version | 1.1.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-08-06 14:19:42 |
-    | id | EAID\_e414c22c\_4dbc\_471b\_927e\_b47d2866aa04 |
+    | modified | 2025-12-22 15:26:50 |
+    | id | EAID\_0b6de32e\_5fca\_462b\_8700\_cebdbc268f28 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1673,8 +1673,8 @@ De enumeratie StdIndJN heeft de volgende kenmerken:
     | author | janbr |
     | version | 1.1.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-08-06 14:19:41 |
-    | id | EAID\_778f2c7a\_6dd3\_470e\_94f1\_dbad8abcd97c |
+    | modified | 2025-12-22 15:26:49 |
+    | id | EAID\_0c6a5c65\_eeaa\_4a36\_9845\_0689669bbd14 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1771,8 +1771,8 @@ De enumeratie CdSrtKostenBijzBijstand heeft de volgende kenmerken:
     | author | janbr |
     | version | 1.1.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-08-06 14:19:41 |
-    | id | EAID\_62d62f35\_80a5\_41b7\_9243\_fe1ffa8c44fa |
+    | modified | 2025-12-22 15:26:49 |
+    | id | EAID\_dc9eec83\_6efe\_4941\_9861\_4834a48f5cfd |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1822,8 +1822,8 @@ De enumeratie CdPeriode heeft de volgende kenmerken:
     | author | janbr |
     | version | 1.1.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-08-06 14:19:42 |
-    | id | EAID\_eee16984\_472c\_4a14\_b8c6\_3ef144afce9f |
+    | modified | 2025-12-22 15:26:50 |
+    | id | EAID\_f4f1554a\_fbe9\_444c\_916b\_118668b77856 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1859,8 +1859,8 @@ De enumeratie CdTypeVerstrekkingsvorm heeft de volgende kenmerken:
     | author | janbr |
     | version | 1.1.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-08-06 14:19:41 |
-    | id | EAID\_87bac371\_0ef8\_4d83\_9e41\_71fda57c44f3 |
+    | modified | 2025-12-22 15:26:49 |
+    | id | EAID\_d716ca7a\_ee81\_48db\_9ada\_3a1d02b12496 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1896,8 +1896,8 @@ De enumeratie Brontype heeft de volgende kenmerken:
     | author | janbr |
     | version | 1.1.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-08-06 14:19:42 |
-    | id | EAID\_50cd9c2c\_008e\_43fd\_b4f4\_bcda519a9b40 |
+    | modified | 2025-12-22 15:26:49 |
+    | id | EAID\_673ab62b\_fb64\_48ed\_96c4\_4d195d6b2ba8 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1933,8 +1933,8 @@ De enumeratie Brontype heeft de volgende kenmerken:
     | author | janbr |
     | version | 1.1.0 |
     | created | 2024-03-07 12:33:22 |
-    | modified | 2025-08-06 14:19:42 |
-    | id | EAID\_5694ee50\_ee5b\_4a14\_8fab\_bd775f05c324 |
+    | modified | 2025-12-22 15:26:49 |
+    | id | EAID\_1597884a\_a400\_4cb5\_a00a\_00c5c47a5be8 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |

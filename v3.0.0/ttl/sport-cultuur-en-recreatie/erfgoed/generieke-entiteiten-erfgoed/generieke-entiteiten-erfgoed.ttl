@@ -74,6 +74,50 @@
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/generieke-entiteiten-erfgoed/erfgoed-generiek/> ;
     rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/generieke-entiteiten-erfgoed/erfgoed-generiek/objectclassificatie> .
 
+<https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/generieke-entiteiten-erfgoed/erfgoed-generiek/historisch-persoon/speelt-rol-in> a mim:Relatiesoort,
+        owl:ObjectProperty ;
+    rdfs:label "speelt rol in"@nl ;
+    mim:aggregatietype mim:Geen ;
+    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/generieke-entiteiten-erfgoed/erfgoed-generiek/historisch-persoon> ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/generieke-entiteiten-erfgoed/erfgoed-generiek/erfgoed-object> ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/generieke-entiteiten-erfgoed/erfgoed-generiek/historisch-persoon/speelt-rol-in"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "0..*" ;
+    mim:kardinaliteitRelatieBron "0..*" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "speelt rol in"@nl ;
+    mim:unidirectioneel true ;
+    dcterms:identifier "EAID_6D8C062B_73D8_40c4_8C1B_497F39295AF0" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/generieke-entiteiten-erfgoed/erfgoed-generiek/historisch-persoon> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/generieke-entiteiten-erfgoed/erfgoed-generiek/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/generieke-entiteiten-erfgoed/erfgoed-generiek/erfgoed-object> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/musea/museumobject/heeft-verbinding> a mim:Relatiesoort,
+        owl:ObjectProperty ;
+    rdfs:label "heeft verbinding"@nl ;
+    mim:aggregatietype mim:Geen ;
+    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/musea/museumobject> ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/generieke-entiteiten-erfgoed/erfgoed-generiek/historisch-persoon> ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/musea/museumobject/heeft-verbinding"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "0..*" ;
+    mim:kardinaliteitRelatieBron "0..*" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "heeft verbinding"@nl ;
+    mim:unidirectioneel true ;
+    dcterms:identifier "EAID_3E839A6C_553C_4d8f_9E43_AEFAB5959C2C" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/musea/museumobject> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/musea/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/generieke-entiteiten-erfgoed/erfgoed-generiek/historisch-persoon> .
+
 <https://lod.gemeentelijkgegevensmodel.nl/v3.0.0/sport-cultuur-en-recreatie/erfgoed/generieke-entiteiten-erfgoed/generieke-entiteiten-erfgoed> a owl:Ontology ;
     rdfs:label "Generieke entiteiten Erfgoed"@nl ;
     dcterms:identifier "EAID_B7192738_00E7_4b65_902A_B8292E79261B" ;
@@ -298,7 +342,7 @@
     mim:code "1" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel/baron"^^xsd:anyURI ;
     mim:naam "baron"@nl ;
-    dcterms:identifier "EAID_1ee1a35d_2ae1_4e16_80c7_f7c89cd357aa" ;
+    dcterms:identifier "EAID_b6830d32_939d_455f_a798_94d213564a87" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel> ;
     skos:notation "1" ;
     skos:prefLabel "baron"@nl ;
@@ -311,7 +355,7 @@
     mim:code "2" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel/barones"^^xsd:anyURI ;
     mim:naam "barones"@nl ;
-    dcterms:identifier "EAID_909a266a_2006_45c4_9a2e_b7b616eda8f3" ;
+    dcterms:identifier "EAID_ad48bd50_9d5a_4032_9aaa_580f18945fe6" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel> ;
     skos:notation "2" ;
     skos:prefLabel "barones"@nl ;
@@ -324,7 +368,7 @@
     mim:code "3" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel/graaf"^^xsd:anyURI ;
     mim:naam "graaf"@nl ;
-    dcterms:identifier "EAID_d76847af_bdf7_4019_a049_76160afa923c" ;
+    dcterms:identifier "EAID_03085a22_fd59_4f41_a0e2_2e05c6a11f9c" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel> ;
     skos:notation "3" ;
     skos:prefLabel "graaf"@nl ;
@@ -337,7 +381,7 @@
     mim:code "4" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel/gravin"^^xsd:anyURI ;
     mim:naam "gravin"@nl ;
-    dcterms:identifier "EAID_fb4f835d_c607_4c78_8ccb_ec106f8684dc" ;
+    dcterms:identifier "EAID_2f17e375_ee88_4fa9_8373_1ed1b02e4613" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel> ;
     skos:notation "4" ;
     skos:prefLabel "gravin"@nl ;
@@ -350,7 +394,7 @@
     mim:code "5" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel/hertog"^^xsd:anyURI ;
     mim:naam "hertog"@nl ;
-    dcterms:identifier "EAID_63667b0c_7b35_4f53_b842_6287df3ee7ff" ;
+    dcterms:identifier "EAID_0d7ca703_8c37_42b1_ad48_7d6f64fd4201" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel> ;
     skos:notation "5" ;
     skos:prefLabel "hertog"@nl ;
@@ -363,7 +407,7 @@
     mim:code "6" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel/hertogin"^^xsd:anyURI ;
     mim:naam "hertogin"@nl ;
-    dcterms:identifier "EAID_c80c5b19_3409_469b_90c5_b2554cdc2ada" ;
+    dcterms:identifier "EAID_694bd825_8787_40d2_8d5e_ae0f0b81f852" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel> ;
     skos:notation "6" ;
     skos:prefLabel "hertogin"@nl ;
@@ -376,7 +420,7 @@
     mim:code "-2" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel/leeg"^^xsd:anyURI ;
     mim:naam "Leeg"@nl ;
-    dcterms:identifier "EAID_ac223a5f_c31a_4f25_b6ee_c22042cc920f" ;
+    dcterms:identifier "EAID_8ab4e68b_cac6_46cd_ab55_16d7c150009a" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel> ;
     skos:notation "-2" ;
     skos:prefLabel "Leeg"@nl ;
@@ -389,7 +433,7 @@
     mim:code "7" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel/markies"^^xsd:anyURI ;
     mim:naam "markies"@nl ;
-    dcterms:identifier "EAID_74478cdf_6f28_4a26_85a8_586e66bcb673" ;
+    dcterms:identifier "EAID_927728a5_b77a_4113_8753_eadf8642ce2c" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel> ;
     skos:notation "7" ;
     skos:prefLabel "markies"@nl ;
@@ -402,7 +446,7 @@
     mim:code "8" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel/markiezin"^^xsd:anyURI ;
     mim:naam "markiezin"@nl ;
-    dcterms:identifier "EAID_53ab6f22_c437_43e7_9117_4a5c40bbe644" ;
+    dcterms:identifier "EAID_3c9038b1_2629_49e8_8afb_522b3f3a202c" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel> ;
     skos:notation "8" ;
     skos:prefLabel "markiezin"@nl ;
@@ -415,7 +459,7 @@
     mim:code "-1" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel/onbekend"^^xsd:anyURI ;
     mim:naam "Onbekend"@nl ;
-    dcterms:identifier "EAID_98578285_3283_4b1b_ab55_6bed62cb5055" ;
+    dcterms:identifier "EAID_5a111398_43a3_4520_a048_8a47cc92465c" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel> ;
     skos:notation "-1" ;
     skos:prefLabel "Onbekend"@nl ;
@@ -428,7 +472,7 @@
     mim:code "9" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel/prins"^^xsd:anyURI ;
     mim:naam "prins"@nl ;
-    dcterms:identifier "EAID_5f30d1ce_fa65_4197_ae86_0ff05a705e50" ;
+    dcterms:identifier "EAID_ae40fbea_b98d_437d_b85e_dea41c8b2bea" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel> ;
     skos:notation "9" ;
     skos:prefLabel "prins"@nl ;
@@ -441,7 +485,7 @@
     mim:code "10" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel/prinses"^^xsd:anyURI ;
     mim:naam "prinses"@nl ;
-    dcterms:identifier "EAID_01c43022_8f24_4dfb_a3b8_4a3fdd5d185f" ;
+    dcterms:identifier "EAID_540c4e13_7a0c_4d25_8e3f_f4c21bb753f7" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel> ;
     skos:notation "10" ;
     skos:prefLabel "prinses"@nl ;
@@ -454,7 +498,7 @@
     mim:code "11" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel/ridder"^^xsd:anyURI ;
     mim:naam "ridder"@nl ;
-    dcterms:identifier "EAID_58efec5e_328c_467f_8249_3614e966585c" ;
+    dcterms:identifier "EAID_a6439cd8_a898_4981_afd1_262241be2ea6" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel> ;
     skos:notation "11" ;
     skos:prefLabel "ridder"@nl ;
@@ -1344,6 +1388,44 @@ geslachtsnaam voorafgaat.."""@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/generieke-entiteiten-erfgoed/erfgoed-generiek/> ;
     rdfs:range xsd:string .
 
+<https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/generieke-entiteiten-erfgoed/erfgoed-generiek/historische-rol/naam> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "naam"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/generieke-entiteiten-erfgoed/erfgoed-generiek/historische-rol/naam"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "naam"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_9FBA162A_98FF_48ca_854C_EB92603506BF" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/generieke-entiteiten-erfgoed/erfgoed-generiek/historische-rol> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/generieke-entiteiten-erfgoed/erfgoed-generiek/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/generieke-entiteiten-erfgoed/erfgoed-generiek/historische-rol/omschrijving> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "omschrijving"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/generieke-entiteiten-erfgoed/erfgoed-generiek/historische-rol/omschrijving"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "omschrijving"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_DAC0401F_7BEF_487c_A24E_C0EA0454ABA6" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/generieke-entiteiten-erfgoed/erfgoed-generiek/historische-rol> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/generieke-entiteiten-erfgoed/erfgoed-generiek/> ;
+    rdfs:range xsd:string .
+
 <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/generieke-entiteiten-erfgoed/erfgoed-generiek/objectclassificatie/naam> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "naam"@nl ;
@@ -1497,6 +1579,19 @@ geslachtsnaam voorafgaat.."""@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/archief/> ;
     rdfs:subClassOf <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/generieke-entiteiten-erfgoed/erfgoed-generiek/historisch-persoon> .
 
+<https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/generieke-entiteiten-erfgoed/erfgoed-generiek/historische-rol> a mim:Objecttype,
+        owl:Class ;
+    rdfs:label "Historische Rol"@nl ;
+    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/generieke-entiteiten-erfgoed/erfgoed-generiek/historische-rol/naam>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/generieke-entiteiten-erfgoed/erfgoed-generiek/historische-rol/omschrijving> ;
+    mim:definitie "Rol waarvan informatie beschikbaar is uit het verleden."@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/generieke-entiteiten-erfgoed/erfgoed-generiek/historische-rol"^^xsd:anyURI ;
+    mim:indicatieAbstractObject false ;
+    mim:naam "Historische Rol"@nl ;
+    dcterms:identifier "EAID_4A1697B7_534B_4dc2_A5A2_8C13E7DA24B2" ;
+    rdfs:comment "Rol waarvan informatie beschikbaar is uit het verleden."@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/generieke-entiteiten-erfgoed/erfgoed-generiek/> .
+
 <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/generieke-entiteiten-erfgoed/erfgoed-generiek/objectclassificatie> a mim:Objecttype,
         owl:Class ;
     rdfs:label "Objectclassificatie"@nl ;
@@ -1509,23 +1604,6 @@ geslachtsnaam voorafgaat.."""@nl ;
     dcterms:identifier "EAID_65792171_62FA_4c35_930A_8B9C999ADC14" ;
     rdfs:comment "Systematische identificatie en ordening van objecten in categorieën overeenkomstig logisch gestructureerde conventies, methoden en procedureregels weergegeven in een classificatiesysteem."@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/generieke-entiteiten-erfgoed/erfgoed-generiek/> .
-
-<https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/musea/museumobject> a mim:Objecttype,
-        owl:Class ;
-    rdfs:label "Museumobject"@nl ;
-    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/musea/museumobject/afmeting>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/musea/museumobject/bezittot>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/musea/museumobject/bezitvanaf>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/musea/museumobject/medium>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/musea/museumobject/verkrijging> ;
-    mim:definitie "Beschrijving van een fenomeen in de werkelijkheid met een zekere cultuurhistorische waarde die deel uitmaakt van de culthuurhistorisch object index. Een museum object kan gedifiniëerd worden als een object met betrekking tot gebouwd, archeologisch, roerend of cultuurlandschappelijk erfgoed. Denk hierbij bijvoorbeeld aan een gebouwd of archeologisch rijksmonument, een schilderij of een beschermd stads- of dorpsgezicht."@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/musea/museumobject"^^xsd:anyURI ;
-    mim:indicatieAbstractObject false ;
-    mim:naam "Museumobject"@nl ;
-    dcterms:identifier "EAID_BBCF9DBE_70AD_431c_B698_7F0D69D07050" ;
-    rdfs:comment "Beschrijving van een fenomeen in de werkelijkheid met een zekere cultuurhistorische waarde die deel uitmaakt van de culthuurhistorisch object index. Een museum object kan gedifiniëerd worden als een object met betrekking tot gebouwd, archeologisch, roerend of cultuurlandschappelijk erfgoed. Denk hierbij bijvoorbeeld aan een gebouwd of archeologisch rijksmonument, een schilderij of een beschermd stads- of dorpsgezicht."@nl ;
-    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/musea/> ;
-    rdfs:subClassOf <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/generieke-entiteiten-erfgoed/erfgoed-generiek/erfgoed-object> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/kern/generiek/video-opname> a mim:Objecttype,
         owl:Class ;
@@ -1560,24 +1638,22 @@ geslachtsnaam voorafgaat.."""@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/archief/> ;
     rdfs:subClassOf <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/generieke-entiteiten-erfgoed/erfgoed-generiek/erfgoed-object> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/generieke-entiteiten-erfgoed/erfgoed-generiek/historisch-persoon> a mim:Objecttype,
+<https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/musea/museumobject> a mim:Objecttype,
         owl:Class ;
-    rdfs:label "Historisch Persoon"@nl ;
-    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/generieke-entiteiten-erfgoed/erfgoed-generiek/historisch-persoon/beroep>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/generieke-entiteiten-erfgoed/erfgoed-generiek/historisch-persoon/datumgeboorte>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/generieke-entiteiten-erfgoed/erfgoed-generiek/historisch-persoon/datumoverlijden>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/generieke-entiteiten-erfgoed/erfgoed-generiek/historisch-persoon/naam>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/generieke-entiteiten-erfgoed/erfgoed-generiek/historisch-persoon/omschrijving>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/generieke-entiteiten-erfgoed/erfgoed-generiek/historisch-persoon/publiektoegankelijk>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/generieke-entiteiten-erfgoed/erfgoed-generiek/historisch-persoon/woondeop> ;
-    mim:definitie "Natuurlijk persoon waarvan informatie beschikbaar is uit het verleden."@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/generieke-entiteiten-erfgoed/erfgoed-generiek/historisch-persoon"^^xsd:anyURI ;
+    rdfs:label "Museumobject"@nl ;
+    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/musea/museumobject/afmeting>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/musea/museumobject/bezittot>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/musea/museumobject/bezitvanaf>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/musea/museumobject/medium>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/musea/museumobject/verkrijging> ;
+    mim:definitie "Beschrijving van een fenomeen in de werkelijkheid met een zekere cultuurhistorische waarde die deel uitmaakt van de culthuurhistorisch object index. Een museum object kan gedifiniëerd worden als een object met betrekking tot gebouwd, archeologisch, roerend of cultuurlandschappelijk erfgoed. Denk hierbij bijvoorbeeld aan een gebouwd of archeologisch rijksmonument, een schilderij of een beschermd stads- of dorpsgezicht."@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/musea/museumobject"^^xsd:anyURI ;
     mim:indicatieAbstractObject false ;
-    mim:naam "Historisch Persoon"@nl ;
-    dcterms:identifier "EAID_3BBB3264_592A_4d8c_A741_C2A3C38E3932" ;
-    rdfs:comment "Natuurlijk persoon waarvan informatie beschikbaar is uit het verleden."@nl ;
-    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/generieke-entiteiten-erfgoed/erfgoed-generiek/> ;
-    rdfs:subClassOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/natuurlijkpersoon> .
+    mim:naam "Museumobject"@nl ;
+    dcterms:identifier "EAID_BBCF9DBE_70AD_431c_B698_7F0D69D07050" ;
+    rdfs:comment "Beschrijving van een fenomeen in de werkelijkheid met een zekere cultuurhistorische waarde die deel uitmaakt van de culthuurhistorisch object index. Een museum object kan gedifiniëerd worden als een object met betrekking tot gebouwd, archeologisch, roerend of cultuurlandschappelijk erfgoed. Denk hierbij bijvoorbeeld aan een gebouwd of archeologisch rijksmonument, een schilderij of een beschermd stads- of dorpsgezicht."@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/musea/> ;
+    rdfs:subClassOf <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/generieke-entiteiten-erfgoed/erfgoed-generiek/erfgoed-object> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/kern/generiek/foto> a mim:Objecttype,
         owl:Class ;
@@ -1596,6 +1672,25 @@ geslachtsnaam voorafgaat.."""@nl ;
     dcterms:identifier "EAID_7FE4B466_B051_4068_9ED1_6E60C3B2DBAD" ;
     rdfs:comment "Afbeelding op een plat vlak vervaardigd door middel van fotografie"@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/generiek/> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/generieke-entiteiten-erfgoed/erfgoed-generiek/historisch-persoon> a mim:Objecttype,
+        owl:Class ;
+    rdfs:label "Historisch Persoon"@nl ;
+    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/generieke-entiteiten-erfgoed/erfgoed-generiek/historisch-persoon/beroep>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/generieke-entiteiten-erfgoed/erfgoed-generiek/historisch-persoon/datumgeboorte>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/generieke-entiteiten-erfgoed/erfgoed-generiek/historisch-persoon/datumoverlijden>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/generieke-entiteiten-erfgoed/erfgoed-generiek/historisch-persoon/naam>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/generieke-entiteiten-erfgoed/erfgoed-generiek/historisch-persoon/omschrijving>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/generieke-entiteiten-erfgoed/erfgoed-generiek/historisch-persoon/publiektoegankelijk>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/generieke-entiteiten-erfgoed/erfgoed-generiek/historisch-persoon/woondeop> ;
+    mim:definitie "Natuurlijk persoon waarvan informatie beschikbaar is uit het verleden."@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/generieke-entiteiten-erfgoed/erfgoed-generiek/historisch-persoon"^^xsd:anyURI ;
+    mim:indicatieAbstractObject false ;
+    mim:naam "Historisch Persoon"@nl ;
+    dcterms:identifier "EAID_3BBB3264_592A_4d8c_A741_C2A3C38E3932" ;
+    rdfs:comment "Natuurlijk persoon waarvan informatie beschikbaar is uit het verleden."@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/generieke-entiteiten-erfgoed/erfgoed-generiek/> ;
+    rdfs:subClassOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/natuurlijkpersoon> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/generieke-entiteiten-erfgoed/erfgoed-generiek/erfgoed-object> a mim:Objecttype,
         owl:Class ;
@@ -1668,7 +1763,7 @@ geslachtsnaam voorafgaat.."""@nl ;
         <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel/prins>,
         <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel/prinses>,
         <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/adelijketitel/ridder> ;
-    dcterms:identifier "EAID_8cfb5be5_72e1_4363_87ab_205d3595a633" ;
+    dcterms:identifier "EAID_4ff1ddc0_5489_4582_86ea_7211b2716854" ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
     rdfs:subClassOf skos:Concept .
 

@@ -16,14 +16,15 @@
     | author | Arjen Brienen |
     | version | 1.3.0 |
     | created | 2019-08-15 11:30:03 |
-    | modified | 2025-12-18 15:38:53 |
+    | modified | 2025-12-22 15:26:47 |
     | id | EAPK\_EDBB2231\_6674\_457d\_84EF\_1E0815AAA9E6 |
     
 
 Het model 'Model Erfgoed Generiek' kent de volgende objecttypen:
 
 * **Erfgoed Object**: Uit het verleden geërfde materiële en immateriële objecten
-* **Historisch Persoon **: Natuurlijk persoon waarvan informatie beschikbaar is uit het verleden.
+* **Historisch Persoon**: Natuurlijk persoon waarvan informatie beschikbaar is uit het verleden.
+* **Historische Rol**: Rol waarvan informatie beschikbaar is uit het verleden.
 * **Objectclassificatie**: Systematische identificatie en ordening van objecten in categorieën overeenkomstig logisch gestructureerde conventies, methoden en procedureregels weergegeven in een classificatiesysteem.
 
 
@@ -47,7 +48,7 @@ Het model 'Model Erfgoed Generiek' kent de volgende objecttypen:
     | author | Arjen Brienen |
     | version | 1.12.0 |
     | created | 2019-08-15 11:32:27 |
-    | modified | 2025-12-18 15:38:51 |
+    | modified | 2025-12-22 15:26:47 |
     | id | EAID\_71A5C565\_C2CC\_495f\_910A\_76C199C6AF0E |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -69,12 +70,12 @@ Attributen van objecttype Erfgoed Object
 
 
 
-### Historisch Persoon 
-> **Definitie Historisch Persoon :** 
+### Historisch Persoon
+> **Definitie Historisch Persoon:** 
 >
 > Natuurlijk persoon waarvan informatie beschikbaar is uit het verleden.
 
-??? info "Kenmerken Model Historisch Persoon "
+??? info "Kenmerken Model Historisch Persoon"
 
     | Eigenschap | Waarde |
     | :--- | :------ |
@@ -86,7 +87,7 @@ Attributen van objecttype Erfgoed Object
     | author | Arjen Brienen |
     | version | 1.12.0 |
     | created | 2019-08-15 11:08:20 |
-    | modified | 2025-12-18 15:38:51 |
+    | modified | 2026-10-28 19:09:51 |
     | id | EAID\_3BBB3264\_592A\_4d8c\_A741\_C2A3C38E3932 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -97,7 +98,7 @@ Attributen van objecttype Erfgoed Object
     | gemma_toelichting |  |
     
 
-Attributen van objecttype Historisch Persoon 
+Attributen van objecttype Historisch Persoon
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
@@ -108,6 +109,43 @@ Attributen van objecttype Historisch Persoon
 | woondeOp | AN50 |  |
 | beroep | AN200 |  |
 | publiekToegankelijk | Boolean |  |
+
+
+
+### Historische Rol
+> **Definitie Historische Rol:** 
+>
+> Rol waarvan informatie beschikbaar is uit het verleden.
+
+??? info "Kenmerken Model Historische Rol"
+
+    | Eigenschap | Waarde |
+    | :--- | :------ |
+    | name | Historische Rol |
+    | toelichting |  |
+    | synoniemen |  |
+    | uri |  |
+    | bron |  |
+    | author | Arjen |
+    | version | 1.0 |
+    | created | 2019-08-15 11:35:12 |
+    | modified | 2025-12-22 15:26:47 |
+    | id | EAID\_4A1697B7\_534B\_4dc2\_A5A2\_8C13E7DA24B2 |
+    | domein_iv3 |  |
+    | domein_dcat |  |
+    | gemma_naam | Historische Rol |
+    | gemma_type | business-object |
+    | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-03179e7a-0179-461d-8028-bdb5a34d8f1d](https://gemmaonline.nl/index.php/GEMMA/id-03179e7a-0179-461d-8028-bdb5a34d8f1d) |
+    | gemma_definitie | Rol waarvan informatie beschikbaar is uit het verleden. |
+    | gemma_toelichting |  |
+    
+
+Attributen van objecttype Historische Rol
+
+| Attribute | Datatype | Description |
+| :--- | :--- | :--- |
+| naam | AN80 |  |
+| omschrijving | Text |  |
 
 
 
@@ -128,7 +166,7 @@ Attributen van objecttype Historisch Persoon
     | author | Arjen Brienen |
     | version | 1.12.0 |
     | created | 2019-08-15 13:21:48 |
-    | modified | 2025-12-18 15:38:51 |
+    | modified | 2025-12-22 15:26:47 |
     | id | EAID\_65792171\_62FA\_4c35\_930A\_8B9C999ADC14 |
     | domein_iv3 |  |
     | domein_dcat |  |

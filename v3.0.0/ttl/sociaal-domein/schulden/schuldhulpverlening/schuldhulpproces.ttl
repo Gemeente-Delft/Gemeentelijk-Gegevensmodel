@@ -35,27 +35,6 @@
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/> ;
     rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gemeente> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gemeente/nieuwe-gemeente> a mim:Relatiesoort,
-        owl:ObjectProperty ;
-    rdfs:label "nieuwe gemeente"@nl ;
-    mim:aggregatietype mim:Geen ;
-    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gemeente> ;
-    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gemeente> ;
-    mim:heeftTijdlijnGeldigheid false ;
-    mim:heeftTijdlijnRegistratie false ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gemeente/nieuwe-gemeente"^^xsd:anyURI ;
-    mim:indicatieAfleidbaar false ;
-    mim:indicatieFormeleHistorie false ;
-    mim:indicatieMaterieleHistorie false ;
-    mim:kardinaliteit "0..*" ;
-    mim:mogelijkGeenWaarde true ;
-    mim:naam "nieuwe gemeente"@nl ;
-    mim:unidirectioneel true ;
-    dcterms:identifier "EAID_dst776B18_BA57_4a96_94B7_564C96D364E5" ;
-    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gemeente> ;
-    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/> ;
-    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gemeente> .
-
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/schuldhulpverlening/aanmelding/resulteert-in> a mim:Relatiesoort,
         owl:ObjectProperty ;
     rdfs:label "resulteert in"@nl ;
@@ -649,27 +628,6 @@
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/schuldhulpverlening/wsnp-traject> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/schuldhulpverlening/> ;
     rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/schuldhulpverlening/leefsituatie> .
-
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/client/client> a mim:Relatiesoort,
-        owl:ObjectProperty ;
-    rdfs:label "client"@nl ;
-    mim:aggregatietype mim:Geen ;
-    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/client> ;
-    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/schuldhulpverlening/schuldhulptraject> ;
-    mim:heeftTijdlijnGeldigheid false ;
-    mim:heeftTijdlijnRegistratie false ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/client/client"^^xsd:anyURI ;
-    mim:indicatieAfleidbaar false ;
-    mim:indicatieFormeleHistorie false ;
-    mim:indicatieMaterieleHistorie false ;
-    mim:kardinaliteit "0..*" ;
-    mim:mogelijkGeenWaarde true ;
-    mim:naam "client"@nl ;
-    mim:unidirectioneel true ;
-    dcterms:identifier "EAID_src2A7C80_3621_40aa_B091_E30616E65F1D" ;
-    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/client> ;
-    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/> ;
-    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/schuldhulpverlening/schuldhulptraject> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/client/heeft-financiele-situatie> a mim:Relatiesoort,
         owl:ObjectProperty ;
@@ -2567,6 +2525,21 @@ Het moratorium duurt maximaal zes maanden."""@nl ;
     rdfs:comment "Ondersteuning die een persoon ontvangt n&#225; een schuldhulptraject, om zo bij de start van een schuldenvrij leven zelfredzaamheid verder te bevorderen &#233;n recidive (terugval) te voorkomen."@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/schuldhulpverlening/> .
 
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/client> a mim:Objecttype,
+        owl:Class ;
+    rdfs:label "Client"@nl ;
+    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/client/code>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/client/gezagsdragergekend>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/client/juridischestatus>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/client/wettelijkevertegenwoordiging> ;
+    mim:definitie "Een ingeschreven persoon die gebruik maakt van producten en diensten van de gemeente."@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/client"^^xsd:anyURI ;
+    mim:indicatieAbstractObject false ;
+    mim:naam "Client"@nl ;
+    dcterms:identifier "EAID_DAF09055_A5A6_4ff4_A158_21B20567B296" ;
+    rdfs:comment "Een ingeschreven persoon die gebruik maakt van producten en diensten van de gemeente."@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/> .
+
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/schuldhulpverlening/oplossing> a mim:Objecttype,
         owl:Class ;
     rdfs:label "Oplossing"@nl ;
@@ -2596,21 +2569,6 @@ In de stabilisatiefase kan een schuldhulpverlener andere instrumenten, activitei
     rdfs:comment """Fase van het schuldhulpverleningstraject met als doel de inkomsten en uitgaven van een persoon in evenwicht te brengen. De stabilisatie van inkomen en uitgaven is een resultaat van werkzaamheden uit het plan van aanpak. Als stabilisatie bereikt is kan een betalingsregeling, herfinanciering of schuldregeling worden opgezet. Een belangrijk tweede doel is om de hulpvrager hierbij schuldenrust te bieden: stress wegnemen en tijd maken voor oplossingen naar een schuldenzorgvrije toekomst. 
 In de stabilisatiefase kan een schuldhulpverlener andere instrumenten, activiteiten of ondersteuning inzetten, die bijdragen aan de duurzame oplossing van het financi&#235;le probleem, zoals budgetcoaching, budgetbeheer, beschermingsbewind of flankerende hulp."""@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/schuldhulpverlening/> .
-
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/client> a mim:Objecttype,
-        owl:Class ;
-    rdfs:label "Client"@nl ;
-    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/client/code>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/client/gezagsdragergekend>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/client/juridischestatus>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/client/wettelijkevertegenwoordiging> ;
-    mim:definitie "Een ingeschreven persoon die gebruik maakt van producten en diensten van de gemeente."@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/client"^^xsd:anyURI ;
-    mim:indicatieAbstractObject false ;
-    mim:naam "Client"@nl ;
-    dcterms:identifier "EAID_DAF09055_A5A6_4ff4_A158_21B20567B296" ;
-    rdfs:comment "Een ingeschreven persoon die gebruik maakt van producten en diensten van de gemeente."@nl ;
-    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/schuldhulpverlening/begeleiding> a mim:Objecttype,
         owl:Class ;
@@ -2658,6 +2616,30 @@ In de stabilisatiefase kan een schuldhulpverlener andere instrumenten, activitei
     rdfs:comment "De schuldregeling heeft als doel een overeenkomst te sluiten tussen iemand met problematische schulden en zijn schuldeisers. Op basis van eventueel ingezet vermogen en de berekende afloscapaciteit (of op andere wijze vastgestelde minimale afdracht) lost de schuldenaar in maximaal 18 maanden zo veel mogelijk van de schuld af. Daarna schelden de schuldeisers de rest van hun vordering kwijt. Voordat de schuldregeling start, sluit je een schuldregelingsovereenkomst met de schuldenaar. Daarin staan de rechten en plichten van beide partijen. Een schuldregeling kan met een saneringskrediet of een schuldbemiddeling gerealiseerd worden. Als een of meer schuldeisers blijven weigeren in te stemmen met de minnelijke schuldregeling, informeer je de schuldenaar over mogelijke vervolgstappen, zoals het aanvragen van een dwangakkoord (artikel 287a Fw) of toelating tot de Wsnp."@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/schuldhulpverlening/> .
 
+<https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gemeente> a mim:Objecttype,
+        owl:Class ;
+    rdfs:label "Gemeente"@nl ;
+    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gemeente/begingeldigheid>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gemeente/datumeinde>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gemeente/datumingang>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gemeente/eindgeldigheid>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gemeente/geconstateerd>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gemeente/gemeentecode>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gemeente/gemeentenaam>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gemeente/gemeentenaam-nen>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gemeente/geometrie>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gemeente/identificatie>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gemeente/versie> ;
+    mim:datumOpname "2007-04-09"^^xsd:date ;
+    mim:definitie "Een gedeelte van het grondgebied van Nederland, ingesteld op basis van artikel 123 van de Grondwet."@nl ;
+    mim:herkomst "Door KING toegevoegd objecttype,ontleend aan het GFO BG (maakt geen deel uit van enige basisregistratie)." ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gemeente"^^xsd:anyURI ;
+    mim:indicatieAbstractObject false ;
+    mim:naam "Gemeente"@nl ;
+    dcterms:identifier "EAID_EA6F820F_C458_4b24_8055_5C2CC76F5904" ;
+    rdfs:comment "Een gedeelte van het grondgebied van Nederland, ingesteld op basis van artikel 123 van de Grondwet."@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/> .
+
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/schuldhulpverlening/enumbegeleidingssoort> a mim:Enumeratie,
         owl:Class,
         skos:ConceptScheme ;
@@ -2691,30 +2673,6 @@ In de stabilisatiefase kan een schuldhulpverlener andere instrumenten, activitei
     rdfs:comment "Lijst met alle soorten oplossingen in het kader van schuldhulpverleniung die worden onderkend."@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/schuldhulpverlening/> ;
     rdfs:subClassOf skos:Concept .
-
-<https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gemeente> a mim:Objecttype,
-        owl:Class ;
-    rdfs:label "Gemeente"@nl ;
-    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gemeente/begingeldigheid>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gemeente/datumeinde>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gemeente/datumingang>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gemeente/eindgeldigheid>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gemeente/geconstateerd>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gemeente/gemeentecode>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gemeente/gemeentenaam>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gemeente/gemeentenaam-nen>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gemeente/geometrie>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gemeente/identificatie>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gemeente/versie> ;
-    mim:datumOpname "2007-04-09"^^xsd:date ;
-    mim:definitie "Een gedeelte van het grondgebied van Nederland, ingesteld op basis van artikel 123 van de Grondwet."@nl ;
-    mim:herkomst "Door KING toegevoegd objecttype,ontleend aan het GFO BG (maakt geen deel uit van enige basisregistratie)." ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gemeente"^^xsd:anyURI ;
-    mim:indicatieAbstractObject false ;
-    mim:naam "Gemeente"@nl ;
-    dcterms:identifier "EAID_EA6F820F_C458_4b24_8055_5C2CC76F5904" ;
-    rdfs:comment "Een gedeelte van het grondgebied van Nederland, ingesteld op basis van artikel 123 van de Grondwet."@nl ;
-    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/schuldhulpverlening/enumuitstroomreden> a mim:Enumeratie,
         owl:Class,

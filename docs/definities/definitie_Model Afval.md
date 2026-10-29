@@ -16,7 +16,7 @@
     | author | Arjen Brienen |
     | version | 1.2.0 |
     | created | 2019-05-20 14:08:51 |
-    | modified | 2025-12-20 22:33:35 |
+    | modified | 2025-12-22 15:26:52 |
     | id | EAPK\_02C80516\_57F8\_4cbe\_A629\_EC3CBBB8DD52 |
     
 
@@ -64,7 +64,7 @@ Het model 'Model Afval' kent de volgende objecttypen:
     | author | Arjen Brienen |
     | version | 1.12.0 |
     | created | 2019-05-20 16:51:23 |
-    | modified | 2025-12-18 15:38:52 |
+    | modified | 2025-12-22 15:26:52 |
     | id | EAID\_9EC6B40B\_0C87\_4453\_B567\_E0D3572F86AF |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -102,7 +102,7 @@ Attributen van objecttype Categorie
     | author | Arjen Brienen |
     | version | 1.12.0 |
     | created | 2019-05-20 14:10:13 |
-    | modified | 2025-12-18 15:38:52 |
+    | modified | 2025-12-22 15:26:52 |
     | id | EAID\_7D3D98F0\_664C\_4605\_9D95\_F68C88ECBA9A |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -139,7 +139,7 @@ Attributen van objecttype Container
     | author | Arjen Brienen |
     | version | 1.12.0 |
     | created | 2019-05-20 14:12:39 |
-    | modified | 2025-12-18 15:38:52 |
+    | modified | 2025-12-22 15:26:52 |
     | id | EAID\_0A7769C7\_FE3E\_45eb\_A644\_22E5CB207B42 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -176,7 +176,7 @@ Attributen van objecttype Containertype
     | author | Arjen Brienen |
     | version | 1.12.0 |
     | created | 2019-05-20 14:09:37 |
-    | modified | 2025-12-18 15:38:52 |
+    | modified | 2025-12-22 15:26:52 |
     | id | EAID\_80A7D18F\_7C7E\_4ee6\_9F07\_055559BCEF9F |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -213,7 +213,7 @@ Attributen van objecttype Fractie
     | author | Arjen Brienen |
     | version | 1.12.0 |
     | created | 2019-05-20 16:53:54 |
-    | modified | 2025-12-18 15:38:52 |
+    | modified | 2025-12-22 15:26:52 |
     | id | EAID\_7F4E17A3\_0EC2\_4bee\_B4E0\_BFA26D653EB9 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -251,7 +251,7 @@ Attributen van objecttype Locatie
     | author | Arjen Brienen |
     | version | 1.12.0 |
     | created | 2019-05-20 16:45:08 |
-    | modified | 2025-12-18 15:38:52 |
+    | modified | 2025-12-22 15:26:52 |
     | id | EAID\_8A02DCF5\_E568\_4d45\_96A2\_FD4FB53F414C |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -291,7 +291,7 @@ Attributen van objecttype Melding
     | author | Arjen Brienen |
     | version | 1.12.0 |
     | created | 2019-05-20 14:39:16 |
-    | modified | 2025-12-18 15:38:52 |
+    | modified | 2025-12-22 15:26:52 |
     | id | EAID\_1638F2AF\_F1E8\_4360\_BA47\_D975F2135168 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -329,7 +329,7 @@ Attributen van objecttype Milieustraat
     | author | Arjen Brienen |
     | version | 1.12.0 |
     | created | 2019-05-20 14:21:06 |
-    | modified | 2025-12-18 15:38:52 |
+    | modified | 2025-12-22 15:26:52 |
     | id | EAID\_9079F098\_1084\_4484\_ACCC\_6C6C07043193 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -366,7 +366,7 @@ Attributen van objecttype Ophaalmoment
     | author | Arjen Brienen |
     | version | 1.14.0 |
     | created | 2019-05-20 14:41:09 |
-    | modified | 2025-12-18 15:38:52 |
+    | modified | 2025-12-22 15:26:52 |
     | id | EAID\_F6D7A83B\_30BC\_44f4\_91E2\_74C04DCE87AE |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -403,7 +403,7 @@ Attributen van objecttype Pas
     | author | Arjen Brienen |
     | version | 1.12.0 |
     | created | 2019-05-20 14:11:29 |
-    | modified | 2025-12-18 15:38:52 |
+    | modified | 2025-12-22 15:26:52 |
     | id | EAID\_21BBA828\_AAE0\_4785\_9E44\_45C1B866C882 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -439,9 +439,9 @@ Attributen van objecttype Prijsafspraak
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.10.0 |
+    | version | 1.12.0 |
     | created | 2019-05-20 14:11:42 |
-    | modified | 2025-12-18 15:38:52 |
+    | modified | 2025-12-22 15:44:35 |
     | id | EAID\_E79C6C20\_3D05\_49fb\_96ED\_105B5CD0ABA5 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -478,7 +478,7 @@ Attributen van objecttype Prijsregel
     | author | Arjen Brienen |
     | version | 1.12.0 |
     | created | 2019-05-20 14:20:08 |
-    | modified | 2025-12-18 15:38:52 |
+    | modified | 2025-12-22 15:26:52 |
     | id | EAID\_832DA9A0\_0E64\_4d41\_8266\_38418B095919 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -518,9 +518,9 @@ Attributen van objecttype Rit
     | uri |  |
     | bron |  |
     | author | Arjen Brienen |
-    | version | 1.12.0 |
+    | version | 1.14.0 |
     | created | 2019-05-20 14:09:54 |
-    | modified | 2025-12-18 15:38:52 |
+    | modified | 2025-12-22 15:44:35 |
     | id | EAID\_55A58838\_3877\_4e76\_B5BF\_26C68FAD463D |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -558,7 +558,7 @@ Attributen van objecttype Route
     | author | Arjen Brienen |
     | version | 1.12.0 |
     | created | 2019-05-20 14:41:00 |
-    | modified | 2025-12-18 15:38:52 |
+    | modified | 2025-12-22 15:26:52 |
     | id | EAID\_15910FE7\_D323\_45ff\_AA7F\_CE3C636CE953 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -595,7 +595,7 @@ Attributen van objecttype Storting
     | author | Arjen Brienen |
     | version | 1.12.0 |
     | created | 2019-05-20 14:10:41 |
-    | modified | 2025-12-18 15:38:52 |
+    | modified | 2025-12-22 15:26:52 |
     | id | EAID\_9A422266\_783E\_4f48\_9B12\_F442C1B22A45 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -633,7 +633,7 @@ Attributen van objecttype Vuilniswagen
     | author | Arjen Brienen |
     | version | 1.12.0 |
     | created | 2019-05-22 11:05:47 |
-    | modified | 2025-12-18 15:38:52 |
+    | modified | 2025-12-22 15:26:52 |
     | id | EAID\_3650DB98\_AC7B\_46c0\_A607\_C54D69E38E42 |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -686,7 +686,7 @@ De enumeratie Routesoort heeft de volgende kenmerken:
     | author |  |
     | version | 1.10.0 |
     | created | 2025-03-26 11:12:56 |
-    | modified | 2025-12-16 10:28:45 |
+    | modified | 2025-12-22 15:26:52 |
     | id | EAID\_0121B2BE\_F262\_4433\_8AA5\_49FC7866EF68 |
     | domein_iv3 |  |
     | domein_dcat |  |

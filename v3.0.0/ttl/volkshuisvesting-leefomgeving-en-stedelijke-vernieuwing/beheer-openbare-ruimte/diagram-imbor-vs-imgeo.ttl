@@ -237,23 +237,23 @@
     mim:definitie "Situatie waarin het object wordt / kan worden gebruikt voor het doel waarvoor het is gebouwd / aangelegd."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/statusgeoobject/bestaand"^^xsd:anyURI ;
     mim:naam "bestaand"@nl ;
-    dcterms:identifier "EAID_0782b776_92f2_49d8_a1d1_3bfd94b1c117",
-        "EAID_0f3218b4_0a7c_4005_9aa6_e1b9cc6dc240",
-        "EAID_1a487cce_dbf8_4d97_b3aa_1e39b5dc2cdf",
-        "EAID_293b7414_ade4_485f_8093_01bac93612ed",
-        "EAID_472dc2e9_88d7_4895_9855_c5e1d52f1fe4",
-        "EAID_4a5f2bb7_ae67_4dae_b29b_09fbef1fa966",
-        "EAID_7040fa24_b29b_4725_9afe_4627137ab102",
-        "EAID_78dc8376_7a1d_405b_aef4_8c2ee62b975a",
-        "EAID_7b932b69_d4cd_4215_a08f_d27c6aa288b6",
-        "EAID_853b9357_16d6_4bc9_989e_3ddd2ea69d5c",
-        "EAID_8d887e1f_d881_4a33_a6ea_cf41d11b9537",
-        "EAID_987ca054_ae6d_4222_b9ab_22bdb136afdd",
-        "EAID_9a634624_a690_40a5_8583_3012f81b41f4",
-        "EAID_9fe2c076_dea2_49d7_b714_69f8e31d5a41",
-        "EAID_afdb3640_5c72_49aa_8729_64e7212d8c86",
-        "EAID_d5efcb8c_e7b6_433c_8dad_b8e4285ba693",
-        "EAID_f2642659_4bb7_426a_8472_595372a1e5a4" ;
+    dcterms:identifier "EAID_077713f7_656c_48df_ab66_7417904d0358",
+        "EAID_0bb8cdbf_87b1_49f6_81c9_aa6cd296755c",
+        "EAID_296ec203_5c6b_4152_a5bf_0d5f14c934f5",
+        "EAID_2bef982e_64db_497f_962f_64eb7a05fed9",
+        "EAID_2e0a1156_b12f_4c8c_9f77_32c690f2e5f7",
+        "EAID_31ed9ef7_dc2f_434b_89d4_52127e0c7912",
+        "EAID_37023026_d60d_4df0_9ed2_df039fab5b9b",
+        "EAID_3fdc9bb0_a37d_47e5_a158_15a01711058c",
+        "EAID_59590115_a8bf_4ca2_be6e_e9c4a99cb39e",
+        "EAID_61afbddb_865b_4909_978c_ea1998c7f735",
+        "EAID_76b7bb9d_9ca5_46bc_bbc9_77c58a7cd6b5",
+        "EAID_7c0956f3_ac5b_456d_843b_dacf59ec27b3",
+        "EAID_7c6a3db5_a00f_49ea_802e_bbfaf25a919b",
+        "EAID_86381132_0011_4dc6_a3c3_6cca123fab83",
+        "EAID_b61e827b_2d2b_4cb5_b092_a85bb3ba7ac1",
+        "EAID_b8f501ee_1c9e_4134_a38e_e335a1b9ce68",
+        "EAID_f35623d8_0628_4c6d_a2d1_66170c58c796" ;
     skos:definition "Situatie waarin het object wordt / kan worden gebruikt voor het doel waarvoor het is gebouwd / aangelegd."@nl ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/statusgeoobject> ;
     skos:prefLabel "bestaand"@nl ;
@@ -266,23 +266,23 @@
     mim:definitie "Situatie waarin het geregistreerde object fysiek niet meer bestaat."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/statusgeoobject/historie"^^xsd:anyURI ;
     mim:naam "historie"@nl ;
-    dcterms:identifier "EAID_05c56614_9ad0_4f4f_8830_0df8c86f74fb",
-        "EAID_0d9eb4b5_4b41_4c7a_97f8_7844a895a7cf",
-        "EAID_1e827a08_0dba_4301_a719_487126e08bfc",
-        "EAID_2464ee85_7c2f_44e0_8928_82a1b9b6b4a3",
-        "EAID_2bb2711c_57ca_4107_9456_c03026cee8ff",
-        "EAID_350dfe43_f313_47fe_8b28_d4d08e91c003",
-        "EAID_44e22ada_a9f0_4cd2_a018_3bea97058c66",
-        "EAID_4ff2ee42_df8a_43f5_a35a_f73be3fc4e18",
-        "EAID_56dc1297_976f_43f3_93ea_910f24b5ad62",
-        "EAID_69a5d58a_002a_47b1_986d_81f218bf54ea",
-        "EAID_6e1c0db1_37e3_4d7e_9d41_2c39e803f438",
-        "EAID_86b6a8a9_f442_4011_bd40_5eea25b831a2",
-        "EAID_8be9f01f_4ca9_48d6_b13c_ede84061975a",
-        "EAID_ab7efd47_5340_40bd_b1d0_61bd64f9c734",
-        "EAID_e1d33d17_15e5_46c9_aa53_1a121e471329",
-        "EAID_edde7d66_a8df_42e7_a747_4d2053aad48c",
-        "EAID_ef8c8666_fa62_44a0_bb68_c3479e75c2a6" ;
+    dcterms:identifier "EAID_08adcd70_bd05_4c90_be71_c9ad34414df7",
+        "EAID_1052f923_8ecb_401d_80d6_88263fa6e73c",
+        "EAID_1d50cb1d_56e8_42ce_a90c_dbec25cfcb06",
+        "EAID_2b41a5f5_d73c_4079_9a91_a56a5fac11b0",
+        "EAID_397dbdf0_b7ed_4250_868c_2369cd5dd3f8",
+        "EAID_4505767d_1131_46bf_b00a_cd83d40927df",
+        "EAID_477065cf_8bc1_4483_a450_150c9946d0c8",
+        "EAID_825a5312_fd70_4b0f_9c3a_8d4b458488e4",
+        "EAID_8b356ef1_b389_4bb9_a985_37b44f27ca3e",
+        "EAID_9c691c5a_4e6e_476d_81a6_053531f3dbb3",
+        "EAID_a1fffaa0_6f58_4991_81f6_efe860d9ea18",
+        "EAID_b740b1ba_45c4_4f96_889e_fbfb5eb966e8",
+        "EAID_c2b1871d_c96f_4694_90db_1959d874c60a",
+        "EAID_c7bc62c5_e14f_4055_b6e6_72acaa933196",
+        "EAID_d7c7800a_1299_4751_98f6_55d12956d0f8",
+        "EAID_de322192_feaf_4c17_bdd8_1898c029a1c0",
+        "EAID_f430f042_4b2e_4ab0_9b65_c63b8ebd38f7" ;
     skos:definition "Situatie waarin het geregistreerde object fysiek niet meer bestaat."@nl ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/statusgeoobject> ;
     skos:prefLabel "historie"@nl ;
@@ -295,23 +295,23 @@
     mim:definitie "Situatie die ontstaat op het moment van verlening van een beschikking voor bouw of aanleg en duurt tot het moment waarop het object gereed is voor het beoogde gebruik."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/statusgeoobject/plan"^^xsd:anyURI ;
     mim:naam "plan"@nl ;
-    dcterms:identifier "EAID_049d30ca_7f26_4c36_9a22_fb78e4281b18",
-        "EAID_16c6f130_e26f_4500_a957_85d4e37ff001",
-        "EAID_204e4500_86fe_4a73_9c7f_01b0100df3b6",
-        "EAID_2771ff0a_b7cb_447e_9df7_4ba4d0d154e4",
-        "EAID_3dff05f3_5db3_418a_93bc_0144dcd45d0f",
-        "EAID_4efbfd50_d762_4660_9b52_33dc08d689e3",
-        "EAID_5a78bb6d_d0fb_440e_9e3e_9b6bb737f816",
-        "EAID_5d09c3d6_babf_4e39_8236_90d2df166e0c",
-        "EAID_6c2f2d8b_f9d0_4838_9832_cd6794745788",
-        "EAID_85c08fff_7e8e_42dc_be6f_f297184b44a3",
-        "EAID_87ae1f70_3d96_4926_9555_f365d7cb16e3",
-        "EAID_9cfd871f_a258_474a_aee4_a7d5d852a3e4",
-        "EAID_9ee20f6c_73d1_4e4d_8264_23a3a1e893db",
-        "EAID_bfdd39c0_efed_477e_9499_af2c3d5b8987",
-        "EAID_c813a784_e0a3_40e3_8f8b_ee7c05fa9a54",
-        "EAID_df3faad9_98df_429f_8724_69407b6c3e9b",
-        "EAID_fa63f48f_9c0d_4216_a017_16454c5eab1a" ;
+    dcterms:identifier "EAID_008bbf27_272e_4624_b263_768c25f89efa",
+        "EAID_03746405_4af3_4761_ab32_e991fa650f76",
+        "EAID_529141bb_00de_46df_9fe6_2e898f4dd6c2",
+        "EAID_55c20feb_cdcf_454d_bad9_b95ec271a6f0",
+        "EAID_57f634cf_3aa4_47b6_b97e_37d17ec05830",
+        "EAID_77586f58_4709_4fbc_b8b2_598ca16d58c5",
+        "EAID_7b288809_210d_40e4_abe0_ccb974d5ad36",
+        "EAID_7bba66d5_2ca0_404e_800e_0abb48d73162",
+        "EAID_8cd86451_3507_48cd_839f_4da4d4aff82a",
+        "EAID_90350b54_b472_4db4_a844_e8bbc06b6b34",
+        "EAID_9b4610e7_d59d_413a_8e8d_ede9557b1288",
+        "EAID_9ca2f406_0022_499e_9ba0_853586dad87c",
+        "EAID_9ea4d6b3_6e42_4755_9acf_bfad19819bbb",
+        "EAID_b3420950_0db6_4bd4_a303_2437ace03427",
+        "EAID_cef9f25e_9f4f_4187_8387_13c7e0483933",
+        "EAID_d53213d0_9a97_4376_ad8e_6d8384e761b7",
+        "EAID_e4e00537_ebdf_4bca_8fef_704ab8dc65b2" ;
     skos:definition "Situatie die ontstaat op het moment van verlening van een beschikking voor bouw of aanleg en duurt tot het moment waarop het object gereed is voor het beoogde gebruik."@nl ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/statusgeoobject> ;
     skos:prefLabel "plan"@nl ;
@@ -325,7 +325,7 @@
 te verzamelen."""@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/typeringinrichtingselement/bak"^^xsd:anyURI ;
     mim:naam "bak"@nl ;
-    dcterms:identifier "EAID_5d224aac_ceb8_4d92_88a6_c67be99675c4" ;
+    dcterms:identifier "EAID_730d71a9_1b57_47db_854b_dd65fdbe59be" ;
     skos:definition """Object met een permanent karakter dat dient om iets in te bergen of 
 te verzamelen."""@nl ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/typeringinrichtingselement> ;
@@ -339,7 +339,7 @@ te verzamelen."""@nl ;
     mim:definitie "Een paneel waarop informatie wordt afgebeeld."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/typeringinrichtingselement/bord"^^xsd:anyURI ;
     mim:naam "bord"@nl ;
-    dcterms:identifier "EAID_bd50d569_ad6b_46dd_aaf8_33395aaba7eb" ;
+    dcterms:identifier "EAID_1c4f2b95_45de_4ad5_817a_4457f7a6b74f" ;
     skos:definition "Een paneel waarop informatie wordt afgebeeld."@nl ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/typeringinrichtingselement> ;
     skos:prefLabel "bord"@nl ;
@@ -352,7 +352,7 @@ te verzamelen."""@nl ;
     mim:definitie "Samenhangend systeem dat een bepaald doel dient."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/typeringinrichtingselement/installatie"^^xsd:anyURI ;
     mim:naam "installatie"@nl ;
-    dcterms:identifier "EAID_739a55d6_3b6b_4c25_9036_613535c6079e" ;
+    dcterms:identifier "EAID_9b5bde0b_1dea_45b3_aa9f_d42814d9d8ba" ;
     skos:definition "Samenhangend systeem dat een bepaald doel dient."@nl ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/typeringinrichtingselement> ;
     skos:prefLabel "installatie"@nl ;
@@ -366,7 +366,7 @@ te verzamelen."""@nl ;
 te beschermen."""@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/typeringinrichtingselement/kast"^^xsd:anyURI ;
     mim:naam "kast"@nl ;
-    dcterms:identifier "EAID_fcf0a192_93ec_48b4_a27d_f343c5e49364" ;
+    dcterms:identifier "EAID_26f37bfb_5ae9_4000_9dfd_ba29ca273a7a" ;
     skos:definition """Object met een permanent karakter dat dient om iets in te bergen en 
 te beschermen."""@nl ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/typeringinrichtingselement> ;
@@ -380,7 +380,7 @@ te beschermen."""@nl ;
     mim:definitie "Hoge draagconstructie."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/typeringinrichtingselement/mast"^^xsd:anyURI ;
     mim:naam "mast"@nl ;
-    dcterms:identifier "EAID_9b942e6e_dd31_4af3_84dc_147574e15964" ;
+    dcterms:identifier "EAID_317dd44b_c9a6_4798_b34c_82a7acb2f783" ;
     skos:definition "Hoge draagconstructie."@nl ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/typeringinrichtingselement> ;
     skos:prefLabel "mast"@nl ;
@@ -393,7 +393,7 @@ te beschermen."""@nl ;
     mim:definitie "Langwerpig stuk hout, ijzer, steen enz., dat in de grond staat."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/typeringinrichtingselement/paal"^^xsd:anyURI ;
     mim:naam "paal"@nl ;
-    dcterms:identifier "EAID_8d1bf63b_9de2_4825_ba89_b4b36d555272" ;
+    dcterms:identifier "EAID_6d9fd87c_dae2_425f_a448_389a095d8af2" ;
     skos:definition "Langwerpig stuk hout, ijzer, steen enz., dat in de grond staat."@nl ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/typeringinrichtingselement> ;
     skos:prefLabel "paal"@nl ;
@@ -407,7 +407,7 @@ te beschermen."""@nl ;
 bevinden."""@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/typeringinrichtingselement/put"^^xsd:anyURI ;
     mim:naam "put"@nl ;
-    dcterms:identifier "EAID_e8980d92_6c88_41e2_972c_a1c250d69cd6" ;
+    dcterms:identifier "EAID_f7eae948_cf41_47ce_86dc_005aeb4e26ef" ;
     skos:definition """Gegraven of geboorde kokervormige diepte waarin zich (vloei)stoffen 
 bevinden."""@nl ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/typeringinrichtingselement> ;
@@ -422,7 +422,7 @@ bevinden."""@nl ;
 temperatuur, licht, druk, elektriciteit)."""@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/typeringinrichtingselement/sensor"^^xsd:anyURI ;
     mim:naam "sensor"@nl ;
-    dcterms:identifier "EAID_a6c2fd0d_f884_4fcb_b6ad_3d0785c8a5e6" ;
+    dcterms:identifier "EAID_2cc69387_f485_4970_b71c_d9fa81d072ed" ;
     skos:definition """Apparaat voor de meting van een fysieke grootheid (bijv. 
 temperatuur, licht, druk, elektriciteit)."""@nl ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/typeringinrichtingselement> ;
@@ -436,7 +436,7 @@ temperatuur, licht, druk, elektriciteit)."""@nl ;
     mim:definitie "Een ruimtelijk object ter inrichting van de openbare ruimte."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/typeringinrichtingselement/straatmeubilair"^^xsd:anyURI ;
     mim:naam "straatmeubilair"@nl ;
-    dcterms:identifier "EAID_23babfd0_9dfc_43d6_9bbd_79ec10fb4565" ;
+    dcterms:identifier "EAID_a2e64ef1_2fa3_477a_adaa_c9ccd5f2336a" ;
     skos:definition "Een ruimtelijk object ter inrichting van de openbare ruimte."@nl ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/typeringinrichtingselement> ;
     skos:prefLabel "straatmeubilair"@nl ;
@@ -449,7 +449,7 @@ temperatuur, licht, druk, elektriciteit)."""@nl ;
     mim:definitie "Een ruimtelijk object ter inrichting van het water."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/typeringinrichtingselement/waterinrichtingselement"^^xsd:anyURI ;
     mim:naam "waterinrichtingselement"@nl ;
-    dcterms:identifier "EAID_497d9665_4070_44a0_9d67_2cad96b9c4cd" ;
+    dcterms:identifier "EAID_fe73ad64_c3bd_4713_b6dc_0211d66f26d8" ;
     skos:definition "Een ruimtelijk object ter inrichting van het water."@nl ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/typeringinrichtingselement> ;
     skos:prefLabel "waterinrichtingselement"@nl ;
@@ -463,7 +463,7 @@ temperatuur, licht, druk, elektriciteit)."""@nl ;
 weg."""@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/typeringinrichtingselement/weginrichtingselement"^^xsd:anyURI ;
     mim:naam "weginrichtingselement"@nl ;
-    dcterms:identifier "EAID_d3caecdc_39ad_448c_bff0_42d4bfcf6799" ;
+    dcterms:identifier "EAID_aacb2f32_ab42_4659_ad4f_e85f69009486" ;
     skos:definition """Een ruimtelijk object dat dient voor de inrichting van de openbare 
 weg."""@nl ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/typeringinrichtingselement> ;
@@ -477,7 +477,7 @@ weg."""@nl ;
     mim:definitie "Overdekte wachtplaats voor passagiers van het openbaar vervoer."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/typeringinrichtingselementplus/abri"^^xsd:anyURI ;
     mim:naam "abri"@nl ;
-    dcterms:identifier "EAID_5027f626_a6ca_4190_b56e_d377706f3dd6" ;
+    dcterms:identifier "EAID_425df411_6315_4ab6_b649_be453a3601ed" ;
     skos:definition "Overdekte wachtplaats voor passagiers van het openbaar vervoer."@nl ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/typeringinrichtingselementplus> ;
     skos:prefLabel "abri"@nl ;
@@ -490,7 +490,7 @@ weg."""@nl ;
     mim:definitie "Al dan niet verwijderbare paal in de grond om de weg of een gedeelte hiervan af te sluiten."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/typeringinrichtingselementplus/afsluitpaal"^^xsd:anyURI ;
     mim:naam "afsluitpaal"@nl ;
-    dcterms:identifier "EAID_6803c0d2_c61f_47f5_b136_da8e9c85ef5d" ;
+    dcterms:identifier "EAID_750340ca_74cd_4fd0_b0f6_fd9bb4f77498" ;
     skos:definition "Al dan niet verwijderbare paal in de grond om de weg of een gedeelte hiervan af te sluiten."@nl ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/typeringinrichtingselementplus> ;
     skos:prefLabel "afsluitpaal"@nl ;
@@ -503,7 +503,7 @@ weg."""@nl ;
     mim:definitie "Boven- of ondergrondse opslagplaats voor het gescheiden inzamelen van afval, met stortkoker(s) op het straatniveau."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/typeringinrichtingselementplus/afval-aparte-plaats"^^xsd:anyURI ;
     mim:naam "afval aparte plaats"@nl ;
-    dcterms:identifier "EAID_d476825c_1a45_4c39_afe1_d57434f17e6a" ;
+    dcterms:identifier "EAID_67d3fe5c_828e_4474_b1d7_4052d17c7c49" ;
     skos:definition "Boven- of ondergrondse opslagplaats voor het gescheiden inzamelen van afval, met stortkoker(s) op het straatniveau."@nl ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/typeringinrichtingselementplus> ;
     skos:prefLabel "afval aparte plaats"@nl ;
@@ -516,7 +516,7 @@ weg."""@nl ;
     mim:definitie "Bak of korf in de openbare ruimte met een permanent karakter; bedoeld voor het verzamelen van (meestal los) afval."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/typeringinrichtingselementplus/afvalbak"^^xsd:anyURI ;
     mim:naam "afvalbak"@nl ;
-    dcterms:identifier "EAID_f618fb84_2b9e_4c97_8097_e1c1ac100e70" ;
+    dcterms:identifier "EAID_1eae2fd7_ff48_4025_8ab9_465cb61c129f" ;
     skos:definition "Bak of korf in de openbare ruimte met een permanent karakter; bedoeld voor het verzamelen van (meestal los) afval."@nl ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/typeringinrichtingselementplus> ;
     skos:prefLabel "afvalbak"@nl ;
@@ -529,7 +529,7 @@ weg."""@nl ;
     mim:definitie "Een balustrade is een hekwerk of afzetting aan de rand van een overbrugging. Een balustrade beveiligt tegen het vallen."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/typeringinrichtingselementplus/balustrade"^^xsd:anyURI ;
     mim:naam "balustrade"@nl ;
-    dcterms:identifier "EAID_9a4c5a2a_6c14_4fbf_be73_830a5118c9ea" ;
+    dcterms:identifier "EAID_d6a1821a_ba99_447b_8332_ec240338d1ab" ;
     skos:definition "Een balustrade is een hekwerk of afzetting aan de rand van een overbrugging. Een balustrade beveiligt tegen het vallen."@nl ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/typeringinrichtingselementplus> ;
     skos:prefLabel "balustrade"@nl ;
@@ -542,7 +542,7 @@ weg."""@nl ;
     mim:definitie "Aaneengesloten zitplaats voor verscheidene personen, bedoeld voor openbaar gebruik en geplaatst in de openbare ruimte (vnl. in parken, plantsoenen, bossen en langs wegen)."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/typeringinrichtingselementplus/bank"^^xsd:anyURI ;
     mim:naam "bank"@nl ;
-    dcterms:identifier "EAID_e0143f70_9b4b_419a_8ee4_838da6bed878" ;
+    dcterms:identifier "EAID_8d06534e_14b1_45ba_bb69_590f297ca773" ;
     skos:definition "Aaneengesloten zitplaats voor verscheidene personen, bedoeld voor openbaar gebruik en geplaatst in de openbare ruimte (vnl. in parken, plantsoenen, bossen en langs wegen)."@nl ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/typeringinrichtingselementplus> ;
     skos:prefLabel "bank"@nl ;
@@ -555,7 +555,7 @@ weg."""@nl ;
     mim:definitie "Putdeksel die toegang geeft tot een benzine- of olietank ten behoeve van vullen, onderhoud of inspectie."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/typeringinrichtingselementplus/benzine-olieput"^^xsd:anyURI ;
     mim:naam "benzine- / olieput"@nl ;
-    dcterms:identifier "EAID_faa2e176_3748_4a87_a7ea_10caa4eb7044" ;
+    dcterms:identifier "EAID_a413982a_5ae4_49fd_9cd3_fa60b8633fe3" ;
     skos:definition "Putdeksel die toegang geeft tot een benzine- of olietank ten behoeve van vullen, onderhoud of inspectie."@nl ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/typeringinrichtingselementplus> ;
     skos:prefLabel "benzine- / olieput"@nl ;
@@ -568,7 +568,7 @@ weg."""@nl ;
     mim:definitie "Een apparaat dat betaalkaarten en/of contant geld accepteert om betalingen uit te voeren."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/typeringinrichtingselementplus/betaalautomaat"^^xsd:anyURI ;
     mim:naam "betaalautomaat"@nl ;
-    dcterms:identifier "EAID_a171cb72_ca5b_41a7_a607_564a995feae5" ;
+    dcterms:identifier "EAID_f950b2df_39b1_4368_87a0_6eb02c11a52c" ;
     skos:definition "Een apparaat dat betaalkaarten en/of contant geld accepteert om betalingen uit te voeren."@nl ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/typeringinrichtingselementplus> ;
     skos:prefLabel "betaalautomaat"@nl ;
@@ -581,7 +581,7 @@ weg."""@nl ;
     mim:definitie "Een systeem van boeien en bakens, waarmee in open zee of in een vaarwater ondiepten of de aanwezigheid van gevaarlijke objecten worden aangegeven."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/typeringinrichtingselementplus/betonning"^^xsd:anyURI ;
     mim:naam "betonning"@nl ;
-    dcterms:identifier "EAID_e7f7a8ec_a3e3_45ad_85c3_3c2bfa9fdbbd" ;
+    dcterms:identifier "EAID_509700aa_7d35_4bcc_bd11_ed10c6911638" ;
     skos:definition "Een systeem van boeien en bakens, waarmee in open zee of in een vaarwater ondiepten of de aanwezigheid van gevaarlijke objecten worden aangegeven."@nl ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/typeringinrichtingselementplus> ;
     skos:prefLabel "betonning"@nl ;
@@ -594,7 +594,7 @@ weg."""@nl ;
     mim:definitie "Bak in de openbare ruimte met een permanent karakter, waarin planten of struiken zijn geplant."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/typeringinrichtingselementplus/bloembak"^^xsd:anyURI ;
     mim:naam "bloembak"@nl ;
-    dcterms:identifier "EAID_8fc8dcd8_52aa_44fb_8b31_8d4f3d78eb79" ;
+    dcterms:identifier "EAID_350800b2_6326_4438_b9a1_620dec663924" ;
     skos:definition "Bak in de openbare ruimte met een permanent karakter, waarin planten of struiken zijn geplant."@nl ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/typeringinrichtingselementplus> ;
     skos:prefLabel "bloembak"@nl ;
@@ -607,7 +607,7 @@ weg."""@nl ;
     mim:definitie "Een inrichting aan de wal, waar een schip, door middel van een tros of landvast, aan vastgelegd kan worden."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/typeringinrichtingselementplus/bolder"^^xsd:anyURI ;
     mim:naam "bolder"@nl ;
-    dcterms:identifier "EAID_1ae633f1_0c59_47c1_bf59_3bb40e560a26" ;
+    dcterms:identifier "EAID_d3dcc195_5481_4933_a5b0_134673cf7e4d" ;
     skos:definition "Een inrichting aan de wal, waar een schip, door middel van een tros of landvast, aan vastgelegd kan worden."@nl ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/typeringinrichtingselementplus> ;
     skos:prefLabel "bolder"@nl ;
@@ -620,7 +620,7 @@ weg."""@nl ;
     mim:definitie "Het stuk grond rondom de stam van een boom dat van boven toegankelijk is voor lucht en water."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/typeringinrichtingselementplus/boomspiegel"^^xsd:anyURI ;
     mim:naam "boomspiegel"@nl ;
-    dcterms:identifier "EAID_ede3dbb7_d0e8_40a9_b2ee_d2ca7fa3d472" ;
+    dcterms:identifier "EAID_091311e4_4d27_43d3_a6fa_8b8215ceea6a" ;
     skos:definition "Het stuk grond rondom de stam van een boom dat van boven toegankelijk is voor lucht en water."@nl ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/typeringinrichtingselementplus> ;
     skos:prefLabel "boomspiegel"@nl ;
@@ -633,7 +633,7 @@ weg."""@nl ;
     mim:definitie "Mast die een onderdeel vormt van de bovenleidingdraagconstructie."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/typeringinrichtingselementplus/bovenleidingmast"^^xsd:anyURI ;
     mim:naam "bovenleidingmast"@nl ;
-    dcterms:identifier "EAID_f1c8dc14_43fb_40b8_9b1d_f74cd49b0bd0" ;
+    dcterms:identifier "EAID_29a9c877_4353_432a_bcb2_b4cf46ee267f" ;
     skos:definition "Mast die een onderdeel vormt van de bovenleidingdraagconstructie."@nl ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/typeringinrichtingselementplus> ;
     skos:prefLabel "bovenleidingmast"@nl ;
@@ -646,7 +646,7 @@ weg."""@nl ;
     mim:definitie "Op de drinkwaterleiding aangesloten kraan, of een put voor het plaatsen van een brandkraan, op of nabij de openbare weg, voor brandbestrijding."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/typeringinrichtingselementplus/brandkraan-put"^^xsd:anyURI ;
     mim:naam "brandkraan / -put"@nl ;
-    dcterms:identifier "EAID_803c97b9_7576_42af_85e7_9fda913a7e3b" ;
+    dcterms:identifier "EAID_807565b6_642f_40e4_8c3a_5bfc264e05e0" ;
     skos:definition "Op de drinkwaterleiding aangesloten kraan, of een put voor het plaatsen van een brandkraan, op of nabij de openbare weg, voor brandbestrijding."@nl ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/typeringinrichtingselementplus> ;
     skos:prefLabel "brandkraan / -put"@nl ;
@@ -659,7 +659,7 @@ weg."""@nl ;
     mim:definitie "Uitpandige kast waar post in kan worden gedeponeerd ter bezorging."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/typeringinrichtingselementplus/brievenbus"^^xsd:anyURI ;
     mim:naam "brievenbus"@nl ;
-    dcterms:identifier "EAID_0541d55e_ed62_48b8_998d_78f5178e6452" ;
+    dcterms:identifier "EAID_a0ceb1d0_2c1a_4ac7_b155_af3392d616b1" ;
     skos:definition "Uitpandige kast waar post in kan worden gedeponeerd ter bezorging."@nl ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/typeringinrichtingselementplus> ;
     skos:prefLabel "brievenbus"@nl ;
@@ -672,7 +672,7 @@ weg."""@nl ;
     mim:definitie "Kast ten behoeve van de regeling van radio- en televisiesignalen."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/typeringinrichtingselementplus/cai-kast"^^xsd:anyURI ;
     mim:naam "CAI-kast"@nl ;
-    dcterms:identifier "EAID_a515260a_3947_4e1a_b620_463e76919961" ;
+    dcterms:identifier "EAID_cb4827b4_7d3c_4c1c_ba99_9d74710ba798" ;
     skos:definition "Kast ten behoeve van de regeling van radio- en televisiesignalen."@nl ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/typeringinrichtingselementplus> ;
     skos:prefLabel "CAI-kast"@nl ;
@@ -685,7 +685,7 @@ weg."""@nl ;
     mim:definitie "Installatie voor de registratie van beelden van situaties, waarvan directe observatie moeilijk of niet permanent mogelijk is."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/typeringinrichtingselementplus/camera"^^xsd:anyURI ;
     mim:naam "camera"@nl ;
-    dcterms:identifier "EAID_d397bdde_c345_4204_bc66_7350354ab729" ;
+    dcterms:identifier "EAID_89e98ea4_95a3_4000_9307_7ea3db4d55fc" ;
     skos:definition "Installatie voor de registratie van beelden van situaties, waarvan directe observatie moeilijk of niet permanent mogelijk is."@nl ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/typeringinrichtingselementplus> ;
     skos:prefLabel "camera"@nl ;
@@ -698,7 +698,7 @@ weg."""@nl ;
     mim:definitie "Nagelvast met de grond verbonden inzamelmiddel voor afvalstoffen, doorgaans van metaal of kunststof waarin afvalstoffen worden verzameld, bewaard en waaruit deze afvalstoffen vervolgens worden overgeladen in een inzamelvoertuig."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/typeringinrichtingselementplus/container"^^xsd:anyURI ;
     mim:naam "container"@nl ;
-    dcterms:identifier "EAID_7efcd65f_0144_431d_9f88_953ad335ff49" ;
+    dcterms:identifier "EAID_446e8a91_7798_4783_a104_a96976c33e1c" ;
     skos:definition "Nagelvast met de grond verbonden inzamelmiddel voor afvalstoffen, doorgaans van metaal of kunststof waarin afvalstoffen worden verzameld, bewaard en waaruit deze afvalstoffen vervolgens worden overgeladen in een inzamelvoertuig."@nl ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/typeringinrichtingselementplus> ;
     skos:prefLabel "container"@nl ;
@@ -711,7 +711,7 @@ weg."""@nl ;
     mim:definitie "Een instrument dat de (afvoer)capaciteit van de volumestroom meet."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/typeringinrichtingselementplus/debietmeter"^^xsd:anyURI ;
     mim:naam "debietmeter"@nl ;
-    dcterms:identifier "EAID_e94e5cfe_f3be_4a6d_a6b1_d890580c94f5" ;
+    dcterms:identifier "EAID_a30783f2_4724_40da_862c_ea1c0eb9d290" ;
     skos:definition "Een instrument dat de (afvoer)capaciteit van de volumestroom meet."@nl ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/typeringinrichtingselementplus> ;
     skos:prefLabel "debietmeter"@nl ;
@@ -724,7 +724,7 @@ weg."""@nl ;
     mim:definitie "In de verharding opgenomen lusvormig onderdeel van een verkeersdetector."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/typeringinrichtingselementplus/detectielus"^^xsd:anyURI ;
     mim:naam "detectielus"@nl ;
-    dcterms:identifier "EAID_14c04ffd_5438_4bf2_89d2_63afa2d714f9" ;
+    dcterms:identifier "EAID_e0980f55_8f89_4f63_ab77_ecabb51641f2" ;
     skos:definition "In de verharding opgenomen lusvormig onderdeel van een verkeersdetector."@nl ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/typeringinrichtingselementplus> ;
     skos:prefLabel "detectielus"@nl ;
@@ -737,7 +737,7 @@ weg."""@nl ;
     mim:definitie "Een markant punt op de waterkering of op het strand dat dient als referentiepunt voor afstandsaanduidingen."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/typeringinrichtingselementplus/dijkpaal"^^xsd:anyURI ;
     mim:naam "dijkpaal"@nl ;
-    dcterms:identifier "EAID_095e5455_2022_4d17_b53b_33d30f24cfe6" ;
+    dcterms:identifier "EAID_e45c655e_1395_4c6d_91eb_f44bdf0451e8" ;
     skos:definition "Een markant punt op de waterkering of op het strand dat dient als referentiepunt voor afstandsaanduidingen."@nl ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/typeringinrichtingselementplus> ;
     skos:prefLabel "dijkpaal"@nl ;
@@ -750,7 +750,7 @@ weg."""@nl ;
     mim:definitie "Put welke toegang geeft naar een poreuze of geperforeerde buisleiding, aangebracht onder de grond om de afwatering van de grond te verbeteren."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/typeringinrichtingselementplus/drainageput"^^xsd:anyURI ;
     mim:naam "drainageput"@nl ;
-    dcterms:identifier "EAID_8db76913_3f2e_48ae_988b_d1a4b11c21ab" ;
+    dcterms:identifier "EAID_ec79a16e_19a6_4e88_a492_776e96474e92" ;
     skos:definition "Put welke toegang geeft naar een poreuze of geperforeerde buisleiding, aangebracht onder de grond om de afwatering van de grond te verbeteren."@nl ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/typeringinrichtingselementplus> ;
     skos:prefLabel "drainageput"@nl ;
@@ -763,7 +763,7 @@ weg."""@nl ;
     mim:definitie "Bak gevuld met water, waaruit vee of wild kan drinken."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/typeringinrichtingselementplus/drinkbak"^^xsd:anyURI ;
     mim:naam "drinkbak"@nl ;
-    dcterms:identifier "EAID_e2190894_bc33_4fa4_9e5e_573a87f419c8" ;
+    dcterms:identifier "EAID_9eb93d14_7f40_439d_922f_fc9fb8f6c936" ;
     skos:definition "Bak gevuld met water, waaruit vee of wild kan drinken."@nl ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/typeringinrichtingselementplus> ;
     skos:prefLabel "drinkbak"@nl ;
@@ -777,7 +777,7 @@ weg."""@nl ;
 verkeersdeelnemer zich meldt bij een verkeersregelinstallatie."""@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/typeringinrichtingselementplus/drukknoppaal"^^xsd:anyURI ;
     mim:naam "drukknoppaal"@nl ;
-    dcterms:identifier "EAID_7c0cc7c0_385a_44c0_814b_8f966a46df64" ;
+    dcterms:identifier "EAID_405d8548_d5c3_4f13_a051_aa05dd72294a" ;
     skos:definition """Paal met een lengte van ongeveer 1 m, met drukknop waarmee de 
 verkeersdeelnemer zich meldt bij een verkeersregelinstallatie."""@nl ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/typeringinrichtingselementplus> ;
@@ -791,7 +791,7 @@ verkeersdeelnemer zich meldt bij een verkeersregelinstallatie."""@nl ;
     mim:definitie "Een snelheidsinformatiebord dat in \"real time\" de snelheid van de weggebruikers aanduidt."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/typeringinrichtingselementplus/dynamische-snelheidsindicator"^^xsd:anyURI ;
     mim:naam "dynamische snelheidsindicator"@nl ;
-    dcterms:identifier "EAID_315cb08a_9e3e_4bc2_83d4_3140f7f5c19c" ;
+    dcterms:identifier "EAID_fcfffb3e_e9c6_459e_8ee2_e8db3e7868ce" ;
     skos:definition "Een snelheidsinformatiebord dat in \"real time\" de snelheid van de weggebruikers aanduidt."@nl ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/typeringinrichtingselementplus> ;
     skos:prefLabel "dynamische snelheidsindicator"@nl ;
@@ -804,7 +804,7 @@ verkeersdeelnemer zich meldt bij een verkeersregelinstallatie."""@nl ;
     mim:definitie "Kast ten behoeve van de regeling van het transport van elektriciteit."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/typeringinrichtingselementplus/elektrakast"^^xsd:anyURI ;
     mim:naam "elektrakast"@nl ;
-    dcterms:identifier "EAID_122091d5_cd5f_40ff_8cd7_eebfe3f5d64c" ;
+    dcterms:identifier "EAID_48f1354a_1a49_4419_b6df_e3c051751c16" ;
     skos:definition "Kast ten behoeve van de regeling van het transport van elektriciteit."@nl ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/typeringinrichtingselementplus> ;
     skos:prefLabel "elektrakast"@nl ;
@@ -817,7 +817,7 @@ verkeersdeelnemer zich meldt bij een verkeersregelinstallatie."""@nl ;
     mim:definitie "Een fietskluis is een kluis om een fiets in te bewaren, meestal ter voorkoming van diefstal of beschadiging."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/typeringinrichtingselementplus/fietsenkluis"^^xsd:anyURI ;
     mim:naam "fietsenkluis"@nl ;
-    dcterms:identifier "EAID_45dea018_91b7_42d3_850f_1a18c5e121e6" ;
+    dcterms:identifier "EAID_1a1aeaaa_2a7b_4572_8398_c9884dc45870" ;
     skos:definition "Een fietskluis is een kluis om een fiets in te bewaren, meestal ter voorkoming van diefstal of beschadiging."@nl ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/typeringinrichtingselementplus> ;
     skos:prefLabel "fietsenkluis"@nl ;
@@ -830,7 +830,7 @@ verkeersdeelnemer zich meldt bij een verkeersregelinstallatie."""@nl ;
     mim:definitie "Een duurzaam verankerd rek in de openbare ruimte voor het stallen van fietsen."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/typeringinrichtingselementplus/fietsenrek"^^xsd:anyURI ;
     mim:naam "fietsenrek"@nl ;
-    dcterms:identifier "EAID_7ae34192_954f_4688_a8e9_6fecdac772d3" ;
+    dcterms:identifier "EAID_f94c8311_49e8_45cc_b329_0c202d07f57b" ;
     skos:definition "Een duurzaam verankerd rek in de openbare ruimte voor het stallen van fietsen."@nl ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/typeringinrichtingselementplus> ;
     skos:prefLabel "fietsenrek"@nl ;
@@ -843,7 +843,7 @@ verkeersdeelnemer zich meldt bij een verkeersregelinstallatie."""@nl ;
     mim:definitie "Een flitser bevat een mechanisme om een snelheidsmeting uit te voeren om snelheidsovertredingen in het verkeer te kunnen vaststellen."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/typeringinrichtingselementplus/flitser"^^xsd:anyURI ;
     mim:naam "flitser"@nl ;
-    dcterms:identifier "EAID_9a34f637_6607_4f9a_96a6_d53f31a0a1ee" ;
+    dcterms:identifier "EAID_62fea5e0_bd10_444b_b6cd_c7064688630d" ;
     skos:definition "Een flitser bevat een mechanisme om een snelheidsmeting uit te voeren om snelheidsovertredingen in het verkeer te kunnen vaststellen."@nl ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/typeringinrichtingselementplus> ;
     skos:prefLabel "flitser"@nl ;
@@ -856,7 +856,7 @@ verkeersdeelnemer zich meldt bij een verkeersregelinstallatie."""@nl ;
     mim:definitie "Een fontein is een natuurlijke of kunstmatige installatie die water spuit."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/typeringinrichtingselementplus/fontein"^^xsd:anyURI ;
     mim:naam "fontein"@nl ;
-    dcterms:identifier "EAID_4a0682ae_1353_4b8e_a644_d60f4b50f87a" ;
+    dcterms:identifier "EAID_07735cf1_1d0d_43ed_9757_5af818eebbec" ;
     skos:definition "Een fontein is een natuurlijke of kunstmatige installatie die water spuit."@nl ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/typeringinrichtingselementplus> ;
     skos:prefLabel "fontein"@nl ;
@@ -869,7 +869,7 @@ verkeersdeelnemer zich meldt bij een verkeersregelinstallatie."""@nl ;
     mim:definitie "Kast ten behoeve van de regeling van het transport van gas."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/typeringinrichtingselementplus/gaskast"^^xsd:anyURI ;
     mim:naam "gaskast"@nl ;
-    dcterms:identifier "EAID_95edb7be_e687_45c6_ad13_dd87676afcc1" ;
+    dcterms:identifier "EAID_5da3d89e_1255_47b6_8981_5b378d161933" ;
     skos:definition "Kast ten behoeve van de regeling van het transport van gas."@nl ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/typeringinrichtingselementplus> ;
     skos:prefLabel "gaskast"@nl ;
@@ -882,7 +882,7 @@ verkeersdeelnemer zich meldt bij een verkeersregelinstallatie."""@nl ;
     mim:definitie "Put met afsluitkraan ten behoeve van het ondergrondse leidingenstelsel voor gastransport."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/typeringinrichtingselementplus/gasput"^^xsd:anyURI ;
     mim:naam "gasput"@nl ;
-    dcterms:identifier "EAID_148faac5_13cf_4762_8138_ade3bc74c917" ;
+    dcterms:identifier "EAID_463ea8b9_63f1_489a_b487_58855c068a4d" ;
     skos:definition "Put met afsluitkraan ten behoeve van het ondergrondse leidingenstelsel voor gastransport."@nl ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/typeringinrichtingselementplus> ;
     skos:prefLabel "gasput"@nl ;
@@ -895,7 +895,7 @@ verkeersdeelnemer zich meldt bij een verkeersregelinstallatie."""@nl ;
     mim:definitie "Bermbeveiligingsconstructie bedoeld voor fysieke geleiding van voertuigen die uit de koers zijn geraakt."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/typeringinrichtingselementplus/geleideconstructie"^^xsd:anyURI ;
     mim:naam "geleideconstructie"@nl ;
-    dcterms:identifier "EAID_8f177350_f573_4443_8a3e_48b16c98ac2c" ;
+    dcterms:identifier "EAID_fcf76588_2ad2_419d_a6c1_214ab5515bc2" ;
     skos:definition "Bermbeveiligingsconstructie bedoeld voor fysieke geleiding van voertuigen die uit de koers zijn geraakt."@nl ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/typeringinrichtingselementplus> ;
     skos:prefLabel "geleideconstructie"@nl ;
@@ -908,7 +908,7 @@ verkeersdeelnemer zich meldt bij een verkeersregelinstallatie."""@nl ;
     mim:definitie "Fuikvormige constructie aansluitend aan het hoofd van een kunstwerk voor het geven van mechanische en visuele geleiding tijdens het invaren van dat kunstwerk."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/typeringinrichtingselementplus/geleidewerk"^^xsd:anyURI ;
     mim:naam "geleidewerk"@nl ;
-    dcterms:identifier "EAID_5649cbc5_0e27_41a4_81b4_0d98779b50bb" ;
+    dcterms:identifier "EAID_37265758_b03c_4f4c_9861_58e5528e090b" ;
     skos:definition "Fuikvormige constructie aansluitend aan het hoofd van een kunstwerk voor het geven van mechanische en visuele geleiding tijdens het invaren van dat kunstwerk."@nl ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/typeringinrichtingselementplus> ;
     skos:prefLabel "geleidewerk"@nl ;
@@ -921,7 +921,7 @@ verkeersdeelnemer zich meldt bij een verkeersregelinstallatie."""@nl ;
     mim:definitie "Kast ten behoeve van het meten van weers- en wegdekomstandigheden."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/typeringinrichtingselementplus/gms-kast"^^xsd:anyURI ;
     mim:naam "GMS kast"@nl ;
-    dcterms:identifier "EAID_416e00f1_98d6_4a86_b06e_1226e7fc08b6" ;
+    dcterms:identifier "EAID_7055ff24_b0cd_4d85_bbd8_6d55271949cb" ;
     skos:definition "Kast ten behoeve van het meten van weers- en wegdekomstandigheden."@nl ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/typeringinrichtingselementplus> ;
     skos:prefLabel "GMS kast"@nl ;
@@ -935,7 +935,7 @@ verkeersdeelnemer zich meldt bij een verkeersregelinstallatie."""@nl ;
 hand van meting en interpretatie van de parameters die een rol spelen bij het ontstaan van gladheid."""@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/typeringinrichtingselementplus/gms-sensor"^^xsd:anyURI ;
     mim:naam "GMS sensor"@nl ;
-    dcterms:identifier "EAID_29d635ce_6c13_4bc8_828f_833b19a877a9" ;
+    dcterms:identifier "EAID_f4ffddf4_1beb_46c7_9053_a500676aeb77" ;
     skos:definition """Gladheidsmeldsysteem (GMS) waarmee de kans op gladheid wordt voorspeld aan de 
 hand van meting en interpretatie van de parameters die een rol spelen bij het ontstaan van gladheid."""@nl ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/typeringinrichtingselementplus> ;
@@ -949,7 +949,7 @@ hand van meting en interpretatie van de parameters die een rol spelen bij het on
     mim:definitie "Paal ter afbakening van een grens."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/typeringinrichtingselementplus/grensmarkering"^^xsd:anyURI ;
     mim:naam "grensmarkering"@nl ;
-    dcterms:identifier "EAID_fe1bec62_bc2b_42fa_a821_77c765361fa1" ;
+    dcterms:identifier "EAID_163f2723_95a8_473e_93c8_3daee6cfbb80" ;
     skos:definition "Paal ter afbakening van een grens."@nl ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/typeringinrichtingselementplus> ;
     skos:prefLabel "grensmarkering"@nl ;
@@ -962,7 +962,7 @@ hand van meting en interpretatie van de parameters die een rol spelen bij het on
     mim:definitie "Paal met daarop de dienstregeling ten behoeve van het openbaar vervoer."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/typeringinrichtingselementplus/haltepaal"^^xsd:anyURI ;
     mim:naam "haltepaal"@nl ;
-    dcterms:identifier "EAID_353a5768_7dfe_45a2_9c54_79ef8a4ac6b4" ;
+    dcterms:identifier "EAID_bb0361ca_ce66_4687_930e_26349f58a3bf" ;
     skos:definition "Paal met daarop de dienstregeling ten behoeve van het openbaar vervoer."@nl ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/typeringinrichtingselementplus> ;
     skos:prefLabel "haltepaal"@nl ;
@@ -975,7 +975,7 @@ hand van meting en interpretatie van de parameters die een rol spelen bij het on
     mim:definitie "Paaltje of bordje geplaatst langs de weg, waarop een hectometerwaarde (weg) of kilometrering (vaarweg) is vermeld eventueel gevolgd door een letter."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/typeringinrichtingselementplus/hectometerpaal"^^xsd:anyURI ;
     mim:naam "hectometerpaal"@nl ;
-    dcterms:identifier "EAID_3770e614_2687_42dd_afb0_238ea164edef" ;
+    dcterms:identifier "EAID_4ab4ebbb_4e69_462c_bb1b_a22ef22584e1" ;
     skos:definition "Paaltje of bordje geplaatst langs de weg, waarop een hectometerwaarde (weg) of kilometrering (vaarweg) is vermeld eventueel gevolgd door een letter."@nl ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/typeringinrichtingselementplus> ;
     skos:prefLabel "hectometerpaal"@nl ;
@@ -988,7 +988,7 @@ hand van meting en interpretatie van de parameters die een rol spelen bij het on
     mim:definitie "Langs de weg of elders in het terrein aangelegd object ter herdenking van personen of evenementen."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/typeringinrichtingselementplus/herdenkingsmonument"^^xsd:anyURI ;
     mim:naam "herdenkingsmonument"@nl ;
-    dcterms:identifier "EAID_9cd29a29_f40c_404f_b4f3_e5d14e9241bd" ;
+    dcterms:identifier "EAID_667199ad_23b1_4d60_89bc_6e69afa4e36e" ;
     skos:definition "Langs de weg of elders in het terrein aangelegd object ter herdenking van personen of evenementen."@nl ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/typeringinrichtingselementplus> ;
     skos:prefLabel "herdenkingsmonument"@nl ;
@@ -1001,7 +1001,7 @@ hand van meting en interpretatie van de parameters die een rol spelen bij het on
     mim:definitie "Een mechanisch of elektronisch waarschuwingssysteem, dat in werking treedt bij overschrijding van de aangegeven maximale doorrijhoogte."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/typeringinrichtingselementplus/hoogtedetectieapparaat"^^xsd:anyURI ;
     mim:naam "hoogtedetectieapparaat"@nl ;
-    dcterms:identifier "EAID_a550c05c_591f_49bd_83cd_7a645c0d7b4f" ;
+    dcterms:identifier "EAID_e6cd3d26_2b3a_40ba_b463_f8b6e11ec577" ;
     skos:definition "Een mechanisch of elektronisch waarschuwingssysteem, dat in werking treedt bij overschrijding van de aangegeven maximale doorrijhoogte."@nl ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/typeringinrichtingselementplus> ;
     skos:prefLabel "hoogtedetectieapparaat"@nl ;
@@ -1014,7 +1014,7 @@ hand van meting en interpretatie van de parameters die een rol spelen bij het on
     mim:definitie "Relatief permanent merk, natuurlijk of kunstmatig, met daarin een punt met een bekende hoogte ten opzichte van een bepaald referentievlak."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/typeringinrichtingselementplus/hoogtemerk"^^xsd:anyURI ;
     mim:naam "hoogtemerk"@nl ;
-    dcterms:identifier "EAID_f7e793bc_de27_496d_b5cd_f83b4f42d8d8" ;
+    dcterms:identifier "EAID_d2a5fc2f_11c1_43cd_bed5_aa8769094497" ;
     skos:definition "Relatief permanent merk, natuurlijk of kunstmatig, met daarin een punt met een bekende hoogte ten opzichte van een bepaald referentievlak."@nl ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/typeringinrichtingselementplus> ;
     skos:prefLabel "hoogtemerk"@nl ;
@@ -1028,7 +1028,7 @@ hand van meting en interpretatie van de parameters die een rol spelen bij het on
 vertrektijden."""@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/typeringinrichtingselementplus/informatiebord"^^xsd:anyURI ;
     mim:naam "informatiebord"@nl ;
-    dcterms:identifier "EAID_7fe9b823_bfb4_4909_90e4_42fc846eaa26" ;
+    dcterms:identifier "EAID_a619c2bc_3918_44a8_bf01_19e6ef1eaf16" ;
     skos:definition """Een bord met daarop specifieke actuele informatie, zoals plattegronden of 
 vertrektijden."""@nl ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/typeringinrichtingselementplus> ;
@@ -1042,7 +1042,7 @@ vertrektijden."""@nl ;
     mim:definitie "Put die toegang geeft tot een (riool)leiding."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/typeringinrichtingselementplus/inspectie-rioolput"^^xsd:anyURI ;
     mim:naam "inspectie- / rioolput"@nl ;
-    dcterms:identifier "EAID_f2d7b7c7_0a34_491b_aebe_f4a8037586d0" ;
+    dcterms:identifier "EAID_c5949818_5819_4a12_856a_4ed69abcb9da" ;
     skos:definition "Put die toegang geeft tot een (riool)leiding."@nl ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/typeringinrichtingselementplus> ;
     skos:prefLabel "inspectie- / rioolput"@nl ;
@@ -1055,7 +1055,7 @@ vertrektijden."""@nl ;
     mim:definitie "Op het riool aangesloten voorziening voor de opvang van hemel- en afvalwater afkomstig van erop aangesloten oppervlakken."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/typeringinrichtingselementplus/kolk"^^xsd:anyURI ;
     mim:naam "kolk"@nl ;
-    dcterms:identifier "EAID_8744a72d_3d70_4d70_9122_00d5d84028d1" ;
+    dcterms:identifier "EAID_c264f48e_8b3b_4cfa_a697_ce1e6fc57965" ;
     skos:definition "Op het riool aangesloten voorziening voor de opvang van hemel- en afvalwater afkomstig van erop aangesloten oppervlakken."@nl ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/typeringinrichtingselementplus> ;
     skos:prefLabel "kolk"@nl ;
@@ -1068,7 +1068,7 @@ vertrektijden."""@nl ;
     mim:definitie "Een object dat als kunst gezien wordt en een bepaalde schoonheid heeft, niet door de natuur gemaakt."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/typeringinrichtingselementplus/kunstobject"^^xsd:anyURI ;
     mim:naam "kunstobject"@nl ;
-    dcterms:identifier "EAID_ef284a18_2d2f_44ca_a99f_3daa37d4c3fe" ;
+    dcterms:identifier "EAID_3a5a7de0_c1a1_4752_a528_bdf26356dba8" ;
     skos:definition "Een object dat als kunst gezien wordt en een bepaalde schoonheid heeft, niet door de natuur gemaakt."@nl ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/typeringinrichtingselementplus> ;
     skos:prefLabel "kunstobject"@nl ;
@@ -1081,7 +1081,7 @@ vertrektijden."""@nl ;
     mim:definitie "Houten of metalen mast waaraan kabels voor het transport van elektrische energie met een spanning lager dan 500 V zijn bevestigd."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/typeringinrichtingselementplus/laagspanningsmast"^^xsd:anyURI ;
     mim:naam "laagspanningsmast"@nl ;
-    dcterms:identifier "EAID_6cdda517_7c96_4a2e_af32_2f6840b6044d" ;
+    dcterms:identifier "EAID_b610566b_b610_4452_8cf1_d279acee4768" ;
     skos:definition "Houten of metalen mast waaraan kabels voor het transport van elektrische energie met een spanning lager dan 500 V zijn bevestigd."@nl ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/typeringinrichtingselementplus> ;
     skos:prefLabel "laagspanningsmast"@nl ;
@@ -1095,7 +1095,7 @@ vertrektijden."""@nl ;
 omgeschakeld wordt (dimmen) wanneer de situatie dit toelaat."""@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/typeringinrichtingselementplus/lichtcel"^^xsd:anyURI ;
     mim:naam "lichtcel"@nl ;
-    dcterms:identifier "EAID_f1dec3f3_7759_441d_b35c_35da2b0ecaf3" ;
+    dcterms:identifier "EAID_eddc1a0a_9af0_40ab_ac6e_0070aa51f4f6" ;
     skos:definition """Lichtcel waarmee het verlichtingsniveau naar een lager verlichtingsniveau 
 omgeschakeld wordt (dimmen) wanneer de situatie dit toelaat."""@nl ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/typeringinrichtingselementplus> ;
@@ -1109,7 +1109,7 @@ omgeschakeld wordt (dimmen) wanneer de situatie dit toelaat."""@nl ;
     mim:definitie "Mast bestemd voor het dragen van een of meer verlichtingsarmaturen."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/typeringinrichtingselementplus/lichtmast"^^xsd:anyURI ;
     mim:naam "lichtmast"@nl ;
-    dcterms:identifier "EAID_19fb60db_7dda_4cf7_b2fc_4264c3fec068" ;
+    dcterms:identifier "EAID_d4e36392_8073_453d_b388_5bd7e78fd836" ;
     skos:definition "Mast bestemd voor het dragen van een of meer verlichtingsarmaturen."@nl ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/typeringinrichtingselementplus> ;
     skos:prefLabel "lichtmast"@nl ;
@@ -1122,7 +1122,7 @@ omgeschakeld wordt (dimmen) wanneer de situatie dit toelaat."""@nl ;
     mim:definitie "Een lichtpunt is een lamp die licht uitzendt niet verbonden met een mast die het maaiveld raakt."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/typeringinrichtingselementplus/lichtpunt"^^xsd:anyURI ;
     mim:naam "lichtpunt"@nl ;
-    dcterms:identifier "EAID_d426bdac_d25b_4d2f_b6d6_80c2416e143f" ;
+    dcterms:identifier "EAID_2d4bf7c0_4816_4b8e_99e2_28e0fb075b66" ;
     skos:definition "Een lichtpunt is een lamp die licht uitzendt niet verbonden met een mast die het maaiveld raakt."@nl ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/typeringinrichtingselementplus> ;
     skos:prefLabel "lichtpunt"@nl ;
@@ -1135,7 +1135,7 @@ omgeschakeld wordt (dimmen) wanneer de situatie dit toelaat."""@nl ;
     mim:definitie "Goot in de lengterichting van de verharding, niet zijnde molgoot. Bijvoorbeeld roostergoot en verholen goot."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/typeringinrichtingselementplus/lijnafwatering"^^xsd:anyURI ;
     mim:naam "lijnafwatering"@nl ;
-    dcterms:identifier "EAID_e6ee2120_b30f_4521_9120_68e6f4edafd5" ;
+    dcterms:identifier "EAID_476b31ce_bc1b_4454_bb2c_fa4a43f00cc6" ;
     skos:definition "Goot in de lengterichting van de verharding, niet zijnde molgoot. Bijvoorbeeld roostergoot en verholen goot."@nl ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/typeringinrichtingselementplus> ;
     skos:prefLabel "lijnafwatering"@nl ;
@@ -1148,7 +1148,7 @@ omgeschakeld wordt (dimmen) wanneer de situatie dit toelaat."""@nl ;
     mim:definitie "Paal voor een kade of in een haven waaraan een schip kan worden afgemeerd."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/typeringinrichtingselementplus/meerpaal"^^xsd:anyURI ;
     mim:naam "meerpaal"@nl ;
-    dcterms:identifier "EAID_ed6257e0_679a_4a62_ae73_9a65bcf6554b" ;
+    dcterms:identifier "EAID_55020ec9_96d8_4175_b17b_46036f2a2a9a" ;
     skos:definition "Paal voor een kade of in een haven waaraan een schip kan worden afgemeerd."@nl ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/typeringinrichtingselementplus> ;
     skos:prefLabel "meerpaal"@nl ;
@@ -1161,7 +1161,7 @@ omgeschakeld wordt (dimmen) wanneer de situatie dit toelaat."""@nl ;
     mim:definitie "Smalle goot (lijngeometrie) in de lengterichting van de verharding, met veelal een cirkelsegment als dwarsprofiel."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/typeringinrichtingselementplus/molgoot"^^xsd:anyURI ;
     mim:naam "molgoot"@nl ;
-    dcterms:identifier "EAID_0a030779_26cd_4e13_885f_436328b8ab89" ;
+    dcterms:identifier "EAID_110c71c8_756f_4b5a_9f55_6a16fc283224" ;
     skos:definition "Smalle goot (lijngeometrie) in de lengterichting van de verharding, met veelal een cirkelsegment als dwarsprofiel."@nl ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/typeringinrichtingselementplus> ;
     skos:prefLabel "molgoot"@nl ;
@@ -1174,7 +1174,7 @@ omgeschakeld wordt (dimmen) wanneer de situatie dit toelaat."""@nl ;
     mim:definitie "Voor mensen bedoeld toilet niet zijnde een pand, langs de openbare weg."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/typeringinrichtingselementplus/openbaar-toilet"^^xsd:anyURI ;
     mim:naam "openbaar toilet"@nl ;
-    dcterms:identifier "EAID_426cfea7_46b6_4ab5_84f0_5e1eb6ceffda" ;
+    dcterms:identifier "EAID_d0402310_87be_433c_b015_1ba9d899a1ec" ;
     skos:definition "Voor mensen bedoeld toilet niet zijnde een pand, langs de openbare weg."@nl ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/typeringinrichtingselementplus> ;
     skos:prefLabel "openbaar toilet"@nl ;
@@ -1187,7 +1187,7 @@ omgeschakeld wordt (dimmen) wanneer de situatie dit toelaat."""@nl ;
     mim:definitie "Kast ten behoeve van de regeling van de openbare verlichting."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/typeringinrichtingselementplus/openbare-verlichtingskast"^^xsd:anyURI ;
     mim:naam "openbare verlichtingskast"@nl ;
-    dcterms:identifier "EAID_49e2314a_365e_4f15_b640_a219538f6f1f" ;
+    dcterms:identifier "EAID_c6888ffe_924f_4d3a_95d3_ecac4435d2f2" ;
     skos:definition "Kast ten behoeve van de regeling van de openbare verlichting."@nl ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/typeringinrichtingselementplus> ;
     skos:prefLabel "openbare verlichtingskast"@nl ;
@@ -1200,7 +1200,7 @@ omgeschakeld wordt (dimmen) wanneer de situatie dit toelaat."""@nl ;
     mim:definitie "Een omklapbare beugel voor het afschermen van een parkeerplaats."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/typeringinrichtingselementplus/parkeerbeugel"^^xsd:anyURI ;
     mim:naam "parkeerbeugel"@nl ;
-    dcterms:identifier "EAID_130caf76_1943_4c24_b2f2_815763995fbf" ;
+    dcterms:identifier "EAID_67ca3e56_a655_4a39_bd63_59101792d208" ;
     skos:definition "Een omklapbare beugel voor het afschermen van een parkeerplaats."@nl ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/typeringinrichtingselementplus> ;
     skos:prefLabel "parkeerbeugel"@nl ;
@@ -1213,7 +1213,7 @@ omgeschakeld wordt (dimmen) wanneer de situatie dit toelaat."""@nl ;
     mim:definitie "Een `picknicktafel` is een tafel met vaak daaraan gemonteerde zitbanken of stoelen die kan gebruikt worden om te picknicken."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/typeringinrichtingselementplus/picknicktafel"^^xsd:anyURI ;
     mim:naam "picknicktafel"@nl ;
-    dcterms:identifier "EAID_2cb7dad9_f048_47fa_9ed2_3cd91473bc1e" ;
+    dcterms:identifier "EAID_f889dbd1_515c_484a_8869_dad6dfefe8a7" ;
     skos:definition "Een `picknicktafel` is een tafel met vaak daaraan gemonteerde zitbanken of stoelen die kan gebruikt worden om te picknicken."@nl ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/typeringinrichtingselementplus> ;
     skos:prefLabel "picknicktafel"@nl ;
@@ -1226,7 +1226,7 @@ omgeschakeld wordt (dimmen) wanneer de situatie dit toelaat."""@nl ;
     mim:definitie "Een bord waarop een naam van een (woon)plaats of locatie is vermeld."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/typeringinrichtingselementplus/plaatsnaambord"^^xsd:anyURI ;
     mim:naam "plaatsnaambord"@nl ;
-    dcterms:identifier "EAID_6bdd83df_8f19_47c4_a7f4_27517d509204" ;
+    dcterms:identifier "EAID_0ba97d61_fc73_49d4_9c77_39d9e73b1996" ;
     skos:definition "Een bord waarop een naam van een (woon)plaats of locatie is vermeld."@nl ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/typeringinrichtingselementplus> ;
     skos:prefLabel "plaatsnaambord"@nl ;
@@ -1239,7 +1239,7 @@ omgeschakeld wordt (dimmen) wanneer de situatie dit toelaat."""@nl ;
     mim:definitie "Een poller of inzinkbare paal is een paal die door een elektrische of hydraulische aandrijving uit een wegdek omhoog wordt gestuurd en die dient om het autoverkeer te reguleren."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/typeringinrichtingselementplus/poller"^^xsd:anyURI ;
     mim:naam "poller"@nl ;
-    dcterms:identifier "EAID_3f06d81c_bc21_41d3_8f4a_4d7f075858c0" ;
+    dcterms:identifier "EAID_0a2e16dd_0c77_4e63_a32d_c5e1a6241cd7" ;
     skos:definition "Een poller of inzinkbare paal is een paal die door een elektrische of hydraulische aandrijving uit een wegdek omhoog wordt gestuurd en die dient om het autoverkeer te reguleren."@nl ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/typeringinrichtingselementplus> ;
     skos:prefLabel "poller"@nl ;
@@ -1252,7 +1252,7 @@ omgeschakeld wordt (dimmen) wanneer de situatie dit toelaat."""@nl ;
     mim:definitie "Werktuig dat door middel van een verschil in druk vloeistoffen of gassen verplaatst."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/typeringinrichtingselementplus/pomp"^^xsd:anyURI ;
     mim:naam "pomp"@nl ;
-    dcterms:identifier "EAID_2126ecd2_5f2a_4bff_a744_35e34af8159b" ;
+    dcterms:identifier "EAID_4ea95562_7430_47dd_b900_c9e1b8991fb8" ;
     skos:definition "Werktuig dat door middel van een verschil in druk vloeistoffen of gassen verplaatst."@nl ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/typeringinrichtingselementplus> ;
     skos:prefLabel "pomp"@nl ;
@@ -1265,7 +1265,7 @@ omgeschakeld wordt (dimmen) wanneer de situatie dit toelaat."""@nl ;
     mim:definitie "Geheel van twee of meer ondersteuningsconstructies die door een ligger zijn verbonden, bedoelt voor het aanbrengen van verkeersaanduidingen."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/typeringinrichtingselementplus/portaal"^^xsd:anyURI ;
     mim:naam "portaal"@nl ;
-    dcterms:identifier "EAID_28c7627c_ad97_44a2_ac16_cb6b1b039d6c" ;
+    dcterms:identifier "EAID_80c4f978_16f0_4eb5_8bfd_d23d3817d99f" ;
     skos:definition "Geheel van twee of meer ondersteuningsconstructies die door een ligger zijn verbonden, bedoelt voor het aanbrengen van verkeersaanduidingen."@nl ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/typeringinrichtingselementplus> ;
     skos:prefLabel "portaal"@nl ;
@@ -1278,7 +1278,7 @@ omgeschakeld wordt (dimmen) wanneer de situatie dit toelaat."""@nl ;
     mim:definitie "Stalen of kunststof paal langs verkeerswegen welke bedoeld is telefonisch contact te leggen met een centrale meldkamer"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/typeringinrichtingselementplus/praatpaal"^^xsd:anyURI ;
     mim:naam "praatpaal"@nl ;
-    dcterms:identifier "EAID_ef4a91e8_4b69_4f4d_984c_f2b47907323c" ;
+    dcterms:identifier "EAID_62af8232_12db_4378_82ff_81f9dc480f76" ;
     skos:definition "Stalen of kunststof paal langs verkeerswegen welke bedoeld is telefonisch contact te leggen met een centrale meldkamer"@nl ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/typeringinrichtingselementplus> ;
     skos:prefLabel "praatpaal"@nl ;
@@ -1291,7 +1291,7 @@ omgeschakeld wordt (dimmen) wanneer de situatie dit toelaat."""@nl ;
     mim:definitie "Met een radardetector wordt het verkeer gedetecteerd, bijvoorbeeld voor het beïnvloeden van verkeerslichten."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/typeringinrichtingselementplus/radar-detector"^^xsd:anyURI ;
     mim:naam "radar detector"@nl ;
-    dcterms:identifier "EAID_7c67350f_7747_4840_9e5e_f74415612daa" ;
+    dcterms:identifier "EAID_e228b007_3995_4225_9ffe_c510672e909f" ;
     skos:definition "Met een radardetector wordt het verkeer gedetecteerd, bijvoorbeeld voor het beïnvloeden van verkeerslichten."@nl ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/typeringinrichtingselementplus> ;
     skos:prefLabel "radar detector"@nl ;
@@ -1304,7 +1304,7 @@ omgeschakeld wordt (dimmen) wanneer de situatie dit toelaat."""@nl ;
     mim:definitie "Vaste of neerklapbare constructie waarop de radarantenne bevestigd is."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/typeringinrichtingselementplus/radarmast"^^xsd:anyURI ;
     mim:naam "radarmast"@nl ;
-    dcterms:identifier "EAID_da69e827_6c96_459b_b322_0c6c79412c3d" ;
+    dcterms:identifier "EAID_c44d5e21_e197_4d79_836d_f8df7870a73e" ;
     skos:definition "Vaste of neerklapbare constructie waarop de radarantenne bevestigd is."@nl ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/typeringinrichtingselementplus> ;
     skos:prefLabel "radarmast"@nl ;
@@ -1317,7 +1317,7 @@ omgeschakeld wordt (dimmen) wanneer de situatie dit toelaat."""@nl ;
     mim:definitie "Vrijstaand bord/zuil waarop rondom of aan één of meer zijden affiches kunnen worden (of zijn) geplakt."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/typeringinrichtingselementplus/reclamebord"^^xsd:anyURI ;
     mim:naam "reclamebord"@nl ;
-    dcterms:identifier "EAID_e0a52c1d_59b1_4641_a77f_47aed8d17087" ;
+    dcterms:identifier "EAID_921bd658_4d76_4e6d_b3d8_a432f59af6d9" ;
     skos:definition "Vrijstaand bord/zuil waarop rondom of aan één of meer zijden affiches kunnen worden (of zijn) geplakt."@nl ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/typeringinrichtingselementplus> ;
     skos:prefLabel "reclamebord"@nl ;
@@ -1330,7 +1330,7 @@ omgeschakeld wordt (dimmen) wanneer de situatie dit toelaat."""@nl ;
     mim:definitie "Vrijstaand bord/zuil waarop rondom of aan één of meer zijden affiches kunnen worden (of zijn) geplakt."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/typeringinrichtingselementplus/reclamezuil"^^xsd:anyURI ;
     mim:naam "reclamezuil"@nl ;
-    dcterms:identifier "EAID_91c0f0a6_508e_432b_b933_fa60ac63c171" ;
+    dcterms:identifier "EAID_ae40cbb8_f683_433f_a71c_b52b21b95dc2" ;
     skos:definition "Vrijstaand bord/zuil waarop rondom of aan één of meer zijden affiches kunnen worden (of zijn) geplakt."@nl ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/typeringinrichtingselementplus> ;
     skos:prefLabel "reclamezuil"@nl ;
@@ -1343,7 +1343,7 @@ omgeschakeld wordt (dimmen) wanneer de situatie dit toelaat."""@nl ;
     mim:definitie "Constructie langs de opstelruimte en wachtruimte bedoeld voor het afmeren van schepen."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/typeringinrichtingselementplus/remmingswerk"^^xsd:anyURI ;
     mim:naam "remmingswerk"@nl ;
-    dcterms:identifier "EAID_9766dc72_15c9_43b8_b86b_12c9421f88f2" ;
+    dcterms:identifier "EAID_a0fc2f10_e149_4b7f_8bd7_33db675e1063" ;
     skos:definition "Constructie langs de opstelruimte en wachtruimte bedoeld voor het afmeren van schepen."@nl ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/typeringinrichtingselementplus> ;
     skos:prefLabel "remmingswerk"@nl ;
@@ -1356,7 +1356,7 @@ omgeschakeld wordt (dimmen) wanneer de situatie dit toelaat."""@nl ;
     mim:definitie "Kast ten behoeve van de regeling van het transport van rioolwater."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/typeringinrichtingselementplus/rioolkast"^^xsd:anyURI ;
     mim:naam "rioolkast"@nl ;
-    dcterms:identifier "EAID_34f27bbd_8432_4ca0_a159_76ad7ea358ab" ;
+    dcterms:identifier "EAID_4a9d441c_00b9_44f3_a094_61c61f27b700" ;
     skos:definition "Kast ten behoeve van de regeling van het transport van rioolwater."@nl ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/typeringinrichtingselementplus> ;
     skos:prefLabel "rioolkast"@nl ;
@@ -1369,7 +1369,7 @@ omgeschakeld wordt (dimmen) wanneer de situatie dit toelaat."""@nl ;
     mim:definitie "Bord waarop een scheepvaartteken is aangebracht en waarvan de uitvoering als richtlijn is voorgeschreven volgens 'Richtlijnen Scheepvaarttekens'."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/typeringinrichtingselementplus/scheepvaartbord"^^xsd:anyURI ;
     mim:naam "scheepvaartbord"@nl ;
-    dcterms:identifier "EAID_e9fd3a36_40a6_4cdf_8452_42261d05080b" ;
+    dcterms:identifier "EAID_9a35f9fd_80a6_4d5b_9565_84b8d00dfdc0" ;
     skos:definition "Bord waarop een scheepvaartteken is aangebracht en waarvan de uitvoering als richtlijn is voorgeschreven volgens 'Richtlijnen Scheepvaarttekens'."@nl ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/typeringinrichtingselementplus> ;
     skos:prefLabel "scheepvaartbord"@nl ;
@@ -1382,7 +1382,7 @@ omgeschakeld wordt (dimmen) wanneer de situatie dit toelaat."""@nl ;
     mim:definitie "Een apparaat dat geluiden van variabele toonhoogte kan voortbrengen met als functie waarschuwingsdoeleinden."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/typeringinrichtingselementplus/sirene"^^xsd:anyURI ;
     mim:naam "sirene"@nl ;
-    dcterms:identifier "EAID_f778444e_79fd_44ba_a631_f2a861bfc588" ;
+    dcterms:identifier "EAID_1e5a1a0a_e020_4d2a_81d4_fd87da1d3461" ;
     skos:definition "Een apparaat dat geluiden van variabele toonhoogte kan voortbrengen met als functie waarschuwingsdoeleinden."@nl ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/typeringinrichtingselementplus> ;
     skos:prefLabel "sirene"@nl ;
@@ -1395,7 +1395,7 @@ omgeschakeld wordt (dimmen) wanneer de situatie dit toelaat."""@nl ;
     mim:definitie "Boom of balk om de weg of een gedeelte hiervan af te sluiten."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/typeringinrichtingselementplus/slagboom"^^xsd:anyURI ;
     mim:naam "slagboom"@nl ;
-    dcterms:identifier "EAID_dd1979c2_913e_49c2_a186_f3f2ac733795" ;
+    dcterms:identifier "EAID_8cb30fcf_0346_4376_aff0_79b5ed59d6c2" ;
     skos:definition "Boom of balk om de weg of een gedeelte hiervan af te sluiten."@nl ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/typeringinrichtingselementplus> ;
     skos:prefLabel "slagboom"@nl ;
@@ -1408,7 +1408,7 @@ omgeschakeld wordt (dimmen) wanneer de situatie dit toelaat."""@nl ;
     mim:definitie "Aard en nagelvast met de grond verbonden constructie in de openbare ruimte, bedoeld als speelmateriaal voor kinderen."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/typeringinrichtingselementplus/speelvoorziening"^^xsd:anyURI ;
     mim:naam "speelvoorziening"@nl ;
-    dcterms:identifier "EAID_83d29059_627c_4551_a3d3_34afa1c3935b" ;
+    dcterms:identifier "EAID_9e791cc1_4b31_48a5_87ab_bc55f6dd4969" ;
     skos:definition "Aard en nagelvast met de grond verbonden constructie in de openbare ruimte, bedoeld als speelmateriaal voor kinderen."@nl ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/typeringinrichtingselementplus> ;
     skos:prefLabel "speelvoorziening"@nl ;
@@ -1422,7 +1422,7 @@ omgeschakeld wordt (dimmen) wanneer de situatie dit toelaat."""@nl ;
 stralenbundels uitzendt."""@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/typeringinrichtingselementplus/straalzender"^^xsd:anyURI ;
     mim:naam "straalzender"@nl ;
-    dcterms:identifier "EAID_ea3cce78_c8e6_4c44_ad5f_f85c1412ed34" ;
+    dcterms:identifier "EAID_4174e84a_9c29_48db_b48e_b16479e3bed3" ;
     skos:definition """Zender voor radio, televisie en telecommunicatie signalen die in smalle 
 stralenbundels uitzendt."""@nl ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/typeringinrichtingselementplus> ;
@@ -1437,7 +1437,7 @@ stralenbundels uitzendt."""@nl ;
 Bord kan zich op een paal of aan de gevel bevinden."""@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/typeringinrichtingselementplus/straatnaambord"^^xsd:anyURI ;
     mim:naam "straatnaambord"@nl ;
-    dcterms:identifier "EAID_a0cdbcaf_b756_43b6_aa75_d3caf5bb20e5" ;
+    dcterms:identifier "EAID_869a4d6a_fdca_40b4_83e7_8800a8a1a150" ;
     skos:definition """Bord waarop de door de gemeente vastgestelde naam van de straat is vermeld. 
 Bord kan zich op een paal of aan de gevel bevinden."""@nl ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/typeringinrichtingselementplus> ;
@@ -1451,7 +1451,7 @@ Bord kan zich op een paal of aan de gevel bevinden."""@nl ;
     mim:definitie "Kast ten behoeve van de regeling van telecommunicatie."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/typeringinrichtingselementplus/telecom-kast"^^xsd:anyURI ;
     mim:naam "telecom kast"@nl ;
-    dcterms:identifier "EAID_aa9b15a2_82c0_407a_9efe_cb898b6facc1" ;
+    dcterms:identifier "EAID_f7523a70_32d2_4f0e_b586_841f77b529f6" ;
     skos:definition "Kast ten behoeve van de regeling van telecommunicatie."@nl ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/typeringinrichtingselementplus> ;
     skos:prefLabel "telecom kast"@nl ;
@@ -1464,7 +1464,7 @@ Bord kan zich op een paal of aan de gevel bevinden."""@nl ;
     mim:definitie "Niet-inpandige ruimte in openbaar gebied louter bestemd voor telefoneren."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/typeringinrichtingselementplus/telefooncel"^^xsd:anyURI ;
     mim:naam "telefooncel"@nl ;
-    dcterms:identifier "EAID_400d0509_8edd_446f_82a8_3f108274f513" ;
+    dcterms:identifier "EAID_72bf150f_4843_4e88_8747_0d0f6bea4fd7" ;
     skos:definition "Niet-inpandige ruimte in openbaar gebied louter bestemd voor telefoneren."@nl ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/typeringinrichtingselementplus> ;
     skos:prefLabel "telefooncel"@nl ;
@@ -1477,7 +1477,7 @@ Bord kan zich op een paal of aan de gevel bevinden."""@nl ;
     mim:definitie "Kast ten behoeve van het meten van permanente verkeertellingen."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/typeringinrichtingselementplus/telkast"^^xsd:anyURI ;
     mim:naam "telkast"@nl ;
-    dcterms:identifier "EAID_8859621e_cf00_4148_ab79_6a590cd3cee2" ;
+    dcterms:identifier "EAID_40f1c394_e316_4bff_8b60_a5fc9a36e302" ;
     skos:definition "Kast ten behoeve van het meten van permanente verkeertellingen."@nl ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/typeringinrichtingselementplus> ;
     skos:prefLabel "telkast"@nl ;
@@ -1490,7 +1490,7 @@ Bord kan zich op een paal of aan de gevel bevinden."""@nl ;
     mim:definitie "Paal waaraan de verkeersteller is bevestigd."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/typeringinrichtingselementplus/telpaal"^^xsd:anyURI ;
     mim:naam "telpaal"@nl ;
-    dcterms:identifier "EAID_444f66c5_30e7_486e_b39d_699d378a4b49" ;
+    dcterms:identifier "EAID_16e496c7_1b84_49b3_8e52_c77a114c40c3" ;
     skos:definition "Paal waaraan de verkeersteller is bevestigd."@nl ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/typeringinrichtingselementplus> ;
     skos:prefLabel "telpaal"@nl ;
@@ -1504,7 +1504,7 @@ Bord kan zich op een paal of aan de gevel bevinden."""@nl ;
 voorkomen."""@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/typeringinrichtingselementplus/verblindingswering"^^xsd:anyURI ;
     mim:naam "verblindingswering"@nl ;
-    dcterms:identifier "EAID_75fe0590_3bbd_463e_b5ad_03d11e55c94b" ;
+    dcterms:identifier "EAID_cc4710f7_0c25_4f7c_a9a5_42a9fed5f036" ;
     skos:definition """Constructie bedoeld om verblinding van weggebruikers door tegenlicht te 
 voorkomen."""@nl ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/typeringinrichtingselementplus> ;
@@ -1518,7 +1518,7 @@ voorkomen."""@nl ;
     mim:definitie "Bord waarop een verkeersteken is aangebracht en waarvan de uitvoering wettelijk is voorgeschreven volgens het 'Reglement verkeersregels en verkeerstekens 1990"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/typeringinrichtingselementplus/verkeersbord"^^xsd:anyURI ;
     mim:naam "verkeersbord"@nl ;
-    dcterms:identifier "EAID_3bb2fc51_da31_4cf3_b75d_63b1812d5a7a" ;
+    dcterms:identifier "EAID_4d6e951c_a143_40af_9173_9e044ae699cb" ;
     skos:definition "Bord waarop een verkeersteken is aangebracht en waarvan de uitvoering wettelijk is voorgeschreven volgens het 'Reglement verkeersregels en verkeerstekens 1990"@nl ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/typeringinrichtingselementplus> ;
     skos:prefLabel "verkeersbord"@nl ;
@@ -1531,7 +1531,7 @@ voorkomen."""@nl ;
     mim:definitie "Paal waaraan een of meerdere verkeersborden zijn bevestigd."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/typeringinrichtingselementplus/verkeersbordpaal"^^xsd:anyURI ;
     mim:naam "verkeersbordpaal"@nl ;
-    dcterms:identifier "EAID_af0417d7_0cea_4957_b2cb_34191687123a" ;
+    dcterms:identifier "EAID_8eda376e_2a25_4dec_8bc7_e24e66c45ded" ;
     skos:definition "Paal waaraan een of meerdere verkeersborden zijn bevestigd."@nl ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/typeringinrichtingselementplus> ;
     skos:prefLabel "verkeersbordpaal"@nl ;
@@ -1544,7 +1544,7 @@ voorkomen."""@nl ;
     mim:definitie "Kast ten behoeve van de regeling van het verkeer."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/typeringinrichtingselementplus/verkeersregelinstallatiekast"^^xsd:anyURI ;
     mim:naam "verkeersregelinstallatiekast"@nl ;
-    dcterms:identifier "EAID_0f4d7d18_e004_4446_bfb4_7edb3f2911f0" ;
+    dcterms:identifier "EAID_bac6ae52_163b_478a_a785_6255abf49375" ;
     skos:definition "Kast ten behoeve van de regeling van het verkeer."@nl ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/typeringinrichtingselementplus> ;
     skos:prefLabel "verkeersregelinstallatiekast"@nl ;
@@ -1557,7 +1557,7 @@ voorkomen."""@nl ;
     mim:definitie "Paal met daaraan bevestigt de verkeersregelinstallatie."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/typeringinrichtingselementplus/verkeersregelinstallatiepaal"^^xsd:anyURI ;
     mim:naam "verkeersregelinstallatiepaal"@nl ;
-    dcterms:identifier "EAID_ac5c8601_1b97_4126_a4fb_bfec0d578f73" ;
+    dcterms:identifier "EAID_86a4d6b5_1fbe_4d3b_a632_2b4a498c3413" ;
     skos:definition "Paal met daaraan bevestigt de verkeersregelinstallatie."@nl ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/typeringinrichtingselementplus> ;
     skos:prefLabel "verkeersregelinstallatiepaal"@nl ;
@@ -1570,7 +1570,7 @@ voorkomen."""@nl ;
     mim:definitie "Bovengrondse voorziening om een ondergrondse transportleiding te markeren."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/typeringinrichtingselementplus/verklikker-transportleiding"^^xsd:anyURI ;
     mim:naam "verklikker transportleiding"@nl ;
-    dcterms:identifier "EAID_b7f80911_e8b0_4323_90fa_8d7c1d457d4e" ;
+    dcterms:identifier "EAID_d99082fc_cef2_474f_b3ce_a87e6c681b0b" ;
     skos:definition "Bovengrondse voorziening om een ondergrondse transportleiding te markeren."@nl ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/typeringinrichtingselementplus> ;
     skos:prefLabel "verklikker transportleiding"@nl ;
@@ -1583,7 +1583,7 @@ voorkomen."""@nl ;
     mim:definitie "Paal bedoeld om vlaggen aan te hangen."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/typeringinrichtingselementplus/vlaggenmast"^^xsd:anyURI ;
     mim:naam "vlaggenmast"@nl ;
-    dcterms:identifier "EAID_87ec7c8b_a5d9_4586_af11_82dda5255b73" ;
+    dcterms:identifier "EAID_8d4bd408_1ab2_4e0b_a607_6994d9ee2d3f" ;
     skos:definition "Paal bedoeld om vlaggen aan te hangen."@nl ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/typeringinrichtingselementplus> ;
     skos:prefLabel "vlaggenmast"@nl ;
@@ -1597,7 +1597,7 @@ voorkomen."""@nl ;
 benedenstrooms te vrijwaren van drijvend vuil en dergelijke."""@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/typeringinrichtingselementplus/vuilvang"^^xsd:anyURI ;
     mim:naam "vuilvang"@nl ;
-    dcterms:identifier "EAID_b39e541d_7354_4156_8e58_286d1b069881" ;
+    dcterms:identifier "EAID_9f9a6c2d_dbda_4469_94b9_0dfa1c449525" ;
     skos:definition """Een voorziening om de waterloop dan wel één of meerdere objecten 
 benedenstrooms te vrijwaren van drijvend vuil en dergelijke."""@nl ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/typeringinrichtingselementplus> ;
@@ -1612,7 +1612,7 @@ benedenstrooms te vrijwaren van drijvend vuil en dergelijke."""@nl ;
 chevrons, die het verkeer attendeert op een gevarenpunt."""@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/typeringinrichtingselementplus/waarschuwingshek"^^xsd:anyURI ;
     mim:naam "waarschuwingshek"@nl ;
-    dcterms:identifier "EAID_79cc101d_3267_4ef5_a33e_6ad6df4360d0" ;
+    dcterms:identifier "EAID_c66471e9_b79c_45a9_8283_0d22e94e1fb7" ;
     skos:definition """Constructie in de vorm van een hek, voorzien van rode en witte blokken of 
 chevrons, die het verkeer attendeert op een gevarenpunt."""@nl ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/typeringinrichtingselementplus> ;
@@ -1626,7 +1626,7 @@ chevrons, die het verkeer attendeert op een gevarenpunt."""@nl ;
     mim:definitie "Put met afsluitkraan ten behoeve van het ondergrondse leidingenstelsel voor watertransport."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/typeringinrichtingselementplus/waterleidingput"^^xsd:anyURI ;
     mim:naam "waterleidingput"@nl ;
-    dcterms:identifier "EAID_802c773e_c7e4_48b6_b2a4_b689be7bb621" ;
+    dcterms:identifier "EAID_30b3ed99_ab82_4b36_9504_1cd9e773882e" ;
     skos:definition "Put met afsluitkraan ten behoeve van het ondergrondse leidingenstelsel voor watertransport."@nl ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/typeringinrichtingselementplus> ;
     skos:prefLabel "waterleidingput"@nl ;
@@ -1639,7 +1639,7 @@ chevrons, die het verkeer attendeert op een gevarenpunt."""@nl ;
     mim:definitie "Een meter die de waterstand, over het algemeen ten opzichte van NAP, meet."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/typeringinrichtingselementplus/waterstandmeter"^^xsd:anyURI ;
     mim:naam "waterstandmeter"@nl ;
-    dcterms:identifier "EAID_b46d4931_a5ab_4fc8_82e2_dad63a15a0c6" ;
+    dcterms:identifier "EAID_aa3db913_80dc_4ab3_bfcb_9f0beab24136" ;
     skos:definition "Een meter die de waterstand, over het algemeen ten opzichte van NAP, meet."@nl ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/typeringinrichtingselementplus> ;
     skos:prefLabel "waterstandmeter"@nl ;
@@ -1652,7 +1652,7 @@ chevrons, die het verkeer attendeert op een gevarenpunt."""@nl ;
     mim:definitie "Een weerstation is een verzameling instrumenten die het weer kunnen meten."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/typeringinrichtingselementplus/weerstation"^^xsd:anyURI ;
     mim:naam "weerstation"@nl ;
-    dcterms:identifier "EAID_03ce7346_3cf6_4213_8c1e_5f2f3fa779c0" ;
+    dcterms:identifier "EAID_e4143070_6bf3_4079_a2b0_18011f03ba47" ;
     skos:definition "Een weerstation is een verzameling instrumenten die het weer kunnen meten."@nl ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/typeringinrichtingselementplus> ;
     skos:prefLabel "weerstation"@nl ;
@@ -1665,7 +1665,7 @@ chevrons, die het verkeer attendeert op een gevarenpunt."""@nl ;
     mim:definitie "Op of in het oppervlak van de verharding aangebrachte tekens ter geleiding, waarschuwing, regeling of informatie van het verkeer."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/typeringinrichtingselementplus/wegmarkering"^^xsd:anyURI ;
     mim:naam "wegmarkering"@nl ;
-    dcterms:identifier "EAID_7ecec707_b3f8_4cf3_85c1_8f467ede4096" ;
+    dcterms:identifier "EAID_90d28ea2_89f2_46e7_9637_b715e2fe7bd5" ;
     skos:definition "Op of in het oppervlak van de verharding aangebrachte tekens ter geleiding, waarschuwing, regeling of informatie van het verkeer."@nl ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/typeringinrichtingselementplus> ;
     skos:prefLabel "wegmarkering"@nl ;
@@ -1678,7 +1678,7 @@ chevrons, die het verkeer attendeert op een gevarenpunt."""@nl ;
     mim:definitie "Constructie voorzien van een of meer panelen met informatie ten behoeve van de bewegwijzering."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/typeringinrichtingselementplus/wegwijzer"^^xsd:anyURI ;
     mim:naam "wegwijzer"@nl ;
-    dcterms:identifier "EAID_3af69e11_cd51_49ca_8c87_26f61768d4ab" ;
+    dcterms:identifier "EAID_19259c8f_31f9_41ea_aa1f_2d224f4bbd7c" ;
     skos:definition "Constructie voorzien van een of meer panelen met informatie ten behoeve van de bewegwijzering."@nl ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/typeringinrichtingselementplus> ;
     skos:prefLabel "wegwijzer"@nl ;
@@ -1691,7 +1691,7 @@ chevrons, die het verkeer attendeert op een gevarenpunt."""@nl ;
     mim:definitie "Horizontaal raamwerk dat dient om wild de doorgang te beletten."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/typeringinrichtingselementplus/wildrooster"^^xsd:anyURI ;
     mim:naam "wildrooster"@nl ;
-    dcterms:identifier "EAID_a34e278a_c79f_4d89_9728_144eb53591ba" ;
+    dcterms:identifier "EAID_a5939a65_ddfb_482a_8ded_e860e6fa8377" ;
     skos:definition "Horizontaal raamwerk dat dient om wild de doorgang te beletten."@nl ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/typeringinrichtingselementplus> ;
     skos:prefLabel "wildrooster"@nl ;
@@ -1704,7 +1704,7 @@ chevrons, die het verkeer attendeert op een gevarenpunt."""@nl ;
     mim:definitie "Apparatuur waarmee de snelheid en de richting van de wind kan worden gemeten."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/typeringinrichtingselementplus/windmeter"^^xsd:anyURI ;
     mim:naam "windmeter"@nl ;
-    dcterms:identifier "EAID_e284917b_2c6d_4f7d_8683_6c68161bf1eb" ;
+    dcterms:identifier "EAID_4f9fb01c_58a6_4369_bbfc_62e3ca45ce92" ;
     skos:definition "Apparatuur waarmee de snelheid en de richting van de wind kan worden gemeten."@nl ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/typeringinrichtingselementplus> ;
     skos:prefLabel "windmeter"@nl ;
@@ -1717,7 +1717,7 @@ chevrons, die het verkeer attendeert op een gevarenpunt."""@nl ;
     mim:definitie "Een bak met strooisel ten behoeve van gladheidsbestrijding."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/typeringinrichtingselementplus/zand-zoutbak"^^xsd:anyURI ;
     mim:naam "zand- / zoutbak"@nl ;
-    dcterms:identifier "EAID_76359ac4_b2a1_4b5a_80d9_00ee38cf1138" ;
+    dcterms:identifier "EAID_01bc9a2d_47c4_409e_81b5_93d5a70665b7" ;
     skos:definition "Een bak met strooisel ten behoeve van gladheidsbestrijding."@nl ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/typeringinrichtingselementplus> ;
     skos:prefLabel "zand- / zoutbak"@nl ;
@@ -1730,7 +1730,7 @@ chevrons, die het verkeer attendeert op een gevarenpunt."""@nl ;
     mim:definitie "Mast bestemd voor het uitzenden van radio, televisie of telecommunicatie signalen."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/typeringinrichtingselementplus/zendmast"^^xsd:anyURI ;
     mim:naam "zendmast"@nl ;
-    dcterms:identifier "EAID_33d8d383_1f94_495e_8f9a_1f24dfd4dd43" ;
+    dcterms:identifier "EAID_82455c80_859e_42b7_b95d_7f03a0a79b54" ;
     skos:definition "Mast bestemd voor het uitzenden van radio, televisie of telecommunicatie signalen."@nl ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/typeringinrichtingselementplus> ;
     skos:prefLabel "zendmast"@nl ;
@@ -1743,7 +1743,7 @@ chevrons, die het verkeer attendeert op een gevarenpunt."""@nl ;
     mim:definitie "Een zonnepaneel is een paneel dat zonne-energie omzet in elektriciteit."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/typeringinrichtingselementplus/zonnepaneel"^^xsd:anyURI ;
     mim:naam "zonnepaneel"@nl ;
-    dcterms:identifier "EAID_f3ae70bc_e924_4247_9e1a_dadc89c8c186" ;
+    dcterms:identifier "EAID_e3efc38e_4555_48cc_8e0e_35521f002dfb" ;
     skos:definition "Een zonnepaneel is een paneel dat zonne-energie omzet in elektriciteit."@nl ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/typeringinrichtingselementplus> ;
     skos:prefLabel "zonnepaneel"@nl ;
@@ -2751,23 +2751,23 @@ overige benoemde ruimtelijke objecten of een ander inrichtingselement."""@nl ;
     mim:waarde <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/statusgeoobject/bestaand>,
         <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/statusgeoobject/historie>,
         <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/statusgeoobject/plan> ;
-    dcterms:identifier "EAID_0daf8e8a_4277_4dc4_85e2_b5a4367621b0",
-        "EAID_2cb8bdbc_65e8_4997_b736_af2c07fda8b5",
-        "EAID_3732c5e8_5988_415a_be98_ea7a16fd0ffd",
-        "EAID_3e9b3aa2_fdb4_457a_93d4_9c70f7c79c3e",
-        "EAID_5af80c44_082a_4a9d_a879_dddc6eb3c300",
-        "EAID_70c267b0_f824_4391_871a_260be0dbbdf1",
-        "EAID_8259d60f_1817_41c3_88e1_9afa3975247d",
-        "EAID_8b8d383d_6695_4508_ad4c_9e2152d4ba88",
-        "EAID_9cc8a072_89cc_49b7_b55a_ed6d816a8fd5",
-        "EAID_9df2f609_df5a_4988_a5ec_292296f70a71",
-        "EAID_9f4ac4ee_00ea_472f_af3b_551a1039519d",
-        "EAID_ada26fe7_0a02_486f_b881_9255d79bf840",
-        "EAID_c57283ce_8772_4feb_a60a_0dcc1d1c8b4d",
-        "EAID_d05f75b0_74fd_49cc_8259_86ab24185b0e",
-        "EAID_d32bccf0_a69c_4d08_86b3_07a86b309dec",
-        "EAID_f0b52a5e_10a6_41aa_8c52_8d9520f8d5c1",
-        "EAID_f935dc92_b56d_40d3_9993_f295d1dcc200" ;
+    dcterms:identifier "EAID_010c090c_1185_4937_a6a1_2f0113f033d8",
+        "EAID_1f813055_c08d_444b_93c5_da90f72dc993",
+        "EAID_27174ce6_dfbe_42b0_aae1_9822bf18b5b6",
+        "EAID_2aedaeff_c6ce_4ada_974f_b5cc3b0afd89",
+        "EAID_317f9b7b_c00b_4736_9a19_75654edba12a",
+        "EAID_499e776e_d2aa_41ac_a609_ec022dbf0b3a",
+        "EAID_608e487f_8b92_4a96_b7fa_1888a5c79473",
+        "EAID_6aed5df5_7157_4dff_961f_c3c14271ff96",
+        "EAID_6ca27aec_a501_4044_b351_2e96a6c484f2",
+        "EAID_710aaeee_c1a9_4510_8848_bcdbe02dfe17",
+        "EAID_753fe9a9_3d48_4dc0_87b1_29653cea95ad",
+        "EAID_7f4e5f6a_f45e_4968_b7bc_343b4496ca32",
+        "EAID_8419bdd6_b2d8_4a1f_80a0_ac31edf17483",
+        "EAID_a24e5bf1_7d44_42e1_8407_ab977b3efcb1",
+        "EAID_b2b7f98a_c3a4_4fe0_926c_07ad4e653230",
+        "EAID_df14cdff_4dfe_4eff_9093_490bddf99b55",
+        "EAID_fb6c04a1_25ba_4f8f_92ac_a49cdcfc0d45" ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
     rdfs:subClassOf skos:Concept .
 
@@ -2788,7 +2788,7 @@ overige benoemde ruimtelijke objecten of een ander inrichtingselement."""@nl ;
         <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/typeringinrichtingselement/straatmeubilair>,
         <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/typeringinrichtingselement/waterinrichtingselement>,
         <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/typeringinrichtingselement/weginrichtingselement> ;
-    dcterms:identifier "EAID_7694ef3e_a6d2_4715_878a_8e844219551b" ;
+    dcterms:identifier "EAID_da7e57db_4fbf_4179_9eeb_b688698a9ff2" ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
     rdfs:subClassOf skos:Concept .
 
@@ -2951,7 +2951,7 @@ Toelichting: Een houtachtig gewas (loofboom of conifeer) met een wortelgestel en
         <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/typeringinrichtingselementplus/zand-zoutbak>,
         <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/typeringinrichtingselementplus/zendmast>,
         <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/typeringinrichtingselementplus/zonnepaneel> ;
-    dcterms:identifier "EAID_6609becc_bc20_474a_8dc4_1eb7432769fe" ;
+    dcterms:identifier "EAID_c52a9f50_9eb8_4259_a2a2_3a4c7dbeacdc" ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
     rdfs:subClassOf skos:Concept .
 

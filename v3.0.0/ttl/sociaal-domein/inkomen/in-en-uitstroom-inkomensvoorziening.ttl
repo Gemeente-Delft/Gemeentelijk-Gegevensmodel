@@ -823,12 +823,12 @@
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/huisvestingsoort/einddatumgeldigheid>,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/huisvestingsoort/omschrijving>,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/huisvestingsoort/soorthuisvestingcode> ;
-    mim:definitie "Als de dienst een uitkering betreft die periodiek wordt uitgekeerd, kan om redenen de betaling worden geblokkeerd. Reden toevoeging: Geeft de reden van blokkering van de uitkering aan. Als de dienst een uitkering betreft, die periodiek wordt uitgekeerd, kan om redenen de betaling worden geblokkeerd. De betalingsblokkade wordt opgenomen bij de dienst, die wordt genoten door de client en partner van de client. Nodig voor diepere analyse van stand van uitkeringen. Hoeveel uitkleringen hebben we geblokkeerd op dit moment omdat we de uitkering gaan beindigen."@nl ;
+    mim:definitie "De typering van de huisvestingssituatie van een cli&#235;nt, zoals zelfstandig wonend, inwonend of verblijvend in een instelling. De huisvestingssituatie kan van invloed zijn op de hoogte en samenstelling van de inkomensvoorziening."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/huisvestingsoort"^^xsd:anyURI ;
     mim:indicatieAbstractObject false ;
     mim:naam "Huisvestingsoort"@nl ;
     dcterms:identifier "EAID_8D999BE8_96AB_8418_B94F_289754CE1336" ;
-    rdfs:comment "Als de dienst een uitkering betreft die periodiek wordt uitgekeerd, kan om redenen de betaling worden geblokkeerd. Reden toevoeging: Geeft de reden van blokkering van de uitkering aan. Als de dienst een uitkering betreft, die periodiek wordt uitgekeerd, kan om redenen de betaling worden geblokkeerd. De betalingsblokkade wordt opgenomen bij de dienst, die wordt genoten door de client en partner van de client. Nodig voor diepere analyse van stand van uitkeringen. Hoeveel uitkleringen hebben we geblokkeerd op dit moment omdat we de uitkering gaan beindigen."@nl ;
+    rdfs:comment "De typering van de huisvestingssituatie van een cli&#235;nt, zoals zelfstandig wonend, inwonend of verblijvend in een instelling. De huisvestingssituatie kan van invloed zijn op de hoogte en samenstelling van de inkomensvoorziening."@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/redenblokkering> a mim:Objecttype,
@@ -838,12 +838,12 @@
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/redenblokkering/einddatumgeldigheid>,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/redenblokkering/omschrijving>,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/redenblokkering/redenblokkeringcode> ;
-    mim:definitie "Als de dienst een uitkering betreft die periodiek wordt uitgekeerd, kan om redenen de betaling worden geblokkeerd. Reden toevoeging: Geeft de reden van blokkering van de uitkering aan. Als de dienst een uitkering betreft, die periodiek wordt uitgekeerd, kan om redenen de betaling worden geblokkeerd. De betalingsblokkade wordt opgenomen bij de dienst, die wordt genoten door de client en partner van de client. Nodig voor diepere analyse van stand van uitkeringen. Hoeveel uitkleringen hebben we geblokkeerd op dit moment omdat we de uitkering gaan beindigen."@nl ;
+    mim:definitie "De reden waarom de periodieke betaling van een uitkering is geblokkeerd. Een betalingsblokkade wordt geregistreerd bij de inkomensvoorziening van de cli&#235;nt en diens eventuele partner. Voorbeelden zijn blokkering in afwachting van be&#235;indiging of hangende een onderzoek naar rechtmatigheid."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/redenblokkering"^^xsd:anyURI ;
     mim:indicatieAbstractObject false ;
     mim:naam "RedenBlokkering"@nl ;
     dcterms:identifier "EAID_88B0A7AB_53E6_4bc1_8D99_9BE896AB8418" ;
-    rdfs:comment "Als de dienst een uitkering betreft die periodiek wordt uitgekeerd, kan om redenen de betaling worden geblokkeerd. Reden toevoeging: Geeft de reden van blokkering van de uitkering aan. Als de dienst een uitkering betreft, die periodiek wordt uitgekeerd, kan om redenen de betaling worden geblokkeerd. De betalingsblokkade wordt opgenomen bij de dienst, die wordt genoten door de client en partner van de client. Nodig voor diepere analyse van stand van uitkeringen. Hoeveel uitkleringen hebben we geblokkeerd op dit moment omdat we de uitkering gaan beindigen."@nl ;
+    rdfs:comment "De reden waarom de periodieke betaling van een uitkering is geblokkeerd. Een betalingsblokkade wordt geregistreerd bij de inkomensvoorziening van de cli&#235;nt en diens eventuele partner. Voorbeelden zijn blokkering in afwachting van be&#235;indiging of hangende een onderzoek naar rechtmatigheid."@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/redeninstroom> a mim:Objecttype,
@@ -855,12 +855,12 @@
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/redeninstroom/einddatumgeldigheid>,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/redeninstroom/omschrijving>,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/redeninstroom/redeninstroomcode> ;
-    mim:definitie "De reden waarom de persoon de uitkering heeft gekregen. Geeft de reden van aanvraag van uitkering weer. Nodig voor diepere analyse van stand van uitkeringen. Omdat we willen weten waarom mensen nstromen. Bv geen werk meer og geen andere uitkering, verhuizing."@nl ;
+    mim:definitie "De reden waarom een cli&#235;nt is ingestroomd in een inkomensvoorziening. Voorbeelden zijn verlies van werk, be&#235;indiging van een andere uitkering of verhuizing. Dit objecttype ondersteunt analyse van de instroom in het uitkeringenbestand."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/redeninstroom"^^xsd:anyURI ;
     mim:indicatieAbstractObject false ;
     mim:naam "RedenInstroom"@nl ;
     dcterms:identifier "EAID_8D999BE8_96AB_8418_99A2_CB86335AFB97" ;
-    rdfs:comment "De reden waarom de persoon de uitkering heeft gekregen. Geeft de reden van aanvraag van uitkering weer. Nodig voor diepere analyse van stand van uitkeringen. Omdat we willen weten waarom mensen nstromen. Bv geen werk meer og geen andere uitkering, verhuizing."@nl ;
+    rdfs:comment "De reden waarom een cli&#235;nt is ingestroomd in een inkomensvoorziening. Voorbeelden zijn verlies van werk, be&#235;indiging van een andere uitkering of verhuizing. Dit objecttype ondersteunt analyse van de instroom in het uitkeringenbestand."@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/redenuitstroom> a mim:Objecttype,
@@ -872,12 +872,12 @@
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/redenuitstroom/einddatumgeldigheid>,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/redenuitstroom/omschrijving>,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/redenuitstroom/redenuitstroomcode> ;
-    mim:definitie "De reden waarom de uitkering aan een persoon is beeindgd. Reden toevoeging: Geeft de reden van uitstroom aan. Waarom is de uitkering be&#235;indigd. Nodig voor diepere analyse van stand. Meet of je beleid of het lukt om mensen naar werk te laten stromen. van uitkeringen."@nl ;
+    mim:definitie "De reden waarom de inkomensvoorziening van een cli&#235;nt is be&#235;indigd. Voorbeelden zijn uitstroom naar werk, verhuizing naar een andere gemeente of overlijden. Dit objecttype ondersteunt beleidsanalyse over de effectiviteit van re-integratie en de ontwikkeling van het uitkeringenbestand."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/redenuitstroom"^^xsd:anyURI ;
     mim:indicatieAbstractObject false ;
     mim:naam "RedenUitstroom"@nl ;
     dcterms:identifier "EAID_99A2CB86_335A_FB97_9C8F_47170B1699EC" ;
-    rdfs:comment "De reden waarom de uitkering aan een persoon is beeindgd. Reden toevoeging: Geeft de reden van uitstroom aan. Waarom is de uitkering be&#235;indigd. Nodig voor diepere analyse van stand. Meet of je beleid of het lukt om mensen naar werk te laten stromen. van uitkeringen."@nl ;
+    rdfs:comment "De reden waarom de inkomensvoorziening van een cli&#235;nt is be&#235;indigd. Voorbeelden zijn uitstroom naar werk, verhuizing naar een andere gemeente of overlijden. Dit objecttype ondersteunt beleidsanalyse over de effectiviteit van re-integratie en de ontwikkeling van het uitkeringenbestand."@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/inkomensvoorziening> a mim:Objecttype,
@@ -900,11 +900,11 @@
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/inkomensvoorziening/toekenningsdatum>,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/inkomensvoorziening/versterkkingsvorm>,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/inkomensvoorziening/verwerkttotenmetdatum> ;
-    mim:definitie "Een regeling die zorg draag voor een inkomen confom de landelijke wetgeving"@nl ;
+    mim:definitie "Een voorziening die voorziet in inkomen conform landelijke wetgeving, zoals bijstand, bijzondere bijstand, IOAW of IOAZ. Een inkomensvoorziening is opgebouwd uit componenten en gekoppeld aan een cli&#235;nt via een regeling."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/inkomensvoorziening"^^xsd:anyURI ;
     mim:indicatieAbstractObject false ;
     mim:naam "Inkomensvoorziening"@nl ;
     dcterms:identifier "EAID_07784236_3AA6_45e5_8253_7D088C4020B0" ;
-    rdfs:comment "Een regeling die zorg draag voor een inkomen confom de landelijke wetgeving"@nl ;
+    rdfs:comment "Een voorziening die voorziet in inkomen conform landelijke wetgeving, zoals bijstand, bijzondere bijstand, IOAW of IOAZ. Een inkomensvoorziening is opgebouwd uit componenten en gekoppeld aan een cli&#235;nt via een regeling."@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/> .
 
