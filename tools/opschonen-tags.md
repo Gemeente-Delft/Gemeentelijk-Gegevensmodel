@@ -136,3 +136,19 @@ beide bronnen gelijk behandelt).
   Verder niets verloren: de 41 memoteksten blijven staan.
 
 Conclusie: de opschoning is veilig zodra de parserfix er is, en de parserfix is op zichzelf al winst.
+
+## Uitgevoerd (29 oktober 2026, na akkoord)
+
+1. crunch_uml 0.8.6 uitgebracht (PR 22): de qea-parser geeft memotekst uit `Notes` door als `<memo>#NOTES#tekst`;
+   de terugschrijver (`export -t earepo`/`-t eamimrepo`) zet de waarde vóór de scheider in `Value` en de memotekst in
+   `Notes`, en vergelijkt beide kolommen voordat een tag als gewijzigd geldt. `test_55` dekt de rondreis.
+2. `v3.0.0/Gemeentelijk Gegevensmodel.qea` vervangen door de opgeschoonde kopie van `tools/opschoon_tags.py`
+   (1.960 rijen bijgewerkt, 0 rijen met `#NOTES#` over, `pragma integrity_check` ok). Het origineel staat in git
+   (commit 073dd960 en eerder).
+3. Pijplijn opnieuw gedraaid met 0.8.6 (`task --force import:model`, docs, LOD, Excel). Tegenover de 0.8.5-uitvoer:
+   401 `mim:toelichting` en 211 `mim:patroon` erbij (355 attribuut-toelichtingen, 46 klasse-teksten die achter de
+   scheider stonden, 211 patronen), 4 `mim:populatie` weg (de profielbeschrijving op vier klassen), verder niets;
+   58 views en 6 definitiepagina's gewijzigd; 0 `#NOTES#` in ontologie en documentatie. In de database hebben nu
+   318 attributen een toelichting en 217 een patroon die eerst `<memo>` waren.
+4. Nog te doen door de beheerder: de opgeschoonde `.qea` in EA openen en Wijk, Buurt en een paar klassen met Herkomst
+   bekijken; `task -y publish:lod` voor de nieuwe views; stap 5 (dubbele relatietags, MIM 1.1-tags) apart beslissen.

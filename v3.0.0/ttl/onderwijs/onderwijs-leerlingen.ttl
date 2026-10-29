@@ -1950,6 +1950,8 @@
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "onderwijstype"@nl ;
+    mim:patroon "De verzameling van waarden die gegevens van dit attribuutsoort kunnen hebben, dat wil zeggen het waardenbereik, uitgedrukt in een specifieke structuur." ;
+    mim:toelichting "Een inhoudelijke toelichting op de toepassing van het informatie-element."@nl ;
     mim:type <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/onderwijstype> ;
     dcterms:identifier "EAID_506E17EC_B911_448e_A485_D944629C43EE" ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/onderwijssoort> ;

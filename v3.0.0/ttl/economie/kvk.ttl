@@ -585,6 +585,9 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
     mim:kardinaliteit "0..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "huisletter"@nl ;
+    mim:patroon "a - z , A – Z" ;
+    mim:toelichting """Dit attribuutsoort is in de BAG gespecificeerd bij het objecttype NUMMERAANDUIDING. Het is bij de ADRESSEERBAAR OBJECT AANDUIDING opgenomen aangezien naast de NUMMERAANDUIDING de OVERIG ADRESSEERBAAR OBJECT AANDUIDING wordt onderscheiden. Aangezien de ADRESSEERBAAR OBJECT AANDUIDING een generalisatie is van NUMMERAANDUIDING en OVERIG ADRESSEERBAAR OBJECT AANDUIDING overerven beide laatstgenoemde objecttypen dit attribuutsoort.
+ Zie verder de toelichting in de BAG."""@nl ;
     mim:type mim:CharacterString ;
     dcterms:identifier "EAID_F5B40051_0C28_444f_940C_76297C577968" ;
     rdfs:comment "Een door of namens het bevoegd gemeentelijk orgaan ten aanzien van een adresseerbaar object toegekende toevoeging aan een huisnummer in de vorm van een alfanumeriek teken."@nl ;
@@ -609,6 +612,9 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "huisnummer"@nl ;
+    mim:patroon "Alle natuurlijke getallen tussen 1 en 99999." ;
+    mim:toelichting """Dit attribuutsoort is in de BAG gespecificeerd bij het objecttype NUMMERAANDUIDING. Het is bij de ADRESSEERBAAR OBJECT AANDUIDING opgenomen aangezien naast de NUMMERAANDUIDING de OVERIG ADRESSEERBAAR OBJECT AANDUIDING wordt onderscheiden. Aangezien de ADRESSEERBAAR OBJECT AANDUIDING een generalisatie is van NUMMERAANDUIDING en OVERIG ADRESSEERBAAR OBJECT AANDUIDING overerven beide laatstgenoemde objecttypen dit attribuutsoort.
+Zie verder de toelichting in de BAG."""@nl ;
     mim:type mim:Integer ;
     dcterms:identifier "EAID_BD2DECBB_831B_4fbc_8B81_8494B76C6F0E" ;
     rdfs:comment "Een door of namens het bevoegd gemeentelijk orgaan ten aanzien van een adresseerbaar object toegekende nummering."@nl ;
@@ -633,6 +639,9 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "huisnummertoevoeging"@nl ;
+    mim:patroon "a - z , A - Z , 0 – 9" ;
+    mim:toelichting """Dit attribuutsoort is in de BAG gespecificeerd bij het objecttype NUMMERAANDUIDING. Het is bij de ADRESSEERBAAR OBJECT AANDUIDING opgenomen aangezien naast de NUMMERAANDUIDING de OVERIG ADRESSEERBAAR OBJECT AANDUIDING wordt onderscheiden. Aangezien de ADRESSEERBAAR OBJECT AANDUIDING een generalisatie is van NUMMERAANDUIDING en OVERIG ADRESSEERBAAR OBJECT AANDUIDING overerven beide laatstgenoemde objecttypen dit attribuutsoort.
+Zie verder de toelichting in de BAG."""@nl ;
     mim:type mim:CharacterString ;
     dcterms:identifier "EAID_801D1ED4_27DE_4afc_B2BB_B0EADC56992B" ;
     rdfs:comment "Een door of namens het bevoegd gemeentelijk orgaan ten aanzien van een adresseerbaar object toegekende nadere toevoeging aan een huisnummer of een combinatie van huisnummer en huisletter."@nl ;
@@ -679,6 +688,7 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "postcode"@nl ;
+    mim:toelichting "Dit attribuutsoort is in de BAG gespecificeerd bij het objecttype NUMMERAANDUIDING. Het is bij de ADRESSEERBAAR OBJECT AANDUIDING opgenomen aangezien naast de NUMMERAANDUIDING de OVERIG ADRESSEERBAAR OBJECT AANDUIDING wordt onderscheiden. Aangezien de ADRESSEERBAAR OBJECT AANDUIDING een generalisatie is van NUMMERAANDUIDING en OVERIG ADRESSEERBAAR OBJECT AANDUIDING overerven beide laatstgenoemde objecttypen dit attribuutsoort. Zie verder de toelichting in de BAG."@nl ;
     mim:type mim:CharacterString ;
     dcterms:identifier "EAID_71729B95_9E18_4172_81CF_D2B0421D3C37" ;
     rdfs:comment "De door PostNL vastgestelde code behorende bij een bepaalde combinatie van een naam van een woonplaats, naam van een openbare ruimte en een huisnummer"@nl ;
@@ -1365,6 +1375,7 @@ kapitaalvennootschap zijn binnen of buiten de E.E.R."""@nl ;
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "indicatieHoofdactiviteit"@nl ;
+    mim:toelichting "Het betreft die activiteit waarmee de meeste werkgelegenheid in de VESTIGING gemoeid is."@nl ;
     mim:type mim:CharacterString ;
     dcterms:identifier "EAID_7CF6EF24_6F4B_4676_B16E_32297488375D" ;
     rdfs:comment "Indicatie die aangeeft welke van de activiteiten de hoofdactiviteit is van de VESTIGING."@nl ;
@@ -1523,6 +1534,7 @@ kapitaalvennootschap zijn binnen of buiten de E.E.R."""@nl ;
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "KVKnummer"@nl ;
+    mim:patroon "natuurlijk getal met voorloopnullen" ;
     mim:type mim:CharacterString ;
     dcterms:identifier "EAID_6E2690C0_7FF9_4435_A97E_161F8FD63014" ;
     rdfs:comment "Landelijk uniek identificerend administratienummer van een MAATSCHAPPELIJKE ACTIVITEIT zoals toegewezen door de Kamer van Koophandel (KvK)."@nl ;
@@ -2752,6 +2764,8 @@ geslachtsnaam voorafgaat.."""@nl ;
     mim:kardinaliteit "0..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "fulltimeWerkzameMannen"@nl ;
+    mim:patroon "1 tot en met 99999" ;
+    mim:toelichting "Hergebruik van attribuutsoort MANF uit LISA"@nl ;
     mim:type mim:Integer ;
     dcterms:identifier "EAID_4CFAFA60_DD7A_4dbc_B2C3_9E818C72E2DF" ;
     rdfs:comment "Het aantal mannen dat minimaal 12 uur per week werkzaam is in of vanuit de vestiging."@nl ;
@@ -2776,6 +2790,8 @@ geslachtsnaam voorafgaat.."""@nl ;
     mim:kardinaliteit "0..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "fulltimeWerkzameVrouwen"@nl ;
+    mim:patroon "1 tot en met 99999" ;
+    mim:toelichting "Hergebruik van attribuutsoort VROUWF uit LISA"@nl ;
     mim:type mim:Integer ;
     dcterms:identifier "EAID_7924A88A_4BFD_4684_8250_18B9D78B96C2" ;
     rdfs:comment "Het aantal vrouwen dat minimaal 12 uur per week werkzaam is in of vanuit de vestiging"@nl ;
@@ -2800,6 +2816,7 @@ geslachtsnaam voorafgaat.."""@nl ;
     mim:kardinaliteit "1..*" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "handelsnaam"@nl ;
+    mim:patroon "bij de KvK ingeschreven (handels)namen." ;
     mim:type mim:CharacterString ;
     dcterms:identifier "EAID_84A2FE7C_07B3_4e22_9E13_07C057362952" ;
     rdfs:comment "De naam van de vestiging waaronder gehandeld wordt."@nl ;
@@ -2824,6 +2841,8 @@ geslachtsnaam voorafgaat.."""@nl ;
     mim:kardinaliteit "0..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "parttimeWerkzameMannen"@nl ;
+    mim:patroon "1 tot en met 99999" ;
+    mim:toelichting "Hergebruik van attribuutsoort MANP uit LISA"@nl ;
     mim:type mim:Integer ;
     dcterms:identifier "EAID_474DE525_28DA_4d80_8393_6F8660C54BE5" ;
     rdfs:comment "Het aantal mannen dat minder dan 12 uur per week werkzaam is in of vanuit de vestiging"@nl ;
@@ -2848,6 +2867,8 @@ geslachtsnaam voorafgaat.."""@nl ;
     mim:kardinaliteit "0..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "parttimeWerkzameVrouwen"@nl ;
+    mim:patroon "1 tot en met 99999" ;
+    mim:toelichting "Hergebruik van attribuutsoort VROUWP uit LISA"@nl ;
     mim:type mim:Integer ;
     dcterms:identifier "EAID_8FC1E8B9_0BE2_4e0b_A57C_CB76716EAAE4" ;
     rdfs:comment "Het aantal vrouwen dat minder dan 12 uur per week werkzaam is in of vanuit de vestiging."@nl ;
@@ -2872,6 +2893,7 @@ geslachtsnaam voorafgaat.."""@nl ;
     mim:kardinaliteit "0..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "toevoegingAdres"@nl ;
+    mim:toelichting "Ten behoeve van het nader aanduiden van een adres. Het gaat hier bijvoorbeeld om bedrijfsverzamelgebouwen waarbij meerdere vestigingen op hetzelfde adres zitten en waarbij onderscheid gemaakt wordt door een extra omschrijving van de locatie van de vestiging, bijvoorbeeld 3e verdieping, kamer 315."@nl ;
     mim:type mim:CharacterString ;
     dcterms:identifier "EAID_6B975D53_F3EA_41b3_9E3E_6397DE91766A" ;
     rdfs:comment "Nadere aanduiding van het adres van een vestiging"@nl ;
@@ -2939,6 +2961,11 @@ geslachtsnaam voorafgaat.."""@nl ;
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "vestigingsnummer"@nl ;
+    mim:patroon "natuurlijk getal met voorloopnullen" ;
+    mim:toelichting """Elke vestiging heeft in het handelsregister één uniek
+vestigingsnummer, dit vestigingsnummer is NIET meer automatisch
+het KvK-nummer met een daar aan gekoppeld volgnummer, maar elke
+vestiging heeft een eigen uniek nummer van 12 cijfers."""@nl ;
     mim:type mim:CharacterString ;
     dcterms:identifier "EAID_FF4FFB65_1D5D_4e01_B60C_42CAF1912B98" ;
     rdfs:comment "Landelijk uniek identificerend administratienummer van een VESTIGING zoals toegewezen door de Kamer van Koophandel (KvK)."@nl ;
@@ -3031,6 +3058,7 @@ geslachtsnaam voorafgaat.."""@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/referentielijsten/sbiactiviteit/sbicode"^^xsd:anyURI ;
     mim:kardinaliteit "1..1" ;
     mim:naam "SBICode"@nl ;
+    mim:patroon "Natuurlijk getal met voorloopnullen" ;
     mim:type mim:CharacterString ;
     dcterms:identifier "EAID_CB183780_B968_4ad6_84CF_2F5D154D0456" ;
     rdfs:comment "De code van de activiteit zoals opgenomen in de SBI 2008."@nl ;
@@ -3090,6 +3118,7 @@ geslachtsnaam voorafgaat.."""@nl ;
         <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/referentielijsten/sbiactiviteit/sbicode>,
         <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/referentielijsten/sbiactiviteit/sbigroep>,
         <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/referentielijsten/sbiactiviteit/sbigroepomschrijving> ;
+    mim:toelichting "Maximaal een keer per jaar kan er een nieuwe versie van SBI 2008 uitgebracht worden, Het betreft dan veelal een verdere onderverdeling van activiteiten"@nl ;
     dcterms:identifier "EAID_B3F47842_F9C5_4417_BC76_05CA58D4998D" ;
     rdfs:comment "De hiërarchische indeling van economische activiteiten conform SBI (Standaard Bedrijfsindeling)."@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/referentielijsten/> .
@@ -3216,6 +3245,7 @@ geslachtsnaam voorafgaat.."""@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/maatschappelijkeactiviteit"^^xsd:anyURI ;
     mim:indicatieAbstractObject false ;
     mim:naam "MaatschappelijkeActiviteit"@nl ;
+    mim:toelichting "De maatschappelijke activiteit is het totaal van alle activiteiten uitgeoefend door een natuurlijk persoon of een niet-natuurlijk persoon. Een maatschappelijke activiteit kan ook als onderneming voorkomen."@nl ;
     dcterms:identifier "EAID_3DC85114_5C3F_4930_B98B_6EB6ED71FC2E" ;
     rdfs:comment "Een verband tussen één of meer personen met voldoende mate van zelfstandigheid, inbreng van arbeid of middelen, winstoogmerk en extern optreden (i.g.v. een onderneming) dan wel een in een organisatorisch verband, dat toebehoort aan een niet-natuurlijk persoon welke registratieplichtig is, uitgeoefende activiteit die niet valt onder de criteria voor onderneming of bedrijfsmatigheid welke adresseerbaar is middels ofwel een vestiging ofwel het adres van een bepaalde vertegenwoordiger (i.g.v. een niet-ondernemings-activiteit)."@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> .

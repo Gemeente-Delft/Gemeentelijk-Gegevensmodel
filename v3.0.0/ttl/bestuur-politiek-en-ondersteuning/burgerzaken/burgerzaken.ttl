@@ -965,6 +965,8 @@
     mim:kardinaliteit "0..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "aanduidingInhoudingVermissing"@nl ;
+    mim:patroon "Aanduiding inhouding/vermissing reisdocument mag alleen een binnen de centrale voorzieningen voorgedefinieerde waarde hebben, zie stamgegeven A.5.9 (zie BRP)." ;
+    mim:toelichting "Zie de toelichting in de BRP"@nl ;
     mim:type <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/aanduidinginhoudingvermissingreisdocument> ;
     dcterms:identifier "EAID_17402983_0FFC_485d_8B1C_3F6D0C3037C9" ;
     rdfs:comment "Reden van het definitief aan het verkeer onttrokken zijn van het reisdocument."@nl ;
@@ -1013,6 +1015,7 @@
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "datumEindeGeldigheidDocument"@nl ;
+    mim:toelichting "Het gaat hier om de datum die bij uitgifte van het document als einddatum wordt voorzien."@nl ;
     mim:type mim:Date ;
     dcterms:identifier "EAID_6D575E48_6354_4687_B94D_09609CA9EE25" ;
     rdfs:comment "Datum waarop een reisdocument, dat aan de INGEZETENE is verstrekt, zijn geldigheid verliest."@nl ;
@@ -1085,6 +1088,7 @@
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "datumUitgifte"@nl ;
+    mim:toelichting "Zie de toelichting in de BRP"@nl ;
     mim:type mim:Date ;
     dcterms:identifier "EAID_ABD59B47_562C_471e_87D2_0B9A6F6072BA" ;
     rdfs:comment "De datum die hieromtrent in het reisdocument staat."@nl ;
@@ -1133,6 +1137,7 @@
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "soort"@nl ;
+    mim:patroon "Soort Nederlands reisdocument mag alleen een binnen de centrale voorzieningen voorgedefinieerde waarde hebben, zie stamgegeven A.5.8 (zie BRP)." ;
     mim:type <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/referentielijsten/reisdocumentsoort> ;
     dcterms:identifier "EAID_6465EB4A_190A_489e_878D_417397773E82" ;
     rdfs:comment "Het soort reisdocument dat verstrekt is aan de INGEZETENE."@nl ;

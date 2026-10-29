@@ -72,6 +72,7 @@
     mim:kardinaliteitRelatieBron "1..*" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "ligt in"@nl ;
+    mim:toelichting "Een wijk bestaat uit een of meer buurten. Een buurt ligt in 1 wijk."@nl ;
     mim:unidirectioneel true ;
     dcterms:identifier "EAID_2D684491_7079_4805_AC0F_906DCD61D5E8" ;
     rdfs:comment "De wijk waarin de buurt is gelegen."@nl ;
@@ -99,6 +100,7 @@
     mim:kardinaliteitRelatieBron "0..*" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "is overgegaan in"@nl ;
+    mim:toelichting "De relatie biedt de mogelijkheid om aan te geven in welke gemeente de gemeente is overgegaan. In de praktijk kan het voorkomen dat een gemeente in delen overgaan naar meerdere andere gemeenten. Het model voorziet niet in deze situaties teneinde het model eenvoudig te houden en omdat er meestal sprake van is dat het grootste deel over gaat naar één andere gemeente."@nl ;
     mim:unidirectioneel true ;
     dcterms:identifier "EAID_82776B18_BA57_4a96_94B7_564C96D364E5" ;
     rdfs:comment "De nieuwe GEMEENTE waarin de GEMEENTE bij zijn opheffing c.q. na herindeling is overgegaan."@nl ;
@@ -236,6 +238,7 @@
     mim:kardinaliteitRelatieBron "0..*" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "zonder verblijfsobject ligt in"@nl ;
+    mim:toelichting "De relatie wordt alleen gelegd voor panden waarbinnen geen verblijfsobjecten zijn afgebakend, zoals een vrijstaande garage bij een woonhuis. Verder wordt de relatie alleen gelegd indien het desbetreffende pand niet is geregistreerd als bijgebouw van een verblijfsobject."@nl ;
     mim:unidirectioneel true ;
     dcterms:identifier "EAID_DD1F44A8_B55B_40e6_A5CB_CC8555D9635D" ;
     rdfs:comment "De BUURT waarin het PAND gelegen is waarbinnen zich geen verblijfsobjecten bevinden."@nl ;
@@ -445,6 +448,7 @@ Vanaf deze datum zijn gegevens in de BAG geldig. Bij elke verandering in de BAG 
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "beginGeldigheid"@nl ;
+    mim:toelichting "Het betreft het attribuutsoort objectBeginTijd van het overeenkomstige Geo-object in het BGT. Vanwege naamsconventies binnen het stelsel van basisgegevens is voor een andere attribuutnaam gekozen."@nl ;
     mim:type mim:Date ;
     dcterms:identifier "EAID_C45AABB9_9FBF_4c47_96A7_B3ECAE5530C0" ;
     rdfs:comment """Definitie
@@ -472,6 +476,8 @@ Vanaf deze datum zijn gegevens in de BAG geldig. Bij elke verandering in de BAG 
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "code"@nl ;
+    mim:patroon "Buurtcode conform CBS-tabel. Numeriek met voorloopnullen" ;
+    mim:toelichting "De gehanteerde codering is de CBS-buurtcode. De buurtgrenzen worden in overleg tussen gemeente en CBS vastgesteld. Een buurt is een onderdeel van een wijk. Een unieke buurtcode ontstaat door combinatie van de gemeentecode (4 posities), de wijkcode (2 posities) en de buurtcode (2 posities)."@nl ;
     mim:type mim:CharacterString ;
     dcterms:identifier "EAID_F5F8E806_A77C_4b32_A1BD_77DC8F587192" ;
     rdfs:comment "De code behorende bij de naam van de buurt."@nl ;
@@ -541,6 +547,7 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "eindGeldigheid"@nl ;
+    mim:toelichting "Het betreft het attribuutsoort objectEindTijd van het overeenkomstige Geo-object in het BGT. Vanwege naamsconventies binnen het stelsel van basisgegevens is voor een andere attribuutnaam gekozen."@nl ;
     mim:type mim:Date ;
     dcterms:identifier "EAID_EC6C8E1C_994B_40e2_BC64_4DE46AB10FAB" ;
     rdfs:comment """Definitie
@@ -588,6 +595,8 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "geometrie"@nl ;
+    mim:patroon "alle binnen Nederland gelegen waarden van het RD-stelsel." ;
+    mim:toelichting "De buurtgrenzen zijn zoveel mogelijk gebaseerd op topografische elementen."@nl ;
     mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/multisurface> ;
     dcterms:identifier "EAID_91EA2C37_0151_4608_BB8A_168F66A949C0" ;
     rdfs:comment "De tweedimensionale geometrische representatie van de omtrekken van de buurt."@nl ;
@@ -631,6 +640,7 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "naam"@nl ;
+    mim:patroon "Alle bestaande alfanumerieke tekens." ;
     mim:type mim:CharacterString ;
     dcterms:identifier "EAID_BD5AFDB0_04AC_48da_8724_F504CE45408B" ;
     rdfs:comment "De naam van de buurt, zoals die door het CBS wordt gebruikt."@nl ;
@@ -865,6 +875,7 @@ Vanaf deze datum zijn gegevens in de BAG geldig. Bij elke verandering in de BAG 
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "beginGeldigheid"@nl ;
+    mim:toelichting "In het GFO BG was de attribuutnaam ‘Ingangsdatum gemeente’. Vanwege naamsconventies binnen het stelsel van basisgegevens is voor een andere attribuutnaam gekozen."@nl ;
     mim:type mim:Date ;
     dcterms:identifier "EAID_97DCF1DA_8BDA_4c54_9082_E9FE5029EF33" ;
     rdfs:comment """Definitie
@@ -935,6 +946,7 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "eindGeldigheid"@nl ;
+    mim:toelichting "In het GFO BG was de attribuutnaam ‘Einddatum gemeente’. Vanwege naamsconventies binnen het stelsel van basisgegevens is voor een andere attribuutnaam gekozen."@nl ;
     mim:type mim:Date ;
     dcterms:identifier "EAID_0F6C083A_7EC5_4aef_BCDF_000952FBA82E" ;
     rdfs:comment """Definitie
@@ -982,6 +994,7 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "gemeentecode"@nl ;
+    mim:patroon "natuurlijk getal met voorloopnullen volgens BRP (GBA-gemeententabel 33)" ;
     mim:type mim:CharacterString ;
     dcterms:identifier "EAID_A0D1CAD2_51F6_4a90_B56F_D5BE251BAB12" ;
     rdfs:comment "Een numerieke aanduiding waarmee een Nederlandse gemeente uniek wordt aangeduid"@nl ;
@@ -1006,6 +1019,8 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "gemeentenaam"@nl ;
+    mim:patroon "alle bestaande alfanumerieke tekens." ;
+    mim:toelichting "De definitie is overgenomen uit NEN 5825, 1e druk, december 1991, p. 5. Dit gegeven is terug te vinden in Stuf-WOZ. Het aantal posities is echter overgenomen uit de BRP. Volgens de NEN zijn 24 posities gereserveerd. Voor gemeentenamen met meer dan 24 posities gelden inkortingsregels (zie NEN 5825, 1e druk, december 1991, Bijlage D)."@nl ;
     mim:type mim:CharacterString ;
     dcterms:identifier "EAID_91EAE994_CC72_482a_A4B3_4B28B1EB4DBA" ;
     rdfs:comment "De officiële door de gemeente vastgestelde gemeentenaam."@nl ;
@@ -1030,6 +1045,8 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "gemeentenaam NEN"@nl ;
+    mim:patroon "gemeentenamen conform NEN 5825" ;
+    mim:toelichting "Het betreft de verkorte naam van de gemeente."@nl ;
     mim:type mim:CharacterString ;
     dcterms:identifier "EAID_FA5E013E_DB9E_4df3_9850_53FC868F6BF4" ;
     rdfs:comment "De officieel vastgestelde en waar nodig ingekorte naam van de gemeente"@nl ;
@@ -1054,6 +1071,8 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "geometrie"@nl ;
+    mim:patroon "alle binnen Nederland gelegen waarden van het RD-stelsel." ;
+    mim:toelichting "-"@nl ;
     mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/surface> ;
     dcterms:identifier "EAID_ABD61FAB_0454_4cd7_8D1B_E3F71E858937" ;
     rdfs:comment "De tweedimensionale geometrische representatie van de omtrekken van het grondgebied van een gemeente."@nl ;
@@ -1539,6 +1558,9 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
     mim:kardinaliteit "0..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "huisletter"@nl ;
+    mim:patroon "a - z , A – Z" ;
+    mim:toelichting """Dit attribuutsoort is in de BAG gespecificeerd bij het objecttype NUMMERAANDUIDING. Het is bij de ADRESSEERBAAR OBJECT AANDUIDING opgenomen aangezien naast de NUMMERAANDUIDING de OVERIG ADRESSEERBAAR OBJECT AANDUIDING wordt onderscheiden. Aangezien de ADRESSEERBAAR OBJECT AANDUIDING een generalisatie is van NUMMERAANDUIDING en OVERIG ADRESSEERBAAR OBJECT AANDUIDING overerven beide laatstgenoemde objecttypen dit attribuutsoort.
+ Zie verder de toelichting in de BAG."""@nl ;
     mim:type mim:CharacterString ;
     dcterms:identifier "EAID_F5B40051_0C28_444f_940C_76297C577968" ;
     rdfs:comment "Een door of namens het bevoegd gemeentelijk orgaan ten aanzien van een adresseerbaar object toegekende toevoeging aan een huisnummer in de vorm van een alfanumeriek teken."@nl ;
@@ -1563,6 +1585,9 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "huisnummer"@nl ;
+    mim:patroon "Alle natuurlijke getallen tussen 1 en 99999." ;
+    mim:toelichting """Dit attribuutsoort is in de BAG gespecificeerd bij het objecttype NUMMERAANDUIDING. Het is bij de ADRESSEERBAAR OBJECT AANDUIDING opgenomen aangezien naast de NUMMERAANDUIDING de OVERIG ADRESSEERBAAR OBJECT AANDUIDING wordt onderscheiden. Aangezien de ADRESSEERBAAR OBJECT AANDUIDING een generalisatie is van NUMMERAANDUIDING en OVERIG ADRESSEERBAAR OBJECT AANDUIDING overerven beide laatstgenoemde objecttypen dit attribuutsoort.
+Zie verder de toelichting in de BAG."""@nl ;
     mim:type mim:Integer ;
     dcterms:identifier "EAID_BD2DECBB_831B_4fbc_8B81_8494B76C6F0E" ;
     rdfs:comment "Een door of namens het bevoegd gemeentelijk orgaan ten aanzien van een adresseerbaar object toegekende nummering."@nl ;
@@ -1587,6 +1612,9 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "huisnummertoevoeging"@nl ;
+    mim:patroon "a - z , A - Z , 0 – 9" ;
+    mim:toelichting """Dit attribuutsoort is in de BAG gespecificeerd bij het objecttype NUMMERAANDUIDING. Het is bij de ADRESSEERBAAR OBJECT AANDUIDING opgenomen aangezien naast de NUMMERAANDUIDING de OVERIG ADRESSEERBAAR OBJECT AANDUIDING wordt onderscheiden. Aangezien de ADRESSEERBAAR OBJECT AANDUIDING een generalisatie is van NUMMERAANDUIDING en OVERIG ADRESSEERBAAR OBJECT AANDUIDING overerven beide laatstgenoemde objecttypen dit attribuutsoort.
+Zie verder de toelichting in de BAG."""@nl ;
     mim:type mim:CharacterString ;
     dcterms:identifier "EAID_801D1ED4_27DE_4afc_B2BB_B0EADC56992B" ;
     rdfs:comment "Een door of namens het bevoegd gemeentelijk orgaan ten aanzien van een adresseerbaar object toegekende nadere toevoeging aan een huisnummer of een combinatie van huisnummer en huisletter."@nl ;
@@ -1633,6 +1661,7 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "postcode"@nl ;
+    mim:toelichting "Dit attribuutsoort is in de BAG gespecificeerd bij het objecttype NUMMERAANDUIDING. Het is bij de ADRESSEERBAAR OBJECT AANDUIDING opgenomen aangezien naast de NUMMERAANDUIDING de OVERIG ADRESSEERBAAR OBJECT AANDUIDING wordt onderscheiden. Aangezien de ADRESSEERBAAR OBJECT AANDUIDING een generalisatie is van NUMMERAANDUIDING en OVERIG ADRESSEERBAAR OBJECT AANDUIDING overerven beide laatstgenoemde objecttypen dit attribuutsoort. Zie verder de toelichting in de BAG."@nl ;
     mim:type mim:CharacterString ;
     dcterms:identifier "EAID_71729B95_9E18_4172_81CF_D2B0421D3C37" ;
     rdfs:comment "De door PostNL vastgestelde code behorende bij een bepaalde combinatie van een naam van een woonplaats, naam van een openbare ruimte en een huisnummer"@nl ;
@@ -1940,6 +1969,7 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "geometrie"@nl ;
+    mim:patroon "alle binnen Nederland gelegen waarden van het RD-stelsel." ;
     mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/multisurface> ;
     dcterms:identifier "EAID_C0987BF8_E01C_49af_AF3E_814D39E90620" ;
     rdfs:comment "De tweedimensionale geometrische representatie van de omtrekken van de openbare ruimte."@nl ;
@@ -1965,6 +1995,9 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "Huisnummerrange even en oneven nummers"@nl ;
+    mim:patroon """huisnummers van nummeraanduidingen die gerelateerd zijn aan de openbare ruimte
+Format: NNNNN-NNNNN""" ;
+    mim:toelichting "Veelal liggen de even en de oneven huisnummers telkens aan één van beide zijden van de openbare ruimte. Het komt evenwel voor dat deze aan beide zijden liggen of dat er aan één zijde zowel even als oneven huisnummers voorkomen. Dit gegeven voorziet in de twee laatstgenoemde situaties."@nl ;
     mim:type mim:CharacterString ;
     dcterms:identifier "EAID_5866E686_87DC_45eb_B3B5_ADFD4F4D16E1" ;
     rdfs:comment "Het laagste en het hoogste huisnummer van de objecten waaraan NUMMERAANDUIDINGen zijn toegekend die gerelateerd zijn aan de OPENBARE RUIMTE in die gevallen dat aan één of beide zijden van de OPENBARE RUIMTE zowel even als oneven huisnummers voorkomen dan wel dat even en/of oneven huisnummers aan beide zijden van de openbare ruimte voorkomen."@nl ;
@@ -1990,6 +2023,9 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "Huisnummerrange even nummers"@nl ;
+    mim:patroon """even huisnummers van nummeraanduidingen die gerelateerd zijn aan de openbare ruimte
+Format:NNNNN-NNNNN""" ;
+    mim:toelichting "Veelal liggen de even huisnummers aan één van beide zijden van de openbare ruimte. Het komt evenwel voor dat deze aan beide zijden liggen. In dat geval wordt de huisnummerrange vastgelegd met ‘Huisnummerrange even en oneven nummers’."@nl ;
     mim:type mim:CharacterString ;
     dcterms:identifier "EAID_E02CA437_4A78_428d_A283_CBB4B281112B" ;
     rdfs:comment "Het laagste en het hoogste huisnummer, zijnde even getallen, van de objecten waaraan NUMMERAANDUIDINGen zijn toegekend die gerelateerd zijn aan de OPENBARE RUIMTE en die gelegen zijn aan één van beide zijden van de OPENBARE RUIMTE."@nl ;
@@ -2015,6 +2051,9 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "Huisnummerrange oneven nummers"@nl ;
+    mim:patroon """oneven huisnummers van nummeraanduidingen die gerelateerd zijn aan de openbare ruimte
+Format:  NNNNN-NNNNN""" ;
+    mim:toelichting "Veelal liggen de oneven huisnummers aan één van beide zijden van de openbare ruimte. Het komt evenwel voor dat deze aan beide zijden liggen. In dat geval wordt de huisnummerrange vastgelegd met ‘Huisnummerrange even en oneven nummers’."@nl ;
     mim:type mim:CharacterString ;
     dcterms:identifier "EAID_1C1E6E3F_DE0F_4975_BC32_7924F24AA023" ;
     rdfs:comment "Het laagste en het hoogste huisnummer, zijnde oneven getallen, van de objecten waaraan NUMMERAANDUIDINGen zijn toegekend die gerelateerd zijn aan de OPENBARE RUIMTE en die gelegen zijn aan één van beide zijden van de OPENBARE RUIMTE."@nl ;
@@ -2143,6 +2182,8 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "straatnaam"@nl ;
+    mim:patroon "alle alfanumrieke tekens" ;
+    mim:toelichting "Voor straatnamen langer dan 24 posities gelden inkortingsregels. Hiervoor wordt NEN 5825 (versie 2002) gevolgd. De hier gehanteerde schrijfwijze kan afwijken van de POSTNL-schrijfwijze."@nl ;
     mim:type mim:CharacterString ;
     dcterms:identifier "EAID_CFD0365F_B863_42cb_A49A_D0AFA60DBC74" ;
     rdfs:comment "De officiële straatnaam zoals door het bevoegd gemeentelijk orgaan is vastgesteld, zo nodig ingekort conform de specificaties van de NEN 5825."@nl ;
@@ -2209,6 +2250,7 @@ RUIMTE."""@nl ;
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "wegsegment"@nl ;
+    mim:toelichting "Verkeerssystemen en kleinschalige kaarten maken gebruik van het wegsegment als representatie van de openbare ruimte als lijn."@nl ;
     mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/curve> ;
     dcterms:identifier "EAID_BCC760A4_FCF9_416c_ADA2_F75BE3A4D5AE" ;
     rdfs:comment "De geometrische representatie van de openbare ruimte als een lijn."@nl ;
@@ -2254,6 +2296,9 @@ RUIMTE."""@nl ;
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "brutoInhoudPand"@nl ;
+    mim:patroon "0 – 999999 kubieke meter" ;
+    mim:toelichting """De BAG kent dit gegeven niet. Het is aan PAND toegevoegd omdat dit gegeven wel vanuit het WOZ-proces wordt bijgehouden voor panden zonder verblijfsobjecten.
+Bruto inhoud betreft de buitenwerks gemeten inhoud, inclusief dakopbouwen en kelders, maar exclusief lichtkoepels, loggia's, schoorstenen, dakkapellen en bijgebouwen, die niet onder dezelfde dakconstructie zijn gelegen. Bij een dakopbouw is de gevel doorgetrokken of de nok verhoogd. Een dakkapel is slechts een uitbouw uit het schuine dakvlak. Bijgebouwen die inpandig zijn, dus die onder dezelfde dakconstructie vallen, dienen te worden gekubeerd bij de bruto inhoud van het object. Een loggia is een veelal overdekt inpandig balkon (Stuf-WOZ, p. 272). Alternatieve definities voor inhouden zijn te vinden in NEN 2580 (2e druk, 1997)."""@nl ;
     mim:type mim:Integer ;
     dcterms:identifier "EAID_E44327A5_F55F_4e94_98A9_97C73A80AC03" ;
     rdfs:comment "Aanduiding in kubieke meters van de bruto inhoud van het PAND."@nl ;
@@ -2580,6 +2625,7 @@ Dit geeft aan dat een PAND in de registratie is opgenomen als gevolg van een fei
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "relatieveHoogteligging"@nl ;
+    mim:patroon "gehele positieve en negatieve getallen, -9 t/m 9" ;
     mim:type mim:Integer ;
     dcterms:identifier "EAID_BE596B0E_CA84_4f1c_A044_727B2D140CEA" ;
     rdfs:comment "Aanduiding voor de relatieve hoogte van het pand"@nl ;
@@ -4332,6 +4378,7 @@ Terrein wordt gebruikt om een zichtbaar (tastbaar) begrensd stuk grond aan te ge
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "toegangBouwlaag"@nl ;
+    mim:patroon "-99 tot +999" ;
     mim:type mim:Integer ;
     dcterms:identifier "EAID_4134FF61_B7EC_45bc_8D8D_AF99E4EEA0B5" ;
     rdfs:comment "De ligging van de bouwlaag van het verblijfsobject, gerekend ten opzichte van het straatpeil, waarop zich de hoofdtoegang tot het verblijfsobject bevindt."@nl ;
@@ -4378,6 +4425,7 @@ Vanaf deze datum zijn gegevens in de BAG geldig. Bij elke verandering in de BAG 
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "beginGeldigheid"@nl ;
+    mim:toelichting "In het GFO BG was de attribuutnaam ‘Ingangsdatum wijk’. Vanwege naamsconventies binnen het stelsel van basisgegevens is voor een andere attribuutnaam gekozen."@nl ;
     mim:type mim:Date ;
     dcterms:identifier "EAID_12B34D8F_F7B9_488a_ACC0_10FA0301E4CD" ;
     rdfs:comment """Definitie
@@ -4450,6 +4498,7 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "eindGeldigheid"@nl ;
+    mim:toelichting "In het GFO BG was de attribuutnaam ‘Einddatum wijk’. Vanwege naamsconventies binnen het stelsel van basisgegevens is voor een andere attribuutnaam gekozen."@nl ;
     mim:type mim:Date ;
     dcterms:identifier "EAID_E8C2ACC8_9010_4db6_B8DE_A7C530041066" ;
     rdfs:comment """Definitie
@@ -4497,6 +4546,8 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "geometrie"@nl ;
+    mim:patroon "alle binnen Nederland gelegen waarden van het RD-stelsel." ;
+    mim:toelichting "De wijkgrenzen zijn zoveel mogelijk gebaseerd op sociaalgeografische kenmerken."@nl ;
     mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/multisurface> ;
     dcterms:identifier "EAID_DB2ED099_6545_4d8a_853B_AC0632D69129" ;
     rdfs:comment "De tweedimensionale geometrische representatie van de omtrekken van de wijk."@nl ;
@@ -4578,6 +4629,8 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "wijkcode"@nl ;
+    mim:patroon "Wijkcode conform CBS-tabel, numeriek getal met voorloopnullen" ;
+    mim:toelichting "De gehanteerde codering is de CBS-wijkcode. De wijkgrenzen worden in overleg tussen gemeente en CBS vastgesteld. Een unieke wijkcode ontstaat door combinatie van de gemeentecode (4 posities) en de wijkcode (2 posities)."@nl ;
     mim:type mim:CharacterString ;
     dcterms:identifier "EAID_22933A25_E430_4b8c_8CCB_DE780CD68529" ;
     rdfs:comment "De code behorende bij de naam van de wijk."@nl ;
@@ -4602,6 +4655,7 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "wijknaam"@nl ;
+    mim:patroon "alle alfanumerieke tekens zonder …" ;
     mim:type mim:CharacterString ;
     dcterms:identifier "EAID_80CB7CF1_3063_40bc_A5CF_17F69F6DD1B5" ;
     rdfs:comment "De naam van de wijk, zoals die door het CBS wordt gebruikt."@nl ;
@@ -5142,6 +5196,7 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gemeente"^^xsd:anyURI ;
     mim:indicatieAbstractObject false ;
     mim:naam "Gemeente"@nl ;
+    mim:toelichting "De gemeente fungeert in het model als geo-object. Door de relatie van gemeente met andere objecttypen kan achterhaald worden welke gemeente verantwoordelijk is voor het beheer van de hieraan gerelateerde objecten en gegevens."@nl ;
     dcterms:identifier "EAID_EA6F820F_C458_4b24_8055_5C2CC76F5904" ;
     rdfs:comment "Een gedeelte van het grondgebied van Nederland, ingesteld op basis van artikel 123 van de Grondwet."@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/> .

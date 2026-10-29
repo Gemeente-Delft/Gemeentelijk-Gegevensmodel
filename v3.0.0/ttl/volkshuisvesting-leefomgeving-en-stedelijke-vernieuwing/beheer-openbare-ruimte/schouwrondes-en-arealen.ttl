@@ -28,6 +28,7 @@
     mim:kardinaliteitRelatieBron "1..*" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "ligt in"@nl ;
+    mim:toelichting "Een wijk bestaat uit een of meer buurten. Een buurt ligt in 1 wijk."@nl ;
     mim:unidirectioneel true ;
     dcterms:identifier "EAID_2D684491_7079_4805_AC0F_906DCD61D5E8" ;
     rdfs:comment "De wijk waarin de buurt is gelegen."@nl ;
@@ -179,6 +180,7 @@ Vanaf deze datum zijn gegevens in de BAG geldig. Bij elke verandering in de BAG 
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "beginGeldigheid"@nl ;
+    mim:toelichting "Het betreft het attribuutsoort objectBeginTijd van het overeenkomstige Geo-object in het BGT. Vanwege naamsconventies binnen het stelsel van basisgegevens is voor een andere attribuutnaam gekozen."@nl ;
     mim:type mim:Date ;
     dcterms:identifier "EAID_C45AABB9_9FBF_4c47_96A7_B3ECAE5530C0" ;
     rdfs:comment """Definitie
@@ -206,6 +208,8 @@ Vanaf deze datum zijn gegevens in de BAG geldig. Bij elke verandering in de BAG 
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "code"@nl ;
+    mim:patroon "Buurtcode conform CBS-tabel. Numeriek met voorloopnullen" ;
+    mim:toelichting "De gehanteerde codering is de CBS-buurtcode. De buurtgrenzen worden in overleg tussen gemeente en CBS vastgesteld. Een buurt is een onderdeel van een wijk. Een unieke buurtcode ontstaat door combinatie van de gemeentecode (4 posities), de wijkcode (2 posities) en de buurtcode (2 posities)."@nl ;
     mim:type mim:CharacterString ;
     dcterms:identifier "EAID_F5F8E806_A77C_4b32_A1BD_77DC8F587192" ;
     rdfs:comment "De code behorende bij de naam van de buurt."@nl ;
@@ -275,6 +279,7 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "eindGeldigheid"@nl ;
+    mim:toelichting "Het betreft het attribuutsoort objectEindTijd van het overeenkomstige Geo-object in het BGT. Vanwege naamsconventies binnen het stelsel van basisgegevens is voor een andere attribuutnaam gekozen."@nl ;
     mim:type mim:Date ;
     dcterms:identifier "EAID_EC6C8E1C_994B_40e2_BC64_4DE46AB10FAB" ;
     rdfs:comment """Definitie
@@ -322,6 +327,8 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "geometrie"@nl ;
+    mim:patroon "alle binnen Nederland gelegen waarden van het RD-stelsel." ;
+    mim:toelichting "De buurtgrenzen zijn zoveel mogelijk gebaseerd op topografische elementen."@nl ;
     mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/multisurface> ;
     dcterms:identifier "EAID_91EA2C37_0151_4608_BB8A_168F66A949C0" ;
     rdfs:comment "De tweedimensionale geometrische representatie van de omtrekken van de buurt."@nl ;
@@ -365,6 +372,7 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "naam"@nl ;
+    mim:patroon "Alle bestaande alfanumerieke tekens." ;
     mim:type mim:CharacterString ;
     dcterms:identifier "EAID_BD5AFDB0_04AC_48da_8724_F504CE45408B" ;
     rdfs:comment "De naam van de buurt, zoals die door het CBS wordt gebruikt."@nl ;
@@ -482,6 +490,7 @@ Vanaf deze datum zijn gegevens in de BAG geldig. Bij elke verandering in de BAG 
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "beginGeldigheid"@nl ;
+    mim:toelichting "In het GFO BG was de attribuutnaam ‘Ingangsdatum wijk’. Vanwege naamsconventies binnen het stelsel van basisgegevens is voor een andere attribuutnaam gekozen."@nl ;
     mim:type mim:Date ;
     dcterms:identifier "EAID_12B34D8F_F7B9_488a_ACC0_10FA0301E4CD" ;
     rdfs:comment """Definitie
@@ -554,6 +563,7 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "eindGeldigheid"@nl ;
+    mim:toelichting "In het GFO BG was de attribuutnaam ‘Einddatum wijk’. Vanwege naamsconventies binnen het stelsel van basisgegevens is voor een andere attribuutnaam gekozen."@nl ;
     mim:type mim:Date ;
     dcterms:identifier "EAID_E8C2ACC8_9010_4db6_B8DE_A7C530041066" ;
     rdfs:comment """Definitie
@@ -601,6 +611,8 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "geometrie"@nl ;
+    mim:patroon "alle binnen Nederland gelegen waarden van het RD-stelsel." ;
+    mim:toelichting "De wijkgrenzen zijn zoveel mogelijk gebaseerd op sociaalgeografische kenmerken."@nl ;
     mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/multisurface> ;
     dcterms:identifier "EAID_DB2ED099_6545_4d8a_853B_AC0632D69129" ;
     rdfs:comment "De tweedimensionale geometrische representatie van de omtrekken van de wijk."@nl ;
@@ -682,6 +694,8 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "wijkcode"@nl ;
+    mim:patroon "Wijkcode conform CBS-tabel, numeriek getal met voorloopnullen" ;
+    mim:toelichting "De gehanteerde codering is de CBS-wijkcode. De wijkgrenzen worden in overleg tussen gemeente en CBS vastgesteld. Een unieke wijkcode ontstaat door combinatie van de gemeentecode (4 posities) en de wijkcode (2 posities)."@nl ;
     mim:type mim:CharacterString ;
     dcterms:identifier "EAID_22933A25_E430_4b8c_8CCB_DE780CD68529" ;
     rdfs:comment "De code behorende bij de naam van de wijk."@nl ;
@@ -706,6 +720,7 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "wijknaam"@nl ;
+    mim:patroon "alle alfanumerieke tekens zonder …" ;
     mim:type mim:CharacterString ;
     dcterms:identifier "EAID_80CB7CF1_3063_40bc_A5CF_17F69F6DD1B5" ;
     rdfs:comment "De naam van de wijk, zoals die door het CBS wordt gebruikt."@nl ;

@@ -237,7 +237,7 @@ Attributen van objecttype Buurt
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Gemeente |
-    | toelichting |  |
+    | toelichting | De gemeente fungeert in het model als geo-object. Door de relatie van gemeente met andere objecttypen kan achterhaald worden welke gemeente verantwoordelijk is voor het beheer van de hieraan gerelateerde objecten en gegevens. |
     | synoniemen |  |
     | uri |  |
     | bron |  |

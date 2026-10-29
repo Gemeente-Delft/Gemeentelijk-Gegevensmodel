@@ -137,6 +137,7 @@
     mim:kardinaliteitRelatieBron "0..*" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "is ontstaan uit andere kadastrale onroerende zaak bij"@nl ;
+    mim:toelichting "Het betreft hier de relatie tussen 2 percelen of 2 Appartementsrechten"@nl ;
     mim:unidirectioneel true ;
     dcterms:identifier "EAID_EBEE5BED_D39A_4e50_ACD7_4924DF1DF463" ;
     rdfs:comment "De verwijzing naar andere KADASTRALE ONROERENDE ZAAKen waaruit de KADASTRALE ONROERENDE ZAAK is ontstaan."@nl ;
@@ -187,6 +188,12 @@
     mim:kardinaliteitRelatieBron "0..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "is belast met"@nl ;
+    mim:toelichting """Op een en hetzelfde zakelijk recht kunnen een of meerdere zakelijke rechten worden gestapeld. Bijvoorbeeld een Persoon 1 heeft recht van eigendom belast met opstal2.  
+Persoon 2 heeft recht van opstal2 belast met recht van erfpacht4 en belast met recht van vruchtgebruik3.  
+Persoon 3 heeft recht van vruchtgebruik3 op recht van opstal2. 
+Persoon 4 heeft recht van erfpacht4 op recht van opstal2.  
+
+In het verleden was het gestapelde recht impliciet via de aard zakelijk recht code van een voorkomen van  ZAKELIJK RECHT te herleiden. In de nieuwe versie van BRK is dit expliciet gemaakt en onderkent men voor elk gestapeld recht een apart voorkomen van ZAKELIJK RECHT."""@nl ;
     mim:unidirectioneel true ;
     dcterms:identifier "EAID_BA508E5B_A499_4ff8_91A5_37368D6C0481" ;
     rdfs:comment "Verwijzing naar het ZAKELIJK RECHT waarmee het onderhavige ZAKELIJK RECHT is belast."@nl ;
@@ -214,6 +221,7 @@
     mim:kardinaliteitRelatieBron "1..*" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "rust op"@nl ;
+    mim:toelichting "Betreft in BRK de relatie ZAKELIJK RECHT rust op KADASTRAAL OBJECT."@nl ;
     mim:unidirectioneel true ;
     dcterms:identifier "EAID_2BE9BA3F_23CF_4095_84AC_068C9CE16747" ;
     rdfs:comment "Een verwijzing naar de KADASTRALE ONROERENDE ZAAK waarop het ZAKELIJK RECHT betrekking heeft."@nl ;
@@ -2099,6 +2107,7 @@
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "datumBeginGeldigheid"@nl ;
+    mim:toelichting "De datum wordt afgeleid van de gegevens van het Stuk in de BRK waarnaar vanuit de Onroerende zaak in de BRK verwezen wordt d.m.v. het attribuut ‘Stuk ontstaan onroerende zaak’."@nl ;
     mim:type mim:Date ;
     dcterms:identifier "EAID_DE40E6DF_2675_472c_AEB6_C2B605CFDD72" ;
     rdfs:comment "De datum waarop de gegevens van de kadastrale onroerende zaak voor het eerst geldig zijn geworden."@nl ;
@@ -2123,6 +2132,7 @@
     mim:kardinaliteit "0..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "datumEindeGeldigheid"@nl ;
+    mim:toelichting "De datum wordt afgeleid van de gegevens van het Stuk in de BRK waarnaar vanuit de Onroerende zaak in de BRK verwezen wordt d.m.v. het attribuut ‘Stuk vervallen onroerende zaak’."@nl ;
     mim:type mim:Date ;
     dcterms:identifier "EAID_7BC9A1AB_479E_482b_A469_700FC66F7A5F" ;
     rdfs:comment "De datum waarop de gegevens van de kadastrale onroerende zaak voor het laatst geldig zijn geweest."@nl ;
@@ -2252,6 +2262,7 @@ ONROERENDE ZAAK gelegen is."""@nl ;
     mim:kardinaliteit "0..1" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "landInrichtingRenteBedrag"@nl ;
+    mim:patroon "Bedrag is uitgedruk in euro's" ;
     mim:type mim:Decimal ;
     dcterms:identifier "EAID_A6851C93_52A7_4e45_A30D_C4F97B231C3E" ;
     rdfs:comment "Het bedrag waarmee de Onroerende zaak is belast in het kader van de landinrichtingswet."@nl ;
@@ -2675,6 +2686,7 @@ ONROERENDE ZAAK gelegen is."""@nl ;
     mim:kardinaliteit "0..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "datumIngangRecht"@nl ;
+    mim:toelichting "De attribuutsoort komt in de BRK niet voor maar is toegevoegd om aan te sluiten op de huidige wijze van gegevenslevering door het Kadaster."@nl ;
     mim:type mim:Date ;
     dcterms:identifier "EAID_86FAF41B_71BB_413a_8993_006A96097E2A" ;
     rdfs:comment "De datum waarop de notariële akte is ingeschreven of anderszins een brondocument waar het zakelijk recht op berust is ingeschreven."@nl ;
@@ -2699,6 +2711,8 @@ ONROERENDE ZAAK gelegen is."""@nl ;
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "identificatieZakelijkRecht"@nl ;
+    mim:patroon """Namespace is NL.KARIM.ZakelijkRecht
+LokaalId is unieke identifciatie binnen de kadastrale registratie""" ;
     mim:type <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/complex-datatype/compositeid> ;
     dcterms:identifier "EAID_24A5065B_8919_42d8_90E5_0B9E0310B051" ;
     rdfs:comment "Een door het Kadaster toegekende landelijk uniek nummer aan een recht."@nl ;

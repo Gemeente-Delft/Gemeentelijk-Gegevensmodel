@@ -924,6 +924,9 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
     mim:kardinaliteit "0..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "huisletter"@nl ;
+    mim:patroon "a - z , A – Z" ;
+    mim:toelichting """Dit attribuutsoort is in de BAG gespecificeerd bij het objecttype NUMMERAANDUIDING. Het is bij de ADRESSEERBAAR OBJECT AANDUIDING opgenomen aangezien naast de NUMMERAANDUIDING de OVERIG ADRESSEERBAAR OBJECT AANDUIDING wordt onderscheiden. Aangezien de ADRESSEERBAAR OBJECT AANDUIDING een generalisatie is van NUMMERAANDUIDING en OVERIG ADRESSEERBAAR OBJECT AANDUIDING overerven beide laatstgenoemde objecttypen dit attribuutsoort.
+ Zie verder de toelichting in de BAG."""@nl ;
     mim:type mim:CharacterString ;
     dcterms:identifier "EAID_F5B40051_0C28_444f_940C_76297C577968" ;
     rdfs:comment "Een door of namens het bevoegd gemeentelijk orgaan ten aanzien van een adresseerbaar object toegekende toevoeging aan een huisnummer in de vorm van een alfanumeriek teken."@nl ;
@@ -948,6 +951,9 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "huisnummer"@nl ;
+    mim:patroon "Alle natuurlijke getallen tussen 1 en 99999." ;
+    mim:toelichting """Dit attribuutsoort is in de BAG gespecificeerd bij het objecttype NUMMERAANDUIDING. Het is bij de ADRESSEERBAAR OBJECT AANDUIDING opgenomen aangezien naast de NUMMERAANDUIDING de OVERIG ADRESSEERBAAR OBJECT AANDUIDING wordt onderscheiden. Aangezien de ADRESSEERBAAR OBJECT AANDUIDING een generalisatie is van NUMMERAANDUIDING en OVERIG ADRESSEERBAAR OBJECT AANDUIDING overerven beide laatstgenoemde objecttypen dit attribuutsoort.
+Zie verder de toelichting in de BAG."""@nl ;
     mim:type mim:Integer ;
     dcterms:identifier "EAID_BD2DECBB_831B_4fbc_8B81_8494B76C6F0E" ;
     rdfs:comment "Een door of namens het bevoegd gemeentelijk orgaan ten aanzien van een adresseerbaar object toegekende nummering."@nl ;
@@ -972,6 +978,9 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "huisnummertoevoeging"@nl ;
+    mim:patroon "a - z , A - Z , 0 – 9" ;
+    mim:toelichting """Dit attribuutsoort is in de BAG gespecificeerd bij het objecttype NUMMERAANDUIDING. Het is bij de ADRESSEERBAAR OBJECT AANDUIDING opgenomen aangezien naast de NUMMERAANDUIDING de OVERIG ADRESSEERBAAR OBJECT AANDUIDING wordt onderscheiden. Aangezien de ADRESSEERBAAR OBJECT AANDUIDING een generalisatie is van NUMMERAANDUIDING en OVERIG ADRESSEERBAAR OBJECT AANDUIDING overerven beide laatstgenoemde objecttypen dit attribuutsoort.
+Zie verder de toelichting in de BAG."""@nl ;
     mim:type mim:CharacterString ;
     dcterms:identifier "EAID_801D1ED4_27DE_4afc_B2BB_B0EADC56992B" ;
     rdfs:comment "Een door of namens het bevoegd gemeentelijk orgaan ten aanzien van een adresseerbaar object toegekende nadere toevoeging aan een huisnummer of een combinatie van huisnummer en huisletter."@nl ;
@@ -1018,6 +1027,7 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "postcode"@nl ;
+    mim:toelichting "Dit attribuutsoort is in de BAG gespecificeerd bij het objecttype NUMMERAANDUIDING. Het is bij de ADRESSEERBAAR OBJECT AANDUIDING opgenomen aangezien naast de NUMMERAANDUIDING de OVERIG ADRESSEERBAAR OBJECT AANDUIDING wordt onderscheiden. Aangezien de ADRESSEERBAAR OBJECT AANDUIDING een generalisatie is van NUMMERAANDUIDING en OVERIG ADRESSEERBAAR OBJECT AANDUIDING overerven beide laatstgenoemde objecttypen dit attribuutsoort. Zie verder de toelichting in de BAG."@nl ;
     mim:type mim:CharacterString ;
     dcterms:identifier "EAID_71729B95_9E18_4172_81CF_D2B0421D3C37" ;
     rdfs:comment "De door PostNL vastgestelde code behorende bij een bepaalde combinatie van een naam van een woonplaats, naam van een openbare ruimte en een huisnummer"@nl ;
@@ -1769,6 +1779,7 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "geometrie"@nl ;
+    mim:patroon "alle binnen Nederland gelegen waarden van het RD-stelsel." ;
     mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/multisurface> ;
     dcterms:identifier "EAID_C0987BF8_E01C_49af_AF3E_814D39E90620" ;
     rdfs:comment "De tweedimensionale geometrische representatie van de omtrekken van de openbare ruimte."@nl ;
@@ -1794,6 +1805,9 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "Huisnummerrange even en oneven nummers"@nl ;
+    mim:patroon """huisnummers van nummeraanduidingen die gerelateerd zijn aan de openbare ruimte
+Format: NNNNN-NNNNN""" ;
+    mim:toelichting "Veelal liggen de even en de oneven huisnummers telkens aan één van beide zijden van de openbare ruimte. Het komt evenwel voor dat deze aan beide zijden liggen of dat er aan één zijde zowel even als oneven huisnummers voorkomen. Dit gegeven voorziet in de twee laatstgenoemde situaties."@nl ;
     mim:type mim:CharacterString ;
     dcterms:identifier "EAID_5866E686_87DC_45eb_B3B5_ADFD4F4D16E1" ;
     rdfs:comment "Het laagste en het hoogste huisnummer van de objecten waaraan NUMMERAANDUIDINGen zijn toegekend die gerelateerd zijn aan de OPENBARE RUIMTE in die gevallen dat aan één of beide zijden van de OPENBARE RUIMTE zowel even als oneven huisnummers voorkomen dan wel dat even en/of oneven huisnummers aan beide zijden van de openbare ruimte voorkomen."@nl ;
@@ -1819,6 +1833,9 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "Huisnummerrange even nummers"@nl ;
+    mim:patroon """even huisnummers van nummeraanduidingen die gerelateerd zijn aan de openbare ruimte
+Format:NNNNN-NNNNN""" ;
+    mim:toelichting "Veelal liggen de even huisnummers aan één van beide zijden van de openbare ruimte. Het komt evenwel voor dat deze aan beide zijden liggen. In dat geval wordt de huisnummerrange vastgelegd met ‘Huisnummerrange even en oneven nummers’."@nl ;
     mim:type mim:CharacterString ;
     dcterms:identifier "EAID_E02CA437_4A78_428d_A283_CBB4B281112B" ;
     rdfs:comment "Het laagste en het hoogste huisnummer, zijnde even getallen, van de objecten waaraan NUMMERAANDUIDINGen zijn toegekend die gerelateerd zijn aan de OPENBARE RUIMTE en die gelegen zijn aan één van beide zijden van de OPENBARE RUIMTE."@nl ;
@@ -1844,6 +1861,9 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "Huisnummerrange oneven nummers"@nl ;
+    mim:patroon """oneven huisnummers van nummeraanduidingen die gerelateerd zijn aan de openbare ruimte
+Format:  NNNNN-NNNNN""" ;
+    mim:toelichting "Veelal liggen de oneven huisnummers aan één van beide zijden van de openbare ruimte. Het komt evenwel voor dat deze aan beide zijden liggen. In dat geval wordt de huisnummerrange vastgelegd met ‘Huisnummerrange even en oneven nummers’."@nl ;
     mim:type mim:CharacterString ;
     dcterms:identifier "EAID_1C1E6E3F_DE0F_4975_BC32_7924F24AA023" ;
     rdfs:comment "Het laagste en het hoogste huisnummer, zijnde oneven getallen, van de objecten waaraan NUMMERAANDUIDINGen zijn toegekend die gerelateerd zijn aan de OPENBARE RUIMTE en die gelegen zijn aan één van beide zijden van de OPENBARE RUIMTE."@nl ;
@@ -1972,6 +1992,8 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "straatnaam"@nl ;
+    mim:patroon "alle alfanumrieke tekens" ;
+    mim:toelichting "Voor straatnamen langer dan 24 posities gelden inkortingsregels. Hiervoor wordt NEN 5825 (versie 2002) gevolgd. De hier gehanteerde schrijfwijze kan afwijken van de POSTNL-schrijfwijze."@nl ;
     mim:type mim:CharacterString ;
     dcterms:identifier "EAID_CFD0365F_B863_42cb_A49A_D0AFA60DBC74" ;
     rdfs:comment "De officiële straatnaam zoals door het bevoegd gemeentelijk orgaan is vastgesteld, zo nodig ingekort conform de specificaties van de NEN 5825."@nl ;
@@ -2038,6 +2060,7 @@ RUIMTE."""@nl ;
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "wegsegment"@nl ;
+    mim:toelichting "Verkeerssystemen en kleinschalige kaarten maken gebruik van het wegsegment als representatie van de openbare ruimte als lijn."@nl ;
     mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/curve> ;
     dcterms:identifier "EAID_BCC760A4_FCF9_416c_ADA2_F75BE3A4D5AE" ;
     rdfs:comment "De geometrische representatie van de openbare ruimte als een lijn."@nl ;
@@ -2083,6 +2106,9 @@ RUIMTE."""@nl ;
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "brutoInhoudPand"@nl ;
+    mim:patroon "0 – 999999 kubieke meter" ;
+    mim:toelichting """De BAG kent dit gegeven niet. Het is aan PAND toegevoegd omdat dit gegeven wel vanuit het WOZ-proces wordt bijgehouden voor panden zonder verblijfsobjecten.
+Bruto inhoud betreft de buitenwerks gemeten inhoud, inclusief dakopbouwen en kelders, maar exclusief lichtkoepels, loggia's, schoorstenen, dakkapellen en bijgebouwen, die niet onder dezelfde dakconstructie zijn gelegen. Bij een dakopbouw is de gevel doorgetrokken of de nok verhoogd. Een dakkapel is slechts een uitbouw uit het schuine dakvlak. Bijgebouwen die inpandig zijn, dus die onder dezelfde dakconstructie vallen, dienen te worden gekubeerd bij de bruto inhoud van het object. Een loggia is een veelal overdekt inpandig balkon (Stuf-WOZ, p. 272). Alternatieve definities voor inhouden zijn te vinden in NEN 2580 (2e druk, 1997)."""@nl ;
     mim:type mim:Integer ;
     dcterms:identifier "EAID_E44327A5_F55F_4e94_98A9_97C73A80AC03" ;
     rdfs:comment "Aanduiding in kubieke meters van de bruto inhoud van het PAND."@nl ;
@@ -2409,6 +2435,7 @@ Dit geeft aan dat een PAND in de registratie is opgenomen als gevolg van een fei
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "relatieveHoogteligging"@nl ;
+    mim:patroon "gehele positieve en negatieve getallen, -9 t/m 9" ;
     mim:type mim:Integer ;
     dcterms:identifier "EAID_BE596B0E_CA84_4f1c_A044_727B2D140CEA" ;
     rdfs:comment "Aanduiding voor de relatieve hoogte van het pand"@nl ;
@@ -4161,6 +4188,7 @@ Terrein wordt gebruikt om een zichtbaar (tastbaar) begrensd stuk grond aan te ge
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "toegangBouwlaag"@nl ;
+    mim:patroon "-99 tot +999" ;
     mim:type mim:Integer ;
     dcterms:identifier "EAID_4134FF61_B7EC_45bc_8D8D_AF99E4EEA0B5" ;
     rdfs:comment "De ligging van de bouwlaag van het verblijfsobject, gerekend ten opzichte van het straatpeil, waarop zich de hoofdtoegang tot het verblijfsobject bevindt."@nl ;

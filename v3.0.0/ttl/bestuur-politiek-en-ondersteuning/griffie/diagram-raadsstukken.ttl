@@ -331,7 +331,6 @@
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/raadsstuk"^^xsd:anyURI ;
     mim:indicatieAbstractObject false ;
     mim:naam "Raadsstuk"@nl ;
-    mim:populatie "Voor objecttypen die deel uitmaken van een (basis)registratie betreft dit de beschrijving van de exemplaren van het gedefinieerde objecttype die in de desbetreffende (basis)-registratie voorhanden zijn." ;
     dcterms:identifier "EAID_440219A4_C64B_4eac_ADE5_E79ED6AA9BFE" ;
     rdfs:comment "Stuk dat door de gemeenteraad wordt behandeld"@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/bestuur-politiek-en-ondersteuning/griffie/> .

@@ -1878,7 +1878,6 @@ gescheiden."""@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/document"^^xsd:anyURI ;
     mim:indicatieAbstractObject false ;
     mim:naam "Document"@nl ;
-    mim:populatie "Voor objecttypen die deel uitmaken van een (basis)registratie betreft dit de beschrijving van de exemplaren van het gedefinieerde objecttype die in de desbetreffende (basis)-registratie voorhanden zijn." ;
     dcterms:identifier "EAID_5641C50A_C0FA_4e71_B07B_26C7B1CE94ED" ;
     rdfs:comment "Geheel van gegevens met een eigen identiteit ongeacht zijn vorm, met de bijbehorende metadata ontvangen of opgemaakt door een natuurlijke en/of rechtspersoon bij de uitvoering van taken, zijnde een ENKELVOUDIG DOCUMENT of een SAMENGESTELD DOCUMENT."@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> .

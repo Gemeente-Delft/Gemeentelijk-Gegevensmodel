@@ -28,6 +28,7 @@
     mim:kardinaliteitRelatieBron "0..*" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "is overgegaan in"@nl ;
+    mim:toelichting "De relatie biedt de mogelijkheid om aan te geven in welke gemeente de gemeente is overgegaan. In de praktijk kan het voorkomen dat een gemeente in delen overgaan naar meerdere andere gemeenten. Het model voorziet niet in deze situaties teneinde het model eenvoudig te houden en omdat er meestal sprake van is dat het grootste deel over gaat naar één andere gemeente."@nl ;
     mim:unidirectioneel true ;
     dcterms:identifier "EAID_82776B18_BA57_4a96_94B7_564C96D364E5" ;
     rdfs:comment "De nieuwe GEMEENTE waarin de GEMEENTE bij zijn opheffing c.q. na herindeling is overgegaan."@nl ;
@@ -286,6 +287,7 @@ Vanaf deze datum zijn gegevens in de BAG geldig. Bij elke verandering in de BAG 
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "beginGeldigheid"@nl ;
+    mim:toelichting "In het GFO BG was de attribuutnaam ‘Ingangsdatum gemeente’. Vanwege naamsconventies binnen het stelsel van basisgegevens is voor een andere attribuutnaam gekozen."@nl ;
     mim:type mim:Date ;
     dcterms:identifier "EAID_97DCF1DA_8BDA_4c54_9082_E9FE5029EF33" ;
     rdfs:comment """Definitie
@@ -356,6 +358,7 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "eindGeldigheid"@nl ;
+    mim:toelichting "In het GFO BG was de attribuutnaam ‘Einddatum gemeente’. Vanwege naamsconventies binnen het stelsel van basisgegevens is voor een andere attribuutnaam gekozen."@nl ;
     mim:type mim:Date ;
     dcterms:identifier "EAID_0F6C083A_7EC5_4aef_BCDF_000952FBA82E" ;
     rdfs:comment """Definitie
@@ -403,6 +406,7 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "gemeentecode"@nl ;
+    mim:patroon "natuurlijk getal met voorloopnullen volgens BRP (GBA-gemeententabel 33)" ;
     mim:type mim:CharacterString ;
     dcterms:identifier "EAID_A0D1CAD2_51F6_4a90_B56F_D5BE251BAB12" ;
     rdfs:comment "Een numerieke aanduiding waarmee een Nederlandse gemeente uniek wordt aangeduid"@nl ;
@@ -427,6 +431,8 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "gemeentenaam"@nl ;
+    mim:patroon "alle bestaande alfanumerieke tekens." ;
+    mim:toelichting "De definitie is overgenomen uit NEN 5825, 1e druk, december 1991, p. 5. Dit gegeven is terug te vinden in Stuf-WOZ. Het aantal posities is echter overgenomen uit de BRP. Volgens de NEN zijn 24 posities gereserveerd. Voor gemeentenamen met meer dan 24 posities gelden inkortingsregels (zie NEN 5825, 1e druk, december 1991, Bijlage D)."@nl ;
     mim:type mim:CharacterString ;
     dcterms:identifier "EAID_91EAE994_CC72_482a_A4B3_4B28B1EB4DBA" ;
     rdfs:comment "De officiële door de gemeente vastgestelde gemeentenaam."@nl ;
@@ -451,6 +457,8 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "gemeentenaam NEN"@nl ;
+    mim:patroon "gemeentenamen conform NEN 5825" ;
+    mim:toelichting "Het betreft de verkorte naam van de gemeente."@nl ;
     mim:type mim:CharacterString ;
     dcterms:identifier "EAID_FA5E013E_DB9E_4df3_9850_53FC868F6BF4" ;
     rdfs:comment "De officieel vastgestelde en waar nodig ingekorte naam van de gemeente"@nl ;
@@ -475,6 +483,8 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "geometrie"@nl ;
+    mim:patroon "alle binnen Nederland gelegen waarden van het RD-stelsel." ;
+    mim:toelichting "-"@nl ;
     mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/surface> ;
     dcterms:identifier "EAID_ABD61FAB_0454_4cd7_8D1B_E3F71E858937" ;
     rdfs:comment "De tweedimensionale geometrische representatie van de omtrekken van het grondgebied van een gemeente."@nl ;
@@ -3278,6 +3288,7 @@ De juridische grondslag voor het ontvangen en verwerken van vroegsignalen is vas
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gemeente"^^xsd:anyURI ;
     mim:indicatieAbstractObject false ;
     mim:naam "Gemeente"@nl ;
+    mim:toelichting "De gemeente fungeert in het model als geo-object. Door de relatie van gemeente met andere objecttypen kan achterhaald worden welke gemeente verantwoordelijk is voor het beheer van de hieraan gerelateerde objecten en gegevens."@nl ;
     dcterms:identifier "EAID_EA6F820F_C458_4b24_8055_5C2CC76F5904" ;
     rdfs:comment "Een gedeelte van het grondgebied van Nederland, ingesteld op basis van artikel 123 van de Grondwet."@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/> .

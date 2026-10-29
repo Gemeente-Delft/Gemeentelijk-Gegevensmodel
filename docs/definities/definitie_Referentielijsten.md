@@ -771,7 +771,7 @@ Attributen van objecttype Reisdocumentsoort
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | SBIActiviteit |
-    | toelichting |  |
+    | toelichting | Maximaal een keer per jaar kan er een nieuwe versie van SBI 2008 uitgebracht worden, Het betreft dan veelal een verdere onderverdeling van activiteiten |
     | synoniemen |  |
     | uri |  |
     | bron |  |

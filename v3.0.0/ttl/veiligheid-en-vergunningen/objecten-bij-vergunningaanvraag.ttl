@@ -50,6 +50,7 @@
     mim:kardinaliteitRelatieBron "0..*" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "zonder verblijfsobject ligt in"@nl ;
+    mim:toelichting "De relatie wordt alleen gelegd voor panden waarbinnen geen verblijfsobjecten zijn afgebakend, zoals een vrijstaande garage bij een woonhuis. Verder wordt de relatie alleen gelegd indien het desbetreffende pand niet is geregistreerd als bijgebouw van een verblijfsobject."@nl ;
     mim:unidirectioneel true ;
     dcterms:identifier "EAID_DD1F44A8_B55B_40e6_A5CB_CC8555D9635D" ;
     rdfs:comment "De BUURT waarin het PAND gelegen is waarbinnen zich geen verblijfsobjecten bevinden."@nl ;
@@ -452,6 +453,7 @@
     mim:kardinaliteitRelatieBron "0..*" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "is ontstaan uit andere kadastrale onroerende zaak bij"@nl ;
+    mim:toelichting "Het betreft hier de relatie tussen 2 percelen of 2 Appartementsrechten"@nl ;
     mim:unidirectioneel true ;
     dcterms:identifier "EAID_EBEE5BED_D39A_4e50_ACD7_4924DF1DF463" ;
     rdfs:comment "De verwijzing naar andere KADASTRALE ONROERENDE ZAAKen waaruit de KADASTRALE ONROERENDE ZAAK is ontstaan."@nl ;
@@ -478,6 +480,7 @@
     mim:kardinaliteit "0..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "LOD1GeometrieKunstwerkdeel"@nl ;
+    mim:toelichting "Het betreft de relatie \" lod1Geometry\" zoals gedefinieerd in het IMGeo bij de generalisatie overige constructie van een kunstwerkdeel."@nl ;
     mim:unidirectioneel true ;
     dcterms:identifier "EAID_286CFDB0_8EE5_4883_A5A0_A8AD341D4CED" ;
     rdfs:comment "De geometrische representatie van een kunstwerkdeel in 3D op level of detail 1."@nl ;
@@ -504,6 +507,7 @@
     mim:kardinaliteit "0..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "LOD2GeometrieKunstwerkdeel"@nl ;
+    mim:toelichting "Het betreft de relatie \" lod2Geometry\" zoals gedefinieerd in het IMGeo bij de generalisatie overige constructie van een kunstwerkdeel."@nl ;
     mim:unidirectioneel true ;
     dcterms:identifier "EAID_9DC71661_BA52_4e02_826E_CA15921B26D8" ;
     rdfs:comment "De geometrische representatie van een kunstwerkdeel in 3D op level of detail 2."@nl ;
@@ -530,6 +534,7 @@
     mim:kardinaliteit "0..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "lod3GeometrieKunstwerkdeel"@nl ;
+    mim:toelichting "Het betreft de relatie \" lod3Geometry\" zoals gedefinieerd in het BGT  bij de generalisatie overige constructie van een kunstwerkdeel."@nl ;
     mim:unidirectioneel true ;
     dcterms:identifier "EAID_7A7AD09F_2A4B_44f2_9F3E_9C88FA6E61FF" ;
     rdfs:comment "De geometrische representatie van een kunstwerkdeel in 3D op level of detail 3."@nl ;
@@ -681,6 +686,7 @@ Vanaf deze datum zijn gegevens in de BAG geldig. Bij elke verandering in de BAG 
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "beginGeldigheid"@nl ;
+    mim:toelichting "Het betreft het attribuutsoort objectBeginTijd van het overeenkomstige Geo-object in het BGT. Vanwege naamsconventies binnen het stelsel van basisgegevens is voor een andere attribuutnaam gekozen."@nl ;
     mim:type mim:Date ;
     dcterms:identifier "EAID_C45AABB9_9FBF_4c47_96A7_B3ECAE5530C0" ;
     rdfs:comment """Definitie
@@ -708,6 +714,8 @@ Vanaf deze datum zijn gegevens in de BAG geldig. Bij elke verandering in de BAG 
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "code"@nl ;
+    mim:patroon "Buurtcode conform CBS-tabel. Numeriek met voorloopnullen" ;
+    mim:toelichting "De gehanteerde codering is de CBS-buurtcode. De buurtgrenzen worden in overleg tussen gemeente en CBS vastgesteld. Een buurt is een onderdeel van een wijk. Een unieke buurtcode ontstaat door combinatie van de gemeentecode (4 posities), de wijkcode (2 posities) en de buurtcode (2 posities)."@nl ;
     mim:type mim:CharacterString ;
     dcterms:identifier "EAID_F5F8E806_A77C_4b32_A1BD_77DC8F587192" ;
     rdfs:comment "De code behorende bij de naam van de buurt."@nl ;
@@ -777,6 +785,7 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "eindGeldigheid"@nl ;
+    mim:toelichting "Het betreft het attribuutsoort objectEindTijd van het overeenkomstige Geo-object in het BGT. Vanwege naamsconventies binnen het stelsel van basisgegevens is voor een andere attribuutnaam gekozen."@nl ;
     mim:type mim:Date ;
     dcterms:identifier "EAID_EC6C8E1C_994B_40e2_BC64_4DE46AB10FAB" ;
     rdfs:comment """Definitie
@@ -824,6 +833,8 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "geometrie"@nl ;
+    mim:patroon "alle binnen Nederland gelegen waarden van het RD-stelsel." ;
+    mim:toelichting "De buurtgrenzen zijn zoveel mogelijk gebaseerd op topografische elementen."@nl ;
     mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/multisurface> ;
     dcterms:identifier "EAID_91EA2C37_0151_4608_BB8A_168F66A949C0" ;
     rdfs:comment "De tweedimensionale geometrische representatie van de omtrekken van de buurt."@nl ;
@@ -867,6 +878,7 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "naam"@nl ;
+    mim:patroon "Alle bestaande alfanumerieke tekens." ;
     mim:type mim:CharacterString ;
     dcterms:identifier "EAID_BD5AFDB0_04AC_48da_8724_F504CE45408B" ;
     rdfs:comment "De naam van de buurt, zoals die door het CBS wordt gebruikt."@nl ;
@@ -1329,6 +1341,7 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "geometrie"@nl ;
+    mim:patroon "alle binnen Nederland gelegen waarden van het RD-stelsel." ;
     mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/multisurface> ;
     dcterms:identifier "EAID_C0987BF8_E01C_49af_AF3E_814D39E90620" ;
     rdfs:comment "De tweedimensionale geometrische representatie van de omtrekken van de openbare ruimte."@nl ;
@@ -1354,6 +1367,9 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "Huisnummerrange even en oneven nummers"@nl ;
+    mim:patroon """huisnummers van nummeraanduidingen die gerelateerd zijn aan de openbare ruimte
+Format: NNNNN-NNNNN""" ;
+    mim:toelichting "Veelal liggen de even en de oneven huisnummers telkens aan één van beide zijden van de openbare ruimte. Het komt evenwel voor dat deze aan beide zijden liggen of dat er aan één zijde zowel even als oneven huisnummers voorkomen. Dit gegeven voorziet in de twee laatstgenoemde situaties."@nl ;
     mim:type mim:CharacterString ;
     dcterms:identifier "EAID_5866E686_87DC_45eb_B3B5_ADFD4F4D16E1" ;
     rdfs:comment "Het laagste en het hoogste huisnummer van de objecten waaraan NUMMERAANDUIDINGen zijn toegekend die gerelateerd zijn aan de OPENBARE RUIMTE in die gevallen dat aan één of beide zijden van de OPENBARE RUIMTE zowel even als oneven huisnummers voorkomen dan wel dat even en/of oneven huisnummers aan beide zijden van de openbare ruimte voorkomen."@nl ;
@@ -1379,6 +1395,9 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "Huisnummerrange even nummers"@nl ;
+    mim:patroon """even huisnummers van nummeraanduidingen die gerelateerd zijn aan de openbare ruimte
+Format:NNNNN-NNNNN""" ;
+    mim:toelichting "Veelal liggen de even huisnummers aan één van beide zijden van de openbare ruimte. Het komt evenwel voor dat deze aan beide zijden liggen. In dat geval wordt de huisnummerrange vastgelegd met ‘Huisnummerrange even en oneven nummers’."@nl ;
     mim:type mim:CharacterString ;
     dcterms:identifier "EAID_E02CA437_4A78_428d_A283_CBB4B281112B" ;
     rdfs:comment "Het laagste en het hoogste huisnummer, zijnde even getallen, van de objecten waaraan NUMMERAANDUIDINGen zijn toegekend die gerelateerd zijn aan de OPENBARE RUIMTE en die gelegen zijn aan één van beide zijden van de OPENBARE RUIMTE."@nl ;
@@ -1404,6 +1423,9 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "Huisnummerrange oneven nummers"@nl ;
+    mim:patroon """oneven huisnummers van nummeraanduidingen die gerelateerd zijn aan de openbare ruimte
+Format:  NNNNN-NNNNN""" ;
+    mim:toelichting "Veelal liggen de oneven huisnummers aan één van beide zijden van de openbare ruimte. Het komt evenwel voor dat deze aan beide zijden liggen. In dat geval wordt de huisnummerrange vastgelegd met ‘Huisnummerrange even en oneven nummers’."@nl ;
     mim:type mim:CharacterString ;
     dcterms:identifier "EAID_1C1E6E3F_DE0F_4975_BC32_7924F24AA023" ;
     rdfs:comment "Het laagste en het hoogste huisnummer, zijnde oneven getallen, van de objecten waaraan NUMMERAANDUIDINGen zijn toegekend die gerelateerd zijn aan de OPENBARE RUIMTE en die gelegen zijn aan één van beide zijden van de OPENBARE RUIMTE."@nl ;
@@ -1532,6 +1554,8 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "straatnaam"@nl ;
+    mim:patroon "alle alfanumrieke tekens" ;
+    mim:toelichting "Voor straatnamen langer dan 24 posities gelden inkortingsregels. Hiervoor wordt NEN 5825 (versie 2002) gevolgd. De hier gehanteerde schrijfwijze kan afwijken van de POSTNL-schrijfwijze."@nl ;
     mim:type mim:CharacterString ;
     dcterms:identifier "EAID_CFD0365F_B863_42cb_A49A_D0AFA60DBC74" ;
     rdfs:comment "De officiële straatnaam zoals door het bevoegd gemeentelijk orgaan is vastgesteld, zo nodig ingekort conform de specificaties van de NEN 5825."@nl ;
@@ -1598,6 +1622,7 @@ RUIMTE."""@nl ;
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "wegsegment"@nl ;
+    mim:toelichting "Verkeerssystemen en kleinschalige kaarten maken gebruik van het wegsegment als representatie van de openbare ruimte als lijn."@nl ;
     mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/curve> ;
     dcterms:identifier "EAID_BCC760A4_FCF9_416c_ADA2_F75BE3A4D5AE" ;
     rdfs:comment "De geometrische representatie van de openbare ruimte als een lijn."@nl ;
@@ -1643,6 +1668,9 @@ RUIMTE."""@nl ;
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "brutoInhoudPand"@nl ;
+    mim:patroon "0 – 999999 kubieke meter" ;
+    mim:toelichting """De BAG kent dit gegeven niet. Het is aan PAND toegevoegd omdat dit gegeven wel vanuit het WOZ-proces wordt bijgehouden voor panden zonder verblijfsobjecten.
+Bruto inhoud betreft de buitenwerks gemeten inhoud, inclusief dakopbouwen en kelders, maar exclusief lichtkoepels, loggia's, schoorstenen, dakkapellen en bijgebouwen, die niet onder dezelfde dakconstructie zijn gelegen. Bij een dakopbouw is de gevel doorgetrokken of de nok verhoogd. Een dakkapel is slechts een uitbouw uit het schuine dakvlak. Bijgebouwen die inpandig zijn, dus die onder dezelfde dakconstructie vallen, dienen te worden gekubeerd bij de bruto inhoud van het object. Een loggia is een veelal overdekt inpandig balkon (Stuf-WOZ, p. 272). Alternatieve definities voor inhouden zijn te vinden in NEN 2580 (2e druk, 1997)."""@nl ;
     mim:type mim:Integer ;
     dcterms:identifier "EAID_E44327A5_F55F_4e94_98A9_97C73A80AC03" ;
     rdfs:comment "Aanduiding in kubieke meters van de bruto inhoud van het PAND."@nl ;
@@ -1969,6 +1997,7 @@ Dit geeft aan dat een PAND in de registratie is opgenomen als gevolg van een fei
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "relatieveHoogteligging"@nl ;
+    mim:patroon "gehele positieve en negatieve getallen, -9 t/m 9" ;
     mim:type mim:Integer ;
     dcterms:identifier "EAID_BE596B0E_CA84_4f1c_A044_727B2D140CEA" ;
     rdfs:comment "Aanduiding voor de relatieve hoogte van het pand"@nl ;
@@ -5313,6 +5342,7 @@ die stilstaand of slechts langzaam stromend water bevat."""@nl ;
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "datumBeginGeldigheidInrichtingselement"@nl ;
+    mim:toelichting "Het betreft het attribuutsoort objectBeginTijd van het overeenkomstige Geo-object in het IMGeo. Vanwege naamsconventies binnen het stelsel van basisgegevens is voor een andere attribuutnaam gekozen."@nl ;
     mim:type mim:Date ;
     dcterms:identifier "EAID_4906417E_E81C_42a0_8555_2DBA7367A5BB" ;
     rdfs:comment "De datum waarop het inrichtingselement is ontstaan."@nl ;
@@ -5337,6 +5367,7 @@ die stilstaand of slechts langzaam stromend water bevat."""@nl ;
     mim:kardinaliteit "0..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "datumEindeGeldigheidInrichtingselement"@nl ;
+    mim:toelichting "Het betreft het attribuutsoort objectEindTijd van het overeenkomstige Geo-object in het IMGeo. Vanwege naamsconventies binnen het stelsel van basisgegevens is voor een andere attribuutnaam gekozen."@nl ;
     mim:type mim:Date ;
     dcterms:identifier "EAID_EE9EB156_8BAB_46c9_B937_8C64E48BC464" ;
     rdfs:comment "De datum waarop het inrichtingselement ongeldig is geworden."@nl ;
@@ -5361,6 +5392,9 @@ die stilstaand of slechts langzaam stromend water bevat."""@nl ;
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "geometrieInrichtingselement"@nl ;
+    mim:patroon """Aanduiding van het type geometrie (Punt, Lijn of Vlak) gevolgd door coördinatenparen binnen de in Nederland gelegen waarden van het RD-stelsel.
+
+Zie ook regels attribuutsoort.""" ;
     mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/surface> ;
     dcterms:identifier "EAID_426FE3C3_423C_44d3_AEE0_00270B6AC471" ;
     rdfs:comment "De geometrische representatie van een inrichtingselement."@nl ;
@@ -5385,6 +5419,11 @@ die stilstaand of slechts langzaam stromend water bevat."""@nl ;
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "identificatieInrichtingselement"@nl ;
+    mim:patroon """NL.IMGEO.xxxx. Het 1e deel is de landcode, het 2e deel is de code voor het sectormodel. Het derde deel is de combinatie van de (viercijferige) gemeentecode (volgens BRP stamtabel A.5.4 Gemeente), de tweecijferige code voor het type geoobject (01) en een voor het betreffende objecttype binnen een gemeente unieke tiencijferige objectvolgnummer.
+
+Identificatie is maximaal 25 alfanumerieke tekens lang.Zie voor verdere specificaties datatype NEN3610ID.""" ;
+    mim:toelichting """In het IMGeo betreft dit de identificatie van het overeenkomstige geo-object. 
+Voor de identificatie worden de richtlijnen van NEN 3610 gehanteerd."""@nl ;
     mim:type mim:CharacterString ;
     dcterms:identifier "EAID_C866C4A0_D914_44fa_BF7D_AF201C5B2C86" ;
     rdfs:comment "Een unieke identificatie voor een inrichtingselement."@nl ;
@@ -5433,6 +5472,7 @@ die stilstaand of slechts langzaam stromend water bevat."""@nl ;
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "plusTypeInrichtingselement"@nl ;
+    mim:toelichting "Verwijzing naar gelijknamig attribuutsoort plus type bij de specialisaties uit IMGeo."@nl ;
     mim:type <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/typeringinrichtingselementplus> ;
     dcterms:identifier "EAID_19BCDF8D_2515_449d_AFC4_F42705FC0C47" ;
     rdfs:comment "Specificatie van het soort inrichtingselement."@nl ;
@@ -5457,6 +5497,8 @@ die stilstaand of slechts langzaam stromend water bevat."""@nl ;
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "relatieveHoogteliggingInrichtingselement"@nl ;
+    mim:patroon "gehele positieve en negatieve getallen, -9 t/m 9" ;
+    mim:toelichting "Weergegeven wordt de hoogteligging van de objecten ten opzichte van elkaar. Hiervoor wordt gebruik gemaakt van niveaus die aangeven of een object zich op maaiveldniveau (niveau 0) bevindt of op een onder- of bovenliggend niveau. Standaard wordt aan een object ‘niveau 0' toegekend. Het niveau geeft geen informatie over de absolute hoogte van een object."@nl ;
     mim:type mim:Integer ;
     dcterms:identifier "EAID_F519AFED_F353_415c_9404_A0698A6847D7" ;
     rdfs:comment "Aanduiding voor de relatieve hoogte van het inrichtingselement."@nl ;
@@ -5553,6 +5595,10 @@ die stilstaand of slechts langzaam stromend water bevat."""@nl ;
     mim:kardinaliteit "0..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "begrenzingPerceel"@nl ;
+    mim:patroon "aanduiding van het type geometrie (Vlak), gevolgd door coördinatenparen binnen de in Nederland gelegen waarden van het RDstelsel." ;
+    mim:toelichting """Een Perceel is een (2D) vlakvormig ruimtelijk object dat "opdelend" van structuur is. Dit betekent dat Nederland altijd naadloos en volledig is bedekt met perceelsvlakken, die elkaar niet mogen overlappen. De begrenzing van een perceel bestaat uit één of meer Kaartbegrenzingen (gesloten polylijnen). De buitenomtrek wordt altijd door één Kaartbegrenzing gevormd. Indien er enclaves zijn (gebied dat niet tot het perceelsvlak behoort) zijn ook de binnenomtrekken als kaartbegrenzing opgenomen. Elk Perceel wordt begrensd door andere percelen, uitgezonderd diegenen die aan buitenland (België, Duitsland en Noordzee) grenzen. Een Kaartbegrenzing is opgebouwd uit één of meer Kaartlijnen (lijnketens). Elke niet onderbroken begrenzing tussen precies 2 percelen noemen we een Kaartlijn. De topologische relatie tussen 2 vlakbegrenzingen van aangrenzende percelen wordt afgedwongen doordat hun gemeenschappelijke begrenzing door dezelfde Kaartlijn wordt gevormd.
+Een Kaartlijn ofwel lijnketen is opgebouwd uit opeenvolgend aansluitende kaartlijndelen, bestaande uit rechte en cirkelboogvormige lijnstukken.
+Hoewel momenteel in de kadastrale percelenstructuur geen exclaves (buitenliggende vlakken) voorkomen, doet dit aan de definitie van Begrenzing perceel niets af."""@nl ;
     mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/surface> ;
     dcterms:identifier "EAID_39F9F58F_B903_41cd_A765_4A6447001D6A" ;
     rdfs:comment "Het geheel van lijnketens waarmee de vlakomtrek van een perceel wordt gevormd."@nl ;
@@ -5577,6 +5623,8 @@ die stilstaand of slechts langzaam stromend water bevat."""@nl ;
     mim:kardinaliteit "0..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "groottePerceel"@nl ;
+    mim:patroon "positief getal, in vierkante meters," ;
+    mim:toelichting "De grootte van een perceel geeft de waarde van de oppervlakte aan en is dus per definitie positief. Door afrondingen is de grootte altijd groter dan of gelijk aan 0,5 ca."@nl ;
     mim:type mim:Integer ;
     dcterms:identifier "EAID_982C9718_C065_4b27_BBDB_26EE6FC83510" ;
     rdfs:comment "Een door de Dienst op grond van de kadastrale grenzen van een perceel berekende indicatieve grootte van een perceel ten tijde van vorming van dat perceel."@nl ;
@@ -5625,6 +5673,7 @@ die stilstaand of slechts langzaam stromend water bevat."""@nl ;
     mim:kardinaliteit "0..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "omschrijvingDeelperceel"@nl ;
+    mim:toelichting "De tekst is afkomstig van een register-9 post: een opdracht tot meting van een perceel."@nl ;
     mim:type mim:CharacterString ;
     dcterms:identifier "EAID_CE31E230_ECA2_484d_8EBA_467178B7BFF5" ;
     rdfs:comment "Het in een ter inschrijving aangeboden stuk beschreven tekst, dat een nadere omschrijving geeft van het gekochte deel van een perceel."@nl ;
@@ -5649,6 +5698,7 @@ die stilstaand of slechts langzaam stromend water bevat."""@nl ;
     mim:kardinaliteit "0..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "plaatscoordinatenPerceel"@nl ;
+    mim:patroon "zowel de x-coordinaat als de y-coordinaat zijn positief." ;
     mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/point> ;
     dcterms:identifier "EAID_A1179A80_1B32_4238_845C_4E4C1F7BE636" ;
     rdfs:comment "De aanduiding van een kaartpunt voor de weergave van de identificatie van een perceel (centroïde)."@nl ;
@@ -5734,6 +5784,7 @@ die stilstaand of slechts langzaam stromend water bevat."""@nl ;
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "datumBeginGeldigheid"@nl ;
+    mim:toelichting "De datum wordt afgeleid van de gegevens van het Stuk in de BRK waarnaar vanuit de Onroerende zaak in de BRK verwezen wordt d.m.v. het attribuut ‘Stuk ontstaan onroerende zaak’."@nl ;
     mim:type mim:Date ;
     dcterms:identifier "EAID_DE40E6DF_2675_472c_AEB6_C2B605CFDD72" ;
     rdfs:comment "De datum waarop de gegevens van de kadastrale onroerende zaak voor het eerst geldig zijn geworden."@nl ;
@@ -5758,6 +5809,7 @@ die stilstaand of slechts langzaam stromend water bevat."""@nl ;
     mim:kardinaliteit "0..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "datumEindeGeldigheid"@nl ;
+    mim:toelichting "De datum wordt afgeleid van de gegevens van het Stuk in de BRK waarnaar vanuit de Onroerende zaak in de BRK verwezen wordt d.m.v. het attribuut ‘Stuk vervallen onroerende zaak’."@nl ;
     mim:type mim:Date ;
     dcterms:identifier "EAID_7BC9A1AB_479E_482b_A469_700FC66F7A5F" ;
     rdfs:comment "De datum waarop de gegevens van de kadastrale onroerende zaak voor het laatst geldig zijn geweest."@nl ;
@@ -5887,6 +5939,7 @@ ONROERENDE ZAAK gelegen is."""@nl ;
     mim:kardinaliteit "0..1" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "landInrichtingRenteBedrag"@nl ;
+    mim:patroon "Bedrag is uitgedruk in euro's" ;
     mim:type mim:Decimal ;
     dcterms:identifier "EAID_A6851C93_52A7_4e45_A30D_C4F97B231C3E" ;
     rdfs:comment "Het bedrag waarmee de Onroerende zaak is belast in het kader van de landinrichtingswet."@nl ;
@@ -6054,6 +6107,7 @@ ONROERENDE ZAAK gelegen is."""@nl ;
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "datumBeginGeldigheidKunstwerkdeel"@nl ;
+    mim:toelichting "Het betreft het attribuutsoort objectBeginTijd van het overeenkomstige Geo-object in het IMGeo. Vanwege naamsconventies binnen het stelsel van basisgegevens is voor een andere attribuutnaam gekozen."@nl ;
     mim:type mim:Date ;
     dcterms:identifier "EAID_65BFB3B2_12A8_4948_8D6C_09EA97A32412" ;
     rdfs:comment "De datum waarop het kunstwerkdeel is ontstaan."@nl ;
@@ -6078,6 +6132,7 @@ ONROERENDE ZAAK gelegen is."""@nl ;
     mim:kardinaliteit "0..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "datumEindeGeldigheidKunstwerkdeel"@nl ;
+    mim:toelichting "Het betreft het attribuutsoort objectEindTijd van het overeenkomstige Geo-object in het IMGeo. Vanwege naamsconventies binnen het stelsel van basisgegevens is voor een andere attribuutnaam gekozen."@nl ;
     mim:type mim:Date ;
     dcterms:identifier "EAID_19E426D3_4F0E_4b6c_9D17_FC160176D759" ;
     rdfs:comment "De datum waarop het kunstwerkdeel ongeldig is geworden."@nl ;
@@ -6102,6 +6157,8 @@ ONROERENDE ZAAK gelegen is."""@nl ;
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "geometrieKunstwerkdeel"@nl ;
+    mim:patroon "aanduiding van het type geometrie (Lijn, Vlak), gevolgd door coördinatenparen binnen de in Nederland gelegen waarden van het RDstelsel." ;
+    mim:toelichting "Het betreft de geometrie2d zoals gedefinieerd in het BGT bij de generalisatie overige constructie van een kunstwerkdeel."@nl ;
     mim:type <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/union/multipuntlijn-multi-vlak> ;
     dcterms:identifier "EAID_0C68BDF6_D144_4208_8C00_D26337130D95" ;
     rdfs:comment "De minimaal tweedimensionale geometrische representatie van de omtrekken van een kunstwerkdeel"@nl ;
@@ -6126,6 +6183,10 @@ ONROERENDE ZAAK gelegen is."""@nl ;
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "identificatieKunstwerkdeel"@nl ;
+    mim:patroon """NL.IMGEO.xxxx. Het 1e deel is de landcode, het 2e deel is de code voor het sectormodel. Het derde deel is de combinatie van de (viercijferige) gemeentecode (volgens BRP stamtabel A.5.4 Gemeente), de tweecijferige code voor het type geoobject (01) en een voor het betreffende objecttype binnen een gemeente unieke tiencijferige objectvolgnummer.
+
+Identificatie is maximaal 25 alfanumerieke tekens lang.Zie voor verdere specificaties datatype NEN3610ID.""" ;
+    mim:toelichting "In het IMGeo betreft dit de identificatie van het overeenkomstige geo-object."@nl ;
     mim:type mim:CharacterString ;
     dcterms:identifier "EAID_B5AB5746_E904_4878_A93C_0A7F0578EC1E" ;
     rdfs:comment "Een unieke identificatie voor een kunstwerkdeel"@nl ;
@@ -6150,6 +6211,7 @@ ONROERENDE ZAAK gelegen is."""@nl ;
     mim:kardinaliteit "0..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "LOD0GeometrieKunstwerkdeel"@nl ;
+    mim:toelichting "Het betreft de relatie \" lod0Geometry\" zoals gedefinieerd in het IMGeo  bij de generalisatie overige constructie van een kunstwerkdeel."@nl ;
     mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/surface> ;
     dcterms:identifier "EAID_5DA85ED5_2440_4b98_A502_A65A0800137F" ;
     rdfs:comment "De geometrische representatie van een kunstwerkdeel als punt, lijn of vlak in 2.5D op level of detail 0."@nl ;
@@ -6174,6 +6236,8 @@ ONROERENDE ZAAK gelegen is."""@nl ;
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "relatieveHoogteliggingKunstwerkdeel"@nl ;
+    mim:patroon "gehele positieve en negatieve getallen, -9 t/m 9" ;
+    mim:toelichting "Relatieve hoogteligging slaat op kunstwerkdeel, niet op het gehele kunstwerk. Pijlers van een overbrugging krijgen de niveauaanduiding van het object waarop ze staan en zullen dus een lagere waarde hebben voor dit attribuut dan het brugdek dat op de pijlers ligt."@nl ;
     mim:type mim:Integer ;
     dcterms:identifier "EAID_7A0E9CB8_637E_4a21_B74E_8C54FE6601D5" ;
     rdfs:comment "Aanduiding voor de relatieve hoogte van het kunstwerkdeel"@nl ;
@@ -6198,6 +6262,7 @@ ONROERENDE ZAAK gelegen is."""@nl ;
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "statusKunstwerkdeel"@nl ;
+    mim:toelichting "In  IMGeo kunnen zowel toekomstige als historisch (niet meer bestaande) objecten worden opgenomen."@nl ;
     mim:type <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/statusgeoobject> ;
     dcterms:identifier "EAID_69629E68_9DC5_4edf_B544_0BEF3E8AFD55" ;
     rdfs:comment "De status gekoppeld aan de levenscyclus van het kunstwerkdeel."@nl ;
@@ -6332,6 +6397,7 @@ ONROERENDE ZAAK gelegen is."""@nl ;
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "KVKnummer"@nl ;
+    mim:patroon "natuurlijk getal met voorloopnullen" ;
     mim:type mim:CharacterString ;
     dcterms:identifier "EAID_6E2690C0_7FF9_4435_A97E_161F8FD63014" ;
     rdfs:comment "Landelijk uniek identificerend administratienummer van een MAATSCHAPPELIJKE ACTIVITEIT zoals toegewezen door de Kamer van Koophandel (KvK)."@nl ;
@@ -7262,6 +7328,7 @@ geslachtsnaam voorafgaat.."""@nl ;
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "datumBeginGeldigheidWaterdeel"@nl ;
+    mim:toelichting "Het betreft het attribuutsoort objectBeginTijd van het overeenkomstige Geo-object in het IMGeo. Vanwege naamsconventies binnen het stelsel van basisgegevens is voor een andere attribuutnaam gekozen."@nl ;
     mim:type mim:Date ;
     dcterms:identifier "EAID_82BFFEB1_DF09_4b7d_97A3_B8DF4083F57B" ;
     rdfs:comment "De datum waarop het waterdeel is ontstaan."@nl ;
@@ -7286,6 +7353,7 @@ geslachtsnaam voorafgaat.."""@nl ;
     mim:kardinaliteit "0..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "datumEindeGeldigheidWaterdeel"@nl ;
+    mim:toelichting "Het betreft het attribuutsoort objectEindTijd van het overeenkomstige Geo-object in het IMGeo. Vanwege naamsconventies binnen het stelsel van basisgegevens is voor een andere attribuutnaam gekozen."@nl ;
     mim:type mim:Date ;
     dcterms:identifier "EAID_B60ACA15_C66E_484b_9406_69E81EC22F5D" ;
     rdfs:comment "De datum waarop het waterdeel ongeldig is geworden."@nl ;
@@ -7310,6 +7378,8 @@ geslachtsnaam voorafgaat.."""@nl ;
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "geometrieWaterdeel"@nl ;
+    mim:patroon "aanduiding van het type geometrie (Vlak), gevolgd door coördinatenparen binnen de in Nederland gelegen waarden van het RDstelsel." ;
+    mim:toelichting "Het betreft de geometrie2d zoals gedefinieerd in het BGT bij een waterdeel."@nl ;
     mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/surface> ;
     dcterms:identifier "EAID_93F10105_6A12_4367_8212_28E8B33AA11B" ;
     rdfs:comment "De minimaal tweedimensionale geometrische representatie van de omtrekken van een waterdeel."@nl ;
@@ -7334,6 +7404,10 @@ geslachtsnaam voorafgaat.."""@nl ;
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "identificatieWaterdeel"@nl ;
+    mim:patroon """NL.IMGEO.xxxx. Het 1e deel is de landcode, het 2e deel is de code voor het sectormodel. Het derde deel is de combinatie van de (viercijferige) gemeentecode (volgens BRP stamtabel A.5.4 Gemeente), de tweecijferige code voor het type geoobject (01) en een voor het betreffende objecttype binnen een gemeente unieke tiencijferige objectvolgnummer.
+
+Identificatie is maximaal 25 alfanumerieke tekens lang.Zie voor verdere specificaties datatype NEN3610ID.""" ;
+    mim:toelichting "In het IMGeo betreft dit de identificatie van het overeenkomstige geo-object."@nl ;
     mim:type mim:CharacterString ;
     dcterms:identifier "EAID_33DE3C39_98FD_4464_9284_211DA046B077" ;
     rdfs:comment "Een unieke identificatie voor een waterdeel"@nl ;
@@ -7382,6 +7456,8 @@ geslachtsnaam voorafgaat.."""@nl ;
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "relatieveHoogteliggingWaterdeel"@nl ;
+    mim:patroon "gehele positieve en negatieve getallen, -9 t/m 9" ;
+    mim:toelichting "Weergegeven wordt de hoogteligging van de objecten ten opzichte van elkaar. Hiervoor wordt gebruik gemaakt van niveaus die aangeven of een object zich op maaiveldniveau (niveau 0) bevindt of op een onder- of bovenliggend niveau. Standaard wordt aan een object ‘niveau 0’ toegekend. Het niveau geeft geen informatie over de absolute hoogte van een object."@nl ;
     mim:type mim:Integer ;
     dcterms:identifier "EAID_68A66A77_6B87_4c77_A7E5_2AC021F1A452" ;
     rdfs:comment "Aanduiding voor de relatieve hoogte van het waterdeel"@nl ;
@@ -7720,7 +7796,14 @@ Percelen worden cartografisch gerepresenteerd door een tweedimensionale vlakbegr
     mim:naam "Waterdeel"@nl ;
     mim:populatie """Waterdeelobjecten met status plan en een einddatum maken geen deel uit van de verzameling waterdelen. 
 
+Zie verder BGT en IMGeo.
+
+Waterdeelobjecten met status plan en een einddatum maken geen deel uit van de verzameling waterdelen. 
+
 Zie verder BGT en IMGeo.""" ;
+    mim:toelichting """Naast het bestaande object kan tegelijkertijd ook een geplande geometriewijziging van hetzelfde bestaande object zijn vastgelegd. De plantopografie is dan als apart object opgenomen met een eigen identificatie. Via de geometrische relatie is af te leiden dat het de plantopografie van een bestaand object betreft. Zie verder IMGeo.
+
+Objecttype WATERDEEL is een specialisatie van het city gml objecttype WATERBODY."""@nl ;
     dcterms:identifier "EAID_FD0B5F4D_AE9B_47bd_8C60_031D21AC24B1" ;
     rdfs:comment "Kleinste functioneel onafhankelijk stukje water met gelijkblijvende, homogene eigenschappen en relaties dat er binnen het objecttype Water van NEN 3610 wordt onderscheiden."@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> .
@@ -7744,6 +7827,14 @@ overige benoemde ruimtelijke objecten of een ander inrichtingselement."""@nl ;
     mim:indicatieAbstractObject false ;
     mim:naam "Inrichtingselement"@nl ;
     mim:populatie "Inrichtingselement objecten met status plan en een einddatum maken geen deel uit van de verzameling inrichtingselementen." ;
+    mim:toelichting """Inrichtingselementen vormen een diverse klasse. Het zijn objecten die niet zozeer op basis van fysiek voorkomen of hun gebruiksfunctie bij elkaar horen, maar op basis van hun eigenschap dat ze andere objecten inrichten.
+Het zijn objecten die een relatief kleine geometrie hebben. 
+
+In het voorliggende model zijn de subklassen / specialisaties van INRICHTINGSELEMENT niet als afzonderlijke objecttypen gemodelleerd. De subklasse / specialisatie is te herkennen aan de attribuutsoort ‘Type inrichtingselement’.
+
+Objecttype INRICHITNGSELEMENT is een specialisatie van het city gml objecttype CITYFURNITURE.
+
+Naast het bestaande object kan tegelijkertijd ook een geplande geometriewijziging van hetzelfde bestaande object zijn vastgelegd. De plantopografie is dan als apart object opgenomen met een eigen identificatie. Via de geometrische relatie is af te leiden dat het de plantopografie van een bestaand object betreft. Zie verder IMGeo."""@nl ;
     dcterms:identifier "EAID_4DA0EB59_963C_4558_B763_44F542BC8D89" ;
     rdfs:comment """Ruimtelijk object al dan niet ter detaillering dan wel ter inrichting van de
 overige benoemde ruimtelijke objecten of een ander inrichtingselement."""@nl ;
@@ -7865,7 +7956,12 @@ overige benoemde ruimtelijke objecten of een ander inrichtingselement."""@nl ;
     mim:naam "Kunstwerkdeel"@nl ;
     mim:populatie """Kunstwerkdeel objecten met status plan en een einddatum maken geen deel uit van de verzameling kunstwerkdelen. 
 
+Zie verder BGT en IMGeo.
+
+Kunstwerkdeel objecten met status plan en een einddatum maken geen deel uit van de verzameling kunstwerkdelen. 
+
 Zie verder BGT en IMGeo.""" ;
+    mim:toelichting "Naast het bestaande object kan tegelijkertijd ook een geplande geometriewijziging van hetzelfde bestaande object zijn vastgelegd. De plantopografie is dan als apart object opgenomen met een eigen identificatie. Via de geometrische relatie is af te leiden dat het de plantopografie van een bestaand object betreft. Zie verder IMGeo."@nl ;
     dcterms:identifier "EAID_2EC96974_F21E_4bdb_AF4D_30D7091F5645" ;
     rdfs:comment "Onderdeel van een civiel-technisch werk voor de infrastructuur van wegen, water, spoorbanen, waterkeringen en/of leidingen."@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> .
@@ -7943,6 +8039,7 @@ Zie verder BGT en IMGeo.""" ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/maatschappelijkeactiviteit"^^xsd:anyURI ;
     mim:indicatieAbstractObject false ;
     mim:naam "MaatschappelijkeActiviteit"@nl ;
+    mim:toelichting "De maatschappelijke activiteit is het totaal van alle activiteiten uitgeoefend door een natuurlijk persoon of een niet-natuurlijk persoon. Een maatschappelijke activiteit kan ook als onderneming voorkomen."@nl ;
     dcterms:identifier "EAID_3DC85114_5C3F_4930_B98B_6EB6ED71FC2E" ;
     rdfs:comment "Een verband tussen één of meer personen met voldoende mate van zelfstandigheid, inbreng van arbeid of middelen, winstoogmerk en extern optreden (i.g.v. een onderneming) dan wel een in een organisatorisch verband, dat toebehoort aan een niet-natuurlijk persoon welke registratieplichtig is, uitgeoefende activiteit die niet valt onder de criteria voor onderneming of bedrijfsmatigheid welke adresseerbaar is middels ofwel een vestiging ofwel het adres van een bepaalde vertegenwoordiger (i.g.v. een niet-ondernemings-activiteit)."@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> .

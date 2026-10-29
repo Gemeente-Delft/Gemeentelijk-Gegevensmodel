@@ -260,7 +260,7 @@ Attributen van objecttype GebouwdObject
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Gemeente |
-    | toelichting |  |
+    | toelichting | De gemeente fungeert in het model als geo-object. Door de relatie van gemeente met andere objecttypen kan achterhaald worden welke gemeente verantwoordelijk is voor het beheer van de hieraan gerelateerde objecten en gegevens. |
     | synoniemen |  |
     | uri |  |
     | bron |  |
@@ -306,7 +306,7 @@ Attributen van objecttype Gemeente
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Ligplaats |
-    | toelichting |  |
+    | toelichting | Een ligplaats maakt in de BAG-terminologie deel uit van de groep adresseerbare objecten.<br>Hier maakt het, gezamenlijk met de STANDPLAATS en het OVERIG BENOEMD TERREIN deel uit van de groep BENOEMD TERREIN. |
     | synoniemen |  |
     | uri |  |
     | bron |  |
@@ -492,7 +492,7 @@ Attributen van objecttype Pand
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Standplaats |
-    | toelichting |  |
+    | toelichting | Een standplaats maakt in de BAG-terminologie deel uit van de groep adresseerbare objecten. Hier maakt het, gezamenlijk met de LIGPLAATS en het OVERIG BENOEMD TERREIN deel uit van de groep BENOEMD TERREIN. |
     | synoniemen |  |
     | uri |  |
     | bron |  |

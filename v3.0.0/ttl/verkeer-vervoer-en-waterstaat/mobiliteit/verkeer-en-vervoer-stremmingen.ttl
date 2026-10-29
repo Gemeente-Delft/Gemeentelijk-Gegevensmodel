@@ -948,6 +948,7 @@ uit esthetische overwegingen."""@nl ;
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "datumBeginGeldigheidWegdeel"@nl ;
+    mim:toelichting "Het betreft het attribuutsoort objectBeginTijd van het overeenkomstige Geo-object in het IMGeo. Vanwege naamsconventies binnen het stelsel van basisgegevens is voor een andere attribuutnaam gekozen."@nl ;
     mim:type mim:Date ;
     dcterms:identifier "EAID_200ABDCD_A9F0_43cb_AEFE_6E60DE9707FB" ;
     rdfs:comment "De datum waarop het wegdeel is ontstaan."@nl ;
@@ -972,6 +973,7 @@ uit esthetische overwegingen."""@nl ;
     mim:kardinaliteit "0..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "datumEindeGeldigheidWegdeel"@nl ;
+    mim:toelichting "Het betreft het attribuutsoort objectEindTijd van het overeenkomstige Geo-object in het IMGeo. Vanwege naamsconventies binnen het stelsel van basisgegevens is voor een andere attribuutnaam gekozen."@nl ;
     mim:type mim:Date ;
     dcterms:identifier "EAID_EE38C1CE_CF90_4cd4_A401_D5D54B746931" ;
     rdfs:comment "De datum waarop het wegdeel ongeldig is geworden."@nl ;
@@ -1044,6 +1046,8 @@ uit esthetische overwegingen."""@nl ;
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "geometrieWegdeel"@nl ;
+    mim:patroon "aanduiding van het type geometrie (Vlak, MultiVlak), gevolgd door coördinatenparen binnen de in Nederland gelegen waarden van het RDstelsel." ;
+    mim:toelichting "Het betreft de geometrie2d zoals gedefinieerd in het BGT bij een wegdeel."@nl ;
     mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/surface> ;
     dcterms:identifier "EAID_DC71B3C2_0AAF_471d_A07E_7B8B5886A3C2" ;
     rdfs:comment "De minimaal tweedimensionale geometrische representatie van de omtrekken van een wegdeel."@nl ;
@@ -1068,6 +1072,10 @@ uit esthetische overwegingen."""@nl ;
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "identificatieWegdeel"@nl ;
+    mim:patroon """NL.IMGEO.xxxx. Het 1e deel is de landcode, het 2e deel is de code voor het sectormodel. Het derde deel is de combinatie van de (viercijferige) gemeentecode (volgens BRP stamtabel A.5.4 Gemeente), de tweecijferige code voor het type geoobject (01) en een voor het betreffende objecttype binnen een gemeente unieke tiencijferige objectvolgnummer.
+
+Identificatie is maximaal 25 alfanumerieke tekens lang.Zie voor verdere specificaties datatype NEN3610ID.""" ;
+    mim:toelichting "In het BGT betreft dit de identificatie van het overeenkomstige geo-object."@nl ;
     mim:type mim:CharacterString ;
     dcterms:identifier "EAID_38A87B7E_B2EE_4130_8633_49FDB498EB8F" ;
     rdfs:comment "Een unieke identificatie voor een wegdeel"@nl ;
@@ -1092,6 +1100,8 @@ uit esthetische overwegingen."""@nl ;
     mim:kardinaliteit "0..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "kruinlijngeometrieWegdeel"@nl ;
+    mim:patroon "aanduiding van het type geometrie (Lijn), gevolgd door coördinatenparen binnen de in Nederland gelegen waarden van het RDstelsel." ;
+    mim:toelichting "Het betreft de relatie \"kruinlijn\" zoals gedefinieerd in het BGT bij een ondersteunend wegdeel."@nl ;
     mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/curve> ;
     dcterms:identifier "EAID_6F442520_2884_499f_9B72_DB6F3C5316A9" ;
     rdfs:comment "Lijngeometrie van de hoogstgelegen begrenzing van een kunstmatig aangelegd en onderhouden helling."@nl ;
@@ -1116,6 +1126,9 @@ uit esthetische overwegingen."""@nl ;
     mim:kardinaliteit "0..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "LOD0GeometrieWegdeel"@nl ;
+    mim:patroon "aanduiding van het type geometrie (Vlak), gevolgd door coördinatenparen binnen de in Nederland gelegen waarden van het RDstelsel." ;
+    mim:toelichting """Vlakgeometrie met z coördinaat (2.5D) die als level of detail(LOD)0 geometrie in een Digital Terrain Model (DTM) past.
+Het betreft de relatie " lod0Surface" zoals gedefinieerd in het IMGeo bij een wegdeel."""@nl ;
     mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/surface> ;
     dcterms:identifier "EAID_11438698_6342_4ba6_9160_2D334486D531" ;
     rdfs:comment "De geometrische representatie van een wegdeel als vlak in 2.5D op level of detail 0."@nl ;
@@ -1188,6 +1201,8 @@ uit esthetische overwegingen."""@nl ;
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "relatieveHoogteliggingWegdeel"@nl ;
+    mim:patroon "gehele positieve en negatieve getallen, -9 t/m 9" ;
+    mim:toelichting "Weergegeven wordt de hoogteligging van de objecten ten opzichte van elkaar. Hiervoor wordt gebruik gemaakt van niveaus die aangeven of een object zich op maaiveldniveau (niveau 0) bevindt of op een onder- of bovenliggend niveau. Standaard wordt aan een object ‘niveau 0’ toegekend. Het niveau geeft geen informatie over de absolute hoogte van een object."@nl ;
     mim:type mim:Integer ;
     dcterms:identifier "EAID_1DF32627_1A89_4452_9C25_CEA12239E5CF" ;
     rdfs:comment "Aanduiding voor de relatieve hoogte van het wegdeel"@nl ;
@@ -1212,6 +1227,7 @@ uit esthetische overwegingen."""@nl ;
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "statusWegdeel"@nl ;
+    mim:toelichting "In IMGeo kunnen zowel plan  als historische (niet meer bestaande) objecten worden opgenomen."@nl ;
     mim:type <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/statusgeoobject> ;
     dcterms:identifier "EAID_2E6FA44F_B1B3_4fbc_ACD4_28214BE0BF48" ;
     rdfs:comment "De status gekoppeld aan de levenscyclus van het wegdeel."@nl ;
@@ -1742,7 +1758,13 @@ uit esthetische overwegingen."""@nl ;
     mim:indicatieAbstractObject false ;
     mim:naam "Wegdeel"@nl ;
     mim:populatie """Wegdeelobjecten met status plan en een einddatum maken geen deel uit van de verzameling wegdelen 
+Zie verder BGT en IMGeo.
+
+Wegdeelobjecten met status plan en een einddatum maken geen deel uit van de verzameling wegdelen 
 Zie verder BGT en IMGeo.""" ;
+    mim:toelichting """Naast het bestaande object kan tegelijkertijd ook een geplande geometriewijziging van hetzelfde bestaande object zijn vastgelegd. De plantopografie is dan als apart object opgenomen met een eigen identificatie. Via de geometrische relatie is af te leiden dat het de plantopografie van een bestaand object betreft. Zie verder IMGeo.
+
+Objecttype WEGDEEL is het equivalent van het city gml objecttype TRAFFIC AREA."""@nl ;
     dcterms:identifier "EAID_9B0F3F8B_B79B_46f7_BF81_96E4C63B9AC2" ;
     rdfs:comment "Kleinste functioneel onafhankelijk stukje van een NEN 3610 Weg,  met gelijkblijvende homogene eigenschappen en relaties en primair bedoeld voor gebruik door weg-, spoor- en vliegverkeer te land"@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> .

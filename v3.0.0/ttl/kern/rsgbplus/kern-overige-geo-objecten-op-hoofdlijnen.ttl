@@ -27,6 +27,7 @@
     mim:kardinaliteit "0..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "LOD1GeometrieOverigBouwwerk"@nl ;
+    mim:toelichting "Het betreft de relatie \" lod1Geometry\" zoals gedefinieerd in het IMGeo  bij de generalisatie overige constructie van een overig bouwwerk."@nl ;
     mim:unidirectioneel true ;
     dcterms:identifier "EAID_57A99AAE_ACD4_4493_8453_EC7D719EBD52" ;
     rdfs:comment "De geometrische representatie van een overig bouwwerk in 3D op level of detail 1."@nl ;
@@ -53,6 +54,7 @@
     mim:kardinaliteit "0..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "LOD2GeometrieOverigBouwwerk"@nl ;
+    mim:toelichting "Het betreft de relatie \" lod2Geometry\" zoals gedefinieerd in het IMGeo  bij de generalisatie overige constructie van een overig bouwwerk."@nl ;
     mim:unidirectioneel true ;
     dcterms:identifier "EAID_D9F02679_7AC8_4730_B57E_649A06ED9579" ;
     rdfs:comment "De geometrische representatie van een overig bouwwerk in 3D op level of detail 2."@nl ;
@@ -79,6 +81,7 @@
     mim:kardinaliteit "0..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "lod3GeometrieOverigBouwwerk"@nl ;
+    mim:toelichting "Het betreft de relatie \" lod3Geometry\" zoals gedefinieerd in het IMGeo bij de generalisatie overige constructie van een overig bouwwerk."@nl ;
     mim:unidirectioneel true ;
     dcterms:identifier "EAID_CC182190_E732_4e00_8F98_5A6312FA893E" ;
     rdfs:comment "De geometrische representatie van een overig bouwwerk in 3D op level of detail 3."@nl ;
@@ -105,6 +108,7 @@
     mim:kardinaliteit "0..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "LOD1GeometrieOverigeScheiding"@nl ;
+    mim:toelichting "Het betreft de relatie \" lod1Geometry\" zoals gedefinieerd in het IMGeo bij de generalisatie overige constructie van een overige scheiding"@nl ;
     mim:unidirectioneel true ;
     dcterms:identifier "EAID_B77C6C59_DAA0_4000_B826_AEAD98175685" ;
     rdfs:comment "De geometrische representatie van een overige scheiding in 3D op level of detail 1."@nl ;
@@ -131,6 +135,7 @@
     mim:kardinaliteit "0..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "LOD2GeometrieOverigeScheiding"@nl ;
+    mim:toelichting "Het betreft de relatie \" lod2Geometry\" zoals gedefinieerd in het IMGeo bij de generalisatie overige constructie van een overige scheiding."@nl ;
     mim:unidirectioneel true ;
     dcterms:identifier "EAID_70ED0378_ED9C_4978_AF8C_4A6EA27BB1CA" ;
     rdfs:comment "De geometrische representatie van een overige scheiding in 3D op level of detail 2."@nl ;
@@ -157,6 +162,7 @@
     mim:kardinaliteit "0..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "lod3GeometrieOverigeScheiding"@nl ;
+    mim:toelichting "Het betreft de relatie \" lod3Geometry\" zoals gedefinieerd in het IMGeo bij de generalisatie overige constructie van een overige scheiding."@nl ;
     mim:unidirectioneel true ;
     dcterms:identifier "EAID_28CB1B99_3324_4e1a_A749_491B77B6D81C" ;
     rdfs:comment "De geometrische representatie van een overige scheiding in 3D op level of detail 3."@nl ;
@@ -183,6 +189,7 @@
     mim:kardinaliteit "0..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "LOD1GeometrieScheiding"@nl ;
+    mim:toelichting "Het betreft de relatie \" lod1Geometry\" zoals gedefinieerd in het IMgeo bij de generalisatie overige constructie van een scheiding"@nl ;
     mim:unidirectioneel true ;
     dcterms:identifier "EAID_BFFB5484_1C56_4dbe_B42B_9C71E11D97D8" ;
     rdfs:comment "De geometrische representatie van een scheiding in 3D op level of detail 1."@nl ;
@@ -209,6 +216,7 @@
     mim:kardinaliteit "0..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "LOD2GeometrieScheiding"@nl ;
+    mim:toelichting "Het betreft de relatie \" lod2Geometry\" zoals gedefinieerd in het IMGeo  bij de generalisatie overige constructie van een scheiding."@nl ;
     mim:unidirectioneel true ;
     dcterms:identifier "EAID_5CE66422_85CE_477d_B2B5_072C607A9881" ;
     rdfs:comment "De geometrische representatie van een scheiding in 3D op level of detail 2."@nl ;
@@ -235,6 +243,7 @@
     mim:kardinaliteit "0..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "lod3GeometrieScheiding"@nl ;
+    mim:toelichting "Het betreft de relatie \" lod3Geometry\" zoals gedefinieerd in het IMGeo bij de generalisatie overige constructie van een scheiding."@nl ;
     mim:unidirectioneel true ;
     dcterms:identifier "EAID_0B52794C_01CD_4b9a_9737_FB01A24DDD16" ;
     rdfs:comment "De geometrische representatie van een scheiding in 3D op level of detail 3."@nl ;
@@ -2639,6 +2648,7 @@ struikbeplanting."""@nl ;
     mim:kardinaliteit "0..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "datumEindeGeldigheid"@nl ;
+    mim:toelichting "Het betreft het attribuutsoort objectEindTijd van het overeenkomstige Geo-object in het IMGeo. Vanwege naamsconventies binnen het stelsel van basisgegevens is voor een andere attribuutnaam gekozen."@nl ;
     mim:type mim:Date ;
     dcterms:identifier "EAID_EB409FAC_92D4_4f9b_BDBA_E17F56F98003" ;
     rdfs:comment "De datum waarop het begroeid terreindeel ongeldig is geworden."@nl ;
@@ -2687,6 +2697,8 @@ struikbeplanting."""@nl ;
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "geometrie"@nl ;
+    mim:patroon "aanduiding van het type geometrie (Vlak), gevolgd door coördinatenparen binnen de in Nederland gelegen waarden van het RDstelsel." ;
+    mim:toelichting "Het betreft de relatie \"geometrie2d\" zoals gedefinieerd in het BGT bij een begroeid terreindeel."@nl ;
     mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/surface> ;
     dcterms:identifier "EAID_87E470ED_905A_4062_8DD2_4830F390AE76" ;
     rdfs:comment "De minimaal tweedimensionale geometrische representatie van de omtrekken van een begroeid terreindeel."@nl ;
@@ -2711,6 +2723,10 @@ struikbeplanting."""@nl ;
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "identificatie"@nl ;
+    mim:patroon """NL.IMGEO.xxxx. Het 1e deel is de landcode, het 2e deel is de code voor het sectormodel. Het derde deel is de combinatie van de (viercijferige) gemeentecode (volgens BRP stamtabel A.5.4 Gemeente), de tweecijferige code voor het type geo object (01) en een voor het betreffende objecttype binnen een gemeente unieke tiencijferige objectvolgnummer.
+
+Identificatie is maximaal 25 alfanumerieke tekens lang.Zie voor verdere specificaties datatype NEN3610ID.""" ;
+    mim:toelichting "In het IMGeo betreft dit de identificatie van het overeenkomstige geo-object."@nl ;
     mim:type mim:CharacterString ;
     dcterms:identifier "EAID_2B33176F_FD86_460e_B18E_37B114C7830A" ;
     rdfs:comment "Een unieke identificatie voor een begroeid terreindeel"@nl ;
@@ -2735,6 +2751,8 @@ struikbeplanting."""@nl ;
     mim:kardinaliteit "0..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "kruinlijngeometrie"@nl ;
+    mim:patroon "aanduiding van het type geometrie (Lijn), gevolgd door coördinatenparen binnen de in Nederland gelegen waarden van het RDstelsel." ;
+    mim:toelichting "Het betreft de relatie \" kruinlijngeometrie\" zoals gedefinieerd in het BGT bij een begroeid terreindeel."@nl ;
     mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/curve> ;
     dcterms:identifier "EAID_77FF5087_AB67_41c3_AEE0_76C1C6538AF2" ;
     rdfs:comment "Lijngeometrie van de hoogstgelegen begrenzing van een kunstmatig aangelegd en onderhouden helling."@nl ;
@@ -2759,6 +2777,8 @@ struikbeplanting."""@nl ;
     mim:kardinaliteit "0..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "LOD0Geometrie"@nl ;
+    mim:patroon "aanduiding van het type geometrie (MultiVlak), gevolgd door coördinatenparen binnen de in Nederland gelegen waarden van het RDstelsel." ;
+    mim:toelichting "Het betreft de relatie \" lod0MultiSurface\" zoals gedefinieerd in het IMGeo bij een begroeid terreindeel."@nl ;
     mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/multisurface> ;
     dcterms:identifier "EAID_772AD202_A31D_409f_A757_8DE022B5635D" ;
     rdfs:comment "De geometrische representatie van een begroeid terreindeel als multivlak in 2.5D op level of detail 0."@nl ;
@@ -2783,6 +2803,7 @@ struikbeplanting."""@nl ;
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "opTalud"@nl ;
+    mim:toelichting "Defaultwaarde is N (geen talud)."@nl ;
     mim:type mim:Boolean ;
     dcterms:identifier "EAID_C8B5A686_BBB1_4ee1_A3BA_177E64E86445" ;
     rdfs:comment "Indicatie of het object wel of niet op een hellend vlak ligt."@nl ;
@@ -2831,6 +2852,8 @@ struikbeplanting."""@nl ;
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "relatieveHoogteligging"@nl ;
+    mim:patroon "gehele positieve en negatieve getallen, -9 t/m 9" ;
+    mim:toelichting "Weergegeven wordt de hoogteligging van de objecten ten opzichte van elkaar. Hiervoor wordt gebruik gemaakt van niveaus die aangeven of een object zich op maaiveldniveau (niveau 0) bevindt of op een onder- of bovenliggend niveau. Standaard wordt aan een object ‘niveau 0’ toegekend. Het niveau geeft geen informatie over de absolute hoogte van een object."@nl ;
     mim:type mim:Integer ;
     dcterms:identifier "EAID_44D8C1ED_4A4A_4d78_962C_B225656646DA" ;
     rdfs:comment "Aanduiding voor de relatieve hoogte van het begroeid terreindeel"@nl ;
@@ -2879,6 +2902,7 @@ struikbeplanting."""@nl ;
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "datumBeginGeldigheidFunctioneelGebied"@nl ;
+    mim:toelichting "Het betreft het attribuutsoort objectBeginTijd van het overeenkomstige Geo-object in het IMGeo. Vanwege naamsconventies binnen het stelsel van basisgegevens is voor een andere attribuutnaam gekozen."@nl ;
     mim:type mim:Date ;
     dcterms:identifier "EAID_A3D69C5C_3786_4bb5_9943_62AACF27C123" ;
     rdfs:comment "De datum waarop het functioneel gebied is ontstaan."@nl ;
@@ -2903,6 +2927,7 @@ struikbeplanting."""@nl ;
     mim:kardinaliteit "0..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "datumEindeGeldigheidFunctioneelGebied"@nl ;
+    mim:toelichting "Het betreft het attribuutsoort objectEindTijd van het overeenkomstige Geo-object in het IMGeo. Vanwege naamsconventies binnen het stelsel van basisgegevens is voor een andere attribuutnaam gekozen."@nl ;
     mim:type mim:Date ;
     dcterms:identifier "EAID_BCE7B03B_E96E_4750_8457_6F2D544734B6" ;
     rdfs:comment "De datum waarop het functioneel gebied ongeldig is geworden."@nl ;
@@ -2927,6 +2952,8 @@ struikbeplanting."""@nl ;
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "geometrieFunctioneelGebied"@nl ;
+    mim:patroon "alle binnen Nederland gelegen waarden van het RD-stelsel." ;
+    mim:toelichting "Het betreft de geometrie2d zoals gedefinieerd in het BGT bij een functioneel gebied."@nl ;
     mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/surface> ;
     dcterms:identifier "EAID_46F8D5C6_FE99_4770_86A8_810E1BE4FA9F" ;
     rdfs:comment "De tweedimensionale geometrische representatie van de omtrekken van het functioneel gebied."@nl ;
@@ -2951,6 +2978,11 @@ struikbeplanting."""@nl ;
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "identificatieFunctioneelGebied"@nl ;
+    mim:patroon """NL.IMGEO.xxxx. Het 1e deel is de landcode, het 2e deel is de code voor het sectormodel. Het derde deel is de combinatie van de (viercijferige) gemeentecode (volgens BRP stamtabel A.5.4 Gemeente), de tweecijferige code voor het type geoobject (06) en een voor het betreffende objecttype binnen een gemeente unieke tiencijferige objectvolgnummer.
+
+Identificatie is maximaal 25 alfanumerieke tekens lang.Zie voor verdere specificaties datatype NEN3610ID.""" ;
+    mim:toelichting """In het IMGeo betreft dit de identificatie van het overeenkomstige geo-object. 
+Voor de identificatie worden de richtlijnen van NEN 3610 gehanteerd."""@nl ;
     mim:type mim:CharacterString ;
     dcterms:identifier "EAID_615FC188_4144_4716_B745_A7EA6CEA8787" ;
     rdfs:comment "Een unieke identificatie voor een functioneel gebied."@nl ;
@@ -2975,6 +3007,7 @@ struikbeplanting."""@nl ;
     mim:kardinaliteit "0..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "naamFunctioneelGebied"@nl ;
+    mim:patroon "alle alfanumerieke tekens zonder …" ;
     mim:type mim:CharacterString ;
     dcterms:identifier "EAID_5B0814B4_B825_416e_8664_3D0127E43700" ;
     rdfs:comment "De benaming van het functioneel gebied."@nl ;
@@ -2999,6 +3032,7 @@ struikbeplanting."""@nl ;
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "statusFunctioneelGebied"@nl ;
+    mim:toelichting "In IMGeo kunnen zowel toekomstige als historische (niet meer bestaande) objecten worden opgenomen."@nl ;
     mim:type <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/statusgeoobject> ;
     dcterms:identifier "EAID_F853A34E_C541_4d62_9968_FDA1EBC2835C" ;
     rdfs:comment "De status gekoppeld aan de levenscyclus van het functioneel gebied."@nl ;
@@ -3023,6 +3057,7 @@ struikbeplanting."""@nl ;
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "datumBeginGeldigheidGebouwinstallatie"@nl ;
+    mim:toelichting "Het betreft het attribuutsoort objectBeginTijd van het overeenkomstige Geo-object in het IMGeo. Vanwege naamsconventies binnen het stelsel van basisgegevens is voor een andere attribuutnaam gekozen."@nl ;
     mim:type mim:Date ;
     dcterms:identifier "EAID_754CB973_827D_4c03_92BC_73CC4378FA10" ;
     rdfs:comment "De datum waarop de gebouwinstallatie is ontstaan."@nl ;
@@ -3047,6 +3082,7 @@ struikbeplanting."""@nl ;
     mim:kardinaliteit "0..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "datumEindeGeldigheidGebouwinstallatie"@nl ;
+    mim:toelichting "Het betreft het attribuutsoort objectEindTijd van het overeenkomstige Geo-object in het IMGeo. Vanwege naamsconventies binnen het stelsel van basisgegevens is voor een andere attribuutnaam gekozen."@nl ;
     mim:type mim:Date ;
     dcterms:identifier "EAID_D71086E8_A81B_428a_A9F5_098C423CF451" ;
     rdfs:comment "De datum waarop de gebouwinstallatie ongeldig is geworden."@nl ;
@@ -3071,6 +3107,8 @@ struikbeplanting."""@nl ;
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "geometrieGebouwinstallatie"@nl ;
+    mim:patroon "aanduiding van het type geometrie (Vlak), gevolgd door coördinatenparen binnen de in Nederland gelegen waarden van het RDstelsel." ;
+    mim:toelichting "Het betreft de relatie \"geometrie2d\" zoals gedefinieerd in het IMGeo  bij een gebouwinstallatie."@nl ;
     mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/surface> ;
     dcterms:identifier "EAID_32EF584E_2B2E_4929_A6E5_EE9D2D32C265" ;
     rdfs:comment "De minimaal tweedimensionale geometrische representatie van de omtrekken van een gebouwinstallatie."@nl ;
@@ -3095,6 +3133,10 @@ struikbeplanting."""@nl ;
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "identificatieGebouwinstallatie"@nl ;
+    mim:patroon """NL.IMGEO.xxxx. Het 1e deel is de landcode, het 2e deel is de code voor het sectormodel. Het derde deel is de combinatie van de (viercijferige) gemeentecode (volgens BRP stamtabel A.5.4 Gemeente), de tweecijferige code voor het type geoobject (01) en een voor het betreffende objecttype binnen een gemeente unieke tiencijferige objectvolgnummer.
+
+Identificatie is maximaal 25 alfanumerieke tekens lang.Zie voor verdere specificaties datatype NEN3610ID.""" ;
+    mim:toelichting "In het IMGeo betreft dit de identificatie van het overeenkomstige geo-object."@nl ;
     mim:type mim:CharacterString ;
     dcterms:identifier "EAID_B47DDC83_027D_4d80_B86F_A8FC389F3014" ;
     rdfs:comment "Een unieke identificatie voor een gebouwinstallatie."@nl ;
@@ -3119,6 +3161,8 @@ struikbeplanting."""@nl ;
     mim:kardinaliteit "0..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "LOD0GeometrieGebouwinstallatie"@nl ;
+    mim:patroon "aanduiding van het type geometrie (Vlak), gevolgd door coördinatenparen binnen de in Nederland gelegen waarden van het RDstelsel." ;
+    mim:toelichting "Het betreft de relatie \" lod0Geometry\" zoals gedefinieerd in het IMGeo bij een gebouwinstallatie."@nl ;
     mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/surface> ;
     dcterms:identifier "EAID_DB25DC92_25C0_4216_AAAB_C638AB92DCDB" ;
     rdfs:comment "De geometrische representatie van een gebouwinstallatie als vlak in 2.5D op level of detail 0."@nl ;
@@ -3143,6 +3187,8 @@ struikbeplanting."""@nl ;
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "relatieveHoogteliggingGebouwinstallatie"@nl ;
+    mim:patroon "gehele positieve en negatieve getallen, -9 t/m 9" ;
+    mim:toelichting "Weergegeven wordt de hoogteligging van de objecten ten opzichte van elkaar. Hiervoor wordt gebruik gemaakt van niveaus die aangeven of een object zich op maaiveldniveau (niveau 0) bevindt of op een onder- of bovenliggend niveau. Standaard wordt aan een object ‘niveau 0’ toegekend. Het niveau geeft geen informatie over de absolute hoogte van een object."@nl ;
     mim:type mim:Integer ;
     dcterms:identifier "EAID_4DB6B5ED_A802_4530_A4FA_8C55E26017E4" ;
     rdfs:comment "Aanduiding voor de relatieve hoogte van de gebouwinstallatie."@nl ;
@@ -3215,6 +3261,7 @@ struikbeplanting."""@nl ;
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "datumBeginGeldigheidInrichtingselement"@nl ;
+    mim:toelichting "Het betreft het attribuutsoort objectBeginTijd van het overeenkomstige Geo-object in het IMGeo. Vanwege naamsconventies binnen het stelsel van basisgegevens is voor een andere attribuutnaam gekozen."@nl ;
     mim:type mim:Date ;
     dcterms:identifier "EAID_4906417E_E81C_42a0_8555_2DBA7367A5BB" ;
     rdfs:comment "De datum waarop het inrichtingselement is ontstaan."@nl ;
@@ -3239,6 +3286,7 @@ struikbeplanting."""@nl ;
     mim:kardinaliteit "0..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "datumEindeGeldigheidInrichtingselement"@nl ;
+    mim:toelichting "Het betreft het attribuutsoort objectEindTijd van het overeenkomstige Geo-object in het IMGeo. Vanwege naamsconventies binnen het stelsel van basisgegevens is voor een andere attribuutnaam gekozen."@nl ;
     mim:type mim:Date ;
     dcterms:identifier "EAID_EE9EB156_8BAB_46c9_B937_8C64E48BC464" ;
     rdfs:comment "De datum waarop het inrichtingselement ongeldig is geworden."@nl ;
@@ -3263,6 +3311,9 @@ struikbeplanting."""@nl ;
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "geometrieInrichtingselement"@nl ;
+    mim:patroon """Aanduiding van het type geometrie (Punt, Lijn of Vlak) gevolgd door coördinatenparen binnen de in Nederland gelegen waarden van het RD-stelsel.
+
+Zie ook regels attribuutsoort.""" ;
     mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/surface> ;
     dcterms:identifier "EAID_426FE3C3_423C_44d3_AEE0_00270B6AC471" ;
     rdfs:comment "De geometrische representatie van een inrichtingselement."@nl ;
@@ -3287,6 +3338,11 @@ struikbeplanting."""@nl ;
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "identificatieInrichtingselement"@nl ;
+    mim:patroon """NL.IMGEO.xxxx. Het 1e deel is de landcode, het 2e deel is de code voor het sectormodel. Het derde deel is de combinatie van de (viercijferige) gemeentecode (volgens BRP stamtabel A.5.4 Gemeente), de tweecijferige code voor het type geoobject (01) en een voor het betreffende objecttype binnen een gemeente unieke tiencijferige objectvolgnummer.
+
+Identificatie is maximaal 25 alfanumerieke tekens lang.Zie voor verdere specificaties datatype NEN3610ID.""" ;
+    mim:toelichting """In het IMGeo betreft dit de identificatie van het overeenkomstige geo-object. 
+Voor de identificatie worden de richtlijnen van NEN 3610 gehanteerd."""@nl ;
     mim:type mim:CharacterString ;
     dcterms:identifier "EAID_C866C4A0_D914_44fa_BF7D_AF201C5B2C86" ;
     rdfs:comment "Een unieke identificatie voor een inrichtingselement."@nl ;
@@ -3335,6 +3391,7 @@ struikbeplanting."""@nl ;
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "plusTypeInrichtingselement"@nl ;
+    mim:toelichting "Verwijzing naar gelijknamig attribuutsoort plus type bij de specialisaties uit IMGeo."@nl ;
     mim:type <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/typeringinrichtingselementplus> ;
     dcterms:identifier "EAID_19BCDF8D_2515_449d_AFC4_F42705FC0C47" ;
     rdfs:comment "Specificatie van het soort inrichtingselement."@nl ;
@@ -3359,6 +3416,8 @@ struikbeplanting."""@nl ;
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "relatieveHoogteliggingInrichtingselement"@nl ;
+    mim:patroon "gehele positieve en negatieve getallen, -9 t/m 9" ;
+    mim:toelichting "Weergegeven wordt de hoogteligging van de objecten ten opzichte van elkaar. Hiervoor wordt gebruik gemaakt van niveaus die aangeven of een object zich op maaiveldniveau (niveau 0) bevindt of op een onder- of bovenliggend niveau. Standaard wordt aan een object ‘niveau 0' toegekend. Het niveau geeft geen informatie over de absolute hoogte van een object."@nl ;
     mim:type mim:Integer ;
     dcterms:identifier "EAID_F519AFED_F353_415c_9404_A0698A6847D7" ;
     rdfs:comment "Aanduiding voor de relatieve hoogte van het inrichtingselement."@nl ;
@@ -3431,6 +3490,7 @@ struikbeplanting."""@nl ;
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "datumBeginGeldigheid"@nl ;
+    mim:toelichting "Het betreft het attribuutsoort objectBeginTijd van het overeenkomstige Geo-object in het IMGeo. Vanwege naamsconventies binnen het stelsel van basisgegevens is voor een andere attribuutnaam gekozen."@nl ;
     mim:type mim:Date ;
     dcterms:identifier "EAID_782326A2_BC26_4e1b_B67F_5F49F351B112" ;
     rdfs:comment "De datum waarop het onbegroeid terreindeel is ontstaan."@nl ;
@@ -3455,6 +3515,7 @@ struikbeplanting."""@nl ;
     mim:kardinaliteit "0..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "datumEindeGeldigheid"@nl ;
+    mim:toelichting "Het betreft het attribuutsoort objectEindTijd van het overeenkomstige Geo-object in het IMGeo. Vanwege naamsconventies binnen het stelsel van basisgegevens is voor een andere attribuutnaam gekozen."@nl ;
     mim:type mim:Date ;
     dcterms:identifier "EAID_6BC5D209_0976_4573_991F_5C368E2FE747" ;
     rdfs:comment "De datum waarop het onbegroeid terreindeel ongeldig is geworden."@nl ;
@@ -3505,6 +3566,8 @@ verschijningsvorm."""@nl ;
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "geometrie"@nl ;
+    mim:patroon "aanduiding van het type geometrie (Vlak), gevolgd door coördinatenparen binnen de in Nederland gelegen waarden van het RDstelsel." ;
+    mim:toelichting "Het betreft de geometrie2d zoals gedefinieerd in het BGT bij een onbegroeid terreindeel."@nl ;
     mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/surface> ;
     dcterms:identifier "EAID_159C897F_7DD2_49c8_9928_4A6AA2CE4605" ;
     rdfs:comment "De minimaal tweedimensionale geometrische representatie van de omtrekken van een onbegroeid terreindeel."@nl ;
@@ -3529,6 +3592,10 @@ verschijningsvorm."""@nl ;
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "identificatie"@nl ;
+    mim:patroon """NL.IMGEO.xxxx. Het 1e deel is de landcode, het 2e deel is de code voor het sectormodel. Het derde deel is de combinatie van de (viercijferige) gemeentecode (volgens BRP stamtabel A.5.4 Gemeente), de tweecijferige code voor het type geoobject (01) en een voor het betreffende objecttype binnen een gemeente unieke tiencijferige objectvolgnummer.
+
+Identificatie is maximaal 25 alfanumerieke tekens lang.Zie voor verdere specificaties datatype NEN3610ID.""" ;
+    mim:toelichting "In het IMGeo betreft dit de identificatie van het overeenkomstige geo-object."@nl ;
     mim:type mim:CharacterString ;
     dcterms:identifier "EAID_95E06D83_DFB0_44d0_B3A4_1B29F6332C7D" ;
     rdfs:comment "Een unieke identificatie voor een onbegroeid terreindeel"@nl ;
@@ -3553,6 +3620,8 @@ verschijningsvorm."""@nl ;
     mim:kardinaliteit "0..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "kruinlijngeometrie"@nl ;
+    mim:patroon "aanduiding van het type geometrie (Lijn), gevolgd door coördinatenparen binnen de in Nederland gelegen waarden van het RDstelsel." ;
+    mim:toelichting "Het betreft de kruinlijngeometrie zoals gedefinieerd in het BGT bij een onbegroeid terreindeel."@nl ;
     mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/curve> ;
     dcterms:identifier "EAID_298C47DC_9CDF_4589_961E_0D308A08B291" ;
     rdfs:comment "Lijngeometrie van de hoogstgelegen begrenzing van een kunstmatig aangelegd en onderhouden helling."@nl ;
@@ -3627,6 +3696,8 @@ verschijningsvorm."""@nl ;
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "relatieveHoogteligging"@nl ;
+    mim:patroon "gehele positieve en negatieve getallen, -9 t/m 9" ;
+    mim:toelichting "Weergegeven wordt de hoogteligging van de objecten ten opzichte van elkaar. Hiervoor wordt gebruik gemaakt van niveaus die aangeven of een object zich op maaiveldniveau (niveau 0) bevindt of op een onder- of bovenliggend niveau. Standaard wordt aan een object ‘niveau 0’ toegekend. Het niveau geeft geen informatie over de absolute hoogte van een object."@nl ;
     mim:type mim:Integer ;
     dcterms:identifier "EAID_A4A8DA6F_E095_4292_8D9F_52326E5E1B4E" ;
     rdfs:comment "Aanduiding voor de relatieve hoogte van het onbegroeid terreindeel"@nl ;
@@ -3675,6 +3746,7 @@ verschijningsvorm."""@nl ;
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "datumBeginGeldigheidOverigBouwwerk"@nl ;
+    mim:toelichting "Het betreft het attribuutsoort objectBeginTijd van het overeenkomstige Geo-object in het BGT. Vanwege naamsconventies binnen het stelsel van basisgegevens is voor een andere attribuutnaam gekozen."@nl ;
     mim:type mim:Date ;
     dcterms:identifier "EAID_2A5F377F_088B_464a_BF11_15260E813F8C" ;
     rdfs:comment "De datum waarop het overig bouwwerk  is ontstaan."@nl ;
@@ -3699,6 +3771,7 @@ verschijningsvorm."""@nl ;
     mim:kardinaliteit "0..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "datumEindeGeldigheidOverigBouwwerk"@nl ;
+    mim:toelichting "Het betreft het attribuutsoort objectEindTijd van het overeenkomstige Geo-object in het BGT. Vanwege naamsconventies binnen het stelsel van basisgegevens is voor een andere attribuutnaam gekozen."@nl ;
     mim:type mim:Date ;
     dcterms:identifier "EAID_A5A72783_02CD_4e2a_B891_CA17CFB0F2C5" ;
     rdfs:comment "De datum waarop het overig bouwwerk ongeldig is geworden."@nl ;
@@ -3747,6 +3820,9 @@ verschijningsvorm."""@nl ;
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "identificatieOverigBouwwerk"@nl ;
+    mim:patroon """NL.BGT.xxxx. Het 1e deel is de landcode, het 2e deel is de code voor het sectormodel. Het derde deel is de combinatie van de (viercijferige) gemeentecode (volgens BRP stamtabel A.5.4 Gemeente), de tweecijferige code voor het type geoobject (01) en een voor het betreffende objecttype binnen een gemeente unieke tiencijferige objectvolgnummer.
+
+Identificatie is maximaal 25 alfanumerieke tekens lang. Zie voor verdere specificaties datatype NEN3610ID.""" ;
     mim:type mim:CharacterString ;
     dcterms:identifier "EAID_4DD7EF04_28AB_4cab_B86E_325C6BA37D63" ;
     rdfs:comment "De unieke identificatie van het overig bouwwerk zoals is toegekend in de IMGeo administratie."@nl ;
@@ -3771,6 +3847,7 @@ verschijningsvorm."""@nl ;
     mim:kardinaliteit "0..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "LOD0GeometrieOverigBouwwerk"@nl ;
+    mim:toelichting "Het betreft de relatie \" lod0Geometry\" zoals gedefinieerd in het IMGeo bij de generalisatie overige constructie van een overig bouwwerk."@nl ;
     mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/surface> ;
     dcterms:identifier "EAID_2D6CC484_5AFE_45fc_A9E1_B6072837338F" ;
     rdfs:comment "De geometrische representatie van een overig bouwwerk als punt, lijn of vlak 2.5D op level of detail 0."@nl ;
@@ -3795,6 +3872,7 @@ verschijningsvorm."""@nl ;
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "relatieveHoogteliggingOverigBouwwerk"@nl ;
+    mim:patroon "gehele positieve en negatieve getallen, -9 t/m 9" ;
     mim:type mim:Integer ;
     dcterms:identifier "EAID_74D941DD_9D4F_4f04_917A_E63D2F3DCA57" ;
     rdfs:comment "Aanduiding voor de relatieve hoogte van het overig bouwwerk."@nl ;
@@ -3819,6 +3897,7 @@ verschijningsvorm."""@nl ;
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "statusOverigBouwwerk"@nl ;
+    mim:toelichting "In het BGT betreft dit de status van het overeenkomstige geo-object."@nl ;
     mim:type <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/statusgeoobject> ;
     dcterms:identifier "EAID_9B430C7A_137D_4332_AF84_18323DE935AA" ;
     rdfs:comment "De status gekoppeld aan de levenscyclus van het overig bouwwerk object"@nl ;
@@ -3843,6 +3922,7 @@ verschijningsvorm."""@nl ;
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "datumBeginGeldigheidOverigeScheiding"@nl ;
+    mim:toelichting "Het betreft het attribuutsoort objectBeginTijd van het overeenkomstige Geo-object in het IMGeo. Vanwege naamsconventies binnen het stelsel van basisgegevens is voor een andere attribuutnaam gekozen."@nl ;
     mim:type mim:Date ;
     dcterms:identifier "EAID_9BB9E83D_CD79_4a5b_883A_E9728E410E18" ;
     rdfs:comment "De datum waarop de overige scheiding is ontstaan."@nl ;
@@ -3867,6 +3947,7 @@ verschijningsvorm."""@nl ;
     mim:kardinaliteit "0..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "datumEindeGeldigheidOverigeScheiding"@nl ;
+    mim:toelichting "Het betreft het attribuutsoort objectEindTijd van het overeenkomstige Geo-object in het IMGeo. Vanwege naamsconventies binnen het stelsel van basisgegevens is voor een andere attribuutnaam gekozen."@nl ;
     mim:type mim:Date ;
     dcterms:identifier "EAID_C24CA271_88A3_4a75_BDC7_B212B6DD0B7C" ;
     rdfs:comment "De datum waarop de overige scheiding ongeldig is geworden."@nl ;
@@ -3891,6 +3972,8 @@ verschijningsvorm."""@nl ;
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "geometrieOverigeScheiding"@nl ;
+    mim:patroon "aanduiding van het type geometrie (Lijn, Vlak), gevolgd door coördinatenparen binnen de in Nederland gelegen waarden van het RDstelsel." ;
+    mim:toelichting "Het betreft de geometrie2d zoals gedefinieerd in BGT bij de generalisatie Overige Constructie van een Overige Scheiding."@nl ;
     mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/vlak> ;
     dcterms:identifier "EAID_A69C2ECF_D47D_41d0_8F6D_FE9292127FBF" ;
     rdfs:comment "De minimaal tweedimensionale geometrische representatie van de omtrekken van een overige scheiding"@nl ;
@@ -3915,6 +3998,10 @@ verschijningsvorm."""@nl ;
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "identificatieOverigeScheiding"@nl ;
+    mim:patroon """NL.IMGEO.xxxx. Het 1e deel is de landcode, het 2e deel is de code voor het sectormodel. Het derde deel is de combinatie van de (viercijferige) gemeentecode (volgens BRP stamtabel A.5.4 Gemeente), de tweecijferige code voor het type geoobject (01) en een voor het betreffende objecttype binnen een gemeente unieke tiencijferige objectvolgnummer.
+
+Identificatie is maximaal 25 alfanumerieke tekens lang.Zie voor verdere specificaties datatype NEN3610ID.""" ;
+    mim:toelichting "In het IMGeo betreft dit de identificatie van het overeenkomstige geo-object."@nl ;
     mim:type mim:CharacterString ;
     dcterms:identifier "EAID_15115DF0_FC69_4271_A655_31C9C68142DE" ;
     rdfs:comment "Een unieke identificatie voor een overige scheiding."@nl ;
@@ -3939,6 +4026,7 @@ verschijningsvorm."""@nl ;
     mim:kardinaliteit "0..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "LOD0GeometrieOverigeScheiding"@nl ;
+    mim:toelichting "Het betreft de relatie \" lod0Geometry\" zoals gedefinieerd in het IMGeo  bij de generalisatie overige constructie van een overige scheiding."@nl ;
     mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/surface> ;
     dcterms:identifier "EAID_B33C3D5D_0E6E_402e_A7B6_896B08BD34E5" ;
     rdfs:comment "De geometrische representatie van een overige scheiding als punt, lijn of vlak in 2.5D op level of detail 0."@nl ;
@@ -3963,6 +4051,8 @@ verschijningsvorm."""@nl ;
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "relatieveHoogteliggingOverigeScheiding"@nl ;
+    mim:patroon "gehele positieve en negatieve getallen, -9 t/m 9" ;
+    mim:toelichting "R"@nl ;
     mim:type mim:Integer ;
     dcterms:identifier "EAID_66963A96_11F9_4da4_9474_B5717651D2DA" ;
     rdfs:comment "Aanduiding voor de relatieve hoogte van de overige scheiding."@nl ;
@@ -4035,6 +4125,7 @@ verschijningsvorm."""@nl ;
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "datumBeginGeldigheidScheiding"@nl ;
+    mim:toelichting "Het betreft het attribuutsoort objectBeginTijd van het overeenkomstige Geo-object in het IMGeo. Vanwege naamsconventies binnen het stelsel van basisgegevens is voor een andere attribuutnaam gekozen."@nl ;
     mim:type mim:Date ;
     dcterms:identifier "EAID_5D6C441D_6B11_4295_810E_BB3F1FA25313" ;
     rdfs:comment "De datum waarop de scheiding is ontstaan."@nl ;
@@ -4059,6 +4150,7 @@ verschijningsvorm."""@nl ;
     mim:kardinaliteit "0..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "datumEindeGeldigheidScheiding"@nl ;
+    mim:toelichting "Het betreft het attribuutsoort objectEindTijd van het overeenkomstige Geo-object in het IMGeo. Vanwege naamsconventies binnen het stelsel van basisgegevens is voor een andere attribuutnaam gekozen."@nl ;
     mim:type mim:Date ;
     dcterms:identifier "EAID_05272652_8657_4b14_8D5E_BCCFFC07CFC7" ;
     rdfs:comment "De datum waarop het scheiding ongeldig is geworden."@nl ;
@@ -4083,6 +4175,8 @@ verschijningsvorm."""@nl ;
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "geometrieScheiding"@nl ;
+    mim:patroon "aanduiding van het type geometrie (Lijn, Vlak), gevolgd door coördinatenparen binnen de in Nederland gelegen waarden van het RDstelsel." ;
+    mim:toelichting "Het betreft de geometrie2d zoals gedefinieerd in he BGT bij de generalisatie Overige Constructie van een Scheiding."@nl ;
     mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/vlak> ;
     dcterms:identifier "EAID_61890AD1_FAFC_4bb7_AC44_827A26F30004" ;
     rdfs:comment "De minimaal tweedimensionale geometrische representatie van de omtrekken van een scheiding"@nl ;
@@ -4107,6 +4201,10 @@ verschijningsvorm."""@nl ;
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "identificatieScheiding"@nl ;
+    mim:patroon """NL.IMGEO.xxxx. Het 1e deel is de landcode, het 2e deel is de code voor het sectormodel. Het derde deel is de combinatie van de (viercijferige) gemeentecode (volgens BRP stamtabel A.5.4 Gemeente), de tweecijferige code voor het type geoobject (01) en een voor het betreffende objecttype binnen een gemeente unieke tiencijferige objectvolgnummer.
+
+Identificatie is maximaal 25 alfanumerieke tekens lang.Zie voor verdere specificaties datatype NEN3610ID.""" ;
+    mim:toelichting "In het IMGeo betreft dit de identificatie van het overeenkomstige geo-object."@nl ;
     mim:type mim:CharacterString ;
     dcterms:identifier "EAID_E9A63893_A16F_44b2_8215_4CD5EA9FEAF9" ;
     rdfs:comment "Een unieke identificatie voor een scheiding."@nl ;
@@ -4131,6 +4229,7 @@ verschijningsvorm."""@nl ;
     mim:kardinaliteit "0..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "LOD0GeometrieScheiding"@nl ;
+    mim:toelichting "Het betreft de relatie \" lod0Geometry\" zoals gedefinieerd in het IMGeo bij de generalisatie overige constructie van een scheiding."@nl ;
     mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/surface> ;
     dcterms:identifier "EAID_6D07B2D2_ADF1_46a9_A95B_36BF574171B5" ;
     rdfs:comment "De geometrische representatie van een scheiding als punt, lijn of vlak in 2.5D op level of detail 0."@nl ;
@@ -4155,6 +4254,8 @@ verschijningsvorm."""@nl ;
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "relatieveHoogteliggingScheiding"@nl ;
+    mim:patroon "gehele positieve en negatieve getallen, -9 t/m 9" ;
+    mim:toelichting "R"@nl ;
     mim:type mim:Integer ;
     dcterms:identifier "EAID_20D63D8F_037F_4111_B493_8CD4141B72C2" ;
     rdfs:comment "Aanduiding voor de relatieve hoogte van de scheiding."@nl ;
@@ -4179,6 +4280,7 @@ verschijningsvorm."""@nl ;
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "statusScheiding"@nl ;
+    mim:toelichting "In  IMGeo kunnen zowel toekomstige als historische (niet meer bestaande) objecten worden opgenomen"@nl ;
     mim:type <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/statusgeoobject> ;
     dcterms:identifier "EAID_94F07EDF_BCC6_4326_B29D_1FAE74D224AB" ;
     rdfs:comment "De status gekoppeld aan de levenscyclus van de scheiding."@nl ;
@@ -4203,6 +4305,7 @@ verschijningsvorm."""@nl ;
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "datumBeginGeldigheidVegetatieobject"@nl ;
+    mim:toelichting "Het betreft het attribuutsoort objectBeginTijd van het overeenkomstige Geo-object in het IMGeo. Vanwege naamsconventies binnen het stelsel van basisgegevens is voor een andere attribuutnaam gekozen."@nl ;
     mim:type mim:Date ;
     dcterms:identifier "EAID_0ED82C2C_96F3_4004_9ED6_79EFD931CDBC" ;
     rdfs:comment "De datum waarop het vegetatieobject is ontstaan."@nl ;
@@ -4227,6 +4330,7 @@ verschijningsvorm."""@nl ;
     mim:kardinaliteit "0..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "datumEindeGeldigheidVegetatieobject"@nl ;
+    mim:toelichting "Het betreft het attribuutsoort objectEindTijd van het overeenkomstige Geo-object in het IMGeo. Vanwege naamsconventies binnen het stelsel van basisgegevens is voor een andere attribuutnaam gekozen."@nl ;
     mim:type mim:Date ;
     dcterms:identifier "EAID_A6250647_2723_4619_AB0B_28AD0D904674" ;
     rdfs:comment "De datum waarop het vegetatieobject ongeldig is geworden."@nl ;
@@ -4251,6 +4355,8 @@ verschijningsvorm."""@nl ;
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "geometrieVegetatieobject"@nl ;
+    mim:patroon "aanduiding van het type geometrie (Punt, Lijn of Vlak), gevolgd door coördinatenparen binnen de in Nederland gelegen waarden van het RDstelsel." ;
+    mim:toelichting "Het betreft de relatie \"geometrie2d\" zoals gedefinieerd in het IMGeo bij een vegetatieobject."@nl ;
     mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/surface> ;
     dcterms:identifier "EAID_DDC99691_D4EB_44a8_9F67_43936D0B0A14" ;
     rdfs:comment "De geometrische representatie van een vegetatieobject als punt, lijn of vlak."@nl ;
@@ -4275,6 +4381,10 @@ verschijningsvorm."""@nl ;
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "identificatieVegetatieobject"@nl ;
+    mim:patroon """NL.IMGEO.xxxx. Het 1e deel is de landcode, het 2e deel is de code voor het sectormodel. Het derde deel is de combinatie van de (viercijferige) gemeentecode (volgens BRP stamtabel A.5.4 Gemeente), de tweecijferige code voor het type geoobject (01) en een voor het betreffende objecttype binnen een gemeente unieke tiencijferige objectvolgnummer.
+
+Identificatie is maximaal 25 alfanumerieke tekens lang.Zie voor verdere specificaties datatype NEN3610ID.""" ;
+    mim:toelichting "In het BGT betreft dit de identificatie van het overeenkomstige geo-object."@nl ;
     mim:type mim:CharacterString ;
     dcterms:identifier "EAID_718FB892_68B7_4adf_A396_EFFAF5B9B858" ;
     rdfs:comment "Een unieke identificatie voor een vegetatieobject."@nl ;
@@ -4299,6 +4409,8 @@ verschijningsvorm."""@nl ;
     mim:kardinaliteit "0..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "LOD0GeometrieVegetatieobject"@nl ;
+    mim:patroon "aanduiding van het type geometrie (Punt, Lijn of Vlak in 2.5D), gevolgd door coördinatenparen binnen de in Nederland gelegen waarden van het RDstelsel." ;
+    mim:toelichting "Het betreft de relatie \" lod0Geometry\" zoals gedefinieerd in het IMGeo bij een vegetatieobject"@nl ;
     mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/surface> ;
     dcterms:identifier "EAID_134BAE4D_B34A_4b3d_BDEF_B02BB75F8838" ;
     rdfs:comment "De geometrische representatie van een vegetatieobject als punt, lijn of vlak in 2.5D op level of detail 0."@nl ;
@@ -4323,6 +4435,8 @@ verschijningsvorm."""@nl ;
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "relatieveHoogteliggingVegetatieobject"@nl ;
+    mim:patroon "gehele positieve en negatieve getallen, -9 t/m 9" ;
+    mim:toelichting "Weergegeven wordt de hoogteligging van de objecten ten opzichte van elkaar. Hiervoor wordt gebruik gemaakt van niveaus die aangeven of een object zich op maaiveldniveau (niveau 0) bevindt of op een onder- of bovenliggend niveau. Standaard wordt aan een object ‘niveau 0’ toegekend. Het niveau geeft geen informatie over de absolute hoogte van een object."@nl ;
     mim:type mim:Integer ;
     dcterms:identifier "EAID_E5A40653_7542_4ca0_ADFF_6DB70013DC4C" ;
     rdfs:comment "Aanduiding voor de relatieve hoogte van het vegetatieobject"@nl ;
@@ -4347,6 +4461,7 @@ verschijningsvorm."""@nl ;
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "statusVegetatieobject"@nl ;
+    mim:toelichting "In het IMGeo kunnen zowel toekomstige als historische (niet meer bestaande) objecten worden opgenomen."@nl ;
     mim:type <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/statusgeoobject> ;
     dcterms:identifier "EAID_C14289B3_AB85_4323_A1AC_2322CE288438" ;
     rdfs:comment "De status gekoppeld aan de levenscyclus van he vegetatieobject."@nl ;
@@ -4470,7 +4585,14 @@ verschijningsvorm."""@nl ;
     mim:naam "FunctioneelGebied"@nl ;
     mim:populatie """Functioneel gebied objecten met status plan en een einddatum maken geen deel uit van de verzameling functionele gebieden. 
 
+Zie verder BGT en IMGeo
+
+Functioneel gebied objecten met status plan en een einddatum maken geen deel uit van de verzameling functionele gebieden. 
+
 Zie verder BGT en IMGeo""" ;
+    mim:toelichting """Naast het bestaande object kan tegelijkertijd ook een geplande geometriewijziging van hetzelfde bestaande object zijn vastgelegd. De plantopografie is dan als apart object opgenomen met een eigen identificatie. Via de geometrische relatie is af te leiden dat het de plantopografie van een bestaand object betreft. Zie verder IMGeo.
+
+Objecttype FUNCTIONEEL GEBIED is een specialisatie van het city gml objecttype LANDUSE. Zie verder BGT."""@nl ;
     dcterms:identifier "EAID_B8F44180_1F2A_4bbc_8E17_6C472111A92B" ;
     rdfs:comment "Begrensd en benoemd gebied dat door een functionele eenheid beschreven wordt."@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
@@ -4518,7 +4640,14 @@ Zie verder BGT en IMGeo""" ;
     mim:naam "Gebouwinstallatie"@nl ;
     mim:populatie """Gebouwinstallatie objecten met status plan en een einddatum maken geen deel uit van de verzameling gebouwinstallaties. 
 
+Zie ver IMGeo.
+
+Gebouwinstallatie objecten met status plan en een einddatum maken geen deel uit van de verzameling gebouwinstallaties. 
+
 Zie ver IMGeo.""" ;
+    mim:toelichting """Naast het bestaande object kan tegelijkertijd ook een geplande geometriewijziging van hetzelfde bestaande object zijn vastgelegd. De plantopografie is dan als apart object opgenomen met een eigen identificatie. Via de geometrische relatie is af te leiden dat het de plantopografie van een bestaand object betreft. Zie verder IMGeo.
+
+Objecttype GEBOUWINSTALLATIE  is het equivalent van het city gml objecttype BUILDINGINSTALLATION."""@nl ;
     dcterms:identifier "EAID_6FDC646C_F9E2_4610_8FFE_1ECFA99FFBD7" ;
     rdfs:comment "Een component aan de buitenzijde van een gebouw, die het aanzicht van het gebouw mede bepaalt."@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
@@ -4542,7 +4671,16 @@ Zie ver IMGeo.""" ;
     mim:naam "Vegetatieobject"@nl ;
     mim:populatie """Vegetatieobjecten met status plan en een einddatum maken geen deel uit van de verzameling vegetatieobjecten. 
 
+Zie verder IMGeo.
+
+Vegetatieobjecten met status plan en een einddatum maken geen deel uit van de verzameling vegetatieobjecten. 
+
 Zie verder IMGeo.""" ;
+    mim:toelichting """Naast het bestaande object kan tegelijkertijd ook een geplande geometriewijziging van hetzelfde bestaande object zijn vastgelegd. De plantopografie is dan als apart object opgenomen met een eigen identificatie. Via de geometrische relatie is af te leiden dat het de plantopografie van een bestaand object betreft. Zie verder IMGeo.
+
+Objecttype VEGETATIEOBJECT is het equivalent van het city gml objecttype SOLITARY VEGETATION OBJECT.
+
+Individuele bomen hoeven alleen te worden opgenomen indien dit gewenst is. Vaak zal dit in het stedelijk gebied wel gebeuren en in landelijk gebied niet, uitzonderingen daargelaten."""@nl ;
     dcterms:identifier "EAID_9980DF6D_0C86_4039_8400_C54DAC77FB79" ;
     rdfs:comment "Solitair vegetatieobject of lijn- of vlakvormige groep gelijksoortige vegetatieobjecten met een beperkte omvang."@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
@@ -4567,6 +4705,14 @@ overige benoemde ruimtelijke objecten of een ander inrichtingselement."""@nl ;
     mim:indicatieAbstractObject false ;
     mim:naam "Inrichtingselement"@nl ;
     mim:populatie "Inrichtingselement objecten met status plan en een einddatum maken geen deel uit van de verzameling inrichtingselementen." ;
+    mim:toelichting """Inrichtingselementen vormen een diverse klasse. Het zijn objecten die niet zozeer op basis van fysiek voorkomen of hun gebruiksfunctie bij elkaar horen, maar op basis van hun eigenschap dat ze andere objecten inrichten.
+Het zijn objecten die een relatief kleine geometrie hebben. 
+
+In het voorliggende model zijn de subklassen / specialisaties van INRICHTINGSELEMENT niet als afzonderlijke objecttypen gemodelleerd. De subklasse / specialisatie is te herkennen aan de attribuutsoort ‘Type inrichtingselement’.
+
+Objecttype INRICHITNGSELEMENT is een specialisatie van het city gml objecttype CITYFURNITURE.
+
+Naast het bestaande object kan tegelijkertijd ook een geplande geometriewijziging van hetzelfde bestaande object zijn vastgelegd. De plantopografie is dan als apart object opgenomen met een eigen identificatie. Via de geometrische relatie is af te leiden dat het de plantopografie van een bestaand object betreft. Zie verder IMGeo."""@nl ;
     dcterms:identifier "EAID_4DA0EB59_963C_4558_B763_44F542BC8D89" ;
     rdfs:comment """Ruimtelijk object al dan niet ter detaillering dan wel ter inrichting van de
 overige benoemde ruimtelijke objecten of een ander inrichtingselement."""@nl ;
@@ -4593,7 +4739,14 @@ overige benoemde ruimtelijke objecten of een ander inrichtingselement."""@nl ;
     mim:naam "OnbegroeidTerreindeel"@nl ;
     mim:populatie """Onbegroeide terreindeel objecten met status plan en een einddatum maken geen deel uit van de verzameling onbegroeide terreindelen. 
 
+Zie verder BGT en IMGeo.
+
+Onbegroeide terreindeel objecten met status plan en een einddatum maken geen deel uit van de verzameling onbegroeide terreindelen. 
+
 Zie verder BGT en IMGeo.""" ;
+    mim:toelichting """Naast het bestaande object kan tegelijkertijd ook een geplande geometriewijziging van hetzelfde bestaande object zijn vastgelegd. De plantopografie is dan als apart object opgenomen met een eigen identificatie. Via de geometrische relatie is af te leiden dat het de plantopografie van een bestaand object betreft. Zie verder IMGeo.
+
+Objecttype ONBEGROEID TERREINDEEL is een specialisatie van het city gml objecttype LANDUSE."""@nl ;
     dcterms:identifier "EAID_C32F1546_F793_4f13_91A4_2047E6DE6E91" ;
     rdfs:comment "Kleinste functioneel onafhankelijk stukje van een terrein, dat er binnen het objecttype Terrein van NEN 3610 wordt onderscheiden, zonder aaneengesloten vegetatie."@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
@@ -4633,7 +4786,14 @@ Zie verder BGT en IMGeo.""" ;
     mim:naam "BegroeidTerreindeel"@nl ;
     mim:populatie """Begroeid terreindeel objecten met status plan en een einddatum maken geen deel uit van de verzameling begroeide terreindelen. 
 
+Zie verder BGT en IMGeo
+
+Begroeid terreindeel objecten met status plan en een einddatum maken geen deel uit van de verzameling begroeide terreindelen. 
+
 Zie verder BGT en IMGeo""" ;
+    mim:toelichting """Naast het bestaande object kan tegelijkertijd ook een geplande geometriewijziging van hetzelfde bestaande object zijn vastgelegd. De plantopografie is dan als apart object opgenomen met een eigen identificatie. Via de geometrische relatie is af te leiden dat het de plantopografie van een bestaand object betreft. Zie verder IMGeo.
+
+Objecttype BEGROEID TERREINDEEL is het equivalent van het city gml objecttype PLANTCOVER."""@nl ;
     dcterms:identifier "EAID_D872C213_09D7_4dca_A020_EA363480FC7D" ;
     rdfs:comment "Kleinste functioneel onafhankelijk stukje van een terrein dat er binnen het objecttype Terrein van NEN 3610 wordt onderscheiden, met aaneengesloten homogene vegetatie."@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
@@ -4656,7 +4816,13 @@ Zie verder BGT en IMGeo""" ;
     mim:naam "OverigBouwwerk"@nl ;
     mim:populatie """Overige bouwwerk objecten met status plan en een einddatum maken geen deel uit van de verzameling overige bouwwerken. 
 
+Zie verder BGT en IMGeo.
+
+Overige bouwwerk objecten met status plan en een einddatum maken geen deel uit van de verzameling overige bouwwerken. 
+
 Zie verder BGT en IMGeo.""" ;
+    mim:toelichting """Naast het bestaande object kan tegelijkertijd ook een geplande geometriewijziging van hetzelfde bestaande object zijn vastgelegd. De plantopografie is dan als apart object opgenomen met een eigen identificatie. Via de geometrische relatie is af te leiden dat het de plantopografie van een bestaand object betreft. 
+Zie verder IMGeo."""@nl ;
     dcterms:identifier "EAID_1DA7BC25_CF02_4161_B9A2_DE0BE27C5254" ;
     rdfs:comment "Met de aarde verbonden duurzaam bouwwerk, dat niet valt onder de definities van een pand of kunstwerk."@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
@@ -4679,7 +4845,12 @@ Zie verder BGT en IMGeo.""" ;
     mim:naam "Scheiding"@nl ;
     mim:populatie """Terreinobjecten met status plan en een einddatum maken geen deel uit van de verzameling scheidingen. 
 
+Zie verder BGT en IMGeo.
+
+Terreinobjecten met status plan en een einddatum maken geen deel uit van de verzameling scheidingen. 
+
 Zie verder BGT en IMGeo.""" ;
+    mim:toelichting "Naast het bestaande object kan tegelijkertijd ook een geplande geometriewijziging van hetzelfde bestaande object zijn vastgelegd. De plantopografie is dan als apart object opgenomen met een eigen identificatie. Via de geometrische relatie is af te leiden dat het de plantopografie van een bestaand object betreft. Zie verder IMGeo."@nl ;
     dcterms:identifier "EAID_A637379F_6E1D_47aa_AE75_3E22FE0DC814" ;
     rdfs:comment "Kunstmatig, meestal lineair obstakel met een werende functie."@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
@@ -4719,7 +4890,12 @@ Zie verder BGT en IMGeo.""" ;
     mim:naam "OverigeScheiding"@nl ;
     mim:populatie """Overige scheidingsobjecten met status plan en een einddatum maken geen deel uit van de verzameling overige scheidingen. 
 
+Zie verder IMGeo.
+
+Overige scheidingsobjecten met status plan en een einddatum maken geen deel uit van de verzameling overige scheidingen. 
+
 Zie verder IMGeo.""" ;
+    mim:toelichting "Naast het bestaande object kan tegelijkertijd ook een geplande geometriewijziging van hetzelfde bestaande object zijn vastgelegd. De plantopografie is dan als apart object opgenomen met een eigen identificatie. Via de geometrische relatie is af te leiden dat het de plantopografie van een bestaand object betreft. Zie verder IMGeo."@nl ;
     dcterms:identifier "EAID_EC57B722_D4B4_42d2_AF3C_31E085C63EBB" ;
     rdfs:comment "Kunstmatig, meestal lineair obstakel met een werende functie, met kleinere afmetingen dan toegestaan voor opname in de BGT."@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;

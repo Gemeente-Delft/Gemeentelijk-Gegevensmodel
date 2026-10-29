@@ -240,7 +240,6 @@
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/dak-en-thuislozen/dakloosheid"^^xsd:anyURI ;
     mim:indicatieAbstractObject false ;
     mim:naam "Dakloosheid"@nl ;
-    mim:populatie "Voor objecttypen die deel uitmaken van een (basis)registratie betreft dit de beschrijving van de exemplaren van het gedefinieerde objecttype die in de desbetreffende (basis)-registratie voorhanden zijn." ;
     dcterms:identifier "EAID_A0F8E790_518A_4717_88C2_1143DE9F944A" ;
     rdfs:comment "Informatie met betrekking tot dakloosheid"@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/dak-en-thuislozen/> .

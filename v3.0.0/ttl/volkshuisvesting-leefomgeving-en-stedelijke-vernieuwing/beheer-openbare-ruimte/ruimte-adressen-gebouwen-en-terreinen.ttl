@@ -94,6 +94,7 @@
     mim:kardinaliteitRelatieBron "0..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "heeft als officieel adres"@nl ;
+    mim:toelichting "Met deze relatie wordt het mogelijk aan een benoemd terrein een officieel adres toe te kennen zijnde geen nummeraanduiding als onderdeel van een ‘authentiek adres’."@nl ;
     mim:unidirectioneel true ;
     dcterms:identifier "EAID_EA30E741_5270_4eec_A922_9F0E5D133B52" ;
     rdfs:comment "De OVERIGE ADRESSEERBAAR OBJECT AANDUIDING waaronder het officiële adres is opgenomen."@nl ;
@@ -121,6 +122,7 @@
     mim:kardinaliteitRelatieBron "0..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "heeft als officieel adres"@nl ;
+    mim:toelichting "Met deze relatie wordt het mogelijk aan een overig bouwwerk een officieel adres toe te kennen zijnde geen nummeraanduiding als onderdeel van een ‘authentiek adres’."@nl ;
     mim:unidirectioneel true ;
     dcterms:identifier "EAID_AF7C0D10_A5E7_4a45_985D_6AA69822C9FB" ;
     rdfs:comment "De OVERIGE ADRESSEERBAAR OBJECT AANDUIDING waaronder het officiële adres is opgenomen."@nl ;
@@ -854,6 +856,9 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
     mim:kardinaliteit "0..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "huisletter"@nl ;
+    mim:patroon "a - z , A – Z" ;
+    mim:toelichting """Dit attribuutsoort is in de BAG gespecificeerd bij het objecttype NUMMERAANDUIDING. Het is bij de ADRESSEERBAAR OBJECT AANDUIDING opgenomen aangezien naast de NUMMERAANDUIDING de OVERIG ADRESSEERBAAR OBJECT AANDUIDING wordt onderscheiden. Aangezien de ADRESSEERBAAR OBJECT AANDUIDING een generalisatie is van NUMMERAANDUIDING en OVERIG ADRESSEERBAAR OBJECT AANDUIDING overerven beide laatstgenoemde objecttypen dit attribuutsoort.
+ Zie verder de toelichting in de BAG."""@nl ;
     mim:type mim:CharacterString ;
     dcterms:identifier "EAID_F5B40051_0C28_444f_940C_76297C577968" ;
     rdfs:comment "Een door of namens het bevoegd gemeentelijk orgaan ten aanzien van een adresseerbaar object toegekende toevoeging aan een huisnummer in de vorm van een alfanumeriek teken."@nl ;
@@ -878,6 +883,9 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "huisnummer"@nl ;
+    mim:patroon "Alle natuurlijke getallen tussen 1 en 99999." ;
+    mim:toelichting """Dit attribuutsoort is in de BAG gespecificeerd bij het objecttype NUMMERAANDUIDING. Het is bij de ADRESSEERBAAR OBJECT AANDUIDING opgenomen aangezien naast de NUMMERAANDUIDING de OVERIG ADRESSEERBAAR OBJECT AANDUIDING wordt onderscheiden. Aangezien de ADRESSEERBAAR OBJECT AANDUIDING een generalisatie is van NUMMERAANDUIDING en OVERIG ADRESSEERBAAR OBJECT AANDUIDING overerven beide laatstgenoemde objecttypen dit attribuutsoort.
+Zie verder de toelichting in de BAG."""@nl ;
     mim:type mim:Integer ;
     dcterms:identifier "EAID_BD2DECBB_831B_4fbc_8B81_8494B76C6F0E" ;
     rdfs:comment "Een door of namens het bevoegd gemeentelijk orgaan ten aanzien van een adresseerbaar object toegekende nummering."@nl ;
@@ -902,6 +910,9 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "huisnummertoevoeging"@nl ;
+    mim:patroon "a - z , A - Z , 0 – 9" ;
+    mim:toelichting """Dit attribuutsoort is in de BAG gespecificeerd bij het objecttype NUMMERAANDUIDING. Het is bij de ADRESSEERBAAR OBJECT AANDUIDING opgenomen aangezien naast de NUMMERAANDUIDING de OVERIG ADRESSEERBAAR OBJECT AANDUIDING wordt onderscheiden. Aangezien de ADRESSEERBAAR OBJECT AANDUIDING een generalisatie is van NUMMERAANDUIDING en OVERIG ADRESSEERBAAR OBJECT AANDUIDING overerven beide laatstgenoemde objecttypen dit attribuutsoort.
+Zie verder de toelichting in de BAG."""@nl ;
     mim:type mim:CharacterString ;
     dcterms:identifier "EAID_801D1ED4_27DE_4afc_B2BB_B0EADC56992B" ;
     rdfs:comment "Een door of namens het bevoegd gemeentelijk orgaan ten aanzien van een adresseerbaar object toegekende nadere toevoeging aan een huisnummer of een combinatie van huisnummer en huisletter."@nl ;
@@ -948,6 +959,7 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "postcode"@nl ;
+    mim:toelichting "Dit attribuutsoort is in de BAG gespecificeerd bij het objecttype NUMMERAANDUIDING. Het is bij de ADRESSEERBAAR OBJECT AANDUIDING opgenomen aangezien naast de NUMMERAANDUIDING de OVERIG ADRESSEERBAAR OBJECT AANDUIDING wordt onderscheiden. Aangezien de ADRESSEERBAAR OBJECT AANDUIDING een generalisatie is van NUMMERAANDUIDING en OVERIG ADRESSEERBAAR OBJECT AANDUIDING overerven beide laatstgenoemde objecttypen dit attribuutsoort. Zie verder de toelichting in de BAG."@nl ;
     mim:type mim:CharacterString ;
     dcterms:identifier "EAID_71729B95_9E18_4172_81CF_D2B0421D3C37" ;
     rdfs:comment "De door PostNL vastgestelde code behorende bij een bepaalde combinatie van een naam van een woonplaats, naam van een openbare ruimte en een huisnummer"@nl ;
@@ -1255,6 +1267,7 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "geometrie"@nl ;
+    mim:patroon "alle binnen Nederland gelegen waarden van het RD-stelsel." ;
     mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/multisurface> ;
     dcterms:identifier "EAID_C0987BF8_E01C_49af_AF3E_814D39E90620" ;
     rdfs:comment "De tweedimensionale geometrische representatie van de omtrekken van de openbare ruimte."@nl ;
@@ -1280,6 +1293,9 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "Huisnummerrange even en oneven nummers"@nl ;
+    mim:patroon """huisnummers van nummeraanduidingen die gerelateerd zijn aan de openbare ruimte
+Format: NNNNN-NNNNN""" ;
+    mim:toelichting "Veelal liggen de even en de oneven huisnummers telkens aan één van beide zijden van de openbare ruimte. Het komt evenwel voor dat deze aan beide zijden liggen of dat er aan één zijde zowel even als oneven huisnummers voorkomen. Dit gegeven voorziet in de twee laatstgenoemde situaties."@nl ;
     mim:type mim:CharacterString ;
     dcterms:identifier "EAID_5866E686_87DC_45eb_B3B5_ADFD4F4D16E1" ;
     rdfs:comment "Het laagste en het hoogste huisnummer van de objecten waaraan NUMMERAANDUIDINGen zijn toegekend die gerelateerd zijn aan de OPENBARE RUIMTE in die gevallen dat aan één of beide zijden van de OPENBARE RUIMTE zowel even als oneven huisnummers voorkomen dan wel dat even en/of oneven huisnummers aan beide zijden van de openbare ruimte voorkomen."@nl ;
@@ -1305,6 +1321,9 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "Huisnummerrange even nummers"@nl ;
+    mim:patroon """even huisnummers van nummeraanduidingen die gerelateerd zijn aan de openbare ruimte
+Format:NNNNN-NNNNN""" ;
+    mim:toelichting "Veelal liggen de even huisnummers aan één van beide zijden van de openbare ruimte. Het komt evenwel voor dat deze aan beide zijden liggen. In dat geval wordt de huisnummerrange vastgelegd met ‘Huisnummerrange even en oneven nummers’."@nl ;
     mim:type mim:CharacterString ;
     dcterms:identifier "EAID_E02CA437_4A78_428d_A283_CBB4B281112B" ;
     rdfs:comment "Het laagste en het hoogste huisnummer, zijnde even getallen, van de objecten waaraan NUMMERAANDUIDINGen zijn toegekend die gerelateerd zijn aan de OPENBARE RUIMTE en die gelegen zijn aan één van beide zijden van de OPENBARE RUIMTE."@nl ;
@@ -1330,6 +1349,9 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "Huisnummerrange oneven nummers"@nl ;
+    mim:patroon """oneven huisnummers van nummeraanduidingen die gerelateerd zijn aan de openbare ruimte
+Format:  NNNNN-NNNNN""" ;
+    mim:toelichting "Veelal liggen de oneven huisnummers aan één van beide zijden van de openbare ruimte. Het komt evenwel voor dat deze aan beide zijden liggen. In dat geval wordt de huisnummerrange vastgelegd met ‘Huisnummerrange even en oneven nummers’."@nl ;
     mim:type mim:CharacterString ;
     dcterms:identifier "EAID_1C1E6E3F_DE0F_4975_BC32_7924F24AA023" ;
     rdfs:comment "Het laagste en het hoogste huisnummer, zijnde oneven getallen, van de objecten waaraan NUMMERAANDUIDINGen zijn toegekend die gerelateerd zijn aan de OPENBARE RUIMTE en die gelegen zijn aan één van beide zijden van de OPENBARE RUIMTE."@nl ;
@@ -1458,6 +1480,8 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "straatnaam"@nl ;
+    mim:patroon "alle alfanumrieke tekens" ;
+    mim:toelichting "Voor straatnamen langer dan 24 posities gelden inkortingsregels. Hiervoor wordt NEN 5825 (versie 2002) gevolgd. De hier gehanteerde schrijfwijze kan afwijken van de POSTNL-schrijfwijze."@nl ;
     mim:type mim:CharacterString ;
     dcterms:identifier "EAID_CFD0365F_B863_42cb_A49A_D0AFA60DBC74" ;
     rdfs:comment "De officiële straatnaam zoals door het bevoegd gemeentelijk orgaan is vastgesteld, zo nodig ingekort conform de specificaties van de NEN 5825."@nl ;
@@ -1524,6 +1548,7 @@ RUIMTE."""@nl ;
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "wegsegment"@nl ;
+    mim:toelichting "Verkeerssystemen en kleinschalige kaarten maken gebruik van het wegsegment als representatie van de openbare ruimte als lijn."@nl ;
     mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/curve> ;
     dcterms:identifier "EAID_BCC760A4_FCF9_416c_ADA2_F75BE3A4D5AE" ;
     rdfs:comment "De geometrische representatie van de openbare ruimte als een lijn."@nl ;
@@ -2758,6 +2783,7 @@ Terrein wordt gebruikt om een zichtbaar (tastbaar) begrensd stuk grond aan te ge
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "toegangBouwlaag"@nl ;
+    mim:patroon "-99 tot +999" ;
     mim:type mim:Integer ;
     dcterms:identifier "EAID_4134FF61_B7EC_45bc_8D8D_AF99E4EEA0B5" ;
     rdfs:comment "De ligging van de bouwlaag van het verblijfsobject, gerekend ten opzichte van het straatpeil, waarop zich de hoofdtoegang tot het verblijfsobject bevindt."@nl ;
@@ -2970,6 +2996,7 @@ Terrein wordt gebruikt om een zichtbaar (tastbaar) begrensd stuk grond aan te ge
     mim:kardinaliteit "1..*" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "gebruiksdoelOverigBenoemdTerrein"@nl ;
+    mim:toelichting "Het attribuutsoort en de definitie zijn afgeleid van het gebruiksdoel bij het verblijfsobject in de BAG cq. bij het gebouwd object in het voorliggende model."@nl ;
     mim:type <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/gebruiksdoel> ;
     dcterms:identifier "EAID_12195899_466D_4429_952B_1D5949346406" ;
     rdfs:comment "Een categorisering van de gebruiksdoelen van het betreffende OVERIG BENOEMD TERREIN, zoals dit formeel door de overheid als zodanig is toegestaan."@nl ;
@@ -2994,6 +3021,9 @@ Terrein wordt gebruikt om een zichtbaar (tastbaar) begrensd stuk grond aan te ge
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "overigBenoemdTerreinIdentificatie"@nl ;
+    mim:patroon """Combinatie van de viercijferige 'gemeentecode' (volgens BRP stamtabel A.5.4 Gemeente), de tweecijferige 'objecttypecode' en een voor het betreffende objecttype binnen een gemeente uniek tiencijferig 'objectvolgnummer'.
+De objecttypecode kent in de BAG de volgende waarde: 
+92 overig terrein""" ;
     mim:type <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/complex-datatype/bagobjectnummering> ;
     dcterms:identifier "EAID_36805A09_9486_463a_8F72_25044E2C3CAB" ;
     rdfs:comment "De unieke aanduiding van een OVERIG BENOEMD TERREIN."@nl ;
@@ -3018,6 +3048,7 @@ Terrein wordt gebruikt om een zichtbaar (tastbaar) begrensd stuk grond aan te ge
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "Identificatiecode"@nl ;
+    mim:patroon "Combinatie van de viercijferige 'gemeentecode' (volgens BRP stamtabel A.5.4 Gemeente), de tweecijferige 'objecttypecode' en een voor het betreffende objecttype binnen een gemeente uniek tiencijferig 'objectvolgnummer'. De objecttypecode kent de volgende waarde:90 overig adresseerbaar object aanduiding.." ;
     mim:type <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/complex-datatype/bagobjectnummering> ;
     dcterms:identifier "EAID_A037EC08_F127_4278_8979_49778229089C" ;
     rdfs:comment "De unieke aanduiding van een OVERIG ADRESSEERBAAR OBJECT AANDUIDING"@nl ;
@@ -3042,6 +3073,7 @@ Terrein wordt gebruikt om een zichtbaar (tastbaar) begrensd stuk grond aan te ge
     mim:kardinaliteit "0..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "bouwjaar"@nl ;
+    mim:toelichting "Analoog aan het PAND is ook bij OVERIG GEBOUWD OBJECT het Bouwjaar opgenomen. Bijhouding kan plaatsvinden vanuit het WOZ-proces."@nl ;
     mim:type mim:Integer ;
     dcterms:identifier "EAID_6397D1DE_FE24_45ea_9CA3_E3E5C6F5D164" ;
     rdfs:comment "De aanduiding van het jaar waarin het OVERIG GEBOUWD OBJECT oorspronkelijk als bouwkundig gereed is opgeleverd."@nl ;
@@ -3066,6 +3098,10 @@ Terrein wordt gebruikt om een zichtbaar (tastbaar) begrensd stuk grond aan te ge
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "indicatiePlanobject"@nl ;
+    mim:toelichting """In IMGeo komt het voor dat op een bepaald moment in de werkelijkheid naast het bestaande object tegelijkertijd ook een geplande geometriewijziging van hetzelfde bestaande object is vastgelegd. Het object kan zowel voorkomen als bestaand object met een unieke identificatie en als nieuw object met een nieuw toegekende identificatie met de status plan. De plantopografie is in IMGeo als apart object opgenomen met een eigen identificatie. 
+De BAG gaat anders om met geplande geometriewijzigingen van een object. Bij verbouwing waarbij sprake is van een omgevingsvergunning worden de mutaties doorgevoerd op het moment dat de vergunning wordt verleend . M.a.w. de bestaande geometrie wordt als het ware overschreven door de geplande geometriewijziging. 
+Voor het RSGB betekent dit  dat vanuit het RSGB overig gebouwd object wordt verwezen naar het planobject en niet naar het bestaande overig bouwwerk.  Door opname van het attribuut 'ind-planobject'  wordt duidelijk gemaakt waarnaar het overig gebouwd object verwijst: 
+J= verwijzing aar het planobject met de geplande geomeriewijziging van het bestaande overig gebouwd object."""@nl ;
     mim:type mim:Boolean ;
     dcterms:identifier "EAID_623B2045_C65A_405d_95D6_4C03A1514DDE" ;
     rdfs:comment "Een aanduiding dat de verwijzing naar het overig bouwwerk in de BGT een geplande geometriewijziging van een bestaand overig bouwwerk betreft."@nl ;
@@ -3090,6 +3126,10 @@ Terrein wordt gebruikt om een zichtbaar (tastbaar) begrensd stuk grond aan te ge
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "overigGebouwdObjectIdentificatie"@nl ;
+    mim:patroon """Combinatie van de viercijferige 'gemeentecode' (volgens BRP stamtabel A.5.4 Gemeente), de tweecijferige 'objecttypecode' en een voor het betreffende objecttype binnen een gemeente uniek tiencijferig 'objectvolgnummer'.
+
+Voor de gevallen dat het gebouwd object geen verblijfsobject maar een overig bouwwerk betreft, is de volgende domeinwaarde toegevoegd:
+91 overig bouwwerk""" ;
     mim:type <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/complex-datatype/bagobjectnummering> ;
     dcterms:identifier "EAID_073F4BB6_B410_4595_B6E2_A9CDAEC9FD52" ;
     rdfs:comment "De unieke identificatie van een OVERIG GEBOUWD OBJECT"@nl ;
@@ -3108,6 +3148,7 @@ Terrein wordt gebruikt om een zichtbaar (tastbaar) begrensd stuk grond aan te ge
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/overigbenoemdterrein"^^xsd:anyURI ;
     mim:indicatieAbstractObject false ;
     mim:naam "OverigBenoemdTerrein"@nl ;
+    mim:toelichting "Een overig benoemd terrein is bedoeld om, naast stand- en ligplaatsen, terreinen te kunnen registreren waaraan de gemeente een weliswaar officieel maar niet authentiek adres wil toekennen. Het gaat om terreinen zoals autosloperijen, volkstuincomplexen en sportvelden (zonder opstallen). Overige benoemde terreinen worden alleen geregistreerd voor zover dat door de gemeente als relevant wordt gezien. Het gaat daarbij om terreinen met een verblijfsfunctie, naar analogie van de stand- en ligplaatsen, zijnde geen stand- en ligplaatsen en waarvan de vindbaarheid in het maatschappelijk verkeer op basis van een officieel adres dringend gewenst is."@nl ;
     dcterms:identifier "EAID_CFA3D54E_C8E0_4559_9475_29D31AF2DECD" ;
     rdfs:comment "Een door het bevoegde gemeentelijke orgaan als zodanig aangewezen onbebouwd terrein of een gedeelte daarvan, geen standplaats of gedeelte van een ligplaats zijnde, dat bestemd is voor het gedurende langere tijd verrichten van een maatschappelijke activiteit."@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
@@ -3141,6 +3182,11 @@ Terrein wordt gebruikt om een zichtbaar (tastbaar) begrensd stuk grond aan te ge
     mim:indicatieAbstractObject false ;
     mim:naam "OverigGebouwdObject"@nl ;
     mim:populatie "Is deelpopulatie van OVERIG BOUWWERK" ;
+    mim:toelichting """Een overig bouwwerk is een onderdeel van de gebouwde omgeving, bouwtechnisch op het niveau van panden en qua gebruik op het niveau van verblijfsobjecten. Door het registreren van overig bouwwerken, in aanvulling op de verblijfsobjecten en panden, verkrijgt de gemeente een – voor zover gewenst – totale registratie van de gebouwde omgeving. Verblijfsobjecten betreffen bouwvergunningplichtige gebouwde objecten waarin verbleven kan worden; overige bouwwerken bieden de mogelijkheid ook bouwvergunningplichtige gebouwde objecten te registreren waarin niet verbleven kan worden in de zin van de BAG.
+Overige bouwwerken worden alleen geregistreerd voor zover dat door de gemeente als relevant wordt gezien. Het gaat daarbij primair om objecten met een verblijfsfunctie, naar analogie van de verblijfsobjecten, zijnde geen verblijfsobjecten en waarvan de vindbaarheid in het maatschappelijk verkeer op basis van een officieel adres dringend gewenst is. Dit betreft bijvoorbeeld onbemande benzinestations en niet-afsluitbare parkeergarages. Het staat de gemeente vrij een bredere afbakening te hanteren vanuit het oogpunt van centraal beheer en voor zover de gemeente daarvan adressen wil vaststellen. Dit betreft bijvoorbeeld hoogspanningsmasten, GSMzendmasten en windturbines. Vermeldenswaard is dat bouwvergunningplichtige objecten zonder verblijfsfunctie al als INRICHTINGSELEMENT geregistreerd worden.
+Essentieel is derhalve dat elk overig gebouwd object voorzien wordt van een (niet-authentiek) adres: een officieel vastgesteld OVERIGE ADRESSEERBAAR OBJECT AANDUIDING, een bestaande NUMMERAANDUIDING aangevuld met een locatie-aanduiding of een bestaande OPENBARE RUIMTE aangevuld met een locatie-aanduiding. Elk overig gebouwd object heeft dus precies één van de drie genoemde relaties waarmee het voorzien is van een adres.
+
+De populatie van overige gebouwde objecten is een deelverzameling van de populatie overige bouwwerken zoals die in de BGT / IMGeo voorkomt. Maar omdat voor overige gebouwde objecten de vindbaarheid in het maatschappelijk verkeer op basis van een officieel adres essentieel is, heeft elk overig gebouwd object een adres en is als apart objecttype opgenomen."""@nl ;
     dcterms:identifier "EAID_7CDF37D9_26D7_46a5_9CF3_392601BDCECA" ;
     rdfs:comment "De kleinste eenheid van gebruik, geen verblijfsobject zijnde, binnen een bij de totstandkoming functioneel en bouwkundig constructief zelfstandige eenheid die direct en duurzaam met de aarde is verbonden."@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;

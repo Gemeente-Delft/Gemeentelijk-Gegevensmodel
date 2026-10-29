@@ -359,6 +359,9 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
     mim:kardinaliteit "0..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "huisletter"@nl ;
+    mim:patroon "a - z , A – Z" ;
+    mim:toelichting """Dit attribuutsoort is in de BAG gespecificeerd bij het objecttype NUMMERAANDUIDING. Het is bij de ADRESSEERBAAR OBJECT AANDUIDING opgenomen aangezien naast de NUMMERAANDUIDING de OVERIG ADRESSEERBAAR OBJECT AANDUIDING wordt onderscheiden. Aangezien de ADRESSEERBAAR OBJECT AANDUIDING een generalisatie is van NUMMERAANDUIDING en OVERIG ADRESSEERBAAR OBJECT AANDUIDING overerven beide laatstgenoemde objecttypen dit attribuutsoort.
+ Zie verder de toelichting in de BAG."""@nl ;
     mim:type mim:CharacterString ;
     dcterms:identifier "EAID_F5B40051_0C28_444f_940C_76297C577968" ;
     rdfs:comment "Een door of namens het bevoegd gemeentelijk orgaan ten aanzien van een adresseerbaar object toegekende toevoeging aan een huisnummer in de vorm van een alfanumeriek teken."@nl ;
@@ -383,6 +386,9 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "huisnummer"@nl ;
+    mim:patroon "Alle natuurlijke getallen tussen 1 en 99999." ;
+    mim:toelichting """Dit attribuutsoort is in de BAG gespecificeerd bij het objecttype NUMMERAANDUIDING. Het is bij de ADRESSEERBAAR OBJECT AANDUIDING opgenomen aangezien naast de NUMMERAANDUIDING de OVERIG ADRESSEERBAAR OBJECT AANDUIDING wordt onderscheiden. Aangezien de ADRESSEERBAAR OBJECT AANDUIDING een generalisatie is van NUMMERAANDUIDING en OVERIG ADRESSEERBAAR OBJECT AANDUIDING overerven beide laatstgenoemde objecttypen dit attribuutsoort.
+Zie verder de toelichting in de BAG."""@nl ;
     mim:type mim:Integer ;
     dcterms:identifier "EAID_BD2DECBB_831B_4fbc_8B81_8494B76C6F0E" ;
     rdfs:comment "Een door of namens het bevoegd gemeentelijk orgaan ten aanzien van een adresseerbaar object toegekende nummering."@nl ;
@@ -407,6 +413,9 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "huisnummertoevoeging"@nl ;
+    mim:patroon "a - z , A - Z , 0 – 9" ;
+    mim:toelichting """Dit attribuutsoort is in de BAG gespecificeerd bij het objecttype NUMMERAANDUIDING. Het is bij de ADRESSEERBAAR OBJECT AANDUIDING opgenomen aangezien naast de NUMMERAANDUIDING de OVERIG ADRESSEERBAAR OBJECT AANDUIDING wordt onderscheiden. Aangezien de ADRESSEERBAAR OBJECT AANDUIDING een generalisatie is van NUMMERAANDUIDING en OVERIG ADRESSEERBAAR OBJECT AANDUIDING overerven beide laatstgenoemde objecttypen dit attribuutsoort.
+Zie verder de toelichting in de BAG."""@nl ;
     mim:type mim:CharacterString ;
     dcterms:identifier "EAID_801D1ED4_27DE_4afc_B2BB_B0EADC56992B" ;
     rdfs:comment "Een door of namens het bevoegd gemeentelijk orgaan ten aanzien van een adresseerbaar object toegekende nadere toevoeging aan een huisnummer of een combinatie van huisnummer en huisletter."@nl ;
@@ -453,6 +462,7 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "postcode"@nl ;
+    mim:toelichting "Dit attribuutsoort is in de BAG gespecificeerd bij het objecttype NUMMERAANDUIDING. Het is bij de ADRESSEERBAAR OBJECT AANDUIDING opgenomen aangezien naast de NUMMERAANDUIDING de OVERIG ADRESSEERBAAR OBJECT AANDUIDING wordt onderscheiden. Aangezien de ADRESSEERBAAR OBJECT AANDUIDING een generalisatie is van NUMMERAANDUIDING en OVERIG ADRESSEERBAAR OBJECT AANDUIDING overerven beide laatstgenoemde objecttypen dit attribuutsoort. Zie verder de toelichting in de BAG."@nl ;
     mim:type mim:CharacterString ;
     dcterms:identifier "EAID_71729B95_9E18_4172_81CF_D2B0421D3C37" ;
     rdfs:comment "De door PostNL vastgestelde code behorende bij een bepaalde combinatie van een naam van een woonplaats, naam van een openbare ruimte en een huisnummer"@nl ;
@@ -695,6 +705,7 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "geometrie"@nl ;
+    mim:patroon "alle binnen Nederland gelegen waarden van het RD-stelsel." ;
     mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/multisurface> ;
     dcterms:identifier "EAID_C0987BF8_E01C_49af_AF3E_814D39E90620" ;
     rdfs:comment "De tweedimensionale geometrische representatie van de omtrekken van de openbare ruimte."@nl ;
@@ -720,6 +731,9 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "Huisnummerrange even en oneven nummers"@nl ;
+    mim:patroon """huisnummers van nummeraanduidingen die gerelateerd zijn aan de openbare ruimte
+Format: NNNNN-NNNNN""" ;
+    mim:toelichting "Veelal liggen de even en de oneven huisnummers telkens aan één van beide zijden van de openbare ruimte. Het komt evenwel voor dat deze aan beide zijden liggen of dat er aan één zijde zowel even als oneven huisnummers voorkomen. Dit gegeven voorziet in de twee laatstgenoemde situaties."@nl ;
     mim:type mim:CharacterString ;
     dcterms:identifier "EAID_5866E686_87DC_45eb_B3B5_ADFD4F4D16E1" ;
     rdfs:comment "Het laagste en het hoogste huisnummer van de objecten waaraan NUMMERAANDUIDINGen zijn toegekend die gerelateerd zijn aan de OPENBARE RUIMTE in die gevallen dat aan één of beide zijden van de OPENBARE RUIMTE zowel even als oneven huisnummers voorkomen dan wel dat even en/of oneven huisnummers aan beide zijden van de openbare ruimte voorkomen."@nl ;
@@ -745,6 +759,9 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "Huisnummerrange even nummers"@nl ;
+    mim:patroon """even huisnummers van nummeraanduidingen die gerelateerd zijn aan de openbare ruimte
+Format:NNNNN-NNNNN""" ;
+    mim:toelichting "Veelal liggen de even huisnummers aan één van beide zijden van de openbare ruimte. Het komt evenwel voor dat deze aan beide zijden liggen. In dat geval wordt de huisnummerrange vastgelegd met ‘Huisnummerrange even en oneven nummers’."@nl ;
     mim:type mim:CharacterString ;
     dcterms:identifier "EAID_E02CA437_4A78_428d_A283_CBB4B281112B" ;
     rdfs:comment "Het laagste en het hoogste huisnummer, zijnde even getallen, van de objecten waaraan NUMMERAANDUIDINGen zijn toegekend die gerelateerd zijn aan de OPENBARE RUIMTE en die gelegen zijn aan één van beide zijden van de OPENBARE RUIMTE."@nl ;
@@ -770,6 +787,9 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "Huisnummerrange oneven nummers"@nl ;
+    mim:patroon """oneven huisnummers van nummeraanduidingen die gerelateerd zijn aan de openbare ruimte
+Format:  NNNNN-NNNNN""" ;
+    mim:toelichting "Veelal liggen de oneven huisnummers aan één van beide zijden van de openbare ruimte. Het komt evenwel voor dat deze aan beide zijden liggen. In dat geval wordt de huisnummerrange vastgelegd met ‘Huisnummerrange even en oneven nummers’."@nl ;
     mim:type mim:CharacterString ;
     dcterms:identifier "EAID_1C1E6E3F_DE0F_4975_BC32_7924F24AA023" ;
     rdfs:comment "Het laagste en het hoogste huisnummer, zijnde oneven getallen, van de objecten waaraan NUMMERAANDUIDINGen zijn toegekend die gerelateerd zijn aan de OPENBARE RUIMTE en die gelegen zijn aan één van beide zijden van de OPENBARE RUIMTE."@nl ;
@@ -898,6 +918,8 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "straatnaam"@nl ;
+    mim:patroon "alle alfanumrieke tekens" ;
+    mim:toelichting "Voor straatnamen langer dan 24 posities gelden inkortingsregels. Hiervoor wordt NEN 5825 (versie 2002) gevolgd. De hier gehanteerde schrijfwijze kan afwijken van de POSTNL-schrijfwijze."@nl ;
     mim:type mim:CharacterString ;
     dcterms:identifier "EAID_CFD0365F_B863_42cb_A49A_D0AFA60DBC74" ;
     rdfs:comment "De officiële straatnaam zoals door het bevoegd gemeentelijk orgaan is vastgesteld, zo nodig ingekort conform de specificaties van de NEN 5825."@nl ;
@@ -964,6 +986,7 @@ RUIMTE."""@nl ;
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "wegsegment"@nl ;
+    mim:toelichting "Verkeerssystemen en kleinschalige kaarten maken gebruik van het wegsegment als representatie van de openbare ruimte als lijn."@nl ;
     mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/curve> ;
     dcterms:identifier "EAID_BCC760A4_FCF9_416c_ADA2_F75BE3A4D5AE" ;
     rdfs:comment "De geometrische representatie van de openbare ruimte als een lijn."@nl ;
@@ -1738,6 +1761,8 @@ Terrein wordt gebruikt om een zichtbaar (tastbaar) begrensd stuk grond aan te ge
     mim:kardinaliteit "0..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "buitenlandsePlaatsEinde"@nl ;
+    mim:patroon "Het gaat hierbij ook om plaatsen in het niet Europese deel van het Koninkrijk." ;
+    mim:toelichting "Het attribuutsoort maakt deel uit van de groep Huwelijk / Geregistreerd partnerschap. Zie verder de toelichting in de BRP."@nl ;
     mim:type mim:CharacterString ;
     dcterms:identifier "EAID_27F007E2_BFD8_4157_934B_A679E7381E3F" ;
     rdfs:comment "Buitenlandse plaats waar het huwelijk is ontbonden, dan wel het geregistreerd partnerschap is beëindigd."@nl ;
@@ -1762,6 +1787,7 @@ Terrein wordt gebruikt om een zichtbaar (tastbaar) begrensd stuk grond aan te ge
     mim:kardinaliteit "0..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "buitenlandseRegioEinde"@nl ;
+    mim:toelichting "Dit veld wordt gebruikt als aanvulling op de buitenlandse plaats aanvang wanneer die niet voldoende duidelijkheid geeft, bijvoorbeeld omdat deze in meerdere provincies in een land voor komt."@nl ;
     mim:type mim:CharacterString ;
     dcterms:identifier "EAID_4726F837_4978_414f_BD60_F93CB5EA5299" ;
     rdfs:comment "Buitenlandse regio waar het huwelijk is ontbonden, dan wel het geregistreerd partnerschap is beëindigd."@nl ;
@@ -1810,6 +1836,8 @@ Terrein wordt gebruikt om een zichtbaar (tastbaar) begrensd stuk grond aan te ge
     mim:kardinaliteit "0..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "gemeenteEinde"@nl ;
+    mim:patroon "Het betreft een gemeente in het Europese deel van het Koninkrijk. Gemeente einde mag alleen een binnen de centrale voorzieningen voorgedefinieerde waarde hebben, zie A.5.4 (zie BRP)." ;
+    mim:toelichting "In afwijking van het corresponderende BRP-attribuutsoort wordt voor gemeenten niet de code vastgelegd maar de gemeentenaam. Het betreft een gemeente in het Europese deel van het Koninkrijk. Zie verder de toelichting in de BRP."@nl ;
     mim:type mim:CharacterString ;
     dcterms:identifier "EAID_0AF455D1_140E_43b0_BD57_9CFB7EE7CDFC" ;
     rdfs:comment "Gemeente waar het huwelijk is ontbonden, dan wel het geregistreerd partnerschap is beëindigd."@nl ;
@@ -1834,6 +1862,8 @@ Terrein wordt gebruikt om een zichtbaar (tastbaar) begrensd stuk grond aan te ge
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "landOfGebiedEinde"@nl ;
+    mim:patroon "Land/gebied einde mag alleen een binnen de centrale voorzieningen voorgedefinieerde waarde hebben, zie stamgegeven A.5.7 (BRP)." ;
+    mim:toelichting "Dit veld wordt gebruikt als aanvulling op de buitenlandse plaats einde wanneer die niet voldoende duidelijkheid geeft, bijvoorbeeld omdat deze in meerdere provincies in een land voor komt."@nl ;
     mim:type <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/referentielijsten/landofgebied> ;
     dcterms:identifier "EAID_CE184E1C_B8C1_4278_BFA8_3E8498586CC4" ;
     rdfs:comment "Land of gebied waar het huwelijk is ontbonden, dan wel het geregistreerd partnerschap is beëindigd."@nl ;
@@ -1882,6 +1912,7 @@ Terrein wordt gebruikt om een zichtbaar (tastbaar) begrensd stuk grond aan te ge
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "redenEinde"@nl ;
+    mim:patroon "Reden einde relatie mag alleen een binnen de centrale voorzieningen voorgedefinieerde waarde hebben, zie stamgegeven A.5.3 (zie BRP)." ;
     mim:type <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/redeneinderelatie> ;
     dcterms:identifier "EAID_7B6B0FF8_2ABA_439c_973C_670C14471260" ;
     rdfs:comment "De reden van ontbinding huwelijk, dan wel beëindiging geregistreerd partnerschap."@nl ;
@@ -1906,6 +1937,7 @@ Terrein wordt gebruikt om een zichtbaar (tastbaar) begrensd stuk grond aan te ge
     mim:kardinaliteit "0..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "buitenlandsePlaatsAanvang"@nl ;
+    mim:patroon "Het gaat hierbij ook om plaatsen in het niet Europese deel van het Koninkrijk." ;
     mim:type mim:CharacterString ;
     dcterms:identifier "EAID_6FFB6A79_4C32_4a55_9108_9CFEB2DA6F25" ;
     rdfs:comment "Buitenlandse plaats waar het huwelijk is gesloten of het geregistreerd partnerschap is aangegaan."@nl ;
@@ -1930,6 +1962,7 @@ Terrein wordt gebruikt om een zichtbaar (tastbaar) begrensd stuk grond aan te ge
     mim:kardinaliteit "0..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "buitenlandseRegioAanvang"@nl ;
+    mim:toelichting "Dit veld wordt gebruikt als aanvulling op de buitenlandse plaats aanvang wanneer die niet voldoende duidelijkheid geeft, bijvoorbeeld omdat deze in meerdere provincies in een land voor komt."@nl ;
     mim:type mim:CharacterString ;
     dcterms:identifier "EAID_974CE615_A3AE_41ba_90A4_DDBFB0422ABD" ;
     rdfs:comment "Buitenlandse regio waar het huwelijk is gesloten of het geregistreerd partnerschap is aangegaan."@nl ;
@@ -1978,6 +2011,9 @@ Terrein wordt gebruikt om een zichtbaar (tastbaar) begrensd stuk grond aan te ge
     mim:kardinaliteit "0..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "gemeenteAanvang"@nl ;
+    mim:patroon """Het betreft een gemeente in het Europese deel van het Koninkrijk.
+Gemeente aanvang mag alleen een binnen de centrale voorzieningen voorgedefinieerde waarde hebben, zie stamgegeven A.5.4 (zie BRP).""" ;
+    mim:toelichting "In afwijking van het corresponderende BRP-attribuutsoort wordt voor gemeenten niet de code vastgelegd maar de gemeentenaam. Het betreft een gemeente in het Europese deel van het Koninkrijk. Zie verder de toelichting in de BRP."@nl ;
     mim:type mim:CharacterString ;
     dcterms:identifier "EAID_42875E2C_6318_4054_9A15_379B1611901F" ;
     rdfs:comment "Gemeente waar het huwelijk is gesloten of het geregistreerd partnerschap is aangegaan."@nl ;
@@ -2002,6 +2038,9 @@ Terrein wordt gebruikt om een zichtbaar (tastbaar) begrensd stuk grond aan te ge
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "landOfGebiedAanvang"@nl ;
+    mim:patroon """Land/gebied aanvang mag alleen een binnen de centrale 
+voorzieningen voorgedefinieerde waarde hebben, zie 
+stamgegeven A.5.7 (zie BRP).""" ;
     mim:type <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/referentielijsten/landofgebied> ;
     dcterms:identifier "EAID_85ED5B89_CAAC_4dac_8923_E1C5748AD830" ;
     rdfs:comment "Land of gebied waar het huwelijk is gesloten of het geregistreerd partnerschap is aangegaan."@nl ;
@@ -2026,6 +2065,7 @@ Terrein wordt gebruikt om een zichtbaar (tastbaar) begrensd stuk grond aan te ge
     mim:kardinaliteit "0..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "omschrijvingLocatieAanvang"@nl ;
+    mim:toelichting "Dit veld wordt gebruikt voor situaties die zich niet laten vangen in een gemeente aanvang, woonplaatsnaam aanvang, buitenlandse plaats aanvang, buitenlandse regio aanvang, of land/gebied aanvang, bijvoorbeeld bij een aanvang in internationale wateren."@nl ;
     mim:type mim:CharacterString ;
     dcterms:identifier "EAID_8C4DBF59_D9A2_48d8_813D_F4664B097C4A" ;
     rdfs:comment "Omschrijving van de locatie waar het huwelijk is gesloten of het geregistreerd partnerschap is aangegaan."@nl ;

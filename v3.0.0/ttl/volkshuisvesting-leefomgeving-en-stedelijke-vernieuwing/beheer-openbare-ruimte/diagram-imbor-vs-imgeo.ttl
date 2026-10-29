@@ -1502,6 +1502,7 @@ chevrons, die het verkeer attendeert op een gevarenpunt."""@nl ;
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "datumBeginGeldigheidInrichtingselement"@nl ;
+    mim:toelichting "Het betreft het attribuutsoort objectBeginTijd van het overeenkomstige Geo-object in het IMGeo. Vanwege naamsconventies binnen het stelsel van basisgegevens is voor een andere attribuutnaam gekozen."@nl ;
     mim:type mim:Date ;
     dcterms:identifier "EAID_4906417E_E81C_42a0_8555_2DBA7367A5BB" ;
     rdfs:comment "De datum waarop het inrichtingselement is ontstaan."@nl ;
@@ -1526,6 +1527,7 @@ chevrons, die het verkeer attendeert op een gevarenpunt."""@nl ;
     mim:kardinaliteit "0..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "datumEindeGeldigheidInrichtingselement"@nl ;
+    mim:toelichting "Het betreft het attribuutsoort objectEindTijd van het overeenkomstige Geo-object in het IMGeo. Vanwege naamsconventies binnen het stelsel van basisgegevens is voor een andere attribuutnaam gekozen."@nl ;
     mim:type mim:Date ;
     dcterms:identifier "EAID_EE9EB156_8BAB_46c9_B937_8C64E48BC464" ;
     rdfs:comment "De datum waarop het inrichtingselement ongeldig is geworden."@nl ;
@@ -1550,6 +1552,9 @@ chevrons, die het verkeer attendeert op een gevarenpunt."""@nl ;
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "geometrieInrichtingselement"@nl ;
+    mim:patroon """Aanduiding van het type geometrie (Punt, Lijn of Vlak) gevolgd door coördinatenparen binnen de in Nederland gelegen waarden van het RD-stelsel.
+
+Zie ook regels attribuutsoort.""" ;
     mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/surface> ;
     dcterms:identifier "EAID_426FE3C3_423C_44d3_AEE0_00270B6AC471" ;
     rdfs:comment "De geometrische representatie van een inrichtingselement."@nl ;
@@ -1574,6 +1579,11 @@ chevrons, die het verkeer attendeert op een gevarenpunt."""@nl ;
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "identificatieInrichtingselement"@nl ;
+    mim:patroon """NL.IMGEO.xxxx. Het 1e deel is de landcode, het 2e deel is de code voor het sectormodel. Het derde deel is de combinatie van de (viercijferige) gemeentecode (volgens BRP stamtabel A.5.4 Gemeente), de tweecijferige code voor het type geoobject (01) en een voor het betreffende objecttype binnen een gemeente unieke tiencijferige objectvolgnummer.
+
+Identificatie is maximaal 25 alfanumerieke tekens lang.Zie voor verdere specificaties datatype NEN3610ID.""" ;
+    mim:toelichting """In het IMGeo betreft dit de identificatie van het overeenkomstige geo-object. 
+Voor de identificatie worden de richtlijnen van NEN 3610 gehanteerd."""@nl ;
     mim:type mim:CharacterString ;
     dcterms:identifier "EAID_C866C4A0_D914_44fa_BF7D_AF201C5B2C86" ;
     rdfs:comment "Een unieke identificatie voor een inrichtingselement."@nl ;
@@ -1622,6 +1632,7 @@ chevrons, die het verkeer attendeert op een gevarenpunt."""@nl ;
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "plusTypeInrichtingselement"@nl ;
+    mim:toelichting "Verwijzing naar gelijknamig attribuutsoort plus type bij de specialisaties uit IMGeo."@nl ;
     mim:type <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/typeringinrichtingselementplus> ;
     dcterms:identifier "EAID_19BCDF8D_2515_449d_AFC4_F42705FC0C47" ;
     rdfs:comment "Specificatie van het soort inrichtingselement."@nl ;
@@ -1646,6 +1657,8 @@ chevrons, die het verkeer attendeert op een gevarenpunt."""@nl ;
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "relatieveHoogteliggingInrichtingselement"@nl ;
+    mim:patroon "gehele positieve en negatieve getallen, -9 t/m 9" ;
+    mim:toelichting "Weergegeven wordt de hoogteligging van de objecten ten opzichte van elkaar. Hiervoor wordt gebruik gemaakt van niveaus die aangeven of een object zich op maaiveldniveau (niveau 0) bevindt of op een onder- of bovenliggend niveau. Standaard wordt aan een object ‘niveau 0' toegekend. Het niveau geeft geen informatie over de absolute hoogte van een object."@nl ;
     mim:type mim:Integer ;
     dcterms:identifier "EAID_F519AFED_F353_415c_9404_A0698A6847D7" ;
     rdfs:comment "Aanduiding voor de relatieve hoogte van het inrichtingselement."@nl ;
@@ -2677,6 +2690,14 @@ overige benoemde ruimtelijke objecten of een ander inrichtingselement."""@nl ;
     mim:indicatieAbstractObject false ;
     mim:naam "Inrichtingselement"@nl ;
     mim:populatie "Inrichtingselement objecten met status plan en een einddatum maken geen deel uit van de verzameling inrichtingselementen." ;
+    mim:toelichting """Inrichtingselementen vormen een diverse klasse. Het zijn objecten die niet zozeer op basis van fysiek voorkomen of hun gebruiksfunctie bij elkaar horen, maar op basis van hun eigenschap dat ze andere objecten inrichten.
+Het zijn objecten die een relatief kleine geometrie hebben. 
+
+In het voorliggende model zijn de subklassen / specialisaties van INRICHTINGSELEMENT niet als afzonderlijke objecttypen gemodelleerd. De subklasse / specialisatie is te herkennen aan de attribuutsoort ‘Type inrichtingselement’.
+
+Objecttype INRICHITNGSELEMENT is een specialisatie van het city gml objecttype CITYFURNITURE.
+
+Naast het bestaande object kan tegelijkertijd ook een geplande geometriewijziging van hetzelfde bestaande object zijn vastgelegd. De plantopografie is dan als apart object opgenomen met een eigen identificatie. Via de geometrische relatie is af te leiden dat het de plantopografie van een bestaand object betreft. Zie verder IMGeo."""@nl ;
     dcterms:identifier "EAID_4DA0EB59_963C_4558_B763_44F542BC8D89" ;
     rdfs:comment """Ruimtelijk object al dan niet ter detaillering dan wel ter inrichting van de
 overige benoemde ruimtelijke objecten of een ander inrichtingselement."""@nl ;

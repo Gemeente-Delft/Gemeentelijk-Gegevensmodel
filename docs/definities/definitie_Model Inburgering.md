@@ -272,7 +272,7 @@ Attributen van objecttype Brede Intake
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Diplomawaardering |
-    | toelichting |  |
+    | toelichting | • In het kader van de Wet inburgering 2021 maakt diplomawaardering deel uit van de brede intake (artikel 15 en 16), waarmee het college van B&W bepaalt welke leerroute passend is.<br>• De diplomawaardering helpt bij het inzichtelijk maken van de onderwijsachtergrond van de inburgeringsplichtige en ondersteunt toeleiding naar werk of vervolgonderwijs.<br>• De waardering wordt uitgevoerd door Nuffic via het IDW en resulteert in een waarderingsrapport.<br>• Niet elk diploma hoeft gewaardeerd te worden; het gebeurt alleen als het relevant is voor de bepaling van de route of voor participatie richting arbeid of onderwijs. |
     | synoniemen |  |
     | uri |  |
     | bron |  |
@@ -312,7 +312,7 @@ Attributen van objecttype Diplomawaardering
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Educatie |
-    | toelichting |  |
+    | toelichting | Binnen de context van de Wet inburgering 2021 kan educatie onderdeel zijn van een Z-route, maar ook aanvullend worden ingezet in de B1-route, met name wanneer extra ondersteuning nodig is op het gebied van basisvaardigheden.<br>• Educatie valt onder de verantwoordelijkheid van de gemeente, die op basis van de brede intake en het leerrouteadvies bepaalt of educatie passend en noodzakelijk is.<br>• Het educatieaanbod wordt veelal gefinancierd via de WEB-gelden (Wet educatie en beroepsonderwijs), en is bedoeld voor volwassenen vanaf 18 jaar die hun vaardigheden willen verbeteren om beter te kunnen functioneren in de samenleving. |
     | synoniemen |  |
     | uri |  |
     | bron |  |
@@ -505,7 +505,7 @@ Attributen van objecttype Hoofddoel
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | ICT-Vaardigheid |
-    | toelichting |  |
+    | toelichting | • ICT-vaardigheden zijn onderdeel van de basisvaardigheden (samen met taal en rekenen), die binnen het inburgeringsstelsel aandacht kunnen krijgen, met name in de Z-route en bij aanvullende educatie.<br>• In de brede intake wordt het niveau van ICT-vaardigheid vastgesteld om te bepalen of extra ondersteuning nodig is, bijvoorbeeld in de vorm van cursussen of begeleiding.<br>• Een onvoldoende beheersing van ICT-vaardigheden kan een belemmering vormen voor het volgen van digitale inburgeringsmodules, het vinden van werk of het regelen van zaken via overheidsportalen (zoals DUO of MijnOverheid).<br>• Gemeenten kunnen, mede via WEB-gelden of lokale educatievoorzieningen, programma’s aanbieden die gericht zijn op het verbeteren van digitale zelfredzaamheid. |
     | synoniemen |  |
     | uri |  |
     | bron |  |
@@ -579,7 +579,7 @@ Attributen van objecttype Inburgeraar
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | InburgeringsAanbod |
-    | toelichting |  |
+    | toelichting | • Het inburgeringsaanbod wordt samengesteld op basis van de uitkomsten van de brede intake en het gekozen hoofddoel (werk, opleiding of participatie).<br>• Het omvat onder andere: taallessen, participatieactiviteiten, begeleiding, eventueel educatie of (leer)werktrajecten, en ondersteuning bij examens.<br>• De gemeente is verantwoordelijk voor het aanbieden van een passend en tijdig aanbod (artikel 18 van de Wet inburgering 2021).<br>• De gemeente houdt bij de samenstelling rekening met de leerbaarheid, persoonlijke omstandigheden en belemmeringen van de inburgeringsplichtige.<br>• Het aanbod kan worden uitgevoerd door diverse aanbieders waarmee de gemeente contractuele afspraken heeft. |
     | synoniemen |  |
     | uri |  |
     | bron |  |
@@ -669,7 +669,7 @@ Attributen van objecttype Inburgeringsplicht
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Inburgeringstermijn |
-    | toelichting |  |
+    | toelichting | • Volgens artikel 7.3 van de Wet inburgering 2021 bedraagt de inburgeringstermijn in beginsel drie jaar.<br>• De termijn begint op de datum waarop de inburgeringsplicht aanvangt (meestal bij inschrijving in de BRP of asielstatusverlening).<br>• In uitzonderlijke gevallen kan op verzoek van de inburgeringsplichtige de termijn worden verlengd (bijvoorbeeld bij ziekte, zwangerschap, mantelzorg), of verkort bij snelle afronding.<br>• Tijdens deze termijn moet de inburgeringsplichtige voldoen aan de verplichtingen uit het persoonlijk plan inburgering en participatie (PIP), waaronder het afronden van de leerroute en het behalen van de einddoelen. |
     | synoniemen |  |
     | uri |  |
     | bron |  |
@@ -901,7 +901,7 @@ Attributen van objecttype Ontheffing
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Ontwikkelwens |
-    | toelichting |  |
+    | toelichting | • Ontwikkelwensen komen aan bod tijdens de brede intake (artikel 15 en 16 van de Wet inburgering 2021) en dragen bij aan een passend en gemotiveerd leerrouteadvies.<br>• Voorbeelden van ontwikkelwensen zijn: het behalen van een mbo-diploma, het leren omgaan met digitale middelen, het vinden van (vrijwilligers)werk, of het vergroten van zelfvertrouwen.<br>• Gemeenten gebruiken ontwikkelwensen om het inburgeringsaanbod af te stemmen op de motivatie en het toekomstperspectief van de inburgeraar.<br>• De ontwikkelwens is geen formele verplichting, maar ondersteunt duurzame participatie en eigen regie. |
     | synoniemen |  |
     | uri |  |
     | bron |  |
@@ -1018,7 +1018,7 @@ Attributen van objecttype PVT
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Subdoel Aandachtspunt |
-    | toelichting |  |
+    | toelichting | • Subdoelen worden opgesteld wanneer bijvoorbeeld psychische, sociale of praktische omstandigheden (zoals schulden, stress of zorgverantwoordelijkheden) extra aandacht vragen.<br>• Ze zijn gekoppeld aan een of meerdere aandachtspunten en vormen onderdeel van de begeleiding of het ondersteuningsplan.<br>• Voorbeelden van subdoelen zijn: “Stabiel dagritme opbouwen”, “Toegang tot schuldhulpverlening geregeld”, of “Actief deelnemen aan groepslessen”.<br>• De gemeente kan de voortgang ten opzichte van deze subdoelen monitoren, bijvoorbeeld in voortgangsgesprekken of als input voor aanpassing van het PIP.<br>• Het stellen van subdoelen ondersteunt maatwerk en bevordert duurzame participatie en leerbaarheid. |
     | synoniemen |  |
     | uri |  |
     | bron |  |
@@ -1056,7 +1056,7 @@ Attributen van objecttype Subdoel Aandachtspunt
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Subdoel Ontwikkelwens |
-    | toelichting |  |
+    | toelichting | • Subdoelen op basis van ontwikkelwensen maken het mogelijk om persoonlijke ambities (zoals het volgen van een opleiding, het verbeteren van digitale vaardigheden of het vinden van passend werk) te vertalen naar praktische stappen binnen de leerroute.<br>• Ze versterken de motivatie en zelfregie van de inburgeringsplichtige en ondersteunen een traject dat aansluit bij diens perspectief en mogelijkheden.<br>• Subdoelen worden opgenomen in het Persoonlijk Plan Inburgering en Participatie (PIP) en kunnen worden geëvalueerd tijdens voortgangsgesprekken.<br>• Voorbeelden zijn: “Inschrijven voor mbo-opleiding niveau 2”, “Oriënteren op werk in de zorg”, of “Starten met computercursus”.<br>• De gemeente of uitvoerende organisatie kan ondersteuning bieden bij het realiseren van deze subdoelen, bijvoorbeeld via een traject, voorziening of verwijzing. |
     | synoniemen |  |
     | uri |  |
     | bron |  |
@@ -1335,7 +1335,7 @@ Attributen van objecttype Vreemdeling
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Vrijstelling |
-    | toelichting |  |
+    | toelichting | Vrijstelling verschilt van ontheffing: een vrijstelling is gebaseerd op reeds behaalde resultaten of bestaande omstandigheden, terwijl een ontheffing wordt verleend op grond van overmacht of belemmeringen.<br>• Voorbeelden van vrijstellingen:<br>• Een diploma dat voldoet aan de taaleis (zoals NT2-B1);<br>• Eerder gevolgde participatieprogramma’s die het Participatieverklaringstraject overbodig maken;<br>• Werkervaring of opleiding in Nederland die voldoet aan de doelen van een leerroute.<br>• De gemeente of DUO beslist over de vrijstelling, afhankelijk van het onderdeel waarop het betrekking heeft.<br>• Vrijstellingen worden geregistreerd en meegenomen in het opstellen en uitvoeren van het PIP, zodat geen dubbel aanbod wordt ingezet. |
     | synoniemen |  |
     | uri |  |
     | bron |  |
@@ -1372,7 +1372,7 @@ Attributen van objecttype Vrijstelling
     | Eigenschap | Waarde |
     | :--- | :------ |
     | name | Werk |
-    | toelichting |  |
+    | toelichting | • Werk kan zowel als einddoel worden vastgesteld in het PIP (bijvoorbeeld in de B1-route), als een middel zijn binnen een duale leerroute of participatiecomponent.<br>• De gemeente kan betaalde arbeid erkennen als invulling van (delen van) het inburgeringsaanbod, mits het bijdraagt aan taalverwerving en maatschappelijke integratie.<br>• Relevante gegevens zijn: soort werk, werkgever, start- en einddatum, aantal uren per week, en eventuele begeleiding op de werkvloer.<br>• Werkervaring kan ook aanleiding zijn tot vrijstelling van bepaalde onderdelen (zoals MAP), of worden gebruikt als verantwoordingsgrond in rapportages aan DUO of bij herziening van het PIP.<br>• Het objecttype wordt onderscheiden van onbetaalde participatievormen zoals vrijwilligerswerk. |
     | synoniemen |  |
     | uri |  |
     | bron |  |

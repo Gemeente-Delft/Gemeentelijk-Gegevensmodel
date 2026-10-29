@@ -780,6 +780,18 @@ kapitaalvennootschap zijn binnen of buiten de E.E.R."""@nl ;
     mim:kardinaliteit "0..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "exploitantcode"@nl ;
+    mim:patroon """vol eigendom,
+gedeeltelijk eigendom,
+erfpacht uitgegeven,
+erfpacht verkregen,
+recht van opstal verleend,
+recht van opstal verkregen,
+overige zakelijk rechten verleend,
+overige zakelijk rechten verkregen,
+derden (niet zijnde gemeente),
+onbekend/handmatig oplossen.""" ;
+    mim:toelichting """Dit gegeven wordt gebruikt t.b.v. het genereren van de Gemeentelijke Eigendommenkaart op basis van de Kadastrale kaart. De code wordt afgeleid uit de AKR aan de hand van naam zakelijk gerechtigde, soort zakelijkrechtcode , gemeentecode, sectie, perceelnummer, indexnummer en indexletter ( en ook de gemeentecode, sectie, perceelnummer, indexnummer en indexletter van het grondperceel). 
+Op basis van de codering is het mogelijk het kadastraal perceel op de kadastrale kaart in te kleuren en zodoende een eigendomskaart voor de gemeente weer te geven van  alleen die eigendommen die van gemeente Rotterdam zijn."""@nl ;
     mim:type <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/codeexploitant> ;
     dcterms:identifier "EAID_FA5E47B4_20B1_4ec5_8A10_A33144D1BE12" ;
     rdfs:comment "Het recht wat de exploitant van de eigenaar te weten de gemeente heeft gekregen."@nl ;
@@ -804,6 +816,8 @@ kapitaalvennootschap zijn binnen of buiten de E.E.R."""@nl ;
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "identificatieTenaamstelling"@nl ;
+    mim:patroon """Namespace is NL.IMKAD.Tenaamstelling 
+LokaalId is unieke identifciatie binnen de kadastrale registratie""" ;
     mim:type <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/complex-datatype/compositeid> ;
     dcterms:identifier "EAID_6A8C91BE_0903_4cc8_AC5B_001445BDE4BA" ;
     rdfs:comment "Een door het Kadaster toegekende landelijk uniek nummer aan een tenaamstelling"@nl ;

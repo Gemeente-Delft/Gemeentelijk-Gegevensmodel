@@ -644,6 +644,12 @@
     mim:kardinaliteitRelatieBron "0..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "is belast met"@nl ;
+    mim:toelichting """Op een en hetzelfde zakelijk recht kunnen een of meerdere zakelijke rechten worden gestapeld. Bijvoorbeeld een Persoon 1 heeft recht van eigendom belast met opstal2.  
+Persoon 2 heeft recht van opstal2 belast met recht van erfpacht4 en belast met recht van vruchtgebruik3.  
+Persoon 3 heeft recht van vruchtgebruik3 op recht van opstal2. 
+Persoon 4 heeft recht van erfpacht4 op recht van opstal2.  
+
+In het verleden was het gestapelde recht impliciet via de aard zakelijk recht code van een voorkomen van  ZAKELIJK RECHT te herleiden. In de nieuwe versie van BRK is dit expliciet gemaakt en onderkent men voor elk gestapeld recht een apart voorkomen van ZAKELIJK RECHT."""@nl ;
     mim:unidirectioneel true ;
     dcterms:identifier "EAID_BA508E5B_A499_4ff8_91A5_37368D6C0481" ;
     rdfs:comment "Verwijzing naar het ZAKELIJK RECHT waarmee het onderhavige ZAKELIJK RECHT is belast."@nl ;
@@ -3923,6 +3929,7 @@
     mim:kardinaliteit "0..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "datumIngangRecht"@nl ;
+    mim:toelichting "De attribuutsoort komt in de BRK niet voor maar is toegevoegd om aan te sluiten op de huidige wijze van gegevenslevering door het Kadaster."@nl ;
     mim:type mim:Date ;
     dcterms:identifier "EAID_86FAF41B_71BB_413a_8993_006A96097E2A" ;
     rdfs:comment "De datum waarop de notariële akte is ingeschreven of anderszins een brondocument waar het zakelijk recht op berust is ingeschreven."@nl ;
@@ -3947,6 +3954,8 @@
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "identificatieZakelijkRecht"@nl ;
+    mim:patroon """Namespace is NL.KARIM.ZakelijkRecht
+LokaalId is unieke identifciatie binnen de kadastrale registratie""" ;
     mim:type <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/complex-datatype/compositeid> ;
     dcterms:identifier "EAID_24A5065B_8919_42d8_90E5_0B9E0310B051" ;
     rdfs:comment "Een door het Kadaster toegekende landelijk uniek nummer aan een recht."@nl ;
