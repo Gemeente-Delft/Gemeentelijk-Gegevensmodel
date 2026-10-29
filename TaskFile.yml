@@ -19,6 +19,8 @@
 # - To generate translations: `task generate:translations`
 # - To generate excel-file: `task generate:excel`
 # - To generate documentation: `task generate:docs`
+# - To deploy the documentation of this version to the LOCAL gh-pages branch: `task publish:local`
+# - To make this version the default of the site (alias latest + start page): `task publish:release`
 # - To publish documentation to GitHub Pages: `task publish:github`
 # - To generate the Linked Data (ontology, SHACL shapes, one sub-model per EA diagram, merged file): `task generate:lod`
 # - To publish the Linked Data sub-models as named graphs on the LOD server: `task publish:lod`
@@ -362,14 +364,27 @@ tasks:
   # Publish — Documentatie publiceren
   # ==========================================================================
   publish:local:
-    desc: "Build and deploy the documentation using MkDocs and Mike."
+    desc: "Bouw de documentatie en zet versie {{.VERSION}} op de LOKALE gh-pages-branch (geen push; 'latest' en de standaardversie blijven staan)."
     deps: [generate:docs]
     cmds:
       - echo "Building and deploying MkDocs and Mike..."
       - mkdocs build --clean
-      - mike deploy "{{.VERSION}}" latest --update-aliases
-      - mike set-default "{{.VERSION}}"
-      - echo "Documentation deployed. Use 'mike serve' to view results..."
+      # Alleen deze versie neerzetten. De alias 'latest' en de startpagina van de site verschuiven
+      # pas met publish:release, bewust en met bevestiging; tot die tijd staat een nieuwe versie
+      # alleen in de versiekeuze.
+      - mike deploy "{{.VERSION}}"
+      - 'echo "Documentation deployed to the local gh-pages branch. Preview with mike serve, publish with task publish:github."'
+    shell: bash
+
+  publish:release:
+    desc: "Maak {{.VERSION}} de standaardversie van de documentatie: alias 'latest' en de startpagina verschuiven (lokaal op gh-pages; live pas na publish:github)."
+    deps: [publish:local]
+    prompt:
+      - "Dit maakt {{.VERSION}} de standaardversie van de documentatie: de alias 'latest' en de startpagina verschuiven naar {{.VERSION}}. Dat gebeurt op de lokale gh-pages-branch en wordt live zodra je 'task publish:github' draait. Doorgaan?"
+    cmds:
+      - mike alias --update-aliases "{{.VERSION}}" latest
+      - mike set-default latest
+      - 'echo "Standaardversie is nu {{.VERSION}} (lokaal). Publiceren met task publish:github."'
     shell: bash
 
   publish:github:
