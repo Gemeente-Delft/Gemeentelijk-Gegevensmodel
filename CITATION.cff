@@ -11,6 +11,7 @@ authors:
   - family-names: Ashkpour
     given-names: Ashkan
     affiliation: "Gemeente Delft"
+    orcid: "https://orcid.org/0009-0001-3614-1345"
 version: "2.5.1"
 date-released: "2026-05-12"
 license:
