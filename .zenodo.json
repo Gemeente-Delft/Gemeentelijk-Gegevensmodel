@@ -1,0 +1,48 @@
+{
+  "title": "Gemeentelijk Gegevensmodel (GGM): Delft Municipal Data Model",
+  "upload_type": "software",
+  "access_right": "open",
+  "license": "EUPL-1.2",
+  "creators": [
+    {
+      "name": "Brienen, Arjen",
+      "affiliation": "Gemeente Delft",
+      "orcid": "0009-0004-1676-2605"
+    },
+    {
+      "name": "Ashkpour, Ashkan",
+      "affiliation": "Gemeente Delft"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Gemeente Delft",
+      "type": "RightsHolder"
+    }
+  ],
+  "description": "<p>The Gemeentelijk Gegevensmodel (GGM, Delft Municipal Data Model) is an open logical data model covering all policy domains of Dutch municipalities. It was developed by the Municipality of Delft from 2018 onwards to support data-driven working and is used by more than a hundred Dutch municipalities and by software vendors. The repository contains the UML model (Enterprise Architect .qea), JSON schemas, generated DDL for Oracle, PostgreSQL, MySQL and SQL Server, the generator tooling and the documentation site (gemeentelijkgegevensmodel.nl).</p><p>Licensing: the core information model (UML files, JSON schemas, tables and definitions) is released under the EUPL 1.2; figures, diagrams and explanatory text are released under CC BY 4.0. Copyright Gemeente Delft.</p>",
+  "keywords": [
+    "information model",
+    "semantic interoperability",
+    "municipalities",
+    "open standards",
+    "municipal data model",
+    "Delft Municipal Data Model",
+    "MIM",
+    "linked data"
+  ],
+  "language": "nld",
+  "related_identifiers": [
+    {
+      "identifier": "https://gemeentelijkgegevensmodel.nl",
+      "relation": "isDocumentedBy",
+      "resource_type": "publication-other"
+    },
+    {
+      "identifier": "https://github.com/Gemeente-Delft/Gemeentelijk-Gegevensmodel",
+      "relation": "isSupplementTo",
+      "resource_type": "software"
+    }
+  ],
+  "notes": "First published in 2019. Visual elements and explanatory text: CC BY 4.0; core model: EUPL 1.2."
+}
