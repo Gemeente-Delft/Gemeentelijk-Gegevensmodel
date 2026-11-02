@@ -26,9 +26,8 @@ Het model 'Model Werk' kent de volgende objecttypen:
 * **Arbeidsperiode**: Een aaneengesloten periode waarin een persoon arbeid heeft verricht, met begin- en einddatum.
 * **Arbeidsverhouding**: Een relatie waarin sprake is van afspraken tussen een werknemer en een werkgever over het verrichten van arbeid.
 * **Arbeidsvermogen**: Een inschatting van wat iemand op basis van fysieke, mentale en sociale capaciteiten aan arbeid kan verrichten.
-* **Bemiddelingsactiviteit**: Een activiteit in het kader van arbeidstoeleiding waarbij de gemeente of uitvoeringsinstantie gericht handelt om de persoon in contact te brengen met een werkgever of werkplek.
 * **Bemiddelingsberoep**: Het beoogde beroep waarvoor een persoon wordt begeleid of bemiddeld in een traject.
-* **Bemiddelingstraject**: Een traject waarin een persoon begeleid wordt naar passend werk, bijvoorbeeld door een gemeente of uitvoeringsinstantie.
+* **Bemiddelingsactiviteit**: Een activiteit in het kader van arbeidstoeleiding waarbij de gemeente of uitvoeringsinstantie een werkzoekende gericht in contact brengt met een werkgever of werkplek, bijvoorbeeld door verwijzing naar een vacature.
 * **BeschikbaarVoorArbeid**: Een indicatie of iemand op dit moment inzetbaar is voor arbeid, los van begeleiding of ondersteuning.
 * **BeschikbaarVoorBemiddeling**: Een indicatie dat een persoon beschikbaar is voor bemiddeling richting arbeid, waarbij wordt gekeken naar inzetbaarheid, bereidheid en eventuele beperkingen.
 * **Doelgroep**: Een specifieke groep personen met gedeelde kenmerken (zoals afstand tot de arbeidsmarkt) die in aanmerking komt voor bepaalde voorzieningen of aangepaste begeleiding.
@@ -216,47 +215,6 @@ Attributen van objecttype Arbeidsvermogen
 
 
 
-### Bemiddelingsactiviteit
-> **Definitie Bemiddelingsactiviteit:** 
->
-> Een activiteit in het kader van arbeidstoeleiding waarbij de gemeente of uitvoeringsinstantie gericht handelt om de persoon in contact te brengen met een werkgever of werkplek.
-
-??? info "Kenmerken Model Bemiddelingsactiviteit"
-
-    | Eigenschap | Waarde |
-    | :--- | :------ |
-    | name | Bemiddelingsactiviteit |
-    | toelichting |  |
-    | synoniemen |  |
-    | uri |  |
-    | bron |  |
-    | author | Eigenaar |
-    | version | 1.11.0 |
-    | created | 2025-06-03 12:47:31 |
-    | modified | 2025-12-22 15:44:35 |
-    | id | EAID\_7F16F190\_CC44\_4550\_A677\_7BFEC6D34E64 |
-    | domein_iv3 |  |
-    | domein_dcat |  |
-    | gemma_naam |  |
-    | gemma_type |  |
-    | gemma_url |  |
-    | gemma_definitie |  |
-    | gemma_toelichting |  |
-    
-
-Attributen van objecttype Bemiddelingsactiviteit
-
-| Attribute | Datatype | Description |
-| :--- | :--- | :--- |
-| DatumBemiddeling | date |  |
-| OmschrijvingSoortContactbemiddeling | contactmoment |  |
-| OmschrijvingSatutsBemiddeling | String |  |
-| OmschrijvingResultaatBemiddeling | String |  |
-| DatumVerwijzingVacature | date |  |
-| IndicatiePlaatsing | bool |  |
-
-
-
 ### Bemiddelingsberoep
 > **Definitie Bemiddelingsberoep:** 
 >
@@ -293,24 +251,24 @@ Attributen van objecttype Bemiddelingsberoep
 
 
 
-### Bemiddelingstraject
-> **Definitie Bemiddelingstraject:** 
+### Bemiddelingsactiviteit
+> **Definitie Bemiddelingsactiviteit:** 
 >
-> Een traject waarin een persoon begeleid wordt naar passend werk, bijvoorbeeld door een gemeente of uitvoeringsinstantie.
+> Een activiteit in het kader van arbeidstoeleiding waarbij de gemeente of uitvoeringsinstantie een werkzoekende gericht in contact brengt met een werkgever of werkplek, bijvoorbeeld door verwijzing naar een vacature.
 
-??? info "Kenmerken Model Bemiddelingstraject"
+??? info "Kenmerken Model Bemiddelingsactiviteit"
 
     | Eigenschap | Waarde |
     | :--- | :------ |
-    | name | Bemiddelingstraject |
-    | toelichting |  |
+    | name | Bemiddelingsactiviteit |
+    | toelichting | Komt overeen met BemiddelingsActiviteit in het Thomas-model (gemeente Rotterdam). Het gaat om één bemiddelingscontact, niet om een traject. Middelen om de kansen op werk te vergroten staan in Reintegratievoorziening. |
     | synoniemen |  |
     | uri |  |
     | bron |  |
     | author | Eigenaar |
     | version | 1.11.0 |
     | created | 2025-06-03 13:22:23 |
-    | modified | 2025-12-22 15:44:35 |
+    | modified | 2026-11-02 14:26:26 |
     | id | EAID\_1C180C62\_5B5E\_45b4\_BB94\_F44454D11BDE |
     | domein_iv3 |  |
     | domein_dcat |  |
@@ -321,15 +279,15 @@ Attributen van objecttype Bemiddelingsberoep
     | gemma_toelichting |  |
     
 
-Attributen van objecttype Bemiddelingstraject
+Attributen van objecttype Bemiddelingsactiviteit
 
 | Attribute | Datatype | Description |
 | :--- | :--- | :--- |
 | DatumBemiddeling | date |  |
-| OmschrijvingContactbemiddeling | text |  |
+| OmschrijvingSoortContactbemiddeling | Kanaal contactmoment |  |
 | OmschrijvingStatusbemiddeling | text |  |
 | OmschrijvingResultaatbemiddeling | text |  |
-| DatumVacature | date |  |
+| DatumVerwijzingVacature | date |  |
 | IndicatiePlaatsing | bool |  |
 
 

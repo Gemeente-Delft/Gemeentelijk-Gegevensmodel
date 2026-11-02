@@ -19840,27 +19840,27 @@ Gezinsmigrant en Overige Migrant heeft geen kenmerken en is bedoeld om relaties 
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/> ;
     rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/arbeidsvermogen> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/werkzoekende/relatie-bemiddelingstraject> a mim:Relatiesoort,
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/werkzoekende/relatie-bemiddelingsactiviteit> a mim:Relatiesoort,
         owl:ObjectProperty ;
-    rdfs:label "relatie naar Bemiddelingstraject"@nl ;
+    rdfs:label "relatie naar Bemiddelingsactiviteit"@nl ;
     mim:aggregatietype mim:Geen ;
     mim:bron <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/werkzoekende> ;
-    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/bemiddelingstraject> ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/bemiddelingsactiviteit> ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/werkzoekende/relatie-bemiddelingstraject"^^xsd:anyURI ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/werkzoekende/relatie-bemiddelingsactiviteit"^^xsd:anyURI ;
     mim:indicatieAfleidbaar false ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "0..*" ;
     mim:kardinaliteitRelatieBron "1..1" ;
     mim:mogelijkGeenWaarde true ;
-    mim:naam "relatie naar Bemiddelingstraject"@nl ;
+    mim:naam "relatie naar Bemiddelingsactiviteit"@nl ;
     mim:unidirectioneel true ;
     dcterms:identifier "EAID_C3E34D34_9F52_426f_83AF_C392B07ABFE8" ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/werkzoekende> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/> ;
-    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/bemiddelingstraject> .
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/bemiddelingsactiviteit> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/werkzoekende/relatie-beschikbaarvoorarbeid> a mim:Relatiesoort,
         owl:ObjectProperty ;
@@ -109948,7 +109948,7 @@ Attribuut is een identificatie maar van het type Integer?"""@nl ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "DatumBemiddeling"@nl ;
     mim:type mim:Date ;
-    dcterms:identifier "EAID_30587B60_E72A_49fe_B988_C4387364B9BF" ;
+    dcterms:identifier "EAID_958B8BA8_4902_4b60_A4DD_58981F3A47C5" ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/bemiddelingsactiviteit> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/> ;
     rdfs:range xsd:date .
@@ -109967,7 +109967,7 @@ Attribuut is een identificatie maar van het type Integer?"""@nl ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "DatumVerwijzingVacature"@nl ;
     mim:type mim:Date ;
-    dcterms:identifier "EAID_F9B34196_6324_43e4_953E_57EDF92B6255" ;
+    dcterms:identifier "EAID_2795FB74_A163_4db5_A763_4E38D70E4215" ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/bemiddelingsactiviteit> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/> ;
     rdfs:range xsd:date .
@@ -109986,14 +109986,14 @@ Attribuut is een identificatie maar van het type Integer?"""@nl ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "IndicatiePlaatsing"@nl ;
     mim:type mim:Boolean ;
-    dcterms:identifier "EAID_4FA7C5CE_8CBF_417a_800A_6BA9475AD648" ;
+    dcterms:identifier "EAID_31AB903A_AF3D_474a_A887_464AE3999C65" ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/bemiddelingsactiviteit> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/> ;
     rdfs:range xsd:boolean .
 
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/bemiddelingsactiviteit/omschrijvingresultaatbemiddeling> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
-    rdfs:label "OmschrijvingResultaatBemiddeling"@nl ;
+    rdfs:label "OmschrijvingResultaatbemiddeling"@nl ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/bemiddelingsactiviteit/omschrijvingresultaatbemiddeling"^^xsd:anyURI ;
@@ -110003,34 +110003,15 @@ Attribuut is een identificatie maar van het type Integer?"""@nl ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde true ;
-    mim:naam "OmschrijvingResultaatBemiddeling"@nl ;
+    mim:naam "OmschrijvingResultaatbemiddeling"@nl ;
     mim:type mim:CharacterString ;
-    dcterms:identifier "EAID_ABC8A75F_11DE_4fea_A6F6_6F3C9B26E8CD" ;
-    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/bemiddelingsactiviteit> ;
-    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/> ;
-    rdfs:range xsd:string .
-
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/bemiddelingsactiviteit/omschrijvingsatutsbemiddeling> a mim:Attribuutsoort,
-        owl:DatatypeProperty ;
-    rdfs:label "OmschrijvingSatutsBemiddeling"@nl ;
-    mim:heeftTijdlijnGeldigheid false ;
-    mim:heeftTijdlijnRegistratie false ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/bemiddelingsactiviteit/omschrijvingsatutsbemiddeling"^^xsd:anyURI ;
-    mim:indicatieAfleidbaar false ;
-    mim:indicatieClassificerend false ;
-    mim:indicatieFormeleHistorie false ;
-    mim:indicatieMaterieleHistorie false ;
-    mim:kardinaliteit "1..1" ;
-    mim:mogelijkGeenWaarde true ;
-    mim:naam "OmschrijvingSatutsBemiddeling"@nl ;
-    mim:type mim:CharacterString ;
-    dcterms:identifier "EAID_5FF82A5E_1700_4b27_9AAA_525E1FA1A806" ;
+    dcterms:identifier "EAID_E80C07E7_F4FA_4949_8F64_C6D81084BF20" ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/bemiddelingsactiviteit> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/> ;
     rdfs:range xsd:string .
 
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/bemiddelingsactiviteit/omschrijvingsoortcontactbemiddeling> a mim:Attribuutsoort,
-        owl:DatatypeProperty ;
+        owl:ObjectProperty ;
     rdfs:label "OmschrijvingSoortContactbemiddeling"@nl ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
@@ -110042,113 +110023,18 @@ Attribuut is een identificatie maar van het type Integer?"""@nl ;
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "OmschrijvingSoortContactbemiddeling"@nl ;
-    mim:type mim:CharacterString ;
-    dcterms:identifier "EAID_2AFFE04E_E532_442a_93EC_031CFA3E2742" ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/kanaal-contactmoment> ;
+    dcterms:identifier "EAID_0C49FA28_BE82_4c9a_8E5C_53590636F1B4" ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/bemiddelingsactiviteit> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/> ;
-    rdfs:range xsd:string .
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/kanaal-contactmoment> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/bemiddelingstraject/datumbemiddeling> a mim:Attribuutsoort,
-        owl:DatatypeProperty ;
-    rdfs:label "DatumBemiddeling"@nl ;
-    mim:heeftTijdlijnGeldigheid false ;
-    mim:heeftTijdlijnRegistratie false ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/bemiddelingstraject/datumbemiddeling"^^xsd:anyURI ;
-    mim:indicatieAfleidbaar false ;
-    mim:indicatieClassificerend false ;
-    mim:indicatieFormeleHistorie false ;
-    mim:indicatieMaterieleHistorie false ;
-    mim:kardinaliteit "1..1" ;
-    mim:mogelijkGeenWaarde true ;
-    mim:naam "DatumBemiddeling"@nl ;
-    mim:type mim:Date ;
-    dcterms:identifier "EAID_958B8BA8_4902_4b60_A4DD_58981F3A47C5" ;
-    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/bemiddelingstraject> ;
-    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/> ;
-    rdfs:range xsd:date .
-
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/bemiddelingstraject/datumvacature> a mim:Attribuutsoort,
-        owl:DatatypeProperty ;
-    rdfs:label "DatumVacature"@nl ;
-    mim:heeftTijdlijnGeldigheid false ;
-    mim:heeftTijdlijnRegistratie false ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/bemiddelingstraject/datumvacature"^^xsd:anyURI ;
-    mim:indicatieAfleidbaar false ;
-    mim:indicatieClassificerend false ;
-    mim:indicatieFormeleHistorie false ;
-    mim:indicatieMaterieleHistorie false ;
-    mim:kardinaliteit "1..1" ;
-    mim:mogelijkGeenWaarde true ;
-    mim:naam "DatumVacature"@nl ;
-    mim:type mim:Date ;
-    dcterms:identifier "EAID_2795FB74_A163_4db5_A763_4E38D70E4215" ;
-    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/bemiddelingstraject> ;
-    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/> ;
-    rdfs:range xsd:date .
-
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/bemiddelingstraject/indicatieplaatsing> a mim:Attribuutsoort,
-        owl:DatatypeProperty ;
-    rdfs:label "IndicatiePlaatsing"@nl ;
-    mim:heeftTijdlijnGeldigheid false ;
-    mim:heeftTijdlijnRegistratie false ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/bemiddelingstraject/indicatieplaatsing"^^xsd:anyURI ;
-    mim:indicatieAfleidbaar false ;
-    mim:indicatieClassificerend false ;
-    mim:indicatieFormeleHistorie false ;
-    mim:indicatieMaterieleHistorie false ;
-    mim:kardinaliteit "1..1" ;
-    mim:mogelijkGeenWaarde true ;
-    mim:naam "IndicatiePlaatsing"@nl ;
-    mim:type mim:Boolean ;
-    dcterms:identifier "EAID_31AB903A_AF3D_474a_A887_464AE3999C65" ;
-    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/bemiddelingstraject> ;
-    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/> ;
-    rdfs:range xsd:boolean .
-
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/bemiddelingstraject/omschrijvingcontactbemiddeling> a mim:Attribuutsoort,
-        owl:DatatypeProperty ;
-    rdfs:label "OmschrijvingContactbemiddeling"@nl ;
-    mim:heeftTijdlijnGeldigheid false ;
-    mim:heeftTijdlijnRegistratie false ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/bemiddelingstraject/omschrijvingcontactbemiddeling"^^xsd:anyURI ;
-    mim:indicatieAfleidbaar false ;
-    mim:indicatieClassificerend false ;
-    mim:indicatieFormeleHistorie false ;
-    mim:indicatieMaterieleHistorie false ;
-    mim:kardinaliteit "1..1" ;
-    mim:mogelijkGeenWaarde true ;
-    mim:naam "OmschrijvingContactbemiddeling"@nl ;
-    mim:type mim:CharacterString ;
-    dcterms:identifier "EAID_0C49FA28_BE82_4c9a_8E5C_53590636F1B4" ;
-    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/bemiddelingstraject> ;
-    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/> ;
-    rdfs:range xsd:string .
-
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/bemiddelingstraject/omschrijvingresultaatbemiddeling> a mim:Attribuutsoort,
-        owl:DatatypeProperty ;
-    rdfs:label "OmschrijvingResultaatbemiddeling"@nl ;
-    mim:heeftTijdlijnGeldigheid false ;
-    mim:heeftTijdlijnRegistratie false ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/bemiddelingstraject/omschrijvingresultaatbemiddeling"^^xsd:anyURI ;
-    mim:indicatieAfleidbaar false ;
-    mim:indicatieClassificerend false ;
-    mim:indicatieFormeleHistorie false ;
-    mim:indicatieMaterieleHistorie false ;
-    mim:kardinaliteit "1..1" ;
-    mim:mogelijkGeenWaarde true ;
-    mim:naam "OmschrijvingResultaatbemiddeling"@nl ;
-    mim:type mim:CharacterString ;
-    dcterms:identifier "EAID_E80C07E7_F4FA_4949_8F64_C6D81084BF20" ;
-    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/bemiddelingstraject> ;
-    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/> ;
-    rdfs:range xsd:string .
-
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/bemiddelingstraject/omschrijvingstatusbemiddeling> a mim:Attribuutsoort,
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/bemiddelingsactiviteit/omschrijvingstatusbemiddeling> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "OmschrijvingStatusbemiddeling"@nl ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/bemiddelingstraject/omschrijvingstatusbemiddeling"^^xsd:anyURI ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/bemiddelingsactiviteit/omschrijvingstatusbemiddeling"^^xsd:anyURI ;
     mim:indicatieAfleidbaar false ;
     mim:indicatieClassificerend false ;
     mim:indicatieFormeleHistorie false ;
@@ -110158,7 +110044,7 @@ Attribuut is een identificatie maar van het type Integer?"""@nl ;
     mim:naam "OmschrijvingStatusbemiddeling"@nl ;
     mim:type mim:CharacterString ;
     dcterms:identifier "EAID_F21A6329_DEE7_4e15_8781_1321756569D3" ;
-    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/bemiddelingstraject> ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/bemiddelingsactiviteit> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/> ;
     rdfs:range xsd:string .
 
@@ -174104,23 +173990,6 @@ Het moratorium duurt maximaal zes maanden."""@nl ;
     rdfs:comment "Een inschatting van wat iemand op basis van fysieke, mentale en sociale capaciteiten aan arbeid kan verrichten."@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/bemiddelingsactiviteit> a mim:Objecttype,
-        owl:Class ;
-    rdfs:label "Bemiddelingsactiviteit"@nl ;
-    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/bemiddelingsactiviteit/datumbemiddeling>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/bemiddelingsactiviteit/datumverwijzingvacature>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/bemiddelingsactiviteit/indicatieplaatsing>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/bemiddelingsactiviteit/omschrijvingresultaatbemiddeling>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/bemiddelingsactiviteit/omschrijvingsatutsbemiddeling>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/bemiddelingsactiviteit/omschrijvingsoortcontactbemiddeling> ;
-    mim:definitie "Een activiteit in het kader van arbeidstoeleiding waarbij de gemeente of uitvoeringsinstantie gericht handelt om de persoon in contact te brengen met een werkgever of werkplek."@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/bemiddelingsactiviteit"^^xsd:anyURI ;
-    mim:indicatieAbstractObject false ;
-    mim:naam "Bemiddelingsactiviteit"@nl ;
-    dcterms:identifier "EAID_7F16F190_CC44_4550_A677_7BFEC6D34E64" ;
-    rdfs:comment "Een activiteit in het kader van arbeidstoeleiding waarbij de gemeente of uitvoeringsinstantie gericht handelt om de persoon in contact te brengen met een werkgever of werkplek."@nl ;
-    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/> .
-
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/doelgroepenregister> a mim:Objecttype,
         owl:Class ;
     rdfs:label "Doelgroepenregister"@nl ;
@@ -176411,21 +176280,22 @@ Ingang bijstandsuitkering kan, zoals de naam al doet vermoeden, alleen van toepa
     rdfs:comment "Onderhoudsplicht is een wettelijke verplichting van iemand om een ander te onderhouden.Echtgenoten en geregistreerde partners hebben een onderhoudsplicht ten opzichte van elkaar. Ouders hebben een onderhoudsplicht voor hun kinderen tot ze 21 jaar zijn (ook al is het met 18 jaar al meerderjarig). Ex-partners hebben een onderhoudsplicht als een van de partners te weinig inkomen heeft om van te leven. Het in sommige gevallen moeten betalen van alimentatie is ook op de onderhoudsplicht gebaseerd. De inkomsten uit alimentatie zijn in het model zelf een inkomstencomponent.De onderhoudsplicht van ouders om hun kind te onderhouden staat geschreven als artikel: 395a van Boek 1 van het Nederlandse Burgerlijk Wetboek.Dit houdt in ieder geval in dat ouders ervoor moeten zorgen dat het kind de meest basale dingen krijgt, zoals onderdak, kleding, voeding, scholing en medische hulp.Het niet nakomen van de onderhoudsplicht, hetzij wel of niet bij vonnis gesteld, kan strafrechtelijke gevolgen hebben. Dit is strafbaar gesteld in artikel 255 van het Wetboek van Strafrecht.Het betreft hier een verhouding tussen een partij, zijnde een persoon of een organisatie, en de burger, waarbij de onderhoudsplichtige partij de betreffende burger onderhoudt in zijn bestaan.NB: Onderhoudsplicht en onderhoudsplichtverhouding leggen we vast als de onderhoudsplichtige (na verhaal) de onderhoudsplicht voldoet aan de gemeente. In alle gevallen dat een onderhoudsplichtige een onderhoudsbijdrage betaalt aan de onderhoudsgerechtigde spreken we van alimentatie. Dit is opgenomen als inkomstencomponent onder een inkomstenverhouding."@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/bemiddelingstraject> a mim:Objecttype,
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/bemiddelingsactiviteit> a mim:Objecttype,
         owl:Class ;
-    rdfs:label "Bemiddelingstraject"@nl ;
-    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/bemiddelingstraject/datumbemiddeling>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/bemiddelingstraject/datumvacature>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/bemiddelingstraject/indicatieplaatsing>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/bemiddelingstraject/omschrijvingcontactbemiddeling>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/bemiddelingstraject/omschrijvingresultaatbemiddeling>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/bemiddelingstraject/omschrijvingstatusbemiddeling> ;
-    mim:definitie "Een traject waarin een persoon begeleid wordt naar passend werk, bijvoorbeeld door een gemeente of uitvoeringsinstantie."@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/bemiddelingstraject"^^xsd:anyURI ;
+    rdfs:label "Bemiddelingsactiviteit"@nl ;
+    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/bemiddelingsactiviteit/datumbemiddeling>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/bemiddelingsactiviteit/datumverwijzingvacature>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/bemiddelingsactiviteit/indicatieplaatsing>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/bemiddelingsactiviteit/omschrijvingresultaatbemiddeling>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/bemiddelingsactiviteit/omschrijvingsoortcontactbemiddeling>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/bemiddelingsactiviteit/omschrijvingstatusbemiddeling> ;
+    mim:definitie "Een activiteit in het kader van arbeidstoeleiding waarbij de gemeente of uitvoeringsinstantie een werkzoekende gericht in contact brengt met een werkgever of werkplek, bijvoorbeeld door verwijzing naar een vacature."@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/bemiddelingsactiviteit"^^xsd:anyURI ;
     mim:indicatieAbstractObject false ;
-    mim:naam "Bemiddelingstraject"@nl ;
+    mim:naam "Bemiddelingsactiviteit"@nl ;
+    mim:toelichting "Komt overeen met BemiddelingsActiviteit in het Thomas-model (gemeente Rotterdam). Het gaat om één bemiddelingscontact, niet om een traject. Middelen om de kansen op werk te vergroten staan in Reintegratievoorziening."@nl ;
     dcterms:identifier "EAID_1C180C62_5B5E_45b4_BB94_F44454D11BDE" ;
-    rdfs:comment "Een traject waarin een persoon begeleid wordt naar passend werk, bijvoorbeeld door een gemeente of uitvoeringsinstantie."@nl ;
+    rdfs:comment "Een activiteit in het kader van arbeidstoeleiding waarbij de gemeente of uitvoeringsinstantie een werkzoekende gericht in contact brengt met een werkgever of werkplek, bijvoorbeeld door verwijzing naar een vacature."@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/codeopleidingsnaam> a mim:Enumeratie,
@@ -182233,23 +182103,6 @@ Objecttype WEGDEEL is het equivalent van het city gml objecttype TRAFFIC AREA.""
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/> ;
     rdfs:subClassOf skos:Concept .
 
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/kanaal-contactmoment> a mim:Enumeratie,
-        owl:Class,
-        skos:ConceptScheme ;
-    rdfs:label "Kanaal contactmoment"@nl ;
-    mim:definitie "Het gebruikte communicatiekanaal bij een contactmoment. Voorbeelden: telefoon, email, huisbezoek."@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/kanaal-contactmoment"^^xsd:anyURI ;
-    mim:naam "Kanaal contactmoment"@nl ;
-    mim:waarde <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/kanaal-contactmoment/berichten-via-thomas>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/kanaal-contactmoment/fysiek-gesprek>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/kanaal-contactmoment/mail>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/kanaal-contactmoment/ontvangen-correspondentie>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/kanaal-contactmoment/telefonisch-gesprek> ;
-    dcterms:identifier "EAID_362B3FC2_A412_450f_AF4D_CF3A4B149060" ;
-    rdfs:comment "Het gebruikte communicatiekanaal bij een contactmoment. Voorbeelden: telefoon, email, huisbezoek."@nl ;
-    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/> ;
-    rdfs:subClassOf skos:Concept .
-
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/zrm-score> a mim:Enumeratie,
         owl:Class,
         skos:ConceptScheme ;
@@ -183369,6 +183222,23 @@ In PxQ uren maal tarief"""@nl ;
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/codeleerwegmbo/ovo-overig-onderwijs-niet-bekostigd> ;
     dcterms:identifier "EAID_8342F88A_D42A_4820_B65E_181F1466CE2F" ;
     rdfs:comment "Geeft de leerweg aan binnen het mbo. Voorbeelden: BOL, BBL"@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/> ;
+    rdfs:subClassOf skos:Concept .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/kanaal-contactmoment> a mim:Enumeratie,
+        owl:Class,
+        skos:ConceptScheme ;
+    rdfs:label "Kanaal contactmoment"@nl ;
+    mim:definitie "Het gebruikte communicatiekanaal bij een contactmoment. Voorbeelden: telefoon, email, huisbezoek."@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/kanaal-contactmoment"^^xsd:anyURI ;
+    mim:naam "Kanaal contactmoment"@nl ;
+    mim:waarde <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/kanaal-contactmoment/berichten-via-thomas>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/kanaal-contactmoment/fysiek-gesprek>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/kanaal-contactmoment/mail>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/kanaal-contactmoment/ontvangen-correspondentie>,
+        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/kanaal-contactmoment/telefonisch-gesprek> ;
+    dcterms:identifier "EAID_362B3FC2_A412_450f_AF4D_CF3A4B149060" ;
+    rdfs:comment "Het gebruikte communicatiekanaal bij een contactmoment. Voorbeelden: telefoon, email, huisbezoek."@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/> ;
     rdfs:subClassOf skos:Concept .
 
@@ -191212,6 +191082,19 @@ mim:Decimal a mim:PrimitiefDatatype .
     rdfs:comment "Het subdomein dat gegevens omvat over adressen en gebouwen in Nederland, gebaseerd op het Informatiemodel BAG (IMBAG), waarbij uitsluitend die elementen zijn opgenomen die relevant zijn voor gemeenten en andere lagere overheden."@nl ;
     owl:versionInfo "1.1" .
 
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/> a mim:Domein,
+        owl:Ontology ;
+    rdfs:label "Model Werk"@nl ;
+    mim:basisUri "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/"^^xsd:anyURI ;
+    mim:datumOpname "2025-07-22"^^xsd:date ;
+    mim:definitie "Het informatiedomein dat gegevens omvat over de ondersteuning van mensen bij het vinden en behouden van werk, gebaseerd op de Participatiewet en gericht op het bevorderen van arbeidsparticipatie."@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/"^^xsd:anyURI ;
+    mim:naam "Model Werk"@nl ;
+    dcterms:identifier "EAPK_A7E08871_8DE8_4fe4_96AE_2AB3EE67E0CF" ;
+    dcterms:isPartOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/> ;
+    rdfs:comment "Het informatiedomein dat gegevens omvat over de ondersteuning van mensen bij het vinden en behouden van werk, gebaseerd op de Participatiewet en gericht op het bevorderen van arbeidsparticipatie."@nl ;
+    owl:versionInfo "1.1.0" .
+
 <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-beheerobjectgebruiksfunctie> a mim:Enumeratie,
         owl:Class,
         skos:ConceptScheme ;
@@ -191306,19 +191189,6 @@ mim:Decimal a mim:PrimitiefDatatype .
     dcterms:identifier "EAID_A96DB9BB_1835_4B55_AE3C_7D5322E72BF0" ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/> ;
     rdfs:subClassOf skos:Concept .
-
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/> a mim:Domein,
-        owl:Ontology ;
-    rdfs:label "Model Werk"@nl ;
-    mim:basisUri "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/"^^xsd:anyURI ;
-    mim:datumOpname "2025-07-22"^^xsd:date ;
-    mim:definitie "Het informatiedomein dat gegevens omvat over de ondersteuning van mensen bij het vinden en behouden van werk, gebaseerd op de Participatiewet en gericht op het bevorderen van arbeidsparticipatie."@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/"^^xsd:anyURI ;
-    mim:naam "Model Werk"@nl ;
-    dcterms:identifier "EAPK_A7E08871_8DE8_4fe4_96AE_2AB3EE67E0CF" ;
-    dcterms:isPartOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/> ;
-    rdfs:comment "Het informatiedomein dat gegevens omvat over de ondersteuning van mensen bij het vinden en behouden van werk, gebaseerd op de Participatiewet en gericht op het bevorderen van arbeidsparticipatie."@nl ;
-    owl:versionInfo "1.1.0" .
 
 <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/bouwkundigebestemming> a mim:Enumeratie,
         owl:Class,

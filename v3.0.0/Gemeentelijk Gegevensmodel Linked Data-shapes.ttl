@@ -24601,7 +24601,7 @@ Attribuut is een identificatie maar van het type Integer?"""@nl ;
 
 <https://lod.gemeentelijkgegevensmodel.nl/shapes/sociaal-domein/werk/bemiddelingsactiviteit> a sh:NodeShape ;
     rdfs:label "Bemiddelingsactiviteit"@nl ;
-    dcterms:identifier "EAID_7F16F190_CC44_4550_A677_7BFEC6D34E64" ;
+    dcterms:identifier "EAID_1C180C62_5B5E_45b4_BB94_F44454D11BDE" ;
     sh:property [ sh:datatype xsd:date ;
             sh:maxCount 1 ;
             sh:name "DatumVerwijzingVacature"@nl ;
@@ -24616,15 +24616,17 @@ Attribuut is een identificatie maar van het type Integer?"""@nl ;
             sh:path <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/bemiddelingsactiviteit/datumbemiddeling> ],
         [ sh:datatype xsd:string ;
             sh:maxCount 1 ;
+            sh:name "OmschrijvingStatusbemiddeling"@nl ;
+            sh:path <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/bemiddelingsactiviteit/omschrijvingstatusbemiddeling> ],
+        [ sh:class <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/kanaal-contactmoment> ;
+            sh:in ( <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/kanaal-contactmoment/berichten-via-thomas> <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/kanaal-contactmoment/fysiek-gesprek> <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/kanaal-contactmoment/mail> <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/kanaal-contactmoment/ontvangen-correspondentie> <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/kanaal-contactmoment/telefonisch-gesprek> ) ;
+            sh:maxCount 1 ;
             sh:name "OmschrijvingSoortContactbemiddeling"@nl ;
+            sh:nodeKind sh:IRI ;
             sh:path <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/bemiddelingsactiviteit/omschrijvingsoortcontactbemiddeling> ],
         [ sh:datatype xsd:string ;
             sh:maxCount 1 ;
-            sh:name "OmschrijvingSatutsBemiddeling"@nl ;
-            sh:path <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/bemiddelingsactiviteit/omschrijvingsatutsbemiddeling> ],
-        [ sh:datatype xsd:string ;
-            sh:maxCount 1 ;
-            sh:name "OmschrijvingResultaatBemiddeling"@nl ;
+            sh:name "OmschrijvingResultaatbemiddeling"@nl ;
             sh:path <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/bemiddelingsactiviteit/omschrijvingresultaatbemiddeling> ] ;
     sh:targetClass <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/bemiddelingsactiviteit> .
 
@@ -24642,35 +24644,6 @@ Attribuut is een identificatie maar van het type Integer?"""@nl ;
             sh:nodeKind sh:IRI ;
             sh:path <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/bemiddelingsberoep/relatie-werkzoekende> ] ;
     sh:targetClass <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/bemiddelingsberoep> .
-
-<https://lod.gemeentelijkgegevensmodel.nl/shapes/sociaal-domein/werk/bemiddelingstraject> a sh:NodeShape ;
-    rdfs:label "Bemiddelingstraject"@nl ;
-    dcterms:identifier "EAID_1C180C62_5B5E_45b4_BB94_F44454D11BDE" ;
-    sh:property [ sh:datatype xsd:string ;
-            sh:maxCount 1 ;
-            sh:name "OmschrijvingStatusbemiddeling"@nl ;
-            sh:path <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/bemiddelingstraject/omschrijvingstatusbemiddeling> ],
-        [ sh:datatype xsd:string ;
-            sh:maxCount 1 ;
-            sh:name "OmschrijvingContactbemiddeling"@nl ;
-            sh:path <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/bemiddelingstraject/omschrijvingcontactbemiddeling> ],
-        [ sh:datatype xsd:boolean ;
-            sh:maxCount 1 ;
-            sh:name "IndicatiePlaatsing"@nl ;
-            sh:path <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/bemiddelingstraject/indicatieplaatsing> ],
-        [ sh:datatype xsd:date ;
-            sh:maxCount 1 ;
-            sh:name "DatumBemiddeling"@nl ;
-            sh:path <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/bemiddelingstraject/datumbemiddeling> ],
-        [ sh:datatype xsd:string ;
-            sh:maxCount 1 ;
-            sh:name "OmschrijvingResultaatbemiddeling"@nl ;
-            sh:path <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/bemiddelingstraject/omschrijvingresultaatbemiddeling> ],
-        [ sh:datatype xsd:date ;
-            sh:maxCount 1 ;
-            sh:name "DatumVacature"@nl ;
-            sh:path <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/bemiddelingstraject/datumvacature> ] ;
-    sh:targetClass <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/bemiddelingstraject> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/shapes/sociaal-domein/werk/beschikbaarvoorarbeid> a sh:NodeShape ;
     rdfs:label "BeschikbaarVoorArbeid"@nl ;
@@ -25724,10 +25697,6 @@ Attribuut is een identificatie maar van het type Integer?"""@nl ;
             sh:name "relatie naar Rijbewijs /Certificaat"@nl ;
             sh:nodeKind sh:IRI ;
             sh:path <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/werkzoekende/relatie-rijbewijs-certificaat> ],
-        [ sh:class <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/bemiddelingstraject> ;
-            sh:name "relatie naar Bemiddelingstraject"@nl ;
-            sh:nodeKind sh:IRI ;
-            sh:path <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/werkzoekende/relatie-bemiddelingstraject> ],
         [ sh:class <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/flexibiliteit> ;
             sh:maxCount 1 ;
             sh:name "relatie naar Flexibiliteit"@nl ;
@@ -25742,6 +25711,10 @@ Attribuut is een identificatie maar van het type Integer?"""@nl ;
             sh:name "relatie naar Werkervaring"@nl ;
             sh:nodeKind sh:IRI ;
             sh:path <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/werkzoekende/relatie-werkervaring> ],
+        [ sh:class <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/bemiddelingsactiviteit> ;
+            sh:name "relatie naar Bemiddelingsactiviteit"@nl ;
+            sh:nodeKind sh:IRI ;
+            sh:path <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/werkzoekende/relatie-bemiddelingsactiviteit> ],
         [ sh:class <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/doelgroepenregister> ;
             sh:name "relatie naar Doelgroepenregister"@nl ;
             sh:nodeKind sh:IRI ;
