@@ -35,7 +35,7 @@
   "language": "nld",
   "related_identifiers": [
     {
-      "identifier": "https://gemeentelijkgegevensmodel.nl",
+      "identifier": "https://www.gemeentelijkgegevensmodel.nl",
       "relation": "isDocumentedBy",
       "resource_type": "publication-other"
     },
