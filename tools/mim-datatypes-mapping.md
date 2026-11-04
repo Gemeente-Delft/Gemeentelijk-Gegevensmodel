@@ -1,6 +1,6 @@
 # Datatypes GGM v3.0.0 naar MIM: mapping
 
-*Status: voorstel, 4 november 2026. Nog niet doorgevoerd; eerst dry-run (tools/fix_datatypes_mim.py).*
+*Status: doorgevoerd in het EA-model op 4 november 2026 met tools/fix_datatypes_mim.py (3.267 attributen). De vervolgstappen onder "Open punten" staan nog open.*
 
 ## Context
 
@@ -48,7 +48,7 @@ De omzetting maakt de typetekst gelijk aan het MIM-datatype en zet lengte, eenhe
 | Type, TypePlus, Materiaal, Leverancier, … zonder classifier (vooral Model IMBOR) | 292 | buiten deze omzetting | later koppelen aan enumeraties (IMBOR-werk) |
 | Enumeraties, objecttypen, gestructureerde datatypen als type | 379 | ongewijzigd | |
 
-Aantallen: attributen in v3.0.0 op 4 november 2026, exclusief 4.236 enumeratiewaarden.
+Aantallen: attributen in v3.0.0 op 4 november 2026 vóór de omzetting (4.585, exclusief 4.236 enumeratiewaarden). Bij de doorvoering waren het er 4.618 door 33 nieuwe attributen uit de Financiën-proposals van diezelfde middag; het rapport tools/mim-datatypes-omzetting.md heeft de definitieve aantallen.
 
 ## Formele patronen
 
@@ -58,7 +58,7 @@ Aantallen: attributen in v3.0.0 op 4 november 2026, exclusief 4.236 enumeratiewa
 | E-mail | `^[^@\s]+@[^@\s]+\.[^@\s]+$` |
 | IBAN | `^[A-Z]{2}[0-9]{2}[A-Z0-9]{1,30}$` |
 | Telefoonnummer (10 cijfers, conform de huidige GGM-definitie) | `^[0-9]{10}$` |
-| OnvolledigeDatum (jjjjmmdd, 00 voor onbekend) | `^[0-9]{4}([0-9]{2}|00)([0-9]{2}|00)$` |
+| OnvolledigeDatum (jjjjmmdd, 00 voor onbekend) | `^[0-9]{4}([0-9]{2}\|00)([0-9]{2}\|00)$` |
 
 ## Wat verandert er voor de generatoren
 
@@ -76,4 +76,5 @@ Aantallen: attributen in v3.0.0 op 4 november 2026, exclusief 4.236 enumeratiewa
 - NEN3610ID als gestructureerd datatype volgens NEN 3610 (voorkeur) of als CharacterString met formeel patroon; het gestructureerde datatype raakt de DDL-templates.
 - De stereotypen «Primitief datatype» en «Gestructureerd datatype» (MIM-profiel) op de eigen datatypen, in plaats van «Interface».
 - De 292 losse typenamen zonder classifier (vooral Model IMBOR en Beheer Openbare Ruimte).
-- Het verwijderen van de dan onverwezen datatypen (Bedrag, Dag, Jaar, Maand, Email, GUID, IBAN, Telefoonnummer, Geldbedrag, CompositeID, de twee enumeraties Boolean) gebeurt pas na controle in EA.
+- Het verwijderen van de nu onverwezen datatypen (Bedrag, Dag, Jaar, Maand, Email, GUID, IBAN, Telefoonnummer, Geldbedrag, CompositeID, de twee enumeraties Boolean) gebeurt pas na controle in EA; de enumeratie Boolean staat nog op 10 diagrammen, CompositeID op 6.
+- Zes attributen met typetekst "Enum" (Leerroute, Rijbewijs/Certificaat) zijn handmatig te typeren.
