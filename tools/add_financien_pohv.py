@@ -1,20 +1,22 @@
 #!/usr/bin/env python3
 """Memo Domein Financiën in POHV en GGM (Michiel van Wezel, Invest-NL, 26 november 2025; RFC in consultatie
 sinds februari 2026, akkoord, toegezegd voor de volgende release) doorvoeren in de EA-repository van het GGM
-(.qea = SQLite), volgens tools/proposal-financien-pohv-rgs.md met de aanbevolen keuzes. Besluit Arjen
-4 november 2026: de definities van RGS (Referentiegrootboekrekening en de relatie 'is van soort') blijven
-buiten deze wijziging.
+(.qea = SQLite), volgens tools/proposal-financien-pohv-rgs.md met de aanbevolen keuzes. Eerste run op
+4 november 2026 zonder RGS; later die dag alsnog uitgebreid met Referentiegrootboekrekening en de relatie
+Hoofdrekening 'is van soort', conform het advies van de expertgroep van 4 februari 2026. Het script is
+idempotent: een tweede run voegt alleen de RGS-delen toe.
 
 Zelfde werkwijze als tools/add_samenwerkomgeving.py: één transactie, standaard een dry-run op een tijdelijke
 kopie, met --apply vastleggen. Idempotent. Enterprise Architect gesloten, back-up gemaakt.
 
 Wat het script doet, in Model Financien:
-  1. Vijf objecttypen «Objecttype» met definitie, MIM-tagset en attributen met MIM-datatypes:
-     Verbijzonderingsoort, Verbijzondering, Verdeelsleutel, Verdeelkenmerk, Verdeelregel.
+  1. Zes objecttypen «Objecttype» met definitie, MIM-tagset en attributen met MIM-datatypes:
+     Verbijzonderingsoort, Verbijzondering, Verdeelsleutel, Verdeelkenmerk, Verdeelregel en
+     Referentiegrootboekrekening (RGS).
   2. Kostenplaats: attribuut indicatieHulpkostenplaats : Boolean. Mutatie: scherpere definitie.
-  3. Zes relaties «Relatiesoort» met kardinaliteiten.
-  4. Diagram 'Financien Verwerken Mutaties': Verbijzondering en Verbijzonderingsoort erbij, met de twee
-     relaties; nieuw diagram 'Financien Kostenverdeling' met Kostenplaats, Verdeelsleutel, Verdeelkenmerk en
+  3. Zeven relaties «Relatiesoort» met kardinaliteiten, waaronder Hoofdrekening 'is van soort' Referentiegrootboekrekening.
+  4. Diagram 'Financien Verwerken Mutaties': Verbijzondering, Verbijzonderingsoort en Referentiegrootboekrekening
+     erbij, met de drie relaties; nieuw diagram 'Financien Kostenverdeling' met Kostenplaats, Verdeelsleutel, Verdeelkenmerk en
      Verdeelregel (attributen zichtbaar).
 
 Gebruik:
@@ -34,6 +36,7 @@ PKG_MODEL = ("{5FFD0C07-FF86-4896-9605-D8492189984D}", "Model Financien")
 PKG_DIAGRAM = ("{21F9F340-C1AF-4c81-BC23-A41BAEE559D7}", "Diagram")
 KOSTENPLAATS = ("{D90E822D-7EF8-4ea6-AF5C-4A4362577941}", "Kostenplaats")
 MUTATIE = ("{CB0A6B53-D263-459e-8C28-AD97E5552FFF}", "Mutatie")
+HOOFDREKENING = ("{0EEAF579-3F47-4551-B9F9-7367280EB3EB}", "Hoofdrekening")
 TPL_ATTR = ("{6F38439B-23A4-4dd3-9C4E-F6B6E57027BF}", "naam")  # Kostenplaats.naam
 TPL_CONNECTOR = ("{6CFEC8E4-A77E-44d6-8AB7-8D425CB81C98}", "leidt tot")  # Factuurregel -> Mutatie
 DIAGRAM_MUTATIES = ("{B758018F-CB22-420e-B4E4-E17EB5F71EDA}", "Financien Verwerken Mutaties")
@@ -49,7 +52,7 @@ DIAGRAM_OBJECT_STYLE = ("NSL=0;BCol=-1;BFol=-1;LCol=-1;LWth=-1;fontsz=0;bold=0;b
                         "OpCustom=0;RzO=1;")
 GEMMA_TAGS = {"GEMMA alternate name", "GEMMA bron", "GEMMA definitie", "GEMMA guid", "GEMMA naam",
               "GEMMA synoniemen", "GEMMA toelichting", "GEMMA type", "GEMMA url", "Datum tijd export"}
-CS, BOOL, DATE, DECIMAL, URI = "CharacterString", "Boolean", "Date", "Decimal", "URI"
+CS, BOOL, DATE, DECIMAL, URI, INT = "CharacterString", "Boolean", "Date", "Decimal", "URI", "Integer"
 
 CLASSES = {
     "Verbijzonderingsoort": (
@@ -85,6 +88,17 @@ CLASSES = {
         [("omschrijving", CS, 0, "Omschrijving van de verdeelregel."),
          ("datumBeginGeldigheid", DATE, 0, "Datum vanaf wanneer de regel geldt."),
          ("datumEindeGeldigheid", DATE, 0, "Datum tot wanneer de regel geldt.")]),
+    "Referentiegrootboekrekening": (
+        "Rekening uit het Referentie Grootboekschema (RGS), de landelijke standaardindeling van grootboekrekeningen "
+        "waarmee kostensoorten eenduidig worden geclassificeerd en waarop de SBR-rapportage aansluit. RGS wordt "
+        "beheerd door de RGS-beheergroep onder voorzitterschap van de NBA en gepubliceerd op "
+        "www.referentiegrootboekschema.nl.",
+        [("referentiecode", CS, 20, "Referentiecode van de rekening in RGS, zoals WBedHuiVgo."),
+         ("referentiegrootboeknummer", CS, 20, "Referentiegrootboeknummer van de rekening in RGS."),
+         ("omschrijving", CS, 300, "Omschrijving van de rekening volgens RGS."),
+         ("omslagcode", CS, 20, "Omslagcode: de referentiecode van de tegenrekening bij een omslag van debet naar credit."),
+         ("niveau", INT, 0, "Niveau van de rekening in de hiërarchie van RGS."),
+         ("versieRGS", CS, 10, "Versie van RGS waaruit de rekening afkomstig is.")]),
 }
 KOSTENPLAATS_ATTRS = [
     ("indicatieHulpkostenplaats", BOOL, 0,
@@ -99,10 +113,13 @@ RELATIONS = [
     ("Verdeelkenmerk", "van verdeelsleutel", "Verdeelsleutel", "0..*", "1"),
     ("Verdeelregel", "verdeelt kosten van", "Kostenplaats", "0..*", "1"),
     ("Verdeelregel", "volgens verdeelsleutel", "Verdeelsleutel", "0..*", "1"),
+    ("Hoofdrekening", "is van soort", "Referentiegrootboekrekening", "0..*", "0..1"),
 ]
 # Bestaand diagram (attributen verborgen, vakjes 90 x 70): rechts van Subrekening.
-PLACES_MUTATIES = {"Verbijzondering": (-380, 725, 815, -450), "Verbijzonderingsoort": (-500, 725, 815, -570)}
-LINKS_MUTATIES = {("Mutatie", "Verbijzondering"), ("Verbijzondering", "Verbijzonderingsoort")}
+PLACES_MUTATIES = {"Verbijzondering": (-380, 725, 815, -450), "Verbijzonderingsoort": (-500, 725, 815, -570),
+                   "Referentiegrootboekrekening": (-36, 725, 815, -106)}
+LINKS_MUTATIES = {("Mutatie", "Verbijzondering"), ("Verbijzondering", "Verbijzonderingsoort"),
+                  ("Hoofdrekening", "Referentiegrootboekrekening")}
 # Nieuw diagram (attributen zichtbaar): naam -> (RectTop, RectLeft, RectRight); hoogte volgt uit de attributen.
 PLACES_NEW = {"Kostenplaats": (-30, 30, 260), "Verdeelkenmerk": (-30, 330, 560), "Verdeelsleutel": (-30, 630, 860),
               "Verdeelregel": (-300, 330, 560)}
@@ -212,6 +229,7 @@ class Builder:
         attr_tags = self.all("SELECT Property, VALUE, NOTES FROM t_attributetag WHERE ElementID=? ORDER BY PropertyID", attr_tpl["ID"])
         self.ids["Kostenplaats"] = tpl["Object_ID"]
         self.ids["Mutatie"] = self.row("t_object", "ea_guid", MUTATIE)["Object_ID"]
+        self.ids["Hoofdrekening"] = self.row("t_object", "ea_guid", HOOFDREKENING)["Object_ID"]
         for name, (note, attrs) in CLASSES.items():
             existing = self.one("SELECT Object_ID FROM t_object WHERE Package_ID=? AND Name=?", pkg, name)
             if existing:
@@ -292,7 +310,7 @@ class Builder:
         d = self.row("t_diagram", "ea_guid", DIAGRAM_MUTATIES)
         did = d["Diagram_ID"]
         duids = {}
-        for name in ("Mutatie",):
+        for name in ("Mutatie", "Hoofdrekening"):
             r = self.one("SELECT ObjectStyle FROM t_diagramobjects WHERE Diagram_ID=? AND Object_ID=?", did, self.ids[name])
             duids[name] = r["ObjectStyle"].split("DUID=")[1].split(";")[0]
         seq = (self.one("SELECT MAX(Sequence) FROM t_diagramobjects WHERE Diagram_ID=?", did)[0] or 0) + 1

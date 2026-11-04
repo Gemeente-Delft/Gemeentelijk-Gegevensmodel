@@ -15,7 +15,9 @@ notities van de overleggen met POHV (12 november 2025 en 6 oktober 2026).
   Verbijzondering, Verbijzonderingsoort, verdeelsleutel, hulpkostenplaats of RGS-element; `Mutatie` heeft nog
   alleen `datum` en `bedrag`. Geen GitHub-issue, geen commit.
 - **Opmerkingen in Obsidian** (overleggen 12 november 2025 en 6 oktober 2026, expertgroep 12 augustus 2026,
-  kennisnotities RGS en POHV): geen inhoudelijke opmerkingen op het model. Michiel van Wezel noemt het RFC-model
+  kennisnotities RGS en POHV, en sinds 4 november 2026 de mails van Inge van Creij-Maas van 4 februari, 22 en 29 april
+  2026): geen inhoudelijke opmerkingen op de modelstructuur. De expertgroep adviseerde in februari om ook de
+  RGS-verwijzing door te voeren; de gearceerde aanbevelingen uit bijlage E zijn in april ter kennisgeving aangenomen. Michiel van Wezel noemt het RFC-model
   "volledig dekkend"; Arjen dacht op 6 oktober dat het al was doorgevoerd, Ashkan meldde dat het op de lijst voor de
   volgende release staat. Drie punten werken door in de keuzes: de vraag van Arjen uit november 2025 of het GGM
   een grootboekschema kan voorschrijven, de wens van alle partijen om referentiedata machineleesbaar te
@@ -71,7 +73,10 @@ Evernote-import) gaan over andere betekenissen van die woorden.
 | 12 november 2025, *Definitief GGM & POHV Financien* (eerste bespreking van de memo) | Wensen van POHV: MIM-referentielijsten en het referentie grootboekschema onderdeel van het GGM maken; hulp- en hoofdkostenplaatsen toevoegen. Eigen vraag van Arjen: "Kunnen we grootboekschema's in het GGM opnemen en zelfs benoemen welk schema gehanteerd moet worden?" Actie: voorstel op de agenda van de expertgroep (afgerond 1 december 2025). | keuze 7: wel of niet in de definitie van `Referentiegrootboekrekening` vastleggen dat RGS het te hanteren schema is; `versieRGS` als attribuut |
 | memo zelf, *Vervolgstappen* | "Beheergroep 20251202, nieuwe versie notitie"; de versie van 18 februari 2026 in `~/Downloads` is byte voor byte gelijk aan de versie van vandaag | er is geen latere versie van de memo; van de beheergroep van 2 december 2025 staat geen verslag in Obsidian |
 | 4 februari 2026, expertgroep | "proposal financien": welke eigenschappen moet de inkooporderregel hebben, koppeling aan factuurregel; mail aan Jetse van Tilborg (Centric) | betreft het proposal Inkooporderregels, niet deze memo |
-| 12 augustus 2026, 23e expertgroep | Ashkan: "openbare consultaties samenwerkingsomgeving, inkooporders, financiën en onderwijshuisvesting worden in de volgende release meegenomen" | *financiën* en *onderwijshuisvesting* staan los van elkaar; bij Ashkan nagaan welke van de twee deze memo is en of er daarnaast een consultatie over het handboek basisdata onderwijshuisvesting (onderwijsvastgoed) loopt |
+| 4 februari 2026, reactie expertgroep (mail Inge van Creij-Maas, met Victor van der Kloet en Arjan de Bruin; in Obsidian sinds 4 november 2026) | Verdeelsleutel en Verbijzondering zijn erg nuttig; Leiden werkte aan een eigen verbijzonderingsproposal, niet strijdig. RGS-codes worden binnen gemeenten weinig gebruikt (verantwoording zit als export in de applicatie), maar de verwijzing is een kleine wijziging zonder nadelen: advies om ook RGS door te voeren. Bijlage E nog niet bekeken. Arjen heeft dit kort daarna aan Michiel van Wezel gemaild, met de aankondiging van de openbare consultatie. | het advies van februari was RGS wél op te nemen; het besluit van Arjen van 4 november 2026 om de definities van RGS nog niet op te nemen wijkt daarvan af en blijft een open keuze (keuze 1); het proposal van Leiden is nergens teruggevonden |
+| 22 april 2026, mail Inge | De gearceerde aanbevelingen in bijlage E (GGM in lijn brengen met POHV en RIO) worden ter kennisgeving aangenomen en niet opgepakt: geen was-wordt-toelichting, te specifiek onderdeel, andere proposals hebben meer impact. Arjen zet de conclusie door naar Michiel van Wezel. | bijlage E blijft buiten dit voorstel (was al zo); of de conclusie bij Michiel is aangekomen is niet geverifieerd |
+| 29 april 2026, afstemmingsoverleg (samenvatting Inge per mail) | Het proposal mag in openbare consultatie als *Onderwijshuisvesting*, zonder de gearceerde delen van bijlage E; *Financiën inkooporderregels* (Centric) is apart gereed voor consultatie; alle proposals samen in één keer, aankondiging door Arjen op de Pleio. | lost de vraag hieronder op: de consultatie *onderwijshuisvesting* van 12 augustus is deze memo, *financiën* is Inkooporderregels |
+| 12 augustus 2026, 23e expertgroep | Ashkan: "openbare consultaties samenwerkingsomgeving, inkooporders, financiën en onderwijshuisvesting worden in de volgende release meegenomen" | *onderwijshuisvesting* is deze memo, *financiën* en *inkooporders* betreffen het proposal Inkooporderregels van Centric |
 | 6 oktober 2026, POHV-overleg (Michiel van Wezel, Jacques Oosterveen, Ahmed Ibrahim, Ashkan, Arjen) | RFC sinds februari in consultatie, akkoord, op de lijst voor de eerstvolgende release. Arjen: "volgens mij hebben we hem doorgevoerd"; Ashkan: staat op de lijst, nog niet van de consultatiepagina gehaald. Michiel: het RFC-model is "volledig dekkend voor onze behoefte"; de verdieping bestaat uit de boekingsverbijzonderingen ("meerdere plakkertjes op een boeking") en de verwijzing naar RGS; voor de meeste leveranciers implementeerbaar, behalve de RGS-koppeling. Jacques vroeg om opmerkingen; Arjen: geen, akkoord, gaat in de volgende versie. Gedeelde wens: standaarden, referentiedata en enumeraties machineleesbaar publiceren (RGS staat in Excel bij de NBA). Contact Centric: Ron Bartels. Besluit: de RFC gaat mee in de eerstvolgende GGM-release. | bevestigt dat het model nog niet is aangepast; keuze 8: de RGS-codes als data meeleveren; de leveranciersvraag blijft bij Ashkan (actie 16 oktober) |
 | kennisnotities *RGS* en *POHV* (6 oktober 2026) | RGS wordt gepubliceerd in Excel, niet machineleesbaar; open vraag in hoeverre financiële pakketten bij gemeenten RGS ondersteunen | idem |
 | 30 juni 2026, kennismaking basisdata onderwijshuisvesting | gaat over het handboek en de databaseblauwdruk, niet over de financiënmemo | geen |
@@ -145,13 +150,16 @@ wijkt af van wat is geconsulteerd; aanbevolen is de lijsten alleen te noemen in 
 
 ## 6. Uitvoering
 
-Uitgevoerd op 4 november 2026 met `tools/add_financien_pohv.py`, na het besluit van Arjen om de definities van
-RGS nog niet op te nemen: vijf objecttypen (`Verbijzonderingsoort`, `Verbijzondering`, `Verdeelsleutel`,
+Uitgevoerd op 4 november 2026 met `tools/add_financien_pohv.py`, in twee stappen. Eerst zonder RGS, na het besluit
+van Arjen om de definities van RGS nog niet op te nemen; later die dag, na het lezen van de mails van 4 februari
+2026 (advies van de expertgroep om RGS wél door te voeren), alsnog met `Referentiegrootboekrekening` (zes
+attributen) en de relatie `Hoofdrekening` `is van soort` 0..* – 0..1, ook op het diagram *Financien Verwerken
+Mutaties* (backup `.qea.backup-2026-11-04-voor-rgs-inkooporderregels`). De eerste stap omvatte: vijf objecttypen (`Verbijzonderingsoort`, `Verbijzondering`, `Verdeelsleutel`,
 `Verdeelkenmerk`, `Verdeelregel`), `indicatieHulpkostenplaats` op `Kostenplaats`, de nieuwe definitie van `Mutatie`,
 zes relaties, twee elementen en twee lijnen op *Financien Verwerken Mutaties* en het nieuwe diagram *Financien
-Kostenverdeling*. Niet opgenomen: `Referentiegrootboekrekening` met de relatie `is van soort` (keuzes 1, 7 en 8
-blijven open), de hiërarchie `valt onder` (keuze 2), de enumeraties voor 6S en NL/SfB (keuze 3) en de relatie
-`verdeelt naar` (keuze 4). Backup: `.qea.backup-2026-11-04-voor-financien-pohv`.
+Kostenverdeling*. Niet opgenomen: de hiërarchie `valt onder` (keuze 2), de enumeraties voor 6S en NL/SfB (keuze 3) en de relatie
+`verdeelt naar` (keuze 4). RGS is als objecttype in Model Financien opgenomen (keuze 1) zonder voorschrift welk
+schema gehanteerd moet worden (keuze 7) en zonder de RGS-codes als data (keuze 8). Backup: `.qea.backup-2026-11-04-voor-financien-pohv`.
 
 1. **Afstemmen met de indiener.** Michiel van Wezel (en Jacques Oosterveen, financiële kant POHV) de vertaling
    in hoofdstuk 5 en de definities laten bevestigen; vragen welke RGS-versie en welke attributen van RGS zij

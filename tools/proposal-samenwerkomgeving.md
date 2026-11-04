@@ -38,6 +38,7 @@ Adresaanduiding, naamgeving relaties).
 | git-historie (alle branches) | commitboodschappen met *samenwerk* | niets |
 | GitHub-issues (open en gesloten) | *samenwerkomgeving* | niets; eerdere proposals liepen via een issue met labels `Proposal` en `Expertgroep` (issue 4, Subsidies) |
 | Obsidian (`01_Projects/GGM`) | consultatie, expertgroep | infographic 13 mei 2026; verslag 23e expertgroep 12 augustus 2026 |
+| mail Inge van Creij-Maas, 29 april 2026 (in Obsidian sinds 4 november 2026) | afstemmingsoverleg | Erik de Lepper deelde in april 2026 "het bestand met de laatste versie" met Ashkan, die het nakeek en met Michiel Verhoef deelde; die versie is mogelijk nieuwer dan de PDF van januari 2025 die hier is verwerkt en moet ernaast worden gelegd |
 
 ## 2. Toetsing aan cookbook en conventies
 
@@ -137,7 +138,7 @@ eigen package `Samenwerkomgeving` onder `9 Interne Organisatie`, enumeratie `Tea
 `Samenwerkomgeving`. De relatie naar `Applicatie` (keuze 6) is niet opgenomen. Stap 1 en 2 hieronder staan nog
 open: de definities zijn door ons opgesteld en moeten door Erik worden bevestigd.
 
-1. **Afstemmen met de indiener.** Erik de Lepper vragen om (a) de ontbrekende definities en de betekenis van
+1. **Afstemmen met de indiener.** Eerst bij Ashkan de versie opvragen die Erik in april 2026 deelde en vergelijken met de verwerkte PDF (versie 01, januari 2025). Daarna Erik de Lepper vragen om (a) de ontbrekende definities en de betekenis van
    `Formaat` en `Hub site`, (b) een XMI-export van zijn EA-package `Model Samenwerkomgeving` (de PDF is uit EA
    gegenereerd, elementen aangemaakt 15 januari 2025), (c) akkoord op de vertaling in hoofdstuk 3.
 2. **Reacties uit de consultatie** ophalen bij Ashkan en verwerken in deze notitie.
