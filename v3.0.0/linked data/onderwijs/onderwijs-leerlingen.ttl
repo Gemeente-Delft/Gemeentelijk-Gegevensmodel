@@ -740,7 +740,7 @@
     rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/groepattribuutsoort/adresaanduiding> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/afgekochteerfpacht> a mim:Attribuutsoort,
-        owl:ObjectProperty ;
+        owl:DatatypeProperty ;
     rdfs:label "afgekochteErfpacht"@nl ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
@@ -752,11 +752,11 @@
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "afgekochteErfpacht"@nl ;
-    mim:type <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/boolean> ;
+    mim:type mim:Boolean ;
     dcterms:identifier "EAID_D64A858C_3726_42c3_8663_CFE49FBFF0D9" ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/> ;
-    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/boolean> .
+    rdfs:range xsd:boolean .
 
 <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/afgesprokenconditiescore> a mim:Attribuutsoort,
         owl:ObjectProperty ;
@@ -780,6 +780,7 @@
 <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/afkoopwaarde> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "afkoopwaarde"@nl ;
+    mim:eenheid [ ] ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/afkoopwaarde"^^xsd:anyURI ;
@@ -788,6 +789,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "10,2" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "afkoopwaarde"@nl ;
     mim:type mim:Decimal ;
@@ -797,7 +799,7 @@
     rdfs:range xsd:decimal .
 
 <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/asbestrapportageaanwezig> a mim:Attribuutsoort,
-        owl:ObjectProperty ;
+        owl:DatatypeProperty ;
     rdfs:label "asbestrapportageAanwezig"@nl ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
@@ -809,15 +811,16 @@
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "asbestrapportageAanwezig"@nl ;
-    mim:type <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/boolean> ;
+    mim:type mim:Boolean ;
     dcterms:identifier "EAID_5B5F0462_9CCC_40fc_95CA_20F1A8CFB5C7" ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/> ;
-    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/boolean> .
+    rdfs:range xsd:boolean .
 
 <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/bedragaankoop> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "bedragAankoop"@nl ;
+    mim:eenheid [ ] ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/bedragaankoop"^^xsd:anyURI ;
@@ -826,6 +829,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "10,2" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "bedragAankoop"@nl ;
     mim:type mim:Decimal ;
@@ -845,6 +849,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "200" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "bestemmingsplan"@nl ;
     mim:type mim:CharacterString ;
@@ -856,6 +861,7 @@
 <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/boekwaarde> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "boekwaarde"@nl ;
+    mim:eenheid [ ] ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/boekwaarde"^^xsd:anyURI ;
@@ -864,6 +870,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "10,2" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "boekwaarde"@nl ;
     mim:type mim:Decimal ;
@@ -902,6 +909,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "80" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "bouwwerk"@nl ;
     mim:type mim:CharacterString ;
@@ -921,6 +929,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "80" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "bovenliggendNiveau"@nl ;
     mim:type mim:CharacterString ;
@@ -940,6 +949,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "20" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "bovenliggendNiveaucode"@nl ;
     mim:type mim:CharacterString ;
@@ -1094,6 +1104,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "80" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "deelportefeuille"@nl ;
     mim:type mim:CharacterString ;
@@ -1106,6 +1117,7 @@
         owl:DatatypeProperty ;
     rdfs:label "energiekosten"@nl ;
     mim:definitie "Jaarlijkse energiekosten"@nl ;
+    mim:eenheid [ ] ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/energiekosten"^^xsd:anyURI ;
@@ -1114,6 +1126,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "10,2" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "energiekosten"@nl ;
     mim:type mim:Decimal ;
@@ -1166,6 +1179,7 @@
 <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/fiscalewaarde> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "fiscaleWaarde"@nl ;
+    mim:eenheid [ ] ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/fiscalewaarde"^^xsd:anyURI ;
@@ -1174,6 +1188,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "10,2" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "fiscaleWaarde"@nl ;
     mim:type mim:Decimal ;
@@ -1202,7 +1217,7 @@
     rdfs:range xsd:base64Binary .
 
 <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/gearchiveerd> a mim:Attribuutsoort,
-        owl:ObjectProperty ;
+        owl:DatatypeProperty ;
     rdfs:label "gearchiveerd"@nl ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
@@ -1214,15 +1229,16 @@
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "gearchiveerd"@nl ;
-    mim:type <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/boolean> ;
+    mim:type mim:Boolean ;
     dcterms:identifier "EAID_0CC22B7C_CAD3_4494_A244_04986EEADA11" ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/> ;
-    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/boolean> .
+    rdfs:range xsd:boolean .
 
 <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/herbouwwaarde> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "herbouwwaarde"@nl ;
+    mim:eenheid [ ] ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/herbouwwaarde"^^xsd:anyURI ;
@@ -1231,6 +1247,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "10,2" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "herbouwwaarde"@nl ;
     mim:type mim:Decimal ;
@@ -1250,6 +1267,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "80" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "hoofdstuk"@nl ;
     mim:type mim:CharacterString ;
@@ -1269,6 +1287,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "80" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "identificatie"@nl ;
     mim:type mim:CharacterString ;
@@ -1288,6 +1307,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "4" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "jaarLaatsteRenovatie"@nl ;
     mim:type mim:Integer ;
@@ -1307,6 +1327,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "80" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "kostenplaats"@nl ;
     mim:type mim:CharacterString ;
@@ -1328,7 +1349,7 @@
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "locatie"@nl ;
-    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/punt> ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/gm-point> ;
     dcterms:identifier "EAID_9490FB83_B960_4c74_B22B_38ADAADB67C8" ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/> ;
@@ -1337,6 +1358,7 @@
 <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/marktwaarde> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "marktwaarde"@nl ;
+    mim:eenheid [ ] ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/marktwaarde"^^xsd:anyURI ;
@@ -1345,6 +1367,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "10,2" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "marktwaarde"@nl ;
     mim:type mim:Decimal ;
@@ -1383,6 +1406,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "80" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "naam"@nl ;
     mim:type mim:CharacterString ;
@@ -1402,6 +1426,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "40" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "objectstatus"@nl ;
     mim:type mim:CharacterString ;
@@ -1421,6 +1446,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "40" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "objectstatuscode"@nl ;
     mim:type mim:CharacterString ;
@@ -1440,6 +1466,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "80" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "objecttype"@nl ;
     mim:type mim:CharacterString ;
@@ -1459,6 +1486,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "40" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "objecttypecode"@nl ;
     mim:type mim:CharacterString ;
@@ -1478,6 +1506,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "80" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "omschrijving"@nl ;
     mim:type mim:CharacterString ;
@@ -1497,6 +1526,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "80" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "onderhoudscategorie"@nl ;
     mim:type mim:CharacterString ;
@@ -1535,6 +1565,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "80" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "portefeuille"@nl ;
     mim:type mim:CharacterString ;
@@ -1554,6 +1585,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "40" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "portefeuillecode"@nl ;
     mim:type mim:CharacterString ;
@@ -1630,6 +1662,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "80" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "verkoopbaarheid"@nl ;
     mim:type mim:CharacterString ;
@@ -1641,6 +1674,7 @@
 <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/verkoopbedrag> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "verkoopbedrag"@nl ;
+    mim:eenheid [ ] ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/verkoopbedrag"^^xsd:anyURI ;
@@ -1649,6 +1683,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "10,2" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "verkoopbedrag"@nl ;
     mim:type mim:Decimal ;
@@ -1660,6 +1695,7 @@
 <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/verzekerdewaarde> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "verzekerdeWaarde"@nl ;
+    mim:eenheid [ ] ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/verzekerdewaarde"^^xsd:anyURI ;
@@ -1668,6 +1704,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "10,2" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "verzekerdeWaarde"@nl ;
     mim:type mim:Decimal ;
@@ -1679,6 +1716,7 @@
 <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/waardegrond> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "waardeGrond"@nl ;
+    mim:eenheid [ ] ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/waardegrond"^^xsd:anyURI ;
@@ -1687,6 +1725,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "10,2" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "waardeGrond"@nl ;
     mim:type mim:Decimal ;
@@ -1698,6 +1737,7 @@
 <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/waardeopstal> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "waardeOpstal"@nl ;
+    mim:eenheid [ ] ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/waardeopstal"^^xsd:anyURI ;
@@ -1706,6 +1746,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "10,2" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "waardeOpstal"@nl ;
     mim:type mim:Decimal ;
@@ -1717,6 +1758,7 @@
 <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/wozwaarde> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "WOZWaarde"@nl ;
+    mim:eenheid [ ] ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/wozwaarde"^^xsd:anyURI ;
@@ -1725,6 +1767,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "10,2" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "WOZWaarde"@nl ;
     mim:type mim:Decimal ;
@@ -1843,7 +1886,7 @@
     rdfs:range xsd:integer .
 
 <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerling/kwetsbarejongere> a mim:Attribuutsoort,
-        owl:ObjectProperty ;
+        owl:DatatypeProperty ;
     rdfs:label "kwetsbareJongere"@nl ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
@@ -1855,11 +1898,11 @@
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "kwetsbareJongere"@nl ;
-    mim:type <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/boolean> ;
+    mim:type mim:Boolean ;
     dcterms:identifier "EAID_70DE2997_48B9_4f71_B6BF_2B9C3163F429" ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerling> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/> ;
-    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/boolean> .
+    rdfs:range xsd:boolean .
 
 <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/locatie/adres> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
@@ -1929,6 +1972,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "80" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "omschrijving"@nl ;
     mim:type mim:CharacterString ;
@@ -2024,6 +2068,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "200" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "naam"@nl ;
     mim:type mim:CharacterString ;
@@ -2071,7 +2116,7 @@
     rdfs:range xsd:date .
 
 <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/uitschrijving/diplomabehaald> a mim:Attribuutsoort,
-        owl:ObjectProperty ;
+        owl:DatatypeProperty ;
     rdfs:label "diplomaBehaald"@nl ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
@@ -2083,11 +2128,11 @@
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "diplomaBehaald"@nl ;
-    mim:type <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/boolean> ;
+    mim:type mim:Boolean ;
     dcterms:identifier "EAID_C80129DA_1725_46ff_828A_A57944C5E46E" ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/uitschrijving> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/> ;
-    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/boolean> .
+    rdfs:range xsd:boolean .
 
 <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/locatie> a mim:Objecttype,
         owl:Class ;
@@ -2213,6 +2258,20 @@
     rdfs:comment "Gebouw in gebruik voor basis, middelbaar of hoger onderwijs."@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/> .
 
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/boolean> a mim:Enumeratie,
+        owl:Class,
+        skos:ConceptScheme ;
+    rdfs:label "Boolean"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/boolean"^^xsd:anyURI ;
+    mim:naam "Boolean"@nl ;
+    mim:waarde <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/boolean/ja>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/boolean/leeg>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/boolean/nee>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/boolean/onbekend> ;
+    dcterms:identifier "EAID_9BD0FBCB_1A9E_4cab_9280_0EBC428E38F7" ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/> ;
+    rdfs:subClassOf skos:Concept .
+
 <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/onderwijstype> a mim:Enumeratie,
         owl:Class,
         skos:ConceptScheme ;
@@ -2226,20 +2285,6 @@
         <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/onderwijstype/vwo> ;
     dcterms:identifier "EAID_354AA899_00C3_4c36_93F7_0B364D331C93" ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/> ;
-    rdfs:subClassOf skos:Concept .
-
-<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/boolean> a mim:Enumeratie,
-        owl:Class,
-        skos:ConceptScheme ;
-    rdfs:label "Boolean"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/boolean"^^xsd:anyURI ;
-    mim:naam "Boolean"@nl ;
-    mim:waarde <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/boolean/ja>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/boolean/leeg>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/boolean/nee>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/boolean/onbekend> ;
-    dcterms:identifier "EAID_9BD0FBCB_1A9E_4cab_9280_0EBC428E38F7" ;
-    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/> ;
     rdfs:subClassOf skos:Concept .
 
 <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/nen2767-conditiescore> a mim:Enumeratie,

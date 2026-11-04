@@ -212,6 +212,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "80" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "code"@nl ;
     mim:type mim:CharacterString ;
@@ -250,6 +251,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "80" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "juridischeStatus"@nl ;
     mim:type mim:CharacterString ;
@@ -269,6 +271,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "80" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "wettelijkeVertegenwoordiging"@nl ;
     mim:type mim:CharacterString ;
@@ -930,6 +933,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "200" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "profieltype"@nl ;
     mim:type mim:CharacterString ;
@@ -1385,6 +1389,7 @@ Attribuut is een identificatie maar van het type Integer?"""@nl ;
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/vermogenscomponent/nog-aan-te-spreken-vermogen> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "Nog aan te spreken vermogen"@nl ;
+    mim:eenheid [ ] ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/vermogenscomponent/nog-aan-te-spreken-vermogen"^^xsd:anyURI ;
@@ -1393,6 +1398,7 @@ Attribuut is een identificatie maar van het type Integer?"""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "10,2" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "Nog aan te spreken vermogen"@nl ;
     mim:type mim:Decimal ;
@@ -1404,6 +1410,7 @@ Attribuut is een identificatie maar van het type Integer?"""@nl ;
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/vermogenscomponent/vrij-te-laten-vermogen> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "Vrij te laten vermogen"@nl ;
+    mim:eenheid [ ] ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/vermogenscomponent/vrij-te-laten-vermogen"^^xsd:anyURI ;
@@ -1412,6 +1419,7 @@ Attribuut is een identificatie maar van het type Integer?"""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "10,2" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "Vrij te laten vermogen"@nl ;
     mim:type mim:Decimal ;

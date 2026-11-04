@@ -1640,17 +1640,6 @@
     rdfs:label "bijstand instelling gehuwden 21+"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/diensten/datatypes/onderdeeldiensttyperubriek/bijstand-instelling-gehuwden-21"^^xsd:anyURI ;
     mim:naam "bijstand instelling gehuwden 21+"@nl ;
-    dcterms:identifier "EAID_syn_55f88c8e833b4473a36b8cb095399fe1951c9deb" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/diensten/datatypes/onderdeeldiensttyperubriek> ;
-    skos:prefLabel "bijstand instelling gehuwden 21+"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/diensten/datatypes/onderdeeldiensttyperubriek> .
-
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/diensten/datatypes/onderdeeldiensttyperubriek/bijstand-instelling-gehuwden-21-2> a mim:Enumeratiewaarde,
-        skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/diensten/datatypes/onderdeeldiensttyperubriek> ;
-    rdfs:label "bijstand instelling gehuwden 21+"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/diensten/datatypes/onderdeeldiensttyperubriek/bijstand-instelling-gehuwden-21-2"^^xsd:anyURI ;
-    mim:naam "bijstand instelling gehuwden 21+"@nl ;
     dcterms:identifier "EAID_syn_d522a53f9a7d8ea6320516e9d60529dfc6590454" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/diensten/datatypes/onderdeeldiensttyperubriek> ;
     skos:prefLabel "bijstand instelling gehuwden 21+"@nl ;
@@ -1931,33 +1920,11 @@
     skos:prefLabel "bruto Aow afwijkend partner"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/diensten/datatypes/onderdeeldiensttyperubriek> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/diensten/datatypes/onderdeeldiensttyperubriek/bruto-aow-afwijkend-partner-2> a mim:Enumeratiewaarde,
-        skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/diensten/datatypes/onderdeeldiensttyperubriek> ;
-    rdfs:label "bruto Aow afwijkend partner"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/diensten/datatypes/onderdeeldiensttyperubriek/bruto-aow-afwijkend-partner-2"^^xsd:anyURI ;
-    mim:naam "bruto Aow afwijkend partner"@nl ;
-    dcterms:identifier "EAID_syn_99f679bf4eb58cf2b3d8e34e3353ba210b842e90" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/diensten/datatypes/onderdeeldiensttyperubriek> ;
-    skos:prefLabel "bruto Aow afwijkend partner"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/diensten/datatypes/onderdeeldiensttyperubriek> .
-
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/diensten/datatypes/onderdeeldiensttyperubriek/bruto-aow-alleenstaande-partner> a mim:Enumeratiewaarde,
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/diensten/datatypes/onderdeeldiensttyperubriek> ;
     rdfs:label "bruto Aow alleenstaande partner"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/diensten/datatypes/onderdeeldiensttyperubriek/bruto-aow-alleenstaande-partner"^^xsd:anyURI ;
-    mim:naam "bruto Aow alleenstaande partner"@nl ;
-    dcterms:identifier "EAID_syn_6914de0bd1fee213b1d821b9f597f36660ef1a0e" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/diensten/datatypes/onderdeeldiensttyperubriek> ;
-    skos:prefLabel "bruto Aow alleenstaande partner"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/diensten/datatypes/onderdeeldiensttyperubriek> .
-
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/diensten/datatypes/onderdeeldiensttyperubriek/bruto-aow-alleenstaande-partner-2> a mim:Enumeratiewaarde,
-        skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/diensten/datatypes/onderdeeldiensttyperubriek> ;
-    rdfs:label "bruto Aow alleenstaande partner"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/diensten/datatypes/onderdeeldiensttyperubriek/bruto-aow-alleenstaande-partner-2"^^xsd:anyURI ;
     mim:naam "bruto Aow alleenstaande partner"@nl ;
     dcterms:identifier "EAID_syn_7b3038c6e2b711e6719615d24ec8d926f94a9fe6" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/diensten/datatypes/onderdeeldiensttyperubriek> ;
@@ -1975,33 +1942,11 @@
     skos:prefLabel "bruto Aow eenoudergezin partner"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/diensten/datatypes/onderdeeldiensttyperubriek> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/diensten/datatypes/onderdeeldiensttyperubriek/bruto-aow-eenoudergezin-partner-2> a mim:Enumeratiewaarde,
-        skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/diensten/datatypes/onderdeeldiensttyperubriek> ;
-    rdfs:label "bruto Aow eenoudergezin partner"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/diensten/datatypes/onderdeeldiensttyperubriek/bruto-aow-eenoudergezin-partner-2"^^xsd:anyURI ;
-    mim:naam "bruto Aow eenoudergezin partner"@nl ;
-    dcterms:identifier "EAID_syn_619a6e99afddf611b17c939e722c8c49f792f170" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/diensten/datatypes/onderdeeldiensttyperubriek> ;
-    skos:prefLabel "bruto Aow eenoudergezin partner"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/diensten/datatypes/onderdeeldiensttyperubriek> .
-
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/diensten/datatypes/onderdeeldiensttyperubriek/bruto-aow-gezin-100-partner-aow-partner> a mim:Enumeratiewaarde,
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/diensten/datatypes/onderdeeldiensttyperubriek> ;
     rdfs:label "Bruto Aow gezin 100% (partner < AOW) partner"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/diensten/datatypes/onderdeeldiensttyperubriek/bruto-aow-gezin-100-partner-aow-partner"^^xsd:anyURI ;
-    mim:naam "Bruto Aow gezin 100% (partner < AOW) partner"@nl ;
-    dcterms:identifier "EAID_syn_2b347f19606d2760aec444ac1336e615014b023e" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/diensten/datatypes/onderdeeldiensttyperubriek> ;
-    skos:prefLabel "Bruto Aow gezin 100% (partner < AOW) partner"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/diensten/datatypes/onderdeeldiensttyperubriek> .
-
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/diensten/datatypes/onderdeeldiensttyperubriek/bruto-aow-gezin-100-partner-aow-partner-2> a mim:Enumeratiewaarde,
-        skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/diensten/datatypes/onderdeeldiensttyperubriek> ;
-    rdfs:label "Bruto Aow gezin 100% (partner < AOW) partner"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/diensten/datatypes/onderdeeldiensttyperubriek/bruto-aow-gezin-100-partner-aow-partner-2"^^xsd:anyURI ;
     mim:naam "Bruto Aow gezin 100% (partner < AOW) partner"@nl ;
     dcterms:identifier "EAID_syn_e09f77f2ab63c4d69f80e2127757de13c69a04f9" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/diensten/datatypes/onderdeeldiensttyperubriek> ;
@@ -2013,17 +1958,6 @@
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/diensten/datatypes/onderdeeldiensttyperubriek> ;
     rdfs:label "bruto Aow gezin 50% partner"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/diensten/datatypes/onderdeeldiensttyperubriek/bruto-aow-gezin-50-partner"^^xsd:anyURI ;
-    mim:naam "bruto Aow gezin 50% partner"@nl ;
-    dcterms:identifier "EAID_syn_9ca45a9e1b1f1b6b8441a3d55404c0b406081200" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/diensten/datatypes/onderdeeldiensttyperubriek> ;
-    skos:prefLabel "bruto Aow gezin 50% partner"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/diensten/datatypes/onderdeeldiensttyperubriek> .
-
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/diensten/datatypes/onderdeeldiensttyperubriek/bruto-aow-gezin-50-partner-2> a mim:Enumeratiewaarde,
-        skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/diensten/datatypes/onderdeeldiensttyperubriek> ;
-    rdfs:label "bruto Aow gezin 50% partner"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/diensten/datatypes/onderdeeldiensttyperubriek/bruto-aow-gezin-50-partner-2"^^xsd:anyURI ;
     mim:naam "bruto Aow gezin 50% partner"@nl ;
     dcterms:identifier "EAID_syn_c8a9c3c76f89aaab50a653a1831532b1b52e2623" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/diensten/datatypes/onderdeeldiensttyperubriek> ;
@@ -3840,17 +3774,6 @@
     rdfs:label "norm pers. uitg. gehuwden 18 t/m 20 jr (handm)"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/diensten/datatypes/onderdeeldiensttyperubriek/norm-pers-uitg-gehuwden-18-t-m-20-jr-handm"^^xsd:anyURI ;
     mim:naam "norm pers. uitg. gehuwden 18 t/m 20 jr (handm)"@nl ;
-    dcterms:identifier "EAID_syn_4e6da9bef6e14d958e06a8c15bdff88bebc55f18" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/diensten/datatypes/onderdeeldiensttyperubriek> ;
-    skos:prefLabel "norm pers. uitg. gehuwden 18 t/m 20 jr (handm)"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/diensten/datatypes/onderdeeldiensttyperubriek> .
-
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/diensten/datatypes/onderdeeldiensttyperubriek/norm-pers-uitg-gehuwden-18-t-m-20-jr-handm-2> a mim:Enumeratiewaarde,
-        skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/diensten/datatypes/onderdeeldiensttyperubriek> ;
-    rdfs:label "norm pers. uitg. gehuwden 18 t/m 20 jr (handm)"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/diensten/datatypes/onderdeeldiensttyperubriek/norm-pers-uitg-gehuwden-18-t-m-20-jr-handm-2"^^xsd:anyURI ;
-    mim:naam "norm pers. uitg. gehuwden 18 t/m 20 jr (handm)"@nl ;
     dcterms:identifier "EAID_syn_cd817879a898d661b834438c095fae376d7e840e" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/diensten/datatypes/onderdeeldiensttyperubriek> ;
     skos:prefLabel "norm pers. uitg. gehuwden 18 t/m 20 jr (handm)"@nl ;
@@ -4213,6 +4136,7 @@
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/diensten/leveringscomponent/bedrag> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "Bedrag"@nl ;
+    mim:eenheid [ ] ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/diensten/leveringscomponent/bedrag"^^xsd:anyURI ;
@@ -4221,6 +4145,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "10,2" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "Bedrag"@nl ;
     mim:type mim:Decimal ;
@@ -4232,6 +4157,7 @@
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/diensten/leveringscomponent/einddatum> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "Einddatum"@nl ;
+    mim:eenheid [ ] ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/diensten/leveringscomponent/einddatum"^^xsd:anyURI ;
@@ -4240,6 +4166,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "10,2" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "Einddatum"@nl ;
     mim:type mim:Decimal ;
@@ -4270,6 +4197,7 @@
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/diensten/leveringscomponent/omschrijving-afwijking> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "Omschrijving afwijking"@nl ;
+    mim:eenheid [ ] ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/diensten/leveringscomponent/omschrijving-afwijking"^^xsd:anyURI ;
@@ -4278,6 +4206,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "10,2" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "Omschrijving afwijking"@nl ;
     mim:type mim:Decimal ;
@@ -4289,6 +4218,7 @@
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/diensten/leveringscomponent/percentage> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "Percentage"@nl ;
+    mim:eenheid [ ] ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/diensten/leveringscomponent/percentage"^^xsd:anyURI ;
@@ -4297,6 +4227,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "10,2" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "Percentage"@nl ;
     mim:type mim:Decimal ;
@@ -4308,6 +4239,7 @@
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/diensten/leveringscomponent/periode-startdatum> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "Periode startdatum"@nl ;
+    mim:eenheid [ ] ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/diensten/leveringscomponent/periode-startdatum"^^xsd:anyURI ;
@@ -4316,6 +4248,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "10,2" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "Periode startdatum"@nl ;
     mim:type mim:Decimal ;
@@ -4327,6 +4260,7 @@
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/diensten/leveringscomponent/soort> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "Soort"@nl ;
+    mim:eenheid [ ] ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/diensten/leveringscomponent/soort"^^xsd:anyURI ;
@@ -4335,6 +4269,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "10,2" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "Soort"@nl ;
     mim:type mim:Decimal ;
@@ -4525,6 +4460,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "200" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "Leveringskanaal"@nl ;
     mim:type mim:CharacterString ;
@@ -4631,6 +4567,7 @@
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/diensten/periodiek-dienst-bijz-bijstand/bedrag> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "Bedrag"@nl ;
+    mim:eenheid [ ] ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/diensten/periodiek-dienst-bijz-bijstand/bedrag"^^xsd:anyURI ;
@@ -4639,6 +4576,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "10,2" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "Bedrag"@nl ;
     mim:type mim:Decimal ;
@@ -4650,6 +4588,7 @@
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/diensten/periodiek-dienst-bijz-bijstand/einddatum> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "Einddatum"@nl ;
+    mim:eenheid [ ] ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/diensten/periodiek-dienst-bijz-bijstand/einddatum"^^xsd:anyURI ;
@@ -4658,6 +4597,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "10,2" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "Einddatum"@nl ;
     mim:type mim:Decimal ;
@@ -4726,6 +4666,7 @@
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/diensten/periodiek-dienst-bijz-bijstand/startdatum> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "Startdatum"@nl ;
+    mim:eenheid [ ] ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/diensten/periodiek-dienst-bijz-bijstand/startdatum"^^xsd:anyURI ;
@@ -4734,6 +4675,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "10,2" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "Startdatum"@nl ;
     mim:type mim:Decimal ;
@@ -6132,7 +6074,6 @@
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/diensten/datatypes/onderdeeldiensttyperubriek"^^xsd:anyURI ;
     mim:naam "OnderdeelDienstTypeRubriek"@nl ;
     mim:waarde <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/diensten/datatypes/onderdeeldiensttyperubriek/bijstand-instelling-gehuwden-21>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/diensten/datatypes/onderdeeldiensttyperubriek/bijstand-instelling-gehuwden-21-2>,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/diensten/datatypes/onderdeeldiensttyperubriek/bijstand-instelling-klant-21>,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/diensten/datatypes/onderdeeldiensttyperubriek/bijstand-instelling-partner-21>,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/diensten/datatypes/onderdeeldiensttyperubriek/bijstandsnorm-1-pnr-21-jr-adresloze>,
@@ -6158,15 +6099,10 @@
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/diensten/datatypes/onderdeeldiensttyperubriek/bruto-anw-alleenstaand-klant>,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/diensten/datatypes/onderdeeldiensttyperubriek/bruto-anw-alleenstaande-partner>,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/diensten/datatypes/onderdeeldiensttyperubriek/bruto-aow-afwijkend-partner>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/diensten/datatypes/onderdeeldiensttyperubriek/bruto-aow-afwijkend-partner-2>,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/diensten/datatypes/onderdeeldiensttyperubriek/bruto-aow-alleenstaande-partner>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/diensten/datatypes/onderdeeldiensttyperubriek/bruto-aow-alleenstaande-partner-2>,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/diensten/datatypes/onderdeeldiensttyperubriek/bruto-aow-eenoudergezin-partner>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/diensten/datatypes/onderdeeldiensttyperubriek/bruto-aow-eenoudergezin-partner-2>,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/diensten/datatypes/onderdeeldiensttyperubriek/bruto-aow-gezin-100-partner-aow-partner>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/diensten/datatypes/onderdeeldiensttyperubriek/bruto-aow-gezin-100-partner-aow-partner-2>,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/diensten/datatypes/onderdeeldiensttyperubriek/bruto-aow-gezin-50-partner>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/diensten/datatypes/onderdeeldiensttyperubriek/bruto-aow-gezin-50-partner-2>,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/diensten/datatypes/onderdeeldiensttyperubriek/bruto-buitenlandse-sociale-uitkering-klant>,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/diensten/datatypes/onderdeeldiensttyperubriek/bruto-buitenlandse-sociale-uitkering-partner>,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/diensten/datatypes/onderdeeldiensttyperubriek/bruto-inkomen-aow-partner>,
@@ -6332,7 +6268,6 @@
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/diensten/datatypes/onderdeeldiensttyperubriek/kostendeler-partner-21>,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/diensten/datatypes/onderdeeldiensttyperubriek/norm-gezin-in-instelling-18-t-m-20-jr-handm>,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/diensten/datatypes/onderdeeldiensttyperubriek/norm-pers-uitg-gehuwden-18-t-m-20-jr-handm>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/diensten/datatypes/onderdeeldiensttyperubriek/norm-pers-uitg-gehuwden-18-t-m-20-jr-handm-2>,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/diensten/datatypes/onderdeeldiensttyperubriek/premie-deeltijdwerk-periodiek>,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/diensten/datatypes/onderdeeldiensttyperubriek/toeslag-terugval-inkomen> ;
     dcterms:identifier "EAID_13A6000A_69B8_B1FD_2DD8_27AD47D46C44" ;

@@ -155,6 +155,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "80" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "naam"@nl ;
     mim:type mim:CharacterString ;
@@ -205,6 +206,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "80" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "naam"@nl ;
     mim:type mim:CharacterString ;
@@ -255,6 +257,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "40" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "pasnummer"@nl ;
     mim:type mim:CharacterString ;
@@ -266,6 +269,7 @@
 <https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/prijsregel/bedrag> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "bedrag"@nl ;
+    mim:eenheid [ ] ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volksgezondheid-en-milieu/afval/prijsregel/bedrag"^^xsd:anyURI ;
@@ -274,6 +278,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "10,2" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "bedrag"@nl ;
     mim:type mim:Decimal ;

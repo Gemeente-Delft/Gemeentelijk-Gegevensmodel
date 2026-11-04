@@ -433,58 +433,6 @@
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/> ;
     rdfs:range xsd:integer .
 
-<https://lod.gemeentelijkgegevensmodel.nl/kern/bag/boolean/ja> a mim:Enumeratiewaarde,
-        skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/boolean> ;
-    rdfs:label "Ja"@nl ;
-    mim:code "1" ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/bag/boolean/ja"^^xsd:anyURI ;
-    mim:naam "Ja"@nl ;
-    dcterms:identifier "EAID_09A32FFB_F302_42ad_B2C7_F5EE3F9B0DFF" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/boolean> ;
-    skos:notation "1" ;
-    skos:prefLabel "Ja"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/boolean> .
-
-<https://lod.gemeentelijkgegevensmodel.nl/kern/bag/boolean/leeg> a mim:Enumeratiewaarde,
-        skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/boolean> ;
-    rdfs:label "Leeg"@nl ;
-    mim:code "-2" ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/bag/boolean/leeg"^^xsd:anyURI ;
-    mim:naam "Leeg"@nl ;
-    dcterms:identifier "EAID_586B24ED_FF6C_4c96_AC5C_F20E3191186E" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/boolean> ;
-    skos:notation "-2" ;
-    skos:prefLabel "Leeg"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/boolean> .
-
-<https://lod.gemeentelijkgegevensmodel.nl/kern/bag/boolean/nee> a mim:Enumeratiewaarde,
-        skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/boolean> ;
-    rdfs:label "Nee"@nl ;
-    mim:code "0" ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/bag/boolean/nee"^^xsd:anyURI ;
-    mim:naam "Nee"@nl ;
-    dcterms:identifier "EAID_5AB379AF_F672_4b81_B2FA_8D39DC5C8289" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/boolean> ;
-    skos:notation "0" ;
-    skos:prefLabel "Nee"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/boolean> .
-
-<https://lod.gemeentelijkgegevensmodel.nl/kern/bag/boolean/onbekend> a mim:Enumeratiewaarde,
-        skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/boolean> ;
-    rdfs:label "Onbekend"@nl ;
-    mim:code "-1" ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/bag/boolean/onbekend"^^xsd:anyURI ;
-    mim:naam "Onbekend"@nl ;
-    dcterms:identifier "EAID_5A3213D0_80D2_450d_8FBA_D2EB84278E51" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/boolean> ;
-    skos:notation "-1" ;
-    skos:prefLabel "Onbekend"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/boolean> .
-
 <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/buurt/begingeldigheid> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "beginGeldigheid"@nl ;
@@ -531,6 +479,7 @@ Vanaf deze datum zijn gegevens in de BAG geldig. Bij elke verandering in de BAG 
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "2" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "code"@nl ;
     mim:patroon "Buurtcode conform CBS-tabel. Numeriek met voorloopnullen" ;
@@ -616,7 +565,7 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
     rdfs:range xsd:date .
 
 <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/buurt/geconstateerd> a mim:Attribuutsoort,
-        owl:ObjectProperty ;
+        owl:DatatypeProperty ;
     rdfs:label "Geconstateerd"@nl ;
     mim:authentiek mim:Authentiek ;
     mim:heeftTijdlijnGeldigheid false ;
@@ -627,13 +576,13 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
-    mim:mogelijkGeenWaarde false ;
+    mim:mogelijkGeenWaarde true ;
     mim:naam "Geconstateerd"@nl ;
-    mim:type <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/boolean> ;
+    mim:type mim:Boolean ;
     dcterms:identifier "EAID_4BDC1924_7097_4432_B358_BD2CC8AF4E71" ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/buurt> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/> ;
-    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/boolean> .
+    rdfs:range xsd:boolean .
 
 <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/buurt/geometrie> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
@@ -654,7 +603,7 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
     mim:naam "geometrie"@nl ;
     mim:patroon "alle binnen Nederland gelegen waarden van het RD-stelsel." ;
     mim:toelichting "De buurtgrenzen zijn zoveel mogelijk gebaseerd op topografische elementen."@nl ;
-    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/multisurface> ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/gm-multisurface> ;
     dcterms:identifier "EAID_91EA2C37_0151_4608_BB8A_168F66A949C0" ;
     rdfs:comment "De tweedimensionale geometrische representatie van de omtrekken van de buurt."@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/buurt> ;
@@ -695,6 +644,7 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "40" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "naam"@nl ;
     mim:patroon "Alle bestaande alfanumerieke tekens." ;
@@ -911,7 +861,7 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "geometrie"@nl ;
-    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/point> ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/gm-point> ;
     dcterms:identifier "EAID_9DA708DF_59E5_4fe4_B85C_DC0FE8EA7F21" ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/nummeraanduiding> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/> ;
@@ -932,6 +882,7 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "0..1" ;
+    mim:lengte "1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "huisletter"@nl ;
     mim:patroon "a - z , A – Z" ;
@@ -959,6 +910,7 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "5" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "huisnummer"@nl ;
     mim:patroon "Alle natuurlijke getallen tussen 1 en 99999." ;
@@ -986,6 +938,7 @@ Zie verder de toelichting in de BAG."""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "4" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "huisnummertoevoeging"@nl ;
     mim:patroon "a - z , A - Z , 0 – 9" ;
@@ -1035,6 +988,7 @@ Zie verder de toelichting in de BAG."""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "6" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "postcode"@nl ;
     mim:toelichting "Dit attribuutsoort is in de BAG gespecificeerd bij het objecttype NUMMERAANDUIDING. Het is bij de ADRESSEERBAAR OBJECT AANDUIDING opgenomen aangezien naast de NUMMERAANDUIDING de OVERIG ADRESSEERBAAR OBJECT AANDUIDING wordt onderscheiden. Aangezien de ADRESSEERBAAR OBJECT AANDUIDING een generalisatie is van NUMMERAANDUIDING en OVERIG ADRESSEERBAAR OBJECT AANDUIDING overerven beide laatstgenoemde objecttypen dit attribuutsoort. Zie verder de toelichting in de BAG."@nl ;
@@ -1281,7 +1235,7 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
     mim:mogelijkGeenWaarde false ;
     mim:naam "geometrie"@nl ;
     mim:patroon "alle binnen Nederland gelegen waarden van het RD-stelsel." ;
-    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/multisurface> ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/gm-multisurface> ;
     dcterms:identifier "EAID_C0987BF8_E01C_49af_AF3E_814D39E90620" ;
     rdfs:comment "De tweedimensionale geometrische representatie van de omtrekken van de openbare ruimte."@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/openbareruimte> ;
@@ -1304,6 +1258,7 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "11" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "Huisnummerrange even en oneven nummers"@nl ;
     mim:patroon """huisnummers van nummeraanduidingen die gerelateerd zijn aan de openbare ruimte
@@ -1332,6 +1287,7 @@ Format: NNNNN-NNNNN""" ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "11" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "Huisnummerrange even nummers"@nl ;
     mim:patroon """even huisnummers van nummeraanduidingen die gerelateerd zijn aan de openbare ruimte
@@ -1360,6 +1316,7 @@ Format:NNNNN-NNNNN""" ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "11" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "Huisnummerrange oneven nummers"@nl ;
     mim:patroon """oneven huisnummers van nummeraanduidingen die gerelateerd zijn aan de openbare ruimte
@@ -1406,6 +1363,7 @@ Format:  NNNNN-NNNNN""" ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "80" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "labelNaam"@nl ;
     mim:type mim:CharacterString ;
@@ -1427,6 +1385,7 @@ Format:  NNNNN-NNNNN""" ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "80" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "naamOpenbareruimte"@nl ;
     mim:type mim:CharacterString ;
@@ -1468,6 +1427,7 @@ Format:  NNNNN-NNNNN""" ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "80" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "straatcode"@nl ;
     mim:type mim:CharacterString ;
@@ -1491,6 +1451,7 @@ Format:  NNNNN-NNNNN""" ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "24" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "straatnaam"@nl ;
     mim:patroon "alle alfanumrieke tekens" ;
@@ -1562,7 +1523,7 @@ RUIMTE."""@nl ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "wegsegment"@nl ;
     mim:toelichting "Verkeerssystemen en kleinschalige kaarten maken gebruik van het wegsegment als representatie van de openbare ruimte als lijn."@nl ;
-    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/curve> ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/gm-curve> ;
     dcterms:identifier "EAID_BCC760A4_FCF9_416c_ADA2_F75BE3A4D5AE" ;
     rdfs:comment "De geometrische representatie van de openbare ruimte als een lijn."@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/openbareruimte> ;
@@ -2007,7 +1968,7 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
     mim:naam "geometrie"@nl ;
     mim:patroon "alle binnen Nederland gelegen waarden van het RD-stelsel." ;
     mim:toelichting "De wijkgrenzen zijn zoveel mogelijk gebaseerd op sociaalgeografische kenmerken."@nl ;
-    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/multisurface> ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/gm-multisurface> ;
     dcterms:identifier "EAID_DB2ED099_6545_4d8a_853B_AC0632D69129" ;
     rdfs:comment "De tweedimensionale geometrische representatie van de omtrekken van de wijk."@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/wijk> ;
@@ -2086,6 +2047,7 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "2" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "wijkcode"@nl ;
     mim:patroon "Wijkcode conform CBS-tabel, numeriek getal met voorloopnullen" ;
@@ -2112,6 +2074,7 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "40" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "wijknaam"@nl ;
     mim:patroon "alle alfanumerieke tekens zonder …" ;
@@ -2121,58 +2084,6 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/wijk> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/> ;
     rdfs:range xsd:string .
-
-<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/boolean/ja> a mim:Enumeratiewaarde,
-        skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/boolean> ;
-    rdfs:label "Ja"@nl ;
-    mim:code "1" ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/boolean/ja"^^xsd:anyURI ;
-    mim:naam "Ja"@nl ;
-    dcterms:identifier "EAID_ED373F5C_75C8_4f9f_B72B_DC069BEFFB72" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/boolean> ;
-    skos:notation "1" ;
-    skos:prefLabel "Ja"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/boolean> .
-
-<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/boolean/leeg> a mim:Enumeratiewaarde,
-        skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/boolean> ;
-    rdfs:label "Leeg"@nl ;
-    mim:code "-2" ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/boolean/leeg"^^xsd:anyURI ;
-    mim:naam "Leeg"@nl ;
-    dcterms:identifier "EAID_15FACEFF_7709_47aa_9827_7C4B604C8D7B" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/boolean> ;
-    skos:notation "-2" ;
-    skos:prefLabel "Leeg"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/boolean> .
-
-<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/boolean/nee> a mim:Enumeratiewaarde,
-        skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/boolean> ;
-    rdfs:label "Nee"@nl ;
-    mim:code "0" ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/boolean/nee"^^xsd:anyURI ;
-    mim:naam "Nee"@nl ;
-    dcterms:identifier "EAID_7ECA54CF_CE58_4610_80BC_B502ED1347A3" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/boolean> ;
-    skos:notation "0" ;
-    skos:prefLabel "Nee"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/boolean> .
-
-<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/boolean/onbekend> a mim:Enumeratiewaarde,
-        skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/boolean> ;
-    rdfs:label "Onbekend"@nl ;
-    mim:code "-1" ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/boolean/onbekend"^^xsd:anyURI ;
-    mim:naam "Onbekend"@nl ;
-    dcterms:identifier "EAID_D11CFFBC_096A_4d6c_99EB_8969CD67687E" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/boolean> ;
-    skos:notation "-1" ;
-    skos:prefLabel "Onbekend"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/boolean> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/gezinsrelatie/alleenstaand-samenwonend> a mim:Enumeratiewaarde,
         skos:Concept,
@@ -2315,6 +2226,7 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "200" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "adresFunctie"@nl ;
     mim:type mim:CharacterString ;
@@ -2372,6 +2284,7 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "255" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "omschrijvingAangifte"@nl ;
     mim:type mim:CharacterString ;
@@ -2445,6 +2358,7 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "2" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "gebiedcode"@nl ;
     mim:patroon "Buurtcode conform CBS-tabel. Numeriek met voorloopnullen" ;
@@ -2467,6 +2381,7 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "80" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "gebiedsoort"@nl ;
     mim:type mim:CharacterString ;
@@ -2494,7 +2409,7 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
     mim:naam "geometrie"@nl ;
     mim:patroon "alle binnen Nederland gelegen waarden van het RD-stelsel." ;
     mim:toelichting "De buurtgrenzen zijn zoveel mogelijk gebaseerd op topografische elementen."@nl ;
-    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/multisurface> ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/gm-multisurface> ;
     dcterms:identifier "EAID_96DB43AD_4859_45de_B820_2FC593000338" ;
     rdfs:comment "De tweedimensionale geometrische representatie van de omtrekken van het gebied."@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gebied> ;
@@ -2544,6 +2459,7 @@ Identificatie is maximaal 25 alfanumerieke tekens lang.Zie voor verdere specific
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "40" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "naam"@nl ;
     mim:patroon "Alle bestaande alfanumerieke tekens." ;
@@ -2566,6 +2482,7 @@ Identificatie is maximaal 25 alfanumerieke tekens lang.Zie voor verdere specific
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "1" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "adresHerkomst"@nl ;
     mim:type mim:CharacterString ;
@@ -2587,6 +2504,7 @@ Identificatie is maximaal 25 alfanumerieke tekens lang.Zie voor verdere specific
     mim:indicatieFormeleHistorie true ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "20" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "anummer"@nl ;
     mim:type mim:CharacterString ;
@@ -2608,6 +2526,7 @@ Identificatie is maximaal 25 alfanumerieke tekens lang.Zie voor verdere specific
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "0..1" ;
+    mim:lengte "200" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "beschrijvingLocatie"@nl ;
     mim:type mim:CharacterString ;
@@ -2629,6 +2548,7 @@ Identificatie is maximaal 25 alfanumerieke tekens lang.Zie voor verdere specific
     mim:indicatieFormeleHistorie true ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "0..1" ;
+    mim:lengte "80" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "buitenlandsReisdocument"@nl ;
     mim:type mim:CharacterString ;
@@ -2650,6 +2570,7 @@ Identificatie is maximaal 25 alfanumerieke tekens lang.Zie voor verdere specific
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "1" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "burgerlijkeStaat"@nl ;
     mim:type mim:Integer ;
@@ -2795,6 +2716,7 @@ Identificatie is maximaal 25 alfanumerieke tekens lang.Zie voor verdere specific
     mim:indicatieFormeleHistorie true ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "0..1" ;
+    mim:lengte "80" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "gemeenteVanInschrijving"@nl ;
     mim:type mim:CharacterString ;
@@ -2824,7 +2746,7 @@ Identificatie is maximaal 25 alfanumerieke tekens lang.Zie voor verdere specific
     rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/gezinsrelatie> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/ingeschrevenpersoon/indicatiegeheim> a mim:Attribuutsoort,
-        owl:ObjectProperty ;
+        owl:DatatypeProperty ;
     rdfs:label "indicatieGeheim"@nl ;
     mim:definitie "Een aanduiding die aangeeft dat gegevens wel of niet verstrekt mogen worden."@nl ;
     mim:heeftTijdlijnGeldigheid false ;
@@ -2837,15 +2759,15 @@ Identificatie is maximaal 25 alfanumerieke tekens lang.Zie voor verdere specific
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "indicatieGeheim"@nl ;
-    mim:type <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/boolean> ;
+    mim:type mim:Boolean ;
     dcterms:identifier "EAID_D6FC9878_9865_4090_94C4_9FA4BA55E120" ;
     rdfs:comment "Een aanduiding die aangeeft dat gegevens wel of niet verstrekt mogen worden."@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/ingeschrevenpersoon> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
-    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/boolean> .
+    rdfs:range xsd:boolean .
 
 <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/ingeschrevenpersoon/ingezetene> a mim:Attribuutsoort,
-        owl:ObjectProperty ;
+        owl:DatatypeProperty ;
     rdfs:label "ingezetene"@nl ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
@@ -2857,11 +2779,11 @@ Identificatie is maximaal 25 alfanumerieke tekens lang.Zie voor verdere specific
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "ingezetene"@nl ;
-    mim:type <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/boolean> ;
+    mim:type mim:Boolean ;
     dcterms:identifier "EAID_0DBB807F_62ED_4c66_B535_0B9B9ECD7CFC" ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/ingeschrevenpersoon> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
-    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/boolean> .
+    rdfs:range xsd:boolean .
 
 <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/ingeschrevenpersoon/landwaarnaarvertrokken> a mim:Attribuutsoort,
         owl:ObjectProperty ;
@@ -2916,6 +2838,7 @@ Identificatie is maximaal 25 alfanumerieke tekens lang.Zie voor verdere specific
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "40" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "ouder1"@nl ;
     mim:type mim:CharacterString ;
@@ -2935,6 +2858,7 @@ Identificatie is maximaal 25 alfanumerieke tekens lang.Zie voor verdere specific
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "40" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "ouder2"@nl ;
     mim:type mim:CharacterString ;
@@ -2954,6 +2878,7 @@ Identificatie is maximaal 25 alfanumerieke tekens lang.Zie voor verdere specific
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "40" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "partnerID"@nl ;
     mim:type mim:CharacterString ;
@@ -2973,6 +2898,7 @@ Identificatie is maximaal 25 alfanumerieke tekens lang.Zie voor verdere specific
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "200" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "redenEindeBewoning"@nl ;
     mim:type mim:CharacterString ;
@@ -2993,6 +2919,7 @@ Identificatie is maximaal 25 alfanumerieke tekens lang.Zie voor verdere specific
     mim:indicatieFormeleHistorie true ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "0..1" ;
+    mim:lengte "200" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "redenOpschortingBijhouding"@nl ;
     mim:type mim:CharacterString ;
@@ -3003,7 +2930,7 @@ Identificatie is maximaal 25 alfanumerieke tekens lang.Zie voor verdere specific
     rdfs:range xsd:string .
 
 <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/ingeschrevenpersoon/signaleringreisdocument> a mim:Attribuutsoort,
-        owl:ObjectProperty ;
+        owl:DatatypeProperty ;
     rdfs:label "signaleringReisdocument"@nl ;
     mim:definitie "Een aanduiding dat aan de ingeschrevene geen reisdocument mag worden verstrekt."@nl ;
     mim:heeftTijdlijnGeldigheid false ;
@@ -3016,12 +2943,12 @@ Identificatie is maximaal 25 alfanumerieke tekens lang.Zie voor verdere specific
     mim:kardinaliteit "0..1" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "signaleringReisdocument"@nl ;
-    mim:type <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/boolean> ;
+    mim:type mim:Boolean ;
     dcterms:identifier "EAID_A8141D41_5EA9_4e14_BC51_77DBC8738968" ;
     rdfs:comment "Een aanduiding dat aan de ingeschrevene geen reisdocument mag worden verstrekt."@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/ingeschrevenpersoon> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
-    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/boolean> .
+    rdfs:range xsd:boolean .
 
 <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/ingeschrevenpersoon/verblijfstitel> a mim:Attribuutsoort,
         owl:ObjectProperty ;
@@ -3043,7 +2970,7 @@ Identificatie is maximaal 25 alfanumerieke tekens lang.Zie voor verdere specific
     rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/referentielijsten/verblijfstitel> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/vestiging/commercielevestiging> a mim:Attribuutsoort,
-        owl:ObjectProperty ;
+        owl:DatatypeProperty ;
     rdfs:label "commercieleVestiging"@nl ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
@@ -3055,11 +2982,11 @@ Identificatie is maximaal 25 alfanumerieke tekens lang.Zie voor verdere specific
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "commercieleVestiging"@nl ;
-    mim:type <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/boolean> ;
+    mim:type mim:Boolean ;
     dcterms:identifier "EAID_B4A836AB_EA75_46b2_B124_606583C75539" ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/vestiging> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
-    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/boolean> .
+    rdfs:range xsd:boolean .
 
 <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/vestiging/datumaanvang> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
@@ -3148,6 +3075,7 @@ Identificatie is maximaal 25 alfanumerieke tekens lang.Zie voor verdere specific
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "0..1" ;
+    mim:lengte "5" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "fulltimeWerkzameMannen"@nl ;
     mim:patroon "1 tot en met 99999" ;
@@ -3174,6 +3102,7 @@ Identificatie is maximaal 25 alfanumerieke tekens lang.Zie voor verdere specific
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "0..1" ;
+    mim:lengte "5" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "fulltimeWerkzameVrouwen"@nl ;
     mim:patroon "1 tot en met 99999" ;
@@ -3200,6 +3129,7 @@ Identificatie is maximaal 25 alfanumerieke tekens lang.Zie voor verdere specific
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..*" ;
+    mim:lengte "625" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "handelsnaam"@nl ;
     mim:patroon "bij de KvK ingeschreven (handels)namen." ;
@@ -3225,6 +3155,7 @@ Identificatie is maximaal 25 alfanumerieke tekens lang.Zie voor verdere specific
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "0..1" ;
+    mim:lengte "5" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "parttimeWerkzameMannen"@nl ;
     mim:patroon "1 tot en met 99999" ;
@@ -3251,6 +3182,7 @@ Identificatie is maximaal 25 alfanumerieke tekens lang.Zie voor verdere specific
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "0..1" ;
+    mim:lengte "5" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "parttimeWerkzameVrouwen"@nl ;
     mim:patroon "1 tot en met 99999" ;
@@ -3277,6 +3209,7 @@ Identificatie is maximaal 25 alfanumerieke tekens lang.Zie voor verdere specific
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "0..1" ;
+    mim:lengte "100" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "toevoegingAdres"@nl ;
     mim:toelichting "Ten behoeve van het nader aanduiden van een adres. Het gaat hier bijvoorbeeld om bedrijfsverzamelgebouwen waarbij meerdere vestigingen op hetzelfde adres zitten en waarbij onderscheid gemaakt wordt door een extra omschrijving van de locatie van de vestiging, bijvoorbeeld 3e verdieping, kamer 315."@nl ;
@@ -3298,6 +3231,7 @@ Identificatie is maximaal 25 alfanumerieke tekens lang.Zie voor verdere specific
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "5" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "totaalWerkzamePersonen"@nl ;
     mim:type mim:Integer ;
@@ -3321,6 +3255,7 @@ Identificatie is maximaal 25 alfanumerieke tekens lang.Zie voor verdere specific
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "0..1" ;
+    mim:lengte "45" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "verkorteNaam"@nl ;
     mim:type mim:CharacterString ;
@@ -3345,6 +3280,7 @@ Identificatie is maximaal 25 alfanumerieke tekens lang.Zie voor verdere specific
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "12" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "vestigingsnummer"@nl ;
     mim:patroon "natuurlijk getal met voorloopnullen" ;
@@ -3447,20 +3383,6 @@ vestiging heeft een eigen uniek nummer van 12 cijfers."""@nl ;
     rdfs:comment "Een aaneengesloten gedeelte van het grondgebied van een gemeente, waarvan de grenzen zo veel mogelijk zijn gebaseerd op sociaal-geografische kenmerken."@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/kern/bag/boolean> a mim:Enumeratie,
-        owl:Class,
-        skos:ConceptScheme ;
-    rdfs:label "Boolean"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/bag/boolean"^^xsd:anyURI ;
-    mim:naam "Boolean"@nl ;
-    mim:waarde <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/boolean/ja>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/boolean/leeg>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/boolean/nee>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/boolean/onbekend> ;
-    dcterms:identifier "EAID_E44C5FB6_67AB_4efe_B3F0_C6AFE5B6192F" ;
-    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/> ;
-    rdfs:subClassOf skos:Concept .
-
 <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusnummeraanduiding> a mim:Enumeratie,
         owl:Class,
         skos:ConceptScheme ;
@@ -3542,20 +3464,6 @@ De definitie beperkt de locaties van VESTIGINGen tot gebouwen, In het RSGB gaan 
     dcterms:identifier "EAID_B60B8EF9_D1C0_4e36_BF9B_1C16F92518DD" ;
     rdfs:comment "Een gebouw of complex van gebouwen waar duurzame uitoefening van de activiteiten van een onderneming of rechtspersoon plaatsvindt."@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> .
-
-<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/boolean> a mim:Enumeratie,
-        owl:Class,
-        skos:ConceptScheme ;
-    rdfs:label "Boolean"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/boolean"^^xsd:anyURI ;
-    mim:naam "Boolean"@nl ;
-    mim:waarde <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/boolean/ja>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/boolean/leeg>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/boolean/nee>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/boolean/onbekend> ;
-    dcterms:identifier "EAID_9BD0FBCB_1A9E_4cab_9280_0EBC428E38F7" ;
-    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/> ;
-    rdfs:subClassOf skos:Concept .
 
 <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/openbareruimte> a mim:Objecttype,
         owl:Class ;

@@ -8,249 +8,6 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/overigbouwwerk/lod1geometrieoverigbouwwerk> a mim:Relatiesoort,
-        owl:ObjectProperty ;
-    rdfs:label "LOD1GeometrieOverigBouwwerk"@nl ;
-    mim:aggregatietype mim:Geen ;
-    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/overigbouwwerk> ;
-    mim:datumOpname "2016-05-01"^^xsd:date ;
-    mim:definitie "De geometrische representatie van een overig bouwwerk in 3D op level of detail 1."@nl ;
-    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/object> ;
-    mim:heeftTijdlijnGeldigheid false ;
-    mim:heeftTijdlijnRegistratie false ;
-    mim:herkomst "IMGeo" ;
-    mim:herkomstDefinitie "IMGeo" ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/overigbouwwerk/lod1geometrieoverigbouwwerk"^^xsd:anyURI ;
-    mim:indicatieAfleidbaar false ;
-    mim:indicatieFormeleHistorie true ;
-    mim:indicatieMaterieleHistorie false ;
-    mim:kardinaliteit "0..1" ;
-    mim:mogelijkGeenWaarde false ;
-    mim:naam "LOD1GeometrieOverigBouwwerk"@nl ;
-    mim:toelichting "Het betreft de relatie \" lod1Geometry\" zoals gedefinieerd in het IMGeo  bij de generalisatie overige constructie van een overig bouwwerk."@nl ;
-    mim:unidirectioneel true ;
-    dcterms:identifier "EAID_57A99AAE_ACD4_4493_8453_EC7D719EBD52" ;
-    rdfs:comment "De geometrische representatie van een overig bouwwerk in 3D op level of detail 1."@nl ;
-    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/overigbouwwerk> ;
-    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
-    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/object> .
-
-<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/overigbouwwerk/lod2geometrieoverigbouwwerk> a mim:Relatiesoort,
-        owl:ObjectProperty ;
-    rdfs:label "LOD2GeometrieOverigBouwwerk"@nl ;
-    mim:aggregatietype mim:Geen ;
-    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/overigbouwwerk> ;
-    mim:datumOpname "2016-05-01"^^xsd:date ;
-    mim:definitie "De geometrische representatie van een overig bouwwerk in 3D op level of detail 2."@nl ;
-    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/object> ;
-    mim:heeftTijdlijnGeldigheid false ;
-    mim:heeftTijdlijnRegistratie false ;
-    mim:herkomst "IMGeo" ;
-    mim:herkomstDefinitie "IMGeo" ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/overigbouwwerk/lod2geometrieoverigbouwwerk"^^xsd:anyURI ;
-    mim:indicatieAfleidbaar false ;
-    mim:indicatieFormeleHistorie true ;
-    mim:indicatieMaterieleHistorie false ;
-    mim:kardinaliteit "0..1" ;
-    mim:mogelijkGeenWaarde false ;
-    mim:naam "LOD2GeometrieOverigBouwwerk"@nl ;
-    mim:toelichting "Het betreft de relatie \" lod2Geometry\" zoals gedefinieerd in het IMGeo  bij de generalisatie overige constructie van een overig bouwwerk."@nl ;
-    mim:unidirectioneel true ;
-    dcterms:identifier "EAID_D9F02679_7AC8_4730_B57E_649A06ED9579" ;
-    rdfs:comment "De geometrische representatie van een overig bouwwerk in 3D op level of detail 2."@nl ;
-    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/overigbouwwerk> ;
-    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
-    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/object> .
-
-<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/overigbouwwerk/lod3geometrieoverigbouwwerk> a mim:Relatiesoort,
-        owl:ObjectProperty ;
-    rdfs:label "lod3GeometrieOverigBouwwerk"@nl ;
-    mim:aggregatietype mim:Geen ;
-    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/overigbouwwerk> ;
-    mim:datumOpname "2016-05-01"^^xsd:date ;
-    mim:definitie "De geometrische representatie van een overig bouwwerk in 3D op level of detail 3."@nl ;
-    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/object> ;
-    mim:heeftTijdlijnGeldigheid false ;
-    mim:heeftTijdlijnRegistratie false ;
-    mim:herkomst "IMGeo" ;
-    mim:herkomstDefinitie "IMGeo" ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/overigbouwwerk/lod3geometrieoverigbouwwerk"^^xsd:anyURI ;
-    mim:indicatieAfleidbaar false ;
-    mim:indicatieFormeleHistorie true ;
-    mim:indicatieMaterieleHistorie false ;
-    mim:kardinaliteit "0..1" ;
-    mim:mogelijkGeenWaarde false ;
-    mim:naam "lod3GeometrieOverigBouwwerk"@nl ;
-    mim:toelichting "Het betreft de relatie \" lod3Geometry\" zoals gedefinieerd in het IMGeo bij de generalisatie overige constructie van een overig bouwwerk."@nl ;
-    mim:unidirectioneel true ;
-    dcterms:identifier "EAID_CC182190_E732_4e00_8F98_5A6312FA893E" ;
-    rdfs:comment "De geometrische representatie van een overig bouwwerk in 3D op level of detail 3."@nl ;
-    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/overigbouwwerk> ;
-    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
-    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/object> .
-
-<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/overigescheiding/lod1geometrieoverigescheiding> a mim:Relatiesoort,
-        owl:ObjectProperty ;
-    rdfs:label "LOD1GeometrieOverigeScheiding"@nl ;
-    mim:aggregatietype mim:Geen ;
-    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/overigescheiding> ;
-    mim:datumOpname "2016-05-01"^^xsd:date ;
-    mim:definitie "De geometrische representatie van een overige scheiding in 3D op level of detail 1."@nl ;
-    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/object> ;
-    mim:heeftTijdlijnGeldigheid false ;
-    mim:heeftTijdlijnRegistratie false ;
-    mim:herkomst "IMGeo" ;
-    mim:herkomstDefinitie "IMGeo" ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/overigescheiding/lod1geometrieoverigescheiding"^^xsd:anyURI ;
-    mim:indicatieAfleidbaar false ;
-    mim:indicatieFormeleHistorie true ;
-    mim:indicatieMaterieleHistorie false ;
-    mim:kardinaliteit "0..1" ;
-    mim:mogelijkGeenWaarde false ;
-    mim:naam "LOD1GeometrieOverigeScheiding"@nl ;
-    mim:toelichting "Het betreft de relatie \" lod1Geometry\" zoals gedefinieerd in het IMGeo bij de generalisatie overige constructie van een overige scheiding"@nl ;
-    mim:unidirectioneel true ;
-    dcterms:identifier "EAID_B77C6C59_DAA0_4000_B826_AEAD98175685" ;
-    rdfs:comment "De geometrische representatie van een overige scheiding in 3D op level of detail 1."@nl ;
-    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/overigescheiding> ;
-    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
-    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/object> .
-
-<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/overigescheiding/lod2geometrieoverigescheiding> a mim:Relatiesoort,
-        owl:ObjectProperty ;
-    rdfs:label "LOD2GeometrieOverigeScheiding"@nl ;
-    mim:aggregatietype mim:Geen ;
-    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/overigescheiding> ;
-    mim:datumOpname "2016-05-01"^^xsd:date ;
-    mim:definitie "De geometrische representatie van een overige scheiding in 3D op level of detail 2."@nl ;
-    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/object> ;
-    mim:heeftTijdlijnGeldigheid false ;
-    mim:heeftTijdlijnRegistratie false ;
-    mim:herkomst "IMGeo" ;
-    mim:herkomstDefinitie "IMGeo" ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/overigescheiding/lod2geometrieoverigescheiding"^^xsd:anyURI ;
-    mim:indicatieAfleidbaar false ;
-    mim:indicatieFormeleHistorie true ;
-    mim:indicatieMaterieleHistorie false ;
-    mim:kardinaliteit "0..1" ;
-    mim:mogelijkGeenWaarde false ;
-    mim:naam "LOD2GeometrieOverigeScheiding"@nl ;
-    mim:toelichting "Het betreft de relatie \" lod2Geometry\" zoals gedefinieerd in het IMGeo bij de generalisatie overige constructie van een overige scheiding."@nl ;
-    mim:unidirectioneel true ;
-    dcterms:identifier "EAID_70ED0378_ED9C_4978_AF8C_4A6EA27BB1CA" ;
-    rdfs:comment "De geometrische representatie van een overige scheiding in 3D op level of detail 2."@nl ;
-    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/overigescheiding> ;
-    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
-    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/object> .
-
-<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/overigescheiding/lod3geometrieoverigescheiding> a mim:Relatiesoort,
-        owl:ObjectProperty ;
-    rdfs:label "lod3GeometrieOverigeScheiding"@nl ;
-    mim:aggregatietype mim:Geen ;
-    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/overigescheiding> ;
-    mim:datumOpname "2016-05-01"^^xsd:date ;
-    mim:definitie "De geometrische representatie van een overige scheiding in 3D op level of detail 3."@nl ;
-    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/object> ;
-    mim:heeftTijdlijnGeldigheid false ;
-    mim:heeftTijdlijnRegistratie false ;
-    mim:herkomst "IMGeo" ;
-    mim:herkomstDefinitie "IMGeo" ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/overigescheiding/lod3geometrieoverigescheiding"^^xsd:anyURI ;
-    mim:indicatieAfleidbaar false ;
-    mim:indicatieFormeleHistorie true ;
-    mim:indicatieMaterieleHistorie false ;
-    mim:kardinaliteit "0..1" ;
-    mim:mogelijkGeenWaarde false ;
-    mim:naam "lod3GeometrieOverigeScheiding"@nl ;
-    mim:toelichting "Het betreft de relatie \" lod3Geometry\" zoals gedefinieerd in het IMGeo bij de generalisatie overige constructie van een overige scheiding."@nl ;
-    mim:unidirectioneel true ;
-    dcterms:identifier "EAID_28CB1B99_3324_4e1a_A749_491B77B6D81C" ;
-    rdfs:comment "De geometrische representatie van een overige scheiding in 3D op level of detail 3."@nl ;
-    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/overigescheiding> ;
-    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
-    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/object> .
-
-<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/scheiding/lod1geometriescheiding> a mim:Relatiesoort,
-        owl:ObjectProperty ;
-    rdfs:label "LOD1GeometrieScheiding"@nl ;
-    mim:aggregatietype mim:Geen ;
-    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/scheiding> ;
-    mim:datumOpname "2016-05-01"^^xsd:date ;
-    mim:definitie "De geometrische representatie van een scheiding in 3D op level of detail 1."@nl ;
-    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/object> ;
-    mim:heeftTijdlijnGeldigheid false ;
-    mim:heeftTijdlijnRegistratie false ;
-    mim:herkomst "IMGeo" ;
-    mim:herkomstDefinitie "IMGeo" ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/scheiding/lod1geometriescheiding"^^xsd:anyURI ;
-    mim:indicatieAfleidbaar false ;
-    mim:indicatieFormeleHistorie true ;
-    mim:indicatieMaterieleHistorie false ;
-    mim:kardinaliteit "0..1" ;
-    mim:mogelijkGeenWaarde false ;
-    mim:naam "LOD1GeometrieScheiding"@nl ;
-    mim:toelichting "Het betreft de relatie \" lod1Geometry\" zoals gedefinieerd in het IMgeo bij de generalisatie overige constructie van een scheiding"@nl ;
-    mim:unidirectioneel true ;
-    dcterms:identifier "EAID_BFFB5484_1C56_4dbe_B42B_9C71E11D97D8" ;
-    rdfs:comment "De geometrische representatie van een scheiding in 3D op level of detail 1."@nl ;
-    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/scheiding> ;
-    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
-    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/object> .
-
-<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/scheiding/lod2geometriescheiding> a mim:Relatiesoort,
-        owl:ObjectProperty ;
-    rdfs:label "LOD2GeometrieScheiding"@nl ;
-    mim:aggregatietype mim:Geen ;
-    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/scheiding> ;
-    mim:datumOpname "2016-05-01"^^xsd:date ;
-    mim:definitie "De geometrische representatie van een scheiding in 3D op level of detail 2."@nl ;
-    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/object> ;
-    mim:heeftTijdlijnGeldigheid false ;
-    mim:heeftTijdlijnRegistratie false ;
-    mim:herkomst "IMGeo" ;
-    mim:herkomstDefinitie "IMGeo" ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/scheiding/lod2geometriescheiding"^^xsd:anyURI ;
-    mim:indicatieAfleidbaar false ;
-    mim:indicatieFormeleHistorie true ;
-    mim:indicatieMaterieleHistorie false ;
-    mim:kardinaliteit "0..1" ;
-    mim:mogelijkGeenWaarde false ;
-    mim:naam "LOD2GeometrieScheiding"@nl ;
-    mim:toelichting "Het betreft de relatie \" lod2Geometry\" zoals gedefinieerd in het IMGeo  bij de generalisatie overige constructie van een scheiding."@nl ;
-    mim:unidirectioneel true ;
-    dcterms:identifier "EAID_5CE66422_85CE_477d_B2B5_072C607A9881" ;
-    rdfs:comment "De geometrische representatie van een scheiding in 3D op level of detail 2."@nl ;
-    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/scheiding> ;
-    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
-    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/object> .
-
-<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/scheiding/lod3geometriescheiding> a mim:Relatiesoort,
-        owl:ObjectProperty ;
-    rdfs:label "lod3GeometrieScheiding"@nl ;
-    mim:aggregatietype mim:Geen ;
-    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/scheiding> ;
-    mim:datumOpname "2016-05-01"^^xsd:date ;
-    mim:definitie "De geometrische representatie van een scheiding in 3D op level of detail 3."@nl ;
-    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/object> ;
-    mim:heeftTijdlijnGeldigheid false ;
-    mim:heeftTijdlijnRegistratie false ;
-    mim:herkomst "IMGeo" ;
-    mim:herkomstDefinitie "IMGeo" ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/scheiding/lod3geometriescheiding"^^xsd:anyURI ;
-    mim:indicatieAfleidbaar false ;
-    mim:indicatieFormeleHistorie true ;
-    mim:indicatieMaterieleHistorie false ;
-    mim:kardinaliteit "0..1" ;
-    mim:mogelijkGeenWaarde false ;
-    mim:naam "lod3GeometrieScheiding"@nl ;
-    mim:toelichting "Het betreft de relatie \" lod3Geometry\" zoals gedefinieerd in het IMGeo bij de generalisatie overige constructie van een scheiding."@nl ;
-    mim:unidirectioneel true ;
-    dcterms:identifier "EAID_0B52794C_01CD_4b9a_9737_FB01A24DDD16" ;
-    rdfs:comment "De geometrische representatie van een scheiding in 3D op level of detail 3."@nl ;
-    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/scheiding> ;
-    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
-    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/object> .
-
 <https://lod.gemeentelijkgegevensmodel.nl/v3.0.0/kern/rsgbplus/kern-overige-geo-objecten-op-hoofdlijnen> a owl:Ontology ;
     rdfs:label "Kern:Overige geo objecten op hoofdlijnen"@nl ;
     dcterms:identifier "EAID_4BDFAFE0_D36A_40b7_B839_6742165859A7" ;
@@ -2699,7 +2456,7 @@ struikbeplanting."""@nl ;
     mim:naam "geometrie"@nl ;
     mim:patroon "aanduiding van het type geometrie (Vlak), gevolgd door coördinatenparen binnen de in Nederland gelegen waarden van het RDstelsel." ;
     mim:toelichting "Het betreft de relatie \"geometrie2d\" zoals gedefinieerd in het BGT bij een begroeid terreindeel."@nl ;
-    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/surface> ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/gm-surface> ;
     dcterms:identifier "EAID_87E470ED_905A_4062_8DD2_4830F390AE76" ;
     rdfs:comment "De minimaal tweedimensionale geometrische representatie van de omtrekken van een begroeid terreindeel."@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/begroeidterreindeel> ;
@@ -2753,7 +2510,7 @@ Identificatie is maximaal 25 alfanumerieke tekens lang.Zie voor verdere specific
     mim:naam "kruinlijngeometrie"@nl ;
     mim:patroon "aanduiding van het type geometrie (Lijn), gevolgd door coördinatenparen binnen de in Nederland gelegen waarden van het RDstelsel." ;
     mim:toelichting "Het betreft de relatie \" kruinlijngeometrie\" zoals gedefinieerd in het BGT bij een begroeid terreindeel."@nl ;
-    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/curve> ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/gm-curve> ;
     dcterms:identifier "EAID_77FF5087_AB67_41c3_AEE0_76C1C6538AF2" ;
     rdfs:comment "Lijngeometrie van de hoogstgelegen begrenzing van een kunstmatig aangelegd en onderhouden helling."@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/begroeidterreindeel> ;
@@ -2779,7 +2536,7 @@ Identificatie is maximaal 25 alfanumerieke tekens lang.Zie voor verdere specific
     mim:naam "LOD0Geometrie"@nl ;
     mim:patroon "aanduiding van het type geometrie (MultiVlak), gevolgd door coördinatenparen binnen de in Nederland gelegen waarden van het RDstelsel." ;
     mim:toelichting "Het betreft de relatie \" lod0MultiSurface\" zoals gedefinieerd in het IMGeo bij een begroeid terreindeel."@nl ;
-    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/multisurface> ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/gm-multisurface> ;
     dcterms:identifier "EAID_772AD202_A31D_409f_A757_8DE022B5635D" ;
     rdfs:comment "De geometrische representatie van een begroeid terreindeel als multivlak in 2.5D op level of detail 0."@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/begroeidterreindeel> ;
@@ -2850,6 +2607,7 @@ Identificatie is maximaal 25 alfanumerieke tekens lang.Zie voor verdere specific
     mim:indicatieFormeleHistorie true ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "2" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "relatieveHoogteligging"@nl ;
     mim:patroon "gehele positieve en negatieve getallen, -9 t/m 9" ;
@@ -2954,7 +2712,7 @@ Identificatie is maximaal 25 alfanumerieke tekens lang.Zie voor verdere specific
     mim:naam "geometrieFunctioneelGebied"@nl ;
     mim:patroon "alle binnen Nederland gelegen waarden van het RD-stelsel." ;
     mim:toelichting "Het betreft de geometrie2d zoals gedefinieerd in het BGT bij een functioneel gebied."@nl ;
-    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/surface> ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/gm-surface> ;
     dcterms:identifier "EAID_46F8D5C6_FE99_4770_86A8_810E1BE4FA9F" ;
     rdfs:comment "De tweedimensionale geometrische representatie van de omtrekken van het functioneel gebied."@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/functioneelgebied> ;
@@ -3005,6 +2763,7 @@ Voor de identificatie worden de richtlijnen van NEN 3610 gehanteerd."""@nl ;
     mim:indicatieFormeleHistorie true ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "0..1" ;
+    mim:lengte "40" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "naamFunctioneelGebied"@nl ;
     mim:patroon "alle alfanumerieke tekens zonder …" ;
@@ -3109,7 +2868,7 @@ Voor de identificatie worden de richtlijnen van NEN 3610 gehanteerd."""@nl ;
     mim:naam "geometrieGebouwinstallatie"@nl ;
     mim:patroon "aanduiding van het type geometrie (Vlak), gevolgd door coördinatenparen binnen de in Nederland gelegen waarden van het RDstelsel." ;
     mim:toelichting "Het betreft de relatie \"geometrie2d\" zoals gedefinieerd in het IMGeo  bij een gebouwinstallatie."@nl ;
-    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/surface> ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/gm-surface> ;
     dcterms:identifier "EAID_32EF584E_2B2E_4929_A6E5_EE9D2D32C265" ;
     rdfs:comment "De minimaal tweedimensionale geometrische representatie van de omtrekken van een gebouwinstallatie."@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gebouwinstallatie> ;
@@ -3163,7 +2922,7 @@ Identificatie is maximaal 25 alfanumerieke tekens lang.Zie voor verdere specific
     mim:naam "LOD0GeometrieGebouwinstallatie"@nl ;
     mim:patroon "aanduiding van het type geometrie (Vlak), gevolgd door coördinatenparen binnen de in Nederland gelegen waarden van het RDstelsel." ;
     mim:toelichting "Het betreft de relatie \" lod0Geometry\" zoals gedefinieerd in het IMGeo bij een gebouwinstallatie."@nl ;
-    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/surface> ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/gm-surface> ;
     dcterms:identifier "EAID_DB25DC92_25C0_4216_AAAB_C638AB92DCDB" ;
     rdfs:comment "De geometrische representatie van een gebouwinstallatie als vlak in 2.5D op level of detail 0."@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/gebouwinstallatie> ;
@@ -3185,6 +2944,7 @@ Identificatie is maximaal 25 alfanumerieke tekens lang.Zie voor verdere specific
     mim:indicatieFormeleHistorie true ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "2" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "relatieveHoogteliggingGebouwinstallatie"@nl ;
     mim:patroon "gehele positieve en negatieve getallen, -9 t/m 9" ;
@@ -3314,7 +3074,7 @@ Identificatie is maximaal 25 alfanumerieke tekens lang.Zie voor verdere specific
     mim:patroon """Aanduiding van het type geometrie (Punt, Lijn of Vlak) gevolgd door coördinatenparen binnen de in Nederland gelegen waarden van het RD-stelsel.
 
 Zie ook regels attribuutsoort.""" ;
-    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/surface> ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/gm-surface> ;
     dcterms:identifier "EAID_426FE3C3_423C_44d3_AEE0_00270B6AC471" ;
     rdfs:comment "De geometrische representatie van een inrichtingselement."@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/inrichtingselement> ;
@@ -3367,7 +3127,7 @@ Voor de identificatie worden de richtlijnen van NEN 3610 gehanteerd."""@nl ;
     mim:kardinaliteit "0..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "LOD0GeometrieInrichtingselement"@nl ;
-    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/surface> ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/gm-surface> ;
     dcterms:identifier "EAID_2A8E5666_8876_4cde_B523_5F39B8DD336B" ;
     rdfs:comment "De geometrische representatie van een inrichtingselement als punt, lijn of vlak in 2.5D op level of detail 0."@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/inrichtingselement> ;
@@ -3414,6 +3174,7 @@ Voor de identificatie worden de richtlijnen van NEN 3610 gehanteerd."""@nl ;
     mim:indicatieFormeleHistorie true ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "2" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "relatieveHoogteliggingInrichtingselement"@nl ;
     mim:patroon "gehele positieve en negatieve getallen, -9 t/m 9" ;
@@ -3568,7 +3329,7 @@ verschijningsvorm."""@nl ;
     mim:naam "geometrie"@nl ;
     mim:patroon "aanduiding van het type geometrie (Vlak), gevolgd door coördinatenparen binnen de in Nederland gelegen waarden van het RDstelsel." ;
     mim:toelichting "Het betreft de geometrie2d zoals gedefinieerd in het BGT bij een onbegroeid terreindeel."@nl ;
-    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/surface> ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/gm-surface> ;
     dcterms:identifier "EAID_159C897F_7DD2_49c8_9928_4A6AA2CE4605" ;
     rdfs:comment "De minimaal tweedimensionale geometrische representatie van de omtrekken van een onbegroeid terreindeel."@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/onbegroeidterreindeel> ;
@@ -3622,7 +3383,7 @@ Identificatie is maximaal 25 alfanumerieke tekens lang.Zie voor verdere specific
     mim:naam "kruinlijngeometrie"@nl ;
     mim:patroon "aanduiding van het type geometrie (Lijn), gevolgd door coördinatenparen binnen de in Nederland gelegen waarden van het RDstelsel." ;
     mim:toelichting "Het betreft de kruinlijngeometrie zoals gedefinieerd in het BGT bij een onbegroeid terreindeel."@nl ;
-    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/curve> ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/gm-curve> ;
     dcterms:identifier "EAID_298C47DC_9CDF_4589_961E_0D308A08B291" ;
     rdfs:comment "Lijngeometrie van de hoogstgelegen begrenzing van een kunstmatig aangelegd en onderhouden helling."@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/onbegroeidterreindeel> ;
@@ -3694,6 +3455,7 @@ verschijningsvorm."""@nl ;
     mim:indicatieFormeleHistorie true ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "2" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "relatieveHoogteligging"@nl ;
     mim:patroon "gehele positieve en negatieve getallen, -9 t/m 9" ;
@@ -3796,7 +3558,7 @@ verschijningsvorm."""@nl ;
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "geometrieOverigBouwwerk"@nl ;
-    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/vlak> ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/gm-surface> ;
     dcterms:identifier "EAID_8549439C_A49F_456c_A149_2AFD9A2188EF" ;
     rdfs:comment "De minimaal tweedimensionale geometrische representatie van de omtrekken van een overig bouwwerk."@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/overigbouwwerk> ;
@@ -3848,9 +3610,84 @@ Identificatie is maximaal 25 alfanumerieke tekens lang. Zie voor verdere specifi
     mim:mogelijkGeenWaarde false ;
     mim:naam "LOD0GeometrieOverigBouwwerk"@nl ;
     mim:toelichting "Het betreft de relatie \" lod0Geometry\" zoals gedefinieerd in het IMGeo bij de generalisatie overige constructie van een overig bouwwerk."@nl ;
-    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/surface> ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/gm-surface> ;
     dcterms:identifier "EAID_2D6CC484_5AFE_45fc_A9E1_B6072837338F" ;
     rdfs:comment "De geometrische representatie van een overig bouwwerk als punt, lijn of vlak 2.5D op level of detail 0."@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/overigbouwwerk> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
+    rdfs:range geo:wktLiteral .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/overigbouwwerk/lod1geometrieoverigbouwwerk> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "LOD1GeometrieOverigBouwwerk"@nl ;
+    mim:datumOpname "2016-05-01"^^xsd:date ;
+    mim:definitie "De geometrische representatie van een overig bouwwerk in 3D op level of detail 1."@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:herkomst "IMGeo" ;
+    mim:herkomstDefinitie "IMGeo" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/overigbouwwerk/lod1geometrieoverigbouwwerk"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie true ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "0..1" ;
+    mim:mogelijkGeenWaarde false ;
+    mim:naam "LOD1GeometrieOverigBouwwerk"@nl ;
+    mim:toelichting "Het betreft de relatie \" lod1Geometry\" zoals gedefinieerd in het IMGeo  bij de generalisatie overige constructie van een overig bouwwerk."@nl ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/gm-object> ;
+    dcterms:identifier "EAID_57A99AAE_ACD4_4493_8453_EC7D719EBD52" ;
+    rdfs:comment "De geometrische representatie van een overig bouwwerk in 3D op level of detail 1."@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/overigbouwwerk> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
+    rdfs:range geo:wktLiteral .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/overigbouwwerk/lod2geometrieoverigbouwwerk> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "LOD2GeometrieOverigBouwwerk"@nl ;
+    mim:datumOpname "2016-05-01"^^xsd:date ;
+    mim:definitie "De geometrische representatie van een overig bouwwerk in 3D op level of detail 2."@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:herkomst "IMGeo" ;
+    mim:herkomstDefinitie "IMGeo" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/overigbouwwerk/lod2geometrieoverigbouwwerk"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie true ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "0..1" ;
+    mim:mogelijkGeenWaarde false ;
+    mim:naam "LOD2GeometrieOverigBouwwerk"@nl ;
+    mim:toelichting "Het betreft de relatie \" lod2Geometry\" zoals gedefinieerd in het IMGeo  bij de generalisatie overige constructie van een overig bouwwerk."@nl ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/gm-object> ;
+    dcterms:identifier "EAID_D9F02679_7AC8_4730_B57E_649A06ED9579" ;
+    rdfs:comment "De geometrische representatie van een overig bouwwerk in 3D op level of detail 2."@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/overigbouwwerk> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
+    rdfs:range geo:wktLiteral .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/overigbouwwerk/lod3geometrieoverigbouwwerk> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "lod3GeometrieOverigBouwwerk"@nl ;
+    mim:datumOpname "2016-05-01"^^xsd:date ;
+    mim:definitie "De geometrische representatie van een overig bouwwerk in 3D op level of detail 3."@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:herkomst "IMGeo" ;
+    mim:herkomstDefinitie "IMGeo" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/overigbouwwerk/lod3geometrieoverigbouwwerk"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie true ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "0..1" ;
+    mim:mogelijkGeenWaarde false ;
+    mim:naam "lod3GeometrieOverigBouwwerk"@nl ;
+    mim:toelichting "Het betreft de relatie \" lod3Geometry\" zoals gedefinieerd in het IMGeo bij de generalisatie overige constructie van een overig bouwwerk."@nl ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/gm-object> ;
+    dcterms:identifier "EAID_CC182190_E732_4e00_8F98_5A6312FA893E" ;
+    rdfs:comment "De geometrische representatie van een overig bouwwerk in 3D op level of detail 3."@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/overigbouwwerk> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
     rdfs:range geo:wktLiteral .
@@ -3870,6 +3707,7 @@ Identificatie is maximaal 25 alfanumerieke tekens lang. Zie voor verdere specifi
     mim:indicatieFormeleHistorie true ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "2" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "relatieveHoogteliggingOverigBouwwerk"@nl ;
     mim:patroon "gehele positieve en negatieve getallen, -9 t/m 9" ;
@@ -3974,7 +3812,7 @@ Identificatie is maximaal 25 alfanumerieke tekens lang. Zie voor verdere specifi
     mim:naam "geometrieOverigeScheiding"@nl ;
     mim:patroon "aanduiding van het type geometrie (Lijn, Vlak), gevolgd door coördinatenparen binnen de in Nederland gelegen waarden van het RDstelsel." ;
     mim:toelichting "Het betreft de geometrie2d zoals gedefinieerd in BGT bij de generalisatie Overige Constructie van een Overige Scheiding."@nl ;
-    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/vlak> ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/gm-surface> ;
     dcterms:identifier "EAID_A69C2ECF_D47D_41d0_8F6D_FE9292127FBF" ;
     rdfs:comment "De minimaal tweedimensionale geometrische representatie van de omtrekken van een overige scheiding"@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/overigescheiding> ;
@@ -4027,9 +3865,84 @@ Identificatie is maximaal 25 alfanumerieke tekens lang.Zie voor verdere specific
     mim:mogelijkGeenWaarde false ;
     mim:naam "LOD0GeometrieOverigeScheiding"@nl ;
     mim:toelichting "Het betreft de relatie \" lod0Geometry\" zoals gedefinieerd in het IMGeo  bij de generalisatie overige constructie van een overige scheiding."@nl ;
-    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/surface> ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/gm-surface> ;
     dcterms:identifier "EAID_B33C3D5D_0E6E_402e_A7B6_896B08BD34E5" ;
     rdfs:comment "De geometrische representatie van een overige scheiding als punt, lijn of vlak in 2.5D op level of detail 0."@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/overigescheiding> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
+    rdfs:range geo:wktLiteral .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/overigescheiding/lod1geometrieoverigescheiding> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "LOD1GeometrieOverigeScheiding"@nl ;
+    mim:datumOpname "2016-05-01"^^xsd:date ;
+    mim:definitie "De geometrische representatie van een overige scheiding in 3D op level of detail 1."@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:herkomst "IMGeo" ;
+    mim:herkomstDefinitie "IMGeo" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/overigescheiding/lod1geometrieoverigescheiding"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie true ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "0..1" ;
+    mim:mogelijkGeenWaarde false ;
+    mim:naam "LOD1GeometrieOverigeScheiding"@nl ;
+    mim:toelichting "Het betreft de relatie \" lod1Geometry\" zoals gedefinieerd in het IMGeo bij de generalisatie overige constructie van een overige scheiding"@nl ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/gm-object> ;
+    dcterms:identifier "EAID_B77C6C59_DAA0_4000_B826_AEAD98175685" ;
+    rdfs:comment "De geometrische representatie van een overige scheiding in 3D op level of detail 1."@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/overigescheiding> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
+    rdfs:range geo:wktLiteral .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/overigescheiding/lod2geometrieoverigescheiding> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "LOD2GeometrieOverigeScheiding"@nl ;
+    mim:datumOpname "2016-05-01"^^xsd:date ;
+    mim:definitie "De geometrische representatie van een overige scheiding in 3D op level of detail 2."@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:herkomst "IMGeo" ;
+    mim:herkomstDefinitie "IMGeo" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/overigescheiding/lod2geometrieoverigescheiding"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie true ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "0..1" ;
+    mim:mogelijkGeenWaarde false ;
+    mim:naam "LOD2GeometrieOverigeScheiding"@nl ;
+    mim:toelichting "Het betreft de relatie \" lod2Geometry\" zoals gedefinieerd in het IMGeo bij de generalisatie overige constructie van een overige scheiding."@nl ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/gm-object> ;
+    dcterms:identifier "EAID_70ED0378_ED9C_4978_AF8C_4A6EA27BB1CA" ;
+    rdfs:comment "De geometrische representatie van een overige scheiding in 3D op level of detail 2."@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/overigescheiding> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
+    rdfs:range geo:wktLiteral .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/overigescheiding/lod3geometrieoverigescheiding> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "lod3GeometrieOverigeScheiding"@nl ;
+    mim:datumOpname "2016-05-01"^^xsd:date ;
+    mim:definitie "De geometrische representatie van een overige scheiding in 3D op level of detail 3."@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:herkomst "IMGeo" ;
+    mim:herkomstDefinitie "IMGeo" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/overigescheiding/lod3geometrieoverigescheiding"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie true ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "0..1" ;
+    mim:mogelijkGeenWaarde false ;
+    mim:naam "lod3GeometrieOverigeScheiding"@nl ;
+    mim:toelichting "Het betreft de relatie \" lod3Geometry\" zoals gedefinieerd in het IMGeo bij de generalisatie overige constructie van een overige scheiding."@nl ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/gm-object> ;
+    dcterms:identifier "EAID_28CB1B99_3324_4e1a_A749_491B77B6D81C" ;
+    rdfs:comment "De geometrische representatie van een overige scheiding in 3D op level of detail 3."@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/overigescheiding> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
     rdfs:range geo:wktLiteral .
@@ -4049,6 +3962,7 @@ Identificatie is maximaal 25 alfanumerieke tekens lang.Zie voor verdere specific
     mim:indicatieFormeleHistorie true ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "2" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "relatieveHoogteliggingOverigeScheiding"@nl ;
     mim:patroon "gehele positieve en negatieve getallen, -9 t/m 9" ;
@@ -4177,7 +4091,7 @@ Identificatie is maximaal 25 alfanumerieke tekens lang.Zie voor verdere specific
     mim:naam "geometrieScheiding"@nl ;
     mim:patroon "aanduiding van het type geometrie (Lijn, Vlak), gevolgd door coördinatenparen binnen de in Nederland gelegen waarden van het RDstelsel." ;
     mim:toelichting "Het betreft de geometrie2d zoals gedefinieerd in he BGT bij de generalisatie Overige Constructie van een Scheiding."@nl ;
-    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/vlak> ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/gm-surface> ;
     dcterms:identifier "EAID_61890AD1_FAFC_4bb7_AC44_827A26F30004" ;
     rdfs:comment "De minimaal tweedimensionale geometrische representatie van de omtrekken van een scheiding"@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/scheiding> ;
@@ -4230,9 +4144,84 @@ Identificatie is maximaal 25 alfanumerieke tekens lang.Zie voor verdere specific
     mim:mogelijkGeenWaarde false ;
     mim:naam "LOD0GeometrieScheiding"@nl ;
     mim:toelichting "Het betreft de relatie \" lod0Geometry\" zoals gedefinieerd in het IMGeo bij de generalisatie overige constructie van een scheiding."@nl ;
-    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/surface> ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/gm-surface> ;
     dcterms:identifier "EAID_6D07B2D2_ADF1_46a9_A95B_36BF574171B5" ;
     rdfs:comment "De geometrische representatie van een scheiding als punt, lijn of vlak in 2.5D op level of detail 0."@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/scheiding> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
+    rdfs:range geo:wktLiteral .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/scheiding/lod1geometriescheiding> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "LOD1GeometrieScheiding"@nl ;
+    mim:datumOpname "2016-05-01"^^xsd:date ;
+    mim:definitie "De geometrische representatie van een scheiding in 3D op level of detail 1."@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:herkomst "IMGeo" ;
+    mim:herkomstDefinitie "IMGeo" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/scheiding/lod1geometriescheiding"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie true ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "0..1" ;
+    mim:mogelijkGeenWaarde false ;
+    mim:naam "LOD1GeometrieScheiding"@nl ;
+    mim:toelichting "Het betreft de relatie \" lod1Geometry\" zoals gedefinieerd in het IMgeo bij de generalisatie overige constructie van een scheiding"@nl ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/gm-object> ;
+    dcterms:identifier "EAID_BFFB5484_1C56_4dbe_B42B_9C71E11D97D8" ;
+    rdfs:comment "De geometrische representatie van een scheiding in 3D op level of detail 1."@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/scheiding> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
+    rdfs:range geo:wktLiteral .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/scheiding/lod2geometriescheiding> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "LOD2GeometrieScheiding"@nl ;
+    mim:datumOpname "2016-05-01"^^xsd:date ;
+    mim:definitie "De geometrische representatie van een scheiding in 3D op level of detail 2."@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:herkomst "IMGeo" ;
+    mim:herkomstDefinitie "IMGeo" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/scheiding/lod2geometriescheiding"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie true ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "0..1" ;
+    mim:mogelijkGeenWaarde false ;
+    mim:naam "LOD2GeometrieScheiding"@nl ;
+    mim:toelichting "Het betreft de relatie \" lod2Geometry\" zoals gedefinieerd in het IMGeo  bij de generalisatie overige constructie van een scheiding."@nl ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/gm-object> ;
+    dcterms:identifier "EAID_5CE66422_85CE_477d_B2B5_072C607A9881" ;
+    rdfs:comment "De geometrische representatie van een scheiding in 3D op level of detail 2."@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/scheiding> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
+    rdfs:range geo:wktLiteral .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/scheiding/lod3geometriescheiding> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "lod3GeometrieScheiding"@nl ;
+    mim:datumOpname "2016-05-01"^^xsd:date ;
+    mim:definitie "De geometrische representatie van een scheiding in 3D op level of detail 3."@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:herkomst "IMGeo" ;
+    mim:herkomstDefinitie "IMGeo" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/scheiding/lod3geometriescheiding"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie true ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "0..1" ;
+    mim:mogelijkGeenWaarde false ;
+    mim:naam "lod3GeometrieScheiding"@nl ;
+    mim:toelichting "Het betreft de relatie \" lod3Geometry\" zoals gedefinieerd in het IMGeo bij de generalisatie overige constructie van een scheiding."@nl ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/gm-object> ;
+    dcterms:identifier "EAID_0B52794C_01CD_4b9a_9737_FB01A24DDD16" ;
+    rdfs:comment "De geometrische representatie van een scheiding in 3D op level of detail 3."@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/scheiding> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
     rdfs:range geo:wktLiteral .
@@ -4252,6 +4241,7 @@ Identificatie is maximaal 25 alfanumerieke tekens lang.Zie voor verdere specific
     mim:indicatieFormeleHistorie true ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "2" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "relatieveHoogteliggingScheiding"@nl ;
     mim:patroon "gehele positieve en negatieve getallen, -9 t/m 9" ;
@@ -4357,7 +4347,7 @@ Identificatie is maximaal 25 alfanumerieke tekens lang.Zie voor verdere specific
     mim:naam "geometrieVegetatieobject"@nl ;
     mim:patroon "aanduiding van het type geometrie (Punt, Lijn of Vlak), gevolgd door coördinatenparen binnen de in Nederland gelegen waarden van het RDstelsel." ;
     mim:toelichting "Het betreft de relatie \"geometrie2d\" zoals gedefinieerd in het IMGeo bij een vegetatieobject."@nl ;
-    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/surface> ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/gm-surface> ;
     dcterms:identifier "EAID_DDC99691_D4EB_44a8_9F67_43936D0B0A14" ;
     rdfs:comment "De geometrische representatie van een vegetatieobject als punt, lijn of vlak."@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/vegetatieobject> ;
@@ -4411,7 +4401,7 @@ Identificatie is maximaal 25 alfanumerieke tekens lang.Zie voor verdere specific
     mim:naam "LOD0GeometrieVegetatieobject"@nl ;
     mim:patroon "aanduiding van het type geometrie (Punt, Lijn of Vlak in 2.5D), gevolgd door coördinatenparen binnen de in Nederland gelegen waarden van het RDstelsel." ;
     mim:toelichting "Het betreft de relatie \" lod0Geometry\" zoals gedefinieerd in het IMGeo bij een vegetatieobject"@nl ;
-    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/surface> ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/gm-surface> ;
     dcterms:identifier "EAID_134BAE4D_B34A_4b3d_BDEF_B02BB75F8838" ;
     rdfs:comment "De geometrische representatie van een vegetatieobject als punt, lijn of vlak in 2.5D op level of detail 0."@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/vegetatieobject> ;
@@ -4433,6 +4423,7 @@ Identificatie is maximaal 25 alfanumerieke tekens lang.Zie voor verdere specific
     mim:indicatieFormeleHistorie true ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "2" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "relatieveHoogteliggingVegetatieobject"@nl ;
     mim:patroon "gehele positieve en negatieve getallen, -9 t/m 9" ;
@@ -4542,6 +4533,7 @@ Identificatie is maximaal 25 alfanumerieke tekens lang.Zie voor verdere specific
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "40" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "geometrieSoort"@nl ;
     mim:type mim:CharacterString ;
@@ -4752,6 +4744,69 @@ Objecttype ONBEGROEID TERREINDEEL is een specialisatie van het city gml objectty
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
     rdfs:subClassOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/geo-object> .
 
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/overigbouwwerk> a mim:Objecttype,
+        owl:Class ;
+    rdfs:label "OverigBouwwerk"@nl ;
+    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/overigbouwwerk/datumbegingeldigheidoverigbouwwerk>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/overigbouwwerk/datumeindegeldigheidoverigbouwwerk>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/overigbouwwerk/geometrieoverigbouwwerk>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/overigbouwwerk/identificatieoverigbouwwerk>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/overigbouwwerk/lod0geometrieoverigbouwwerk>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/overigbouwwerk/lod1geometrieoverigbouwwerk>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/overigbouwwerk/lod2geometrieoverigbouwwerk>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/overigbouwwerk/lod3geometrieoverigbouwwerk>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/overigbouwwerk/relatievehoogteliggingoverigbouwwerk>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/overigbouwwerk/statusoverigbouwwerk> ;
+    mim:datumOpname "2016-05-01"^^xsd:date ;
+    mim:definitie "Met de aarde verbonden duurzaam bouwwerk, dat niet valt onder de definities van een pand of kunstwerk."@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/overigbouwwerk"^^xsd:anyURI ;
+    mim:indicatieAbstractObject false ;
+    mim:naam "OverigBouwwerk"@nl ;
+    mim:populatie """Overige bouwwerk objecten met status plan en een einddatum maken geen deel uit van de verzameling overige bouwwerken. 
+
+Zie verder BGT en IMGeo.
+
+Overige bouwwerk objecten met status plan en een einddatum maken geen deel uit van de verzameling overige bouwwerken. 
+
+Zie verder BGT en IMGeo.""" ;
+    mim:toelichting """Naast het bestaande object kan tegelijkertijd ook een geplande geometriewijziging van hetzelfde bestaande object zijn vastgelegd. De plantopografie is dan als apart object opgenomen met een eigen identificatie. Via de geometrische relatie is af te leiden dat het de plantopografie van een bestaand object betreft. 
+Zie verder IMGeo."""@nl ;
+    dcterms:identifier "EAID_1DA7BC25_CF02_4161_B9A2_DE0BE27C5254" ;
+    rdfs:comment "Met de aarde verbonden duurzaam bouwwerk, dat niet valt onder de definities van een pand of kunstwerk."@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
+    rdfs:subClassOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/geo-object> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/scheiding> a mim:Objecttype,
+        owl:Class ;
+    rdfs:label "Scheiding"@nl ;
+    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/scheiding/datumbegingeldigheidscheiding>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/scheiding/datumeindegeldigheidscheiding>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/scheiding/geometriescheiding>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/scheiding/identificatiescheiding>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/scheiding/lod0geometriescheiding>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/scheiding/lod1geometriescheiding>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/scheiding/lod2geometriescheiding>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/scheiding/lod3geometriescheiding>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/scheiding/relatievehoogteliggingscheiding>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/scheiding/statusscheiding> ;
+    mim:datumOpname "2016-05-01"^^xsd:date ;
+    mim:definitie "Kunstmatig, meestal lineair obstakel met een werende functie."@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/scheiding"^^xsd:anyURI ;
+    mim:indicatieAbstractObject false ;
+    mim:naam "Scheiding"@nl ;
+    mim:populatie """Terreinobjecten met status plan en een einddatum maken geen deel uit van de verzameling scheidingen. 
+
+Zie verder BGT en IMGeo.
+
+Terreinobjecten met status plan en een einddatum maken geen deel uit van de verzameling scheidingen. 
+
+Zie verder BGT en IMGeo.""" ;
+    mim:toelichting "Naast het bestaande object kan tegelijkertijd ook een geplande geometriewijziging van hetzelfde bestaande object zijn vastgelegd. De plantopografie is dan als apart object opgenomen met een eigen identificatie. Via de geometrische relatie is af te leiden dat het de plantopografie van een bestaand object betreft. Zie verder IMGeo."@nl ;
+    dcterms:identifier "EAID_A637379F_6E1D_47aa_AE75_3E22FE0DC814" ;
+    rdfs:comment "Kunstmatig, meestal lineair obstakel met een werende functie."@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
+    rdfs:subClassOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/geo-object> .
+
 <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/typeringgebouwinstallatie> a mim:Enumeratie,
         owl:Class,
         skos:ConceptScheme ;
@@ -4799,79 +4854,6 @@ Objecttype BEGROEID TERREINDEEL is het equivalent van het city gml objecttype PL
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
     rdfs:subClassOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/geo-object> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/overigbouwwerk> a mim:Objecttype,
-        owl:Class ;
-    rdfs:label "OverigBouwwerk"@nl ;
-    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/overigbouwwerk/datumbegingeldigheidoverigbouwwerk>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/overigbouwwerk/datumeindegeldigheidoverigbouwwerk>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/overigbouwwerk/geometrieoverigbouwwerk>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/overigbouwwerk/identificatieoverigbouwwerk>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/overigbouwwerk/lod0geometrieoverigbouwwerk>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/overigbouwwerk/relatievehoogteliggingoverigbouwwerk>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/overigbouwwerk/statusoverigbouwwerk> ;
-    mim:datumOpname "2016-05-01"^^xsd:date ;
-    mim:definitie "Met de aarde verbonden duurzaam bouwwerk, dat niet valt onder de definities van een pand of kunstwerk."@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/overigbouwwerk"^^xsd:anyURI ;
-    mim:indicatieAbstractObject false ;
-    mim:naam "OverigBouwwerk"@nl ;
-    mim:populatie """Overige bouwwerk objecten met status plan en een einddatum maken geen deel uit van de verzameling overige bouwwerken. 
-
-Zie verder BGT en IMGeo.
-
-Overige bouwwerk objecten met status plan en een einddatum maken geen deel uit van de verzameling overige bouwwerken. 
-
-Zie verder BGT en IMGeo.""" ;
-    mim:toelichting """Naast het bestaande object kan tegelijkertijd ook een geplande geometriewijziging van hetzelfde bestaande object zijn vastgelegd. De plantopografie is dan als apart object opgenomen met een eigen identificatie. Via de geometrische relatie is af te leiden dat het de plantopografie van een bestaand object betreft. 
-Zie verder IMGeo."""@nl ;
-    dcterms:identifier "EAID_1DA7BC25_CF02_4161_B9A2_DE0BE27C5254" ;
-    rdfs:comment "Met de aarde verbonden duurzaam bouwwerk, dat niet valt onder de definities van een pand of kunstwerk."@nl ;
-    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
-    rdfs:subClassOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/geo-object> .
-
-<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/scheiding> a mim:Objecttype,
-        owl:Class ;
-    rdfs:label "Scheiding"@nl ;
-    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/scheiding/datumbegingeldigheidscheiding>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/scheiding/datumeindegeldigheidscheiding>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/scheiding/geometriescheiding>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/scheiding/identificatiescheiding>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/scheiding/lod0geometriescheiding>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/scheiding/relatievehoogteliggingscheiding>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/scheiding/statusscheiding> ;
-    mim:datumOpname "2016-05-01"^^xsd:date ;
-    mim:definitie "Kunstmatig, meestal lineair obstakel met een werende functie."@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/scheiding"^^xsd:anyURI ;
-    mim:indicatieAbstractObject false ;
-    mim:naam "Scheiding"@nl ;
-    mim:populatie """Terreinobjecten met status plan en een einddatum maken geen deel uit van de verzameling scheidingen. 
-
-Zie verder BGT en IMGeo.
-
-Terreinobjecten met status plan en een einddatum maken geen deel uit van de verzameling scheidingen. 
-
-Zie verder BGT en IMGeo.""" ;
-    mim:toelichting "Naast het bestaande object kan tegelijkertijd ook een geplande geometriewijziging van hetzelfde bestaande object zijn vastgelegd. De plantopografie is dan als apart object opgenomen met een eigen identificatie. Via de geometrische relatie is af te leiden dat het de plantopografie van een bestaand object betreft. Zie verder IMGeo."@nl ;
-    dcterms:identifier "EAID_A637379F_6E1D_47aa_AE75_3E22FE0DC814" ;
-    rdfs:comment "Kunstmatig, meestal lineair obstakel met een werende functie."@nl ;
-    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
-    rdfs:subClassOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/geo-object> .
-
-<https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/geo-object> a mim:Objecttype,
-        owl:Class ;
-    rdfs:label "Geo-Object"@nl ;
-    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/geo-object/datumbegingeldigheid>,
-        <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/geo-object/datumeindegeldigheid>,
-        <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/geo-object/geometriesoort>,
-        <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/geo-object/identificatie> ;
-    mim:definitie "Abstractie van een fenomeen in de werkelijkheid, dat direct of indirect is geassocieerd met een locatie relatief ten opzichte van de aarde. [NEN 3610:2011]"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/geo-object"^^xsd:anyURI ;
-    mim:indicatieAbstractObject false ;
-    mim:naam "Geo-Object"@nl ;
-    mim:toelichting "Bevat een aantal basisgegevens die in alle geo-objecten terugkomen."@nl ;
-    dcterms:identifier "EAID_05B355EF_39EA_4bfb_B1F3_AB31841C986E" ;
-    rdfs:comment "Abstractie van een fenomeen in de werkelijkheid, dat direct of indirect is geassocieerd met een locatie relatief ten opzichte van de aarde. [NEN 3610:2011]"@nl ;
-    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/> .
-
 <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/overigescheiding> a mim:Objecttype,
         owl:Class ;
     rdfs:label "OverigeScheiding"@nl ;
@@ -4880,6 +4862,9 @@ Zie verder BGT en IMGeo.""" ;
         <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/overigescheiding/geometrieoverigescheiding>,
         <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/overigescheiding/identificatieoverigescheiding>,
         <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/overigescheiding/lod0geometrieoverigescheiding>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/overigescheiding/lod1geometrieoverigescheiding>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/overigescheiding/lod2geometrieoverigescheiding>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/overigescheiding/lod3geometrieoverigescheiding>,
         <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/overigescheiding/relatievehoogteliggingoverigescheiding>,
         <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/overigescheiding/statusoverigescheiding>,
         <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/overigescheiding/typeoverigescheiding> ;
@@ -4900,6 +4885,22 @@ Zie verder IMGeo.""" ;
     rdfs:comment "Kunstmatig, meestal lineair obstakel met een werende functie, met kleinere afmetingen dan toegestaan voor opname in de BGT."@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
     rdfs:subClassOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/geo-object> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/geo-object> a mim:Objecttype,
+        owl:Class ;
+    rdfs:label "Geo-Object"@nl ;
+    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/geo-object/datumbegingeldigheid>,
+        <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/geo-object/datumeindegeldigheid>,
+        <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/geo-object/geometriesoort>,
+        <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/geo-object/identificatie> ;
+    mim:definitie "Abstractie van een fenomeen in de werkelijkheid, dat direct of indirect is geassocieerd met een locatie relatief ten opzichte van de aarde. [NEN 3610:2011]"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/geo-object"^^xsd:anyURI ;
+    mim:indicatieAbstractObject false ;
+    mim:naam "Geo-Object"@nl ;
+    mim:toelichting "Bevat een aantal basisgegevens die in alle geo-objecten terugkomen."@nl ;
+    dcterms:identifier "EAID_05B355EF_39EA_4bfb_B1F3_AB31841C986E" ;
+    rdfs:comment "Abstractie van een fenomeen in de werkelijkheid, dat direct of indirect is geassocieerd met een locatie relatief ten opzichte van de aarde. [NEN 3610:2011]"@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/fysiekvoorkomenonbegroeidterrein> a mim:Enumeratie,
         owl:Class,

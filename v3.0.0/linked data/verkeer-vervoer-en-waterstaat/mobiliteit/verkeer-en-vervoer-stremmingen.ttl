@@ -92,6 +92,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "200" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "achternaam"@nl ;
     mim:type mim:CharacterString ;
@@ -153,6 +154,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "0..1" ;
+    mim:lengte "254" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "emailadres"@nl ;
     mim:type mim:CharacterString ;
@@ -195,6 +197,7 @@
     mim:indicatieFormeleHistorie true ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "50" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "functie"@nl ;
     mim:type mim:CharacterString ;
@@ -216,6 +219,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "1" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "geslachtsaanduiding"@nl ;
     mim:type mim:CharacterString ;
@@ -237,6 +241,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "24" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "medewerkerIdentificatie"@nl ;
     mim:type mim:CharacterString ;
@@ -258,6 +263,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "0..1" ;
+    mim:lengte "1000" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "medewerkerToelichting"@nl ;
     mim:type mim:CharacterString ;
@@ -279,6 +285,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "30" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "roepnaam"@nl ;
     mim:type mim:CharacterString ;
@@ -300,6 +307,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "0..1" ;
+    mim:lengte "20" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "telefoonnummer"@nl ;
     mim:type mim:CharacterString ;
@@ -321,6 +329,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "20" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "voorletters"@nl ;
     mim:type mim:CharacterString ;
@@ -343,6 +352,7 @@ gescheiden."""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "0..1" ;
+    mim:lengte "10" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "voorvoegselAchternaam"@nl ;
     mim:type mim:CharacterString ;
@@ -1048,7 +1058,7 @@ uit esthetische overwegingen."""@nl ;
     mim:naam "geometrieWegdeel"@nl ;
     mim:patroon "aanduiding van het type geometrie (Vlak, MultiVlak), gevolgd door coördinatenparen binnen de in Nederland gelegen waarden van het RDstelsel." ;
     mim:toelichting "Het betreft de geometrie2d zoals gedefinieerd in het BGT bij een wegdeel."@nl ;
-    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/surface> ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/gm-surface> ;
     dcterms:identifier "EAID_DC71B3C2_0AAF_471d_A07E_7B8B5886A3C2" ;
     rdfs:comment "De minimaal tweedimensionale geometrische representatie van de omtrekken van een wegdeel."@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/wegdeel> ;
@@ -1102,7 +1112,7 @@ Identificatie is maximaal 25 alfanumerieke tekens lang.Zie voor verdere specific
     mim:naam "kruinlijngeometrieWegdeel"@nl ;
     mim:patroon "aanduiding van het type geometrie (Lijn), gevolgd door coördinatenparen binnen de in Nederland gelegen waarden van het RDstelsel." ;
     mim:toelichting "Het betreft de relatie \"kruinlijn\" zoals gedefinieerd in het BGT bij een ondersteunend wegdeel."@nl ;
-    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/curve> ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/gm-curve> ;
     dcterms:identifier "EAID_6F442520_2884_499f_9B72_DB6F3C5316A9" ;
     rdfs:comment "Lijngeometrie van de hoogstgelegen begrenzing van een kunstmatig aangelegd en onderhouden helling."@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/wegdeel> ;
@@ -1129,7 +1139,7 @@ Identificatie is maximaal 25 alfanumerieke tekens lang.Zie voor verdere specific
     mim:patroon "aanduiding van het type geometrie (Vlak), gevolgd door coördinatenparen binnen de in Nederland gelegen waarden van het RDstelsel." ;
     mim:toelichting """Vlakgeometrie met z coördinaat (2.5D) die als level of detail(LOD)0 geometrie in een Digital Terrain Model (DTM) past.
 Het betreft de relatie " lod0Surface" zoals gedefinieerd in het IMGeo bij een wegdeel."""@nl ;
-    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/surface> ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/gm-surface> ;
     dcterms:identifier "EAID_11438698_6342_4ba6_9160_2D334486D531" ;
     rdfs:comment "De geometrische representatie van een wegdeel als vlak in 2.5D op level of detail 0."@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/wegdeel> ;
@@ -1199,6 +1209,7 @@ Het betreft de relatie " lod0Surface" zoals gedefinieerd in het IMGeo bij een we
     mim:indicatieFormeleHistorie true ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "2" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "relatieveHoogteliggingWegdeel"@nl ;
     mim:patroon "gehele positieve en negatieve getallen, -9 t/m 9" ;
@@ -1597,7 +1608,7 @@ Het betreft de relatie " lod0Surface" zoals gedefinieerd in het IMGeo bij een we
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "locatie"@nl ;
-    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/point> ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/gm-point> ;
     dcterms:identifier "EAID_8530C437_A5E3_49fa_96AA_28CA8E535FFE" ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/mobiliteit/stremming> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/mobiliteit/> ;
@@ -1614,6 +1625,7 @@ Het betreft de relatie " lod0Surface" zoals gedefinieerd in het IMGeo bij een we
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "250" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "naam"@nl ;
     mim:type mim:CharacterString ;

@@ -718,7 +718,7 @@ In het verleden was het gestapelde recht impliciet via de aard zakelijk recht co
     rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/groepattribuutsoort/adresaanduiding> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/afgekochteerfpacht> a mim:Attribuutsoort,
-        owl:ObjectProperty ;
+        owl:DatatypeProperty ;
     rdfs:label "afgekochteErfpacht"@nl ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
@@ -730,11 +730,11 @@ In het verleden was het gestapelde recht impliciet via de aard zakelijk recht co
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "afgekochteErfpacht"@nl ;
-    mim:type <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/boolean> ;
+    mim:type mim:Boolean ;
     dcterms:identifier "EAID_D64A858C_3726_42c3_8663_CFE49FBFF0D9" ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/> ;
-    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/boolean> .
+    rdfs:range xsd:boolean .
 
 <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/afgesprokenconditiescore> a mim:Attribuutsoort,
         owl:ObjectProperty ;
@@ -758,6 +758,7 @@ In het verleden was het gestapelde recht impliciet via de aard zakelijk recht co
 <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/afkoopwaarde> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "afkoopwaarde"@nl ;
+    mim:eenheid [ ] ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/afkoopwaarde"^^xsd:anyURI ;
@@ -766,6 +767,7 @@ In het verleden was het gestapelde recht impliciet via de aard zakelijk recht co
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "10,2" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "afkoopwaarde"@nl ;
     mim:type mim:Decimal ;
@@ -775,7 +777,7 @@ In het verleden was het gestapelde recht impliciet via de aard zakelijk recht co
     rdfs:range xsd:decimal .
 
 <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/asbestrapportageaanwezig> a mim:Attribuutsoort,
-        owl:ObjectProperty ;
+        owl:DatatypeProperty ;
     rdfs:label "asbestrapportageAanwezig"@nl ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
@@ -787,15 +789,16 @@ In het verleden was het gestapelde recht impliciet via de aard zakelijk recht co
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "asbestrapportageAanwezig"@nl ;
-    mim:type <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/boolean> ;
+    mim:type mim:Boolean ;
     dcterms:identifier "EAID_5B5F0462_9CCC_40fc_95CA_20F1A8CFB5C7" ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/> ;
-    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/boolean> .
+    rdfs:range xsd:boolean .
 
 <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/bedragaankoop> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "bedragAankoop"@nl ;
+    mim:eenheid [ ] ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/bedragaankoop"^^xsd:anyURI ;
@@ -804,6 +807,7 @@ In het verleden was het gestapelde recht impliciet via de aard zakelijk recht co
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "10,2" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "bedragAankoop"@nl ;
     mim:type mim:Decimal ;
@@ -823,6 +827,7 @@ In het verleden was het gestapelde recht impliciet via de aard zakelijk recht co
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "200" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "bestemmingsplan"@nl ;
     mim:type mim:CharacterString ;
@@ -834,6 +839,7 @@ In het verleden was het gestapelde recht impliciet via de aard zakelijk recht co
 <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/boekwaarde> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "boekwaarde"@nl ;
+    mim:eenheid [ ] ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/boekwaarde"^^xsd:anyURI ;
@@ -842,6 +848,7 @@ In het verleden was het gestapelde recht impliciet via de aard zakelijk recht co
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "10,2" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "boekwaarde"@nl ;
     mim:type mim:Decimal ;
@@ -880,6 +887,7 @@ In het verleden was het gestapelde recht impliciet via de aard zakelijk recht co
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "80" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "bouwwerk"@nl ;
     mim:type mim:CharacterString ;
@@ -899,6 +907,7 @@ In het verleden was het gestapelde recht impliciet via de aard zakelijk recht co
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "80" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "bovenliggendNiveau"@nl ;
     mim:type mim:CharacterString ;
@@ -918,6 +927,7 @@ In het verleden was het gestapelde recht impliciet via de aard zakelijk recht co
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "20" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "bovenliggendNiveaucode"@nl ;
     mim:type mim:CharacterString ;
@@ -1072,6 +1082,7 @@ In het verleden was het gestapelde recht impliciet via de aard zakelijk recht co
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "80" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "deelportefeuille"@nl ;
     mim:type mim:CharacterString ;
@@ -1084,6 +1095,7 @@ In het verleden was het gestapelde recht impliciet via de aard zakelijk recht co
         owl:DatatypeProperty ;
     rdfs:label "energiekosten"@nl ;
     mim:definitie "Jaarlijkse energiekosten"@nl ;
+    mim:eenheid [ ] ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/energiekosten"^^xsd:anyURI ;
@@ -1092,6 +1104,7 @@ In het verleden was het gestapelde recht impliciet via de aard zakelijk recht co
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "10,2" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "energiekosten"@nl ;
     mim:type mim:Decimal ;
@@ -1144,6 +1157,7 @@ In het verleden was het gestapelde recht impliciet via de aard zakelijk recht co
 <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/fiscalewaarde> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "fiscaleWaarde"@nl ;
+    mim:eenheid [ ] ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/fiscalewaarde"^^xsd:anyURI ;
@@ -1152,6 +1166,7 @@ In het verleden was het gestapelde recht impliciet via de aard zakelijk recht co
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "10,2" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "fiscaleWaarde"@nl ;
     mim:type mim:Decimal ;
@@ -1180,7 +1195,7 @@ In het verleden was het gestapelde recht impliciet via de aard zakelijk recht co
     rdfs:range xsd:base64Binary .
 
 <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/gearchiveerd> a mim:Attribuutsoort,
-        owl:ObjectProperty ;
+        owl:DatatypeProperty ;
     rdfs:label "gearchiveerd"@nl ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
@@ -1192,15 +1207,16 @@ In het verleden was het gestapelde recht impliciet via de aard zakelijk recht co
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "gearchiveerd"@nl ;
-    mim:type <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/boolean> ;
+    mim:type mim:Boolean ;
     dcterms:identifier "EAID_0CC22B7C_CAD3_4494_A244_04986EEADA11" ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/> ;
-    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/boolean> .
+    rdfs:range xsd:boolean .
 
 <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/herbouwwaarde> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "herbouwwaarde"@nl ;
+    mim:eenheid [ ] ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/herbouwwaarde"^^xsd:anyURI ;
@@ -1209,6 +1225,7 @@ In het verleden was het gestapelde recht impliciet via de aard zakelijk recht co
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "10,2" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "herbouwwaarde"@nl ;
     mim:type mim:Decimal ;
@@ -1228,6 +1245,7 @@ In het verleden was het gestapelde recht impliciet via de aard zakelijk recht co
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "80" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "hoofdstuk"@nl ;
     mim:type mim:CharacterString ;
@@ -1247,6 +1265,7 @@ In het verleden was het gestapelde recht impliciet via de aard zakelijk recht co
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "80" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "identificatie"@nl ;
     mim:type mim:CharacterString ;
@@ -1266,6 +1285,7 @@ In het verleden was het gestapelde recht impliciet via de aard zakelijk recht co
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "4" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "jaarLaatsteRenovatie"@nl ;
     mim:type mim:Integer ;
@@ -1285,6 +1305,7 @@ In het verleden was het gestapelde recht impliciet via de aard zakelijk recht co
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "80" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "kostenplaats"@nl ;
     mim:type mim:CharacterString ;
@@ -1306,7 +1327,7 @@ In het verleden was het gestapelde recht impliciet via de aard zakelijk recht co
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "locatie"@nl ;
-    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/punt> ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/gm-point> ;
     dcterms:identifier "EAID_9490FB83_B960_4c74_B22B_38ADAADB67C8" ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/> ;
@@ -1315,6 +1336,7 @@ In het verleden was het gestapelde recht impliciet via de aard zakelijk recht co
 <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/marktwaarde> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "marktwaarde"@nl ;
+    mim:eenheid [ ] ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/marktwaarde"^^xsd:anyURI ;
@@ -1323,6 +1345,7 @@ In het verleden was het gestapelde recht impliciet via de aard zakelijk recht co
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "10,2" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "marktwaarde"@nl ;
     mim:type mim:Decimal ;
@@ -1361,6 +1384,7 @@ In het verleden was het gestapelde recht impliciet via de aard zakelijk recht co
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "80" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "naam"@nl ;
     mim:type mim:CharacterString ;
@@ -1380,6 +1404,7 @@ In het verleden was het gestapelde recht impliciet via de aard zakelijk recht co
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "40" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "objectstatus"@nl ;
     mim:type mim:CharacterString ;
@@ -1399,6 +1424,7 @@ In het verleden was het gestapelde recht impliciet via de aard zakelijk recht co
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "40" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "objectstatuscode"@nl ;
     mim:type mim:CharacterString ;
@@ -1418,6 +1444,7 @@ In het verleden was het gestapelde recht impliciet via de aard zakelijk recht co
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "80" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "objecttype"@nl ;
     mim:type mim:CharacterString ;
@@ -1437,6 +1464,7 @@ In het verleden was het gestapelde recht impliciet via de aard zakelijk recht co
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "40" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "objecttypecode"@nl ;
     mim:type mim:CharacterString ;
@@ -1456,6 +1484,7 @@ In het verleden was het gestapelde recht impliciet via de aard zakelijk recht co
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "80" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "omschrijving"@nl ;
     mim:type mim:CharacterString ;
@@ -1475,6 +1504,7 @@ In het verleden was het gestapelde recht impliciet via de aard zakelijk recht co
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "80" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "onderhoudscategorie"@nl ;
     mim:type mim:CharacterString ;
@@ -1513,6 +1543,7 @@ In het verleden was het gestapelde recht impliciet via de aard zakelijk recht co
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "80" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "portefeuille"@nl ;
     mim:type mim:CharacterString ;
@@ -1532,6 +1563,7 @@ In het verleden was het gestapelde recht impliciet via de aard zakelijk recht co
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "40" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "portefeuillecode"@nl ;
     mim:type mim:CharacterString ;
@@ -1608,6 +1640,7 @@ In het verleden was het gestapelde recht impliciet via de aard zakelijk recht co
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "80" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "verkoopbaarheid"@nl ;
     mim:type mim:CharacterString ;
@@ -1619,6 +1652,7 @@ In het verleden was het gestapelde recht impliciet via de aard zakelijk recht co
 <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/verkoopbedrag> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "verkoopbedrag"@nl ;
+    mim:eenheid [ ] ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/verkoopbedrag"^^xsd:anyURI ;
@@ -1627,6 +1661,7 @@ In het verleden was het gestapelde recht impliciet via de aard zakelijk recht co
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "10,2" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "verkoopbedrag"@nl ;
     mim:type mim:Decimal ;
@@ -1638,6 +1673,7 @@ In het verleden was het gestapelde recht impliciet via de aard zakelijk recht co
 <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/verzekerdewaarde> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "verzekerdeWaarde"@nl ;
+    mim:eenheid [ ] ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/verzekerdewaarde"^^xsd:anyURI ;
@@ -1646,6 +1682,7 @@ In het verleden was het gestapelde recht impliciet via de aard zakelijk recht co
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "10,2" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "verzekerdeWaarde"@nl ;
     mim:type mim:Decimal ;
@@ -1657,6 +1694,7 @@ In het verleden was het gestapelde recht impliciet via de aard zakelijk recht co
 <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/waardegrond> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "waardeGrond"@nl ;
+    mim:eenheid [ ] ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/waardegrond"^^xsd:anyURI ;
@@ -1665,6 +1703,7 @@ In het verleden was het gestapelde recht impliciet via de aard zakelijk recht co
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "10,2" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "waardeGrond"@nl ;
     mim:type mim:Decimal ;
@@ -1676,6 +1715,7 @@ In het verleden was het gestapelde recht impliciet via de aard zakelijk recht co
 <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/waardeopstal> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "waardeOpstal"@nl ;
+    mim:eenheid [ ] ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/waardeopstal"^^xsd:anyURI ;
@@ -1684,6 +1724,7 @@ In het verleden was het gestapelde recht impliciet via de aard zakelijk recht co
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "10,2" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "waardeOpstal"@nl ;
     mim:type mim:Decimal ;
@@ -1695,6 +1736,7 @@ In het verleden was het gestapelde recht impliciet via de aard zakelijk recht co
 <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/wozwaarde> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "WOZWaarde"@nl ;
+    mim:eenheid [ ] ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/vastgoedobject/wozwaarde"^^xsd:anyURI ;
@@ -1703,6 +1745,7 @@ In het verleden was het gestapelde recht impliciet via de aard zakelijk recht co
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "10,2" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "WOZWaarde"@nl ;
     mim:type mim:Decimal ;
@@ -1722,6 +1765,7 @@ In het verleden was het gestapelde recht impliciet via de aard zakelijk recht co
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "350" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "adres"@nl ;
     mim:type mim:CharacterString ;
@@ -1874,6 +1918,7 @@ In het verleden was het gestapelde recht impliciet via de aard zakelijk recht co
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "80" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "identificatie"@nl ;
     mim:type mim:CharacterString ;
@@ -1893,6 +1938,7 @@ In het verleden was het gestapelde recht impliciet via de aard zakelijk recht co
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "80" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "naam"@nl ;
     mim:type mim:CharacterString ;
@@ -1969,6 +2015,7 @@ In het verleden was het gestapelde recht impliciet via de aard zakelijk recht co
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "80" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "type"@nl ;
     mim:type mim:CharacterString ;
@@ -1976,58 +2023,6 @@ In het verleden was het gestapelde recht impliciet via de aard zakelijk recht co
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/verhuurbaar-eenheid> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/> ;
     rdfs:range xsd:string .
-
-<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/boolean/ja> a mim:Enumeratiewaarde,
-        skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/boolean> ;
-    rdfs:label "Ja"@nl ;
-    mim:code "1" ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/boolean/ja"^^xsd:anyURI ;
-    mim:naam "Ja"@nl ;
-    dcterms:identifier "EAID_ED373F5C_75C8_4f9f_B72B_DC069BEFFB72" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/boolean> ;
-    skos:notation "1" ;
-    skos:prefLabel "Ja"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/boolean> .
-
-<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/boolean/leeg> a mim:Enumeratiewaarde,
-        skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/boolean> ;
-    rdfs:label "Leeg"@nl ;
-    mim:code "-2" ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/boolean/leeg"^^xsd:anyURI ;
-    mim:naam "Leeg"@nl ;
-    dcterms:identifier "EAID_15FACEFF_7709_47aa_9827_7C4B604C8D7B" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/boolean> ;
-    skos:notation "-2" ;
-    skos:prefLabel "Leeg"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/boolean> .
-
-<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/boolean/nee> a mim:Enumeratiewaarde,
-        skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/boolean> ;
-    rdfs:label "Nee"@nl ;
-    mim:code "0" ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/boolean/nee"^^xsd:anyURI ;
-    mim:naam "Nee"@nl ;
-    dcterms:identifier "EAID_7ECA54CF_CE58_4610_80BC_B502ED1347A3" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/boolean> ;
-    skos:notation "0" ;
-    skos:prefLabel "Nee"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/boolean> .
-
-<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/boolean/onbekend> a mim:Enumeratiewaarde,
-        skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/boolean> ;
-    rdfs:label "Onbekend"@nl ;
-    mim:code "-1" ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/boolean/onbekend"^^xsd:anyURI ;
-    mim:naam "Onbekend"@nl ;
-    dcterms:identifier "EAID_D11CFFBC_096A_4d6c_99EB_8969CD67687E" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/boolean> ;
-    skos:notation "-1" ;
-    skos:prefLabel "Onbekend"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/boolean> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/kadastraleonroerendezaak/appartementsrechtvolgnummer> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
@@ -2043,6 +2038,7 @@ In het verleden was het gestapelde recht impliciet via de aard zakelijk recht co
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "0..1" ;
+    mim:lengte "4" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "appartementsrechtvolgnummer"@nl ;
     mim:type mim:Integer ;
@@ -2065,7 +2061,7 @@ In het verleden was het gestapelde recht impliciet via de aard zakelijk recht co
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "begrenzing"@nl ;
-    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/surface> ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/gm-surface> ;
     dcterms:identifier "EAID_9C5D09AB_2838_4e13_81CB_A4991283B757" ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/kadastraleonroerendezaak> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
@@ -2151,6 +2147,7 @@ In het verleden was het gestapelde recht impliciet via de aard zakelijk recht co
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "250" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "identificatie"@nl ;
     mim:type mim:CharacterString ;
@@ -2175,6 +2172,7 @@ ONROERENDE ZAAK gelegen is."""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "20" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "kadastraleGemeente"@nl ;
     mim:type mim:CharacterString ;
@@ -2199,6 +2197,7 @@ ONROERENDE ZAAK gelegen is."""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "20" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "kadastraleGemeentecode"@nl ;
     mim:type mim:CharacterString ;
@@ -2230,6 +2229,7 @@ ONROERENDE ZAAK gelegen is."""@nl ;
 <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/kadastraleonroerendezaak/koopsom> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "koopsom"@nl ;
+    mim:eenheid [ ] ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/kadastraleonroerendezaak/koopsom"^^xsd:anyURI ;
@@ -2238,6 +2238,7 @@ ONROERENDE ZAAK gelegen is."""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "10,2" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "koopsom"@nl ;
     mim:type mim:Decimal ;
@@ -2250,6 +2251,7 @@ ONROERENDE ZAAK gelegen is."""@nl ;
         owl:DatatypeProperty ;
     rdfs:label "landInrichtingRenteBedrag"@nl ;
     mim:definitie "Het bedrag waarmee de Onroerende zaak is belast in het kader van de landinrichtingswet."@nl ;
+    mim:eenheid [ ] ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:herkomst "BRK" ;
@@ -2260,6 +2262,7 @@ ONROERENDE ZAAK gelegen is."""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "0..1" ;
+    mim:lengte "10,2" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "landInrichtingRenteBedrag"@nl ;
     mim:patroon "Bedrag is uitgedruk in euro's" ;
@@ -2304,7 +2307,7 @@ ONROERENDE ZAAK gelegen is."""@nl ;
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "ligging"@nl ;
-    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/point> ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/gm-point> ;
     dcterms:identifier "EAID_8DFA2FA3_E6A2_4763_86DE_8174533594F2" ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/kadastraleonroerendezaak> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
@@ -2321,6 +2324,7 @@ ONROERENDE ZAAK gelegen is."""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "1000" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "locatieOmschrijving"@nl ;
     mim:type mim:CharacterString ;
@@ -2362,6 +2366,7 @@ ONROERENDE ZAAK gelegen is."""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "5" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "perceelnummer"@nl ;
     mim:type mim:Integer ;
@@ -2385,6 +2390,7 @@ ONROERENDE ZAAK gelegen is."""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "2" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "sectie"@nl ;
     mim:type mim:CharacterString ;
@@ -2425,6 +2431,7 @@ ONROERENDE ZAAK gelegen is."""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "0..1" ;
+    mim:lengte "149" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "adresBuitenland"@nl ;
     mim:type mim:CharacterString ;
@@ -2446,6 +2453,7 @@ ONROERENDE ZAAK gelegen is."""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "100" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "adresCorrespondentie"@nl ;
     mim:type mim:CharacterString ;
@@ -2467,6 +2475,7 @@ ONROERENDE ZAAK gelegen is."""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "0..1" ;
+    mim:lengte "80" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "emailadres"@nl ;
     mim:type mim:CharacterString ;
@@ -2488,6 +2497,7 @@ ONROERENDE ZAAK gelegen is."""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "0..1" ;
+    mim:lengte "20" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "faxnummer"@nl ;
     mim:type mim:CharacterString ;
@@ -2509,6 +2519,7 @@ ONROERENDE ZAAK gelegen is."""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "17" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "identificatie"@nl ;
     mim:type mim:CharacterString ;
@@ -2529,6 +2540,7 @@ ONROERENDE ZAAK gelegen is."""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "20" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "KVKnummer"@nl ;
     mim:type mim:CharacterString ;
@@ -2549,6 +2561,7 @@ ONROERENDE ZAAK gelegen is."""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "200" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "naam"@nl ;
     mim:type mim:CharacterString ;
@@ -2570,6 +2583,7 @@ ONROERENDE ZAAK gelegen is."""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "100" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "rechtsvorm"@nl ;
     mim:type mim:CharacterString ;
@@ -2583,6 +2597,7 @@ ONROERENDE ZAAK gelegen is."""@nl ;
         owl:DatatypeProperty ;
     rdfs:label "rekeningnummer"@nl ;
     mim:definitie "Het nummer van een Nederlandse bank/girorekening, zoals dat door een bankinstelling als identificator aan een overeenkomst tussen de bank en een of meer subjecten wordt toegekend, op basis waarvan het SUBJECT in de regel financieel communiceert."@nl ;
+    mim:formeelPatroon "^[A-Z]{2}[0-9]{2}[A-Z0-9]{1,30}$" ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/rechtspersoon/rekeningnummer"^^xsd:anyURI ;
@@ -2591,6 +2606,7 @@ ONROERENDE ZAAK gelegen is."""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "0..1" ;
+    mim:lengte "34" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "rekeningnummer"@nl ;
     mim:type mim:CharacterString ;
@@ -2612,6 +2628,7 @@ ONROERENDE ZAAK gelegen is."""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "0..1" ;
+    mim:lengte "20" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "telefoonnummer"@nl ;
     mim:type mim:CharacterString ;
@@ -2695,7 +2712,7 @@ ONROERENDE ZAAK gelegen is."""@nl ;
     rdfs:range xsd:date .
 
 <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/zakelijkrecht/identificatiezakelijkrecht> a mim:Attribuutsoort,
-        owl:ObjectProperty ;
+        owl:DatatypeProperty ;
     rdfs:label "identificatieZakelijkRecht"@nl ;
     mim:datumOpname "2007-04-09"^^xsd:date ;
     mim:definitie "Een door het Kadaster toegekende landelijk uniek nummer aan een recht."@nl ;
@@ -2713,12 +2730,12 @@ ONROERENDE ZAAK gelegen is."""@nl ;
     mim:naam "identificatieZakelijkRecht"@nl ;
     mim:patroon """Namespace is NL.KARIM.ZakelijkRecht
 LokaalId is unieke identifciatie binnen de kadastrale registratie""" ;
-    mim:type <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/complex-datatype/compositeid> ;
+    mim:type mim:CharacterString ;
     dcterms:identifier "EAID_24A5065B_8919_42d8_90E5_0B9E0310B051" ;
     rdfs:comment "Een door het Kadaster toegekende landelijk uniek nummer aan een recht."@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/zakelijkrecht> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
-    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/complex-datatype/compositeid> .
+    rdfs:range xsd:string .
 
 <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/zakelijkrecht/toelichtingbewaarder> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
@@ -2732,6 +2749,7 @@ LokaalId is unieke identifciatie binnen de kadastrale registratie""" ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "100" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "toelichtingBewaarder"@nl ;
     mim:type mim:CharacterString ;
@@ -2817,20 +2835,6 @@ LokaalId is unieke identifciatie binnen de kadastrale registratie""" ;
     dcterms:identifier "EAID_98A7AE65_A061_449a_94CD_6218069CA86A" ;
     rdfs:comment "Een Verhuurbare Eenheid (VHE) is een eenheid die individueel verhuurbaar is. Verhuurbaar komt voort uit 'exploitatie'"@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/> .
-
-<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/boolean> a mim:Enumeratie,
-        owl:Class,
-        skos:ConceptScheme ;
-    rdfs:label "Boolean"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/boolean"^^xsd:anyURI ;
-    mim:naam "Boolean"@nl ;
-    mim:waarde <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/boolean/ja>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/boolean/leeg>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/boolean/nee>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/boolean/onbekend> ;
-    dcterms:identifier "EAID_9BD0FBCB_1A9E_4cab_9280_0EBC428E38F7" ;
-    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/> ;
-    rdfs:subClassOf skos:Concept .
 
 <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/nen2767-conditiescore> a mim:Enumeratie,
         owl:Class,

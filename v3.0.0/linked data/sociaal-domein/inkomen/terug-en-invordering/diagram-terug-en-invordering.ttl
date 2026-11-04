@@ -995,6 +995,7 @@
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/betaalcomponent/bedrag> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "Bedrag"@nl ;
+    mim:eenheid [ ] ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/betaalcomponent/bedrag"^^xsd:anyURI ;
@@ -1003,6 +1004,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "10,2" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "Bedrag"@nl ;
     mim:type mim:Decimal ;
@@ -1014,6 +1016,7 @@
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/betaalcomponent/boekingsdatum> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "Boekingsdatum"@nl ;
+    mim:eenheid [ ] ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/betaalcomponent/boekingsdatum"^^xsd:anyURI ;
@@ -1022,6 +1025,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "10,2" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "Boekingsdatum"@nl ;
     mim:type mim:Decimal ;
@@ -1071,6 +1075,7 @@
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/correctie/bedrag> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "Bedrag"@nl ;
+    mim:eenheid [ ] ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/correctie/bedrag"^^xsd:anyURI ;
@@ -1079,6 +1084,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "10,2" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "Bedrag"@nl ;
     mim:type mim:Decimal ;
@@ -1090,6 +1096,7 @@
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/correctie/boekingsdatum> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "Boekingsdatum"@nl ;
+    mim:eenheid [ ] ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/correctie/boekingsdatum"^^xsd:anyURI ;
@@ -1098,6 +1105,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "10,2" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "Boekingsdatum"@nl ;
     mim:type mim:Decimal ;
@@ -1807,28 +1815,6 @@
     skos:prefLabel "Nader te bepalen"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/datatypes/defaultenumeratie> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/datatypes/defaultenumeratie/nader-te-bepalen-2> a mim:Enumeratiewaarde,
-        skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/datatypes/defaultenumeratie> ;
-    rdfs:label "Nader te bepalen"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/datatypes/defaultenumeratie/nader-te-bepalen-2"^^xsd:anyURI ;
-    mim:naam "Nader te bepalen"@nl ;
-    dcterms:identifier "EAID_syn_8d12f1a6f576f901b66bdb0cbb2ea21fe958bc16" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/datatypes/defaultenumeratie> ;
-    skos:prefLabel "Nader te bepalen"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/datatypes/defaultenumeratie> .
-
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/datatypes/defaultenumeratie/nader-te-bepalen-3> a mim:Enumeratiewaarde,
-        skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/datatypes/defaultenumeratie> ;
-    rdfs:label "Nader te bepalen"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/datatypes/defaultenumeratie/nader-te-bepalen-3"^^xsd:anyURI ;
-    mim:naam "Nader te bepalen"@nl ;
-    dcterms:identifier "EAID_syn_d0d1f4a25ee7531fcdba75b9b2918448c7b96eae" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/datatypes/defaultenumeratie> ;
-    skos:prefLabel "Nader te bepalen"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/datatypes/defaultenumeratie> .
-
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/datatypes/regeling/bw> a mim:Enumeratiewaarde,
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/datatypes/regeling> ;
@@ -2253,62 +2239,7 @@
     rdfs:label "Verwijtbare vordering Ioaw"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/datatypes/subcategorievordering/verwijtbare-vordering-ioaw"^^xsd:anyURI ;
     mim:naam "Verwijtbare vordering Ioaw"@nl ;
-    dcterms:identifier "EAID_syn_02e61dfd26afb95a359273160c9e49e908d8e084" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/datatypes/subcategorievordering> ;
-    skos:prefLabel "Verwijtbare vordering Ioaw"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/datatypes/subcategorievordering> .
-
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/datatypes/subcategorievordering/verwijtbare-vordering-ioaw-2> a mim:Enumeratiewaarde,
-        skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/datatypes/subcategorievordering> ;
-    rdfs:label "Verwijtbare vordering Ioaw"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/datatypes/subcategorievordering/verwijtbare-vordering-ioaw-2"^^xsd:anyURI ;
-    mim:naam "Verwijtbare vordering Ioaw"@nl ;
     dcterms:identifier "EAID_syn_395c71f87d63d6f0f40244030f4793fc13d5a647" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/datatypes/subcategorievordering> ;
-    skos:prefLabel "Verwijtbare vordering Ioaw"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/datatypes/subcategorievordering> .
-
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/datatypes/subcategorievordering/verwijtbare-vordering-ioaw-3> a mim:Enumeratiewaarde,
-        skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/datatypes/subcategorievordering> ;
-    rdfs:label "Verwijtbare vordering Ioaw"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/datatypes/subcategorievordering/verwijtbare-vordering-ioaw-3"^^xsd:anyURI ;
-    mim:naam "Verwijtbare vordering Ioaw"@nl ;
-    dcterms:identifier "EAID_syn_8ed1cb3e5e56799e866913c884609b935f9ac53f" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/datatypes/subcategorievordering> ;
-    skos:prefLabel "Verwijtbare vordering Ioaw"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/datatypes/subcategorievordering> .
-
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/datatypes/subcategorievordering/verwijtbare-vordering-ioaw-4> a mim:Enumeratiewaarde,
-        skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/datatypes/subcategorievordering> ;
-    rdfs:label "Verwijtbare vordering Ioaw"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/datatypes/subcategorievordering/verwijtbare-vordering-ioaw-4"^^xsd:anyURI ;
-    mim:naam "Verwijtbare vordering Ioaw"@nl ;
-    dcterms:identifier "EAID_syn_a6db952d4f13fb5fc35b25a7642e34d86b51b84a" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/datatypes/subcategorievordering> ;
-    skos:prefLabel "Verwijtbare vordering Ioaw"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/datatypes/subcategorievordering> .
-
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/datatypes/subcategorievordering/verwijtbare-vordering-ioaw-5> a mim:Enumeratiewaarde,
-        skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/datatypes/subcategorievordering> ;
-    rdfs:label "Verwijtbare vordering Ioaw"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/datatypes/subcategorievordering/verwijtbare-vordering-ioaw-5"^^xsd:anyURI ;
-    mim:naam "Verwijtbare vordering Ioaw"@nl ;
-    dcterms:identifier "EAID_syn_cfebaa1f3dc472fd48956790262527e2ed551824" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/datatypes/subcategorievordering> ;
-    skos:prefLabel "Verwijtbare vordering Ioaw"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/datatypes/subcategorievordering> .
-
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/datatypes/subcategorievordering/verwijtbare-vordering-ioaw-6> a mim:Enumeratiewaarde,
-        skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/datatypes/subcategorievordering> ;
-    rdfs:label "Verwijtbare vordering Ioaw"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/datatypes/subcategorievordering/verwijtbare-vordering-ioaw-6"^^xsd:anyURI ;
-    mim:naam "Verwijtbare vordering Ioaw"@nl ;
-    dcterms:identifier "EAID_syn_ec149243b8efa5e777f9d64167be29a7b08c3315" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/datatypes/subcategorievordering> ;
     skos:prefLabel "Verwijtbare vordering Ioaw"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/datatypes/subcategorievordering> .
@@ -2319,62 +2250,7 @@
     rdfs:label "Verwijtbare vordering Ioaz"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/datatypes/subcategorievordering/verwijtbare-vordering-ioaz"^^xsd:anyURI ;
     mim:naam "Verwijtbare vordering Ioaz"@nl ;
-    dcterms:identifier "EAID_syn_2965347fac1c832f33cde26585c0a36599acedda" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/datatypes/subcategorievordering> ;
-    skos:prefLabel "Verwijtbare vordering Ioaz"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/datatypes/subcategorievordering> .
-
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/datatypes/subcategorievordering/verwijtbare-vordering-ioaz-2> a mim:Enumeratiewaarde,
-        skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/datatypes/subcategorievordering> ;
-    rdfs:label "Verwijtbare vordering Ioaz"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/datatypes/subcategorievordering/verwijtbare-vordering-ioaz-2"^^xsd:anyURI ;
-    mim:naam "Verwijtbare vordering Ioaz"@nl ;
-    dcterms:identifier "EAID_syn_37572c4dde5806a364058b2fb18a9b9a1ebcf4c6" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/datatypes/subcategorievordering> ;
-    skos:prefLabel "Verwijtbare vordering Ioaz"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/datatypes/subcategorievordering> .
-
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/datatypes/subcategorievordering/verwijtbare-vordering-ioaz-3> a mim:Enumeratiewaarde,
-        skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/datatypes/subcategorievordering> ;
-    rdfs:label "Verwijtbare vordering Ioaz"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/datatypes/subcategorievordering/verwijtbare-vordering-ioaz-3"^^xsd:anyURI ;
-    mim:naam "Verwijtbare vordering Ioaz"@nl ;
     dcterms:identifier "EAID_syn_41499ef14e990bfff2c34d3b04f35fb11b356644" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/datatypes/subcategorievordering> ;
-    skos:prefLabel "Verwijtbare vordering Ioaz"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/datatypes/subcategorievordering> .
-
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/datatypes/subcategorievordering/verwijtbare-vordering-ioaz-4> a mim:Enumeratiewaarde,
-        skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/datatypes/subcategorievordering> ;
-    rdfs:label "Verwijtbare vordering Ioaz"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/datatypes/subcategorievordering/verwijtbare-vordering-ioaz-4"^^xsd:anyURI ;
-    mim:naam "Verwijtbare vordering Ioaz"@nl ;
-    dcterms:identifier "EAID_syn_5ee4cfb6e0f1ec1f7eedf39bf11b16e225be7e3e" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/datatypes/subcategorievordering> ;
-    skos:prefLabel "Verwijtbare vordering Ioaz"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/datatypes/subcategorievordering> .
-
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/datatypes/subcategorievordering/verwijtbare-vordering-ioaz-5> a mim:Enumeratiewaarde,
-        skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/datatypes/subcategorievordering> ;
-    rdfs:label "Verwijtbare vordering Ioaz"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/datatypes/subcategorievordering/verwijtbare-vordering-ioaz-5"^^xsd:anyURI ;
-    mim:naam "Verwijtbare vordering Ioaz"@nl ;
-    dcterms:identifier "EAID_syn_8d59b74ba5fc9122b996ac0d97c4a4cc41be097f" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/datatypes/subcategorievordering> ;
-    skos:prefLabel "Verwijtbare vordering Ioaz"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/datatypes/subcategorievordering> .
-
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/datatypes/subcategorievordering/verwijtbare-vordering-ioaz-6> a mim:Enumeratiewaarde,
-        skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/datatypes/subcategorievordering> ;
-    rdfs:label "Verwijtbare vordering Ioaz"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/datatypes/subcategorievordering/verwijtbare-vordering-ioaz-6"^^xsd:anyURI ;
-    mim:naam "Verwijtbare vordering Ioaz"@nl ;
-    dcterms:identifier "EAID_syn_e86b762f1b50e6349ee026404ba5272452253f4a" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/datatypes/subcategorievordering> ;
     skos:prefLabel "Verwijtbare vordering Ioaz"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/datatypes/subcategorievordering> .
@@ -2647,6 +2523,7 @@
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/invorderingsbasis/aflossingscapaciteit> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "Aflossingscapaciteit"@nl ;
+    mim:eenheid [ ] ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/invorderingsbasis/aflossingscapaciteit"^^xsd:anyURI ;
@@ -2655,6 +2532,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "10,2" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "Aflossingscapaciteit"@nl ;
     mim:type mim:Decimal ;
@@ -2666,6 +2544,7 @@
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/invorderingsbasis/beslagvrije-voet> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "Beslagvrije voet"@nl ;
+    mim:eenheid [ ] ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/invorderingsbasis/beslagvrije-voet"^^xsd:anyURI ;
@@ -2674,6 +2553,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "10,2" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "Beslagvrije voet"@nl ;
     mim:type mim:Decimal ;
@@ -2723,6 +2603,7 @@
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/invorderingsbasis/vaststeldatum-aflossingscapaciteit> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "Vaststeldatum aflossingscapaciteit"@nl ;
+    mim:eenheid [ ] ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/invorderingsbasis/vaststeldatum-aflossingscapaciteit"^^xsd:anyURI ;
@@ -2731,6 +2612,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "10,2" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "Vaststeldatum aflossingscapaciteit"@nl ;
     mim:type mim:Decimal ;
@@ -2742,6 +2624,7 @@
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/invorderingsbasis/vaststeldatum-beslagvrije-voet> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "Vaststeldatum beslagvrije voet"@nl ;
+    mim:eenheid [ ] ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/invorderingsbasis/vaststeldatum-beslagvrije-voet"^^xsd:anyURI ;
@@ -2750,6 +2633,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "10,2" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "Vaststeldatum beslagvrije voet"@nl ;
     mim:type mim:Decimal ;
@@ -2761,6 +2645,7 @@
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/invorderingsbasis/vaststeldatum-invorderingsmogelijkheid> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "Vaststeldatum invorderingsmogelijkheid"@nl ;
+    mim:eenheid [ ] ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/invorderingsbasis/vaststeldatum-invorderingsmogelijkheid"^^xsd:anyURI ;
@@ -2769,6 +2654,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "10,2" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "Vaststeldatum invorderingsmogelijkheid"@nl ;
     mim:type mim:Decimal ;
@@ -2780,6 +2666,7 @@
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/krediethypotheek/bedrag> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "Bedrag"@nl ;
+    mim:eenheid [ ] ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/krediethypotheek/bedrag"^^xsd:anyURI ;
@@ -2788,6 +2675,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "10,2" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "Bedrag"@nl ;
     mim:type mim:Decimal ;
@@ -2799,6 +2687,7 @@
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/krediethypotheek/vestigingsdatum> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "Vestigingsdatum"@nl ;
+    mim:eenheid [ ] ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/krediethypotheek/vestigingsdatum"^^xsd:anyURI ;
@@ -2807,6 +2696,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "10,2" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "Vestigingsdatum"@nl ;
     mim:type mim:Decimal ;
@@ -2818,6 +2708,7 @@
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/kwijtschelding/bedrag> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "Bedrag"@nl ;
+    mim:eenheid [ ] ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/kwijtschelding/bedrag"^^xsd:anyURI ;
@@ -2826,6 +2717,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "10,2" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "Bedrag"@nl ;
     mim:type mim:Decimal ;
@@ -2837,6 +2729,7 @@
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/kwijtschelding/boekingsdatum> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "Boekingsdatum"@nl ;
+    mim:eenheid [ ] ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/kwijtschelding/boekingsdatum"^^xsd:anyURI ;
@@ -2845,6 +2738,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "10,2" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "Boekingsdatum"@nl ;
     mim:type mim:Decimal ;
@@ -2856,6 +2750,7 @@
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/kwijtschelding/reden> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "Reden"@nl ;
+    mim:eenheid [ ] ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/kwijtschelding/reden"^^xsd:anyURI ;
@@ -2864,6 +2759,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "10,2" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "Reden"@nl ;
     mim:type mim:Decimal ;
@@ -3008,6 +2904,7 @@
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/restitutie/bedrag> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "Bedrag"@nl ;
+    mim:eenheid [ ] ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/restitutie/bedrag"^^xsd:anyURI ;
@@ -3016,6 +2913,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "10,2" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "Bedrag"@nl ;
     mim:type mim:Decimal ;
@@ -3027,6 +2925,7 @@
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/restitutie/betaaldatum> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "Betaaldatum"@nl ;
+    mim:eenheid [ ] ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/restitutie/betaaldatum"^^xsd:anyURI ;
@@ -3035,6 +2934,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "10,2" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "Betaaldatum"@nl ;
     mim:type mim:Decimal ;
@@ -3046,6 +2946,7 @@
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/restitutie/boekingsdatum> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "Boekingsdatum"@nl ;
+    mim:eenheid [ ] ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/restitutie/boekingsdatum"^^xsd:anyURI ;
@@ -3054,6 +2955,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "10,2" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "Boekingsdatum"@nl ;
     mim:type mim:Decimal ;
@@ -3312,6 +3214,7 @@
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/vermindering-terugvordering/bedrag> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "Bedrag"@nl ;
+    mim:eenheid [ ] ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/vermindering-terugvordering/bedrag"^^xsd:anyURI ;
@@ -3320,6 +3223,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "10,2" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "Bedrag"@nl ;
     mim:type mim:Decimal ;
@@ -3331,6 +3235,7 @@
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/vermindering-terugvordering/boekingsdatum> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "Boekingsdatum"@nl ;
+    mim:eenheid [ ] ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/vermindering-terugvordering/boekingsdatum"^^xsd:anyURI ;
@@ -3339,6 +3244,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "10,2" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "Boekingsdatum"@nl ;
     mim:type mim:Decimal ;
@@ -3350,6 +3256,7 @@
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/vermindering-terugvordering/motivatie-vermindering> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "Motivatie vermindering"@nl ;
+    mim:eenheid [ ] ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/vermindering-terugvordering/motivatie-vermindering"^^xsd:anyURI ;
@@ -3358,6 +3265,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "10,2" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "Motivatie vermindering"@nl ;
     mim:type mim:Decimal ;
@@ -3369,6 +3277,7 @@
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/vermindering-terugvordering/vaststeldatum> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "Vaststeldatum"@nl ;
+    mim:eenheid [ ] ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/vermindering-terugvordering/vaststeldatum"^^xsd:anyURI ;
@@ -3377,6 +3286,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "10,2" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "Vaststeldatum"@nl ;
     mim:type mim:Decimal ;
@@ -3388,6 +3298,7 @@
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/vermindering-terugvordering/verminderingtype> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "Verminderingtype"@nl ;
+    mim:eenheid [ ] ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/vermindering-terugvordering/verminderingtype"^^xsd:anyURI ;
@@ -3396,6 +3307,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "10,2" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "Verminderingtype"@nl ;
     mim:type mim:Decimal ;
@@ -3814,6 +3726,17 @@
     rdfs:comment "Na nader inzicht corrigeren van het te vorderen bedrag met een zeker bedrag. Correcties worden geadministreerd onder de vordering."@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/> .
 
+<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/datatypes/defaultenumeratie> a mim:Enumeratie,
+        owl:Class,
+        skos:ConceptScheme ;
+    rdfs:label "DefaultEnumeratie"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/datatypes/defaultenumeratie"^^xsd:anyURI ;
+    mim:naam "DefaultEnumeratie"@nl ;
+    mim:waarde <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/datatypes/defaultenumeratie/nader-te-bepalen> ;
+    dcterms:identifier "EAID_1DD00AE6_E42A_D26A_2D48_279DAD311BD9" ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/datatypes/> ;
+    rdfs:subClassOf skos:Concept .
+
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/interventie> a mim:Objecttype,
         owl:Class ;
     rdfs:label "Interventie"@nl ;
@@ -3994,19 +3917,6 @@
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/datatypes/codesoortdebiteur/meeprofiterende-partner>,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/datatypes/codesoortdebiteur/zuivere-mededebiteur> ;
     dcterms:identifier "EAID_0BEAB053_61CB_4D0C_F2D5_284A4BD0FAD6" ;
-    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/datatypes/> ;
-    rdfs:subClassOf skos:Concept .
-
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/datatypes/defaultenumeratie> a mim:Enumeratie,
-        owl:Class,
-        skos:ConceptScheme ;
-    rdfs:label "DefaultEnumeratie"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/datatypes/defaultenumeratie"^^xsd:anyURI ;
-    mim:naam "DefaultEnumeratie"@nl ;
-    mim:waarde <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/datatypes/defaultenumeratie/nader-te-bepalen>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/datatypes/defaultenumeratie/nader-te-bepalen-2>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/datatypes/defaultenumeratie/nader-te-bepalen-3> ;
-    dcterms:identifier "EAID_1DD00AE6_E42A_D26A_2D48_279DAD311BD9" ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/datatypes/> ;
     rdfs:subClassOf skos:Concept .
 
@@ -4300,17 +4210,7 @@
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/datatypes/subcategorievordering/verwijtbare-vordering-bijzonder-bijstand-vermogen>,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/datatypes/subcategorievordering/verwijtbare-vordering-bijzonder-bijstand-witte-inkomsten>,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/datatypes/subcategorievordering/verwijtbare-vordering-ioaw>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/datatypes/subcategorievordering/verwijtbare-vordering-ioaw-2>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/datatypes/subcategorievordering/verwijtbare-vordering-ioaw-3>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/datatypes/subcategorievordering/verwijtbare-vordering-ioaw-4>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/datatypes/subcategorievordering/verwijtbare-vordering-ioaw-5>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/datatypes/subcategorievordering/verwijtbare-vordering-ioaw-6>,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/datatypes/subcategorievordering/verwijtbare-vordering-ioaz>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/datatypes/subcategorievordering/verwijtbare-vordering-ioaz-2>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/datatypes/subcategorievordering/verwijtbare-vordering-ioaz-3>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/datatypes/subcategorievordering/verwijtbare-vordering-ioaz-4>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/datatypes/subcategorievordering/verwijtbare-vordering-ioaz-5>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/datatypes/subcategorievordering/verwijtbare-vordering-ioaz-6>,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/datatypes/subcategorievordering/verwijtbare-vordering-onjuiste-opgave-woonadres>,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/datatypes/subcategorievordering/verwijtbare-vordering-overig>,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/terug-en-invordering/datatypes/subcategorievordering/verwijtbare-vordering-samenstelling-huishouden>,

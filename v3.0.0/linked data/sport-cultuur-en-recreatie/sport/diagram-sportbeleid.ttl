@@ -30,27 +30,6 @@
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/> ;
     rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/sport/sportlocatie> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/sport/binnenlocatie/adres> a mim:Relatiesoort,
-        owl:ObjectProperty ;
-    rdfs:label "adres"@nl ;
-    mim:aggregatietype mim:Geen ;
-    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/sport/binnenlocatie> ;
-    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/adresaanduiding> ;
-    mim:heeftTijdlijnGeldigheid false ;
-    mim:heeftTijdlijnRegistratie false ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/sport/binnenlocatie/adres"^^xsd:anyURI ;
-    mim:indicatieAfleidbaar false ;
-    mim:indicatieFormeleHistorie false ;
-    mim:indicatieMaterieleHistorie false ;
-    mim:kardinaliteit "1..1" ;
-    mim:mogelijkGeenWaarde true ;
-    mim:naam "adres"@nl ;
-    mim:unidirectioneel true ;
-    dcterms:identifier "EAID_4CCF52E7_69EE_436b_BE2B_A9248BA85758" ;
-    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/sport/binnenlocatie> ;
-    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/sport/> ;
-    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/adresaanduiding> .
-
 <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/sport/binnenlocatie/heeft-belijning> a mim:Relatiesoort,
         owl:ObjectProperty ;
     rdfs:label "heeft"@nl ;
@@ -116,27 +95,6 @@
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/sport/sportpark> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/sport/> ;
     rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/sport/veld> .
-
-<https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/sport/sportvereniging/adres> a mim:Relatiesoort,
-        owl:ObjectProperty ;
-    rdfs:label "adres"@nl ;
-    mim:aggregatietype mim:Geen ;
-    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/sport/sportvereniging> ;
-    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/adresaanduiding> ;
-    mim:heeftTijdlijnGeldigheid false ;
-    mim:heeftTijdlijnRegistratie false ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/sport/sportvereniging/adres"^^xsd:anyURI ;
-    mim:indicatieAfleidbaar false ;
-    mim:indicatieFormeleHistorie false ;
-    mim:indicatieMaterieleHistorie false ;
-    mim:kardinaliteit "1..1" ;
-    mim:mogelijkGeenWaarde true ;
-    mim:naam "adres"@nl ;
-    mim:unidirectioneel true ;
-    dcterms:identifier "EAID_F90E4FB8_E5F3_4b28_88DD_A65409DBDA65" ;
-    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/sport/sportvereniging> ;
-    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/sport/> ;
-    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/adresaanduiding> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/sport/sportvereniging/gebruikt> a mim:Relatiesoort,
         owl:ObjectProperty ;
@@ -595,6 +553,7 @@ kapitaalvennootschap zijn binnen of buiten de E.E.R."""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "0..1" ;
+    mim:lengte "20" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "faxnummer"@nl ;
     mim:type mim:CharacterString ;
@@ -654,6 +613,7 @@ kapitaalvennootschap zijn binnen of buiten de E.E.R."""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "0..1" ;
+    mim:lengte "8" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "KVKnummer"@nl ;
     mim:type mim:CharacterString ;
@@ -675,6 +635,7 @@ kapitaalvennootschap zijn binnen of buiten de E.E.R."""@nl ;
     mim:indicatieFormeleHistorie true ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "9" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "NNPID"@nl ;
     mim:type mim:Integer ;
@@ -716,6 +677,7 @@ kapitaalvennootschap zijn binnen of buiten de E.E.R."""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "8" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "RSINNummer"@nl ;
     mim:type mim:CharacterString ;
@@ -736,6 +698,7 @@ kapitaalvennootschap zijn binnen of buiten de E.E.R."""@nl ;
     mim:indicatieFormeleHistorie true ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "500" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "statutaireNaam"@nl ;
     mim:type mim:CharacterString ;
@@ -757,6 +720,7 @@ kapitaalvennootschap zijn binnen of buiten de E.E.R."""@nl ;
     mim:indicatieFormeleHistorie true ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "0..1" ;
+    mim:lengte "40" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "statutaireZetel"@nl ;
     mim:type mim:CharacterString ;
@@ -778,6 +742,7 @@ kapitaalvennootschap zijn binnen of buiten de E.E.R."""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "0..1" ;
+    mim:lengte "200" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "websiteURL"@nl ;
     mim:type mim:CharacterString ;
@@ -798,6 +763,7 @@ kapitaalvennootschap zijn binnen of buiten de E.E.R."""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "200" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "naam"@nl ;
     mim:type mim:CharacterString ;
@@ -848,6 +814,7 @@ kapitaalvennootschap zijn binnen of buiten de E.E.R."""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "200" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "naam"@nl ;
     mim:type mim:CharacterString ;
@@ -855,6 +822,18 @@ kapitaalvennootschap zijn binnen of buiten de E.E.R."""@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/sport/belijning> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/sport/> ;
     rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/sport/binnenlocatie/adres> a mim:Gegevensgroep,
+        owl:ObjectProperty ;
+    rdfs:label "adres"@nl ;
+    mim:gegevensgroeptype <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/groepattribuutsoort/adresaanduiding> ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/sport/binnenlocatie/adres"^^xsd:anyURI ;
+    mim:kardinaliteit "1..1" ;
+    mim:naam "adres"@nl ;
+    dcterms:identifier "EAID_4CCF52E7_69EE_436b_BE2B_A9248BA85758" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/sport/binnenlocatie> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/sport/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/groepattribuutsoort/adresaanduiding> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/sport/binnenlocatie/bouwjaar> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
@@ -867,6 +846,7 @@ kapitaalvennootschap zijn binnen of buiten de E.E.R."""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "4" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "bouwjaar"@nl ;
     mim:type mim:Integer ;
@@ -897,6 +877,7 @@ kapitaalvennootschap zijn binnen of buiten de E.E.R."""@nl ;
 <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/sport/binnenlocatie/geschattekostenperjaar> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "geschatteKostenPerJaar"@nl ;
+    mim:eenheid [ ] ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/sport/binnenlocatie/geschattekostenperjaar"^^xsd:anyURI ;
@@ -905,6 +886,7 @@ kapitaalvennootschap zijn binnen of buiten de E.E.R."""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "10,2" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "geschatteKostenPerJaar"@nl ;
     mim:type mim:Decimal ;
@@ -946,12 +928,12 @@ kapitaalvennootschap zijn binnen of buiten de E.E.R."""@nl ;
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "klokurenOnderwijs"@nl ;
-    mim:type mim:Real ;
+    mim:type mim:Decimal ;
     dcterms:identifier "EAID_3A1FC714_21E8_4595_A47E_7DA39712E338" ;
     rdfs:comment "Aantal klokuren per week"@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/sport/binnenlocatie> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/sport/> ;
-    rdfs:range xsd:double .
+    rdfs:range xsd:decimal .
 
 <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/sport/binnenlocatie/klokurenverenigingen> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
@@ -967,12 +949,12 @@ kapitaalvennootschap zijn binnen of buiten de E.E.R."""@nl ;
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "klokurenVerenigingen"@nl ;
-    mim:type mim:Real ;
+    mim:type mim:Decimal ;
     dcterms:identifier "EAID_9C245010_A095_4788_99CF_ECD52F21B21D" ;
     rdfs:comment "aantal klokuren per week"@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/sport/binnenlocatie> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/sport/> ;
-    rdfs:range xsd:double .
+    rdfs:range xsd:decimal .
 
 <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/sport/binnenlocatie/locatie> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
@@ -987,7 +969,7 @@ kapitaalvennootschap zijn binnen of buiten de E.E.R."""@nl ;
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "locatie"@nl ;
-    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/point> ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/gm-point> ;
     dcterms:identifier "EAID_50596FF3_4FC0_4420_B4B9_8AB4BD3FE7AF" ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/sport/binnenlocatie> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/sport/> ;
@@ -1004,6 +986,7 @@ kapitaalvennootschap zijn binnen of buiten de E.E.R."""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "80" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "onderhoudsniveau"@nl ;
     mim:type mim:CharacterString ;
@@ -1080,6 +1063,7 @@ kapitaalvennootschap zijn binnen of buiten de E.E.R."""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "200" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "naam"@nl ;
     mim:type mim:CharacterString ;
@@ -1099,6 +1083,7 @@ kapitaalvennootschap zijn binnen of buiten de E.E.R."""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "200" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "naam"@nl ;
     mim:type mim:CharacterString ;
@@ -1118,6 +1103,7 @@ kapitaalvennootschap zijn binnen of buiten de E.E.R."""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "200" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "naam"@nl ;
     mim:type mim:CharacterString ;
@@ -1139,11 +1125,23 @@ kapitaalvennootschap zijn binnen of buiten de E.E.R."""@nl ;
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "aantalNormTeams"@nl ;
-    mim:type mim:Real ;
+    mim:type mim:Decimal ;
     dcterms:identifier "EAID_43F42B1B_DBA9_4e92_9473_EAA4A6177B9C" ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/sport/sportvereniging> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/sport/> ;
-    rdfs:range xsd:double .
+    rdfs:range xsd:decimal .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/sport/sportvereniging/adres> a mim:Gegevensgroep,
+        owl:ObjectProperty ;
+    rdfs:label "adres"@nl ;
+    mim:gegevensgroeptype <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/groepattribuutsoort/adresaanduiding> ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/sport/sportvereniging/adres"^^xsd:anyURI ;
+    mim:kardinaliteit "1..1" ;
+    mim:naam "adres"@nl ;
+    dcterms:identifier "EAID_F90E4FB8_E5F3_4b28_88DD_A65409DBDA65" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/sport/sportvereniging> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/sport/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/groepattribuutsoort/adresaanduiding> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/sport/sportvereniging/binnensport> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
@@ -1194,6 +1192,7 @@ kapitaalvennootschap zijn binnen of buiten de E.E.R."""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "80" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "email"@nl ;
     mim:type mim:CharacterString ;
@@ -1232,6 +1231,7 @@ kapitaalvennootschap zijn binnen of buiten de E.E.R."""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "200" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "naam"@nl ;
     mim:type mim:CharacterString ;
@@ -1251,6 +1251,7 @@ kapitaalvennootschap zijn binnen of buiten de E.E.R."""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "200" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "typeSport"@nl ;
     mim:type mim:CharacterString ;
@@ -1354,6 +1355,7 @@ kapitaalvennootschap zijn binnen of buiten de E.E.R."""@nl ;
         <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/sport/sportvereniging/naam>,
         <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/sport/sportvereniging/typesport> ;
     mim:definitie "Organisatievorm waarin sport bedreven kan worden"@nl ;
+    mim:gegevensgroep <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/sport/sportvereniging/adres> ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/sport/sportvereniging"^^xsd:anyURI ;
     mim:indicatieAbstractObject false ;
     mim:naam "Sportvereniging"@nl ;
@@ -1402,6 +1404,7 @@ kapitaalvennootschap zijn binnen of buiten de E.E.R."""@nl ;
         <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/sport/binnenlocatie/sporthal>,
         <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/sport/binnenlocatie/vloeroppervlakte> ;
     mim:definitie "Locatie binnen een gebouw"@nl ;
+    mim:gegevensgroep <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/sport/binnenlocatie/adres> ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/sport/binnenlocatie"^^xsd:anyURI ;
     mim:indicatieAbstractObject false ;
     mim:naam "Binnenlocatie"@nl ;

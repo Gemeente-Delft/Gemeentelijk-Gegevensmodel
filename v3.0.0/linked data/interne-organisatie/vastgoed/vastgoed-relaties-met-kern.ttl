@@ -82,6 +82,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "200" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "naam"@nl ;
     mim:type mim:CharacterString ;
@@ -101,6 +102,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "40" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "nummer"@nl ;
     mim:type mim:CharacterString ;
@@ -121,6 +123,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "0..1" ;
+    mim:lengte "149" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "adresBuitenland"@nl ;
     mim:type mim:CharacterString ;
@@ -142,6 +145,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "100" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "adresCorrespondentie"@nl ;
     mim:type mim:CharacterString ;
@@ -163,6 +167,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "0..1" ;
+    mim:lengte "80" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "emailadres"@nl ;
     mim:type mim:CharacterString ;
@@ -184,6 +189,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "0..1" ;
+    mim:lengte "20" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "faxnummer"@nl ;
     mim:type mim:CharacterString ;
@@ -205,6 +211,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "17" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "identificatie"@nl ;
     mim:type mim:CharacterString ;
@@ -225,6 +232,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "20" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "KVKnummer"@nl ;
     mim:type mim:CharacterString ;
@@ -245,6 +253,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "200" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "naam"@nl ;
     mim:type mim:CharacterString ;
@@ -266,6 +275,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "100" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "rechtsvorm"@nl ;
     mim:type mim:CharacterString ;
@@ -279,6 +289,7 @@
         owl:DatatypeProperty ;
     rdfs:label "rekeningnummer"@nl ;
     mim:definitie "Het nummer van een Nederlandse bank/girorekening, zoals dat door een bankinstelling als identificator aan een overeenkomst tussen de bank en een of meer subjecten wordt toegekend, op basis waarvan het SUBJECT in de regel financieel communiceert."@nl ;
+    mim:formeelPatroon "^[A-Z]{2}[0-9]{2}[A-Z0-9]{1,30}$" ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/rechtspersoon/rekeningnummer"^^xsd:anyURI ;
@@ -287,6 +298,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "0..1" ;
+    mim:lengte "34" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "rekeningnummer"@nl ;
     mim:type mim:CharacterString ;
@@ -308,6 +320,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "0..1" ;
+    mim:lengte "20" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "telefoonnummer"@nl ;
     mim:type mim:CharacterString ;

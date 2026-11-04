@@ -654,6 +654,7 @@
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/hypotheek/overwaarde> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "Overwaarde"@nl ;
+    mim:eenheid [ ] ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/hypotheek/overwaarde"^^xsd:anyURI ;
@@ -662,6 +663,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "10,2" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "Overwaarde"@nl ;
     mim:type mim:Decimal ;
@@ -711,6 +713,7 @@
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/onroerend-goed/overwaarde> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "Overwaarde"@nl ;
+    mim:eenheid [ ] ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/onroerend-goed/overwaarde"^^xsd:anyURI ;
@@ -719,6 +722,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "10,2" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "Overwaarde"@nl ;
     mim:type mim:Decimal ;
@@ -791,6 +795,7 @@ Attribuut is een identificatie maar van het type Integer?"""@nl ;
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/vermogenscomponent/nog-aan-te-spreken-vermogen> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "Nog aan te spreken vermogen"@nl ;
+    mim:eenheid [ ] ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/vermogenscomponent/nog-aan-te-spreken-vermogen"^^xsd:anyURI ;
@@ -799,6 +804,7 @@ Attribuut is een identificatie maar van het type Integer?"""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "10,2" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "Nog aan te spreken vermogen"@nl ;
     mim:type mim:Decimal ;
@@ -810,6 +816,7 @@ Attribuut is een identificatie maar van het type Integer?"""@nl ;
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/vermogenscomponent/vrij-te-laten-vermogen> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "Vrij te laten vermogen"@nl ;
+    mim:eenheid [ ] ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/vermogenscomponent/vrij-te-laten-vermogen"^^xsd:anyURI ;
@@ -818,6 +825,7 @@ Attribuut is een identificatie maar van het type Integer?"""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "10,2" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "Vrij te laten vermogen"@nl ;
     mim:type mim:Decimal ;
@@ -924,6 +932,7 @@ Attribuut is een identificatie maar van het type Integer?"""@nl ;
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/waardepeiling/waarde-vermogenscomponent> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "Waarde vermogenscomponent"@nl ;
+    mim:eenheid [ ] ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/vermogen/waardepeiling/waarde-vermogenscomponent"^^xsd:anyURI ;
@@ -932,6 +941,7 @@ Attribuut is een identificatie maar van het type Integer?"""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "10,2" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "Waarde vermogenscomponent"@nl ;
     mim:type mim:Decimal ;

@@ -833,6 +833,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "80" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "oordeel"@nl ;
     mim:type mim:CharacterString ;
@@ -844,6 +845,7 @@
 <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/declaratie/bedrag> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "bedrag"@nl ;
+    mim:eenheid [ ] ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/declaratie/bedrag"^^xsd:anyURI ;
@@ -852,6 +854,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "10,2" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "bedrag"@nl ;
     mim:type mim:Decimal ;
@@ -871,6 +874,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "80" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "betreft"@nl ;
     mim:type mim:CharacterString ;
@@ -947,6 +951,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "80" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "naam"@nl ;
     mim:type mim:CharacterString ;
@@ -1034,6 +1039,7 @@
 <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/dienstverband/salaris> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "salaris"@nl ;
+    mim:eenheid [ ] ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/dienstverband/salaris"^^xsd:anyURI ;
@@ -1042,6 +1048,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "10,2" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "salaris"@nl ;
     mim:type mim:Decimal ;
@@ -1175,6 +1182,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "100" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "uren per week"@nl ;
     mim:type mim:CharacterString ;
@@ -1194,6 +1202,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "50" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "Code"@nl ;
     mim:type mim:CharacterString ;
@@ -1213,6 +1222,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "80" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "Naam"@nl ;
     mim:type mim:CharacterString ;
@@ -1251,6 +1261,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "20" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "Schaal"@nl ;
     mim:type mim:CharacterString ;
@@ -1289,6 +1300,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "80" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "naam"@nl ;
     mim:type mim:CharacterString ;
@@ -1376,6 +1388,7 @@
 <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/genotenopleiding/prijs> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "prijs"@nl ;
+    mim:eenheid [ ] ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/genotenopleiding/prijs"^^xsd:anyURI ;
@@ -1384,6 +1397,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "10,2" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "prijs"@nl ;
     mim:type mim:Decimal ;
@@ -1460,6 +1474,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "80" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "type"@nl ;
     mim:type mim:CharacterString ;
@@ -1471,6 +1486,7 @@
 <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/individueel-keuzebudget/bedrag> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "bedrag"@nl ;
+    mim:eenheid [ ] ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/individueel-keuzebudget/bedrag"^^xsd:anyURI ;
@@ -1479,6 +1495,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "10,2" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "bedrag"@nl ;
     mim:type mim:Decimal ;
@@ -1593,6 +1610,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "20" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "percentage"@nl ;
     mim:type mim:CharacterString ;
@@ -1612,6 +1630,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "20" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "uren"@nl ;
     mim:type mim:CharacterString ;
@@ -1623,6 +1642,7 @@
 <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/keuzebudgetbesteding/bedrag> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "bedrag"@nl ;
+    mim:eenheid [ ] ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/keuzebudgetbesteding/bedrag"^^xsd:anyURI ;
@@ -1631,6 +1651,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "10,2" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "bedrag"@nl ;
     mim:type mim:Decimal ;
@@ -1669,6 +1690,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "80" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "naam"@nl ;
     mim:type mim:CharacterString ;
@@ -1707,6 +1729,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "10" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "code"@nl ;
     mim:type mim:CharacterString ;
@@ -1726,6 +1749,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "100" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "omschrijving"@nl ;
     mim:type mim:CharacterString ;
@@ -1745,6 +1769,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "10" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "schaal"@nl ;
     mim:type mim:CharacterString ;
@@ -1764,6 +1789,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "80" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "instituut"@nl ;
     mim:type mim:CharacterString ;
@@ -1783,6 +1809,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "80" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "naam"@nl ;
     mim:type mim:CharacterString ;
@@ -1813,6 +1840,7 @@
 <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/opleiding/prijs> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "prijs"@nl ;
+    mim:eenheid [ ] ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/hr/opleiding/prijs"^^xsd:anyURI ;
@@ -1821,6 +1849,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "10,2" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "prijs"@nl ;
     mim:type mim:Decimal ;
@@ -1916,6 +1945,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "50" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "omschrijving"@nl ;
     mim:type mim:CharacterString ;
@@ -1935,6 +1965,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "80" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "naam"@nl ;
     mim:type mim:CharacterString ;
@@ -2068,6 +2099,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "80" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "naam"@nl ;
     mim:type mim:CharacterString ;
@@ -2144,6 +2176,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "80" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "naam"@nl ;
     mim:type mim:CharacterString ;
@@ -2201,6 +2234,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "80" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "naam"@nl ;
     mim:type mim:CharacterString ;
@@ -2220,6 +2254,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "40" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "voornaam"@nl ;
     mim:type mim:CharacterString ;
@@ -2239,6 +2274,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "50" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "woonplaats"@nl ;
     mim:type mim:CharacterString ;
@@ -2301,6 +2337,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "0..1" ;
+    mim:lengte "254" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "emailadres"@nl ;
     mim:type mim:CharacterString ;
@@ -2322,6 +2359,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "0..1" ;
+    mim:lengte "20" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "faxnummer"@nl ;
     mim:type mim:CharacterString ;
@@ -2343,6 +2381,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "255" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "Formatie"@nl ;
     mim:type mim:CharacterString ;
@@ -2363,6 +2402,7 @@
     mim:indicatieFormeleHistorie true ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "50" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "naam"@nl ;
     mim:type mim:CharacterString ;
@@ -2384,6 +2424,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "0..1" ;
+    mim:lengte "25" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "naamVerkort"@nl ;
     mim:type mim:CharacterString ;
@@ -2405,6 +2446,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "0..1" ;
+    mim:lengte "80" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "omschrijving"@nl ;
     mim:type mim:CharacterString ;
@@ -2426,6 +2468,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "24" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "organisatieIdentificatie"@nl ;
     mim:type mim:CharacterString ;
@@ -2447,6 +2490,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "0..1" ;
+    mim:lengte "20" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "telefoonnummer"@nl ;
     mim:type mim:CharacterString ;
@@ -2468,6 +2512,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "0..1" ;
+    mim:lengte "1000" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "toelichting"@nl ;
     mim:type mim:CharacterString ;

@@ -137,6 +137,7 @@ Een 'Subsidiecomponent' heeft 1 of meer 'Betaalmoment' waarmee de geplande betal
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "40" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "BTWCode"@nl ;
     mim:type mim:CharacterString ;
@@ -156,6 +157,7 @@ Een 'Subsidiecomponent' heeft 1 of meer 'Betaalmoment' waarmee de geplande betal
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "80" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "BTWOmschrijving"@nl ;
     mim:type mim:CharacterString ;
@@ -163,6 +165,29 @@ Een 'Subsidiecomponent' heeft 1 of meer 'Betaalmoment' waarmee de geplande betal
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/kostenplaats> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/> ;
     rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/kostenplaats/indicatiehulpkostenplaats> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "indicatieHulpkostenplaats"@nl ;
+    mim:datumOpname "2026-11-04"^^xsd:date ;
+    mim:definitie "Indicatie of de kostenplaats een hulpkostenplaats is waarvan de kosten via een verdeelregel over andere kostenplaatsen worden verdeeld."@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:herkomst "Memo Domein Financiën in POHV en GGM (Invest-NL, Programma Onderwijshuisvesting, 2025)" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/kostenplaats/indicatiehulpkostenplaats"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "indicatieHulpkostenplaats"@nl ;
+    mim:type mim:Boolean ;
+    dcterms:identifier "EAID_2C1CC5B9_6F6E_44C8_ADD2_636AC21564E1" ;
+    rdfs:comment "Indicatie of de kostenplaats een hulpkostenplaats is waarvan de kosten via een verdeelregel over andere kostenplaatsen worden verdeeld."@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/kostenplaats> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/> ;
+    rdfs:range xsd:boolean .
 
 <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/kostenplaats/kostenplaatssoortcode> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
@@ -175,6 +200,7 @@ Een 'Subsidiecomponent' heeft 1 of meer 'Betaalmoment' waarmee de geplande betal
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "20" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "kostenplaatssoortCode"@nl ;
     mim:type mim:CharacterString ;
@@ -194,6 +220,7 @@ Een 'Subsidiecomponent' heeft 1 of meer 'Betaalmoment' waarmee de geplande betal
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "80" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "kostenplaatssoortOmschrijving"@nl ;
     mim:type mim:CharacterString ;
@@ -213,6 +240,7 @@ Een 'Subsidiecomponent' heeft 1 of meer 'Betaalmoment' waarmee de geplande betal
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "20" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "kostenplaatstypeCode"@nl ;
     mim:type mim:CharacterString ;
@@ -232,6 +260,7 @@ Een 'Subsidiecomponent' heeft 1 of meer 'Betaalmoment' waarmee de geplande betal
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "80" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "kostenplaatstypeOmschrijving"@nl ;
     mim:type mim:CharacterString ;
@@ -251,6 +280,7 @@ Een 'Subsidiecomponent' heeft 1 of meer 'Betaalmoment' waarmee de geplande betal
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "80" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "naam"@nl ;
     mim:type mim:CharacterString ;
@@ -270,6 +300,7 @@ Een 'Subsidiecomponent' heeft 1 of meer 'Betaalmoment' waarmee de geplande betal
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "200" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "omschrijving"@nl ;
     mim:type mim:CharacterString ;
@@ -281,6 +312,7 @@ Een 'Subsidiecomponent' heeft 1 of meer 'Betaalmoment' waarmee de geplande betal
 <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/mutatie/bedrag> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "bedrag"@nl ;
+    mim:eenheid [ ] ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/mutatie/bedrag"^^xsd:anyURI ;
@@ -289,6 +321,7 @@ Een 'Subsidiecomponent' heeft 1 of meer 'Betaalmoment' waarmee de geplande betal
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "10,2" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "bedrag"@nl ;
     mim:type mim:Decimal ;
@@ -319,6 +352,7 @@ Een 'Subsidiecomponent' heeft 1 of meer 'Betaalmoment' waarmee de geplande betal
 <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/subsidies/betaalmoment/bedrag> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "bedrag"@nl ;
+    mim:eenheid [ ] ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/subsidies/betaalmoment/bedrag"^^xsd:anyURI ;
@@ -327,6 +361,7 @@ Een 'Subsidiecomponent' heeft 1 of meer 'Betaalmoment' waarmee de geplande betal
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "10,2" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "bedrag"@nl ;
     mim:type mim:Decimal ;
@@ -395,6 +430,7 @@ Een 'Subsidiecomponent' heeft 1 of meer 'Betaalmoment' waarmee de geplande betal
 <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/subsidies/subsidie/cofinanciering> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "coFinanciering"@nl ;
+    mim:eenheid [ ] ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/subsidies/subsidie/cofinanciering"^^xsd:anyURI ;
@@ -403,6 +439,7 @@ Een 'Subsidiecomponent' heeft 1 of meer 'Betaalmoment' waarmee de geplande betal
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "10,2" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "coFinanciering"@nl ;
     mim:type mim:Decimal ;
@@ -555,6 +592,7 @@ Een 'Subsidiecomponent' heeft 1 of meer 'Betaalmoment' waarmee de geplande betal
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "200" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "doelstelling"@nl ;
     mim:type mim:CharacterString ;
@@ -585,6 +623,7 @@ Een 'Subsidiecomponent' heeft 1 of meer 'Betaalmoment' waarmee de geplande betal
 <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/subsidies/subsidie/hoogtesubsidie> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "hoogteSubsidie"@nl ;
+    mim:eenheid [ ] ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/subsidies/subsidie/hoogtesubsidie"^^xsd:anyURI ;
@@ -593,6 +632,7 @@ Een 'Subsidiecomponent' heeft 1 of meer 'Betaalmoment' waarmee de geplande betal
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "10,2" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "hoogteSubsidie"@nl ;
     mim:type mim:Decimal ;
@@ -631,6 +671,7 @@ Een 'Subsidiecomponent' heeft 1 of meer 'Betaalmoment' waarmee de geplande betal
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "200" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "onderwerp"@nl ;
     mim:type mim:CharacterString ;
@@ -642,6 +683,7 @@ Een 'Subsidiecomponent' heeft 1 of meer 'Betaalmoment' waarmee de geplande betal
 <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/subsidies/subsidie/ontvangenbedrag> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "ontvangenBedrag"@nl ;
+    mim:eenheid [ ] ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/subsidies/subsidie/ontvangenbedrag"^^xsd:anyURI ;
@@ -650,6 +692,7 @@ Een 'Subsidiecomponent' heeft 1 of meer 'Betaalmoment' waarmee de geplande betal
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "10,2" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "ontvangenBedrag"@nl ;
     mim:type mim:Decimal ;
@@ -724,6 +767,7 @@ Alleen bij uitgaande subsidies, anders NULL!"""@nl ;
 <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/subsidies/subsidie/socialreturnbedrag> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "socialReturnBedrag"@nl ;
+    mim:eenheid [ ] ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/subsidies/subsidie/socialreturnbedrag"^^xsd:anyURI ;
@@ -732,6 +776,7 @@ Alleen bij uitgaande subsidies, anders NULL!"""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "10,2" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "socialReturnBedrag"@nl ;
     mim:type mim:Decimal ;
@@ -789,6 +834,7 @@ Alleen bij uitgaande subsidies, anders NULL!"""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "80" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "status"@nl ;
     mim:type mim:CharacterString ;
@@ -800,6 +846,7 @@ Alleen bij uitgaande subsidies, anders NULL!"""@nl ;
 <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/subsidies/subsidie/subsidiebedrag> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "subsidiebedrag"@nl ;
+    mim:eenheid [ ] ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/subsidies/subsidie/subsidiebedrag"^^xsd:anyURI ;
@@ -808,6 +855,7 @@ Alleen bij uitgaande subsidies, anders NULL!"""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "10,2" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "subsidiebedrag"@nl ;
     mim:type mim:Decimal ;
@@ -827,6 +875,7 @@ Alleen bij uitgaande subsidies, anders NULL!"""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "80" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "subsidiesoort"@nl ;
     mim:type mim:CharacterString ;
@@ -838,6 +887,7 @@ Alleen bij uitgaande subsidies, anders NULL!"""@nl ;
 <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/subsidies/subsidie/subsidievaststellingbedrag> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "subsidievaststellingBedrag"@nl ;
+    mim:eenheid [ ] ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/subsidies/subsidie/subsidievaststellingbedrag"^^xsd:anyURI ;
@@ -846,6 +896,7 @@ Alleen bij uitgaande subsidies, anders NULL!"""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "10,2" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "subsidievaststellingBedrag"@nl ;
     mim:type mim:Decimal ;
@@ -895,6 +946,7 @@ Alleen bij uitgaande subsidies, anders NULL!"""@nl ;
 <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/subsidies/subsidiecomponent/gereserveerdbedrag> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "gereserveerdBedrag"@nl ;
+    mim:eenheid [ ] ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/subsidies/subsidiecomponent/gereserveerdbedrag"^^xsd:anyURI ;
@@ -903,6 +955,7 @@ Alleen bij uitgaande subsidies, anders NULL!"""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "10,2" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "gereserveerdBedrag"@nl ;
     mim:type mim:Decimal ;
@@ -914,6 +967,7 @@ Alleen bij uitgaande subsidies, anders NULL!"""@nl ;
 <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/subsidies/subsidiecomponent/toegekendbedrag> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "toegekendBedrag"@nl ;
+    mim:eenheid [ ] ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/subsidies/subsidiecomponent/toegekendbedrag"^^xsd:anyURI ;
@@ -922,6 +976,7 @@ Alleen bij uitgaande subsidies, anders NULL!"""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "10,2" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "toegekendBedrag"@nl ;
     mim:type mim:Decimal ;
@@ -1044,6 +1099,7 @@ Alleen bij uitgaande subsidies, anders NULL!"""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "200" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "naam"@nl ;
     mim:type mim:CharacterString ;
@@ -1074,6 +1130,7 @@ Alleen bij uitgaande subsidies, anders NULL!"""@nl ;
 <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/subsidies/subsidieprogramma/programmabegroting> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "programmabegroting"@nl ;
+    mim:eenheid [ ] ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/subsidies/subsidieprogramma/programmabegroting"^^xsd:anyURI ;
@@ -1082,6 +1139,7 @@ Alleen bij uitgaande subsidies, anders NULL!"""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "10,2" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "programmabegroting"@nl ;
     mim:type mim:Decimal ;
@@ -1095,13 +1153,13 @@ Alleen bij uitgaande subsidies, anders NULL!"""@nl ;
     rdfs:label "Mutatie"@nl ;
     mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/mutatie/bedrag>,
         <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/mutatie/datum> ;
-    mim:definitie "Wijziging van een situatie"@nl ;
+    mim:definitie "Boeking van een bedrag van de ene hoofdrekening naar de andere op een datum, toegeschreven aan een kostenplaats. Een mutatie ontstaat uit een factuurregel, batchregel of bankafschriftregel en kan met verbijzonderingen vanuit extra perspectieven worden gerapporteerd."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/mutatie"^^xsd:anyURI ;
     mim:indicatieAbstractObject false ;
     mim:naam "Mutatie"@nl ;
     mim:toelichting "Dit kan naast getoonde mutaties nog diverse andere soorten mutaties betreffen, die handmatig worden ingevoerd, of via batches of facturen lopen: * Verkoop tot ontvangst * Inkoop tot betaling * BTW-compensatie * Vaste activa * Urenadministratie uit TIM"@nl ;
     dcterms:identifier "EAID_CB0A6B53_D263_459e_8C28_AD97E5552FFF" ;
-    rdfs:comment "Wijziging van een situatie"@nl ;
+    rdfs:comment "Boeking van een bedrag van de ene hoofdrekening naar de andere op een datum, toegeschreven aan een kostenplaats. Een mutatie ontstaat uit een factuurregel, batchregel of bankafschriftregel en kan met verbijzonderingen vanuit extra perspectieven worden gerapporteerd."@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/subsidies/betaalmoment> a mim:Objecttype,
@@ -1152,6 +1210,7 @@ Alleen bij uitgaande subsidies, anders NULL!"""@nl ;
     rdfs:label "Kostenplaats"@nl ;
     mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/kostenplaats/btwcode>,
         <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/kostenplaats/btwomschrijving>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/kostenplaats/indicatiehulpkostenplaats>,
         <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/kostenplaats/kostenplaatssoortcode>,
         <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/kostenplaats/kostenplaatssoortomschrijving>,
         <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/kostenplaats/kostenplaatstypecode>,

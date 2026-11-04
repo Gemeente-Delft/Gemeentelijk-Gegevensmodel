@@ -550,6 +550,7 @@ kapitaalvennootschap zijn binnen of buiten de E.E.R."""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "100" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "aard"@nl ;
     mim:type mim:CharacterString ;
@@ -572,7 +573,7 @@ kapitaalvennootschap zijn binnen of buiten de E.E.R."""@nl ;
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "begrenzing"@nl ;
-    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/surface> ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/gm-surface> ;
     dcterms:identifier "EAID_460CC25D_1BD8_4476_9482_34D7533F0EAA" ;
     rdfs:comment "Begrenzing beschrijft de omtrek van het gebied waarop de aantekening betrekking heeft."@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/aantekening> ;
@@ -653,6 +654,7 @@ kapitaalvennootschap zijn binnen of buiten de E.E.R."""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "100" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "identificatie"@nl ;
     mim:type mim:CharacterString ;
@@ -672,6 +674,7 @@ kapitaalvennootschap zijn binnen of buiten de E.E.R."""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "200" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "omschrijving"@nl ;
     mim:type mim:CharacterString ;
@@ -800,7 +803,7 @@ Op basis van de codering is het mogelijk het kadastraal perceel op de kadastrale
     rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/codeexploitant> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/tenaamstelling/identificatietenaamstelling> a mim:Attribuutsoort,
-        owl:ObjectProperty ;
+        owl:DatatypeProperty ;
     rdfs:label "identificatieTenaamstelling"@nl ;
     mim:datumOpname "2016-05-01"^^xsd:date ;
     mim:definitie "Een door het Kadaster toegekende landelijk uniek nummer aan een tenaamstelling"@nl ;
@@ -818,12 +821,12 @@ Op basis van de codering is het mogelijk het kadastraal perceel op de kadastrale
     mim:naam "identificatieTenaamstelling"@nl ;
     mim:patroon """Namespace is NL.IMKAD.Tenaamstelling 
 LokaalId is unieke identifciatie binnen de kadastrale registratie""" ;
-    mim:type <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/complex-datatype/compositeid> ;
+    mim:type mim:CharacterString ;
     dcterms:identifier "EAID_6A8C91BE_0903_4cc8_AC5B_001445BDE4BA" ;
     rdfs:comment "Een door het Kadaster toegekende landelijk uniek nummer aan een tenaamstelling"@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/tenaamstelling> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
-    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/complex-datatype/compositeid> .
+    rdfs:range xsd:string .
 
 <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/tenaamstelling/verklaringinzakederdenbescherming> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
@@ -836,6 +839,7 @@ LokaalId is unieke identifciatie binnen de kadastrale registratie""" ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "100" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "verklaringInzakeDerdenBescherming"@nl ;
     mim:type mim:CharacterString ;

@@ -177,6 +177,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "50" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "Code"@nl ;
     mim:type mim:CharacterString ;
@@ -196,6 +197,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "80" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "Naam"@nl ;
     mim:type mim:CharacterString ;
@@ -234,6 +236,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "20" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "Schaal"@nl ;
     mim:type mim:CharacterString ;
@@ -500,6 +503,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "80" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "naam"@nl ;
     mim:type mim:CharacterString ;
@@ -519,6 +523,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "40" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "voornaam"@nl ;
     mim:type mim:CharacterString ;
@@ -538,6 +543,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "50" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "woonplaats"@nl ;
     mim:type mim:CharacterString ;
@@ -558,6 +564,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "0..1" ;
+    mim:lengte "1000" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "cocumentBeschrijving"@nl ;
     mim:type mim:CharacterString ;
@@ -642,6 +649,7 @@
     mim:indicatieFormeleHistorie true ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "200" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "documentAuteur"@nl ;
     mim:type mim:CharacterString ;
@@ -664,6 +672,7 @@ Bijvoorbeeld potsregistratienummer"""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "40" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "documentIdentificatie"@nl ;
     mim:type mim:CharacterString ;
@@ -686,6 +695,7 @@ Bijvoorbeeld potsregistratienummer"""@nl ;
     mim:indicatieFormeleHistorie true ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "200" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "documentTitel"@nl ;
     mim:type mim:CharacterString ;
@@ -707,6 +717,7 @@ Bijvoorbeeld potsregistratienummer"""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "20" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "vertrouwelijkAanduiding"@nl ;
     mim:type mim:CharacterString ;

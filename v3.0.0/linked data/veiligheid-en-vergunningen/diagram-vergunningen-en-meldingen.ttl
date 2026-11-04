@@ -8,6 +8,30 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/behandelaar> a mim:Relatiesoort,
+        owl:ObjectProperty ;
+    rdfs:label "behandelaar"@nl ;
+    mim:aggregatietype mim:Geen ;
+    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding> ;
+    mim:definitie "De medewerker die de aanvraag of melding behandelt."@nl ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker> ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/behandelaar"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "0..1" ;
+    mim:kardinaliteitRelatieBron "0..*" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "behandelaar"@nl ;
+    mim:unidirectioneel true ;
+    dcterms:identifier "EAID_F902F46D_BDE5_43F1_9940_742B2FB3D36E" ;
+    rdfs:comment "De medewerker die de aanvraag of melding behandelt."@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker> .
+
 <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/heeft-documenten> a mim:Relatiesoort,
         owl:ObjectProperty ;
     rdfs:label "heeft documenten"@nl ;
@@ -694,7 +718,7 @@
     rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/veiligheid-en-vergunningen/vth/vthzaak> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/afgehandeld> a mim:Attribuutsoort,
-        owl:ObjectProperty ;
+        owl:DatatypeProperty ;
     rdfs:label "afgehandeld"@nl ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
@@ -706,11 +730,11 @@
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "afgehandeld"@nl ;
-    mim:type <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/boolean> ;
+    mim:type mim:Boolean ;
     dcterms:identifier "EAID_AC248AAD_192D_40e3_B2C3_107CBA34CB21" ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/> ;
-    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/boolean> .
+    rdfs:range xsd:boolean .
 
 <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/categorie> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
@@ -723,6 +747,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "200" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "categorie"@nl ;
     mim:type mim:CharacterString ;
@@ -742,6 +767,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "80" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "categoriecode"@nl ;
     mim:type mim:CharacterString ;
@@ -807,6 +833,29 @@
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/> ;
     rdfs:range xsd:date .
 
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/datumeerstereactie> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "datumEersteReactie"@nl ;
+    mim:datumOpname "2026-11-04"^^xsd:date ;
+    mim:definitie "De datum en tijd waarop een behandelaar een eerste reactie op de aanvraag of melding heeft gegeven."@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:herkomst "Proposal Meldingen Openbare Ruimte, gemeenten Katwijk en Land van Cuijk (2026)" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/datumeerstereactie"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "datumEersteReactie"@nl ;
+    mim:type mim:DateTime ;
+    dcterms:identifier "EAID_6AA5CFC5_CDC6_4319_A336_CAAC6482CB2E" ;
+    rdfs:comment "De datum en tijd waarop een behandelaar een eerste reactie op de aanvraag of melding heeft gegeven."@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/> ;
+    rdfs:range xsd:dateTime .
+
 <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/datumeindestatus> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "datumEindeStatus"@nl ;
@@ -826,6 +875,29 @@
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/> ;
     rdfs:range xsd:date .
 
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/datumnormafhandeling> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "datumNormAfhandeling"@nl ;
+    mim:datumOpname "2026-11-04"^^xsd:date ;
+    mim:definitie "De datum en tijd waarop volgens de geldende servicenorm redelijkerwijs verwacht mag worden dat de aanvraag of melding is behandeld (normtijd)."@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:herkomst "Proposal Meldingen Openbare Ruimte, gemeenten Katwijk en Land van Cuijk (2026)" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/datumnormafhandeling"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "datumNormAfhandeling"@nl ;
+    mim:type mim:DateTime ;
+    dcterms:identifier "EAID_93E969ED_6F36_4D8F_B756_EA539E31DEAE" ;
+    rdfs:comment "De datum en tijd waarop volgens de geldende servicenorm redelijkerwijs verwacht mag worden dat de aanvraag of melding is behandeld (normtijd)."@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/> ;
+    rdfs:range xsd:dateTime .
+
 <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/hoofdcategorie> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "hoofdcategorie"@nl ;
@@ -837,6 +909,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "80" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "hoofdcategorie"@nl ;
     mim:type mim:CharacterString ;
@@ -856,6 +929,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "80" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "hoofdcategoriecode"@nl ;
     mim:type mim:CharacterString ;
@@ -875,6 +949,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "40" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "identificatie"@nl ;
     mim:type mim:CharacterString ;
@@ -882,6 +957,29 @@
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/> ;
     rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/indicatiehogeprioriteit> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "indicatieHogePrioriteit"@nl ;
+    mim:datumOpname "2026-11-04"^^xsd:date ;
+    mim:definitie "Indicatie of de aanvraag of melding met spoed opgepakt dient te worden."@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:herkomst "Proposal Meldingen Openbare Ruimte, gemeenten Katwijk en Land van Cuijk (2026)" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/indicatiehogeprioriteit"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "indicatieHogePrioriteit"@nl ;
+    mim:type mim:Boolean ;
+    dcterms:identifier "EAID_209D5625_82D2_450A_954E_EF3FC19FF274" ;
+    rdfs:comment "Indicatie of de aanvraag of melding met spoed opgepakt dient te worden."@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/> ;
+    rdfs:range xsd:boolean .
 
 <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/kanaal> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
@@ -894,6 +992,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "80" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "kanaal"@nl ;
     mim:type mim:CharacterString ;
@@ -913,6 +1012,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "200" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "onderwerp"@nl ;
     mim:type mim:CharacterString ;
@@ -932,10 +1032,35 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "80" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "onderwerpcode"@nl ;
     mim:type mim:CharacterString ;
     dcterms:identifier "EAID_3A678FBE_3890_41b5_9E6B_9C9C0A59E8D8" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/resultaat> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "resultaat"@nl ;
+    mim:datumOpname "2026-11-04"^^xsd:date ;
+    mim:definitie "Het uiteindelijke resultaat van de aanvraag of melding, zoals opgelost of buiten behandeling gelaten."@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:herkomst "Proposal Meldingen Openbare Ruimte, gemeenten Katwijk en Land van Cuijk (2026)" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/resultaat"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:lengte "80" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "resultaat"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_748355B0_368E_4DA8_A44E_773CC5A21C35" ;
+    rdfs:comment "Het uiteindelijke resultaat van de aanvraag of melding, zoals opgelost of buiten behandeling gelaten."@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/> ;
     rdfs:range xsd:string .
@@ -952,6 +1077,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "80" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "soort"@nl ;
     mim:type mim:CharacterString ;
@@ -972,6 +1098,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "80" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "status"@nl ;
     mim:type mim:CharacterString ;
@@ -991,6 +1118,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "80" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "statuscode"@nl ;
     mim:type mim:CharacterString ;
@@ -1010,6 +1138,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "80" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "statusVolgorde"@nl ;
     mim:type mim:CharacterString ;
@@ -1029,6 +1158,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "200" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "subcategorie"@nl ;
     mim:type mim:CharacterString ;
@@ -1048,6 +1178,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "80" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "subcategoriecode"@nl ;
     mim:type mim:CharacterString ;
@@ -1068,6 +1199,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "50" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "besluitidentificatie"@nl ;
     mim:type mim:CharacterString ;
@@ -1089,6 +1221,7 @@
     mim:indicatieFormeleHistorie true ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "0..1" ;
+    mim:lengte "1000" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "besluittoelichting"@nl ;
     mim:type mim:CharacterString ;
@@ -1235,6 +1368,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "200" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "omschrijving"@nl ;
     mim:type mim:CharacterString ;
@@ -1255,6 +1389,7 @@
     mim:indicatieFormeleHistorie true ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "0..1" ;
+    mim:lengte "40" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "redenVerval"@nl ;
     mim:type mim:CharacterString ;
@@ -1276,6 +1411,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "0..1" ;
+    mim:lengte "200" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "adresBuitenland"@nl ;
     mim:type mim:CharacterString ;
@@ -1297,6 +1433,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "50" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "identificatie"@nl ;
     mim:type mim:CharacterString ;
@@ -1318,6 +1455,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "0..1" ;
+    mim:lengte "200" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "naam"@nl ;
     mim:type mim:CharacterString ;
@@ -1339,6 +1477,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "0..1" ;
+    mim:lengte "1000" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "cocumentBeschrijving"@nl ;
     mim:type mim:CharacterString ;
@@ -1423,6 +1562,7 @@
     mim:indicatieFormeleHistorie true ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "200" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "documentAuteur"@nl ;
     mim:type mim:CharacterString ;
@@ -1445,6 +1585,7 @@ Bijvoorbeeld potsregistratienummer"""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "40" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "documentIdentificatie"@nl ;
     mim:type mim:CharacterString ;
@@ -1467,6 +1608,7 @@ Bijvoorbeeld potsregistratienummer"""@nl ;
     mim:indicatieFormeleHistorie true ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "200" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "documentTitel"@nl ;
     mim:type mim:CharacterString ;
@@ -1488,6 +1630,7 @@ Bijvoorbeeld potsregistratienummer"""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "20" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "vertrouwelijkAanduiding"@nl ;
     mim:type mim:CharacterString ;
@@ -1500,6 +1643,7 @@ Bijvoorbeeld potsregistratienummer"""@nl ;
 <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/heffing/bedrag> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "bedrag"@nl ;
+    mim:eenheid [ ] ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/heffing/bedrag"^^xsd:anyURI ;
@@ -1508,6 +1652,7 @@ Bijvoorbeeld potsregistratienummer"""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "10,2" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "bedrag"@nl ;
     mim:type mim:Decimal ;
@@ -1527,6 +1672,7 @@ Bijvoorbeeld potsregistratienummer"""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "80" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "code"@nl ;
     mim:type mim:CharacterString ;
@@ -1576,6 +1722,7 @@ Bijvoorbeeld potsregistratienummer"""@nl ;
 <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/heffing/inrekening> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "inrekening"@nl ;
+    mim:eenheid [ ] ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/heffing/inrekening"^^xsd:anyURI ;
@@ -1584,6 +1731,7 @@ Bijvoorbeeld potsregistratienummer"""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "10,2" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "inrekening"@nl ;
     mim:type mim:Decimal ;
@@ -1642,6 +1790,7 @@ Bijvoorbeeld potsregistratienummer"""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "200" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "achternaam"@nl ;
     mim:type mim:CharacterString ;
@@ -1703,6 +1852,7 @@ Bijvoorbeeld potsregistratienummer"""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "0..1" ;
+    mim:lengte "254" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "emailadres"@nl ;
     mim:type mim:CharacterString ;
@@ -1745,6 +1895,7 @@ Bijvoorbeeld potsregistratienummer"""@nl ;
     mim:indicatieFormeleHistorie true ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "50" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "functie"@nl ;
     mim:type mim:CharacterString ;
@@ -1766,6 +1917,7 @@ Bijvoorbeeld potsregistratienummer"""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "1" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "geslachtsaanduiding"@nl ;
     mim:type mim:CharacterString ;
@@ -1787,6 +1939,7 @@ Bijvoorbeeld potsregistratienummer"""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "24" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "medewerkerIdentificatie"@nl ;
     mim:type mim:CharacterString ;
@@ -1808,6 +1961,7 @@ Bijvoorbeeld potsregistratienummer"""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "0..1" ;
+    mim:lengte "1000" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "medewerkerToelichting"@nl ;
     mim:type mim:CharacterString ;
@@ -1829,6 +1983,7 @@ Bijvoorbeeld potsregistratienummer"""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "30" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "roepnaam"@nl ;
     mim:type mim:CharacterString ;
@@ -1850,6 +2005,7 @@ Bijvoorbeeld potsregistratienummer"""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "0..1" ;
+    mim:lengte "20" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "telefoonnummer"@nl ;
     mim:type mim:CharacterString ;
@@ -1871,6 +2027,7 @@ Bijvoorbeeld potsregistratienummer"""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "20" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "voorletters"@nl ;
     mim:type mim:CharacterString ;
@@ -1893,6 +2050,7 @@ gescheiden."""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "0..1" ;
+    mim:lengte "10" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "voorvoegselAchternaam"@nl ;
     mim:type mim:CharacterString ;
@@ -1936,6 +2094,7 @@ gescheiden."""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "1" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "indicatieIaatstGezetteStatus"@nl ;
     mim:type mim:CharacterString ;
@@ -1957,6 +2116,7 @@ gescheiden."""@nl ;
     mim:indicatieFormeleHistorie true ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "0..1" ;
+    mim:lengte "1000" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "statustoelichting"@nl ;
     mim:type mim:CharacterString ;
@@ -2020,6 +2180,7 @@ gescheiden."""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "0..1" ;
+    mim:lengte "3" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "doorlooptijdStatus"@nl ;
     mim:type mim:Integer ;
@@ -2041,6 +2202,7 @@ gescheiden."""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "80" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "statustypeOmschrijving"@nl ;
     mim:type mim:CharacterString ;
@@ -2062,6 +2224,7 @@ gescheiden."""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "0..1" ;
+    mim:lengte "80" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "statustypeOmschrijvingGeneriek"@nl ;
     mim:type mim:CharacterString ;
@@ -2083,6 +2246,7 @@ gescheiden."""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "4" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "statustypeVolgnummer"@nl ;
     mim:type mim:Integer ;
@@ -2104,6 +2268,7 @@ gescheiden."""@nl ;
     mim:indicatieFormeleHistorie true ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "1" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "archiefnominatie"@nl ;
     mim:type mim:CharacterString ;
@@ -2292,6 +2457,7 @@ gescheiden."""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "3" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "duurVerlenging"@nl ;
     mim:type mim:Integer ;
@@ -2312,6 +2478,7 @@ gescheiden."""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "0..1" ;
+    mim:lengte "12" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "indicatieBetaling"@nl ;
     mim:type mim:CharacterString ;
@@ -2353,6 +2520,7 @@ gescheiden."""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "0..1" ;
+    mim:lengte "1" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "indicatieOpschorting"@nl ;
     mim:type mim:CharacterString ;
@@ -2372,6 +2540,7 @@ gescheiden."""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "100" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "leges"@nl ;
     mim:type mim:CharacterString ;
@@ -2392,6 +2561,7 @@ gescheiden."""@nl ;
     mim:indicatieFormeleHistorie true ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "0..1" ;
+    mim:lengte "80" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "omschrijving"@nl ;
     mim:type mim:CharacterString ;
@@ -2413,6 +2583,7 @@ gescheiden."""@nl ;
     mim:indicatieFormeleHistorie true ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "0..1" ;
+    mim:lengte "80" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "omschrijvingResultaat"@nl ;
     mim:type mim:CharacterString ;
@@ -2433,6 +2604,7 @@ gescheiden."""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "200" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "redenOpschorting"@nl ;
     mim:type mim:CharacterString ;
@@ -2452,6 +2624,7 @@ gescheiden."""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "200" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "redenVerlenging"@nl ;
     mim:type mim:CharacterString ;
@@ -2472,6 +2645,7 @@ gescheiden."""@nl ;
     mim:indicatieFormeleHistorie true ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "0..1" ;
+    mim:lengte "1000" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "toelichting"@nl ;
     mim:type mim:CharacterString ;
@@ -2493,6 +2667,7 @@ gescheiden."""@nl ;
     mim:indicatieFormeleHistorie true ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "0..1" ;
+    mim:lengte "1000" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "toelichtingResultaat"@nl ;
     mim:type mim:CharacterString ;
@@ -2513,6 +2688,7 @@ gescheiden."""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "40" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "vertrouwelijkheid"@nl ;
     mim:type mim:CharacterString ;
@@ -2533,6 +2709,7 @@ gescheiden."""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "40" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "zaakidentificatie"@nl ;
     mim:type mim:CharacterString ;
@@ -2554,6 +2731,7 @@ gescheiden."""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "1" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "zaakniveau"@nl ;
     mim:type mim:Integer ;
@@ -2575,6 +2753,7 @@ gescheiden."""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "0..1" ;
+    mim:lengte "20" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "archiefcode"@nl ;
     mim:type mim:CharacterString ;
@@ -2638,6 +2817,7 @@ gescheiden."""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "3" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "doorlooptijdBehandeling"@nl ;
     mim:type mim:Integer ;
@@ -2659,6 +2839,7 @@ gescheiden."""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "1" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "indicatiePublicatie"@nl ;
     mim:type mim:CharacterString ;
@@ -2680,6 +2861,7 @@ gescheiden."""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "0..1" ;
+    mim:lengte "1000" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "publicatietekst"@nl ;
     mim:type mim:CharacterString ;
@@ -2701,6 +2883,7 @@ gescheiden."""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "0..1" ;
+    mim:lengte "3" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "servicenormBehandeling"@nl ;
     mim:type mim:Integer ;
@@ -2722,6 +2905,7 @@ gescheiden."""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "0..*" ;
+    mim:lengte "30" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "trefwoord"@nl ;
     mim:type mim:CharacterString ;
@@ -2743,6 +2927,7 @@ gescheiden."""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "20" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "vertrouwelijkAanduiding"@nl ;
     mim:type mim:CharacterString ;
@@ -2764,6 +2949,7 @@ gescheiden."""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "0..1" ;
+    mim:lengte "40" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "zaakcategorie"@nl ;
     mim:type mim:CharacterString ;
@@ -2785,6 +2971,7 @@ gescheiden."""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "80" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "zaaktypeOmschrijving"@nl ;
     mim:type mim:CharacterString ;
@@ -2806,6 +2993,7 @@ gescheiden."""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "0..1" ;
+    mim:lengte "80" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "zaaktypeOmschrijvingGeneriek"@nl ;
     mim:type mim:CharacterString ;
@@ -2814,58 +3002,6 @@ gescheiden."""@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaaktype> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> ;
     rdfs:range xsd:string .
-
-<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/boolean/ja> a mim:Enumeratiewaarde,
-        skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/boolean> ;
-    rdfs:label "Ja"@nl ;
-    mim:code "1" ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/boolean/ja"^^xsd:anyURI ;
-    mim:naam "Ja"@nl ;
-    dcterms:identifier "EAID_ED373F5C_75C8_4f9f_B72B_DC069BEFFB72" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/boolean> ;
-    skos:notation "1" ;
-    skos:prefLabel "Ja"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/boolean> .
-
-<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/boolean/leeg> a mim:Enumeratiewaarde,
-        skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/boolean> ;
-    rdfs:label "Leeg"@nl ;
-    mim:code "-2" ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/boolean/leeg"^^xsd:anyURI ;
-    mim:naam "Leeg"@nl ;
-    dcterms:identifier "EAID_15FACEFF_7709_47aa_9827_7C4B604C8D7B" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/boolean> ;
-    skos:notation "-2" ;
-    skos:prefLabel "Leeg"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/boolean> .
-
-<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/boolean/nee> a mim:Enumeratiewaarde,
-        skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/boolean> ;
-    rdfs:label "Nee"@nl ;
-    mim:code "0" ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/boolean/nee"^^xsd:anyURI ;
-    mim:naam "Nee"@nl ;
-    dcterms:identifier "EAID_7ECA54CF_CE58_4610_80BC_B502ED1347A3" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/boolean> ;
-    skos:notation "0" ;
-    skos:prefLabel "Nee"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/boolean> .
-
-<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/boolean/onbekend> a mim:Enumeratiewaarde,
-        skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/boolean> ;
-    rdfs:label "Onbekend"@nl ;
-    mim:code "-1" ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/boolean/onbekend"^^xsd:anyURI ;
-    mim:naam "Onbekend"@nl ;
-    dcterms:identifier "EAID_D11CFFBC_096A_4d6c_99EB_8969CD67687E" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/boolean> ;
-    skos:notation "-1" ;
-    skos:prefLabel "Onbekend"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/boolean> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/rechtspersoon/adresbuitenland> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
@@ -2879,6 +3015,7 @@ gescheiden."""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "0..1" ;
+    mim:lengte "149" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "adresBuitenland"@nl ;
     mim:type mim:CharacterString ;
@@ -2900,6 +3037,7 @@ gescheiden."""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "100" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "adresCorrespondentie"@nl ;
     mim:type mim:CharacterString ;
@@ -2921,6 +3059,7 @@ gescheiden."""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "0..1" ;
+    mim:lengte "80" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "emailadres"@nl ;
     mim:type mim:CharacterString ;
@@ -2942,6 +3081,7 @@ gescheiden."""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "0..1" ;
+    mim:lengte "20" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "faxnummer"@nl ;
     mim:type mim:CharacterString ;
@@ -2963,6 +3103,7 @@ gescheiden."""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "17" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "identificatie"@nl ;
     mim:type mim:CharacterString ;
@@ -2983,6 +3124,7 @@ gescheiden."""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "20" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "KVKnummer"@nl ;
     mim:type mim:CharacterString ;
@@ -3003,6 +3145,7 @@ gescheiden."""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "200" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "naam"@nl ;
     mim:type mim:CharacterString ;
@@ -3024,6 +3167,7 @@ gescheiden."""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "100" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "rechtsvorm"@nl ;
     mim:type mim:CharacterString ;
@@ -3037,6 +3181,7 @@ gescheiden."""@nl ;
         owl:DatatypeProperty ;
     rdfs:label "rekeningnummer"@nl ;
     mim:definitie "Het nummer van een Nederlandse bank/girorekening, zoals dat door een bankinstelling als identificator aan een overeenkomst tussen de bank en een of meer subjecten wordt toegekend, op basis waarvan het SUBJECT in de regel financieel communiceert."@nl ;
+    mim:formeelPatroon "^[A-Z]{2}[0-9]{2}[A-Z0-9]{1,30}$" ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/rechtspersoon/rekeningnummer"^^xsd:anyURI ;
@@ -3045,6 +3190,7 @@ gescheiden."""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "0..1" ;
+    mim:lengte "34" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "rekeningnummer"@nl ;
     mim:type mim:CharacterString ;
@@ -3066,6 +3212,7 @@ gescheiden."""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "0..1" ;
+    mim:lengte "20" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "telefoonnummer"@nl ;
     mim:type mim:CharacterString ;
@@ -3086,6 +3233,7 @@ gescheiden."""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "40" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "aangemaaktDoor"@nl ;
     mim:type mim:CharacterString ;
@@ -3105,6 +3253,7 @@ gescheiden."""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "50" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "activiteit"@nl ;
     mim:type mim:CharacterString ;
@@ -3124,6 +3273,7 @@ gescheiden."""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "50" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "controleElement"@nl ;
     mim:type mim:CharacterString ;
@@ -3143,6 +3293,7 @@ gescheiden."""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "50" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "controleniveau"@nl ;
     mim:type mim:CharacterString ;
@@ -3200,6 +3351,7 @@ gescheiden."""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "20" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "diepte"@nl ;
     mim:type mim:CharacterString ;
@@ -3219,6 +3371,7 @@ gescheiden."""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "20" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "fase"@nl ;
     mim:type mim:CharacterString ;
@@ -3238,6 +3391,7 @@ gescheiden."""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "40" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "gemuteerdDoor"@nl ;
     mim:type mim:CharacterString ;
@@ -3257,6 +3411,7 @@ gescheiden."""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "50" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "resultaat"@nl ;
     mim:type mim:CharacterString ;
@@ -3276,6 +3431,7 @@ gescheiden."""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "50" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "risico"@nl ;
     mim:type mim:CharacterString ;
@@ -3287,6 +3443,7 @@ gescheiden."""@nl ;
 <https://lod.gemeentelijkgegevensmodel.nl/veiligheid-en-vergunningen/vth/heffinggrondslag/bedrag> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "bedrag"@nl ;
+    mim:eenheid [ ] ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/veiligheid-en-vergunningen/vth/heffinggrondslag/bedrag"^^xsd:anyURI ;
@@ -3295,6 +3452,7 @@ gescheiden."""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "10,2" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "bedrag"@nl ;
     mim:type mim:Decimal ;
@@ -3314,6 +3472,7 @@ gescheiden."""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "80" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "domein"@nl ;
     mim:type mim:CharacterString ;
@@ -3352,6 +3511,7 @@ gescheiden."""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "250" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "omschrijving"@nl ;
     mim:type mim:CharacterString ;
@@ -3371,6 +3531,7 @@ gescheiden."""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "8" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "paragraaf"@nl ;
     mim:type mim:CharacterString ;
@@ -3412,6 +3573,7 @@ gescheiden."""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "50" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "aangemaaktDoor"@nl ;
     mim:type mim:CharacterString ;
@@ -3507,6 +3669,7 @@ gescheiden."""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "50" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "gemuteerdDoor"@nl ;
     mim:type mim:CharacterString ;
@@ -3526,6 +3689,7 @@ gescheiden."""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "50" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "inspectietype"@nl ;
     mim:type mim:CharacterString ;
@@ -3545,6 +3709,7 @@ gescheiden."""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "20" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "kenmerk"@nl ;
     mim:type mim:CharacterString ;
@@ -3564,6 +3729,7 @@ gescheiden."""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "80" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "omschrijving"@nl ;
     mim:type mim:CharacterString ;
@@ -3583,6 +3749,7 @@ gescheiden."""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "80" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "opmerkingen"@nl ;
     mim:type mim:CharacterString ;
@@ -3602,6 +3769,7 @@ gescheiden."""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "20" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "status"@nl ;
     mim:type mim:CharacterString ;
@@ -3621,6 +3789,7 @@ gescheiden."""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "500" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "activiteiten"@nl ;
     mim:type mim:CharacterString ;
@@ -3640,6 +3809,7 @@ gescheiden."""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "500" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "adres"@nl ;
     mim:type mim:CharacterString ;
@@ -3678,6 +3848,7 @@ gescheiden."""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "200" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "dossiernummer"@nl ;
     mim:type mim:CharacterString ;
@@ -3697,6 +3868,7 @@ gescheiden."""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "80" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "intaketype"@nl ;
     mim:type mim:CharacterString ;
@@ -3716,6 +3888,7 @@ gescheiden."""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "80" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "internNummer"@nl ;
     mim:type mim:CharacterString ;
@@ -3735,6 +3908,7 @@ gescheiden."""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "30" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "kadastraleAanduiding"@nl ;
     mim:type mim:CharacterString ;
@@ -3754,6 +3928,7 @@ gescheiden."""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "80" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "kenmerk"@nl ;
     mim:type mim:CharacterString ;
@@ -3775,7 +3950,7 @@ gescheiden."""@nl ;
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "locatie"@nl ;
-    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/point> ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/gm-point> ;
     dcterms:identifier "EAID_F564749B_4432_4242_90EB_6AC5B496EEE6" ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/veiligheid-en-vergunningen/vth/vomaanvraagofmelding> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/veiligheid-en-vergunningen/vth/> ;
@@ -3792,6 +3967,7 @@ gescheiden."""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "300" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "locatieOmschrijving"@nl ;
     mim:type mim:CharacterString ;
@@ -3830,6 +4006,7 @@ gescheiden."""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "50" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "aangemaaktDoor"@nl ;
     mim:type mim:CharacterString ;
@@ -3841,6 +4018,7 @@ gescheiden."""@nl ;
 <https://lod.gemeentelijkgegevensmodel.nl/veiligheid-en-vergunningen/vth/vordering/bedragbtw> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "bedragBTW"@nl ;
+    mim:eenheid [ ] ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/veiligheid-en-vergunningen/vth/vordering/bedragbtw"^^xsd:anyURI ;
@@ -3849,6 +4027,7 @@ gescheiden."""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "10,2" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "bedragBTW"@nl ;
     mim:type mim:Decimal ;
@@ -3906,6 +4085,7 @@ gescheiden."""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "50" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "geaccordeerd"@nl ;
     mim:type mim:CharacterString ;
@@ -3925,6 +4105,7 @@ gescheiden."""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "50" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "geaccordeerdDoor"@nl ;
     mim:type mim:CharacterString ;
@@ -3963,6 +4144,7 @@ gescheiden."""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "50" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "geexporteerd"@nl ;
     mim:type mim:CharacterString ;
@@ -3982,6 +4164,7 @@ gescheiden."""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "50" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "gemuteerdDoor"@nl ;
     mim:type mim:CharacterString ;
@@ -4012,6 +4195,7 @@ gescheiden."""@nl ;
 <https://lod.gemeentelijkgegevensmodel.nl/veiligheid-en-vergunningen/vth/vordering/totaalbedrag> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "totaalbedrag"@nl ;
+    mim:eenheid [ ] ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/veiligheid-en-vergunningen/vth/vordering/totaalbedrag"^^xsd:anyURI ;
@@ -4020,6 +4204,7 @@ gescheiden."""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "10,2" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "totaalbedrag"@nl ;
     mim:type mim:Decimal ;
@@ -4031,6 +4216,7 @@ gescheiden."""@nl ;
 <https://lod.gemeentelijkgegevensmodel.nl/veiligheid-en-vergunningen/vth/vordering/totaalbedraginclusief> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "totaalbedragInclusief"@nl ;
+    mim:eenheid [ ] ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/veiligheid-en-vergunningen/vth/vordering/totaalbedraginclusief"^^xsd:anyURI ;
@@ -4039,6 +4225,7 @@ gescheiden."""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "10,2" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "totaalbedragInclusief"@nl ;
     mim:type mim:Decimal ;
@@ -4058,6 +4245,7 @@ gescheiden."""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "50" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "vorderingnummer"@nl ;
     mim:type mim:CharacterString ;
@@ -4077,6 +4265,7 @@ gescheiden."""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "50" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "Aangemaakt_door"@nl ;
     mim:type mim:CharacterString ;
@@ -4107,6 +4296,7 @@ gescheiden."""@nl ;
 <https://lod.gemeentelijkgegevensmodel.nl/veiligheid-en-vergunningen/vth/vorderingregel/bedrag-excl-btw> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "Bedrag_excl_btw"@nl ;
+    mim:eenheid [ ] ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/veiligheid-en-vergunningen/vth/vorderingregel/bedrag-excl-btw"^^xsd:anyURI ;
@@ -4115,6 +4305,7 @@ gescheiden."""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "10,2" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "Bedrag_excl_btw"@nl ;
     mim:type mim:Decimal ;
@@ -4126,6 +4317,7 @@ gescheiden."""@nl ;
 <https://lod.gemeentelijkgegevensmodel.nl/veiligheid-en-vergunningen/vth/vorderingregel/bedrag-incl-btw> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "Bedrag_incl_btw"@nl ;
+    mim:eenheid [ ] ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/veiligheid-en-vergunningen/vth/vorderingregel/bedrag-incl-btw"^^xsd:anyURI ;
@@ -4134,6 +4326,7 @@ gescheiden."""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "10,2" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "Bedrag_incl_btw"@nl ;
     mim:type mim:Decimal ;
@@ -4153,6 +4346,7 @@ gescheiden."""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "50" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "Btwcategorie"@nl ;
     mim:type mim:CharacterString ;
@@ -4172,6 +4366,7 @@ gescheiden."""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "50" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "Gemuteerd_door"@nl ;
     mim:type mim:CharacterString ;
@@ -4210,6 +4405,7 @@ gescheiden."""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "50" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "Omschrijving"@nl ;
     mim:type mim:CharacterString ;
@@ -4229,6 +4425,7 @@ gescheiden."""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "50" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "Periodiek"@nl ;
     mim:type mim:CharacterString ;
@@ -4248,6 +4445,7 @@ gescheiden."""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "50" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "Type"@nl ;
     mim:type mim:CharacterString ;
@@ -4280,6 +4478,7 @@ gescheiden."""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "1000" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "omschrijving"@nl ;
     mim:type mim:CharacterString ;
@@ -4299,6 +4498,7 @@ gescheiden."""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "20" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "behandelaar"@nl ;
     mim:type mim:CharacterString ;
@@ -4318,6 +4518,7 @@ gescheiden."""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "50" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "bevoegdGezag"@nl ;
     mim:type mim:CharacterString ;
@@ -4356,6 +4557,7 @@ gescheiden."""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "20" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "teamBehandelaar"@nl ;
     mim:type mim:CharacterString ;
@@ -4375,6 +4577,7 @@ gescheiden."""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "50" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "uitvoerendeInstantie"@nl ;
     mim:type mim:CharacterString ;
@@ -4384,7 +4587,7 @@ gescheiden."""@nl ;
     rdfs:range xsd:string .
 
 <https://lod.gemeentelijkgegevensmodel.nl/veiligheid-en-vergunningen/vth/vthzaak/verkamering> a mim:Attribuutsoort,
-        owl:ObjectProperty ;
+        owl:DatatypeProperty ;
     rdfs:label "verkamering"@nl ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
@@ -4396,15 +4599,16 @@ gescheiden."""@nl ;
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "verkamering"@nl ;
-    mim:type <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/boolean> ;
+    mim:type mim:Boolean ;
     dcterms:identifier "EAID_89E7E19F_DC65_4884_91A2_416536E23A5F" ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/veiligheid-en-vergunningen/vth/vthzaak> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/veiligheid-en-vergunningen/vth/> ;
-    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/boolean> .
+    rdfs:range xsd:boolean .
 
 <https://lod.gemeentelijkgegevensmodel.nl/veiligheid-en-vergunningen/vth/waboaanvraagofmelding/bouwkosten> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "bouwkosten"@nl ;
+    mim:eenheid [ ] ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/veiligheid-en-vergunningen/vth/waboaanvraagofmelding/bouwkosten"^^xsd:anyURI ;
@@ -4413,6 +4617,7 @@ gescheiden."""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "10,2" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "bouwkosten"@nl ;
     mim:type mim:Decimal ;
@@ -4432,6 +4637,7 @@ gescheiden."""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "80" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "OLONummer"@nl ;
     mim:type mim:CharacterString ;
@@ -4451,6 +4657,7 @@ gescheiden."""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "1000" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "omschrijving"@nl ;
     mim:type mim:CharacterString ;
@@ -4462,6 +4669,7 @@ gescheiden."""@nl ;
 <https://lod.gemeentelijkgegevensmodel.nl/veiligheid-en-vergunningen/vth/waboaanvraagofmelding/projectkosten> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "projectkosten"@nl ;
+    mim:eenheid [ ] ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/veiligheid-en-vergunningen/vth/waboaanvraagofmelding/projectkosten"^^xsd:anyURI ;
@@ -4470,6 +4678,7 @@ gescheiden."""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "10,2" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "projectkosten"@nl ;
     mim:type mim:Decimal ;
@@ -4489,6 +4698,7 @@ gescheiden."""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "100" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "registratienummer"@nl ;
     mim:type mim:CharacterString ;
@@ -4741,20 +4951,6 @@ gescheiden."""@nl ;
     rdfs:comment "Een na overweging of beraadslaging vastgestelde beslissing voor een individueel of concreet geval."@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/boolean> a mim:Enumeratie,
-        owl:Class,
-        skos:ConceptScheme ;
-    rdfs:label "Boolean"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/boolean"^^xsd:anyURI ;
-    mim:naam "Boolean"@nl ;
-    mim:waarde <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/boolean/ja>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/boolean/leeg>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/boolean/nee>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/boolean/onbekend> ;
-    dcterms:identifier "EAID_9BD0FBCB_1A9E_4cab_9280_0EBC428E38F7" ;
-    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/> ;
-    rdfs:subClassOf skos:Concept .
-
 <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/rechtspersoon> a mim:Objecttype,
         owl:Class ;
     rdfs:label "Rechtspersoon"@nl ;
@@ -4845,6 +5041,29 @@ gescheiden."""@nl ;
     rdfs:comment "Een *vordering* is een juridisch recht dat een schuldeiser heeft om van een andere partij (schuldenaar) een prestatie te ontvangen, zoals een geldbedrag, levering van goederen of uitvoering van een dienst."@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/veiligheid-en-vergunningen/vth/> .
 
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaaktype> a mim:Objecttype,
+        owl:Class ;
+    rdfs:label "Zaaktype"@nl ;
+    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaaktype/archiefcode>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaaktype/datumbegingeldigheidzaaktype>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaaktype/datumeindegeldigheidzaaktype>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaaktype/doorlooptijdbehandeling>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaaktype/indicatiepublicatie>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaaktype/publicatietekst>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaaktype/servicenormbehandeling>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaaktype/trefwoord>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaaktype/vertrouwelijkaanduiding>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaaktype/zaakcategorie>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaaktype/zaaktypeomschrijving>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaaktype/zaaktypeomschrijvinggeneriek> ;
+    mim:definitie "Generieke aanduiding van de aard van een zaak"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaaktype"^^xsd:anyURI ;
+    mim:indicatieAbstractObject false ;
+    mim:naam "Zaaktype"@nl ;
+    dcterms:identifier "EAID_7210A379_17EE_4143_A106_ECD9414B2A0D" ;
+    rdfs:comment "Generieke aanduiding van de aard van een zaak"@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> .
+
 <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker> a mim:Objecttype,
         owl:Class ;
     rdfs:label "Medewerker"@nl ;
@@ -4869,29 +5088,6 @@ gescheiden."""@nl ;
     rdfs:comment "Een medewerker van de organisatie die zaken behandelt uit hoofde van zijn of haar functie binnen een ORGANISATORISCHE EENHEID."@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaaktype> a mim:Objecttype,
-        owl:Class ;
-    rdfs:label "Zaaktype"@nl ;
-    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaaktype/archiefcode>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaaktype/datumbegingeldigheidzaaktype>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaaktype/datumeindegeldigheidzaaktype>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaaktype/doorlooptijdbehandeling>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaaktype/indicatiepublicatie>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaaktype/publicatietekst>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaaktype/servicenormbehandeling>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaaktype/trefwoord>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaaktype/vertrouwelijkaanduiding>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaaktype/zaakcategorie>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaaktype/zaaktypeomschrijving>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaaktype/zaaktypeomschrijvinggeneriek> ;
-    mim:definitie "Generieke aanduiding van de aard van een zaak"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaaktype"^^xsd:anyURI ;
-    mim:indicatieAbstractObject false ;
-    mim:naam "Zaaktype"@nl ;
-    dcterms:identifier "EAID_7210A379_17EE_4143_A106_ECD9414B2A0D" ;
-    rdfs:comment "Generieke aanduiding van de aard van een zaak"@nl ;
-    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> .
-
 <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding> a mim:Objecttype,
         owl:Class ;
     rdfs:label "AanvraagOfMelding"@nl ;
@@ -4901,13 +5097,17 @@ gescheiden."""@nl ;
         <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/datumaanmaak>,
         <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/datumafhandeling>,
         <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/datumbeginstatus>,
+        <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/datumeerstereactie>,
         <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/datumeindestatus>,
+        <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/datumnormafhandeling>,
         <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/hoofdcategorie>,
         <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/hoofdcategoriecode>,
         <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/identificatie>,
+        <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/indicatiehogeprioriteit>,
         <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/kanaal>,
         <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/onderwerp>,
         <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/onderwerpcode>,
+        <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/resultaat>,
         <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/soort>,
         <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/status>,
         <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/statuscode>,

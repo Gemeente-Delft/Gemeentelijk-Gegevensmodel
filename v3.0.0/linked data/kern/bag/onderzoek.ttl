@@ -263,58 +263,6 @@
     dcterms:isPartOf <https://lod.gemeentelijkgegevensmodel.nl/> ;
     owl:versionInfo "v3.0.0" .
 
-<https://lod.gemeentelijkgegevensmodel.nl/kern/bag/boolean/ja> a mim:Enumeratiewaarde,
-        skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/boolean> ;
-    rdfs:label "Ja"@nl ;
-    mim:code "1" ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/bag/boolean/ja"^^xsd:anyURI ;
-    mim:naam "Ja"@nl ;
-    dcterms:identifier "EAID_09A32FFB_F302_42ad_B2C7_F5EE3F9B0DFF" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/boolean> ;
-    skos:notation "1" ;
-    skos:prefLabel "Ja"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/boolean> .
-
-<https://lod.gemeentelijkgegevensmodel.nl/kern/bag/boolean/leeg> a mim:Enumeratiewaarde,
-        skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/boolean> ;
-    rdfs:label "Leeg"@nl ;
-    mim:code "-2" ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/bag/boolean/leeg"^^xsd:anyURI ;
-    mim:naam "Leeg"@nl ;
-    dcterms:identifier "EAID_586B24ED_FF6C_4c96_AC5C_F20E3191186E" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/boolean> ;
-    skos:notation "-2" ;
-    skos:prefLabel "Leeg"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/boolean> .
-
-<https://lod.gemeentelijkgegevensmodel.nl/kern/bag/boolean/nee> a mim:Enumeratiewaarde,
-        skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/boolean> ;
-    rdfs:label "Nee"@nl ;
-    mim:code "0" ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/bag/boolean/nee"^^xsd:anyURI ;
-    mim:naam "Nee"@nl ;
-    dcterms:identifier "EAID_5AB379AF_F672_4b81_B2FA_8D39DC5C8289" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/boolean> ;
-    skos:notation "0" ;
-    skos:prefLabel "Nee"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/boolean> .
-
-<https://lod.gemeentelijkgegevensmodel.nl/kern/bag/boolean/onbekend> a mim:Enumeratiewaarde,
-        skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/boolean> ;
-    rdfs:label "Onbekend"@nl ;
-    mim:code "-1" ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/bag/boolean/onbekend"^^xsd:anyURI ;
-    mim:naam "Onbekend"@nl ;
-    dcterms:identifier "EAID_5A3213D0_80D2_450d_8FBA_D2EB84278E51" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/boolean> ;
-    skos:notation "-1" ;
-    skos:prefLabel "Onbekend"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/boolean> .
-
 <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gebruiksdoel/bijeenkomstfunctie> a mim:Enumeratiewaarde,
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gebruiksdoel> ;
@@ -625,7 +573,7 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
     rdfs:range xsd:date .
 
 <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/ligplaats/geconstateerd> a mim:Attribuutsoort,
-        owl:ObjectProperty ;
+        owl:DatatypeProperty ;
     rdfs:label "geconstateerd"@nl ;
     mim:definitie "Een aanduiding waarmee kan worden aangegeven dat een object in de registratie is opgenomen als gevolg van een feitelijke constatering, zonder dat er op het moment van opname sprake is van een formele grondslag voor deze opname."@nl ;
     mim:heeftTijdlijnGeldigheid false ;
@@ -636,14 +584,14 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
-    mim:mogelijkGeenWaarde false ;
+    mim:mogelijkGeenWaarde true ;
     mim:naam "geconstateerd"@nl ;
-    mim:type <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/boolean> ;
+    mim:type mim:Boolean ;
     dcterms:identifier "EAID_67976376_7F8D_42fe_BC9F_2A68E86B3759" ;
     rdfs:comment "Een aanduiding waarmee kan worden aangegeven dat een object in de registratie is opgenomen als gevolg van een feitelijke constatering, zonder dat er op het moment van opname sprake is van een formele grondslag voor deze opname."@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/ligplaats> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/> ;
-    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/boolean> .
+    rdfs:range xsd:boolean .
 
 <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/ligplaats/geometrie> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
@@ -659,7 +607,7 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "geometrie"@nl ;
-    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/surface> ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/gm-surface> ;
     dcterms:identifier "EAID_793060EE_F8D6_4e82_B064_1EE08061D5B0" ;
     rdfs:comment "Loodrechte bovenaanzicht van de ligplaats in het Nationale Rijksdriehoekstelsel, inclusief alle zichtbare en onzichtbare delen boven en onder de grond, maar exclusief alle delen die kunnen bewegen ten opzichte van de aarde"@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/ligplaats> ;
@@ -727,11 +675,11 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "versie"@nl ;
-    mim:type mim:CharacterString ;
+    mim:type mim:Integer ;
     dcterms:identifier "EAID_468BDC0D_2C13_4d3f_951B_E194043151AF" ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/ligplaats> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/> ;
-    rdfs:range xsd:string .
+    rdfs:range xsd:integer .
 
 <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/nummeraanduiding/begingeldigheid> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
@@ -901,7 +849,7 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "geometrie"@nl ;
-    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/point> ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/gm-point> ;
     dcterms:identifier "EAID_9DA708DF_59E5_4fe4_B85C_DC0FE8EA7F21" ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/nummeraanduiding> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/> ;
@@ -922,6 +870,7 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "0..1" ;
+    mim:lengte "1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "huisletter"@nl ;
     mim:patroon "a - z , A – Z" ;
@@ -949,6 +898,7 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "5" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "huisnummer"@nl ;
     mim:patroon "Alle natuurlijke getallen tussen 1 en 99999." ;
@@ -976,6 +926,7 @@ Zie verder de toelichting in de BAG."""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "4" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "huisnummertoevoeging"@nl ;
     mim:patroon "a - z , A - Z , 0 – 9" ;
@@ -1025,6 +976,7 @@ Zie verder de toelichting in de BAG."""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "6" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "postcode"@nl ;
     mim:toelichting "Dit attribuutsoort is in de BAG gespecificeerd bij het objecttype NUMMERAANDUIDING. Het is bij de ADRESSEERBAAR OBJECT AANDUIDING opgenomen aangezien naast de NUMMERAANDUIDING de OVERIG ADRESSEERBAAR OBJECT AANDUIDING wordt onderscheiden. Aangezien de ADRESSEERBAAR OBJECT AANDUIDING een generalisatie is van NUMMERAANDUIDING en OVERIG ADRESSEERBAAR OBJECT AANDUIDING overerven beide laatstgenoemde objecttypen dit attribuutsoort. Zie verder de toelichting in de BAG."@nl ;
@@ -1780,7 +1732,7 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
     mim:mogelijkGeenWaarde false ;
     mim:naam "geometrie"@nl ;
     mim:patroon "alle binnen Nederland gelegen waarden van het RD-stelsel." ;
-    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/multisurface> ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/gm-multisurface> ;
     dcterms:identifier "EAID_C0987BF8_E01C_49af_AF3E_814D39E90620" ;
     rdfs:comment "De tweedimensionale geometrische representatie van de omtrekken van de openbare ruimte."@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/openbareruimte> ;
@@ -1803,6 +1755,7 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "11" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "Huisnummerrange even en oneven nummers"@nl ;
     mim:patroon """huisnummers van nummeraanduidingen die gerelateerd zijn aan de openbare ruimte
@@ -1831,6 +1784,7 @@ Format: NNNNN-NNNNN""" ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "11" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "Huisnummerrange even nummers"@nl ;
     mim:patroon """even huisnummers van nummeraanduidingen die gerelateerd zijn aan de openbare ruimte
@@ -1859,6 +1813,7 @@ Format:NNNNN-NNNNN""" ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "11" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "Huisnummerrange oneven nummers"@nl ;
     mim:patroon """oneven huisnummers van nummeraanduidingen die gerelateerd zijn aan de openbare ruimte
@@ -1905,6 +1860,7 @@ Format:  NNNNN-NNNNN""" ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "80" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "labelNaam"@nl ;
     mim:type mim:CharacterString ;
@@ -1926,6 +1882,7 @@ Format:  NNNNN-NNNNN""" ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "80" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "naamOpenbareruimte"@nl ;
     mim:type mim:CharacterString ;
@@ -1967,6 +1924,7 @@ Format:  NNNNN-NNNNN""" ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "80" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "straatcode"@nl ;
     mim:type mim:CharacterString ;
@@ -1990,6 +1948,7 @@ Format:  NNNNN-NNNNN""" ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "24" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "straatnaam"@nl ;
     mim:patroon "alle alfanumrieke tekens" ;
@@ -2061,7 +2020,7 @@ RUIMTE."""@nl ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "wegsegment"@nl ;
     mim:toelichting "Verkeerssystemen en kleinschalige kaarten maken gebruik van het wegsegment als representatie van de openbare ruimte als lijn."@nl ;
-    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/curve> ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/gm-curve> ;
     dcterms:identifier "EAID_BCC760A4_FCF9_416c_ADA2_F75BE3A4D5AE" ;
     rdfs:comment "De geometrische representatie van de openbare ruimte als een lijn."@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/openbareruimte> ;
@@ -2104,6 +2063,7 @@ RUIMTE."""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "6" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "brutoInhoudPand"@nl ;
     mim:patroon "0 – 999999 kubieke meter" ;
@@ -2266,7 +2226,7 @@ Dit geeft aan dat een PAND in de registratie is opgenomen als gevolg van een fei
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "geometrieBovenaanzicht"@nl ;
-    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/surface> ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/gm-surface> ;
     dcterms:identifier "EAID_203A64ED_F28E_48f8_A0E6_EA1CB2925F41" ;
     rdfs:comment "De minimaal tweedimensionale geometrische representatie van het bovenaanzicht van de omtrekken van een PAND"@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/pand> ;
@@ -2287,7 +2247,7 @@ Dit geeft aan dat een PAND in de registratie is opgenomen als gevolg van een fei
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "geometrieMaaiveld"@nl ;
-    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/multisurface> ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/gm-multisurface> ;
     dcterms:identifier "EAID_BD33C5E2_0F05_4d48_8AB3_6C04354A5E06" ;
     rdfs:comment "De tweedimensionale geometrische representatie van de omtrekken van een PAND op maaiveldniveau"@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/pand> ;
@@ -2307,7 +2267,7 @@ Dit geeft aan dat een PAND in de registratie is opgenomen als gevolg van een fei
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "geometriePunt"@nl ;
-    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/point> ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/gm-point> ;
     dcterms:identifier "EAID_3649B913_F912_47b4_97C8_6858E00C62E6" ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/pand> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/> ;
@@ -2325,6 +2285,7 @@ Dit geeft aan dat een PAND in de registratie is opgenomen als gevolg van een fei
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "3" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "hoogsteBouwlaag"@nl ;
     mim:type mim:Integer ;
@@ -2367,6 +2328,7 @@ Dit geeft aan dat een PAND in de registratie is opgenomen als gevolg van een fei
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "3" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "laagsteBouwlaag"@nl ;
     mim:type mim:Integer ;
@@ -2388,6 +2350,7 @@ Dit geeft aan dat een PAND in de registratie is opgenomen als gevolg van een fei
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "4" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "oorspronkelijkBouwjaar"@nl ;
     mim:type mim:Integer ;
@@ -2409,6 +2372,7 @@ Dit geeft aan dat een PAND in de registratie is opgenomen als gevolg van een fei
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "6" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "oppervlakte"@nl ;
     mim:type mim:Integer ;
@@ -2433,6 +2397,7 @@ Dit geeft aan dat een PAND in de registratie is opgenomen als gevolg van een fei
     mim:indicatieFormeleHistorie true ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "2" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "relatieveHoogteligging"@nl ;
     mim:patroon "gehele positieve en negatieve getallen, -9 t/m 9" ;
@@ -2793,7 +2758,7 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "Geometrie"@nl ;
-    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/surface> ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/gm-surface> ;
     dcterms:identifier "EAID_774E8A93_CE73_4ac5_8AA2_FBED2F203A6C" ;
     rdfs:comment "Loodrechte bovenaanzicht van de standplaats in het Nationale Rijksdriehoekstelsel, inclusief alle zichbare en onzichtbare delen boven en onder de grond, maar exclusief alle delen die kunnen bewegen ten opzichte van de aarde"@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/standplaats> ;
@@ -3829,6 +3794,7 @@ Terrein wordt gebruikt om een zichtbaar (tastbaar) begrensd stuk grond aan te ge
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "2" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "aantalKamers"@nl ;
     mim:type mim:Integer ;
@@ -4020,7 +3986,7 @@ Terrein wordt gebruikt om een zichtbaar (tastbaar) begrensd stuk grond aan te ge
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "geometrie"@nl ;
-    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/point> ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/gm-point> ;
     dcterms:identifier "EAID_EA34202C_6D0B_4b14_8E0A_A07B2CD46E0C" ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/verblijfsobject> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/> ;
@@ -4038,6 +4004,7 @@ Terrein wordt gebruikt om een zichtbaar (tastbaar) begrensd stuk grond aan te ge
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "3" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "hoogsteBouwlaag"@nl ;
     mim:type mim:Integer ;
@@ -4080,6 +4047,7 @@ Terrein wordt gebruikt om een zichtbaar (tastbaar) begrensd stuk grond aan te ge
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "3" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "laagsteBouwlaag"@nl ;
     mim:type mim:Integer ;
@@ -4186,6 +4154,7 @@ Terrein wordt gebruikt om een zichtbaar (tastbaar) begrensd stuk grond aan te ge
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "3" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "toegangBouwlaag"@nl ;
     mim:patroon "-99 tot +999" ;
@@ -4373,7 +4342,7 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
     rdfs:range xsd:dateTime .
 
 <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/woonplaats/geconstateerd> a mim:Attribuutsoort,
-        owl:ObjectProperty ;
+        owl:DatatypeProperty ;
     rdfs:label "geconstateerd"@nl ;
     mim:definitie "Een aanduiding waarmee kan worden aangegeven dat een object in de registratie is opgenomen als gevolg van een feitelijke constatering, zonder dat er op het moment van opname sprake is van een formele grondslag voor deze opname."@nl ;
     mim:heeftTijdlijnGeldigheid false ;
@@ -4384,14 +4353,14 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
-    mim:mogelijkGeenWaarde false ;
+    mim:mogelijkGeenWaarde true ;
     mim:naam "geconstateerd"@nl ;
-    mim:type <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/boolean> ;
+    mim:type mim:Boolean ;
     dcterms:identifier "EAID_524DA057_E4F9_4456_AC91_7DFB06F623B8" ;
     rdfs:comment "Een aanduiding waarmee kan worden aangegeven dat een object in de registratie is opgenomen als gevolg van een feitelijke constatering, zonder dat er op het moment van opname sprake is van een formele grondslag voor deze opname."@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/woonplaats> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/> ;
-    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/boolean> .
+    rdfs:range xsd:boolean .
 
 <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/woonplaats/geometrie> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
@@ -4407,7 +4376,7 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "geometrie"@nl ;
-    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/surface> ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/gm-surface> ;
     dcterms:identifier "EAID_D5FD9A6C_D887_49db_8986_26A6F0E84405" ;
     rdfs:comment "De tweedimensionale geometrische representatie van het vlak dat wordt gevormd door de omtrekken van een woonplaats."@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/woonplaats> ;
@@ -4544,6 +4513,7 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "80" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "woonplaatsnaam"@nl ;
     mim:type mim:CharacterString ;
@@ -4565,6 +4535,7 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "24" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "woonplaatsnaamNEN"@nl ;
     mim:type mim:CharacterString ;
@@ -4698,20 +4669,6 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
         <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statuswoonplaats/woonplaats-aangewezen>,
         <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statuswoonplaats/woonplaats-ingetrokken> ;
     dcterms:identifier "EAID_D83F4016_ED80_4c39_A51C_DB3E942890A7" ;
-    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/> ;
-    rdfs:subClassOf skos:Concept .
-
-<https://lod.gemeentelijkgegevensmodel.nl/kern/bag/boolean> a mim:Enumeratie,
-        owl:Class,
-        skos:ConceptScheme ;
-    rdfs:label "Boolean"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/bag/boolean"^^xsd:anyURI ;
-    mim:naam "Boolean"@nl ;
-    mim:waarde <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/boolean/ja>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/boolean/leeg>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/boolean/nee>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/boolean/onbekend> ;
-    dcterms:identifier "EAID_E44C5FB6_67AB_4efe_B3F0_C6AFE5B6192F" ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/> ;
     rdfs:subClassOf skos:Concept .
 

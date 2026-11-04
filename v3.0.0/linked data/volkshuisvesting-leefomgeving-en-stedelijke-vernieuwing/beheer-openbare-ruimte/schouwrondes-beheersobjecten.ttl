@@ -93,29 +93,6 @@
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/imbor/> ;
     rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/logboek> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/imbor/beheerobject/status> a mim:Relatiesoort,
-        owl:ObjectProperty ;
-    rdfs:label "status"@nl ;
-    mim:aggregatietype mim:Geen ;
-    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/imbor/beheerobject> ;
-    mim:definitie "Status van het beheerobject in het inwinningsproces van de geometrie. Wordt gebruikt voor schets- en deifinitieve geometrie."@nl ;
-    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/status> ;
-    mim:heeftTijdlijnGeldigheid false ;
-    mim:heeftTijdlijnRegistratie false ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/imbor/beheerobject/status"^^xsd:anyURI ;
-    mim:indicatieAfleidbaar false ;
-    mim:indicatieFormeleHistorie false ;
-    mim:indicatieMaterieleHistorie false ;
-    mim:kardinaliteit "1..1" ;
-    mim:mogelijkGeenWaarde true ;
-    mim:naam "status"@nl ;
-    mim:unidirectioneel true ;
-    dcterms:identifier "EAID_01fa347b_7cb8_4f84_88fa_bc289187b160" ;
-    rdfs:comment "Status van het beheerobject in het inwinningsproces van de geometrie. Wordt gebruikt voor schets- en deifinitieve geometrie."@nl ;
-    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/imbor/beheerobject> ;
-    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/imbor/> ;
-    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/status> .
-
 <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/crow-melding/conform> a mim:Relatiesoort,
         owl:ObjectProperty ;
     rdfs:label "conform"@nl ;
@@ -339,6 +316,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "200" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "naam"@nl ;
     mim:type mim:CharacterString ;
@@ -358,6 +336,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "40" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "nummer"@nl ;
     mim:type mim:CharacterString ;
@@ -378,6 +357,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "200" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "achternaam"@nl ;
     mim:type mim:CharacterString ;
@@ -439,6 +419,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "0..1" ;
+    mim:lengte "254" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "emailadres"@nl ;
     mim:type mim:CharacterString ;
@@ -481,6 +462,7 @@
     mim:indicatieFormeleHistorie true ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "50" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "functie"@nl ;
     mim:type mim:CharacterString ;
@@ -502,6 +484,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "1" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "geslachtsaanduiding"@nl ;
     mim:type mim:CharacterString ;
@@ -523,6 +506,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "24" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "medewerkerIdentificatie"@nl ;
     mim:type mim:CharacterString ;
@@ -544,6 +528,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "0..1" ;
+    mim:lengte "1000" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "medewerkerToelichting"@nl ;
     mim:type mim:CharacterString ;
@@ -565,6 +550,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "30" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "roepnaam"@nl ;
     mim:type mim:CharacterString ;
@@ -586,6 +572,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "0..1" ;
+    mim:lengte "20" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "telefoonnummer"@nl ;
     mim:type mim:CharacterString ;
@@ -607,6 +594,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "20" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "voorletters"@nl ;
     mim:type mim:CharacterString ;
@@ -629,6 +617,7 @@ gescheiden."""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "0..1" ;
+    mim:lengte "10" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "voorvoegselAchternaam"@nl ;
     mim:type mim:CharacterString ;
@@ -820,6 +809,7 @@ gescheiden."""@nl ;
     mim:indicatieFormeleHistorie true ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "0..1" ;
+    mim:lengte "50" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "aanduidingNaamgebruik"@nl ;
     mim:type mim:CharacterString ;
@@ -841,6 +831,7 @@ gescheiden."""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "50" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "aanhefAanschrijving"@nl ;
     mim:type mim:CharacterString ;
@@ -862,6 +853,7 @@ gescheiden."""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "0..*" ;
+    mim:lengte "80" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "academischeTitel"@nl ;
     mim:type mim:CharacterString ;
@@ -882,6 +874,7 @@ gescheiden."""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "100" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "achternaam"@nl ;
     mim:type mim:CharacterString ;
@@ -923,6 +916,7 @@ gescheiden."""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "20" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "anummer"@nl ;
     mim:type mim:CharacterString ;
@@ -943,6 +937,7 @@ gescheiden."""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "50" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "bijzonderNederlanderschap"@nl ;
     mim:type mim:CharacterString ;
@@ -962,6 +957,7 @@ gescheiden."""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "9" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "burgerservicenummer"@nl ;
     mim:type mim:CharacterString ;
@@ -982,6 +978,7 @@ gescheiden."""@nl ;
     mim:indicatieFormeleHistorie true ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "0..1" ;
+    mim:lengte "22" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "datumGeboorte"@nl ;
     mim:type mim:CharacterString ;
@@ -1003,6 +1000,7 @@ gescheiden."""@nl ;
     mim:indicatieFormeleHistorie true ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "0..1" ;
+    mim:lengte "22" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "datumOverlijden"@nl ;
     mim:type mim:CharacterString ;
@@ -1045,6 +1043,7 @@ gescheiden."""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "200" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "geboorteplaats"@nl ;
     mim:type mim:CharacterString ;
@@ -1066,6 +1065,7 @@ gescheiden."""@nl ;
     mim:indicatieFormeleHistorie true ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "1" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "geslachtsaanduiding"@nl ;
     mim:type mim:CharacterString ;
@@ -1087,6 +1087,7 @@ gescheiden."""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "200" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "geslachtsnaam"@nl ;
     mim:type mim:CharacterString ;
@@ -1108,6 +1109,7 @@ gescheiden."""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "200" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "geslachtsnaamAanschrijving"@nl ;
     mim:type mim:CharacterString ;
@@ -1129,6 +1131,7 @@ gescheiden."""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "50" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "handlichting"@nl ;
     mim:type mim:CharacterString ;
@@ -1216,6 +1219,7 @@ Deze indicatie is enkel van belang als de gegevens uit de BRP niet beschikbaar z
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "100" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "nationaliteit"@nl ;
     mim:type mim:CharacterString ;
@@ -1236,6 +1240,7 @@ Deze indicatie is enkel van belang als de gegevens uit de BRP niet beschikbaar z
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "200" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "overlijdensplaats"@nl ;
     mim:type mim:CharacterString ;
@@ -1257,6 +1262,7 @@ Deze indicatie is enkel van belang als de gegevens uit de BRP niet beschikbaar z
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "20" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "voorlettersAanschrijving"@nl ;
     mim:type mim:CharacterString ;
@@ -1279,6 +1285,7 @@ geslachtsnaam voorafgaat.."""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "0..1" ;
+    mim:lengte "200" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "voornamen"@nl ;
     mim:type mim:CharacterString ;
@@ -1301,6 +1308,7 @@ geslachtsnaam voorafgaat.."""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "0..1" ;
+    mim:lengte "200" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "voornamenAanschrijving"@nl ;
     mim:type mim:CharacterString ;
@@ -1322,6 +1330,7 @@ geslachtsnaam voorafgaat.."""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "0..1" ;
+    mim:lengte "80" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "voorvoegselGeslachtsnaam"@nl ;
     mim:type mim:CharacterString ;
@@ -1330,6 +1339,828 @@ geslachtsnaam voorafgaat.."""@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/natuurlijkpersoon> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
     rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-beheergebied/organisatiespecifieke-domeinwaarden> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-beheergebied> ;
+    rdfs:label "Organisatiespecifieke domeinwaarden"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-beheergebied/organisatiespecifieke-domeinwaarden"^^xsd:anyURI ;
+    mim:naam "Organisatiespecifieke domeinwaarden"@nl ;
+    dcterms:identifier "EAID_E3B754F4_C59E_4DC8_80EE_2CB8E51AB66" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-beheergebied> ;
+    skos:prefLabel "Organisatiespecifieke domeinwaarden"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-beheergebied> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-gebiedstype/agrarisch-gebied> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-gebiedstype> ;
+    rdfs:label "Agrarisch gebied"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-gebiedstype/agrarisch-gebied"^^xsd:anyURI ;
+    mim:naam "Agrarisch gebied"@nl ;
+    dcterms:identifier "EAID_D529C79E_C545_4432_A2D9_F3C097553DC" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-gebiedstype> ;
+    skos:prefLabel "Agrarisch gebied"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-gebiedstype> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-gebiedstype/begraafplaats> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-gebiedstype> ;
+    rdfs:label "Begraafplaats"@nl ;
+    mim:definitie "Een besloten gebied waar lichamen van overleden personen worden begraven. Ook worden op begraafplaatsen urnen as van gecremeerde lichamen bewaard. (bron: definities.geostandaarden.nl)"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-gebiedstype/begraafplaats"^^xsd:anyURI ;
+    mim:naam "Begraafplaats"@nl ;
+    dcterms:identifier "EAID_125A746D_1742_459B_B220_B44CA018BB3" ;
+    skos:definition "Een besloten gebied waar lichamen van overleden personen worden begraven. Ook worden op begraafplaatsen urnen as van gecremeerde lichamen bewaard. (bron: definities.geostandaarden.nl)"@nl ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-gebiedstype> ;
+    skos:prefLabel "Begraafplaats"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-gebiedstype> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-gebiedstype/hoofdwegen> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-gebiedstype> ;
+    rdfs:label "Hoofdwegen"@nl ;
+    mim:definitie "Gebied primair in gebruik voor verkeer en vervoer, waaronder verstaan spoorwegen, wegdelen, vliegverkeersbanen, parkeerterreinen, bermen en de ondersteunende objecten als kunstwerken. (bron: definities.geostandaarden.nl) Opmerking: Erftoegangswegen (buurtontsluitingswegen, industriewegen, landbouwwegen, fietsstraten, woonstraten), fietspaden, voetpaden, ruiterpaden en parkeergebieden worden toegerekend aan het functionele gebied waarbinnen zij liggen."@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-gebiedstype/hoofdwegen"^^xsd:anyURI ;
+    mim:naam "Hoofdwegen"@nl ;
+    dcterms:identifier "EAID_3907B348_BB1F_4370_8DB6_019A78DE401" ;
+    skos:definition "Gebied primair in gebruik voor verkeer en vervoer, waaronder verstaan spoorwegen, wegdelen, vliegverkeersbanen, parkeerterreinen, bermen en de ondersteunende objecten als kunstwerken. (bron: definities.geostandaarden.nl) Opmerking: Erftoegangswegen (buurtontsluitingswegen, industriewegen, landbouwwegen, fietsstraten, woonstraten), fietspaden, voetpaden, ruiterpaden en parkeergebieden worden toegerekend aan het functionele gebied waarbinnen zij liggen."@nl ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-gebiedstype> ;
+    skos:prefLabel "Hoofdwegen"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-gebiedstype> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-gebiedstype/natuurgebied> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-gebiedstype> ;
+    rdfs:label "Natuurgebied"@nl ;
+    mim:definitie "Gebied dat wegens natuurschoon en/of natuurlijke historie in stand wordt gehouden. (bron: definities.geostandaarden.nl)"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-gebiedstype/natuurgebied"^^xsd:anyURI ;
+    mim:naam "Natuurgebied"@nl ;
+    dcterms:identifier "EAID_78F1943D_2952_4E0A_B451_FA9B3B7C44C" ;
+    skos:definition "Gebied dat wegens natuurschoon en/of natuurlijke historie in stand wordt gehouden. (bron: definities.geostandaarden.nl)"@nl ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-gebiedstype> ;
+    skos:prefLabel "Natuurgebied"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-gebiedstype> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-gebiedstype/recreatiegebied> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-gebiedstype> ;
+    rdfs:label "Recreatiegebied"@nl ;
+    mim:definitie "Landschappelijk ingericht terrein, begroeid met houtachtige en kruidachtige vegetatie, verharding, objecten, waterpartijen en dergelijke, bedoeld als (grootschalige) recreatieve voorziening.(bron: definities.geostandaarden.nl)"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-gebiedstype/recreatiegebied"^^xsd:anyURI ;
+    mim:naam "Recreatiegebied"@nl ;
+    dcterms:identifier "EAID_C37A8D52_DAD8_4E18_A7DF_56B93691CA1" ;
+    skos:definition "Landschappelijk ingericht terrein, begroeid met houtachtige en kruidachtige vegetatie, verharding, objecten, waterpartijen en dergelijke, bedoeld als (grootschalige) recreatieve voorziening.(bron: definities.geostandaarden.nl)"@nl ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-gebiedstype> ;
+    skos:prefLabel "Recreatiegebied"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-gebiedstype> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-gebiedstype/sportterrein> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-gebiedstype> ;
+    rdfs:label "Sportterrein"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-gebiedstype/sportterrein"^^xsd:anyURI ;
+    mim:naam "Sportterrein"@nl ;
+    dcterms:identifier "EAID_ED3C635D_72F1_40E1_A019_7E92BAEE20B" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-gebiedstype> ;
+    skos:prefLabel "Sportterrein"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-gebiedstype> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-gebiedstype/waterwegen> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-gebiedstype> ;
+    rdfs:label "Waterwegen"@nl ;
+    mim:definitie "Gebied grenzend aan oppervlaktewater, primair in gebruik voor de oppervlaktewaterhuishouding (waterafvoer, wateraanvoer en waterconservering). (bron: definities.geostandaarden.nl) Opmerking: Grachten, sloten, vijvers, greppels en droge sloten worden toegerekend aan het functionele gebied waarbinnen zij liggen."@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-gebiedstype/waterwegen"^^xsd:anyURI ;
+    mim:naam "Waterwegen"@nl ;
+    dcterms:identifier "EAID_98706918_76E5_44DE_9437_D1FB67A41CE" ;
+    skos:definition "Gebied grenzend aan oppervlaktewater, primair in gebruik voor de oppervlaktewaterhuishouding (waterafvoer, wateraanvoer en waterconservering). (bron: definities.geostandaarden.nl) Opmerking: Grachten, sloten, vijvers, greppels en droge sloten worden toegerekend aan het functionele gebied waarbinnen zij liggen."@nl ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-gebiedstype> ;
+    skos:prefLabel "Waterwegen"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-gebiedstype> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-gebiedstype/werkgebied> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-gebiedstype> ;
+    rdfs:label "Werkgebied"@nl ;
+    mim:definitie "Gebied waarop panden of overige gebouwen staan, en / of niet bebouwde oppervlakte , voornamelijk gebruikt voor economische activiteiten en non-profit activiteiten. (bron: definities.geostandaarden.nl)"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-gebiedstype/werkgebied"^^xsd:anyURI ;
+    mim:naam "Werkgebied"@nl ;
+    dcterms:identifier "EAID_908B9A77_9552_4E53_8412_1F7703BFA3E" ;
+    skos:definition "Gebied waarop panden of overige gebouwen staan, en / of niet bebouwde oppervlakte , voornamelijk gebruikt voor economische activiteiten en non-profit activiteiten. (bron: definities.geostandaarden.nl)"@nl ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-gebiedstype> ;
+    skos:prefLabel "Werkgebied"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-gebiedstype> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-gebiedstype/winkelgebied> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-gebiedstype> ;
+    rdfs:label "Winkelgebied"@nl ;
+    mim:definitie "Bebouwd of landelijk gebied, niet zijnde woon- of bedrijventerrein, in gebruik voor maatschappelijke- en publieksdoeleinden (omvat overheids- en particuliere terreinen). (bron: definities.geostandaarden.nl)"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-gebiedstype/winkelgebied"^^xsd:anyURI ;
+    mim:naam "Winkelgebied"@nl ;
+    dcterms:identifier "EAID_A9B70D62_E318_4AD1_B819_676ECAF9B2C" ;
+    skos:definition "Bebouwd of landelijk gebied, niet zijnde woon- of bedrijventerrein, in gebruik voor maatschappelijke- en publieksdoeleinden (omvat overheids- en particuliere terreinen). (bron: definities.geostandaarden.nl)"@nl ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-gebiedstype> ;
+    skos:prefLabel "Winkelgebied"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-gebiedstype> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-gebiedstype/woongebied> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-gebiedstype> ;
+    rdfs:label "Woongebied"@nl ;
+    mim:definitie "Gebied waarop panden of overige bouwwerken staan die voornamelijk gebruikt worden voor bewoning, inclusief erven en tuinen die bij de panden behoren. (bron: definities.geostandaarden.nl)"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-gebiedstype/woongebied"^^xsd:anyURI ;
+    mim:naam "Woongebied"@nl ;
+    dcterms:identifier "EAID_E3DF5BBF_1039_455A_A259_166B0A5A67E" ;
+    skos:definition "Gebied waarop panden of overige bouwwerken staan die voornamelijk gebruikt worden voor bewoning, inclusief erven en tuinen die bij de panden behoren. (bron: definities.geostandaarden.nl)"@nl ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-gebiedstype> ;
+    skos:prefLabel "Woongebied"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-gebiedstype> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-grondsoort/klei> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-grondsoort> ;
+    rdfs:label "Klei"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-grondsoort/klei"^^xsd:anyURI ;
+    mim:naam "Klei"@nl ;
+    dcterms:identifier "EAID_D7292A9F_0FFA_4F82_A139_6BD290695EA" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-grondsoort> ;
+    skos:prefLabel "Klei"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-grondsoort> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-grondsoort/klei-veen> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-grondsoort> ;
+    rdfs:label "Klei/veen"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-grondsoort/klei-veen"^^xsd:anyURI ;
+    mim:naam "Klei/veen"@nl ;
+    dcterms:identifier "EAID_1B2215F5_8062_46AC_A68F_98251EFD2B9" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-grondsoort> ;
+    skos:prefLabel "Klei/veen"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-grondsoort> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-grondsoort/l-ss> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-grondsoort> ;
+    rdfs:label "Löss"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-grondsoort/l-ss"^^xsd:anyURI ;
+    mim:naam "Löss"@nl ;
+    dcterms:identifier "EAID_7F22421C_2089_4F9A_AC89_2D8075F35EC" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-grondsoort> ;
+    skos:prefLabel "Löss"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-grondsoort> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-grondsoort/leem> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-grondsoort> ;
+    rdfs:label "Leem"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-grondsoort/leem"^^xsd:anyURI ;
+    mim:naam "Leem"@nl ;
+    dcterms:identifier "EAID_741900E2_951D_4F0C_A8BB_885C48E0593" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-grondsoort> ;
+    skos:prefLabel "Leem"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-grondsoort> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-grondsoort/mergel> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-grondsoort> ;
+    rdfs:label "Mergel"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-grondsoort/mergel"^^xsd:anyURI ;
+    mim:naam "Mergel"@nl ;
+    dcterms:identifier "EAID_0D04AE52_0CFE_46F5_96C6_166F6C00FC0" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-grondsoort> ;
+    skos:prefLabel "Mergel"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-grondsoort> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-grondsoort/veen> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-grondsoort> ;
+    rdfs:label "Veen"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-grondsoort/veen"^^xsd:anyURI ;
+    mim:naam "Veen"@nl ;
+    dcterms:identifier "EAID_939F56C3_92EB_468F_8DF6_34EF01245A9" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-grondsoort> ;
+    skos:prefLabel "Veen"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-grondsoort> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-grondsoort/zand> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-grondsoort> ;
+    rdfs:label "Zand"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-grondsoort/zand"^^xsd:anyURI ;
+    mim:naam "Zand"@nl ;
+    dcterms:identifier "EAID_943FD9C3_EBB4_45C2_B2FE_85FD351598E" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-grondsoort> ;
+    skos:prefLabel "Zand"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-grondsoort> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-grondsoortplus/slap-veen> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-grondsoortplus> ;
+    rdfs:label "Slap veen"@nl ;
+    mim:definitie "Is nadere aanduiding van veen."@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-grondsoortplus/slap-veen"^^xsd:anyURI ;
+    mim:naam "Slap veen"@nl ;
+    dcterms:identifier "EAID_86DEF033_D8EC_4B5C_B225_D290C5D5478" ;
+    skos:definition "Is nadere aanduiding van veen."@nl ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-grondsoortplus> ;
+    skos:prefLabel "Slap veen"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-grondsoortplus> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-grondsoortplus/zeer-slap-veen> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-grondsoortplus> ;
+    rdfs:label "Zeer slap veen"@nl ;
+    mim:definitie "Is nadere aanduiding van veen."@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-grondsoortplus/zeer-slap-veen"^^xsd:anyURI ;
+    mim:naam "Zeer slap veen"@nl ;
+    dcterms:identifier "EAID_EF363C41_4F36_42A9_9E7A_F25D7F27B66" ;
+    skos:definition "Is nadere aanduiding van veen."@nl ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-grondsoortplus> ;
+    skos:prefLabel "Zeer slap veen"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-grondsoortplus> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-onderhoudsplichtige/organisatiespecifieke-domeinwaarden> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-onderhoudsplichtige> ;
+    rdfs:label "Organisatiespecifieke domeinwaarden"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-onderhoudsplichtige/organisatiespecifieke-domeinwaarden"^^xsd:anyURI ;
+    mim:naam "Organisatiespecifieke domeinwaarden"@nl ;
+    dcterms:identifier "EAID_AE9AF856_C8AD_4E14_8AFA_1CA4A8F512A" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-onderhoudsplichtige> ;
+    skos:prefLabel "Organisatiespecifieke domeinwaarden"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-onderhoudsplichtige> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-status/bestaand> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-status> ;
+    rdfs:label "Bestaand"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-status/bestaand"^^xsd:anyURI ;
+    mim:naam "Bestaand"@nl ;
+    dcterms:identifier "EAID_01A31554_111C_4765_82CB_79F0B178EB8" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-status> ;
+    skos:prefLabel "Bestaand"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-status> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-status/nieuw> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-status> ;
+    rdfs:label "Nieuw"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-status/nieuw"^^xsd:anyURI ;
+    mim:naam "Nieuw"@nl ;
+    dcterms:identifier "EAID_5F2FF959_A948_400F_895B_FA561CA79E6" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-status> ;
+    skos:prefLabel "Nieuw"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-status> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-status/ontwerp> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-status> ;
+    rdfs:label "Ontwerp"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-status/ontwerp"^^xsd:anyURI ;
+    mim:naam "Ontwerp"@nl ;
+    dcterms:identifier "EAID_647432EF_63D1_4BB8_8F0A_531B24B2FA5" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-status> ;
+    skos:prefLabel "Ontwerp"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-status> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-status/vervallen> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-status> ;
+    rdfs:label "Vervallen"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-status/vervallen"^^xsd:anyURI ;
+    mim:naam "Vervallen"@nl ;
+    dcterms:identifier "EAID_8D0C38B3_2A2B_4A02_9755_67F5636540E" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-status> ;
+    skos:prefLabel "Vervallen"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-status> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typebeheerder/gemeente> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typebeheerder> ;
+    rdfs:label "Gemeente"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typebeheerder/gemeente"^^xsd:anyURI ;
+    mim:naam "Gemeente"@nl ;
+    dcterms:identifier "EAID_84977BDC_C0C2_48CB_A9C5_A670DE4D06B" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typebeheerder> ;
+    skos:prefLabel "Gemeente"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typebeheerder> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typebeheerder/ministerie-van-defensie> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typebeheerder> ;
+    rdfs:label "Ministerie van Defensie"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typebeheerder/ministerie-van-defensie"^^xsd:anyURI ;
+    mim:naam "Ministerie van Defensie"@nl ;
+    dcterms:identifier "EAID_488B6547_1E40_431E_88A0_AF22A6407C9" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typebeheerder> ;
+    skos:prefLabel "Ministerie van Defensie"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typebeheerder> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typebeheerder/ministerie-van-economische-zaken> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typebeheerder> ;
+    rdfs:label "Ministerie van Economische Zaken"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typebeheerder/ministerie-van-economische-zaken"^^xsd:anyURI ;
+    mim:naam "Ministerie van Economische Zaken"@nl ;
+    dcterms:identifier "EAID_59D84BB4_5EC9_4C58_940B_6F5A8CF30D7" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typebeheerder> ;
+    skos:prefLabel "Ministerie van Economische Zaken"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typebeheerder> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typebeheerder/ministerie-van-infrastructuur-en-waterstaat> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typebeheerder> ;
+    rdfs:label "Ministerie van Infrastructuur en Waterstaat"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typebeheerder/ministerie-van-infrastructuur-en-waterstaat"^^xsd:anyURI ;
+    mim:naam "Ministerie van Infrastructuur en Waterstaat"@nl ;
+    dcterms:identifier "EAID_211EE91B_DA96_46B4_B0D7_60430341DDA" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typebeheerder> ;
+    skos:prefLabel "Ministerie van Infrastructuur en Waterstaat"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typebeheerder> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typebeheerder/onbekend> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typebeheerder> ;
+    rdfs:label "Onbekend"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typebeheerder/onbekend"^^xsd:anyURI ;
+    mim:naam "Onbekend"@nl ;
+    dcterms:identifier "EAID_D3054305_F71D_4760_8DBA_C37AFEC1EB8" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typebeheerder> ;
+    skos:prefLabel "Onbekend"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typebeheerder> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typebeheerder/particulier> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typebeheerder> ;
+    rdfs:label "Particulier"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typebeheerder/particulier"^^xsd:anyURI ;
+    mim:naam "Particulier"@nl ;
+    dcterms:identifier "EAID_579E480D_FBEF_4BB4_9E09_2C6253B3E2A" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typebeheerder> ;
+    skos:prefLabel "Particulier"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typebeheerder> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typebeheerder/prorail> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typebeheerder> ;
+    rdfs:label "Prorail"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typebeheerder/prorail"^^xsd:anyURI ;
+    mim:naam "Prorail"@nl ;
+    dcterms:identifier "EAID_CC8DEA0E_BBB9_4272_99AF_7FEF0F4E2BB" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typebeheerder> ;
+    skos:prefLabel "Prorail"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typebeheerder> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typebeheerder/provincie> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typebeheerder> ;
+    rdfs:label "Provincie"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typebeheerder/provincie"^^xsd:anyURI ;
+    mim:naam "Provincie"@nl ;
+    dcterms:identifier "EAID_6C724D02_C2CC_4C1A_B572_3548673A125" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typebeheerder> ;
+    skos:prefLabel "Provincie"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typebeheerder> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typebeheerder/waterschap> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typebeheerder> ;
+    rdfs:label "Waterschap"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typebeheerder/waterschap"^^xsd:anyURI ;
+    mim:naam "Waterschap"@nl ;
+    dcterms:identifier "EAID_4C1A7A68_13B3_41D8_AA23_0137F6E229F" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typebeheerder> ;
+    skos:prefLabel "Waterschap"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typebeheerder> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typebeheerderplus/havenschap> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typebeheerderplus> ;
+    rdfs:label "Havenschap"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typebeheerderplus/havenschap"^^xsd:anyURI ;
+    mim:naam "Havenschap"@nl ;
+    dcterms:identifier "EAID_A7DF949E_18F0_485B_8D99_3A328AE6061" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typebeheerderplus> ;
+    skos:prefLabel "Havenschap"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typebeheerderplus> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typebeheerderplus/landgoed> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typebeheerderplus> ;
+    rdfs:label "Landgoed"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typebeheerderplus/landgoed"^^xsd:anyURI ;
+    mim:naam "Landgoed"@nl ;
+    dcterms:identifier "EAID_2554CC0C_4824_4D2F_A502_B93C7809D98" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typebeheerderplus> ;
+    skos:prefLabel "Landgoed"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typebeheerderplus> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typebeheerderplus/natuurorganisaties> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typebeheerderplus> ;
+    rdfs:label "Natuurorganisaties"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typebeheerderplus/natuurorganisaties"^^xsd:anyURI ;
+    mim:naam "Natuurorganisaties"@nl ;
+    dcterms:identifier "EAID_88745078_DA0E_4548_8CD0_1B846DCD066" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typebeheerderplus> ;
+    skos:prefLabel "Natuurorganisaties"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typebeheerderplus> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typebeheerderplus/netbeheerder> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typebeheerderplus> ;
+    rdfs:label "Netbeheerder"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typebeheerderplus/netbeheerder"^^xsd:anyURI ;
+    mim:naam "Netbeheerder"@nl ;
+    dcterms:identifier "EAID_4F11F577_E304_45A3_9986_F897A15020D" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typebeheerderplus> ;
+    skos:prefLabel "Netbeheerder"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typebeheerderplus> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typebeheerderplus/recreatieschap> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typebeheerderplus> ;
+    rdfs:label "Recreatieschap"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typebeheerderplus/recreatieschap"^^xsd:anyURI ;
+    mim:naam "Recreatieschap"@nl ;
+    dcterms:identifier "EAID_4A843228_5B1F_4827_9ACE_CF121281849" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typebeheerderplus> ;
+    skos:prefLabel "Recreatieschap"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typebeheerderplus> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typebeheerderplus/rijksvastgoedbedrijf> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typebeheerderplus> ;
+    rdfs:label "Rijksvastgoedbedrijf"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typebeheerderplus/rijksvastgoedbedrijf"^^xsd:anyURI ;
+    mim:naam "Rijksvastgoedbedrijf"@nl ;
+    dcterms:identifier "EAID_B9B9E684_1FCB_40C0_841D_F5550545F58" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typebeheerderplus> ;
+    skos:prefLabel "Rijksvastgoedbedrijf"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typebeheerderplus> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typebeheerderplus/rijkswaterstaat> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typebeheerderplus> ;
+    rdfs:label "Rijkswaterstaat"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typebeheerderplus/rijkswaterstaat"^^xsd:anyURI ;
+    mim:naam "Rijkswaterstaat"@nl ;
+    dcterms:identifier "EAID_99BEFE33_37F9_41BC_B24C_C7D437342FF" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typebeheerderplus> ;
+    skos:prefLabel "Rijkswaterstaat"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typebeheerderplus> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typebeheerderplus/speeltuinvereniging> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typebeheerderplus> ;
+    rdfs:label "Speeltuinvereniging"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typebeheerderplus/speeltuinvereniging"^^xsd:anyURI ;
+    mim:naam "Speeltuinvereniging"@nl ;
+    dcterms:identifier "EAID_3E0EDE1F_27A3_4C0B_8F48_44E5F568F26" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typebeheerderplus> ;
+    skos:prefLabel "Speeltuinvereniging"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typebeheerderplus> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typebeheerderplus/stichting> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typebeheerderplus> ;
+    rdfs:label "Stichting"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typebeheerderplus/stichting"^^xsd:anyURI ;
+    mim:naam "Stichting"@nl ;
+    dcterms:identifier "EAID_8BE90417_F764_4CD2_8D17_21B9675099A" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typebeheerderplus> ;
+    skos:prefLabel "Stichting"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typebeheerderplus> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typebeheerderplus/universiteit> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typebeheerderplus> ;
+    rdfs:label "Universiteit"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typebeheerderplus/universiteit"^^xsd:anyURI ;
+    mim:naam "Universiteit"@nl ;
+    dcterms:identifier "EAID_F3D98702_8C81_4B6C_8BA6_AE1D18FF279" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typebeheerderplus> ;
+    skos:prefLabel "Universiteit"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typebeheerderplus> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typebeheerderplus/woningbouwcorporatie> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typebeheerderplus> ;
+    rdfs:label "Woningbouwcorporatie"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typebeheerderplus/woningbouwcorporatie"^^xsd:anyURI ;
+    mim:naam "Woningbouwcorporatie"@nl ;
+    dcterms:identifier "EAID_1CB01EDC_33EE_47C0_929E_09F0C95EBD0" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typebeheerderplus> ;
+    skos:prefLabel "Woningbouwcorporatie"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typebeheerderplus> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typeeigenaar/gemeente> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typeeigenaar> ;
+    rdfs:label "Gemeente"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typeeigenaar/gemeente"^^xsd:anyURI ;
+    mim:naam "Gemeente"@nl ;
+    dcterms:identifier "EAID_BB4F0ADD_EDCD_4094_8752_5F186491353" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typeeigenaar> ;
+    skos:prefLabel "Gemeente"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typeeigenaar> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typeeigenaar/ministerie-van-defensie> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typeeigenaar> ;
+    rdfs:label "Ministerie van Defensie"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typeeigenaar/ministerie-van-defensie"^^xsd:anyURI ;
+    mim:naam "Ministerie van Defensie"@nl ;
+    dcterms:identifier "EAID_7B633B00_B51B_491B_A651_CC08B1A0684" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typeeigenaar> ;
+    skos:prefLabel "Ministerie van Defensie"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typeeigenaar> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typeeigenaar/ministerie-van-economische-zaken> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typeeigenaar> ;
+    rdfs:label "Ministerie van Economische Zaken"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typeeigenaar/ministerie-van-economische-zaken"^^xsd:anyURI ;
+    mim:naam "Ministerie van Economische Zaken"@nl ;
+    dcterms:identifier "EAID_C0E0600F_14B3_42CF_B9BA_B6ED710C697" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typeeigenaar> ;
+    skos:prefLabel "Ministerie van Economische Zaken"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typeeigenaar> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typeeigenaar/ministerie-van-infrastructuur-en-waterstaat> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typeeigenaar> ;
+    rdfs:label "Ministerie van Infrastructuur en Waterstaat"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typeeigenaar/ministerie-van-infrastructuur-en-waterstaat"^^xsd:anyURI ;
+    mim:naam "Ministerie van Infrastructuur en Waterstaat"@nl ;
+    dcterms:identifier "EAID_4E197D1D_65D1_4CCD_BEF7_9A233B21BFE" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typeeigenaar> ;
+    skos:prefLabel "Ministerie van Infrastructuur en Waterstaat"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typeeigenaar> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typeeigenaar/onbekend> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typeeigenaar> ;
+    rdfs:label "Onbekend"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typeeigenaar/onbekend"^^xsd:anyURI ;
+    mim:naam "Onbekend"@nl ;
+    dcterms:identifier "EAID_D5FEB4E7_0602_405B_AE92_D89907C7960" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typeeigenaar> ;
+    skos:prefLabel "Onbekend"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typeeigenaar> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typeeigenaar/particulier> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typeeigenaar> ;
+    rdfs:label "Particulier"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typeeigenaar/particulier"^^xsd:anyURI ;
+    mim:naam "Particulier"@nl ;
+    dcterms:identifier "EAID_9EDDE4BE_98CB_431F_8547_3AC39D3EE6F" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typeeigenaar> ;
+    skos:prefLabel "Particulier"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typeeigenaar> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typeeigenaar/prorail> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typeeigenaar> ;
+    rdfs:label "Prorail"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typeeigenaar/prorail"^^xsd:anyURI ;
+    mim:naam "Prorail"@nl ;
+    dcterms:identifier "EAID_0DA3FCF1_C005_4156_8B0A_33A55C81FFF" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typeeigenaar> ;
+    skos:prefLabel "Prorail"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typeeigenaar> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typeeigenaar/provincie> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typeeigenaar> ;
+    rdfs:label "Provincie"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typeeigenaar/provincie"^^xsd:anyURI ;
+    mim:naam "Provincie"@nl ;
+    dcterms:identifier "EAID_762E20B9_7173_4CE4_B724_A15863777F6" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typeeigenaar> ;
+    skos:prefLabel "Provincie"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typeeigenaar> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typeeigenaar/waterschap> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typeeigenaar> ;
+    rdfs:label "Waterschap"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typeeigenaar/waterschap"^^xsd:anyURI ;
+    mim:naam "Waterschap"@nl ;
+    dcterms:identifier "EAID_9A80A412_EBA0_4EE5_8B56_86DD39708C6" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typeeigenaar> ;
+    skos:prefLabel "Waterschap"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typeeigenaar> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typeeigenaarplus/havenschap> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typeeigenaarplus> ;
+    rdfs:label "Havenschap"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typeeigenaarplus/havenschap"^^xsd:anyURI ;
+    mim:naam "Havenschap"@nl ;
+    dcterms:identifier "EAID_0BD14D89_F4A6_4376_9C45_346EB5F2D25" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typeeigenaarplus> ;
+    skos:prefLabel "Havenschap"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typeeigenaarplus> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typeeigenaarplus/landgoed> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typeeigenaarplus> ;
+    rdfs:label "Landgoed"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typeeigenaarplus/landgoed"^^xsd:anyURI ;
+    mim:naam "Landgoed"@nl ;
+    dcterms:identifier "EAID_C92E911F_E271_48A9_9DE2_EDD17E59A00" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typeeigenaarplus> ;
+    skos:prefLabel "Landgoed"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typeeigenaarplus> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typeeigenaarplus/natuurorganisatie> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typeeigenaarplus> ;
+    rdfs:label "Natuurorganisatie"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typeeigenaarplus/natuurorganisatie"^^xsd:anyURI ;
+    mim:naam "Natuurorganisatie"@nl ;
+    dcterms:identifier "EAID_8773157F_3CE7_455F_9614_B7F26F5AFE1" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typeeigenaarplus> ;
+    skos:prefLabel "Natuurorganisatie"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typeeigenaarplus> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typeeigenaarplus/netbeheerder> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typeeigenaarplus> ;
+    rdfs:label "Netbeheerder"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typeeigenaarplus/netbeheerder"^^xsd:anyURI ;
+    mim:naam "Netbeheerder"@nl ;
+    dcterms:identifier "EAID_0A476D2D_C843_4D9E_BE0A_2DD3F13CD49" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typeeigenaarplus> ;
+    skos:prefLabel "Netbeheerder"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typeeigenaarplus> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typeeigenaarplus/recreatieschap> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typeeigenaarplus> ;
+    rdfs:label "Recreatieschap"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typeeigenaarplus/recreatieschap"^^xsd:anyURI ;
+    mim:naam "Recreatieschap"@nl ;
+    dcterms:identifier "EAID_2673162A_1B1F_4048_893D_FAB1AA7FBFB" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typeeigenaarplus> ;
+    skos:prefLabel "Recreatieschap"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typeeigenaarplus> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typeeigenaarplus/rijksvastgoedbedrijf> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typeeigenaarplus> ;
+    rdfs:label "Rijksvastgoedbedrijf"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typeeigenaarplus/rijksvastgoedbedrijf"^^xsd:anyURI ;
+    mim:naam "Rijksvastgoedbedrijf"@nl ;
+    dcterms:identifier "EAID_57115B15_3B48_4739_9DD9_35E436F3695" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typeeigenaarplus> ;
+    skos:prefLabel "Rijksvastgoedbedrijf"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typeeigenaarplus> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typeeigenaarplus/rijkswaterstaat> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typeeigenaarplus> ;
+    rdfs:label "Rijkswaterstaat"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typeeigenaarplus/rijkswaterstaat"^^xsd:anyURI ;
+    mim:naam "Rijkswaterstaat"@nl ;
+    dcterms:identifier "EAID_1BA8E0FF_BDDB_4208_B696_FBF5D687C88" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typeeigenaarplus> ;
+    skos:prefLabel "Rijkswaterstaat"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typeeigenaarplus> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typeeigenaarplus/stichting> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typeeigenaarplus> ;
+    rdfs:label "Stichting"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typeeigenaarplus/stichting"^^xsd:anyURI ;
+    mim:naam "Stichting"@nl ;
+    dcterms:identifier "EAID_30A0259D_B54F_4A66_B110_C90D08CE7D1" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typeeigenaarplus> ;
+    skos:prefLabel "Stichting"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typeeigenaarplus> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typeeigenaarplus/woningbouwcorporatie> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typeeigenaarplus> ;
+    rdfs:label "Woningbouwcorporatie"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typeeigenaarplus/woningbouwcorporatie"^^xsd:anyURI ;
+    mim:naam "Woningbouwcorporatie"@nl ;
+    dcterms:identifier "EAID_9F8A12F4_FF15_4DAC_BD02_BF89E92516A" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typeeigenaarplus> ;
+    skos:prefLabel "Woningbouwcorporatie"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typeeigenaarplus> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typeligging/binnen-de-bebouwde-kom> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typeligging> ;
+    rdfs:label "Binnen de bebouwde kom"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typeligging/binnen-de-bebouwde-kom"^^xsd:anyURI ;
+    mim:naam "Binnen de bebouwde kom"@nl ;
+    dcterms:identifier "EAID_5D6BC3D3_0039_4C50_A355_F91AD169C97" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typeligging> ;
+    skos:prefLabel "Binnen de bebouwde kom"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typeligging> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typeligging/binnen-de-bebouwde-kom-centrum> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typeligging> ;
+    rdfs:label "Binnen de bebouwde kom: centrum"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typeligging/binnen-de-bebouwde-kom-centrum"^^xsd:anyURI ;
+    mim:naam "Binnen de bebouwde kom: centrum"@nl ;
+    dcterms:identifier "EAID_FAC109B1_9565_47F4_B0AB_9A810E46B8B" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typeligging> ;
+    skos:prefLabel "Binnen de bebouwde kom: centrum"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typeligging> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typeligging/buiten-de-bebouwde-kom> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typeligging> ;
+    rdfs:label "Buiten de bebouwde kom"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typeligging/buiten-de-bebouwde-kom"^^xsd:anyURI ;
+    mim:naam "Buiten de bebouwde kom"@nl ;
+    dcterms:identifier "EAID_0C849C82_3D93_4BEC_8880_0A37EA66894" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typeligging> ;
+    skos:prefLabel "Buiten de bebouwde kom"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typeligging> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-zettingsgevoeligheid/niet-zettingsgevoelig> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-zettingsgevoeligheid> ;
+    rdfs:label "Niet zettingsgevoelig"@nl ;
+    mim:definitie "Ondergrond/bodem is niet gevoelig voor zetting. Dit zijn veelal de stabiele zandgronden met veel draagkracht voor constructies."@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-zettingsgevoeligheid/niet-zettingsgevoelig"^^xsd:anyURI ;
+    mim:naam "Niet zettingsgevoelig"@nl ;
+    dcterms:identifier "EAID_5171ADAA_9C88_4A3B_9D15_4C552DB8E42" ;
+    skos:definition "Ondergrond/bodem is niet gevoelig voor zetting. Dit zijn veelal de stabiele zandgronden met veel draagkracht voor constructies."@nl ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-zettingsgevoeligheid> ;
+    skos:prefLabel "Niet zettingsgevoelig"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-zettingsgevoeligheid> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-zettingsgevoeligheid/onbekend> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-zettingsgevoeligheid> ;
+    rdfs:label "Onbekend"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-zettingsgevoeligheid/onbekend"^^xsd:anyURI ;
+    mim:naam "Onbekend"@nl ;
+    dcterms:identifier "EAID_41863712_291D_4A0E_9DC8_66DF29B6E8B" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-zettingsgevoeligheid> ;
+    skos:prefLabel "Onbekend"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-zettingsgevoeligheid> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-zettingsgevoeligheid/zettingsgevoelig> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-zettingsgevoeligheid> ;
+    rdfs:label "Zettingsgevoelig"@nl ;
+    mim:definitie "Ondergrond/bodem is gevoelig voor zetting. Dit zijn de slappe(re) ondergronden met een geringe(re) draagkracht voor constructies. Ze bevatten klei en/of veen."@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-zettingsgevoeligheid/zettingsgevoelig"^^xsd:anyURI ;
+    mim:naam "Zettingsgevoelig"@nl ;
+    dcterms:identifier "EAID_B46F4D06_28C4_43BA_8DDF_DA8E3066FCE" ;
+    skos:definition "Ondergrond/bodem is gevoelig voor zetting. Dit zijn de slappe(re) ondergronden met een geringe(re) draagkracht voor constructies. Ze bevatten klei en/of veen."@nl ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-zettingsgevoeligheid> ;
+    skos:prefLabel "Zettingsgevoelig"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-zettingsgevoeligheid> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-zettingsgevoeligheidplus/licht-zettingsgevoelig> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-zettingsgevoeligheidplus> ;
+    rdfs:label "Licht zettingsgevoelig"@nl ;
+    mim:definitie "Klei: minder dan 50 cm veen in de bovenste 5 meter slechte grond"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-zettingsgevoeligheidplus/licht-zettingsgevoelig"^^xsd:anyURI ;
+    mim:naam "Licht zettingsgevoelig"@nl ;
+    dcterms:identifier "EAID_93D7932F_2097_4639_9F73_B345313FB0B" ;
+    skos:definition "Klei: minder dan 50 cm veen in de bovenste 5 meter slechte grond"@nl ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-zettingsgevoeligheidplus> ;
+    skos:prefLabel "Licht zettingsgevoelig"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-zettingsgevoeligheidplus> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-zettingsgevoeligheidplus/matig-zettingsgevoelig> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-zettingsgevoeligheidplus> ;
+    rdfs:label "Matig zettingsgevoelig"@nl ;
+    mim:definitie "Klei/veen: tussen 50 cm en vier meter veen in de bovenste vijf meter slechte grond"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-zettingsgevoeligheidplus/matig-zettingsgevoelig"^^xsd:anyURI ;
+    mim:naam "Matig zettingsgevoelig"@nl ;
+    dcterms:identifier "EAID_8CE9A8ED_DF4D_4EB8_8C25_1266A69AAEB" ;
+    skos:definition "Klei/veen: tussen 50 cm en vier meter veen in de bovenste vijf meter slechte grond"@nl ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-zettingsgevoeligheidplus> ;
+    skos:prefLabel "Matig zettingsgevoelig"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-zettingsgevoeligheidplus> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-zettingsgevoeligheidplus/sterk-zettingsgevoelig> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-zettingsgevoeligheidplus> ;
+    rdfs:label "Sterk zettingsgevoelig"@nl ;
+    mim:definitie "Veen: meer dan vier meter veen in de bovenste vijf meter slechte grond."@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-zettingsgevoeligheidplus/sterk-zettingsgevoelig"^^xsd:anyURI ;
+    mim:naam "Sterk zettingsgevoelig"@nl ;
+    dcterms:identifier "EAID_AAA2FACE_4C52_4894_B2D9_1E1A0BEDF47" ;
+    skos:definition "Veen: meer dan vier meter veen in de bovenste vijf meter slechte grond."@nl ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-zettingsgevoeligheidplus> ;
+    skos:prefLabel "Sterk zettingsgevoelig"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-zettingsgevoeligheidplus> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/imbor/beheerobject/aangemaaktdoor> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
@@ -1343,6 +2174,7 @@ geslachtsnaam voorafgaat.."""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "200" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "aangemaaktDoor"@nl ;
     mim:type mim:CharacterString ;
@@ -1376,7 +2208,7 @@ Eenheid: mmddyyyy"""@nl ;
     rdfs:range xsd:date .
 
 <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/imbor/beheerobject/beheergebied> a mim:Attribuutsoort,
-        owl:DatatypeProperty ;
+        owl:ObjectProperty ;
     rdfs:label "beheergebied"@nl ;
     mim:definitie "Aanduiding van het beheergebied waarbinnen het beheerobject ligt. Indeling in beheergebieden is organisatiespecifiek."@nl ;
     mim:heeftTijdlijnGeldigheid false ;
@@ -1389,17 +2221,18 @@ Eenheid: mmddyyyy"""@nl ;
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "beheergebied"@nl ;
-    mim:type mim:CharacterString ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-beheergebied> ;
     dcterms:identifier "EAID_36545a0e_121b_448e_837b_05f61f1dac6d" ;
     rdfs:comment "Aanduiding van het beheergebied waarbinnen het beheerobject ligt. Indeling in beheergebieden is organisatiespecifiek."@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/imbor/beheerobject> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/imbor/> ;
-    rdfs:range xsd:string .
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-beheergebied> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/imbor/beheerobject/beheerobjectbeheervak> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "beheerobjectBeheervak"@nl ;
     mim:definitie "GUID van 1 of meerdere beheervakken waartoe het beheerobject behoort of waarbinnen het beheerobject zich bevindt."@nl ;
+    mim:formeelPatroon "^[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}$" ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/imbor/beheerobject/beheerobjectbeheervak"^^xsd:anyURI ;
@@ -1408,6 +2241,7 @@ Eenheid: mmddyyyy"""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "36" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "beheerobjectBeheervak"@nl ;
     mim:type mim:CharacterString ;
@@ -1420,7 +2254,7 @@ Eenheid: mmddyyyy"""@nl ;
 <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/imbor/beheerobject/beheerobjectgebruiksfunctie> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "beheerobjectGebruiksfunctie"@nl ;
-    mim:definitie "Aanduiding van Ã©Ã©n of meer gebruiksfuncties van het beheerobject."@nl ;
+    mim:definitie "Aanduiding van één of meer gebruiksfuncties van het beheerobject."@nl ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/imbor/beheerobject/beheerobjectgebruiksfunctie"^^xsd:anyURI ;
@@ -1433,7 +2267,7 @@ Eenheid: mmddyyyy"""@nl ;
     mim:naam "beheerobjectGebruiksfunctie"@nl ;
     mim:type mim:CharacterString ;
     dcterms:identifier "EAID_913d2973_73e1_4757_b93e_f0a33c4d8a54" ;
-    rdfs:comment "Aanduiding van Ã©Ã©n of meer gebruiksfuncties van het beheerobject."@nl ;
+    rdfs:comment "Aanduiding van één of meer gebruiksfuncties van het beheerobject."@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/imbor/beheerobject> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/imbor/> ;
     rdfs:range xsd:string .
@@ -1493,6 +2327,7 @@ Toelichting: Link naar: www.definities.geostandaarden.nl"""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "80" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "buurt"@nl ;
     mim:type mim:CharacterString ;
@@ -1515,6 +2350,7 @@ Toelichting: Link naar: www.definities.geostandaarden.nl"""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "50" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "conversieID"@nl ;
     mim:type mim:CharacterString ;
@@ -1596,7 +2432,7 @@ Eenheid: mmddyyyy"""@nl ;
 <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/imbor/beheerobject/datumverwijdering> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "datumVerwijdering"@nl ;
-    mim:definitie """MateriÃ«le levensduur, EindeGeldigheid
+    mim:definitie """Materiële levensduur, EindeGeldigheid
 Eenheid: mmddyyyy"""@nl ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
@@ -1610,7 +2446,7 @@ Eenheid: mmddyyyy"""@nl ;
     mim:naam "datumVerwijdering"@nl ;
     mim:type mim:Date ;
     dcterms:identifier "EAID_e62ee4b7_b58c_45aa_88e2_8d2964141c2c" ;
-    rdfs:comment """MateriÃ«le levensduur, EindeGeldigheid
+    rdfs:comment """Materiële levensduur, EindeGeldigheid
 Eenheid: mmddyyyy"""@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/imbor/beheerobject> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/imbor/> ;
@@ -1640,7 +2476,7 @@ Eenheid: mmddyyyy"""@nl ;
     rdfs:range xsd:date .
 
 <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/imbor/beheerobject/gebiedstype> a mim:Attribuutsoort,
-        owl:DatatypeProperty ;
+        owl:ObjectProperty ;
     rdfs:label "gebiedstype"@nl ;
     mim:definitie "Aanduiding van het gebiedstype waarbinnen het beheerobject ligt. Conform de indeling zoals toegepast bij de CROW Benchmark Beheerprestaties."@nl ;
     mim:heeftTijdlijnGeldigheid false ;
@@ -1653,12 +2489,12 @@ Eenheid: mmddyyyy"""@nl ;
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "gebiedstype"@nl ;
-    mim:type mim:CharacterString ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-gebiedstype> ;
     dcterms:identifier "EAID_b7c90c21_7959_40d9_872b_6dad3aec8127" ;
     rdfs:comment "Aanduiding van het gebiedstype waarbinnen het beheerobject ligt. Conform de indeling zoals toegepast bij de CROW Benchmark Beheerprestaties."@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/imbor/beheerobject> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/imbor/> ;
-    rdfs:range xsd:string .
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-gebiedstype> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/imbor/beheerobject/gemeente> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
@@ -1672,6 +2508,7 @@ Eenheid: mmddyyyy"""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "80" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "gemeente"@nl ;
     mim:type mim:CharacterString ;
@@ -1695,12 +2532,12 @@ Eenheid: mmddyyyy"""@nl ;
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "geometrie"@nl ;
-    mim:type mim:CharacterString ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/gm-point> ;
     dcterms:identifier "EAID_2f67459a_c613_48c5_b4fc_c994ff8d3548" ;
     rdfs:comment "Aanduiding voor de geometrie van het beheerobject."@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/imbor/beheerobject> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/imbor/> ;
-    rdfs:range xsd:string .
+    rdfs:range geo:wktLiteral .
 
 <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/imbor/beheerobject/gewijzigddoor> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
@@ -1714,6 +2551,7 @@ Eenheid: mmddyyyy"""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "200" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "gewijzigdDoor"@nl ;
     mim:type mim:CharacterString ;
@@ -1724,7 +2562,7 @@ Eenheid: mmddyyyy"""@nl ;
     rdfs:range xsd:string .
 
 <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/imbor/beheerobject/grondsoort> a mim:Attribuutsoort,
-        owl:DatatypeProperty ;
+        owl:ObjectProperty ;
     rdfs:label "grondsoort"@nl ;
     mim:definitie "Aanduiding van de grondsoort op de plaats van het beheerobject. Voor de CROW Systematiek Wegbeheer kunnen uitsluitend de volgende vier grondsoorten worden gebruikt: zand, klei, klei/veen, veen. Overname uit een bodemkaart met grondsoorten of uit een referentielijst."@nl ;
     mim:heeftTijdlijnGeldigheid false ;
@@ -1737,15 +2575,15 @@ Eenheid: mmddyyyy"""@nl ;
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "grondsoort"@nl ;
-    mim:type mim:CharacterString ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-grondsoort> ;
     dcterms:identifier "EAID_7dfd68a6_e9e1_49e8_8157_3559ede9887b" ;
     rdfs:comment "Aanduiding van de grondsoort op de plaats van het beheerobject. Voor de CROW Systematiek Wegbeheer kunnen uitsluitend de volgende vier grondsoorten worden gebruikt: zand, klei, klei/veen, veen. Overname uit een bodemkaart met grondsoorten of uit een referentielijst."@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/imbor/beheerobject> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/imbor/> ;
-    rdfs:range xsd:string .
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-grondsoort> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/imbor/beheerobject/grondsoortplus> a mim:Attribuutsoort,
-        owl:DatatypeProperty ;
+        owl:ObjectProperty ;
     rdfs:label "grondsoortPlus"@nl ;
     mim:definitie "Verdere bijzondering van de grondsoort op de plaats van het beheerobject."@nl ;
     mim:heeftTijdlijnGeldigheid false ;
@@ -1758,19 +2596,20 @@ Eenheid: mmddyyyy"""@nl ;
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "grondsoortPlus"@nl ;
-    mim:type mim:CharacterString ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-grondsoortplus> ;
     dcterms:identifier "EAID_0872e7e9_bebb_43a5_8f23_65ac8e3c78e2" ;
     rdfs:comment "Verdere bijzondering van de grondsoort op de plaats van het beheerobject."@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/imbor/beheerobject> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/imbor/> ;
-    rdfs:range xsd:string .
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-grondsoortplus> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/imbor/beheerobject/identificatieimbor> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "identificatieIMBOR"@nl ;
     mim:definitie """Uniek nummer van het IMBOR-object (GUID)
-Toelichting: De IMBOR-objecten zijn identificeerbaar middels het attribuut identificatie dat als inhoud heeft   - namespace: Â´IMBORÂ´   - lokaalID: een numerieke identificatie
+Toelichting: De IMBOR-objecten zijn identificeerbaar middels het attribuut identificatie dat als inhoud heeft   - namespace: ´IMBOR´   - lokaalID: een numerieke identificatie
 Conform NEN3610 zijn identificatiecodes persistent: ze wijzigen niet gedurende de levensduur van een object. Verder zijn de identificatiecodes uniek ten opzichte van elkaar."""@nl ;
+    mim:formeelPatroon "^[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}$" ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/imbor/beheerobject/identificatieimbor"^^xsd:anyURI ;
@@ -1779,12 +2618,13 @@ Conform NEN3610 zijn identificatiecodes persistent: ze wijzigen niet gedurende d
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "36" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "identificatieIMBOR"@nl ;
     mim:type mim:CharacterString ;
     dcterms:identifier "EAID_5180b552_4e65_4fdc_b241_471012fc9f16" ;
     rdfs:comment """Uniek nummer van het IMBOR-object (GUID)
-Toelichting: De IMBOR-objecten zijn identificeerbaar middels het attribuut identificatie dat als inhoud heeft   - namespace: Â´IMBORÂ´   - lokaalID: een numerieke identificatie
+Toelichting: De IMBOR-objecten zijn identificeerbaar middels het attribuut identificatie dat als inhoud heeft   - namespace: ´IMBOR´   - lokaalID: een numerieke identificatie
 Conform NEN3610 zijn identificatiecodes persistent: ze wijzigen niet gedurende de levensduur van een object. Verder zijn de identificatiecodes uniek ten opzichte van elkaar."""@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/imbor/beheerobject> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/imbor/> ;
@@ -1794,6 +2634,7 @@ Conform NEN3610 zijn identificatiecodes persistent: ze wijzigen niet gedurende d
         owl:DatatypeProperty ;
     rdfs:label "identificatieIMGeo"@nl ;
     mim:definitie "Overerving van de geometrie van beheerobject uit bovenliggend informatiemodel of automatisch genereren."@nl ;
+    mim:formeelPatroon "^[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}$" ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/imbor/beheerobject/identificatieimgeo"^^xsd:anyURI ;
@@ -1802,6 +2643,7 @@ Conform NEN3610 zijn identificatiecodes persistent: ze wijzigen niet gedurende d
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "36" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "identificatieIMGeo"@nl ;
     mim:type mim:CharacterString ;
@@ -1883,7 +2725,7 @@ Eenheid: mmddyyyy"""@nl ;
     rdfs:range xsd:dateTime .
 
 <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/imbor/beheerobject/onderhoudsplichtige> a mim:Attribuutsoort,
-        owl:DatatypeProperty ;
+        owl:ObjectProperty ;
     rdfs:label "onderhoudsplichtige"@nl ;
     mim:definitie "Organisatie welke verantwoordelijk is voor het onderhoud van het beheerobject."@nl ;
     mim:heeftTijdlijnGeldigheid false ;
@@ -1896,18 +2738,18 @@ Eenheid: mmddyyyy"""@nl ;
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "onderhoudsplichtige"@nl ;
-    mim:type mim:CharacterString ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-onderhoudsplichtige> ;
     dcterms:identifier "EAID_7c94218f_89af_4558_aa0c_1ddd7974ddc6" ;
     rdfs:comment "Organisatie welke verantwoordelijk is voor het onderhoud van het beheerobject."@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/imbor/beheerobject> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/imbor/> ;
-    rdfs:range xsd:string .
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-onderhoudsplichtige> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/imbor/beheerobject/openbareruimte> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "openbareRuimte"@nl ;
     mim:definitie """Aanduiding van de openbare ruimte, zoals gedefinieerd in IMGeo of in de BAG, waarbinnen het beheerobject ligt. Overname uit IMGeo-bestand met grenzen openbare ruimtes of uit de Basisregistratie Adressen en Gebouwen (zonder begrenzing)
-Toelichting: Link naar: www.definities.geostandaarden.nl        Definitie IMGeo: een openbare ruime is een door het bevoegde gemeentelijke orgaan als zodanig aangewezen en van een naam voorziene buitenruimte die binnen Ã©Ã©n woonplaats is gelegen."""@nl ;
+Toelichting: Link naar: www.definities.geostandaarden.nl        Definitie IMGeo: een openbare ruime is een door het bevoegde gemeentelijke orgaan als zodanig aangewezen en van een naam voorziene buitenruimte die binnen één woonplaats is gelegen."""@nl ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/imbor/beheerobject/openbareruimte"^^xsd:anyURI ;
@@ -1916,12 +2758,13 @@ Toelichting: Link naar: www.definities.geostandaarden.nl        Definitie IMGeo:
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "80" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "openbareRuimte"@nl ;
     mim:type mim:CharacterString ;
     dcterms:identifier "EAID_b46981a3_4802_480d_bbde_08552f289d9e" ;
     rdfs:comment """Aanduiding van de openbare ruimte, zoals gedefinieerd in IMGeo of in de BAG, waarbinnen het beheerobject ligt. Overname uit IMGeo-bestand met grenzen openbare ruimtes of uit de Basisregistratie Adressen en Gebouwen (zonder begrenzing)
-Toelichting: Link naar: www.definities.geostandaarden.nl        Definitie IMGeo: een openbare ruime is een door het bevoegde gemeentelijke orgaan als zodanig aangewezen en van een naam voorziene buitenruimte die binnen Ã©Ã©n woonplaats is gelegen."""@nl ;
+Toelichting: Link naar: www.definities.geostandaarden.nl        Definitie IMGeo: een openbare ruime is een door het bevoegde gemeentelijke orgaan als zodanig aangewezen en van een naam voorziene buitenruimte die binnen één woonplaats is gelegen."""@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/imbor/beheerobject> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/imbor/> ;
     rdfs:range xsd:string .
@@ -1938,6 +2781,7 @@ Toelichting: Link naar: www.definities.geostandaarden.nl        Definitie IMGeo:
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "6" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "postcode"@nl ;
     mim:type mim:CharacterString ;
@@ -1983,6 +2827,7 @@ Toelichting: Link naar: www.definities.geostandaarden.nl"""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "80" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "stadsdeel"@nl ;
     mim:type mim:CharacterString ;
@@ -1992,6 +2837,27 @@ Toelichting: Link naar: www.definities.geostandaarden.nl"""@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/imbor/beheerobject> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/imbor/> ;
     rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/imbor/beheerobject/status> a mim:Attribuutsoort,
+        owl:ObjectProperty ;
+    rdfs:label "status"@nl ;
+    mim:definitie "Status van het beheerobject in het inwinningsproces van de geometrie. Wordt gebruikt voor schets- en deifinitieve geometrie."@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/imbor/beheerobject/status"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "status"@nl ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-status> ;
+    dcterms:identifier "EAID_01fa347b_7cb8_4f84_88fa_bc289187b160" ;
+    rdfs:comment "Status van het beheerobject in het inwinningsproces van de geometrie. Wordt gebruikt voor schets- en deifinitieve geometrie."@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/imbor/beheerobject> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/imbor/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-status> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/imbor/beheerobject/theoretischeindejaar> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
@@ -2040,7 +2906,7 @@ Eenheid: mmddyyyy"""@nl ;
     rdfs:range xsd:dateTime .
 
 <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/imbor/beheerobject/typebeheerder> a mim:Attribuutsoort,
-        owl:DatatypeProperty ;
+        owl:ObjectProperty ;
     rdfs:label "typeBeheerder"@nl ;
     mim:definitie """Een publiekrechtelijke instantie of (rechts)persoon die toeziet op de instandhouding van o.a. een object, kunstwerk of waterstaatswerk. De typen beheerder zijn conform de indeling in bronhouders (BGT).
 Toelichting: De waarde wordt gebruikt voor de duiding van het fysieke beheer. De beheerder is de organisatie die verantwoordelijk voor het beheer van het terrein. Dit hoeft niet dezelfde organisatie te zijn die de (juridisch) eigenaar is van het terrein. Beheerder en Bronhouder hebben daarmee geen overlap."""@nl ;
@@ -2054,16 +2920,16 @@ Toelichting: De waarde wordt gebruikt voor de duiding van het fysieke beheer. De
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "typeBeheerder"@nl ;
-    mim:type mim:CharacterString ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typebeheerder> ;
     dcterms:identifier "EAID_ef5708fb_d86b_4223_84d3_5e0346e279ba" ;
     rdfs:comment """Een publiekrechtelijke instantie of (rechts)persoon die toeziet op de instandhouding van o.a. een object, kunstwerk of waterstaatswerk. De typen beheerder zijn conform de indeling in bronhouders (BGT).
 Toelichting: De waarde wordt gebruikt voor de duiding van het fysieke beheer. De beheerder is de organisatie die verantwoordelijk voor het beheer van het terrein. Dit hoeft niet dezelfde organisatie te zijn die de (juridisch) eigenaar is van het terrein. Beheerder en Bronhouder hebben daarmee geen overlap."""@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/imbor/beheerobject> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/imbor/> ;
-    rdfs:range xsd:string .
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typebeheerder> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/imbor/beheerobject/typebeheerderplus> a mim:Attribuutsoort,
-        owl:DatatypeProperty ;
+        owl:ObjectProperty ;
     rdfs:label "typeBeheerderPlus"@nl ;
     mim:definitie "Nadere aanduiding van de beheerder van het beheerobject."@nl ;
     mim:heeftTijdlijnGeldigheid false ;
@@ -2076,15 +2942,15 @@ Toelichting: De waarde wordt gebruikt voor de duiding van het fysieke beheer. De
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "typeBeheerderPlus"@nl ;
-    mim:type mim:CharacterString ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typebeheerderplus> ;
     dcterms:identifier "EAID_70fabccb_5b2b_4dad_93a0_9e9882b6b37b" ;
     rdfs:comment "Nadere aanduiding van de beheerder van het beheerobject."@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/imbor/beheerobject> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/imbor/> ;
-    rdfs:range xsd:string .
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typebeheerderplus> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/imbor/beheerobject/typeeigenaar> a mim:Attribuutsoort,
-        owl:DatatypeProperty ;
+        owl:ObjectProperty ;
     rdfs:label "typeEigenaar"@nl ;
     mim:definitie "(rechts)persoon die het meest  omvattend recht op een zaak heeft . De typen eigenaren zijn conform de indeling in bronhouders (BGT)."@nl ;
     mim:heeftTijdlijnGeldigheid false ;
@@ -2097,15 +2963,15 @@ Toelichting: De waarde wordt gebruikt voor de duiding van het fysieke beheer. De
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "typeEigenaar"@nl ;
-    mim:type mim:CharacterString ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typeeigenaar> ;
     dcterms:identifier "EAID_25ea7bd0_ffbd_4cf8_8abb_810599d99643" ;
     rdfs:comment "(rechts)persoon die het meest  omvattend recht op een zaak heeft . De typen eigenaren zijn conform de indeling in bronhouders (BGT)."@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/imbor/beheerobject> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/imbor/> ;
-    rdfs:range xsd:string .
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typeeigenaar> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/imbor/beheerobject/typeeigenaarplus> a mim:Attribuutsoort,
-        owl:DatatypeProperty ;
+        owl:ObjectProperty ;
     rdfs:label "typeEigenaarPlus"@nl ;
     mim:definitie "Nadere aanduiding van de eigenaar van het beheerobject."@nl ;
     mim:heeftTijdlijnGeldigheid false ;
@@ -2118,15 +2984,15 @@ Toelichting: De waarde wordt gebruikt voor de duiding van het fysieke beheer. De
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "typeEigenaarPlus"@nl ;
-    mim:type mim:CharacterString ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typeeigenaarplus> ;
     dcterms:identifier "EAID_998821f1_48a1_4e1b_b1a1_24c3301dd7b4" ;
     rdfs:comment "Nadere aanduiding van de eigenaar van het beheerobject."@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/imbor/beheerobject> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/imbor/> ;
-    rdfs:range xsd:string .
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typeeigenaarplus> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/imbor/beheerobject/typeligging> a mim:Attribuutsoort,
-        owl:DatatypeProperty ;
+        owl:ObjectProperty ;
     rdfs:label "typeLigging"@nl ;
     mim:definitie """Aanduiding van de ligging van het beheerobject binnen of buiten de bebouwde kom.
 Toelichting: Voor de bebouwde komgrens zijn verschillende definities, vanuit verschillende wetten. Suggestie: bebouwde komgrens aanhouden zoals vastgesteld door de gemeente die de eigenaar is van het beheerobject. Zie ook: Wegenverkeerswet, Wegenwet, Omgevingswet"""@nl ;
@@ -2140,13 +3006,13 @@ Toelichting: Voor de bebouwde komgrens zijn verschillende definities, vanuit ver
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "typeLigging"@nl ;
-    mim:type mim:CharacterString ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typeligging> ;
     dcterms:identifier "EAID_0839d438_b285_4a06_b69d_ca1476b566f9" ;
     rdfs:comment """Aanduiding van de ligging van het beheerobject binnen of buiten de bebouwde kom.
 Toelichting: Voor de bebouwde komgrens zijn verschillende definities, vanuit verschillende wetten. Suggestie: bebouwde komgrens aanhouden zoals vastgesteld door de gemeente die de eigenaar is van het beheerobject. Zie ook: Wegenverkeerswet, Wegenwet, Omgevingswet"""@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/imbor/beheerobject> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/imbor/> ;
-    rdfs:range xsd:string .
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typeligging> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/imbor/beheerobject/waterschap> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
@@ -2161,6 +3027,7 @@ Toelichting: Link naar: www.definities.geostandaarden.nl"""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "80" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "waterschap"@nl ;
     mim:type mim:CharacterString ;
@@ -2184,6 +3051,7 @@ Toelichting: Link naar: www.definities.geostandaarden.nl"""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "80" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "wijk"@nl ;
     mim:type mim:CharacterString ;
@@ -2207,6 +3075,7 @@ Toelichting: Link naar: www.definities.geostandaarden.nl"""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "80" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "woonplaats"@nl ;
     mim:type mim:CharacterString ;
@@ -2218,9 +3087,9 @@ Toelichting: Link naar: www.definities.geostandaarden.nl"""@nl ;
     rdfs:range xsd:string .
 
 <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/imbor/beheerobject/zettingsgevoeligheid> a mim:Attribuutsoort,
-        owl:DatatypeProperty ;
+        owl:ObjectProperty ;
     rdfs:label "zettingsgevoeligheid"@nl ;
-    mim:definitie "â€˜Zettingsgevoeligâ€™ is de indicatie van de zettingsgevoeligheid van de ondergrond of bodem. Zetting is het proces waar grond onder invloed van een belasting wordt samengedrukt; ook wel het geleidelijk en min of meer gelijkmatig"@nl ;
+    mim:definitie "‘Zettingsgevoelig’ is de indicatie van de zettingsgevoeligheid van de ondergrond of bodem. Zetting is het proces waar grond onder invloed van een belasting wordt samengedrukt; ook wel het geleidelijk en min of meer gelijkmatig"@nl ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/imbor/beheerobject/zettingsgevoeligheid"^^xsd:anyURI ;
@@ -2231,15 +3100,15 @@ Toelichting: Link naar: www.definities.geostandaarden.nl"""@nl ;
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "zettingsgevoeligheid"@nl ;
-    mim:type mim:CharacterString ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-zettingsgevoeligheid> ;
     dcterms:identifier "EAID_e579d633_b325_4861_900b_e730ffd7f19f" ;
-    rdfs:comment "â€˜Zettingsgevoeligâ€™ is de indicatie van de zettingsgevoeligheid van de ondergrond of bodem. Zetting is het proces waar grond onder invloed van een belasting wordt samengedrukt; ook wel het geleidelijk en min of meer gelijkmatig"@nl ;
+    rdfs:comment "‘Zettingsgevoelig’ is de indicatie van de zettingsgevoeligheid van de ondergrond of bodem. Zetting is het proces waar grond onder invloed van een belasting wordt samengedrukt; ook wel het geleidelijk en min of meer gelijkmatig"@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/imbor/beheerobject> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/imbor/> ;
-    rdfs:range xsd:string .
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-zettingsgevoeligheid> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/imbor/beheerobject/zettingsgevoeligheidplus> a mim:Attribuutsoort,
-        owl:DatatypeProperty ;
+        owl:ObjectProperty ;
     rdfs:label "zettingsgevoeligheidPlus"@nl ;
     mim:definitie "Aanduiding voor de mate van zettingsgevoeligheid."@nl ;
     mim:heeftTijdlijnGeldigheid false ;
@@ -2252,12 +3121,12 @@ Toelichting: Link naar: www.definities.geostandaarden.nl"""@nl ;
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "zettingsgevoeligheidPlus"@nl ;
-    mim:type mim:CharacterString ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-zettingsgevoeligheidplus> ;
     dcterms:identifier "EAID_8a36fdb3_e75c_4b53_9b96_84ed60601895" ;
     rdfs:comment "Aanduiding voor de mate van zettingsgevoeligheid."@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/imbor/beheerobject> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/imbor/> ;
-    rdfs:range xsd:string .
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-zettingsgevoeligheidplus> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/crow-kwaliteitsniveaus/niveau-a> a mim:Enumeratiewaarde,
         skos:Concept,
@@ -2363,6 +3232,7 @@ Toelichting: Link naar: www.definities.geostandaarden.nl"""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "80" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "categorie"@nl ;
     mim:type mim:CharacterString ;
@@ -2460,11 +3330,11 @@ Toelichting: Link naar: www.definities.geostandaarden.nl"""@nl ;
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "foto"@nl ;
-    mim:type mim:CharacterString ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/blob> ;
     dcterms:identifier "EAID_8BBF20CC_B8FA_440c_81E3_75A641045C8B" ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/melding> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/> ;
-    rdfs:range xsd:string .
+    rdfs:range xsd:base64Binary .
 
 <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/melding/locatie> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
@@ -2479,7 +3349,7 @@ Toelichting: Link naar: www.definities.geostandaarden.nl"""@nl ;
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "locatie"@nl ;
-    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/point> ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/gm-point> ;
     dcterms:identifier "EAID_390268BB_6179_4ac7_A97E_0FF6B70EE594" ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/melding> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/> ;
@@ -2515,6 +3385,7 @@ Toelichting: Link naar: www.definities.geostandaarden.nl"""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "40" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "status"@nl ;
     mim:type mim:CharacterString ;
@@ -2589,6 +3460,28 @@ Toelichting: Link naar: www.definities.geostandaarden.nl"""@nl ;
     rdfs:comment "Activiteit om te controleren of de opdrachtnemer aan de afspraken voldoet."@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/> .
 
+<https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-beheergebied> a mim:Enumeratie,
+        owl:Class,
+        skos:ConceptScheme ;
+    rdfs:label "enum_Beheergebied"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-beheergebied"^^xsd:anyURI ;
+    mim:naam "enum_Beheergebied"@nl ;
+    mim:waarde <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-beheergebied/organisatiespecifieke-domeinwaarden> ;
+    dcterms:identifier "EAID_FF44C7E9_2FA3_4314_B4A9_D251EB6EB7B6" ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/> ;
+    rdfs:subClassOf skos:Concept .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-onderhoudsplichtige> a mim:Enumeratie,
+        owl:Class,
+        skos:ConceptScheme ;
+    rdfs:label "enum_Onderhoudsplichtige"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-onderhoudsplichtige"^^xsd:anyURI ;
+    mim:naam "enum_Onderhoudsplichtige"@nl ;
+    mim:waarde <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-onderhoudsplichtige/organisatiespecifieke-domeinwaarden> ;
+    dcterms:identifier "EAID_7DB23E37_4D12_4AB0_BD69_A525117689CA" ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/> ;
+    rdfs:subClassOf skos:Concept .
+
 <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/inkoop/leverancier> a mim:Objecttype,
         owl:Class ;
     rdfs:label "Leverancier"@nl ;
@@ -2601,6 +3494,71 @@ Toelichting: Link naar: www.definities.geostandaarden.nl"""@nl ;
     dcterms:identifier "EAID_EA7FE08E_34F7_45d2_BE2E_E4E3B8333BF3" ;
     rdfs:comment "Een niet-natuurlijk persoon die een product of dienst levert aan de organisatie"@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/inkoop/> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-grondsoortplus> a mim:Enumeratie,
+        owl:Class,
+        skos:ConceptScheme ;
+    rdfs:label "enum_GrondsoortPlus"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-grondsoortplus"^^xsd:anyURI ;
+    mim:naam "enum_GrondsoortPlus"@nl ;
+    mim:waarde <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-grondsoortplus/slap-veen>,
+        <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-grondsoortplus/zeer-slap-veen> ;
+    dcterms:identifier "EAID_1A81E6E9_C85D_499F_95F7_2746C4831AB0" ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/> ;
+    rdfs:subClassOf skos:Concept .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typeligging> a mim:Enumeratie,
+        owl:Class,
+        skos:ConceptScheme ;
+    rdfs:label "enum_TypeLigging"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typeligging"^^xsd:anyURI ;
+    mim:naam "enum_TypeLigging"@nl ;
+    mim:waarde <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typeligging/binnen-de-bebouwde-kom>,
+        <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typeligging/binnen-de-bebouwde-kom-centrum>,
+        <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typeligging/buiten-de-bebouwde-kom> ;
+    dcterms:identifier "EAID_6DCEFF95_3039_439A_88CC_19E3BEF049EF" ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/> ;
+    rdfs:subClassOf skos:Concept .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-zettingsgevoeligheid> a mim:Enumeratie,
+        owl:Class,
+        skos:ConceptScheme ;
+    rdfs:label "enum_Zettingsgevoeligheid"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-zettingsgevoeligheid"^^xsd:anyURI ;
+    mim:naam "enum_Zettingsgevoeligheid"@nl ;
+    mim:waarde <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-zettingsgevoeligheid/niet-zettingsgevoelig>,
+        <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-zettingsgevoeligheid/onbekend>,
+        <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-zettingsgevoeligheid/zettingsgevoelig> ;
+    dcterms:identifier "EAID_B8CA4620_629B_40C4_BB25_91239DA3CD93" ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/> ;
+    rdfs:subClassOf skos:Concept .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-zettingsgevoeligheidplus> a mim:Enumeratie,
+        owl:Class,
+        skos:ConceptScheme ;
+    rdfs:label "enum_ZettingsgevoeligheidPlus"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-zettingsgevoeligheidplus"^^xsd:anyURI ;
+    mim:naam "enum_ZettingsgevoeligheidPlus"@nl ;
+    mim:waarde <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-zettingsgevoeligheidplus/licht-zettingsgevoelig>,
+        <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-zettingsgevoeligheidplus/matig-zettingsgevoelig>,
+        <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-zettingsgevoeligheidplus/sterk-zettingsgevoelig> ;
+    dcterms:identifier "EAID_1631F6D1_087F_46AC_83BC_C3E5C5F50DAD" ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/> ;
+    rdfs:subClassOf skos:Concept .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-status> a mim:Enumeratie,
+        owl:Class,
+        skos:ConceptScheme ;
+    rdfs:label "enum_Status"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-status"^^xsd:anyURI ;
+    mim:naam "enum_Status"@nl ;
+    mim:waarde <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-status/bestaand>,
+        <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-status/nieuw>,
+        <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-status/ontwerp>,
+        <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-status/vervallen> ;
+    dcterms:identifier "EAID_4E721262_E6E2_41DF_BB99_0B6693E32435" ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/> ;
+    rdfs:subClassOf skos:Concept .
 
 <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/crow-kwaliteitsniveaus> a mim:Enumeratie,
         owl:Class,
@@ -2641,6 +3599,23 @@ Toelichting: Link naar: www.definities.geostandaarden.nl"""@nl ;
     rdfs:comment "Een medewerker van de organisatie die zaken behandelt uit hoofde van zijn of haar functie binnen een ORGANISATORISCHE EENHEID."@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> .
 
+<https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-grondsoort> a mim:Enumeratie,
+        owl:Class,
+        skos:ConceptScheme ;
+    rdfs:label "enum_Grondsoort"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-grondsoort"^^xsd:anyURI ;
+    mim:naam "enum_Grondsoort"@nl ;
+    mim:waarde <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-grondsoort/klei>,
+        <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-grondsoort/klei-veen>,
+        <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-grondsoort/l-ss>,
+        <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-grondsoort/leem>,
+        <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-grondsoort/mergel>,
+        <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-grondsoort/veen>,
+        <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-grondsoort/zand> ;
+    dcterms:identifier "EAID_4D7708B4_2D1A_418C_8E6D_0811F8EC80E1" ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/> ;
+    rdfs:subClassOf skos:Concept .
+
 <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/natuurlijkpersoon> a mim:Objecttype,
         owl:Class ;
     rdfs:label "NatuurlijkPersoon"@nl ;
@@ -2677,6 +3652,63 @@ Toelichting: Link naar: www.definities.geostandaarden.nl"""@nl ;
     rdfs:comment "Een INGESCHREVEN PERSOON of ANDER NATUURLIJK PERSOON"@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> .
 
+<https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typebeheerder> a mim:Enumeratie,
+        owl:Class,
+        skos:ConceptScheme ;
+    rdfs:label "enum_TypeBeheerder"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typebeheerder"^^xsd:anyURI ;
+    mim:naam "enum_TypeBeheerder"@nl ;
+    mim:waarde <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typebeheerder/gemeente>,
+        <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typebeheerder/ministerie-van-defensie>,
+        <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typebeheerder/ministerie-van-economische-zaken>,
+        <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typebeheerder/ministerie-van-infrastructuur-en-waterstaat>,
+        <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typebeheerder/onbekend>,
+        <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typebeheerder/particulier>,
+        <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typebeheerder/prorail>,
+        <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typebeheerder/provincie>,
+        <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typebeheerder/waterschap> ;
+    dcterms:identifier "EAID_9A7155E5_6275_48DE_97AF_E5E4267B639C" ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/> ;
+    rdfs:subClassOf skos:Concept .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typeeigenaar> a mim:Enumeratie,
+        owl:Class,
+        skos:ConceptScheme ;
+    rdfs:label "enum_TypeEigenaar"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typeeigenaar"^^xsd:anyURI ;
+    mim:naam "enum_TypeEigenaar"@nl ;
+    mim:waarde <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typeeigenaar/gemeente>,
+        <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typeeigenaar/ministerie-van-defensie>,
+        <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typeeigenaar/ministerie-van-economische-zaken>,
+        <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typeeigenaar/ministerie-van-infrastructuur-en-waterstaat>,
+        <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typeeigenaar/onbekend>,
+        <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typeeigenaar/particulier>,
+        <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typeeigenaar/prorail>,
+        <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typeeigenaar/provincie>,
+        <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typeeigenaar/waterschap> ;
+    dcterms:identifier "EAID_359BC182_DA82_4ECE_A924_60F71AB10CCD" ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/> ;
+    rdfs:subClassOf skos:Concept .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typeeigenaarplus> a mim:Enumeratie,
+        owl:Class,
+        skos:ConceptScheme ;
+    rdfs:label "enum_TypeEigenaarPlus"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typeeigenaarplus"^^xsd:anyURI ;
+    mim:naam "enum_TypeEigenaarPlus"@nl ;
+    mim:waarde <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typeeigenaarplus/havenschap>,
+        <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typeeigenaarplus/landgoed>,
+        <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typeeigenaarplus/natuurorganisatie>,
+        <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typeeigenaarplus/netbeheerder>,
+        <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typeeigenaarplus/recreatieschap>,
+        <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typeeigenaarplus/rijksvastgoedbedrijf>,
+        <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typeeigenaarplus/rijkswaterstaat>,
+        <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typeeigenaarplus/stichting>,
+        <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typeeigenaarplus/woningbouwcorporatie> ;
+    dcterms:identifier "EAID_39484B75_C7F8_4FEC_9348_B668821A4B1D" ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/> ;
+    rdfs:subClassOf skos:Concept .
+
 <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/melding> a mim:Objecttype,
         owl:Class ;
     rdfs:label "Melding"@nl ;
@@ -2698,6 +3730,47 @@ Toelichting: Link naar: www.definities.geostandaarden.nl"""@nl ;
     dcterms:identifier "EAID_C6094F79_D8EA_4763_90DF_4E30EFABA1FA" ;
     rdfs:comment "De betekenisvolle formulering van een waargenomen feit, waaraan een waarde kan worden toegekend"@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-gebiedstype> a mim:Enumeratie,
+        owl:Class,
+        skos:ConceptScheme ;
+    rdfs:label "enum_Gebiedstype"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-gebiedstype"^^xsd:anyURI ;
+    mim:naam "enum_Gebiedstype"@nl ;
+    mim:waarde <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-gebiedstype/agrarisch-gebied>,
+        <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-gebiedstype/begraafplaats>,
+        <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-gebiedstype/hoofdwegen>,
+        <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-gebiedstype/natuurgebied>,
+        <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-gebiedstype/recreatiegebied>,
+        <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-gebiedstype/sportterrein>,
+        <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-gebiedstype/waterwegen>,
+        <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-gebiedstype/werkgebied>,
+        <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-gebiedstype/winkelgebied>,
+        <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-gebiedstype/woongebied> ;
+    dcterms:identifier "EAID_5483F5D7_8BF2_470F_8DC9_13C04AEA4602" ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/> ;
+    rdfs:subClassOf skos:Concept .
+
+<https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typebeheerderplus> a mim:Enumeratie,
+        owl:Class,
+        skos:ConceptScheme ;
+    rdfs:label "enum_TypeBeheerderPlus"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typebeheerderplus"^^xsd:anyURI ;
+    mim:naam "enum_TypeBeheerderPlus"@nl ;
+    mim:waarde <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typebeheerderplus/havenschap>,
+        <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typebeheerderplus/landgoed>,
+        <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typebeheerderplus/natuurorganisaties>,
+        <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typebeheerderplus/netbeheerder>,
+        <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typebeheerderplus/recreatieschap>,
+        <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typebeheerderplus/rijksvastgoedbedrijf>,
+        <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typebeheerderplus/rijkswaterstaat>,
+        <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typebeheerderplus/speeltuinvereniging>,
+        <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typebeheerderplus/stichting>,
+        <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typebeheerderplus/universiteit>,
+        <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typebeheerderplus/woningbouwcorporatie> ;
+    dcterms:identifier "EAID_440460ED_D075_48FC_895F_E02487BD7176" ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/> ;
+    rdfs:subClassOf skos:Concept .
 
 <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/adelijketitel> a mim:Enumeratie,
         owl:Class,
@@ -2755,6 +3828,7 @@ Toelichting: Link naar: www.definities.geostandaarden.nl"""@nl ;
         <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/imbor/beheerobject/postcode>,
         <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/imbor/beheerobject/relatievehoogteligging>,
         <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/imbor/beheerobject/stadsdeel>,
+        <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/imbor/beheerobject/status>,
         <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/imbor/beheerobject/theoretischeindejaar>,
         <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/imbor/beheerobject/tijdstipregistratie>,
         <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/imbor/beheerobject/typebeheerder>,

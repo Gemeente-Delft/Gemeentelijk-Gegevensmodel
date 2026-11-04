@@ -315,6 +315,29 @@
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/> ;
     rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/werkorder> .
 
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/hoofdrekening/is-van-soort> a mim:Relatiesoort,
+        owl:ObjectProperty ;
+    rdfs:label "is van soort"@nl ;
+    mim:aggregatietype mim:Geen ;
+    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/hoofdrekening> ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/referentiegrootboekrekening> ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/hoofdrekening/is-van-soort"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "0..1" ;
+    mim:kardinaliteitRelatieBron "0..*" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "is van soort"@nl ;
+    mim:unidirectioneel true ;
+    dcterms:identifier "EAID_D8C6F5F7_31A5_4B6D_BE3E_CA6923D703C1" ;
+    rdfs:comment ""@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/hoofdrekening> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/referentiegrootboekrekening> .
+
 <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/hoofdrekening/valt-binnen> a mim:Relatiesoort,
         owl:ObjectProperty ;
     rdfs:label "valt binnen"@nl ;
@@ -381,6 +404,29 @@
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/> ;
     rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/werkorder> .
 
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/mutatie/heeft> a mim:Relatiesoort,
+        owl:ObjectProperty ;
+    rdfs:label "heeft"@nl ;
+    mim:aggregatietype mim:Geen ;
+    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/mutatie> ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/verbijzondering> ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/mutatie/heeft"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "0..*" ;
+    mim:kardinaliteitRelatieBron "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "heeft"@nl ;
+    mim:unidirectioneel true ;
+    dcterms:identifier "EAID_DC55A9AD_FCBC_4484_8BD0_B94A3BB9B83E" ;
+    rdfs:comment ""@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/mutatie> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/verbijzondering> .
+
 <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/mutatie/heeft-betrekking-op> a mim:Relatiesoort,
         owl:ObjectProperty ;
     rdfs:label "heeft betrekking op"@nl ;
@@ -446,6 +492,29 @@
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/mutatie> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/> ;
     rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/hoofdrekening> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/verbijzondering/is-van-soort> a mim:Relatiesoort,
+        owl:ObjectProperty ;
+    rdfs:label "is van soort"@nl ;
+    mim:aggregatietype mim:Geen ;
+    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/verbijzondering> ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/verbijzonderingsoort> ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/verbijzondering/is-van-soort"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:kardinaliteitRelatieBron "0..*" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "is van soort"@nl ;
+    mim:unidirectioneel true ;
+    dcterms:identifier "EAID_0992A4FA_0FE8_48F0_A035_29038E115486" ;
+    rdfs:comment ""@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/verbijzondering> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/verbijzonderingsoort> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/applicatie/heeft-herkomst> a mim:Relatiesoort,
         owl:ObjectProperty ;
@@ -527,6 +596,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "8" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "nummer"@nl ;
     mim:type mim:Integer ;
@@ -538,6 +608,7 @@
 <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/bankafschriftregel/bedrag> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "bedrag"@nl ;
+    mim:eenheid [ ] ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/bankafschriftregel/bedrag"^^xsd:anyURI ;
@@ -546,6 +617,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "10,2" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "bedrag"@nl ;
     mim:type mim:Decimal ;
@@ -603,6 +675,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "14" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "rekeningVan"@nl ;
     mim:type mim:CharacterString ;
@@ -622,6 +695,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "80" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "bank"@nl ;
     mim:type mim:CharacterString ;
@@ -641,6 +715,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "14" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "nummer"@nl ;
     mim:type mim:CharacterString ;
@@ -660,6 +735,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "80" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "tennaamstelling"@nl ;
     mim:type mim:CharacterString ;
@@ -698,6 +774,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "8" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "nummer"@nl ;
     mim:type mim:Integer ;
@@ -719,7 +796,7 @@
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "tijd"@nl ;
-    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/time> ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/tijd> ;
     dcterms:identifier "EAID_9E70B393_F097_48c2_BB7F_703C4F02D2B2" ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/batch> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/> ;
@@ -728,6 +805,7 @@
 <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/batchregel/bedrag> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "bedrag"@nl ;
+    mim:eenheid [ ] ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/batchregel/bedrag"^^xsd:anyURI ;
@@ -736,6 +814,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "10,2" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "bedrag"@nl ;
     mim:type mim:Decimal ;
@@ -774,6 +853,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "200" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "omschrijving"@nl ;
     mim:type mim:CharacterString ;
@@ -793,6 +873,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "14" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "rekeningNaar"@nl ;
     mim:type mim:CharacterString ;
@@ -812,6 +893,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "14" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "rekeningVan"@nl ;
     mim:type mim:CharacterString ;
@@ -850,6 +932,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "3" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "betaaltermijn"@nl ;
     mim:type mim:Integer ;
@@ -869,6 +952,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "40" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "code"@nl ;
     mim:type mim:CharacterString ;
@@ -899,6 +983,7 @@
 <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/factuur/factuurbedragbtw> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "factuurbedragBTW"@nl ;
+    mim:eenheid [ ] ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/factuur/factuurbedragbtw"^^xsd:anyURI ;
@@ -907,6 +992,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "10,2" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "factuurbedragBTW"@nl ;
     mim:type mim:Decimal ;
@@ -918,6 +1004,7 @@
 <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/factuur/factuurbedragexclusiefbtw> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "factuurbedragExclusiefBTW"@nl ;
+    mim:eenheid [ ] ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/factuur/factuurbedragexclusiefbtw"^^xsd:anyURI ;
@@ -926,6 +1013,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "10,2" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "factuurbedragExclusiefBTW"@nl ;
     mim:type mim:Decimal ;
@@ -945,6 +1033,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "200" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "omschrijving"@nl ;
     mim:type mim:CharacterString ;
@@ -964,6 +1053,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "6" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "aantal"@nl ;
     mim:type mim:Integer ;
@@ -975,6 +1065,7 @@
 <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/factuurregel/bedragbtw> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "bedragBTW"@nl ;
+    mim:eenheid [ ] ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/factuurregel/bedragbtw"^^xsd:anyURI ;
@@ -983,6 +1074,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "10,2" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "bedragBTW"@nl ;
     mim:type mim:Decimal ;
@@ -994,6 +1086,7 @@
 <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/factuurregel/bedragexbtw> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "bedragExBTW"@nl ;
+    mim:eenheid [ ] ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/factuurregel/bedragexbtw"^^xsd:anyURI ;
@@ -1002,6 +1095,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "10,2" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "bedragExBTW"@nl ;
     mim:type mim:Decimal ;
@@ -1021,6 +1115,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "2" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "BTWPercentage"@nl ;
     mim:type mim:Integer ;
@@ -1040,6 +1135,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "4" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "nummer"@nl ;
     mim:type mim:Integer ;
@@ -1059,6 +1155,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "80" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "omschrijving"@nl ;
     mim:type mim:CharacterString ;
@@ -1078,6 +1175,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "80" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "naam"@nl ;
     mim:type mim:CharacterString ;
@@ -1097,6 +1195,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "8" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "nummer"@nl ;
     mim:type mim:CharacterString ;
@@ -1116,6 +1215,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "200" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "omschrijving"@nl ;
     mim:type mim:CharacterString ;
@@ -1135,6 +1235,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "80" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "PIAHoofcategorieOmschrijving"@nl ;
     mim:type mim:CharacterString ;
@@ -1154,6 +1255,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "20" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "PIAHoofdcategorieCode"@nl ;
     mim:type mim:CharacterString ;
@@ -1173,6 +1275,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "20" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "subcode"@nl ;
     mim:type mim:CharacterString ;
@@ -1192,6 +1295,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "80" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "subcodeOmschrijving"@nl ;
     mim:type mim:CharacterString ;
@@ -1211,6 +1315,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "40" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "BTWCode"@nl ;
     mim:type mim:CharacterString ;
@@ -1230,6 +1335,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "80" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "BTWOmschrijving"@nl ;
     mim:type mim:CharacterString ;
@@ -1237,6 +1343,29 @@
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/kostenplaats> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/> ;
     rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/kostenplaats/indicatiehulpkostenplaats> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "indicatieHulpkostenplaats"@nl ;
+    mim:datumOpname "2026-11-04"^^xsd:date ;
+    mim:definitie "Indicatie of de kostenplaats een hulpkostenplaats is waarvan de kosten via een verdeelregel over andere kostenplaatsen worden verdeeld."@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:herkomst "Memo Domein Financiën in POHV en GGM (Invest-NL, Programma Onderwijshuisvesting, 2025)" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/kostenplaats/indicatiehulpkostenplaats"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "indicatieHulpkostenplaats"@nl ;
+    mim:type mim:Boolean ;
+    dcterms:identifier "EAID_2C1CC5B9_6F6E_44C8_ADD2_636AC21564E1" ;
+    rdfs:comment "Indicatie of de kostenplaats een hulpkostenplaats is waarvan de kosten via een verdeelregel over andere kostenplaatsen worden verdeeld."@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/kostenplaats> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/> ;
+    rdfs:range xsd:boolean .
 
 <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/kostenplaats/kostenplaatssoortcode> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
@@ -1249,6 +1378,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "20" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "kostenplaatssoortCode"@nl ;
     mim:type mim:CharacterString ;
@@ -1268,6 +1398,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "80" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "kostenplaatssoortOmschrijving"@nl ;
     mim:type mim:CharacterString ;
@@ -1287,6 +1418,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "20" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "kostenplaatstypeCode"@nl ;
     mim:type mim:CharacterString ;
@@ -1306,6 +1438,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "80" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "kostenplaatstypeOmschrijving"@nl ;
     mim:type mim:CharacterString ;
@@ -1325,6 +1458,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "80" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "naam"@nl ;
     mim:type mim:CharacterString ;
@@ -1344,6 +1478,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "200" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "omschrijving"@nl ;
     mim:type mim:CharacterString ;
@@ -1355,6 +1490,7 @@
 <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/mutatie/bedrag> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "bedrag"@nl ;
+    mim:eenheid [ ] ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/mutatie/bedrag"^^xsd:anyURI ;
@@ -1363,6 +1499,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "10,2" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "bedrag"@nl ;
     mim:type mim:Decimal ;
@@ -1390,6 +1527,149 @@
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/> ;
     rdfs:range xsd:date .
 
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/referentiegrootboekrekening/niveau> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "niveau"@nl ;
+    mim:datumOpname "2026-11-04"^^xsd:date ;
+    mim:definitie "Niveau van de rekening in de hiërarchie van RGS."@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:herkomst "Memo Domein Financiën in POHV en GGM (Invest-NL, Programma Onderwijshuisvesting, 2025)" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/referentiegrootboekrekening/niveau"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "niveau"@nl ;
+    mim:type mim:Integer ;
+    dcterms:identifier "EAID_B20AED2D_4D45_489D_8C96_E716642B54DD" ;
+    rdfs:comment "Niveau van de rekening in de hiërarchie van RGS."@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/referentiegrootboekrekening> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/> ;
+    rdfs:range xsd:integer .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/referentiegrootboekrekening/omschrijving> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "omschrijving"@nl ;
+    mim:datumOpname "2026-11-04"^^xsd:date ;
+    mim:definitie "Omschrijving van de rekening volgens RGS."@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:herkomst "Memo Domein Financiën in POHV en GGM (Invest-NL, Programma Onderwijshuisvesting, 2025)" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/referentiegrootboekrekening/omschrijving"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:lengte "300" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "omschrijving"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_577F14F9_1C8C_481F_BD7E_ABB94E39D65D" ;
+    rdfs:comment "Omschrijving van de rekening volgens RGS."@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/referentiegrootboekrekening> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/referentiegrootboekrekening/omslagcode> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "omslagcode"@nl ;
+    mim:datumOpname "2026-11-04"^^xsd:date ;
+    mim:definitie "Omslagcode: de referentiecode van de tegenrekening bij een omslag van debet naar credit."@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:herkomst "Memo Domein Financiën in POHV en GGM (Invest-NL, Programma Onderwijshuisvesting, 2025)" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/referentiegrootboekrekening/omslagcode"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:lengte "20" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "omslagcode"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_770295E2_EA14_4C2D_874E_D5A6D019806F" ;
+    rdfs:comment "Omslagcode: de referentiecode van de tegenrekening bij een omslag van debet naar credit."@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/referentiegrootboekrekening> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/referentiegrootboekrekening/referentiecode> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "referentiecode"@nl ;
+    mim:datumOpname "2026-11-04"^^xsd:date ;
+    mim:definitie "Referentiecode van de rekening in RGS, zoals WBedHuiVgo."@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:herkomst "Memo Domein Financiën in POHV en GGM (Invest-NL, Programma Onderwijshuisvesting, 2025)" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/referentiegrootboekrekening/referentiecode"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:lengte "20" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "referentiecode"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_D551AA38_8507_4091_ABF2_6F7F0CFEC079" ;
+    rdfs:comment "Referentiecode van de rekening in RGS, zoals WBedHuiVgo."@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/referentiegrootboekrekening> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/referentiegrootboekrekening/referentiegrootboeknummer> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "referentiegrootboeknummer"@nl ;
+    mim:datumOpname "2026-11-04"^^xsd:date ;
+    mim:definitie "Referentiegrootboeknummer van de rekening in RGS."@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:herkomst "Memo Domein Financiën in POHV en GGM (Invest-NL, Programma Onderwijshuisvesting, 2025)" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/referentiegrootboekrekening/referentiegrootboeknummer"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:lengte "20" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "referentiegrootboeknummer"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_333E9E2F_BAE7_4895_B467_FEB268CF5C24" ;
+    rdfs:comment "Referentiegrootboeknummer van de rekening in RGS."@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/referentiegrootboekrekening> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/referentiegrootboekrekening/versiergs> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "versieRGS"@nl ;
+    mim:datumOpname "2026-11-04"^^xsd:date ;
+    mim:definitie "Versie van RGS waaruit de rekening afkomstig is."@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:herkomst "Memo Domein Financiën in POHV en GGM (Invest-NL, Programma Onderwijshuisvesting, 2025)" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/referentiegrootboekrekening/versiergs"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:lengte "10" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "versieRGS"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_67066BB9_8E43_42AF_BFFD_ADFA053F2E34" ;
+    rdfs:comment "Versie van RGS waaruit de rekening afkomstig is."@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/referentiegrootboekrekening> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/> ;
+    rdfs:range xsd:string .
+
 <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/subrekening/naam> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "naam"@nl ;
@@ -1401,6 +1681,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "80" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "naam"@nl ;
     mim:type mim:CharacterString ;
@@ -1420,6 +1701,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "20" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "nummer"@nl ;
     mim:type mim:CharacterString ;
@@ -1447,6 +1729,147 @@
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/> ;
     rdfs:range xsd:string .
 
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/verbijzondering/omschrijving> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "omschrijving"@nl ;
+    mim:datumOpname "2026-11-04"^^xsd:date ;
+    mim:definitie "Toelichting bij de verbijzondering."@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:herkomst "Memo Domein Financiën in POHV en GGM (Invest-NL, Programma Onderwijshuisvesting, 2025)" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/verbijzondering/omschrijving"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "omschrijving"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_FF64D02F_CFF1_49C8_968B_CFB440066666" ;
+    rdfs:comment "Toelichting bij de verbijzondering."@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/verbijzondering> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/verbijzondering/waarde> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "waarde"@nl ;
+    mim:datumOpname "2026-11-04"^^xsd:date ;
+    mim:definitie "Waarde van het kenmerk, zoals Services of 50."@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:herkomst "Memo Domein Financiën in POHV en GGM (Invest-NL, Programma Onderwijshuisvesting, 2025)" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/verbijzondering/waarde"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:lengte "200" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "waarde"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_C3643977_574E_4A78_A357_7B4D600800FD" ;
+    rdfs:comment "Waarde van het kenmerk, zoals Services of 50."@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/verbijzondering> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/verbijzonderingsoort/code> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "code"@nl ;
+    mim:datumOpname "2026-11-04"^^xsd:date ;
+    mim:definitie "Code van de verbijzonderingsoort, zoals 6S of NLSFB."@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:herkomst "Memo Domein Financiën in POHV en GGM (Invest-NL, Programma Onderwijshuisvesting, 2025)" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/verbijzonderingsoort/code"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:lengte "20" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "code"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_773F7E88_3CA0_45CD_934C_1399F850C568" ;
+    rdfs:comment "Code van de verbijzonderingsoort, zoals 6S of NLSFB."@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/verbijzonderingsoort> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/verbijzonderingsoort/naam> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "naam"@nl ;
+    mim:datumOpname "2026-11-04"^^xsd:date ;
+    mim:definitie "Naam van de verbijzonderingsoort."@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:herkomst "Memo Domein Financiën in POHV en GGM (Invest-NL, Programma Onderwijshuisvesting, 2025)" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/verbijzonderingsoort/naam"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:lengte "80" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "naam"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_DE1A09F4_2A7F_47CF_909A_7BDC3C68A9E4" ;
+    rdfs:comment "Naam van de verbijzonderingsoort."@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/verbijzonderingsoort> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/verbijzonderingsoort/omschrijving> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "omschrijving"@nl ;
+    mim:datumOpname "2026-11-04"^^xsd:date ;
+    mim:definitie "Omschrijving van de verbijzonderingsoort."@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:herkomst "Memo Domein Financiën in POHV en GGM (Invest-NL, Programma Onderwijshuisvesting, 2025)" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/verbijzonderingsoort/omschrijving"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "omschrijving"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_EFF6FFC1_AB98_4288_BDF2_3150B07BA35C" ;
+    rdfs:comment "Omschrijving van de verbijzonderingsoort."@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/verbijzonderingsoort> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/verbijzonderingsoort/waardelijst> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "waardelijst"@nl ;
+    mim:datumOpname "2026-11-04"^^xsd:date ;
+    mim:definitie "Verwijzing naar de externe lijst met toegestane waarden, bijvoorbeeld NL/SfB."@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:herkomst "Memo Domein Financiën in POHV en GGM (Invest-NL, Programma Onderwijshuisvesting, 2025)" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/verbijzonderingsoort/waardelijst"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "waardelijst"@nl ;
+    mim:type mim:URI ;
+    dcterms:identifier "EAID_E86F4BB9_B9ED_427F_AF7C_E84CBCC1F552" ;
+    rdfs:comment "Verwijzing naar de externe lijst met toegestane waarden, bijvoorbeeld NL/SfB."@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/verbijzonderingsoort> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/> ;
+    rdfs:range xsd:anyURI .
+
 <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/werkorder/code> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "code"@nl ;
@@ -1458,6 +1881,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "20" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "code"@nl ;
     mim:type mim:CharacterString ;
@@ -1496,6 +1920,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "80" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "naam"@nl ;
     mim:type mim:CharacterString ;
@@ -1534,6 +1959,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "80" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "werkordertype"@nl ;
     mim:type mim:CharacterString ;
@@ -1553,6 +1979,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "255" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "applicatieURL"@nl ;
     mim:type mim:CharacterString ;
@@ -1591,6 +2018,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "255" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "beleidsdomein"@nl ;
     mim:type mim:CharacterString ;
@@ -1621,6 +2049,7 @@
 <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/applicatie/guid> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "guid"@nl ;
+    mim:formeelPatroon "^[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}$" ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/applicatie/guid"^^xsd:anyURI ;
@@ -1629,6 +2058,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "36" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "guid"@nl ;
     mim:type mim:CharacterString ;
@@ -1648,6 +2078,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "255" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "naam"@nl ;
     mim:type mim:CharacterString ;
@@ -1763,6 +2194,7 @@
 <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/betaling/bedrag> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "bedrag"@nl ;
+    mim:eenheid [ ] ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/betaling/bedrag"^^xsd:anyURI ;
@@ -1771,6 +2203,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "10,2" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "bedrag"@nl ;
     mim:type mim:Decimal ;
@@ -1809,6 +2242,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "200" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "omschrijving"@nl ;
     mim:type mim:CharacterString ;
@@ -1828,6 +2262,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "3" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "valuta"@nl ;
     mim:type mim:CharacterString ;
@@ -1860,6 +2295,38 @@
     rdfs:comment "Overzicht van de bij- en afschrijvingen van een rekening"@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/> .
 
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/verbijzondering> a mim:Objecttype,
+        owl:Class ;
+    rdfs:label "Verbijzondering"@nl ;
+    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/verbijzondering/omschrijving>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/verbijzondering/waarde> ;
+    mim:datumOpname "2026-11-04"^^xsd:date ;
+    mim:definitie "Kenmerk dat aan een mutatie is toegekend om deze vanuit een extra perspectief te kunnen rapporteren, zonder het grootboekschema te verfijnen; bijvoorbeeld de 6S-laag Services of de NL/SfB-hoofdgroep 50 bij de vervanging van een cv-ketel."@nl ;
+    mim:herkomst "Memo Domein Financiën in POHV en GGM (Invest-NL, Programma Onderwijshuisvesting, 2025)" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/verbijzondering"^^xsd:anyURI ;
+    mim:indicatieAbstractObject false ;
+    mim:naam "Verbijzondering"@nl ;
+    dcterms:identifier "EAID_CABD555E_721F_4120_9BED_3B496904C06F" ;
+    rdfs:comment "Kenmerk dat aan een mutatie is toegekend om deze vanuit een extra perspectief te kunnen rapporteren, zonder het grootboekschema te verfijnen; bijvoorbeeld de 6S-laag Services of de NL/SfB-hoofdgroep 50 bij de vervanging van een cv-ketel."@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/verbijzonderingsoort> a mim:Objecttype,
+        owl:Class ;
+    rdfs:label "Verbijzonderingsoort"@nl ;
+    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/verbijzonderingsoort/code>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/verbijzonderingsoort/naam>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/verbijzonderingsoort/omschrijving>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/verbijzonderingsoort/waardelijst> ;
+    mim:datumOpname "2026-11-04"^^xsd:date ;
+    mim:definitie "Soort kenmerk waarmee een mutatie nader wordt geclassificeerd, zoals de 6S-laag van Stewart Brand (Site, Structure, Skin, Services, Space plan, Stuff), de NL/SfB-code, de componentomschrijving of de geplande vervangingsdatum. Naar het voorbeeld van VERA (woningcorporaties)."@nl ;
+    mim:herkomst "Memo Domein Financiën in POHV en GGM (Invest-NL, Programma Onderwijshuisvesting, 2025)" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/verbijzonderingsoort"^^xsd:anyURI ;
+    mim:indicatieAbstractObject false ;
+    mim:naam "Verbijzonderingsoort"@nl ;
+    dcterms:identifier "EAID_42B0535D_DBF0_4732_B060_01ECC0EB41C4" ;
+    rdfs:comment "Soort kenmerk waarmee een mutatie nader wordt geclassificeerd, zoals de 6S-laag van Stewart Brand (Site, Structure, Skin, Services, Space plan, Stuff), de NL/SfB-code, de componentomschrijving of de geplande vervangingsdatum. Naar het voorbeeld van VERA (woningcorporaties)."@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/> .
+
 <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/subrekening> a mim:Objecttype,
         owl:Class ;
     rdfs:label "Subrekening"@nl ;
@@ -1872,6 +2339,25 @@
     mim:naam "Subrekening"@nl ;
     dcterms:identifier "EAID_1EC60172_CB6B_40c9_9818_C7A708C8540E" ;
     rdfs:comment "Ondergeschikte rekening van een hoofdrekening"@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/referentiegrootboekrekening> a mim:Objecttype,
+        owl:Class ;
+    rdfs:label "Referentiegrootboekrekening"@nl ;
+    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/referentiegrootboekrekening/niveau>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/referentiegrootboekrekening/omschrijving>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/referentiegrootboekrekening/omslagcode>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/referentiegrootboekrekening/referentiecode>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/referentiegrootboekrekening/referentiegrootboeknummer>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/referentiegrootboekrekening/versiergs> ;
+    mim:datumOpname "2026-11-04"^^xsd:date ;
+    mim:definitie "Rekening uit het Referentie Grootboekschema (RGS), de landelijke standaardindeling van grootboekrekeningen waarmee kostensoorten eenduidig worden geclassificeerd en waarop de SBR-rapportage aansluit. RGS wordt beheerd door de RGS-beheergroep onder voorzitterschap van de NBA en gepubliceerd op www.referentiegrootboekschema.nl."@nl ;
+    mim:herkomst "Memo Domein Financiën in POHV en GGM (Invest-NL, Programma Onderwijshuisvesting, 2025)" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/referentiegrootboekrekening"^^xsd:anyURI ;
+    mim:indicatieAbstractObject false ;
+    mim:naam "Referentiegrootboekrekening"@nl ;
+    dcterms:identifier "EAID_F068224A_6213_4E44_9987_3A0D1208BC61" ;
+    rdfs:comment "Rekening uit het Referentie Grootboekschema (RGS), de landelijke standaardindeling van grootboekrekeningen waarmee kostensoorten eenduidig worden geclassificeerd en waarop de SBR-rapportage aansluit. RGS wordt beheerd door de RGS-beheergroep onder voorzitterschap van de NBA en gepubliceerd op www.referentiegrootboekschema.nl."@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/bankrekening> a mim:Objecttype,
@@ -2024,13 +2510,13 @@
     rdfs:label "Mutatie"@nl ;
     mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/mutatie/bedrag>,
         <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/mutatie/datum> ;
-    mim:definitie "Wijziging van een situatie"@nl ;
+    mim:definitie "Boeking van een bedrag van de ene hoofdrekening naar de andere op een datum, toegeschreven aan een kostenplaats. Een mutatie ontstaat uit een factuurregel, batchregel of bankafschriftregel en kan met verbijzonderingen vanuit extra perspectieven worden gerapporteerd."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/mutatie"^^xsd:anyURI ;
     mim:indicatieAbstractObject false ;
     mim:naam "Mutatie"@nl ;
     mim:toelichting "Dit kan naast getoonde mutaties nog diverse andere soorten mutaties betreffen, die handmatig worden ingevoerd, of via batches of facturen lopen: * Verkoop tot ontvangst * Inkoop tot betaling * BTW-compensatie * Vaste activa * Urenadministratie uit TIM"@nl ;
     dcterms:identifier "EAID_CB0A6B53_D263_459e_8C28_AD97E5552FFF" ;
-    rdfs:comment "Wijziging van een situatie"@nl ;
+    rdfs:comment "Boeking van een bedrag van de ene hoofdrekening naar de andere op een datum, toegeschreven aan een kostenplaats. Een mutatie ontstaat uit een factuurregel, batchregel of bankafschriftregel en kan met verbijzonderingen vanuit extra perspectieven worden gerapporteerd."@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/kostenplaats> a mim:Objecttype,
@@ -2038,6 +2524,7 @@
     rdfs:label "Kostenplaats"@nl ;
     mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/kostenplaats/btwcode>,
         <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/kostenplaats/btwomschrijving>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/kostenplaats/indicatiehulpkostenplaats>,
         <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/kostenplaats/kostenplaatssoortcode>,
         <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/kostenplaats/kostenplaatssoortomschrijving>,
         <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/kostenplaats/kostenplaatstypecode>,

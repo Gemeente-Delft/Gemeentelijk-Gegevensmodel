@@ -8,13 +8,13 @@ export zelf staan in de handleiding van crunch_uml (`docs/handleiding/export.md`
 
 ```
 model (.qea)  --import:model-->  crunch_uml.db
-              --generate:lod-->  <release>/ttl/Gemeentelijk Gegevensmodel Linked Data.ttl         het geheel: ontologie (RDFS/OWL + MIM 1.2)
-                                 <release>/ttl/Gemeentelijk Gegevensmodel Linked Data-shapes.ttl  SHACL-shapes (owl:imports ontologie)
-                                 <release>/ttl/<pad>.ttl                                          deelmodel per EA-diagram
+              --generate:lod-->  <release>/linked data/Gemeentelijk Gegevensmodel Linked Data.ttl         het geheel: ontologie (RDFS/OWL + MIM 1.2)
+                                 <release>/linked data/Gemeentelijk Gegevensmodel Linked Data-shapes.ttl  SHACL-shapes (owl:imports ontologie)
+                                 <release>/linked data/<pad>.ttl                                          deelmodel per EA-diagram
               --publish:lod-->   named graphs <LINKED_DATA_NS>/<versie>/<pad> op de LOD-server
 ```
 
-Alle Linked Data staat in `<release>/ttl` (var `LOD_DIR`). De namen van het geheel en de shapes
+Alle Linked Data staat in `<release>/linked data` (var `LOD_DIR`). De namen van het geheel en de shapes
 volgen `LOD_FILE` uit `.env`; de shapes krijgen dezelfde naam met `-shapes`.
 
 Er is één bestand met het hele model: de ontologie. Die bevat alle pakketten, ook klassen en

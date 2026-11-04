@@ -200,6 +200,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "0..1" ;
+    mim:lengte "20" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "archiefcode"@nl ;
     mim:type mim:CharacterString ;
@@ -263,6 +264,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "3" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "doorlooptijdBehandeling"@nl ;
     mim:type mim:Integer ;
@@ -284,6 +286,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "1" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "indicatiePublicatie"@nl ;
     mim:type mim:CharacterString ;
@@ -305,6 +308,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "0..1" ;
+    mim:lengte "1000" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "publicatietekst"@nl ;
     mim:type mim:CharacterString ;
@@ -326,6 +330,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "0..1" ;
+    mim:lengte "3" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "servicenormBehandeling"@nl ;
     mim:type mim:Integer ;
@@ -347,6 +352,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "0..*" ;
+    mim:lengte "30" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "trefwoord"@nl ;
     mim:type mim:CharacterString ;
@@ -368,6 +374,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "20" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "vertrouwelijkAanduiding"@nl ;
     mim:type mim:CharacterString ;
@@ -389,6 +396,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "0..1" ;
+    mim:lengte "40" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "zaakcategorie"@nl ;
     mim:type mim:CharacterString ;
@@ -410,6 +418,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "80" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "zaaktypeOmschrijving"@nl ;
     mim:type mim:CharacterString ;
@@ -431,6 +440,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "0..1" ;
+    mim:lengte "80" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "zaaktypeOmschrijvingGeneriek"@nl ;
     mim:type mim:CharacterString ;

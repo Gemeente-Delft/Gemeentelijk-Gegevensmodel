@@ -641,6 +641,7 @@
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/alimentatie/bedrag-aan-andere-rekeningen> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "Bedrag aan andere rekeningen"@nl ;
+    mim:eenheid [ ] ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/alimentatie/bedrag-aan-andere-rekeningen"^^xsd:anyURI ;
@@ -649,6 +650,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "10,2" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "Bedrag aan andere rekeningen"@nl ;
     mim:type mim:Decimal ;
@@ -1634,17 +1636,6 @@
     rdfs:label "AOW-Overbruggingsregeling"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdszwet/aow-overbruggingsregeling"^^xsd:anyURI ;
     mim:naam "AOW-Overbruggingsregeling"@nl ;
-    dcterms:identifier "EAID_39A0099F_EE12_4c0a_B8D9_E597B5041F99" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdszwet> ;
-    skos:prefLabel "AOW-Overbruggingsregeling"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdszwet> .
-
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdszwet/aow-overbruggingsregeling-2> a mim:Enumeratiewaarde,
-        skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdszwet> ;
-    rdfs:label "AOW-Overbruggingsregeling"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdszwet/aow-overbruggingsregeling-2"^^xsd:anyURI ;
-    mim:naam "AOW-Overbruggingsregeling"@nl ;
     dcterms:identifier "EAID_AB531EB1_663F_4e7c_AB71_927B03E01C0E" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdszwet> ;
     skos:prefLabel "AOW-Overbruggingsregeling"@nl ;
@@ -2071,19 +2062,8 @@
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdszwet/wet-werk-en-arbeidsondersteuning-jonggehandicapten-wet-wajong> a mim:Enumeratiewaarde,
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdszwet> ;
-    rdfs:label "Wet Werk en Arbeidsondersteuning Jonggehandicapten (Wet Wajong)"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdszwet/wet-werk-en-arbeidsondersteuning-jonggehandicapten-wet-wajong"^^xsd:anyURI ;
-    mim:naam "Wet Werk en Arbeidsondersteuning Jonggehandicapten (Wet Wajong)"@nl ;
-    dcterms:identifier "EAID_61823134_07AF_45bf_9BE7_DE0ED79AEFFC" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdszwet> ;
-    skos:prefLabel "Wet Werk en Arbeidsondersteuning Jonggehandicapten (Wet Wajong)"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdszwet> .
-
-<https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdszwet/wet-werk-en-arbeidsondersteuning-jonggehandicapten-wet-wajong-2> a mim:Enumeratiewaarde,
-        skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdszwet> ;
     rdfs:label "Wet werk en arbeidsondersteuning jonggehandicapten (Wet Wajong)"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdszwet/wet-werk-en-arbeidsondersteuning-jonggehandicapten-wet-wajong-2"^^xsd:anyURI ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdszwet/wet-werk-en-arbeidsondersteuning-jonggehandicapten-wet-wajong"^^xsd:anyURI ;
     mim:naam "Wet werk en arbeidsondersteuning jonggehandicapten (Wet Wajong)"@nl ;
     dcterms:identifier "EAID_7A5D633B_0F16_4a00_B6D2_5D660B725A29" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdszwet> ;
@@ -2736,6 +2716,7 @@
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/draagkrachtregime/initiele-draagkracht> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "Initiele draagkracht"@nl ;
+    mim:eenheid [ ] ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/draagkrachtregime/initiele-draagkracht"^^xsd:anyURI ;
@@ -2744,6 +2725,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "10,2" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "Initiele draagkracht"@nl ;
     mim:type mim:Decimal ;
@@ -2793,6 +2775,7 @@
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/draagkrachtregime/resterende-draagkracht> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "Resterende draagkracht"@nl ;
+    mim:eenheid [ ] ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/draagkrachtregime/resterende-draagkracht"^^xsd:anyURI ;
@@ -2801,6 +2784,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "10,2" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "Resterende draagkracht"@nl ;
     mim:type mim:Decimal ;
@@ -3072,6 +3056,7 @@
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/inkomstencomponent/inkomsten> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "Inkomsten"@nl ;
+    mim:eenheid [ ] ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/inkomstencomponent/inkomsten"^^xsd:anyURI ;
@@ -3080,6 +3065,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "10,2" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "Inkomsten"@nl ;
     mim:type mim:Decimal ;
@@ -3243,6 +3229,7 @@
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/kostencomponent/bedrag> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "Bedrag"@nl ;
+    mim:eenheid [ ] ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/kostencomponent/bedrag"^^xsd:anyURI ;
@@ -3251,6 +3238,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "10,2" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "Bedrag"@nl ;
     mim:type mim:Decimal ;
@@ -3262,6 +3250,7 @@
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/onderhoudsplicht/bijdrage> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "Bijdrage"@nl ;
+    mim:eenheid [ ] ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/onderhoudsplicht/bijdrage"^^xsd:anyURI ;
@@ -3270,6 +3259,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "10,2" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "Bijdrage"@nl ;
     mim:type mim:Decimal ;
@@ -3972,6 +3962,7 @@
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/vrijlating-inkomsten/vrijgelaten-bedrag> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "Vrijgelaten bedrag"@nl ;
+    mim:eenheid [ ] ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/vrijlating-inkomsten/vrijgelaten-bedrag"^^xsd:anyURI ;
@@ -3980,6 +3971,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "10,2" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "Vrijgelaten bedrag"@nl ;
     mim:type mim:Decimal ;
@@ -4690,7 +4682,6 @@
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdszwet/algemene-ouderdomswet>,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdszwet/algemene-wet-bijzondere-ziektekosten>,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdszwet/aow-overbruggingsregeling>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdszwet/aow-overbruggingsregeling-2>,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdszwet/besluit-bijstandverlening-zelfstandigen>,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdszwet/besluit-bijstandverlening-zelfstandigen-bedrijfskapitaal>,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdszwet/besluit-bijstandverlening-zelfstandigen-bijzondere-bijstand>,
@@ -4730,7 +4721,6 @@
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdszwet/wet-sociale-werkvooriening>,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdszwet/wet-voorzieningen-gehandicapten>,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdszwet/wet-werk-en-arbeidsondersteuning-jonggehandicapten-wet-wajong>,
-        <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdszwet/wet-werk-en-arbeidsondersteuning-jonggehandicapten-wet-wajong-2>,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdszwet/wet-werk-en-bijstand>,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdszwet/wet-werk-en-inkomen-kunstenaars>,
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/inkomsten/datatypes/cdszwet/wet-werk-en-inkomen-naar-arbeidsvermogen>,

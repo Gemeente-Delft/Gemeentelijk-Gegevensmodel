@@ -22,7 +22,7 @@
 # - To deploy the documentation of this version to the LOCAL gh-pages branch (preview): `task publish:local`
 # - To publish documentation to GitHub Pages: `task publish:github` (runs publish:release first, which
 #   makes this version the default of the site: alias latest + start page, after confirmation)
-# - To generate the Linked Data in <version>/ttl (the whole model, its SHACL shapes and one sub-model per EA diagram): `task generate:lod`
+# - To generate the Linked Data in <version>/linked data (the whole model, its SHACL shapes and one sub-model per EA diagram): `task generate:lod`
 # - To publish the Linked Data sub-models as named graphs on the LOD server: `task publish:lod`
 #   (see tools/README-lod.md for how the LOD pipeline works)
 #
@@ -65,7 +65,7 @@ vars:
   #   LOD_DIR      bevat beide, en in submappen per EA-diagram een deelmodel: een deelgraaf van de
   #                ontologie, pad langs de pakketboom (99 Kern > Model BAG > Onderzoek ->
   #                kern/bag/onderzoek.ttl), kopregel '# graph: <LINKED_DATA_NS/VERSION/pad>'
-  LOD_DIR: "{{.VERSION_DIR}}/ttl"
+  LOD_DIR: "{{.VERSION_DIR}}/linked data"
   LOD: "{{.LOD_DIR}}/{{.LOD_FILE}}"
   LOD_SHAPES: '{{.LOD_DIR}}/{{.LOD_FILE | default "" | trimSuffix ".ttl"}}-shapes.ttl'
   # Metagegevens van het informatiemodel (mim:Informatiemodel op de basis-URI).

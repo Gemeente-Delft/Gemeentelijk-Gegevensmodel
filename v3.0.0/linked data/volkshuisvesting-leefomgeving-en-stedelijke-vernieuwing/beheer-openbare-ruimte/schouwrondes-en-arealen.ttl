@@ -108,58 +108,6 @@
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/> ;
     rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/wijk> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/kern/bag/boolean/ja> a mim:Enumeratiewaarde,
-        skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/boolean> ;
-    rdfs:label "Ja"@nl ;
-    mim:code "1" ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/bag/boolean/ja"^^xsd:anyURI ;
-    mim:naam "Ja"@nl ;
-    dcterms:identifier "EAID_09A32FFB_F302_42ad_B2C7_F5EE3F9B0DFF" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/boolean> ;
-    skos:notation "1" ;
-    skos:prefLabel "Ja"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/boolean> .
-
-<https://lod.gemeentelijkgegevensmodel.nl/kern/bag/boolean/leeg> a mim:Enumeratiewaarde,
-        skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/boolean> ;
-    rdfs:label "Leeg"@nl ;
-    mim:code "-2" ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/bag/boolean/leeg"^^xsd:anyURI ;
-    mim:naam "Leeg"@nl ;
-    dcterms:identifier "EAID_586B24ED_FF6C_4c96_AC5C_F20E3191186E" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/boolean> ;
-    skos:notation "-2" ;
-    skos:prefLabel "Leeg"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/boolean> .
-
-<https://lod.gemeentelijkgegevensmodel.nl/kern/bag/boolean/nee> a mim:Enumeratiewaarde,
-        skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/boolean> ;
-    rdfs:label "Nee"@nl ;
-    mim:code "0" ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/bag/boolean/nee"^^xsd:anyURI ;
-    mim:naam "Nee"@nl ;
-    dcterms:identifier "EAID_5AB379AF_F672_4b81_B2FA_8D39DC5C8289" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/boolean> ;
-    skos:notation "0" ;
-    skos:prefLabel "Nee"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/boolean> .
-
-<https://lod.gemeentelijkgegevensmodel.nl/kern/bag/boolean/onbekend> a mim:Enumeratiewaarde,
-        skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/boolean> ;
-    rdfs:label "Onbekend"@nl ;
-    mim:code "-1" ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/bag/boolean/onbekend"^^xsd:anyURI ;
-    mim:naam "Onbekend"@nl ;
-    dcterms:identifier "EAID_5A3213D0_80D2_450d_8FBA_D2EB84278E51" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/boolean> ;
-    skos:notation "-1" ;
-    skos:prefLabel "Onbekend"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/boolean> .
-
 <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/buurt/begingeldigheid> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "beginGeldigheid"@nl ;
@@ -206,6 +154,7 @@ Vanaf deze datum zijn gegevens in de BAG geldig. Bij elke verandering in de BAG 
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "2" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "code"@nl ;
     mim:patroon "Buurtcode conform CBS-tabel. Numeriek met voorloopnullen" ;
@@ -291,7 +240,7 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
     rdfs:range xsd:date .
 
 <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/buurt/geconstateerd> a mim:Attribuutsoort,
-        owl:ObjectProperty ;
+        owl:DatatypeProperty ;
     rdfs:label "Geconstateerd"@nl ;
     mim:authentiek mim:Authentiek ;
     mim:heeftTijdlijnGeldigheid false ;
@@ -302,13 +251,13 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
-    mim:mogelijkGeenWaarde false ;
+    mim:mogelijkGeenWaarde true ;
     mim:naam "Geconstateerd"@nl ;
-    mim:type <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/boolean> ;
+    mim:type mim:Boolean ;
     dcterms:identifier "EAID_4BDC1924_7097_4432_B358_BD2CC8AF4E71" ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/buurt> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/> ;
-    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/boolean> .
+    rdfs:range xsd:boolean .
 
 <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/buurt/geometrie> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
@@ -329,7 +278,7 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
     mim:naam "geometrie"@nl ;
     mim:patroon "alle binnen Nederland gelegen waarden van het RD-stelsel." ;
     mim:toelichting "De buurtgrenzen zijn zoveel mogelijk gebaseerd op topografische elementen."@nl ;
-    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/multisurface> ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/gm-multisurface> ;
     dcterms:identifier "EAID_91EA2C37_0151_4608_BB8A_168F66A949C0" ;
     rdfs:comment "De tweedimensionale geometrische representatie van de omtrekken van de buurt."@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/buurt> ;
@@ -370,6 +319,7 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "40" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "naam"@nl ;
     mim:patroon "Alle bestaande alfanumerieke tekens." ;
@@ -613,7 +563,7 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
     mim:naam "geometrie"@nl ;
     mim:patroon "alle binnen Nederland gelegen waarden van het RD-stelsel." ;
     mim:toelichting "De wijkgrenzen zijn zoveel mogelijk gebaseerd op sociaalgeografische kenmerken."@nl ;
-    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/multisurface> ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/gm-multisurface> ;
     dcterms:identifier "EAID_DB2ED099_6545_4d8a_853B_AC0632D69129" ;
     rdfs:comment "De tweedimensionale geometrische representatie van de omtrekken van de wijk."@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/wijk> ;
@@ -692,6 +642,7 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "2" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "wijkcode"@nl ;
     mim:patroon "Wijkcode conform CBS-tabel, numeriek getal met voorloopnullen" ;
@@ -718,6 +669,7 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "40" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "wijknaam"@nl ;
     mim:patroon "alle alfanumerieke tekens zonder …" ;
@@ -741,7 +693,7 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "geometrie"@nl ;
-    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/multisurface> ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/gm-multisurface> ;
     dcterms:identifier "EAID_96F2F946_355D_4ec4_A27A_4AA44B2D5F15" ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/areaal> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/> ;
@@ -769,20 +721,6 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
     dcterms:identifier "EAID_9507EE24_6397_4a9c_B478_8C2899EC0BFB" ;
     rdfs:comment "Het verspreidingsgebied van een een soort, een levensgemeenschap of een biotooptype."@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/> .
-
-<https://lod.gemeentelijkgegevensmodel.nl/kern/bag/boolean> a mim:Enumeratie,
-        owl:Class,
-        skos:ConceptScheme ;
-    rdfs:label "Boolean"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/bag/boolean"^^xsd:anyURI ;
-    mim:naam "Boolean"@nl ;
-    mim:waarde <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/boolean/ja>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/boolean/leeg>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/boolean/nee>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/boolean/onbekend> ;
-    dcterms:identifier "EAID_E44C5FB6_67AB_4efe_B3F0_C6AFE5B6192F" ;
-    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/> ;
-    rdfs:subClassOf skos:Concept .
 
 <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/buurt> a mim:Objecttype,
         owl:Class ;

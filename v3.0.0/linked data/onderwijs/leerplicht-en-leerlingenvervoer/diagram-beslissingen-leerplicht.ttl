@@ -410,7 +410,7 @@
     owl:versionInfo "v3.0.0" .
 
 <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/afgehandeld> a mim:Attribuutsoort,
-        owl:ObjectProperty ;
+        owl:DatatypeProperty ;
     rdfs:label "afgehandeld"@nl ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
@@ -422,11 +422,11 @@
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "afgehandeld"@nl ;
-    mim:type <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/boolean> ;
+    mim:type mim:Boolean ;
     dcterms:identifier "EAID_AC248AAD_192D_40e3_B2C3_107CBA34CB21" ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/> ;
-    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/boolean> .
+    rdfs:range xsd:boolean .
 
 <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/categorie> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
@@ -439,6 +439,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "200" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "categorie"@nl ;
     mim:type mim:CharacterString ;
@@ -458,6 +459,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "80" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "categoriecode"@nl ;
     mim:type mim:CharacterString ;
@@ -523,6 +525,29 @@
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/> ;
     rdfs:range xsd:date .
 
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/datumeerstereactie> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "datumEersteReactie"@nl ;
+    mim:datumOpname "2026-11-04"^^xsd:date ;
+    mim:definitie "De datum en tijd waarop een behandelaar een eerste reactie op de aanvraag of melding heeft gegeven."@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:herkomst "Proposal Meldingen Openbare Ruimte, gemeenten Katwijk en Land van Cuijk (2026)" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/datumeerstereactie"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "datumEersteReactie"@nl ;
+    mim:type mim:DateTime ;
+    dcterms:identifier "EAID_6AA5CFC5_CDC6_4319_A336_CAAC6482CB2E" ;
+    rdfs:comment "De datum en tijd waarop een behandelaar een eerste reactie op de aanvraag of melding heeft gegeven."@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/> ;
+    rdfs:range xsd:dateTime .
+
 <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/datumeindestatus> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "datumEindeStatus"@nl ;
@@ -542,6 +567,29 @@
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/> ;
     rdfs:range xsd:date .
 
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/datumnormafhandeling> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "datumNormAfhandeling"@nl ;
+    mim:datumOpname "2026-11-04"^^xsd:date ;
+    mim:definitie "De datum en tijd waarop volgens de geldende servicenorm redelijkerwijs verwacht mag worden dat de aanvraag of melding is behandeld (normtijd)."@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:herkomst "Proposal Meldingen Openbare Ruimte, gemeenten Katwijk en Land van Cuijk (2026)" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/datumnormafhandeling"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "datumNormAfhandeling"@nl ;
+    mim:type mim:DateTime ;
+    dcterms:identifier "EAID_93E969ED_6F36_4D8F_B756_EA539E31DEAE" ;
+    rdfs:comment "De datum en tijd waarop volgens de geldende servicenorm redelijkerwijs verwacht mag worden dat de aanvraag of melding is behandeld (normtijd)."@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/> ;
+    rdfs:range xsd:dateTime .
+
 <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/hoofdcategorie> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "hoofdcategorie"@nl ;
@@ -553,6 +601,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "80" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "hoofdcategorie"@nl ;
     mim:type mim:CharacterString ;
@@ -572,6 +621,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "80" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "hoofdcategoriecode"@nl ;
     mim:type mim:CharacterString ;
@@ -591,6 +641,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "40" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "identificatie"@nl ;
     mim:type mim:CharacterString ;
@@ -598,6 +649,29 @@
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/> ;
     rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/indicatiehogeprioriteit> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "indicatieHogePrioriteit"@nl ;
+    mim:datumOpname "2026-11-04"^^xsd:date ;
+    mim:definitie "Indicatie of de aanvraag of melding met spoed opgepakt dient te worden."@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:herkomst "Proposal Meldingen Openbare Ruimte, gemeenten Katwijk en Land van Cuijk (2026)" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/indicatiehogeprioriteit"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "indicatieHogePrioriteit"@nl ;
+    mim:type mim:Boolean ;
+    dcterms:identifier "EAID_209D5625_82D2_450A_954E_EF3FC19FF274" ;
+    rdfs:comment "Indicatie of de aanvraag of melding met spoed opgepakt dient te worden."@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/> ;
+    rdfs:range xsd:boolean .
 
 <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/kanaal> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
@@ -610,6 +684,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "80" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "kanaal"@nl ;
     mim:type mim:CharacterString ;
@@ -629,6 +704,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "200" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "onderwerp"@nl ;
     mim:type mim:CharacterString ;
@@ -648,10 +724,35 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "80" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "onderwerpcode"@nl ;
     mim:type mim:CharacterString ;
     dcterms:identifier "EAID_3A678FBE_3890_41b5_9E6B_9C9C0A59E8D8" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/resultaat> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "resultaat"@nl ;
+    mim:datumOpname "2026-11-04"^^xsd:date ;
+    mim:definitie "Het uiteindelijke resultaat van de aanvraag of melding, zoals opgelost of buiten behandeling gelaten."@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:herkomst "Proposal Meldingen Openbare Ruimte, gemeenten Katwijk en Land van Cuijk (2026)" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/resultaat"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:lengte "80" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "resultaat"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_748355B0_368E_4DA8_A44E_773CC5A21C35" ;
+    rdfs:comment "Het uiteindelijke resultaat van de aanvraag of melding, zoals opgelost of buiten behandeling gelaten."@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/> ;
     rdfs:range xsd:string .
@@ -668,6 +769,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "80" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "soort"@nl ;
     mim:type mim:CharacterString ;
@@ -688,6 +790,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "80" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "status"@nl ;
     mim:type mim:CharacterString ;
@@ -707,6 +810,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "80" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "statuscode"@nl ;
     mim:type mim:CharacterString ;
@@ -726,6 +830,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "80" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "statusVolgorde"@nl ;
     mim:type mim:CharacterString ;
@@ -745,6 +850,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "200" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "subcategorie"@nl ;
     mim:type mim:CharacterString ;
@@ -764,6 +870,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "80" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "subcategoriecode"@nl ;
     mim:type mim:CharacterString ;
@@ -783,6 +890,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "200" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "naam"@nl ;
     mim:type mim:CharacterString ;
@@ -802,6 +910,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "40" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "nummer"@nl ;
     mim:type mim:CharacterString ;
@@ -863,7 +972,7 @@
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/boolean> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerling/kwetsbarejongere> a mim:Attribuutsoort,
-        owl:ObjectProperty ;
+        owl:DatatypeProperty ;
     rdfs:label "kwetsbareJongere"@nl ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
@@ -875,11 +984,11 @@
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "kwetsbareJongere"@nl ;
-    mim:type <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/boolean> ;
+    mim:type mim:Boolean ;
     dcterms:identifier "EAID_70DE2997_48B9_4f71_B6BF_2B9C3163F429" ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerling> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/> ;
-    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/boolean> .
+    rdfs:range xsd:boolean .
 
 <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/aanvraagofmelding/datum> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
@@ -911,6 +1020,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "300" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "opmerkingen"@nl ;
     mim:type mim:CharacterString ;
@@ -930,6 +1040,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "300" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "reden"@nl ;
     mim:type mim:CharacterString ;
@@ -968,6 +1079,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "300" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "buitenlandseSchoollocatie"@nl ;
     mim:type mim:CharacterString ;
@@ -1044,6 +1156,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "200" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "reden"@nl ;
     mim:type mim:CharacterString ;
@@ -1063,6 +1176,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "300" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "afdoening"@nl ;
     mim:type mim:CharacterString ;
@@ -1082,6 +1196,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "300" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "afdoening"@nl ;
     mim:type mim:CharacterString ;
@@ -1245,6 +1360,7 @@
 <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/procesverbaal-onderwijs/geldboete> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "geldboete"@nl ;
+    mim:eenheid [ ] ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/procesverbaal-onderwijs/geldboete"^^xsd:anyURI ;
@@ -1253,6 +1369,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "10,2" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "geldboete"@nl ;
     mim:type mim:Decimal ;
@@ -1262,7 +1379,7 @@
     rdfs:range xsd:decimal .
 
 <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/procesverbaal-onderwijs/geldboetevoorwaardelijk> a mim:Attribuutsoort,
-        owl:ObjectProperty ;
+        owl:DatatypeProperty ;
     rdfs:label "geldboeteVoorwaardelijk"@nl ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
@@ -1274,11 +1391,11 @@
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "geldboeteVoorwaardelijk"@nl ;
-    mim:type <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/boolean> ;
+    mim:type mim:Boolean ;
     dcterms:identifier "EAID_E7F9C9A0_9142_4dc3_9BB3_8BC257E25899" ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/procesverbaal-onderwijs> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/> ;
-    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/boolean> .
+    rdfs:range xsd:boolean .
 
 <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/procesverbaal-onderwijs/opmerkingen> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
@@ -1291,6 +1408,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "1000" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "opmerkingen"@nl ;
     mim:type mim:CharacterString ;
@@ -1331,6 +1449,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "255" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "reden"@nl ;
     mim:type mim:CharacterString ;
@@ -1350,6 +1469,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "100" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "sanctiesoort"@nl ;
     mim:type mim:CharacterString ;
@@ -1369,6 +1489,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "500" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "uitspraak"@nl ;
     mim:type mim:CharacterString ;
@@ -1445,6 +1566,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "200" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "soortVerlof"@nl ;
     mim:type mim:CharacterString ;
@@ -1502,6 +1624,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "300" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "voorstelSchool"@nl ;
     mim:type mim:CharacterString ;
@@ -1533,7 +1656,7 @@
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/verzuimsoort> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/vrijstelling/aanvraagtoegekend> a mim:Attribuutsoort,
-        owl:ObjectProperty ;
+        owl:DatatypeProperty ;
     rdfs:label "aanvraagToegekend"@nl ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
@@ -1545,11 +1668,11 @@
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "aanvraagToegekend"@nl ;
-    mim:type <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/boolean> ;
+    mim:type mim:Boolean ;
     dcterms:identifier "EAID_9BB5E44A_DAE0_4ab1_9112_ADAECCF38A6D" ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/vrijstelling> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/> ;
-    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/boolean> .
+    rdfs:range xsd:boolean .
 
 <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/vrijstelling/buitenlandseschoollocatie> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
@@ -1562,6 +1685,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "500" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "buitenlandseSchoollocatie"@nl ;
     mim:type mim:CharacterString ;
@@ -1638,6 +1762,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "200" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "naam"@nl ;
     mim:type mim:CharacterString ;
@@ -1735,7 +1860,7 @@
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/halt-verwijzing"^^xsd:anyURI ;
     mim:indicatieAbstractObject false ;
     mim:naam "HALT-verwijzing"@nl ;
-    mim:toelichting "Halt heeft de wettelijke taak om strafbaar gedrag onder jongeren van 12 tot 23 jaar aan te pakken, zonder dat jongere een strafblad krijgt. Halt legt een maatregel op aan jongeren die een strafbaar licht vergrijp hebben gepleegd. Dit is de zogeheten Halt-"@nl ;
+    mim:toelichting "Halt heeft de wettelijke taak om strafbaar gedrag onder jongeren van 12 tot 23 jaar aan te pakken, zonder dat jongere een strafblad krijgt. Halt legt een maatregel op aan jongeren die een strafbaar licht vergrijp hebben gepleegd. Dit is de zogeheten Halt-"@nl ;
     dcterms:identifier "EAID_70E3C6AF_1117_4cfc_B61F_0D168010FFB9" ;
     rdfs:comment "Jongeren van 12 tot 18 jaar die strafbare feiten plegen, zoals bijvoorbeeld: winkeldiefstal, vernieling, openbaar dronkenschap of oplichting kunnen naar Halt worden verwezen. In sommige gevallen is daarvoor toestemming nodig van het Openbaar Ministerie."@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/> ;
@@ -1830,6 +1955,20 @@
     rdfs:comment "Gebouw in gebruik voor basis, middelbaar of hoger onderwijs."@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/> .
 
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/boolean> a mim:Enumeratie,
+        owl:Class,
+        skos:ConceptScheme ;
+    rdfs:label "Boolean"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/boolean"^^xsd:anyURI ;
+    mim:naam "Boolean"@nl ;
+    mim:waarde <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/boolean/ja>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/boolean/leeg>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/boolean/nee>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/boolean/onbekend> ;
+    dcterms:identifier "EAID_9BD0FBCB_1A9E_4cab_9280_0EBC428E38F7" ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/> ;
+    rdfs:subClassOf skos:Concept .
+
 <https://lod.gemeentelijkgegevensmodel.nl/onderwijs/leerplicht-en-leerlingenvervoer/verzuimsoort> a mim:Enumeratie,
         owl:Class,
         skos:ConceptScheme ;
@@ -1919,13 +2058,17 @@
         <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/datumaanmaak>,
         <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/datumafhandeling>,
         <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/datumbeginstatus>,
+        <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/datumeerstereactie>,
         <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/datumeindestatus>,
+        <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/datumnormafhandeling>,
         <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/hoofdcategorie>,
         <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/hoofdcategoriecode>,
         <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/identificatie>,
+        <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/indicatiehogeprioriteit>,
         <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/kanaal>,
         <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/onderwerp>,
         <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/onderwerpcode>,
+        <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/resultaat>,
         <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/soort>,
         <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/status>,
         <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/aanvraagofmelding/statuscode>,
@@ -1945,18 +2088,4 @@ ID: REQ_ID"""@nl ;
 Bron: GEM_VJV (Distinct op REQ_ID)
 ID: REQ_ID"""@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/dienstverlening/> .
-
-<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/boolean> a mim:Enumeratie,
-        owl:Class,
-        skos:ConceptScheme ;
-    rdfs:label "Boolean"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/boolean"^^xsd:anyURI ;
-    mim:naam "Boolean"@nl ;
-    mim:waarde <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/boolean/ja>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/boolean/leeg>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/boolean/nee>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/boolean/onbekend> ;
-    dcterms:identifier "EAID_9BD0FBCB_1A9E_4cab_9280_0EBC428E38F7" ;
-    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/> ;
-    rdfs:subClassOf skos:Concept .
 

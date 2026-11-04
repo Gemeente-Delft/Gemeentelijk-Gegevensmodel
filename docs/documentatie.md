@@ -4,7 +4,7 @@ Deze handleiding beschrijft hoe je op basis van een XMI-bestand een nieuwe versi
 
 - een nieuwe Excel-specificatie,
 - een set vertaalde `.qea`-bestanden (voor Enterprise Architect),
-- de Linked Data in `<versie>/ttl`: het hele model als ontologie, de SHACL-shapes en per diagram een deelmodel,
+- de Linked Data in `<versie>/linked data`: het hele model als ontologie, de SHACL-shapes en per diagram een deelmodel,
 - een volledige set Markdown-documentatie,
 - en een gepubliceerde versie van de documentatie op GitHub Pages.
 
@@ -23,7 +23,7 @@ Zodra je een nieuwe versie van het model in XMI-formaat hebt, wil je daaruit aut
 3. **Documentatie**: Markdown-bestanden worden gegenereerd uit het model.
 4. **Excel**: Een Excel-specificatie wordt automatisch aangemaakt.
 5. **Vertalingen**: Het i18n-bestand wordt bijgewerkt via lokale Ollama (of na bevestiging via Google/Bing) en vervolgens wordt per taal een `.qea` gemaakt. Bij `full-deploy` wordt gevraagd of de bestaande vertaling hergebruikt wordt (alleen ontbrekende waarden aanvullen) of dat de hele vertaling opnieuw moet.
-6. **Linked Data**: `generate:lod` zet in `<versie>/ttl` het hele model als ontologie (`Gemeentelijk Gegevensmodel Linked Data.ttl`), de SHACL-shapes (`Gemeentelijk Gegevensmodel Linked Data-shapes.ttl`) en per diagram een deelmodel (bijvoorbeeld `kern/bag/onderzoek.ttl`). Met `publish:lod` gaan de deelmodellen als named graphs naar [lod.gemeentelijkgegevensmodel.nl](https://lod.gemeentelijkgegevensmodel.nl).
+6. **Linked Data**: `generate:lod` zet in `<versie>/linked data` het hele model als ontologie (`Gemeentelijk Gegevensmodel Linked Data.ttl`), de SHACL-shapes (`Gemeentelijk Gegevensmodel Linked Data-shapes.ttl`) en per diagram een deelmodel (bijvoorbeeld `kern/bag/onderzoek.ttl`). Met `publish:lod` gaan de deelmodellen als named graphs naar [lod.gemeentelijkgegevensmodel.nl](https://lod.gemeentelijkgegevensmodel.nl).
 7. **Publicatie**: De documentatie wordt gepubliceerd via GitHub Pages met versiebeheer via `mike`.
 
 ---
@@ -103,7 +103,7 @@ Gebruik onderstaand overzicht om losse taken uit te voeren en zo delen van de de
 | `generate-docs`         | Genereert Markdown-bestanden vanuit het model                              |
 | `generate-excel`        | Maakt een Excel-specificatie                                               |
 | `generate-translations` | Maakt per taal een vertaalde `.qea`-versie (o.b.v. `translations.json`)    |
-| `generate:lod`          | Maakt de Linked Data in `<versie>/ttl`: het hele model als ontologie, de SHACL-shapes en per diagram een deelmodel. |
+| `generate:lod`          | Maakt de Linked Data in `<versie>/linked data`: het hele model als ontologie, de SHACL-shapes en per diagram een deelmodel. |
 | `publish:lod`           | Zet de deelmodellen als named graphs op de LOD-server (via SSH, na bevestiging). Zit niet in `full-deploy`. Werking: `tools/README-lod.md`. |
 | `util:generate-i18n`    | Bouwt/vernieuwt het i18n-bestand via lokale Ollama (met fallback-bevestiging voor Google/Bing). Standaard worden alleen ontbrekende vertalingen aangevuld; met `task util:generate-i18n UPDATE_I18N=False` wordt alles opnieuw vertaald. |
 | `deploy-docs`           | Bouwt de documentatie lokaal met MkDocs en mike zodat deze lokaal gestest kunnen worden, en later gepubliceerd. |

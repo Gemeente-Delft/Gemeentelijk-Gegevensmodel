@@ -222,6 +222,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "255" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "applicatieURL"@nl ;
     mim:type mim:CharacterString ;
@@ -260,6 +261,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "255" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "beleidsdomein"@nl ;
     mim:type mim:CharacterString ;
@@ -290,6 +292,7 @@
 <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/applicatie/guid> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "guid"@nl ;
+    mim:formeelPatroon "^[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}$" ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/applicatie/guid"^^xsd:anyURI ;
@@ -298,6 +301,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "36" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "guid"@nl ;
     mim:type mim:CharacterString ;
@@ -317,6 +321,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "255" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "naam"@nl ;
     mim:type mim:CharacterString ;
@@ -502,6 +507,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "80" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "domein"@nl ;
     mim:type mim:CharacterString ;
@@ -514,6 +520,7 @@
 <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/attribuutsoort/ea-guid> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "ea_guid"@nl ;
+    mim:formeelPatroon "^[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}$" ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/attribuutsoort/ea-guid"^^xsd:anyURI ;
@@ -522,6 +529,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "36" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "ea_guid"@nl ;
     mim:type mim:CharacterString ;
@@ -542,6 +550,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "80" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "herkomst"@nl ;
     mim:type mim:CharacterString ;
@@ -562,6 +571,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "80" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "herkomstDefinitie"@nl ;
     mim:type mim:CharacterString ;
@@ -670,6 +680,7 @@ Indien een attribuutsoort deel uit maakt van een gegevensgroeptype, dan wordt de
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "40" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "kardinaliteit"@nl ;
     mim:type mim:CharacterString ;
@@ -700,6 +711,7 @@ Bijvoorbeeld:
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "40" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "lengte"@nl ;
     mim:type mim:CharacterString ;
@@ -742,6 +754,7 @@ Bijvoorbeeld:
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "80" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "naam"@nl ;
     mim:type mim:CharacterString ;
@@ -763,6 +776,7 @@ De verzameling van waarden die gegevens van deze attribuutsoort kunnen hebben, d
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "40" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "patroon"@nl ;
     mim:type mim:CharacterString ;
@@ -803,6 +817,7 @@ De verzameling van waarden die gegevens van deze attribuutsoort kunnen hebben, d
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "40" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "stereotype"@nl ;
     mim:type mim:CharacterString ;
@@ -860,6 +875,7 @@ De verzameling van waarden die gegevens van deze attribuutsoort kunnen hebben, d
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "200" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "gerelateerdPersoonsgegevens"@nl ;
     mim:type mim:CharacterString ;
@@ -922,6 +938,7 @@ De verzameling van waarden die gegevens van deze attribuutsoort kunnen hebben, d
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "255" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "domein"@nl ;
     mim:type mim:CharacterString ;
@@ -934,6 +951,7 @@ De verzameling van waarden die gegevens van deze attribuutsoort kunnen hebben, d
 <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/datatype/ea-guid> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "ea_guid"@nl ;
+    mim:formeelPatroon "^[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}$" ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/datatype/ea-guid"^^xsd:anyURI ;
@@ -942,6 +960,7 @@ De verzameling van waarden die gegevens van deze attribuutsoort kunnen hebben, d
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "36" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "ea_guid"@nl ;
     mim:type mim:CharacterString ;
@@ -962,6 +981,7 @@ De verzameling van waarden die gegevens van deze attribuutsoort kunnen hebben, d
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "255" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "herkomst"@nl ;
     mim:type mim:CharacterString ;
@@ -1008,6 +1028,7 @@ Indien een attribuutsoort deel uit maakt van een gegevensgroeptype, dan wordt de
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "40" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "kardinaliteit"@nl ;
     mim:type mim:CharacterString ;
@@ -1038,6 +1059,7 @@ Bijvoorbeeld:
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "40" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "lengte"@nl ;
     mim:type mim:CharacterString ;
@@ -1061,6 +1083,7 @@ Bijvoorbeeld:
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "255" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "naam"@nl ;
     mim:type mim:CharacterString ;
@@ -1082,6 +1105,7 @@ De verzameling van waarden die gegevens van deze attribuutsoort kunnen hebben, d
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "40" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "patroon"@nl ;
     mim:type mim:CharacterString ;
@@ -1114,6 +1138,7 @@ De verzameling van waarden die gegevens van deze attribuutsoort kunnen hebben, d
 <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/externe-bron/guid> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "guid"@nl ;
+    mim:formeelPatroon "^[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}$" ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/externe-bron/guid"^^xsd:anyURI ;
@@ -1122,6 +1147,7 @@ De verzameling van waarden die gegevens van deze attribuutsoort kunnen hebben, d
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "36" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "guid"@nl ;
     mim:type mim:CharacterString ;
@@ -1141,6 +1167,7 @@ De verzameling van waarden die gegevens van deze attribuutsoort kunnen hebben, d
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "255" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "naam"@nl ;
     mim:type mim:CharacterString ;
@@ -1160,6 +1187,7 @@ De verzameling van waarden die gegevens van deze attribuutsoort kunnen hebben, d
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "255" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "alias"@nl ;
     mim:type mim:CharacterString ;
@@ -1171,6 +1199,7 @@ De verzameling van waarden die gegevens van deze attribuutsoort kunnen hebben, d
 <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/gegeven/ea-guid> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "ea_guid"@nl ;
+    mim:formeelPatroon "^[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}$" ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/gegeven/ea-guid"^^xsd:anyURI ;
@@ -1179,6 +1208,7 @@ De verzameling van waarden die gegevens van deze attribuutsoort kunnen hebben, d
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "36" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "ea_guid"@nl ;
     mim:type mim:CharacterString ;
@@ -1217,6 +1247,7 @@ De verzameling van waarden die gegevens van deze attribuutsoort kunnen hebben, d
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "255" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "naam"@nl ;
     mim:type mim:CharacterString ;
@@ -1236,6 +1267,7 @@ De verzameling van waarden die gegevens van deze attribuutsoort kunnen hebben, d
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "255" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "stereotype"@nl ;
     mim:type mim:CharacterString ;
@@ -1308,6 +1340,7 @@ De verzameling van waarden die gegevens van deze attribuutsoort kunnen hebben, d
 <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/generalisatie/ea-guid> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "ea_guid"@nl ;
+    mim:formeelPatroon "^[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}$" ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/generalisatie/ea-guid"^^xsd:anyURI ;
@@ -1316,6 +1349,7 @@ De verzameling van waarden die gegevens van deze attribuutsoort kunnen hebben, d
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "36" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "ea_guid"@nl ;
     mim:type mim:CharacterString ;
@@ -1336,6 +1370,7 @@ De verzameling van waarden die gegevens van deze attribuutsoort kunnen hebben, d
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "255" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "herkomst"@nl ;
     mim:type mim:CharacterString ;
@@ -1356,6 +1391,7 @@ De verzameling van waarden die gegevens van deze attribuutsoort kunnen hebben, d
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "255" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "herkomstDefinitie"@nl ;
     mim:type mim:CharacterString ;
@@ -1415,6 +1451,7 @@ De verzameling van waarden die gegevens van deze attribuutsoort kunnen hebben, d
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "255" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "naam"@nl ;
     mim:type mim:CharacterString ;
@@ -1487,6 +1524,7 @@ De verzameling van waarden die gegevens van deze attribuutsoort kunnen hebben, d
 <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/objecttype/ea-guid> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "ea_guid"@nl ;
+    mim:formeelPatroon "^[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}$" ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/objecttype/ea-guid"^^xsd:anyURI ;
@@ -1495,6 +1533,7 @@ De verzameling van waarden die gegevens van deze attribuutsoort kunnen hebben, d
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "36" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "ea_guid"@nl ;
     mim:type mim:CharacterString ;
@@ -1515,6 +1554,7 @@ De verzameling van waarden die gegevens van deze attribuutsoort kunnen hebben, d
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "255" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "herkomst"@nl ;
     mim:type mim:CharacterString ;
@@ -1535,6 +1575,7 @@ De verzameling van waarden die gegevens van deze attribuutsoort kunnen hebben, d
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "255" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "herkomstDefinitie"@nl ;
     mim:type mim:CharacterString ;
@@ -1599,6 +1640,7 @@ Logisch model: Indicatie dat er geen instanties (objecten) voor het betreffende 
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "255" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "kwaliteit"@nl ;
     mim:type mim:CharacterString ;
@@ -1619,6 +1661,7 @@ Logisch model: Indicatie dat er geen instanties (objecten) voor het betreffende 
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "255" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "naam"@nl ;
     mim:type mim:CharacterString ;
@@ -1659,6 +1702,7 @@ Logisch model: Indicatie dat er geen instanties (objecten) voor het betreffende 
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "255" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "stereotype"@nl ;
     mim:type mim:CharacterString ;
@@ -1698,6 +1742,7 @@ Logisch model: Indicatie dat er geen instanties (objecten) voor het betreffende 
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "255" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "uniekeAanduiding"@nl ;
     mim:type mim:CharacterString ;
@@ -1771,6 +1816,7 @@ Logisch model: Indicatie dat er geen instanties (objecten) voor het betreffende 
 <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/relatiesoort/ea-guid> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "ea_guid"@nl ;
+    mim:formeelPatroon "^[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}$" ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/ict/relatiesoort/ea-guid"^^xsd:anyURI ;
@@ -1779,6 +1825,7 @@ Logisch model: Indicatie dat er geen instanties (objecten) voor het betreffende 
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "36" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "ea_guid"@nl ;
     mim:type mim:CharacterString ;
@@ -1799,6 +1846,7 @@ Logisch model: Indicatie dat er geen instanties (objecten) voor het betreffende 
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "80" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "herkomst"@nl ;
     mim:type mim:CharacterString ;
@@ -1819,6 +1867,7 @@ Logisch model: Indicatie dat er geen instanties (objecten) voor het betreffende 
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "80" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "herkomstDefinitie"@nl ;
     mim:type mim:CharacterString ;
@@ -1906,6 +1955,7 @@ Indien een attribuutsoort deel uit maakt van een gegevensgroeptype, dan wordt de
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "40" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "kardinaliteit"@nl ;
     mim:type mim:CharacterString ;
@@ -1951,6 +2001,7 @@ Indien een attribuutsoort deel uit maakt van een gegevensgroeptype, dan wordt de
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "80" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "naam"@nl ;
     mim:type mim:CharacterString ;
@@ -1991,6 +2042,7 @@ Alle relaties zijn altijd gericht van het objecttype (source) naar het gerelatee
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "40" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "unidirectioneel"@nl ;
     mim:type mim:CharacterString ;

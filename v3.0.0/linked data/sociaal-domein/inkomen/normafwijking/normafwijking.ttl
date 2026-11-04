@@ -62,6 +62,7 @@
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/afwijkende-maatregel/bedrag> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "Bedrag"@nl ;
+    mim:eenheid [ ] ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/afwijkende-maatregel/bedrag"^^xsd:anyURI ;
@@ -70,6 +71,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "10,2" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "Bedrag"@nl ;
     mim:type mim:Decimal ;
@@ -81,6 +83,7 @@
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/afwijkende-maatregel/code-reden-afwijking-maatregel> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "Code reden afwijking maatregel"@nl ;
+    mim:eenheid [ ] ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/afwijkende-maatregel/code-reden-afwijking-maatregel"^^xsd:anyURI ;
@@ -89,6 +92,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "10,2" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "Code reden afwijking maatregel"@nl ;
     mim:type mim:Decimal ;
@@ -100,6 +104,7 @@
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/afwijkende-maatregel/motivatie-afwijking-maatregel> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "Motivatie afwijking maatregel"@nl ;
+    mim:eenheid [ ] ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/afwijkende-maatregel/motivatie-afwijking-maatregel"^^xsd:anyURI ;
@@ -108,6 +113,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "10,2" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "Motivatie afwijking maatregel"@nl ;
     mim:type mim:Decimal ;
@@ -119,6 +125,7 @@
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/afwijkende-maatregel/percentage> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "Percentage"@nl ;
+    mim:eenheid [ ] ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/afwijkende-maatregel/percentage"^^xsd:anyURI ;
@@ -127,6 +134,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "10,2" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "Percentage"@nl ;
     mim:type mim:Decimal ;
@@ -138,6 +146,7 @@
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/boete/bedrag-boete> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "Bedrag boete"@nl ;
+    mim:eenheid [ ] ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/boete/bedrag-boete"^^xsd:anyURI ;
@@ -146,6 +155,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "10,2" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "Bedrag boete"@nl ;
     mim:type mim:Decimal ;
@@ -157,6 +167,7 @@
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/boete/boetevorm> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "Boetevorm"@nl ;
+    mim:eenheid [ ] ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/boete/boetevorm"^^xsd:anyURI ;
@@ -165,6 +176,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "10,2" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "Boetevorm"@nl ;
     mim:type mim:Decimal ;
@@ -176,6 +188,7 @@
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/boete/reden-boete> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "Reden boete"@nl ;
+    mim:eenheid [ ] ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/boete/reden-boete"^^xsd:anyURI ;
@@ -184,6 +197,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "10,2" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "Reden boete"@nl ;
     mim:type mim:Decimal ;
@@ -195,6 +209,7 @@
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/boete/voorwaarde-boete> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "Voorwaarde boete"@nl ;
+    mim:eenheid [ ] ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/boete/voorwaarde-boete"^^xsd:anyURI ;
@@ -203,6 +218,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "10,2" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "Voorwaarde boete"@nl ;
     mim:type mim:Decimal ;

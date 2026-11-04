@@ -1,0 +1,2092 @@
+# graph: <https://lod.gemeentelijkgegevensmodel.nl/v3.0.0/interne-organisatie/samenwerkomgeving/samenwerkomgeving>
+
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix mim: <http://modellen.mim-standaard.nl/def/mim#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/bestand/aangemaakt-door> a mim:Relatiesoort,
+        owl:ObjectProperty ;
+    rdfs:label "aangemaakt door"@nl ;
+    mim:aggregatietype mim:Geen ;
+    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/bestand> ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/teamlid> ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/bestand/aangemaakt-door"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:kardinaliteitRelatieBron "0..*" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "aangemaakt door"@nl ;
+    mim:unidirectioneel true ;
+    dcterms:identifier "EAID_5FDF71A9_968B_41BF_BB73_AF9A0DF10FD9" ;
+    rdfs:comment ""@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/bestand> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/teamlid> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/bestand/gewijzigd-door> a mim:Relatiesoort,
+        owl:ObjectProperty ;
+    rdfs:label "gewijzigd door"@nl ;
+    mim:aggregatietype mim:Geen ;
+    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/bestand> ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/teamlid> ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/bestand/gewijzigd-door"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "0..1" ;
+    mim:kardinaliteitRelatieBron "0..*" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "gewijzigd door"@nl ;
+    mim:unidirectioneel true ;
+    dcterms:identifier "EAID_685CA4B0_D145_4F63_B517_AA8B5C06327E" ;
+    rdfs:comment ""@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/bestand> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/teamlid> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/bibliotheek/heeft-bestanden> a mim:Relatiesoort,
+        owl:ObjectProperty ;
+    rdfs:label "heeft bestanden"@nl ;
+    mim:aggregatietype mim:Geen ;
+    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/bibliotheek> ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/bestand> ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/bibliotheek/heeft-bestanden"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "0..*" ;
+    mim:kardinaliteitRelatieBron "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "heeft bestanden"@nl ;
+    mim:unidirectioneel true ;
+    dcterms:identifier "EAID_963817A5_97C5_49B8_B777_988A5D2BCEBA" ;
+    rdfs:comment ""@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/bibliotheek> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/bestand> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/chatbericht/geschreven-door> a mim:Relatiesoort,
+        owl:ObjectProperty ;
+    rdfs:label "geschreven door"@nl ;
+    mim:aggregatietype mim:Geen ;
+    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/chatbericht> ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/teamlid> ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/chatbericht/geschreven-door"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:kardinaliteitRelatieBron "0..*" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "geschreven door"@nl ;
+    mim:unidirectioneel true ;
+    dcterms:identifier "EAID_1E1C85CD_96C4_4B59_82BF_78DCBE29CD55" ;
+    rdfs:comment ""@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/chatbericht> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/teamlid> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/inhoudstype/heeft-kolommen> a mim:Relatiesoort,
+        owl:ObjectProperty ;
+    rdfs:label "heeft kolommen"@nl ;
+    mim:aggregatietype mim:Geen ;
+    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/inhoudstype> ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/kolom> ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/inhoudstype/heeft-kolommen"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..*" ;
+    mim:kardinaliteitRelatieBron "0..*" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "heeft kolommen"@nl ;
+    mim:unidirectioneel true ;
+    dcterms:identifier "EAID_80C43DEF_2215_43DA_93D3_9DB9444B8981" ;
+    rdfs:comment ""@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/inhoudstype> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/kolom> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/kanaal/bevat-chatberichten> a mim:Relatiesoort,
+        owl:ObjectProperty ;
+    rdfs:label "bevat chatberichten"@nl ;
+    mim:aggregatietype mim:Geen ;
+    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/kanaal> ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/chatbericht> ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/kanaal/bevat-chatberichten"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "0..*" ;
+    mim:kardinaliteitRelatieBron "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "bevat chatberichten"@nl ;
+    mim:unidirectioneel true ;
+    dcterms:identifier "EAID_935CEB53_A7B8_42DC_9CB0_536CB1718A33" ;
+    rdfs:comment ""@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/kanaal> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/chatbericht> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/kolom/heeft-waarden> a mim:Relatiesoort,
+        owl:ObjectProperty ;
+    rdfs:label "heeft waarden"@nl ;
+    mim:aggregatietype mim:Geen ;
+    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/kolom> ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/lijstitem> ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/kolom/heeft-waarden"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "0..*" ;
+    mim:kardinaliteitRelatieBron "1..*" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "heeft waarden"@nl ;
+    mim:unidirectioneel true ;
+    dcterms:identifier "EAID_6DFA7CEA_2476_455B_B0FD_7121264B8B43" ;
+    rdfs:comment ""@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/kolom> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/lijstitem> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/lijst/heeft-inhoudstypen> a mim:Relatiesoort,
+        owl:ObjectProperty ;
+    rdfs:label "heeft inhoudstypen"@nl ;
+    mim:aggregatietype mim:Geen ;
+    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/lijst> ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/inhoudstype> ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/lijst/heeft-inhoudstypen"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..*" ;
+    mim:kardinaliteitRelatieBron "1..*" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "heeft inhoudstypen"@nl ;
+    mim:unidirectioneel true ;
+    dcterms:identifier "EAID_F8DEA7FB_3451_422C_8CDD_4A3A5642EAF3" ;
+    rdfs:comment ""@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/lijst> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/inhoudstype> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/lijst/heeft-items> a mim:Relatiesoort,
+        owl:ObjectProperty ;
+    rdfs:label "heeft items"@nl ;
+    mim:aggregatietype mim:Geen ;
+    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/lijst> ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/lijstitem> ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/lijst/heeft-items"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "0..*" ;
+    mim:kardinaliteitRelatieBron "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "heeft items"@nl ;
+    mim:unidirectioneel true ;
+    dcterms:identifier "EAID_1B527252_CAFC_4D69_B458_87FF7B874976" ;
+    rdfs:comment ""@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/lijst> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/lijstitem> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/mailbox/heeft-agenda-items> a mim:Relatiesoort,
+        owl:ObjectProperty ;
+    rdfs:label "heeft agenda-items"@nl ;
+    mim:aggregatietype mim:Geen ;
+    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/mailbox> ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/agendaitem> ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/mailbox/heeft-agenda-items"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "0..*" ;
+    mim:kardinaliteitRelatieBron "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "heeft agenda-items"@nl ;
+    mim:unidirectioneel true ;
+    dcterms:identifier "EAID_9BC1205B_0FF0_4EDD_99A6_A1C133FEF0D8" ;
+    rdfs:comment ""@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/mailbox> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/agendaitem> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/mailbox/heeft-emailberichten> a mim:Relatiesoort,
+        owl:ObjectProperty ;
+    rdfs:label "heeft emailberichten"@nl ;
+    mim:aggregatietype mim:Geen ;
+    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/mailbox> ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/emailbericht> ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/mailbox/heeft-emailberichten"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "0..*" ;
+    mim:kardinaliteitRelatieBron "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "heeft emailberichten"@nl ;
+    mim:unidirectioneel true ;
+    dcterms:identifier "EAID_A3F68E65_A7FC_4F63_BB96_B7C25186356E" ;
+    rdfs:comment ""@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/mailbox> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/emailbericht> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/mailbox/heeft-taken> a mim:Relatiesoort,
+        owl:ObjectProperty ;
+    rdfs:label "heeft taken"@nl ;
+    mim:aggregatietype mim:Geen ;
+    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/mailbox> ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/teamtaak> ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/mailbox/heeft-taken"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "0..*" ;
+    mim:kardinaliteitRelatieBron "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "heeft taken"@nl ;
+    mim:unidirectioneel true ;
+    dcterms:identifier "EAID_84705867_03F5_44F5_AC0A_31DA1482C3AC" ;
+    rdfs:comment ""@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/mailbox> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/teamtaak> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/samenwerkomgeving/heeft-bibliotheken> a mim:Relatiesoort,
+        owl:ObjectProperty ;
+    rdfs:label "heeft bibliotheken"@nl ;
+    mim:aggregatietype mim:Geen ;
+    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/samenwerkomgeving> ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/bibliotheek> ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/samenwerkomgeving/heeft-bibliotheken"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "0..*" ;
+    mim:kardinaliteitRelatieBron "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "heeft bibliotheken"@nl ;
+    mim:unidirectioneel true ;
+    dcterms:identifier "EAID_78BF8621_EEE0_4C35_9E82_4225FCBAC1F9" ;
+    rdfs:comment ""@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/samenwerkomgeving> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/bibliotheek> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/samenwerkomgeving/heeft-kanalen> a mim:Relatiesoort,
+        owl:ObjectProperty ;
+    rdfs:label "heeft kanalen"@nl ;
+    mim:aggregatietype mim:Geen ;
+    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/samenwerkomgeving> ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/kanaal> ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/samenwerkomgeving/heeft-kanalen"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..*" ;
+    mim:kardinaliteitRelatieBron "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "heeft kanalen"@nl ;
+    mim:unidirectioneel true ;
+    dcterms:identifier "EAID_E6781FF4_F0AF_41E7_8240_DC50C339E879" ;
+    rdfs:comment ""@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/samenwerkomgeving> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/kanaal> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/samenwerkomgeving/heeft-lijsten> a mim:Relatiesoort,
+        owl:ObjectProperty ;
+    rdfs:label "heeft lijsten"@nl ;
+    mim:aggregatietype mim:Geen ;
+    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/samenwerkomgeving> ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/lijst> ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/samenwerkomgeving/heeft-lijsten"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "0..*" ;
+    mim:kardinaliteitRelatieBron "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "heeft lijsten"@nl ;
+    mim:unidirectioneel true ;
+    dcterms:identifier "EAID_6B104F84_AEC9_404E_8379_8AE9AFF08D6F" ;
+    rdfs:comment ""@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/samenwerkomgeving> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/lijst> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/team/heeft-mailbox> a mim:Relatiesoort,
+        owl:ObjectProperty ;
+    rdfs:label "heeft mailbox"@nl ;
+    mim:aggregatietype mim:Geen ;
+    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/team> ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/mailbox> ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/team/heeft-mailbox"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:kardinaliteitRelatieBron "0..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "heeft mailbox"@nl ;
+    mim:unidirectioneel true ;
+    dcterms:identifier "EAID_042D9CD1_A1AF_4510_9456_53F03FBEBE69" ;
+    rdfs:comment ""@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/team> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/mailbox> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/team/heeft-samenwerkomgevingen> a mim:Relatiesoort,
+        owl:ObjectProperty ;
+    rdfs:label "heeft samenwerkomgevingen"@nl ;
+    mim:aggregatietype mim:Geen ;
+    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/team> ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/samenwerkomgeving> ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/team/heeft-samenwerkomgevingen"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..*" ;
+    mim:kardinaliteitRelatieBron "0..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "heeft samenwerkomgevingen"@nl ;
+    mim:unidirectioneel true ;
+    dcterms:identifier "EAID_D2B41ED4_1B8F_41DA_B86B_9D37AC0F2CE6" ;
+    rdfs:comment ""@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/team> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/samenwerkomgeving> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/teamlid/is-medewerker> a mim:Relatiesoort,
+        owl:ObjectProperty ;
+    rdfs:label "is medewerker"@nl ;
+    mim:aggregatietype mim:Geen ;
+    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/teamlid> ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker> ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/teamlid/is-medewerker"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "0..1" ;
+    mim:kardinaliteitRelatieBron "0..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "is medewerker"@nl ;
+    mim:unidirectioneel true ;
+    dcterms:identifier "EAID_01170C04_093E_4ECD_87BA_87F32091D9DC" ;
+    rdfs:comment ""@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/teamlid> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/teamlidmaatschap/in-team> a mim:Relatiesoort,
+        owl:ObjectProperty ;
+    rdfs:label "in team"@nl ;
+    mim:aggregatietype mim:Geen ;
+    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/teamlidmaatschap> ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/team> ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/teamlidmaatschap/in-team"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:kardinaliteitRelatieBron "0..*" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "in team"@nl ;
+    mim:unidirectioneel true ;
+    dcterms:identifier "EAID_79B1F0FC_64DF_40C1_8A32_874B89DAB348" ;
+    rdfs:comment ""@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/teamlidmaatschap> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/team> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/teamlidmaatschap/van-teamlid> a mim:Relatiesoort,
+        owl:ObjectProperty ;
+    rdfs:label "van teamlid"@nl ;
+    mim:aggregatietype mim:Geen ;
+    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/teamlidmaatschap> ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/teamlid> ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/teamlidmaatschap/van-teamlid"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:kardinaliteitRelatieBron "0..*" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "van teamlid"@nl ;
+    mim:unidirectioneel true ;
+    dcterms:identifier "EAID_94FFB6E1_1C0A_4047_A4ED_AFA72EF16F49" ;
+    rdfs:comment ""@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/teamlidmaatschap> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/teamlid> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/teamtaak/toegewezen-aan> a mim:Relatiesoort,
+        owl:ObjectProperty ;
+    rdfs:label "toegewezen aan"@nl ;
+    mim:aggregatietype mim:Geen ;
+    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/teamtaak> ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/teamlid> ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/teamtaak/toegewezen-aan"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "0..1" ;
+    mim:kardinaliteitRelatieBron "0..*" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "toegewezen aan"@nl ;
+    mim:unidirectioneel true ;
+    dcterms:identifier "EAID_98352BAD_CE87_4746_835E_788914299340" ;
+    rdfs:comment ""@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/teamtaak> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/teamlid> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/v3.0.0/interne-organisatie/samenwerkomgeving/samenwerkomgeving> a owl:Ontology ;
+    rdfs:label "Samenwerkomgeving"@nl ;
+    dcterms:identifier "EAID_8FAD3A01_3E43_4848_8621_B47FE3B5EA4F" ;
+    dcterms:isPartOf <https://lod.gemeentelijkgegevensmodel.nl/> ;
+    owl:versionInfo "v3.0.0" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/agendaitem/datumtijdbegin> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "datumTijdBegin"@nl ;
+    mim:datumOpname "2026-11-04"^^xsd:date ;
+    mim:definitie "Datum en tijd waarop het agenda-item begint."@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:herkomst "Proposal Samenwerkomgeving, gemeente 's-Hertogenbosch (Erik de Lepper, 2025)" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/agendaitem/datumtijdbegin"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "datumTijdBegin"@nl ;
+    mim:type mim:DateTime ;
+    dcterms:identifier "EAID_D36EA777_0B03_4999_87CC_2272C7410EB8" ;
+    rdfs:comment "Datum en tijd waarop het agenda-item begint."@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/agendaitem> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/> ;
+    rdfs:range xsd:dateTime .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/agendaitem/datumtijdeinde> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "datumTijdEinde"@nl ;
+    mim:datumOpname "2026-11-04"^^xsd:date ;
+    mim:definitie "Datum en tijd waarop het agenda-item eindigt."@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:herkomst "Proposal Samenwerkomgeving, gemeente 's-Hertogenbosch (Erik de Lepper, 2025)" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/agendaitem/datumtijdeinde"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "datumTijdEinde"@nl ;
+    mim:type mim:DateTime ;
+    dcterms:identifier "EAID_C6DE9D77_BB5F_49E4_8DF8_7C934F9B5B3A" ;
+    rdfs:comment "Datum en tijd waarop het agenda-item eindigt."@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/agendaitem> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/> ;
+    rdfs:range xsd:dateTime .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/agendaitem/locatie> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "locatie"@nl ;
+    mim:datumOpname "2026-11-04"^^xsd:date ;
+    mim:definitie "Locatie van het agenda-item."@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:herkomst "Proposal Samenwerkomgeving, gemeente 's-Hertogenbosch (Erik de Lepper, 2025)" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/agendaitem/locatie"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:lengte "200" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "locatie"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_257E2623_CFA9_4414_AB46_C24C4E2BAE54" ;
+    rdfs:comment "Locatie van het agenda-item."@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/agendaitem> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/agendaitem/onderwerp> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "onderwerp"@nl ;
+    mim:datumOpname "2026-11-04"^^xsd:date ;
+    mim:definitie "Onderwerp van het agenda-item."@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:herkomst "Proposal Samenwerkomgeving, gemeente 's-Hertogenbosch (Erik de Lepper, 2025)" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/agendaitem/onderwerp"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:lengte "200" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "onderwerp"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_17DEA666_7F22_4BC0_BD85_37B6BF62F251" ;
+    rdfs:comment "Onderwerp van het agenda-item."@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/agendaitem> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/bestand/bestandstype> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "bestandstype"@nl ;
+    mim:datumOpname "2026-11-04"^^xsd:date ;
+    mim:definitie "Bestandsformaat (mimetype)."@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:herkomst "Proposal Samenwerkomgeving, gemeente 's-Hertogenbosch (Erik de Lepper, 2025)" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/bestand/bestandstype"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:lengte "100" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "bestandstype"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_12D1C78B_27C8_4833_A4AE_58BEC14898B4" ;
+    rdfs:comment "Bestandsformaat (mimetype)."@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/bestand> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/bestand/datumcreatie> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "datumCreatie"@nl ;
+    mim:datumOpname "2026-11-04"^^xsd:date ;
+    mim:definitie "Datum en tijd waarop het bestand is aangemaakt."@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:herkomst "Proposal Samenwerkomgeving, gemeente 's-Hertogenbosch (Erik de Lepper, 2025)" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/bestand/datumcreatie"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "datumCreatie"@nl ;
+    mim:type mim:DateTime ;
+    dcterms:identifier "EAID_0010A7B4_E2E5_4CA1_AC50_686165811D20" ;
+    rdfs:comment "Datum en tijd waarop het bestand is aangemaakt."@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/bestand> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/> ;
+    rdfs:range xsd:dateTime .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/bestand/datumlaatstewijziging> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "datumLaatsteWijziging"@nl ;
+    mim:datumOpname "2026-11-04"^^xsd:date ;
+    mim:definitie "Datum en tijd waarop het bestand voor het laatst is gewijzigd."@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:herkomst "Proposal Samenwerkomgeving, gemeente 's-Hertogenbosch (Erik de Lepper, 2025)" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/bestand/datumlaatstewijziging"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "datumLaatsteWijziging"@nl ;
+    mim:type mim:DateTime ;
+    dcterms:identifier "EAID_BAA994B5_706C_43D7_BF83_D7629F60ACC0" ;
+    rdfs:comment "Datum en tijd waarop het bestand voor het laatst is gewijzigd."@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/bestand> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/> ;
+    rdfs:range xsd:dateTime .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/bestand/grootte> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "grootte"@nl ;
+    mim:datumOpname "2026-11-04"^^xsd:date ;
+    mim:definitie "Grootte van het bestand in MB."@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:herkomst "Proposal Samenwerkomgeving, gemeente 's-Hertogenbosch (Erik de Lepper, 2025)" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/bestand/grootte"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "grootte"@nl ;
+    mim:type mim:Decimal ;
+    dcterms:identifier "EAID_3BD5A344_BF08_4538_A5C4_5D2398044149" ;
+    rdfs:comment "Grootte van het bestand in MB."@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/bestand> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/> ;
+    rdfs:range xsd:decimal .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/bestand/naam> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "naam"@nl ;
+    mim:datumOpname "2026-11-04"^^xsd:date ;
+    mim:definitie "Naam van het bestand."@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:herkomst "Proposal Samenwerkomgeving, gemeente 's-Hertogenbosch (Erik de Lepper, 2025)" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/bestand/naam"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:lengte "255" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "naam"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_89977D1B_1903_4127_8A17_767EACAABAE4" ;
+    rdfs:comment "Naam van het bestand."@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/bestand> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/bibliotheek/naam> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "naam"@nl ;
+    mim:datumOpname "2026-11-04"^^xsd:date ;
+    mim:definitie "Naam van de bibliotheek."@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:herkomst "Proposal Samenwerkomgeving, gemeente 's-Hertogenbosch (Erik de Lepper, 2025)" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/bibliotheek/naam"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:lengte "200" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "naam"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_8066CFC1_A588_49E3_8067_2F977D7AB10E" ;
+    rdfs:comment "Naam van de bibliotheek."@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/bibliotheek> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/chatbericht/datumcreatie> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "datumCreatie"@nl ;
+    mim:datumOpname "2026-11-04"^^xsd:date ;
+    mim:definitie "Datum en tijd waarop het bericht is aangemaakt."@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:herkomst "Proposal Samenwerkomgeving, gemeente 's-Hertogenbosch (Erik de Lepper, 2025)" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/chatbericht/datumcreatie"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "datumCreatie"@nl ;
+    mim:type mim:DateTime ;
+    dcterms:identifier "EAID_671099A0_BF54_4176_BBBD_2995227B2229" ;
+    rdfs:comment "Datum en tijd waarop het bericht is aangemaakt."@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/chatbericht> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/> ;
+    rdfs:range xsd:dateTime .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/chatbericht/datumlaatstewijziging> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "datumLaatsteWijziging"@nl ;
+    mim:datumOpname "2026-11-04"^^xsd:date ;
+    mim:definitie "Datum en tijd waarop het bericht voor het laatst is gewijzigd."@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:herkomst "Proposal Samenwerkomgeving, gemeente 's-Hertogenbosch (Erik de Lepper, 2025)" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/chatbericht/datumlaatstewijziging"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "datumLaatsteWijziging"@nl ;
+    mim:type mim:DateTime ;
+    dcterms:identifier "EAID_24C3A724_77F2_401A_B7B7_12858713FCEC" ;
+    rdfs:comment "Datum en tijd waarop het bericht voor het laatst is gewijzigd."@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/chatbericht> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/> ;
+    rdfs:range xsd:dateTime .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/chatbericht/inhoud> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "inhoud"@nl ;
+    mim:datumOpname "2026-11-04"^^xsd:date ;
+    mim:definitie "Het bericht zelf."@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:herkomst "Proposal Samenwerkomgeving, gemeente 's-Hertogenbosch (Erik de Lepper, 2025)" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/chatbericht/inhoud"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "inhoud"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_237972A4_9A0D_47CD_B6FE_514104742242" ;
+    rdfs:comment "Het bericht zelf."@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/chatbericht> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/emailbericht/afzender> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "afzender"@nl ;
+    mim:datumOpname "2026-11-04"^^xsd:date ;
+    mim:definitie "E-mailadres van de afzender."@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:herkomst "Proposal Samenwerkomgeving, gemeente 's-Hertogenbosch (Erik de Lepper, 2025)" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/emailbericht/afzender"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:lengte "254" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "afzender"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_5BDFDB5F_D5BA_410B_9E12_4FF3BC8D2083" ;
+    rdfs:comment "E-mailadres van de afzender."@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/emailbericht> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/emailbericht/datumverzonden> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "datumVerzonden"@nl ;
+    mim:datumOpname "2026-11-04"^^xsd:date ;
+    mim:definitie "Datum en tijd waarop het e-mailbericht is verzonden."@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:herkomst "Proposal Samenwerkomgeving, gemeente 's-Hertogenbosch (Erik de Lepper, 2025)" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/emailbericht/datumverzonden"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "datumVerzonden"@nl ;
+    mim:type mim:DateTime ;
+    dcterms:identifier "EAID_57D4A96D_B626_4E00_B197_038EC2E93E0E" ;
+    rdfs:comment "Datum en tijd waarop het e-mailbericht is verzonden."@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/emailbericht> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/> ;
+    rdfs:range xsd:dateTime .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/emailbericht/onderwerp> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "onderwerp"@nl ;
+    mim:datumOpname "2026-11-04"^^xsd:date ;
+    mim:definitie "Onderwerp van het e-mailbericht."@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:herkomst "Proposal Samenwerkomgeving, gemeente 's-Hertogenbosch (Erik de Lepper, 2025)" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/emailbericht/onderwerp"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:lengte "200" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "onderwerp"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_36D051B6_F999_4196_B8CB_BC6C9E1DB372" ;
+    rdfs:comment "Onderwerp van het e-mailbericht."@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/emailbericht> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/inhoudstype/naam> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "naam"@nl ;
+    mim:datumOpname "2026-11-04"^^xsd:date ;
+    mim:definitie "Naam van het inhoudstype."@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:herkomst "Proposal Samenwerkomgeving, gemeente 's-Hertogenbosch (Erik de Lepper, 2025)" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/inhoudstype/naam"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:lengte "200" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "naam"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_5A6411E3_6FEC_4857_97F9_AD6EDED82E03" ;
+    rdfs:comment "Naam van het inhoudstype."@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/inhoudstype> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/kanaal/naam> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "naam"@nl ;
+    mim:datumOpname "2026-11-04"^^xsd:date ;
+    mim:definitie "Naam van het kanaal."@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:herkomst "Proposal Samenwerkomgeving, gemeente 's-Hertogenbosch (Erik de Lepper, 2025)" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/kanaal/naam"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:lengte "200" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "naam"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_714C9A94_759B_4A31_848D_ED3C14EE5A4A" ;
+    rdfs:comment "Naam van het kanaal."@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/kanaal> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/kanaal/omschrijving> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "omschrijving"@nl ;
+    mim:datumOpname "2026-11-04"^^xsd:date ;
+    mim:definitie "Omschrijving van het kanaal."@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:herkomst "Proposal Samenwerkomgeving, gemeente 's-Hertogenbosch (Erik de Lepper, 2025)" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/kanaal/omschrijving"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "omschrijving"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_F90BB72E_F628_4D29_8A9F_6F9E6870276E" ;
+    rdfs:comment "Omschrijving van het kanaal."@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/kanaal> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/kolom/datatype> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "datatype"@nl ;
+    mim:datumOpname "2026-11-04"^^xsd:date ;
+    mim:definitie "Datatype van de kolom."@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:herkomst "Proposal Samenwerkomgeving, gemeente 's-Hertogenbosch (Erik de Lepper, 2025)" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/kolom/datatype"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:lengte "80" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "datatype"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_3AE76B50_08A7_47AF_8C6E_1BA2899B1972" ;
+    rdfs:comment "Datatype van de kolom."@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/kolom> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/kolom/naam> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "naam"@nl ;
+    mim:datumOpname "2026-11-04"^^xsd:date ;
+    mim:definitie "Naam van de kolom."@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:herkomst "Proposal Samenwerkomgeving, gemeente 's-Hertogenbosch (Erik de Lepper, 2025)" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/kolom/naam"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:lengte "200" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "naam"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_CC4742C8_89AF_47F4_A304_D11B9EB94095" ;
+    rdfs:comment "Naam van de kolom."@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/kolom> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/lijst/naam> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "naam"@nl ;
+    mim:datumOpname "2026-11-04"^^xsd:date ;
+    mim:definitie "Naam van de lijst."@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:herkomst "Proposal Samenwerkomgeving, gemeente 's-Hertogenbosch (Erik de Lepper, 2025)" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/lijst/naam"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:lengte "200" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "naam"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_0DBAA321_1E81_49E4_BFFE_A9E7DDE99EEE" ;
+    rdfs:comment "Naam van de lijst."@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/lijst> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/lijstitem/waarde> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "waarde"@nl ;
+    mim:datumOpname "2026-11-04"^^xsd:date ;
+    mim:definitie "Waarde van een veld in een lijst."@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:herkomst "Proposal Samenwerkomgeving, gemeente 's-Hertogenbosch (Erik de Lepper, 2025)" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/lijstitem/waarde"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "waarde"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_D52F0078_8B72_4805_ACF1_EBBE46304298" ;
+    rdfs:comment "Waarde van een veld in een lijst."@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/lijstitem> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/mailbox/emailadres> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "emailadres"@nl ;
+    mim:datumOpname "2026-11-04"^^xsd:date ;
+    mim:definitie "E-mailadres van het team."@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:herkomst "Proposal Samenwerkomgeving, gemeente 's-Hertogenbosch (Erik de Lepper, 2025)" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/mailbox/emailadres"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:lengte "254" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "emailadres"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_BFDDE2F8_CD63_41AC_AB14_3EAF14F1EFC0" ;
+    rdfs:comment "E-mailadres van het team."@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/mailbox> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/samenwerkomgeving/beschrijving> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "beschrijving"@nl ;
+    mim:datumOpname "2026-11-04"^^xsd:date ;
+    mim:definitie "Beschrijving van de samenwerkomgeving."@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:herkomst "Proposal Samenwerkomgeving, gemeente 's-Hertogenbosch (Erik de Lepper, 2025)" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/samenwerkomgeving/beschrijving"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "beschrijving"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_E418CC6F_0C54_4E90_B414_F4CF54DBDFA7" ;
+    rdfs:comment "Beschrijving van de samenwerkomgeving."@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/samenwerkomgeving> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/samenwerkomgeving/datumcreatie> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "datumCreatie"@nl ;
+    mim:datumOpname "2026-11-04"^^xsd:date ;
+    mim:definitie "Datum en tijd waarop de samenwerkomgeving is aangemaakt."@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:herkomst "Proposal Samenwerkomgeving, gemeente 's-Hertogenbosch (Erik de Lepper, 2025)" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/samenwerkomgeving/datumcreatie"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "datumCreatie"@nl ;
+    mim:type mim:DateTime ;
+    dcterms:identifier "EAID_9B5DBB93_E3A4_4ECE_9EC3_FCF1FF835AAB" ;
+    rdfs:comment "Datum en tijd waarop de samenwerkomgeving is aangemaakt."@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/samenwerkomgeving> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/> ;
+    rdfs:range xsd:dateTime .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/samenwerkomgeving/datumlaatstgebruikt> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "datumLaatstGebruikt"@nl ;
+    mim:datumOpname "2026-11-04"^^xsd:date ;
+    mim:definitie "Datum waarop de samenwerkomgeving voor het laatst is gebruikt."@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:herkomst "Proposal Samenwerkomgeving, gemeente 's-Hertogenbosch (Erik de Lepper, 2025)" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/samenwerkomgeving/datumlaatstgebruikt"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "datumLaatstGebruikt"@nl ;
+    mim:type mim:Date ;
+    dcterms:identifier "EAID_D9A3EBFA_DB12_4DC5_8212_446F7429C46A" ;
+    rdfs:comment "Datum waarop de samenwerkomgeving voor het laatst is gebruikt."@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/samenwerkomgeving> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/> ;
+    rdfs:range xsd:date .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/samenwerkomgeving/grootte> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "grootte"@nl ;
+    mim:datumOpname "2026-11-04"^^xsd:date ;
+    mim:definitie "Opslagruimte die de totale samenwerkomgeving inneemt, in MB."@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:herkomst "Proposal Samenwerkomgeving, gemeente 's-Hertogenbosch (Erik de Lepper, 2025)" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/samenwerkomgeving/grootte"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "grootte"@nl ;
+    mim:type mim:Decimal ;
+    dcterms:identifier "EAID_36FDA38D_FF4D_4296_8015_2C2C16CAB942" ;
+    rdfs:comment "Opslagruimte die de totale samenwerkomgeving inneemt, in MB."@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/samenwerkomgeving> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/> ;
+    rdfs:range xsd:decimal .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/samenwerkomgeving/soort> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "soort"@nl ;
+    mim:datumOpname "2026-11-04"^^xsd:date ;
+    mim:definitie "Soort samenwerkomgeving, zoals hubsite, teamsite of communicatiesite."@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:herkomst "Proposal Samenwerkomgeving, gemeente 's-Hertogenbosch (Erik de Lepper, 2025)" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/samenwerkomgeving/soort"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:lengte "80" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "soort"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_B0C29127_CB56_4042_A81D_3F5AEDB9CE18" ;
+    rdfs:comment "Soort samenwerkomgeving, zoals hubsite, teamsite of communicatiesite."@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/samenwerkomgeving> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/samenwerkomgeving/titel> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "titel"@nl ;
+    mim:datumOpname "2026-11-04"^^xsd:date ;
+    mim:definitie "Titel van de samenwerkomgeving."@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:herkomst "Proposal Samenwerkomgeving, gemeente 's-Hertogenbosch (Erik de Lepper, 2025)" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/samenwerkomgeving/titel"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:lengte "200" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "titel"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_4C202FFA_4197_4CE6_9513_E2D7A938422F" ;
+    rdfs:comment "Titel van de samenwerkomgeving."@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/samenwerkomgeving> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/samenwerkomgeving/url> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "URL"@nl ;
+    mim:datumOpname "2026-11-04"^^xsd:date ;
+    mim:definitie "Locatie van en link naar de samenwerkomgeving."@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:herkomst "Proposal Samenwerkomgeving, gemeente 's-Hertogenbosch (Erik de Lepper, 2025)" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/samenwerkomgeving/url"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "URL"@nl ;
+    mim:type mim:URI ;
+    dcterms:identifier "EAID_4C29DEBF_5665_4C65_A776_071CA4843434" ;
+    rdfs:comment "Locatie van en link naar de samenwerkomgeving."@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/samenwerkomgeving> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/> ;
+    rdfs:range xsd:anyURI .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/team/indicatiehoofdteam> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "indicatieHoofdteam"@nl ;
+    mim:datumOpname "2026-11-04"^^xsd:date ;
+    mim:definitie "Indicatie of dit het hoofdteam is waaruit privékanalen zijn afgesplitst."@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:herkomst "Proposal Samenwerkomgeving, gemeente 's-Hertogenbosch (Erik de Lepper, 2025)" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/team/indicatiehoofdteam"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "indicatieHoofdteam"@nl ;
+    mim:type mim:Boolean ;
+    dcterms:identifier "EAID_5E1388CA_1726_4381_ABC7_96E168887380" ;
+    rdfs:comment "Indicatie of dit het hoofdteam is waaruit privékanalen zijn afgesplitst."@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/team> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/> ;
+    rdfs:range xsd:boolean .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/team/naam> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "naam"@nl ;
+    mim:datumOpname "2026-11-04"^^xsd:date ;
+    mim:definitie "Naam van het team."@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:herkomst "Proposal Samenwerkomgeving, gemeente 's-Hertogenbosch (Erik de Lepper, 2025)" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/team/naam"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:lengte "200" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "naam"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_8F84AF19_3894_4CC0_B4FF_AA4B36F4DB67" ;
+    rdfs:comment "Naam van het team."@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/team> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/team/omschrijving> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "omschrijving"@nl ;
+    mim:datumOpname "2026-11-04"^^xsd:date ;
+    mim:definitie "Omschrijving van het team."@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:herkomst "Proposal Samenwerkomgeving, gemeente 's-Hertogenbosch (Erik de Lepper, 2025)" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/team/omschrijving"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "omschrijving"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_8279BE02_D209_4343_96AD_589206605C40" ;
+    rdfs:comment "Omschrijving van het team."@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/team> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/teamlid/emailadres> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "emailadres"@nl ;
+    mim:datumOpname "2026-11-04"^^xsd:date ;
+    mim:definitie "E-mailadres van het teamlid; identificeert interne en externe leden uniform."@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:herkomst "Proposal Samenwerkomgeving, gemeente 's-Hertogenbosch (Erik de Lepper, 2025)" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/teamlid/emailadres"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:lengte "254" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "emailadres"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_479BA83F_A72B_4571_96BF_D35C304646CE" ;
+    rdfs:comment "E-mailadres van het teamlid; identificeert interne en externe leden uniform."@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/teamlid> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/teamlid/naam> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "naam"@nl ;
+    mim:datumOpname "2026-11-04"^^xsd:date ;
+    mim:definitie "Naam die wordt getoond."@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:herkomst "Proposal Samenwerkomgeving, gemeente 's-Hertogenbosch (Erik de Lepper, 2025)" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/teamlid/naam"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:lengte "200" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "naam"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_09BC3622_8CCF_4211_8A7B_B7FC40988D11" ;
+    rdfs:comment "Naam die wordt getoond."@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/teamlid> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/teamlid/organisatorischeeenheid> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "organisatorischeEenheid"@nl ;
+    mim:datumOpname "2026-11-04"^^xsd:date ;
+    mim:definitie "Organisatorische eenheid waartoe het teamlid behoort."@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:herkomst "Proposal Samenwerkomgeving, gemeente 's-Hertogenbosch (Erik de Lepper, 2025)" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/teamlid/organisatorischeeenheid"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:lengte "200" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "organisatorischeEenheid"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_96B1C462_EED5_4D96_B128_600C82C1274F" ;
+    rdfs:comment "Organisatorische eenheid waartoe het teamlid behoort."@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/teamlid> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/teamlidmaatschap/datumtoetreding> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "datumToetreding"@nl ;
+    mim:datumOpname "2026-11-04"^^xsd:date ;
+    mim:definitie "Datum waarop het teamlid tot het team is toegetreden."@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:herkomst "Proposal Samenwerkomgeving, gemeente 's-Hertogenbosch (Erik de Lepper, 2025)" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/teamlidmaatschap/datumtoetreding"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "datumToetreding"@nl ;
+    mim:type mim:Date ;
+    dcterms:identifier "EAID_62E37049_250D_4EE5_9FA2_E2C881FDAB83" ;
+    rdfs:comment "Datum waarop het teamlid tot het team is toegetreden."@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/teamlidmaatschap> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/> ;
+    rdfs:range xsd:date .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/teamlidmaatschap/rol> a mim:Attribuutsoort,
+        owl:ObjectProperty ;
+    rdfs:label "rol"@nl ;
+    mim:datumOpname "2026-11-04"^^xsd:date ;
+    mim:definitie "Rechtenrol van het teamlid binnen het team."@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:herkomst "Proposal Samenwerkomgeving, gemeente 's-Hertogenbosch (Erik de Lepper, 2025)" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/teamlidmaatschap/rol"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "rol"@nl ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/teamrol> ;
+    dcterms:identifier "EAID_D837F65A_F414_4282_85B6_53A87ED67FAC" ;
+    rdfs:comment "Rechtenrol van het teamlid binnen het team."@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/teamlidmaatschap> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/teamrol> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/teamrol/eigenaar> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/teamrol> ;
+    rdfs:label "eigenaar"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/teamrol/eigenaar"^^xsd:anyURI ;
+    mim:naam "eigenaar"@nl ;
+    dcterms:identifier "EAID_BD96EA5F_228D_4A97_9ED1_402651249A12" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/teamrol> ;
+    skos:prefLabel "eigenaar"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/teamrol> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/teamrol/gast> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/teamrol> ;
+    rdfs:label "gast"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/teamrol/gast"^^xsd:anyURI ;
+    mim:naam "gast"@nl ;
+    dcterms:identifier "EAID_CA73A3FA_D229_484A_AE5A_85958487F196" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/teamrol> ;
+    skos:prefLabel "gast"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/teamrol> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/teamrol/lid> a mim:Enumeratiewaarde,
+        skos:Concept,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/teamrol> ;
+    rdfs:label "lid"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/teamrol/lid"^^xsd:anyURI ;
+    mim:naam "lid"@nl ;
+    dcterms:identifier "EAID_FE41302B_5DF3_4C13_A142_FB6AC2B5094B" ;
+    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/teamrol> ;
+    skos:prefLabel "lid"@nl ;
+    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/teamrol> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/teamtaak/datumgereed> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "datumGereed"@nl ;
+    mim:datumOpname "2026-11-04"^^xsd:date ;
+    mim:definitie "Datum waarop de taak gereed moet zijn."@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:herkomst "Proposal Samenwerkomgeving, gemeente 's-Hertogenbosch (Erik de Lepper, 2025)" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/teamtaak/datumgereed"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "datumGereed"@nl ;
+    mim:type mim:Date ;
+    dcterms:identifier "EAID_B87C8814_5842_4AF0_8131_FF5BDCBDADD9" ;
+    rdfs:comment "Datum waarop de taak gereed moet zijn."@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/teamtaak> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/> ;
+    rdfs:range xsd:date .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/teamtaak/status> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "status"@nl ;
+    mim:datumOpname "2026-11-04"^^xsd:date ;
+    mim:definitie "Status van de taak, zoals niet gestart, bezig of afgerond."@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:herkomst "Proposal Samenwerkomgeving, gemeente 's-Hertogenbosch (Erik de Lepper, 2025)" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/teamtaak/status"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:lengte "80" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "status"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_5A991424_5534_4F64_BAF0_938FCB59923F" ;
+    rdfs:comment "Status van de taak, zoals niet gestart, bezig of afgerond."@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/teamtaak> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/teamtaak/titel> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "titel"@nl ;
+    mim:datumOpname "2026-11-04"^^xsd:date ;
+    mim:definitie "Titel van de taak."@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:herkomst "Proposal Samenwerkomgeving, gemeente 's-Hertogenbosch (Erik de Lepper, 2025)" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/teamtaak/titel"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:lengte "200" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "titel"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_5CCCD113_E1C3_4E09_9934_C5631E3D0C81" ;
+    rdfs:comment "Titel van de taak."@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/teamtaak> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/achternaam> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "achternaam"@nl ;
+    mim:definitie "De achternaam zoals de medewerker die in het dagelijkse verkeer gebruikt."@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/achternaam"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:lengte "200" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "achternaam"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_79457AE1_2585_4ce0_A864_D4ADE30A2135" ;
+    rdfs:comment "De achternaam zoals de medewerker die in het dagelijkse verkeer gebruikt."@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/datumindienst> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "datumInDienst"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/datumindienst"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "datumInDienst"@nl ;
+    mim:type mim:Date ;
+    dcterms:identifier "EAID_4BD35398_345A_4d24_84A5_34D79A764C7F" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> ;
+    rdfs:range xsd:date .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/datumuitdienst> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "datumUitDienst"@nl ;
+    mim:definitie "Een aanduiding van de datum waarop de arbeidsplaatsvervulling eindigt."@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/datumuitdienst"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie true ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "0..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "datumUitDienst"@nl ;
+    mim:type mim:Date ;
+    dcterms:identifier "EAID_AE3CF305_B845_40cf_A9E3_2DE97CB31F46" ;
+    rdfs:comment "Een aanduiding van de datum waarop de arbeidsplaatsvervulling eindigt."@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> ;
+    rdfs:range xsd:date .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/emailadres> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "emailadres"@nl ;
+    mim:definitie "Elektronisch postadres waaronder de medewerker in de regel bereikbaar is."@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/emailadres"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "0..1" ;
+    mim:lengte "254" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "emailadres"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_2EEFDDE3_164E_4dc6_8573_205834C1AF47" ;
+    rdfs:comment "Elektronisch postadres waaronder de medewerker in de regel bereikbaar is."@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/extern> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "extern"@nl ;
+    mim:definitie "Medewerker is een externe?"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/extern"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "extern"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_8DDB6FA2_A79D_4423_9969_7AF045B86351" ;
+    rdfs:comment "Medewerker is een externe?"@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/functie> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "functie"@nl ;
+    mim:definitie "De aanduiding van de taken, rechten en plichten die de medewerker heeft of heeft gehad binnen de zaakbehandelende organisatie."@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/functie"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie true ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:lengte "50" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "functie"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_F17EE707_8A6A_483b_9ED7_204707E1F384" ;
+    rdfs:comment "De aanduiding van de taken, rechten en plichten die de medewerker heeft of heeft gehad binnen de zaakbehandelende organisatie."@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/geslachtsaanduiding> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "geslachtsaanduiding"@nl ;
+    mim:definitie "Een aanduiding die aangeeft of de persoon een man of een vrouw is, of dat het geslacht nog onbekend is."@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/geslachtsaanduiding"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:lengte "1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "geslachtsaanduiding"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_AA40C186_C355_457e_99D9_24BE43B05301" ;
+    rdfs:comment "Een aanduiding die aangeeft of de persoon een man of een vrouw is, of dat het geslacht nog onbekend is."@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/medewerkeridentificatie> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "medewerkerIdentificatie"@nl ;
+    mim:definitie "Een korte unieke aanduiding van de medewerker."@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/medewerkeridentificatie"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:lengte "24" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "medewerkerIdentificatie"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_FF819D54_0C4A_4cf7_A828_6587669A8702" ;
+    rdfs:comment "Een korte unieke aanduiding van de medewerker."@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/medewerkertoelichting> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "medewerkerToelichting"@nl ;
+    mim:definitie "Toelichting bij en/of over de medewerker."@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/medewerkertoelichting"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "0..1" ;
+    mim:lengte "1000" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "medewerkerToelichting"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_C59B1A14_1E2F_4a54_B273_6D4C84713390" ;
+    rdfs:comment "Toelichting bij en/of over de medewerker."@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/roepnaam> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "roepnaam"@nl ;
+    mim:definitie "Naam waarmee de werknemer wordt aangesproken."@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/roepnaam"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:lengte "30" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "roepnaam"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_A7726010_7E58_40b6_9523_A4CC9844F5DD" ;
+    rdfs:comment "Naam waarmee de werknemer wordt aangesproken."@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/telefoonnummer> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "telefoonnummer"@nl ;
+    mim:definitie "Telefoonnummer waaronder de medewerker in de regel bereikbaar is."@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/telefoonnummer"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "0..1" ;
+    mim:lengte "20" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "telefoonnummer"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_0BE56460_275E_4dcb_9946_5B88658BF3BD" ;
+    rdfs:comment "Telefoonnummer waaronder de medewerker in de regel bereikbaar is."@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/voorletters> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "voorletters"@nl ;
+    mim:definitie "De verzameling letters die gevormd wordt door de eerste letter van alle in volgorde voorkomende voornamen."@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/voorletters"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:lengte "20" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "voorletters"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_65D1582C_5922_4ebb_8CE6_3B0F1BBD0941" ;
+    rdfs:comment "De verzameling letters die gevormd wordt door de eerste letter van alle in volgorde voorkomende voornamen."@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/voorvoegselachternaam> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "voorvoegselAchternaam"@nl ;
+    mim:definitie """Dat deel van de geslachtsnaam dat voorkomt in Tabel 36 (GBA), voorvoegseltabel, en door een spatie van de geslachtsnaam is
+gescheiden."""@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/voorvoegselachternaam"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "0..1" ;
+    mim:lengte "10" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "voorvoegselAchternaam"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_01234EAF_833A_4cd6_8EA0_045F889301FF" ;
+    rdfs:comment """Dat deel van de geslachtsnaam dat voorkomt in Tabel 36 (GBA), voorvoegseltabel, en door een spatie van de geslachtsnaam is
+gescheiden."""@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/bibliotheek> a mim:Objecttype,
+        owl:Class ;
+    rdfs:label "Bibliotheek"@nl ;
+    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/bibliotheek/naam> ;
+    mim:datumOpname "2026-11-04"^^xsd:date ;
+    mim:definitie "Logische groepering van bestanden binnen een samenwerkomgeving."@nl ;
+    mim:herkomst "Proposal Samenwerkomgeving, gemeente 's-Hertogenbosch (Erik de Lepper, 2025)" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/bibliotheek"^^xsd:anyURI ;
+    mim:indicatieAbstractObject false ;
+    mim:naam "Bibliotheek"@nl ;
+    dcterms:identifier "EAID_17834333_0475_4FE7_93EB_8E2FB5325D79" ;
+    rdfs:comment "Logische groepering van bestanden binnen een samenwerkomgeving."@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/emailbericht> a mim:Objecttype,
+        owl:Class ;
+    rdfs:label "Emailbericht"@nl ;
+    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/emailbericht/afzender>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/emailbericht/datumverzonden>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/emailbericht/onderwerp> ;
+    mim:datumOpname "2026-11-04"^^xsd:date ;
+    mim:definitie "E-mailbericht dat via de mailbox van het team is ontvangen of verzonden."@nl ;
+    mim:herkomst "Proposal Samenwerkomgeving, gemeente 's-Hertogenbosch (Erik de Lepper, 2025)" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/emailbericht"^^xsd:anyURI ;
+    mim:indicatieAbstractObject false ;
+    mim:naam "Emailbericht"@nl ;
+    dcterms:identifier "EAID_CA404AFE_A4C8_4E9B_B8D3_C3276284338A" ;
+    rdfs:comment "E-mailbericht dat via de mailbox van het team is ontvangen of verzonden."@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/inhoudstype> a mim:Objecttype,
+        owl:Class ;
+    rdfs:label "Inhoudstype"@nl ;
+    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/inhoudstype/naam> ;
+    mim:datumOpname "2026-11-04"^^xsd:date ;
+    mim:definitie "Groep van kenmerken (kolommen) die samen een soort inhoud in een lijst beschrijft."@nl ;
+    mim:herkomst "Proposal Samenwerkomgeving, gemeente 's-Hertogenbosch (Erik de Lepper, 2025)" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/inhoudstype"^^xsd:anyURI ;
+    mim:indicatieAbstractObject false ;
+    mim:naam "Inhoudstype"@nl ;
+    dcterms:identifier "EAID_721965B5_FCBC_4C01_9919_E4C87E8D15AF" ;
+    rdfs:comment "Groep van kenmerken (kolommen) die samen een soort inhoud in een lijst beschrijft."@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/lijstitem> a mim:Objecttype,
+        owl:Class ;
+    rdfs:label "Lijstitem"@nl ;
+    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/lijstitem/waarde> ;
+    mim:datumOpname "2026-11-04"^^xsd:date ;
+    mim:definitie "Waarde van een kenmerk voor een item in een lijst."@nl ;
+    mim:herkomst "Proposal Samenwerkomgeving, gemeente 's-Hertogenbosch (Erik de Lepper, 2025)" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/lijstitem"^^xsd:anyURI ;
+    mim:indicatieAbstractObject false ;
+    mim:naam "Lijstitem"@nl ;
+    dcterms:identifier "EAID_0D7B8E23_6FA4_48E4_B48F_4FA2324983D6" ;
+    rdfs:comment "Waarde van een kenmerk voor een item in een lijst."@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/agendaitem> a mim:Objecttype,
+        owl:Class ;
+    rdfs:label "AgendaItem"@nl ;
+    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/agendaitem/datumtijdbegin>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/agendaitem/datumtijdeinde>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/agendaitem/locatie>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/agendaitem/onderwerp> ;
+    mim:datumOpname "2026-11-04"^^xsd:date ;
+    mim:definitie "Afspraak of gebeurtenis in de gezamenlijke agenda van het team."@nl ;
+    mim:herkomst "Proposal Samenwerkomgeving, gemeente 's-Hertogenbosch (Erik de Lepper, 2025)" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/agendaitem"^^xsd:anyURI ;
+    mim:indicatieAbstractObject false ;
+    mim:naam "AgendaItem"@nl ;
+    dcterms:identifier "EAID_727748CF_ABD4_459A_81B2_9B9630633D1D" ;
+    rdfs:comment "Afspraak of gebeurtenis in de gezamenlijke agenda van het team."@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/kanaal> a mim:Objecttype,
+        owl:Class ;
+    rdfs:label "Kanaal"@nl ;
+    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/kanaal/naam>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/kanaal/omschrijving> ;
+    mim:datumOpname "2026-11-04"^^xsd:date ;
+    mim:definitie "Kanaal binnen een samenwerkomgeving, gewijd aan een onderwerp of deelgroep, waarin teamleden chatberichten uitwisselen."@nl ;
+    mim:herkomst "Proposal Samenwerkomgeving, gemeente 's-Hertogenbosch (Erik de Lepper, 2025)" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/kanaal"^^xsd:anyURI ;
+    mim:indicatieAbstractObject false ;
+    mim:naam "Kanaal"@nl ;
+    dcterms:identifier "EAID_2E02B243_5BB3_4774_82DC_05306C18FF1F" ;
+    rdfs:comment "Kanaal binnen een samenwerkomgeving, gewijd aan een onderwerp of deelgroep, waarin teamleden chatberichten uitwisselen."@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/kolom> a mim:Objecttype,
+        owl:Class ;
+    rdfs:label "Kolom"@nl ;
+    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/kolom/datatype>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/kolom/naam> ;
+    mim:datumOpname "2026-11-04"^^xsd:date ;
+    mim:definitie "Kenmerk (veld) van een inhoudstype in een lijst."@nl ;
+    mim:herkomst "Proposal Samenwerkomgeving, gemeente 's-Hertogenbosch (Erik de Lepper, 2025)" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/kolom"^^xsd:anyURI ;
+    mim:indicatieAbstractObject false ;
+    mim:naam "Kolom"@nl ;
+    dcterms:identifier "EAID_FF1774A2_CB56_45EC_B847_29DEEE99004E" ;
+    rdfs:comment "Kenmerk (veld) van een inhoudstype in een lijst."@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/teamlidmaatschap> a mim:Objecttype,
+        owl:Class ;
+    rdfs:label "Teamlidmaatschap"@nl ;
+    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/teamlidmaatschap/datumtoetreding>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/teamlidmaatschap/rol> ;
+    mim:datumOpname "2026-11-04"^^xsd:date ;
+    mim:definitie "Het lidmaatschap van een teamlid van een team, met de rol die het teamlid in dat team heeft."@nl ;
+    mim:herkomst "Proposal Samenwerkomgeving, gemeente 's-Hertogenbosch (Erik de Lepper, 2025)" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/teamlidmaatschap"^^xsd:anyURI ;
+    mim:indicatieAbstractObject false ;
+    mim:naam "Teamlidmaatschap"@nl ;
+    dcterms:identifier "EAID_569325CE_96C1_407B_BBA9_F30124846FBE" ;
+    rdfs:comment "Het lidmaatschap van een teamlid van een team, met de rol die het teamlid in dat team heeft."@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/chatbericht> a mim:Objecttype,
+        owl:Class ;
+    rdfs:label "Chatbericht"@nl ;
+    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/chatbericht/datumcreatie>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/chatbericht/datumlaatstewijziging>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/chatbericht/inhoud> ;
+    mim:datumOpname "2026-11-04"^^xsd:date ;
+    mim:definitie "Bericht van een teamlid in een kanaal van de samenwerkomgeving."@nl ;
+    mim:herkomst "Proposal Samenwerkomgeving, gemeente 's-Hertogenbosch (Erik de Lepper, 2025)" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/chatbericht"^^xsd:anyURI ;
+    mim:indicatieAbstractObject false ;
+    mim:naam "Chatbericht"@nl ;
+    dcterms:identifier "EAID_8E3ACB9E_F442_4711_A5B0_03DAB974EF10" ;
+    rdfs:comment "Bericht van een teamlid in een kanaal van de samenwerkomgeving."@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/lijst> a mim:Objecttype,
+        owl:Class ;
+    rdfs:label "Lijst"@nl ;
+    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/lijst/naam> ;
+    mim:datumOpname "2026-11-04"^^xsd:date ;
+    mim:definitie "Lijst met een groep eigenschappen (kolommen) waarin gegevens binnen de samenwerkomgeving worden vastgelegd."@nl ;
+    mim:herkomst "Proposal Samenwerkomgeving, gemeente 's-Hertogenbosch (Erik de Lepper, 2025)" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/lijst"^^xsd:anyURI ;
+    mim:indicatieAbstractObject false ;
+    mim:naam "Lijst"@nl ;
+    dcterms:identifier "EAID_C7CA155E_4911_4173_A864_7E3510F2AC19" ;
+    rdfs:comment "Lijst met een groep eigenschappen (kolommen) waarin gegevens binnen de samenwerkomgeving worden vastgelegd."@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/teamtaak> a mim:Objecttype,
+        owl:Class ;
+    rdfs:label "Teamtaak"@nl ;
+    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/teamtaak/datumgereed>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/teamtaak/status>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/teamtaak/titel> ;
+    mim:datumOpname "2026-11-04"^^xsd:date ;
+    mim:definitie "Taak in de gezamenlijke takenlijst van het team, die aan een teamlid kan zijn toegewezen."@nl ;
+    mim:herkomst "Proposal Samenwerkomgeving, gemeente 's-Hertogenbosch (Erik de Lepper, 2025)" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/teamtaak"^^xsd:anyURI ;
+    mim:indicatieAbstractObject false ;
+    mim:naam "Teamtaak"@nl ;
+    dcterms:identifier "EAID_2F3575C4_210D_4C4A_9042_4BA7407DB501" ;
+    rdfs:comment "Taak in de gezamenlijke takenlijst van het team, die aan een teamlid kan zijn toegewezen."@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/mailbox> a mim:Objecttype,
+        owl:Class ;
+    rdfs:label "Mailbox"@nl ;
+    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/mailbox/emailadres> ;
+    mim:datumOpname "2026-11-04"^^xsd:date ;
+    mim:definitie "Mailbox van het team waarin teammails, de teamagenda en teamtaken worden vastgelegd."@nl ;
+    mim:herkomst "Proposal Samenwerkomgeving, gemeente 's-Hertogenbosch (Erik de Lepper, 2025)" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/mailbox"^^xsd:anyURI ;
+    mim:indicatieAbstractObject false ;
+    mim:naam "Mailbox"@nl ;
+    dcterms:identifier "EAID_BE8CB3AF_7A40_4A93_8EA7_16727425E254" ;
+    rdfs:comment "Mailbox van het team waarin teammails, de teamagenda en teamtaken worden vastgelegd."@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/team> a mim:Objecttype,
+        owl:Class ;
+    rdfs:label "Team"@nl ;
+    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/team/indicatiehoofdteam>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/team/naam>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/team/omschrijving> ;
+    mim:datumOpname "2026-11-04"^^xsd:date ;
+    mim:definitie "Groep personen die binnen een samenwerkomgeving samenwerkt, met eigen leden en rollen, kanalen en een gezamenlijke mailbox."@nl ;
+    mim:herkomst "Proposal Samenwerkomgeving, gemeente 's-Hertogenbosch (Erik de Lepper, 2025)" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/team"^^xsd:anyURI ;
+    mim:indicatieAbstractObject false ;
+    mim:naam "Team"@nl ;
+    dcterms:identifier "EAID_974226A0_B4D1_4483_9AD8_B631AE501F11" ;
+    rdfs:comment "Groep personen die binnen een samenwerkomgeving samenwerkt, met eigen leden en rollen, kanalen en een gezamenlijke mailbox."@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/bestand> a mim:Objecttype,
+        owl:Class ;
+    rdfs:label "Bestand"@nl ;
+    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/bestand/bestandstype>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/bestand/datumcreatie>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/bestand/datumlaatstewijziging>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/bestand/grootte>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/bestand/naam> ;
+    mim:datumOpname "2026-11-04"^^xsd:date ;
+    mim:definitie "Bestand dat in een bibliotheek van de samenwerkomgeving is opgeslagen."@nl ;
+    mim:herkomst "Proposal Samenwerkomgeving, gemeente 's-Hertogenbosch (Erik de Lepper, 2025)" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/bestand"^^xsd:anyURI ;
+    mim:indicatieAbstractObject false ;
+    mim:naam "Bestand"@nl ;
+    dcterms:identifier "EAID_7F2B6EBA_2084_4C69_B200_4BAFE5238BA5" ;
+    rdfs:comment "Bestand dat in een bibliotheek van de samenwerkomgeving is opgeslagen."@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/teamrol> a mim:Enumeratie,
+        owl:Class,
+        skos:ConceptScheme ;
+    rdfs:label "Teamrol"@nl ;
+    mim:datumOpname "2026-11-04"^^xsd:date ;
+    mim:definitie "Rechtenrol die een teamlid binnen een team heeft."@nl ;
+    mim:herkomst "Proposal Samenwerkomgeving, gemeente 's-Hertogenbosch (Erik de Lepper, 2025)" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/teamrol"^^xsd:anyURI ;
+    mim:naam "Teamrol"@nl ;
+    mim:waarde <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/teamrol/eigenaar>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/teamrol/gast>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/teamrol/lid> ;
+    dcterms:identifier "EAID_2E3B2394_E3B1_4741_BF87_F0FCD83855BE" ;
+    rdfs:comment "Rechtenrol die een teamlid binnen een team heeft."@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/> ;
+    rdfs:subClassOf skos:Concept .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/samenwerkomgeving> a mim:Objecttype,
+        owl:Class ;
+    rdfs:label "Samenwerkomgeving"@nl ;
+    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/samenwerkomgeving/beschrijving>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/samenwerkomgeving/datumcreatie>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/samenwerkomgeving/datumlaatstgebruikt>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/samenwerkomgeving/grootte>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/samenwerkomgeving/soort>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/samenwerkomgeving/titel>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/samenwerkomgeving/url> ;
+    mim:datumOpname "2026-11-04"^^xsd:date ;
+    mim:definitie "Digitale werkomgeving van een team waarin de leden samenwerken aan bestanden, lijsten en gesprekken, zoals een site in Microsoft Teams of SharePoint. Als in een team een privékanaal wordt aangemaakt, ontstaat een nieuwe samenwerkomgeving met eigen leden en een eigen kanaal."@nl ;
+    mim:herkomst "Proposal Samenwerkomgeving, gemeente 's-Hertogenbosch (Erik de Lepper, 2025)" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/samenwerkomgeving"^^xsd:anyURI ;
+    mim:indicatieAbstractObject false ;
+    mim:naam "Samenwerkomgeving"@nl ;
+    dcterms:identifier "EAID_9A534549_67DA_4AA6_8F54_C428979FF254" ;
+    rdfs:comment "Digitale werkomgeving van een team waarin de leden samenwerken aan bestanden, lijsten en gesprekken, zoals een site in Microsoft Teams of SharePoint. Als in een team een privékanaal wordt aangemaakt, ontstaat een nieuwe samenwerkomgeving met eigen leden en een eigen kanaal."@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/teamlid> a mim:Objecttype,
+        owl:Class ;
+    rdfs:label "Teamlid"@nl ;
+    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/teamlid/emailadres>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/teamlid/naam>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/teamlid/organisatorischeeenheid> ;
+    mim:datumOpname "2026-11-04"^^xsd:date ;
+    mim:definitie "Interne medewerker of externe persoon die lid is van een team en daarmee rechten heeft in de samenwerkomgeving."@nl ;
+    mim:herkomst "Proposal Samenwerkomgeving, gemeente 's-Hertogenbosch (Erik de Lepper, 2025)" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/teamlid"^^xsd:anyURI ;
+    mim:indicatieAbstractObject false ;
+    mim:naam "Teamlid"@nl ;
+    dcterms:identifier "EAID_D9870EEB_BEB7_4338_8805_3A169C274713" ;
+    rdfs:comment "Interne medewerker of externe persoon die lid is van een team en daarmee rechten heeft in de samenwerkomgeving."@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker> a mim:Objecttype,
+        owl:Class ;
+    rdfs:label "Medewerker"@nl ;
+    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/achternaam>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/datumindienst>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/datumuitdienst>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/emailadres>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/extern>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/functie>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/geslachtsaanduiding>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/medewerkeridentificatie>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/medewerkertoelichting>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/roepnaam>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/telefoonnummer>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/voorletters>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker/voorvoegselachternaam> ;
+    mim:definitie "Een medewerker van de organisatie die zaken behandelt uit hoofde van zijn of haar functie binnen een ORGANISATORISCHE EENHEID."@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker"^^xsd:anyURI ;
+    mim:indicatieAbstractObject false ;
+    mim:naam "Medewerker"@nl ;
+    dcterms:identifier "EAID_16EB3936_03CB_4854_9CD8_9F0911EEA51B" ;
+    rdfs:comment "Een medewerker van de organisatie die zaken behandelt uit hoofde van zijn of haar functie binnen een ORGANISATORISCHE EENHEID."@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> .
+

@@ -174,6 +174,7 @@ Gezinsmigrant en Overige Migrant heeft geen kenmerken en is bedoeld om relaties 
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "200" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "achternaam"@nl ;
     mim:type mim:CharacterString ;
@@ -235,6 +236,7 @@ Gezinsmigrant en Overige Migrant heeft geen kenmerken en is bedoeld om relaties 
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "0..1" ;
+    mim:lengte "254" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "emailadres"@nl ;
     mim:type mim:CharacterString ;
@@ -277,6 +279,7 @@ Gezinsmigrant en Overige Migrant heeft geen kenmerken en is bedoeld om relaties 
     mim:indicatieFormeleHistorie true ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "50" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "functie"@nl ;
     mim:type mim:CharacterString ;
@@ -298,6 +301,7 @@ Gezinsmigrant en Overige Migrant heeft geen kenmerken en is bedoeld om relaties 
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "1" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "geslachtsaanduiding"@nl ;
     mim:type mim:CharacterString ;
@@ -319,6 +323,7 @@ Gezinsmigrant en Overige Migrant heeft geen kenmerken en is bedoeld om relaties 
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "24" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "medewerkerIdentificatie"@nl ;
     mim:type mim:CharacterString ;
@@ -340,6 +345,7 @@ Gezinsmigrant en Overige Migrant heeft geen kenmerken en is bedoeld om relaties 
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "0..1" ;
+    mim:lengte "1000" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "medewerkerToelichting"@nl ;
     mim:type mim:CharacterString ;
@@ -361,6 +367,7 @@ Gezinsmigrant en Overige Migrant heeft geen kenmerken en is bedoeld om relaties 
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "30" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "roepnaam"@nl ;
     mim:type mim:CharacterString ;
@@ -382,6 +389,7 @@ Gezinsmigrant en Overige Migrant heeft geen kenmerken en is bedoeld om relaties 
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "0..1" ;
+    mim:lengte "20" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "telefoonnummer"@nl ;
     mim:type mim:CharacterString ;
@@ -403,6 +411,7 @@ Gezinsmigrant en Overige Migrant heeft geen kenmerken en is bedoeld om relaties 
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "20" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "voorletters"@nl ;
     mim:type mim:CharacterString ;
@@ -425,6 +434,7 @@ gescheiden."""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "0..1" ;
+    mim:lengte "10" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "voorvoegselAchternaam"@nl ;
     mim:type mim:CharacterString ;
@@ -798,6 +808,7 @@ gescheiden."""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "1" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "adresHerkomst"@nl ;
     mim:type mim:CharacterString ;
@@ -819,6 +830,7 @@ gescheiden."""@nl ;
     mim:indicatieFormeleHistorie true ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "20" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "anummer"@nl ;
     mim:type mim:CharacterString ;
@@ -840,6 +852,7 @@ gescheiden."""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "0..1" ;
+    mim:lengte "200" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "beschrijvingLocatie"@nl ;
     mim:type mim:CharacterString ;
@@ -861,6 +874,7 @@ gescheiden."""@nl ;
     mim:indicatieFormeleHistorie true ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "0..1" ;
+    mim:lengte "80" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "buitenlandsReisdocument"@nl ;
     mim:type mim:CharacterString ;
@@ -882,6 +896,7 @@ gescheiden."""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "1" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "burgerlijkeStaat"@nl ;
     mim:type mim:Integer ;
@@ -1027,6 +1042,7 @@ gescheiden."""@nl ;
     mim:indicatieFormeleHistorie true ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "0..1" ;
+    mim:lengte "80" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "gemeenteVanInschrijving"@nl ;
     mim:type mim:CharacterString ;
@@ -1056,7 +1072,7 @@ gescheiden."""@nl ;
     rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/gezinsrelatie> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/ingeschrevenpersoon/indicatiegeheim> a mim:Attribuutsoort,
-        owl:ObjectProperty ;
+        owl:DatatypeProperty ;
     rdfs:label "indicatieGeheim"@nl ;
     mim:definitie "Een aanduiding die aangeeft dat gegevens wel of niet verstrekt mogen worden."@nl ;
     mim:heeftTijdlijnGeldigheid false ;
@@ -1069,15 +1085,15 @@ gescheiden."""@nl ;
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "indicatieGeheim"@nl ;
-    mim:type <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/boolean> ;
+    mim:type mim:Boolean ;
     dcterms:identifier "EAID_D6FC9878_9865_4090_94C4_9FA4BA55E120" ;
     rdfs:comment "Een aanduiding die aangeeft dat gegevens wel of niet verstrekt mogen worden."@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/ingeschrevenpersoon> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
-    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/boolean> .
+    rdfs:range xsd:boolean .
 
 <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/ingeschrevenpersoon/ingezetene> a mim:Attribuutsoort,
-        owl:ObjectProperty ;
+        owl:DatatypeProperty ;
     rdfs:label "ingezetene"@nl ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
@@ -1089,11 +1105,11 @@ gescheiden."""@nl ;
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "ingezetene"@nl ;
-    mim:type <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/boolean> ;
+    mim:type mim:Boolean ;
     dcterms:identifier "EAID_0DBB807F_62ED_4c66_B535_0B9B9ECD7CFC" ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/ingeschrevenpersoon> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
-    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/boolean> .
+    rdfs:range xsd:boolean .
 
 <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/ingeschrevenpersoon/landwaarnaarvertrokken> a mim:Attribuutsoort,
         owl:ObjectProperty ;
@@ -1148,6 +1164,7 @@ gescheiden."""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "40" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "ouder1"@nl ;
     mim:type mim:CharacterString ;
@@ -1167,6 +1184,7 @@ gescheiden."""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "40" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "ouder2"@nl ;
     mim:type mim:CharacterString ;
@@ -1186,6 +1204,7 @@ gescheiden."""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "40" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "partnerID"@nl ;
     mim:type mim:CharacterString ;
@@ -1205,6 +1224,7 @@ gescheiden."""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "200" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "redenEindeBewoning"@nl ;
     mim:type mim:CharacterString ;
@@ -1225,6 +1245,7 @@ gescheiden."""@nl ;
     mim:indicatieFormeleHistorie true ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "0..1" ;
+    mim:lengte "200" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "redenOpschortingBijhouding"@nl ;
     mim:type mim:CharacterString ;
@@ -1235,7 +1256,7 @@ gescheiden."""@nl ;
     rdfs:range xsd:string .
 
 <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/ingeschrevenpersoon/signaleringreisdocument> a mim:Attribuutsoort,
-        owl:ObjectProperty ;
+        owl:DatatypeProperty ;
     rdfs:label "signaleringReisdocument"@nl ;
     mim:definitie "Een aanduiding dat aan de ingeschrevene geen reisdocument mag worden verstrekt."@nl ;
     mim:heeftTijdlijnGeldigheid false ;
@@ -1248,12 +1269,12 @@ gescheiden."""@nl ;
     mim:kardinaliteit "0..1" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "signaleringReisdocument"@nl ;
-    mim:type <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/boolean> ;
+    mim:type mim:Boolean ;
     dcterms:identifier "EAID_A8141D41_5EA9_4e14_BC51_77DBC8738968" ;
     rdfs:comment "Een aanduiding dat aan de ingeschrevene geen reisdocument mag worden verstrekt."@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/ingeschrevenpersoon> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
-    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/boolean> .
+    rdfs:range xsd:boolean .
 
 <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/ingeschrevenpersoon/verblijfstitel> a mim:Attribuutsoort,
         owl:ObjectProperty ;
@@ -1286,6 +1307,7 @@ gescheiden."""@nl ;
     mim:indicatieFormeleHistorie true ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "0..1" ;
+    mim:lengte "50" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "aanduidingNaamgebruik"@nl ;
     mim:type mim:CharacterString ;
@@ -1307,6 +1329,7 @@ gescheiden."""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "50" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "aanhefAanschrijving"@nl ;
     mim:type mim:CharacterString ;
@@ -1328,6 +1351,7 @@ gescheiden."""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "0..*" ;
+    mim:lengte "80" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "academischeTitel"@nl ;
     mim:type mim:CharacterString ;
@@ -1348,6 +1372,7 @@ gescheiden."""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "100" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "achternaam"@nl ;
     mim:type mim:CharacterString ;
@@ -1389,6 +1414,7 @@ gescheiden."""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "20" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "anummer"@nl ;
     mim:type mim:CharacterString ;
@@ -1409,6 +1435,7 @@ gescheiden."""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "50" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "bijzonderNederlanderschap"@nl ;
     mim:type mim:CharacterString ;
@@ -1428,6 +1455,7 @@ gescheiden."""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "9" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "burgerservicenummer"@nl ;
     mim:type mim:CharacterString ;
@@ -1448,6 +1476,7 @@ gescheiden."""@nl ;
     mim:indicatieFormeleHistorie true ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "0..1" ;
+    mim:lengte "22" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "datumGeboorte"@nl ;
     mim:type mim:CharacterString ;
@@ -1469,6 +1498,7 @@ gescheiden."""@nl ;
     mim:indicatieFormeleHistorie true ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "0..1" ;
+    mim:lengte "22" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "datumOverlijden"@nl ;
     mim:type mim:CharacterString ;
@@ -1511,6 +1541,7 @@ gescheiden."""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "200" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "geboorteplaats"@nl ;
     mim:type mim:CharacterString ;
@@ -1532,6 +1563,7 @@ gescheiden."""@nl ;
     mim:indicatieFormeleHistorie true ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "1" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "geslachtsaanduiding"@nl ;
     mim:type mim:CharacterString ;
@@ -1553,6 +1585,7 @@ gescheiden."""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "200" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "geslachtsnaam"@nl ;
     mim:type mim:CharacterString ;
@@ -1574,6 +1607,7 @@ gescheiden."""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "200" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "geslachtsnaamAanschrijving"@nl ;
     mim:type mim:CharacterString ;
@@ -1595,6 +1629,7 @@ gescheiden."""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "50" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "handlichting"@nl ;
     mim:type mim:CharacterString ;
@@ -1682,6 +1717,7 @@ Deze indicatie is enkel van belang als de gegevens uit de BRP niet beschikbaar z
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "100" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "nationaliteit"@nl ;
     mim:type mim:CharacterString ;
@@ -1702,6 +1738,7 @@ Deze indicatie is enkel van belang als de gegevens uit de BRP niet beschikbaar z
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "200" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "overlijdensplaats"@nl ;
     mim:type mim:CharacterString ;
@@ -1723,6 +1760,7 @@ Deze indicatie is enkel van belang als de gegevens uit de BRP niet beschikbaar z
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "20" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "voorlettersAanschrijving"@nl ;
     mim:type mim:CharacterString ;
@@ -1745,6 +1783,7 @@ geslachtsnaam voorafgaat.."""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "0..1" ;
+    mim:lengte "200" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "voornamen"@nl ;
     mim:type mim:CharacterString ;
@@ -1767,6 +1806,7 @@ geslachtsnaam voorafgaat.."""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "0..1" ;
+    mim:lengte "200" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "voornamenAanschrijving"@nl ;
     mim:type mim:CharacterString ;
@@ -1788,6 +1828,7 @@ geslachtsnaam voorafgaat.."""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "0..1" ;
+    mim:lengte "80" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "voorvoegselGeslachtsnaam"@nl ;
     mim:type mim:CharacterString ;
@@ -1809,6 +1850,7 @@ geslachtsnaam voorafgaat.."""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "0..1" ;
+    mim:lengte "149" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "adresBuitenland"@nl ;
     mim:type mim:CharacterString ;
@@ -1830,6 +1872,7 @@ geslachtsnaam voorafgaat.."""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "100" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "adresCorrespondentie"@nl ;
     mim:type mim:CharacterString ;
@@ -1851,6 +1894,7 @@ geslachtsnaam voorafgaat.."""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "0..1" ;
+    mim:lengte "80" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "emailadres"@nl ;
     mim:type mim:CharacterString ;
@@ -1872,6 +1916,7 @@ geslachtsnaam voorafgaat.."""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "0..1" ;
+    mim:lengte "20" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "faxnummer"@nl ;
     mim:type mim:CharacterString ;
@@ -1893,6 +1938,7 @@ geslachtsnaam voorafgaat.."""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "17" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "identificatie"@nl ;
     mim:type mim:CharacterString ;
@@ -1913,6 +1959,7 @@ geslachtsnaam voorafgaat.."""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "20" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "KVKnummer"@nl ;
     mim:type mim:CharacterString ;
@@ -1933,6 +1980,7 @@ geslachtsnaam voorafgaat.."""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "200" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "naam"@nl ;
     mim:type mim:CharacterString ;
@@ -1954,6 +2002,7 @@ geslachtsnaam voorafgaat.."""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "100" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "rechtsvorm"@nl ;
     mim:type mim:CharacterString ;
@@ -1967,6 +2016,7 @@ geslachtsnaam voorafgaat.."""@nl ;
         owl:DatatypeProperty ;
     rdfs:label "rekeningnummer"@nl ;
     mim:definitie "Het nummer van een Nederlandse bank/girorekening, zoals dat door een bankinstelling als identificator aan een overeenkomst tussen de bank en een of meer subjecten wordt toegekend, op basis waarvan het SUBJECT in de regel financieel communiceert."@nl ;
+    mim:formeelPatroon "^[A-Z]{2}[0-9]{2}[A-Z0-9]{1,30}$" ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/rechtspersoon/rekeningnummer"^^xsd:anyURI ;
@@ -1975,6 +2025,7 @@ geslachtsnaam voorafgaat.."""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "0..1" ;
+    mim:lengte "34" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "rekeningnummer"@nl ;
     mim:type mim:CharacterString ;
@@ -1996,6 +2047,7 @@ geslachtsnaam voorafgaat.."""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "0..1" ;
+    mim:lengte "20" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "telefoonnummer"@nl ;
     mim:type mim:CharacterString ;
@@ -2093,6 +2145,7 @@ geslachtsnaam voorafgaat.."""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "80" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "naam"@nl ;
     mim:type mim:CharacterString ;
@@ -2121,7 +2174,7 @@ geslachtsnaam voorafgaat.."""@nl ;
     rdfs:range xsd:string .
 
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/asielstatushouder/digid-aangevraagd> a mim:Attribuutsoort,
-        owl:ObjectProperty ;
+        owl:DatatypeProperty ;
     rdfs:label "DigiD aangevraagd"@nl ;
     mim:definitie """Heeft de Asielstatushouder  een DigiD aangevraagd?
 Mogelijke waarden: ja, nee of onbekend."""@nl ;
@@ -2135,13 +2188,13 @@ Mogelijke waarden: ja, nee of onbekend."""@nl ;
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "DigiD aangevraagd"@nl ;
-    mim:type <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/boolean> ;
+    mim:type mim:Boolean ;
     dcterms:identifier "EAID_68D39EF7_0422_44dd_801A_F2F77059C49D" ;
     rdfs:comment """Heeft de Asielstatushouder  een DigiD aangevraagd?
 Mogelijke waarden: ja, nee of onbekend."""@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/asielstatushouder> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/> ;
-    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/boolean> .
+    rdfs:range xsd:boolean .
 
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/asielstatushouder/emailadres-verblijf-azc> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
@@ -2157,6 +2210,7 @@ Dit gegeven wordt door COA bijgewerkt totdat Asielstatushouder   het AZC verlaat
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "40" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "Emailadres verblijf AZC"@nl ;
     mim:type mim:CharacterString ;
@@ -2180,6 +2234,7 @@ Dit gegeven wordt door COA bijgewerkt totdat Asielstatushouder   het AZC verlaat
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "40" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "Is gekoppeld aan"@nl ;
     mim:type mim:CharacterString ;
@@ -2201,6 +2256,7 @@ Dit gegeven wordt door COA bijgewerkt totdat Asielstatushouder   het AZC verlaat
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "50" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "Land Rijbewijs"@nl ;
     mim:type mim:CharacterString ;
@@ -2211,7 +2267,7 @@ Dit gegeven wordt door COA bijgewerkt totdat Asielstatushouder   het AZC verlaat
     rdfs:range xsd:string .
 
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/asielstatushouder/rijbewijs> a mim:Attribuutsoort,
-        owl:ObjectProperty ;
+        owl:DatatypeProperty ;
     rdfs:label "Rijbewijs"@nl ;
     mim:definitie """Is de Asielstatushouder in het bezit van een rijbewijs?
 Mogelijke waarden: ja, nee of onbekend"""@nl ;
@@ -2225,13 +2281,13 @@ Mogelijke waarden: ja, nee of onbekend"""@nl ;
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "Rijbewijs"@nl ;
-    mim:type <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/boolean> ;
+    mim:type mim:Boolean ;
     dcterms:identifier "EAID_DAFE7210_D45C_4e55_BC0F_A56D8E3138BA" ;
     rdfs:comment """Is de Asielstatushouder in het bezit van een rijbewijs?
 Mogelijke waarden: ja, nee of onbekend"""@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/asielstatushouder> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/> ;
-    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/boolean> .
+    rdfs:range xsd:boolean .
 
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/asielstatushouder/telefoonnummer-verblijf-azc> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
@@ -2247,6 +2303,7 @@ Dit gegeven wordt door COA bijgewerkt totdat Asielstatushouder  het AZV verlaat.
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "10" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "Telefoonnummer verblijf AZC"@nl ;
     mim:type mim:CharacterString ;
@@ -2502,6 +2559,7 @@ Kenmerkend: behoefte aan basisoriëntatie, taalverwerving, wegwijs in institutie
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "10" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "Sociaal Referent"@nl ;
     mim:type mim:CharacterString ;
@@ -2523,6 +2581,7 @@ Kenmerkend: behoefte aan basisoriëntatie, taalverwerving, wegwijs in institutie
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "10" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "v-nummer"@nl ;
     mim:type mim:CharacterString ;
@@ -2543,6 +2602,7 @@ Kenmerkend: behoefte aan basisoriëntatie, taalverwerving, wegwijs in institutie
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "80" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "code"@nl ;
     mim:type mim:CharacterString ;
@@ -2581,6 +2641,7 @@ Kenmerkend: behoefte aan basisoriëntatie, taalverwerving, wegwijs in institutie
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "80" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "juridischeStatus"@nl ;
     mim:type mim:CharacterString ;
@@ -2600,6 +2661,7 @@ Kenmerkend: behoefte aan basisoriëntatie, taalverwerving, wegwijs in institutie
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "80" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "wettelijkeVertegenwoordiging"@nl ;
     mim:type mim:CharacterString ;
@@ -2619,6 +2681,7 @@ Kenmerkend: behoefte aan basisoriëntatie, taalverwerving, wegwijs in institutie
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "20" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "begeleiderscode"@nl ;
     mim:type mim:CharacterString ;
@@ -2638,6 +2701,7 @@ Kenmerkend: behoefte aan basisoriëntatie, taalverwerving, wegwijs in institutie
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "40" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "AGBCode"@nl ;
     mim:type mim:CharacterString ;
@@ -2657,6 +2721,7 @@ Kenmerkend: behoefte aan basisoriëntatie, taalverwerving, wegwijs in institutie
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "8" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "leverancierscode"@nl ;
     mim:type mim:CharacterString ;
@@ -2676,6 +2741,7 @@ Kenmerkend: behoefte aan basisoriëntatie, taalverwerving, wegwijs in institutie
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "200" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "naam"@nl ;
     mim:type mim:CharacterString ;
@@ -2695,6 +2761,7 @@ Kenmerkend: behoefte aan basisoriëntatie, taalverwerving, wegwijs in institutie
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "80" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "soortLeverancier"@nl ;
     mim:type mim:CharacterString ;
@@ -2714,6 +2781,7 @@ Kenmerkend: behoefte aan basisoriëntatie, taalverwerving, wegwijs in institutie
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "8" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "soortLeverancierCode"@nl ;
     mim:type mim:CharacterString ;
@@ -2859,6 +2927,20 @@ Kenmerkend: behoefte aan basisoriëntatie, taalverwerving, wegwijs in institutie
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/sociaal-domein-generiek/> ;
     rdfs:subClassOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/ingeschrevenpersoon> .
 
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/boolean> a mim:Enumeratie,
+        owl:Class,
+        skos:ConceptScheme ;
+    rdfs:label "Boolean"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/boolean"^^xsd:anyURI ;
+    mim:naam "Boolean"@nl ;
+    mim:waarde <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/boolean/ja>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/boolean/leeg>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/boolean/nee>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/boolean/onbekend> ;
+    dcterms:identifier "EAID_9BD0FBCB_1A9E_4cab_9280_0EBC428E38F7" ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/> ;
+    rdfs:subClassOf skos:Concept .
+
 <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/medewerker> a mim:Objecttype,
         owl:Class ;
     rdfs:label "Medewerker"@nl ;
@@ -2919,20 +3001,6 @@ Kenmerkend: behoefte aan basisoriëntatie, taalverwerving, wegwijs in institutie
         <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/doelgroep/overig> ;
     dcterms:identifier "EAID_A9985186_A6B8_4414_8334_A2CA12D5AC94" ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/generiek-jeugd-en-wmo/jeugd-en-wmo-generiek/> ;
-    rdfs:subClassOf skos:Concept .
-
-<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/boolean> a mim:Enumeratie,
-        owl:Class,
-        skos:ConceptScheme ;
-    rdfs:label "Boolean"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/boolean"^^xsd:anyURI ;
-    mim:naam "Boolean"@nl ;
-    mim:waarde <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/boolean/ja>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/boolean/leeg>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/boolean/nee>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/boolean/onbekend> ;
-    dcterms:identifier "EAID_9BD0FBCB_1A9E_4cab_9280_0EBC428E38F7" ;
-    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/> ;
     rdfs:subClassOf skos:Concept .
 
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/doelgroep> a mim:Enumeratie,

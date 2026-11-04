@@ -1,0 +1,566 @@
+# graph: <https://lod.gemeentelijkgegevensmodel.nl/v3.0.0/interne-organisatie/financien/financien-kostenverdeling>
+
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix mim: <http://modellen.mim-standaard.nl/def/mim#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/kostenplaats/heeft-verdeelkenmerk> a mim:Relatiesoort,
+        owl:ObjectProperty ;
+    rdfs:label "heeft verdeelkenmerk"@nl ;
+    mim:aggregatietype mim:Geen ;
+    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/kostenplaats> ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/verdeelkenmerk> ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/kostenplaats/heeft-verdeelkenmerk"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "0..*" ;
+    mim:kardinaliteitRelatieBron "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "heeft verdeelkenmerk"@nl ;
+    mim:unidirectioneel true ;
+    dcterms:identifier "EAID_500E264F_D650_44AD_AB06_931EB9254617" ;
+    rdfs:comment ""@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/kostenplaats> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/verdeelkenmerk> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/verdeelkenmerk/van-verdeelsleutel> a mim:Relatiesoort,
+        owl:ObjectProperty ;
+    rdfs:label "van verdeelsleutel"@nl ;
+    mim:aggregatietype mim:Geen ;
+    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/verdeelkenmerk> ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/verdeelsleutel> ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/verdeelkenmerk/van-verdeelsleutel"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:kardinaliteitRelatieBron "0..*" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "van verdeelsleutel"@nl ;
+    mim:unidirectioneel true ;
+    dcterms:identifier "EAID_65D5DA35_1031_4212_B792_CD9E98995B9F" ;
+    rdfs:comment ""@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/verdeelkenmerk> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/verdeelsleutel> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/verdeelregel/verdeelt-kosten-van> a mim:Relatiesoort,
+        owl:ObjectProperty ;
+    rdfs:label "verdeelt kosten van"@nl ;
+    mim:aggregatietype mim:Geen ;
+    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/verdeelregel> ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/kostenplaats> ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/verdeelregel/verdeelt-kosten-van"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:kardinaliteitRelatieBron "0..*" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "verdeelt kosten van"@nl ;
+    mim:unidirectioneel true ;
+    dcterms:identifier "EAID_ABE78D8A_5080_4470_ACF6_69552B492184" ;
+    rdfs:comment ""@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/verdeelregel> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/kostenplaats> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/verdeelregel/volgens-verdeelsleutel> a mim:Relatiesoort,
+        owl:ObjectProperty ;
+    rdfs:label "volgens verdeelsleutel"@nl ;
+    mim:aggregatietype mim:Geen ;
+    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/verdeelregel> ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/verdeelsleutel> ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/verdeelregel/volgens-verdeelsleutel"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:kardinaliteitRelatieBron "0..*" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "volgens verdeelsleutel"@nl ;
+    mim:unidirectioneel true ;
+    dcterms:identifier "EAID_93D37505_3C9D_45F9_A25E_FE7EF570F3D1" ;
+    rdfs:comment ""@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/verdeelregel> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/verdeelsleutel> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/v3.0.0/interne-organisatie/financien/financien-kostenverdeling> a owl:Ontology ;
+    rdfs:label "Financien Kostenverdeling"@nl ;
+    dcterms:identifier "EAID_BAF51624_408D_4A68_A2C0_3FDBACEB09E0" ;
+    dcterms:isPartOf <https://lod.gemeentelijkgegevensmodel.nl/> ;
+    owl:versionInfo "v3.0.0" .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/kostenplaats/btwcode> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "BTWCode"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/kostenplaats/btwcode"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:lengte "40" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "BTWCode"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_9D7D98E8_08E8_45c9_8356_F3D2464C2C91" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/kostenplaats> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/kostenplaats/btwomschrijving> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "BTWOmschrijving"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/kostenplaats/btwomschrijving"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:lengte "80" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "BTWOmschrijving"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_0D24CB15_7D1B_4c27_AA12_2EC8C596A099" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/kostenplaats> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/kostenplaats/indicatiehulpkostenplaats> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "indicatieHulpkostenplaats"@nl ;
+    mim:datumOpname "2026-11-04"^^xsd:date ;
+    mim:definitie "Indicatie of de kostenplaats een hulpkostenplaats is waarvan de kosten via een verdeelregel over andere kostenplaatsen worden verdeeld."@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:herkomst "Memo Domein Financiën in POHV en GGM (Invest-NL, Programma Onderwijshuisvesting, 2025)" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/kostenplaats/indicatiehulpkostenplaats"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "indicatieHulpkostenplaats"@nl ;
+    mim:type mim:Boolean ;
+    dcterms:identifier "EAID_2C1CC5B9_6F6E_44C8_ADD2_636AC21564E1" ;
+    rdfs:comment "Indicatie of de kostenplaats een hulpkostenplaats is waarvan de kosten via een verdeelregel over andere kostenplaatsen worden verdeeld."@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/kostenplaats> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/> ;
+    rdfs:range xsd:boolean .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/kostenplaats/kostenplaatssoortcode> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "kostenplaatssoortCode"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/kostenplaats/kostenplaatssoortcode"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:lengte "20" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "kostenplaatssoortCode"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_DCE6B912_D2FC_4423_8B0E_56EEE769D6A3" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/kostenplaats> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/kostenplaats/kostenplaatssoortomschrijving> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "kostenplaatssoortOmschrijving"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/kostenplaats/kostenplaatssoortomschrijving"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:lengte "80" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "kostenplaatssoortOmschrijving"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_1F6364ED_FFA9_4c8b_8191_788C76B4E943" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/kostenplaats> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/kostenplaats/kostenplaatstypecode> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "kostenplaatstypeCode"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/kostenplaats/kostenplaatstypecode"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:lengte "20" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "kostenplaatstypeCode"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_AB200DBB_A697_4dcd_8077_C7F0C25380F5" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/kostenplaats> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/kostenplaats/kostenplaatstypeomschrijving> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "kostenplaatstypeOmschrijving"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/kostenplaats/kostenplaatstypeomschrijving"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:lengte "80" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "kostenplaatstypeOmschrijving"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_E07EE47E_E183_4654_887A_7E6FD0B17219" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/kostenplaats> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/kostenplaats/naam> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "naam"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/kostenplaats/naam"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:lengte "80" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "naam"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_6F38439B_23A4_4dd3_9C4E_F6B6E57027BF" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/kostenplaats> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/kostenplaats/omschrijving> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "omschrijving"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/kostenplaats/omschrijving"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:lengte "200" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "omschrijving"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_9DB35FBA_DC20_439a_8DC5_6488438E4DE1" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/kostenplaats> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/verdeelkenmerk/datumbegingeldigheid> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "datumBeginGeldigheid"@nl ;
+    mim:datumOpname "2026-11-04"^^xsd:date ;
+    mim:definitie "Datum vanaf wanneer de waarde geldt."@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:herkomst "Memo Domein Financiën in POHV en GGM (Invest-NL, Programma Onderwijshuisvesting, 2025)" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/verdeelkenmerk/datumbegingeldigheid"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "datumBeginGeldigheid"@nl ;
+    mim:type mim:Date ;
+    dcterms:identifier "EAID_12A6137B_BBB8_4FB6_A547_C743B4F573A3" ;
+    rdfs:comment "Datum vanaf wanneer de waarde geldt."@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/verdeelkenmerk> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/> ;
+    rdfs:range xsd:date .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/verdeelkenmerk/datumeindegeldigheid> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "datumEindeGeldigheid"@nl ;
+    mim:datumOpname "2026-11-04"^^xsd:date ;
+    mim:definitie "Datum tot wanneer de waarde geldt."@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:herkomst "Memo Domein Financiën in POHV en GGM (Invest-NL, Programma Onderwijshuisvesting, 2025)" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/verdeelkenmerk/datumeindegeldigheid"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "datumEindeGeldigheid"@nl ;
+    mim:type mim:Date ;
+    dcterms:identifier "EAID_735CF1BD_6A9C_4722_ABF3_D0894386BBC8" ;
+    rdfs:comment "Datum tot wanneer de waarde geldt."@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/verdeelkenmerk> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/> ;
+    rdfs:range xsd:date .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/verdeelkenmerk/waarde> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "waarde"@nl ;
+    mim:datumOpname "2026-11-04"^^xsd:date ;
+    mim:definitie "Kwantitatieve waarde van de verdeelsleutel voor de kostenplaats."@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:herkomst "Memo Domein Financiën in POHV en GGM (Invest-NL, Programma Onderwijshuisvesting, 2025)" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/verdeelkenmerk/waarde"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "waarde"@nl ;
+    mim:type mim:Decimal ;
+    dcterms:identifier "EAID_9B84A226_2C1E_4C03_9188_9567148C5C1C" ;
+    rdfs:comment "Kwantitatieve waarde van de verdeelsleutel voor de kostenplaats."@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/verdeelkenmerk> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/> ;
+    rdfs:range xsd:decimal .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/verdeelregel/datumbegingeldigheid> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "datumBeginGeldigheid"@nl ;
+    mim:datumOpname "2026-11-04"^^xsd:date ;
+    mim:definitie "Datum vanaf wanneer de regel geldt."@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:herkomst "Memo Domein Financiën in POHV en GGM (Invest-NL, Programma Onderwijshuisvesting, 2025)" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/verdeelregel/datumbegingeldigheid"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "datumBeginGeldigheid"@nl ;
+    mim:type mim:Date ;
+    dcterms:identifier "EAID_126F0042_0B1B_4707_8A91_4E18E0DA45DA" ;
+    rdfs:comment "Datum vanaf wanneer de regel geldt."@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/verdeelregel> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/> ;
+    rdfs:range xsd:date .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/verdeelregel/datumeindegeldigheid> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "datumEindeGeldigheid"@nl ;
+    mim:datumOpname "2026-11-04"^^xsd:date ;
+    mim:definitie "Datum tot wanneer de regel geldt."@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:herkomst "Memo Domein Financiën in POHV en GGM (Invest-NL, Programma Onderwijshuisvesting, 2025)" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/verdeelregel/datumeindegeldigheid"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "datumEindeGeldigheid"@nl ;
+    mim:type mim:Date ;
+    dcterms:identifier "EAID_C443E7E2_2140_49F3_891A_5A8C9F21A6E1" ;
+    rdfs:comment "Datum tot wanneer de regel geldt."@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/verdeelregel> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/> ;
+    rdfs:range xsd:date .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/verdeelregel/omschrijving> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "omschrijving"@nl ;
+    mim:datumOpname "2026-11-04"^^xsd:date ;
+    mim:definitie "Omschrijving van de verdeelregel."@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:herkomst "Memo Domein Financiën in POHV en GGM (Invest-NL, Programma Onderwijshuisvesting, 2025)" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/verdeelregel/omschrijving"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "omschrijving"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_EDA8E520_A858_4F42_86DC_5527BE7BEECD" ;
+    rdfs:comment "Omschrijving van de verdeelregel."@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/verdeelregel> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/verdeelsleutel/eenheid> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "eenheid"@nl ;
+    mim:datumOpname "2026-11-04"^^xsd:date ;
+    mim:definitie "Eenheid waarin de waarden van de verdeelsleutel worden uitgedrukt."@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:herkomst "Memo Domein Financiën in POHV en GGM (Invest-NL, Programma Onderwijshuisvesting, 2025)" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/verdeelsleutel/eenheid"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:lengte "20" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "eenheid"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_6E5F2447_DC7B_421A_87F3_F4699363E332" ;
+    rdfs:comment "Eenheid waarin de waarden van de verdeelsleutel worden uitgedrukt."@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/verdeelsleutel> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/verdeelsleutel/naam> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "naam"@nl ;
+    mim:datumOpname "2026-11-04"^^xsd:date ;
+    mim:definitie "Naam van de verdeelsleutel, zoals m2, FTE of leerlingaantal."@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:herkomst "Memo Domein Financiën in POHV en GGM (Invest-NL, Programma Onderwijshuisvesting, 2025)" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/verdeelsleutel/naam"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:lengte "80" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "naam"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_CD0B2B28_066A_4FEA_8E72_DB03F2F7209B" ;
+    rdfs:comment "Naam van de verdeelsleutel, zoals m2, FTE of leerlingaantal."@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/verdeelsleutel> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/verdeelsleutel/omschrijving> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "omschrijving"@nl ;
+    mim:datumOpname "2026-11-04"^^xsd:date ;
+    mim:definitie "Omschrijving van de verdeelsleutel."@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:herkomst "Memo Domein Financiën in POHV en GGM (Invest-NL, Programma Onderwijshuisvesting, 2025)" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/verdeelsleutel/omschrijving"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "omschrijving"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_A9C20C42_54C1_4BC5_85BE_F0E819F05C36" ;
+    rdfs:comment "Omschrijving van de verdeelsleutel."@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/verdeelsleutel> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/verdeelkenmerk> a mim:Objecttype,
+        owl:Class ;
+    rdfs:label "Verdeelkenmerk"@nl ;
+    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/verdeelkenmerk/datumbegingeldigheid>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/verdeelkenmerk/datumeindegeldigheid>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/verdeelkenmerk/waarde> ;
+    mim:datumOpname "2026-11-04"^^xsd:date ;
+    mim:definitie "Waarde van een verdeelsleutel voor een kostenplaats in een periode, zoals 1.200 m2 voor een basisschool in een multifunctionele accommodatie."@nl ;
+    mim:herkomst "Memo Domein Financiën in POHV en GGM (Invest-NL, Programma Onderwijshuisvesting, 2025)" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/verdeelkenmerk"^^xsd:anyURI ;
+    mim:indicatieAbstractObject false ;
+    mim:naam "Verdeelkenmerk"@nl ;
+    dcterms:identifier "EAID_A4EA6CCC_C37D_4B99_8E80_8505597F16CB" ;
+    rdfs:comment "Waarde van een verdeelsleutel voor een kostenplaats in een periode, zoals 1.200 m2 voor een basisschool in een multifunctionele accommodatie."@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/verdeelregel> a mim:Objecttype,
+        owl:Class ;
+    rdfs:label "Verdeelregel"@nl ;
+    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/verdeelregel/datumbegingeldigheid>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/verdeelregel/datumeindegeldigheid>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/verdeelregel/omschrijving> ;
+    mim:datumOpname "2026-11-04"^^xsd:date ;
+    mim:definitie "Regel die bepaalt dat de kosten van een hulpkostenplaats volgens een verdeelsleutel worden verdeeld over de kostenplaatsen die een verdeelkenmerk voor die sleutel hebben; bijvoorbeeld de energiekosten van een multifunctionele accommodatie naar rato van vierkante meters over de huurders."@nl ;
+    mim:herkomst "Memo Domein Financiën in POHV en GGM (Invest-NL, Programma Onderwijshuisvesting, 2025)" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/verdeelregel"^^xsd:anyURI ;
+    mim:indicatieAbstractObject false ;
+    mim:naam "Verdeelregel"@nl ;
+    dcterms:identifier "EAID_F18E5088_D6F2_4860_8126_CEF65A7089A8" ;
+    rdfs:comment "Regel die bepaalt dat de kosten van een hulpkostenplaats volgens een verdeelsleutel worden verdeeld over de kostenplaatsen die een verdeelkenmerk voor die sleutel hebben; bijvoorbeeld de energiekosten van een multifunctionele accommodatie naar rato van vierkante meters over de huurders."@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/verdeelsleutel> a mim:Objecttype,
+        owl:Class ;
+    rdfs:label "Verdeelsleutel"@nl ;
+    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/verdeelsleutel/eenheid>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/verdeelsleutel/naam>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/verdeelsleutel/omschrijving> ;
+    mim:datumOpname "2026-11-04"^^xsd:date ;
+    mim:definitie "Maatstaf waarmee de kosten van een hulpkostenplaats over andere kostenplaatsen worden verdeeld, zoals vierkante meters, fte of leerlingaantal."@nl ;
+    mim:herkomst "Memo Domein Financiën in POHV en GGM (Invest-NL, Programma Onderwijshuisvesting, 2025)" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/verdeelsleutel"^^xsd:anyURI ;
+    mim:indicatieAbstractObject false ;
+    mim:naam "Verdeelsleutel"@nl ;
+    dcterms:identifier "EAID_301D7768_4957_49CC_A020_6479B884FCBA" ;
+    rdfs:comment "Maatstaf waarmee de kosten van een hulpkostenplaats over andere kostenplaatsen worden verdeeld, zoals vierkante meters, fte of leerlingaantal."@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/kostenplaats> a mim:Objecttype,
+        owl:Class ;
+    rdfs:label "Kostenplaats"@nl ;
+    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/kostenplaats/btwcode>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/kostenplaats/btwomschrijving>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/kostenplaats/indicatiehulpkostenplaats>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/kostenplaats/kostenplaatssoortcode>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/kostenplaats/kostenplaatssoortomschrijving>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/kostenplaats/kostenplaatstypecode>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/kostenplaats/kostenplaatstypeomschrijving>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/kostenplaats/naam>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/kostenplaats/omschrijving> ;
+    mim:definitie "Rekening waaraan boekingen in een financiële administratie samen worden toegeschreven."@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/kostenplaats"^^xsd:anyURI ;
+    mim:indicatieAbstractObject false ;
+    mim:naam "Kostenplaats"@nl ;
+    dcterms:identifier "EAID_D90E822D_7EF8_4ea6_AF5C_4A4362577941" ;
+    rdfs:comment "Rekening waaraan boekingen in een financiële administratie samen worden toegeschreven."@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/> .
+

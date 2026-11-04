@@ -461,87 +461,6 @@
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
     rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/kadastraleonroerendezaak> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/kunstwerkdeel/lod1geometriekunstwerkdeel> a mim:Relatiesoort,
-        owl:ObjectProperty ;
-    rdfs:label "LOD1GeometrieKunstwerkdeel"@nl ;
-    mim:aggregatietype mim:Geen ;
-    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/kunstwerkdeel> ;
-    mim:datumOpname "2016-05-01"^^xsd:date ;
-    mim:definitie "De geometrische representatie van een kunstwerkdeel in 3D op level of detail 1."@nl ;
-    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/object> ;
-    mim:heeftTijdlijnGeldigheid false ;
-    mim:heeftTijdlijnRegistratie false ;
-    mim:herkomst "IMGeo" ;
-    mim:herkomstDefinitie "IMGeo" ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/kunstwerkdeel/lod1geometriekunstwerkdeel"^^xsd:anyURI ;
-    mim:indicatieAfleidbaar false ;
-    mim:indicatieFormeleHistorie true ;
-    mim:indicatieMaterieleHistorie false ;
-    mim:kardinaliteit "0..1" ;
-    mim:mogelijkGeenWaarde false ;
-    mim:naam "LOD1GeometrieKunstwerkdeel"@nl ;
-    mim:toelichting "Het betreft de relatie \" lod1Geometry\" zoals gedefinieerd in het IMGeo bij de generalisatie overige constructie van een kunstwerkdeel."@nl ;
-    mim:unidirectioneel true ;
-    dcterms:identifier "EAID_286CFDB0_8EE5_4883_A5A0_A8AD341D4CED" ;
-    rdfs:comment "De geometrische representatie van een kunstwerkdeel in 3D op level of detail 1."@nl ;
-    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/kunstwerkdeel> ;
-    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
-    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/object> .
-
-<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/kunstwerkdeel/lod2geometriekunstwerkdeel> a mim:Relatiesoort,
-        owl:ObjectProperty ;
-    rdfs:label "LOD2GeometrieKunstwerkdeel"@nl ;
-    mim:aggregatietype mim:Geen ;
-    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/kunstwerkdeel> ;
-    mim:datumOpname "2016-05-01"^^xsd:date ;
-    mim:definitie "De geometrische representatie van een kunstwerkdeel in 3D op level of detail 2."@nl ;
-    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/object> ;
-    mim:heeftTijdlijnGeldigheid false ;
-    mim:heeftTijdlijnRegistratie false ;
-    mim:herkomst "IMGeo" ;
-    mim:herkomstDefinitie "IMGeo" ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/kunstwerkdeel/lod2geometriekunstwerkdeel"^^xsd:anyURI ;
-    mim:indicatieAfleidbaar false ;
-    mim:indicatieFormeleHistorie true ;
-    mim:indicatieMaterieleHistorie false ;
-    mim:kardinaliteit "0..1" ;
-    mim:mogelijkGeenWaarde false ;
-    mim:naam "LOD2GeometrieKunstwerkdeel"@nl ;
-    mim:toelichting "Het betreft de relatie \" lod2Geometry\" zoals gedefinieerd in het IMGeo bij de generalisatie overige constructie van een kunstwerkdeel."@nl ;
-    mim:unidirectioneel true ;
-    dcterms:identifier "EAID_9DC71661_BA52_4e02_826E_CA15921B26D8" ;
-    rdfs:comment "De geometrische representatie van een kunstwerkdeel in 3D op level of detail 2."@nl ;
-    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/kunstwerkdeel> ;
-    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
-    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/object> .
-
-<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/kunstwerkdeel/lod3geometriekunstwerkdeel> a mim:Relatiesoort,
-        owl:ObjectProperty ;
-    rdfs:label "lod3GeometrieKunstwerkdeel"@nl ;
-    mim:aggregatietype mim:Geen ;
-    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/kunstwerkdeel> ;
-    mim:datumOpname "2016-05-01"^^xsd:date ;
-    mim:definitie "De geometrische representatie van een kunstwerkdeel in 3D op level of detail 3."@nl ;
-    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/object> ;
-    mim:heeftTijdlijnGeldigheid false ;
-    mim:heeftTijdlijnRegistratie false ;
-    mim:herkomst "IMGeo" ;
-    mim:herkomstDefinitie "IMGeo" ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/kunstwerkdeel/lod3geometriekunstwerkdeel"^^xsd:anyURI ;
-    mim:indicatieAfleidbaar false ;
-    mim:indicatieFormeleHistorie true ;
-    mim:indicatieMaterieleHistorie false ;
-    mim:kardinaliteit "0..1" ;
-    mim:mogelijkGeenWaarde false ;
-    mim:naam "lod3GeometrieKunstwerkdeel"@nl ;
-    mim:toelichting "Het betreft de relatie \" lod3Geometry\" zoals gedefinieerd in het BGT  bij de generalisatie overige constructie van een kunstwerkdeel."@nl ;
-    mim:unidirectioneel true ;
-    dcterms:identifier "EAID_7A7AD09F_2A4B_44f2_9F3E_9C88FA6E61FF" ;
-    rdfs:comment "De geometrische representatie van een kunstwerkdeel in 3D op level of detail 3."@nl ;
-    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/kunstwerkdeel> ;
-    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
-    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/object> .
-
 <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/maatschappelijkeactiviteit/adresbinnenland> a mim:Relatiesoort,
         owl:ObjectProperty ;
     rdfs:label "adresBinnenland"@nl ;
@@ -614,58 +533,6 @@
     dcterms:isPartOf <https://lod.gemeentelijkgegevensmodel.nl/> ;
     owl:versionInfo "v3.0.0" .
 
-<https://lod.gemeentelijkgegevensmodel.nl/kern/bag/boolean/ja> a mim:Enumeratiewaarde,
-        skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/boolean> ;
-    rdfs:label "Ja"@nl ;
-    mim:code "1" ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/bag/boolean/ja"^^xsd:anyURI ;
-    mim:naam "Ja"@nl ;
-    dcterms:identifier "EAID_09A32FFB_F302_42ad_B2C7_F5EE3F9B0DFF" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/boolean> ;
-    skos:notation "1" ;
-    skos:prefLabel "Ja"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/boolean> .
-
-<https://lod.gemeentelijkgegevensmodel.nl/kern/bag/boolean/leeg> a mim:Enumeratiewaarde,
-        skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/boolean> ;
-    rdfs:label "Leeg"@nl ;
-    mim:code "-2" ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/bag/boolean/leeg"^^xsd:anyURI ;
-    mim:naam "Leeg"@nl ;
-    dcterms:identifier "EAID_586B24ED_FF6C_4c96_AC5C_F20E3191186E" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/boolean> ;
-    skos:notation "-2" ;
-    skos:prefLabel "Leeg"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/boolean> .
-
-<https://lod.gemeentelijkgegevensmodel.nl/kern/bag/boolean/nee> a mim:Enumeratiewaarde,
-        skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/boolean> ;
-    rdfs:label "Nee"@nl ;
-    mim:code "0" ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/bag/boolean/nee"^^xsd:anyURI ;
-    mim:naam "Nee"@nl ;
-    dcterms:identifier "EAID_5AB379AF_F672_4b81_B2FA_8D39DC5C8289" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/boolean> ;
-    skos:notation "0" ;
-    skos:prefLabel "Nee"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/boolean> .
-
-<https://lod.gemeentelijkgegevensmodel.nl/kern/bag/boolean/onbekend> a mim:Enumeratiewaarde,
-        skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/boolean> ;
-    rdfs:label "Onbekend"@nl ;
-    mim:code "-1" ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/bag/boolean/onbekend"^^xsd:anyURI ;
-    mim:naam "Onbekend"@nl ;
-    dcterms:identifier "EAID_5A3213D0_80D2_450d_8FBA_D2EB84278E51" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/boolean> ;
-    skos:notation "-1" ;
-    skos:prefLabel "Onbekend"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/boolean> .
-
 <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/buurt/begingeldigheid> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "beginGeldigheid"@nl ;
@@ -712,6 +579,7 @@ Vanaf deze datum zijn gegevens in de BAG geldig. Bij elke verandering in de BAG 
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "2" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "code"@nl ;
     mim:patroon "Buurtcode conform CBS-tabel. Numeriek met voorloopnullen" ;
@@ -797,7 +665,7 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
     rdfs:range xsd:date .
 
 <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/buurt/geconstateerd> a mim:Attribuutsoort,
-        owl:ObjectProperty ;
+        owl:DatatypeProperty ;
     rdfs:label "Geconstateerd"@nl ;
     mim:authentiek mim:Authentiek ;
     mim:heeftTijdlijnGeldigheid false ;
@@ -808,13 +676,13 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
-    mim:mogelijkGeenWaarde false ;
+    mim:mogelijkGeenWaarde true ;
     mim:naam "Geconstateerd"@nl ;
-    mim:type <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/boolean> ;
+    mim:type mim:Boolean ;
     dcterms:identifier "EAID_4BDC1924_7097_4432_B358_BD2CC8AF4E71" ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/buurt> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/> ;
-    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/boolean> .
+    rdfs:range xsd:boolean .
 
 <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/buurt/geometrie> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
@@ -835,7 +703,7 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
     mim:naam "geometrie"@nl ;
     mim:patroon "alle binnen Nederland gelegen waarden van het RD-stelsel." ;
     mim:toelichting "De buurtgrenzen zijn zoveel mogelijk gebaseerd op topografische elementen."@nl ;
-    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/multisurface> ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/gm-multisurface> ;
     dcterms:identifier "EAID_91EA2C37_0151_4608_BB8A_168F66A949C0" ;
     rdfs:comment "De tweedimensionale geometrische representatie van de omtrekken van de buurt."@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/buurt> ;
@@ -876,6 +744,7 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "40" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "naam"@nl ;
     mim:patroon "Alle bestaande alfanumerieke tekens." ;
@@ -1065,7 +934,7 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
     rdfs:range xsd:date .
 
 <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/ligplaats/geconstateerd> a mim:Attribuutsoort,
-        owl:ObjectProperty ;
+        owl:DatatypeProperty ;
     rdfs:label "geconstateerd"@nl ;
     mim:definitie "Een aanduiding waarmee kan worden aangegeven dat een object in de registratie is opgenomen als gevolg van een feitelijke constatering, zonder dat er op het moment van opname sprake is van een formele grondslag voor deze opname."@nl ;
     mim:heeftTijdlijnGeldigheid false ;
@@ -1076,14 +945,14 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
-    mim:mogelijkGeenWaarde false ;
+    mim:mogelijkGeenWaarde true ;
     mim:naam "geconstateerd"@nl ;
-    mim:type <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/boolean> ;
+    mim:type mim:Boolean ;
     dcterms:identifier "EAID_67976376_7F8D_42fe_BC9F_2A68E86B3759" ;
     rdfs:comment "Een aanduiding waarmee kan worden aangegeven dat een object in de registratie is opgenomen als gevolg van een feitelijke constatering, zonder dat er op het moment van opname sprake is van een formele grondslag voor deze opname."@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/ligplaats> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/> ;
-    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/boolean> .
+    rdfs:range xsd:boolean .
 
 <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/ligplaats/geometrie> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
@@ -1099,7 +968,7 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "geometrie"@nl ;
-    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/surface> ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/gm-surface> ;
     dcterms:identifier "EAID_793060EE_F8D6_4e82_B064_1EE08061D5B0" ;
     rdfs:comment "Loodrechte bovenaanzicht van de ligplaats in het Nationale Rijksdriehoekstelsel, inclusief alle zichtbare en onzichtbare delen boven en onder de grond, maar exclusief alle delen die kunnen bewegen ten opzichte van de aarde"@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/ligplaats> ;
@@ -1167,11 +1036,11 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "versie"@nl ;
-    mim:type mim:CharacterString ;
+    mim:type mim:Integer ;
     dcterms:identifier "EAID_468BDC0D_2C13_4d3f_951B_E194043151AF" ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/ligplaats> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/> ;
-    rdfs:range xsd:string .
+    rdfs:range xsd:integer .
 
 <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/openbareruimte/begingeldigheid> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
@@ -1342,7 +1211,7 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
     mim:mogelijkGeenWaarde false ;
     mim:naam "geometrie"@nl ;
     mim:patroon "alle binnen Nederland gelegen waarden van het RD-stelsel." ;
-    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/multisurface> ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/gm-multisurface> ;
     dcterms:identifier "EAID_C0987BF8_E01C_49af_AF3E_814D39E90620" ;
     rdfs:comment "De tweedimensionale geometrische representatie van de omtrekken van de openbare ruimte."@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/openbareruimte> ;
@@ -1365,6 +1234,7 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "11" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "Huisnummerrange even en oneven nummers"@nl ;
     mim:patroon """huisnummers van nummeraanduidingen die gerelateerd zijn aan de openbare ruimte
@@ -1393,6 +1263,7 @@ Format: NNNNN-NNNNN""" ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "11" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "Huisnummerrange even nummers"@nl ;
     mim:patroon """even huisnummers van nummeraanduidingen die gerelateerd zijn aan de openbare ruimte
@@ -1421,6 +1292,7 @@ Format:NNNNN-NNNNN""" ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "11" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "Huisnummerrange oneven nummers"@nl ;
     mim:patroon """oneven huisnummers van nummeraanduidingen die gerelateerd zijn aan de openbare ruimte
@@ -1467,6 +1339,7 @@ Format:  NNNNN-NNNNN""" ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "80" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "labelNaam"@nl ;
     mim:type mim:CharacterString ;
@@ -1488,6 +1361,7 @@ Format:  NNNNN-NNNNN""" ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "80" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "naamOpenbareruimte"@nl ;
     mim:type mim:CharacterString ;
@@ -1529,6 +1403,7 @@ Format:  NNNNN-NNNNN""" ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "80" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "straatcode"@nl ;
     mim:type mim:CharacterString ;
@@ -1552,6 +1427,7 @@ Format:  NNNNN-NNNNN""" ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "24" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "straatnaam"@nl ;
     mim:patroon "alle alfanumrieke tekens" ;
@@ -1623,7 +1499,7 @@ RUIMTE."""@nl ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "wegsegment"@nl ;
     mim:toelichting "Verkeerssystemen en kleinschalige kaarten maken gebruik van het wegsegment als representatie van de openbare ruimte als lijn."@nl ;
-    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/curve> ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/gm-curve> ;
     dcterms:identifier "EAID_BCC760A4_FCF9_416c_ADA2_F75BE3A4D5AE" ;
     rdfs:comment "De geometrische representatie van de openbare ruimte als een lijn."@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/openbareruimte> ;
@@ -1666,6 +1542,7 @@ RUIMTE."""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "6" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "brutoInhoudPand"@nl ;
     mim:patroon "0 – 999999 kubieke meter" ;
@@ -1828,7 +1705,7 @@ Dit geeft aan dat een PAND in de registratie is opgenomen als gevolg van een fei
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "geometrieBovenaanzicht"@nl ;
-    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/surface> ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/gm-surface> ;
     dcterms:identifier "EAID_203A64ED_F28E_48f8_A0E6_EA1CB2925F41" ;
     rdfs:comment "De minimaal tweedimensionale geometrische representatie van het bovenaanzicht van de omtrekken van een PAND"@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/pand> ;
@@ -1849,7 +1726,7 @@ Dit geeft aan dat een PAND in de registratie is opgenomen als gevolg van een fei
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "geometrieMaaiveld"@nl ;
-    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/multisurface> ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/gm-multisurface> ;
     dcterms:identifier "EAID_BD33C5E2_0F05_4d48_8AB3_6C04354A5E06" ;
     rdfs:comment "De tweedimensionale geometrische representatie van de omtrekken van een PAND op maaiveldniveau"@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/pand> ;
@@ -1869,7 +1746,7 @@ Dit geeft aan dat een PAND in de registratie is opgenomen als gevolg van een fei
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "geometriePunt"@nl ;
-    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/point> ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/gm-point> ;
     dcterms:identifier "EAID_3649B913_F912_47b4_97C8_6858E00C62E6" ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/pand> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/> ;
@@ -1887,6 +1764,7 @@ Dit geeft aan dat een PAND in de registratie is opgenomen als gevolg van een fei
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "3" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "hoogsteBouwlaag"@nl ;
     mim:type mim:Integer ;
@@ -1929,6 +1807,7 @@ Dit geeft aan dat een PAND in de registratie is opgenomen als gevolg van een fei
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "3" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "laagsteBouwlaag"@nl ;
     mim:type mim:Integer ;
@@ -1950,6 +1829,7 @@ Dit geeft aan dat een PAND in de registratie is opgenomen als gevolg van een fei
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "4" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "oorspronkelijkBouwjaar"@nl ;
     mim:type mim:Integer ;
@@ -1971,6 +1851,7 @@ Dit geeft aan dat een PAND in de registratie is opgenomen als gevolg van een fei
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "6" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "oppervlakte"@nl ;
     mim:type mim:Integer ;
@@ -1995,6 +1876,7 @@ Dit geeft aan dat een PAND in de registratie is opgenomen als gevolg van een fei
     mim:indicatieFormeleHistorie true ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "2" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "relatieveHoogteligging"@nl ;
     mim:patroon "gehele positieve en negatieve getallen, -9 t/m 9" ;
@@ -2264,7 +2146,7 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "Geometrie"@nl ;
-    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/surface> ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/gm-surface> ;
     dcterms:identifier "EAID_774E8A93_CE73_4ac5_8AA2_FBED2F203A6C" ;
     rdfs:comment "Loodrechte bovenaanzicht van de standplaats in het Nationale Rijksdriehoekstelsel, inclusief alle zichbare en onzichtbare delen boven en onder de grond, maar exclusief alle delen die kunnen bewegen ten opzichte van de aarde"@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/standplaats> ;
@@ -3041,6 +2923,7 @@ Terrein wordt gebruikt om een zichtbaar (tastbaar) begrensd stuk grond aan te ge
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "0..1" ;
+    mim:lengte "200" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "adresBuitenland"@nl ;
     mim:type mim:CharacterString ;
@@ -3062,6 +2945,7 @@ Terrein wordt gebruikt om een zichtbaar (tastbaar) begrensd stuk grond aan te ge
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "200" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "domein"@nl ;
     mim:type mim:CharacterString ;
@@ -3085,7 +2969,7 @@ Terrein wordt gebruikt om een zichtbaar (tastbaar) begrensd stuk grond aan te ge
     mim:kardinaliteit "0..1" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "geometrie"@nl ;
-    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/point> ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/gm-point> ;
     dcterms:identifier "EAID_304BC3DE_C85F_4ba0_9DD4_9B728BFEC683" ;
     rdfs:comment "De minimaal tweedimensionale geometrische representatie van het OBJECT."@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/object> ;
@@ -3104,6 +2988,7 @@ Terrein wordt gebruikt om een zichtbaar (tastbaar) begrensd stuk grond aan te ge
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "50" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "identificatie"@nl ;
     mim:type mim:CharacterString ;
@@ -3146,6 +3031,7 @@ Terrein wordt gebruikt om een zichtbaar (tastbaar) begrensd stuk grond aan te ge
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "0..1" ;
+    mim:lengte "30" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "kadastraleAanduiding"@nl ;
     mim:type mim:CharacterString ;
@@ -3167,6 +3053,7 @@ Terrein wordt gebruikt om een zichtbaar (tastbaar) begrensd stuk grond aan te ge
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "0..1" ;
+    mim:lengte "200" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "naam"@nl ;
     mim:type mim:CharacterString ;
@@ -3191,6 +3078,7 @@ ZAKELIJK RECHT (of afleidbare identificatie)."""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "3" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "objecttype"@nl ;
     mim:type mim:CharacterString ;
@@ -5395,7 +5283,7 @@ die stilstaand of slechts langzaam stromend water bevat."""@nl ;
     mim:patroon """Aanduiding van het type geometrie (Punt, Lijn of Vlak) gevolgd door coördinatenparen binnen de in Nederland gelegen waarden van het RD-stelsel.
 
 Zie ook regels attribuutsoort.""" ;
-    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/surface> ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/gm-surface> ;
     dcterms:identifier "EAID_426FE3C3_423C_44d3_AEE0_00270B6AC471" ;
     rdfs:comment "De geometrische representatie van een inrichtingselement."@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/inrichtingselement> ;
@@ -5448,7 +5336,7 @@ Voor de identificatie worden de richtlijnen van NEN 3610 gehanteerd."""@nl ;
     mim:kardinaliteit "0..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "LOD0GeometrieInrichtingselement"@nl ;
-    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/surface> ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/gm-surface> ;
     dcterms:identifier "EAID_2A8E5666_8876_4cde_B523_5F39B8DD336B" ;
     rdfs:comment "De geometrische representatie van een inrichtingselement als punt, lijn of vlak in 2.5D op level of detail 0."@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/inrichtingselement> ;
@@ -5495,6 +5383,7 @@ Voor de identificatie worden de richtlijnen van NEN 3610 gehanteerd."""@nl ;
     mim:indicatieFormeleHistorie true ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "2" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "relatieveHoogteliggingInrichtingselement"@nl ;
     mim:patroon "gehele positieve en negatieve getallen, -9 t/m 9" ;
@@ -5599,7 +5488,7 @@ Voor de identificatie worden de richtlijnen van NEN 3610 gehanteerd."""@nl ;
     mim:toelichting """Een Perceel is een (2D) vlakvormig ruimtelijk object dat "opdelend" van structuur is. Dit betekent dat Nederland altijd naadloos en volledig is bedekt met perceelsvlakken, die elkaar niet mogen overlappen. De begrenzing van een perceel bestaat uit één of meer Kaartbegrenzingen (gesloten polylijnen). De buitenomtrek wordt altijd door één Kaartbegrenzing gevormd. Indien er enclaves zijn (gebied dat niet tot het perceelsvlak behoort) zijn ook de binnenomtrekken als kaartbegrenzing opgenomen. Elk Perceel wordt begrensd door andere percelen, uitgezonderd diegenen die aan buitenland (België, Duitsland en Noordzee) grenzen. Een Kaartbegrenzing is opgebouwd uit één of meer Kaartlijnen (lijnketens). Elke niet onderbroken begrenzing tussen precies 2 percelen noemen we een Kaartlijn. De topologische relatie tussen 2 vlakbegrenzingen van aangrenzende percelen wordt afgedwongen doordat hun gemeenschappelijke begrenzing door dezelfde Kaartlijn wordt gevormd.
 Een Kaartlijn ofwel lijnketen is opgebouwd uit opeenvolgend aansluitende kaartlijndelen, bestaande uit rechte en cirkelboogvormige lijnstukken.
 Hoewel momenteel in de kadastrale percelenstructuur geen exclaves (buitenliggende vlakken) voorkomen, doet dit aan de definitie van Begrenzing perceel niets af."""@nl ;
-    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/surface> ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/gm-surface> ;
     dcterms:identifier "EAID_39F9F58F_B903_41cd_A765_4A6447001D6A" ;
     rdfs:comment "Het geheel van lijnketens waarmee de vlakomtrek van een perceel wordt gevormd."@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/kadastraalperceel> ;
@@ -5621,16 +5510,17 @@ Hoewel momenteel in de kadastrale percelenstructuur geen exclaves (buitenliggend
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "0..1" ;
+    mim:lengte "10,2" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "groottePerceel"@nl ;
     mim:patroon "positief getal, in vierkante meters," ;
     mim:toelichting "De grootte van een perceel geeft de waarde van de oppervlakte aan en is dus per definitie positief. Door afrondingen is de grootte altijd groter dan of gelijk aan 0,5 ca."@nl ;
-    mim:type mim:Integer ;
+    mim:type mim:Decimal ;
     dcterms:identifier "EAID_982C9718_C065_4b27_BBDB_26EE6FC83510" ;
     rdfs:comment "Een door de Dienst op grond van de kadastrale grenzen van een perceel berekende indicatieve grootte van een perceel ten tijde van vorming van dat perceel."@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/kadastraalperceel> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
-    rdfs:range xsd:integer .
+    rdfs:range xsd:decimal .
 
 <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/kadastraalperceel/indicatiedeelperceel> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
@@ -5671,6 +5561,7 @@ Hoewel momenteel in de kadastrale percelenstructuur geen exclaves (buitenliggend
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "0..1" ;
+    mim:lengte "20" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "omschrijvingDeelperceel"@nl ;
     mim:toelichting "De tekst is afkomstig van een register-9 post: een opdracht tot meting van een perceel."@nl ;
@@ -5699,7 +5590,7 @@ Hoewel momenteel in de kadastrale percelenstructuur geen exclaves (buitenliggend
     mim:mogelijkGeenWaarde false ;
     mim:naam "plaatscoordinatenPerceel"@nl ;
     mim:patroon "zowel de x-coordinaat als de y-coordinaat zijn positief." ;
-    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/point> ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/gm-point> ;
     dcterms:identifier "EAID_A1179A80_1B32_4238_845C_4E4C1F7BE636" ;
     rdfs:comment "De aanduiding van een kaartpunt voor de weergave van de identificatie van een perceel (centroïde)."@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/kadastraalperceel> ;
@@ -5720,6 +5611,7 @@ Hoewel momenteel in de kadastrale percelenstructuur geen exclaves (buitenliggend
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "0..1" ;
+    mim:lengte "4" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "appartementsrechtvolgnummer"@nl ;
     mim:type mim:Integer ;
@@ -5742,7 +5634,7 @@ Hoewel momenteel in de kadastrale percelenstructuur geen exclaves (buitenliggend
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "begrenzing"@nl ;
-    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/surface> ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/gm-surface> ;
     dcterms:identifier "EAID_9C5D09AB_2838_4e13_81CB_A4991283B757" ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/kadastraleonroerendezaak> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
@@ -5828,6 +5720,7 @@ Hoewel momenteel in de kadastrale percelenstructuur geen exclaves (buitenliggend
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "250" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "identificatie"@nl ;
     mim:type mim:CharacterString ;
@@ -5852,6 +5745,7 @@ ONROERENDE ZAAK gelegen is."""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "20" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "kadastraleGemeente"@nl ;
     mim:type mim:CharacterString ;
@@ -5876,6 +5770,7 @@ ONROERENDE ZAAK gelegen is."""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "20" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "kadastraleGemeentecode"@nl ;
     mim:type mim:CharacterString ;
@@ -5907,6 +5802,7 @@ ONROERENDE ZAAK gelegen is."""@nl ;
 <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/kadastraleonroerendezaak/koopsom> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "koopsom"@nl ;
+    mim:eenheid [ ] ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/kadastraleonroerendezaak/koopsom"^^xsd:anyURI ;
@@ -5915,6 +5811,7 @@ ONROERENDE ZAAK gelegen is."""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "10,2" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "koopsom"@nl ;
     mim:type mim:Decimal ;
@@ -5927,6 +5824,7 @@ ONROERENDE ZAAK gelegen is."""@nl ;
         owl:DatatypeProperty ;
     rdfs:label "landInrichtingRenteBedrag"@nl ;
     mim:definitie "Het bedrag waarmee de Onroerende zaak is belast in het kader van de landinrichtingswet."@nl ;
+    mim:eenheid [ ] ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:herkomst "BRK" ;
@@ -5937,6 +5835,7 @@ ONROERENDE ZAAK gelegen is."""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "0..1" ;
+    mim:lengte "10,2" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "landInrichtingRenteBedrag"@nl ;
     mim:patroon "Bedrag is uitgedruk in euro's" ;
@@ -5981,7 +5880,7 @@ ONROERENDE ZAAK gelegen is."""@nl ;
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "ligging"@nl ;
-    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/point> ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/gm-point> ;
     dcterms:identifier "EAID_8DFA2FA3_E6A2_4763_86DE_8174533594F2" ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/kadastraleonroerendezaak> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
@@ -5998,6 +5897,7 @@ ONROERENDE ZAAK gelegen is."""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "1000" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "locatieOmschrijving"@nl ;
     mim:type mim:CharacterString ;
@@ -6039,6 +5939,7 @@ ONROERENDE ZAAK gelegen is."""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "5" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "perceelnummer"@nl ;
     mim:type mim:Integer ;
@@ -6062,6 +5963,7 @@ ONROERENDE ZAAK gelegen is."""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "2" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "sectie"@nl ;
     mim:type mim:CharacterString ;
@@ -6212,9 +6114,84 @@ Identificatie is maximaal 25 alfanumerieke tekens lang.Zie voor verdere specific
     mim:mogelijkGeenWaarde false ;
     mim:naam "LOD0GeometrieKunstwerkdeel"@nl ;
     mim:toelichting "Het betreft de relatie \" lod0Geometry\" zoals gedefinieerd in het IMGeo  bij de generalisatie overige constructie van een kunstwerkdeel."@nl ;
-    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/surface> ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/gm-surface> ;
     dcterms:identifier "EAID_5DA85ED5_2440_4b98_A502_A65A0800137F" ;
     rdfs:comment "De geometrische representatie van een kunstwerkdeel als punt, lijn of vlak in 2.5D op level of detail 0."@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/kunstwerkdeel> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
+    rdfs:range geo:wktLiteral .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/kunstwerkdeel/lod1geometriekunstwerkdeel> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "LOD1GeometrieKunstwerkdeel"@nl ;
+    mim:datumOpname "2016-05-01"^^xsd:date ;
+    mim:definitie "De geometrische representatie van een kunstwerkdeel in 3D op level of detail 1."@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:herkomst "IMGeo" ;
+    mim:herkomstDefinitie "IMGeo" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/kunstwerkdeel/lod1geometriekunstwerkdeel"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie true ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "0..1" ;
+    mim:mogelijkGeenWaarde false ;
+    mim:naam "LOD1GeometrieKunstwerkdeel"@nl ;
+    mim:toelichting "Het betreft de relatie \" lod1Geometry\" zoals gedefinieerd in het IMGeo bij de generalisatie overige constructie van een kunstwerkdeel."@nl ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/gm-object> ;
+    dcterms:identifier "EAID_286CFDB0_8EE5_4883_A5A0_A8AD341D4CED" ;
+    rdfs:comment "De geometrische representatie van een kunstwerkdeel in 3D op level of detail 1."@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/kunstwerkdeel> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
+    rdfs:range geo:wktLiteral .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/kunstwerkdeel/lod2geometriekunstwerkdeel> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "LOD2GeometrieKunstwerkdeel"@nl ;
+    mim:datumOpname "2016-05-01"^^xsd:date ;
+    mim:definitie "De geometrische representatie van een kunstwerkdeel in 3D op level of detail 2."@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:herkomst "IMGeo" ;
+    mim:herkomstDefinitie "IMGeo" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/kunstwerkdeel/lod2geometriekunstwerkdeel"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie true ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "0..1" ;
+    mim:mogelijkGeenWaarde false ;
+    mim:naam "LOD2GeometrieKunstwerkdeel"@nl ;
+    mim:toelichting "Het betreft de relatie \" lod2Geometry\" zoals gedefinieerd in het IMGeo bij de generalisatie overige constructie van een kunstwerkdeel."@nl ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/gm-object> ;
+    dcterms:identifier "EAID_9DC71661_BA52_4e02_826E_CA15921B26D8" ;
+    rdfs:comment "De geometrische representatie van een kunstwerkdeel in 3D op level of detail 2."@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/kunstwerkdeel> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
+    rdfs:range geo:wktLiteral .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/kunstwerkdeel/lod3geometriekunstwerkdeel> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "lod3GeometrieKunstwerkdeel"@nl ;
+    mim:datumOpname "2016-05-01"^^xsd:date ;
+    mim:definitie "De geometrische representatie van een kunstwerkdeel in 3D op level of detail 3."@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:herkomst "IMGeo" ;
+    mim:herkomstDefinitie "IMGeo" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/kunstwerkdeel/lod3geometriekunstwerkdeel"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie true ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "0..1" ;
+    mim:mogelijkGeenWaarde false ;
+    mim:naam "lod3GeometrieKunstwerkdeel"@nl ;
+    mim:toelichting "Het betreft de relatie \" lod3Geometry\" zoals gedefinieerd in het BGT  bij de generalisatie overige constructie van een kunstwerkdeel."@nl ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/gm-object> ;
+    dcterms:identifier "EAID_7A7AD09F_2A4B_44f2_9F3E_9C88FA6E61FF" ;
+    rdfs:comment "De geometrische representatie van een kunstwerkdeel in 3D op level of detail 3."@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/kunstwerkdeel> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
     rdfs:range geo:wktLiteral .
@@ -6234,6 +6211,7 @@ Identificatie is maximaal 25 alfanumerieke tekens lang.Zie voor verdere specific
     mim:indicatieFormeleHistorie true ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "2" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "relatieveHoogteliggingKunstwerkdeel"@nl ;
     mim:patroon "gehele positieve en negatieve getallen, -9 t/m 9" ;
@@ -6281,6 +6259,7 @@ Identificatie is maximaal 25 alfanumerieke tekens lang.Zie voor verdere specific
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "100" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "adresCorrespondentie"@nl ;
     mim:type mim:CharacterString ;
@@ -6395,6 +6374,7 @@ Identificatie is maximaal 25 alfanumerieke tekens lang.Zie voor verdere specific
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "8" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "KVKnummer"@nl ;
     mim:patroon "natuurlijk getal met voorloopnullen" ;
@@ -6416,6 +6396,7 @@ Identificatie is maximaal 25 alfanumerieke tekens lang.Zie voor verdere specific
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "100" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "rechtsvorm"@nl ;
     mim:type mim:CharacterString ;
@@ -6435,6 +6416,7 @@ Identificatie is maximaal 25 alfanumerieke tekens lang.Zie voor verdere specific
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "10" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "RSIN"@nl ;
     mim:type mim:CharacterString ;
@@ -6454,6 +6436,7 @@ Identificatie is maximaal 25 alfanumerieke tekens lang.Zie voor verdere specific
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "100" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "statutaireNaam"@nl ;
     mim:type mim:CharacterString ;
@@ -6473,6 +6456,7 @@ Identificatie is maximaal 25 alfanumerieke tekens lang.Zie voor verdere specific
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "20" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "telefoonnummer"@nl ;
     mim:type mim:CharacterString ;
@@ -6492,6 +6476,7 @@ Identificatie is maximaal 25 alfanumerieke tekens lang.Zie voor verdere specific
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "100" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "URL"@nl ;
     mim:type mim:CharacterString ;
@@ -6512,6 +6497,7 @@ Identificatie is maximaal 25 alfanumerieke tekens lang.Zie voor verdere specific
     mim:indicatieFormeleHistorie true ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "0..1" ;
+    mim:lengte "50" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "aanduidingNaamgebruik"@nl ;
     mim:type mim:CharacterString ;
@@ -6533,6 +6519,7 @@ Identificatie is maximaal 25 alfanumerieke tekens lang.Zie voor verdere specific
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "50" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "aanhefAanschrijving"@nl ;
     mim:type mim:CharacterString ;
@@ -6554,6 +6541,7 @@ Identificatie is maximaal 25 alfanumerieke tekens lang.Zie voor verdere specific
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "0..*" ;
+    mim:lengte "80" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "academischeTitel"@nl ;
     mim:type mim:CharacterString ;
@@ -6574,6 +6562,7 @@ Identificatie is maximaal 25 alfanumerieke tekens lang.Zie voor verdere specific
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "100" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "achternaam"@nl ;
     mim:type mim:CharacterString ;
@@ -6615,6 +6604,7 @@ Identificatie is maximaal 25 alfanumerieke tekens lang.Zie voor verdere specific
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "20" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "anummer"@nl ;
     mim:type mim:CharacterString ;
@@ -6635,6 +6625,7 @@ Identificatie is maximaal 25 alfanumerieke tekens lang.Zie voor verdere specific
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "50" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "bijzonderNederlanderschap"@nl ;
     mim:type mim:CharacterString ;
@@ -6654,6 +6645,7 @@ Identificatie is maximaal 25 alfanumerieke tekens lang.Zie voor verdere specific
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "9" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "burgerservicenummer"@nl ;
     mim:type mim:CharacterString ;
@@ -6674,6 +6666,7 @@ Identificatie is maximaal 25 alfanumerieke tekens lang.Zie voor verdere specific
     mim:indicatieFormeleHistorie true ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "0..1" ;
+    mim:lengte "22" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "datumGeboorte"@nl ;
     mim:type mim:CharacterString ;
@@ -6695,6 +6688,7 @@ Identificatie is maximaal 25 alfanumerieke tekens lang.Zie voor verdere specific
     mim:indicatieFormeleHistorie true ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "0..1" ;
+    mim:lengte "22" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "datumOverlijden"@nl ;
     mim:type mim:CharacterString ;
@@ -6737,6 +6731,7 @@ Identificatie is maximaal 25 alfanumerieke tekens lang.Zie voor verdere specific
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "200" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "geboorteplaats"@nl ;
     mim:type mim:CharacterString ;
@@ -6758,6 +6753,7 @@ Identificatie is maximaal 25 alfanumerieke tekens lang.Zie voor verdere specific
     mim:indicatieFormeleHistorie true ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "1" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "geslachtsaanduiding"@nl ;
     mim:type mim:CharacterString ;
@@ -6779,6 +6775,7 @@ Identificatie is maximaal 25 alfanumerieke tekens lang.Zie voor verdere specific
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "200" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "geslachtsnaam"@nl ;
     mim:type mim:CharacterString ;
@@ -6800,6 +6797,7 @@ Identificatie is maximaal 25 alfanumerieke tekens lang.Zie voor verdere specific
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "200" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "geslachtsnaamAanschrijving"@nl ;
     mim:type mim:CharacterString ;
@@ -6821,6 +6819,7 @@ Identificatie is maximaal 25 alfanumerieke tekens lang.Zie voor verdere specific
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "50" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "handlichting"@nl ;
     mim:type mim:CharacterString ;
@@ -6908,6 +6907,7 @@ Deze indicatie is enkel van belang als de gegevens uit de BRP niet beschikbaar z
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "100" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "nationaliteit"@nl ;
     mim:type mim:CharacterString ;
@@ -6928,6 +6928,7 @@ Deze indicatie is enkel van belang als de gegevens uit de BRP niet beschikbaar z
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "200" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "overlijdensplaats"@nl ;
     mim:type mim:CharacterString ;
@@ -6949,6 +6950,7 @@ Deze indicatie is enkel van belang als de gegevens uit de BRP niet beschikbaar z
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "20" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "voorlettersAanschrijving"@nl ;
     mim:type mim:CharacterString ;
@@ -6971,6 +6973,7 @@ geslachtsnaam voorafgaat.."""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "0..1" ;
+    mim:lengte "200" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "voornamen"@nl ;
     mim:type mim:CharacterString ;
@@ -6993,6 +6996,7 @@ geslachtsnaam voorafgaat.."""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "0..1" ;
+    mim:lengte "200" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "voornamenAanschrijving"@nl ;
     mim:type mim:CharacterString ;
@@ -7014,6 +7018,7 @@ geslachtsnaam voorafgaat.."""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "0..1" ;
+    mim:lengte "80" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "voorvoegselGeslachtsnaam"@nl ;
     mim:type mim:CharacterString ;
@@ -7119,6 +7124,7 @@ geslachtsnaam voorafgaat.."""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "0..1" ;
+    mim:lengte "20" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "faxnummer"@nl ;
     mim:type mim:CharacterString ;
@@ -7178,6 +7184,7 @@ geslachtsnaam voorafgaat.."""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "0..1" ;
+    mim:lengte "8" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "KVKnummer"@nl ;
     mim:type mim:CharacterString ;
@@ -7199,6 +7206,7 @@ geslachtsnaam voorafgaat.."""@nl ;
     mim:indicatieFormeleHistorie true ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "9" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "NNPID"@nl ;
     mim:type mim:Integer ;
@@ -7240,6 +7248,7 @@ geslachtsnaam voorafgaat.."""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "8" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "RSINNummer"@nl ;
     mim:type mim:CharacterString ;
@@ -7260,6 +7269,7 @@ geslachtsnaam voorafgaat.."""@nl ;
     mim:indicatieFormeleHistorie true ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "500" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "statutaireNaam"@nl ;
     mim:type mim:CharacterString ;
@@ -7281,6 +7291,7 @@ geslachtsnaam voorafgaat.."""@nl ;
     mim:indicatieFormeleHistorie true ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "0..1" ;
+    mim:lengte "40" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "statutaireZetel"@nl ;
     mim:type mim:CharacterString ;
@@ -7302,6 +7313,7 @@ geslachtsnaam voorafgaat.."""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "0..1" ;
+    mim:lengte "200" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "websiteURL"@nl ;
     mim:type mim:CharacterString ;
@@ -7380,7 +7392,7 @@ geslachtsnaam voorafgaat.."""@nl ;
     mim:naam "geometrieWaterdeel"@nl ;
     mim:patroon "aanduiding van het type geometrie (Vlak), gevolgd door coördinatenparen binnen de in Nederland gelegen waarden van het RDstelsel." ;
     mim:toelichting "Het betreft de geometrie2d zoals gedefinieerd in het BGT bij een waterdeel."@nl ;
-    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/surface> ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/gm-surface> ;
     dcterms:identifier "EAID_93F10105_6A12_4367_8212_28E8B33AA11B" ;
     rdfs:comment "De minimaal tweedimensionale geometrische representatie van de omtrekken van een waterdeel."@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/waterdeel> ;
@@ -7454,6 +7466,7 @@ Identificatie is maximaal 25 alfanumerieke tekens lang.Zie voor verdere specific
     mim:indicatieFormeleHistorie true ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "2" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "relatieveHoogteliggingWaterdeel"@nl ;
     mim:patroon "gehele positieve en negatieve getallen, -9 t/m 9" ;
@@ -7562,6 +7575,7 @@ Identificatie is maximaal 25 alfanumerieke tekens lang.Zie voor verdere specific
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "20" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "kleur"@nl ;
     mim:type mim:CharacterString ;
@@ -7600,6 +7614,7 @@ Identificatie is maximaal 25 alfanumerieke tekens lang.Zie voor verdere specific
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "250" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "naamVaartuig"@nl ;
     mim:type mim:CharacterString ;
@@ -7619,6 +7634,7 @@ Identificatie is maximaal 25 alfanumerieke tekens lang.Zie voor verdere specific
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "80" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "registratienummer"@nl ;
     mim:type mim:CharacterString ;
@@ -7638,6 +7654,7 @@ Identificatie is maximaal 25 alfanumerieke tekens lang.Zie voor verdere specific
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "12" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "kenteken"@nl ;
     mim:type mim:CharacterString ;
@@ -7657,6 +7674,7 @@ Identificatie is maximaal 25 alfanumerieke tekens lang.Zie voor verdere specific
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "200" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "kleur"@nl ;
     mim:type mim:CharacterString ;
@@ -7676,6 +7694,7 @@ Identificatie is maximaal 25 alfanumerieke tekens lang.Zie voor verdere specific
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "200" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "land"@nl ;
     mim:type mim:CharacterString ;
@@ -7695,6 +7714,7 @@ Identificatie is maximaal 25 alfanumerieke tekens lang.Zie voor verdere specific
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "200" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "merk"@nl ;
     mim:type mim:CharacterString ;
@@ -7714,6 +7734,7 @@ Identificatie is maximaal 25 alfanumerieke tekens lang.Zie voor verdere specific
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "200" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "type"@nl ;
     mim:type mim:CharacterString ;
@@ -7840,6 +7861,36 @@ Naast het bestaande object kan tegelijkertijd ook een geplande geometriewijzigin
 overige benoemde ruimtelijke objecten of een ander inrichtingselement."""@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> .
 
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/kunstwerkdeel> a mim:Objecttype,
+        owl:Class ;
+    rdfs:label "Kunstwerkdeel"@nl ;
+    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/kunstwerkdeel/datumbegingeldigheidkunstwerkdeel>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/kunstwerkdeel/datumeindegeldigheidkunstwerkdeel>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/kunstwerkdeel/geometriekunstwerkdeel>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/kunstwerkdeel/identificatiekunstwerkdeel>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/kunstwerkdeel/lod0geometriekunstwerkdeel>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/kunstwerkdeel/lod1geometriekunstwerkdeel>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/kunstwerkdeel/lod2geometriekunstwerkdeel>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/kunstwerkdeel/lod3geometriekunstwerkdeel>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/kunstwerkdeel/relatievehoogteliggingkunstwerkdeel>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/kunstwerkdeel/statuskunstwerkdeel> ;
+    mim:datumOpname "2007-04-09"^^xsd:date ;
+    mim:definitie "Onderdeel van een civiel-technisch werk voor de infrastructuur van wegen, water, spoorbanen, waterkeringen en/of leidingen."@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/kunstwerkdeel"^^xsd:anyURI ;
+    mim:indicatieAbstractObject false ;
+    mim:naam "Kunstwerkdeel"@nl ;
+    mim:populatie """Kunstwerkdeel objecten met status plan en een einddatum maken geen deel uit van de verzameling kunstwerkdelen. 
+
+Zie verder BGT en IMGeo.
+
+Kunstwerkdeel objecten met status plan en een einddatum maken geen deel uit van de verzameling kunstwerkdelen. 
+
+Zie verder BGT en IMGeo.""" ;
+    mim:toelichting "Naast het bestaande object kan tegelijkertijd ook een geplande geometriewijziging van hetzelfde bestaande object zijn vastgelegd. De plantopografie is dan als apart object opgenomen met een eigen identificatie. Via de geometrische relatie is af te leiden dat het de plantopografie van een bestaand object betreft. Zie verder IMGeo."@nl ;
+    dcterms:identifier "EAID_2EC96974_F21E_4bdb_AF4D_30D7091F5645" ;
+    rdfs:comment "Onderdeel van een civiel-technisch werk voor de infrastructuur van wegen, water, spoorbanen, waterkeringen en/of leidingen."@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> .
+
 <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/ligplaats> a mim:Objecttype,
         owl:Class ;
     rdfs:label "Ligplaats"@nl ;
@@ -7937,47 +7988,6 @@ overige benoemde ruimtelijke objecten of een ander inrichtingselement."""@nl ;
         <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/statusgeoobject/plan> ;
     dcterms:identifier "EAID_0F81E79F_B306_40b9_ADCA_59A1E3F55D2B" ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/> ;
-    rdfs:subClassOf skos:Concept .
-
-<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/kunstwerkdeel> a mim:Objecttype,
-        owl:Class ;
-    rdfs:label "Kunstwerkdeel"@nl ;
-    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/kunstwerkdeel/datumbegingeldigheidkunstwerkdeel>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/kunstwerkdeel/datumeindegeldigheidkunstwerkdeel>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/kunstwerkdeel/geometriekunstwerkdeel>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/kunstwerkdeel/identificatiekunstwerkdeel>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/kunstwerkdeel/lod0geometriekunstwerkdeel>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/kunstwerkdeel/relatievehoogteliggingkunstwerkdeel>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/kunstwerkdeel/statuskunstwerkdeel> ;
-    mim:datumOpname "2007-04-09"^^xsd:date ;
-    mim:definitie "Onderdeel van een civiel-technisch werk voor de infrastructuur van wegen, water, spoorbanen, waterkeringen en/of leidingen."@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/kunstwerkdeel"^^xsd:anyURI ;
-    mim:indicatieAbstractObject false ;
-    mim:naam "Kunstwerkdeel"@nl ;
-    mim:populatie """Kunstwerkdeel objecten met status plan en een einddatum maken geen deel uit van de verzameling kunstwerkdelen. 
-
-Zie verder BGT en IMGeo.
-
-Kunstwerkdeel objecten met status plan en een einddatum maken geen deel uit van de verzameling kunstwerkdelen. 
-
-Zie verder BGT en IMGeo.""" ;
-    mim:toelichting "Naast het bestaande object kan tegelijkertijd ook een geplande geometriewijziging van hetzelfde bestaande object zijn vastgelegd. De plantopografie is dan als apart object opgenomen met een eigen identificatie. Via de geometrische relatie is af te leiden dat het de plantopografie van een bestaand object betreft. Zie verder IMGeo."@nl ;
-    dcterms:identifier "EAID_2EC96974_F21E_4bdb_AF4D_30D7091F5645" ;
-    rdfs:comment "Onderdeel van een civiel-technisch werk voor de infrastructuur van wegen, water, spoorbanen, waterkeringen en/of leidingen."@nl ;
-    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> .
-
-<https://lod.gemeentelijkgegevensmodel.nl/kern/bag/boolean> a mim:Enumeratie,
-        owl:Class,
-        skos:ConceptScheme ;
-    rdfs:label "Boolean"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/bag/boolean"^^xsd:anyURI ;
-    mim:naam "Boolean"@nl ;
-    mim:waarde <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/boolean/ja>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/boolean/leeg>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/boolean/nee>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/boolean/onbekend> ;
-    dcterms:identifier "EAID_E44C5FB6_67AB_4efe_B3F0_C6AFE5B6192F" ;
-    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/> ;
     rdfs:subClassOf skos:Concept .
 
 <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusopenbareruimte> a mim:Enumeratie,
@@ -8308,6 +8318,26 @@ Niet alle kadastrale objecten komen qua ligging overeen met een gebouwd object o
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/> ;
     rdfs:subClassOf skos:Concept .
 
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/object> a mim:Objecttype,
+        owl:Class ;
+    rdfs:label "Object"@nl ;
+    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/object/adresbuitenland>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/object/domein>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/object/geometrie>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/object/identificatie>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/object/indicatierisico>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/object/kadastraleaanduiding>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/object/naam>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/object/objecttype>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/object/toelichting> ;
+    mim:definitie "Het OBJECT waarop een ZAAK betrekking kan hebben zijnde één of meer voorkomens van de in het RSGB en het RGBZ onderscheiden objecttypen."@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/object"^^xsd:anyURI ;
+    mim:indicatieAbstractObject false ;
+    mim:naam "Object"@nl ;
+    dcterms:identifier "EAID_91F9D39E_0322_42c6_AE7F_5027B36F3EC3" ;
+    rdfs:comment "Het OBJECT waarop een ZAAK betrekking kan hebben zijnde één of meer voorkomens van de in het RSGB en het RGBZ onderscheiden objecttypen."@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> .
+
 <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/statusvoortgangbouw> a mim:Enumeratie,
         owl:Class,
         skos:ConceptScheme ;
@@ -8331,26 +8361,6 @@ Niet alle kadastrale objecten komen qua ligging overeen met een gebouwd object o
     dcterms:identifier "EAID_932D4E44_A37E_453e_9EE7_FD21C5D8D94D" ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/> ;
     rdfs:subClassOf skos:Concept .
-
-<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/object> a mim:Objecttype,
-        owl:Class ;
-    rdfs:label "Object"@nl ;
-    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/object/adresbuitenland>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/object/domein>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/object/geometrie>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/object/identificatie>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/object/indicatierisico>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/object/kadastraleaanduiding>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/object/naam>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/object/objecttype>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/object/toelichting> ;
-    mim:definitie "Het OBJECT waarop een ZAAK betrekking kan hebben zijnde één of meer voorkomens van de in het RSGB en het RGBZ onderscheiden objecttypen."@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/object"^^xsd:anyURI ;
-    mim:indicatieAbstractObject false ;
-    mim:naam "Object"@nl ;
-    dcterms:identifier "EAID_91F9D39E_0322_42c6_AE7F_5027B36F3EC3" ;
-    rdfs:comment "Het OBJECT waarop een ZAAK betrekking kan hebben zijnde één of meer voorkomens van de in het RSGB en het RGBZ onderscheiden objecttypen."@nl ;
-    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/soortrechtsvorm> a mim:Enumeratie,
         owl:Class,

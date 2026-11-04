@@ -101,58 +101,6 @@
     dcterms:isPartOf <https://lod.gemeentelijkgegevensmodel.nl/> ;
     owl:versionInfo "v3.0.0" .
 
-<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/boolean/ja> a mim:Enumeratiewaarde,
-        skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/boolean> ;
-    rdfs:label "Ja"@nl ;
-    mim:code "1" ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/boolean/ja"^^xsd:anyURI ;
-    mim:naam "Ja"@nl ;
-    dcterms:identifier "EAID_ED373F5C_75C8_4f9f_B72B_DC069BEFFB72" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/boolean> ;
-    skos:notation "1" ;
-    skos:prefLabel "Ja"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/boolean> .
-
-<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/boolean/leeg> a mim:Enumeratiewaarde,
-        skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/boolean> ;
-    rdfs:label "Leeg"@nl ;
-    mim:code "-2" ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/boolean/leeg"^^xsd:anyURI ;
-    mim:naam "Leeg"@nl ;
-    dcterms:identifier "EAID_15FACEFF_7709_47aa_9827_7C4B604C8D7B" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/boolean> ;
-    skos:notation "-2" ;
-    skos:prefLabel "Leeg"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/boolean> .
-
-<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/boolean/nee> a mim:Enumeratiewaarde,
-        skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/boolean> ;
-    rdfs:label "Nee"@nl ;
-    mim:code "0" ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/boolean/nee"^^xsd:anyURI ;
-    mim:naam "Nee"@nl ;
-    dcterms:identifier "EAID_7ECA54CF_CE58_4610_80BC_B502ED1347A3" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/boolean> ;
-    skos:notation "0" ;
-    skos:prefLabel "Nee"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/boolean> .
-
-<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/boolean/onbekend> a mim:Enumeratiewaarde,
-        skos:Concept,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/boolean> ;
-    rdfs:label "Onbekend"@nl ;
-    mim:code "-1" ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/boolean/onbekend"^^xsd:anyURI ;
-    mim:naam "Onbekend"@nl ;
-    dcterms:identifier "EAID_D11CFFBC_096A_4d6c_99EB_8969CD67687E" ;
-    skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/boolean> ;
-    skos:notation "-1" ;
-    skos:prefLabel "Onbekend"@nl ;
-    skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/boolean> .
-
 <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/gezinsrelatie/alleenstaand-samenwonend> a mim:Enumeratiewaarde,
         skos:Concept,
         <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/gezinsrelatie> ;
@@ -584,6 +532,7 @@ kapitaalvennootschap zijn binnen of buiten de E.E.R."""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "1" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "adresHerkomst"@nl ;
     mim:type mim:CharacterString ;
@@ -605,6 +554,7 @@ kapitaalvennootschap zijn binnen of buiten de E.E.R."""@nl ;
     mim:indicatieFormeleHistorie true ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "20" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "anummer"@nl ;
     mim:type mim:CharacterString ;
@@ -626,6 +576,7 @@ kapitaalvennootschap zijn binnen of buiten de E.E.R."""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "0..1" ;
+    mim:lengte "200" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "beschrijvingLocatie"@nl ;
     mim:type mim:CharacterString ;
@@ -647,6 +598,7 @@ kapitaalvennootschap zijn binnen of buiten de E.E.R."""@nl ;
     mim:indicatieFormeleHistorie true ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "0..1" ;
+    mim:lengte "80" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "buitenlandsReisdocument"@nl ;
     mim:type mim:CharacterString ;
@@ -668,6 +620,7 @@ kapitaalvennootschap zijn binnen of buiten de E.E.R."""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "1" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "burgerlijkeStaat"@nl ;
     mim:type mim:Integer ;
@@ -813,6 +766,7 @@ kapitaalvennootschap zijn binnen of buiten de E.E.R."""@nl ;
     mim:indicatieFormeleHistorie true ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "0..1" ;
+    mim:lengte "80" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "gemeenteVanInschrijving"@nl ;
     mim:type mim:CharacterString ;
@@ -842,7 +796,7 @@ kapitaalvennootschap zijn binnen of buiten de E.E.R."""@nl ;
     rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/gezinsrelatie> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/ingeschrevenpersoon/indicatiegeheim> a mim:Attribuutsoort,
-        owl:ObjectProperty ;
+        owl:DatatypeProperty ;
     rdfs:label "indicatieGeheim"@nl ;
     mim:definitie "Een aanduiding die aangeeft dat gegevens wel of niet verstrekt mogen worden."@nl ;
     mim:heeftTijdlijnGeldigheid false ;
@@ -855,15 +809,15 @@ kapitaalvennootschap zijn binnen of buiten de E.E.R."""@nl ;
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "indicatieGeheim"@nl ;
-    mim:type <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/boolean> ;
+    mim:type mim:Boolean ;
     dcterms:identifier "EAID_D6FC9878_9865_4090_94C4_9FA4BA55E120" ;
     rdfs:comment "Een aanduiding die aangeeft dat gegevens wel of niet verstrekt mogen worden."@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/ingeschrevenpersoon> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
-    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/boolean> .
+    rdfs:range xsd:boolean .
 
 <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/ingeschrevenpersoon/ingezetene> a mim:Attribuutsoort,
-        owl:ObjectProperty ;
+        owl:DatatypeProperty ;
     rdfs:label "ingezetene"@nl ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
@@ -875,11 +829,11 @@ kapitaalvennootschap zijn binnen of buiten de E.E.R."""@nl ;
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "ingezetene"@nl ;
-    mim:type <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/boolean> ;
+    mim:type mim:Boolean ;
     dcterms:identifier "EAID_0DBB807F_62ED_4c66_B535_0B9B9ECD7CFC" ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/ingeschrevenpersoon> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
-    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/boolean> .
+    rdfs:range xsd:boolean .
 
 <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/ingeschrevenpersoon/landwaarnaarvertrokken> a mim:Attribuutsoort,
         owl:ObjectProperty ;
@@ -934,6 +888,7 @@ kapitaalvennootschap zijn binnen of buiten de E.E.R."""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "40" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "ouder1"@nl ;
     mim:type mim:CharacterString ;
@@ -953,6 +908,7 @@ kapitaalvennootschap zijn binnen of buiten de E.E.R."""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "40" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "ouder2"@nl ;
     mim:type mim:CharacterString ;
@@ -972,6 +928,7 @@ kapitaalvennootschap zijn binnen of buiten de E.E.R."""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "40" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "partnerID"@nl ;
     mim:type mim:CharacterString ;
@@ -991,6 +948,7 @@ kapitaalvennootschap zijn binnen of buiten de E.E.R."""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "200" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "redenEindeBewoning"@nl ;
     mim:type mim:CharacterString ;
@@ -1011,6 +969,7 @@ kapitaalvennootschap zijn binnen of buiten de E.E.R."""@nl ;
     mim:indicatieFormeleHistorie true ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "0..1" ;
+    mim:lengte "200" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "redenOpschortingBijhouding"@nl ;
     mim:type mim:CharacterString ;
@@ -1021,7 +980,7 @@ kapitaalvennootschap zijn binnen of buiten de E.E.R."""@nl ;
     rdfs:range xsd:string .
 
 <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/ingeschrevenpersoon/signaleringreisdocument> a mim:Attribuutsoort,
-        owl:ObjectProperty ;
+        owl:DatatypeProperty ;
     rdfs:label "signaleringReisdocument"@nl ;
     mim:definitie "Een aanduiding dat aan de ingeschrevene geen reisdocument mag worden verstrekt."@nl ;
     mim:heeftTijdlijnGeldigheid false ;
@@ -1034,12 +993,12 @@ kapitaalvennootschap zijn binnen of buiten de E.E.R."""@nl ;
     mim:kardinaliteit "0..1" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "signaleringReisdocument"@nl ;
-    mim:type <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/boolean> ;
+    mim:type mim:Boolean ;
     dcterms:identifier "EAID_A8141D41_5EA9_4e14_BC51_77DBC8738968" ;
     rdfs:comment "Een aanduiding dat aan de ingeschrevene geen reisdocument mag worden verstrekt."@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/ingeschrevenpersoon> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
-    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/boolean> .
+    rdfs:range xsd:boolean .
 
 <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/ingeschrevenpersoon/verblijfstitel> a mim:Attribuutsoort,
         owl:ObjectProperty ;
@@ -1156,6 +1115,7 @@ kapitaalvennootschap zijn binnen of buiten de E.E.R."""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "0..1" ;
+    mim:lengte "20" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "faxnummer"@nl ;
     mim:type mim:CharacterString ;
@@ -1215,6 +1175,7 @@ kapitaalvennootschap zijn binnen of buiten de E.E.R."""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "0..1" ;
+    mim:lengte "8" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "KVKnummer"@nl ;
     mim:type mim:CharacterString ;
@@ -1236,6 +1197,7 @@ kapitaalvennootschap zijn binnen of buiten de E.E.R."""@nl ;
     mim:indicatieFormeleHistorie true ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "9" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "NNPID"@nl ;
     mim:type mim:Integer ;
@@ -1277,6 +1239,7 @@ kapitaalvennootschap zijn binnen of buiten de E.E.R."""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "8" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "RSINNummer"@nl ;
     mim:type mim:CharacterString ;
@@ -1297,6 +1260,7 @@ kapitaalvennootschap zijn binnen of buiten de E.E.R."""@nl ;
     mim:indicatieFormeleHistorie true ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "500" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "statutaireNaam"@nl ;
     mim:type mim:CharacterString ;
@@ -1318,6 +1282,7 @@ kapitaalvennootschap zijn binnen of buiten de E.E.R."""@nl ;
     mim:indicatieFormeleHistorie true ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "0..1" ;
+    mim:lengte "40" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "statutaireZetel"@nl ;
     mim:type mim:CharacterString ;
@@ -1339,6 +1304,7 @@ kapitaalvennootschap zijn binnen of buiten de E.E.R."""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "0..1" ;
+    mim:lengte "200" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "websiteURL"@nl ;
     mim:type mim:CharacterString ;
@@ -1359,6 +1325,7 @@ kapitaalvennootschap zijn binnen of buiten de E.E.R."""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "200" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "naam"@nl ;
     mim:type mim:CharacterString ;
@@ -1447,6 +1414,7 @@ kapitaalvennootschap zijn binnen of buiten de E.E.R."""@nl ;
         owl:DatatypeProperty ;
     rdfs:label "totaalSchuldbedragBijAanvangSchuld"@nl ;
     mim:definitie "Bedrag in hele euro's nauwkeurig voor elke schuld die meegaat in de schuldregeling. Per schuldeiser kunnen er meerdere openstaande schulden zijn. Deze afzonderlijk meenemen."@nl ;
+    mim:eenheid [ ] ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/schuldhulpverlening/schuldhulptraject/totaalschuldbedragbijaanvangschuld"^^xsd:anyURI ;
@@ -1455,6 +1423,7 @@ kapitaalvennootschap zijn binnen of buiten de E.E.R."""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "10,2" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "totaalSchuldbedragBijAanvangSchuld"@nl ;
     mim:type mim:Decimal ;
@@ -1475,6 +1444,7 @@ kapitaalvennootschap zijn binnen of buiten de E.E.R."""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "80" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "code"@nl ;
     mim:type mim:CharacterString ;
@@ -1513,6 +1483,7 @@ kapitaalvennootschap zijn binnen of buiten de E.E.R."""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "80" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "juridischeStatus"@nl ;
     mim:type mim:CharacterString ;
@@ -1532,6 +1503,7 @@ kapitaalvennootschap zijn binnen of buiten de E.E.R."""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "80" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "wettelijkeVertegenwoordiging"@nl ;
     mim:type mim:CharacterString ;
@@ -1611,20 +1583,6 @@ Het betreft een gemeenten of een SHV-organisatie die de gemeentelijke schuldhulp
     dcterms:identifier "EAID_3D5CCB29_91E4_458e_8BCD_6741198E45B8" ;
     rdfs:comment "Een INGESCHREVEN NIET-NATUURLIJK PERSOON of een ANDER BUITENLANDS NIET-NATUURLIJK PERSOON"@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> .
-
-<https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/boolean> a mim:Enumeratie,
-        owl:Class,
-        skos:ConceptScheme ;
-    rdfs:label "Boolean"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/boolean"^^xsd:anyURI ;
-    mim:naam "Boolean"@nl ;
-    mim:waarde <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/boolean/ja>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/boolean/leeg>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/boolean/nee>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/boolean/onbekend> ;
-    dcterms:identifier "EAID_9BD0FBCB_1A9E_4cab_9280_0EBC428E38F7" ;
-    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/> ;
-    rdfs:subClassOf skos:Concept .
 
 <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/gezinsrelatie> a mim:Enumeratie,
         owl:Class,

@@ -72,6 +72,28 @@
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/> ;
     rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/inkooporder> .
 
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/factuur/heeft> a mim:Relatiesoort,
+        owl:ObjectProperty ;
+    rdfs:label "heeft"@nl ;
+    mim:aggregatietype mim:Geen ;
+    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/factuur> ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/factuurregel> ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/factuur/heeft"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..*" ;
+    mim:kardinaliteitRelatieBron "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "heeft"@nl ;
+    mim:unidirectioneel true ;
+    dcterms:identifier "EAID_8FF67C2D_BF63_4860_9E51_C4BF24F61872" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/factuur> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/factuurregel> .
+
 <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/factuur/schrijft-op> a mim:Relatiesoort,
         owl:ObjectProperty ;
     rdfs:label "schrijft op"@nl ;
@@ -93,6 +115,29 @@
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/factuur> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/> ;
     rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/kostenplaats> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/factuurregel/betreft> a mim:Relatiesoort,
+        owl:ObjectProperty ;
+    rdfs:label "betreft"@nl ;
+    mim:aggregatietype mim:Geen ;
+    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/factuurregel> ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/inkooporderregel> ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/factuurregel/betreft"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "0..1" ;
+    mim:kardinaliteitRelatieBron "0..*" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "betreft"@nl ;
+    mim:unidirectioneel true ;
+    dcterms:identifier "EAID_0437B360_59CB_476B_82DF_CD077CFFD3C3" ;
+    rdfs:comment ""@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/factuurregel> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/inkooporderregel> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/hoofdrekening/heeft-activa> a mim:Relatiesoort,
         owl:ObjectProperty ;
@@ -204,6 +249,29 @@
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/> ;
     rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/inkooporder> .
 
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/inkooporder/heeft-inkooporderregel> a mim:Relatiesoort,
+        owl:ObjectProperty ;
+    rdfs:label "heeft"@nl ;
+    mim:aggregatietype mim:Geen ;
+    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/inkooporder> ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/inkooporderregel> ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/inkooporder/heeft-inkooporderregel"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..*" ;
+    mim:kardinaliteitRelatieBron "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "heeft"@nl ;
+    mim:unidirectioneel true ;
+    dcterms:identifier "EAID_ED8A1456_CD81_4BE2_8EDE_28643A0C91B3" ;
+    rdfs:comment ""@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/inkooporder> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/inkooporderregel> .
+
 <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/inkooporder/oorspronkelijk> a mim:Relatiesoort,
         owl:ObjectProperty ;
     rdfs:label "oorspronkelijk"@nl ;
@@ -267,6 +335,52 @@
     mim:unidirectioneel true ;
     dcterms:identifier "EAID_BB1A104B_5484_454b_AE35_AA96D5BBAE72" ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/inkooporder> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/hoofdrekening> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/inkooporderregel/heeft> a mim:Relatiesoort,
+        owl:ObjectProperty ;
+    rdfs:label "heeft"@nl ;
+    mim:aggregatietype mim:Geen ;
+    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/inkooporderregel> ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/kostenplaats> ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/inkooporderregel/heeft"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "0..1" ;
+    mim:kardinaliteitRelatieBron "0..*" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "heeft"@nl ;
+    mim:unidirectioneel true ;
+    dcterms:identifier "EAID_023608F2_E8D5_4720_9299_52609252C34F" ;
+    rdfs:comment ""@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/inkooporderregel> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/kostenplaats> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/inkooporderregel/wordt-geschreven-op> a mim:Relatiesoort,
+        owl:ObjectProperty ;
+    rdfs:label "wordt geschreven op"@nl ;
+    mim:aggregatietype mim:Geen ;
+    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/inkooporderregel> ;
+    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/hoofdrekening> ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/inkooporderregel/wordt-geschreven-op"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "0..1" ;
+    mim:kardinaliteitRelatieBron "0..*" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "wordt geschreven op"@nl ;
+    mim:unidirectioneel true ;
+    dcterms:identifier "EAID_689B5777_7CD0_4274_889E_43FABB183EBE" ;
+    rdfs:comment ""@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/inkooporderregel> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/> ;
     rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/hoofdrekening> .
 
@@ -353,6 +467,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "80" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "naam"@nl ;
     mim:type mim:CharacterString ;
@@ -372,6 +487,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "200" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "omschrijving"@nl ;
     mim:type mim:CharacterString ;
@@ -391,6 +507,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "80" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "naam"@nl ;
     mim:type mim:CharacterString ;
@@ -410,6 +527,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "200" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "omschrijving"@nl ;
     mim:type mim:CharacterString ;
@@ -448,6 +566,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "3" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "betaaltermijn"@nl ;
     mim:type mim:Integer ;
@@ -467,6 +586,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "40" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "code"@nl ;
     mim:type mim:CharacterString ;
@@ -497,6 +617,7 @@
 <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/factuur/factuurbedragbtw> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "factuurbedragBTW"@nl ;
+    mim:eenheid [ ] ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/factuur/factuurbedragbtw"^^xsd:anyURI ;
@@ -505,6 +626,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "10,2" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "factuurbedragBTW"@nl ;
     mim:type mim:Decimal ;
@@ -516,6 +638,7 @@
 <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/factuur/factuurbedragexclusiefbtw> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "factuurbedragExclusiefBTW"@nl ;
+    mim:eenheid [ ] ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/factuur/factuurbedragexclusiefbtw"^^xsd:anyURI ;
@@ -524,6 +647,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "10,2" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "factuurbedragExclusiefBTW"@nl ;
     mim:type mim:Decimal ;
@@ -543,11 +667,134 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "200" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "omschrijving"@nl ;
     mim:type mim:CharacterString ;
     dcterms:identifier "EAID_62FBF9C8_0818_42f2_B8CA_A837AC0A297A" ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/factuur> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/factuurregel/aantal> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "aantal"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/factuurregel/aantal"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:lengte "6" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "aantal"@nl ;
+    mim:type mim:Integer ;
+    dcterms:identifier "EAID_9041298D_0FFE_4a7e_918A_D93DD8080DD1" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/factuurregel> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/> ;
+    rdfs:range xsd:integer .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/factuurregel/bedragbtw> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "bedragBTW"@nl ;
+    mim:eenheid [ ] ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/factuurregel/bedragbtw"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:lengte "10,2" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "bedragBTW"@nl ;
+    mim:type mim:Decimal ;
+    dcterms:identifier "EAID_985525AC_0BD8_4a9f_A433_6D27F7C11B12" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/factuurregel> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/> ;
+    rdfs:range xsd:decimal .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/factuurregel/bedragexbtw> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "bedragExBTW"@nl ;
+    mim:eenheid [ ] ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/factuurregel/bedragexbtw"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:lengte "10,2" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "bedragExBTW"@nl ;
+    mim:type mim:Decimal ;
+    dcterms:identifier "EAID_F3BA9C6D_E7F2_4f0c_9DBD_42A2BCF701CD" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/factuurregel> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/> ;
+    rdfs:range xsd:decimal .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/factuurregel/btwpercentage> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "BTWPercentage"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/factuurregel/btwpercentage"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:lengte "2" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "BTWPercentage"@nl ;
+    mim:type mim:Integer ;
+    dcterms:identifier "EAID_FFB28054_B2B3_4c7b_A09A_3F737B0B43FE" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/factuurregel> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/> ;
+    rdfs:range xsd:integer .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/factuurregel/nummer> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "nummer"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/factuurregel/nummer"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:lengte "4" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "nummer"@nl ;
+    mim:type mim:Integer ;
+    dcterms:identifier "EAID_ED4A13C2_B5D1_4519_9BF3_41761A92B846" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/factuurregel> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/> ;
+    rdfs:range xsd:integer .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/factuurregel/omschrijving> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "omschrijving"@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/factuurregel/omschrijving"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:lengte "80" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "omschrijving"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_86C8AFD8_DAC9_46ef_A06A_BDB587761718" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/factuurregel> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/> ;
     rdfs:range xsd:string .
 
@@ -562,6 +809,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "80" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "naam"@nl ;
     mim:type mim:CharacterString ;
@@ -581,6 +829,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "8" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "nummer"@nl ;
     mim:type mim:CharacterString ;
@@ -600,6 +849,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "200" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "omschrijving"@nl ;
     mim:type mim:CharacterString ;
@@ -619,6 +869,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "80" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "PIAHoofcategorieOmschrijving"@nl ;
     mim:type mim:CharacterString ;
@@ -638,6 +889,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "20" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "PIAHoofdcategorieCode"@nl ;
     mim:type mim:CharacterString ;
@@ -657,6 +909,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "20" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "subcode"@nl ;
     mim:type mim:CharacterString ;
@@ -676,6 +929,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "80" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "subcodeOmschrijving"@nl ;
     mim:type mim:CharacterString ;
@@ -695,6 +949,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "80" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "artikelcode"@nl ;
     mim:type mim:CharacterString ;
@@ -733,6 +988,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "40" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "betreft"@nl ;
     mim:type mim:CharacterString ;
@@ -809,6 +1065,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "80" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "goederencode"@nl ;
     mim:type mim:CharacterString ;
@@ -828,6 +1085,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "140" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "omschrijving"@nl ;
     mim:type mim:CharacterString ;
@@ -847,6 +1105,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "8" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "ordernummer"@nl ;
     mim:type mim:CharacterString ;
@@ -858,6 +1117,7 @@
 <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/inkooporder/saldo> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "saldo"@nl ;
+    mim:eenheid [ ] ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/inkooporder/saldo"^^xsd:anyURI ;
@@ -866,6 +1126,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "10,2" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "saldo"@nl ;
     mim:type mim:Decimal ;
@@ -877,6 +1138,7 @@
 <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/inkooporder/totaalnettobedrag> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "totaalNettoBedrag"@nl ;
+    mim:eenheid [ ] ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/inkooporder/totaalnettobedrag"^^xsd:anyURI ;
@@ -885,6 +1147,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "10,2" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "totaalNettoBedrag"@nl ;
     mim:type mim:Decimal ;
@@ -904,11 +1167,275 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "40" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "wijzeVanAanbesteden"@nl ;
     mim:type mim:CharacterString ;
     dcterms:identifier "EAID_8A51856E_F9ED_40d6_A897_999D146AD3AC" ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/inkooporder> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/inkooporderregel/aantal> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "aantal"@nl ;
+    mim:datumOpname "2026-11-04"^^xsd:date ;
+    mim:definitie "Bestelde hoeveelheid."@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:herkomst "Proposal Inkooporderregels (gemeente Rotterdam en expertgroep GGM, 2026)" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/inkooporderregel/aantal"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "aantal"@nl ;
+    mim:type mim:Decimal ;
+    dcterms:identifier "EAID_01AC324E_1B0A_4CD3_849B_D360801CDA59" ;
+    rdfs:comment "Bestelde hoeveelheid."@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/inkooporderregel> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/> ;
+    rdfs:range xsd:decimal .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/inkooporderregel/artikelcode> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "artikelcode"@nl ;
+    mim:datumOpname "2026-11-04"^^xsd:date ;
+    mim:definitie "Code van het bestelde artikel of de dienst."@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:herkomst "Proposal Inkooporderregels (gemeente Rotterdam en expertgroep GGM, 2026)" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/inkooporderregel/artikelcode"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:lengte "80" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "artikelcode"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_95FC3091_3089_4806_9923_A77E33EE6724" ;
+    rdfs:comment "Code van het bestelde artikel of de dienst."@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/inkooporderregel> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/inkooporderregel/bedragbtw> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "bedragBTW"@nl ;
+    mim:datumOpname "2026-11-04"^^xsd:date ;
+    mim:definitie "Btw-bedrag van de regel."@nl ;
+    mim:eenheid [ ] ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:herkomst "Proposal Inkooporderregels (gemeente Rotterdam en expertgroep GGM, 2026)" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/inkooporderregel/bedragbtw"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:lengte "10,2" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "bedragBTW"@nl ;
+    mim:type mim:Decimal ;
+    dcterms:identifier "EAID_FA68B275_D24E_46CF_B86C_658A1FC113A8" ;
+    rdfs:comment "Btw-bedrag van de regel."@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/inkooporderregel> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/> ;
+    rdfs:range xsd:decimal .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/inkooporderregel/bedragexbtw> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "bedragExBTW"@nl ;
+    mim:datumOpname "2026-11-04"^^xsd:date ;
+    mim:definitie "Bedrag van de regel exclusief btw."@nl ;
+    mim:eenheid [ ] ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:herkomst "Proposal Inkooporderregels (gemeente Rotterdam en expertgroep GGM, 2026)" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/inkooporderregel/bedragexbtw"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:lengte "10,2" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "bedragExBTW"@nl ;
+    mim:type mim:Decimal ;
+    dcterms:identifier "EAID_002FA49E_02BF_4D0A_82FB_6F19EECC889D" ;
+    rdfs:comment "Bedrag van de regel exclusief btw."@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/inkooporderregel> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/> ;
+    rdfs:range xsd:decimal .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/inkooporderregel/btwpercentage> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "BTWPercentage"@nl ;
+    mim:datumOpname "2026-11-04"^^xsd:date ;
+    mim:definitie "Btw-percentage dat op de regel van toepassing is."@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:herkomst "Proposal Inkooporderregels (gemeente Rotterdam en expertgroep GGM, 2026)" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/inkooporderregel/btwpercentage"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "BTWPercentage"@nl ;
+    mim:type mim:Decimal ;
+    dcterms:identifier "EAID_CCB4C7D6_6ABF_4634_BF8C_CBAE6D353D28" ;
+    rdfs:comment "Btw-percentage dat op de regel van toepassing is."@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/inkooporderregel> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/> ;
+    rdfs:range xsd:decimal .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/inkooporderregel/datumlevering> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "datumLevering"@nl ;
+    mim:datumOpname "2026-11-04"^^xsd:date ;
+    mim:definitie "Afgesproken of verwachte leverdatum van de regel."@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:herkomst "Proposal Inkooporderregels (gemeente Rotterdam en expertgroep GGM, 2026)" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/inkooporderregel/datumlevering"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "datumLevering"@nl ;
+    mim:type mim:Date ;
+    dcterms:identifier "EAID_843640FE_091D_4176_AD61_3129B1D90F92" ;
+    rdfs:comment "Afgesproken of verwachte leverdatum van de regel."@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/inkooporderregel> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/> ;
+    rdfs:range xsd:date .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/inkooporderregel/eenheid> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "eenheid"@nl ;
+    mim:datumOpname "2026-11-04"^^xsd:date ;
+    mim:definitie "Eenheid van de hoeveelheid, zoals stuks, uur of m2."@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:herkomst "Proposal Inkooporderregels (gemeente Rotterdam en expertgroep GGM, 2026)" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/inkooporderregel/eenheid"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:lengte "20" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "eenheid"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_21251C3C_3CD5_47C2_BE83_5DF70C385FC2" ;
+    rdfs:comment "Eenheid van de hoeveelheid, zoals stuks, uur of m2."@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/inkooporderregel> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/inkooporderregel/omschrijving> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "omschrijving"@nl ;
+    mim:datumOpname "2026-11-04"^^xsd:date ;
+    mim:definitie "Omschrijving van het bestelde artikel of de dienst."@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:herkomst "Proposal Inkooporderregels (gemeente Rotterdam en expertgroep GGM, 2026)" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/inkooporderregel/omschrijving"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:lengte "200" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "omschrijving"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_59E61959_6014_4B37_A5EA_53AFEE4B7213" ;
+    rdfs:comment "Omschrijving van het bestelde artikel of de dienst."@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/inkooporderregel> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/> ;
+    rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/inkooporderregel/prijspereenheid> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "prijsPerEenheid"@nl ;
+    mim:datumOpname "2026-11-04"^^xsd:date ;
+    mim:definitie "Prijs per eenheid exclusief btw."@nl ;
+    mim:eenheid [ ] ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:herkomst "Proposal Inkooporderregels (gemeente Rotterdam en expertgroep GGM, 2026)" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/inkooporderregel/prijspereenheid"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:lengte "10,2" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "prijsPerEenheid"@nl ;
+    mim:type mim:Decimal ;
+    dcterms:identifier "EAID_03438A7D_F11B_45E7_92D9_745E54F43932" ;
+    rdfs:comment "Prijs per eenheid exclusief btw."@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/inkooporderregel> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/> ;
+    rdfs:range xsd:decimal .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/inkooporderregel/regelnummer> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "regelnummer"@nl ;
+    mim:datumOpname "2026-11-04"^^xsd:date ;
+    mim:definitie "Volgnummer van de regel binnen de inkooporder."@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:herkomst "Proposal Inkooporderregels (gemeente Rotterdam en expertgroep GGM, 2026)" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/inkooporderregel/regelnummer"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "regelnummer"@nl ;
+    mim:type mim:Integer ;
+    dcterms:identifier "EAID_8D6BE95A_6824_4F06_A4A6_F1BCDF73EA3C" ;
+    rdfs:comment "Volgnummer van de regel binnen de inkooporder."@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/inkooporderregel> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/> ;
+    rdfs:range xsd:integer .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/inkooporderregel/status> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "status"@nl ;
+    mim:datumOpname "2026-11-04"^^xsd:date ;
+    mim:definitie "Status van de regel, zoals besteld, geleverd of gefactureerd."@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:herkomst "Proposal Inkooporderregels (gemeente Rotterdam en expertgroep GGM, 2026)" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/inkooporderregel/status"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:lengte "80" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "status"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_5CFD914B_7D8E_46A3_90C3_600FDED57BA9" ;
+    rdfs:comment "Status van de regel, zoals besteld, geleverd of gefactureerd."@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/inkooporderregel> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/> ;
     rdfs:range xsd:string .
 
@@ -923,6 +1450,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "40" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "BTWCode"@nl ;
     mim:type mim:CharacterString ;
@@ -942,6 +1470,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "80" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "BTWOmschrijving"@nl ;
     mim:type mim:CharacterString ;
@@ -949,6 +1478,29 @@
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/kostenplaats> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/> ;
     rdfs:range xsd:string .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/kostenplaats/indicatiehulpkostenplaats> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "indicatieHulpkostenplaats"@nl ;
+    mim:datumOpname "2026-11-04"^^xsd:date ;
+    mim:definitie "Indicatie of de kostenplaats een hulpkostenplaats is waarvan de kosten via een verdeelregel over andere kostenplaatsen worden verdeeld."@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:herkomst "Memo Domein Financiën in POHV en GGM (Invest-NL, Programma Onderwijshuisvesting, 2025)" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/kostenplaats/indicatiehulpkostenplaats"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "indicatieHulpkostenplaats"@nl ;
+    mim:type mim:Boolean ;
+    dcterms:identifier "EAID_2C1CC5B9_6F6E_44C8_ADD2_636AC21564E1" ;
+    rdfs:comment "Indicatie of de kostenplaats een hulpkostenplaats is waarvan de kosten via een verdeelregel over andere kostenplaatsen worden verdeeld."@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/kostenplaats> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/> ;
+    rdfs:range xsd:boolean .
 
 <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/kostenplaats/kostenplaatssoortcode> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
@@ -961,6 +1513,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "20" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "kostenplaatssoortCode"@nl ;
     mim:type mim:CharacterString ;
@@ -980,6 +1533,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "80" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "kostenplaatssoortOmschrijving"@nl ;
     mim:type mim:CharacterString ;
@@ -999,6 +1553,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "20" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "kostenplaatstypeCode"@nl ;
     mim:type mim:CharacterString ;
@@ -1018,6 +1573,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "80" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "kostenplaatstypeOmschrijving"@nl ;
     mim:type mim:CharacterString ;
@@ -1037,6 +1593,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "80" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "naam"@nl ;
     mim:type mim:CharacterString ;
@@ -1056,6 +1613,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "200" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "omschrijving"@nl ;
     mim:type mim:CharacterString ;
@@ -1075,6 +1633,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "200" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "autorisatiegroep"@nl ;
     mim:type mim:CharacterString ;
@@ -1113,6 +1672,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "80" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "categorie"@nl ;
     mim:type mim:CharacterString ;
@@ -1132,6 +1692,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "80" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "classificatie"@nl ;
     mim:type mim:CharacterString ;
@@ -1227,6 +1788,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "80" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "groep"@nl ;
     mim:type mim:CharacterString ;
@@ -1246,6 +1808,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "40" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "internContractID"@nl ;
     mim:type mim:CharacterString ;
@@ -1303,6 +1866,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "80" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "status"@nl ;
     mim:type mim:CharacterString ;
@@ -1322,6 +1886,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "80" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "type"@nl ;
     mim:type mim:CharacterString ;
@@ -1341,6 +1906,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "80" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "voorwaarde"@nl ;
     mim:type mim:CharacterString ;
@@ -1360,6 +1926,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "300" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "zoekwoorden"@nl ;
     mim:type mim:CharacterString ;
@@ -1379,6 +1946,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "200" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "naam"@nl ;
     mim:type mim:CharacterString ;
@@ -1398,6 +1966,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "40" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "nummer"@nl ;
     mim:type mim:CharacterString ;
@@ -1418,6 +1987,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "0..1" ;
+    mim:lengte "1000" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "cocumentBeschrijving"@nl ;
     mim:type mim:CharacterString ;
@@ -1502,6 +2072,7 @@
     mim:indicatieFormeleHistorie true ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "200" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "documentAuteur"@nl ;
     mim:type mim:CharacterString ;
@@ -1524,6 +2095,7 @@ Bijvoorbeeld potsregistratienummer"""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "40" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "documentIdentificatie"@nl ;
     mim:type mim:CharacterString ;
@@ -1546,6 +2118,7 @@ Bijvoorbeeld potsregistratienummer"""@nl ;
     mim:indicatieFormeleHistorie true ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "200" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "documentTitel"@nl ;
     mim:type mim:CharacterString ;
@@ -1567,6 +2140,7 @@ Bijvoorbeeld potsregistratienummer"""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "20" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "vertrouwelijkAanduiding"@nl ;
     mim:type mim:CharacterString ;
@@ -1634,6 +2208,23 @@ Bijvoorbeeld potsregistratienummer"""@nl ;
     rdfs:comment "Geheel van gegevens met een eigen identiteit ongeacht zijn vorm, met de bijbehorende metadata ontvangen of opgemaakt door een natuurlijke en/of rechtspersoon bij de uitvoering van taken, zijnde een ENKELVOUDIG DOCUMENT of een SAMENGESTELD DOCUMENT."@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> .
 
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/factuurregel> a mim:Objecttype,
+        owl:Class ;
+    rdfs:label "Factuurregel"@nl ;
+    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/factuurregel/aantal>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/factuurregel/bedragbtw>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/factuurregel/bedragexbtw>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/factuurregel/btwpercentage>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/factuurregel/nummer>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/factuurregel/omschrijving> ;
+    mim:definitie "Een item op de factuur"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/factuurregel"^^xsd:anyURI ;
+    mim:indicatieAbstractObject false ;
+    mim:naam "Factuurregel"@nl ;
+    dcterms:identifier "EAID_65E960EA_CC92_4af1_AF2B_B4625FA6AEA0" ;
+    rdfs:comment "Een item op de factuur"@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/> .
+
 <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/factuur> a mim:Objecttype,
         owl:Class ;
     rdfs:label "Factuur"@nl ;
@@ -1657,6 +2248,7 @@ Bijvoorbeeld potsregistratienummer"""@nl ;
     rdfs:label "Kostenplaats"@nl ;
     mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/kostenplaats/btwcode>,
         <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/kostenplaats/btwomschrijving>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/kostenplaats/indicatiehulpkostenplaats>,
         <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/kostenplaats/kostenplaatssoortcode>,
         <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/kostenplaats/kostenplaatssoortomschrijving>,
         <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/kostenplaats/kostenplaatstypecode>,
@@ -1687,6 +2279,30 @@ Bijvoorbeeld potsregistratienummer"""@nl ;
     mim:naam "Hoofdrekening"@nl ;
     dcterms:identifier "EAID_0EEAF579_3F47_4551_B9F9_7367280EB3EB" ;
     rdfs:comment "is kostensoort"@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/inkooporderregel> a mim:Objecttype,
+        owl:Class ;
+    rdfs:label "Inkooporderregel"@nl ;
+    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/inkooporderregel/aantal>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/inkooporderregel/artikelcode>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/inkooporderregel/bedragbtw>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/inkooporderregel/bedragexbtw>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/inkooporderregel/btwpercentage>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/inkooporderregel/datumlevering>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/inkooporderregel/eenheid>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/inkooporderregel/omschrijving>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/inkooporderregel/prijspereenheid>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/inkooporderregel/regelnummer>,
+        <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/inkooporderregel/status> ;
+    mim:datumOpname "2026-11-04"^^xsd:date ;
+    mim:definitie "Regel van een inkooporder voor één artikel of dienst, met het bestelde aantal, de prijs en de btw. Een inkooporder bestaat uit een of meer inkooporderregels; de kop bevat de algemene ordergegevens."@nl ;
+    mim:herkomst "Proposal Inkooporderregels (gemeente Rotterdam en expertgroep GGM, 2026)" ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/inkooporderregel"^^xsd:anyURI ;
+    mim:indicatieAbstractObject false ;
+    mim:naam "Inkooporderregel"@nl ;
+    dcterms:identifier "EAID_2358E037_2048_4E71_B870_19E061F3519F" ;
+    rdfs:comment "Regel van een inkooporder voor één artikel of dienst, met het bestelde aantal, de prijs en de btw. Een inkooporder bestaat uit een of meer inkooporderregels; de kop bevat de algemene ordergegevens."@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/financien/> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/inkoop/contract> a mim:Objecttype,

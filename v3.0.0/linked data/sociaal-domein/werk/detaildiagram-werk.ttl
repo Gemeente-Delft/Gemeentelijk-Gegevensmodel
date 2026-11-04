@@ -1146,6 +1146,7 @@
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/arbeidsperiode/contact-telefoon> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "Contact telefoon"@nl ;
+    mim:formeelPatroon "^[0-9]{10}$" ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/arbeidsperiode/contact-telefoon"^^xsd:anyURI ;
@@ -1154,6 +1155,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "10" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "Contact telefoon"@nl ;
     mim:type mim:CharacterString ;
@@ -2815,11 +2817,11 @@
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "PercentageLoonwaardeWML"@nl ;
-    mim:type mim:Real ;
+    mim:type mim:Decimal ;
     dcterms:identifier "EAID_919E7CB6_9488_4f7b_B4B9_6115E836BF9D" ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/loonkostensubsidie> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/> ;
-    rdfs:range xsd:double .
+    rdfs:range xsd:decimal .
 
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/werk/mobiliteit/codevervoermiddel> a mim:Attribuutsoort,
         owl:ObjectProperty ;
@@ -3892,6 +3894,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "12" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "CodeSoortRijbewijs"@nl ;
     mim:type mim:CharacterString ;
@@ -5688,6 +5691,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "200" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "KenmerkBeoordelaar"@nl ;
     mim:type mim:CharacterString ;

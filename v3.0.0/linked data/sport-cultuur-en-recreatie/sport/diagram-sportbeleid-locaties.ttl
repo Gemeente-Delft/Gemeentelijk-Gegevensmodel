@@ -8,27 +8,6 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/sport/binnenlocatie/adres> a mim:Relatiesoort,
-        owl:ObjectProperty ;
-    rdfs:label "adres"@nl ;
-    mim:aggregatietype mim:Geen ;
-    mim:bron <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/sport/binnenlocatie> ;
-    mim:doel <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/adresaanduiding> ;
-    mim:heeftTijdlijnGeldigheid false ;
-    mim:heeftTijdlijnRegistratie false ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/sport/binnenlocatie/adres"^^xsd:anyURI ;
-    mim:indicatieAfleidbaar false ;
-    mim:indicatieFormeleHistorie false ;
-    mim:indicatieMaterieleHistorie false ;
-    mim:kardinaliteit "1..1" ;
-    mim:mogelijkGeenWaarde true ;
-    mim:naam "adres"@nl ;
-    mim:unidirectioneel true ;
-    dcterms:identifier "EAID_4CCF52E7_69EE_436b_BE2B_A9248BA85758" ;
-    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/sport/binnenlocatie> ;
-    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/sport/> ;
-    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/vastgoed/adresaanduiding> .
-
 <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/sport/binnenlocatie/bedient-wijk> a mim:Relatiesoort,
         owl:ObjectProperty ;
     rdfs:label "bedient"@nl ;
@@ -656,6 +635,7 @@ bestaat"""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "2" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "aantalKamers"@nl ;
     mim:type mim:Integer ;
@@ -847,7 +827,7 @@ bestaat"""@nl ;
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "geometrie"@nl ;
-    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/point> ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/gm-point> ;
     dcterms:identifier "EAID_EA34202C_6D0B_4b14_8E0A_A07B2CD46E0C" ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/verblijfsobject> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/> ;
@@ -865,6 +845,7 @@ bestaat"""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "3" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "hoogsteBouwlaag"@nl ;
     mim:type mim:Integer ;
@@ -907,6 +888,7 @@ bestaat"""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "3" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "laagsteBouwlaag"@nl ;
     mim:type mim:Integer ;
@@ -1013,6 +995,7 @@ bestaat"""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "3" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "toegangBouwlaag"@nl ;
     mim:patroon "-99 tot +999" ;
@@ -1185,7 +1168,7 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
     mim:naam "geometrie"@nl ;
     mim:patroon "alle binnen Nederland gelegen waarden van het RD-stelsel." ;
     mim:toelichting "De wijkgrenzen zijn zoveel mogelijk gebaseerd op sociaalgeografische kenmerken."@nl ;
-    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/multisurface> ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/gm-multisurface> ;
     dcterms:identifier "EAID_DB2ED099_6545_4d8a_853B_AC0632D69129" ;
     rdfs:comment "De tweedimensionale geometrische representatie van de omtrekken van de wijk."@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/wijk> ;
@@ -1264,6 +1247,7 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "2" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "wijkcode"@nl ;
     mim:patroon "Wijkcode conform CBS-tabel, numeriek getal met voorloopnullen" ;
@@ -1290,6 +1274,7 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "40" ;
     mim:mogelijkGeenWaarde false ;
     mim:naam "wijknaam"@nl ;
     mim:patroon "alle alfanumerieke tekens zonder …" ;
@@ -1312,6 +1297,7 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "0..1" ;
+    mim:lengte "1000" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "cocumentBeschrijving"@nl ;
     mim:type mim:CharacterString ;
@@ -1396,6 +1382,7 @@ Tot deze datum zijn gegevens in de BAG geldig. Iedere keer als een gegeven van e
     mim:indicatieFormeleHistorie true ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "200" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "documentAuteur"@nl ;
     mim:type mim:CharacterString ;
@@ -1418,6 +1405,7 @@ Bijvoorbeeld potsregistratienummer"""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "40" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "documentIdentificatie"@nl ;
     mim:type mim:CharacterString ;
@@ -1440,6 +1428,7 @@ Bijvoorbeeld potsregistratienummer"""@nl ;
     mim:indicatieFormeleHistorie true ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "200" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "documentTitel"@nl ;
     mim:type mim:CharacterString ;
@@ -1461,6 +1450,7 @@ Bijvoorbeeld potsregistratienummer"""@nl ;
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "20" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "vertrouwelijkAanduiding"@nl ;
     mim:type mim:CharacterString ;
@@ -1691,6 +1681,18 @@ De objecttypecode kent in de BAG de volgende waarde:
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
     rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/complex-datatype/bagobjectnummering> .
 
+<https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/sport/binnenlocatie/adres> a mim:Gegevensgroep,
+        owl:ObjectProperty ;
+    rdfs:label "adres"@nl ;
+    mim:gegevensgroeptype <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/groepattribuutsoort/adresaanduiding> ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/sport/binnenlocatie/adres"^^xsd:anyURI ;
+    mim:kardinaliteit "1..1" ;
+    mim:naam "adres"@nl ;
+    dcterms:identifier "EAID_4CCF52E7_69EE_436b_BE2B_A9248BA85758" ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/sport/binnenlocatie> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/sport/> ;
+    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/groepattribuutsoort/adresaanduiding> .
+
 <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/sport/binnenlocatie/bouwjaar> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "bouwjaar"@nl ;
@@ -1702,6 +1704,7 @@ De objecttypecode kent in de BAG de volgende waarde:
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "4" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "bouwjaar"@nl ;
     mim:type mim:Integer ;
@@ -1732,6 +1735,7 @@ De objecttypecode kent in de BAG de volgende waarde:
 <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/sport/binnenlocatie/geschattekostenperjaar> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "geschatteKostenPerJaar"@nl ;
+    mim:eenheid [ ] ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/sport/binnenlocatie/geschattekostenperjaar"^^xsd:anyURI ;
@@ -1740,6 +1744,7 @@ De objecttypecode kent in de BAG de volgende waarde:
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "10,2" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "geschatteKostenPerJaar"@nl ;
     mim:type mim:Decimal ;
@@ -1781,12 +1786,12 @@ De objecttypecode kent in de BAG de volgende waarde:
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "klokurenOnderwijs"@nl ;
-    mim:type mim:Real ;
+    mim:type mim:Decimal ;
     dcterms:identifier "EAID_3A1FC714_21E8_4595_A47E_7DA39712E338" ;
     rdfs:comment "Aantal klokuren per week"@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/sport/binnenlocatie> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/sport/> ;
-    rdfs:range xsd:double .
+    rdfs:range xsd:decimal .
 
 <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/sport/binnenlocatie/klokurenverenigingen> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
@@ -1802,12 +1807,12 @@ De objecttypecode kent in de BAG de volgende waarde:
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "klokurenVerenigingen"@nl ;
-    mim:type mim:Real ;
+    mim:type mim:Decimal ;
     dcterms:identifier "EAID_9C245010_A095_4788_99CF_ECD52F21B21D" ;
     rdfs:comment "aantal klokuren per week"@nl ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/sport/binnenlocatie> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/sport/> ;
-    rdfs:range xsd:double .
+    rdfs:range xsd:decimal .
 
 <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/sport/binnenlocatie/locatie> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
@@ -1822,7 +1827,7 @@ De objecttypecode kent in de BAG de volgende waarde:
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "locatie"@nl ;
-    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/point> ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/gm-point> ;
     dcterms:identifier "EAID_50596FF3_4FC0_4420_B4B9_8AB4BD3FE7AF" ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/sport/binnenlocatie> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/sport/> ;
@@ -1839,6 +1844,7 @@ De objecttypecode kent in de BAG de volgende waarde:
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "80" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "onderhoudsniveau"@nl ;
     mim:type mim:CharacterString ;
@@ -1915,6 +1921,7 @@ De objecttypecode kent in de BAG de volgende waarde:
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "200" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "naam"@nl ;
     mim:type mim:CharacterString ;
@@ -2032,21 +2039,6 @@ De objecttypecode kent in de BAG de volgende waarde:
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/> ;
     rdfs:subClassOf skos:Concept .
 
-<https://lod.gemeentelijkgegevensmodel.nl/kern/bag/ontsluitingswijzeverdieping> a mim:Enumeratie,
-        owl:Class,
-        skos:ConceptScheme ;
-    rdfs:label "ontsluitingswijzeVerdieping"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/bag/ontsluitingswijzeverdieping"^^xsd:anyURI ;
-    mim:naam "ontsluitingswijzeVerdieping"@nl ;
-    mim:waarde <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/ontsluitingswijzeverdieping/leeg>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/ontsluitingswijzeverdieping/lift>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/ontsluitingswijzeverdieping/onbekend>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/ontsluitingswijzeverdieping/roltrap>,
-        <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/ontsluitingswijzeverdieping/trap> ;
-    dcterms:identifier "EAID_882C978E_5150_4811_BC4E_468B086C16EF" ;
-    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/> ;
-    rdfs:subClassOf skos:Concept .
-
 <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/sport/binnenlocatie> a mim:Objecttype,
         owl:Class ;
     rdfs:label "Binnenlocatie"@nl ;
@@ -2062,6 +2054,7 @@ De objecttypecode kent in de BAG de volgende waarde:
         <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/sport/binnenlocatie/sporthal>,
         <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/sport/binnenlocatie/vloeroppervlakte> ;
     mim:definitie "Locatie binnen een gebouw"@nl ;
+    mim:gegevensgroep <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/sport/binnenlocatie/adres> ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/sport/binnenlocatie"^^xsd:anyURI ;
     mim:indicatieAbstractObject false ;
     mim:naam "Binnenlocatie"@nl ;
@@ -2069,6 +2062,21 @@ De objecttypecode kent in de BAG de volgende waarde:
     rdfs:comment "Locatie binnen een gebouw"@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/sport/> ;
     rdfs:subClassOf <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/sport/sportlocatie> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/bag/ontsluitingswijzeverdieping> a mim:Enumeratie,
+        owl:Class,
+        skos:ConceptScheme ;
+    rdfs:label "ontsluitingswijzeVerdieping"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/bag/ontsluitingswijzeverdieping"^^xsd:anyURI ;
+    mim:naam "ontsluitingswijzeVerdieping"@nl ;
+    mim:waarde <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/ontsluitingswijzeverdieping/leeg>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/ontsluitingswijzeverdieping/lift>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/ontsluitingswijzeverdieping/onbekend>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/ontsluitingswijzeverdieping/roltrap>,
+        <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/ontsluitingswijzeverdieping/trap> ;
+    dcterms:identifier "EAID_882C978E_5150_4811_BC4E_468B086C16EF" ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/> ;
+    rdfs:subClassOf skos:Concept .
 
 <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/verblijfsobject> a mim:Objecttype,
         owl:Class ;

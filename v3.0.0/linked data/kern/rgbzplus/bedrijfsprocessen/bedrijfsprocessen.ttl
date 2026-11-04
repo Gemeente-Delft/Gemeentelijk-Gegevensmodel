@@ -304,7 +304,7 @@
     owl:versionInfo "v3.0.0" .
 
 <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/bedrijfsproces/afgerond> a mim:Attribuutsoort,
-        owl:ObjectProperty ;
+        owl:DatatypeProperty ;
     rdfs:label "Afgerond"@nl ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
@@ -316,11 +316,11 @@
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "Afgerond"@nl ;
-    mim:type <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/boolean> ;
+    mim:type mim:Boolean ;
     dcterms:identifier "EAID_E363AAC7_7C06_4eb8_A27A_EA614A1F2C15" ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/bedrijfsproces> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> ;
-    rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/boolean> .
+    rdfs:range xsd:boolean .
 
 <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/bedrijfsproces/datum-eind> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
@@ -371,6 +371,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "200" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "Naam"@nl ;
     mim:type mim:CharacterString ;
@@ -390,6 +391,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "200" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "Omschrijving"@nl ;
     mim:type mim:CharacterString ;
@@ -409,6 +411,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "200" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "Omschrijving"@nl ;
     mim:type mim:CharacterString ;
@@ -466,6 +469,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "200" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "Omschrijving"@nl ;
     mim:type mim:CharacterString ;
@@ -486,6 +490,7 @@
     mim:indicatieFormeleHistorie true ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "1" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "archiefnominatie"@nl ;
     mim:type mim:CharacterString ;
@@ -674,6 +679,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "3" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "duurVerlenging"@nl ;
     mim:type mim:Integer ;
@@ -694,6 +700,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "0..1" ;
+    mim:lengte "12" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "indicatieBetaling"@nl ;
     mim:type mim:CharacterString ;
@@ -735,6 +742,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "0..1" ;
+    mim:lengte "1" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "indicatieOpschorting"@nl ;
     mim:type mim:CharacterString ;
@@ -754,6 +762,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "100" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "leges"@nl ;
     mim:type mim:CharacterString ;
@@ -774,6 +783,7 @@
     mim:indicatieFormeleHistorie true ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "0..1" ;
+    mim:lengte "80" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "omschrijving"@nl ;
     mim:type mim:CharacterString ;
@@ -795,6 +805,7 @@
     mim:indicatieFormeleHistorie true ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "0..1" ;
+    mim:lengte "80" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "omschrijvingResultaat"@nl ;
     mim:type mim:CharacterString ;
@@ -815,6 +826,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "200" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "redenOpschorting"@nl ;
     mim:type mim:CharacterString ;
@@ -834,6 +846,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "200" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "redenVerlenging"@nl ;
     mim:type mim:CharacterString ;
@@ -854,6 +867,7 @@
     mim:indicatieFormeleHistorie true ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "0..1" ;
+    mim:lengte "1000" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "toelichting"@nl ;
     mim:type mim:CharacterString ;
@@ -875,6 +889,7 @@
     mim:indicatieFormeleHistorie true ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "0..1" ;
+    mim:lengte "1000" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "toelichtingResultaat"@nl ;
     mim:type mim:CharacterString ;
@@ -895,6 +910,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "40" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "vertrouwelijkheid"@nl ;
     mim:type mim:CharacterString ;
@@ -915,6 +931,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "40" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "zaakidentificatie"@nl ;
     mim:type mim:CharacterString ;
@@ -936,6 +953,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "1" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "zaakniveau"@nl ;
     mim:type mim:Integer ;
@@ -957,6 +975,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "0..1" ;
+    mim:lengte "20" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "archiefcode"@nl ;
     mim:type mim:CharacterString ;
@@ -1020,6 +1039,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "3" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "doorlooptijdBehandeling"@nl ;
     mim:type mim:Integer ;
@@ -1041,6 +1061,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "1" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "indicatiePublicatie"@nl ;
     mim:type mim:CharacterString ;
@@ -1062,6 +1083,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "0..1" ;
+    mim:lengte "1000" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "publicatietekst"@nl ;
     mim:type mim:CharacterString ;
@@ -1083,6 +1105,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "0..1" ;
+    mim:lengte "3" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "servicenormBehandeling"@nl ;
     mim:type mim:Integer ;
@@ -1104,6 +1127,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "0..*" ;
+    mim:lengte "30" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "trefwoord"@nl ;
     mim:type mim:CharacterString ;
@@ -1125,6 +1149,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "20" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "vertrouwelijkAanduiding"@nl ;
     mim:type mim:CharacterString ;
@@ -1146,6 +1171,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "0..1" ;
+    mim:lengte "40" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "zaakcategorie"@nl ;
     mim:type mim:CharacterString ;
@@ -1167,6 +1193,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "80" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "zaaktypeOmschrijving"@nl ;
     mim:type mim:CharacterString ;
@@ -1188,6 +1215,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "0..1" ;
+    mim:lengte "80" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "zaaktypeOmschrijvingGeneriek"@nl ;
     mim:type mim:CharacterString ;
@@ -1260,6 +1288,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "200" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "omschrijving"@nl ;
     mim:type mim:CharacterString ;
@@ -1323,18 +1352,6 @@
     rdfs:comment "Reeks opeenvolgend uit te voeren activiteiten die bijdraagt aan een specifiek resultaat, zoals de levering van een product of product of dienst."@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/bedrijfsprocestype> a mim:Objecttype,
-        owl:Class ;
-    rdfs:label "Bedrijfsprocestype"@nl ;
-    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/bedrijfsprocestype/omschrijving> ;
-    mim:definitie "soort Bedrijfsproces met bepaalde kenmerken"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/bedrijfsprocestype"^^xsd:anyURI ;
-    mim:indicatieAbstractObject false ;
-    mim:naam "Bedrijfsprocestype"@nl ;
-    dcterms:identifier "EAID_14E4AF23_21E9_412a_B78D_C208EE9F419D" ;
-    rdfs:comment "soort Bedrijfsproces met bepaalde kenmerken"@nl ;
-    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> .
-
 <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/boolean> a mim:Enumeratie,
         owl:Class,
         skos:ConceptScheme ;
@@ -1348,6 +1365,18 @@
     dcterms:identifier "EAID_9BD0FBCB_1A9E_4cab_9280_0EBC428E38F7" ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/enumeratiesoort/> ;
     rdfs:subClassOf skos:Concept .
+
+<https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/bedrijfsprocestype> a mim:Objecttype,
+        owl:Class ;
+    rdfs:label "Bedrijfsprocestype"@nl ;
+    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/bedrijfsprocestype/omschrijving> ;
+    mim:definitie "soort Bedrijfsproces met bepaalde kenmerken"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/bedrijfsprocestype"^^xsd:anyURI ;
+    mim:indicatieAbstractObject false ;
+    mim:naam "Bedrijfsprocestype"@nl ;
+    dcterms:identifier "EAID_14E4AF23_21E9_412a_B78D_C208EE9F419D" ;
+    rdfs:comment "soort Bedrijfsproces met bepaalde kenmerken"@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/zaaktype> a mim:Objecttype,
         owl:Class ;

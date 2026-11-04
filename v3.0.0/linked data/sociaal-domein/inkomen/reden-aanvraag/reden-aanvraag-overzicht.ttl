@@ -2258,6 +2258,7 @@
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/reden-aanvraag/vertrek-uit-asielzoekerscentrum/bedrag-weekgeld-coa> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "Bedrag weekgeld COA"@nl ;
+    mim:eenheid [ ] ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/reden-aanvraag/vertrek-uit-asielzoekerscentrum/bedrag-weekgeld-coa"^^xsd:anyURI ;
@@ -2266,6 +2267,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "10,2" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "Bedrag weekgeld COA"@nl ;
     mim:type mim:Decimal ;
@@ -2277,6 +2279,7 @@
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/reden-aanvraag/vertrek-uit-asielzoekerscentrum/einddatum-weekgeld-coa> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "Einddatum weekgeld COA"@nl ;
+    mim:eenheid [ ] ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/reden-aanvraag/vertrek-uit-asielzoekerscentrum/einddatum-weekgeld-coa"^^xsd:anyURI ;
@@ -2285,6 +2288,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "10,2" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "Einddatum weekgeld COA"@nl ;
     mim:type mim:Decimal ;
@@ -2296,6 +2300,7 @@
 <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/reden-aanvraag/vertrek-uit-asielzoekerscentrum/ingangsdatum-huurcontract> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
     rdfs:label "Ingangsdatum huurcontract"@nl ;
+    mim:eenheid [ ] ;
     mim:heeftTijdlijnGeldigheid false ;
     mim:heeftTijdlijnRegistratie false ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/reden-aanvraag/vertrek-uit-asielzoekerscentrum/ingangsdatum-huurcontract"^^xsd:anyURI ;
@@ -2304,6 +2309,7 @@
     mim:indicatieFormeleHistorie false ;
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
+    mim:lengte "10,2" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "Ingangsdatum huurcontract"@nl ;
     mim:type mim:Decimal ;

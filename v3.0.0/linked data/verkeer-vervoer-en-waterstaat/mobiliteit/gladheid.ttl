@@ -89,11 +89,11 @@
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "maximumtemperatuur"@nl ;
-    mim:type mim:Real ;
+    mim:type mim:Decimal ;
     dcterms:identifier "EAID_5506FB89_8DC8_42d9_8075_69C3B2F71C75" ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/mobiliteit/strooidag> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/mobiliteit/> ;
-    rdfs:range xsd:double .
+    rdfs:range xsd:decimal .
 
 <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/mobiliteit/strooidag/minimumtemperatuur> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
@@ -108,11 +108,11 @@
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "minimumtemperatuur"@nl ;
-    mim:type mim:Real ;
+    mim:type mim:Decimal ;
     dcterms:identifier "EAID_83D74E70_5123_4578_9DDC_DBACEA602912" ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/mobiliteit/strooidag> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/mobiliteit/> ;
-    rdfs:range xsd:double .
+    rdfs:range xsd:decimal .
 
 <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/mobiliteit/strooidag/tijdmaximumtemperatuur> a mim:Attribuutsoort,
         owl:DatatypeProperty ;
@@ -127,7 +127,7 @@
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "tijdMaximumtemperatuur"@nl ;
-    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/time> ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/tijd> ;
     dcterms:identifier "EAID_98E1687E_07DE_44da_B98D_C1A8B32FA342" ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/mobiliteit/strooidag> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/mobiliteit/> ;
@@ -146,7 +146,7 @@
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "tijdMinimumtemperatuur"@nl ;
-    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/time> ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/tijd> ;
     dcterms:identifier "EAID_E129F63B_EF52_4587_84FC_CF27B44B3896" ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/mobiliteit/strooidag> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/mobiliteit/> ;
@@ -165,7 +165,7 @@
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "route"@nl ;
-    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/multicurve> ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/gm-multicurve> ;
     dcterms:identifier "EAID_3E6F38DC_4F65_478b_9B3F_C4A1A86507FA" ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/mobiliteit/strooiroute> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/mobiliteit/> ;
@@ -222,7 +222,7 @@
     mim:kardinaliteit "1..1" ;
     mim:mogelijkGeenWaarde true ;
     mim:naam "route"@nl ;
-    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/multicurve> ;
+    mim:type <https://lod.gemeentelijkgegevensmodel.nl/datatypen/gm-multicurve> ;
     dcterms:identifier "EAID_CF133730_E2C2_4d0c_9EC3_CA0CFE32CF03" ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/mobiliteit/strooirouteuitvoering> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/verkeer-vervoer-en-waterstaat/mobiliteit/> ;
