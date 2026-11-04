@@ -1,9 +1,10 @@
 #!/usr/bin/env python
-"""Controleert de deelmodellen (één Turtle-bestand per EA-diagram, uit crunch_uml) en maakt daaruit:
+"""Controleert de deelmodellen (één Turtle-bestand per EA-diagram, uit crunch_uml) en maakt daaruit
+desgewenst een staging-boom. Zonder --stage wordt alleen gecontroleerd (task generate:lod).
 
+  --skip FILE         (herhaalbaar) een bestand in SRC dat geen deelmodel is: het geheel (de
+                      ontologie) en de SHACL-shapes staan in dezelfde map;
   --stage OUT         een boom voor de dropmap van de lod-browser-stack (task publish:lod);
-  --merged FILE       één samengevoegd Turtle-bestand met alle deelmodellen: het geheel, om te
-                      committen en te downloaden (task generate:lod-geheel; publish:lod werkt het bij);
   --live-graphs FILE  (bij --stage) de graphs die nu op de server staan; voor elke graph onder
                       NAMESPACE/VERSION/ die geen deelmodel meer is komt een leeg bestand in de
                       staging, zodat de loader die graph leegmaakt (hij wist zelf nooit een graph).
@@ -21,19 +22,13 @@ volgen. Elk bestand komt op OUT/pad.ttl (zonder het versiesegment: publish:lod r
 <dropmap>/<VERSION>/). Rechten worden expliciet gezet (mappen 755, bestanden 644): rsync -a neemt de
 rechten van de bron over en de loader-container leest als een andere gebruiker.
 
-Samenvoegen (--merged). De vereniging van alle triples van alle deelmodellen: een klasse die in
-meerdere diagrammen voorkomt, staat er één keer in. De uitvoer is deterministisch (zelfde invoer =
-byte-gelijk bestand), zodat git alleen echte wijzigingen ziet. Het samengevoegde bestand mag in SRC
-zelf staan; het wordt dan niet als deelmodel meegelezen.
-
-Gebruik: stage_lod_views.py SRC --namespace NS --version v3.0.0 [--stage OUT] [--merged FILE]
+Gebruik: stage_lod_views.py SRC --namespace NS --version v3.0.0 [--skip FILE ...] [--stage OUT]
          [--live-graphs FILE]
 """
 import argparse
 import os
 import re
 import sys
-import tempfile
 from pathlib import Path
 
 import rdflib
@@ -41,22 +36,6 @@ import rdflib
 GRAPH_LINE = re.compile(r"^# graph: <(?P<uri>[^>]+)>$")
 GRAPH_PATH = re.compile(r"^[a-z0-9_.-]+(/[a-z0-9_.-]+)*$")
 IRI_IN_LINE = re.compile(r"https?://[^\s\",<>]+")
-
-
-def write_merged(merged: rdflib.Graph, target: Path, header: str) -> None:
-    """Schrijft het samengevoegde bestand atomair (tijdelijk bestand + rename), rechten 644."""
-    body = merged.serialize(format="turtle")
-    target.parent.mkdir(parents=True, exist_ok=True)
-    fd, tmp = tempfile.mkstemp(dir=target.parent, prefix=".merged-", suffix=".ttl")
-    try:
-        with os.fdopen(fd, "w", encoding="utf-8") as fh:
-            fh.write(header)
-            fh.write(body)
-        os.chmod(tmp, 0o644)
-        os.replace(tmp, target)
-    except BaseException:
-        Path(tmp).unlink(missing_ok=True)
-        raise
 
 
 def live_paths(live_file: Path, graph_base: str) -> set[str]:
@@ -76,17 +55,18 @@ def main() -> int:
     ap.add_argument("src", type=Path, help="bronmap met de deelmodellen (*.ttl, recursief)")
     ap.add_argument("--namespace", required=True, help="LINKED_DATA_NS, bv. https://lod.gemeentelijkgegevensmodel.nl")
     ap.add_argument("--version", required=True, help="versiesegment dat elke graph-IRI moet dragen, bv. v3.0.0")
+    ap.add_argument("--skip", type=Path, action="append", default=[],
+                    help="bestand in SRC dat geen deelmodel is (het geheel, de shapes); herhaalbaar")
     ap.add_argument("--stage", type=Path, help="lege uitvoermap; krijgt de structuur van de graph-paden")
-    ap.add_argument("--merged", type=Path, help="pad van het samengevoegde Turtle-bestand (het geheel)")
     ap.add_argument("--live-graphs", type=Path, help="bestand met de graphs die nu op de server staan (bij --stage)")
     args = ap.parse_args()
-    if not args.stage and not args.merged:
-        ap.error("geef --stage, --merged of beide")
+    if args.live_graphs and not args.stage:
+        ap.error("--live-graphs werkt alleen samen met --stage")
 
     ns = args.namespace.rstrip("/")
     version = args.version.strip("/")
     graph_base = f"{ns}/{version}/"
-    merged_path = args.merged.resolve() if args.merged else None
+    skip = {f.resolve() for f in args.skip}
     errors: list[str] = []
     seen: dict[str, Path] = {}
     parsed: list[tuple[str, Path, str, rdflib.Graph]] = []
@@ -94,7 +74,7 @@ def main() -> int:
     if not args.src.is_dir():
         print(f"Error: bronmap '{args.src}' bestaat niet.")
         return 1
-    files = sorted(f for f in args.src.rglob("*.ttl") if f.resolve() != merged_path)
+    files = sorted(f for f in args.src.rglob("*.ttl") if f.resolve() not in skip)
     if not files:
         print(f"Error: geen *.ttl gevonden in '{args.src}'.")
         return 1
@@ -126,8 +106,10 @@ def main() -> int:
     for e in errors:
         print(f"Error: {e}")
     if errors:
-        print(f"Error: {len(errors)} fout(en); er is niets geschreven of klaargezet.")
+        print(f"Error: {len(errors)} fout(en); er is niets klaargezet.")
         return 1
+    if not args.stage:
+        print(f"{len(parsed)} deelmodellen gecontroleerd: kopregel, uniek graph-pad en geldige Turtle")
 
     # 2. Staging-boom voor de dropmap, plus lege bestanden voor verdwenen graphs.
     if args.stage:
@@ -156,27 +138,6 @@ def main() -> int:
         if verdwenen:
             print(f"{len(verdwenen)} graphs die geen deelmodel meer zijn worden leeggemaakt: " + ", ".join(verdwenen))
 
-    # 3. Het geheel.
-    if args.merged:
-        merged = rdflib.Graph()
-        for _, _, _, g in parsed:
-            for pfx, uri in g.namespaces():
-                if pfx:  # prefixen van de bron (bv. dct) gaan voor op de rdflib-standaard (dcterms)
-                    merged.bind(pfx, uri, override=True)
-            merged += g
-        header = (
-            f"# Gemeentelijk Gegevensmodel {version}: het geheel, alle deelmodellen samengevoegd\n"
-            f"#\n"
-            f"# Dit bestand bevat de {len(parsed)} deelmodellen (één per EA-diagram) uit deze map als\n"
-            f"# één geheel: de vereniging van hun triples ({len(merged)} unieke triples). Een klasse die in\n"
-            f"# meerdere diagrammen voorkomt, staat er één keer in. Per diagram staat elk deelmodel\n"
-            f"# ook als eigen bestand in deze map en als named graph onder <{graph_base}>.\n"
-            f"#\n"
-            f"# Gegenereerd door tools/stage_lod_views.py (task generate:lod).\n"
-            f"# Niet met de hand bewerken: wijzigingen horen in het model.\n\n"
-        )
-        write_merged(merged, args.merged, header)
-        print(f"{len(parsed)} deelmodellen samengevoegd in {args.merged} ({len(merged)} unieke triples)")
     return 0
 
 

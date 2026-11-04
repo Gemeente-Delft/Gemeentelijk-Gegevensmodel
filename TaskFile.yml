@@ -3,7 +3,7 @@
 # This Taskfile defines tasks for:
 # - Validating tools and variables
 # - Importing the Enterprise Architect model (.qea) into Crunch UML; the XMI export is kept as a download only
-# - Generating Excel specifications, Markdown documentation, and translations
+# - Generating Excel specifications, Markdown documentation, translations and Linked Data
 # - Deploying documentation to GitHub Pages
 #
 # Usage:
@@ -22,12 +22,12 @@
 # - To deploy the documentation of this version to the LOCAL gh-pages branch (preview): `task publish:local`
 # - To publish documentation to GitHub Pages: `task publish:github` (runs publish:release first, which
 #   makes this version the default of the site: alias latest + start page, after confirmation)
-# - To generate the Linked Data (ontology, SHACL shapes, one sub-model per EA diagram, merged file): `task generate:lod`
+# - To generate the Linked Data in <version>/ttl (the whole model, its SHACL shapes and one sub-model per EA diagram): `task generate:lod`
 # - To publish the Linked Data sub-models as named graphs on the LOD server: `task publish:lod`
 #   (see tools/README-lod.md for how the LOD pipeline works)
 #
 # Author: Arjen Brienen
-# Last Updated: 29 oktober 2026
+# Last Updated: 4 november 2026
 version: '3'
 
 dotenv: ['.env']
@@ -41,7 +41,6 @@ vars:
   GGM: "{{.VERSION_DIR}}/{{.GGM_FILE}}"
   PREVIOUS_GGM: "{{.PREVIOUS_VERSION_DIR}}/{{.GGM_FILE}}"
   EXCEL: "{{.VERSION_DIR}}/{{.EXCEL_FILE}}"
-  LOD: "{{.VERSION_DIR}}/{{.LOD_FILE}}"
   MIM: "{{.VERSION_DIR}}/{{.GGM_MIM_FILE}}"
   TRANSLATIONS_DIR: "{{.VERSION_DIR}}/{{.TRANSLATIONS_DIR}}"
   i18N_FILE: "{{.TRANSLATIONS_DIR}}/{{.i18N_FILE}}"
@@ -57,18 +56,18 @@ vars:
   CRUNCH_VENV: "tools/.venv-crunch"
   CRUNCH: "tools/.venv-crunch/bin/crunch_uml"
   # --- Linked Data -----------------------------------------------------------------------
-  # Eén export (generate:lod) levert vier producten in {{.VERSION_DIR}}; publish:lod zet de
-  # deelmodellen als named graphs onder <LINKED_DATA_NS>/<VERSION>/ op de LOD-server.
+  # Eén export (generate:lod) zet alle Linked Data in LOD_DIR; publish:lod zet de deelmodellen
+  # als named graphs onder <LINKED_DATA_NS>/<VERSION>/ op de LOD-server.
   # Werking en valkuilen: tools/README-lod.md. Opties: docs/handleiding/export.md van crunch_uml.
-  #   LOD          ontologie (RDFS/OWL met MIM 1.2-metagegevens), bestandsnaam LOD_FILE uit .env
-  #   LOD_SHAPES   SHACL-shapes apart; importeren de ontologie (owl:imports)
-  #   LOD_VIEWS    per EA-diagram een deelmodel: deelgraaf van de ontologie, pad langs de
-  #                pakketboom (99 Kern > Model BAG > Onderzoek -> kern/bag/onderzoek), kopregel
-  #                '# graph: <LINKED_DATA_NS/VERSION/pad>'
-  #   LOD_GEHEEL   alle deelmodellen samengevoegd, om te downloaden (staat in git)
-  LOD_SHAPES: "{{.VERSION_DIR}}/Gemeentelijk Gegevensmodel Linked Data-shapes.ttl"
-  LOD_VIEWS: "{{.VERSION_DIR}}/ttl"
-  LOD_GEHEEL: "{{.LOD_VIEWS}}/ggm-geheel-{{.VERSION}}.ttl"
+  #   LOD          het geheel: de ontologie (RDFS/OWL met MIM 1.2-metagegevens) met alle pakketten,
+  #                ook wat op geen diagram staat; bestandsnaam LOD_FILE uit .env
+  #   LOD_SHAPES   de SHACL-shapes apart, zelfde naam met '-shapes'; importeren de ontologie
+  #   LOD_DIR      bevat beide, en in submappen per EA-diagram een deelmodel: een deelgraaf van de
+  #                ontologie, pad langs de pakketboom (99 Kern > Model BAG > Onderzoek ->
+  #                kern/bag/onderzoek.ttl), kopregel '# graph: <LINKED_DATA_NS/VERSION/pad>'
+  LOD_DIR: "{{.VERSION_DIR}}/ttl"
+  LOD: "{{.LOD_DIR}}/{{.LOD_FILE}}"
+  LOD_SHAPES: '{{.LOD_DIR}}/{{.LOD_FILE | default "" | trimSuffix ".ttl"}}-shapes.ttl'
   # Metagegevens van het informatiemodel (mim:Informatiemodel op de basis-URI).
   LOD_TITLE: "Gemeentelijk Gegevensmodel"
   LOD_PUBLISHER: "https://www.delft.nl/"
@@ -298,16 +297,17 @@ tasks:
     shell: bash
 
   generate:lod:
-    desc: "Genereer de Linked Data uit het model: ontologie '{{.LOD}}', SHACL-shapes '{{.LOD_SHAPES}}', deelmodellen per diagram in '{{.LOD_VIEWS}}' en het geheel '{{.LOD_GEHEEL}}'."
+    desc: "Genereer de Linked Data uit het model in '{{.LOD_DIR}}': het geheel '{{.LOD}}', de SHACL-shapes '{{.LOD_SHAPES}}' en per diagram een deelmodel."
     deps: [import:model]
     cmds:
       - echo "Generating Linked Data..."
       # Verdwenen of hernoemde diagrammen opruimen: crunch_uml overschrijft bestanden, maar wist niet.
+      # Het geheel en de shapes blijven staan; de export hieronder overschrijft ze.
       - |
         set -euo pipefail
-        mkdir -p "{{.LOD_VIEWS}}"
-        find "{{.LOD_VIEWS}}" -mindepth 1 -name '*.ttl' ! -name "$(basename "{{.LOD_GEHEEL}}")" -delete
-        find "{{.LOD_VIEWS}}" -mindepth 1 -type d -empty -delete
+        mkdir -p "{{.LOD_DIR}}"
+        find "{{.LOD_DIR}}" -mindepth 1 -name '*.ttl' ! -path "{{.LOD}}" ! -path "{{.LOD_SHAPES}}" -delete
+        find "{{.LOD_DIR}}" -mindepth 1 -type d -empty -delete
       # Eén export: ontologie, shapes en per diagram een deelmodel. Nederlandse taaltags, de
       # GGM-versie als owl:versionInfo/versionIRI en als segment in de graph-IRI's van de views.
       - >-
@@ -322,19 +322,13 @@ tasks:
         --lod_informatiedomein "{{.LOD_INFORMATIEDOMEIN}}"
         --lod_informatiemodeltype logisch
         --lod_shapes_file "{{.LOD_SHAPES}}"
-        --lod_views_dir "{{.LOD_VIEWS}}"
+        --lod_views_dir "{{.LOD_DIR}}"
         --lod_views_exclude "{{.LOD_EXCLUDE_DIAGRAMS}}"
-      - task: generate:lod-geheel
-    shell: bash
-
-  generate:lod-geheel:
-    desc: "Controleer de deelmodellen in '{{.LOD_VIEWS}}' en voeg ze samen tot '{{.LOD_GEHEEL}}' (stap van generate:lod en publish:lod)."
-    deps: [prepare:check-vars, prepare:venv-crunch]
-    cmds:
-      # Deterministisch: ongewijzigde deelmodellen geven een byte-gelijk bestand, dus geen git-diff.
+      # Controle van de deelmodellen: kopregel, uniek graph-pad, geldige Turtle (zie publish:lod).
       - >-
-        "{{.CRUNCH_VENV}}/bin/python" tools/stage_lod_views.py "{{.LOD_VIEWS}}"
-        --namespace "{{.LINKED_DATA_NS}}" --version "{{.VERSION}}" --merged "{{.LOD_GEHEEL}}"
+        "{{.CRUNCH_VENV}}/bin/python" tools/stage_lod_views.py "{{.LOD_DIR}}"
+        --namespace "{{.LINKED_DATA_NS}}" --version "{{.VERSION}}"
+        --skip "{{.LOD}}" --skip "{{.LOD_SHAPES}}"
     shell: bash
 
   generate:mim:
@@ -416,7 +410,7 @@ tasks:
     shell: bash
 
   publish:lod:
-    desc: "Zet de deelmodellen uit '{{.LOD_VIEWS}}' als named graphs onder {{.LINKED_DATA_NS}}/{{.VERSION}}/ op de LOD-server (rsync naar de dropmap) en werk '{{.LOD_GEHEEL}}' bij."
+    desc: "Zet de deelmodellen uit '{{.LOD_DIR}}' als named graphs onder {{.LINKED_DATA_NS}}/{{.VERSION}}/ op de LOD-server (rsync naar de dropmap)."
     deps: [prepare:check-vars, prepare:venv-crunch]
     vars:
       # Defaults; overschrijf desgewenst in .env. SSH_HOST is een ssh-config-profiel voor de
@@ -426,7 +420,7 @@ tasks:
       LOD_LOCAL_PORT: '{{.LOD_LOCAL_PORT | default "8080"}}'
       DRY_RUN: '{{.DRY_RUN | default "false"}}'
     prompt:
-      - "rsync de deelmodellen uit '{{.LOD_VIEWS}}' naar '{{.SSH_HOST}}:{{.LOD_DROP}}/{{.VERSION}}/' (met --delete binnen die map). Graphs onder {{.LINKED_DATA_NS}}/{{.VERSION}}/ die geen deelmodel meer zijn worden op de server leeggemaakt. De loader verwerkt wijzigingen binnen ~30 s. Doorgaan?"
+      - "rsync de deelmodellen uit '{{.LOD_DIR}}' naar '{{.SSH_HOST}}:{{.LOD_DROP}}/{{.VERSION}}/' (met --delete binnen die map). Graphs onder {{.LINKED_DATA_NS}}/{{.VERSION}}/ die geen deelmodel meer zijn worden op de server leeggemaakt. De loader verwerkt wijzigingen binnen ~30 s. Doorgaan?"
     cmds:
       # Zie tools/README-lod.md voor de werking van de loader op de server en de rsync-keuzes.
       - |
@@ -439,11 +433,12 @@ tasks:
         #    meer is krijgt in de staging een leeg bestand, zodat de loader hem leegmaakt.
         ssh "{{.SSH_HOST}}" "curl -fsS -H 'Accept: text/csv' --data-urlencode 'query=SELECT DISTINCT ?g WHERE { GRAPH ?g { ?s ?p ?o } }' 'http://127.0.0.1:{{.LOD_LOCAL_PORT}}/sparql'" > "$LIVE"
         # 2. Controleren, klaarzetten als <STAGE>/<pad>.ttl (de loader leidt de graph-IRI af uit
-        #    het pad in de dropmap) en het geheel bijwerken. Een script, geen shell-lus: Task
-        #    draait cmds in een Go-shell waarin while-read-lussen blijven hangen.
-        "{{.CRUNCH_VENV}}/bin/python" tools/stage_lod_views.py "{{.LOD_VIEWS}}" \
+        #    het pad in de dropmap). Het geheel en de shapes gaan niet mee. Een script, geen
+        #    shell-lus: Task draait cmds in een Go-shell waarin while-read-lussen blijven hangen.
+        "{{.CRUNCH_VENV}}/bin/python" tools/stage_lod_views.py "{{.LOD_DIR}}" \
           --namespace "{{.LINKED_DATA_NS}}" --version "{{.VERSION}}" \
-          --stage "$STAGE" --merged "{{.LOD_GEHEEL}}" --live-graphs "$LIVE"
+          --skip "{{.LOD}}" --skip "{{.LOD_SHAPES}}" \
+          --stage "$STAGE" --live-graphs "$LIVE"
         # 3. rsync op inhoud (-c), --delete alleen binnen <dropmap>/<VERSION>/, rechten 644/755.
         OPTS=(-azc --delete --exclude='/*.ttl' --exclude='/*.graph' --chmod=Du=rwx,Dgo=rx,Fu=rw,Fgo=r)
         if [ "{{.DRY_RUN}}" = "true" ]; then

@@ -75,6 +75,18 @@ Hieronder staan de stappen voor het laden van het AMEFF-bestand in Blue Dolphin.
 
 3\. Succes!
 
+## Linked Data
+
+Het GGM is ook beschikbaar als Linked Data, in [Turtle](https://www.w3.org/TR/turtle/). Daarvoor heb je geen Enterprise Architect nodig. Alle bestanden staan per versie in de map [`ttl`](https://github.com/Gemeente-Delft/Gemeentelijk-Gegevensmodel/tree/master/v3.0.0/ttl):
+
+| Bestand | Inhoud |
+|---------|--------|
+| [Gemeentelijk Gegevensmodel Linked Data.ttl](https://github.com/Gemeente-Delft/Gemeentelijk-Gegevensmodel/blob/master/v3.0.0/ttl/Gemeentelijk%20Gegevensmodel%20Linked%20Data.ttl) | Het hele model als ontologie (RDFS/OWL), met de metagegevens volgens [MIM 1.2](https://docs.geostandaarden.nl/mim/mim/). Enumeratiewaarden zijn ook SKOS-begrippen. |
+| [Gemeentelijk Gegevensmodel Linked Data-shapes.ttl](https://github.com/Gemeente-Delft/Gemeentelijk-Gegevensmodel/blob/master/v3.0.0/ttl/Gemeentelijk%20Gegevensmodel%20Linked%20Data-shapes.ttl) | De [SHACL](https://www.w3.org/TR/shacl/)-shapes waarmee je data aan het model toetst. Ze importeren de ontologie. |
+| `<domein>/.../<diagram>.ttl` | Per diagram een deelmodel, bijvoorbeeld `kern/bag/onderzoek.ttl`: de klassen op dat diagram met hun attributen, relaties en enumeraties. |
+
+Je kunt het model ook online bekijken op [lod.gemeentelijkgegevensmodel.nl](https://lod.gemeentelijkgegevensmodel.nl). Elke klasse, elk attribuut en elke waarde heeft een eigen IRI die je direct kunt opvragen, bijvoorbeeld <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/pand>. De deelmodellen staan daar als named graphs onder `https://lod.gemeentelijkgegevensmodel.nl/v3.0.0/`. Je bevraagt ze met SPARQL via <https://lod.gemeentelijkgegevensmodel.nl/sparql>.
+
 
 [Bizzdesign_stap1]: image/Bizzdesign_stap1.png "Open een nieuw modelpackage"
 [Bizzdesign_stap2]: image/Bizzdesign_stap2.png "Selecteer het UML-model"

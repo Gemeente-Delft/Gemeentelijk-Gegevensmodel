@@ -92,7 +92,7 @@ vermoedelijk een ander begrip en hoort niet in deze lijst.
 
 Het archief gaat gewoon mee in de uitvoer. In de LOD zijn het tien klassen met een eigen IRI naast de BAG-klasse:
 `kern/bag/pand` en `kern/rsgbplus/rsgb/archief/kern-rsgb/pand`, allebei `mim:Objecttype` met het label *Pand*. Ze
-staan in de ontologie en in `ggm-geheel`, en door het diagram Inburgering staat de archief-Gemeente ook in die view.
+staan in de ontologie (het geheel), en door het diagram Inburgering staat de archief-Gemeente ook in die view.
 In de documentatie is er een pagina *Model Kern RSGB (archief)* buiten de navigatie.
 
 ### De 25 dubbele relaties
@@ -195,12 +195,12 @@ maakt elke relatie-IRI langer en verandert ze allemaal.
 
 **Keuze 2: het archiefpakket.**
 (a) Minimaal: alle verbindingen van levende klassen naar het archief weghalen (5A plus de zes uit 5C). Het archief
-blijft dan als eiland in het model staan, en dus ook in de ontologie en `ggm-geheel`, met eigen IRI's voor Pand,
+blijft dan als eiland in het model staan, en dus ook in de ontologie, met eigen IRI's voor Pand,
 Buurt enzovoort.
 (b) Het archiefpakket uit het model verwijderen. De oude versie blijft beschikbaar in git en in de releases v2.x.
 Eerst de 68 archief-attributen nalopen (5C).
 (c) Het archief laten staan en buiten de LOD en de docs houden. De views slaan het nu al over omdat er geen
-diagram is, maar de ontologie en `ggm-geheel` nemen elk pakket mee; dit vraagt een nieuwe uitsluitoptie in
+diagram is, maar de ontologie neemt elk pakket mee; dit vraagt een nieuwe uitsluitoptie in
 crunch_uml.
 Advies: (a) nu, vóór v3.0.0; (b) als besluit voor de volgende release, met de attribuutlijst als werkvoorraad.
 
@@ -223,7 +223,7 @@ gebruik.
 ```bash
 task --force import:model generate:lod
 grep -o -E '<https://lod\.gemeentelijkgegevensmodel\.nl/[a-z0-9/-]+-[0-9]+> a (mim:Relatiesoort|mim:Attribuutsoort)' \
-  "v3.0.0/Gemeentelijk Gegevensmodel Linked Data.ttl" | sort -u
+  "v3.0.0/ttl/Gemeentelijk Gegevensmodel Linked Data.ttl" | sort -u
 ```
 
 Verwacht: alleen `ingeschrevenpersoon/ouder-1` en `ouder-2`. De waarschuwing over gelijknamige relaties blijft; die

@@ -7,16 +7,24 @@ export zelf staan in de handleiding van crunch_uml (`docs/handleiding/export.md`
 ## Eén pad
 
 ```
-model (.qea / XMI)  --import:model-->  crunch_uml.db
-                    --generate:lod-->  <release>/<LOD_FILE>            ontologie (RDFS/OWL + MIM 1.2)
-                                       <release>/<LOD_FILE>-shapes.ttl  SHACL-shapes (owl:imports ontologie)
-                                       <release>/ttl/<pad>.ttl          deelmodel per EA-diagram
-                                       <release>/ttl/ggm-geheel-<versie>.ttl  alle deelmodellen samen
-                    --publish:lod-->   named graphs <LINKED_DATA_NS>/<versie>/<pad> op de LOD-server
+model (.qea)  --import:model-->  crunch_uml.db
+              --generate:lod-->  <release>/ttl/Gemeentelijk Gegevensmodel Linked Data.ttl         het geheel: ontologie (RDFS/OWL + MIM 1.2)
+                                 <release>/ttl/Gemeentelijk Gegevensmodel Linked Data-shapes.ttl  SHACL-shapes (owl:imports ontologie)
+                                 <release>/ttl/<pad>.ttl                                          deelmodel per EA-diagram
+              --publish:lod-->   named graphs <LINKED_DATA_NS>/<versie>/<pad> op de LOD-server
 ```
 
-Er is bewust één manier om te publiceren: de deelmodellen als named graphs. De volledige
-ontologie gaat niet als één graph naar de server; wie het geheel wil, downloadt `ggm-geheel`.
+Alle Linked Data staat in `<release>/ttl` (var `LOD_DIR`). De namen van het geheel en de shapes
+volgen `LOD_FILE` uit `.env`; de shapes krijgen dezelfde naam met `-shapes`.
+
+Er is één bestand met het hele model: de ontologie. Die bevat alle pakketten, ook klassen en
+enumeraties die op geen diagram staan; de deelmodellen zijn er deelgrafen van. Een apart
+samengevoegd bestand van de deelmodellen (tot 4 november 2026 `ggm-geheel-<versie>.ttl`) is
+daarom vervallen: dat was een onvolledige kopie van de ontologie.
+
+Er is bewust één manier om te publiceren: de deelmodellen als named graphs. De ontologie en de
+shapes gaan niet naar de server; `stage_lod_views.py` slaat ze over (`--skip`). Wie het geheel
+wil, downloadt de ontologie.
 
 ## Deelmodellen (views)
 
@@ -63,6 +71,9 @@ volgende publicatie staat de graph niet meer in de lijst, gaat er geen leeg best
 task publish:lod-list          # alle graphs in Virtuoso met hun aantal triples (SSH, read-only)
 python tools/validate_mim_lod.py ontologie.ttl ontologie-shapes.ttl   # in de crunch_uml-checkout
 ```
+
+`generate:lod` controleert na de export elk deelmodel (kopregel, uniek graph-pad, geldige Turtle)
+met `stage_lod_views.py` zonder `--stage`; `publish:lod` doet dezelfde controle vóór de staging.
 
 De browser (lod.gemeentelijkgegevensmodel.nl) toont elke graph onder `LINKED_DATA_NS` waarin
 klassen staan; het domein in de keuzelijst is het eerste padsegment na de versie. De lijst wordt
