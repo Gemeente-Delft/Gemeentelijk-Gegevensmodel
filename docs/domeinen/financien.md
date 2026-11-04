@@ -24,6 +24,12 @@ Mutaties vinden plaats op basis van diverse gebeurtenissen, zoals: verwerken van
 ![Verwerken Mutaties Financiën][financienVerwerkenMutaties]
 
 Mutaties hebben altijd betrekking op een ‘Kostenplaats’, en kunnen op een ‘Werkorder’ (niet hard afdwingbaar) of ‘Subrekening’ (gekoppeld aan kostenplaats vanwege BTW) worden geschreven. 
+
+Een ‘Mutatie’ kan een of meer ‘Verbijzonderingen’ hebben: kenmerken waarmee een boeking vanuit een extra perspectief wordt gerapporteerd zonder het grootboekschema te verfijnen. Elke ‘Verbijzondering’ is van een ‘Verbijzonderingsoort’, zoals de 6S-laag van Stewart Brand (Site, Structure, Skin, Services, Space plan, Stuff), de NL/SfB-code, de componentomschrijving of de geplande vervangingsdatum. Zo kan de factuur voor een nieuwe cv-ketel als ‘Services’ en als NL/SfB-hoofdgroep 50 worden gelabeld. Deze uitbreiding komt uit het voorstel van het Programma Onderwijshuisvesting (Invest-NL, 2025), naar het voorbeeld van VERA bij woningcorporaties.
+
+Kosten van een hulpkostenplaats, zoals een multifunctionele accommodatie, worden met een ‘Verdeelregel’ over andere kostenplaatsen verdeeld. De ‘Verdeelregel’ wijst een ‘Verdeelsleutel’ aan, zoals vierkante meters, fte of leerlingaantal; per ‘Kostenplaats’ staat in een ‘Verdeelkenmerk’ de waarde van die sleutel in een periode. Of een ‘Kostenplaats’ een hulpkostenplaats is, staat in de indicatie op de ‘Kostenplaats’ zelf.
+
+![Kostenverdeling Financiën][financienKostenverdeling]
 Naast de gemodelleerde mutaties zijn er nog diverse mutaties die handmatig of binnen GFS automatisch worden aangemaakt en geboekt, zoals:
 
 - Verkoop tot ontvangst.
@@ -38,4 +44,5 @@ Debiteuren en crediteuren zijn afgeleid van ‘Rechtspersoon’. Het kunnen imme
 [financienBegrotingEnBudget]: image/EAID_42C2960F_FED7_467e_AAB1_5195BED59A39.jpg "Begroting en Budget Financiën"
 [financienVerplichtingenEnFacturen]: image/EAID_0723EB5C_4A2C_44d4_B15B_37AC71B5D711.jpg "Verplichtingen en Facturen Financiën"
 [financienVerwerkenMutaties]: image/EAID_B758018F_CB22_420e_B4E4_E17EB5F71EDA.jpg "Verwerken Mutaties Financiën"
+[financienKostenverdeling]: image/EAID_BAF51624_408D_4A68_A2C0_3FDBACEB09E0.jpg "Kostenverdeling Financiën"
 [financienPersonen]: image/EAID_CB1E27F6_9539_4037_8A93_07CC937D5D2E.jpg "Personen en Financiën"
