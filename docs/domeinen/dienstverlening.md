@@ -34,6 +34,10 @@ Bij de Gemeente Delft gebruiken wij Pivot-queries om de aanvragen en meldingen t
 
 ![Objecttypen Aanvragen en meldingen][aanvraagEnMelding]
 
+Een bijzondere vorm van ‘AanvraagOfMelding’ is de ‘MOR-AanvraagOfMelding’: de melding openbare ruimte (MOR), een bericht van een inwoner over een gebrek of opvallendheid in de openbare ruimte, zoals een losse stoeptegel of een kapotte lantaarnpaal, meestal gedaan via een meldapp als Fixi of Buitenbeter. Naast de gegevens van ‘AanvraagOfMelding’ legt de ‘MOR-AanvraagOfMelding’ de locatie vast als punt en als ‘Adresaanduiding’, met een omschrijving van de plek, de datum waarop de behandeling is ingepland en of de melding anoniem is gedaan. Voor de sturing op de afhandeling kent ‘AanvraagOfMelding’ de behandelaar (een ‘Medewerker’) en het behandelend team (een ‘OrganisatorischeEenheid’), de datum van de eerste reactie, een indicatie voor hoge prioriteit, de normtijd voor afhandeling en het resultaat. Deze uitbreiding komt uit het voorstel van de gemeenten Katwijk en Land van Cuijk (2026). Het diagram ‘MOR 2.0’ staat in Enterprise Architect in het package ‘Meldingen Openbare Ruimte’ onder ‘Volkshuisvesting, Leefomgeving en Stedelijke Vernieuwing’; de objecttypen zelf horen bij ‘Model Dienstverlening’. Meldingen die beheerders zelf doen over beheerobjecten, zoals schouwmeldingen, staan in [Beheer openbare ruimte](ruimteAlgemeen.md#schouwen-en-meldingen).
+
+![Melding openbare ruimte][meldingOpenbareRuimte]
+
 In de volgende figuur is de koppeling van ‘Klantcontact’ met ‘Zaak’ uit de RGBZ getoond. Hier is te zien dat een ‘Klantcontact’ betrekking kan hebben op een ‘Zaak’. Een ‘AanvraagOfMelding’ kan leiden tot een ‘Zaak’.
 
 Ten opzichte van de RGBZ is het model uitgebreid met een ‘Betaling’ en ‘Heffing’, immers de gemeente legt voor veel producten en diensten een ‘Heffing’ op waarop een ‘Betaling’ plaats moet vinden.
@@ -46,5 +50,6 @@ In de volgende figuur is de relatie van de ‘Betrokkene’ met het ‘Klantcont
 
 [klantcontact]: image/EAID_282A4979_0BBC_4448_B71C_0CE64829083B.jpg "Dienstverlening en Klantcontacten"
 [aanvraagEnMelding]: image/EAID_5901286A_E9EF_4360_9CE6_32B6FDE1C970.jpg "Objecttypen Aanvragen en meldingen"
+[meldingOpenbareRuimte]: image/EAID_B3CC7874_57AA_4aeb_BF3F_98A64E9D76E5.jpg "Melding openbare ruimte (MOR 2.0)"
 [klantcontactEnZaak]: image/EAID_48B6C3F9_CCF1_4794_8252_FC6543409B78.jpg "Klantcontact en Zaken"
 [dienstverleningEnBetrokkene]: image/EAID_1D7802F4_3458_4bb4_8431_16C7F85473FC.jpg "Dienstverlening en Betrokkene"

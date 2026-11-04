@@ -76,6 +76,7 @@ nav:
         - 'Financiën': domeinen/financien.md
         - 'HR': domeinen/hr.md
         - 'Inkoop': domeinen/inkoop.md
+        - 'Samenwerkomgeving': domeinen/samenwerkomgeving.md
     - 'Dienstverlening': domeinen/dienstverlening.md
     - 'Kern':
         - 'BAG': domeinen/bag.md
@@ -141,6 +142,7 @@ nav:
         - 'HR': definities/definitie_Model HR.md
         - 'Inkoop': definities/definitie_Model Inkoop.md
         - 'Financiën': definities/definitie_Model Financien.md
+        - 'Samenwerkomgeving': definities/definitie_Model Samenwerkomgeving.md
     - 'Dienstverlening': definities/definitie_Model Dienstverlening.md
     - 'Kern':
         - 'RSGB': definities/definitie_Model Kern RSGB (RSGB Model).md
