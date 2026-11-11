@@ -29,9 +29,9 @@ alle geplande wijzigingen (--csv). Met --apply voert het de wijzigingen in één
 sluit Enterprise Architect en maak eerst een back-up. Idempotent: een tweede run meldt 0.
 
 Gebruik:
-  python3 -I tools/fix_datatypes_mim.py "v3.0.0/Gemeentelijk Gegevensmodel.qea" \
+  python3 -I tools/fixes/fix_datatypes_mim.py "v3.0.0/Gemeentelijk Gegevensmodel.qea" \
       --rapport tools/mim-datatypes-dryrun.md --csv /tmp/mim-datatypes-detail.csv
-  python3 -I tools/fix_datatypes_mim.py "v3.0.0/Gemeentelijk Gegevensmodel.qea" --apply
+  python3 -I tools/fixes/fix_datatypes_mim.py "v3.0.0/Gemeentelijk Gegevensmodel.qea" --apply
 """
 import argparse
 import collections
@@ -323,7 +323,7 @@ class Omzetter:
         out = []
         w = out.append
         w(f"# Omzetting datatypes naar MIM: {mode}\n")
-        w(f"*{self.now}, script tools/fix_datatypes_mim.py, mapping in tools/mim-datatypes-mapping.md.*\n")
+        w(f"*{self.now}, script tools/fixes/fix_datatypes_mim.py, mapping in tools/mim-datatypes-mapping.md.*\n")
         n_all = len(rows)
         n_chg = sum(1 for _, _, d in rows if d)
         w(f"Attributen (zonder enumeratiewaarden): {n_all}. Met een geplande wijziging: {n_chg}. "

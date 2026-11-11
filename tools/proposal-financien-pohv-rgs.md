@@ -150,7 +150,7 @@ wijkt af van wat is geconsulteerd; aanbevolen is de lijsten alleen te noemen in 
 
 ## 6. Uitvoering
 
-Uitgevoerd op 4 november 2026 met `tools/add_financien_pohv.py`, in twee stappen. Eerst zonder RGS, na het besluit
+Uitgevoerd op 4 november 2026 met `tools/fixes/add_financien_pohv.py`, in twee stappen. Eerst zonder RGS, na het besluit
 van Arjen om de definities van RGS nog niet op te nemen; later die dag, na het lezen van de mails van 4 februari
 2026 (advies van de expertgroep om RGS wél door te voeren), alsnog met `Referentiegrootboekrekening` (zes
 attributen) en de relatie `Hoofdrekening` `is van soort` 0..* – 0..1, ook op het diagram *Financien Verwerken
@@ -167,7 +167,7 @@ schema gehanteerd moet worden (keuze 7) en zonder de RGS-codes als data (keuze 8
 2. **GitHub-issue** aanmaken, *Proposal Financiën POHV: RGS, verbijzonderingen en verdeelsleutels*, labels
    `Proposal` en `Expertgroep`, met verwijzing naar de consultatie en de besluiten van 12 augustus en 6 oktober 2026.
 3. **Model aanpassen** op `v3.0.0/Gemeentelijk Gegevensmodel.qea` na een kopie, met een script naar het patroon
-   van `tools/add_samenwerkomgeving.py` (objecttypen, attributen, relaties, diagram) en `tools/fix_proposal_mor.py`
+   van `tools/fixes/add_samenwerkomgeving.py` (objecttypen, attributen, relaties, diagram) en `tools/fixes/fix_proposal_mor.py`
    (attributen op bestaande klassen): zes objecttypen, twee attributen, een definitie en negen of tien relaties in
    `Model Financien`. Diagrammen: `Verbijzondering`, `Verbijzonderingsoort` en `Referentiegrootboekrekening` op
    *Financien Verwerken Mutaties* (1886, rechts van `Mutatie` en `Hoofdrekening`); `Verdeelsleutel`,

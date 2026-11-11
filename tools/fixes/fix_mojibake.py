@@ -10,8 +10,8 @@ Harde spaties (U+00A0) worden gewone spaties en namen verliezen witruimte aan de
 Standaard dry-run (mode=ro); --apply schrijft in één transactie. Idempotent.
 
 Gebruik:
-  python3 -I tools/fix_mojibake.py "v3.0.0/Gemeentelijk Gegevensmodel.qea"
-  python3 -I tools/fix_mojibake.py "v3.0.0/Gemeentelijk Gegevensmodel.qea" --apply
+  python3 -I tools/fixes/fix_mojibake.py "v3.0.0/Gemeentelijk Gegevensmodel.qea"
+  python3 -I tools/fixes/fix_mojibake.py "v3.0.0/Gemeentelijk Gegevensmodel.qea" --apply
 """
 import argparse
 import re

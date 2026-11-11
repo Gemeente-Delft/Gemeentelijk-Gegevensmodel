@@ -12,13 +12,13 @@ GGM (.qea = SQLite), volgens het advies van 11 november 2026 en de keuzes van Ar
   6. Alles krijgt MIM: stereotypen «Objecttype», «Attribuutsoort», «Relatiesoort» en «Generalisatie»
      (profiel VNGR SIM+Grouping NL), MIM-datatypes, definities, toelichtingen en de MIM-tagsets.
 
-Zelfde werkwijze als tools/add_samenwerkomgeving.py: één transactie, standaard een dry-run op een
+Zelfde werkwijze als tools/fixes/add_samenwerkomgeving.py: één transactie, standaard een dry-run op een
 tijdelijke kopie, met --apply vastleggen in de echte .qea. Idempotent: een tweede run meldt 0
 wijzigingen. Enterprise Architect gesloten, back-up gemaakt.
 
 Gebruik:
-  python3 -I tools/fix_zwembaden.py "v3.0.0/Gemeentelijk Gegevensmodel.qea"          # dry-run
-  python3 -I tools/fix_zwembaden.py "v3.0.0/Gemeentelijk Gegevensmodel.qea" --apply  # doorvoeren
+  python3 -I tools/fixes/fix_zwembaden.py "v3.0.0/Gemeentelijk Gegevensmodel.qea"          # dry-run
+  python3 -I tools/fixes/fix_zwembaden.py "v3.0.0/Gemeentelijk Gegevensmodel.qea" --apply  # doorvoeren
 """
 import argparse
 import pathlib
@@ -629,16 +629,17 @@ class Fixer:
                 problems.append(f"attribuut {r['o']}.{r['Name']}")
         for r in self.all(f"SELECT c.Connector_Type, c.Stereotype, c.Name, c.SourceCard, c.DestCard, c.Direction, "
                           f"s.Name AS s, d.Name AS d FROM t_connector c JOIN t_object s ON s.Object_ID=c.Start_Object_ID "
-                          f"JOIN t_object d ON d.Object_ID=c.End_Object_ID WHERE c.Start_Object_ID IN ({marks}) "
-                          f"OR c.End_Object_ID IN ({marks}) ORDER BY s.Name, c.Name", *ids, *ids):
+                          f"JOIN t_object d ON d.Object_ID=c.End_Object_ID WHERE (c.Start_Object_ID IN ({marks}) "
+                          f"OR c.End_Object_ID IN ({marks})) AND c.Connector_Type<>'NoteLink' "   # notitiekoppelingen tellen niet
+                          f"ORDER BY s.Name, c.Name", *ids, *ids):
             assoc = r["Connector_Type"] == "Association"
             ok = (r["Stereotype"] == "Relatiesoort" and r["SourceCard"] and r["DestCard"]
                   and r["Direction"] == "Source -> Destination") if assoc else r["Stereotype"] == "Generalisatie"
             if not ok:
                 problems.append(f"relatie {r['s']} '{r['Name']}' {r['d']}")
         n_attr = self.one(f"SELECT COUNT(*) FROM t_attribute WHERE Object_ID IN ({marks})", *ids)[0]
-        n_rel = self.one(f"SELECT COUNT(*) FROM t_connector WHERE Start_Object_ID IN ({marks}) OR End_Object_ID IN ({marks})",
-                         *ids, *ids)[0]
+        n_rel = self.one(f"SELECT COUNT(*) FROM t_connector WHERE (Start_Object_ID IN ({marks}) OR End_Object_ID IN ({marks})) "
+                         f"AND Connector_Type<>'NoteLink'", *ids, *ids)[0]
         self.say(f"{len(ids)} objecttypen, {n_attr} attributen, {n_rel} relaties; {len(problems)} afwijking(en)")
         for p in problems:
             self.say(f"    AFWIJKING: {p}")

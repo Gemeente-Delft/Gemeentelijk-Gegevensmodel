@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Koppelt losse typenamen van attributen aan de gelijknamige klasse, enumeratie of datatype (nov 2026).
 
-Na de MIM-omzetting (tools/fix_datatypes_mim.py) resteren attributen waarvan de typetekst
+Na de MIM-omzetting (tools/fixes/fix_datatypes_mim.py) resteren attributen waarvan de typetekst
 (t_attribute.Type) een naam uit het model is, maar zonder classifier: 'Type', 'Leverancier',
 'statusOpenbareRuimte', 'LAND' ... De generatoren vallen dan terug op naam-matching (crunch_uml,
 LOD) of op xsd:string. Een datatype mag ook een klasse/objecttype, referentielijst of enumeratie
@@ -26,9 +26,9 @@ Sluit Enterprise Architect en maak eerst een back-up. --zonder-imbor slaat het p
 'Model Basis IMBOR' over (daar loopt de IMBOR-omzetting nog).
 
 Gebruik:
-  python3 -I tools/fix_classifiers.py "v3.0.0/Gemeentelijk Gegevensmodel.qea" \
+  python3 -I tools/fixes/fix_classifiers.py "v3.0.0/Gemeentelijk Gegevensmodel.qea" \
       --rapport tools/classifiers-koppelen-dryrun.md --csv /tmp/classifiers.csv
-  python3 -I tools/fix_classifiers.py "v3.0.0/Gemeentelijk Gegevensmodel.qea" --apply --zonder-imbor
+  python3 -I tools/fixes/fix_classifiers.py "v3.0.0/Gemeentelijk Gegevensmodel.qea" --apply --zonder-imbor
 """
 import argparse
 import collections
@@ -167,7 +167,7 @@ class Koppelaar:
         L = []
         L.append(f"# Koppeling van losse typenamen aan classifiers ({mode}, {self.now})\n")
         L.append("Bron: `v3.0.0/Gemeentelijk Gegevensmodel.qea`, attributen van klassen met een typetekst zonder "
-                 "classifier. Script: `tools/fix_classifiers.py`." + (" Pakket Model Basis IMBOR overgeslagen "
+                 "classifier. Script: `tools/fixes/fix_classifiers.py`." + (" Pakket Model Basis IMBOR overgeslagen "
                  "(--zonder-imbor)." if self.zonder_imbor else "") + "\n")
         L.append("## Samenvatting\n")
         L.append("| Categorie | IMBOR | Overig | Totaal |\n|---|---:|---:|---:|")

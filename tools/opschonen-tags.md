@@ -1,7 +1,7 @@
 # `#NOTES#` in de .qea: onderzoek en voorstel
 
 Onderzoek van 29 oktober 2026 naar de vervuiling van EA-tagwaarden in `v3.0.0/Gemeentelijk Gegevensmodel.qea`,
-met een voorstel om ze op te schonen. Script: `tools/opschoon_tags.py` (rapporteert standaard; schrijft alleen met
+met een voorstel om ze op te schonen. Script: `tools/fixes/opschoon_tags.py` (rapporteert standaard; schrijft alleen met
 `--output` een opgeschoonde kopie).
 
 ## Hoe EA een tagged value bewaart
@@ -76,7 +76,7 @@ maar de `.qea` maakt het wel oplosbaar.
    - de terugschrijver (`export -t earepo`, `-t eamimrepo`) schrijft nooit meer `#NOTES#` in `Value`: de
      waarde vóór de scheider wordt `Value`, memotekst gaat naar `Notes`, en een lege waarde blijft leeg. Daarmee
      kan de vervuiling niet terugkomen.
-2. **Opschonen** met `tools/opschoon_tags.py`, EA dicht, op een kopie:
+2. **Opschonen** met `tools/fixes/opschoon_tags.py`, EA dicht, op een kopie:
    - `Value` wordt het deel vóór de eerste `#NOTES#`; bij een lege waarde met echte tekst erachter wordt die
      tekst de waarde (57 rijen Toelichting en Populatie, zoals EA die bij schone rijen ook bewaart);
    - bij `<memo>` wordt `Notes` de tekst: elk deel één keer, zonder tagdefinities (de 41 memo-rijen; Wijk en
@@ -142,7 +142,7 @@ Conclusie: de opschoning is veilig zodra de parserfix er is, en de parserfix is 
 1. crunch_uml 0.8.6 uitgebracht (PR 22): de qea-parser geeft memotekst uit `Notes` door als `<memo>#NOTES#tekst`;
    de terugschrijver (`export -t earepo`/`-t eamimrepo`) zet de waarde vóór de scheider in `Value` en de memotekst in
    `Notes`, en vergelijkt beide kolommen voordat een tag als gewijzigd geldt. `test_55` dekt de rondreis.
-2. `v3.0.0/Gemeentelijk Gegevensmodel.qea` vervangen door de opgeschoonde kopie van `tools/opschoon_tags.py`
+2. `v3.0.0/Gemeentelijk Gegevensmodel.qea` vervangen door de opgeschoonde kopie van `tools/fixes/opschoon_tags.py`
    (1.960 rijen bijgewerkt, 0 rijen met `#NOTES#` over, `pragma integrity_check` ok). Het origineel staat in git
    (commit 073dd960 en eerder).
 3. Pijplijn opnieuw gedraaid met 0.8.6 (`task --force import:model`, docs, LOD, Excel). Tegenover de 0.8.5-uitvoer:

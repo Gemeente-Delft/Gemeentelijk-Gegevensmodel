@@ -2,9 +2,9 @@
 
 Bron: `v3.0.0/Gemeentelijk Gegevensmodel.qea`, alle enumeratiewaarden (t_attribute van objecten met
 Object_Type Enumeration). Aanleiding: de LOD-export meldt waarden die binnen één enumeratie dezelfde IRI-slug
-krijgen en daarom een volgnummer. Script voor het samenvoegen: `tools/fix_enum_dubbelen.py`.
+krijgen en daarom een volgnummer. Script voor het samenvoegen: `tools/fixes/fix_enum_dubbelen.py`.
 
-**Status: doorgevoerd op 4 november 2026 (18:05)**, inclusief IMBOR: 40 overtollige waarden weg uit zes enumeraties, integrity ok, tweede run 0. Back-up: `v3.0.0/Gemeentelijk Gegevensmodel.qea.backup-2026-11-04-voor-enum-dubbelen`. Daarbij ook de verkeerd gecodeerde tekens hersteld met `tools/fix_mojibake.py`: 154 teksten (36 enumeratiewaarden, 109 toelichtingen van enumeratiewaarden en IMBOR-attributen, de enumeraties enum_Oriëntatie en enum_Plaatsoriëntatie, 4 objecttoelichtingen, 3 objecttags); harde spaties zijn gewone spaties geworden. DefaultEnumeratie heeft nu één waarde; de keuze om dat attribuut CharacterString te maken staat nog open. De slug-aanpassing in crunch_uml is niet gedaan.
+**Status: doorgevoerd op 4 november 2026 (18:05)**, inclusief IMBOR: 40 overtollige waarden weg uit zes enumeraties, integrity ok, tweede run 0. Back-up: `v3.0.0/Gemeentelijk Gegevensmodel.qea.backup-2026-11-04-voor-enum-dubbelen`. Daarbij ook de verkeerd gecodeerde tekens hersteld met `tools/fixes/fix_mojibake.py`: 154 teksten (36 enumeratiewaarden, 109 toelichtingen van enumeratiewaarden en IMBOR-attributen, de enumeraties enum_Oriëntatie en enum_Plaatsoriëntatie, 4 objecttoelichtingen, 3 objecttags); harde spaties zijn gewone spaties geworden. DefaultEnumeratie heeft nu één waarde; de keuze om dat attribuut CharacterString te maken staat nog open. De slug-aanpassing in crunch_uml is niet gedaan.
 
 ## Samenvatting
 
@@ -54,7 +54,7 @@ Planten bevat verkeerd gecodeerde tekens ("Ã©Ã©n" voor "één"); dat komt ui
 ## Uitvoering
 
 ```bash
-python3 -I tools/fix_enum_dubbelen.py "v3.0.0/Gemeentelijk Gegevensmodel.qea"
+python3 -I tools/fixes/fix_enum_dubbelen.py "v3.0.0/Gemeentelijk Gegevensmodel.qea"
 ```
 
 Dry-run (4 nov 2026, 17:55): 40 overtollige waarden in 6 enumeraties, geen samen te voegen toelichtingen. Doorvoeren met

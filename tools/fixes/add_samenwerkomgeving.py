@@ -4,7 +4,7 @@ mei-juni 2026) opnemen in de EA-repository van het GGM (.qea = SQLite), volgens 
 tools/proposal-samenwerkomgeving.md (aanbevolen keuzes: eigen package, Teamlidmaatschap met
 enumeratie Teamrol, Chatbox vervalt, Lid wordt Teamlid met relatie naar Medewerker uit Kern RGBZ).
 
-Zelfde werkwijze als tools/fix_proposal_mor.py: één transactie, standaard een dry-run op een
+Zelfde werkwijze als tools/fixes/fix_proposal_mor.py: één transactie, standaard een dry-run op een
 tijdelijke kopie, met --apply vastleggen in de echte .qea. Idempotent: een tweede run meldt 0
 wijzigingen. Enterprise Architect gesloten, back-up gemaakt.
 
@@ -20,8 +20,8 @@ Applicatiecategorie, relatie 'kan leiden tot', diagram 'Domain Objects' van HR) 
   5. Diagram 'Samenwerkomgeving' met alle elementen (attributen zichtbaar) en alle relaties.
 
 Gebruik:
-  python3 -I tools/add_samenwerkomgeving.py "v3.0.0/Gemeentelijk Gegevensmodel.qea"          # dry-run
-  python3 -I tools/add_samenwerkomgeving.py "v3.0.0/Gemeentelijk Gegevensmodel.qea" --apply  # doorvoeren
+  python3 -I tools/fixes/add_samenwerkomgeving.py "v3.0.0/Gemeentelijk Gegevensmodel.qea"          # dry-run
+  python3 -I tools/fixes/add_samenwerkomgeving.py "v3.0.0/Gemeentelijk Gegevensmodel.qea" --apply  # doorvoeren
 """
 import argparse
 import pathlib

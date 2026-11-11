@@ -37,8 +37,8 @@ Wat het script doet (nummering volgt het issue):
      EnumX; in de LOD kregen klasse en enumeratie anders dezelfde IRI.
 
 Gebruik:
-  python3 -I tools/fix_issue_53.py "v3.0.0/Gemeentelijk Gegevensmodel.qea"          # dry-run
-  python3 -I tools/fix_issue_53.py "v3.0.0/Gemeentelijk Gegevensmodel.qea" --apply  # doorvoeren
+  python3 -I tools/fixes/fix_issue_53.py "v3.0.0/Gemeentelijk Gegevensmodel.qea"          # dry-run
+  python3 -I tools/fixes/fix_issue_53.py "v3.0.0/Gemeentelijk Gegevensmodel.qea" --apply  # doorvoeren
 """
 import argparse
 import pathlib

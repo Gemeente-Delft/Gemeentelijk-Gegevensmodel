@@ -6,7 +6,7 @@ sinds februari 2026, akkoord, toegezegd voor de volgende release) doorvoeren in 
 Hoofdrekening 'is van soort', conform het advies van de expertgroep van 4 februari 2026. Het script is
 idempotent: een tweede run voegt alleen de RGS-delen toe.
 
-Zelfde werkwijze als tools/add_samenwerkomgeving.py: één transactie, standaard een dry-run op een tijdelijke
+Zelfde werkwijze als tools/fixes/add_samenwerkomgeving.py: één transactie, standaard een dry-run op een tijdelijke
 kopie, met --apply vastleggen. Idempotent. Enterprise Architect gesloten, back-up gemaakt.
 
 Wat het script doet, in Model Financien:
@@ -20,8 +20,8 @@ Wat het script doet, in Model Financien:
      Verdeelregel (attributen zichtbaar).
 
 Gebruik:
-  python3 -I tools/add_financien_pohv.py "v3.0.0/Gemeentelijk Gegevensmodel.qea"          # dry-run
-  python3 -I tools/add_financien_pohv.py "v3.0.0/Gemeentelijk Gegevensmodel.qea" --apply  # doorvoeren
+  python3 -I tools/fixes/add_financien_pohv.py "v3.0.0/Gemeentelijk Gegevensmodel.qea"          # dry-run
+  python3 -I tools/fixes/add_financien_pohv.py "v3.0.0/Gemeentelijk Gegevensmodel.qea" --apply  # doorvoeren
 """
 import argparse
 import pathlib

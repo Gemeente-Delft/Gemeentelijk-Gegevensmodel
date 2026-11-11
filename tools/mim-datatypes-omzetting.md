@@ -1,6 +1,6 @@
 # Omzetting datatypes naar MIM: doorgevoerd
 
-*2026-11-04 16:26:10, script tools/fix_datatypes_mim.py, mapping in tools/mim-datatypes-mapping.md.*
+*2026-11-04 16:26:10, script tools/fixes/fix_datatypes_mim.py, mapping in tools/mim-datatypes-mapping.md.*
 
 Attributen (zonder enumeratiewaarden): 4618. Met een geplande wijziging: 3267. Handmatig te beoordelen: 6. Buiten scope: 283. Attributen zonder enige MIM-tag: 274.
 

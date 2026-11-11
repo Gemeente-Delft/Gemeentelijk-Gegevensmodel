@@ -87,13 +87,13 @@ Definities voor de nieuwe attributen komen uit de kolom *Beschrijving* van het v
    en `Expertgroep`, met het besluit van 12 augustus 2026 en de vertaling uit hoofdstuk 3.
 2. **Model aanpassen** op `v3.0.0/Gemeentelijk Gegevensmodel.qea`, na een kopie zoals bij issue 53 en 57.
    Twee routes:
-   - *Script* `tools/fix_proposal_mor.py` naar het patroon van `tools/fix_issues_50_49_13.py`: de acht
+   - *Script* `tools/fixes/fix_proposal_mor.py` naar het patroon van `tools/fixes/fix_issues_50_49_13.py`: de acht
      attributen invoegen via een sjabloonrij uit dezelfde klasse (met `t_attributetag`, waaronder `Lengte`, en
      `t_xref`), de twee relaties naar `Medewerker` en `OrganisatorischeEenheid` als `t_connector` met
      kardinaliteiten. Daarna in EA openen, diagram `MOR 2.0` bijwerken (Medewerker en OrganisatorischeEenheid
      erop) en de EA-check doen.
    - *Handmatig in EA*: acht attributen en twee relaties, ongeveer een half uur.
-   Uitgevoerd op 4 november 2026 met `tools/fix_proposal_mor.py` (zeven attributen, twee relaties, diagram
+   Uitgevoerd op 4 november 2026 met `tools/fixes/fix_proposal_mor.py` (zeven attributen, twee relaties, diagram
    `MOR 2.0` bijgewerkt).
 3. **Documentatie.** Paragraaf *Meldingen openbare ruimte* in `docs/domeinen/dienstverlening.md` met het
    diagram `MOR 2.0`, zodat MOR vindbaar is; daarna `task generate:docs` en `task publish:local`. DDL opnieuw

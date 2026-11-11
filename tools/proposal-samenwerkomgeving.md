@@ -132,7 +132,7 @@ omgeving (Teams, SharePoint, Nextcloud) aan de applicatieregistratie hangt. Zie 
 
 ## 4. Uitvoering
 
-Uitgevoerd op 4 november 2026 met `tools/add_samenwerkomgeving.py` volgens de aanbevolen keuzes uit hoofdstuk 5:
+Uitgevoerd op 4 november 2026 met `tools/fixes/add_samenwerkomgeving.py` volgens de aanbevolen keuzes uit hoofdstuk 5:
 eigen package `Samenwerkomgeving` onder `9 Interne Organisatie`, enumeratie `Teamrol` met `Teamlidmaatschap`,
 `Chatbox` vervallen, `Teamlid` met relatie naar `Medewerker`; 15 objecttypen, 21 relaties en het diagram
 `Samenwerkomgeving`. De relatie naar `Applicatie` (keuze 6) is niet opgenomen. Stap 1 en 2 hieronder staan nog
@@ -148,7 +148,7 @@ open: de definities zijn door ons opgesteld en moeten door Erik worden bevestigd
    57 (`.qea.backup-<datum>-voor-samenwerkomgeving`). XMI van Erik importeren in een tijdelijk package, naar
    `9 Interne Organisatie` verplaatsen en de correcties uit hoofdstuk 3 aanbrengen (namen, MIM-datatypes met
    `Lengte`, ID's weg, definities); zonder XMI handmatig opbouwen. Diagram `Samenwerkomgeving` in het package
-   `Diagram`. Scripten via sqlite (zoals `tools/fix_issue_57.py`) is voor een nieuw package met diagram af te
+   `Diagram`. Scripten via sqlite (zoals `tools/fixes/fix_issue_57.py`) is voor een nieuw package met diagram af te
    raden.
 5. **Documentatie.** Domeinpagina `docs/domeinen/samenwerkomgeving.md` naar het voorbeeld van `ict.md` en
    `hr.md`; `mkdocs.yml` aanvullen onder *Interne organisatie* (domeinen en definities); daarna

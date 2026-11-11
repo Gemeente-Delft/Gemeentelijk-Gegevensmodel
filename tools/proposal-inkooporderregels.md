@@ -22,7 +22,7 @@ expertgroep met inleiding, aanleiding en twee diagrammen) en de consultatie-info
   relaties (`Inkooporder` heeft regels, regel wordt geschreven op `Hoofdrekening` en `Kostenplaats`, `Factuurregel`
   betreft regel) en plaatsing op het diagram *Financien Verplichtingen en Facturen*. De bestaande attributen van
   `Inkooporder` blijven staan (keuze 2).
-- **Uitgevoerd op 4 november 2026** met `tools/add_inkooporderregels.py`; zie hoofdstuk 5.
+- **Uitgevoerd op 4 november 2026** met `tools/fixes/add_inkooporderregels.py`; zie hoofdstuk 5.
 
 ## 1. Wat is gecontroleerd
 
@@ -90,6 +90,6 @@ inkooporder bestaat uit een of meer inkooporderregels; de kop bevat de algemene 
 
 ## 5. Uitvoering
 
-Uitgevoerd op 4 november 2026 met `tools/add_inkooporderregels.py` (objecttype, elf attributen, vier relaties,
+Uitgevoerd op 4 november 2026 met `tools/fixes/add_inkooporderregels.py` (objecttype, elf attributen, vier relaties,
 diagram), na een kopie van de .qea. Nog te doen: diagrambeeld exporteren, `task generate:docs`, DDL en Linked Data,
 GitHub-issue, de indieners en Jetse van Tilborg (Centric) informeren.

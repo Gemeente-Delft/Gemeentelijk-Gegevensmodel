@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Correcties uit GitHub-issues 50, 49 en 13 op de EA-repository van het GGM (.qea = SQLite).
 
-Zelfde werkwijze als tools/fix_issue_53.py: één transactie, standaard een dry-run op een
+Zelfde werkwijze als tools/fixes/fix_issue_53.py: één transactie, standaard een dry-run op een
 tijdelijke kopie (exacte aantallen, origineel onaangeroerd), met --apply vastleggen in de
 echte .qea. Idempotent: een tweede run meldt 0 wijzigingen. EA gesloten, back-up gemaakt.
 
@@ -16,8 +16,8 @@ echte .qea. Idempotent: een tweede run meldt 0 wijzigingen. EA gesloten, back-up
        'GEMMA definitie' blijft wat GEMMA Online toont.
 
 Gebruik:
-  python3 -I tools/fix_issues_50_49_13.py "v3.0.0/Gemeentelijk Gegevensmodel.qea"          # dry-run
-  python3 -I tools/fix_issues_50_49_13.py "v3.0.0/Gemeentelijk Gegevensmodel.qea" --apply  # doorvoeren
+  python3 -I tools/fixes/fix_issues_50_49_13.py "v3.0.0/Gemeentelijk Gegevensmodel.qea"          # dry-run
+  python3 -I tools/fixes/fix_issues_50_49_13.py "v3.0.0/Gemeentelijk Gegevensmodel.qea" --apply  # doorvoeren
 """
 import argparse
 import pathlib

@@ -1,6 +1,6 @@
 # Datatypes GGM v3.0.0 naar MIM: mapping
 
-*Status: doorgevoerd in het EA-model op 4 november 2026 met tools/fix_datatypes_mim.py (3.267 attributen). De vervolgstappen onder "Open punten" staan nog open.*
+*Status: doorgevoerd in het EA-model op 4 november 2026 met tools/fixes/fix_datatypes_mim.py (3.267 attributen). De vervolgstappen onder "Open punten" staan nog open.*
 
 ## Context
 

@@ -28,8 +28,8 @@ Wat het script doet (nummering volgt het issue):
      hetzelfde diagram), DatumVacature wordt DatumVerwijzingVacature.
 
 Gebruik:
-  python3 -I tools/fix_issue_57.py "v3.0.0/Gemeentelijk Gegevensmodel.qea"          # dry-run
-  python3 -I tools/fix_issue_57.py "v3.0.0/Gemeentelijk Gegevensmodel.qea" --apply  # doorvoeren
+  python3 -I tools/fixes/fix_issue_57.py "v3.0.0/Gemeentelijk Gegevensmodel.qea"          # dry-run
+  python3 -I tools/fixes/fix_issue_57.py "v3.0.0/Gemeentelijk Gegevensmodel.qea" --apply  # doorvoeren
 """
 import argparse
 import pathlib

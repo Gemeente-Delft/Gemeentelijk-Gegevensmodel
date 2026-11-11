@@ -18,8 +18,8 @@ Standaard dry-run (mode=ro). --apply voert door in één transactie; sluit Enter
 eerst een back-up. --zonder-imbor slaat het pakket 'Model Basis IMBOR' over. Idempotent.
 
 Gebruik:
-  python3 -I tools/fix_enum_dubbelen.py "v3.0.0/Gemeentelijk Gegevensmodel.qea"
-  python3 -I tools/fix_enum_dubbelen.py "v3.0.0/Gemeentelijk Gegevensmodel.qea" --apply --zonder-imbor
+  python3 -I tools/fixes/fix_enum_dubbelen.py "v3.0.0/Gemeentelijk Gegevensmodel.qea"
+  python3 -I tools/fixes/fix_enum_dubbelen.py "v3.0.0/Gemeentelijk Gegevensmodel.qea" --apply --zonder-imbor
 """
 import argparse
 import collections

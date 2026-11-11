@@ -3,7 +3,7 @@
 openbare consultatie tot 13 juni 2026) doorvoeren in de EA-repository van het GGM (.qea = SQLite), volgens
 tools/proposal-inkooporderregels.md.
 
-Zelfde werkwijze als tools/add_financien_pohv.py: één transactie, standaard een dry-run op een tijdelijke
+Zelfde werkwijze als tools/fixes/add_financien_pohv.py: één transactie, standaard een dry-run op een tijdelijke
 kopie, met --apply vastleggen. Idempotent. Enterprise Architect gesloten, back-up gemaakt.
 
 Wat het script doet, in Model Financien:
@@ -16,8 +16,8 @@ Wat het script doet, in Model Financien:
      relaties en de bestaande relatie Factuur heeft Factuurregel.
 
 Gebruik:
-  python3 -I tools/add_inkooporderregels.py "v3.0.0/Gemeentelijk Gegevensmodel.qea"          # dry-run
-  python3 -I tools/add_inkooporderregels.py "v3.0.0/Gemeentelijk Gegevensmodel.qea" --apply  # doorvoeren
+  python3 -I tools/fixes/add_inkooporderregels.py "v3.0.0/Gemeentelijk Gegevensmodel.qea"          # dry-run
+  python3 -I tools/fixes/add_inkooporderregels.py "v3.0.0/Gemeentelijk Gegevensmodel.qea" --apply  # doorvoeren
 """
 import argparse
 import pathlib

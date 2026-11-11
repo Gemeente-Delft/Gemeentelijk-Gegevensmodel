@@ -3,7 +3,7 @@
 EA-repository van het GGM (.qea = SQLite). Besluit 23e expertgroep, 12 augustus 2026; uitwerking in
 tools/proposal-meldingen-openbare-ruimte.md.
 
-Zelfde werkwijze als tools/fix_issue_57.py en tools/fix_issues_50_49_13.py: één transactie, standaard
+Zelfde werkwijze als tools/fixes/fix_issue_57.py en tools/fixes/fix_issues_50_49_13.py: één transactie, standaard
 een dry-run op een tijdelijke kopie, met --apply vastleggen in de echte .qea. Idempotent: een tweede
 run meldt 0 wijzigingen. Enterprise Architect gesloten, back-up gemaakt.
 
@@ -21,8 +21,8 @@ Wat het script doet:
   Lengte, Herkomst en Datum opname gevuld.
 
 Gebruik:
-  python3 -I tools/fix_proposal_mor.py "v3.0.0/Gemeentelijk Gegevensmodel.qea"          # dry-run
-  python3 -I tools/fix_proposal_mor.py "v3.0.0/Gemeentelijk Gegevensmodel.qea" --apply  # doorvoeren
+  python3 -I tools/fixes/fix_proposal_mor.py "v3.0.0/Gemeentelijk Gegevensmodel.qea"          # dry-run
+  python3 -I tools/fixes/fix_proposal_mor.py "v3.0.0/Gemeentelijk Gegevensmodel.qea" --apply  # doorvoeren
 """
 import argparse
 import pathlib

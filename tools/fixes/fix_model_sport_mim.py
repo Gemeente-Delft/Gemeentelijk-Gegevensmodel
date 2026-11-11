@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """De oudere elementen van Model Sport (5 Sport, Cultuur en Recreatie > Sport) naar MIM brengen in de
-EA-repository van het GGM (.qea = SQLite). Vervolg op tools/fix_zwembaden.py (11 november 2026), op
+EA-repository van het GGM (.qea = SQLite). Vervolg op tools/fixes/fix_zwembaden.py (11 november 2026), op
 verzoek van Arjen ("Ja, ook Model Sport").
 
 Wat het script doet:
@@ -22,8 +22,8 @@ Eén transactie, standaard een dry-run op een tijdelijke kopie, met --apply vast
 Enterprise Architect gesloten, back-up gemaakt.
 
 Gebruik:
-  python3 -I tools/fix_model_sport_mim.py "v3.0.0/Gemeentelijk Gegevensmodel.qea"          # dry-run
-  python3 -I tools/fix_model_sport_mim.py "v3.0.0/Gemeentelijk Gegevensmodel.qea" --apply  # doorvoeren
+  python3 -I tools/fixes/fix_model_sport_mim.py "v3.0.0/Gemeentelijk Gegevensmodel.qea"          # dry-run
+  python3 -I tools/fixes/fix_model_sport_mim.py "v3.0.0/Gemeentelijk Gegevensmodel.qea" --apply  # doorvoeren
 """
 import argparse
 import pathlib
