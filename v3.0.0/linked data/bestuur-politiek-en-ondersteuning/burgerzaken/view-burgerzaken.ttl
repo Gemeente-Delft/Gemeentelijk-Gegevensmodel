@@ -1,4 +1,4 @@
-# graph: <https://lod.gemeentelijkgegevensmodel.nl/v3.0.0/bestuur-politiek-en-ondersteuning/burgerzaken/burgerzaken>
+# graph: <https://lod.gemeentelijkgegevensmodel.nl/v3.0.0/bestuur-politiek-en-ondersteuning/burgerzaken/view-burgerzaken>
 
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix mim: <http://modellen.mim-standaard.nl/def/mim#> .
@@ -73,8 +73,8 @@
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
     rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/ingeschrevenpersoon> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/v3.0.0/bestuur-politiek-en-ondersteuning/burgerzaken/burgerzaken> a owl:Ontology ;
-    rdfs:label "Burgerzaken"@nl ;
+<https://lod.gemeentelijkgegevensmodel.nl/v3.0.0/bestuur-politiek-en-ondersteuning/burgerzaken/view-burgerzaken> a owl:Ontology ;
+    rdfs:label "View Burgerzaken"@nl ;
     dcterms:identifier "EAID_D9511F60_3CA7_43bd_B6C8_F66447D66DBA" ;
     dcterms:isPartOf <https://lod.gemeentelijkgegevensmodel.nl/> ;
     owl:versionInfo "v3.0.0" .

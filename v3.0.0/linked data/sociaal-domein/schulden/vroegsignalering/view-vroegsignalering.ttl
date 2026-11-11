@@ -1,4 +1,4 @@
-# graph: <https://lod.gemeentelijkgegevensmodel.nl/v3.0.0/sociaal-domein/schulden/vroegsignalering/vroegsignalering>
+# graph: <https://lod.gemeentelijkgegevensmodel.nl/v3.0.0/sociaal-domein/schulden/vroegsignalering/view-vroegsignalering>
 
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix geo: <http://www.opengis.net/ont/geosparql#> .
@@ -327,8 +327,8 @@
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/schulden/vroegsignalering/> ;
     rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gemeente> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/v3.0.0/sociaal-domein/schulden/vroegsignalering/vroegsignalering> a owl:Ontology ;
-    rdfs:label "Vroegsignalering"@nl ;
+<https://lod.gemeentelijkgegevensmodel.nl/v3.0.0/sociaal-domein/schulden/vroegsignalering/view-vroegsignalering> a owl:Ontology ;
+    rdfs:label "View Vroegsignalering"@nl ;
     dcterms:identifier "EAID_07334A5A_E2F0_41ce_8510_B41BAF6876BD" ;
     dcterms:isPartOf <https://lod.gemeentelijkgegevensmodel.nl/> ;
     owl:versionInfo "v3.0.0" .

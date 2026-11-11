@@ -44,7 +44,7 @@
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "0..*" ;
     mim:kardinaliteitRelatieBron "0..*" ;
-    mim:mogelijkGeenWaarde true ;
+    mim:mogelijkGeenWaarde false ;
     mim:naam "heeft"@nl ;
     mim:unidirectioneel true ;
     dcterms:identifier "EAID_D1CABCB9_BCC0_4288_96F7_C66C76C6D252" ;
@@ -66,7 +66,7 @@
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "0..*" ;
     mim:kardinaliteitRelatieBron "0..*" ;
-    mim:mogelijkGeenWaarde true ;
+    mim:mogelijkGeenWaarde false ;
     mim:naam "heeft"@nl ;
     mim:unidirectioneel true ;
     dcterms:identifier "EAID_B86CBE10_CDA1_4945_BE76_236321765DCF" ;
@@ -88,7 +88,7 @@
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "0..*" ;
     mim:kardinaliteitRelatieBron "0..1" ;
-    mim:mogelijkGeenWaarde true ;
+    mim:mogelijkGeenWaarde false ;
     mim:naam "heeft"@nl ;
     mim:unidirectioneel true ;
     dcterms:identifier "EAID_ADFCB89E_2296_4c77_B112_FD165DE4F164" ;
@@ -110,7 +110,7 @@
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "0..*" ;
     mim:kardinaliteitRelatieBron "0..*" ;
-    mim:mogelijkGeenWaarde true ;
+    mim:mogelijkGeenWaarde false ;
     mim:naam "gebruikt"@nl ;
     mim:unidirectioneel true ;
     dcterms:identifier "EAID_B5E7BB72_759A_457c_8CD9_6EDD0C20BFC5" ;
@@ -132,7 +132,7 @@
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..*" ;
     mim:kardinaliteitRelatieBron "0..*" ;
-    mim:mogelijkGeenWaarde true ;
+    mim:mogelijkGeenWaarde false ;
     mim:naam "oefent uit"@nl ;
     mim:unidirectioneel true ;
     dcterms:identifier "EAID_3BD57709_AE22_40c0_A501_1DB1435C1488" ;
@@ -154,7 +154,7 @@
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "0..*" ;
     mim:kardinaliteitRelatieBron "0..*" ;
-    mim:mogelijkGeenWaarde true ;
+    mim:mogelijkGeenWaarde false ;
     mim:naam "heeft"@nl ;
     mim:unidirectioneel true ;
     dcterms:identifier "EAID_E0398E9C_B2DD_403a_98FC_EBB0A8851598" ;
@@ -1260,6 +1260,29 @@ kapitaalvennootschap zijn binnen of buiten de E.E.R."""@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/sport/> ;
     rdfs:range xsd:string .
 
+<https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/sport/veld/naam> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "naam"@nl ;
+    mim:datumOpname "2026-11-11"^^xsd:date ;
+    mim:definitie "Naam van het veld."@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/sport/veld/naam"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:lengte "200" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "naam"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_5053EF8F_99CF_4B72_9AF6_D4F581DC7E8C" ;
+    rdfs:comment "Naam van het veld."@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/sport/veld> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/sport/> ;
+    rdfs:range xsd:string .
+
 <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/sport/sportpark> a mim:Objecttype,
         owl:Class ;
     rdfs:label "Sportpark"@nl ;
@@ -1301,23 +1324,12 @@ kapitaalvennootschap zijn binnen of buiten de E.E.R."""@nl ;
         owl:Class ;
     rdfs:label "Sportmateriaal"@nl ;
     mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/sport/sportmateriaal/naam> ;
-    mim:definitie "Materieel om sport mee te beoefenen of ter odnersteuning van de sportuitvoering."@nl ;
+    mim:definitie "Materieel om sport mee te beoefenen of ter ondersteuning van de sportuitvoering."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/sport/sportmateriaal"^^xsd:anyURI ;
     mim:indicatieAbstractObject false ;
     mim:naam "Sportmateriaal"@nl ;
     dcterms:identifier "EAID_5B64A5F8_64B5_4d1b_BEDD_486ED2C2C493" ;
-    rdfs:comment "Materieel om sport mee te beoefenen of ter odnersteuning van de sportuitvoering."@nl ;
-    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/sport/> .
-
-<https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/sport/veld> a mim:Objecttype,
-        owl:Class ;
-    rdfs:label "Veld"@nl ;
-    mim:definitie "Een stuk land dat speciaal voor het bedrijven van een veldsport gereedgemaakt is"@nl ;
-    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/sport/veld"^^xsd:anyURI ;
-    mim:indicatieAbstractObject false ;
-    mim:naam "Veld"@nl ;
-    dcterms:identifier "EAID_D1889096_CC76_48a8_A9DF_8151FFF1E0AC" ;
-    rdfs:comment "Een stuk land dat speciaal voor het bedrijven van een veldsport gereedgemaakt is"@nl ;
+    rdfs:comment "Materieel om sport mee te beoefenen of ter ondersteuning van de sportuitvoering."@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/sport/> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/sport/belijning> a mim:Objecttype,
@@ -1330,6 +1342,18 @@ kapitaalvennootschap zijn binnen of buiten de E.E.R."""@nl ;
     mim:naam "Belijning"@nl ;
     dcterms:identifier "EAID_9E01AD8B_D856_4a58_9CE1_06C70F628350" ;
     rdfs:comment "Op of in het oppervlak van de verharding aangebrachte tekens ter geleiding, waarschuwing, regeling of informatie van het verkeer"@nl ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/sport/> .
+
+<https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/sport/veld> a mim:Objecttype,
+        owl:Class ;
+    rdfs:label "Veld"@nl ;
+    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/sport/veld/naam> ;
+    mim:definitie "Een stuk land dat speciaal voor het bedrijven van een veldsport gereedgemaakt is"@nl ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/sport/veld"^^xsd:anyURI ;
+    mim:indicatieAbstractObject false ;
+    mim:naam "Veld"@nl ;
+    dcterms:identifier "EAID_D1889096_CC76_48a8_A9DF_8151FFF1E0AC" ;
+    rdfs:comment "Een stuk land dat speciaal voor het bedrijven van een veldsport gereedgemaakt is"@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/sport/> .
 
 <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/sport/sportlocatie> a mim:Objecttype,

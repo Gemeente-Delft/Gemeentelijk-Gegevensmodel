@@ -1,4 +1,4 @@
-# graph: <https://lod.gemeentelijkgegevensmodel.nl/v3.0.0/sociaal-domein/inburgering/inburgering>
+# graph: <https://lod.gemeentelijkgegevensmodel.nl/v3.0.0/sociaal-domein/inburgering/view-inburgering>
 
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix geo: <http://www.opengis.net/ont/geosparql#> .
@@ -908,8 +908,8 @@ Gezinsmigrant en Overige Migrant heeft geen kenmerken en is bedoeld om relaties 
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/> ;
     rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inburgering/examenonderdeel> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/v3.0.0/sociaal-domein/inburgering/inburgering> a owl:Ontology ;
-    rdfs:label "Inburgering"@nl ;
+<https://lod.gemeentelijkgegevensmodel.nl/v3.0.0/sociaal-domein/inburgering/view-inburgering> a owl:Ontology ;
+    rdfs:label "View Inburgering"@nl ;
     dcterms:identifier "EAID_96927C60_9F7B_4e67_806A_02EE0191983D" ;
     dcterms:isPartOf <https://lod.gemeentelijkgegevensmodel.nl/> ;
     owl:versionInfo "v3.0.0" .

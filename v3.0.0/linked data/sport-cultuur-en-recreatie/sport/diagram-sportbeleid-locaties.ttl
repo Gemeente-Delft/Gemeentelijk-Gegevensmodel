@@ -22,7 +22,7 @@
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
     mim:kardinaliteitRelatieBron "0..*" ;
-    mim:mogelijkGeenWaarde true ;
+    mim:mogelijkGeenWaarde false ;
     mim:naam "bedient"@nl ;
     mim:unidirectioneel true ;
     dcterms:identifier "EAID_ACAA8C5B_98C8_4040_9BF5_B0B95F43F945" ;
@@ -44,7 +44,7 @@
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "0..1" ;
     mim:kardinaliteitRelatieBron "0..*" ;
-    mim:mogelijkGeenWaarde true ;
+    mim:mogelijkGeenWaarde false ;
     mim:naam "is gevestigd in"@nl ;
     mim:unidirectioneel true ;
     dcterms:identifier "EAID_07B7AA32_6C85_4f64_88FC_B13D20D10B69" ;
@@ -66,7 +66,7 @@
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "0..*" ;
     mim:kardinaliteitRelatieBron "0..1" ;
-    mim:mogelijkGeenWaarde true ;
+    mim:mogelijkGeenWaarde false ;
     mim:naam "heeft"@nl ;
     mim:unidirectioneel true ;
     dcterms:identifier "EAID_ADFCB89E_2296_4c77_B112_FD165DE4F164" ;
@@ -88,7 +88,7 @@
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
     mim:kardinaliteitRelatieBron "0..1" ;
-    mim:mogelijkGeenWaarde true ;
+    mim:mogelijkGeenWaarde false ;
     mim:naam "ligt op"@nl ;
     mim:unidirectioneel true ;
     dcterms:identifier "EAID_C32A50B9_89E5_48b5_93DD_DD21E01E2E4C" ;
@@ -110,7 +110,7 @@
     mim:indicatieMaterieleHistorie false ;
     mim:kardinaliteit "1..1" ;
     mim:kardinaliteitRelatieBron "0..1" ;
-    mim:mogelijkGeenWaarde true ;
+    mim:mogelijkGeenWaarde false ;
     mim:naam "ligt op"@nl ;
     mim:unidirectioneel true ;
     dcterms:identifier "EAID_E803AA60_7038_4d6e_B5BA_2741116E7008" ;
@@ -1930,6 +1930,29 @@ De objecttypecode kent in de BAG de volgende waarde:
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/sport/> ;
     rdfs:range xsd:string .
 
+<https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/sport/veld/naam> a mim:Attribuutsoort,
+        owl:DatatypeProperty ;
+    rdfs:label "naam"@nl ;
+    mim:datumOpname "2026-11-11"^^xsd:date ;
+    mim:definitie "Naam van het veld."@nl ;
+    mim:heeftTijdlijnGeldigheid false ;
+    mim:heeftTijdlijnRegistratie false ;
+    mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/sport/veld/naam"^^xsd:anyURI ;
+    mim:indicatieAfleidbaar false ;
+    mim:indicatieClassificerend false ;
+    mim:indicatieFormeleHistorie false ;
+    mim:indicatieMaterieleHistorie false ;
+    mim:kardinaliteit "1..1" ;
+    mim:lengte "200" ;
+    mim:mogelijkGeenWaarde true ;
+    mim:naam "naam"@nl ;
+    mim:type mim:CharacterString ;
+    dcterms:identifier "EAID_5053EF8F_99CF_4B72_9AF6_D4F581DC7E8C" ;
+    rdfs:comment "Naam van het veld."@nl ;
+    rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/sport/veld> ;
+    rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/sport/> ;
+    rdfs:range xsd:string .
+
 <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/sport/sportlocatie> a mim:Objecttype,
         owl:Class ;
     rdfs:label "Sportlocatie"@nl ;
@@ -1957,6 +1980,7 @@ De objecttypecode kent in de BAG de volgende waarde:
 <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/sport/veld> a mim:Objecttype,
         owl:Class ;
     rdfs:label "Veld"@nl ;
+    mim:attribuut <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/sport/veld/naam> ;
     mim:definitie "Een stuk land dat speciaal voor het bedrijven van een veldsport gereedgemaakt is"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/sport/veld"^^xsd:anyURI ;
     mim:indicatieAbstractObject false ;

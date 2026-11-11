@@ -1,4 +1,4 @@
-# graph: <https://lod.gemeentelijkgegevensmodel.nl/v3.0.0/kern/rgbzplus/bedrijfsprocessen/bedrijfsprocessen>
+# graph: <https://lod.gemeentelijkgegevensmodel.nl/v3.0.0/kern/rgbzplus/view-bedrijfsprocessen>
 
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix mim: <http://modellen.mim-standaard.nl/def/mim#> .
@@ -297,8 +297,8 @@
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rgbzplus/rgbz/kern-rgbz/> ;
     rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/veiligheid-en-vergunningen/vth/producttype> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/v3.0.0/kern/rgbzplus/bedrijfsprocessen/bedrijfsprocessen> a owl:Ontology ;
-    rdfs:label "Bedrijfsprocessen"@nl ;
+<https://lod.gemeentelijkgegevensmodel.nl/v3.0.0/kern/rgbzplus/view-bedrijfsprocessen> a owl:Ontology ;
+    rdfs:label "View Bedrijfsprocessen"@nl ;
     dcterms:identifier "EAID_63323A39_82A4_4607_8A45_E4CBD1D800B0" ;
     dcterms:isPartOf <https://lod.gemeentelijkgegevensmodel.nl/> ;
     owl:versionInfo "v3.0.0" .

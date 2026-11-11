@@ -1,4 +1,4 @@
-# graph: <https://lod.gemeentelijkgegevensmodel.nl/v3.0.0/interne-organisatie/subsidies/subsidies>
+# graph: <https://lod.gemeentelijkgegevensmodel.nl/v3.0.0/interne-organisatie/subsidies/view-subsidies>
 
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix mim: <http://modellen.mim-standaard.nl/def/mim#> .
@@ -656,8 +656,8 @@
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/rsgbplus/rsgb/kern-rsgb/> ;
     rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/subsidies/rapportagemoment> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/v3.0.0/interne-organisatie/subsidies/subsidies> a owl:Ontology ;
-    rdfs:label "Subsidies"@nl ;
+<https://lod.gemeentelijkgegevensmodel.nl/v3.0.0/interne-organisatie/subsidies/view-subsidies> a owl:Ontology ;
+    rdfs:label "View Subsidies"@nl ;
     dcterms:identifier "EAID_F408BDED_51D4_4204_9B95_F0C6C2474DC3" ;
     dcterms:isPartOf <https://lod.gemeentelijkgegevensmodel.nl/> ;
     rdfs:comment """In het gegevensmodel voor subsidies staat ‘Subsidie’ centraal. Hiermee wordt een van een ingaande of uitgaande subsidie afgebeeld. 

@@ -1,4 +1,4 @@
-# graph: <https://lod.gemeentelijkgegevensmodel.nl/v3.0.0/sport-cultuur-en-recreatie/erfgoed/generieke-entiteiten-erfgoed/generieke-entiteiten-erfgoed>
+# graph: <https://lod.gemeentelijkgegevensmodel.nl/v3.0.0/sport-cultuur-en-recreatie/erfgoed/generieke-entiteiten-erfgoed/view-generieke-entiteiten-erfgoed>
 
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix geo: <http://www.opengis.net/ont/geosparql#> .
@@ -118,8 +118,8 @@
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/musea/> ;
     rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sport-cultuur-en-recreatie/erfgoed/generieke-entiteiten-erfgoed/erfgoed-generiek/historisch-persoon> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/v3.0.0/sport-cultuur-en-recreatie/erfgoed/generieke-entiteiten-erfgoed/generieke-entiteiten-erfgoed> a owl:Ontology ;
-    rdfs:label "Generieke entiteiten Erfgoed"@nl ;
+<https://lod.gemeentelijkgegevensmodel.nl/v3.0.0/sport-cultuur-en-recreatie/erfgoed/generieke-entiteiten-erfgoed/view-generieke-entiteiten-erfgoed> a owl:Ontology ;
+    rdfs:label "View Generieke Entiteiten Erfgoed"@nl ;
     dcterms:identifier "EAID_B7192738_00E7_4b65_902A_B8292E79261B" ;
     dcterms:isPartOf <https://lod.gemeentelijkgegevensmodel.nl/> ;
     owl:versionInfo "v3.0.0" .

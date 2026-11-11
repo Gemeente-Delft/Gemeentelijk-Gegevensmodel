@@ -1,4 +1,4 @@
-# graph: <https://lod.gemeentelijkgegevensmodel.nl/v3.0.0/interne-organisatie/samenwerkomgeving/samenwerkomgeving>
+# graph: <https://lod.gemeentelijkgegevensmodel.nl/v3.0.0/interne-organisatie/samenwerkomgeving/view-samenwerkomgeving>
 
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix mim: <http://modellen.mim-standaard.nl/def/mim#> .
@@ -490,8 +490,8 @@
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/> ;
     rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/interne-organisatie/samenwerkomgeving/teamlid> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/v3.0.0/interne-organisatie/samenwerkomgeving/samenwerkomgeving> a owl:Ontology ;
-    rdfs:label "Samenwerkomgeving"@nl ;
+<https://lod.gemeentelijkgegevensmodel.nl/v3.0.0/interne-organisatie/samenwerkomgeving/view-samenwerkomgeving> a owl:Ontology ;
+    rdfs:label "View Samenwerkomgeving"@nl ;
     dcterms:identifier "EAID_8FAD3A01_3E43_4848_8621_B47FE3B5EA4F" ;
     dcterms:isPartOf <https://lod.gemeentelijkgegevensmodel.nl/> ;
     owl:versionInfo "v3.0.0" .

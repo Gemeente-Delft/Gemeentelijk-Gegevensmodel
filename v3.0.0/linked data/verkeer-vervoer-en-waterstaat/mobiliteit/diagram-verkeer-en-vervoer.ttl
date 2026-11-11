@@ -297,7 +297,7 @@
     rdfs:label "Organisatiespecifieke domeinwaarden"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-fabrikant/organisatiespecifieke-domeinwaarden"^^xsd:anyURI ;
     mim:naam "Organisatiespecifieke domeinwaarden"@nl ;
-    dcterms:identifier "EAID_2482A40B_22F9_4A7B_9FB2_A1A541F7E17" ;
+    dcterms:identifier "EAID_2482A40B_22F9_4A7B_9FB2_A1A541F7E170" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-fabrikant> ;
     skos:prefLabel "Organisatiespecifieke domeinwaarden"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-fabrikant> .
@@ -308,7 +308,7 @@
     rdfs:label "Organisatiespecifieke domeinwaarden"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-installateur/organisatiespecifieke-domeinwaarden"^^xsd:anyURI ;
     mim:naam "Organisatiespecifieke domeinwaarden"@nl ;
-    dcterms:identifier "EAID_7F0DCFCA_9528_46AF_9B4C_DDBE89E0445" ;
+    dcterms:identifier "EAID_7F0DCFCA_9528_46AF_9B4C_DDBE89E04450" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-installateur> ;
     skos:prefLabel "Organisatiespecifieke domeinwaarden"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-installateur> .
@@ -319,7 +319,7 @@
     rdfs:label "A"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-kwaliteitsniveaugewenst/a"^^xsd:anyURI ;
     mim:naam "A"@nl ;
-    dcterms:identifier "EAID_ED0BC918_FD20_46BB_8DBA_41A4CBE93AD" ;
+    dcterms:identifier "EAID_ED0BC918_FD20_46BB_8DBA_41A4CBE93AD0" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-kwaliteitsniveaugewenst> ;
     skos:prefLabel "A"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-kwaliteitsniveaugewenst> .
@@ -330,7 +330,7 @@
     rdfs:label "A+"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-kwaliteitsniveaugewenst/a-2"^^xsd:anyURI ;
     mim:naam "A+"@nl ;
-    dcterms:identifier "EAID_1C5BAF6B_C52F_4F1C_A59E_3831B38875E" ;
+    dcterms:identifier "EAID_1C5BAF6B_C52F_4F1C_A59E_3831B38875E0" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-kwaliteitsniveaugewenst> ;
     skos:prefLabel "A+"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-kwaliteitsniveaugewenst> .
@@ -341,7 +341,7 @@
     rdfs:label "B"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-kwaliteitsniveaugewenst/b"^^xsd:anyURI ;
     mim:naam "B"@nl ;
-    dcterms:identifier "EAID_DD740204_64F0_4C90_B364_0751E5E2DF9" ;
+    dcterms:identifier "EAID_DD740204_64F0_4C90_B364_0751E5E2DF90" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-kwaliteitsniveaugewenst> ;
     skos:prefLabel "B"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-kwaliteitsniveaugewenst> .
@@ -352,7 +352,7 @@
     rdfs:label "C"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-kwaliteitsniveaugewenst/c"^^xsd:anyURI ;
     mim:naam "C"@nl ;
-    dcterms:identifier "EAID_E09B2D50_ABEE_4F0D_8084_BD176E7C1C8" ;
+    dcterms:identifier "EAID_E09B2D50_ABEE_4F0D_8084_BD176E7C1C80" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-kwaliteitsniveaugewenst> ;
     skos:prefLabel "C"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-kwaliteitsniveaugewenst> .
@@ -363,7 +363,7 @@
     rdfs:label "D"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-kwaliteitsniveaugewenst/d"^^xsd:anyURI ;
     mim:naam "D"@nl ;
-    dcterms:identifier "EAID_B20FDF6C_7919_4360_ABAA_465BBB9E004" ;
+    dcterms:identifier "EAID_B20FDF6C_7919_4360_ABAA_465BBB9E0040" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-kwaliteitsniveaugewenst> ;
     skos:prefLabel "D"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-kwaliteitsniveaugewenst> .
@@ -374,7 +374,7 @@
     rdfs:label "Organisatiespecifieke domeinwaarden"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-leverancier/organisatiespecifieke-domeinwaarden"^^xsd:anyURI ;
     mim:naam "Organisatiespecifieke domeinwaarden"@nl ;
-    dcterms:identifier "EAID_A69397A9_D215_47CF_9B98_03F1BA1C162" ;
+    dcterms:identifier "EAID_A69397A9_D215_47CF_9B98_03F1BA1C1620" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-leverancier> ;
     skos:prefLabel "Organisatiespecifieke domeinwaarden"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-leverancier> .
@@ -385,7 +385,7 @@
     rdfs:label "AC 11 bind"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal/ac-11-bind"^^xsd:anyURI ;
     mim:naam "AC 11 bind"@nl ;
-    dcterms:identifier "EAID_CE2E35E7_344D_41CE_BB92_AEF4EB8BCA4" ;
+    dcterms:identifier "EAID_CE2E35E7_344D_41CE_BB92_AEF4EB8BCA40" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> ;
     skos:prefLabel "AC 11 bind"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> .
@@ -396,7 +396,7 @@
     rdfs:label "AC 11 surf"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal/ac-11-surf"^^xsd:anyURI ;
     mim:naam "AC 11 surf"@nl ;
-    dcterms:identifier "EAID_426FB0CF_33C3_43CE_B750_2D5675368F2" ;
+    dcterms:identifier "EAID_426FB0CF_33C3_43CE_B750_2D5675368F20" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> ;
     skos:prefLabel "AC 11 surf"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> .
@@ -407,7 +407,7 @@
     rdfs:label "AC 16 base"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal/ac-16-base"^^xsd:anyURI ;
     mim:naam "AC 16 base"@nl ;
-    dcterms:identifier "EAID_117C3A73_4737_4924_B4B4_D10CDFD4B61" ;
+    dcterms:identifier "EAID_117C3A73_4737_4924_B4B4_D10CDFD4B610" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> ;
     skos:prefLabel "AC 16 base"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> .
@@ -418,7 +418,7 @@
     rdfs:label "AC 16 bind"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal/ac-16-bind"^^xsd:anyURI ;
     mim:naam "AC 16 bind"@nl ;
-    dcterms:identifier "EAID_B8D907D5_BD65_48FA_A896_35FDB2AFE5F" ;
+    dcterms:identifier "EAID_B8D907D5_BD65_48FA_A896_35FDB2AFE5F0" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> ;
     skos:prefLabel "AC 16 bind"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> .
@@ -429,7 +429,7 @@
     rdfs:label "AC 16 surf"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal/ac-16-surf"^^xsd:anyURI ;
     mim:naam "AC 16 surf"@nl ;
-    dcterms:identifier "EAID_F8A62463_9669_4326_8A04_4BE4A06E487" ;
+    dcterms:identifier "EAID_F8A62463_9669_4326_8A04_4BE4A06E4870" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> ;
     skos:prefLabel "AC 16 surf"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> .
@@ -440,7 +440,7 @@
     rdfs:label "AC 22 base"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal/ac-22-base"^^xsd:anyURI ;
     mim:naam "AC 22 base"@nl ;
-    dcterms:identifier "EAID_65B4F3B4_F50F_43AF_82AE_23F7C02F9F1" ;
+    dcterms:identifier "EAID_65B4F3B4_F50F_43AF_82AE_23F7C02F9F10" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> ;
     skos:prefLabel "AC 22 base"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> .
@@ -451,7 +451,7 @@
     rdfs:label "AC 22 bind"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal/ac-22-bind"^^xsd:anyURI ;
     mim:naam "AC 22 bind"@nl ;
-    dcterms:identifier "EAID_DD045C7F_8ED8_4596_9F7E_533FD0AB45D" ;
+    dcterms:identifier "EAID_DD045C7F_8ED8_4596_9F7E_533FD0AB45D0" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> ;
     skos:prefLabel "AC 22 bind"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> .
@@ -462,7 +462,7 @@
     rdfs:label "AC 32 base"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal/ac-32-base"^^xsd:anyURI ;
     mim:naam "AC 32 base"@nl ;
-    dcterms:identifier "EAID_6CBF4D8E_0315_47B6_87C1_9ED24268432" ;
+    dcterms:identifier "EAID_6CBF4D8E_0315_47B6_87C1_9ED242684320" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> ;
     skos:prefLabel "AC 32 base"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> .
@@ -473,7 +473,7 @@
     rdfs:label "AC 8 surf"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal/ac-8-surf"^^xsd:anyURI ;
     mim:naam "AC 8 surf"@nl ;
-    dcterms:identifier "EAID_A9F7B4FA_A905_49CC_8B9D_CFFE0924DB3" ;
+    dcterms:identifier "EAID_A9F7B4FA_A905_49CC_8B9D_CFFE0924DB30" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> ;
     skos:prefLabel "AC 8 surf"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> .
@@ -484,7 +484,7 @@
     rdfs:label "AC * base"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal/ac-base"^^xsd:anyURI ;
     mim:naam "AC * base"@nl ;
-    dcterms:identifier "EAID_F3DDD590_3B3B_4BD5_9108_75EF46D1392" ;
+    dcterms:identifier "EAID_F3DDD590_3B3B_4BD5_9108_75EF46D13920" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> ;
     skos:prefLabel "AC * base"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> .
@@ -495,7 +495,7 @@
     rdfs:label "AC * bind"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal/ac-bind"^^xsd:anyURI ;
     mim:naam "AC * bind"@nl ;
-    dcterms:identifier "EAID_498E2DB5_CD0F_4AED_893F_C4AEE2E6E2D" ;
+    dcterms:identifier "EAID_498E2DB5_CD0F_4AED_893F_C4AEE2E6E2D0" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> ;
     skos:prefLabel "AC * bind"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> .
@@ -506,7 +506,7 @@
     rdfs:label "AC * surf"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal/ac-surf"^^xsd:anyURI ;
     mim:naam "AC * surf"@nl ;
-    dcterms:identifier "EAID_0FA883CE_7A59_42DA_A2B7_ECA695DC4C7" ;
+    dcterms:identifier "EAID_0FA883CE_7A59_42DA_A2B7_ECA695DC4C70" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> ;
     skos:prefLabel "AC * surf"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> .
@@ -517,7 +517,7 @@
     rdfs:label "Aluminium"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal/aluminium"^^xsd:anyURI ;
     mim:naam "Aluminium"@nl ;
-    dcterms:identifier "EAID_0797C262_AA9F_4EDA_988D_4D6FDBC7583" ;
+    dcterms:identifier "EAID_0797C262_AA9F_4EDA_988D_4D6FDBC75830" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> ;
     skos:prefLabel "Aluminium"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> .
@@ -528,7 +528,7 @@
     rdfs:label "Asbestcement"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal/asbestcement"^^xsd:anyURI ;
     mim:naam "Asbestcement"@nl ;
-    dcterms:identifier "EAID_606568BB_450C_4347_BC74_99796DF0DDC" ;
+    dcterms:identifier "EAID_606568BB_450C_4347_BC74_99796DF0DDC0" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> ;
     skos:prefLabel "Asbestcement"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> .
@@ -539,7 +539,7 @@
     rdfs:label "Asfalt"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal/asfalt"^^xsd:anyURI ;
     mim:naam "Asfalt"@nl ;
-    dcterms:identifier "EAID_A768BA26_9E40_448E_869D_9A4A6E8A65B" ;
+    dcterms:identifier "EAID_A768BA26_9E40_448E_869D_9A4A6E8A65B0" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> ;
     skos:prefLabel "Asfalt"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> .
@@ -550,7 +550,7 @@
     rdfs:label "Asfaltgranulaatstabilisatie"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal/asfaltgranulaatstabilisatie"^^xsd:anyURI ;
     mim:naam "Asfaltgranulaatstabilisatie"@nl ;
-    dcterms:identifier "EAID_6A294D46_1E40_4591_A48D_0EEDA11244C" ;
+    dcterms:identifier "EAID_6A294D46_1E40_4591_A48D_0EEDA11244C0" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> ;
     skos:prefLabel "Asfaltgranulaatstabilisatie"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> .
@@ -561,7 +561,7 @@
     rdfs:label "Asfaltpuin"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal/asfaltpuin"^^xsd:anyURI ;
     mim:naam "Asfaltpuin"@nl ;
-    dcterms:identifier "EAID_FC421416_6FFF_48D4_B84B_F639879ABEE" ;
+    dcterms:identifier "EAID_FC421416_6FFF_48D4_B84B_F639879ABEE0" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> ;
     skos:prefLabel "Asfaltpuin"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> .
@@ -572,7 +572,7 @@
     rdfs:label "AVI- en AEC-bodemas"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal/avi-en-aec-bodemas"^^xsd:anyURI ;
     mim:naam "AVI- en AEC-bodemas"@nl ;
-    dcterms:identifier "EAID_23ABD6DC_AF49_4B55_BF7A_BB3C25AFA54" ;
+    dcterms:identifier "EAID_23ABD6DC_AF49_4B55_BF7A_BB3C25AFA540" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> ;
     skos:prefLabel "AVI- en AEC-bodemas"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> .
@@ -583,7 +583,7 @@
     rdfs:label "Basalt"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal/basalt"^^xsd:anyURI ;
     mim:naam "Basalt"@nl ;
-    dcterms:identifier "EAID_9140D5D1_DAB8_41C5_9732_7694E940ED9" ;
+    dcterms:identifier "EAID_9140D5D1_DAB8_41C5_9732_7694E940ED90" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> ;
     skos:prefLabel "Basalt"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> .
@@ -594,7 +594,7 @@
     rdfs:label "Beton"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal/beton"^^xsd:anyURI ;
     mim:naam "Beton"@nl ;
-    dcterms:identifier "EAID_52AB27F2_FB67_4752_8CFC_AC4F3638DF4" ;
+    dcterms:identifier "EAID_52AB27F2_FB67_4752_8CFC_AC4F3638DF40" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> ;
     skos:prefLabel "Beton"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> .
@@ -605,7 +605,7 @@
     rdfs:label "Betongranulaat"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal/betongranulaat"^^xsd:anyURI ;
     mim:naam "Betongranulaat"@nl ;
-    dcterms:identifier "EAID_F919C026_A0BE_4542_B12F_E2A0012ED8D" ;
+    dcterms:identifier "EAID_F919C026_A0BE_4542_B12F_E2A0012ED8D0" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> ;
     skos:prefLabel "Betongranulaat"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> .
@@ -616,7 +616,7 @@
     rdfs:label "Betonzand"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal/betonzand"^^xsd:anyURI ;
     mim:naam "Betonzand"@nl ;
-    dcterms:identifier "EAID_E2D7057A_0FA9_45C2_8F20_7D41D92DAE7" ;
+    dcterms:identifier "EAID_E2D7057A_0FA9_45C2_8F20_7D41D92DAE70" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> ;
     skos:prefLabel "Betonzand"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> .
@@ -627,7 +627,7 @@
     rdfs:label "Bims"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal/bims"^^xsd:anyURI ;
     mim:naam "Bims"@nl ;
-    dcterms:identifier "EAID_9ED2614C_3807_41B6_B2F8_030370438E4" ;
+    dcterms:identifier "EAID_9ED2614C_3807_41B6_B2F8_030370438E40" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> ;
     skos:prefLabel "Bims"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> .
@@ -638,7 +638,7 @@
     rdfs:label "Bitumen"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal/bitumen"^^xsd:anyURI ;
     mim:naam "Bitumen"@nl ;
-    dcterms:identifier "EAID_735ACDF2_1D8F_4112_9F43_2C116974919" ;
+    dcterms:identifier "EAID_735ACDF2_1D8F_4112_9F43_2C1169749190" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> ;
     skos:prefLabel "Bitumen"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> .
@@ -649,7 +649,7 @@
     rdfs:label "Bitumen-houtvezel composiet"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal/bitumen-houtvezel-composiet"^^xsd:anyURI ;
     mim:naam "Bitumen-houtvezel composiet"@nl ;
-    dcterms:identifier "EAID_7DEF4E64_ACEA_4F8D_BAFA_F58DBC9EA58" ;
+    dcterms:identifier "EAID_7DEF4E64_ACEA_4F8D_BAFA_F58DBC9EA580" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> ;
     skos:prefLabel "Bitumen-houtvezel composiet"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> .
@@ -660,7 +660,7 @@
     rdfs:label "Boomschors"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal/boomschors"^^xsd:anyURI ;
     mim:naam "Boomschors"@nl ;
-    dcterms:identifier "EAID_B3A1AECE_E38C_4746_AAC4_D3A1944891D" ;
+    dcterms:identifier "EAID_B3A1AECE_E38C_4746_AAC4_D3A1944891D0" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> ;
     skos:prefLabel "Boomschors"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> .
@@ -671,7 +671,7 @@
     rdfs:label "Brekerzand"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal/brekerzand"^^xsd:anyURI ;
     mim:naam "Brekerzand"@nl ;
-    dcterms:identifier "EAID_F3518CC9_BC38_4F92_9DE0_4EFD46F41C8" ;
+    dcterms:identifier "EAID_F3518CC9_BC38_4F92_9DE0_4EFD46F41C80" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> ;
     skos:prefLabel "Brekerzand"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> .
@@ -682,7 +682,7 @@
     rdfs:label "Brekerzand-steenslagmengsel"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal/brekerzand-steenslagmengsel"^^xsd:anyURI ;
     mim:naam "Brekerzand-steenslagmengsel"@nl ;
-    dcterms:identifier "EAID_B6734337_A4B5_4581_B28C_BF51B81E331" ;
+    dcterms:identifier "EAID_B6734337_A4B5_4581_B28C_BF51B81E3310" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> ;
     skos:prefLabel "Brekerzand-steenslagmengsel"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> .
@@ -693,7 +693,7 @@
     rdfs:label "Brons"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal/brons"^^xsd:anyURI ;
     mim:naam "Brons"@nl ;
-    dcterms:identifier "EAID_B8EE3CC0_6481_4DE6_AA45_8DC57A9F89B" ;
+    dcterms:identifier "EAID_B8EE3CC0_6481_4DE6_AA45_8DC57A9F89B0" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> ;
     skos:prefLabel "Brons"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> .
@@ -704,7 +704,7 @@
     rdfs:label "Cementbeton"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal/cementbeton"^^xsd:anyURI ;
     mim:naam "Cementbeton"@nl ;
-    dcterms:identifier "EAID_F524CCA2_121D_4E53_AD47_4FBD8A5D79B" ;
+    dcterms:identifier "EAID_F524CCA2_121D_4E53_AD47_4FBD8A5D79B0" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> ;
     skos:prefLabel "Cementbeton"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> .
@@ -715,7 +715,7 @@
     rdfs:label "Cementmortel"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal/cementmortel"^^xsd:anyURI ;
     mim:naam "Cementmortel"@nl ;
-    dcterms:identifier "EAID_DE6D009E_2935_4254_8EC9_75CD70D5FDB" ;
+    dcterms:identifier "EAID_DE6D009E_2935_4254_8EC9_75CD70D5FDB0" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> ;
     skos:prefLabel "Cementmortel"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> .
@@ -726,7 +726,7 @@
     rdfs:label "Composiet"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal/composiet"^^xsd:anyURI ;
     mim:naam "Composiet"@nl ;
-    dcterms:identifier "EAID_246D0D09_2566_4F1D_889E_935ABB7FB28" ;
+    dcterms:identifier "EAID_246D0D09_2566_4F1D_889E_935ABB7FB280" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> ;
     skos:prefLabel "Composiet"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> .
@@ -737,7 +737,7 @@
     rdfs:label "Cortenstaal"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal/cortenstaal"^^xsd:anyURI ;
     mim:naam "Cortenstaal"@nl ;
-    dcterms:identifier "EAID_44372121_A23C_460A_90D8_724862F3D4F" ;
+    dcterms:identifier "EAID_44372121_A23C_460A_90D8_724862F3D4F0" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> ;
     skos:prefLabel "Cortenstaal"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> .
@@ -748,7 +748,7 @@
     rdfs:label "Deense tegels"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal/deense-tegels"^^xsd:anyURI ;
     mim:naam "Deense tegels"@nl ;
-    dcterms:identifier "EAID_741D8095_0F66_4B1B_8D3F_687BD195A50" ;
+    dcterms:identifier "EAID_741D8095_0F66_4B1B_8D3F_687BD195A500" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> ;
     skos:prefLabel "Deense tegels"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> .
@@ -759,7 +759,7 @@
     rdfs:label "Drainagezand"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal/drainagezand"^^xsd:anyURI ;
     mim:naam "Drainagezand"@nl ;
-    dcterms:identifier "EAID_86E99B88_AD57_4FF4_9C06_442CE2CC806" ;
+    dcterms:identifier "EAID_86E99B88_AD57_4FF4_9C06_442CE2CC8060" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> ;
     skos:prefLabel "Drainagezand"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> .
@@ -770,7 +770,7 @@
     rdfs:label "Driecomponenten koudplast"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal/driecomponenten-koudplast"^^xsd:anyURI ;
     mim:naam "Driecomponenten koudplast"@nl ;
-    dcterms:identifier "EAID_CD13A750_5957_476F_86FF_419B4BC16FD" ;
+    dcterms:identifier "EAID_CD13A750_5957_476F_86FF_419B4BC16FD0" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> ;
     skos:prefLabel "Driecomponenten koudplast"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> .
@@ -781,7 +781,7 @@
     rdfs:label "E-bodemas"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal/e-bodemas"^^xsd:anyURI ;
     mim:naam "E-bodemas"@nl ;
-    dcterms:identifier "EAID_45AC0CAB_CA4D_4026_A802_D8A7F6B8269" ;
+    dcterms:identifier "EAID_45AC0CAB_CA4D_4026_A802_D8A7F6B82690" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> ;
     skos:prefLabel "E-bodemas"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> .
@@ -792,7 +792,7 @@
     rdfs:label "Elementenbestrating"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal/elementenbestrating"^^xsd:anyURI ;
     mim:naam "Elementenbestrating"@nl ;
-    dcterms:identifier "EAID_116EA1C2_A80F_4AF5_8EED_DE573A0A80F" ;
+    dcterms:identifier "EAID_116EA1C2_A80F_4AF5_8EED_DE573A0A80F0" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> ;
     skos:prefLabel "Elementenbestrating"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> .
@@ -803,7 +803,7 @@
     rdfs:label "Epoxy"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal/epoxy"^^xsd:anyURI ;
     mim:naam "Epoxy"@nl ;
-    dcterms:identifier "EAID_CC48BE01_5DF4_4C9E_B5D4_3F737583777" ;
+    dcterms:identifier "EAID_CC48BE01_5DF4_4C9E_B5D4_3F7375837770" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> ;
     skos:prefLabel "Epoxy"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> .
@@ -814,7 +814,7 @@
     rdfs:label "Fosforslakmengsel"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal/fosforslakmengsel"^^xsd:anyURI ;
     mim:naam "Fosforslakmengsel"@nl ;
-    dcterms:identifier "EAID_7DE90AC2_56E1_48C8_AECA_93FBAA80ECA" ;
+    dcterms:identifier "EAID_7DE90AC2_56E1_48C8_AECA_93FBAA80ECA0" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> ;
     skos:prefLabel "Fosforslakmengsel"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> .
@@ -825,7 +825,7 @@
     rdfs:label "Franse kalksteen"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal/franse-kalksteen"^^xsd:anyURI ;
     mim:naam "Franse kalksteen"@nl ;
-    dcterms:identifier "EAID_B7C6ECF9_0576_4BD7_91A3_BEA017CA2D1" ;
+    dcterms:identifier "EAID_B7C6ECF9_0576_4BD7_91A3_BEA017CA2D10" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> ;
     skos:prefLabel "Franse kalksteen"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> .
@@ -836,7 +836,7 @@
     rdfs:label "Franse schors"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal/franse-schors"^^xsd:anyURI ;
     mim:naam "Franse schors"@nl ;
-    dcterms:identifier "EAID_40A844E7_ED38_4D7B_97BB_A56BF35A57B" ;
+    dcterms:identifier "EAID_40A844E7_ED38_4D7B_97BB_A56BF35A57B0" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> ;
     skos:prefLabel "Franse schors"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> .
@@ -847,7 +847,7 @@
     rdfs:label "Gaas"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal/gaas"^^xsd:anyURI ;
     mim:naam "Gaas"@nl ;
-    dcterms:identifier "EAID_FD15D29A_B4A1_4548_8DF9_E340152BA55" ;
+    dcterms:identifier "EAID_FD15D29A_B4A1_4548_8DF9_E340152BA550" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> ;
     skos:prefLabel "Gaas"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> .
@@ -858,7 +858,7 @@
     rdfs:label "Gaas met dood plantenmateriaal"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal/gaas-met-dood-plantenmateriaal"^^xsd:anyURI ;
     mim:naam "Gaas met dood plantenmateriaal"@nl ;
-    dcterms:identifier "EAID_843E4B2D_0EF0_4EA7_9108_48DAE16BC57" ;
+    dcterms:identifier "EAID_843E4B2D_0EF0_4EA7_9108_48DAE16BC570" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> ;
     skos:prefLabel "Gaas met dood plantenmateriaal"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> .
@@ -869,7 +869,7 @@
     rdfs:label "Gaas met kokosmat"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal/gaas-met-kokosmat"^^xsd:anyURI ;
     mim:naam "Gaas met kokosmat"@nl ;
-    dcterms:identifier "EAID_06C07DEF_10B0_4A8E_9C67_433C695579B" ;
+    dcterms:identifier "EAID_06C07DEF_10B0_4A8E_9C67_433C695579B0" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> ;
     skos:prefLabel "Gaas met kokosmat"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> .
@@ -880,7 +880,7 @@
     rdfs:label "Gas met kunstmatig substraat"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal/gas-met-kunstmatig-substraat"^^xsd:anyURI ;
     mim:naam "Gas met kunstmatig substraat"@nl ;
-    dcterms:identifier "EAID_EF9496AC_AC97_41EE_B1F8_26C6694A97B" ;
+    dcterms:identifier "EAID_EF9496AC_AC97_41EE_B1F8_26C6694A97B0" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> ;
     skos:prefLabel "Gas met kunstmatig substraat"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> .
@@ -891,7 +891,7 @@
     rdfs:label "Geëmailleerd staal"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal/ge-mailleerd-staal"^^xsd:anyURI ;
     mim:naam "Geëmailleerd staal"@nl ;
-    dcterms:identifier "EAID_D2042948_BC42_4F27_8DAD_9260CCEA09E" ;
+    dcterms:identifier "EAID_D2042948_BC42_4F27_8DAD_9260CCEA09E0" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> ;
     skos:prefLabel "Geëmailleerd staal"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> .
@@ -902,7 +902,7 @@
     rdfs:label "Geanodiseerd aluminium"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal/geanodiseerd-aluminium"^^xsd:anyURI ;
     mim:naam "Geanodiseerd aluminium"@nl ;
-    dcterms:identifier "EAID_A6C4A19B_B26D_4346_80A7_BCA915F15F7" ;
+    dcterms:identifier "EAID_A6C4A19B_B26D_4346_80A7_BCA915F15F70" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> ;
     skos:prefLabel "Geanodiseerd aluminium"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> .
@@ -913,7 +913,7 @@
     rdfs:label "Gehard spiegelglas"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal/gehard-spiegelglas"^^xsd:anyURI ;
     mim:naam "Gehard spiegelglas"@nl ;
-    dcterms:identifier "EAID_CBD3A9AD_C095_42D7_86CF_2E22DCCE8CE" ;
+    dcterms:identifier "EAID_CBD3A9AD_C095_42D7_86CF_2E22DCCE8CE0" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> ;
     skos:prefLabel "Gehard spiegelglas"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> .
@@ -924,7 +924,7 @@
     rdfs:label "Gekleurd en verduurzaamd geschredderd hout"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal/gekleurd-en-verduurzaamd-geschredderd-hout"^^xsd:anyURI ;
     mim:naam "Gekleurd en verduurzaamd geschredderd hout"@nl ;
-    dcterms:identifier "EAID_B2F36E51_917B_4AEB_82BE_DCBA0BE510B" ;
+    dcterms:identifier "EAID_B2F36E51_917B_4AEB_82BE_DCBA0BE510B0" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> ;
     skos:prefLabel "Gekleurd en verduurzaamd geschredderd hout"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> .
@@ -935,7 +935,7 @@
     rdfs:label "Geprofileerd markeringsmateriaal"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal/geprofileerd-markeringsmateriaal"^^xsd:anyURI ;
     mim:naam "Geprofileerd markeringsmateriaal"@nl ;
-    dcterms:identifier "EAID_9CD6D7CF_159E_4A22_8738_774F7DFD19C" ;
+    dcterms:identifier "EAID_9CD6D7CF_159E_4A22_8738_774F7DFD19C0" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> ;
     skos:prefLabel "Geprofileerd markeringsmateriaal"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> .
@@ -946,7 +946,7 @@
     rdfs:label "Gespoten beton"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal/gespoten-beton"^^xsd:anyURI ;
     mim:naam "Gespoten beton"@nl ;
-    dcterms:identifier "EAID_BF202514_1DCB_40E4_B1DA_AAA1CD2960E" ;
+    dcterms:identifier "EAID_BF202514_1DCB_40E4_B1DA_AAA1CD2960E0" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> ;
     skos:prefLabel "Gespoten beton"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> .
@@ -957,7 +957,7 @@
     rdfs:label "Gewapend aluminium"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal/gewapend-aluminium"^^xsd:anyURI ;
     mim:naam "Gewapend aluminium"@nl ;
-    dcterms:identifier "EAID_ACB9ECF8_A46C_483F_97A6_D7C4F565152" ;
+    dcterms:identifier "EAID_ACB9ECF8_A46C_483F_97A6_D7C4F5651520" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> ;
     skos:prefLabel "Gewapend aluminium"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> .
@@ -968,7 +968,7 @@
     rdfs:label "Gewapend beton"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal/gewapend-beton"^^xsd:anyURI ;
     mim:naam "Gewapend beton"@nl ;
-    dcterms:identifier "EAID_A061B4E2_0138_4CCF_97F2_ECF2A9D5617" ;
+    dcterms:identifier "EAID_A061B4E2_0138_4CCF_97F2_ECF2A9D56170" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> ;
     skos:prefLabel "Gewapend beton"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> .
@@ -979,7 +979,7 @@
     rdfs:label "Gietijzer"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal/gietijzer"^^xsd:anyURI ;
     mim:naam "Gietijzer"@nl ;
-    dcterms:identifier "EAID_5F4A9EAA_E61E_44CC_8218_79930E872A8" ;
+    dcterms:identifier "EAID_5F4A9EAA_E61E_44CC_8218_79930E872A80" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> ;
     skos:prefLabel "Gietijzer"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> .
@@ -990,7 +990,7 @@
     rdfs:label "Glas"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal/glas"^^xsd:anyURI ;
     mim:naam "Glas"@nl ;
-    dcterms:identifier "EAID_DC41FCE5_D704_4FE8_901D_4B50AB19A68" ;
+    dcterms:identifier "EAID_DC41FCE5_D704_4FE8_901D_4B50AB19A680" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> ;
     skos:prefLabel "Glas"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> .
@@ -1001,7 +1001,7 @@
     rdfs:label "Glasvezel"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal/glasvezel"^^xsd:anyURI ;
     mim:naam "Glasvezel"@nl ;
-    dcterms:identifier "EAID_C0F9B9A1_F92F_46F7_A38C_4398416625A" ;
+    dcterms:identifier "EAID_C0F9B9A1_F92F_46F7_A38C_4398416625A0" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> ;
     skos:prefLabel "Glasvezel"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> .
@@ -1012,7 +1012,7 @@
     rdfs:label "Glasvezel versterkte kunststof"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal/glasvezel-versterkte-kunststof"^^xsd:anyURI ;
     mim:naam "Glasvezel versterkte kunststof"@nl ;
-    dcterms:identifier "EAID_5D390719_05C4_4810_9B64_22767C6BA2C" ;
+    dcterms:identifier "EAID_5D390719_05C4_4810_9B64_22767C6BA2C0" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> ;
     skos:prefLabel "Glasvezel versterkte kunststof"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> .
@@ -1023,7 +1023,7 @@
     rdfs:label "Graniet"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal/graniet"^^xsd:anyURI ;
     mim:naam "Graniet"@nl ;
-    dcterms:identifier "EAID_E98072B9_C0B6_44B9_9739_D08E1CBF2AB" ;
+    dcterms:identifier "EAID_E98072B9_C0B6_44B9_9739_D08E1CBF2AB0" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> ;
     skos:prefLabel "Graniet"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> .
@@ -1034,7 +1034,7 @@
     rdfs:label "Graniet Bleu de Lanhelin-Frankrijk"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal/graniet-bleu-de-lanhelin-frankrijk"^^xsd:anyURI ;
     mim:naam "Graniet Bleu de Lanhelin-Frankrijk"@nl ;
-    dcterms:identifier "EAID_D6A765C3_3E48_4D86_8A1F_2436CCDB605" ;
+    dcterms:identifier "EAID_D6A765C3_3E48_4D86_8A1F_2436CCDB6050" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> ;
     skos:prefLabel "Graniet Bleu de Lanhelin-Frankrijk"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> .
@@ -1045,7 +1045,7 @@
     rdfs:label "Graniet Bleu Orient-China"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal/graniet-bleu-orient-china"^^xsd:anyURI ;
     mim:naam "Graniet Bleu Orient-China"@nl ;
-    dcterms:identifier "EAID_3D69C009_6AF1_4CA2_89AA_2C41FA9057A" ;
+    dcterms:identifier "EAID_3D69C009_6AF1_4CA2_89AA_2C41FA9057A0" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> ;
     skos:prefLabel "Graniet Bleu Orient-China"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> .
@@ -1056,7 +1056,7 @@
     rdfs:label "Graniet Braga-Portugal"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal/graniet-braga-portugal"^^xsd:anyURI ;
     mim:naam "Graniet Braga-Portugal"@nl ;
-    dcterms:identifier "EAID_85ECA83B_F24C_40EA_818A_47E3C23083B" ;
+    dcterms:identifier "EAID_85ECA83B_F24C_40EA_818A_47E3C23083B0" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> ;
     skos:prefLabel "Graniet Braga-Portugal"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> .
@@ -1067,7 +1067,7 @@
     rdfs:label "Graniet Roriz-Portugal"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal/graniet-roriz-portugal"^^xsd:anyURI ;
     mim:naam "Graniet Roriz-Portugal"@nl ;
-    dcterms:identifier "EAID_E6D060DB_315D_4B42_97D2_3718355AEE9" ;
+    dcterms:identifier "EAID_E6D060DB_315D_4B42_97D2_3718355AEE90" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> ;
     skos:prefLabel "Graniet Roriz-Portugal"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> .
@@ -1078,7 +1078,7 @@
     rdfs:label "Granulaat"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal/granulaat"^^xsd:anyURI ;
     mim:naam "Granulaat"@nl ;
-    dcterms:identifier "EAID_5B539C4E_7020_470C_A132_CE9A58CF569" ;
+    dcterms:identifier "EAID_5B539C4E_7020_470C_A132_CE9A58CF5690" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> ;
     skos:prefLabel "Granulaat"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> .
@@ -1089,7 +1089,7 @@
     rdfs:label "Gravel"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal/gravel"^^xsd:anyURI ;
     mim:naam "Gravel"@nl ;
-    dcterms:identifier "EAID_D70BAD59_1577_45E7_B5D7_CC39D06A9E9" ;
+    dcterms:identifier "EAID_D70BAD59_1577_45E7_B5D7_CC39D06A9E90" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> ;
     skos:prefLabel "Gravel"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> .
@@ -1100,7 +1100,7 @@
     rdfs:label "Gres"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal/gres"^^xsd:anyURI ;
     mim:naam "Gres"@nl ;
-    dcterms:identifier "EAID_160EDACD_CDD5_42C3_8BF6_687F0702F9A" ;
+    dcterms:identifier "EAID_160EDACD_CDD5_42C3_8BF6_687F0702F9A0" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> ;
     skos:prefLabel "Gres"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> .
@@ -1111,7 +1111,7 @@
     rdfs:label "Grijs gietijzer"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal/grijs-gietijzer"^^xsd:anyURI ;
     mim:naam "Grijs gietijzer"@nl ;
-    dcterms:identifier "EAID_1D8A6B8F_3A00_4B85_BCA2_3EBD655DA6E" ;
+    dcterms:identifier "EAID_1D8A6B8F_3A00_4B85_BCA2_3EBD655DA6E0" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> ;
     skos:prefLabel "Grijs gietijzer"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> .
@@ -1122,7 +1122,7 @@
     rdfs:label "Grind"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal/grind"^^xsd:anyURI ;
     mim:naam "Grind"@nl ;
-    dcterms:identifier "EAID_55F56E55_78FF_4BEF_8C66_038B77AD714" ;
+    dcterms:identifier "EAID_55F56E55_78FF_4BEF_8C66_038B77AD7140" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> ;
     skos:prefLabel "Grind"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> .
@@ -1133,7 +1133,7 @@
     rdfs:label "Gritlaag"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal/gritlaag"^^xsd:anyURI ;
     mim:naam "Gritlaag"@nl ;
-    dcterms:identifier "EAID_3562193B_3A4D_43F4_94FF_3BF141D5AC6" ;
+    dcterms:identifier "EAID_3562193B_3A4D_43F4_94FF_3BF141D5AC60" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> ;
     skos:prefLabel "Gritlaag"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> .
@@ -1144,7 +1144,7 @@
     rdfs:label "Grond"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal/grond"^^xsd:anyURI ;
     mim:naam "Grond"@nl ;
-    dcterms:identifier "EAID_AB84DD58_27E9_4175_A975_3A789CF0D30" ;
+    dcterms:identifier "EAID_AB84DD58_27E9_4175_A975_3A789CF0D300" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> ;
     skos:prefLabel "Grond"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> .
@@ -1155,7 +1155,7 @@
     rdfs:label "Grout"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal/grout"^^xsd:anyURI ;
     mim:naam "Grout"@nl ;
-    dcterms:identifier "EAID_BA54C8D0_3914_4386_A955_9B0389192FA" ;
+    dcterms:identifier "EAID_BA54C8D0_3914_4386_A955_9B0389192FA0" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> ;
     skos:prefLabel "Grout"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> .
@@ -1166,7 +1166,7 @@
     rdfs:label "Hardhout"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal/hardhout"^^xsd:anyURI ;
     mim:naam "Hardhout"@nl ;
-    dcterms:identifier "EAID_DFE3117E_ACB1_4D65_BA55_80B75F86C3C" ;
+    dcterms:identifier "EAID_DFE3117E_ACB1_4D65_BA55_80B75F86C3C0" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> ;
     skos:prefLabel "Hardhout"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> .
@@ -1177,7 +1177,7 @@
     rdfs:label "Hardsteen"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal/hardsteen"^^xsd:anyURI ;
     mim:naam "Hardsteen"@nl ;
-    dcterms:identifier "EAID_45FDE8A5_CBCD_4915_B095_B682A79E7F8" ;
+    dcterms:identifier "EAID_45FDE8A5_CBCD_4915_B095_B682A79E7F80" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> ;
     skos:prefLabel "Hardsteen"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> .
@@ -1188,7 +1188,7 @@
     rdfs:label "HDPE"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal/hdpe"^^xsd:anyURI ;
     mim:naam "HDPE"@nl ;
-    dcterms:identifier "EAID_92FAEB9E_C662_439F_9B44_203542E3E4C" ;
+    dcterms:identifier "EAID_92FAEB9E_C662_439F_9B44_203542E3E4C0" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> ;
     skos:prefLabel "HDPE"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> .
@@ -1199,7 +1199,7 @@
     rdfs:label "Hoogovenslakkenmengsel"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal/hoogovenslakkenmengsel"^^xsd:anyURI ;
     mim:naam "Hoogovenslakkenmengsel"@nl ;
-    dcterms:identifier "EAID_24A1890D_3FA6_4C79_985A_3E35491ADFF" ;
+    dcterms:identifier "EAID_24A1890D_3FA6_4C79_985A_3E35491ADFF0" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> ;
     skos:prefLabel "Hoogovenslakkenmengsel"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> .
@@ -1210,7 +1210,7 @@
     rdfs:label "Hoogovenslakkenzand"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal/hoogovenslakkenzand"^^xsd:anyURI ;
     mim:naam "Hoogovenslakkenzand"@nl ;
-    dcterms:identifier "EAID_35DDA54B_2D2C_4DA3_9491_82736F662D9" ;
+    dcterms:identifier "EAID_35DDA54B_2D2C_4DA3_9491_82736F662D90" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> ;
     skos:prefLabel "Hoogovenslakkenzand"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> .
@@ -1221,7 +1221,7 @@
     rdfs:label "Hout"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal/hout"^^xsd:anyURI ;
     mim:naam "Hout"@nl ;
-    dcterms:identifier "EAID_1B78D861_6B96_4BD5_8A3A_82C68E6EECE" ;
+    dcterms:identifier "EAID_1B78D861_6B96_4BD5_8A3A_82C68E6EECE0" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> ;
     skos:prefLabel "Hout"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> .
@@ -1232,7 +1232,7 @@
     rdfs:label "Hydraulisch betongranulaat"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal/hydraulisch-betongranulaat"^^xsd:anyURI ;
     mim:naam "Hydraulisch betongranulaat"@nl ;
-    dcterms:identifier "EAID_F962169D_587E_40CD_BFF8_2717B4B2627" ;
+    dcterms:identifier "EAID_F962169D_587E_40CD_BFF8_2717B4B26270" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> ;
     skos:prefLabel "Hydraulisch betongranulaat"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> .
@@ -1243,7 +1243,7 @@
     rdfs:label "Hydraulisch menggranulaat"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal/hydraulisch-menggranulaat"^^xsd:anyURI ;
     mim:naam "Hydraulisch menggranulaat"@nl ;
-    dcterms:identifier "EAID_80803468_58C3_4D29_B5DB_84A73A34E27" ;
+    dcterms:identifier "EAID_80803468_58C3_4D29_B5DB_84A73A34E270" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> ;
     skos:prefLabel "Hydraulisch menggranulaat"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> .
@@ -1254,7 +1254,7 @@
     rdfs:label "Immobilisaat"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal/immobilisaat"^^xsd:anyURI ;
     mim:naam "Immobilisaat"@nl ;
-    dcterms:identifier "EAID_6EE05B71_B97E_4D60_9057_CBB8074B4AD" ;
+    dcterms:identifier "EAID_6EE05B71_B97E_4D60_9057_CBB8074B4AD0" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> ;
     skos:prefLabel "Immobilisaat"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> .
@@ -1265,7 +1265,7 @@
     rdfs:label "Kalksteen"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal/kalksteen"^^xsd:anyURI ;
     mim:naam "Kalksteen"@nl ;
-    dcterms:identifier "EAID_5D9A9270_AE45_4A02_81F2_979E5A96597" ;
+    dcterms:identifier "EAID_5D9A9270_AE45_4A02_81F2_979E5A965970" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> ;
     skos:prefLabel "Kalksteen"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> .
@@ -1276,7 +1276,7 @@
     rdfs:label "Karton"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal/karton"^^xsd:anyURI ;
     mim:naam "Karton"@nl ;
-    dcterms:identifier "EAID_3D4D3030_1DAB_4038_8790_6F91806F6F3" ;
+    dcterms:identifier "EAID_3D4D3030_1DAB_4038_8790_6F91806F6F30" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> ;
     skos:prefLabel "Karton"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> .
@@ -1287,7 +1287,7 @@
     rdfs:label "Keien"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal/keien"^^xsd:anyURI ;
     mim:naam "Keien"@nl ;
-    dcterms:identifier "EAID_D1805C23_E942_47C3_8C79_1CC9F7EB92F" ;
+    dcterms:identifier "EAID_D1805C23_E942_47C3_8C79_1CC9F7EB92F0" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> ;
     skos:prefLabel "Keien"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> .
@@ -1298,7 +1298,7 @@
     rdfs:label "Kiezelbeton"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal/kiezelbeton"^^xsd:anyURI ;
     mim:naam "Kiezelbeton"@nl ;
-    dcterms:identifier "EAID_AF03B4C1_3E56_4209_9A8B_7FCEC031C9F" ;
+    dcterms:identifier "EAID_AF03B4C1_3E56_4209_9A8B_7FCEC031C9F0" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> ;
     skos:prefLabel "Kiezelbeton"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> .
@@ -1309,7 +1309,7 @@
     rdfs:label "Kit"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal/kit"^^xsd:anyURI ;
     mim:naam "Kit"@nl ;
-    dcterms:identifier "EAID_43F022C8_85A8_4DE2_8E9E_B2C8DBF8467" ;
+    dcterms:identifier "EAID_43F022C8_85A8_4DE2_8E9E_B2C8DBF84670" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> ;
     skos:prefLabel "Kit"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> .
@@ -1320,7 +1320,7 @@
     rdfs:label "Klei"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal/klei"^^xsd:anyURI ;
     mim:naam "Klei"@nl ;
-    dcterms:identifier "EAID_D440688E_8307_4ABB_8D14_DF19EE6E6D7" ;
+    dcterms:identifier "EAID_D440688E_8307_4ABB_8D14_DF19EE6E6D70" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> ;
     skos:prefLabel "Klei"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> .
@@ -1331,7 +1331,7 @@
     rdfs:label "Kleischelpen"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal/kleischelpen"^^xsd:anyURI ;
     mim:naam "Kleischelpen"@nl ;
-    dcterms:identifier "EAID_19C50C2B_2C71_47C9_8C85_E0D40250A98" ;
+    dcterms:identifier "EAID_19C50C2B_2C71_47C9_8C85_E0D40250A980" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> ;
     skos:prefLabel "Kleischelpen"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> .
@@ -1342,7 +1342,7 @@
     rdfs:label "Koper"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal/koper"^^xsd:anyURI ;
     mim:naam "Koper"@nl ;
-    dcterms:identifier "EAID_1E310A27_DD42_4E10_8230_3BF38DB40D5" ;
+    dcterms:identifier "EAID_1E310A27_DD42_4E10_8230_3BF38DB40D50" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> ;
     skos:prefLabel "Koper"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> .
@@ -1353,7 +1353,7 @@
     rdfs:label "Koperslak"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal/koperslak"^^xsd:anyURI ;
     mim:naam "Koperslak"@nl ;
-    dcterms:identifier "EAID_3A7DBFCC_C199_4C81_9E48_01B76DCF42D" ;
+    dcterms:identifier "EAID_3A7DBFCC_C199_4C81_9E48_01B76DCF42D0" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> ;
     skos:prefLabel "Koperslak"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> .
@@ -1364,7 +1364,7 @@
     rdfs:label "Kunststof"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal/kunststof"^^xsd:anyURI ;
     mim:naam "Kunststof"@nl ;
-    dcterms:identifier "EAID_392EBAC6_826C_49B8_AD1A_E020912E10F" ;
+    dcterms:identifier "EAID_392EBAC6_826C_49B8_AD1A_E020912E10F0" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> ;
     skos:prefLabel "Kunststof"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> .
@@ -1375,7 +1375,7 @@
     rdfs:label "Kwartsiet"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal/kwartsiet"^^xsd:anyURI ;
     mim:naam "Kwartsiet"@nl ;
-    dcterms:identifier "EAID_939BE074_B58C_4E7C_9685_34C82AA1AD6" ;
+    dcterms:identifier "EAID_939BE074_B58C_4E7C_9685_34C82AA1AD60" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> ;
     skos:prefLabel "Kwartsiet"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> .
@@ -1386,7 +1386,7 @@
     rdfs:label "Lavasteen"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal/lavasteen"^^xsd:anyURI ;
     mim:naam "Lavasteen"@nl ;
-    dcterms:identifier "EAID_8096BE4C_16E7_4D46_98EA_E70EC0D2E2B" ;
+    dcterms:identifier "EAID_8096BE4C_16E7_4D46_98EA_E70EC0D2E2B0" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> ;
     skos:prefLabel "Lavasteen"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> .
@@ -1397,7 +1397,7 @@
     rdfs:label "LD-staalslakmengsel"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal/ld-staalslakmengsel"^^xsd:anyURI ;
     mim:naam "LD-staalslakmengsel"@nl ;
-    dcterms:identifier "EAID_3A972888_CE01_4E44_9CDD_91F424FF356" ;
+    dcterms:identifier "EAID_3A972888_CE01_4E44_9CDD_91F424FF3560" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> ;
     skos:prefLabel "LD-staalslakmengsel"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> .
@@ -1408,7 +1408,7 @@
     rdfs:label "Leem"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal/leem"^^xsd:anyURI ;
     mim:naam "Leem"@nl ;
-    dcterms:identifier "EAID_877997BA_D7AB_4575_A045_D85A3509560" ;
+    dcterms:identifier "EAID_877997BA_D7AB_4575_A045_D85A35095600" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> ;
     skos:prefLabel "Leem"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> .
@@ -1419,7 +1419,7 @@
     rdfs:label "Leislag"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal/leislag"^^xsd:anyURI ;
     mim:naam "Leislag"@nl ;
-    dcterms:identifier "EAID_5387FB60_8CBC_4E84_98AB_7EF95F1E04C" ;
+    dcterms:identifier "EAID_5387FB60_8CBC_4E84_98AB_7EF95F1E04C0" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> ;
     skos:prefLabel "Leislag"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> .
@@ -1430,7 +1430,7 @@
     rdfs:label "Leisteen"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal/leisteen"^^xsd:anyURI ;
     mim:naam "Leisteen"@nl ;
-    dcterms:identifier "EAID_795EBFF2_B544_4F2E_9ACF_CAC22F832F4" ;
+    dcterms:identifier "EAID_795EBFF2_B544_4F2E_9ACF_CAC22F832F40" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> ;
     skos:prefLabel "Leisteen"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> .
@@ -1441,7 +1441,7 @@
     rdfs:label "M3C zand"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal/m3c-zand"^^xsd:anyURI ;
     mim:naam "M3C zand"@nl ;
-    dcterms:identifier "EAID_8DBEDEEE_7000_455C_8E43_D1A9FDE2472" ;
+    dcterms:identifier "EAID_8DBEDEEE_7000_455C_8E43_D1A9FDE24720" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> ;
     skos:prefLabel "M3C zand"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> .
@@ -1452,7 +1452,7 @@
     rdfs:label "Marmer"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal/marmer"^^xsd:anyURI ;
     mim:naam "Marmer"@nl ;
-    dcterms:identifier "EAID_3D1B9D1E_6C80_44BC_B2CD_9E317BAF395" ;
+    dcterms:identifier "EAID_3D1B9D1E_6C80_44BC_B2CD_9E317BAF3950" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> ;
     skos:prefLabel "Marmer"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> .
@@ -1463,7 +1463,7 @@
     rdfs:label "Menggranulaat"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal/menggranulaat"^^xsd:anyURI ;
     mim:naam "Menggranulaat"@nl ;
-    dcterms:identifier "EAID_0957B95D_159F_4C76_AE85_FFD7A0484CD" ;
+    dcterms:identifier "EAID_0957B95D_159F_4C76_AE85_FFD7A0484CD0" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> ;
     skos:prefLabel "Menggranulaat"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> .
@@ -1474,7 +1474,7 @@
     rdfs:label "Messing"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal/messing"^^xsd:anyURI ;
     mim:naam "Messing"@nl ;
-    dcterms:identifier "EAID_99EB71F2_051E_4B63_9A2D_48AA88FD87C" ;
+    dcterms:identifier "EAID_99EB71F2_051E_4B63_9A2D_48AA88FD87C0" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> ;
     skos:prefLabel "Messing"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> .
@@ -1485,7 +1485,7 @@
     rdfs:label "Metaal, overig"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal/metaal-overig"^^xsd:anyURI ;
     mim:naam "Metaal, overig"@nl ;
-    dcterms:identifier "EAID_059ECA48_9BD4_4533_84BD_FD8BA342DF1" ;
+    dcterms:identifier "EAID_059ECA48_9BD4_4533_84BD_FD8BA342DF10" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> ;
     skos:prefLabel "Metaal, overig"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> .
@@ -1496,7 +1496,7 @@
     rdfs:label "Metselwerk (baksteen)"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal/metselwerk-baksteen"^^xsd:anyURI ;
     mim:naam "Metselwerk (baksteen)"@nl ;
-    dcterms:identifier "EAID_B222A3F2_8EC2_4EDC_A4D2_CF1A1FA70BD" ;
+    dcterms:identifier "EAID_B222A3F2_8EC2_4EDC_A4D2_CF1A1FA70BD0" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> ;
     skos:prefLabel "Metselwerk (baksteen)"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> .
@@ -1507,7 +1507,7 @@
     rdfs:label "Metselwerk (bepleisterd)"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal/metselwerk-bepleisterd"^^xsd:anyURI ;
     mim:naam "Metselwerk (bepleisterd)"@nl ;
-    dcterms:identifier "EAID_37768910_2E06_4C69_BF5B_45B7B4F4037" ;
+    dcterms:identifier "EAID_37768910_2E06_4C69_BF5B_45B7B4F40370" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> ;
     skos:prefLabel "Metselwerk (bepleisterd)"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> .
@@ -1518,7 +1518,7 @@
     rdfs:label "Metselwerk (onbepleisterd)"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal/metselwerk-onbepleisterd"^^xsd:anyURI ;
     mim:naam "Metselwerk (onbepleisterd)"@nl ;
-    dcterms:identifier "EAID_D16BF896_C083_4FD2_B5C6_2149760E542" ;
+    dcterms:identifier "EAID_D16BF896_C083_4FD2_B5C6_2149760E5420" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> ;
     skos:prefLabel "Metselwerk (onbepleisterd)"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> .
@@ -1529,7 +1529,7 @@
     rdfs:label "Metselwerkgranulaat"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal/metselwerkgranulaat"^^xsd:anyURI ;
     mim:naam "Metselwerkgranulaat"@nl ;
-    dcterms:identifier "EAID_6560FA03_7900_4258_89AB_45F812B9A6E" ;
+    dcterms:identifier "EAID_6560FA03_7900_4258_89AB_45F812B9A6E0" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> ;
     skos:prefLabel "Metselwerkgranulaat"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> .
@@ -1540,7 +1540,7 @@
     rdfs:label "Metselzand"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal/metselzand"^^xsd:anyURI ;
     mim:naam "Metselzand"@nl ;
-    dcterms:identifier "EAID_5C6C7D39_E56E_4E17_A65A_B27B10D9946" ;
+    dcterms:identifier "EAID_5C6C7D39_E56E_4E17_A65A_B27B10D99460" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> ;
     skos:prefLabel "Metselzand"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> .
@@ -1551,7 +1551,7 @@
     rdfs:label "Mijnsteen"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal/mijnsteen"^^xsd:anyURI ;
     mim:naam "Mijnsteen"@nl ;
-    dcterms:identifier "EAID_3FBD157A_C131_4448_AD8A_B08E1BDB3E0" ;
+    dcterms:identifier "EAID_3FBD157A_C131_4448_AD8A_B08E1BDB3E00" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> ;
     skos:prefLabel "Mijnsteen"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> .
@@ -1562,7 +1562,7 @@
     rdfs:label "Mozaïek"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal/moza-ek"^^xsd:anyURI ;
     mim:naam "Mozaïek"@nl ;
-    dcterms:identifier "EAID_03ECB198_3C38_44E2_ADCC_CFFACC17ACD" ;
+    dcterms:identifier "EAID_03ECB198_3C38_44E2_ADCC_CFFACC17ACD0" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> ;
     skos:prefLabel "Mozaïek"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> .
@@ -1573,7 +1573,7 @@
     rdfs:label "Natuursteen"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal/natuursteen"^^xsd:anyURI ;
     mim:naam "Natuursteen"@nl ;
-    dcterms:identifier "EAID_BD50FB57_1F4A_463A_BB1E_9A9A66B4268" ;
+    dcterms:identifier "EAID_BD50FB57_1F4A_463A_BB1E_9A9A66B42680" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> ;
     skos:prefLabel "Natuursteen"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> .
@@ -1584,7 +1584,7 @@
     rdfs:label "Natuursteen gevlamd"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal/natuursteen-gevlamd"^^xsd:anyURI ;
     mim:naam "Natuursteen gevlamd"@nl ;
-    dcterms:identifier "EAID_447C32D0_FAD3_48C8_86E5_AABF1D0B2BD" ;
+    dcterms:identifier "EAID_447C32D0_FAD3_48C8_86E5_AABF1D0B2BD0" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> ;
     skos:prefLabel "Natuursteen gevlamd"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> .
@@ -1595,7 +1595,7 @@
     rdfs:label "Nodulair gietijzer"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal/nodulair-gietijzer"^^xsd:anyURI ;
     mim:naam "Nodulair gietijzer"@nl ;
-    dcterms:identifier "EAID_D39F5797_B67B_4303_9F65_58C7C98200C" ;
+    dcterms:identifier "EAID_D39F5797_B67B_4303_9F65_58C7C98200C0" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> ;
     skos:prefLabel "Nodulair gietijzer"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> .
@@ -1606,7 +1606,7 @@
     rdfs:label "Ophoogzand"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal/ophoogzand"^^xsd:anyURI ;
     mim:naam "Ophoogzand"@nl ;
-    dcterms:identifier "EAID_2D4A5D95_8DF2_4A93_BF58_6080B097CAA" ;
+    dcterms:identifier "EAID_2D4A5D95_8DF2_4A93_BF58_6080B097CAA0" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> ;
     skos:prefLabel "Ophoogzand"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> .
@@ -1617,7 +1617,7 @@
     rdfs:label "Polyester"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal/polyester"^^xsd:anyURI ;
     mim:naam "Polyester"@nl ;
-    dcterms:identifier "EAID_596D866D_D691_42A8_9760_1B0DA0E9884" ;
+    dcterms:identifier "EAID_596D866D_D691_42A8_9760_1B0DA0E98840" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> ;
     skos:prefLabel "Polyester"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> .
@@ -1628,7 +1628,7 @@
     rdfs:label "Polyesterbeton"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal/polyesterbeton"^^xsd:anyURI ;
     mim:naam "Polyesterbeton"@nl ;
-    dcterms:identifier "EAID_8480C1CA_0907_48A1_B9C3_C26C23D9982" ;
+    dcterms:identifier "EAID_8480C1CA_0907_48A1_B9C3_C26C23D99820" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> ;
     skos:prefLabel "Polyesterbeton"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> .
@@ -1639,7 +1639,7 @@
     rdfs:label "Polyetheen"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal/polyetheen"^^xsd:anyURI ;
     mim:naam "Polyetheen"@nl ;
-    dcterms:identifier "EAID_6BAD1FDB_6052_4239_A199_AD8CFA73159" ;
+    dcterms:identifier "EAID_6BAD1FDB_6052_4239_A199_AD8CFA731590" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> ;
     skos:prefLabel "Polyetheen"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> .
@@ -1650,7 +1650,7 @@
     rdfs:label "Polypropyleen"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal/polypropyleen"^^xsd:anyURI ;
     mim:naam "Polypropyleen"@nl ;
-    dcterms:identifier "EAID_C27567A6_5BCD_4635_8930_26AD650578B" ;
+    dcterms:identifier "EAID_C27567A6_5BCD_4635_8930_26AD650578B0" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> ;
     skos:prefLabel "Polypropyleen"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> .
@@ -1661,7 +1661,7 @@
     rdfs:label "Polyurethaan"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal/polyurethaan"^^xsd:anyURI ;
     mim:naam "Polyurethaan"@nl ;
-    dcterms:identifier "EAID_050C7F2A_D5B2_4480_AA74_72CCAA91000" ;
+    dcterms:identifier "EAID_050C7F2A_D5B2_4480_AA74_72CCAA910000" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> ;
     skos:prefLabel "Polyurethaan"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> .
@@ -1672,7 +1672,7 @@
     rdfs:label "Polyvinylchloride"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal/polyvinylchloride"^^xsd:anyURI ;
     mim:naam "Polyvinylchloride"@nl ;
-    dcterms:identifier "EAID_C444418F_D1BA_4127_8AF0_67979CA6436" ;
+    dcterms:identifier "EAID_C444418F_D1BA_4127_8AF0_67979CA64360" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> ;
     skos:prefLabel "Polyvinylchloride"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> .
@@ -1683,7 +1683,7 @@
     rdfs:label "Porfier"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal/porfier"^^xsd:anyURI ;
     mim:naam "Porfier"@nl ;
-    dcterms:identifier "EAID_3FD8DD41_9657_49D8_B57F_C718B388A62" ;
+    dcterms:identifier "EAID_3FD8DD41_9657_49D8_B57F_C718B388A620" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> ;
     skos:prefLabel "Porfier"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> .
@@ -1694,7 +1694,7 @@
     rdfs:label "Porfier Albiano-Italië"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal/porfier-albiano-itali"^^xsd:anyURI ;
     mim:naam "Porfier Albiano-Italië"@nl ;
-    dcterms:identifier "EAID_0C5C5CC1_09F0_4A39_9F9A_EF2B934E437" ;
+    dcterms:identifier "EAID_0C5C5CC1_09F0_4A39_9F9A_EF2B934E4370" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> ;
     skos:prefLabel "Porfier Albiano-Italië"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> .
@@ -1705,7 +1705,7 @@
     rdfs:label "Puingranulaat"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal/puingranulaat"^^xsd:anyURI ;
     mim:naam "Puingranulaat"@nl ;
-    dcterms:identifier "EAID_7E018F28_8BCF_4864_9C44_3A396E33086" ;
+    dcterms:identifier "EAID_7E018F28_8BCF_4864_9C44_3A396E330860" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> ;
     skos:prefLabel "Puingranulaat"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> .
@@ -1716,7 +1716,7 @@
     rdfs:label "Rubber"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal/rubber"^^xsd:anyURI ;
     mim:naam "Rubber"@nl ;
-    dcterms:identifier "EAID_B63FCC2B_82B1_45DD_A75E_3A40B1B3977" ;
+    dcterms:identifier "EAID_B63FCC2B_82B1_45DD_A75E_3A40B1B39770" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> ;
     skos:prefLabel "Rubber"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> .
@@ -1727,7 +1727,7 @@
     rdfs:label "RVS"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal/rvs"^^xsd:anyURI ;
     mim:naam "RVS"@nl ;
-    dcterms:identifier "EAID_32DC3E0D_2163_4CE0_A045_2D7BBCBCE96" ;
+    dcterms:identifier "EAID_32DC3E0D_2163_4CE0_A045_2D7BBCBCE960" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> ;
     skos:prefLabel "RVS"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> .
@@ -1738,7 +1738,7 @@
     rdfs:label "Schraal beton"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal/schraal-beton"^^xsd:anyURI ;
     mim:naam "Schraal beton"@nl ;
-    dcterms:identifier "EAID_3F51A980_E8A9_43AE_BC5A_F5F5C0B412E" ;
+    dcterms:identifier "EAID_3F51A980_E8A9_43AE_BC5A_F5F5C0B412E0" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> ;
     skos:prefLabel "Schraal beton"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> .
@@ -1749,7 +1749,7 @@
     rdfs:label "Schuimbeton"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal/schuimbeton"^^xsd:anyURI ;
     mim:naam "Schuimbeton"@nl ;
-    dcterms:identifier "EAID_1B120AEB_4C90_4896_9016_D1024D31DC5" ;
+    dcterms:identifier "EAID_1B120AEB_4C90_4896_9016_D1024D31DC50" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> ;
     skos:prefLabel "Schuimbeton"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> .
@@ -1760,7 +1760,7 @@
     rdfs:label "Schuimbitumenstabilisatie"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal/schuimbitumenstabilisatie"^^xsd:anyURI ;
     mim:naam "Schuimbitumenstabilisatie"@nl ;
-    dcterms:identifier "EAID_3CE301F5_7B0D_45C0_86DC_7DFD348CAD9" ;
+    dcterms:identifier "EAID_3CE301F5_7B0D_45C0_86DC_7DFD348CAD90" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> ;
     skos:prefLabel "Schuimbitumenstabilisatie"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> .
@@ -1771,7 +1771,7 @@
     rdfs:label "Silex"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal/silex"^^xsd:anyURI ;
     mim:naam "Silex"@nl ;
-    dcterms:identifier "EAID_65963557_5192_4501_81FB_F0A69E14A34" ;
+    dcterms:identifier "EAID_65963557_5192_4501_81FB_F0A69E14A340" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> ;
     skos:prefLabel "Silex"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> .
@@ -1782,7 +1782,7 @@
     rdfs:label "SMA*"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal/sma"^^xsd:anyURI ;
     mim:naam "SMA*"@nl ;
-    dcterms:identifier "EAID_EBCCDEE0_9B12_4677_8098_EA52F82663D" ;
+    dcterms:identifier "EAID_EBCCDEE0_9B12_4677_8098_EA52F82663D0" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> ;
     skos:prefLabel "SMA*"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> .
@@ -1793,7 +1793,7 @@
     rdfs:label "SMA-NL 11A"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal/sma-nl-11a"^^xsd:anyURI ;
     mim:naam "SMA-NL 11A"@nl ;
-    dcterms:identifier "EAID_250C0FA5_2734_4F06_BD76_B01F1228CBD" ;
+    dcterms:identifier "EAID_250C0FA5_2734_4F06_BD76_B01F1228CBD0" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> ;
     skos:prefLabel "SMA-NL 11A"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> .
@@ -1804,7 +1804,7 @@
     rdfs:label "SMA-NL 11B"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal/sma-nl-11b"^^xsd:anyURI ;
     mim:naam "SMA-NL 11B"@nl ;
-    dcterms:identifier "EAID_3D81D28A_6605_432A_94ED_5C308FCDE9A" ;
+    dcterms:identifier "EAID_3D81D28A_6605_432A_94ED_5C308FCDE9A0" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> ;
     skos:prefLabel "SMA-NL 11B"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> .
@@ -1815,7 +1815,7 @@
     rdfs:label "SMA-NL 5"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal/sma-nl-5"^^xsd:anyURI ;
     mim:naam "SMA-NL 5"@nl ;
-    dcterms:identifier "EAID_64655120_382B_47D8_9B19_BF29C501E1B" ;
+    dcterms:identifier "EAID_64655120_382B_47D8_9B19_BF29C501E1B0" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> ;
     skos:prefLabel "SMA-NL 5"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> .
@@ -1826,7 +1826,7 @@
     rdfs:label "SMA-NL 8A"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal/sma-nl-8a"^^xsd:anyURI ;
     mim:naam "SMA-NL 8A"@nl ;
-    dcterms:identifier "EAID_453F825F_13F2_457C_9051_C499E90B87F" ;
+    dcterms:identifier "EAID_453F825F_13F2_457C_9051_C499E90B87F0" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> ;
     skos:prefLabel "SMA-NL 8A"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> .
@@ -1837,7 +1837,7 @@
     rdfs:label "Smashcourt"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal/smashcourt"^^xsd:anyURI ;
     mim:naam "Smashcourt"@nl ;
-    dcterms:identifier "EAID_5023CB3E_68E3_4699_B873_7E3316AE85A" ;
+    dcterms:identifier "EAID_5023CB3E_68E3_4699_B873_7E3316AE85A0" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> ;
     skos:prefLabel "Smashcourt"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> .
@@ -1848,7 +1848,7 @@
     rdfs:label "Speelzand"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal/speelzand"^^xsd:anyURI ;
     mim:naam "Speelzand"@nl ;
-    dcterms:identifier "EAID_1F6D0999_09C4_4F2B_89ED_EC6496341E4" ;
+    dcterms:identifier "EAID_1F6D0999_09C4_4F2B_89ED_EC6496341E40" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> ;
     skos:prefLabel "Speelzand"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> .
@@ -1859,7 +1859,7 @@
     rdfs:label "Staal"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal/staal"^^xsd:anyURI ;
     mim:naam "Staal"@nl ;
-    dcterms:identifier "EAID_CE8AA2ED_1EC2_4BA9_ADDA_2FDB57DD39D" ;
+    dcterms:identifier "EAID_CE8AA2ED_1EC2_4BA9_ADDA_2FDB57DD39D0" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> ;
     skos:prefLabel "Staal"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> .
@@ -1870,7 +1870,7 @@
     rdfs:label "Staal gegalvaniseerd"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal/staal-gegalvaniseerd"^^xsd:anyURI ;
     mim:naam "Staal gegalvaniseerd"@nl ;
-    dcterms:identifier "EAID_7DDB46B3_F6CA_41CE_976B_664D8E534BC" ;
+    dcterms:identifier "EAID_7DDB46B3_F6CA_41CE_976B_664D8E534BC0" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> ;
     skos:prefLabel "Staal gegalvaniseerd"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> .
@@ -1881,7 +1881,7 @@
     rdfs:label "Staal gepoedercoat"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal/staal-gepoedercoat"^^xsd:anyURI ;
     mim:naam "Staal gepoedercoat"@nl ;
-    dcterms:identifier "EAID_D287D44D_BDF4_4D8D_9FAD_59A98A1DE90" ;
+    dcterms:identifier "EAID_D287D44D_BDF4_4D8D_9FAD_59A98A1DE900" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> ;
     skos:prefLabel "Staal gepoedercoat"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> .
@@ -1892,7 +1892,7 @@
     rdfs:label "Steen"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal/steen"^^xsd:anyURI ;
     mim:naam "Steen"@nl ;
-    dcterms:identifier "EAID_02022BDC_B182_4EB6_A7C4_5073538ED07" ;
+    dcterms:identifier "EAID_02022BDC_B182_4EB6_A7C4_5073538ED070" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> ;
     skos:prefLabel "Steen"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> .
@@ -1903,7 +1903,7 @@
     rdfs:label "Steenpuin"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal/steenpuin"^^xsd:anyURI ;
     mim:naam "Steenpuin"@nl ;
-    dcterms:identifier "EAID_16101D99_EB8A_42A5_B0C7_E31D8CF42D7" ;
+    dcterms:identifier "EAID_16101D99_EB8A_42A5_B0C7_E31D8CF42D70" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> ;
     skos:prefLabel "Steenpuin"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> .
@@ -1914,7 +1914,7 @@
     rdfs:label "Steenslag"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal/steenslag"^^xsd:anyURI ;
     mim:naam "Steenslag"@nl ;
-    dcterms:identifier "EAID_245356DB_AEFC_4B68_A09B_40CD75C0B26" ;
+    dcterms:identifier "EAID_245356DB_AEFC_4B68_A09B_40CD75C0B260" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> ;
     skos:prefLabel "Steenslag"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> .
@@ -1925,7 +1925,7 @@
     rdfs:label "Stol"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal/stol"^^xsd:anyURI ;
     mim:naam "Stol"@nl ;
-    dcterms:identifier "EAID_8B10AA92_BBD9_40B3_B2B2_460E4E4B39E" ;
+    dcterms:identifier "EAID_8B10AA92_BBD9_40B3_B2B2_460E4E4B39E0" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> ;
     skos:prefLabel "Stol"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> .
@@ -1936,7 +1936,7 @@
     rdfs:label "Straatzand"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal/straatzand"^^xsd:anyURI ;
     mim:naam "Straatzand"@nl ;
-    dcterms:identifier "EAID_E99B7C48_6191_4F0C_AE1B_37F186DA69A" ;
+    dcterms:identifier "EAID_E99B7C48_6191_4F0C_AE1B_37F186DA69A0" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> ;
     skos:prefLabel "Straatzand"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> .
@@ -1947,7 +1947,7 @@
     rdfs:label "Tegel keramiek"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal/tegel-keramiek"^^xsd:anyURI ;
     mim:naam "Tegel keramiek"@nl ;
-    dcterms:identifier "EAID_E5842D52_547E_485B_9FE2_3C3C97CE742" ;
+    dcterms:identifier "EAID_E5842D52_547E_485B_9FE2_3C3C97CE7420" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> ;
     skos:prefLabel "Tegel keramiek"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> .
@@ -1958,7 +1958,7 @@
     rdfs:label "Thermoplastisch materiaal"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal/thermoplastisch-materiaal"^^xsd:anyURI ;
     mim:naam "Thermoplastisch materiaal"@nl ;
-    dcterms:identifier "EAID_4B40D1E8_F99F_499F_8487_29F31E4436B" ;
+    dcterms:identifier "EAID_4B40D1E8_F99F_499F_8487_29F31E4436B0" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> ;
     skos:prefLabel "Thermoplastisch materiaal"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> .
@@ -1969,7 +1969,7 @@
     rdfs:label "Tufsteen"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal/tufsteen"^^xsd:anyURI ;
     mim:naam "Tufsteen"@nl ;
-    dcterms:identifier "EAID_2EB9BD5D_AE1D_4D65_9BFF_A8FBBCB07EB" ;
+    dcterms:identifier "EAID_2EB9BD5D_AE1D_4D65_9BFF_A8FBBCB07EB0" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> ;
     skos:prefLabel "Tufsteen"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> .
@@ -1980,7 +1980,7 @@
     rdfs:label "Tweecomponenten koudplast"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal/tweecomponenten-koudplast"^^xsd:anyURI ;
     mim:naam "Tweecomponenten koudplast"@nl ;
-    dcterms:identifier "EAID_688D3225_F087_4D1A_BB17_4D646C7E124" ;
+    dcterms:identifier "EAID_688D3225_F087_4D1A_BB17_4D646C7E1240" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> ;
     skos:prefLabel "Tweecomponenten koudplast"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> .
@@ -1991,7 +1991,7 @@
     rdfs:label "Valzand"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal/valzand"^^xsd:anyURI ;
     mim:naam "Valzand"@nl ;
-    dcterms:identifier "EAID_348108B9_E864_4226_84A5_C6E46E12228" ;
+    dcterms:identifier "EAID_348108B9_E864_4226_84A5_C6E46E122280" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> ;
     skos:prefLabel "Valzand"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> .
@@ -2002,7 +2002,7 @@
     rdfs:label "Vezelcement"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal/vezelcement"^^xsd:anyURI ;
     mim:naam "Vezelcement"@nl ;
-    dcterms:identifier "EAID_5A740982_81D5_476B_81B8_783386E3E7B" ;
+    dcterms:identifier "EAID_5A740982_81D5_476B_81B8_783386E3E7B0" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> ;
     skos:prefLabel "Vezelcement"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> .
@@ -2013,7 +2013,7 @@
     rdfs:label "Voegzand"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal/voegzand"^^xsd:anyURI ;
     mim:naam "Voegzand"@nl ;
-    dcterms:identifier "EAID_756603CA_0A59_40F5_AFE7_94A969B1856" ;
+    dcterms:identifier "EAID_756603CA_0A59_40F5_AFE7_94A969B18560" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> ;
     skos:prefLabel "Voegzand"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> .
@@ -2024,7 +2024,7 @@
     rdfs:label "Voorgevormd plakmateriaal"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal/voorgevormd-plakmateriaal"^^xsd:anyURI ;
     mim:naam "Voorgevormd plakmateriaal"@nl ;
-    dcterms:identifier "EAID_AB1EA74F_2ED5_40B4_BB0F_B5BB54A4275" ;
+    dcterms:identifier "EAID_AB1EA74F_2ED5_40B4_BB0F_B5BB54A42750" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> ;
     skos:prefLabel "Voorgevormd plakmateriaal"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> .
@@ -2035,7 +2035,7 @@
     rdfs:label "Wegenverf"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal/wegenverf"^^xsd:anyURI ;
     mim:naam "Wegenverf"@nl ;
-    dcterms:identifier "EAID_1F9DAD4F_F866_4598_8409_88FD678214A" ;
+    dcterms:identifier "EAID_1F9DAD4F_F866_4598_8409_88FD678214A0" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> ;
     skos:prefLabel "Wegenverf"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> .
@@ -2046,7 +2046,7 @@
     rdfs:label "Wilgentenen"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal/wilgentenen"^^xsd:anyURI ;
     mim:naam "Wilgentenen"@nl ;
-    dcterms:identifier "EAID_CDABD500_5118_4E54_A6C9_B022A40E988" ;
+    dcterms:identifier "EAID_CDABD500_5118_4E54_A6C9_B022A40E9880" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> ;
     skos:prefLabel "Wilgentenen"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> .
@@ -2057,7 +2057,7 @@
     rdfs:label "Zand voor kunstgras"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal/zand-voor-kunstgras"^^xsd:anyURI ;
     mim:naam "Zand voor kunstgras"@nl ;
-    dcterms:identifier "EAID_73D497F8_8761_468F_868A_563713649D9" ;
+    dcterms:identifier "EAID_73D497F8_8761_468F_868A_563713649D90" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> ;
     skos:prefLabel "Zand voor kunstgras"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> .
@@ -2068,7 +2068,7 @@
     rdfs:label "Zandasfalt"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal/zandasfalt"^^xsd:anyURI ;
     mim:naam "Zandasfalt"@nl ;
-    dcterms:identifier "EAID_747D846C_133C_478F_8A64_A0AA5D9A4D5" ;
+    dcterms:identifier "EAID_747D846C_133C_478F_8A64_A0AA5D9A4D50" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> ;
     skos:prefLabel "Zandasfalt"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> .
@@ -2079,7 +2079,7 @@
     rdfs:label "Zandcement"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal/zandcement"^^xsd:anyURI ;
     mim:naam "Zandcement"@nl ;
-    dcterms:identifier "EAID_3555138B_7E0F_41A3_8C5E_6BFFECA1402" ;
+    dcterms:identifier "EAID_3555138B_7E0F_41A3_8C5E_6BFFECA14020" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> ;
     skos:prefLabel "Zandcement"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> .
@@ -2090,7 +2090,7 @@
     rdfs:label "Zandgrindasfalt"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal/zandgrindasfalt"^^xsd:anyURI ;
     mim:naam "Zandgrindasfalt"@nl ;
-    dcterms:identifier "EAID_0216A4DB_9128_4BE3_983D_8DAD0B4F885" ;
+    dcterms:identifier "EAID_0216A4DB_9128_4BE3_983D_8DAD0B4F8850" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> ;
     skos:prefLabel "Zandgrindasfalt"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> .
@@ -2101,7 +2101,7 @@
     rdfs:label "Zandsteen"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal/zandsteen"^^xsd:anyURI ;
     mim:naam "Zandsteen"@nl ;
-    dcterms:identifier "EAID_7CFF2FE1_2B74_4211_B91A_98A82024CEB" ;
+    dcterms:identifier "EAID_7CFF2FE1_2B74_4211_B91A_98A82024CEB0" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> ;
     skos:prefLabel "Zandsteen"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> .
@@ -2112,7 +2112,7 @@
     rdfs:label "Zandsteen Gres-België"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal/zandsteen-gres-belgi"^^xsd:anyURI ;
     mim:naam "Zandsteen Gres-België"@nl ;
-    dcterms:identifier "EAID_1BE2386C_0836_4B76_8C56_3E40B00D2D1" ;
+    dcterms:identifier "EAID_1BE2386C_0836_4B76_8C56_3E40B00D2D10" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> ;
     skos:prefLabel "Zandsteen Gres-België"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> .
@@ -2123,7 +2123,7 @@
     rdfs:label "Zilverzand"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal/zilverzand"^^xsd:anyURI ;
     mim:naam "Zilverzand"@nl ;
-    dcterms:identifier "EAID_28C8DC95_A55F_419F_B1F8_31A23286BEC" ;
+    dcterms:identifier "EAID_28C8DC95_A55F_419F_B1F8_31A23286BEC0" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> ;
     skos:prefLabel "Zilverzand"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> .
@@ -2134,7 +2134,7 @@
     rdfs:label "ZOAB 11"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal/zoab-11"^^xsd:anyURI ;
     mim:naam "ZOAB 11"@nl ;
-    dcterms:identifier "EAID_320C57F8_7C52_424F_9E63_B427CCB44C8" ;
+    dcterms:identifier "EAID_320C57F8_7C52_424F_9E63_B427CCB44C80" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> ;
     skos:prefLabel "ZOAB 11"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> .
@@ -2145,7 +2145,7 @@
     rdfs:label "ZOAB 16"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal/zoab-16"^^xsd:anyURI ;
     mim:naam "ZOAB 16"@nl ;
-    dcterms:identifier "EAID_5EB101DD_8149_4727_9B4F_2D051E0C800" ;
+    dcterms:identifier "EAID_5EB101DD_8149_4727_9B4F_2D051E0C8000" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> ;
     skos:prefLabel "ZOAB 16"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> .
@@ -2156,7 +2156,7 @@
     rdfs:label "ZOAB 22"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal/zoab-22"^^xsd:anyURI ;
     mim:naam "ZOAB 22"@nl ;
-    dcterms:identifier "EAID_37E5D83D_92D5_4BE7_9FE9_7981518FFD0" ;
+    dcterms:identifier "EAID_37E5D83D_92D5_4BE7_9FE9_7981518FFD00" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> ;
     skos:prefLabel "ZOAB 22"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> .
@@ -2167,7 +2167,7 @@
     rdfs:label "ZOAB PA*"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal/zoab-pa"^^xsd:anyURI ;
     mim:naam "ZOAB PA*"@nl ;
-    dcterms:identifier "EAID_98C9A7DA_EA70_4AE1_B9DC_27B7B7B6C40" ;
+    dcterms:identifier "EAID_98C9A7DA_EA70_4AE1_B9DC_27B7B7B6C400" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> ;
     skos:prefLabel "ZOAB PA*"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-materiaal> .
@@ -2178,7 +2178,7 @@
     rdfs:label "ADSL"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typecommunicatie/adsl"^^xsd:anyURI ;
     mim:naam "ADSL"@nl ;
-    dcterms:identifier "EAID_D6A6B309_4A58_48EC_B284_65E73235207" ;
+    dcterms:identifier "EAID_D6A6B309_4A58_48EC_B284_65E732352070" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typecommunicatie> ;
     skos:prefLabel "ADSL"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typecommunicatie> .
@@ -2189,7 +2189,7 @@
     rdfs:label "GPRS"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typecommunicatie/gprs"^^xsd:anyURI ;
     mim:naam "GPRS"@nl ;
-    dcterms:identifier "EAID_82962520_F567_4C75_B1F4_6AFB9ECAE92" ;
+    dcterms:identifier "EAID_82962520_F567_4C75_B1F4_6AFB9ECAE920" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typecommunicatie> ;
     skos:prefLabel "GPRS"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typecommunicatie> .
@@ -2200,7 +2200,7 @@
     rdfs:label "Onbekend"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typecommunicatie/onbekend"^^xsd:anyURI ;
     mim:naam "Onbekend"@nl ;
-    dcterms:identifier "EAID_00B1EEF3_5CAB_4B59_A7BD_9949C89250F" ;
+    dcterms:identifier "EAID_00B1EEF3_5CAB_4B59_A7BD_9949C89250F0" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typecommunicatie> ;
     skos:prefLabel "Onbekend"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typecommunicatie> .
@@ -2211,7 +2211,7 @@
     rdfs:label "PSTN"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typecommunicatie/pstn"^^xsd:anyURI ;
     mim:naam "PSTN"@nl ;
-    dcterms:identifier "EAID_3B8E494C_2A64_4EDC_8642_DE9FFACF027" ;
+    dcterms:identifier "EAID_3B8E494C_2A64_4EDC_8642_DE9FFACF0270" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typecommunicatie> ;
     skos:prefLabel "PSTN"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typecommunicatie> .
@@ -2222,7 +2222,7 @@
     rdfs:label "Cementgebonden"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typefundering/cementgebonden"^^xsd:anyURI ;
     mim:naam "Cementgebonden"@nl ;
-    dcterms:identifier "EAID_4E565689_A52D_448E_8201_5C0FADB0250" ;
+    dcterms:identifier "EAID_4E565689_A52D_448E_8201_5C0FADB02500" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typefundering> ;
     skos:prefLabel "Cementgebonden"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typefundering> .
@@ -2233,7 +2233,7 @@
     rdfs:label "Funderingspalen van hout"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typefundering/funderingspalen-van-hout"^^xsd:anyURI ;
     mim:naam "Funderingspalen van hout"@nl ;
-    dcterms:identifier "EAID_D7BF84ED_84A7_494E_9A8D_FA1C58F7660" ;
+    dcterms:identifier "EAID_D7BF84ED_84A7_494E_9A8D_FA1C58F76600" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typefundering> ;
     skos:prefLabel "Funderingspalen van hout"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typefundering> .
@@ -2244,7 +2244,7 @@
     rdfs:label "Funderingspalen van prefab beton"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typefundering/funderingspalen-van-prefab-beton"^^xsd:anyURI ;
     mim:naam "Funderingspalen van prefab beton"@nl ;
-    dcterms:identifier "EAID_BD67B221_98AE_4E66_8FA4_B27659F977A" ;
+    dcterms:identifier "EAID_BD67B221_98AE_4E66_8FA4_B27659F977A0" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typefundering> ;
     skos:prefLabel "Funderingspalen van prefab beton"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typefundering> .
@@ -2255,7 +2255,7 @@
     rdfs:label "Funderingspalen van staal"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typefundering/funderingspalen-van-staal"^^xsd:anyURI ;
     mim:naam "Funderingspalen van staal"@nl ;
-    dcterms:identifier "EAID_8B7BBB81_3498_49A0_8E08_FE77B2DB765" ;
+    dcterms:identifier "EAID_8B7BBB81_3498_49A0_8E08_FE77B2DB7650" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typefundering> ;
     skos:prefLabel "Funderingspalen van staal"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typefundering> .
@@ -2266,7 +2266,7 @@
     rdfs:label "Funderingsplaat"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typefundering/funderingsplaat"^^xsd:anyURI ;
     mim:naam "Funderingsplaat"@nl ;
-    dcterms:identifier "EAID_71BAADE9_90CC_4009_A5C1_660AE2BFAA5" ;
+    dcterms:identifier "EAID_71BAADE9_90CC_4009_A5C1_660AE2BFAA50" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typefundering> ;
     skos:prefLabel "Funderingsplaat"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typefundering> .
@@ -2278,7 +2278,7 @@
     mim:definitie "Bij meubilair"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typefundering/gestort"^^xsd:anyURI ;
     mim:naam "Gestort"@nl ;
-    dcterms:identifier "EAID_9662525B_DC17_4D27_AB0C_E593FA6A49C" ;
+    dcterms:identifier "EAID_9662525B_DC17_4D27_AB0C_E593FA6A49C0" ;
     skos:definition "Bij meubilair"@nl ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typefundering> ;
     skos:prefLabel "Gestort"@nl ;
@@ -2290,7 +2290,7 @@
     rdfs:label "Hydraulisch gebonden"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typefundering/hydraulisch-gebonden"^^xsd:anyURI ;
     mim:naam "Hydraulisch gebonden"@nl ;
-    dcterms:identifier "EAID_F4A46CD3_B3F9_40EB_B654_C907CF393CF" ;
+    dcterms:identifier "EAID_F4A46CD3_B3F9_40EB_B654_C907CF393CF0" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typefundering> ;
     skos:prefLabel "Hydraulisch gebonden"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typefundering> .
@@ -2302,7 +2302,7 @@
     mim:definitie "De NOC*NSF-classificatie is van toepassing bij de fundering van kunstgrasvelden en atletiekbanen."@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typefundering/noc-nsf-classificatie"^^xsd:anyURI ;
     mim:naam "NOC-NSF Classificatie"@nl ;
-    dcterms:identifier "EAID_89B22DD6_C24D_435F_9354_6142BECF084" ;
+    dcterms:identifier "EAID_89B22DD6_C24D_435F_9354_6142BECF0840" ;
     skos:definition "De NOC*NSF-classificatie is van toepassing bij de fundering van kunstgrasvelden en atletiekbanen."@nl ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typefundering> ;
     skos:prefLabel "NOC-NSF Classificatie"@nl ;
@@ -2314,7 +2314,7 @@
     rdfs:label "Onbekend"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typefundering/onbekend"^^xsd:anyURI ;
     mim:naam "Onbekend"@nl ;
-    dcterms:identifier "EAID_84F2581F_8651_4763_B98F_A6C954BF767" ;
+    dcterms:identifier "EAID_84F2581F_8651_4763_B98F_A6C954BF7670" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typefundering> ;
     skos:prefLabel "Onbekend"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typefundering> .
@@ -2325,7 +2325,7 @@
     rdfs:label "Ongebonden"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typefundering/ongebonden"^^xsd:anyURI ;
     mim:naam "Ongebonden"@nl ;
-    dcterms:identifier "EAID_F5B318EA_FC3B_4508_9A45_47E4F99D8A1" ;
+    dcterms:identifier "EAID_F5B318EA_FC3B_4508_9A45_47E4F99D8A10" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typefundering> ;
     skos:prefLabel "Ongebonden"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typefundering> .
@@ -2336,7 +2336,7 @@
     rdfs:label "Op staal"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typefundering/op-staal"^^xsd:anyURI ;
     mim:naam "Op staal"@nl ;
-    dcterms:identifier "EAID_B8114200_B763_4907_A492_D73807DBEC4" ;
+    dcterms:identifier "EAID_B8114200_B763_4907_A492_D73807DBEC40" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typefundering> ;
     skos:prefLabel "Op staal"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typefundering> .
@@ -2347,7 +2347,7 @@
     rdfs:label "Overig"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typefundering/overig"^^xsd:anyURI ;
     mim:naam "Overig"@nl ;
-    dcterms:identifier "EAID_2DF3F90A_A4EA_471A_AB7C_EF781282A72" ;
+    dcterms:identifier "EAID_2DF3F90A_A4EA_471A_AB7C_EF781282A720" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typefundering> ;
     skos:prefLabel "Overig"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typefundering> .
@@ -2358,7 +2358,7 @@
     rdfs:label "Poerenfundering"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typefundering/poerenfundering"^^xsd:anyURI ;
     mim:naam "Poerenfundering"@nl ;
-    dcterms:identifier "EAID_426A9803_DBF5_4776_A2E6_7102DD41108" ;
+    dcterms:identifier "EAID_426A9803_DBF5_4776_A2E6_7102DD411080" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typefundering> ;
     skos:prefLabel "Poerenfundering"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typefundering> .
@@ -2370,7 +2370,7 @@
     mim:definitie "Bij meubilair"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typefundering/prefab"^^xsd:anyURI ;
     mim:naam "Prefab"@nl ;
-    dcterms:identifier "EAID_3266F1F4_36BB_44AB_8C3A_C6BC9126EC9" ;
+    dcterms:identifier "EAID_3266F1F4_36BB_44AB_8C3A_C6BC9126EC90" ;
     skos:definition "Bij meubilair"@nl ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typefundering> ;
     skos:prefLabel "Prefab"@nl ;
@@ -2382,7 +2382,7 @@
     rdfs:label "Nog geen domeinwaaren bekend"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typeslot/nog-geen-domeinwaaren-bekend"^^xsd:anyURI ;
     mim:naam "Nog geen domeinwaaren bekend"@nl ;
-    dcterms:identifier "EAID_71147337_F18A_42B2_B456_C47088C4944" ;
+    dcterms:identifier "EAID_71147337_F18A_42B2_B456_C47088C49440" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typeslot> ;
     skos:prefLabel "Nog geen domeinwaaren bekend"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-typeslot> .
@@ -2393,7 +2393,7 @@
     rdfs:label "Driehoek"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-vorm/driehoek"^^xsd:anyURI ;
     mim:naam "Driehoek"@nl ;
-    dcterms:identifier "EAID_956F06BE_E2D7_4C5C_B89A_75EB5DE6A92" ;
+    dcterms:identifier "EAID_956F06BE_E2D7_4C5C_B89A_75EB5DE6A920" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-vorm> ;
     skos:prefLabel "Driehoek"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-vorm> .
@@ -2404,7 +2404,7 @@
     rdfs:label "Eivormig"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-vorm/eivormig"^^xsd:anyURI ;
     mim:naam "Eivormig"@nl ;
-    dcterms:identifier "EAID_FC951EF4_FEB6_48D0_A1E4_6E79CD5DE2D" ;
+    dcterms:identifier "EAID_FC951EF4_FEB6_48D0_A1E4_6E79CD5DE2D0" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-vorm> ;
     skos:prefLabel "Eivormig"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-vorm> .
@@ -2415,7 +2415,7 @@
     rdfs:label "Heul"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-vorm/heul"^^xsd:anyURI ;
     mim:naam "Heul"@nl ;
-    dcterms:identifier "EAID_616EC032_A37B_409E_9C77_2C6AAB74911" ;
+    dcterms:identifier "EAID_616EC032_A37B_409E_9C77_2C6AAB749110" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-vorm> ;
     skos:prefLabel "Heul"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-vorm> .
@@ -2426,7 +2426,7 @@
     rdfs:label "Muil"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-vorm/muil"^^xsd:anyURI ;
     mim:naam "Muil"@nl ;
-    dcterms:identifier "EAID_1404F133_4973_4044_81C3_B6992225DD1" ;
+    dcterms:identifier "EAID_1404F133_4973_4044_81C3_B6992225DD10" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-vorm> ;
     skos:prefLabel "Muil"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-vorm> .
@@ -2437,7 +2437,7 @@
     rdfs:label "Onbekend"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-vorm/onbekend"^^xsd:anyURI ;
     mim:naam "Onbekend"@nl ;
-    dcterms:identifier "EAID_5F6E62E1_442E_4C10_BBAC_460013D8808" ;
+    dcterms:identifier "EAID_5F6E62E1_442E_4C10_BBAC_460013D88080" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-vorm> ;
     skos:prefLabel "Onbekend"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-vorm> .
@@ -2448,7 +2448,7 @@
     rdfs:label "Ovaal"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-vorm/ovaal"^^xsd:anyURI ;
     mim:naam "Ovaal"@nl ;
-    dcterms:identifier "EAID_5FA47A70_5747_4032_B682_573A2B32646" ;
+    dcterms:identifier "EAID_5FA47A70_5747_4032_B682_573A2B326460" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-vorm> ;
     skos:prefLabel "Ovaal"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-vorm> .
@@ -2459,7 +2459,7 @@
     rdfs:label "Rechthoekig"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-vorm/rechthoekig"^^xsd:anyURI ;
     mim:naam "Rechthoekig"@nl ;
-    dcterms:identifier "EAID_F176B067_5C58_4950_B2CC_FADA02F7727" ;
+    dcterms:identifier "EAID_F176B067_5C58_4950_B2CC_FADA02F77270" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-vorm> ;
     skos:prefLabel "Rechthoekig"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-vorm> .
@@ -2470,7 +2470,7 @@
     rdfs:label "Rond"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-vorm/rond"^^xsd:anyURI ;
     mim:naam "Rond"@nl ;
-    dcterms:identifier "EAID_E7B98ECB_EAE3_476C_BE77_1A19D3063A4" ;
+    dcterms:identifier "EAID_E7B98ECB_EAE3_476C_BE77_1A19D3063A40" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-vorm> ;
     skos:prefLabel "Rond"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-vorm> .
@@ -2481,7 +2481,7 @@
     rdfs:label "Trapezium"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-vorm/trapezium"^^xsd:anyURI ;
     mim:naam "Trapezium"@nl ;
-    dcterms:identifier "EAID_09DFEC01_2BE0_4B7E_A815_B9CBF69E548" ;
+    dcterms:identifier "EAID_09DFEC01_2BE0_4B7E_A815_B9CBF69E5480" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-vorm> ;
     skos:prefLabel "Trapezium"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-vorm> .
@@ -2492,7 +2492,7 @@
     rdfs:label "U-vorm"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-vorm/u-vorm"^^xsd:anyURI ;
     mim:naam "U-vorm"@nl ;
-    dcterms:identifier "EAID_A01AC098_2901_416B_A3E6_602605C3F82" ;
+    dcterms:identifier "EAID_A01AC098_2901_416B_A3E6_602605C3F820" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-vorm> ;
     skos:prefLabel "U-vorm"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-vorm> .
@@ -2503,7 +2503,7 @@
     rdfs:label "Vierkant"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-vorm/vierkant"^^xsd:anyURI ;
     mim:naam "Vierkant"@nl ;
-    dcterms:identifier "EAID_7EB50314_E23F_48DB_B396_980C9FD2FF7" ;
+    dcterms:identifier "EAID_7EB50314_E23F_48DB_B396_980C9FD2FF70" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-vorm> ;
     skos:prefLabel "Vierkant"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/enumeratiesoort/enum-vorm> .
@@ -3363,7 +3363,7 @@ Eenheid: Jaartal"""@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/imbor/paal"^^xsd:anyURI ;
     mim:indicatieAbstractObject false ;
     mim:naam "Paal"@nl ;
-    dcterms:identifier "EAID_6B8DBBFB_03D7_4FD7_BBAB_3E7FBE60D97" ;
+    dcterms:identifier "EAID_6B8DBBFB_03D7_4FD7_BBAB_3E7FBE60D970" ;
     rdfs:comment "Langwerpig stuk hout, ijzer, steen enz., dat in de grond staat."@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/imbor/> .
 
@@ -3382,7 +3382,7 @@ Eenheid: Jaartal"""@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/imbor/sensor"^^xsd:anyURI ;
     mim:indicatieAbstractObject false ;
     mim:naam "Sensor"@nl ;
-    dcterms:identifier "EAID_4B32C511_77E9_4ABD_8C02_6F9F336A7A9" ;
+    dcterms:identifier "EAID_4B32C511_77E9_4ABD_8C02_6F9F336A7A90" ;
     rdfs:comment "Apparaat voor de meting van een fysieke grootheid (bijv. temperatuur, licht, druk, elektriciteit)."@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/imbor/> .
 
@@ -3457,7 +3457,7 @@ Eenheid: Jaartal"""@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/imbor/kast"^^xsd:anyURI ;
     mim:indicatieAbstractObject false ;
     mim:naam "Kast"@nl ;
-    dcterms:identifier "EAID_E89ECEBE_796F_4CB7_9E9F_860EBC21B4B" ;
+    dcterms:identifier "EAID_E89ECEBE_796F_4CB7_9E9F_860EBC21B4B0" ;
     rdfs:comment "Object met een permanent karakter dat dient om iets in te bergen en te beschermen."@nl ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/basis-imbor/imbor/> .
 

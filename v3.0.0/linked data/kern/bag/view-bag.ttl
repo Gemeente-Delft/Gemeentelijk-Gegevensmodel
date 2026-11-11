@@ -1,4 +1,4 @@
-# graph: <https://lod.gemeentelijkgegevensmodel.nl/v3.0.0/kern/bag/bag>
+# graph: <https://lod.gemeentelijkgegevensmodel.nl/v3.0.0/kern/bag/view-bag>
 
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix geo: <http://www.opengis.net/ont/geosparql#> .
@@ -311,8 +311,8 @@
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/> ;
     rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/kern/bag/gemeente> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/v3.0.0/kern/bag/bag> a owl:Ontology ;
-    rdfs:label "BAG"@nl ;
+<https://lod.gemeentelijkgegevensmodel.nl/v3.0.0/kern/bag/view-bag> a owl:Ontology ;
+    rdfs:label "View BAG"@nl ;
     dcterms:identifier "EAID_53E16E43_EDF1_4b47_B0DD_C77D8FEFCCA3" ;
     dcterms:isPartOf <https://lod.gemeentelijkgegevensmodel.nl/> ;
     owl:versionInfo "v3.0.0" .

@@ -1,4 +1,4 @@
-# graph: <https://lod.gemeentelijkgegevensmodel.nl/v3.0.0/sociaal-domein/inkomen/normafwijking/normafwijking>
+# graph: <https://lod.gemeentelijkgegevensmodel.nl/v3.0.0/sociaal-domein/inkomen/normafwijking/view-normafwijking>
 
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix mim: <http://modellen.mim-standaard.nl/def/mim#> .
@@ -53,8 +53,8 @@
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/> ;
     rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/maatregel> .
 
-<https://lod.gemeentelijkgegevensmodel.nl/v3.0.0/sociaal-domein/inkomen/normafwijking/normafwijking> a owl:Ontology ;
-    rdfs:label "Normafwijking"@nl ;
+<https://lod.gemeentelijkgegevensmodel.nl/v3.0.0/sociaal-domein/inkomen/normafwijking/view-normafwijking> a owl:Ontology ;
+    rdfs:label "View Normafwijking"@nl ;
     dcterms:identifier "EAID_1818B773_1463_43c7_BACA_FEE391FE27CD" ;
     dcterms:isPartOf <https://lod.gemeentelijkgegevensmodel.nl/> ;
     owl:versionInfo "v3.0.0" .
@@ -75,7 +75,7 @@
     mim:mogelijkGeenWaarde true ;
     mim:naam "Bedrag"@nl ;
     mim:type mim:Decimal ;
-    dcterms:identifier "EAID_syn_e527de3792d8898cd9c6e9b4d840046d20fbbafb" ;
+    dcterms:identifier "EAID_E85F3A82_7504_402F_AAAA_92D5E31DDDB4" ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/afwijkende-maatregel> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/> ;
     rdfs:range xsd:decimal .
@@ -96,7 +96,7 @@
     mim:mogelijkGeenWaarde true ;
     mim:naam "Code reden afwijking maatregel"@nl ;
     mim:type mim:Decimal ;
-    dcterms:identifier "EAID_syn_630af49a4d2170120eecb21bb0088d80fa4cd7f3" ;
+    dcterms:identifier "EAID_19C317C6_C17C_49F9_87B3_A48BF1527AEB" ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/afwijkende-maatregel> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/> ;
     rdfs:range xsd:decimal .
@@ -117,7 +117,7 @@
     mim:mogelijkGeenWaarde true ;
     mim:naam "Motivatie afwijking maatregel"@nl ;
     mim:type mim:Decimal ;
-    dcterms:identifier "EAID_syn_ae07874620a951b329cd7742c0ae36f1e7c8dcb4" ;
+    dcterms:identifier "EAID_1F204CAF_6922_4772_822A_542BE5A1093D" ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/afwijkende-maatregel> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/> ;
     rdfs:range xsd:decimal .
@@ -138,7 +138,7 @@
     mim:mogelijkGeenWaarde true ;
     mim:naam "Percentage"@nl ;
     mim:type mim:Decimal ;
-    dcterms:identifier "EAID_syn_487f5f9b1cde62c424d647da87396132a9b04dae" ;
+    dcterms:identifier "EAID_FD08099F_0DE4_4DC0_B391_23D574C015BF" ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/afwijkende-maatregel> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/> ;
     rdfs:range xsd:decimal .
@@ -159,7 +159,7 @@
     mim:mogelijkGeenWaarde true ;
     mim:naam "Bedrag boete"@nl ;
     mim:type mim:Decimal ;
-    dcterms:identifier "EAID_syn_fb7e13c40dbea47b15c574df31cad16438a58d3d" ;
+    dcterms:identifier "EAID_BFCE8EF9_8450_4880_998E_7B04F17A43C2" ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/boete> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/> ;
     rdfs:range xsd:decimal .
@@ -180,7 +180,7 @@
     mim:mogelijkGeenWaarde true ;
     mim:naam "Boetevorm"@nl ;
     mim:type mim:Decimal ;
-    dcterms:identifier "EAID_syn_2db329f6cd91716854293094b7239d18b1926207" ;
+    dcterms:identifier "EAID_F25A9164_4A0B_44B5_B053_F3087FDD8843" ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/boete> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/> ;
     rdfs:range xsd:decimal .
@@ -201,7 +201,7 @@
     mim:mogelijkGeenWaarde true ;
     mim:naam "Reden boete"@nl ;
     mim:type mim:Decimal ;
-    dcterms:identifier "EAID_syn_13af91982725e7792a310384a9fd900409a7571d" ;
+    dcterms:identifier "EAID_63A50914_77B2_4CB4_B31B_62934C4FBEAF" ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/boete> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/> ;
     rdfs:range xsd:decimal .
@@ -222,7 +222,7 @@
     mim:mogelijkGeenWaarde true ;
     mim:naam "Voorwaarde boete"@nl ;
     mim:type mim:Decimal ;
-    dcterms:identifier "EAID_syn_1dd62a82ae08ecd7f3b4d7025945e58fb6612129" ;
+    dcterms:identifier "EAID_B8A7BED9_6A36_4ACA_8AF5_8CBD38598723" ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/boete> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/> ;
     rdfs:range xsd:decimal .
@@ -233,7 +233,7 @@
     rdfs:label "Agressief gedrag"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/datatypes/coderedenmaatregel/agressief-gedrag"^^xsd:anyURI ;
     mim:naam "Agressief gedrag"@nl ;
-    dcterms:identifier "EAID_syn_12c5f982c26a213573d4bf925a8671aac0242382" ;
+    dcterms:identifier "EAID_75D3BB10_AAF7_420A_9EF0_B0FFFB9515A3" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/datatypes/coderedenmaatregel> ;
     skos:prefLabel "Agressief gedrag"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/datatypes/coderedenmaatregel> .
@@ -244,7 +244,7 @@
     rdfs:label "niet nakomen tegenprestatie"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/datatypes/coderedenmaatregel/niet-nakomen-tegenprestatie"^^xsd:anyURI ;
     mim:naam "niet nakomen tegenprestatie"@nl ;
-    dcterms:identifier "EAID_syn_fad7e9ae1675d13793668952c87bd5c86fac290d" ;
+    dcterms:identifier "EAID_DD51A14C_DE3F_4599_A787_27E0C9E96D79" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/datatypes/coderedenmaatregel> ;
     skos:prefLabel "niet nakomen tegenprestatie"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/datatypes/coderedenmaatregel> .
@@ -255,7 +255,7 @@
     rdfs:label "niet nakomen verplichtingen plan van aanpak"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/datatypes/coderedenmaatregel/niet-nakomen-verplichtingen-plan-van-aanpak"^^xsd:anyURI ;
     mim:naam "niet nakomen verplichtingen plan van aanpak"@nl ;
-    dcterms:identifier "EAID_syn_15b794efc201aae2aac490860ff7aab93e63c165" ;
+    dcterms:identifier "EAID_457E882D_9B30_4AF5_A8DB_2565D6782136" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/datatypes/coderedenmaatregel> ;
     skos:prefLabel "niet nakomen verplichtingen plan van aanpak"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/datatypes/coderedenmaatregel> .
@@ -266,7 +266,7 @@
     rdfs:label "niet (voldoende) nakomen van afspraken m.b.t. beheersing van de Nederlandse taal (art. 18b Participatiewet)"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/datatypes/coderedenmaatregel/niet-voldoende-nakomen-van-afspraken-m-b-t-beheersing-van-de-nederlandse-taal-art-18b-participatiewet"^^xsd:anyURI ;
     mim:naam "niet (voldoende) nakomen van afspraken m.b.t. beheersing van de Nederlandse taal (art. 18b Participatiewet)"@nl ;
-    dcterms:identifier "EAID_syn_2ff3147cd3e913678b138e2c4865d07cd1573532" ;
+    dcterms:identifier "EAID_E1EE7340_5B6D_48A8_B184_B5D0465BC421" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/datatypes/coderedenmaatregel> ;
     skos:prefLabel "niet (voldoende) nakomen van afspraken m.b.t. beheersing van de Nederlandse taal (art. 18b Participatiewet)"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/datatypes/coderedenmaatregel> .
@@ -277,7 +277,7 @@
     rdfs:label "niet (voldoende) zoeken naar scholing in zoekperiode van 4 weken"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/datatypes/coderedenmaatregel/niet-voldoende-zoeken-naar-scholing-in-zoekperiode-van-4-weken"^^xsd:anyURI ;
     mim:naam "niet (voldoende) zoeken naar scholing in zoekperiode van 4 weken"@nl ;
-    dcterms:identifier "EAID_syn_843c8b8b8ddfa69bf9dfec56a96966f3efcb6321" ;
+    dcterms:identifier "EAID_ED49036E_F597_41E2_86B7_C8CE2111785B" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/datatypes/coderedenmaatregel> ;
     skos:prefLabel "niet (voldoende) zoeken naar scholing in zoekperiode van 4 weken"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/datatypes/coderedenmaatregel> .
@@ -288,7 +288,7 @@
     rdfs:label "niet (voldoende) zoeken naar werk in zoekperiode van 4 weken"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/datatypes/coderedenmaatregel/niet-voldoende-zoeken-naar-werk-in-zoekperiode-van-4-weken"^^xsd:anyURI ;
     mim:naam "niet (voldoende) zoeken naar werk in zoekperiode van 4 weken"@nl ;
-    dcterms:identifier "EAID_syn_cbe118f28f1c441325858b511ba5c4427044b556" ;
+    dcterms:identifier "EAID_4ACE3B48_9E9F_442E_A097_81A25E99F281" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/datatypes/coderedenmaatregel> ;
     skos:prefLabel "niet (voldoende) zoeken naar werk in zoekperiode van 4 weken"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/datatypes/coderedenmaatregel> .
@@ -299,7 +299,7 @@
     rdfs:label "oorzaak bij partner"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/datatypes/coderedenmaatregel/oorzaak-bij-partner"^^xsd:anyURI ;
     mim:naam "oorzaak bij partner"@nl ;
-    dcterms:identifier "EAID_syn_7885f418967b46e868e883e5c54d12cea78f4308" ;
+    dcterms:identifier "EAID_0D36BCBC_74A6_432C_84B2_1DFD44086D47" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/datatypes/coderedenmaatregel> ;
     skos:prefLabel "oorzaak bij partner"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/datatypes/coderedenmaatregel> .
@@ -310,7 +310,7 @@
     rdfs:label "reden op het vlak van plicht tot arbeidsinschakeling"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/datatypes/coderedenmaatregel/reden-op-het-vlak-van-plicht-tot-arbeidsinschakeling"^^xsd:anyURI ;
     mim:naam "reden op het vlak van plicht tot arbeidsinschakeling"@nl ;
-    dcterms:identifier "EAID_syn_6d5caa5d8e1c6bf391953ad6e0481a997b4aa001" ;
+    dcterms:identifier "EAID_D1844887_CE35_46F8_A8EC_3358C7709055" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/datatypes/coderedenmaatregel> ;
     skos:prefLabel "reden op het vlak van plicht tot arbeidsinschakeling"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/datatypes/coderedenmaatregel> .
@@ -321,7 +321,7 @@
     rdfs:label "tekortschietend besef van verantwoordelijkheid"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/datatypes/coderedenmaatregel/tekortschietend-besef-van-verantwoordelijkheid"^^xsd:anyURI ;
     mim:naam "tekortschietend besef van verantwoordelijkheid"@nl ;
-    dcterms:identifier "EAID_syn_a931b5cab9a5c0a1140c02e91b7ddf8f6620f806" ;
+    dcterms:identifier "EAID_2694DC44_97BC_4BC2_B87F_5FAA6F973E90" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/datatypes/coderedenmaatregel> ;
     skos:prefLabel "tekortschietend besef van verantwoordelijkheid"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/datatypes/coderedenmaatregel> .
@@ -332,7 +332,7 @@
     rdfs:label "Ja"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/datatypes/stdindjn/ja"^^xsd:anyURI ;
     mim:naam "Ja"@nl ;
-    dcterms:identifier "EAID_syn_ea3e8cf2b7b3b2ccdb5cf77e77419b6965f4eca6" ;
+    dcterms:identifier "EAID_AE4EF058_FB4A_46E6_A3C4_F5DF7205D72F" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/datatypes/stdindjn> ;
     skos:prefLabel "Ja"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/datatypes/stdindjn> .
@@ -343,7 +343,7 @@
     rdfs:label "Nee"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/datatypes/stdindjn/nee"^^xsd:anyURI ;
     mim:naam "Nee"@nl ;
-    dcterms:identifier "EAID_syn_e052a4b5f476a9f933f78fc9197e82228fe208b7" ;
+    dcterms:identifier "EAID_5EEA0194_F999_4873_9FD9_919E60FCD438" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/datatypes/stdindjn> ;
     skos:prefLabel "Nee"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/datatypes/stdindjn> .
@@ -354,7 +354,7 @@
     rdfs:label "Afwijking maatregel"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/datatypes/typemaatregel/afwijking-maatregel"^^xsd:anyURI ;
     mim:naam "Afwijking maatregel"@nl ;
-    dcterms:identifier "EAID_syn_9af982050acf26ed73f0bd54bf292102a7b2de38" ;
+    dcterms:identifier "EAID_536139D0_09D7_451C_ABAD_871E4CC2A3E3" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/datatypes/typemaatregel> ;
     skos:prefLabel "Afwijking maatregel"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/datatypes/typemaatregel> .
@@ -365,7 +365,7 @@
     rdfs:label "Boete"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/datatypes/typemaatregel/boete"^^xsd:anyURI ;
     mim:naam "Boete"@nl ;
-    dcterms:identifier "EAID_syn_00a9da20ad05afdb1932d8e521e3d6f322adccdb" ;
+    dcterms:identifier "EAID_E91E6EF1_49A2_4F4B_95C3_9FA5051D9F58" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/datatypes/typemaatregel> ;
     skos:prefLabel "Boete"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/datatypes/typemaatregel> .
@@ -376,7 +376,7 @@
     rdfs:label "Maatregel op uitkering"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/datatypes/typemaatregel/maatregel-op-uitkering"^^xsd:anyURI ;
     mim:naam "Maatregel op uitkering"@nl ;
-    dcterms:identifier "EAID_syn_ccd1ba4326521acb73c9c063c612426abb28dab8" ;
+    dcterms:identifier "EAID_75D37F77_064A_4BD7_B65F_89F85571BBA5" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/datatypes/typemaatregel> ;
     skos:prefLabel "Maatregel op uitkering"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/datatypes/typemaatregel> .
@@ -387,7 +387,7 @@
     rdfs:label "Afwikingstype 1"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/datatypes/typenormafwijking/afwikingstype-1"^^xsd:anyURI ;
     mim:naam "Afwikingstype 1"@nl ;
-    dcterms:identifier "EAID_syn_f324dc1adb0b1f524deb68c7e8ce332eace110e6" ;
+    dcterms:identifier "EAID_CE48DF8F_87E4_4128_975C_B5E1FF613C5E" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/datatypes/typenormafwijking> ;
     skos:prefLabel "Afwikingstype 1"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/datatypes/typenormafwijking> .
@@ -398,7 +398,7 @@
     rdfs:label "Afwikingstype 2"@nl ;
     mim:identificatie "https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/datatypes/typenormafwijking/afwikingstype-2"^^xsd:anyURI ;
     mim:naam "Afwikingstype 2"@nl ;
-    dcterms:identifier "EAID_syn_aabaffcbd36feb2948bde33323768febf10ef9ab" ;
+    dcterms:identifier "EAID_3EF6988E_62DB_4EBF_9E67_9BF2ADFDA2B9" ;
     skos:inScheme <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/datatypes/typenormafwijking> ;
     skos:prefLabel "Afwikingstype 2"@nl ;
     skos:topConceptOf <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/datatypes/typenormafwijking> .
@@ -417,7 +417,7 @@
     mim:mogelijkGeenWaarde true ;
     mim:naam "Code reden maatregel"@nl ;
     mim:type <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/datatypes/coderedenmaatregel> ;
-    dcterms:identifier "EAID_syn_b13f7a735d2a839266c6df060768dca08fc6cc96" ;
+    dcterms:identifier "EAID_B7359648_93D6_4AFD_978C_C7C45EAF251D" ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/maatregel-op-uitkering> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/> ;
     rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/datatypes/coderedenmaatregel> .
@@ -436,7 +436,7 @@
     mim:mogelijkGeenWaarde true ;
     mim:naam "Motivatie vermindering maatregel"@nl ;
     mim:type <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/datatypes/coderedenmaatregel> ;
-    dcterms:identifier "EAID_syn_b274bda31b0787abbdb9b4c3a085180e42709156" ;
+    dcterms:identifier "EAID_78D02067_FFF4_4A54_BEDA_A2A4DE82E8DA" ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/maatregel-op-uitkering> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/> ;
     rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/datatypes/coderedenmaatregel> .
@@ -455,7 +455,7 @@
     mim:mogelijkGeenWaarde true ;
     mim:naam "Percentage maatregel"@nl ;
     mim:type <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/datatypes/coderedenmaatregel> ;
-    dcterms:identifier "EAID_syn_b600b569e8e30e8dd8d799756d5a87ca9796737b" ;
+    dcterms:identifier "EAID_52F6DBB7_0B3D_464B_B274_9C4761D74A11" ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/maatregel-op-uitkering> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/> ;
     rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/datatypes/coderedenmaatregel> .
@@ -474,7 +474,7 @@
     mim:mogelijkGeenWaarde true ;
     mim:naam "Datum aanvang maatregel"@nl ;
     mim:type mim:Date ;
-    dcterms:identifier "EAID_syn_87ff8ffc876ffb8a2af1ac39f73660e35cc4ea5d" ;
+    dcterms:identifier "EAID_96D49183_DA34_4688_838A_15D502BB184E" ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/maatregel> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/> ;
     rdfs:range xsd:date .
@@ -493,7 +493,7 @@
     mim:mogelijkGeenWaarde true ;
     mim:naam "Datum einde maatregel"@nl ;
     mim:type mim:Date ;
-    dcterms:identifier "EAID_syn_7abed0b5c13ac4721536a06f0f16435d0ff70ef3" ;
+    dcterms:identifier "EAID_E481CB25_E178_422C_A01D_82873FEAE8D2" ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/maatregel> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/> ;
     rdfs:range xsd:date .
@@ -512,7 +512,7 @@
     mim:mogelijkGeenWaarde true ;
     mim:naam "Datum vaststelling maatregel"@nl ;
     mim:type mim:Date ;
-    dcterms:identifier "EAID_syn_53d7a524688c029c4cc81906654fe5e4d2ccb05e" ;
+    dcterms:identifier "EAID_D4064711_AEBB_4291_9D62_52B31A6B9B48" ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/maatregel> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/> ;
     rdfs:range xsd:date .
@@ -531,7 +531,7 @@
     mim:mogelijkGeenWaarde true ;
     mim:naam "identificatie"@nl ;
     mim:type mim:Date ;
-    dcterms:identifier "EAID_syn_2b5146fb5d62ea7b391e65a2f5f5c1b39be13db3" ;
+    dcterms:identifier "EAID_FADFC7E4_72C9_471B_B343_B60C3C21D4E6" ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/maatregel> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/> ;
     rdfs:range xsd:date .
@@ -550,7 +550,7 @@
     mim:mogelijkGeenWaarde true ;
     mim:naam "Type maatregel"@nl ;
     mim:type <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/datatypes/typemaatregel> ;
-    dcterms:identifier "EAID_syn_f536521b03ff1244a0d7977aaec9fc07ae750a24" ;
+    dcterms:identifier "EAID_52CDF0CE_9387_4BC2_A81F_2658937BF402" ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/maatregel> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/> ;
     rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/datatypes/typemaatregel> .
@@ -569,7 +569,7 @@
     mim:mogelijkGeenWaarde true ;
     mim:naam "Datum vaststelling normafwijking"@nl ;
     mim:type mim:Date ;
-    dcterms:identifier "EAID_syn_3a5e6f37cde53ebc902cb4bcf087f450c07fed8a" ;
+    dcterms:identifier "EAID_942E75A7_9A2B_4A97_8A27_DD42D99B2CED" ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/normafwijking> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/> ;
     rdfs:range xsd:date .
@@ -588,7 +588,7 @@
     mim:mogelijkGeenWaarde true ;
     mim:naam "Datum vaststelling verwijtbaarheid"@nl ;
     mim:type mim:Date ;
-    dcterms:identifier "EAID_syn_e07244fc940132427577ba4f340a53c69eb1f952" ;
+    dcterms:identifier "EAID_9E000DAE_4314_4A5A_A998_609F5E0DC00B" ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/normafwijking> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/> ;
     rdfs:range xsd:date .
@@ -607,7 +607,7 @@
     mim:mogelijkGeenWaarde true ;
     mim:naam "identificatie"@nl ;
     mim:type mim:Date ;
-    dcterms:identifier "EAID_syn_5d94b8652ba4ccc86dc4b60db78d97494b96130c" ;
+    dcterms:identifier "EAID_BA504DC3_092E_47FE_8E36_60446B80C636" ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/normafwijking> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/> ;
     rdfs:range xsd:date .
@@ -626,7 +626,7 @@
     mim:mogelijkGeenWaarde true ;
     mim:naam "Motivatie verwijtbaarheid"@nl ;
     mim:type mim:Date ;
-    dcterms:identifier "EAID_syn_529bcfa5297ff0f6f5d8c0e07be06dcd40cd2edb" ;
+    dcterms:identifier "EAID_CA5347C3_0AEF_418E_AB7A_8C8D1D050A2E" ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/normafwijking> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/> ;
     rdfs:range xsd:date .
@@ -645,7 +645,7 @@
     mim:mogelijkGeenWaarde true ;
     mim:naam "Recidive"@nl ;
     mim:type <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/datatypes/stdindjn> ;
-    dcterms:identifier "EAID_syn_59a81921801475c7a7679a491c6fba051b4424be" ;
+    dcterms:identifier "EAID_B8DAD2F6_12E0_4129_9F95_C7C3C37E6876" ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/normafwijking> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/> ;
     rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/datatypes/stdindjn> .
@@ -664,7 +664,7 @@
     mim:mogelijkGeenWaarde true ;
     mim:naam "Type normafwijking"@nl ;
     mim:type <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/datatypes/typenormafwijking> ;
-    dcterms:identifier "EAID_syn_666e160ac9e0c48d0e3f31f9e08cb0c1e575c83f" ;
+    dcterms:identifier "EAID_3E4C0D7F_05C5_434C_8C51_D6D899DF2617" ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/normafwijking> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/> ;
     rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/datatypes/typenormafwijking> .
@@ -683,7 +683,7 @@
     mim:mogelijkGeenWaarde true ;
     mim:naam "Verwijtbaarheid"@nl ;
     mim:type <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/datatypes/stdindjn> ;
-    dcterms:identifier "EAID_syn_f9c59857e525fa2a58df5e817b551023590505ca" ;
+    dcterms:identifier "EAID_051F7C3E_626E_4CF0_9F60_E7FF1CDAEB43" ;
     rdfs:domain <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/normafwijking> ;
     rdfs:isDefinedBy <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/> ;
     rdfs:range <https://lod.gemeentelijkgegevensmodel.nl/sociaal-domein/inkomen/normafwijking/datatypes/stdindjn> .
