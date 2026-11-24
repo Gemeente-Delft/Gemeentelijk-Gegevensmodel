@@ -314,7 +314,7 @@ Attributen van objecttype Doelstellingsoort
     | id | EAID\_A22B8038\_3C04\_44a7\_8E75\_90A3A5E2615B |
     | domein_iv3 |  |
     | domein_dcat |  |
-    | gemma_naam | SociaalteamDossier |
+    | gemma_naam | SociaalTeamDossier |
     | gemma_type | business-object |
     | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-276088a8-7dcf-4dd8-9450-bf677c7329ed](https://gemmaonline.nl/index.php/GEMMA/id-276088a8-7dcf-4dd8-9450-bf677c7329ed) |
     | gemma_definitie |  |

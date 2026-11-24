@@ -82,7 +82,7 @@ Het model 'Model Musea' kent de volgende objecttypen:
     | gemma_type | business-object |
     | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-b9283c74-797a-4a79-83a7-ca5619ef8b1d](https://gemmaonline.nl/index.php/GEMMA/id-b9283c74-797a-4a79-83a7-ca5619ef8b1d) |
     | gemma_definitie | Ieder menselijk handelen waarbij, of ieder menselijk nalaten waardoor een verandering of effect in de (fysieke) leefomgeving wordt of kan worden bewerkstelligd. |
-    | gemma_toelichting | Bijvoorbeeld: het lozen van afvalwater, het bouwen van hoogbouw, het exploiteren van een jachthaven. Het objecttype activiteit is een typering van alle activiteiten die bijvoorbeeld een initiatiefnemer kan uitvoeren in de leefomgeving. Er wordt geen speci |
+    | gemma_toelichting | Bijvoorbeeld: het lozen van afvalwater, het bouwen van hoogbouw, het exploiteren van een jachthaven. Het objecttype activiteit is een typering van alle activiteiten die bijvoorbeeld een initiatiefnemer kan uitvoeren in de leefomgeving. Er wordt geen specifieke activiteit bedoeld die een specifieke initiatiefnemer voornemens is om uit te voeren, maar het type activiteit waarover regels opgesteld zijn. |
     
 
 Attributen van objecttype Activiteit
@@ -191,7 +191,7 @@ Attributen van objecttype Balieverkoop
     | id | EAID\_90E24064\_EBB7\_4ffc\_9640\_F7C31678899F |
     | domein_iv3 |  |
     | domein_dcat |  |
-    | gemma_naam | BalieverkoopEntreekaart |
+    | gemma_naam | Balieverkoop Entreekaart |
     | gemma_type | business-object |
     | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-06763d17-6faa-4c48-b068-e781b72993e0](https://gemmaonline.nl/index.php/GEMMA/id-06763d17-6faa-4c48-b068-e781b72993e0) |
     | gemma_definitie | Verkoop van een entreekaart aan de balie |
@@ -535,7 +535,7 @@ Attributen van objecttype Mailing
     | gemma_naam | Museumobject |
     | gemma_type | business-object |
     | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-e963434a-50be-4619-b041-58689adc00de](https://gemmaonline.nl/index.php/GEMMA/id-e963434a-50be-4619-b041-58689adc00de) |
-    | gemma_definitie | Beschrijving van een fenomeen in de werkelijkheid met een zekere cultuurhistorische waarde die deel uitmaakt van de culthuurhistorisch object index. Een museum object kan gedifiniëerd worden als een object met betrekking tot gebouwd, archeologisch, roeren |
+    | gemma_definitie | Beschrijving van een fenomeen in de werkelijkheid met een zekere cultuurhistorische waarde die deel uitmaakt van de culthuurhistorisch object index. Een museum object kan gedifiniëerd worden als een object met betrekking tot gebouwd, archeologisch, roerend of cultuurlandschappelijk erfgoed. Denk hierbij bijvoorbeeld aan een gebouwd of archeologisch rijksmonument, een schilderij of een beschermd stads- of dorpsgezicht. |
     | gemma_toelichting |  |
     
 
@@ -799,7 +799,7 @@ Attributen van objecttype Productie-eenheid
     | gemma_naam | Programma |
     | gemma_type | business-object |
     | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-04bc18ef-7530-4fd3-82e4-2503e9229bbe](https://gemmaonline.nl/index.php/GEMMA/id-04bc18ef-7530-4fd3-82e4-2503e9229bbe) |
-    | gemma_definitie | Een tijdelijke, flexibele organisatiestructuur, die is opgezet om de implementatie van een verzameling met elkaar samenhangende projecten en activiteiten te co√∂rdineren, te sturen en te controleren teneinde te zorgen voor de realisatie van de eindresulta |
+    | gemma_definitie | Een tijdelijke, flexibele organisatiestructuur, die is opgezet om de implementatie van een verzameling met elkaar samenhangende projecten en activiteiten te co√∂rdineren, te sturen en te controleren teneinde te zorgen voor de realisatie van de eindresultaten en benefits die zijn gerelateerd aan de strategische doelstellingen van de organisatie. |
     | gemma_toelichting |  |
     
 

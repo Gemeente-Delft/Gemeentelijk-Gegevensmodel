@@ -182,7 +182,7 @@ Attributen van objecttype Archiefcategorie
     | gemma_naam | Archiefstuk |
     | gemma_type | business-object |
     | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-7b7d7585-b081-4bcc-a39e-cf6b3803799a](https://gemmaonline.nl/index.php/GEMMA/id-7b7d7585-b081-4bcc-a39e-cf6b3803799a) |
-    | gemma_definitie | Bijeengebrachte informatie, ongeacht het medium, die wordt gecreëerd, ontvangen en gearchiveerd door een bureau, een instelling, een organisatie of een individu met het oog op het nakomen van wettelijke verplichtingen of het uitvoeren van zakelijke transa |
+    | gemma_definitie | Bijeengebrachte informatie, ongeacht het medium, die wordt gecreëerd, ontvangen en gearchiveerd door een bureau, een instelling, een organisatie of een individu met het oog op het nakomen van wettelijke verplichtingen of het uitvoeren van zakelijke transacties.(AAT) |
     | gemma_toelichting |  |
     
 
@@ -480,7 +480,7 @@ Attributen van objecttype Kast
     | id | EAID\_7A080605\_07C5\_4947\_9B35\_BC6EBE2041FA |
     | domein_iv3 |  |
     | domein_dcat |  |
-    | gemma_naam | NadereToegang |
+    | gemma_naam | Nadere Toegang |
     | gemma_type | business-object |
     | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-b4652813-e293-416c-9ff0-c254fcd6fd83](https://gemmaonline.nl/index.php/GEMMA/id-b4652813-e293-416c-9ff0-c254fcd6fd83) |
     | gemma_definitie | De bevoegdheid om gegevens te raadplegen, bepaalde plaatsen te betreden of een bepaalde taak uit te oefenen. |

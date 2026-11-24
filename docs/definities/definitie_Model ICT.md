@@ -273,7 +273,7 @@ Attributen van objecttype Classificatie
     | id | EAID\_B027D022\_41D9\_4c63\_A63D\_8F5111689564 |
     | domein_iv3 |  |
     | domein_dcat |  |
-    | gemma_naam | CMDBItem |
+    | gemma_naam | CMDB-item |
     | gemma_type | business-object |
     | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-f5365fcc-279e-42e5-bde4-e7b10700a8ed](https://gemmaonline.nl/index.php/GEMMA/id-f5365fcc-279e-42e5-bde4-e7b10700a8ed) |
     | gemma_definitie | Item in een Configuratie Management DataBase |
@@ -436,7 +436,7 @@ Attributen van objecttype Dienst
     | id | EAID\_BEFEC56A\_EF6C\_49f0\_9368\_7E46F75D9562 |
     | domein_iv3 |  |
     | domein_dcat |  |
-    | gemma_naam | DomeinOfTaakveld |
+    | gemma_naam | Domein/Taakveld |
     | gemma_type | business-object |
     | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-a6ea9d59-4ac3-4aca-ba3f-1b52e741b56b](https://gemmaonline.nl/index.php/GEMMA/id-a6ea9d59-4ac3-4aca-ba3f-1b52e741b56b) |
     | gemma_definitie | Kennisgebied of activiteit gekarakteriseerd door een verzameling van concepten, begrippen en/of waarden |
@@ -471,7 +471,7 @@ Attributen van objecttype Domein/Taakveld
     | id | EAID\_144D1047\_35BB\_4926\_9472\_895D89DC2E0C |
     | domein_iv3 |  |
     | domein_dcat |  |
-    | gemma_naam | ExterneBron |
+    | gemma_naam | Externe Bron |
     | gemma_type | business-object |
     | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-c8645fb0-cd62-4940-9e68-306579d7dfd0](https://gemmaonline.nl/index.php/GEMMA/id-c8645fb0-cd62-4940-9e68-306579d7dfd0) |
     | gemma_definitie | Bron buiten de eigen organisatie |
@@ -511,7 +511,7 @@ Attributen van objecttype Externe Bron
     | gemma_naam | Gegeven |
     | gemma_type | business-object |
     | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-38d8e66f-29f5-4387-b12f-1291ee266080](https://gemmaonline.nl/index.php/GEMMA/id-38d8e66f-29f5-4387-b12f-1291ee266080) |
-    | gemma_definitie |  |
+    | gemma_definitie | bekend feit waaruit je gevolgtrekkingen kunt maken |
     | gemma_toelichting |  |
     
 
@@ -740,7 +740,7 @@ Attributen van objecttype Licentie
     | id | EAID\_C0F1A08E\_C6CD\_4524\_A2E0\_0E5CA483DCFD |
     | domein_iv3 |  |
     | domein_dcat |  |
-    | gemma_naam | LinkbaarCMDBItem |
+    | gemma_naam | Linkbaar CMDB-item |
     | gemma_type | business-object |
     | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-5003634c-22b1-4f9a-bf73-8cdb4c42a8b4](https://gemmaonline.nl/index.php/GEMMA/id-5003634c-22b1-4f9a-bf73-8cdb4c42a8b4) |
     | gemma_definitie | Niet opnemen |

@@ -253,7 +253,7 @@ Attributen van objecttype Fase/Oplevering
     | id | EAID\_05B355EF\_39EA\_4bfb\_B1F3\_AB31841C986E |
     | domein_iv3 |  |
     | domein_dcat |  |
-    | gemma_naam | GEOObject |
+    | gemma_naam | Geo-Object |
     | gemma_type | business-object |
     | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-f5de1e41-5207-4d9e-a4f8-7889b5c1e2b1](https://gemmaonline.nl/index.php/GEMMA/id-f5de1e41-5207-4d9e-a4f8-7889b5c1e2b1) |
     | gemma_definitie | Abstractie van een fenomeen in de werkelijkheid, dat direct of indirect is geassocieerd met een locatie relatief ten opzichte van de aarde. [NEN 3610:2011] |
@@ -362,7 +362,7 @@ Attributen van objecttype Inspectie
     | id | EAID\_5DC6EA71\_272C\_4392\_BA5E\_5C97DC3CA9D9 |
     | domein_iv3 |  |
     | domein_dcat |  |
-    | gemma_naam | Kadastralemutatie |
+    | gemma_naam | KadastraleMutatie |
     | gemma_type | business-object |
     | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-4c80e4c9-5e35-43d8-8438-2860c18949f0](https://gemmaonline.nl/index.php/GEMMA/id-4c80e4c9-5e35-43d8-8438-2860c18949f0) |
     | gemma_definitie | Wijziging in de kadatrale registratie |
@@ -397,7 +397,7 @@ Attributen van objecttype KadastraleMutatie
     | id | EAID\_2C6C809D\_28B0\_4037\_BBFA\_3E438A2DF81D |
     | domein_iv3 |  |
     | domein_dcat |  |
-    | gemma_naam | KwaliteitscatalogusOpenbareRuimte |
+    | gemma_naam | Kwaliteitscatalogus Openbare Ruimte |
     | gemma_type | business-object |
     | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-d9f93ca7-e915-4c2d-93b8-821e8e2bcae2](https://gemmaonline.nl/index.php/GEMMA/id-d9f93ca7-e915-4c2d-93b8-821e8e2bcae2) |
     | gemma_definitie | zie https://www.raw.nl/zoeken?tag=kwaliteitscatalogus%20openbare%20ruimte |
@@ -583,7 +583,7 @@ Attributen van objecttype MeldingOngeval
     | id | EAID\_30D5F6E6\_DE8D\_46b6\_AC8A\_6CA1391ADFF7 |
     | domein_iv3 |  |
     | domein_dcat |  |
-    | gemma_naam | MOORMelding |
+    | gemma_naam | MOOR-melding |
     | gemma_type | business-object |
     | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-4e149a77-4fcc-4f4a-ac18-b6655848b5c1](https://gemmaonline.nl/index.php/GEMMA/id-4e149a77-4fcc-4f4a-ac18-b6655848b5c1) |
     | gemma_definitie | Meldingsproces rondom werkzaamheden aan kabels en leidingen. |
@@ -733,7 +733,7 @@ Attributen van objecttype Opbreking
     | id | EAID\_2587938E\_CF7F\_499b\_BB21\_9CB8BBCC1DD2 |
     | domein_iv3 |  |
     | domein_dcat |  |
-    | gemma_naam | ProcesVerbaalMoorMelding |
+    | gemma_naam | Proces-verbaal-MOOR-melding |
     | gemma_type | business-object |
     | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-48bc7e60-2a17-4909-b475-b18938e79048](https://gemmaonline.nl/index.php/GEMMA/id-48bc7e60-2a17-4909-b475-b18938e79048) |
     | gemma_definitie | Officieel op papier gesteld verslag met betrekking tot heen MOOR-melding |
@@ -876,7 +876,7 @@ Attributen van objecttype Taak
     | id | EAID\_BBE1DC54\_1482\_4650\_BB7F\_930DDB823E09 |
     | domein_iv3 |  |
     | domein_dcat |  |
-    | gemma_naam | UitvoerderGraafwerkzaamheden |
+    | gemma_naam | Uitvoerder Graafwerkzaamheden |
     | gemma_type | business-object |
     | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-6f57464b-d011-4a75-afe8-a69b543c042b](https://gemmaonline.nl/index.php/GEMMA/id-6f57464b-d011-4a75-afe8-a69b543c042b) |
     | gemma_definitie | Degene die op de bouwlocatie van een project de leiding heeft met betrekking tot de graafwerkzaamheden |

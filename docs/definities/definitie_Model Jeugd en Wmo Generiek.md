@@ -79,7 +79,7 @@ Het model 'Model Jeugd en Wmo Generiek' kent de volgende objecttypen:
     | id | EAID\_BE7C28C6\_0922\_4c6a\_A953\_3D598D991AB5 |
     | domein_iv3 |  |
     | domein_dcat |  |
-    | gemma_naam | AOMAanvraagWMOJeugd |
+    | gemma_naam | AOM\_AanvraagWmoJeugd |
     | gemma_type | business-object |
     | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-3545eb93-e19a-4b1f-b3f2-03b79b30b200](https://gemmaonline.nl/index.php/GEMMA/id-3545eb93-e19a-4b1f-b3f2-03b79b30b200) |
     | gemma_definitie |  |
@@ -395,7 +395,7 @@ Attributen van objecttype Beschikkingsoort
     | id | EAID\_975C3DA3\_930A\_49d8\_B54F\_2A560DC2AD5A |
     | domein_iv3 |  |
     | domein_dcat |  |
-    | gemma_naam | BeschikteVoorziening |
+    | gemma_naam | Beschikte Voorziening |
     | gemma_type | business-object |
     | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-38610e76-2c3e-429a-b30b-1fd21f05c8fc](https://gemmaonline.nl/index.php/GEMMA/id-38610e76-2c3e-429a-b30b-1fd21f05c8fc) |
     | gemma_definitie | Een voorziening waarover een beschikking is gedaan. |
@@ -673,7 +673,7 @@ Attributen van objecttype Leveringsvorm
     | id | EAID\_A9D093FB\_B3D1\_46e5\_B263\_6C4D61F0C5D1 |
     | domein_iv3 |  |
     | domein_dcat |  |
-    | gemma_naam | MeldingEigenBijdrage |
+    | gemma_naam | Melding Eigen bijdrage |
     | gemma_type | business-object |
     | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-57035c38-5be2-432e-88aa-ba59029c984c](https://gemmaonline.nl/index.php/GEMMA/id-57035c38-5be2-432e-88aa-ba59029c984c) |
     | gemma_definitie | Aangifte van de evetuele eigen bijdrage |
@@ -712,7 +712,7 @@ Attributen van objecttype Melding Eigen bijdrage
     | id | EAID\_84FE9B56\_158D\_4b65\_BCC1\_5FE29D071FCC |
     | domein_iv3 |  |
     | domein_dcat |  |
-    | gemma_naam | PGBToekenning |
+    | gemma_naam | PGB-Toekenning |
     | gemma_type | business-object |
     | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-2cc8ad38-97f9-4462-83af-cb5556bffd88](https://gemmaonline.nl/index.php/GEMMA/id-2cc8ad38-97f9-4462-83af-cb5556bffd88) |
     | gemma_definitie | Betreft alleen toegekende voorzieningen met als leveringsvorm PGB<br>Opgebouwd op basis van het TKB (Toekenninsgbericht) aan het SVB, en het BAB-bericht (budgetafsluiting). zie: https://istandaarden.nl/istandaarden/ipgb |
@@ -988,7 +988,7 @@ Attributen van objecttype Verplichting Wmo Jeugd
     | id | EAID\_9F392B0B\_1654\_4b4e\_9261\_F0A90DA1F7BD |
     | domein_iv3 |  |
     | domein_dcat |  |
-    | gemma_naam | VerzoekOmToewijzing |
+    | gemma_naam | Verzoek om Toewijzing |
     | gemma_type | business-object |
     | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-e643dc04-a205-421d-ab23-c6da046b1642](https://gemmaonline.nl/index.php/GEMMA/id-e643dc04-a205-421d-ab23-c6da046b1642) |
     | gemma_definitie | Verzoek tot toewijzing dat vanuit leverancier (via H10-portal) aan de gemeente wordt gestuurd. Zie https://informatiemodel.istandaarden.nl/2019/views/view\_274300.html |
@@ -1119,7 +1119,7 @@ Attributen van objecttype Voorzieningsoort
     | id | EAID\_6C27D3D1\_FBCE\_4504\_AF1E\_48B4A4CB02EA |
     | domein_iv3 |  |
     | domein_dcat |  |
-    | gemma_naam | ZelfredzaamheidMatrix |
+    | gemma_naam | Zelfredzaamheidmatrix |
     | gemma_type | business-object |
     | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-4f3a28d3-464a-42c3-97e1-39231e5f7bf1](https://gemmaonline.nl/index.php/GEMMA/id-4f3a28d3-464a-42c3-97e1-39231e5f7bf1) |
     | gemma_definitie | Een geordend systeem waarbij aan elf domeinen van het dagelijks leven (zoals inkomen en dagbesteding; zie figuur) een waarde voor zelfredzaamheid wordt toegekend. |

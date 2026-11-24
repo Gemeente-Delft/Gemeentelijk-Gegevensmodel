@@ -52,9 +52,9 @@ Het model 'Model Jeugdbescherming' kent de volgende objecttypen:
     | id | EAID\_ACC7A392\_9A16\_42a8\_A58E\_1E8E6826B2D0 |
     | domein_iv3 |  |
     | domein_dcat |  |
-    | gemma_naam |  |
-    | gemma_type |  |
-    | gemma_url |  |
+    | gemma_naam | Informering |
+    | gemma_type | business-object |
+    | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-cd806c22-f210-4ae3-a5e4-0414880fdc6d](https://gemmaonline.nl/index.php/GEMMA/id-cd806c22-f210-4ae3-a5e4-0414880fdc6d) |
     | gemma_definitie |  |
     | gemma_toelichting |  |
     
@@ -91,10 +91,10 @@ Attributen van objecttype Informering
     | id | EAID\_B061E420\_187A\_49dd\_B8DA\_2AF3FC5D860F |
     | domein_iv3 |  |
     | domein_dcat |  |
-    | gemma_naam |  |
-    | gemma_type |  |
-    | gemma_url |  |
-    | gemma_definitie |  |
+    | gemma_naam | Leefgebied |
+    | gemma_type | business-object |
+    | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-e5637add-0642-4480-b6bb-2b0fb8889dcc](https://gemmaonline.nl/index.php/GEMMA/id-e5637add-0642-4480-b6bb-2b0fb8889dcc) |
+    | gemma_definitie | Een Leefgebied in het kader van jeugdbescherming verwijst naar een specifiek domein binnen het leven van een kind of jongere waarin factoren van invloed zijn op diens veiligheid, welzijn en ontwikkeling. Voorbeelden van leefgebieden zijn gezinssituatie, onderwijs, sociale relaties, gezondheid, vrije tijd en financiën. Bij jeugdbescherming wordt elk leefgebied onderzocht om risico’s en beschermende factoren te identificeren, zodat er een integraal plan kan worden opgesteld om de veiligheid en het welzijn van het kind of de jongere te waarborgen. Leefgebieden vormen daarmee een leidraad voor een holistische benadering in de ondersteuning en interventies. |
     | gemma_toelichting |  |
     
 
@@ -128,10 +128,10 @@ Attributen van objecttype Leefgebied
     | id | EAID\_AEF1825F\_C554\_4490\_975D\_93AEA24991A9 |
     | domein_iv3 |  |
     | domein_dcat |  |
-    | gemma_naam |  |
-    | gemma_type |  |
-    | gemma_url |  |
-    | gemma_definitie |  |
+    | gemma_naam | Zorgelijke Situatie |
+    | gemma_type | business-object |
+    | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-4c68d9ec-214b-4e9b-a467-512037e425be](https://gemmaonline.nl/index.php/GEMMA/id-4c68d9ec-214b-4e9b-a467-512037e425be) |
+    | gemma_definitie | Een zorgelijke situatie in de context van jeugdbescherming is een omstandigheid waarin de veiligheid, gezondheid, of ontwikkeling van een kind of jongere in het geding is door bijvoorbeeld verwaarlozing, mishandeling, huiselijk geweld, of andere risicofactoren. Deze situaties worden gekenmerkt door signalen van fysieke, emotionele of sociale schade of het ontbreken van een veilige en stabiele omgeving. Een zorgelijke situatie kan leiden tot interventie door jeugdbeschermingsorganisaties om de risico’s te verminderen en het kind of de jongere te beschermen en ondersteunen bij een gezonde en veilige ontwikkeling. |
     | gemma_toelichting |  |
     
 
@@ -165,10 +165,10 @@ Attributen van objecttype Zorgelijke Situatie
     | id | EAID\_B852AF03\_A5E0\_4148\_AFC1\_108509FF8BBD |
     | domein_iv3 |  |
     | domein_dcat |  |
-    | gemma_naam |  |
-    | gemma_type |  |
-    | gemma_url |  |
-    | gemma_definitie |  |
+    | gemma_naam | Zorgmelding |
+    | gemma_type | business-object |
+    | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-7c60668d-cd5a-4d46-8fa1-6c472ae013ce](https://gemmaonline.nl/index.php/GEMMA/id-7c60668d-cd5a-4d46-8fa1-6c472ae013ce) |
+    | gemma_definitie | Een Zorgmelding is een officiële melding bij een gemeente of jeugdhulporganisatie waarin zorgen worden geuit over de veiligheid, gezondheid, of ontwikkeling van een kind of jongere. Deze melding kan worden gedaan door professionals, zoals leraren, huisartsen of politie, maar ook door burgers of familieleden. Een zorgmelding bevat signalen of concrete aanwijzingen van mogelijke risico’s, zoals mishandeling, verwaarlozing, huiselijk geweld, of een onveilige thuissituatie. Het doel van een zorgmelding is om de situatie te laten beoordelen en, indien nodig, passende hulp of bescherming te organiseren om het welzijn van het kind of de jongere te waarborgen. |
     | gemma_toelichting |  |
     
 

@@ -10,3 +10,6 @@ linkchecker.log
 .cspell
 cspell.json
 .venv
+tools/.venv-gemma
+tools/.venv-crunch
+*.qea.bak

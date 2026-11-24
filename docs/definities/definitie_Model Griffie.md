@@ -61,7 +61,7 @@ Het model 'Model Griffie' kent de volgende objecttypen:
     | id | EAID\_F1E55DC7\_0F33\_40ea\_8713\_2E1AC3D7EE8D |
     | domein_iv3 |  |
     | domein_dcat |  |
-    | gemma_naam | MaatschappelijkeActiviteit |
+    | gemma_naam | Aanwezige Deelnemer |
     | gemma_type | business-object |
     | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-ccf78bc5-8d4a-440f-a642-abcf60149628](https://gemmaonline.nl/index.php/GEMMA/id-ccf78bc5-8d4a-440f-a642-abcf60149628) |
     | gemma_definitie | iemand die meedoet aan eencollege- of raadsvergadering |

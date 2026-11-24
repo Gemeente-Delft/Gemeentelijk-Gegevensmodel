@@ -542,7 +542,7 @@ Attributen van objecttype KadastraleGemeente
     | id | EAID\_A17A01A9\_2A4F\_46e8\_A55A\_2B151F8ED46E |
     | domein_iv3 |  |
     | domein_dcat |  |
-    | gemma_naam | LandOfGebied |
+    | gemma_naam | LandOfgebied |
     | gemma_type | business-object |
     | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-36cbdfbe-4b70-489c-9668-f42f9c1dbfaf](https://gemmaonline.nl/index.php/GEMMA/id-36cbdfbe-4b70-489c-9668-f42f9c1dbfaf) |
     | gemma_definitie | Een gedeelte van de wereld met een eigen bestuur, waarvan de soevereiniteit in ieder geval door Nederland is erkend. |

@@ -475,7 +475,7 @@ Attributen van objecttype KpOnstaanUit
     | id | EAID\_0B3F8A89\_F21E\_4bea\_9620\_8D6713AB632C |
     | domein_iv3 |  |
     | domein_dcat |  |
-    | gemma_naam | LocatieaanduidingWOZObject |
+    | gemma_naam | LocatieaanduidingWozObject |
     | gemma_type | business-object |
     | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-9155e64f-138f-4269-bd68-46f217cb33c3](https://gemmaonline.nl/index.php/GEMMA/id-9155e64f-138f-4269-bd68-46f217cb33c3) |
     | gemma_definitie | Nadere aanduiding van het WOZ-object |
@@ -817,10 +817,10 @@ Attributen van objecttype Prijzenboekitem
     | id | EAID\_1C84E4B6\_1BB5\_4a0d\_A945\_FFFDFDFB544B |
     | domein_iv3 |  |
     | domein_dcat |  |
-    | gemma_naam | Vastgoedcontract |
+    | gemma_naam | Vastgoed Contract |
     | gemma_type | business-object |
     | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-44e5cb64-556a-4b36-9b4e-a2c8e61345ed](https://gemmaonline.nl/index.php/GEMMA/id-44e5cb64-556a-4b36-9b4e-a2c8e61345ed) |
-    | gemma_definitie |  |
+    | gemma_definitie | Een contract is een afspraak tussen 2 of meer partijen. Sluit u een contract, dan moet u een bepaalde prestatie leveren of u heeft recht op een prestatie. Een ander woord voor een contract is een overeenkomst. Daarnaast komt de term overeenkomst van opdracht ook voor. |
     | gemma_toelichting |  |
     
 
@@ -995,7 +995,7 @@ Attributen van objecttype Vastgoedobject
     | id | EAID\_98A7AE65\_A061\_449a\_94CD\_6218069CA86A |
     | domein_iv3 |  |
     | domein_dcat |  |
-    | gemma_naam | VerhuurbaarEenheid |
+    | gemma_naam | Verhuurbaar Eenheid |
     | gemma_type | business-object |
     | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-31dcb0af-e9f1-44e1-8d5a-278f887fa9e7](https://gemmaonline.nl/index.php/GEMMA/id-31dcb0af-e9f1-44e1-8d5a-278f887fa9e7) |
     | gemma_definitie | Een Verhuurbare Eenheid (VHE) is een eenheid die individueel verhuurbaar is. Verhuurbaar komt voort uit 'exploitatie' |
@@ -1119,7 +1119,7 @@ Attributen van objecttype WOZ-Belang
     | id | EAID\_8D52E9F1\_9CC9\_42c6\_A347\_E68E29718E55 |
     | domein_iv3 |  |
     | domein_dcat |  |
-    | gemma_naam | ZakelijkRecht |
+    | gemma_naam | Zakelijk Recht |
     | gemma_type | business-object |
     | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-a6741440-a70f-4d05-b164-6a21b867b4d3](https://gemmaonline.nl/index.php/GEMMA/id-a6741440-a70f-4d05-b164-6a21b867b4d3) |
     | gemma_definitie | Geeft een recht op een goed, zoals een onroerende zaak of een roerende zaak. |
@@ -1178,7 +1178,7 @@ De enumeratie gebruiksdoel heeft de volgende kenmerken:
     | version | 1.11.0 |
     | created | 2025-03-26 11:13:38 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_42a85b4e\_0d98\_4e12\_a0ae\_6f50490c4d14 |
+    | id | EAID\_b9dd2f47\_eaf7\_41be\_94db\_8ee2ec261301 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1215,7 +1215,7 @@ De enumeratie Boolean heeft de volgende kenmerken:
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:35 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_7d1c12c0\_b305\_4377\_879a\_c49d6029c33f |
+    | id | EAID\_27ce7287\_0ad2\_476b\_9757\_b044005d9689 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1252,7 +1252,7 @@ De enumeratie Boolean heeft de volgende kenmerken:
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:35 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_3e16917f\_1334\_4d9b\_9b87\_98104d3ee09d |
+    | id | EAID\_44d7e9af\_84dc\_4745\_a799\_3e05030a690a |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1289,7 +1289,7 @@ De enumeratie Boolean heeft de volgende kenmerken:
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:35 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_e845d566\_c3f1\_4f0c\_ab9b\_9d3b5a996cda |
+    | id | EAID\_f29df122\_e2f8\_4aa8\_b8a2\_8f7d7f67df67 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1326,7 +1326,7 @@ De enumeratie Boolean heeft de volgende kenmerken:
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:35 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_07ffd297\_ea79\_467e\_8bc1\_f5e63698cf97 |
+    | id | EAID\_df258e41\_cbc7\_4966\_80ff\_26922ec5cb43 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |
@@ -1365,7 +1365,7 @@ De enumeratie aanduidingEigenaarGebruiker heeft de volgende kenmerken:
     | version | 1.10.0 |
     | created | 2025-03-26 11:13:36 |
     | modified | 2025-12-16 10:28:45 |
-    | id | EAID\_1b4ae983\_e8cb\_41b6\_8a5c\_4016eee94a47 |
+    | id | EAID\_15e677ce\_9310\_487e\_9687\_740f7cff7a61 |
     | domein_iv3 |  |
     | domein_dcat |  |
     | gemma_naam |  |

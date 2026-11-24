@@ -187,7 +187,7 @@ Attributen van objecttype Functie
     | gemma_type | business-object |
     | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-8ffff080-afa5-43cf-a1dc-1ab2052f20ac](https://gemmaonline.nl/index.php/GEMMA/id-8ffff080-afa5-43cf-a1dc-1ab2052f20ac) |
     | gemma_definitie | Functie of een Beperkingengebied, met een verwijzing naar locatie, veelal een gebied, waarbij aangegeven wordt hoe het gebied beschouwd wordt vanuit de bijbehorende regels. |
-    | gemma_toelichting | Voorbeeld: bebouwde kom. In spreektaal: dit gebied is aangewezen als bebouwde kom en dit is de functie van dit gebied. Informatiekundig: een aangewezen gebied met de naam bebouwde kom heeft een locatieaanduiding naar een locatie/gebied. Deze locatieaandui |
+    | gemma_toelichting | Voorbeeld: bebouwde kom. In spreektaal: dit gebied is aangewezen als bebouwde kom en dit is de functie van dit gebied. Informatiekundig: een aangewezen gebied met de naam bebouwde kom heeft een locatieaanduiding naar een locatie/gebied. Deze locatieaanduiding is een verwijzing, omdat dezelfde locatie ook in de context van een andere aangewezen gebied, of in de context van andere regels, aangewezen of aangeduid kan worden. |
     
 
 Attributen van objecttype Gebiedsaanwijzing
@@ -270,8 +270,8 @@ Attributen van objecttype Idealisatie
     | gemma_naam | Instructieregel |
     | gemma_type | business-object |
     | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-367532e8-1d1c-4d6b-8a88-fcae7cae2303](https://gemmaonline.nl/index.php/GEMMA/id-367532e8-1d1c-4d6b-8a88-fcae7cae2303) |
-    | gemma_definitie | Objecttype Instructieregel<br>Naam Definitie<br>Toelichting<br>Instructieregel<br>De beschrijving van een juridische regel die een instructie is voor een extern omgevingsdocument of een orgaan.<br>Het betreft hier juridische regel die instructie geeft aan andere ov |
-    | gemma_toelichting | Het betreft hier juridische regel die instructie geeft aan andere overheden, gericht op externe omgevingsdocumenten, of een taakuitoefening. Een ander omgevingsdocument is bijvoorbeeld een Omgevingsplan, Omgevingsverordening en Waterschapsverordening. Een |
+    | gemma_definitie | Objecttype Instructieregel<br>Naam Definitie<br>Toelichting<br>Instructieregel<br>De beschrijving van een juridische regel die een instructie is voor een extern omgevingsdocument of een orgaan.<br>Het betreft hier juridische regel die instructie geeft aan andere overheden, gericht op externe omgevingsdocumenten, of een taakuitoefening.<br>Een ander omgevingsdocument is bijvoorbeeld een Omgevingsplan, Omgevingsverordening en Waterschapsverordening.<br>Een taakuitoefening is voor bijvoorbeeld een gemeentebestuur of een wildbeheereenheid.<br>Een instructieregel is alleen gericht op een Omgevingsnorm of een Gebiedsaanduiding, zoals een Functie of een Beperkingengebied (en eventueel meerdere). |
+    | gemma_toelichting | Het betreft hier juridische regel die instructie geeft aan andere overheden, gericht op externe omgevingsdocumenten, of een taakuitoefening. Een ander omgevingsdocument is bijvoorbeeld een Omgevingsplan, Omgevingsverordening en Waterschapsverordening. Een taakuitoefening is voor bijvoorbeeld een gemeentebestuur of een wildbeheereenheid. Een instructieregel is alleen gericht op een Omgevingsnorm of een Gebiedsaanduiding, zoals een Functie of een Beperkingengebied (en eventueel meerdere). |
     
 
 Attributen van objecttype Instructieregel
@@ -304,7 +304,7 @@ Attributen van objecttype Instructieregel
     | id | EAID\_DDFF98D8\_99FF\_47b5\_82D1\_7FF2376750D6 |
     | domein_iv3 |  |
     | domein_dcat |  |
-    | gemma_naam | JuridischeRegel |
+    | gemma_naam | Juridische Regel |
     | gemma_type | business-object |
     | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-6f20ada6-28e9-4358-9b66-1575021ee431](https://gemmaonline.nl/index.php/GEMMA/id-6f20ada6-28e9-4358-9b66-1575021ee431) |
     | gemma_definitie | De beschrijving van een regel met juridische werkingskracht. Een regel betreft binnen de Omgevingswet veelal activiteiten, en/of normen en/of functies en/of beperkingengebieden. |
@@ -350,7 +350,7 @@ Attributen van objecttype Juridische Regel
     | gemma_type | business-object |
     | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-71c5f929-bbab-484f-96c0-cc7a57c9dcf1](https://gemmaonline.nl/index.php/GEMMA/id-71c5f929-bbab-484f-96c0-cc7a57c9dcf1) |
     | gemma_definitie | Omgevingswaarde of een omgevingsnorm, met een normatief karakter, die beschreven worden middels normwaarden. Een normwaarde kan kwalitatief of kwantitatief zijn. |
-    | gemma_toelichting | Een norm kan bestaan uit meerdere normwaarden, die dan veelal afzonderlijk gelden voor aparte gebieden. Bijvoorbeeld: de norm maximum bouwhoogte bestaat uit twee normwaarden: # maximum bouwhoogte 10 meter geldt voor een aantal locaties; # maximum bouwhoog |
+    | gemma_toelichting | Een norm kan bestaan uit meerdere normwaarden, die dan veelal afzonderlijk gelden voor aparte gebieden. Bijvoorbeeld: de norm maximum bouwhoogte bestaat uit twee normwaarden: # maximum bouwhoogte 10 meter geldt voor een aantal locaties; # maximum bouwhoogte 12 meter geldt voor een aantal andere locaties. Een juridische regel geeft de norm als geheel werkingskracht (niet de individuele normwaarden). |
     
 
 Attributen van objecttype Norm
@@ -424,7 +424,7 @@ Attributen van objecttype Normwaarde
     | gemma_type | business-object |
     | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-bbf6bcce-f2dc-4b8d-95a8-561abd7c1d76](https://gemmaonline.nl/index.php/GEMMA/id-bbf6bcce-f2dc-4b8d-95a8-561abd7c1d76) |
     | gemma_definitie | Een norm over de fysieke leefomgeving die in een kwantitatieve of kwalitatieve waarde wordt uitgedrukt en geen omgevingswaarde is. |
-    | gemma_toelichting | Bijvoorbeeld: maximum bouwhoogte, maximum aantal parkeerplaatsen, maximum geluidbelasting, maximum aantal bezoekers Alle omgevingsnormen hebben als herkomst omgevingsdocumenten. De Omgevingsnorm is niet de regel zelf. De regel beschrijft wat er juridisch |
+    | gemma_toelichting | Bijvoorbeeld: maximum bouwhoogte, maximum aantal parkeerplaatsen, maximum geluidbelasting, maximum aantal bezoekers Alle omgevingsnormen hebben als herkomst omgevingsdocumenten. De Omgevingsnorm is niet de regel zelf. De regel beschrijft wat er juridisch geldt voor dit object. De juridische tekst waarin dit object genoemd is, is te vinden in de juridische regel, en niet in dit object. |
     
 
 Attributen van objecttype Omgevingsnorm
@@ -461,7 +461,7 @@ Attributen van objecttype Omgevingsnorm
     | gemma_type | business-object |
     | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-7685ae20-7bed-4f7e-95fd-3499b35a6ef9](https://gemmaonline.nl/index.php/GEMMA/id-7685ae20-7bed-4f7e-95fd-3499b35a6ef9) |
     | gemma_definitie | Een norm die voor (een onderdeel van) de fysieke leefomgeving de gewenste staat of kwaliteit, de toelaatbare belasting door activiteiten en/of de toelaatbare concentratie of depositie van stoffen als beleidsdoel vastlegt. |
-    | gemma_toelichting | Bijvoorbeeld: streefwaarden of maximaal toelaatbare waarden voor luchtkwaliteit, kwaliteit van oppervlaktewater, grondwater of zwemwater. Alle omgevingswaarden hebben als herkomst omgevingsdocumenten. Omgevingswaarden worden uitgedrukt in meetbare of bere |
+    | gemma_toelichting | Bijvoorbeeld: streefwaarden of maximaal toelaatbare waarden voor luchtkwaliteit, kwaliteit van oppervlaktewater, grondwater of zwemwater. Alle omgevingswaarden hebben als herkomst omgevingsdocumenten. Omgevingswaarden worden uitgedrukt in meetbare of berekenbare eenheden of anderszins in objectieve termen. Een omgevingswaarde is bindend voor de overheid die de omgevingswaarde heeft vastgesteld en heeft geen rechtstreekse werking voor anderen. Omgevingswaarden zijn een concretisering van de maatschappelijke doelen die met de Omgevingswet worden nagestreefd. Zij hebben betrekking op de hoedanigheid en eigenschappen van de fysieke leefomgeving (de staat, kwaliteit of inrichting van de omgeving). Omgevingswaarden dienen als referentiekader bij de inzet van instrumenten en bevoegdheden van de overheid. De Omgevingswaarde is niet de regel zelf. De regel beschrijft wat er juridisch geldt voor dit object. De juridische tekst waarin dit object genoemd is, is te vinden in de juridische regel, en niet in dit object. |
     
 
 Attributen van objecttype Omgevingswaarde
@@ -497,7 +497,7 @@ Attributen van objecttype Omgevingswaarde
     | gemma_naam | Omgevingswaarderegel |
     | gemma_type | business-object |
     | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-6ab6802e-9485-43d1-be15-46db4b9c8a0d](https://gemmaonline.nl/index.php/GEMMA/id-6ab6802e-9485-43d1-be15-46db4b9c8a0d) |
-    | gemma_definitie | De beschrijving van een juridische regel gericht op een gestelde omgevingswaarde. Het betreft hier een juridische regel die verplichtingen oplegt aan het bevoegd gezag dat deze regel opstelt. Een omgevingswaarderegel is alleen gericht op een Omgevingswaar |
+    | gemma_definitie | De beschrijving van een juridische regel gericht op een gestelde omgevingswaarde. Het betreft hier een juridische regel die verplichtingen oplegt aan het bevoegd gezag dat deze regel opstelt. Een omgevingswaarderegel is alleen gericht op een Omgevingswaarde (eventueel meerdere). |
     | gemma_toelichting | Het betreft hier een algemeen geldende regel met directe werking voor eenieder. Anders gezegd, deze regels gelden voor eenieder in Nederland, inclusief voor de bevoegde gezagen zelf. |
     
 
@@ -531,7 +531,7 @@ Attributen van objecttype Omgevingswaarderegel
     | id | EAID\_3D9D2E7B\_525E\_43d9\_B08F\_EDE47F8A0C94 |
     | domein_iv3 |  |
     | domein_dcat |  |
-    | gemma_naam | Regel voor Iedereen |
+    | gemma_naam | RegelVoorIedereen |
     | gemma_type | business-object |
     | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-1c3ee208-9d74-45ba-9836-3f3ea165cd74](https://gemmaonline.nl/index.php/GEMMA/id-1c3ee208-9d74-45ba-9836-3f3ea165cd74) |
     | gemma_definitie | Een Juridische regel die voor eenieder werking heeft |

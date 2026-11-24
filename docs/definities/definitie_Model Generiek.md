@@ -350,7 +350,7 @@ Attributen van objecttype Puntengroep
     | id | EAID\_435883D2\_C399\_4590\_B4F5\_B07111103484 |
     | domein_iv3 |  |
     | domein_dcat |  |
-    | gemma_naam | VideoOpname |
+    | gemma_naam | Video-opname |
     | gemma_type | business-object |
     | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-1d49cf98-d059-42da-bdd4-d076f8ace453](https://gemmaonline.nl/index.php/GEMMA/id-1d49cf98-d059-42da-bdd4-d076f8ace453) |
     | gemma_definitie | Opnametechniek om bewegende beelden als een elektronisch signaal te registreren en weer te geven. |

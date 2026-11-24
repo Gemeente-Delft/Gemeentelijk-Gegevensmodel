@@ -8,7 +8,7 @@ The *Employment* sub-domain is relevant to municipalities under the Participatio
 
 <em>Diagram (in Dutch): data model for Employment, centred on Arbeidssituatie (Employment Situation).</em>
 
-[werk]: image/EAID_96927C60_9F7B_4e67_806A_02EE0191983D.jpg "Employment data model"
+[werk]: image/EAID_F93A23D7_BF68_46e0_A6D4_96508ACED81E.jpg "Employment data model"
 
 ## About the diagram
 

@@ -95,7 +95,7 @@ Attributen van objecttype Conclusie
     | gemma_naam | Indieningsvereisten |
     | gemma_type | business-object |
     | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-c92e9c16-1ec3-46f8-b209-b15a226e9477](https://gemmaonline.nl/index.php/GEMMA/id-c92e9c16-1ec3-46f8-b209-b15a226e9477) |
-    | gemma_definitie | Dat wat de initiatiefnemer moet aanleveren om het bevoegd gezag een aanvraag te kunnen laten beoordelen. De indieningsvereisten is de set aan informatie (gegevens en / of bijlagen) die aan een aanvraag moet worden toegevoegd voor een bepaalde vergunning o |
+    | gemma_definitie | Dat wat de initiatiefnemer moet aanleveren om het bevoegd gezag een aanvraag te kunnen laten beoordelen. De indieningsvereisten is de set aan informatie (gegevens en / of bijlagen) die aan een aanvraag moet worden toegevoegd voor een bepaalde vergunning of melding. |
     | gemma_toelichting |  |
     
 
@@ -165,10 +165,10 @@ Attributen van objecttype Maatregelen
     | id | EAID\_10C06EB3\_F94A\_4005\_9C66\_0DAE61B96192 |
     | domein_iv3 |  |
     | domein_dcat |  |
-    | gemma_naam | ToepasbareRegel |
+    | gemma_naam | Toepasbare Regel |
     | gemma_type | business-object |
     | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-b2498fa2-f9ff-48dd-946d-8b8ed395da81](https://gemmaonline.nl/index.php/GEMMA/id-b2498fa2-f9ff-48dd-946d-8b8ed395da81) |
-    | gemma_definitie | Vanwege de leesbaarheid wordt gewerkt met de term Toepasbare regel ipv regelbeheersobject<br>Een regelbeheerobject heeft een koppeling met een samenhangende set met regels om een afleiding te kunnen doen. Het regelbeheerobject ‘conclusie gevelaanpassing’ |
+    | gemma_definitie | Vanwege de leesbaarheid wordt gewerkt met de term Toepasbare regel ipv regelbeheersobject<br>Een regelbeheerobject heeft een koppeling met een samenhangende set met regels om een afleiding te kunnen doen. Het regelbeheerobject ‘conclusie gevelaanpassing’ kan een vraag beantwoorden zoals: “Heb ik een vergunning nodig voor het veranderen van een kozijn, kozijninvulling of gevelpaneel”. Het regelbeheerobject ‘melding lozing’ beantwoordt de vraag “Wat moet ik aan informatie (gegevens en documenten) aanleveren als ik ga lozen vanuit particuliere huishoudens”. Het regelbeheerobject “Opslaan van gasolie smeerolie of afgewerkte olie in een bovengrondse opslagtank” geeft aan welke maatregelen genomen dienen te worden.<br>Het regelbeheerobject is onderdeel van de functionele structuur. De set met regels is gedefinieerd in het Toepasbare regelbestand2. |
     | gemma_toelichting |  |
     
 

@@ -57,7 +57,7 @@ Het model 'Model Aanvragen en Meldingen' kent de volgende objecttypen:
     | id | EAID\_FB771E02\_8FE3\_496b\_B99B\_CF4A496A7B80 |
     | domein_iv3 |  |
     | domein_dcat |  |
-    | gemma_naam | BevoegdGezag |
+    | gemma_naam | Bevoegd Gezag |
     | gemma_type | business-object |
     | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-20697824-84fa-412e-8ea6-aa68a474c016](https://gemmaonline.nl/index.php/GEMMA/id-20697824-84fa-412e-8ea6-aa68a474c016) |
     | gemma_definitie | Bestuursorgaan dat bevoegd is tot het geven van een beschikking of het nemen van een ander besluit. |
@@ -315,7 +315,7 @@ Attributen van objecttype Specificatie
     | id | EAID\_1B3A22D3\_E2BA\_440a\_A2FD\_B3D322FB1171 |
     | domein_iv3 |  |
     | domein_dcat |  |
-    | gemma_naam | UitvoerendeInstantie |
+    | gemma_naam | Uitvoerende instantie |
     | gemma_type | business-object |
     | gemma_url | [https://gemmaonline.nl/index.php/GEMMA/id-b102f55a-581c-40da-836c-9ce8bdaba245](https://gemmaonline.nl/index.php/GEMMA/id-b102f55a-581c-40da-836c-9ce8bdaba245) |
     | gemma_definitie | Onderdeel van het bevoegd gezag dat uitvoering geeft aan wetten en besluiten |
